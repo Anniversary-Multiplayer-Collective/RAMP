@@ -1,0 +1,58 @@
+## Map File List
+
+## Multiplayer
+
+| .map FileName           | Corresponding Map    | Scenario Tag                                         
+|-------------------------|----------------------|-----------------------------------------------------
+| 20_sword_slayer.map     | Sword Base           | levels\multi\20_sword_slayer\20_sword_slayer.scenario
+| 30_settlement.map       | Power House          | levels\multi\30_settlement\30_settlement.scenario
+| 35_island.map           | Spire                | levels\multi\35_island\35_island.scenario
+| 45_aftship.map          | Zealot               | levels\multi\45_aftship\45_aftship.scenario
+| 45_launch_station.map   | Countdown            | levels\multi\45_launch_station\45_launch_station.scenario
+| 50_panopticon.map       | Boardwalk            | levels\multi\50_panopticon\50_panopticon.scenario
+| 52_ivory_tower.map      | Reflection           | levels\multi\52_ivory_tower\52_ivory_tower.scenario
+| 70_boneyard.map         | Boneyard             | levels\multi\70_boneyard\70_boneyard.scenario
+| forge_halo.map          | Forge World          | levels\multi\forge_halo\forge_halo.scenario
+| cex_beaver_creek.map    | Battle Canyon        | levels\dlc\cex_beaver_creek\cex_beaver_creek.scenario
+| cex_damnation.map       | Penance              | levels\dlc\cex_damnation\cex_damnation.scenario
+| cex_hangemhigh.map      | High Noon            | levels\dlc\cex_hangemhigh\cex_hangemhigh.scenario
+| cex_headlong.map        | Breakneck            | levels\dlc\cex_headlong\cex_headlong.scenario
+| cex_prisoner.map        | Solitary             | levels\dlc\cex_prisoner\cex_prisoner.scenario
+| cex_timberland.map      | Ridgeline            | levels\dlc\cex_timberland\cex_timberland.scenario
+| condemned.map           | Condemned            | levels\dlc\condemned\condemned.scenario
+| dlc_invasion.map        | Breakpoint           | levels\multi\dlc\dlc_invasion\dlc_invasion.scenario
+| dlc_medium.map          | Tempest              | levels\multi\dlc\dlc_medium\dlc_medium.scenario
+| dlc_slayer.map          | Anchor 9             | levels\multi\dlc\dlc_slayer\dlc_slayer.scenario
+| trainingpreserve.map    | Highlands            | levels\dlc\trainingpreserve\trainingpreserve.scenario
+
+## Firefight
+
+| .map FileName           | Corresponding Map    | Scenario Tag                                         
+|-------------------------|----------------------|-----------------------------------------------------
+| ff10_prototype.map      | Overlook             | levels\firefight\ff10_prototype\ff10_prototype.scenario
+| ff20_courtyard.map      | Courtyard            | levels\firefight\ff20_courtyard\ff20_courtyard.scenario
+| ff30_waterfront.map     | Waterfront           | levels\firefight\ff30_waterfront\ff30_waterfront.scenario
+| ff45_corvette.map       | Corvette             | levels\firefight\ff45_corvette\ff45_corvette.scenario
+| ff50_park.map           | Beachhead            | levels\firefight\ff50_park\ff50_park.scenario
+| ff60_airview.map        | Outpost              | levels\firefight\ff60_airview\ff60_airview.scenario
+| ff60_icecave.map        | Glacier              | levels\firefight\ff60_icecave\ff60_icecave.scenario
+| ff70_holdout.map        | Holdout              | levels\firefight\ff70_holdout\ff70_holdout.scenario
+| ff_unearthed.map        | Unearthed            | levels\dlc\ff_unearthed\ff_unearthed.scenario
+| cex_ff_halo.map         | Installation 04      | levels\dlc\cex_ff_halo\cex_ff_halo.scenario
+
+## Campaign
+
+| .map FileName           | Corresponding Map    | Scenario Tag                                         
+|-------------------------|----------------------|-----------------------------------------------------
+| m05.map                 | NOBLE Actual         | levels\solo\m05\m05.scenario
+| m10.map                 | Winter Contingency   | levels\solo\m10\m10.scenario
+| m20.map                 | ONI Sword Base       | levels\solo\m20\m20.scenario
+| m45.map                 | Long Night of Solace | levels\solo\m45\m45.scenario
+| m35.map                 | Tip of the Spear     | levels\solo\m35\m35.scenario
+| m30.map                 | Nightfall            | levels\solo\m30\m30.scenario
+| m50.map                 | Exodus               | levels\solo\m50\m50.scenario
+| m52.map                 | New Alexandria       | levels\solo\m52\m52.scenario
+| m60.map                 | The Package          | levels\solo\m60\m60.scenario
+| m70.map                 | The Pillar of Autumn | levels\solo\m70\m70.scenario
+| m70_a.map               | Credits              | levels\solo\m70_a\m70_a.scenario
+| m70_bonus.map           | Lone Wolf            | levels\solo\m70_bonus\m70_bonus.scenario
