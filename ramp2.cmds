@@ -298,6 +298,39 @@ setfield HudInterface ui\chud\sword.chud_definition
 SaveTagChanges
 Exit
 
+echo ==Fix Lobby Title Placements==
+edittag ui\halox\pregame_lobby\pregame_lobby_template_mapeditor.gui_group_widget_definition
+setfield TextWidgets[0].Definition.GuiRenderBlock.Bounds720p 265 115 357 714
+savetagchanges
+exit
+
+duplicatetag ui\halox\pregame_lobby\pregame_lobby_template_campaign.gui_group_widget_definition ui\halox\pregame_lobby\pregame_lobby_template_survival
+edittag ui\halox\pregame_lobby\pregame_lobby_template_survival.gui_group_widget_definition
+setfield TextWidgets[0].Definition.GuiRenderBlock.Bounds720p 265 115 357 714
+savetagchanges
+exit
+
+edittag ui\halox\pregame_lobby\pregame_lobby_survival.gui_screen_widget_definition
+setfield GroupWidgets[0].TemplateReference ui\halox\pregame_lobby\pregame_lobby_template_survival.gui_group_widget_definition
+savetagchanges
+exit
+
+echo ==Fix Lobby Leader Text Placements==
+edittag ui\halox\pregame_lobby\pregame_lobby_template_multiplayer.gui_group_widget_definition
+setfield TextWidgets[2].Definition.GuiRenderBlock.Bounds720p 20 115 350 704
+savetagchanges
+exit
+
+edittag ui\halox\pregame_lobby\pregame_lobby_template_survival.gui_group_widget_definition
+setfield TextWidgets[2].Definition.GuiRenderBlock.Bounds720p 20 115 350 704
+savetagchanges
+exit
+
+edittag ui\halox\pregame_lobby\pregame_lobby_template_mapeditor.gui_group_widget_definition
+setfield TextWidgets[5].Definition.GuiRenderBlock.Bounds720p 20 115 350 704
+savetagchanges
+exit
+
 importfonts workingdir\fonts_new.bin
 
 UpdateMapFiles "workingdir\info"
