@@ -7,7 +7,7 @@ AddForgeCategory "BUILDINGS" 83
 AddForgeCategory "NAUTRE" 83
 AddForgeCategory "MISC" 83
 
-Porttag objects\levels\forge\ff_plat_1x1_flat\ff_plat_1x1_flat.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_1x1_flat\ff_plat_1x1_flat.bloc
 AddForgeItem "FF_PLAT_1X1_FLAT" 84 objects\levels\forge\ff_plat_1x1_flat\ff_plat_1x1_flat.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[498].Type Structure
@@ -19,7 +19,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_1x1_short\ff_plat_1x1_short.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_1x1_short\ff_plat_1x1_short.bloc
 AddForgeItem "FF_PLAT_1X1_SHORT" 84 objects\levels\forge\ff_plat_1x1_short\ff_plat_1x1_short.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[499].Type Structure
@@ -31,7 +31,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_1x1_tall_thin\ff_plat_1x1_tall_thin.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_1x1_tall_thin\ff_plat_1x1_tall_thin.bloc
 AddForgeItem "FF_PLAT_1X1_TALL_THIN" 84 objects\levels\forge\ff_plat_1x1_tall_thin\ff_plat_1x1_tall_thin.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[500].Type Structure
@@ -43,7 +43,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_1x1_tall\ff_plat_1x1_tall.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_1x1_tall\ff_plat_1x1_tall.bloc
 AddForgeItem "FF_PLAT_1X1_TALL" 84 objects\levels\forge\ff_plat_1x1_tall\ff_plat_1x1_tall.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[501].Type Structure
@@ -55,7 +55,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_1x1\ff_plat_1x1.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_1x1\ff_plat_1x1.bloc
 AddForgeItem "FF_PLAT_1X1" 84 objects\levels\forge\ff_plat_1x1\ff_plat_1x1.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[502].Type Structure
@@ -67,7 +67,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_1x2\ff_plat_1x2.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_1x2\ff_plat_1x2.bloc
 AddForgeItem "FF_PLAT_1X2" 84 objects\levels\forge\ff_plat_1x2\ff_plat_1x2.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[503].Type Structure
@@ -79,7 +79,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_1x4\ff_plat_1x4.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_1x4\ff_plat_1x4.bloc
 AddForgeItem "FF_PLAT_1X4" 84 objects\levels\forge\ff_plat_1x4\ff_plat_1x4.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[504].Type Structure
@@ -91,7 +91,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_2x1_flat\ff_plat_2x1_flat.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_2x1_flat\ff_plat_2x1_flat.bloc
 AddForgeItem "FF_PLAT_2X1_FLAT" 84 objects\levels\forge\ff_plat_2x1_flat\ff_plat_2x1_flat.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[505].Type Structure
@@ -103,7 +103,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_2x2_45\ff_plat_2x2_45.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_2x2_45\ff_plat_2x2_45.bloc
 AddForgeItem "FF_PLAT_2X2_45" 84 objects\levels\forge\ff_plat_2x2_45\ff_plat_2x2_45.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[506].Type Structure
@@ -115,7 +115,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_2x2_corner\ff_plat_2x2_corner.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_2x2_corner\ff_plat_2x2_corner.bloc
 AddForgeItem "FF_PLAT_2X2_CORNER" 84 objects\levels\forge\ff_plat_2x2_corner\ff_plat_2x2_corner.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[507].Type Structure
@@ -127,7 +127,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_2x2_flat\ff_plat_2x2_flat.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_2x2_flat\ff_plat_2x2_flat.bloc
 AddForgeItem "FF_PLAT_2X2_FLAT" 84 objects\levels\forge\ff_plat_2x2_flat\ff_plat_2x2_flat.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[508].Type Structure
@@ -139,7 +139,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_2x2_short\ff_plat_2x2_short.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_2x2_short\ff_plat_2x2_short.bloc
 AddForgeItem "FF_PLAT_2X2_SHORT" 84 objects\levels\forge\ff_plat_2x2_short\ff_plat_2x2_short.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[509].Type Structure
@@ -151,7 +151,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_2x2_tall\ff_plat_2x2_tall.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_2x2_tall\ff_plat_2x2_tall.bloc
 AddForgeItem "FF_PLAT_2X2_TALL" 84 objects\levels\forge\ff_plat_2x2_tall\ff_plat_2x2_tall.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[510].Type Structure
@@ -163,7 +163,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_2x2\ff_plat_2x2.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_2x2\ff_plat_2x2.bloc
 AddForgeItem "FF_PLAT_2X2" 84 objects\levels\forge\ff_plat_2x2\ff_plat_2x2.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[511].Type Structure
@@ -175,7 +175,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_2x3\ff_plat_2x3.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_2x3\ff_plat_2x3.bloc
 AddForgeItem "FF_PLAT_2X3" 84 objects\levels\forge\ff_plat_2x3\ff_plat_2x3.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[512].Type Structure
@@ -187,7 +187,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_2x4\ff_plat_2x4.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_2x4\ff_plat_2x4.bloc
 AddForgeItem "FF_PLAT_2X4" 84 objects\levels\forge\ff_plat_2x4\ff_plat_2x4.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[513].Type Structure
@@ -199,7 +199,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_3x1_flat\ff_plat_3x1_flat.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_3x1_flat\ff_plat_3x1_flat.bloc
 AddForgeItem "FF_PLAT_3X1_FLAT" 84 objects\levels\forge\ff_plat_3x1_flat\ff_plat_3x1_flat.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[514].Type Structure
@@ -211,7 +211,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_3x3_flat\ff_plat_3x3_flat.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_3x3_flat\ff_plat_3x3_flat.bloc
 AddForgeItem "FF_PLAT_3X3_FLAT" 84 objects\levels\forge\ff_plat_3x3_flat\ff_plat_3x3_flat.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[515].Type Structure
@@ -223,7 +223,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_3x3_short\ff_plat_3x3_short.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_3x3_short\ff_plat_3x3_short.bloc
 AddForgeItem "FF_PLAT_3X3_SHORT" 84 objects\levels\forge\ff_plat_3x3_short\ff_plat_3x3_short.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[516].Type Structure
@@ -235,7 +235,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_3x3_tall\ff_plat_3x3_tall.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_3x3_tall\ff_plat_3x3_tall.bloc
 AddForgeItem "FF_PLAT_3X3_TALL" 84 objects\levels\forge\ff_plat_3x3_tall\ff_plat_3x3_tall.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[517].Type Structure
@@ -247,7 +247,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_3x3\ff_plat_3x3.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_3x3\ff_plat_3x3.bloc
 AddForgeItem "FF_PLAT_3X3" 84 objects\levels\forge\ff_plat_3x3\ff_plat_3x3.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[518].Type Structure
@@ -259,7 +259,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_3x4\ff_plat_3x4.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_3x4\ff_plat_3x4.bloc
 AddForgeItem "FF_PLAT_3X4" 84 objects\levels\forge\ff_plat_3x4\ff_plat_3x4.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[519].Type Structure
@@ -271,7 +271,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_4x4_corner\ff_plat_4x4_corner.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_4x4_corner\ff_plat_4x4_corner.bloc
 AddForgeItem "FF_PLAT_4X4_CORNER" 84 objects\levels\forge\ff_plat_4x4_corner\ff_plat_4x4_corner.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[520].Type Structure
@@ -283,7 +283,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_4x4_flat\ff_plat_4x4_flat.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_4x4_flat\ff_plat_4x4_flat.bloc
 AddForgeItem "FF_PLAT_4X4_FLAT" 84 objects\levels\forge\ff_plat_4x4_flat\ff_plat_4x4_flat.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[521].Type Structure
@@ -295,7 +295,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_4x4_short\ff_plat_4x4_short.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_4x4_short\ff_plat_4x4_short.bloc
 AddForgeItem "FF_PLAT_4X4_SHORT" 84 objects\levels\forge\ff_plat_4x4_short\ff_plat_4x4_short.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[522].Type Structure
@@ -307,7 +307,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_4x4_tall\ff_plat_4x4_tall.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_4x4_tall\ff_plat_4x4_tall.bloc
 AddForgeItem "FF_PLAT_4X4_TALL" 84 objects\levels\forge\ff_plat_4x4_tall\ff_plat_4x4_tall.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[523].Type Structure
@@ -319,7 +319,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_4x4\ff_plat_4x4.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_4x4\ff_plat_4x4.bloc
 AddForgeItem "FF_PLAT_4X4" 84 objects\levels\forge\ff_plat_4x4\ff_plat_4x4.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[524].Type Structure
@@ -331,7 +331,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_4x6\ff_plat_4x6.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_4x6\ff_plat_4x6.bloc
 AddForgeItem "FF_PLAT_4X6" 84 objects\levels\forge\ff_plat_4x6\ff_plat_4x6.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[525].Type Structure
@@ -343,7 +343,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_5x1_flat\ff_plat_5x1_flat.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_5x1_flat\ff_plat_5x1_flat.bloc
 AddForgeItem "FF_PLAT_5X1_FLAT" 84 objects\levels\forge\ff_plat_5x1_flat\ff_plat_5x1_flat.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[526].Type Structure
@@ -355,7 +355,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_5x5_flat\ff_plat_5x5_flat.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_5x5_flat\ff_plat_5x5_flat.bloc
 AddForgeItem "FF_PLAT_5X5_FLAT" 84 objects\levels\forge\ff_plat_5x5_flat\ff_plat_5x5_flat.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[527].Type Structure
@@ -367,7 +367,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_tower_4x4\ff_plat_tower_4x4.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_tower_4x4\ff_plat_tower_4x4.bloc
 AddForgeItem "FF_PLAT_TOWER_4X4" 84 objects\levels\forge\ff_plat_tower_4x4\ff_plat_tower_4x4.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[528].Type Structure
@@ -379,7 +379,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_y_cross_large\ff_plat_y_cross_large.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_y_cross_large\ff_plat_y_cross_large.bloc
 AddForgeItem "FF_PLAT_Y_CROSS_LARGE" 84 objects\levels\forge\ff_plat_y_cross_large\ff_plat_y_cross_large.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[529].Type Structure
@@ -391,7 +391,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_plat_y_cross\ff_plat_y_cross.bloc
+Porttag ReachMisc objects\levels\forge\ff_plat_y_cross\ff_plat_y_cross.bloc
 AddForgeItem "FF_PLAT_Y_CROSS" 84 objects\levels\forge\ff_plat_y_cross\ff_plat_y_cross.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[530].Type Structure
@@ -403,7 +403,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_antenna\ff_antenna.bloc
+Porttag ReachMisc objects\levels\forge\ff_antenna\ff_antenna.bloc
 AddForgeItem "FF_ANTENNA" 85 objects\levels\forge\ff_antenna\ff_antenna.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[531].Type Structure
@@ -415,7 +415,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_arch_brace\ff_arch_brace.bloc
+Porttag ReachMisc objects\levels\forge\ff_arch_brace\ff_arch_brace.bloc
 AddForgeItem "FF_ARCH_BRACE" 85 objects\levels\forge\ff_arch_brace\ff_arch_brace.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[532].Type Structure
@@ -427,7 +427,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_arena_wall\ff_arena_wall.bloc
+Porttag ReachMisc objects\levels\forge\ff_arena_wall\ff_arena_wall.bloc
 AddForgeItem "FF_ARENA_WALL" 85 objects\levels\forge\ff_arena_wall\ff_arena_wall.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[533].Type Structure
@@ -439,7 +439,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_arena_window\ff_arena_window.bloc
+Porttag ReachMisc objects\levels\forge\ff_arena_window\ff_arena_window.bloc
 AddForgeItem "FF_ARENA_WINDOW" 85 objects\levels\forge\ff_arena_window\ff_arena_window.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[534].Type Structure
@@ -451,7 +451,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_bank_1x1\ff_bank_1x1.bloc
+Porttag ReachMisc objects\levels\forge\ff_bank_1x1\ff_bank_1x1.bloc
 AddForgeItem "FF_BANK_1X1" 85 objects\levels\forge\ff_bank_1x1\ff_bank_1x1.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[535].Type Structure
@@ -463,7 +463,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_bank_1x2\ff_bank_1x2.bloc
+Porttag ReachMisc objects\levels\forge\ff_bank_1x2\ff_bank_1x2.bloc
 AddForgeItem "FF_BANK_1X2" 85 objects\levels\forge\ff_bank_1x2\ff_bank_1x2.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[536].Type Structure
@@ -475,7 +475,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_bank_2x1\ff_bank_2x1.bloc
+Porttag ReachMisc objects\levels\forge\ff_bank_2x1\ff_bank_2x1.bloc
 AddForgeItem "FF_BANK_2X1" 85 objects\levels\forge\ff_bank_2x1\ff_bank_2x1.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[537].Type Structure
@@ -487,7 +487,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_bank_2x2\ff_bank_2x2.bloc
+Porttag ReachMisc objects\levels\forge\ff_bank_2x2\ff_bank_2x2.bloc
 AddForgeItem "FF_BANK_2X2" 85 objects\levels\forge\ff_bank_2x2\ff_bank_2x2.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[538].Type Structure
@@ -499,7 +499,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_base_round\ff_base_round.bloc
+Porttag ReachMisc objects\levels\forge\ff_base_round\ff_base_round.bloc
 AddForgeItem "FF_BASE_ROUND" 85 objects\levels\forge\ff_base_round\ff_base_round.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[539].Type Structure
@@ -511,7 +511,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_base_strut\ff_base_strut.bloc
+Porttag ReachMisc objects\levels\forge\ff_base_strut\ff_base_strut.bloc
 AddForgeItem "FF_BASE_STRUT" 85 objects\levels\forge\ff_base_strut\ff_base_strut.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[540].Type Structure
@@ -523,7 +523,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_brace\ff_brace.bloc
+Porttag ReachMisc objects\levels\forge\ff_brace\ff_brace.bloc
 AddForgeItem "FF_BRACE" 85 objects\levels\forge\ff_brace\ff_brace.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[541].Type Structure
@@ -535,7 +535,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_bridge_2x1\ff_bridge_2x1.bloc
+Porttag ReachMisc objects\levels\forge\ff_bridge_2x1\ff_bridge_2x1.bloc
 AddForgeItem "FF_BRIDGE_2X1" 85 objects\levels\forge\ff_bridge_2x1\ff_bridge_2x1.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[542].Type Structure
@@ -547,7 +547,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_bridge_2x2\ff_bridge_2x2.bloc
+Porttag ReachMisc objects\levels\forge\ff_bridge_2x2\ff_bridge_2x2.bloc
 AddForgeItem "FF_BRIDGE_2X2" 85 objects\levels\forge\ff_bridge_2x2\ff_bridge_2x2.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[543].Type Structure
@@ -559,7 +559,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_bridge_2x3\ff_bridge_2x3.bloc
+Porttag ReachMisc objects\levels\forge\ff_bridge_2x3\ff_bridge_2x3.bloc
 AddForgeItem "FF_BRIDGE_2X3" 85 objects\levels\forge\ff_bridge_2x3\ff_bridge_2x3.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[544].Type Structure
@@ -571,7 +571,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_bridge_2x5\ff_bridge_2x5.bloc
+Porttag ReachMisc objects\levels\forge\ff_bridge_2x5\ff_bridge_2x5.bloc
 AddForgeItem "FF_BRIDGE_2X5" 85 objects\levels\forge\ff_bridge_2x5\ff_bridge_2x5.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[545].Type Structure
@@ -583,7 +583,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_bridge_diag_short\ff_bridge_diag_short.bloc
+Porttag ReachMisc objects\levels\forge\ff_bridge_diag_short\ff_bridge_diag_short.bloc
 AddForgeItem "FF_BRIDGE_DIAG_SHORT" 85 objects\levels\forge\ff_bridge_diag_short\ff_bridge_diag_short.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[546].Type Structure
@@ -595,7 +595,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_bridge_diag\ff_bridge_diag.bloc
+Porttag ReachMisc objects\levels\forge\ff_bridge_diag\ff_bridge_diag.bloc
 AddForgeItem "FF_BRIDGE_DIAG" 85 objects\levels\forge\ff_bridge_diag\ff_bridge_diag.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[547].Type Structure
@@ -607,7 +607,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_bunker_covered\ff_bunker_covered.bloc
+Porttag ReachMisc objects\levels\forge\ff_bunker_covered\ff_bunker_covered.bloc
 AddForgeItem "FF_BUNKER_COVERED" 85 objects\levels\forge\ff_bunker_covered\ff_bunker_covered.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[548].Type Structure
@@ -619,7 +619,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_bunker_full\ff_bunker_full.bloc
+Porttag ReachMisc objects\levels\forge\ff_bunker_full\ff_bunker_full.bloc
 AddForgeItem "FF_BUNKER_FULL" 85 objects\levels\forge\ff_bunker_full\ff_bunker_full.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[549].Type Structure
@@ -631,7 +631,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_bunker_low\ff_bunker_low.bloc
+Porttag ReachMisc objects\levels\forge\ff_bunker_low\ff_bunker_low.bloc
 AddForgeItem "FF_BUNKER_LOW" 85 objects\levels\forge\ff_bunker_low\ff_bunker_low.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[550].Type Structure
@@ -643,7 +643,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_bunker_stair\ff_bunker_stair.bloc
+Porttag ReachMisc objects\levels\forge\ff_bunker_stair\ff_bunker_stair.bloc
 AddForgeItem "FF_BUNKER_STAIR" 85 objects\levels\forge\ff_bunker_stair\ff_bunker_stair.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[551].Type Structure
@@ -655,7 +655,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_column\ff_column.bloc
+Porttag ReachMisc objects\levels\forge\ff_column\ff_column.bloc
 AddForgeItem "FF_COLUMN" 85 objects\levels\forge\ff_column\ff_column.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[552].Type Structure
@@ -667,7 +667,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_cover_2\ff_cover_2.bloc
+Porttag ReachMisc objects\levels\forge\ff_cover_2\ff_cover_2.bloc
 AddForgeItem "FF_COVER_2" 85 objects\levels\forge\ff_cover_2\ff_cover_2.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[553].Type Structure
@@ -679,7 +679,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_crenel_full\ff_crenel_full.bloc
+Porttag ReachMisc objects\levels\forge\ff_crenel_full\ff_crenel_full.bloc
 AddForgeItem "FF_CRENEL_FULL" 85 objects\levels\forge\ff_crenel_full\ff_crenel_full.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[554].Type Structure
@@ -691,7 +691,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_crenel_notch\ff_crenel_notch.bloc
+Porttag ReachMisc objects\levels\forge\ff_crenel_notch\ff_crenel_notch.bloc
 AddForgeItem "FF_CRENEL_NOTCH" 85 objects\levels\forge\ff_crenel_notch\ff_crenel_notch.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[555].Type Structure
@@ -703,7 +703,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_cylinder_big\ff_cylinder_big.bloc
+Porttag ReachMisc objects\levels\forge\ff_cylinder_big\ff_cylinder_big.bloc
 AddForgeItem "FF_CYLINDER_BIG" 85 objects\levels\forge\ff_cylinder_big\ff_cylinder_big.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[556].Type Structure
@@ -715,7 +715,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_cylinder_small\ff_cylinder_small.bloc
+Porttag ReachMisc objects\levels\forge\ff_cylinder_small\ff_cylinder_small.bloc
 AddForgeItem "FF_CYLINDER_SMALL" 85 objects\levels\forge\ff_cylinder_small\ff_cylinder_small.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[557].Type Structure
@@ -727,7 +727,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_dish_antenna\ff_dish_antenna.bloc
+Porttag ReachMisc objects\levels\forge\ff_dish_antenna\ff_dish_antenna.bloc
 AddForgeItem "FF_DISH_ANTENNA" 85 objects\levels\forge\ff_dish_antenna\ff_dish_antenna.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[558].Type Structure
@@ -739,7 +739,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_dish_door\ff_dish_door.bloc
+Porttag ReachMisc objects\levels\forge\ff_dish_door\ff_dish_door.bloc
 AddForgeItem "FF_DISH_DOOR" 85 objects\levels\forge\ff_dish_door\ff_dish_door.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[559].Type Structure
@@ -751,7 +751,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_dish\ff_dish.bloc
+Porttag ReachMisc objects\levels\forge\ff_dish\ff_dish.bloc
 AddForgeItem "FF_DISH" 85 objects\levels\forge\ff_dish\ff_dish.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[560].Type Structure
@@ -763,7 +763,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_door_2\ff_door_2.bloc
+Porttag ReachMisc objects\levels\forge\ff_door_2\ff_door_2.bloc
 AddForgeItem "FF_DOOR_2" 85 objects\levels\forge\ff_door_2\ff_door_2.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[561].Type Structure
@@ -775,7 +775,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_large_brace\ff_large_brace.bloc
+Porttag ReachMisc objects\levels\forge\ff_large_brace\ff_large_brace.bloc
 AddForgeItem "FF_LARGE_BRACE" 85 objects\levels\forge\ff_large_brace\ff_large_brace.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[562].Type Structure
@@ -787,7 +787,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_pyramid\ff_pyramid.bloc
+Porttag ReachMisc objects\levels\forge\ff_pyramid\ff_pyramid.bloc
 AddForgeItem "FF_PYRAMID" 85 objects\levels\forge\ff_pyramid\ff_pyramid.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[563].Type Structure
@@ -799,7 +799,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_race_stunt_ramp\ff_race_stunt_ramp.bloc
+Porttag ReachMisc objects\levels\forge\ff_race_stunt_ramp\ff_race_stunt_ramp.bloc
 AddForgeItem "FF_RACE_STUNT_RAMP" 85 objects\levels\forge\ff_race_stunt_ramp\ff_race_stunt_ramp.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[564].Type Structure
@@ -811,7 +811,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_railing_1\ff_railing_1.bloc
+Porttag ReachMisc objects\levels\forge\ff_railing_1\ff_railing_1.bloc
 AddForgeItem "FF_RAILING_1" 85 objects\levels\forge\ff_railing_1\ff_railing_1.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[565].Type Structure
@@ -823,7 +823,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_railing_2\ff_railing_2.bloc
+Porttag ReachMisc objects\levels\forge\ff_railing_2\ff_railing_2.bloc
 AddForgeItem "FF_RAILING_2" 85 objects\levels\forge\ff_railing_2\ff_railing_2.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[566].Type Structure
@@ -835,7 +835,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_railing_3\ff_railing_3.bloc
+Porttag ReachMisc objects\levels\forge\ff_railing_3\ff_railing_3.bloc
 AddForgeItem "FF_RAILING_3" 85 objects\levels\forge\ff_railing_3\ff_railing_3.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[567].Type Structure
@@ -847,7 +847,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_ramp_1x2_shallow\ff_ramp_1x2_shallow.bloc
+Porttag ReachMisc objects\levels\forge\ff_ramp_1x2_shallow\ff_ramp_1x2_shallow.bloc
 AddForgeItem "FF_RAMP_1X2_SHALLOW" 85 objects\levels\forge\ff_ramp_1x2_shallow\ff_ramp_1x2_shallow.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[568].Type Structure
@@ -859,7 +859,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_ramp_1x2\ff_ramp_1x2.bloc
+Porttag ReachMisc objects\levels\forge\ff_ramp_1x2\ff_ramp_1x2.bloc
 AddForgeItem "FF_RAMP_1X2" 85 objects\levels\forge\ff_ramp_1x2\ff_ramp_1x2.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[569].Type Structure
@@ -871,7 +871,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_ramp_2x2_steep\ff_ramp_2x2_steep.bloc
+Porttag ReachMisc objects\levels\forge\ff_ramp_2x2_steep\ff_ramp_2x2_steep.bloc
 AddForgeItem "FF_RAMP_2X2_STEEP" 85 objects\levels\forge\ff_ramp_2x2_steep\ff_ramp_2x2_steep.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[570].Type Structure
@@ -883,7 +883,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_ramp_2x2\ff_ramp_2x2.bloc
+Porttag ReachMisc objects\levels\forge\ff_ramp_2x2\ff_ramp_2x2.bloc
 AddForgeItem "FF_RAMP_2X2" 85 objects\levels\forge\ff_ramp_2x2\ff_ramp_2x2.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[571].Type Structure
@@ -895,7 +895,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_ramp_3\ff_ramp_3.bloc
+Porttag ReachMisc objects\levels\forge\ff_ramp_3\ff_ramp_3.bloc
 AddForgeItem "FF_RAMP_3" 85 objects\levels\forge\ff_ramp_3\ff_ramp_3.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[572].Type Structure
@@ -907,7 +907,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_ramp_4\ff_ramp_4.bloc
+Porttag ReachMisc objects\levels\forge\ff_ramp_4\ff_ramp_4.bloc
 AddForgeItem "FF_RAMP_4" 85 objects\levels\forge\ff_ramp_4\ff_ramp_4.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[573].Type Structure
@@ -919,7 +919,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_ramp_4x2\ff_ramp_4x2.bloc
+Porttag ReachMisc objects\levels\forge\ff_ramp_4x2\ff_ramp_4x2.bloc
 AddForgeItem "FF_RAMP_4X2" 85 objects\levels\forge\ff_ramp_4x2\ff_ramp_4x2.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[574].Type Structure
@@ -931,7 +931,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_ramp_5\ff_ramp_5.bloc
+Porttag ReachMisc objects\levels\forge\ff_ramp_5\ff_ramp_5.bloc
 AddForgeItem "FF_RAMP_5" 85 objects\levels\forge\ff_ramp_5\ff_ramp_5.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[575].Type Structure
@@ -943,7 +943,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_ramp_circle_large\ff_ramp_circle_large.bloc
+Porttag ReachMisc objects\levels\forge\ff_ramp_circle_large\ff_ramp_circle_large.bloc
 AddForgeItem "FF_RAMP_CIRCLE_LARGE" 85 objects\levels\forge\ff_ramp_circle_large\ff_ramp_circle_large.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[576].Type Structure
@@ -955,7 +955,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_ramp_circle_small\ff_ramp_circle_small.bloc
+Porttag ReachMisc objects\levels\forge\ff_ramp_circle_small\ff_ramp_circle_small.bloc
 AddForgeItem "FF_RAMP_CIRCLE_SMALL" 85 objects\levels\forge\ff_ramp_circle_small\ff_ramp_circle_small.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[577].Type Structure
@@ -967,7 +967,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_ramp_enclosed\ff_ramp_enclosed.bloc
+Porttag ReachMisc objects\levels\forge\ff_ramp_enclosed\ff_ramp_enclosed.bloc
 AddForgeItem "FF_RAMP_ENCLOSED" 85 objects\levels\forge\ff_ramp_enclosed\ff_ramp_enclosed.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[578].Type Structure
@@ -979,7 +979,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_ramp_plat\ff_ramp_plat.bloc
+Porttag ReachMisc objects\levels\forge\ff_ramp_plat\ff_ramp_plat.bloc
 AddForgeItem "FF_RAMP_PLAT" 85 objects\levels\forge\ff_ramp_plat\ff_ramp_plat.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[579].Type Structure
@@ -991,7 +991,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_ramp_wall_2x1\ff_ramp_wall_2x1.bloc
+Porttag ReachMisc objects\levels\forge\ff_ramp_wall_2x1\ff_ramp_wall_2x1.bloc
 AddForgeItem "FF_RAMP_WALL_2X1" 85 objects\levels\forge\ff_ramp_wall_2x1\ff_ramp_wall_2x1.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[580].Type Structure
@@ -1003,7 +1003,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_room_double\ff_room_double.bloc
+Porttag ReachMisc objects\levels\forge\ff_room_double\ff_room_double.bloc
 AddForgeItem "FF_ROOM_DOUBLE" 85 objects\levels\forge\ff_room_double\ff_room_double.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[581].Type Structure
@@ -1015,7 +1015,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_room_triple\ff_room_triple.bloc
+Porttag ReachMisc objects\levels\forge\ff_room_triple\ff_room_triple.bloc
 AddForgeItem "FF_ROOM_TRIPLE" 85 objects\levels\forge\ff_room_triple\ff_room_triple.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[582].Type Structure
@@ -1027,7 +1027,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_stair_case\ff_stair_case.bloc
+Porttag ReachMisc objects\levels\forge\ff_stair_case\ff_stair_case.bloc
 AddForgeItem "FF_STAIR_CASE" 85 objects\levels\forge\ff_stair_case\ff_stair_case.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[583].Type Structure
@@ -1039,7 +1039,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_teleport_frame\ff_teleport_frame.bloc
+Porttag ReachMisc objects\levels\forge\ff_teleport_frame\ff_teleport_frame.bloc
 AddForgeItem "FF_TELEPORT_FRAME" 85 objects\levels\forge\ff_teleport_frame\ff_teleport_frame.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[584].Type Structure
@@ -1051,7 +1051,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_tower_3_story\ff_tower_3_story.bloc
+Porttag ReachMisc objects\levels\forge\ff_tower_3_story\ff_tower_3_story.bloc
 AddForgeItem "FF_TOWER_3_STORY" 85 objects\levels\forge\ff_tower_3_story\ff_tower_3_story.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[585].Type Structure
@@ -1063,7 +1063,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_tower_tall\ff_tower_tall.bloc
+Porttag ReachMisc objects\levels\forge\ff_tower_tall\ff_tower_tall.bloc
 AddForgeItem "FF_TOWER_TALL" 85 objects\levels\forge\ff_tower_tall\ff_tower_tall.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[586].Type Structure
@@ -1075,7 +1075,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_tower\ff_tower.bloc
+Porttag ReachMisc objects\levels\forge\ff_tower\ff_tower.bloc
 AddForgeItem "FF_TOWER" 85 objects\levels\forge\ff_tower\ff_tower.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[587].Type Structure
@@ -1087,7 +1087,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_tunnel_2x1\ff_tunnel_2x1.bloc
+Porttag ReachMisc objects\levels\forge\ff_tunnel_2x1\ff_tunnel_2x1.bloc
 AddForgeItem "FF_TUNNEL_2X1" 85 objects\levels\forge\ff_tunnel_2x1\ff_tunnel_2x1.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[588].Type Structure
@@ -1099,7 +1099,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_tunnel_3x3\ff_tunnel_3x3.bloc
+Porttag ReachMisc objects\levels\forge\ff_tunnel_3x3\ff_tunnel_3x3.bloc
 AddForgeItem "FF_TUNNEL_3X3" 85 objects\levels\forge\ff_tunnel_3x3\ff_tunnel_3x3.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[589].Type Structure
@@ -1111,7 +1111,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_walkway_small_cover\ff_walkway_small_cover.bloc
+Porttag ReachMisc objects\levels\forge\ff_walkway_small_cover\ff_walkway_small_cover.bloc
 AddForgeItem "FF_WALKWAY_SMALL_COVER" 85 objects\levels\forge\ff_walkway_small_cover\ff_walkway_small_cover.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[590].Type Structure
@@ -1123,7 +1123,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_walkway_small\ff_walkway_small.bloc
+Porttag ReachMisc objects\levels\forge\ff_walkway_small\ff_walkway_small.bloc
 AddForgeItem "FF_WALKWAY_SMALL" 85 objects\levels\forge\ff_walkway_small\ff_walkway_small.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[591].Type Structure
@@ -1135,7 +1135,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_wall_2x1_corner\ff_wall_2x1_corner.bloc
+Porttag ReachMisc objects\levels\forge\ff_wall_2x1_corner\ff_wall_2x1_corner.bloc
 AddForgeItem "FF_WALL_2X1_CORNER" 85 objects\levels\forge\ff_wall_2x1_corner\ff_wall_2x1_corner.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[592].Type Structure
@@ -1147,7 +1147,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_wall_2x1_door\ff_wall_2x1_door.bloc
+Porttag ReachMisc objects\levels\forge\ff_wall_2x1_door\ff_wall_2x1_door.bloc
 AddForgeItem "FF_WALL_2X1_DOOR" 85 objects\levels\forge\ff_wall_2x1_door\ff_wall_2x1_door.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[593].Type Structure
@@ -1159,7 +1159,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_wall_2x1_window\ff_wall_2x1_window.bloc
+Porttag ReachMisc objects\levels\forge\ff_wall_2x1_window\ff_wall_2x1_window.bloc
 AddForgeItem "FF_WALL_2X1_WINDOW" 85 objects\levels\forge\ff_wall_2x1_window\ff_wall_2x1_window.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[594].Type Structure
@@ -1171,7 +1171,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_wall_2x2_window\ff_wall_2x2_window.bloc
+Porttag ReachMisc objects\levels\forge\ff_wall_2x2_window\ff_wall_2x2_window.bloc
 AddForgeItem "FF_WALL_2X2_WINDOW" 85 objects\levels\forge\ff_wall_2x2_window\ff_wall_2x2_window.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[595].Type Structure
@@ -1183,7 +1183,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_wall_2x2\ff_wall_2x2.bloc
+Porttag ReachMisc objects\levels\forge\ff_wall_2x2\ff_wall_2x2.bloc
 AddForgeItem "FF_WALL_2X2" 85 objects\levels\forge\ff_wall_2x2\ff_wall_2x2.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[596].Type Structure
@@ -1195,7 +1195,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_wall_2x4\ff_wall_2x4.bloc
+Porttag ReachMisc objects\levels\forge\ff_wall_2x4\ff_wall_2x4.bloc
 AddForgeItem "FF_WALL_2X4" 85 objects\levels\forge\ff_wall_2x4\ff_wall_2x4.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[597].Type Structure
@@ -1207,7 +1207,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_wall_curve_short\ff_wall_curve_short.bloc
+Porttag ReachMisc objects\levels\forge\ff_wall_curve_short\ff_wall_curve_short.bloc
 AddForgeItem "FF_WALL_CURVE_SHORT" 85 objects\levels\forge\ff_wall_curve_short\ff_wall_curve_short.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[598].Type Structure
@@ -1219,7 +1219,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_rock_arch\ff_rock_arch.bloc
+Porttag ReachMisc objects\levels\forge\ff_rock_arch\ff_rock_arch.bloc
 AddForgeItem "FF_ROCK_ARCH" 86 objects\levels\forge\ff_rock_arch\ff_rock_arch.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[599].Type Structure
@@ -1231,7 +1231,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_rock_flat\ff_rock_flat.bloc
+Porttag ReachMisc objects\levels\forge\ff_rock_flat\ff_rock_flat.bloc
 AddForgeItem "FF_ROCK_FLAT" 86 objects\levels\forge\ff_rock_flat\ff_rock_flat.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[600].Type Structure
@@ -1243,7 +1243,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_rock_med_a\ff_rock_med_a.bloc
+Porttag ReachMisc objects\levels\forge\ff_rock_med_a\ff_rock_med_a.bloc
 AddForgeItem "FF_ROCK_MED_A" 86 objects\levels\forge\ff_rock_med_a\ff_rock_med_a.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[601].Type Structure
@@ -1255,7 +1255,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_rock_med_b\ff_rock_med_b.bloc
+Porttag ReachMisc objects\levels\forge\ff_rock_med_b\ff_rock_med_b.bloc
 AddForgeItem "FF_ROCK_MED_B" 86 objects\levels\forge\ff_rock_med_b\ff_rock_med_b.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[602].Type Structure
@@ -1267,7 +1267,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_rock_sea_stack\ff_rock_sea_stack.bloc
+Porttag ReachMisc objects\levels\forge\ff_rock_sea_stack\ff_rock_sea_stack.bloc
 AddForgeItem "FF_ROCK_SEA_STACK" 86 objects\levels\forge\ff_rock_sea_stack\ff_rock_sea_stack.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[603].Type Structure
@@ -1279,7 +1279,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_rock_small\ff_rock_small.bloc
+Porttag ReachMisc objects\levels\forge\ff_rock_small\ff_rock_small.bloc
 AddForgeItem "FF_ROCK_SMALL" 86 objects\levels\forge\ff_rock_small\ff_rock_small.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[604].Type Structure
@@ -1291,7 +1291,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_rock_spire_a\ff_rock_spire_a.bloc
+Porttag ReachMisc objects\levels\forge\ff_rock_spire_a\ff_rock_spire_a.bloc
 AddForgeItem "FF_ROCK_SPIRE_A" 86 objects\levels\forge\ff_rock_spire_a\ff_rock_spire_a.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[605].Type Structure
@@ -1303,7 +1303,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_rock_spire_b\ff_rock_spire_b.bloc
+Porttag ReachMisc objects\levels\forge\ff_rock_spire_b\ff_rock_spire_b.bloc
 AddForgeItem "FF_ROCK_SPIRE_B" 86 objects\levels\forge\ff_rock_spire_b\ff_rock_spire_b.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[606].Type Structure
@@ -1315,7 +1315,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_grid_object\ff_grid_object.bloc
+Porttag ReachMisc objects\levels\forge\ff_grid_object\ff_grid_object.bloc
 AddForgeItem "FF_GRID_OBJECT" 87 objects\levels\forge\ff_grid_object\ff_grid_object.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[607].Type Structure
@@ -1327,7 +1327,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_veh_man_cannon\ff_veh_man_cannon.bloc
+Porttag ReachMisc objects\levels\forge\ff_veh_man_cannon\ff_veh_man_cannon.bloc
 AddForgeItem "FF_VEH_MAN_CANNON" 87 objects\levels\forge\ff_veh_man_cannon\ff_veh_man_cannon.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[608].Type Structure
@@ -1339,7 +1339,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_grav_lift\ff_grav_lift.bloc
+Porttag ReachMisc objects\levels\forge\ff_grav_lift\ff_grav_lift.bloc
 AddForgeItem "FF_GRAV_LIFT" 87 objects\levels\forge\ff_grav_lift\ff_grav_lift.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[609].Type Structure
@@ -1351,7 +1351,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_man_cannon_forge_heavy\ff_man_cannon_forge_heavy.bloc
+Porttag ReachMisc objects\levels\forge\ff_man_cannon_forge_heavy\ff_man_cannon_forge_heavy.bloc
 AddForgeItem "FF_MAN_CANNON_FORGE_HEAVY" 87 objects\levels\forge\ff_man_cannon_forge_heavy\ff_man_cannon_forge_heavy.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[610].Type Structure
@@ -1363,7 +1363,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_man_cannon_forge_light\ff_man_cannon_forge_light.bloc
+Porttag ReachMisc objects\levels\forge\ff_man_cannon_forge_light\ff_man_cannon_forge_light.bloc
 AddForgeItem "FF_MAN_CANNON_FORGE_LIGHT" 87 objects\levels\forge\ff_man_cannon_forge_light\ff_man_cannon_forge_light.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[611].Type Structure
@@ -1375,7 +1375,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_man_cannon_forge\ff_man_cannon_forge.bloc
+Porttag ReachMisc objects\levels\forge\ff_man_cannon_forge\ff_man_cannon_forge.bloc
 AddForgeItem "FF_MAN_CANNON_FORGE" 87 objects\levels\forge\ff_man_cannon_forge\ff_man_cannon_forge.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[612].Type Structure
@@ -1387,7 +1387,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_one_way_door_large\ff_one_way_door_large.bloc
+Porttag ReachMisc objects\levels\forge\ff_one_way_door_large\ff_one_way_door_large.bloc
 AddForgeItem "FF_ONE_WAY_DOOR_LARGE" 87 objects\levels\forge\ff_one_way_door_large\ff_one_way_door_large.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[613].Type Structure
@@ -1399,7 +1399,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_one_way_door_medium\ff_one_way_door_medium.bloc
+Porttag ReachMisc objects\levels\forge\ff_one_way_door_medium\ff_one_way_door_medium.bloc
 AddForgeItem "FF_ONE_WAY_DOOR_MEDIUM" 87 objects\levels\forge\ff_one_way_door_medium\ff_one_way_door_medium.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[614].Type Structure
@@ -1411,7 +1411,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_one_way_door_small\ff_one_way_door_small.bloc
+Porttag ReachMisc objects\levels\forge\ff_one_way_door_small\ff_one_way_door_small.bloc
 AddForgeItem "FF_ONE_WAY_DOOR_SMALL" 87 objects\levels\forge\ff_one_way_door_small\ff_one_way_door_small.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[615].Type Structure
@@ -1423,7 +1423,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_two_way_door_large\ff_two_way_door_large.bloc
+Porttag ReachMisc objects\levels\forge\ff_two_way_door_large\ff_two_way_door_large.bloc
 AddForgeItem "FF_TWO_WAY_DOOR_LARGE" 87 objects\levels\forge\ff_two_way_door_large\ff_two_way_door_large.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[616].Type Structure
@@ -1435,7 +1435,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_two_way_door_medium\ff_two_way_door_medium.bloc
+Porttag ReachMisc objects\levels\forge\ff_two_way_door_medium\ff_two_way_door_medium.bloc
 AddForgeItem "FF_TWO_WAY_DOOR_MEDIUM" 87 objects\levels\forge\ff_two_way_door_medium\ff_two_way_door_medium.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[617].Type Structure
@@ -1447,7 +1447,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-Porttag objects\levels\forge\ff_two_way_door_small\ff_two_way_door_small.bloc
+Porttag ReachMisc objects\levels\forge\ff_two_way_door_small\ff_two_way_door_small.bloc
 AddForgeItem "FF_TWO_WAY_DOOR_SMALL" 87 objects\levels\forge\ff_two_way_door_small\ff_two_way_door_small.bloc
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[618].Type Structure

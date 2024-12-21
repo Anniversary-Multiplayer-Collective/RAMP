@@ -188,6 +188,118 @@ OpenModPackage "workingdir\Reach Weapons EK.pak"
 ApplyModPackage
 ExitModPackage 
 
+echo ==Apply RAMP HUD and UI==
+OpenModPackage "workingdir\ramphud.pak"
+ApplyModPackage
+ExitModPackage 
+
+edittag objects\weapons\support_high\spartan_laser\spartan_laser.weapon
+setfield HudInterface ui\chud\spartan_laser.chud_definition
+SaveTagChanges
+Exit
+
+edittag objects\weapons\support_high\rocket_launcher\rocket_launcher.weapon
+setfield HudInterface ui\chud\rocket.chud_definition
+SaveTagChanges
+Exit
+
+edittag objects\weapons\support_high\plasma_launcher\plasma_launcher.weapon
+setfield HudInterface ui\chud\plasma_launcher.chud_definition
+SaveTagChanges
+Exit
+
+edittag objects\weapons\support_high\flak_cannon\flak_cannon.weapon
+setfield HudInterface ui\chud\fuel_rod_cannon.chud_definition
+SaveTagChanges
+Exit
+
+edittag objects\weapons\rifle\spike_rifle\spike_rifle.weapon
+setfield HudInterface ui\chud\spike_rifle.chud_definition
+SaveTagChanges
+Exit
+
+edittag objects\weapons\rifle\sniper_rifle\sniper_rifle.weapon
+setfield HudInterface ui\chud\sniper_rifle.chud_definition
+SaveTagChanges
+Exit
+
+edittag objects\weapons\rifle\shotgun\shotgun.weapon
+setfield HudInterface ui\chud\shotgun.chud_definition
+SaveTagChanges
+Exit
+
+edittag objects\weapons\rifle\plasma_rifle\plasma_rifle.weapon
+setfield HudInterface ui\chud\plasma_rifle.chud_definition
+SaveTagChanges
+Exit
+
+edittag objects\weapons\rifle\plasma_repeater\plasma_repeater.weapon
+setfield HudInterface ui\chud\plasma_repeater.chud_definition
+SaveTagChanges
+Exit
+
+edittag objects\weapons\rifle\needle_rifle\needle_rifle.weapon
+setfield HudInterface ui\chud\needle_rifle.chud_definition
+SaveTagChanges
+Exit
+
+edittag objects\weapons\rifle\grenade_launcher\grenade_launcher.weapon
+setfield HudInterface ui\chud\grenade_launcher.chud_definition
+SaveTagChanges
+Exit
+
+edittag objects\weapons\rifle\focus_rifle\focus_rifle.weapon
+setfield HudInterface ui\chud\focus_rifle.chud_definition
+SaveTagChanges
+Exit
+
+edittag objects\weapons\rifle\dmr\dmr.weapon
+setfield HudInterface ui\chud\dmr_ramp.chud_definition
+SaveTagChanges
+Exit
+
+edittag objects\weapons\rifle\concussion_rifle\concussion_rifle.weapon
+setfield HudInterface ui\chud\concussion_rifle.chud_definition
+SaveTagChanges
+Exit
+
+edittag objects\weapons\rifle\battle_rifle\battle_rifle.weapon
+setfield HudInterface ui\chud\battle_rifle.chud_definition
+SaveTagChanges
+Exit
+
+edittag objects\weapons\rifle\assault_rifle\assault_rifle.weapon
+setfield HudInterface ui\chud\assault_rifle.chud_definition
+SaveTagChanges
+Exit
+
+edittag objects\weapons\pistol\plasma_pistol\plasma_pistol.weapon
+setfield HudInterface ui\chud\plasma_pistol.chud_definition
+SaveTagChanges
+Exit
+
+edittag objects\weapons\pistol\needler\needler.weapon
+setfield HudInterface ui\chud\needler.chud_definition
+SaveTagChanges
+Exit
+
+edittag objects\weapons\pistol\magnum\magnum.weapon
+setfield HudInterface ui\chud\magnum.chud_definition
+SaveTagChanges
+Exit
+
+edittag objects\weapons\melee\gravity_hammer\gravity_hammer.weapon
+setfield HudInterface ui\chud\hammer.chud_definition
+SaveTagChanges
+Exit
+
+edittag objects\weapons\melee\energy_blade\energy_blade.weapon
+setfield HudInterface ui\chud\sword.chud_definition
+SaveTagChanges
+Exit
+
+importfonts workingdir\fonts_new.bin
+
 UpdateMapFiles "workingdir\info"
 
 SaveModPackage "modsfolder\RAMP_2.pak"
