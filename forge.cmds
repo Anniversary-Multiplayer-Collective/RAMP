@@ -1638,8 +1638,8 @@ setfield Skies[18].Parameters levels\multi\dlc\dlc_invasion\dlc_invasion.sky_atm
 setfield Skies[18].GlobalLighting levels\multi\dlc\dlc_invasion\post_fx\dlc_invasion.chocolate_mountain_new
 
 #NOT IN THE CACHE YET
-##addblockelements Skies
-##setfield Skies[19].Name "Condemned"
+addblockelements Skies
+setfield Skies[19].Name "Condemned"
 ##setfield Skies[19].Object levels\dlc\condemned\sky\condemned_glassed_planet\condemned_glassed_planet.scenery
 ##setfield Skies[19].BackgroundSound sound\levels\solo\m45\space_filter_loop\space_filter_loop.sound_looping
 ##setfield Skies[19].CameraFX levels\dlc\condemned\postfx\dlc_condemned.camera_fx_settings
