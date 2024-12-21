@@ -153,6 +153,41 @@ setfield Palette[*].Object objects\vehicles\covenant\revenant\revenant.vehicle
 SaveTagChanges
 Exit
 
+edittag ui\hud\hud_messages.multilingual_unicode_string_list
+setstring english revenant_enter_driver "\uE461\uE45F to drive Revenant"
+setstring english revenant_enter_passenger "\uE461\uE45F to ride in Revenant"
+setstring english revenant_board "\uE461\uE45F to board Revenant"
+savetagchanges
+exit
+
+echo ==Fix beaver creek missing textures==
+DuplicateTag levels\multi\deadlock\shaders\deadlock_grate_a.shader objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift_grate
+edittag objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift_grate.shader
+setargument specular_coefficient 0.3
+SaveTagChanges
+exit
+
+edittag objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift.render_model
+setfield Materials[0].RenderMethod objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift_grate.shader
+SaveTagChanges
+exit
+
+edittag objects\cex\cex_beaver_creek\crates\gravity_lift_blue\gravity_lift_blue.render_model
+setfield Materials[0].RenderMethod objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift_grate.shader
+SaveTagChanges
+exit
+
+echo ==Fix projectile drop==
+edittag objects\weapons\support_high\rocket_launcher\projectiles\rocket.projectile
+setfield WaterGravityScale 0
+SaveTagChanges
+Exit
+
+echo ==Apply Reach Weapons==
+OpenModPackage "workingdir\Reach Weapons EK.pak"
+ApplyModPackage
+ExitModPackage 
+
 UpdateMapFiles "workingdir\info"
 
 SaveModPackage "modsfolder\RAMP_2.pak"

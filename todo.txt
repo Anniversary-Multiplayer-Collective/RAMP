@@ -1,4 +1,6 @@
 TODO:
-
+Fix fuel rod projectile drop
+Find a fix for glass on reach forge items
+Sprint animations for reach weapons
 Space shield on zealot is gone
-Duplicate safe volume and rename it to objects\multi\boundaries\safe_volume.scen and set the model to the one from reach
+Replace the Halo 3 items with their halo Reach equivelent
