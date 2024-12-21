@@ -17,6 +17,8 @@ RampCollective
 0.1
 MainMenu Multiplayer Character
 
+AddModFiles workingdir\assets
+
 # echo ==Porting...==
 
 OpenCacheFile "reachmaps\20_sword_slayer.map"
