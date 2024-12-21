@@ -1459,6 +1459,40 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
+PortTag ReachMisc objects\multi\dice\dice.crate
+AddForgeItem "DICE" 87 objects\multi\dice\dice.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[619].Type Prop
+SaveTagChanges
+Exit
+
+PortTag ReachMisc objects\levels\shared\golf_cup\golf_cup.crate
+AddForgeItem "TIN CUP" 87 objects\levels\shared\golf_cup\golf_cup.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[620].Type Prop
+SaveTagChanges
+Exit
+EditTag objects\levels\shared\golf_cup\golf_cup.physics_model
+SetField RigidBodies[0].MotionType Keyframed
+SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
+SaveTagChanges
+Exit
+
+PortTag ReachMisc objects\levels\shared\soccer_ball\soccer_ball.crate
+AddForgeItem "SOCCER BALL" 87 objects\levels\shared\soccer_ball\soccer_ball.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[621].Type Prop
+SaveTagChanges
+Exit
+
+PortTag ReachMisc objects\levels\shared\golf_ball\golf_ball.crate
+AddForgeItem "GOLF BALL" 87 objects\levels\shared\golf_ball\golf_ball.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[621].Type Prop
+SaveTagChanges
+Exit
+
+
 # echo ==Fix Shield Doors...==
 edittag objects\levels\forge\ff_one_way_door_garage\ff_one_way_door_garage.physics_model
 setfield PhantomTypes[0].Flags.Halo3ODST IgnoresWeapons,IgnoresEquipment,IgnoresProjectiles,IgnoresScenery,IgnoresMachines,IgnoresControls,IgnoresSoundScenery,IgnoresCrates,IgnoresCreatures,IgnoresGiants,IgnoresEffectScenery,IgnoresDeadBipeds
@@ -1500,5 +1534,229 @@ setfield PhantomTypes[0].Flags.Halo3ODST IgnoresPlayers,IgnoresBipeds,IgnoresVeh
 savetagchanges
 exit
 
+OpenCacheFile "reachmaps\forge_halo.map"
+PortTag ReachMisc objects\levels\shared\golf_cup\golf_cup.crate
+
+
 # echo ==Fix Despawning Forge Items...==
 ForEach hlmt contains: objects\levels\forge RemoveBlockElements NewDamageInfo 0 *
+
+EditTag objects\equipment\health_pack\health_pack.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+
+EditTag objects\levels\shared\soccer_ball\soccer_ball.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+
+EditTag objects\levels\shared\golf_ball\golf_ball.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+
+EditTag objects\levels\shared\golf_cup\golf_cup.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+
+EditTag objects\multi\dice\dice.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+
+# echo ==Add Skyboxes To Pallette...==
+
+edittag multiplayer\forge_globals.forge_globals_definition
+
+addblockelements Skies
+setfield Skies[12].Name "Forge World"
+setfield Skies[12].Object levels\multi\forge_halo\sky_halo\sky_halo.scenery
+setfield Skies[12].CameraFX levels\multi\forge_halo\post_fx\forge_halo.camera_fx_settings
+setfield Skies[12].ScreenFX levels\multi\forge_halo\post_fx\forge_halo.area_screen_effect
+setfield Skies[12].Parameters levels\multi\forge_halo\forge_halo.sky_atm_parameters
+setfield Skies[12].GlobalLighting levels\shared\post_fx\forge_halo.chocolate_mountain_new
+setfield Skies[12].BackgroundSound sound\levels\solo\forge_world\halo_ext\halo_ext.sound_looping
+setfield Skies[12].Wind levels\multi\forge_halo\post_fx\forge_halo_wind.wind
+
+addblockelements Skies
+setfield Skies[13].Name "Anchor 9"
+setfield Skies[13].Object levels\multi\dlc\dlc_slayer\dlc_slayer_space_sky_angled\dlc_slayer_space_sky_angled.scenery
+setfield Skies[13].BackgroundSound sound\levels\solo\dlc\space_camp\space_camp_loops\space_camp_loops.sound_looping
+setfield Skies[13].Parameters levels\multi\dlc\dlc_slayer\dlc_slayer.sky_atm_parameters
+setfield Skies[13].CameraFX levels\multi\dlc\dlc_slayer\post_fx\dlc_slayer.camera_fx_settings
+setfield Skies[13].ScreenFX levels\multi\dlc\dlc_slayer\post_fx\dlc_slayer.area_screen_effect
+setfield Skies[13].GlobalLighting levels\multi\dlc\dlc_slayer\post_fx\dlc_slayer.chocolate_mountain_new
+
+addblockelements Skies
+setfield Skies[14].Name "Battle Canyon"
+setfield Skies[14].BackgroundSound sound\levels\dlc\cex_beaverc\halo_ext\halo_ext.sound_looping
+setfield Skies[14].CameraFX levels\dlc\cex_beaver_creek\postfx\cex_beaver_creek.camera_fx_settings
+setfield Skies[14].ScreenFX levels\dlc\cex_beaver_creek\postfx\cex_beaver_creek.area_screen_effect
+setfield Skies[14].Parameters levels\dlc\cex_beaver_creek\cex_beaver_creek.sky_atm_parameters
+setfield Skies[14].GlobalLighting levels\dlc\cex_beaver_creek\postfx\cex_bcreek.chocolate_mountain_new
+setfield Skies[14].Object levels\dlc\cex_beaver_creek\beavercreek_sky\beavercreek_sky.scenery
+setfield Skies[14].Wind levels\dlc\cex_beaver_creek\postfx\cex_bcreek.wind
+
+addblockelements Skies
+setfield Skies[15].Name "Boardwalk"
+setfield Skies[15].Wind levels\solo\m50\post_fx\wind.wind
+setfield Skies[15].Object levels\multi\50_panopticon\sky_50_panopticon\sky_50_panopticon.scenery
+setfield Skies[15].CameraFX levels\multi\50_panopticon\post_fx\50_panopticon.camera_fx_settings
+setfield Skies[15].ScreenFX levels\multi\50_panopticon\post_fx\50_panopticon.area_screen_effect
+setfield Skies[15].Parameters levels\multi\50_panopticon\50_panopticon.sky_atm_parameters
+setfield Skies[15].GlobalLighting levels\shared\post_fx\bright.chocolate_mountain_new
+setfield Skies[15].BackgroundSound sound\levels\solo\m50\m50_ext\m50_ext.sound_looping
+
+addblockelements Skies
+setfield Skies[16].Name "Boneyard"
+setfield Skies[16].Wind levels\multi\30_settlement\post_fx\wind.wind
+setfield Skies[16].Object levels\multi\70_boneyard\sky_sunset_bright\sky_sunset_bright.scenery
+setfield Skies[16].BackgroundSound sound\levels\solo\m70\boneyard_wind\boneyard_wind.sound_looping
+setfield Skies[16].CameraFX levels\multi\70_boneyard\post_fx\70_boneyard.camera_fx_settings
+setfield Skies[16].ScreenFX levels\multi\70_boneyard\post_fx\70_boneyard.area_screen_effect
+setfield Skies[16].Parameters levels\multi\70_boneyard\70_boneyard.sky_atm_parameters
+setfield Skies[16].GlobalLighting levels\shared\post_fx\bright.chocolate_mountain_new
+
+addblockelements Skies
+setfield Skies[17].Name "Breakneck"
+setfield Skies[17].Object levels\dlc\cex_headlong\sky_headlong_2\sky_headlong_2.scenery
+setfield Skies[17].BackgroundSound sound\levels\dlc\cex_headlong\ca_headlong_out\ca_headlong_out.sound_looping
+setfield Skies[17].CameraFX levels\dlc\cex_headlong\post_fx\cex_headlong.camera_fx_settings
+setfield Skies[17].ScreenFX levels\dlc\cex_headlong\post_fx\cex_headlong.area_screen_effect
+setfield Skies[17].Parameters levels\dlc\cex_headlong\cex_headlong.sky_atm_parameters
+setfield Skies[17].GlobalLighting levels\dlc\cex_headlong\post_fx\cex_headlong.chocolate_mountain_new
+
+addblockelements Skies
+setfield Skies[18].Name "Breakpoint"
+setfield Skies[18].Object levels\multi\dlc\dlc_invasion\sky_invasion\sky_invasion.scenery
+setfield Skies[18].BackgroundSound sound\levels\solo\dlc\dlc_invasion\alpine_wind_canyon\alpine_wind_canyon.sound_looping
+setfield Skies[18].CameraFX levels\multi\dlc\dlc_invasion\post_fx\dlc_invasion.camera_fx_settings
+setfield Skies[18].ScreenFX levels\multi\dlc\dlc_invasion\post_fx\dlc_invasion.area_screen_effect
+setfield Skies[18].Parameters levels\multi\dlc\dlc_invasion\dlc_invasion.sky_atm_parameters
+setfield Skies[18].GlobalLighting levels\multi\dlc\dlc_invasion\post_fx\dlc_invasion.chocolate_mountain_new
+
+#NOT IN THE CACHE YET
+##addblockelements Skies
+##setfield Skies[19].Name "Condemned"
+##setfield Skies[19].Object levels\dlc\condemned\sky\condemned_glassed_planet\condemned_glassed_planet.scenery
+##setfield Skies[19].BackgroundSound sound\levels\solo\m45\space_filter_loop\space_filter_loop.sound_looping
+##setfield Skies[19].CameraFX levels\dlc\condemned\postfx\dlc_condemned.camera_fx_settings
+##setfield Skies[19].ScreenFX levels\dlc\condemned\postfx\dlc_condemned.area_screen_effect
+##setfield Skies[19].Parameters levels\dlc\condemned\condemned.sky_atm_parameters
+
+addblockelements Skies
+setfield Skies[20].Name "Countdown"
+setfield Skies[20].Object levels\solo\m45\sky_mission_mp\sky_mission_mp.scenery
+setfield Skies[20].BackgroundSound sound\levels\solo\m45\space_loop\space_loop.sound_looping
+setfield Skies[20].CameraFX levels\multi\45_launch_station\post_fx\45_launch_station.camera_fx_settings
+setfield Skies[20].ScreenFX levels\multi\45_launch_station\post_fx\45_launch_station.area_screen_effect
+setfield Skies[20].GlobalLighting levels\shared\post_fx\bright.chocolate_mountain_new
+setfield Skies[20].Parameters levels\multi\45_launch_station\45_launch_station.sky_atm_parameters
+
+addblockelements Skies
+setfield Skies[21].Name "High Noon"
+setfield Skies[21].Wind levels\dlc\cex_hangemhigh\postfx\cex_heh.wind
+setfield Skies[21].Object levels\dlc\cex_hangemhigh\ca_hangemhigh_sky\ca_hangemhigh_sky.scenery
+setfield Skies[21].BackgroundSound sound\levels\dlc\cex_hangemhigh\ca_heh_ext\ca_heh_ext.sound_looping
+setfield Skies[21].CameraFX levels\dlc\cex_hangemhigh\postfx\cex_hangemhigh.camera_fx_settings
+setfield Skies[21].ScreenFX levels\dlc\cex_hangemhigh\postfx\cex_hangemhigh.area_screen_effect
+setfield Skies[21].GlobalLighting levels\dlc\cex_hangemhigh\postfx\cex_heh.chocolate_mountain_new
+setfield Skies[21].Parameters levels\dlc\cex_hangemhigh\cex_hangemhigh.sky_atm_parameters
+
+addblockelements Skies
+setfield Skies[22].Name "Highlands"
+setfield Skies[22].Wind levels\dlc\ff_unearthed\postfx\ff_unearthed.wind
+setfield Skies[22].Object levels\dlc\trainingpreserve\highlands_sky\highlands_sky\highlands_sky.scenery
+setfield Skies[22].BackgroundSound sound\levels\dlc\trainingpreserve\halo_ext\halo_ext.sound_looping
+setfield Skies[22].CameraFX levels\dlc\trainingpreserve\postfx\trainingpreserve.camera_fx_settings
+setfield Skies[22].ScreenFX levels\dlc\trainingpreserve\postfx\trainingpreserve.area_screen_effect
+setfield Skies[22].GlobalLighting levels\shared\post_fx\bright.chocolate_mountain_new
+setfield Skies[22].Parameters levels\dlc\trainingpreserve\trainingpreserve.sky_atm_parameters
+
+addblockelements Skies
+setfield Skies[23].Name "Penance"
+setfield Skies[23].Object levels\dlc\cex_damnation\cex_damnation_sky_02\cex_damnation_sky_02.scenery
+setfield Skies[23].BackgroundSound sound\levels\dlc\cex_damnation\halo_ext\halo_ext.sound_looping
+setfield Skies[23].CameraFX levels\dlc\cex_damnation\post_fx\cex_damnation.camera_fx_settings
+setfield Skies[23].ScreenFX levels\dlc\cex_damnation\post_fx\cex_damnation.area_screen_effect
+setfield Skies[23].GlobalLighting levels\dlc\cex_damnation\post_fx\cex_damnation.chocolate_mountain_new
+setfield Skies[23].Parameters levels\dlc\cex_damnation\cex_damnation.sky_atm_parameters
+
+addblockelements Skies
+setfield Skies[24].Name "Power House"
+setfield Skies[24].Wind levels\multi\30_settlement\post_fx\wind.wind
+setfield Skies[24].Object levels\multi\30_settlement\sky_settlement\sky_settlement.scenery
+setfield Skies[24].BackgroundSound sound\levels\solo\m30\settlement\settlement_ext\settlement_ext.sound_looping
+setfield Skies[24].CameraFX levels\multi\30_settlement\post_fx\30_settlement.camera_fx_settings
+setfield Skies[24].ScreenFX levels\multi\30_settlement\post_fx\30_settlement.area_screen_effect
+setfield Skies[24].GlobalLighting levels\shared\post_fx\bright.chocolate_mountain_new
+setfield Skies[24].Parameters levels\multi\30_settlement\30_settlement.sky_atm_parameters
+
+addblockelements Skies
+setfield Skies[25].Name "Reflection"
+setfield Skies[25].Object levels\multi\52_ivory_tower\sky_bright_hazy\sky_bright_hazy.scenery
+setfield Skies[25].BackgroundSound sound\levels\solo\m52\alpine_wind_canyon\alpine_wind_canyon.sound_looping
+setfield Skies[25].CameraFX levels\multi\52_ivory_tower\post_fx\52_ivory.camera_fx_settings
+setfield Skies[25].ScreenFX levels\multi\52_ivory_tower\post_fx\52_ivory.area_screen_effect
+setfield Skies[25].GlobalLighting levels\shared\post_fx\52_ivory_tower.chocolate_mountain_new
+setfield Skies[25].Parameters levels\multi\52_ivory_tower\52_ivory_tower.sky_atm_parameters
+
+addblockelements Skies
+setfield Skies[26].Name "Ridgeline"
+setfield Skies[26].Wind levels\dlc\cex_timberland\post_fx\cex_timberland.wind
+setfield Skies[26].Object levels\dlc\cex_timberland\timberland_sky\timberland_sky.scenery
+setfield Skies[26].BackgroundSound sound\levels\dlc\cex_timberland\riverworld_interior\riverworld_interior.sound_looping
+setfield Skies[26].CameraFX levels\dlc\cex_timberland\post_fx\cex_timberland.camera_fx_settings
+setfield Skies[26].ScreenFX levels\dlc\cex_timberland\post_fx\cex_timberland.area_screen_effect
+setfield Skies[26].Parameters levels\dlc\cex_timberland\cex_timberland.sky_atm_parameters
+setfield Skies[26].GlobalLighting levels\dlc\cex_timberland\post_fx\cex_timberland.chocolate_mountain_new
+
+addblockelements Skies
+setfield Skies[27].Name "Solitary"
+setfield Skies[27].Object levels\dlc\cex_prisoner\prisoner_sky\prisoner_sky.scenery
+setfield Skies[27].BackgroundSound sound\levels\dlc\cex_prisoner\ca_for_int_big_quad\ca_for_int_big_quad.sound_looping
+setfield Skies[27].CameraFX levels\dlc\cex_prisoner\postfx\cex_prisoner.camera_fx_settings
+setfield Skies[27].ScreenFX levels\dlc\cex_prisoner\postfx\cex_prisoner.area_screen_effect
+setfield Skies[27].Parameters levels\dlc\cex_prisoner\cex_prisoner.sky_atm_parameters
+setfield Skies[27].GlobalLighting levels\dlc\cex_prisoner\postfx\cex_prisoner.chocolate_mountain_new
+
+addblockelements Skies
+setfield Skies[28].Name "Spire"
+setfield Skies[28].Wind levels\solo\m35\post_fx\wind.wind
+setfield Skies[28].Object levels\solo\m35\sky_island\sky_island.scenery
+setfield Skies[28].BackgroundSound sound\levels\solo\m35\m35_exterior\m35_exterior.sound_looping
+setfield Skies[28].CameraFX levels\multi\35_island\post_fx\35_island.camera_fx_settings
+setfield Skies[28].ScreenFX levels\multi\35_island\post_fx\35_island.area_screen_effect
+setfield Skies[28].GlobalLighting levels\shared\post_fx\bright.chocolate_mountain_new
+setfield Skies[28].Parameters levels\multi\35_island\35_island.sky_atm_parameters
+
+addblockelements Skies
+setfield Skies[29].Name "Sword Base"
+setfield Skies[29].Object levels\multi\20_sword_slayer\sky_sword_slayer_afternoon\sky_sword_slayer_afternoon.scenery
+setfield Skies[29].BackgroundSound sound\levels\solo\m20\alpine_wind2\alpine_wind2.sound_looping
+setfield Skies[29].CameraFX levels\multi\20_sword_slayer\post_fx\20_sword_slayer.camera_fx_settings
+setfield Skies[29].ScreenFX levels\multi\20_sword_slayer\post_fx\20_sword_slayer.area_screen_effect
+setfield Skies[29].GlobalLighting levels\shared\post_fx\bright.chocolate_mountain_new
+setfield Skies[29].Parameters levels\multi\20_sword_slayer\20_sword_slayer.sky_atm_parameters
+
+addblockelements Skies
+setfield Skies[30].Name "Tempest"
+setfield Skies[30].Object levels\multi\dlc\dlc_medium\dlc_medium_beachhead_sky\dlc_medium_beachhead_sky.scenery
+setfield Skies[30].BackgroundSound sound\levels\solo\dlc\dlc_medium\halo_ext\halo_ext.sound_looping
+setfield Skies[30].CameraFX levels\multi\dlc\dlc_medium\post_fx\dlc_medium.camera_fx_settings
+setfield Skies[30].ScreenFX levels\multi\dlc\dlc_medium\post_fx\dlc_medium.area_screen_effect
+setfield Skies[30].GlobalLighting levels\multi\dlc\dlc_medium\post_fx\dlc_medium.chocolate_mountain_new
+setfield Skies[30].Parameters levels\multi\dlc\dlc_medium\dlc_medium.sky_atm_parameters
+
+addblockelements Skies
+setfield Skies[31].Name "Zealot"
+setfield Skies[31].Object levels\multi\45_aftship\sky_45_aftship\sky_45_aftship.scenery
+setfield Skies[31].BackgroundSound sound\levels\solo\m45\corvette_hallway\corvette_hallway.sound_looping
+setfield Skies[31].CameraFX levels\multi\45_aftship\post_fx\m45.camera_fx_settings
+setfield Skies[31].ScreenFX levels\multi\45_aftship\post_fx\m45.area_screen_effect
+setfield Skies[31].GlobalLighting levels\shared\post_fx\bright.chocolate_mountain_new
+setfield Skies[31].Parameters levels\multi\45_aftship\45_aftship.sky_atm_parameters
+SaveTagChanges
+Exit

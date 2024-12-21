@@ -1,7 +1,7 @@
 "C:\Users\zekken\Desktop\ElDewrito 0.7 Official\maps\tags.dat"
 
 # echo ==Set Variables...==
-SetVariable workingdir "C:\Users\zekken\Desktop\ramp2"
+SetVariable workingdir "C:\Users\zekken\Desktop\Ramp-2"
 SetVariable modsfolder "C:\Users\zekken\Desktop\ElDewrito 0.7 Official\mods"
 SetVariable reachmaps "Z:\Halo Stuff\retail maps for porting and ed caches\Halo Reach maps"
 
@@ -138,6 +138,8 @@ setfield Palette[*].DescriptionIndex -1
 setfield Palette[*].Object objects\vehicles\covenant\revenant\revenant.vehicle
 SaveTagChanges
 Exit
+
+UpdateMapFiles "workingdir\info"
 
 SaveModPackage "modsfolder\RAMP_2.pak"
 
