@@ -177,12 +177,6 @@ setfield Materials[0].RenderMethod objects\cex\cex_beaver_creek\crates\gravity_l
 SaveTagChanges
 exit
 
-echo ==Fix projectile drop==
-edittag objects\weapons\support_high\rocket_launcher\projectiles\rocket.projectile
-setfield WaterGravityScale 0
-SaveTagChanges
-Exit
-
 echo ==Apply Reach Weapons==
 OpenModPackage "workingdir\Reach Weapons EK.pak"
 ApplyModPackage
@@ -405,6 +399,31 @@ exit
 
 edittag ui\halox\pregame_lobby\pregame_lobby_template_mapeditor.gui_group_widget_definition
 setfield TextWidgets[5].Definition.GuiRenderBlock.Bounds720p 20 115 350 704
+savetagchanges
+exit
+
+echo ==Improve low gravity==
+edittag objects\levels\ca_dev\dlc_condemned\zero_g_field\zero_g_field.physics_model
+setfield PhantomTypes[0].Flags.Halo3ODST NegatesGravity,IgnoresScenery
+setfield PhantomTypes[0].DirectionAcceleration -1.5
+setfield PhantomTypes[0].DirectionMaxVelocity 3
+savetagchanges
+exit
+
+edittag objects\levels\multi\dlc\dlc_slayer\low_grav_space\low_grav_space.physics_model
+setfield PhantomTypes[0].DirectionAcceleration -1.12
+setfield PhantomTypes[0].DirectionMaxVelocity 5
+savetagchanges
+exit
+
+echo ==Decrease jump velocity to match reach (also low gravity related)==
+edittag objects\characters\masterchief\mp_masterchief\mp_masterchief.biped
+setfield JumpVelocity 2.3
+savetagchanges
+exit
+
+edittag objects\characters\elite\mp_elite\mp_elite.biped
+setfield JumpVelocity 2.3
 savetagchanges
 exit
 
