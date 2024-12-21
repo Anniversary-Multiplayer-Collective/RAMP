@@ -1,0 +1,38 @@
+"C:\Users\zekken\Desktop\ElDewrito 0.7 Official\maps"
+CreateModPackage
+Reach Weapons EK
+Reach Weapons made in the H3EK https://www.nexusmods.com/halothemasterchiefcollection/mods/2646
+Zekken
+0.1
+Multiplayer
+
+OpenCacheFile E:\SteamLibrary\steamapps\common\H3EK\maps\reach_weaps.map
+PortTag *.weap
+Exit
+
+nametag dw3\r3ach\objects\weapons\melee\energy_sword\energy_sword.weapon objects\weapons\melee\energy_blade\energy_blade
+nametag dw3\r3ach\objects\weapons\melee\energy_sword\energy_sword_useless.weapon objects\weapons\melee\energy_blade\energy_blade_useless
+nametag dw3\r3ach\objects\weapons\pistol\magnum\magnum.weapon objects\weapons\pistol\magnum\magnum
+nametag dw3\r3ach\objects\weapons\support_high\spartan_laser\spartan_laser.weapon objects\weapons\support_high\spartan_laser\spartan_laser
+nametag dw3\r3ach\objects\weapons\pistol\needler\needler.weapon objects\weapons\pistol\needler\needler
+nametag dw3\r3ach\objects\weapons\pistol\plasma_pistol\plasma_pistol.weapon objects\weapons\pistol\plasma_pistol\plasma_pistol
+nametag dw3\r3ach\objects\weapons\rifle\assault_rifle\assault_rifle.weapon objects\weapons\rifle\assault_rifle\assault_rifle
+nametag dw3\r3ach\objects\weapons\rifle\battle_rifle\battle_rifle.weapon objects\weapons\rifle\battle_rifle\battle_rifle
+nametag dw3\r3ach\objects\weapons\melee\gravity_hammer\gravity_hammer.weapon objects\weapons\melee\gravity_hammer\gravity_hammer
+nametag dw3\r3ach\objects\weapons\rifle\dmr\dmr.weapon objects\weapons\rifle\dmr\dmr
+nametag dw3\r3ach\objects\weapons\rifle\plasma_rifle\plasma_rifle.weapon objects\weapons\rifle\plasma_rifle\plasma_rifle
+nametag dw3\r3ach\objects\weapons\rifle\shotgun\shotgun.weapon objects\weapons\rifle\shotgun\shotgun
+nametag dw3\r3ach\objects\weapons\rifle\sniper_rifle\sniper_rifle.weapon objects\weapons\rifle\sniper_rifle\sniper_rifle
+nametag dw3\r3ach\objects\weapons\rifle\spike_rifle\spike_rifle.weapon objects\weapons\rifle\spike_rifle\spike_rifle
+nametag dw3\r3ach\objects\weapons\support_high\flak_cannon\flak_cannon.weapon objects\weapons\support_high\flak_cannon\flak_cannon
+nametag dw3\r3ach\objects\weapons\support_high\plasma_launcher\plasma_launcher.weapon objects\weapons\support_high\plasma_launcher\plasma_launcher
+nametag dw3\r3ach\objects\weapons\support_high\rocket_launcher\rocket_launcher.weapon objects\weapons\support_high\rocket_launcher\rocket_launcher
+nametag dw3\r3ach\objects\weapons\pistol\target_laser\target_laser.weapon objects\weapons\pistol\target_laser\target_laser
+nametag dw3\r3ach\objects\weapons\rifle\grenade_launcher\grenade_launcher.weapon objects\weapons\rifle\grenade_launcher\grenade_launcher
+nametag dw3\r3ach\objects\weapons\rifle\plasma_repeater\plasma_repeater.weapon objects\weapons\rifle\plasma_repeater\plasma_repeater
+nametag dw3\r3ach\objects\weapons\rifle\concussion_rifle\concussion_rifle.weapon objects\weapons\rifle\concussion_rifle\concussion_rifle
+nametag dw3\r3ach\objects\weapons\rifle\needle_rifle\needle_rifle.weapon objects\weapons\rifle\needle_rifle\needle_rifle
+nametag dw3\r3ach\objects\weapons\rifle\focus_rifle\focus_rifle.weapon objects\weapons\rifle\focus_rifle\focus_rifle
+
+
+SaveModPackage "C:\Users\zekken\Desktop\Ramp\Reach Weapons EK.pak"
