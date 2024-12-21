@@ -1,0 +1,80 @@
+{
+  "TagName": "ai\\squad_templates\\sq_camp_jetpack_3",
+  "TagType": "squad_template",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Name": "sq_camp_brute_jetpack_3",
+    "CellTemplates": [
+      {
+        "Name": "3_jetpack",
+        "DifficultyFlags": "None",
+        "RoundRange": "Lower: 0, Upper: 0",
+        "SetRange": "Lower: 0, Upper: 0",
+        "NormalDiffCount": 3,
+        "MajorUpgrade": "None",
+        "Characters": [
+          {
+            "DifficultyFlags": "None",
+            "RoundRange": "Lower: 0, Upper: 0",
+            "SetRange": "Lower: 0, Upper: 0",
+            "Object": null,
+            "Probability": 5
+          }
+        ],
+        "InitialWeapons": [
+          {
+            "DifficultyFlags": "None",
+            "RoundRange": "Lower: 0, Upper: 0",
+            "SetRange": "Lower: 0, Upper: 0",
+            "Object": {
+              "Type": "weapon",
+              "Name": "objects\\weapons\\rifle\\spike_rifle\\spike_rifle",
+              "Generate": false
+            },
+            "Probability": 5
+          },
+          {
+            "DifficultyFlags": "None",
+            "RoundRange": "Lower: 0, Upper: 0",
+            "SetRange": "Lower: 0, Upper: 0",
+            "Object": null,
+            "Probability": 5
+          },
+          {
+            "DifficultyFlags": "Heroic, Legendary",
+            "RoundRange": "Lower: 0, Upper: 0",
+            "SetRange": "Lower: 0, Upper: 0",
+            "Object": {
+              "Type": "weapon",
+              "Name": "objects\\weapons\\rifle\\covenant_carbine\\covenant_carbine",
+              "Generate": false
+            },
+            "Probability": 3
+          },
+          {
+            "DifficultyFlags": "Heroic, Legendary",
+            "RoundRange": "Lower: 0, Upper: 0",
+            "SetRange": "Lower: 0, Upper: 0",
+            "Object": {
+              "Type": "weapon",
+              "Name": "objects\\weapons\\support_low\\brute_shot\\brute_shot",
+              "Generate": false
+            },
+            "Probability": 3
+          }
+        ],
+        "InitialSecondaryWeapons": [],
+        "InitialEquipment": [],
+        "GrenadeType": "HumanFragmentation",
+        "Vehicle": null,
+        "VehicleVariant": "invalid",
+        "ActivityName": "invalid"
+      }
+    ]
+  }
+}

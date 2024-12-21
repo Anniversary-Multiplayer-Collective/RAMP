@@ -1,0 +1,105 @@
+{
+  "TagName": "ai\\squad_templates\\sq_sur_jackal",
+  "TagType": "squad_template",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Name": "sq_sur_jackal",
+    "CellTemplates": [
+      {
+        "Name": "1_jackal_sniper",
+        "DifficultyFlags": "None",
+        "RoundRange": "Lower: 0, Upper: 0",
+        "SetRange": "Lower: 0, Upper: 0",
+        "NormalDiffCount": 1,
+        "MajorUpgrade": "None",
+        "Characters": [
+          {
+            "DifficultyFlags": "None",
+            "RoundRange": "Lower: 0, Upper: 0",
+            "SetRange": "Lower: 0, Upper: 0",
+            "Object": null,
+            "Probability": 1
+          }
+        ],
+        "InitialWeapons": [
+          {
+            "DifficultyFlags": "None",
+            "RoundRange": "Lower: 0, Upper: 0",
+            "SetRange": "Lower: 0, Upper: 0",
+            "Object": {
+              "Type": "weapon",
+              "Name": "objects\\weapons\\rifle\\covenant_carbine\\covenant_carbine",
+              "Generate": false
+            },
+            "Probability": 3
+          },
+          {
+            "DifficultyFlags": "None",
+            "RoundRange": "Lower: 3, Upper: 3",
+            "SetRange": "Lower: 0, Upper: 0",
+            "Object": {
+              "Type": "weapon",
+              "Name": "objects\\weapons\\rifle\\beam_rifle\\beam_rifle",
+              "Generate": false
+            },
+            "Probability": 1
+          }
+        ],
+        "InitialSecondaryWeapons": [],
+        "InitialEquipment": [],
+        "GrenadeType": "HumanFragmentation",
+        "Vehicle": null,
+        "VehicleVariant": "invalid",
+        "ActivityName": "invalid"
+      },
+      {
+        "Name": "3_jackals",
+        "DifficultyFlags": "None",
+        "RoundRange": "Lower: 0, Upper: 0",
+        "SetRange": "Lower: 0, Upper: 0",
+        "NormalDiffCount": 3,
+        "MajorUpgrade": "None",
+        "Characters": [
+          {
+            "DifficultyFlags": "None",
+            "RoundRange": "Lower: 0, Upper: 0",
+            "SetRange": "Lower: 0, Upper: 0",
+            "Object": null,
+            "Probability": 5
+          },
+          {
+            "DifficultyFlags": "None",
+            "RoundRange": "Lower: 0, Upper: 0",
+            "SetRange": "Lower: 0, Upper: 0",
+            "Object": null,
+            "Probability": 3
+          }
+        ],
+        "InitialWeapons": [
+          {
+            "DifficultyFlags": "None",
+            "RoundRange": "Lower: 0, Upper: 0",
+            "SetRange": "Lower: 0, Upper: 0",
+            "Object": {
+              "Type": "weapon",
+              "Name": "objects\\weapons\\pistol\\plasma_pistol\\plasma_pistol",
+              "Generate": false
+            },
+            "Probability": 1
+          }
+        ],
+        "InitialSecondaryWeapons": [],
+        "InitialEquipment": [],
+        "GrenadeType": "HumanFragmentation",
+        "Vehicle": null,
+        "VehicleVariant": "invalid",
+        "ActivityName": "invalid"
+      }
+    ]
+  }
+}

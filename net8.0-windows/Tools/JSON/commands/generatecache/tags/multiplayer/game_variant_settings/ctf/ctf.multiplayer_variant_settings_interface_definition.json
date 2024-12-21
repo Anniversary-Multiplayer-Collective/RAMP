@@ -1,0 +1,93 @@
+{
+  "TagName": "multiplayer\\game_variant_settings\\ctf\\ctf",
+  "TagType": "multiplayer_variant_settings_interface_definition",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Unknown": 0,
+    "GameEngineSettings": [
+      {
+        "Name": "ctf",
+        "SettingCategory": "CtfMain",
+        "Options": [
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": null,
+            "SubmenuSettingCategory": "None",
+            "SubmenuName": "invalid",
+            "SubmenuDescription": "invalid",
+            "ValuePairs": {
+              "Type": "text_value_pair_definition",
+              "Name": "multiplayer\\game_variant_settings\\ctf\\ctf_sudden_death",
+              "Generate": false
+            }
+          },
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": null,
+            "SubmenuSettingCategory": "None",
+            "SubmenuName": "invalid",
+            "SubmenuDescription": "invalid",
+            "ValuePairs": {
+              "Type": "text_value_pair_definition",
+              "Name": "multiplayer\\game_variant_settings\\ctf\\ctf_flag_at_home",
+              "Generate": false
+            }
+          },
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": null,
+            "SubmenuSettingCategory": "None",
+            "SubmenuName": "invalid",
+            "SubmenuDescription": "invalid",
+            "ValuePairs": {
+              "Type": "text_value_pair_definition",
+              "Name": "multiplayer\\game_variant_settings\\ctf\\ctf_touch_return",
+              "Generate": false
+            }
+          },
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": null,
+            "SubmenuSettingCategory": "None",
+            "SubmenuName": "invalid",
+            "SubmenuDescription": "invalid",
+            "ValuePairs": {
+              "Type": "text_value_pair_definition",
+              "Name": "multiplayer\\game_variant_settings\\ctf\\ctf_idle_return",
+              "Generate": false
+            }
+          },
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": null,
+            "SubmenuSettingCategory": "None",
+            "SubmenuName": "invalid",
+            "SubmenuDescription": "invalid",
+            "ValuePairs": {
+              "Type": "text_value_pair_definition",
+              "Name": "multiplayer\\game_variant_settings\\ctf\\ctf_respawn_on_capture",
+              "Generate": false
+            }
+          },
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": {
+              "Type": "multiplayer_variant_settings_interface_definition",
+              "Name": "multiplayer\\game_variant_settings\\player_traits_template\\player_traits_dynamic_template",
+              "Generate": false
+            },
+            "SubmenuSettingCategory": "CtfCarrierTraitsMain",
+            "SubmenuName": "ctf_flag_carrier_traits",
+            "SubmenuDescription": "ctf_flag_carrier_traits_desc",
+            "ValuePairs": null
+          }
+        ]
+      }
+    ]
+  }
+}

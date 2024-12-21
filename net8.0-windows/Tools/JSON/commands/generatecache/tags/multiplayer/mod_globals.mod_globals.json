@@ -1,0 +1,253 @@
+{
+  "TagName": "multiplayer\\mod_globals",
+  "TagType": "mod_globals",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Version": 0,
+    "PlayerCharacterSets": [
+      {
+        "DisplayName": "General",
+        "Name": "default",
+        "RandomChance": 0.1,
+        "Characters": [
+          {
+            "DisplayName": "Spartan",
+            "Name": "masterchief",
+            "RandomChance": 0.1
+          },
+          {
+            "DisplayName": "Elite",
+            "Name": "dervish",
+            "RandomChance": 0.1
+          }
+        ]
+      }
+    ],
+    "PlayerCharacterCustomizations": [
+      {
+        "GlobalPlayerCharacterTypeIndex": 0,
+        "CharacterName": "model_spartan",
+        "CharacterDescription": "model_spartan_description",
+        "HudGlobals": {
+          "Type": "chud_globals_definition",
+          "Name": "ui\\chud\\globals",
+          "Generate": false
+        },
+        "VisionGlobals": {
+          "Type": "vision_mode",
+          "Name": "globals\\default_vision_mode",
+          "Generate": false
+        },
+        "ActionSet": {
+          "Type": "player_action_set",
+          "Name": "objects\\characters\\masterchief\\mp_masterchief\\actions",
+          "Generate": false
+        },
+        "RegionCameraScripts": [
+          {
+            "RegionName": "helmet",
+            "ScriptNameWidescreen": "helmet_camera_wide",
+            "ScriptNameStandard": "helmet_camera_standard",
+            "BipedRotation": 50.0,
+            "RotationDuration": 0.5
+          },
+          {
+            "RegionName": "body",
+            "ScriptNameWidescreen": "body_camera_wide",
+            "ScriptNameStandard": "body_camera_standard",
+            "BipedRotation": 60.0,
+            "RotationDuration": 0.5
+          },
+          {
+            "RegionName": "leftshoulder",
+            "ScriptNameWidescreen": "leftshoulder_camera_wide",
+            "ScriptNameStandard": "leftshoulder_camera_standard",
+            "BipedRotation": 40.0,
+            "RotationDuration": 0.5
+          },
+          {
+            "RegionName": "rightshoulder",
+            "ScriptNameWidescreen": "rightshoulder_camera_wide",
+            "ScriptNameStandard": "rightshoulder_camera_standard",
+            "BipedRotation": 110.0,
+            "RotationDuration": 0.5
+          },
+          {
+            "RegionName": "emblem",
+            "ScriptNameWidescreen": "rightshoulder_camera_wide",
+            "ScriptNameStandard": "rightshoulder_camera_standard",
+            "BipedRotation": 110.0,
+            "RotationDuration": 0.5
+          },
+          {
+            "RegionName": "exit",
+            "ScriptNameWidescreen": "exit_subcamera",
+            "ScriptNameStandard": "exit_subcamera",
+            "BipedRotation": 0.0,
+            "RotationDuration": 0.5
+          },
+          {
+            "RegionName": "colorsTertiary",
+            "ScriptNameWidescreen": "helmet_camera_wide",
+            "ScriptNameStandard": "helmet_camera_standard",
+            "BipedRotation": 50.0,
+            "RotationDuration": 0.5
+          }
+        ],
+        "CharacterPositionData": {
+          "Flags": "PlaceBipedRelativeToCamera, RotateInCustomization",
+          "BipedNameIndex": 15,
+          "SettingsCameraIndex": 26,
+          "PlatformNameIndex": -1,
+          "RelativeBipedPosition": "I: 0, J: 0, K: 0",
+          "RelativeBipedRotation": 0.0,
+          "BipedPositionWidescreen": "X: 0, Y: 0, Z: 0",
+          "BipedPositionStandard": "X: 0, Y: 0, Z: 0",
+          "BipedRotation": 0.0
+        },
+        "CharacterColors": {
+          "ValidColorFlags": "PrimaryColor, SecondaryColor, TertiaryColor, QuaternaryColor",
+          "TeamOverrideFlags": "PrimaryColor, SecondaryColor, QuaternaryColor",
+          "Colors": [
+            {
+              "Name": "cef_color_primary",
+              "Description": "cef_color_primary_desc",
+              "Default": "Alpha: 0, Red: 84, Green: 110, Blue: 38"
+            },
+            {
+              "Name": "cef_color_secondary",
+              "Description": "cef_color_secondary_desc",
+              "Default": "Alpha: 0, Red: 84, Green: 110, Blue: 38"
+            },
+            {
+              "Name": "cef_color_visor",
+              "Description": "cef_color_visor_desc",
+              "Default": "Alpha: 0, Red: 255, Green: 127, Blue: 0"
+            },
+            {
+              "Name": "cef_color_light",
+              "Description": "cef_color_light_desc",
+              "Default": "Alpha: 0, Red: 150, Green: 133, Blue: 255"
+            },
+            {
+              "Name": "invalid",
+              "Description": "invalid",
+              "Default": "Alpha: 0, Red: 0, Green: 0, Blue: 0"
+            }
+          ]
+        }
+      },
+      {
+        "GlobalPlayerCharacterTypeIndex": 1,
+        "CharacterName": "model_elite",
+        "CharacterDescription": "model_elite_description",
+        "HudGlobals": {
+          "Type": "chud_globals_definition",
+          "Name": "ui\\chud\\globals",
+          "Generate": false
+        },
+        "VisionGlobals": {
+          "Type": "vision_mode",
+          "Name": "globals\\default_vision_mode",
+          "Generate": false
+        },
+        "ActionSet": {
+          "Type": "player_action_set",
+          "Name": "objects\\characters\\elite\\mp_elite\\actions",
+          "Generate": false
+        },
+        "RegionCameraScripts": [
+          {
+            "RegionName": "helmet",
+            "ScriptNameWidescreen": "helmet_camera_wide",
+            "ScriptNameStandard": "helmet_camera_standard",
+            "BipedRotation": 50.0,
+            "RotationDuration": 0.5
+          },
+          {
+            "RegionName": "body",
+            "ScriptNameWidescreen": "body_camera_wide",
+            "ScriptNameStandard": "body_camera_standard",
+            "BipedRotation": 70.0,
+            "RotationDuration": 0.5
+          },
+          {
+            "RegionName": "leftshoulder",
+            "ScriptNameWidescreen": "leftshoulder_camera_wide",
+            "ScriptNameStandard": "leftshoulder_camera_standard",
+            "BipedRotation": 0.0,
+            "RotationDuration": 0.5
+          },
+          {
+            "RegionName": "rightshoulder",
+            "ScriptNameWidescreen": "rightshoulder_camera_wide",
+            "ScriptNameStandard": "rightshoulder_camera_standard",
+            "BipedRotation": 70.0,
+            "RotationDuration": 0.5
+          },
+          {
+            "RegionName": "emblem",
+            "ScriptNameWidescreen": "rightshoulder_camera_wide",
+            "ScriptNameStandard": "rightshoulder_camera_standard",
+            "BipedRotation": 70.0,
+            "RotationDuration": 0.5
+          },
+          {
+            "RegionName": "exit",
+            "ScriptNameWidescreen": "exit_subcamera",
+            "ScriptNameStandard": "exit_subcamera",
+            "BipedRotation": 0.0,
+            "RotationDuration": 0.5
+          }
+        ],
+        "CharacterPositionData": {
+          "Flags": "PlaceBipedRelativeToCamera, RotateInCustomization",
+          "BipedNameIndex": 14,
+          "SettingsCameraIndex": 26,
+          "PlatformNameIndex": -1,
+          "RelativeBipedPosition": "I: 0.3, J: 0.04, K: 0",
+          "RelativeBipedRotation": -10.0,
+          "BipedPositionWidescreen": "X: 0, Y: 0, Z: 0",
+          "BipedPositionStandard": "X: 0, Y: 0, Z: 0",
+          "BipedRotation": 0.0
+        },
+        "CharacterColors": {
+          "ValidColorFlags": "PrimaryColor, SecondaryColor, TertiaryColor, QuaternaryColor",
+          "TeamOverrideFlags": "PrimaryColor, SecondaryColor",
+          "Colors": [
+            {
+              "Name": "cef_color_primary",
+              "Description": "cef_color_primary_desc",
+              "Default": "Alpha: 0, Red: 11, Green: 33, Blue: 86"
+            },
+            {
+              "Name": "cef_color_secondary",
+              "Description": "cef_color_secondary_desc",
+              "Default": "Alpha: 0, Red: 29, Green: 16, Blue: 82"
+            },
+            {
+              "Name": "cef_color_detail",
+              "Description": "cef_color_detail_desc",
+              "Default": "Alpha: 0, Red: 255, Green: 255, Blue: 255"
+            },
+            {
+              "Name": "cef_color_light",
+              "Description": "cef_color_light_desc",
+              "Default": "Alpha: 0, Red: 27, Green: 255, Blue: 104"
+            },
+            {
+              "Name": "invalid",
+              "Description": "invalid",
+              "Default": "Alpha: 0, Red: 0, Green: 0, Blue: 0"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

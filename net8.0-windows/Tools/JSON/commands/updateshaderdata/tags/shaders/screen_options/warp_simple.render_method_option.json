@@ -1,0 +1,48 @@
+{
+  "TagName": "shaders\\screen_options\\warp_simple",
+  "TagType": "render_method_option",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Parameters": [
+      {
+        "Name": "warp_map",
+        "Type": "Bitmap",
+        "RenderMethodExtern": "none",
+        "DefaultSamplerBitmap": {
+          "Type": "bitmap",
+          "Name": "shaders\\default_bitmaps\\bitmaps\\color_black_alpha_black",
+          "Generate": false
+        },
+        "DefaultFloatArgument": 0.0,
+        "DefaultIntBoolArgument": 0,
+        "Flags": 0,
+        "DefaultFilterMode": "Bilinear",
+        "DefaultAddressMode": "Wrap",
+        "AnisotropyAmount": 0,
+        "DefaultColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "DefaultBitmapScale": 0.0,
+        "HelpText": ""
+      },
+      {
+        "Name": "warp_amount",
+        "Type": "Real",
+        "RenderMethodExtern": "none",
+        "DefaultSamplerBitmap": null,
+        "DefaultFloatArgument": 1.0,
+        "DefaultIntBoolArgument": 0,
+        "Flags": 0,
+        "DefaultFilterMode": "Trilinear",
+        "DefaultAddressMode": "Wrap",
+        "AnisotropyAmount": 0,
+        "DefaultColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "DefaultBitmapScale": 0.0,
+        "HelpText": ""
+      }
+    ]
+  }
+}

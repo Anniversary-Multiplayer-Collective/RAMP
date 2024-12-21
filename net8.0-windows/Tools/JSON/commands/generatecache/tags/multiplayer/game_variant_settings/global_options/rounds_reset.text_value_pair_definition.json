@@ -1,0 +1,41 @@
+{
+  "TagName": "multiplayer\\game_variant_settings\\global_options\\rounds_reset",
+  "TagType": "text_value_pair_definition",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Parameter": "IntGlobalRoundsReset",
+    "Name": "rounds_reset",
+    "Description": "rounds_reset_desc",
+    "TextValuePairs": [
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 0,
+        "StringidValue": "invalid",
+        "Name": "rounds_reset_none",
+        "Description": "rounds_reset_none_desc"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 1,
+        "StringidValue": "invalid",
+        "Name": "rounds_reset_players",
+        "Description": "rounds_reset_players_desc"
+      },
+      {
+        "Flags": "DefaultSetting",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 2,
+        "StringidValue": "invalid",
+        "Name": "rounds_reset_all",
+        "Description": "rounds_reset_all_desc"
+      }
+    ]
+  }
+}

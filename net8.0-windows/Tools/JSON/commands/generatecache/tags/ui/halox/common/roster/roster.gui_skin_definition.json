@@ -1,0 +1,426 @@
+{
+  "TagName": "ui\\halox\\common\\roster\\roster",
+  "TagType": "gui_skin_definition",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Flags": "0",
+    "TextWidgets": [
+      {
+        "TemplateReference": null,
+        "Definition": {
+          "Flags": "DoNotApplyOldContentUpscaling, LeftJustify",
+          "GuiRenderBlock": {
+            "Name": "name",
+            "ScaledPositioning": "UNUSED",
+            "RenderDepthBias": 89,
+            "Bounds720p": "Top: 5, Left: 0, Bottom: 43, Right: 265",
+            "Bounds480i": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+            "AnimationCollection": {
+              "Type": "gui_widget_animation_collection_definition",
+              "Name": "ui\\halox\\common\\roster\\animations\\mp_list_name",
+              "Generate": false
+            }
+          },
+          "ValueOverrideList": "invalid",
+          "ValueIdentifier": "invalid",
+          "TextColorPreset": "invalid",
+          "CustomFont": "BodyText"
+        }
+      },
+      {
+        "TemplateReference": null,
+        "Definition": {
+          "Flags": "DoNotApplyOldContentUpscaling, LeftJustify, StringFromExportedText",
+          "GuiRenderBlock": {
+            "Name": "name_hilite",
+            "ScaledPositioning": "UNUSED",
+            "RenderDepthBias": 100,
+            "Bounds720p": "Top: -9, Left: 9, Bottom: 32, Right: 274",
+            "Bounds480i": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+            "AnimationCollection": {
+              "Type": "gui_widget_animation_collection_definition",
+              "Name": "ui\\halox\\common\\roster\\animations\\mp_name_hilite",
+              "Generate": false
+            }
+          },
+          "ValueOverrideList": "player_name",
+          "ValueIdentifier": "player_name",
+          "TextColorPreset": "invalid",
+          "CustomFont": "BodyText"
+        }
+      },
+      {
+        "TemplateReference": null,
+        "Definition": {
+          "Flags": "0",
+          "GuiRenderBlock": {
+            "Name": "player_found",
+            "ScaledPositioning": "UNUSED",
+            "RenderDepthBias": 0,
+            "Bounds720p": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+            "Bounds480i": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+            "AnimationCollection": null
+          },
+          "ValueOverrideList": "invalid",
+          "ValueIdentifier": "invalid",
+          "TextColorPreset": "invalid",
+          "CustomFont": "Terminal"
+        }
+      },
+      {
+        "TemplateReference": null,
+        "Definition": {
+          "Flags": "DoNotApplyOldContentUpscaling, LeftJustify, Uppercase, StringFromExportedText",
+          "GuiRenderBlock": {
+            "Name": "service_tag",
+            "ScaledPositioning": "UNUSED",
+            "RenderDepthBias": 100,
+            "Bounds720p": "Top: 19, Left: 9, Bottom: 60, Right: 274",
+            "Bounds480i": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+            "AnimationCollection": {
+              "Type": "gui_widget_animation_collection_definition",
+              "Name": "ui\\halox\\common\\roster\\animations\\rank_hilite",
+              "Generate": false
+            }
+          },
+          "ValueOverrideList": "invalid",
+          "ValueIdentifier": "service_tag",
+          "TextColorPreset": "invalid",
+          "CustomFont": "BodyText"
+        }
+      }
+    ],
+    "BitmapWidgets": [
+      {
+        "TemplateReference": null,
+        "Definition": {
+          "Flags": "DoNotApplyOldContentUpscaling",
+          "GuiRenderBlock": {
+            "Name": "base_color",
+            "ScaledPositioning": "UNUSED",
+            "RenderDepthBias": 83,
+            "Bounds720p": "Top: 0, Left: -47, Bottom: 0, Right: 0",
+            "Bounds480i": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+            "AnimationCollection": {
+              "Type": "gui_widget_animation_collection_definition",
+              "Name": "ui\\halox\\common\\roster\\animations\\mp_list_bitmap",
+              "Generate": false
+            }
+          },
+          "Bitmap": {
+            "Type": "bitmap",
+            "Name": "ui\\halox\\common\\roster\\roster_unfocused_ui",
+            "Generate": false
+          },
+          "CustomPixelShader": null,
+          "BlendMethod": "AlphaBlend",
+          "InitialSpriteSequence": 0,
+          "InitialSpriteFrame": 0,
+          "ValueOverrideList": "invalid",
+          "ValueIdentifier": "invalid"
+        }
+      },
+      {
+        "TemplateReference": null,
+        "Definition": {
+          "Flags": "DoNotApplyOldContentUpscaling",
+          "GuiRenderBlock": {
+            "Name": "base_color_hilite",
+            "ScaledPositioning": "UNUSED",
+            "RenderDepthBias": 93,
+            "Bounds720p": "Top: -15, Left: -47, Bottom: 0, Right: 0",
+            "Bounds480i": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+            "AnimationCollection": {
+              "Type": "gui_widget_animation_collection_definition",
+              "Name": "ui\\halox\\common\\roster\\animations\\mp_hilite",
+              "Generate": false
+            }
+          },
+          "Bitmap": {
+            "Type": "bitmap",
+            "Name": "ui\\halox\\common\\roster\\roster_focused_ui",
+            "Generate": false
+          },
+          "CustomPixelShader": null,
+          "BlendMethod": "AlphaBlend",
+          "InitialSpriteSequence": 0,
+          "InitialSpriteFrame": 0,
+          "ValueOverrideList": "invalid",
+          "ValueIdentifier": "invalid"
+        }
+      },
+      {
+        "TemplateReference": null,
+        "Definition": {
+          "Flags": "DoNotApplyOldContentUpscaling, ScaleToFitBounds",
+          "GuiRenderBlock": {
+            "Name": "player_emblem",
+            "ScaledPositioning": "UNUSED",
+            "RenderDepthBias": 87,
+            "Bounds720p": "Top: 2, Left: -42, Bottom: 36, Right: -7",
+            "Bounds480i": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+            "AnimationCollection": {
+              "Type": "gui_widget_animation_collection_definition",
+              "Name": "ui\\halox\\common\\roster\\animations\\mp_list_emblem",
+              "Generate": false
+            }
+          },
+          "Bitmap": {
+            "Type": "bitmap",
+            "Name": "ui\\halox\\common\\common_bitmaps\\emblems",
+            "Generate": false
+          },
+          "CustomPixelShader": null,
+          "BlendMethod": "AlphaBlend",
+          "InitialSpriteSequence": 0,
+          "InitialSpriteFrame": 0,
+          "ValueOverrideList": "invalid",
+          "ValueIdentifier": "invalid"
+        }
+      },
+      {
+        "TemplateReference": null,
+        "Definition": {
+          "Flags": "DoNotApplyOldContentUpscaling, ScaleToFitBounds",
+          "GuiRenderBlock": {
+            "Name": "player_emblem_hilite",
+            "ScaledPositioning": "UNUSED",
+            "RenderDepthBias": 97,
+            "Bounds720p": "Top: -5, Left: -43, Bottom: 43, Right: 5",
+            "Bounds480i": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+            "AnimationCollection": {
+              "Type": "gui_widget_animation_collection_definition",
+              "Name": "ui\\halox\\common\\roster\\animations\\emblem_hilite",
+              "Generate": false
+            }
+          },
+          "Bitmap": {
+            "Type": "bitmap",
+            "Name": "ui\\halox\\common\\common_bitmaps\\emblems",
+            "Generate": false
+          },
+          "CustomPixelShader": null,
+          "BlendMethod": "AlphaBlend",
+          "InitialSpriteSequence": 0,
+          "InitialSpriteFrame": 0,
+          "ValueOverrideList": "invalid",
+          "ValueIdentifier": "invalid"
+        }
+      },
+      {
+        "TemplateReference": null,
+        "Definition": {
+          "Flags": "None",
+          "GuiRenderBlock": {
+            "Name": "skill_level",
+            "ScaledPositioning": "UNUSED",
+            "RenderDepthBias": 0,
+            "Bounds720p": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+            "Bounds480i": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+            "AnimationCollection": null
+          },
+          "Bitmap": null,
+          "CustomPixelShader": null,
+          "BlendMethod": "Opaque",
+          "InitialSpriteSequence": 0,
+          "InitialSpriteFrame": 0,
+          "ValueOverrideList": "invalid",
+          "ValueIdentifier": "invalid"
+        }
+      },
+      {
+        "TemplateReference": null,
+        "Definition": {
+          "Flags": "None",
+          "GuiRenderBlock": {
+            "Name": "skill_level_hilite",
+            "ScaledPositioning": "UNUSED",
+            "RenderDepthBias": 0,
+            "Bounds720p": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+            "Bounds480i": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+            "AnimationCollection": null
+          },
+          "Bitmap": null,
+          "CustomPixelShader": null,
+          "BlendMethod": "Opaque",
+          "InitialSpriteSequence": 0,
+          "InitialSpriteFrame": 0,
+          "ValueOverrideList": "invalid",
+          "ValueIdentifier": "invalid"
+        }
+      },
+      {
+        "TemplateReference": null,
+        "Definition": {
+          "Flags": "DoNotApplyOldContentUpscaling, ScaleToFitBounds",
+          "GuiRenderBlock": {
+            "Name": "experience",
+            "ScaledPositioning": "UNUSED",
+            "RenderDepthBias": 88,
+            "Bounds720p": "Top: 3, Left: 296, Bottom: 35, Right: 318",
+            "Bounds480i": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+            "AnimationCollection": {
+              "Type": "gui_widget_animation_collection_definition",
+              "Name": "ui\\halox\\common\\roster\\animations\\rating_list_bitmap",
+              "Generate": false
+            }
+          },
+          "Bitmap": {
+            "Type": "bitmap",
+            "Name": "ui\\halox\\common\\roster\\exp_med_ui",
+            "Generate": false
+          },
+          "CustomPixelShader": null,
+          "BlendMethod": "AlphaBlend",
+          "InitialSpriteSequence": 0,
+          "InitialSpriteFrame": 0,
+          "ValueOverrideList": "invalid",
+          "ValueIdentifier": "invalid"
+        }
+      },
+      {
+        "TemplateReference": null,
+        "Definition": {
+          "Flags": "DoNotApplyOldContentUpscaling, ScaleToFitBounds",
+          "GuiRenderBlock": {
+            "Name": "experience_hilite",
+            "ScaledPositioning": "UNUSED",
+            "RenderDepthBias": 98,
+            "Bounds720p": "Top: 0, Left: 295, Bottom: 39, Right: 322",
+            "Bounds480i": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+            "AnimationCollection": {
+              "Type": "gui_widget_animation_collection_definition",
+              "Name": "ui\\halox\\common\\roster\\animations\\rating_hilite",
+              "Generate": false
+            }
+          },
+          "Bitmap": {
+            "Type": "bitmap",
+            "Name": "ui\\halox\\common\\roster\\exp_med_ui",
+            "Generate": false
+          },
+          "CustomPixelShader": null,
+          "BlendMethod": "AlphaBlend",
+          "InitialSpriteSequence": 0,
+          "InitialSpriteFrame": 0,
+          "ValueOverrideList": "invalid",
+          "ValueIdentifier": "invalid"
+        }
+      },
+      {
+        "TemplateReference": null,
+        "Definition": {
+          "Flags": "DoNotApplyOldContentUpscaling",
+          "GuiRenderBlock": {
+            "Name": "ring_of_light",
+            "ScaledPositioning": "UNUSED",
+            "RenderDepthBias": 85,
+            "Bounds720p": "Top: 3, Left: -82, Bottom: 0, Right: 0",
+            "Bounds480i": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+            "AnimationCollection": {
+              "Type": "gui_widget_animation_collection_definition",
+              "Name": "ui\\halox\\common\\roster\\animations\\roster_fade",
+              "Generate": false
+            }
+          },
+          "Bitmap": {
+            "Type": "bitmap",
+            "Name": "ui\\halox\\common\\roster\\ringspeak_ui",
+            "Generate": false
+          },
+          "CustomPixelShader": null,
+          "BlendMethod": "AlphaBlend",
+          "InitialSpriteSequence": 0,
+          "InitialSpriteFrame": 0,
+          "ValueOverrideList": "invalid",
+          "ValueIdentifier": "invalid"
+        }
+      },
+      {
+        "TemplateReference": null,
+        "Definition": {
+          "Flags": "None",
+          "GuiRenderBlock": {
+            "Name": "player_found",
+            "ScaledPositioning": "UNUSED",
+            "RenderDepthBias": 0,
+            "Bounds720p": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+            "Bounds480i": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+            "AnimationCollection": null
+          },
+          "Bitmap": null,
+          "CustomPixelShader": null,
+          "BlendMethod": "Opaque",
+          "InitialSpriteSequence": 0,
+          "InitialSpriteFrame": 0,
+          "ValueOverrideList": "invalid",
+          "ValueIdentifier": "invalid"
+        }
+      },
+      {
+        "TemplateReference": null,
+        "Definition": {
+          "Flags": "DoNotApplyOldContentUpscaling",
+          "GuiRenderBlock": {
+            "Name": "rank_tray",
+            "ScaledPositioning": "UNUSED",
+            "RenderDepthBias": 85,
+            "Bounds720p": "Top: 0, Left: 253, Bottom: 0, Right: 0",
+            "Bounds480i": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+            "AnimationCollection": {
+              "Type": "gui_widget_animation_collection_definition",
+              "Name": "ui\\halox\\common\\roster\\animations\\mp_list_bitmap",
+              "Generate": false
+            }
+          },
+          "Bitmap": {
+            "Type": "bitmap",
+            "Name": "ui\\halox\\common\\roster\\rank_tray_ui",
+            "Generate": false
+          },
+          "CustomPixelShader": null,
+          "BlendMethod": "AlphaBlend",
+          "InitialSpriteSequence": 0,
+          "InitialSpriteFrame": 0,
+          "ValueOverrideList": "invalid",
+          "ValueIdentifier": "invalid"
+        }
+      },
+      {
+        "TemplateReference": null,
+        "Definition": {
+          "Flags": "None",
+          "GuiRenderBlock": {
+            "Name": "rank_tray_hilite",
+            "ScaledPositioning": "UNUSED",
+            "RenderDepthBias": 95,
+            "Bounds720p": "Top: -10, Left: 253, Bottom: 0, Right: 0",
+            "Bounds480i": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+            "AnimationCollection": {
+              "Type": "gui_widget_animation_collection_definition",
+              "Name": "ui\\halox\\common\\roster\\animations\\mp_hilite",
+              "Generate": false
+            }
+          },
+          "Bitmap": {
+            "Type": "bitmap",
+            "Name": "ui\\halox\\common\\roster\\rank_tray_ui",
+            "Generate": false
+          },
+          "CustomPixelShader": null,
+          "BlendMethod": "AlphaBlend",
+          "InitialSpriteSequence": 0,
+          "InitialSpriteFrame": 1,
+          "ValueOverrideList": "invalid",
+          "ValueIdentifier": "invalid"
+        }
+      }
+    ],
+    "ModelWidgets": []
+  }
+}

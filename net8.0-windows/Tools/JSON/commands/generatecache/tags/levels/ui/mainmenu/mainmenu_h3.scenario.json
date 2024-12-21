@@ -1,0 +1,5717 @@
+{
+  "TagName": "levels\\ui\\mainmenu\\mainmenu",
+  "TagType": "scenario",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": {
+    "BlamScriptFile": "mainmenu_h3.hsc"
+  },
+  "TagData": {
+    "MapType": "MainMenu",
+    "MapSubType": "None",
+    "Flags": "H3Compatibility",
+    "CampaignId": -1,
+    "MapId": 270735729,
+    "LocalNorth": "Degrees: 0",
+    "SandboxBudget": 0.0,
+    "StructureBsps": [
+      {
+        "StructureBsp": {
+          "Type": "scenario_structure_bsp",
+          "Name": "levels\\ui\\mainmenu\\bsp_menu",
+          "Generate": false
+        },
+        "Design": null,
+        "Lighting": null,
+        "SizeClass": "_512x51215Meg",
+        "HackyAmbientMinLuminance": 0.0,
+        "DirectDraftAmbientMinLuminance": 0.0,
+        "StructureVertexSink": 0.0,
+        "Flags": "None",
+        "DefaultSkyIndex": -1,
+        "InstanceFadeStartPixels": 10,
+        "InstanceFadeEndPixels": 5,
+        "Cubemap": null,
+        "Wind": {
+          "Type": "wind",
+          "Name": "levels\\ui\\mainmenu\\main_menu",
+          "Generate": false
+        },
+        "ClonedBspFlags": 0
+      },
+      {
+        "StructureBsp": {
+          "Type": "scenario_structure_bsp",
+          "Name": "levels\\ui\\mainmenu\\bsp_lobbies",
+          "Generate": false
+        },
+        "Design": null,
+        "Lighting": null,
+        "SizeClass": "_512x51215Meg",
+        "HackyAmbientMinLuminance": 0.0,
+        "DirectDraftAmbientMinLuminance": 0.0,
+        "StructureVertexSink": 0.0,
+        "Flags": "None",
+        "DefaultSkyIndex": -1,
+        "InstanceFadeStartPixels": 0,
+        "InstanceFadeEndPixels": 0,
+        "Cubemap": null,
+        "Wind": null,
+        "ClonedBspFlags": 0
+      }
+    ],
+    "StructureSeams": null,
+    "SkyReferences": [
+      {
+        "SkyObject": {
+          "Type": "scenery",
+          "Name": "levels\\ui\\mainmenu\\sky\\menu_sky",
+          "Generate": false
+        },
+        "NameIndex": 0,
+        "ActiveBsps": "Bsp0"
+      }
+    ],
+    "ZoneSetPvs": [
+      {
+        "StructureBspMask": "Bsp0, Bsp1",
+        "Version": 0,
+        "Flags": "Bit3",
+        "BspChecksums": [
+          {
+            "Checksum": 286986511
+          },
+          {
+            "Checksum": 521338881
+          }
+        ],
+        "StructureBspPvs": [
+          {
+            "ClusterPvs": [
+              {
+                "ClusterPvsBitVectors": [
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "Bit0, Bit1"
+                      }
+                    ]
+                  },
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "None"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "ClusterPvsBitVectors": [
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "Bit0, Bit1"
+                      }
+                    ]
+                  },
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "None"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "ClusterPvsDoorsClosed": [
+              {
+                "ClusterPvsBitVectors": [
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "Bit0, Bit1"
+                      }
+                    ]
+                  },
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "None"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "ClusterPvsBitVectors": [
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "Bit0, Bit1"
+                      }
+                    ]
+                  },
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "None"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "AttachedSkyIndices": [
+              {
+                "SkyIndex": 0
+              },
+              {
+                "SkyIndex": 0
+              }
+            ],
+            "VisibleSkyIndices": [
+              {
+                "SkyIndex": 0
+              },
+              {
+                "SkyIndex": 0
+              }
+            ],
+            "MutipleSkiesVisibleBitvector": [],
+            "ClusterAudioBitvector": [
+              {
+                "Bits": "None"
+              }
+            ],
+            "ClusterMappings": [
+              {
+                "Clusters": []
+              },
+              {
+                "Clusters": []
+              }
+            ]
+          },
+          {
+            "ClusterPvs": [
+              {
+                "ClusterPvsBitVectors": [
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "None"
+                      }
+                    ]
+                  },
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "Bit0"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "ClusterPvsBitVectors": [
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "None"
+                      }
+                    ]
+                  },
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "Bit1"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "ClusterPvsBitVectors": [
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "None"
+                      }
+                    ]
+                  },
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "Bit2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "ClusterPvsBitVectors": [
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "None"
+                      }
+                    ]
+                  },
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "Bit3"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "ClusterPvsBitVectors": [
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "None"
+                      }
+                    ]
+                  },
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "Bit4"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "ClusterPvsBitVectors": [
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "None"
+                      }
+                    ]
+                  },
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "Bit5"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "ClusterPvsDoorsClosed": [
+              {
+                "ClusterPvsBitVectors": [
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "None"
+                      }
+                    ]
+                  },
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "Bit0"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "ClusterPvsBitVectors": [
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "None"
+                      }
+                    ]
+                  },
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "Bit1"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "ClusterPvsBitVectors": [
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "None"
+                      }
+                    ]
+                  },
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "Bit2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "ClusterPvsBitVectors": [
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "None"
+                      }
+                    ]
+                  },
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "Bit3"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "ClusterPvsBitVectors": [
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "None"
+                      }
+                    ]
+                  },
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "Bit4"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "ClusterPvsBitVectors": [
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "None"
+                      }
+                    ]
+                  },
+                  {
+                    "Bits": [
+                      {
+                        "Bits": "Bit5"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "AttachedSkyIndices": [
+              {
+                "SkyIndex": -1
+              },
+              {
+                "SkyIndex": -1
+              },
+              {
+                "SkyIndex": -1
+              },
+              {
+                "SkyIndex": -1
+              },
+              {
+                "SkyIndex": -1
+              },
+              {
+                "SkyIndex": -1
+              }
+            ],
+            "VisibleSkyIndices": [
+              {
+                "SkyIndex": -1
+              },
+              {
+                "SkyIndex": -1
+              },
+              {
+                "SkyIndex": -1
+              },
+              {
+                "SkyIndex": -1
+              },
+              {
+                "SkyIndex": -1
+              },
+              {
+                "SkyIndex": -1
+              }
+            ],
+            "MutipleSkiesVisibleBitvector": [],
+            "ClusterAudioBitvector": [
+              {
+                "Bits": "None"
+              }
+            ],
+            "ClusterMappings": [
+              {
+                "Clusters": []
+              },
+              {
+                "Clusters": []
+              },
+              {
+                "Clusters": []
+              },
+              {
+                "Clusters": []
+              },
+              {
+                "Clusters": []
+              },
+              {
+                "Clusters": []
+              }
+            ]
+          }
+        ],
+        "PortaldeviceMapping": [
+          {
+            "DevicePortalAssociations": [],
+            "GamePortalToPortalMap": []
+          },
+          {
+            "DevicePortalAssociations": [],
+            "GamePortalToPortalMap": []
+          }
+        ]
+      }
+    ],
+    "ZoneSetAudibility": [
+      {
+        "DoorPortalCount": 0,
+        "RoomCount": 8,
+        "RoomDistanceBounds": "Lower: 3.4028235E+38, Upper: 0",
+        "EncodedDoorPas": [],
+        "RoomDoorPortalEncodedPas": [],
+        "AiDeafeningPas": [
+          {
+            "EncodedData": 268435454
+          }
+        ],
+        "RoomDistances": [
+          {
+            "EncodedData": 0
+          },
+          {
+            "EncodedData": -1
+          },
+          {
+            "EncodedData": -1
+          },
+          {
+            "EncodedData": -1
+          },
+          {
+            "EncodedData": -1
+          },
+          {
+            "EncodedData": -1
+          },
+          {
+            "EncodedData": -1
+          },
+          {
+            "EncodedData": -1
+          },
+          {
+            "EncodedData": -1
+          },
+          {
+            "EncodedData": -1
+          },
+          {
+            "EncodedData": -1
+          },
+          {
+            "EncodedData": -1
+          },
+          {
+            "EncodedData": -1
+          },
+          {
+            "EncodedData": -1
+          },
+          {
+            "EncodedData": -1
+          },
+          {
+            "EncodedData": -1
+          },
+          {
+            "EncodedData": -1
+          },
+          {
+            "EncodedData": -1
+          },
+          {
+            "EncodedData": -1
+          },
+          {
+            "EncodedData": -1
+          },
+          {
+            "EncodedData": -1
+          },
+          {
+            "EncodedData": -1
+          },
+          {
+            "EncodedData": -1
+          },
+          {
+            "EncodedData": -1
+          },
+          {
+            "EncodedData": -1
+          },
+          {
+            "EncodedData": -1
+          },
+          {
+            "EncodedData": -1
+          },
+          {
+            "EncodedData": -1
+          }
+        ],
+        "GamePortalToDoorOccluderMappings": [
+          {
+            "FirstDoorOccluderIndex": 0,
+            "DoorOccluderCount": 0
+          },
+          {
+            "FirstDoorOccluderIndex": 0,
+            "DoorOccluderCount": 0
+          }
+        ],
+        "BspClusterToRoomBoundsMappings": [
+          {
+            "FirstRoomIndex": 0,
+            "RoomIndexCount": 2
+          },
+          {
+            "FirstRoomIndex": 2,
+            "RoomIndexCount": 6
+          }
+        ],
+        "BspClusterToRoomIndices": [
+          {
+            "RoomIndex": 0
+          },
+          {
+            "RoomIndex": 1
+          },
+          {
+            "RoomIndex": 2
+          },
+          {
+            "RoomIndex": 3
+          },
+          {
+            "RoomIndex": 4
+          },
+          {
+            "RoomIndex": 5
+          },
+          {
+            "RoomIndex": 6
+          },
+          {
+            "RoomIndex": 7
+          }
+        ]
+      }
+    ],
+    "ZoneSets": [
+      {
+        "Name": "set_menu",
+        "PvsIndex": 0,
+        "Flags": "None",
+        "Bsps": "Bsp0, Bsp1",
+        "RequiredDesignerZones": "None",
+        "ForbiddenDesignerZones": "None",
+        "CinematicZones": "None",
+        "HintPreviousZoneSet": -1,
+        "AudibilityIndex": 0
+      }
+    ],
+    "BspAtlas": [],
+    "CampaignPlayers": [],
+    "PredictedResources": [],
+    "Functions": [],
+    "EditorScenarioData": "",
+    "Comments": [],
+    "ScenarioEnvironmentObjects": [],
+    "ObjectNames": [
+      {
+        "Name": "sky",
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "PlacementIndex": -1
+      },
+      {
+        "Name": "cruiser1",
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "PlacementIndex": 2
+      },
+      {
+        "Name": "cruiser2",
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "PlacementIndex": 3
+      },
+      {
+        "Name": "cruiser3",
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "PlacementIndex": 4
+      },
+      {
+        "Name": "clouds_ark",
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "PlacementIndex": 5
+      },
+      {
+        "Name": "matchmaking_earth",
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "PlacementIndex": 7
+      },
+      {
+        "Name": "editor_monitor",
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "PlacementIndex": 8
+      },
+      {
+        "Name": "editor_warthog",
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "PlacementIndex": 6
+      },
+      {
+        "Name": "earth",
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "PlacementIndex": 9
+      },
+      {
+        "Name": "ark",
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "PlacementIndex": 10
+      },
+      {
+        "Name": "forerunner_ship",
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "PlacementIndex": 11
+      },
+      {
+        "Name": "cruiser4",
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "PlacementIndex": 12
+      },
+      {
+        "Name": "banshee1",
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "PlacementIndex": 13
+      },
+      {
+        "Name": "banshee2",
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "PlacementIndex": 14
+      },
+      {
+        "Name": "elite_appearance",
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "PlacementIndex": 1
+      },
+      {
+        "Name": "spartan_appearance",
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "PlacementIndex": 0
+      },
+      {
+        "Name": "campaign_aribter",
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "PlacementIndex": 3
+      },
+      {
+        "Name": "campaign_chief",
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "PlacementIndex": 2
+      },
+      {
+        "Name": "custom_elite_01",
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "PlacementIndex": 5
+      },
+      {
+        "Name": "custom_chief_01",
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "PlacementIndex": 4
+      },
+      {
+        "Name": "appearance_ar",
+        "ObjectType": {
+          "Halo3ODST": "Weapon"
+        },
+        "PlacementIndex": 0
+      },
+      {
+        "Name": "appearance_pr",
+        "ObjectType": {
+          "Halo3ODST": "Weapon"
+        },
+        "PlacementIndex": 1
+      },
+      {
+        "Name": "campaign_ar",
+        "ObjectType": {
+          "Halo3ODST": "Weapon"
+        },
+        "PlacementIndex": 2
+      },
+      {
+        "Name": "campaign_pr",
+        "ObjectType": {
+          "Halo3ODST": "Weapon"
+        },
+        "PlacementIndex": 3
+      },
+      {
+        "Name": "custom_ar_01",
+        "ObjectType": {
+          "Halo3ODST": "Weapon"
+        },
+        "PlacementIndex": 4
+      },
+      {
+        "Name": "custom_pr_01",
+        "ObjectType": {
+          "Halo3ODST": "Weapon"
+        },
+        "PlacementIndex": 5
+      },
+      {
+        "Name": "custom_pr_02",
+        "ObjectType": {
+          "Halo3ODST": "Weapon"
+        },
+        "PlacementIndex": 6
+      },
+      {
+        "Name": "custom_flag",
+        "ObjectType": {
+          "Halo3ODST": "Weapon"
+        },
+        "PlacementIndex": 7
+      },
+      {
+        "Name": "custom_light",
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "PlacementIndex": -1
+      },
+      {
+        "Name": "campaign_light",
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "PlacementIndex": -1
+      },
+      {
+        "Name": "editor_light",
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "PlacementIndex": -1
+      },
+      {
+        "Name": "storm",
+        "ObjectType": {
+          "Halo3ODST": "Machine"
+        },
+        "PlacementIndex": 0
+      },
+      {
+        "Name": "survival_phantom",
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "PlacementIndex": 15
+      },
+      {
+        "Name": "survival_light",
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "PlacementIndex": -1
+      },
+      {
+        "Name": "survival_odst_recon_01",
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "PlacementIndex": 6
+      },
+      {
+        "Name": "survival_odst_recon_02",
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "PlacementIndex": 7
+      },
+      {
+        "Name": "survival_automag_2",
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "PlacementIndex": 17
+      },
+      {
+        "Name": "survival_ssmg_1",
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "PlacementIndex": 18
+      },
+      {
+        "Name": "survival_ssmg_2",
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "PlacementIndex": 19
+      }
+    ],
+    "Scenery": [
+      {
+        "PaletteIndex": 0,
+        "NameIndex": -1,
+        "PlacementFlags": {
+          "Flags": "None"
+        },
+        "Position": "X: -45.5, Y: -9.9951, Z: -35",
+        "Rotation": "Yaw: 90, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 3112, Index: 77",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 2,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "PathfindingPolicy": "TagDefault",
+        "LightmappingPolicy": "TagDefault",
+        "PathfindingReferences": [],
+        "HavokMoppIndex": 0,
+        "AiSpawningSquad": -1,
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      },
+      {
+        "PaletteIndex": 0,
+        "NameIndex": -1,
+        "PlacementFlags": {
+          "Flags": "None"
+        },
+        "Position": "X: -45.5, Y: -19.976, Z: -35",
+        "Rotation": "Yaw: 90, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 3112, Index: 78",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 2,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "PathfindingPolicy": "TagDefault",
+        "LightmappingPolicy": "TagDefault",
+        "PathfindingReferences": [],
+        "HavokMoppIndex": 0,
+        "AiSpawningSquad": -1,
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      },
+      {
+        "PaletteIndex": 3,
+        "NameIndex": 1,
+        "PlacementFlags": {
+          "Flags": "None"
+        },
+        "Position": "X: 464.8235, Y: 136.6842, Z: -279.9998",
+        "Rotation": "Yaw: 0, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 3,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 27376, Index: 81",
+        "OriginBspIndex": 0,
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "Source": "Editor",
+        "BspPolicy": "ManualBspIndex",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": 0,
+          "ParentMarker": "ark",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 3,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "PathfindingPolicy": "TagDefault",
+        "LightmappingPolicy": "TagDefault",
+        "PathfindingReferences": [],
+        "HavokMoppIndex": 0,
+        "AiSpawningSquad": -1,
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      },
+      {
+        "PaletteIndex": 3,
+        "NameIndex": 2,
+        "PlacementFlags": {
+          "Flags": "None"
+        },
+        "Position": "X: 464.8235, Y: 136.6842, Z: -279.9998",
+        "Rotation": "Yaw: 0, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 3,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 27380, Index: 82",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": 0,
+          "ParentMarker": "ark",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "PathfindingPolicy": "TagDefault",
+        "LightmappingPolicy": "TagDefault",
+        "PathfindingReferences": [],
+        "HavokMoppIndex": 0,
+        "AiSpawningSquad": -1,
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      },
+      {
+        "PaletteIndex": 1,
+        "NameIndex": 3,
+        "PlacementFlags": {
+          "Flags": "NotAutomatically"
+        },
+        "Position": "X: 464.8235, Y: 136.6842, Z: -279.9998",
+        "Rotation": "Yaw: 0, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 27380, Index: 83",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": 0,
+          "ParentMarker": "ship_1",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "PathfindingPolicy": "TagDefault",
+        "LightmappingPolicy": "TagDefault",
+        "PathfindingReferences": [],
+        "HavokMoppIndex": 0,
+        "AiSpawningSquad": -1,
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      },
+      {
+        "PaletteIndex": 2,
+        "NameIndex": 4,
+        "PlacementFlags": {
+          "Flags": "None"
+        },
+        "Position": "X: 452.4061, Y: 53.32013, Z: -279.9997",
+        "Rotation": "Yaw: 0, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 27392, Index: 84",
+        "OriginBspIndex": 0,
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": 0,
+          "ParentMarker": "clouds_ark",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "PathfindingPolicy": "TagDefault",
+        "LightmappingPolicy": "TagDefault",
+        "PathfindingReferences": [],
+        "HavokMoppIndex": 0,
+        "AiSpawningSquad": -1,
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      },
+      {
+        "PaletteIndex": 5,
+        "NameIndex": 7,
+        "PlacementFlags": {
+          "Flags": "NotAutomatically"
+        },
+        "Position": "X: 5.117751, Y: 12.88167, Z: -1.350703",
+        "Rotation": "Yaw: 36.05838, Pitch: -11.26188, Roll: 8.477079",
+        "Scale": 1.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 35136, Index: 86",
+        "OriginBspIndex": 0,
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "PathfindingPolicy": "TagDefault",
+        "LightmappingPolicy": "TagDefault",
+        "PathfindingReferences": [],
+        "HavokMoppIndex": 0,
+        "AiSpawningSquad": -1,
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      },
+      {
+        "PaletteIndex": 4,
+        "NameIndex": 5,
+        "PlacementFlags": {
+          "Flags": "None"
+        },
+        "Position": "X: -30.08521, Y: -55.62581, Z: -32.66299",
+        "Rotation": "Yaw: 180, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 35212, Index: 87",
+        "OriginBspIndex": 1,
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 2,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "PathfindingPolicy": "TagDefault",
+        "LightmappingPolicy": "TagDefault",
+        "PathfindingReferences": [],
+        "HavokMoppIndex": 0,
+        "AiSpawningSquad": -1,
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      },
+      {
+        "PaletteIndex": 6,
+        "NameIndex": 6,
+        "PlacementFlags": {
+          "Flags": "NotAutomatically"
+        },
+        "Position": "X: 5.49919, Y: 13.35025, Z: -0.64973",
+        "Rotation": "Yaw: -29.093788, Pitch: -14.379941, Roll: 7.868167",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 35572, Index: 88",
+        "OriginBspIndex": 0,
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "PathfindingPolicy": "TagDefault",
+        "LightmappingPolicy": "TagDefault",
+        "PathfindingReferences": [],
+        "HavokMoppIndex": 0,
+        "AiSpawningSquad": -1,
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      },
+      {
+        "PaletteIndex": 4,
+        "NameIndex": 8,
+        "PlacementFlags": {
+          "Flags": "None"
+        },
+        "Position": "X: -109.6182, Y: -230.9343, Z: 250.3744",
+        "Rotation": "Yaw: 134.7043, Pitch: -46.78879, Roll: -33.98746",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 37648, Index: 91",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "PathfindingPolicy": "TagDefault",
+        "LightmappingPolicy": "TagDefault",
+        "PathfindingReferences": [],
+        "HavokMoppIndex": 0,
+        "AiSpawningSquad": -1,
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      },
+      {
+        "PaletteIndex": 7,
+        "NameIndex": 9,
+        "PlacementFlags": {
+          "Flags": "None"
+        },
+        "Position": "X: 464.8235, Y: 136.6842, Z: -279.9998",
+        "Rotation": "Yaw: 0, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 3,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 39252, Index: 93",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "Source": "Editor",
+        "BspPolicy": "ManualBspIndex",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": 0,
+          "ParentMarker": "ark",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 3,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "PathfindingPolicy": "TagDefault",
+        "LightmappingPolicy": "TagDefault",
+        "PathfindingReferences": [],
+        "HavokMoppIndex": 0,
+        "AiSpawningSquad": -1,
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      },
+      {
+        "PaletteIndex": 8,
+        "NameIndex": 10,
+        "PlacementFlags": {
+          "Flags": "None"
+        },
+        "Position": "X: 1000, Y: -267.791, Z: -380.6325",
+        "Rotation": "Yaw: 0, Pitch: 0, Roll: 0",
+        "Scale": 1.75,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 40940, Index: 100",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": 0,
+          "ParentMarker": "forerunner_ship",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "PathfindingPolicy": "TagDefault",
+        "LightmappingPolicy": "TagDefault",
+        "PathfindingReferences": [],
+        "HavokMoppIndex": 0,
+        "AiSpawningSquad": -1,
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      },
+      {
+        "PaletteIndex": 1,
+        "NameIndex": 11,
+        "PlacementFlags": {
+          "Flags": "None"
+        },
+        "Position": "X: 249.5646, Y: 21.54015, Z: 180.405",
+        "Rotation": "Yaw: 90.27715, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 42588, Index: 101",
+        "OriginBspIndex": 0,
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "PathfindingPolicy": "TagDefault",
+        "LightmappingPolicy": "TagDefault",
+        "PathfindingReferences": [],
+        "HavokMoppIndex": 0,
+        "AiSpawningSquad": -1,
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      },
+      {
+        "PaletteIndex": 9,
+        "NameIndex": 12,
+        "PlacementFlags": {
+          "Flags": "None"
+        },
+        "Position": "X: 160.7892, Y: 282.5293, Z: -249.9998",
+        "Rotation": "Yaw: 0, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 43576, Index: 103",
+        "OriginBspIndex": 0,
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "PathfindingPolicy": "TagDefault",
+        "LightmappingPolicy": "TagDefault",
+        "PathfindingReferences": [],
+        "HavokMoppIndex": 0,
+        "AiSpawningSquad": -1,
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      },
+      {
+        "PaletteIndex": 9,
+        "NameIndex": 13,
+        "PlacementFlags": {
+          "Flags": "None"
+        },
+        "Position": "X: 134.8648, Y: 220.8092, Z: -249.9998",
+        "Rotation": "Yaw: 0, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 43576, Index: 104",
+        "OriginBspIndex": 0,
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "PathfindingPolicy": "TagDefault",
+        "LightmappingPolicy": "TagDefault",
+        "PathfindingReferences": [],
+        "HavokMoppIndex": 0,
+        "AiSpawningSquad": -1,
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      },
+      {
+        "PaletteIndex": 10,
+        "NameIndex": 32,
+        "PlacementFlags": {
+          "Flags": "NotAutomatically"
+        },
+        "Position": "X: 0, Y: 0, Z: 10.147",
+        "Rotation": "Yaw: 0, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 0, Index: 20",
+        "OriginBspIndex": 0,
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "enemy_no_turret",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "PathfindingPolicy": "TagDefault",
+        "LightmappingPolicy": "TagDefault",
+        "PathfindingReferences": [],
+        "HavokMoppIndex": 0,
+        "AiSpawningSquad": -1,
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      },
+      {
+        "PaletteIndex": 11,
+        "NameIndex": 36,
+        "PlacementFlags": {
+          "Flags": "NotAutomatically"
+        },
+        "Position": "X: 0, Y: 0, Z: 0",
+        "Rotation": "Yaw: 0, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 0, Index: 24",
+        "OriginBspIndex": 0,
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "PathfindingPolicy": "TagDefault",
+        "LightmappingPolicy": "TagDefault",
+        "PathfindingReferences": [],
+        "HavokMoppIndex": 0,
+        "AiSpawningSquad": -1,
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      },
+      {
+        "PaletteIndex": 12,
+        "NameIndex": 37,
+        "PlacementFlags": {
+          "Flags": "NotAutomatically"
+        },
+        "Position": "X: 0, Y: 0, Z: 0",
+        "Rotation": "Yaw: 0, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 0, Index: 25",
+        "OriginBspIndex": 0,
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "PathfindingPolicy": "TagDefault",
+        "LightmappingPolicy": "TagDefault",
+        "PathfindingReferences": [],
+        "HavokMoppIndex": 0,
+        "AiSpawningSquad": -1,
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      },
+      {
+        "PaletteIndex": 12,
+        "NameIndex": 38,
+        "PlacementFlags": {
+          "Flags": "NotAutomatically"
+        },
+        "Position": "X: 0, Y: 0, Z: 0",
+        "Rotation": "Yaw: 0, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 0, Index: 26",
+        "OriginBspIndex": 0,
+        "ObjectType": {
+          "Halo3ODST": "Scenery"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "PathfindingPolicy": "TagDefault",
+        "LightmappingPolicy": "TagDefault",
+        "PathfindingReferences": [],
+        "HavokMoppIndex": 0,
+        "AiSpawningSquad": -1,
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      }
+    ],
+    "SceneryPalette": [
+      {
+        "Object": {
+          "Type": "scenery",
+          "Name": "levels\\ui\\mainmenu\\objects\\matte_appearance\\matte_appearance",
+          "Generate": false
+        }
+      },
+      {
+        "Object": {
+          "Type": "scenery",
+          "Name": "levels\\ui\\mainmenu\\objects\\cov_cruiser_cheap\\cov_cruiser_cheap",
+          "Generate": false
+        }
+      },
+      {
+        "Object": {
+          "Type": "scenery",
+          "Name": "objects\\skies\\clouds_ark\\clouds_ark",
+          "Generate": false
+        }
+      },
+      {
+        "Object": {
+          "Type": "scenery",
+          "Name": "objects\\vehicles\\cov_cruiser\\cov_cruiser_digging",
+          "Generate": false
+        }
+      },
+      {
+        "Object": {
+          "Type": "scenery",
+          "Name": "levels\\ui\\mainmenu\\objects\\matchmaking_earth\\matchmaking_earth",
+          "Generate": false
+        }
+      },
+      {
+        "Object": {
+          "Type": "scenery",
+          "Name": "levels\\ui\\mainmenu\\objects\\warthog_cheap\\warthog_cheap",
+          "Generate": false
+        }
+      },
+      {
+        "Object": {
+          "Type": "scenery",
+          "Name": "levels\\ui\\mainmenu\\objects\\monitor_cheap\\monitor_cheap",
+          "Generate": false
+        }
+      },
+      {
+        "Object": {
+          "Type": "scenery",
+          "Name": "levels\\ui\\mainmenu\\objects\\ark_cheap\\ark_cheap",
+          "Generate": false
+        }
+      },
+      {
+        "Object": {
+          "Type": "scenery",
+          "Name": "levels\\ui\\mainmenu\\objects\\forerunner_ship_cheap\\forerunner_ship",
+          "Generate": false
+        }
+      },
+      {
+        "Object": {
+          "Type": "scenery",
+          "Name": "levels\\ui\\mainmenu\\objects\\banshee_cheap\\banshee_cheap",
+          "Generate": false
+        }
+      },
+      {
+        "Object": {
+          "Type": "scenery",
+          "Name": "levels\\ui\\mainmenu\\objects\\vehicles\\phantom\\hirez_cinematic_phantom",
+          "Generate": false
+        }
+      },
+      {
+        "Object": {
+          "Type": "scenery",
+          "Name": "objects\\weapons\\pistol\\automag\\automag",
+          "Generate": false
+        }
+      },
+      {
+        "Object": {
+          "Type": "scenery",
+          "Name": "objects\\weapons\\rifle\\smg_silenced\\smg_silenced",
+          "Generate": false
+        }
+      }
+    ],
+    "Bipeds": [
+      {
+        "PaletteIndex": 0,
+        "NameIndex": 15,
+        "PlacementFlags": {
+          "Flags": "CreateAtRest"
+        },
+        "Position": "X: -45, Y: -10, Z: -34.99976",
+        "Rotation": "Yaw: -180, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 42040, Index: 26",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 2,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "BodyVitalityFraction": 0.0,
+        "Flags": "0"
+      },
+      {
+        "PaletteIndex": 6,
+        "NameIndex": 14,
+        "PlacementFlags": {
+          "Flags": "CreateAtRest"
+        },
+        "Position": "X: -45, Y: -10, Z: -34.99976",
+        "Rotation": "Yaw: -180, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 42040, Index: 27",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 2,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "BodyVitalityFraction": 0.0,
+        "Flags": "0"
+      },
+      {
+        "PaletteIndex": 2,
+        "NameIndex": 17,
+        "PlacementFlags": {
+          "Flags": "NotAutomatically, CreateAtRest"
+        },
+        "Position": "X: -3.065369, Y: -4.330749, Z: -1.151731",
+        "Rotation": "Yaw: 66.6044, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 35124, Index: 36",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "BodyVitalityFraction": 0.0,
+        "Flags": "0"
+      },
+      {
+        "PaletteIndex": 1,
+        "NameIndex": 16,
+        "PlacementFlags": {
+          "Flags": "NotAutomatically, CreateAtRest"
+        },
+        "Position": "X: -3.682616, Y: -4.602558, Z: -1.16243",
+        "Rotation": "Yaw: 52.07759, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 35124, Index: 37",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "BodyVitalityFraction": 0.0,
+        "Flags": "0"
+      },
+      {
+        "PaletteIndex": 3,
+        "NameIndex": 19,
+        "PlacementFlags": {
+          "Flags": "NotAutomatically"
+        },
+        "Position": "X: -7.401524, Y: -1.076341, Z: -1.460741",
+        "Rotation": "Yaw: -37.79264, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 35128, Index: 41",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "BodyVitalityFraction": 0.0,
+        "Flags": "0"
+      },
+      {
+        "PaletteIndex": 5,
+        "NameIndex": 18,
+        "PlacementFlags": {
+          "Flags": "NotAutomatically"
+        },
+        "Position": "X: -7.560285, Y: -0.6917072, Z: -1.520749",
+        "Rotation": "Yaw: -116.8475, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 35128, Index: 38",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "BodyVitalityFraction": 0.0,
+        "Flags": "0"
+      },
+      {
+        "PaletteIndex": 4,
+        "NameIndex": 34,
+        "PlacementFlags": {
+          "Flags": "NotAutomatically, CreateAtRest"
+        },
+        "Position": "X: -0.123, Y: -2.991, Z: 11.551",
+        "Rotation": "Yaw: -104.257, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 0, Index: 22",
+        "OriginBspIndex": 0,
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "mainmenu_odst01",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "BodyVitalityFraction": 0.0,
+        "Flags": "0"
+      },
+      {
+        "PaletteIndex": 4,
+        "NameIndex": 35,
+        "PlacementFlags": {
+          "Flags": "NotAutomatically, CreateAtRest"
+        },
+        "Position": "X: -1.988, Y: -0.989, Z: 11.828",
+        "Rotation": "Yaw: -90, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 0, Index: 23",
+        "OriginBspIndex": 0,
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "mainmenu_odst01",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "BodyVitalityFraction": 0.0,
+        "Flags": "0"
+      }
+    ],
+    "BipedPalette": [
+      {
+        "Object": {
+          "Type": "biped",
+          "Name": "objects\\characters\\masterchief\\mp_masterchief\\mp_masterchief",
+          "Generate": false
+        }
+      },
+      {
+        "Object": {
+          "Type": "biped",
+          "Name": "objects\\characters\\dervish\\dervish",
+          "Generate": false
+        }
+      },
+      {
+        "Object": {
+          "Type": "biped",
+          "Name": "objects\\characters\\masterchief\\masterchief",
+          "Generate": false
+        }
+      },
+      {
+        "Object": {
+          "Type": "biped",
+          "Name": "levels\\ui\\mainmenu\\objects\\spartan_cheap\\spartan_cheap",
+          "Generate": false
+        }
+      },
+      {
+        "Object": {
+          "Type": "biped",
+          "Name": "levels\\ui\\mainmenu\\objects\\odst_recon_cheap\\odst_recon_cheap",
+          "Generate": false
+        }
+      },
+      {
+        "Object": {
+          "Type": "biped",
+          "Name": "levels\\ui\\mainmenu\\objects\\elite_cheap\\elite_cheap",
+          "Generate": false
+        }
+      },
+      {
+        "Object": {
+          "Type": "biped",
+          "Name": "objects\\characters\\elite\\mp_elite\\mp_elite",
+          "Generate": false
+        }
+      }
+    ],
+    "Vehicles": [],
+    "VehiclePalette": [],
+    "Equipment": [],
+    "EquipmentPalette": [],
+    "Weapons": [
+      {
+        "PaletteIndex": 0,
+        "NameIndex": 20,
+        "PlacementFlags": {
+          "Flags": "None"
+        },
+        "Position": "X: -45.0263, Y: -10.732314, Z: -34.956886",
+        "Rotation": "Yaw: 0, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 27096, Index: 6",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Weapon"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 2,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "RoundsLeft": 0,
+        "RoundsLoaded": 0,
+        "WeaponFlags": "0",
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      },
+      {
+        "PaletteIndex": 1,
+        "NameIndex": 21,
+        "PlacementFlags": {
+          "Flags": "None"
+        },
+        "Position": "X: -44.78546, Y: -19.013159, Z: -34.61306",
+        "Rotation": "Yaw: 0, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 27096, Index: 7",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Weapon"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 2,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "RoundsLeft": 0,
+        "RoundsLoaded": 0,
+        "WeaponFlags": "0",
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      },
+      {
+        "PaletteIndex": 0,
+        "NameIndex": 22,
+        "PlacementFlags": {
+          "Flags": "NotAutomatically, CreateAtRest, StoreOrientations"
+        },
+        "Position": "X: 22.070538, Y: 1.816689, Z: -1.3384286",
+        "Rotation": "Yaw: 5.5847373, Pitch: -11.504697, Roll: -102.32624",
+        "Scale": 0.0,
+        "NodeOrientations": [
+          {
+            "NodeCount": 4,
+            "BitVectors": [
+              {
+                "Data": 15
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              }
+            ],
+            "Orientations": [
+              {
+                "Number": 0
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 32767
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 32767
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 32767
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 32767
+              }
+            ]
+          }
+        ],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 38276, Index: 8",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Weapon"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "RoundsLeft": 0,
+        "RoundsLoaded": 0,
+        "WeaponFlags": "0",
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      },
+      {
+        "PaletteIndex": 1,
+        "NameIndex": 23,
+        "PlacementFlags": {
+          "Flags": "NotAutomatically, CreateAtRest, StoreOrientations"
+        },
+        "Position": "X: 21.767262, Y: 1.8162398, Z: -1.2815572",
+        "Rotation": "Yaw: 11.831498, Pitch: -13.738079, Roll: -94.58431",
+        "Scale": 0.0,
+        "NodeOrientations": [
+          {
+            "NodeCount": 5,
+            "BitVectors": [
+              {
+                "Data": 3
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              }
+            ],
+            "Orientations": [
+              {
+                "Number": 0
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 32767
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 25995
+              },
+              {
+                "Number": 19947
+              },
+              {
+                "Number": 0
+              }
+            ]
+          }
+        ],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 38276, Index: 9",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Weapon"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "RoundsLeft": 0,
+        "RoundsLoaded": 0,
+        "WeaponFlags": "0",
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      },
+      {
+        "PaletteIndex": 0,
+        "NameIndex": 24,
+        "PlacementFlags": {
+          "Flags": "NotAutomatically, CreateAtRest, StoreOrientations"
+        },
+        "Position": "X: 16.769732, Y: 2.359245, Z: -1.4936146",
+        "Rotation": "Yaw: -3.3159308, Pitch: -24.418438, Roll: -88.92974",
+        "Scale": 0.0,
+        "NodeOrientations": [
+          {
+            "NodeCount": 4,
+            "BitVectors": [
+              {
+                "Data": 15
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              }
+            ],
+            "Orientations": [
+              {
+                "Number": 0
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 32767
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 32767
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 32767
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 32767
+              }
+            ]
+          }
+        ],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 38276, Index: 10",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Weapon"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "RoundsLeft": 0,
+        "RoundsLoaded": 0,
+        "WeaponFlags": "0",
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      },
+      {
+        "PaletteIndex": 1,
+        "NameIndex": 25,
+        "PlacementFlags": {
+          "Flags": "NotAutomatically, CreateAtRest, StoreOrientations"
+        },
+        "Position": "X: 16.849157, Y: 2.9978907, Z: -1.4754308",
+        "Rotation": "Yaw: -2.5053535, Pitch: -3.9313567, Roll: -93.00097",
+        "Scale": 0.0,
+        "NodeOrientations": [
+          {
+            "NodeCount": 5,
+            "BitVectors": [
+              {
+                "Data": 3
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              }
+            ],
+            "Orientations": [
+              {
+                "Number": 0
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 32767
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 25995
+              },
+              {
+                "Number": 19947
+              },
+              {
+                "Number": 0
+              }
+            ]
+          }
+        ],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 38276, Index: 12",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Weapon"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "RoundsLeft": 0,
+        "RoundsLoaded": 0,
+        "WeaponFlags": "0",
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      },
+      {
+        "PaletteIndex": 1,
+        "NameIndex": 26,
+        "PlacementFlags": {
+          "Flags": "NotAutomatically, CreateAtRest, StoreOrientations"
+        },
+        "Position": "X: 16.852026, Y: 3.4099126, Z: -1.4845734",
+        "Rotation": "Yaw: -1.5335854, Pitch: -2.4621933, Roll: -90.44899",
+        "Scale": 0.0,
+        "NodeOrientations": [
+          {
+            "NodeCount": 5,
+            "BitVectors": [
+              {
+                "Data": 3
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              },
+              {
+                "Data": 0
+              }
+            ],
+            "Orientations": [
+              {
+                "Number": 0
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 32767
+              },
+              {
+                "Number": 0
+              },
+              {
+                "Number": 25995
+              },
+              {
+                "Number": 19947
+              },
+              {
+                "Number": 0
+              }
+            ]
+          }
+        ],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 38276, Index: 13",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Weapon"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "RoundsLeft": 0,
+        "RoundsLoaded": 0,
+        "WeaponFlags": "0",
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      },
+      {
+        "PaletteIndex": 2,
+        "NameIndex": 27,
+        "PlacementFlags": {
+          "Flags": "NotAutomatically, CreateAtRest"
+        },
+        "Position": "X: -6.9697638, Y: -0.36104357, Z: -1.2290297",
+        "Rotation": "Yaw: -24.174362, Pitch: -10.390579, Roll: 4.6285143",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 40592, Index: 14",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Weapon"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "RoundsLeft": 0,
+        "RoundsLoaded": 0,
+        "WeaponFlags": "0",
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      }
+    ],
+    "WeaponPalette": [
+      {
+        "Object": {
+          "Type": "weapon",
+          "Name": "objects\\weapons\\rifle\\assault_rifle\\assault_rifle",
+          "Generate": false
+        }
+      },
+      {
+        "Object": {
+          "Type": "weapon",
+          "Name": "objects\\weapons\\rifle\\plasma_rifle\\plasma_rifle",
+          "Generate": false
+        }
+      },
+      {
+        "Object": {
+          "Type": "weapon",
+          "Name": "objects\\weapons\\multiplayer\\flag\\flag",
+          "Generate": false
+        }
+      }
+    ],
+    "DeviceGroups": [],
+    "Machines": [
+      {
+        "PaletteIndex": 0,
+        "NameIndex": 31,
+        "PlacementFlags": {
+          "Flags": "None"
+        },
+        "Position": "X: 500, Y: -49.6586, Z: -122.152",
+        "Rotation": "Yaw: 0, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 9144, Index: 6",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Machine"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": 0,
+          "ParentMarker": "storm",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "PowerGroup": -1,
+        "PositionGroup": -1,
+        "DeviceFlags": "None",
+        "MachineFlags": "None",
+        "PathfindingReferences": [],
+        "PathfindingPolicy": "TagDefault"
+      }
+    ],
+    "MachinePalette": [
+      {
+        "Object": {
+          "Type": "device_machine",
+          "Name": "objects\\skies\\storm\\storm_main_menu",
+          "Generate": false
+        }
+      }
+    ],
+    "Terminals": [],
+    "TerminalPalette": [],
+    "AlternateRealityDevices": [],
+    "AlternateRealityDevicePalette": [],
+    "Controls": [],
+    "ControlPalette": [],
+    "SoundScenery": [],
+    "SoundSceneryPalette": [],
+    "Giants": [],
+    "GiantPalette": [],
+    "EffectScenery": [
+      {
+        "PaletteIndex": 0,
+        "NameIndex": -1,
+        "PlacementFlags": {
+          "Flags": "None"
+        },
+        "Position": "X: 25.567232, Y: 0.41305646, Z: -0.9508322",
+        "Rotation": "Yaw: 89.769936, Pitch: -15.625842, Roll: -88.14818",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 42868, Index: 2",
+        "OriginBspIndex": 0,
+        "ObjectType": {
+          "Halo3ODST": "EffectScenery"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1
+      },
+      {
+        "PaletteIndex": 0,
+        "NameIndex": -1,
+        "PlacementFlags": {
+          "Flags": "None"
+        },
+        "Position": "X: 14.468092, Y: -0.47144568, Z: -1.551068",
+        "Rotation": "Yaw: 90.42518, Pitch: 1.7714343, Roll: -91.342186",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 42876, Index: 3",
+        "OriginBspIndex": 0,
+        "ObjectType": {
+          "Halo3ODST": "EffectScenery"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1
+      },
+      {
+        "PaletteIndex": 0,
+        "NameIndex": -1,
+        "PlacementFlags": {
+          "Flags": "None"
+        },
+        "Position": "X: 20.648605, Y: -1.4166644, Z: -1.018593",
+        "Rotation": "Yaw: 89.15839, Pitch: 1.7714341, Roll: -91.342186",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 42876, Index: 4",
+        "OriginBspIndex": 0,
+        "ObjectType": {
+          "Halo3ODST": "EffectScenery"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1
+      },
+      {
+        "PaletteIndex": 0,
+        "NameIndex": -1,
+        "PlacementFlags": {
+          "Flags": "None"
+        },
+        "Position": "X: 9.607014, Y: 2.8281364, Z: -1.6489729",
+        "Rotation": "Yaw: 87.85665, Pitch: 11.558924, Roll: -91.48823",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 42876, Index: 5",
+        "OriginBspIndex": 0,
+        "ObjectType": {
+          "Halo3ODST": "EffectScenery"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1
+      }
+    ],
+    "EffectSceneryPalette": [
+      {
+        "Object": {
+          "Type": "effect_scenery",
+          "Name": "levels\\ui\\mainmenu\\fx\\ground_dust\\ground_dust",
+          "Generate": false
+        }
+      }
+    ],
+    "LightVolumes": [
+      {
+        "PaletteIndex": 0,
+        "NameIndex": -1,
+        "PlacementFlags": {
+          "Flags": "None"
+        },
+        "Position": "X: -44.84623, Y: -10.35312, Z: -34.05933",
+        "Rotation": "Yaw: 2.24619E-08, Pitch: 11.43129, Roll: -149.7608",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 0, Index: 0",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "Source": "Structure",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 0,
+        "PowerGroup": -1,
+        "PositionGroup": -1,
+        "DeviceFlags": 0,
+        "Type2": "Projective",
+        "Flags": 0,
+        "LightmapType": "UseLightTagSetting",
+        "LightmapFlags": 0,
+        "LightmapHalfLife": 0.0,
+        "LightmapLightScale": 0.0,
+        "X": -45.04442,
+        "Y": -9.859501,
+        "Z": -34.90612,
+        "Width": 1.0,
+        "HeightScale": 1.0,
+        "FieldOfView": "Degrees: 60.000004",
+        "FalloffDistance": 0.4414063,
+        "CutoffDistance": 0.9999984
+      },
+      {
+        "PaletteIndex": 0,
+        "NameIndex": -1,
+        "PlacementFlags": {
+          "Flags": "None"
+        },
+        "Position": "X: -44.65631, Y: -20.28198, Z: -33.87003",
+        "Rotation": "Yaw: -2.370878E-08, Pitch: 17.19552, Roll: -153.8557",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 0, Index: 0",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "Source": "Structure",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 0,
+        "PowerGroup": -1,
+        "PositionGroup": -1,
+        "DeviceFlags": 0,
+        "Type2": "Projective",
+        "Flags": 0,
+        "LightmapType": "UseLightTagSetting",
+        "LightmapFlags": 0,
+        "LightmapHalfLife": 0.0,
+        "LightmapLightScale": 0.0,
+        "X": -44.95195,
+        "Y": -19.86103,
+        "Z": -34.72758,
+        "Width": 1.0,
+        "HeightScale": 1.0,
+        "FieldOfView": "Degrees: 60.000004",
+        "FalloffDistance": 0.4414063,
+        "CutoffDistance": 0.9999979
+      },
+      {
+        "PaletteIndex": 1,
+        "NameIndex": -1,
+        "PlacementFlags": {
+          "Flags": "None"
+        },
+        "Position": "X: -45.11104, Y: -19.56704, Z: -34.76589",
+        "Rotation": "Yaw: 0, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 0, Index: 0",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "Source": "Structure",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 0,
+        "PowerGroup": -1,
+        "PositionGroup": -1,
+        "DeviceFlags": 0,
+        "Type2": "Sphere",
+        "Flags": 0,
+        "LightmapType": "UseLightTagSetting",
+        "LightmapFlags": 0,
+        "LightmapHalfLife": 0.0,
+        "LightmapLightScale": 0.0,
+        "X": -45.11104,
+        "Y": -19.56706,
+        "Z": -30.76589,
+        "Width": 1.0,
+        "HeightScale": 1.0,
+        "FieldOfView": "Degrees: 0",
+        "FalloffDistance": 0.4414063,
+        "CutoffDistance": 4.0
+      },
+      {
+        "PaletteIndex": 1,
+        "NameIndex": -1,
+        "PlacementFlags": {
+          "Flags": "None"
+        },
+        "Position": "X: -45.06665, Y: -9.585737, Z: -34.64215",
+        "Rotation": "Yaw: 0, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 0, Index: 0",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "Source": "Structure",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 0,
+        "PowerGroup": -1,
+        "PositionGroup": -1,
+        "DeviceFlags": 0,
+        "Type2": "Sphere",
+        "Flags": 0,
+        "LightmapType": "UseLightTagSetting",
+        "LightmapFlags": 0,
+        "LightmapHalfLife": 0.0,
+        "LightmapLightScale": 0.0,
+        "X": -45.06665,
+        "Y": -9.585737,
+        "Z": -33.44215,
+        "Width": 1.0,
+        "HeightScale": 1.0,
+        "FieldOfView": "Degrees: 0",
+        "FalloffDistance": 0.4414063,
+        "CutoffDistance": 4.0
+      },
+      {
+        "PaletteIndex": 2,
+        "NameIndex": 28,
+        "PlacementFlags": {
+          "Flags": "NotAutomatically"
+        },
+        "Position": "X: -6.858373, Y: 0.09113751, Z: -1.063934",
+        "Rotation": "Yaw: 63.091366, Pitch: 17.67388, Roll: 92.07263",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 0, Index: 0",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "Source": "Structure",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 0,
+        "PowerGroup": -1,
+        "PositionGroup": -1,
+        "DeviceFlags": 0,
+        "Type2": "Projective",
+        "Flags": 1,
+        "LightmapType": "UseLightTagSetting",
+        "LightmapFlags": 0,
+        "LightmapHalfLife": 0.0,
+        "LightmapLightScale": 0.0,
+        "X": -7.494576,
+        "Y": -0.9573539,
+        "Z": -1.009141,
+        "Width": 1.839451,
+        "HeightScale": 1.0,
+        "FieldOfView": "Degrees: 75.35489",
+        "FalloffDistance": 0.6302913,
+        "CutoffDistance": 1.189611
+      },
+      {
+        "PaletteIndex": 3,
+        "NameIndex": 29,
+        "PlacementFlags": {
+          "Flags": "NotAutomatically"
+        },
+        "Position": "X: -3.634852, Y: -3.120619, Z: -0.9906012",
+        "Rotation": "Yaw: 7.2472425, Pitch: -10.34807, Roll: 60.063187",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 0, Index: 0",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "Source": "Structure",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 0,
+        "PowerGroup": -1,
+        "PositionGroup": -1,
+        "DeviceFlags": 0,
+        "Type2": "Projective",
+        "Flags": 1,
+        "LightmapType": "UseLightTagSetting",
+        "LightmapFlags": 0,
+        "LightmapHalfLife": 0.0,
+        "LightmapLightScale": 0.0,
+        "X": -2.945851,
+        "Y": -6.390334,
+        "Z": 0.8923973,
+        "Width": 0.015625,
+        "HeightScale": 1.0,
+        "FieldOfView": "Degrees: 125.987495",
+        "FalloffDistance": 0.4414063,
+        "CutoffDistance": 3.835549
+      },
+      {
+        "PaletteIndex": 5,
+        "NameIndex": 30,
+        "PlacementFlags": {
+          "Flags": "None"
+        },
+        "Position": "X: 6.8576, Y: 12.80801, Z: 0.6717849",
+        "Rotation": "Yaw: 3.833187, Pitch: 48.52651, Roll: 179.0844",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 0, Index: 0",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Biped"
+        },
+        "Source": "Structure",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 0,
+        "PowerGroup": -1,
+        "PositionGroup": -1,
+        "DeviceFlags": 0,
+        "Type2": "Projective",
+        "Flags": 1,
+        "LightmapType": "UseLightTagSetting",
+        "LightmapFlags": 0,
+        "LightmapHalfLife": 0.0,
+        "LightmapLightScale": 0.0,
+        "X": 4.706595,
+        "Y": 12.08864,
+        "Z": -0.4163572,
+        "Width": 0.015625,
+        "HeightScale": 1.0,
+        "FieldOfView": "Degrees: 111.5836",
+        "FalloffDistance": 0.4414063,
+        "CutoffDistance": 2.339835
+      },
+      {
+        "PaletteIndex": 6,
+        "NameIndex": 33,
+        "PlacementFlags": {
+          "Flags": "NotAutomatically"
+        },
+        "Position": "X: -2.028954, Y: 0.04164451, Z: 12.14188",
+        "Rotation": "Yaw: 0, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 0, Index: 21",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "None"
+        },
+        "Source": "Structure",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 0,
+        "PowerGroup": -1,
+        "PositionGroup": -1,
+        "DeviceFlags": 0,
+        "Type2": "Projective",
+        "Flags": 1,
+        "LightmapType": "UseLightTagSetting",
+        "LightmapFlags": 0,
+        "LightmapHalfLife": 0.0,
+        "LightmapLightScale": 0.0,
+        "X": -2.028954,
+        "Y": 0.04164451,
+        "Z": 12.14188,
+        "Width": 1.0,
+        "HeightScale": 1.0,
+        "FieldOfView": "Degrees: 0",
+        "FalloffDistance": 0.0,
+        "CutoffDistance": 0.0
+      }
+    ],
+    "LightVolumePalette": [
+      {
+        "Object": {
+          "Type": "light",
+          "Name": "levels\\ui\\mainmenu\\lights\\appearance",
+          "Generate": false
+        }
+      },
+      {
+        "Object": {
+          "Type": "light",
+          "Name": "levels\\ui\\mainmenu\\lights\\appearance_fill",
+          "Generate": false
+        }
+      },
+      {
+        "Object": {
+          "Type": "light",
+          "Name": "levels\\ui\\mainmenu\\lights\\custom_games",
+          "Generate": false
+        }
+      },
+      {
+        "Object": {
+          "Type": "light",
+          "Name": "levels\\ui\\mainmenu\\lights\\campaign",
+          "Generate": false
+        }
+      },
+      {
+        "Object": {
+          "Type": "light",
+          "Name": "levels\\ui\\mainmenu\\lights\\theater",
+          "Generate": false
+        }
+      },
+      {
+        "Object": {
+          "Type": "light",
+          "Name": "levels\\ui\\mainmenu\\lights\\editor",
+          "Generate": false
+        }
+      },
+      {
+        "Object": {
+          "Type": "light",
+          "Name": "objects\\vehicles\\phantom\\fx\\running\\cinematic_gravlift",
+          "Generate": false
+        }
+      }
+    ],
+    "SandboxVehicles": [],
+    "SandboxWeapons": [],
+    "SandboxEquipment": [],
+    "SandboxScenery": [],
+    "SandboxTeleporters": [],
+    "SandboxGoalObjects": [],
+    "SandboxSpawning": [],
+    "SoftCeilings": [],
+    "PlayerStartingProfile": [
+      {
+        "Name": "start_assault",
+        "StartingHealthDamage": 0.0,
+        "StartingShieldDamage": 0.0,
+        "PrimaryWeapon": {
+          "Type": "weapon",
+          "Name": "objects\\weapons\\rifle\\assault_rifle\\assault_rifle",
+          "Generate": false
+        },
+        "PrimaryRoundsLoaded": 32,
+        "PrimaryRoundsTotal": 108,
+        "SecondaryWeapon": null,
+        "SecondaryRoundsLoaded": 0,
+        "SecondaryRoundsTotal": 0,
+        "Unknown": 0,
+        "Unknown2": 0,
+        "StartingFragGrenadeCount": 2,
+        "StartingPlasmaGrenadeCount": 0,
+        "StartingSpikeGrenadeCount": 0,
+        "StartingFirebombGrenadeCount": 0,
+        "EditorFolder": 0
+      }
+    ],
+    "PlayerStartingLocations": [
+      {
+        "Position": "X: 13.9289, Y: 3.14119, Z: -1.48594",
+        "Facing": "Yaw: 25.5837, Pitch: 0",
+        "InsertionPointIndex": 0,
+        "Flags": "None",
+        "EditorFolderIndex": 0
+      },
+      {
+        "Position": "X: 27.309156, Y: 23.457037, Z: 9.778686",
+        "Facing": "Yaw: 25.583675, Pitch: 0",
+        "InsertionPointIndex": 0,
+        "Flags": "None",
+        "EditorFolderIndex": 0
+      },
+      {
+        "Position": "X: 27.260944, Y: 25.121008, Z: 5.663933",
+        "Facing": "Yaw: 26.95836, Pitch: 0",
+        "InsertionPointIndex": 0,
+        "Flags": "None",
+        "EditorFolderIndex": 0
+      }
+    ],
+    "TriggerVolumes": [],
+    "RecordedAnimations": [],
+    "ZonesetSwitchTriggerVolumes": [],
+    "EnemyForbidInfluence": [],
+    "EnemyBiasInfluence": [],
+    "AllyBiasInfluence": [],
+    "SelectedAllyBiasInfluence": [],
+    "DeadTeammateInfluence": [],
+    "WeaponSpawnInfluencers": [],
+    "VehicleSpawnInfluencers": [],
+    "ProjectileSpawnInfluencers": [],
+    "EquipmentSpawnInfluencers": [],
+    "KothHillInfluencer": [],
+    "OddballInfluencer": [],
+    "CtfFlagAwayInfluencer": [],
+    "TerritoriesAllyInfluencer": [],
+    "TerritoriesEnemyInfluencer": [],
+    "InfectionSafeZoneHumanInfluencer": [],
+    "InfectionSafeZoneZombieInfluencer": [],
+    "VipInfluencer": [],
+    "Decals": [
+      {
+        "DecalPaletteIndex": 0,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: 0.2873967, J: 0.14006045, K: -0.62745064, W: 0.7099944",
+        "Position": "X: 23.955486, Y: -1.8850793, Z: -1.078431",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 0,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: 0.24540044, J: 0.31640744, K: -0.57534444, W: 0.7131926",
+        "Position": "X: 19.805977, Y: -2.4901903, Z: -1.4575313",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 0,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: 0.28942978, J: -0.14731182, K: 0.76829255, W: 0.5515942",
+        "Position": "X: 22.236567, Y: -2.66454, Z: -1.1926802",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 0,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.33891636, J: 0.28081945, K: 0.5236686, W: 0.7294158",
+        "Position": "X: 20.048168, Y: -7.282121, Z: -1.301463",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 0,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.26158157, J: 0.33087254, K: 0.56231415, W: 0.71126735",
+        "Position": "X: 22.317474, Y: -8.0994215, Z: -1.263986",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: 0.00675528, J: -0.04946691, K: 0.4645976, W: 0.8841134",
+        "Position": "X: 27.57511, Y: 5.1579165, Z: -0.80129313",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 0,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.26158157, J: 0.33087254, K: 0.56231415, W: 0.71126735",
+        "Position": "X: 24.973654, Y: -8.6629925, Z: -1.3054909",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: 0.106356226, J: 0.03703624, K: -0.84619415, W: 0.5208379",
+        "Position": "X: 26.575212, Y: 5.825367, Z: -0.83437574",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: 0.03453042, J: -0.11781674, K: 0.60210425, W: 0.78892165",
+        "Position": "X: 23.419485, Y: 7.2884464, Z: -1.0276847",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.03366938, J: 0.010126941, K: -0.8511923, W: 0.52367544",
+        "Position": "X: 31.065115, Y: 7.7194934, Z: -0.4316462",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.041526478, J: 0.07097155, K: 0.50330716, W: 0.86018634",
+        "Position": "X: 29.926193, Y: 8.3846, Z: -0.4583235",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.04851866, J: 0.027867403, K: 0.46877962, W: 0.8815414",
+        "Position": "X: 28.81765, Y: 9.053642, Z: -0.5013205",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.036351755, J: 0.026760248, K: 0.5038113, W: 0.8626335",
+        "Position": "X: 27.68764, Y: 9.746147, Z: -0.538818",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.019386318, J: -0.00016911057, K: 0.5608291, W: 0.8277046",
+        "Position": "X: 26.57592, Y: 10.333483, Z: -0.5796502",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: 0.0008421819, J: -0.020005483, K: -0.8333728, W: 0.5523485",
+        "Position": "X: 25.540466, Y: 10.745887, Z: -0.6164308",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: 0.034710415, J: -0.12118052, K: 0.61518604, W: 0.77823955",
+        "Position": "X: 22.070158, Y: 7.6528306, Z: -1.1502542",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: 0.046980318, J: -0.011462231, K: -0.78296894, W: 0.6201783",
+        "Position": "X: 24.410686, Y: 11.152069, Z: -0.67912704",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.009247544, J: -0.049638975, K: -0.79456073, W: 0.6050813",
+        "Position": "X: 23.169832, Y: 11.49438, Z: -0.77357465",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: 0.073187605, J: 0.013921693, K: -0.8362913, W: 0.5432004",
+        "Position": "X: 25.508814, Y: 6.3230944, Z: -0.9012744",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: 0.11462334, J: 0.036804926, K: -0.8260807, W: 0.55054295",
+        "Position": "X: 24.592955, Y: 6.769432, Z: -0.9558265",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 0,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.29198417, J: 0.4262246, K: 0.36991528, W: 0.77216613",
+        "Position": "X: 27.41296, Y: -9.95449, Z: -0.93764365",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: 0.045350645, J: -0.030604653, K: -0.7560354, W: 0.6522401",
+        "Position": "X: 20.751219, Y: 7.9047656, Z: -1.2783186",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: 0.02273839, J: -0.041347902, K: -0.70251787, W: 0.71009994",
+        "Position": "X: 19.38889, Y: 8.004389, Z: -1.4117352",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: 0.016198592, J: -0.040098175, K: -0.702801, W: 0.71007085",
+        "Position": "X: 18.043644, Y: 8.007076, Z: -1.5402566",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: 0.013841647, J: -0.039721802, K: -0.62755406, W: 0.77743584",
+        "Position": "X: 16.725714, Y: 7.8406935, Z: -1.6454686",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: 0.0016910722, J: -0.04825266, K: -0.5756974, W: 0.8162361",
+        "Position": "X: 15.460336, Y: 7.472858, Z: -1.7299752",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.0020311913, J: -0.05648844, K: -0.7416625, W: 0.66838735",
+        "Position": "X: 21.875952, Y: 11.770434, Z: -0.86717904",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.0040271524, J: -0.05522601, K: -0.73481244, W: 0.6760063",
+        "Position": "X: 20.563019, Y: 11.972646, Z: -0.97817326",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: 0.006763041, J: -0.061202146, K: -0.724645, W: 0.68636584",
+        "Position": "X: 19.201836, Y: 12.090767, Z: -1.1071922",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: 0.010265177, J: -0.060659215, K: -0.6835558, W: 0.7273009",
+        "Position": "X: 17.900461, Y: 12.067371, Z: -1.2227886",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: 0.0063845646, J: -0.055769097, K: -0.6544897, W: 0.7539843",
+        "Position": "X: 16.556042, Y: 11.96894, Z: -1.3467162",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.00954915, J: -0.040393185, K: -0.53006464, W: 0.8469408",
+        "Position": "X: 14.177249, Y: 6.976414, Z: -1.785779",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.009814747, J: -0.040309858, K: -0.5309307, W: 0.84639907",
+        "Position": "X: 12.988467, Y: 6.329856, Z: -1.816283",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: 0.030807663, J: -0.06665486, K: 0.7624761, W: 0.64283603",
+        "Position": "X: 15.194056, Y: 11.8607235, Z: -1.4664627",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: 0.054232664, J: -0.08511805, K: 0.79373324, W: 0.5998345",
+        "Position": "X: 13.845495, Y: 11.591665, Z: -1.5509269",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: 0.04777335, J: -0.06275224, K: 0.81417406, W: 0.5752395",
+        "Position": "X: 12.570675, Y: 11.163748, Z: -1.616632",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.0661446, J: 0.037006404, K: 0.83248794, W: 0.54883486",
+        "Position": "X: 11.731902, Y: 5.745363, Z: -1.822795",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.042995933, J: 0.005819864, K: 0.8123758, W: 0.58151793",
+        "Position": "X: 10.496983, Y: 5.245972, Z: -1.8714294",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.031423945, J: -0.008291203, K: 0.8081088, W: 0.58813614",
+        "Position": "X: 9.266729, Y: 4.8402357, Z: -1.9338086",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: 0.010157206, J: -0.040845126, K: -0.61922675, W: 0.7840834",
+        "Position": "X: 8.01746, Y: 4.4778337, Z: -2.0047948",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.032614984, J: -0.024376925, K: 0.833538, W: 0.5509596",
+        "Position": "X: 11.361833, Y: 10.6093445, Z: -1.7132015",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.032484367, J: -0.024550721, K: 0.8305846, W: 0.55540216",
+        "Position": "X: 10.142898, Y: 10.032791, Z: -1.8152671",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.033699546, J: -0.026215075, K: 0.8203676, W: 0.5702405",
+        "Position": "X: 8.899034, Y: 9.534753, Z: -1.9219596",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.024346381, J: -0.044115067, K: 0.8087322, W: 0.5860147",
+        "Position": "X: 7.643027, Y: 9.061405, Z: -2.047941",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 3,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.06811497, J: -0.042115074, K: 0.30290386, W: 0.9496504",
+        "Position": "X: -7.0288334, Y: -0.3475109, Z: -1.4919306",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 4,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.009711112, J: -0.0052375593, K: 0.70716494, W: 0.7069625",
+        "Position": "X: 16.884548, Y: 0.7832822, Z: -1.4988006",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.04207284, J: -0.008606665, K: 0.7608581, W: 0.64749575",
+        "Position": "X: 6.7189283, Y: 4.2602305, Z: -2.0969436",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.042072844, J: -0.008606657, K: 0.76085824, W: 0.6474957",
+        "Position": "X: 5.4392776, Y: 4.0481124, Z: -2.1846778",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.028996397, J: 0.01648818, K: 0.725385, W: 0.68753475",
+        "Position": "X: 4.2396083, Y: 3.9209838, Z: -2.2525055",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.0293535, J: 0.015843714, K: 0.7100225, W: 0.7033886",
+        "Position": "X: 3.117881, Y: 3.847685, Z: -2.269623",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.03446775, J: 0.04949142, K: 0.70529246, W: 0.70634633",
+        "Position": "X: 1.9020666, Y: 3.8182373, Z: -2.2607942",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.030569594, J: 0.033829898, K: 0.70617336, W: 0.7065694",
+        "Position": "X: 0.65700847, Y: 3.8002026, Z: -2.2320292",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.042719062, J: -0.02453111, K: -0.70907915, W: 0.7034061",
+        "Position": "X: -0.67485034, Y: 3.7756321, Z: -2.199421",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.0571817, J: -0.031884998, K: -0.7243593, W: 0.68630695",
+        "Position": "X: -1.984643, Y: 3.8044271, Z: -2.1558278",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: 0.034915823, J: -0.028264165, K: -0.6180262, W: 0.784873",
+        "Position": "X: 6.3637757, Y: 8.671837, Z: -2.174161",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.0057689766, J: -0.028933879, K: -0.6433384, W: 0.7650133",
+        "Position": "X: 5.15411, Y: 8.462243, Z: -2.2632875",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.005349433, J: -0.029014377, K: -0.6543476, W: 0.7556181",
+        "Position": "X: 3.8949265, Y: 8.294934, Z: -2.3020468",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.029529035, J: 0.026184058, K: 0.7067807, W: 0.7063311",
+        "Position": "X: 2.592443, Y: 8.235989, Z: -2.3048048",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: 0.0102807265, J: -0.00032632102, K: 0.706041, W: 0.7080963",
+        "Position": "X: 1.2642653, Y: 8.198959, Z: -2.2867665",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: 0.008389542, J: -0.0050179716, K: 0.7065464, W: 0.70759916",
+        "Position": "X: -0.056007825, Y: 8.20813, Z: -2.2736287",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.05711945, J: 0.066490814, K: 0.70424163, W: 0.70452833",
+        "Position": "X: -1.3415133, Y: 8.23508, Z: -2.2655666",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.03391644, J: 0.056000665, K: 0.65987104, W: 0.7485211",
+        "Position": "X: -3.263742, Y: 3.9769692, Z: -2.127114",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.03923174, J: 0.043750156, K: 0.66646177, W: 0.7432198",
+        "Position": "X: -4.503162, Y: 4.1366096, Z: -2.126016",
+        "Scale": 1.0
+      },
+      {
+        "DecalPaletteIndex": 1,
+        "EditingBoundToBsp": 0,
+        "Rotation": "I: -0.046003368, J: 0.03117442, K: 0.6544256, W: 0.7540816",
+        "Position": "X: -5.7443795, Y: 4.301005, Z: -2.1412563",
+        "Scale": 1.0
+      }
+    ],
+    "DecalPalette": [
+      {
+        "Instance": {
+          "Type": "decal_system",
+          "Name": "levels\\ui\\mainmenu\\decals\\decal_natural_rockhack_blend",
+          "Generate": false
+        }
+      },
+      {
+        "Instance": {
+          "Type": "decal_system",
+          "Name": "levels\\ui\\mainmenu\\decals\\decal_sand_patch",
+          "Generate": false
+        }
+      },
+      {
+        "Instance": {
+          "Type": "decal_system",
+          "Name": "levels\\shared\\decals\\human\\damage\\decal_damage_crack_dark",
+          "Generate": false
+        }
+      },
+      {
+        "Instance": {
+          "Type": "decal_system",
+          "Name": "levels\\shared\\decals\\human\\damage\\mortar_blast_small",
+          "Generate": false
+        }
+      },
+      {
+        "Instance": {
+          "Type": "decal_system",
+          "Name": "levels\\shared\\decals\\human\\damage\\scorch_sm",
+          "Generate": false
+        }
+      }
+    ],
+    "DetailObjectCollectionPalette": [],
+    "StylePalette": [],
+    "SquadGroups": [],
+    "Squads": [],
+    "Zones": [],
+    "SquadPatrols": [],
+    "MissionScenes": [],
+    "CharacterPalette": [],
+    "AiPathfindingData": [],
+    "AiUserHintData": [
+      {
+        "LineSegments": [],
+        "Parallelograms": [],
+        "JumpHints": [],
+        "ClimbHints": [],
+        "WellHints": [],
+        "FlightHints": [],
+        "CookieCutters": [],
+        "Unknown8": [
+          {
+            "Unknown": 0,
+            "Unknown2": 0,
+            "Unknown3": 0,
+            "Unknown4": []
+          }
+        ],
+        "Unknown9": [
+          {
+            "Unknown1": 0,
+            "Unknown2": 0,
+            "Unknown3": 0
+          }
+        ]
+      }
+    ],
+    "AiRecordingReferences": [],
+    "ScriptExternalFileReferences": [],
+    "ScriptingData": [
+      {
+        "PointSets": []
+      }
+    ],
+    "CutsceneFlags": [
+      {
+        "Name": "anchor_flag_x01",
+        "Position": "X: -471.391, Y: -74.6197, Z: 13.6494",
+        "Facing": "Yaw: 0, Pitch: 0",
+        "EditorFolderIndex": 0,
+        "SourceBspIndex": 0
+      },
+      {
+        "Name": "xxxanchorxxx",
+        "Position": "X: 0, Y: 0, Z: 0",
+        "Facing": "Yaw: 0, Pitch: 0",
+        "EditorFolderIndex": 0,
+        "SourceBspIndex": 0
+      }
+    ],
+    "CutsceneCameraPoints": [
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "light_anchor",
+        "Position": "X: 111.9694, Y: 12.57247, Z: -80.04536",
+        "Orientation": "Yaw: 8.505559, Pitch: -4.878534, Roll: -0.7286655"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "campaign_in",
+        "Position": "X: -2.783262, Y: -3.859817, Z: -0.7919874",
+        "Orientation": "Yaw: -115.44249, Pitch: -6.147651, Roll: -10.10798"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "campaign",
+        "Position": "X: -2.658308, Y: -3.940777, Z: -0.7919874",
+        "Orientation": "Yaw: -126.6335, Pitch: -9.414923, Roll: -10.5665"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "campaign_path_02",
+        "Position": "X: -2.591148, Y: -3.69542, Z: -0.7919874",
+        "Orientation": "Yaw: -116.47071, Pitch: -5.092006, Roll: -7.5774245"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "campaign_path_03",
+        "Position": "X: -2.690809, Y: -3.983063, Z: -0.7919874",
+        "Orientation": "Yaw: -127.1006, Pitch: -10.12939, Roll: -11.28327"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "campaign_path_04",
+        "Position": "X: -2.478235, Y: -4.130247, Z: -0.7919874",
+        "Orientation": "Yaw: -150.1906, Pitch: -9.65366, Roll: -4.181489"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "matchmaking_in",
+        "Position": "X: -109.2913, Y: -230.1818, Z: 249.6066",
+        "Orientation": "Yaw: -96.70016, Pitch: -5.832463, Roll: -40.85712"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "matchmaking",
+        "Position": "X: -108.8834, Y: -230.3295, Z: 249.6066",
+        "Orientation": "Yaw: -114.6049, Pitch: -19.05827, Roll: -35.48944"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "mm_path_02",
+        "Position": "X: -108.738, Y: -230.4373, Z: 249.3507",
+        "Orientation": "Yaw: -117.14349, Pitch: -25.78415, Roll: -40.31187"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "mm_path_03",
+        "Position": "X: -109.3495, Y: -230.1522, Z: 249.7026",
+        "Orientation": "Yaw: -93.07613, Pitch: -2.550249, Roll: -39.61562"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "mm_path_04",
+        "Position": "X: -108.8306, Y: -230.1168, Z: 249.7026",
+        "Orientation": "Yaw: -113.9313, Pitch: -13.6645, Roll: -28.02653"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "custom_in",
+        "Position": "X: -7.260052, Y: -1.914379, Z: -1.031894",
+        "Orientation": "Yaw: 97.76698, Pitch: 5.038599, Roll: 0.3009008"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "custom_games",
+        "Position": "X: -7.631313, Y: -1.950026, Z: -1.031894",
+        "Orientation": "Yaw: 92.50669, Pitch: 5.023069, Roll: 0.3404699"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "custom_path_02",
+        "Position": "X: -6.846344, Y: -1.798082, Z: -1.031894",
+        "Orientation": "Yaw: 109.4133, Pitch: 3.6366682, Roll: 4.827899"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "custom_path_03",
+        "Position": "X: -7.959418, Y: -1.590729, Z: -0.8185608",
+        "Orientation": "Yaw: 91.69172, Pitch: 5.166923, Roll: -4.460439"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "custom_path_04",
+        "Position": "X: -8.004598, Y: -1.976056, Z: -1.031894",
+        "Orientation": "Yaw: 79.17783, Pitch: 4.966138, Roll: -0.827791"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "editor",
+        "Position": "X: 7.667727, Y: 13.1801, Z: -0.7279867",
+        "Orientation": "Yaw: -168.5137, Pitch: 6.510793, Roll: 2.493183"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "editor_in",
+        "Position": "X: 7.216995, Y: 14.35544, Z: -0.7279867",
+        "Orientation": "Yaw: -142.0234, Pitch: 5.122333, Roll: 5.440699"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "editor_path_02",
+        "Position": "X: 7.62511, Y: 12.98714, Z: -0.6319867",
+        "Orientation": "Yaw: -173.1839, Pitch: 6.289372, Roll: 1.909284"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "editor_path_03",
+        "Position": "X: 7.482448, Y: 13.55463, Z: -0.6319866",
+        "Orientation": "Yaw: -157.3258, Pitch: 7.3855877, Roll: 4.313767"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "editor_path_04",
+        "Position": "X: 7.482708, Y: 13.54315, Z: -0.8133199",
+        "Orientation": "Yaw: -156.9684, Pitch: 6.993937, Roll: 4.207599"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "theater_in",
+        "Position": "X: 801.6006, Y: 133.8912, Z: 150.8401",
+        "Orientation": "Yaw: 61.802032, Pitch: 17.58917, Roll: 21.10417"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "theater",
+        "Position": "X: 778.9628, Y: 148.9992, Z: 150.84",
+        "Orientation": "Yaw: 38.44106, Pitch: 23.91669, Roll: 12.35304"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "theater_path_02",
+        "Position": "X: 789.6351, Y: 155.7335, Z: 157.6666",
+        "Orientation": "Yaw: 40.4451, Pitch: 22.85756, Roll: 12.65188"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "theater_path_03",
+        "Position": "X: 783.1628, Y: 143.8975, Z: 150.8401",
+        "Orientation": "Yaw: 47.91618, Pitch: 20.02225, Roll: 14.34176"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "theater_path_04",
+        "Position": "X: 772.3842, Y: 158.1918, Z: 142.5201",
+        "Orientation": "Yaw: 37.1562, Pitch: 25.00277, Roll: 12.41606"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "settings_cam",
+        "Position": "X: -37.977, Y: -54.24, Z: -24.64976",
+        "Orientation": "Yaw: -135.571, Pitch: 0.284, Roll: 0.279"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "survival",
+        "Position": "X: -0.125, Y: -3.542, Z: 11.769",
+        "Orientation": "Yaw: 113.005, Pitch: -2.619, Roll: 6.142"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "survival_in",
+        "Position": "X: -0.007, Y: -3.488, Z: 11.749",
+        "Orientation": "Yaw: 116.68301, Pitch: -4.455, Roll: 8.785"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "survival_path_02",
+        "Position": "X: -0.239, Y: -3.58, Z: 11.749",
+        "Orientation": "Yaw: 98.453, Pitch: -1.195, Roll: 7.99"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "survival_path_03",
+        "Position": "X: -0.331, Y: -3.559, Z: 11.915",
+        "Orientation": "Yaw: 87.372, Pitch: -0.47699997, Roll: -10.286"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "survival_path_04",
+        "Position": "X: -0.237, Y: -3.619, Z: 11.686",
+        "Orientation": "Yaw: 97.894, Pitch: -1.746, Roll: 12.396"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "server_browser",
+        "Position": "X: -108.8834, Y: -230.3295, Z: 249.6066",
+        "Orientation": "Yaw: -114.6049, Pitch: -19.05827, Roll: -35.48944"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "server_browser_path_02",
+        "Position": "X: -108.738, Y: -230.4373, Z: 249.3507",
+        "Orientation": "Yaw: -117.14349, Pitch: -25.78415, Roll: -40.31187"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "server_browser_path_03",
+        "Position": "X: -109.3495, Y: -230.1522, Z: 249.7026",
+        "Orientation": "Yaw: -93.07613, Pitch: -2.550249, Roll: -39.61562"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "server_browser_path_04",
+        "Position": "X: -108.8306, Y: -230.1168, Z: 249.7026",
+        "Orientation": "Yaw: -113.9313, Pitch: -13.6645, Roll: -28.02653"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "spartan_helmet_wide",
+        "Position": "X: -38.308, Y: -54.34, Z: -24.47776",
+        "Orientation": "Yaw: -135.571, Pitch: 0.284, Roll: 0.279"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "spartan_body_wide",
+        "Position": "X: -38.308, Y: -54.369, Z: -24.57776",
+        "Orientation": "Yaw: -135.571, Pitch: 0.284, Roll: 0.279"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "spartan_leftshoulder_wide",
+        "Position": "X: -38.208, Y: -54.264, Z: -24.57776",
+        "Orientation": "Yaw: -135.571, Pitch: 0.284, Roll: 0.279"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "spartan_rightshoulder_wide",
+        "Position": "X: -38.108, Y: -54.34, Z: -24.57776",
+        "Orientation": "Yaw: -135.571, Pitch: 0.284, Roll: 0.279"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "elite_helmet_wide",
+        "Position": "X: -38.208, Y: -54.31, Z: -24.54776",
+        "Orientation": "Yaw: -135.571, Pitch: 0.284, Roll: 0.279"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "elite_body_wide",
+        "Position": "X: -38.308, Y: -54.34, Z: -24.62776",
+        "Orientation": "Yaw: -135.571, Pitch: 0.284, Roll: 0.279"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "elite_leftshoulder_wide",
+        "Position": "X: -38.208, Y: -54.324, Z: -24.57776",
+        "Orientation": "Yaw: -135.571, Pitch: 0.284, Roll: 0.279"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "elite_rightshoulder_wide",
+        "Position": "X: -38.158, Y: -54.424, Z: -24.57776",
+        "Orientation": "Yaw: -135.571, Pitch: 0.284, Roll: 0.279"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "spartan_helmet_standard",
+        "Position": "X: -38.308, Y: -54.424, Z: -24.47776",
+        "Orientation": "Yaw: -135.571, Pitch: 0.284, Roll: 0.279"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "spartan_body_standard",
+        "Position": "X: -38.208, Y: -54.389, Z: -24.57776",
+        "Orientation": "Yaw: -135.571, Pitch: 0.284, Roll: 0.279"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "spartan_leftshoulder_standard",
+        "Position": "X: -38.208, Y: -54.324, Z: -24.57776",
+        "Orientation": "Yaw: -135.571, Pitch: 0.284, Roll: 0.279"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "spartan_rightshoulder_standard",
+        "Position": "X: -38.108, Y: -54.414, Z: -24.57776",
+        "Orientation": "Yaw: -135.571, Pitch: 0.284, Roll: 0.279"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "elite_helmet_standard",
+        "Position": "X: -38.208, Y: -54.364, Z: -24.54776",
+        "Orientation": "Yaw: -135.571, Pitch: 0.284, Roll: 0.279"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "elite_body_standard",
+        "Position": "X: -38.358, Y: -54.444, Z: -24.62776",
+        "Orientation": "Yaw: -135.571, Pitch: 0.284, Roll: 0.279"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "elite_leftshoulder_standard",
+        "Position": "X: -38.208, Y: -54.414, Z: -24.57776",
+        "Orientation": "Yaw: -135.571, Pitch: 0.284, Roll: 0.279"
+      },
+      {
+        "Flags": "None",
+        "Type": "Normal",
+        "Name": "elite_rightshoulder_standard",
+        "Position": "X: -38.158, Y: -54.454, Z: -24.57776",
+        "Orientation": "Yaw: -135.571, Pitch: 0.284, Roll: 0.279"
+      }
+    ],
+    "CutsceneTitles": [
+      {
+        "Name": "title_1",
+        "TextBounds": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+        "HorizontalJustification": "Left",
+        "VerticalJustification": "Bottom",
+        "Font": "TerminalFont",
+        "TextColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "ShadowColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "FadeInTime": 0.0,
+        "Uptime": 0.0,
+        "FadeOutTime": 0.0
+      }
+    ],
+    "CustomObjectNameStrings": null,
+    "ChapterTitleStrings": null,
+    "ScenarioResources": [
+      {
+        "Unknown": 0,
+        "ScriptSource": [
+          {
+            "Instance": null
+          },
+          {
+            "Instance": null
+          },
+          {
+            "Instance": null
+          }
+        ],
+        "AiResources": [],
+        "References": [
+          {
+            "SceneryResource": null,
+            "OtherScenery": [],
+            "BipedsResource": null,
+            "OtherBipeds": [],
+            "VehiclesResource": null,
+            "EquipmentResource": null,
+            "WeaponsResource": null,
+            "SoundSceneryResource": null,
+            "LightsResource": null,
+            "DevicesResource": null,
+            "OtherDevices": [],
+            "EffectSceneryResource": null,
+            "DecalsResource": null,
+            "OtherDecals": [],
+            "CinematicsResource": null,
+            "TriggerVolumesResource": null,
+            "ClusterDataResource": null,
+            "CommentsResource": null,
+            "CreatureResource": null,
+            "StructureLightingResource": null,
+            "DecoratorsResource": null,
+            "OtherDecorators": [],
+            "SkyReferencesResource": null,
+            "CubemapResource": null
+          }
+        ]
+      }
+    ],
+    "UnitSeatsMapping": [],
+    "ScenarioKillTriggers": [],
+    "ScenarioSafeTriggers": [],
+    "Orders": [],
+    "Triggers": [],
+    "AcousticsPalette": [
+      {
+        "Name": "the_world",
+        "SoundEnvironment": null,
+        "Type": "Default",
+        "ReverbCutoffDistance": 0.0,
+        "ReverbInterpolationSpeed": 0.0,
+        "AmbienceBackgroundSound": {
+          "Type": "sound_looping",
+          "Name": "sound\\levels\\main_menu\\the_world\\the_world",
+          "Generate": false
+        },
+        "AmbienceInsideClusterSound": null,
+        "AmbienceCutoffDistance": 0.0,
+        "AmbienceScaleFlags": "None",
+        "AmbienceInteriorScale": 0.0,
+        "AmbiencePortalScale": 0.0,
+        "AmbienceExteriorScale": 0.0,
+        "AmbienceInterpolationSpeed": 2.0
+      },
+      {
+        "Name": "voi_ext",
+        "SoundEnvironment": null,
+        "Type": "Default",
+        "ReverbCutoffDistance": 0.0,
+        "ReverbInterpolationSpeed": 0.0,
+        "AmbienceBackgroundSound": {
+          "Type": "sound_looping",
+          "Name": "sound\\levels\\main_menu\\voi_exterior\\voi_exterior",
+          "Generate": false
+        },
+        "AmbienceInsideClusterSound": null,
+        "AmbienceCutoffDistance": 0.0,
+        "AmbienceScaleFlags": "None",
+        "AmbienceInteriorScale": 0.0,
+        "AmbiencePortalScale": 0.0,
+        "AmbienceExteriorScale": 0.0,
+        "AmbienceInterpolationSpeed": 2.0
+      }
+    ],
+    "OldBackgroundSoundPalette": [],
+    "SoundEnvironmentPalette": [],
+    "WeatherPalette": [],
+    "Atmosphere": [
+      {
+        "Name": "foggy_morning",
+        "AtmosphereSettingIndex": 0
+      },
+      {
+        "Name": "no_fog",
+        "AtmosphereSettingIndex": 2
+      }
+    ],
+    "CameraFx": [],
+    "ScenarioClusterData": [
+      {
+        "Bsp": null,
+        "BackgroundSoundEnvironments": [
+          {
+            "BackgroundSoundEnvironmentIndex": 1,
+            "Unknown": 0
+          },
+          {
+            "BackgroundSoundEnvironmentIndex": 0,
+            "Unknown": 0
+          }
+        ],
+        "Unknown": [
+          {
+            "Unknown": -1,
+            "Unknown2": 0
+          },
+          {
+            "Unknown": -1,
+            "Unknown2": 0
+          }
+        ],
+        "Unknown2": [
+          {
+            "Unknown": -1,
+            "Unknown2": 0
+          },
+          {
+            "Unknown": -1,
+            "Unknown2": 0
+          }
+        ],
+        "BspChecksum": 286986511,
+        "ClusterCentroids": [
+          {
+            "Centroid": "X: 5.6437893, Y: 2.9798346, Z: -7.612221"
+          },
+          {
+            "Centroid": "X: 3.4028235E+38, Y: 3.4028235E+38, Z: 3.4028235E+38"
+          }
+        ],
+        "WeatherProperties": [
+          {
+            "Unknown": -1
+          },
+          {
+            "Unknown": -1
+          }
+        ],
+        "Fog": [
+          {
+            "FogIndex": -1,
+            "Unknown": 0
+          },
+          {
+            "FogIndex": -1,
+            "Unknown": 0
+          }
+        ],
+        "CameraEffects": [
+          {
+            "CameraEffectIndex": -1,
+            "Unknown": 0
+          },
+          {
+            "CameraEffectIndex": -1,
+            "Unknown": 0
+          }
+        ]
+      },
+      {
+        "Bsp": null,
+        "BackgroundSoundEnvironments": [
+          {
+            "BackgroundSoundEnvironmentIndex": -1,
+            "Unknown": 0
+          },
+          {
+            "BackgroundSoundEnvironmentIndex": -1,
+            "Unknown": 0
+          },
+          {
+            "BackgroundSoundEnvironmentIndex": -1,
+            "Unknown": 0
+          },
+          {
+            "BackgroundSoundEnvironmentIndex": -1,
+            "Unknown": 0
+          },
+          {
+            "BackgroundSoundEnvironmentIndex": -1,
+            "Unknown": 0
+          },
+          {
+            "BackgroundSoundEnvironmentIndex": -1,
+            "Unknown": 0
+          }
+        ],
+        "Unknown": [
+          {
+            "Unknown": -1,
+            "Unknown2": 0
+          },
+          {
+            "Unknown": -1,
+            "Unknown2": 0
+          },
+          {
+            "Unknown": -1,
+            "Unknown2": 0
+          },
+          {
+            "Unknown": -1,
+            "Unknown2": 0
+          },
+          {
+            "Unknown": -1,
+            "Unknown2": 0
+          },
+          {
+            "Unknown": -1,
+            "Unknown2": 0
+          }
+        ],
+        "Unknown2": [
+          {
+            "Unknown": -1,
+            "Unknown2": 0
+          },
+          {
+            "Unknown": -1,
+            "Unknown2": 0
+          },
+          {
+            "Unknown": -1,
+            "Unknown2": 0
+          },
+          {
+            "Unknown": -1,
+            "Unknown2": 0
+          },
+          {
+            "Unknown": -1,
+            "Unknown2": 0
+          },
+          {
+            "Unknown": -1,
+            "Unknown2": 0
+          }
+        ],
+        "BspChecksum": 521338881,
+        "ClusterCentroids": [
+          {
+            "Centroid": "X: -38.535553, Y: 17, Z: -26.393398"
+          },
+          {
+            "Centroid": "X: -38.535553, Y: 51, Z: -26.393398"
+          },
+          {
+            "Centroid": "X: -38.535553, Y: 85.000015, Z: -26.393398"
+          },
+          {
+            "Centroid": "X: -38.535553, Y: -85, Z: -26.393398"
+          },
+          {
+            "Centroid": "X: -38.535553, Y: -50.999992, Z: -26.393398"
+          },
+          {
+            "Centroid": "X: -38.535553, Y: -17, Z: -26.393398"
+          }
+        ],
+        "WeatherProperties": [
+          {
+            "Unknown": -1
+          },
+          {
+            "Unknown": -1
+          },
+          {
+            "Unknown": -1
+          },
+          {
+            "Unknown": -1
+          },
+          {
+            "Unknown": -1
+          },
+          {
+            "Unknown": -1
+          }
+        ],
+        "Fog": [
+          {
+            "FogIndex": -1,
+            "Unknown": 0
+          },
+          {
+            "FogIndex": -1,
+            "Unknown": 0
+          },
+          {
+            "FogIndex": -1,
+            "Unknown": 0
+          },
+          {
+            "FogIndex": -1,
+            "Unknown": 0
+          },
+          {
+            "FogIndex": -1,
+            "Unknown": 0
+          },
+          {
+            "FogIndex": -1,
+            "Unknown": 0
+          }
+        ],
+        "CameraEffects": [
+          {
+            "CameraEffectIndex": -1,
+            "Unknown": 0
+          },
+          {
+            "CameraEffectIndex": -1,
+            "Unknown": 0
+          },
+          {
+            "CameraEffectIndex": -1,
+            "Unknown": 0
+          },
+          {
+            "CameraEffectIndex": -1,
+            "Unknown": 0
+          },
+          {
+            "CameraEffectIndex": -1,
+            "Unknown": 0
+          },
+          {
+            "CameraEffectIndex": -1,
+            "Unknown": 0
+          }
+        ]
+      }
+    ],
+    "AcousticSpaces": [],
+    "ObjectSalts": [
+      44,
+      4,
+      15,
+      1,
+      0,
+      0,
+      105,
+      7,
+      0,
+      69,
+      24,
+      0,
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "SpawnData": [
+      {
+        "DynamicSpawnHeightBounds": "Lower: 0, Upper: 0",
+        "GameObjectResetHeight": 0.0,
+        "DynamicSpawnOverloads": [],
+        "StaticRespawnZones": [],
+        "StaticInitialSpawnZones": []
+      }
+    ],
+    "SoundEffectsCollection": null,
+    "Crates": [
+      {
+        "PaletteIndex": 0,
+        "NameIndex": -1,
+        "PlacementFlags": {
+          "Flags": "None"
+        },
+        "Position": "X: 22.3777, Y: 3.37402, Z: 1.82607",
+        "Rotation": "Yaw: 0, Pitch: 0, Roll: 0",
+        "Scale": 0.0,
+        "NodeOrientations": [],
+        "TransformFlags": "0",
+        "ManualBspFlags": 0,
+        "LightAirprobeName": "invalid",
+        "UniqueHandle": "Salt: 41252, Index: 23",
+        "OriginBspIndex": -1,
+        "ObjectType": {
+          "Halo3ODST": "Crate"
+        },
+        "Source": "Editor",
+        "BspPolicy": "Default",
+        "EditingBoundToBsp": 0,
+        "EditorFolder": -1,
+        "ParentId": {
+          "NameIndex": -1,
+          "ParentMarker": "invalid",
+          "ConnectionMarker": "invalid"
+        },
+        "CanAttachToBspFlags": 1,
+        "Variant": "invalid",
+        "ActiveChangeColors": "0",
+        "PrimaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "SecondaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TertiaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuaternaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "QuinaryColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "PathfindingPolicy": "TagDefault",
+        "LightmappingPolicy": "TagDefault",
+        "PathfindingReferences": [],
+        "Multiplayer": {
+          "Symmetry": "Ignore",
+          "EngineFlags": "None",
+          "Team": "Red",
+          "SpawnOrder": 0,
+          "QuotaMinimum": 0,
+          "QuotaMaximum": 0,
+          "SpawnFlags": "0",
+          "SpawnTime": 0,
+          "AbandonTime": 0,
+          "RemappingPolicy": "NormalDefault",
+          "Shape": "None",
+          "TeleporterChannel": 0,
+          "MapVariantParent": {
+            "NameIndex": -1,
+            "ParentMarker": "invalid",
+            "ConnectionMarker": "invalid"
+          },
+          "BoundaryWidthRadius": 0.0,
+          "BoundaryBoxLength": 0.0,
+          "BoundaryPositiveHeight": 0.0,
+          "BoundaryNegativeHeight": 0.0,
+          "RespawnWeight": 0.0
+        }
+      }
+    ],
+    "CratePalette": [
+      {
+        "Object": {
+          "Type": "crate",
+          "Name": "objects\\levels\\solo\\020_base\\dangling_wire\\dangling_wire",
+          "Generate": false
+        }
+      }
+    ],
+    "FlockPalette": [
+      {
+        "Instance": {
+          "Type": "flock",
+          "Name": "objects\\characters\\ambient_life\\banshee_flock",
+          "Generate": false
+        }
+      }
+    ],
+    "Flocks": [],
+    "SubtitleStrings": null,
+    "Creatures": [],
+    "CreaturePalette": [
+      {
+        "Object": {
+          "Type": "creature",
+          "Name": "objects\\characters\\ambient_life\\lod_banshee\\lod_banshee",
+          "Generate": false
+        }
+      },
+      {
+        "Object": {
+          "Type": "creature",
+          "Name": "objects\\characters\\ambient_life\\lod_hornet\\lod_hornet",
+          "Generate": false
+        }
+      }
+    ],
+    "EditorFolders": [],
+    "TerritoryLocationNameStrings": null,
+    "MissionDialogue": [],
+    "ObjectiveStrings": null,
+    "Interpolators": [],
+    "SharedReferences": [],
+    "ScreenEffectReferences": [],
+    "SimulationDefinitionTable": [],
+    "DefaultCameraFx": {
+      "Type": "camera_fx_settings",
+      "Name": "levels\\ui\\mainmenu\\sky\\menu",
+      "Generate": false
+    },
+    "DefaultScreenFx": {
+      "Type": "area_screen_effect",
+      "Name": "levels\\ui\\mainmenu\\sky\\ui",
+      "Generate": false
+    },
+    "UnknownHO": null,
+    "SkyParameters": {
+      "Type": "sky_atm_parameters",
+      "Name": "levels\\ui\\mainmenu\\sky\\menu",
+      "Generate": false
+    },
+    "GlobalLighting": null,
+    "Lightmap": {
+      "Type": "scenario_lightmap",
+      "Name": "fake_lightmap",
+      "Generate": false
+    },
+    "PerformanceThrottles": {
+      "Type": "performance_throttles",
+      "Name": "levels\\ui\\mainmenu\\mainmenu",
+      "Generate": false
+    },
+    "ObjectReferenceFrames": [],
+    "AiObjectives": [],
+    "DesignerZoneSets": [
+      {
+        "Name": "empty",
+        "Flags": "0",
+        "Bipeds": [],
+        "Vehicles": [],
+        "Weapons": [],
+        "Equipment": [],
+        "Scenery": [],
+        "Machines": [],
+        "Terminals": [],
+        "Controls": [],
+        "Unknown2": [],
+        "Crates": [],
+        "Creatures": [],
+        "Giants": [],
+        "Unknown4": [],
+        "Characters": [],
+        "BudgetReference": []
+      }
+    ],
+    "ZoneDebugger": [
+      {
+        "ActiveDesignerZones": 0
+      }
+    ],
+    "Decorators": [],
+    "Cinematics": [],
+    "CinematicLighting": [
+      {
+        "Name": "lighting_ark",
+        "CinematicLight": {
+          "Type": "new_cinematic_lighting",
+          "Name": "levels\\ui\\mainmenu\\sky\\lighting_ark",
+          "Generate": false
+        }
+      },
+      {
+        "Name": "lighting_storm",
+        "CinematicLight": {
+          "Type": "new_cinematic_lighting",
+          "Name": "levels\\ui\\mainmenu\\sky\\lighting_storm",
+          "Generate": false
+        }
+      },
+      {
+        "Name": "lighting_ships",
+        "CinematicLight": {
+          "Type": "new_cinematic_lighting",
+          "Name": "levels\\ui\\mainmenu\\sky\\lighting_ships",
+          "Generate": false
+        }
+      },
+      {
+        "Name": "lighting_clouds",
+        "CinematicLight": {
+          "Type": "new_cinematic_lighting",
+          "Name": "levels\\ui\\mainmenu\\sky\\lighting_clouds",
+          "Generate": false
+        }
+      }
+    ],
+    "OverridePlayerRepresentations": [],
+    "ScenarioMetagame": [],
+    "SoftSurfaces": [
+      {
+        "ClassBiped": 0.0,
+        "ClassDeadBiped": 0.0,
+        "ClassCratesVehicles": 0.0,
+        "ClassDebris": 0.0
+      }
+    ],
+    "Cubemaps": [],
+    "CortanaEffects": [],
+    "LightmapAirprobes": [],
+    "MissionVisionModeEffect": null,
+    "MissionVisionModeTheaterEffect": null,
+    "BudgetReferences": []
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "TagName": "objects\\characters\\masterchief\\mp_masterchief\\actions",
+  "TagType": "player_action_set",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Version": 0,
+    "Widget": [
+      {
+        "Title": "Spartan Actions",
+        "Type": "Wheel",
+        "Flags": 0,
+        "BackgroundColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "BorderColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "HighlightColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "TextColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0"
+      }
+    ],
+    "Actions": [
+      {
+        "Title": "Dance",
+        "IconName": "",
+        "AnimationEnter": "thunder_clap",
+        "AnimationIdle": "invalid",
+        "AnimationExit": "invalid",
+        "Flags": "HideWeapon, ForceThirdPersonCamera, InhibitMovement",
+        "OverrideCamera": [
+          {
+            "CameraFlags": "0",
+            "CameraMarkerName": "invalid",
+            "CameraSubmergedMarker": "invalid",
+            "PitchAutoLevel": "Degrees: 0",
+            "PitchRange": "Lower: Degrees: -85, Upper: Degrees: 10",
+            "CameraTracks": [
+              {
+                "Track": {
+                  "Type": "camera_track",
+                  "Name": "objects\\characters\\masterchief\\mp_masterchief\\action_camera",
+                  "Generate": false
+                }
+              }
+            ],
+            "PitchSpringBounds": "Lower: 0, Upper: 0",
+            "SpringVelocity": "Degrees: 0",
+            "CameraAcceleration": []
+          }
+        ]
+      },
+      {
+        "Title": "Fresh",
+        "IconName": "temp",
+        "AnimationEnter": "fresh",
+        "AnimationIdle": "invalid",
+        "AnimationExit": "invalid",
+        "Flags": "HideWeapon, ForceThirdPersonCamera, InhibitMovement",
+        "OverrideCamera": [
+          {
+            "CameraFlags": "0",
+            "CameraMarkerName": "invalid",
+            "CameraSubmergedMarker": "invalid",
+            "PitchAutoLevel": "Degrees: 0",
+            "PitchRange": "Lower: Degrees: -85, Upper: Degrees: 10",
+            "CameraTracks": [
+              {
+                "Track": {
+                  "Type": "camera_track",
+                  "Name": "objects\\characters\\masterchief\\mp_masterchief\\action_camera",
+                  "Generate": false
+                }
+              }
+            ],
+            "PitchSpringBounds": "Lower: 0, Upper: 0",
+            "SpringVelocity": "Degrees: 0",
+            "CameraAcceleration": []
+          }
+        ]
+      },
+      {
+        "Title": "Orange Justice",
+        "IconName": "temp",
+        "AnimationEnter": "orange_justice",
+        "AnimationIdle": "invalid",
+        "AnimationExit": "invalid",
+        "Flags": "HideWeapon, ForceThirdPersonCamera, InhibitMovement",
+        "OverrideCamera": [
+          {
+            "CameraFlags": "0",
+            "CameraMarkerName": "invalid",
+            "CameraSubmergedMarker": "invalid",
+            "PitchAutoLevel": "Degrees: 0",
+            "PitchRange": "Lower: Degrees: -85, Upper: Degrees: 10",
+            "CameraTracks": [
+              {
+                "Track": {
+                  "Type": "camera_track",
+                  "Name": "objects\\characters\\masterchief\\mp_masterchief\\action_camera",
+                  "Generate": false
+                }
+              }
+            ],
+            "PitchSpringBounds": "Lower: 0, Upper: 0",
+            "SpringVelocity": "Degrees: 0",
+            "CameraAcceleration": []
+          }
+        ]
+      },
+      {
+        "Title": "Electro Swing",
+        "IconName": "temp",
+        "AnimationEnter": "electro_swing",
+        "AnimationIdle": "invalid",
+        "AnimationExit": "invalid",
+        "Flags": "HideWeapon, ForceThirdPersonCamera, InhibitMovement",
+        "OverrideCamera": [
+          {
+            "CameraFlags": "0",
+            "CameraMarkerName": "invalid",
+            "CameraSubmergedMarker": "invalid",
+            "PitchAutoLevel": "Degrees: 0",
+            "PitchRange": "Lower: Degrees: -85, Upper: Degrees: 10",
+            "CameraTracks": [
+              {
+                "Track": {
+                  "Type": "camera_track",
+                  "Name": "objects\\characters\\masterchief\\mp_masterchief\\action_camera",
+                  "Generate": false
+                }
+              }
+            ],
+            "PitchSpringBounds": "Lower: 0, Upper: 0",
+            "SpringVelocity": "Degrees: 0",
+            "CameraAcceleration": []
+          }
+        ]
+      }
+    ]
+  }
+}

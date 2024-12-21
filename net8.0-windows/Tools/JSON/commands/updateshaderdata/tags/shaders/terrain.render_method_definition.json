@@ -1,0 +1,454 @@
+{
+  "TagName": "shaders\\terrain",
+  "TagType": "render_method_definition",
+  "Generate": true,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "GlobalOptions": {
+      "Type": "render_method_option",
+      "Name": "shaders\\shader_options\\global_shader_options",
+      "Generate": true
+    },
+    "Categories": [
+      {
+        "Name": "blending",
+        "ShaderOptions": [
+          {
+            "Name": "morph",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\terrain_options\\default_blending",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "morph"
+          },
+          {
+            "Name": "dynamic_morph",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\terrain_options\\dynamic_blending",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "dynamic"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "blend_type"
+      },
+      {
+        "Name": "environment_map",
+        "ShaderOptions": [
+          {
+            "Name": "none",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "none"
+          },
+          {
+            "Name": "per_pixel",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\shader_options\\env_map_per_pixel",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "per_pixel"
+          },
+          {
+            "Name": "dynamic",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\shader_options\\env_map_dynamic",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "dynamic"
+          },
+          {
+            "Name": "dynamic_reach",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "dynamic_reach"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "envmap_type"
+      },
+      {
+        "Name": "material_0",
+        "ShaderOptions": [
+          {
+            "Name": "diffuse_only",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\terrain_options\\diffuse_only_m_0",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "diffuse_only"
+          },
+          {
+            "Name": "diffuse_plus_specular",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\terrain_options\\diffuse_plus_specular_m_0",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "diffuse_plus_specular"
+          },
+          {
+            "Name": "off",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "off"
+          },
+          {
+            "Name": "diffuse_only_plus_self_illum",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\terrain_options\\diffuse_only_plus_sefl_illum_m_0",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "diffuse_only_plus_self_illum"
+          },
+          {
+            "Name": "diffuse_plus_specular_plus_self_illum",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\terrain_options\\diffuse_plus_specular_plus_self_illumm_0",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "diffuse_plus_specular_plus_self_illum"
+          },
+          {
+            "Name": "diffuse_plus_specular_plus_heightmap",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\terrain_options\\diffuse_plus_specular_plus_heightmap_m_0",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "diffuse_plus_specular_plus_heightmap"
+          },
+          {
+            "Name": "diffuse_plus_two_detail",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\terrain_options\\diffuse_plus_two_detail_m_0",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "diffuse_plus_two_detail"
+          },
+          {
+            "Name": "diffuse_plus_specular_plus_up_vector_plus_heightmap",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\terrain_options\\diffuse_plus_specular_plus_up_vector_plus_heightmap_m_0",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "diffuse_plus_specular_plus_up_vector_plus_heightmap"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "material_0_type"
+      },
+      {
+        "Name": "material_1",
+        "ShaderOptions": [
+          {
+            "Name": "diffuse_only",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\terrain_options\\diffuse_only_m_1",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "diffuse_only"
+          },
+          {
+            "Name": "diffuse_plus_specular",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\terrain_options\\diffuse_plus_specular_m_1",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "diffuse_plus_specular"
+          },
+          {
+            "Name": "off",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "off"
+          },
+          {
+            "Name": "diffuse_only_plus_self_illum",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\terrain_options\\diffuse_only_plus_sefl_illum_m_1",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "diffuse_only_plus_self_illum"
+          },
+          {
+            "Name": "diffuse_plus_specular_plus_self_illum",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\terrain_options\\diffuse_plus_specular_plus_self_illumm_1",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "diffuse_plus_specular_plus_self_illum"
+          },
+          {
+            "Name": "diffuse_plus_specular_plus_heightmap",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\terrain_options\\diffuse_plus_specular_plus_heightmap_m_1",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "diffuse_plus_specular_plus_heightmap"
+          },
+          {
+            "Name": "diffuse_plus_specular_plus_up_vector_plus_heightmap",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\terrain_options\\diffuse_plus_specular_plus_up_vector_plus_heightmap_m_1",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "diffuse_plus_specular_plus_up_vector_plus_heightmap"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "material_1_type"
+      },
+      {
+        "Name": "material_2",
+        "ShaderOptions": [
+          {
+            "Name": "diffuse_only",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\terrain_options\\diffuse_only_m_2",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "diffuse_only"
+          },
+          {
+            "Name": "diffuse_plus_specular",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\terrain_options\\diffuse_plus_specular_m_2",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "diffuse_plus_specular"
+          },
+          {
+            "Name": "off",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "off"
+          },
+          {
+            "Name": "diffuse_only_plus_self_illum",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\terrain_options\\diffuse_only_plus_sefl_illum_m_2",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "diffuse_only_plus_self_illum"
+          },
+          {
+            "Name": "diffuse_plus_specular_plus_self_illum",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\terrain_options\\diffuse_plus_specular_plus_self_illumm_2",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "diffuse_plus_specular_plus_self_illum"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "material_2_type"
+      },
+      {
+        "Name": "material_3",
+        "ShaderOptions": [
+          {
+            "Name": "off",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "off"
+          },
+          {
+            "Name": "diffuse_only_(four_material_shaders_disable_detail_bump)",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\terrain_options\\diffuse_only_m_3",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "diffuse_only"
+          },
+          {
+            "Name": "diffuse_plus_specular_(four_material_shaders_disable_detail_bump)",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\terrain_options\\diffuse_plus_specular_m_3",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "diffuse_plus_specular"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "material_3_type"
+      }
+    ],
+    "EntryPoints": [
+      {
+        "EntryPoint": "Albedo",
+        "Passes": [
+          {
+            "Flags": "None",
+            "CategoryDependencies": []
+          }
+        ]
+      },
+      {
+        "EntryPoint": "Static_Per_Pixel",
+        "Passes": [
+          {
+            "Flags": "None",
+            "CategoryDependencies": []
+          }
+        ]
+      },
+      {
+        "EntryPoint": "Static_Per_Vertex",
+        "Passes": [
+          {
+            "Flags": "None",
+            "CategoryDependencies": []
+          }
+        ]
+      },
+      {
+        "EntryPoint": "Static_Sh",
+        "Passes": [
+          {
+            "Flags": "None",
+            "CategoryDependencies": []
+          }
+        ]
+      },
+      {
+        "EntryPoint": "Dynamic_Light",
+        "Passes": [
+          {
+            "Flags": "None",
+            "CategoryDependencies": []
+          }
+        ]
+      },
+      {
+        "EntryPoint": "Lightmap_Debug_Mode",
+        "Passes": [
+          {
+            "Flags": "None",
+            "CategoryDependencies": []
+          }
+        ]
+      },
+      {
+        "EntryPoint": "Shadow_Generate",
+        "Passes": [
+          {
+            "Flags": "HasSharedPixelShader",
+            "CategoryDependencies": []
+          }
+        ]
+      },
+      {
+        "EntryPoint": "Dynamic_Light_Cinematic",
+        "Passes": [
+          {
+            "Flags": "None",
+            "CategoryDependencies": []
+          }
+        ]
+      },
+      {
+        "EntryPoint": "Static_Prt_Quadratic",
+        "Passes": [
+          {
+            "Flags": "None",
+            "CategoryDependencies": []
+          }
+        ]
+      },
+      {
+        "EntryPoint": "Static_Prt_Linear",
+        "Passes": [
+          {
+            "Flags": "None",
+            "CategoryDependencies": []
+          }
+        ]
+      },
+      {
+        "EntryPoint": "Static_Prt_Ambient",
+        "Passes": [
+          {
+            "Flags": "None",
+            "CategoryDependencies": []
+          }
+        ]
+      }
+    ],
+    "VertexTypes": [
+      {
+        "VertexType": "World",
+        "Dependencies": []
+      },
+      {
+        "VertexType": "Rigid",
+        "Dependencies": []
+      },
+      {
+        "VertexType": "Skinned",
+        "Dependencies": []
+      }
+    ],
+    "GlobalPixelShader": {
+      "Type": "global_pixel_shader",
+      "Name": "shaders\\terrain_shared_pixel_shaders",
+      "Generate": true
+    },
+    "GlobalVertexShader": {
+      "Type": "global_vertex_shader",
+      "Name": "shaders\\terrain_shared_vertex_shaders",
+      "Generate": true
+    },
+    "Flags": "None",
+    "Version": 0
+  }
+}

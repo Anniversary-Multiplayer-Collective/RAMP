@@ -1,0 +1,376 @@
+{
+  "TagName": "shaders\\decal",
+  "TagType": "render_method_definition",
+  "Generate": true,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "GlobalOptions": {
+      "Type": "render_method_option",
+      "Name": "shaders\\decal_options\\global_decal_options",
+      "Generate": true
+    },
+    "Categories": [
+      {
+        "Name": "albedo",
+        "ShaderOptions": [
+          {
+            "Name": "diffuse_only",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\decal_options\\albedo_diffuse_only",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "palettized",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\decal_options\\albedo_palettized",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "palettized_plus_alpha",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\decal_options\\albedo_palettized_plus_alpha",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "diffuse_plus_alpha",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\decal_options\\albedo_diffuse_plus_alpha",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "emblem_change_color",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\decal_options\\albedo_emblem_change_color",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "change_color",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\decal_options\\albedo_change_color",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "diffuse_plus_alpha_mask",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\decal_options\\albedo_diffuse_plus_alpha_mask",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "palettized_plus_alpha_mask",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\decal_options\\albedo_palettized_plus_alpha_mask",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "vector_alpha",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\decal_options\\albedo_vector_alpha",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "vector_alpha_drop_shadow",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\decal_options\\albedo_vector_alpha_drop_shadow",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "blend_mode",
+        "ShaderOptions": [
+          {
+            "Name": "opaque",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "additive",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "multiply",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "alpha_blend",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "double_multiply",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "maximum",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "multiply_add",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "add_src_times_dstalpha",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "add_src_times_srcalpha",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "inv_alpha_blend",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "pre_multiplied_alpha",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "render_pass",
+        "ShaderOptions": [
+          {
+            "Name": "pre_lighting",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "post_lighting",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "transparent",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "specular",
+        "ShaderOptions": [
+          {
+            "Name": "leave",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "modulate",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\decal_options\\specular_modulate",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "bump_mapping",
+        "ShaderOptions": [
+          {
+            "Name": "leave",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "standard",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\decal_options\\bump_mapping_standard",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "standard_mask",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\decal_options\\bump_mapping_standard_mask",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "tinting",
+        "ShaderOptions": [
+          {
+            "Name": "none",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "unmodulated",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\decal_options\\tinting_unmodulated",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "partially_modulated",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\decal_options\\tinting_partially_modulated",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "fully_modulated",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\decal_options\\tinting_fully_modulated",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      }
+    ],
+    "EntryPoints": [
+      {
+        "EntryPoint": "Default",
+        "Passes": [
+          {
+            "Flags": "None",
+            "CategoryDependencies": [
+              {
+                "Category": 4
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "VertexTypes": [
+      {
+        "VertexType": "World",
+        "Dependencies": []
+      },
+      {
+        "VertexType": "Rigid",
+        "Dependencies": []
+      },
+      {
+        "VertexType": "Skinned",
+        "Dependencies": []
+      },
+      {
+        "VertexType": "FlatWorld",
+        "Dependencies": []
+      },
+      {
+        "VertexType": "FlatRigid",
+        "Dependencies": []
+      },
+      {
+        "VertexType": "FlatSkinned",
+        "Dependencies": []
+      }
+    ],
+    "GlobalPixelShader": {
+      "Type": "global_pixel_shader",
+      "Name": "shaders\\decal_shared_pixel_shaders",
+      "Generate": true
+    },
+    "GlobalVertexShader": {
+      "Type": "global_vertex_shader",
+      "Name": "shaders\\decal_shared_vertex_shaders",
+      "Generate": true
+    },
+    "Flags": "UseAutomaticMacros",
+    "Version": 0
+  }
+}

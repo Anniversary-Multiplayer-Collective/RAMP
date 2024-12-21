@@ -1,0 +1,64 @@
+{
+  "TagName": "levels\\ui\\mainmenu\\sky\\ui",
+  "TagType": "area_screen_effect",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Version": 0,
+    "GlobalFlags": "None",
+    "GlobalHiddenFlags": "None",
+    "ScreenEffects": [
+      {
+        "Name": "invalid",
+        "Flags_ODST": "None",
+        "HiddenFlags": "None",
+        "MaximumDistance": 1E+19,
+        "DistanceFalloffFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAADQAAAACAAAABwAAzVyPoj6zkinCrltXQQAAAAAAAIA/BwAAAP//f38+FlPADx4YQe8CFcG+qUZA"
+        },
+        "Delay": 0.0,
+        "Lifetime": 1E+19,
+        "TimeEvolutionFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAADQAAAACAAAABwAAzTMzMz98zD/AV0IGQAAAAAAAAIA/BwAAAP//f38KCGdCyNUQwxLL6EIajurB"
+        },
+        "AngleFalloffFunction": {
+          "Data": "ATQAAAAAgD8AAIA/AAAAAAAAAAAAAAAAAAAAAAAAAAA="
+        },
+        "InputVariable": "invalid",
+        "RangeVariable": "invalid",
+        "ObjectFalloff": {
+          "Data": ""
+        },
+        "ExposureBoost": 0.0,
+        "ExposureDeboost": 0.0,
+        "HueLeft": 0.0,
+        "HueRight": 0.0,
+        "Saturation": 0.0,
+        "Desaturation": 1.0,
+        "ContrastEnhance": 0.0,
+        "GammaEnhance": 0.0,
+        "GammaReduce": 0.1,
+        "BrightNoise": 0.0,
+        "DarkNoise": 0.0,
+        "ColorFilter": "Red: 0.06666667, Green: 0.101960786, Blue: 0.26666668",
+        "ColorFloor": "Red: 0, Green: 0, Blue: 0",
+        "Tron": 0.0,
+        "MotionSuck": 0.0,
+        "MotionSuckDirection": "I: 0, J: 0, K: 0",
+        "HorizontalBlur": 0.0,
+        "VerticalBlur": 0.0,
+        "VisionMode": 0.0,
+        "VisionNoise": 0.0,
+        "HudFade": 0.0,
+        "FovIn": 0.0,
+        "FovOut": 0.0,
+        "ScreenShake": 0.0,
+        "ScreenShader": null
+      }
+    ]
+  }
+}

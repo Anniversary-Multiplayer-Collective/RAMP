@@ -1,0 +1,365 @@
+{
+  "TagName": "shaders\\water",
+  "TagType": "render_method_definition",
+  "Generate": true,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "GlobalOptions": {
+      "Type": "render_method_option",
+      "Name": "shaders\\water_options\\water_global",
+      "Generate": true
+    },
+    "Categories": [
+      {
+        "Name": "waveshape",
+        "ShaderOptions": [
+          {
+            "Name": "default",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\water_options\\waveshape_default",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "none",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "bump",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\water_options\\waveshape_bump",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "watercolor",
+        "ShaderOptions": [
+          {
+            "Name": "pure",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\water_options\\watercolor_pure",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "texture",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\water_options\\watercolor_texture",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "reflection",
+        "ShaderOptions": [
+          {
+            "Name": "none",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "static",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\water_options\\reflection_static",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "dynamic",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\water_options\\reflection_dynamic",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "static_ssr",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\water_options\\reflection_static_ssr",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "refraction",
+        "ShaderOptions": [
+          {
+            "Name": "none",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "dynamic",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\water_options\\refraction_dynamic",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "bankalpha",
+        "ShaderOptions": [
+          {
+            "Name": "none",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "depth",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\water_options\\bankalpha_depth",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "paint",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\water_options\\bankalpha_paint",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "from_shape_texture_alpha",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\water_options\\bankalpha_from_shape_texture_alpha",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "appearance",
+        "ShaderOptions": [
+          {
+            "Name": "default",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\water_options\\appearance_default",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "global_shape",
+        "ShaderOptions": [
+          {
+            "Name": "none",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "paint",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\water_options\\globalshape_paint",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "depth",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\water_options\\globalshape_depth",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "foam",
+        "ShaderOptions": [
+          {
+            "Name": "none",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\water_options\\foam_none",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "auto",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\water_options\\foam_auto",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "paint",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\water_options\\foam_paint",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "both",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\water_options\\foam_both",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "reach_compatibility",
+        "ShaderOptions": [
+          {
+            "Name": "disabled",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "enabled",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\water_options\\reach_compatibility_enabled",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "enabled_detail_repeat",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\water_options\\reach_compatibility_enabled",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      }
+    ],
+    "EntryPoints": [
+      {
+        "EntryPoint": "Water_Tessellation",
+        "Passes": [
+          {
+            "Flags": "None",
+            "CategoryDependencies": []
+          }
+        ]
+      },
+      {
+        "EntryPoint": "Static_Per_Pixel",
+        "Passes": [
+          {
+            "Flags": "None",
+            "CategoryDependencies": []
+          }
+        ]
+      },
+      {
+        "EntryPoint": "Static_Per_Vertex",
+        "Passes": [
+          {
+            "Flags": "None",
+            "CategoryDependencies": []
+          }
+        ]
+      }
+    ],
+    "VertexTypes": [
+      {
+        "VertexType": "Water",
+        "Dependencies": []
+      }
+    ],
+    "GlobalPixelShader": {
+      "Type": "global_pixel_shader",
+      "Name": "shaders\\water_shared_pixel_shaders",
+      "Generate": true
+    },
+    "GlobalVertexShader": {
+      "Type": "global_vertex_shader",
+      "Name": "shaders\\water_shared_vertex_shaders",
+      "Generate": true
+    },
+    "Flags": "UseAutomaticMacros",
+    "Version": 0
+  }
+}

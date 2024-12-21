@@ -1,0 +1,75 @@
+{
+  "TagName": "objects\\characters\\elite\\mp_elite\\action_camera",
+  "TagType": "camera_track",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Flags": "None",
+    "ControlPoints": [
+      {
+        "Position": "I: 3.934E-08, J: 0, K: 0.9",
+        "Orientation": "I: 0, J: -0.7071069, K: 0, W: -0.7071068"
+      },
+      {
+        "Position": "I: -0.1732779, J: 0, K: 0.9380214",
+        "Orientation": "I: 0, J: -0.6234899, K: 0, W: -0.7818315"
+      },
+      {
+        "Position": "I: -0.3668045, J: 0, K: 0.9310074",
+        "Orientation": "I: 0, J: -0.5320321, K: 0, W: -0.8467242"
+      },
+      {
+        "Position": "I: -0.5661401, J: 0, K: 0.8719415",
+        "Orientation": "I: 0, J: -0.4338837, K: 0, W: -0.9009689"
+      },
+      {
+        "Position": "I: -0.7549486, J: 0, K: 0.7586696",
+        "Orientation": "I: 0, J: -0.3302791, K: 0, W: -0.9438834"
+      },
+      {
+        "Position": "I: -0.9165863, J: 0, K: 0.5943015",
+        "Orientation": "I: 0, J: -0.222521, K: 0, W: -0.9749279"
+      },
+      {
+        "Position": "I: -1.035744, J: 0, K: 0.3871195",
+        "Orientation": "I: 0, J: -0.1119645, K: 0, W: -0.9937123"
+      },
+      {
+        "Position": "I: -1.1, J: 0, K: 0.1500001",
+        "Orientation": "I: 0, J: -5.96E-08, K: 0, W: -1"
+      },
+      {
+        "Position": "I: -1.083231, J: 0, K: -0.09652288",
+        "Orientation": "I: 0, J: 0.1119645, K: 0, W: -0.9937123"
+      },
+      {
+        "Position": "I: -0.9699321, J: 0, K: -0.3141978",
+        "Orientation": "I: 0, J: 0.2225208, K: 0, W: -0.974928"
+      },
+      {
+        "Position": "I: -0.7783985, J: 0, K: -0.4641338",
+        "Orientation": "I: 0, J: 0.330279, K: 0, W: -0.9438834"
+      },
+      {
+        "Position": "I: -0.5408726, J: 0, K: -0.5162081",
+        "Orientation": "I: 0, J: 0.4338836, K: 0, W: -0.900969"
+      },
+      {
+        "Position": "I: -0.2999597, J: 0, K: -0.4535427",
+        "Orientation": "I: 0, J: 0.532032, K: 0, W: -0.8467243"
+      },
+      {
+        "Position": "I: -0.103738, J: 0, K: -0.2756643",
+        "Orientation": "I: 0, J: 0.6234898, K: 0, W: -0.7818316"
+      },
+      {
+        "Position": "I: 0, J: 0, K: 1.9073E-08",
+        "Orientation": "I: 0, J: 0.7071067, K: 0, W: -0.7071069"
+      }
+    ]
+  }
+}

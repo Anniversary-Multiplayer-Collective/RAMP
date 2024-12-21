@@ -1,0 +1,13 @@
+{
+  "TagName": "levels\\ui\\mainmenu\\mainmenu",
+  "TagType": "scenario",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": {
+    "BlamScriptFile": "mainmenu_odst.hsc"
+  },
+  "TagData": null
+}

@@ -1,0 +1,14 @@
+{
+  "TagName": "ai\\squad_templates\\survival_mode",
+  "TagType": "squad_template",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Name": "survival",
+    "CellTemplates": []
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "TagName": "ui\\eldewrito\\common\\map_bitmaps\\030_outskirts",
+  "TagType": "bitmap",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": [
+    {
+      "BitmapIndex": 0,
+      "DDSFile": "030_outskirts.dds"
+    }
+  ],
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": null
+}

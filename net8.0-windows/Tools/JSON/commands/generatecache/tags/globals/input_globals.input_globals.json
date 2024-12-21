@@ -1,0 +1,17 @@
+{
+  "TagName": "globals\\input_globals",
+  "TagType": "input_globals",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Unknown": 4,
+    "Unknown2": 128.0,
+    "Unknown3": "CDQAAM3MzD0AACBBAAAAAAAAAAAAAAAAAAAAABQAAAABAAAABAAAzf//f38AAIA/AAAAAA==",
+    "Unknown4": "CDUAAG8Sgzqmm0Q7AAAAAAAAAAAAAAAAAAAAAIgAAAAEAAAABAAAzZqZGT60l1BAAAAAAAQAAAD2KJw+7r33P/hUSz4EAAAAcT0aP8nIyD4AVis/BAAAAP//f39mTHM+5yxDPwQAAAAEAADNzczMPgAAgD4AAAAABAAAAOF6ND9u3qc+Jyn/vAQAAACamVk/LvYBQFqlnb8EAAAA//9/fym0V0AptBfA",
+    "Unknown5": 500
+  }
+}

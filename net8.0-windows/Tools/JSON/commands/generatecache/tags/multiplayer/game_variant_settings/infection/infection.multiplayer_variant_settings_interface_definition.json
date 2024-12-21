@@ -1,0 +1,141 @@
+{
+  "TagName": "multiplayer\\game_variant_settings\\infection\\infection",
+  "TagType": "multiplayer_variant_settings_interface_definition",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Unknown": 0,
+    "GameEngineSettings": [
+      {
+        "Name": "infection",
+        "SettingCategory": "InfectionMain",
+        "Options": [
+          {
+            "ExplicitSubmenu": {
+              "Type": "multiplayer_variant_settings_interface_definition",
+              "Name": "multiplayer\\game_variant_settings\\infection\\infection_scoring",
+              "Generate": false
+            },
+            "TemplateBasedSubmenu": null,
+            "SubmenuSettingCategory": "None",
+            "SubmenuName": "infection_scoring",
+            "SubmenuDescription": "infection_scoring_desc",
+            "ValuePairs": null
+          },
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": {
+              "Type": "multiplayer_variant_settings_interface_definition",
+              "Name": "multiplayer\\game_variant_settings\\player_traits_template\\player_traits_template",
+              "Generate": false
+            },
+            "SubmenuSettingCategory": "InfectionZombieTraitsMain",
+            "SubmenuName": "infection_traits_zombie",
+            "SubmenuDescription": "infection_traits_zombie_desc",
+            "ValuePairs": null
+          },
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": {
+              "Type": "multiplayer_variant_settings_interface_definition",
+              "Name": "multiplayer\\game_variant_settings\\player_traits_template\\player_traits_template",
+              "Generate": false
+            },
+            "SubmenuSettingCategory": "InfectionAlphaZombieTraitsMain",
+            "SubmenuName": "infection_traits_alpha",
+            "SubmenuDescription": "infection_traits_alpha_desc",
+            "ValuePairs": null
+          },
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": {
+              "Type": "multiplayer_variant_settings_interface_definition",
+              "Name": "multiplayer\\game_variant_settings\\player_traits_template\\player_traits_dynamic_template",
+              "Generate": false
+            },
+            "SubmenuSettingCategory": "InfectionLastManTraitsMain",
+            "SubmenuName": "infection_traits_last_man",
+            "SubmenuDescription": "infection_traits_last_man_desc",
+            "ValuePairs": null
+          },
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": null,
+            "SubmenuSettingCategory": "None",
+            "SubmenuName": "invalid",
+            "SubmenuDescription": "invalid",
+            "ValuePairs": {
+              "Type": "text_value_pair_definition",
+              "Name": "multiplayer\\game_variant_settings\\infection\\infection_next_zombie",
+              "Generate": false
+            }
+          },
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": null,
+            "SubmenuSettingCategory": "None",
+            "SubmenuName": "invalid",
+            "SubmenuDescription": "invalid",
+            "ValuePairs": {
+              "Type": "text_value_pair_definition",
+              "Name": "multiplayer\\game_variant_settings\\infection\\infection_haven_movement",
+              "Generate": false
+            }
+          },
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": null,
+            "SubmenuSettingCategory": "None",
+            "SubmenuName": "invalid",
+            "SubmenuDescription": "invalid",
+            "ValuePairs": {
+              "Type": "text_value_pair_definition",
+              "Name": "multiplayer\\game_variant_settings\\infection\\infection_haven_movement_time",
+              "Generate": false
+            }
+          },
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": null,
+            "SubmenuSettingCategory": "None",
+            "SubmenuName": "invalid",
+            "SubmenuDescription": "invalid",
+            "ValuePairs": {
+              "Type": "text_value_pair_definition",
+              "Name": "multiplayer\\game_variant_settings\\infection\\infection_respawn_on_haven_move",
+              "Generate": false
+            }
+          },
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": null,
+            "SubmenuSettingCategory": "None",
+            "SubmenuName": "invalid",
+            "SubmenuDescription": "invalid",
+            "ValuePairs": {
+              "Type": "text_value_pair_definition",
+              "Name": "multiplayer\\game_variant_settings\\infection\\infection_scoring_haven_arrival",
+              "Generate": false
+            }
+          },
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": {
+              "Type": "multiplayer_variant_settings_interface_definition",
+              "Name": "multiplayer\\game_variant_settings\\player_traits_template\\player_traits_dynamic_template",
+              "Generate": false
+            },
+            "SubmenuSettingCategory": "InfectionSafeHavenTraitsMain",
+            "SubmenuName": "infection_traits_safe_haven",
+            "SubmenuDescription": "infection_traits_safe_haven_desc",
+            "ValuePairs": null
+          }
+        ]
+      }
+    ]
+  }
+}

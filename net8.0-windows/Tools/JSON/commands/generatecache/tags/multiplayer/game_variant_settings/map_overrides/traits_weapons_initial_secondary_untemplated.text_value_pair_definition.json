@@ -1,0 +1,217 @@
+{
+  "TagName": "multiplayer\\game_variant_settings\\map_overrides\\traits_weapons_initial_secondary_untemplated",
+  "TagType": "text_value_pair_definition",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Parameter": "SidGlobalBaseTraitsSecondaryWeapon",
+    "Name": "traits_weapons_initial_secondary",
+    "Description": "traits_weapons_initial_secondary_desc",
+    "TextValuePairs": [
+      {
+        "Flags": "DefaultSetting",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "unchanged",
+        "Name": "unchanged",
+        "Description": "unchanged_desc"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "default",
+        "Name": "map_default",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "assault_rifle",
+        "Name": "traits_weapons_assault_rifle",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "battle_rifle",
+        "Name": "traits_weapons_battle_rifle",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "beam_rifle",
+        "Name": "traits_weapons_beam_rifle",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "brute_shot",
+        "Name": "traits_weapons_brute_shot",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "carbine",
+        "Name": "traits_weapons_carbine",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "energy_sword",
+        "Name": "traits_weapons_sword",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "fuel_rod_gun",
+        "Name": "fuel_rod_gun",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "gravity_hammer",
+        "Name": "traits_weapons_gravity_hammer",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "magnum",
+        "Name": "traits_weapons_magnum",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "excavator",
+        "Name": "traits_weapons_excavator",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "needler",
+        "Name": "traits_weapons_needler",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "plasma_pistol",
+        "Name": "traits_weapons_plasma_pistol",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "plasma_rifle",
+        "Name": "traits_weapons_plasma_rifle",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "rocket_launcher",
+        "Name": "traits_weapons_rocket_launcher",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "smg",
+        "Name": "traits_weapons_smg",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "sentinel_beam",
+        "Name": "sentinel_beam",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "shotgun",
+        "Name": "traits_weapons_shotgun",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "sniper_rifle",
+        "Name": "traits_weapons_sniper_rifle",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "spartan_laser",
+        "Name": "traits_weapons_laser",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "spike_rifle",
+        "Name": "traits_weapons_spiker",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "random",
+        "Name": "traits_weapons_random",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "unarmed",
+        "Name": "unarmed",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "none",
+        "Name": "none",
+        "Description": "invalid"
+      }
+    ]
+  }
+}

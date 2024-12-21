@@ -1,0 +1,52 @@
+{
+  "TagName": "shaders\\water_options\\waveshape_bump",
+  "TagType": "render_method_option",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Parameters": [
+      {
+        "Name": "bump_map",
+        "Type": "Bitmap",
+        "RenderMethodExtern": "none",
+        "DefaultSamplerBitmap": {
+          "Type": "bitmap",
+          "Name": "shaders\\default_bitmaps\\bitmaps\\default_vector",
+          "Generate": false
+        },
+        "DefaultFloatArgument": 0.0,
+        "DefaultIntBoolArgument": 0,
+        "Flags": 0,
+        "DefaultFilterMode": "Trilinear",
+        "DefaultAddressMode": "Wrap",
+        "AnisotropyAmount": 0,
+        "DefaultColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "DefaultBitmapScale": 0.0,
+        "HelpText": ""
+      },
+      {
+        "Name": "bump_detail_map",
+        "Type": "Bitmap",
+        "RenderMethodExtern": "none",
+        "DefaultSamplerBitmap": {
+          "Type": "bitmap",
+          "Name": "shaders\\default_bitmaps\\bitmaps\\default_vector",
+          "Generate": false
+        },
+        "DefaultFloatArgument": 0.0,
+        "DefaultIntBoolArgument": 0,
+        "Flags": 0,
+        "DefaultFilterMode": "Trilinear",
+        "DefaultAddressMode": "Wrap",
+        "AnisotropyAmount": 0,
+        "DefaultColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "DefaultBitmapScale": 16.0,
+        "HelpText": ""
+      }
+    ]
+  }
+}

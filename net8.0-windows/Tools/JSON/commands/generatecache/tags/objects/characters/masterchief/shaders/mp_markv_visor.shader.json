@@ -1,0 +1,379 @@
+{
+  "TagName": "objects\\characters\\masterchief\\shaders\\mp_markv_visor",
+  "TagType": "shader",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "BaseRenderMethod": {
+      "Type": "render_method_definition",
+      "Name": "shaders\\shader",
+      "Generate": false
+    },
+    "Options": [
+      {
+        "OptionIndex": 4
+      },
+      {
+        "OptionIndex": 1
+      },
+      {
+        "OptionIndex": 0
+      },
+      {
+        "OptionIndex": 1
+      },
+      {
+        "OptionIndex": 1
+      },
+      {
+        "OptionIndex": 2
+      },
+      {
+        "OptionIndex": 0
+      },
+      {
+        "OptionIndex": 0
+      },
+      {
+        "OptionIndex": 0
+      },
+      {
+        "OptionIndex": 1
+      },
+      {
+        "OptionIndex": 0
+      },
+      {
+        "OptionIndex": 0
+      }
+    ],
+    "Parameters": [],
+    "ShaderProperties": [
+      {
+        "Template": {
+          "Type": "render_method_template",
+          "Name": "shaders\\shader_templates\\_4_1_0_1_1_2_0_0_0_1_0_0",
+          "Generate": false
+        },
+        "TextureConstants": [
+          {
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "objects\\characters\\masterchief\\bitmaps\\mp_markv",
+              "Generate": false
+            },
+            "BitmapIndex": 0,
+            "SamplerAddressMode": {
+              "SamplerAddressUV": 0
+            },
+            "FilterMode": "Anisotropic4EXPENSIVE",
+            "ExternTextureMode": "UseBitmapAsNormal",
+            "TextureTransformConstantIndex": 0,
+            "TextureTransformOverlayIndices": {
+              "Integer": 0
+            }
+          },
+          {
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "shaders\\default_bitmaps\\bitmaps\\default_detail",
+              "Generate": false
+            },
+            "BitmapIndex": 0,
+            "SamplerAddressMode": {
+              "SamplerAddressUV": 0
+            },
+            "FilterMode": "Anisotropic4EXPENSIVE",
+            "ExternTextureMode": "UseBitmapAsNormal",
+            "TextureTransformConstantIndex": 1,
+            "TextureTransformOverlayIndices": {
+              "Integer": 0
+            }
+          },
+          {
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "objects\\characters\\masterchief\\bitmaps\\mp_visor_cc",
+              "Generate": false
+            },
+            "BitmapIndex": 0,
+            "SamplerAddressMode": {
+              "SamplerAddressUV": 0
+            },
+            "FilterMode": "Anisotropic4EXPENSIVE",
+            "ExternTextureMode": "UseBitmapAsNormal",
+            "TextureTransformConstantIndex": 2,
+            "TextureTransformOverlayIndices": {
+              "Integer": 0
+            }
+          },
+          {
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "objects\\characters\\masterchief\\bitmaps\\mp_markv_zbump",
+              "Generate": false
+            },
+            "BitmapIndex": 0,
+            "SamplerAddressMode": {
+              "SamplerAddressUV": 0
+            },
+            "FilterMode": "Anisotropic4EXPENSIVE",
+            "ExternTextureMode": "UseBitmapAsNormal",
+            "TextureTransformConstantIndex": 3,
+            "TextureTransformOverlayIndices": {
+              "Integer": 0
+            }
+          },
+          {
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "shaders\\default_bitmaps\\bitmaps\\gray_50_percent",
+              "Generate": false
+            },
+            "BitmapIndex": 0,
+            "SamplerAddressMode": {
+              "SamplerAddressUV": 0
+            },
+            "FilterMode": "Trilinear",
+            "ExternTextureMode": "UseBitmapAsNormal",
+            "TextureTransformConstantIndex": 15,
+            "TextureTransformOverlayIndices": {
+              "Integer": 0
+            }
+          }
+        ],
+        "RealConstants": [
+          {
+            "Values": [
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "Values": [
+              40.0,
+              20.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "Values": [
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "Values": [
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "Values": [
+              7.0,
+              0.1,
+              0.1,
+              0.1
+            ]
+          },
+          {
+            "Values": [
+              0.2,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "Values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "Values": [
+              0.5019608,
+              0.5019608,
+              0.5019608,
+              1.0
+            ]
+          },
+          {
+            "Values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "Values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "Values": [
+              8.0,
+              8.0,
+              8.0,
+              8.0
+            ]
+          },
+          {
+            "Values": [
+              0.15,
+              0.15,
+              0.15,
+              0.15
+            ]
+          },
+          {
+            "Values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "Values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          },
+          {
+            "Values": [
+              0.9,
+              0.9,
+              0.9,
+              0.9
+            ]
+          },
+          {
+            "Values": [
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "Values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "Values": [
+              0.9,
+              0.9,
+              0.9,
+              0.9
+            ]
+          },
+          {
+            "Values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "Values": [
+              10.0,
+              10.0,
+              10.0,
+              10.0
+            ]
+          },
+          {
+            "Values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "Values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "Values": [
+              0.9,
+              0.9,
+              0.9,
+              0.9
+            ]
+          },
+          {
+            "Values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "Values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "IntegerConstants": [],
+        "BooleanConstants": 1,
+        "EntryPoints": [],
+        "Passes": [],
+        "RoutingInfo": [],
+        "Functions": [],
+        "BlendMode": "Opaque",
+        "Flags": "ForceSinglePass",
+        "ImSoFiredPad": 0,
+        "QueryableProperties": [
+          -1,
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      }
+    ],
+    "RenderFlags": "None",
+    "SortLayer": "Normal",
+    "Version": 0,
+    "CustomFogSettingIndex": 0,
+    "PredictionAtomIndex": -1,
+    "Material": "invalid"
+  }
+}

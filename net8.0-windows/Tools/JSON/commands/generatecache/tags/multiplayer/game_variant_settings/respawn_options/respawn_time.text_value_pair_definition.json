@@ -1,0 +1,273 @@
+{
+  "TagName": "multiplayer\\game_variant_settings\\respawn_options\\respawn_time",
+  "TagType": "text_value_pair_definition",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Parameter": "IntGlobalRespawnTime",
+    "Name": "respawn_time",
+    "Description": "respawn_time_desc",
+    "TextValuePairs": [
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 0,
+        "StringidValue": "invalid",
+        "Name": "time_instant",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 1,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_1",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 2,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_2",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 3,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_3",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 4,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_4",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "DefaultSetting",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 5,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_5",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 6,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_6",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 7,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_7",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 8,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_8",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 9,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_9",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 10,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_10",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 11,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_11",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 12,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_12",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 13,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_13",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 14,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_14",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 15,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_15",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 16,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_16",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 17,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_17",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 18,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_18",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 19,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_19",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 20,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_20",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 21,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_21",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 22,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_22",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 23,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_23",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 24,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_24",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 25,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_25",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 30,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_30",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 45,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_45",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 60,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_60",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 90,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_90",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 120,
+        "StringidValue": "invalid",
+        "Name": "time_minutes_2",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 180,
+        "StringidValue": "invalid",
+        "Name": "time_minutes_3",
+        "Description": "invalid"
+      }
+    ]
+  }
+}

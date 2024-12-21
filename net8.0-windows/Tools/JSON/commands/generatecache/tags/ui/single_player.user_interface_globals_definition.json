@@ -1,0 +1,229 @@
+{
+  "TagName": "ui\\single_player",
+  "TagType": "user_interface_globals_definition",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "SharedGlobals": {
+      "Type": "user_interface_shared_globals_definition",
+      "Name": "ui\\ui_shared_globals",
+      "Generate": false
+    },
+    "MpVariantSettingsUi": null,
+    "GameHopperDescriptions": null,
+    "ScreenWidgets": [
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\start_menu",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\game_campaign\\start_menu_game_campaign",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\game_saved_film\\start_menu_game_saved_films",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\settings\\start_menu_settings",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\settings_controls\\start_menu_settings_controls",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\settings_controls_button\\start_menu_settings_controls_button",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\settings_controls_thumbstick\\start_menu_settings_controls_thumbstick",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\settings_voice\\start_menu_settings_voice",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\settings_camera\\start_menu_settings_camera",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\settings_display\\start_menu_settings_display",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\alert\\alert_nonblocking",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\alert\\alert_toast",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\alert\\alert_ingame_full",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\alert\\alert_ingame_split",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\dialog\\dialog",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\dialog\\dialog_four",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\in_progress\\in_progress",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\in_progress\\in_progress_mini",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\terminals\\terminal_screen",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\scoreboard\\scoreboard",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\scoreboard\\scoreboard_half",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\common\\player_select\\scoreboard_player_select",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\director\\saved_film_control_pad",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\director\\saved_film_take_screenshot",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\game_details\\game_details",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\director\\observer_camera_list_splitscreen",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\common\\player_select\\splitscreen_player_select",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": null
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\in_progress\\in_progress_mini_me",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\director\\observer_camera_list_screen",
+          "Generate": false
+        }
+      }
+    ],
+    "TextureRenderList": null,
+    "UnknownHO": 0
+  }
+}

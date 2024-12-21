@@ -1,0 +1,2223 @@
+{
+  "TagName": "objects\\characters\\masterchief\\mp_masterchief\\mp_masterchief",
+  "TagType": "render_model",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Name": "mp_masterchief",
+    "Flags": "None",
+    "Version": 0,
+    "Checksum": 270339346,
+    "Regions": [
+      {
+        "Name": "arms",
+        "Permutations": [
+          {
+            "Name": "base",
+            "MeshIndex": 0,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          }
+        ]
+      },
+      {
+        "Name": "body",
+        "Permutations": [
+          {
+            "Name": "base",
+            "MeshIndex": 1,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          }
+        ]
+      },
+      {
+        "Name": "chest",
+        "Permutations": [
+          {
+            "Name": "mp_cobra",
+            "MeshIndex": 2,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_intruder",
+            "MeshIndex": 8,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_ninja",
+            "MeshIndex": 12,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_regulator",
+            "MeshIndex": 16,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_ryu",
+            "MeshIndex": 20,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_scout",
+            "MeshIndex": 24,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_katana",
+            "MeshIndex": 28,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_bungie",
+            "MeshIndex": 32,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          }
+        ]
+      },
+      {
+        "Name": "decals",
+        "Permutations": [
+          {
+            "Name": "base",
+            "MeshIndex": 3,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          }
+        ]
+      },
+      {
+        "Name": "helmet",
+        "Permutations": [
+          {
+            "Name": "base",
+            "MeshIndex": 4,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "realtime",
+            "MeshIndex": 9,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_cobra",
+            "MeshIndex": 13,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_intruder",
+            "MeshIndex": 17,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_ninja",
+            "MeshIndex": 21,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_regulator",
+            "MeshIndex": 25,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "ui",
+            "MeshIndex": 29,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_ryu",
+            "MeshIndex": 33,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_marathon",
+            "MeshIndex": 36,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_markv",
+            "MeshIndex": 37,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_rogue",
+            "MeshIndex": 38,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_scout",
+            "MeshIndex": 39,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_odst",
+            "MeshIndex": 40,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          }
+        ]
+      },
+      {
+        "Name": "leftshoulder",
+        "Permutations": [
+          {
+            "Name": "base",
+            "MeshIndex": 5,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_cobra",
+            "MeshIndex": 10,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_intruder",
+            "MeshIndex": 14,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_ninja",
+            "MeshIndex": 18,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_regulator",
+            "MeshIndex": 22,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_ryu",
+            "MeshIndex": 26,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_marathon",
+            "MeshIndex": 30,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_scout",
+            "MeshIndex": 34,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          }
+        ]
+      },
+      {
+        "Name": "legs",
+        "Permutations": [
+          {
+            "Name": "base",
+            "MeshIndex": 6,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          }
+        ]
+      },
+      {
+        "Name": "rightshoulder",
+        "Permutations": [
+          {
+            "Name": "base",
+            "MeshIndex": 7,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_cobra",
+            "MeshIndex": 11,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_intruder",
+            "MeshIndex": 15,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_ninja",
+            "MeshIndex": 19,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_regulator",
+            "MeshIndex": 23,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_ryu",
+            "MeshIndex": 27,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_marathon",
+            "MeshIndex": 31,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          },
+          {
+            "Name": "mp_scout",
+            "MeshIndex": 35,
+            "MeshCount": 1,
+            "Unknown8": 0,
+            "UnknownC": 0,
+            "Unknown10": 0,
+            "Unknown14": 0
+          }
+        ]
+      }
+    ],
+    "Unknown18": 0,
+    "InstanceStartingMeshIndex": -1,
+    "InstancePlacements": [],
+    "NodeListChecksum": 0,
+    "Nodes": [
+      {
+        "Name": "pelvis",
+        "ParentNode": -1,
+        "FirstChildNode": 1,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0, Y: 0, Z: 0.3943847",
+        "DefaultRotation": "I: 0.49999887, J: 0.5000005, K: 0.49999952, W: -0.50000113",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0, J: 1, K: -3.2186508E-06",
+        "InverseLeft": "I: -1.3113022E-06, J: 3.2186508E-06, K: 1",
+        "InverseUp": "I: 1, J: 0, K: 1.3113022E-06",
+        "InversePosition": "X: -0.3943847, Y: -0, Z: -5.1715756E-07",
+        "DistanceFromParent": 0.0
+      },
+      {
+        "Name": "l_thigh",
+        "ParentNode": 0,
+        "FirstChildNode": 4,
+        "NextSiblingNode": 2,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0, Y: 2.9819317E-05, Z: 0.042186495",
+        "DefaultRotation": "I: -0.07840926, J: -0.99038625, K: -0.10382927, W: 0.046974003",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.145556, J: 0.9661423, K: 0.21303168",
+        "InverseLeft": "I: 0.109328926, J: 0.19829866, K: -0.97402513",
+        "InverseUp": "I: -0.9832908, J: 0.16506572, K: -0.07676374",
+        "InversePosition": "X: 0.38317838, Y: -0.07349361, Z: 0.07135883",
+        "DistanceFromParent": 0.042186506
+      },
+      {
+        "Name": "r_thigh",
+        "ParentNode": 0,
+        "FirstChildNode": 5,
+        "NextSiblingNode": 3,
+        "Flags": "None",
+        "DefaultTranslation": "X: 1.7881393E-07, Y: 2.9699742E-05, Z: -0.042186525",
+        "DefaultRotation": "I: -0.07840926, J: -0.990386, K: 0.103830464, W: -0.04697551",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.14555626, J: 0.9661431, K: -0.213028",
+        "InverseLeft": "I: -0.10932857, J: -0.19829498, K: -0.97402596",
+        "InverseUp": "I: -0.9832908, J: 0.16506562, K: 0.076763965",
+        "InversePosition": "X: 0.38317844, Y: -0.07349358, Z: -0.07135896",
+        "DistanceFromParent": 0.042186536
+      },
+      {
+        "Name": "spine",
+        "ParentNode": 0,
+        "FirstChildNode": 6,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.037365913, Y: -5.891939E-05, Z: 3.0155775E-08",
+        "DefaultRotation": "I: -1.8030405E-06, J: -7.301569E-07, K: -1.4901168E-08, W: 1",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: -2.9804404E-08, J: 1, K: 3.874302E-07",
+        "InverseLeft": "I: 1.4901151E-07, J: -3.8743022E-07, K: 1",
+        "InverseUp": "I: 1, J: 2.980024E-08, K: -1.4901161E-07",
+        "InversePosition": "X: -0.43175063, Y: 5.8906524E-05, Z: 8.339055E-08",
+        "DistanceFromParent": 0.037365958
+      },
+      {
+        "Name": "l_calf",
+        "ParentNode": 1,
+        "FirstChildNode": 7,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.18032172, Y: 0, Z: -5.2154064E-08",
+        "DefaultRotation": "I: -3.0021855E-08, J: -5.7198488E-08, K: 0.23043521, W: -0.9730878",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: -0.30318537, J: 0.92881435, K: 0.2130316",
+        "InverseLeft": "I: 0.008787776, J: 0.2262696, K: -0.97402513",
+        "InverseUp": "I: -0.9528911, J: -0.2934381, K: -0.07676385",
+        "InversePosition": "X: 0.21427259, Y: 0.025286034, Z: 0.07135891",
+        "DistanceFromParent": 0.18032172
+      },
+      {
+        "Name": "r_calf",
+        "ParentNode": 2,
+        "FirstChildNode": 8,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.1803217, Y: -7.450581E-09, Z: 2.2351742E-08",
+        "DefaultRotation": "I: 1.1261314E-08, J: -5.888051E-08, K: -0.2304352, W: 0.97308767",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: -0.30318552, J: 0.9288152, K: -0.21302801",
+        "InverseLeft": "I: -0.008789086, J: -0.22626624, K: -0.97402596",
+        "InverseUp": "I: -0.9528911, J: -0.29343823, K: 0.076764084",
+        "InversePosition": "X: 0.21427263, Y: 0.025286105, Z: -0.07135901",
+        "DistanceFromParent": 0.1803217
+      },
+      {
+        "Name": "spine1",
+        "ParentNode": 3,
+        "FirstChildNode": 9,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.07399991, Y: -6.858169E-05, Z: -3.177263E-08",
+        "DefaultRotation": "I: 2.2351742E-07, J: -1.0430813E-07, K: 1.4901124E-08, W: -1",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: -5.9606776E-08, J: 1, K: 8.34465E-07",
+        "InverseLeft": "I: -5.960473E-08, J: -8.34465E-07, K: 1",
+        "InverseUp": "I: 1, J: 5.960251E-08, K: 5.960466E-08",
+        "InversePosition": "X: -0.50575054, Y: 0.00012747315, Z: 9.712398E-09",
+        "DistanceFromParent": 0.07399994
+      },
+      {
+        "Name": "l_foot",
+        "ParentNode": 4,
+        "FirstChildNode": 12,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.15626055, Y: -2.7939677E-08, Z: -3.7252903E-08",
+        "DefaultRotation": "I: 0.017248333, J: 0.041522965, K: -0.14815938, W: -0.9879409",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.0007964902, J: 0.9659249, K: 0.25882095",
+        "InverseLeft": "I: 3.3843307E-08, J: 0.25882104, K: -0.96592534",
+        "InverseUp": "I: -0.99999976, J: 0.0007693923, K: 0.0002061075",
+        "InversePosition": "X: 0.0681936, Y: 0.0039512706, Z: 0.066565",
+        "DistanceFromParent": 0.15626055
+      },
+      {
+        "Name": "r_foot",
+        "ParentNode": 5,
+        "FirstChildNode": 13,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.15626055, Y: -3.5390258E-08, Z: 1.4901161E-08",
+        "DefaultRotation": "I: 0.017248206, J: 0.041523077, K: 0.1481593, W: 0.98794085",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.0007962346, J: 0.965926, K: -0.25881723",
+        "InverseLeft": "I: 6.132321E-08, J: -0.2588173, K: -0.9659264",
+        "InverseUp": "I: -0.99999976, J: 0.0007691133, K: -0.00020613162",
+        "InversePosition": "X: 0.068193674, Y: 0.003951359, Z: -0.06656505",
+        "DistanceFromParent": 0.15626055
+      },
+      {
+        "Name": "l_clavicle",
+        "ParentNode": 6,
+        "FirstChildNode": 14,
+        "NextSiblingNode": 10,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.06349313, Y: 1.7832732E-05, Z: 0.059802715",
+        "DefaultRotation": "I: 0.681772, J: 0.01887231, K: 0.73109615, W: 0.018142775",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.05226229, J: -0.99862933, K: 0.002856473",
+        "InverseLeft": "I: 0.996197, J: 0.052334256, K: 0.069661446",
+        "InverseUp": "I: -0.06971549, J: -0.00079505757, K: 0.99756664",
+        "InversePosition": "X: -0.019884408, Y: -0.002786621, Z: -0.5720241",
+        "DistanceFromParent": 0.087222375
+      },
+      {
+        "Name": "neck",
+        "ParentNode": 6,
+        "FirstChildNode": 15,
+        "NextSiblingNode": 11,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.086128116, Y: -1.3617726E-05, Z: -7.010531E-09",
+        "DefaultRotation": "I: 4.1751317E-08, J: -2.21731E-07, K: 0.06730898, W: 0.99773216",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.13431261, J: 0.990939, K: 7.213028E-07",
+        "InverseLeft": "I: 2.7693295E-07, J: -7.65434E-07, K: 1",
+        "InverseUp": "I: 0.990939, J: -0.13431261, K: -3.7723123E-07",
+        "InversePosition": "X: -0.5864967, Y: 0.07963662, Z: 2.7526082E-07",
+        "DistanceFromParent": 0.086128116
+      },
+      {
+        "Name": "r_clavicle",
+        "ParentNode": 6,
+        "FirstChildNode": 16,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.06349313, Y: 1.8175808E-05, Z: -0.059802763",
+        "DefaultRotation": "I: 0.6817721, J: 0.018874137, K: -0.731096, W: -0.01814487",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.052266173, J: -0.99862915, K: -0.0028561612",
+        "InverseLeft": "I: -0.9961968, J: -0.05233811, K: 0.069661245",
+        "InverseUp": "I: -0.06971528, J: -0.0007956282, K: -0.9975666",
+        "InversePosition": "X: -0.01988467, Y: -0.0027862908, Z: 0.5720241",
+        "DistanceFromParent": 0.08722241
+      },
+      {
+        "Name": "l_toe",
+        "ParentNode": 7,
+        "FirstChildNode": -1,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.0681937, Y: 0.057603575, Z: 7.450581E-09",
+        "DefaultRotation": "I: -3.5429032E-08, J: -1.4086661E-08, K: -0.70710677, W: -0.70710677",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.9659249, J: -0.0007964721, K: 0.25882092",
+        "InverseLeft": "I: 0.258821, J: -1.01482975E-07, K: -0.96592534",
+        "InverseUp": "I: 0.0007693923, J: 0.99999976, K: 0.00020603745",
+        "InversePosition": "X: -0.053652294, Y: 1.09441245E-07, Z: 0.066565",
+        "DistanceFromParent": 0.08926675
+      },
+      {
+        "Name": "r_toe",
+        "ParentNode": 8,
+        "FirstChildNode": -1,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.06819373, Y: 0.05760359, Z: 0",
+        "DefaultRotation": "I: 1.1259968E-08, J: -3.162729E-08, K: -0.70710677, W: -0.7071068",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.965926, J: -0.00079618447, K: -0.25881717",
+        "InverseLeft": "I: -0.25881723, J: -1.0457222E-07, K: -0.9659264",
+        "InverseUp": "I: 0.0007690537, J: 0.99999976, K: -0.00020616037",
+        "InversePosition": "X: -0.053652223, Y: 6.2368095E-08, Z: -0.06656505",
+        "DistanceFromParent": 0.089266784
+      },
+      {
+        "Name": "l_upperarm",
+        "ParentNode": 9,
+        "FirstChildNode": 17,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.03042566, Y: 3.958121E-09, Z: 0",
+        "DefaultRotation": "I: 0.002878994, J: -0.36595106, K: 0.32782477, W: -0.8709779",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.5975934, J: -0.7549344, K: 0.27010426",
+        "InverseLeft": "I: 0.44098276, J: 0.59080654, K: 0.67563444",
+        "InverseUp": "I: -0.669639, J: -0.28464338, K: 0.6859751",
+        "InversePosition": "X: 0.3391445, Y: 0.109306216, Z: -0.450315",
+        "DistanceFromParent": 0.03042566
+      },
+      {
+        "Name": "head",
+        "ParentNode": 10,
+        "FirstChildNode": -1,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.017247379, Y: 7.450581E-09, Z: 6.428536E-09",
+        "DefaultRotation": "I: -6.432478E-08, J: 1.8248883E-08, K: -0.0369526, W: -0.999317",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.20713134, J: 0.9783132, K: 5.8830926E-07",
+        "InverseLeft": "I: 2.6087253E-07, J: -6.565834E-07, K: 1",
+        "InverseUp": "I: 0.9783132, J: -0.20713134, K: -3.9121412E-07",
+        "InversePosition": "X: -0.59621376, Y: 0.12400848, Z: 2.7763676E-07",
+        "DistanceFromParent": 0.017247379
+      },
+      {
+        "Name": "r_upperarm",
+        "ParentNode": 11,
+        "FirstChildNode": 18,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.030425677, Y: 2.561137E-09, Z: 0",
+        "DefaultRotation": "I: -0.0028792126, J: 0.36595127, K: 0.32782468, W: -0.8709779",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.5975955, J: -0.75493205, K: -0.27010614",
+        "InverseLeft": "I: -0.44098043, J: -0.5908091, K: 0.67563367",
+        "InverseUp": "I: -0.6696387, J: -0.28464413, K: -0.68597496",
+        "InversePosition": "X: 0.33914426, Y: 0.10930659, Z: 0.45031506",
+        "DistanceFromParent": 0.030425677
+      },
+      {
+        "Name": "l_forearm",
+        "ParentNode": 14,
+        "FirstChildNode": 19,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.10859731, Y: 2.2351742E-08, Z: 2.9802322E-08",
+        "DefaultRotation": "I: -5.891447E-08, J: -2.6385463E-09, K: 0.20095298, W: -0.979601",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.84655255, J: -0.45868573, K: 0.27010435",
+        "InverseLeft": "I: 0.17276223, J: 0.7167088, K: 0.6756344",
+        "InverseUp": "I: -0.50349, J: -0.52529615, K: 0.68597513",
+        "InversePosition": "X: 0.1688926, Y: 0.19124627, Z: -0.45031506",
+        "DistanceFromParent": 0.10859731
+      },
+      {
+        "Name": "r_forearm",
+        "ParentNode": 16,
+        "FirstChildNode": 20,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.10859725, Y: -1.4901161E-08, Z: 0",
+        "DefaultRotation": "I: 1.3072754E-07, J: -2.5990134E-08, K: 0.20095314, W: -0.97960085",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.8465537, J: -0.45868242, K: -0.27010626",
+        "InverseLeft": "I: -0.17275883, J: -0.7167104, K: 0.6756335",
+        "InverseUp": "I: -0.5034892, J: -0.52529675, K: -0.6859751",
+        "InversePosition": "X: 0.16889219, Y: 0.19124654, Z: 0.4503151",
+        "DistanceFromParent": 0.10859725
+      },
+      {
+        "Name": "l_hand",
+        "ParentNode": 17,
+        "FirstChildNode": 21,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.114969194, Y: -0.00027285516, Z: -9.536743E-06",
+        "DefaultRotation": "I: -0.6447437, J: 0.06664318, K: 0.024088731, W: 0.7611072",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.8248579, J: -0.4448212, K: -0.34891796",
+        "InverseLeft": "I: 0.04619034, J: -0.56209195, K: 0.8257841",
+        "InverseUp": "I: -0.56345016, J: -0.69727105, K: -0.44309953",
+        "InversePosition": "X: 0.10361497, Y: 0.46595994, Z: 0.12044768",
+        "DistanceFromParent": 0.11496952
+      },
+      {
+        "Name": "r_hand",
+        "ParentNode": 18,
+        "FirstChildNode": 26,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.114969, Y: -0.0002733022, Z: 9.179115E-06",
+        "DefaultRotation": "I: 0.6447427, J: -0.0666422, K: 0.024088454, W: 0.761108",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.8248589, J: -0.4448222, K: 0.3489142",
+        "InverseLeft": "I: -0.04618898, J: 0.5620882, K: 0.8257866",
+        "InverseUp": "I: -0.5634488, J: -0.6972732, K: 0.44309753",
+        "InversePosition": "X: 0.103614174, Y: 0.46596098, Z: -0.12044698",
+        "DistanceFromParent": 0.11496933
+      },
+      {
+        "Name": "l_index_low",
+        "ParentNode": 19,
+        "FirstChildNode": 31,
+        "NextSiblingNode": 22,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.050963063, Y: -0.0074914396, Z: -0.0101123005",
+        "DefaultRotation": "I: 0.0011578437, J: -0.026955888, K: -0.042898525, W: -0.99871504",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.801357, J: -0.51391375, K: -0.306137",
+        "InverseLeft": "I: -0.04671988, J: -0.56398237, K: 0.8244643",
+        "InverseUp": "I: -0.5963593, J: -0.6463874, K: -0.4759612",
+        "InversePosition": "X: 0.08587794, Y: 0.46719268, Z: 0.1353895",
+        "DistanceFromParent": 0.05249394
+      },
+      {
+        "Name": "l_middle_low",
+        "ParentNode": 19,
+        "FirstChildNode": 32,
+        "NextSiblingNode": 23,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.050966356, Y: -0.00945732, Z: 0.00059853494",
+        "DefaultRotation": "I: -0.0013668739, J: 0.020497086, K: -0.066524945, W: -0.9975734",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.7435166, J: -0.5504095, K: -0.3797796",
+        "InverseLeft": "I: 0.005089764, J: -0.563248, K: 0.82627237",
+        "InverseUp": "I: -0.66869813, J: -0.6162802, K: -0.4159828",
+        "InversePosition": "X: 0.120135434, Y: 0.46421668, Z: 0.11501147",
+        "DistanceFromParent": 0.051839836
+      },
+      {
+        "Name": "l_pinky_low",
+        "ParentNode": 19,
+        "FirstChildNode": 33,
+        "NextSiblingNode": 24,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.04105495, Y: -0.0058601797, Z: 0.019965269",
+        "DefaultRotation": "I: -0.010231779, J: 0.112818204, K: -0.08974043, W: -0.9895019",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.63406, J: -0.5859598, K: -0.5045981",
+        "InverseLeft": "I: 0.13162994, J: -0.5612307, K: 0.8171254",
+        "InverseUp": "I: -0.7619985, J: -0.58452666, K: -0.27872407",
+        "InversePosition": "X: 0.16528326, Y: 0.452867, Z: 0.06494325",
+        "DistanceFromParent": 0.04602676
+      },
+      {
+        "Name": "l_ring_low",
+        "ParentNode": 19,
+        "FirstChildNode": 34,
+        "NextSiblingNode": 25,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.049083732, Y: -0.009455413, Z: 0.010145858",
+        "DefaultRotation": "I: -0.007838293, J: 0.07429847, K: -0.10462208, W: -0.99170184",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.6539177, J: -0.60715395, K: -0.4513934",
+        "InverseLeft": "I: 0.05173052, J: -0.5593565, K: 0.82731164",
+        "InverseUp": "I: -0.7547952, J: -0.5643444, K: -0.33436468",
+        "InversePosition": "X: 0.16726947, Y: 0.4535702, Z: 0.08634187",
+        "DistanceFromParent": 0.05100545
+      },
+      {
+        "Name": "l_thumb_low",
+        "ParentNode": 19,
+        "FirstChildNode": 35,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.024918705, Y: 0.0017074943, Z: -0.020185545",
+        "DefaultRotation": "I: 0.3590128, J: 0.21058579, K: 0.0015477954, W: 0.909264",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.81641585, J: -0.4357784, K: 0.3788965",
+        "InverseLeft": "I: -0.3598018, J: 0.1293333, K: 0.92402154",
+        "InverseUp": "I: -0.45167243, J: -0.8907134, K: -0.05120414",
+        "InversePosition": "X: 0.08952052, Y: 0.44816047, Z: -0.18066384",
+        "DistanceFromParent": 0.032114074
+      },
+      {
+        "Name": "r_index_low",
+        "ParentNode": 20,
+        "FirstChildNode": 36,
+        "NextSiblingNode": 27,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.050962836, Y: -0.007491499, Z: 0.01011125",
+        "DefaultRotation": "I: 0.14670523, J: 0.044985183, K: -0.046299435, W: -0.9870716",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.7977014, J: -0.5907789, K: 0.121049",
+        "InverseLeft": "I: 0.075108565, J: 0.29649365, K: 0.9520768",
+        "InverseUp": "I: -0.59835714, J: -0.75038105, K: 0.280886",
+        "InversePosition": "X: 0.09191512, Y: 0.48528126, Z: 0.005346703",
+        "DistanceFromParent": 0.052493528
+      },
+      {
+        "Name": "r_middle_low",
+        "ParentNode": 20,
+        "FirstChildNode": 37,
+        "NextSiblingNode": 28,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.050966267, Y: -0.009457111, Z: -0.00059978664",
+        "DefaultRotation": "I: -0.049924124, J: -0.018851016, K: -0.07258922, W: -0.9959333",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.73985434, J: -0.51997757, K: 0.42689455",
+        "InverseLeft": "I: 0.011637817, J: 0.64433223, K: 0.7646572",
+        "InverseUp": "I: -0.6726665, J: -0.56076664, K: 0.48276332",
+        "InversePosition": "X: 0.12532175, Y: 0.44827905, Z: -0.16278164",
+        "DistanceFromParent": 0.051839724
+      },
+      {
+        "Name": "r_pinky_low",
+        "ParentNode": 20,
+        "FirstChildNode": 38,
+        "NextSiblingNode": 29,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.04105436, Y: -0.0058596134, Z: -0.019966826",
+        "DefaultRotation": "I: -0.05441835, J: -0.11320527, K: -0.089209415, W: -0.9880612",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.63202333, J: -0.5257892, K: 0.56929106",
+        "InverseLeft": "I: -0.11497156, J: 0.66286814, K: 0.73985636",
+        "InverseUp": "I: -0.7663734, J: -0.5330585, K: 0.35849726",
+        "InversePosition": "X: 0.17045306, Y: 0.43842366, Z: -0.12391566",
+        "DistanceFromParent": 0.046026837
+      },
+      {
+        "Name": "r_ring_low",
+        "ParentNode": 20,
+        "FirstChildNode": 39,
+        "NextSiblingNode": 30,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.049083497, Y: -0.009455502, Z: -0.010146901",
+        "DefaultRotation": "I: -0.050849278, J: -0.08530153, K: -0.112454824, W: -0.9886819",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.6343594, J: -0.5657583, K: 0.52678823",
+        "InverseLeft": "I: -0.044327322, J: 0.65370876, K: 0.7554469",
+        "InverseUp": "I: -0.77176636, J: -0.50257576, K: 0.38960767",
+        "InversePosition": "X: 0.17954081, Y: 0.43607453, Z: -0.13698408",
+        "DistanceFromParent": 0.05100545
+      },
+      {
+        "Name": "r_thumb_low",
+        "ParentNode": 20,
+        "FirstChildNode": 40,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.024918213, Y: 0.0017080903, Z: 0.02018433",
+        "DefaultRotation": "I: 0.35901296, J: 0.21058464, K: -0.0015489914, W: -0.90926427",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.81641436, J: -0.43577918, K: -0.37889868",
+        "InverseLeft": "I: 0.35980174, J: -0.12933818, K: 0.92402077",
+        "InverseUp": "I: -0.4516751, J: -0.8907121, K: 0.051200666",
+        "InversePosition": "X: 0.089522175, Y: 0.44815928, Z: 0.18066543",
+        "DistanceFromParent": 0.03211296
+      },
+      {
+        "Name": "l_index_mid",
+        "ParentNode": 21,
+        "FirstChildNode": 41,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.016955338, Y: -8.741021E-05, Z: -0.00047123432",
+        "DefaultRotation": "I: 2.6537245E-07, J: 4.6102897E-08, K: -0.1647062, W: -0.98634267",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.59090084, J: -0.74640226, K: -0.3061374",
+        "InverseLeft": "I: -0.22743052, J: -0.5182033, K: 0.824464",
+        "InverseUp": "I: -0.77402306, J: -0.4175514, K: -0.47596142",
+        "InversePosition": "X: 0.21700871, Y: 0.41953328, Z: 0.13586096",
+        "DistanceFromParent": 0.016962111
+      },
+      {
+        "Name": "l_middle_mid",
+        "ParentNode": 22,
+        "FirstChildNode": 42,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.01922433, Y: -2.026558E-05, Z: 7.4759126E-05",
+        "DefaultRotation": "I: -5.982471E-08, J: 1.5136985E-08, K: -0.115995, W: -0.9932499",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.5966813, J: -0.7069223, K: -0.37977955",
+        "InverseLeft": "I: -0.124833, J: -0.5492639, K: 0.8262724",
+        "InverseUp": "I: -0.79270947, J: -0.44561228, K: -0.41598272",
+        "InversePosition": "X: 0.20516695, Y: 0.42849216, Z: 0.11493665",
+        "DistanceFromParent": 0.019224487
+      },
+      {
+        "Name": "l_pinky_mid",
+        "ParentNode": 23,
+        "FirstChildNode": 43,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.01384221, Y: -3.9577484E-05, Z: 3.220141E-05",
+        "DefaultRotation": "I: -5.2353506E-08, J: -1.1926332E-07, K: -0.13621402, W: -0.99067944",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.4523871, J: -0.7353415, K: -0.5045979",
+        "InverseLeft": "I: -0.024724744, J: -0.5759296, K: 0.81712544",
+        "InverseUp": "I: -0.891479, J: -0.35718086, K: -0.27872422",
+        "InversePosition": "X: 0.26805574, Y: 0.3952276, Z: 0.06491105",
+        "DistanceFromParent": 0.013842304
+      },
+      {
+        "Name": "l_ring_mid",
+        "ParentNode": 24,
+        "FirstChildNode": 44,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.017281294, Y: 7.721782E-05, Z: -2.528727E-05",
+        "DefaultRotation": "I: -5.6100053E-08, J: -6.091865E-08, K: -0.08189404, W: -0.9966411",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.546036, J: -0.7057543, K: -0.45139325",
+        "InverseLeft": "I: -0.040271636, J: -0.560298, K: 0.8273117",
+        "InverseUp": "I: -0.8367933, J: -0.43356356, K: -0.3343647",
+        "InversePosition": "X: 0.22200358, Y: 0.4229264, Z: 0.08636712",
+        "DistanceFromParent": 0.017281484
+      },
+      {
+        "Name": "l_thumb_mid",
+        "ParentNode": 25,
+        "FirstChildNode": 45,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.0155214295, Y: 5.9604645E-08, Z: -1.4901161E-08",
+        "DefaultRotation": "I: 1.8931969E-07, J: 3.1087115E-08, K: -0.10018806, W: -0.99496853",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.7131458, J: -0.5897973, K: 0.37889627",
+        "InverseLeft": "I: -0.32679373, J: 0.19846949, K: 0.9240216",
+        "InverseUp": "I: -0.62018466, J: -0.78278303, K: -0.051204424",
+        "InversePosition": "X: 0.16186234, Y: 0.42441046, Z: -0.18066366",
+        "DistanceFromParent": 0.0155214295
+      },
+      {
+        "Name": "r_index_mid",
+        "ParentNode": 26,
+        "FirstChildNode": 46,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.016962148, Y: 0, Z: 1.3504177E-08",
+        "DefaultRotation": "I: -6.3434E-08, J: -2.143256E-08, K: -0.12853573, W: -0.9917049",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.6207305, J: -0.7746231, K: 0.12104912",
+        "InverseLeft": "I: 0.14821453, J: 0.26754868, K: 0.95207673",
+        "InverseUp": "I: -0.76988715, J: -0.5730417, K: 0.28088605",
+        "InversePosition": "X: 0.19619344, Y: 0.45013773, Z: 0.005346626",
+        "DistanceFromParent": 0.016962148
+      },
+      {
+        "Name": "r_middle_mid",
+        "ParentNode": 27,
+        "FirstChildNode": 47,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.019224256, Y: 5.9604645E-08, Z: -1.4901161E-08",
+        "DefaultRotation": "I: 3.8421263E-08, J: -8.008442E-08, K: -0.11523422, W: -0.99333835",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.60116524, J: -0.6755453, K: 0.4268946",
+        "InverseLeft": "I: 0.15883762, J: 0.6245558, K: 0.76465726",
+        "InverseUp": "I: -0.78318006, J: -0.39187825, K: 0.48276317",
+        "InversePosition": "X: 0.2059057, Y: 0.41208443, Z: -0.16278157",
+        "DistanceFromParent": 0.019224256
+      },
+      {
+        "Name": "r_pinky_mid",
+        "ParentNode": 28,
+        "FirstChildNode": 48,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.013842344, Y: 0, Z: -7.450581E-09",
+        "DefaultRotation": "I: -4.2805834E-08, J: -1.8413296E-08, K: -0.13052616, W: -0.9914449",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.47440344, J: -0.671453, K: 0.5692911",
+        "InverseLeft": "I: 0.060508832, J: 0.6700384, K: 0.7398563",
+        "InverseUp": "I: -0.87822556, J: -0.316543, K: 0.35849726",
+        "InversePosition": "X: 0.2647467, Y: 0.38295093, Z: -0.123915665",
+        "DistanceFromParent": 0.013842344
+      },
+      {
+        "Name": "r_ring_mid",
+        "ParentNode": 29,
+        "FirstChildNode": 49,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.017281339, Y: 0, Z: 1.4901161E-08",
+        "DefaultRotation": "I: -1.2533963E-08, J: -3.2493404E-08, K: -0.043619383, W: -0.99904823",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.5826364, J: -0.61889344, K: 0.5267883",
+        "InverseLeft": "I: 0.012815775, J: 0.6550846, K: 0.7554469",
+        "InverseUp": "I: -0.81263196, J: -0.43339944, K: 0.38960764",
+        "InversePosition": "X: 0.19964844, Y: 0.4202733, Z: -0.13698411",
+        "DistanceFromParent": 0.017281339
+      },
+      {
+        "Name": "r_thumb_mid",
+        "ParentNode": 30,
+        "FirstChildNode": 50,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.015521504, Y: 5.9604645E-08, Z: 1.4901161E-08",
+        "DefaultRotation": "I: -1.2161289E-07, J: -5.484351E-10, K: -0.10018814, W: -0.99496865",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.7131441, J: -0.58979785, K: -0.37889856",
+        "InverseLeft": "I: 0.32679272, J: -0.19847442, K: 0.9240208",
+        "InverseUp": "I: -0.6201871, J: -0.7827811, K: 0.05120087",
+        "InversePosition": "X: 0.16186371, Y: 0.42440897, Z: 0.18066533",
+        "DistanceFromParent": 0.015521504
+      },
+      {
+        "Name": "l_index_tip",
+        "ParentNode": 31,
+        "FirstChildNode": -1,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.012864426, Y: 0.0002810657, Z: -0.00031474233",
+        "DefaultRotation": "I: -3.4753725E-08, J: -4.703028E-08, K: -0.10609448, W: -0.9943562",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.42011404, J: -0.85427415, K: -0.30613732",
+        "InverseLeft": "I: -0.33164707, J: -0.45855156, K: 0.824464",
+        "InverseUp": "I: -0.8446979, J: -0.24483933, K: -0.47596148",
+        "InversePosition": "X: 0.28800717, Y: 0.3667413, Z: 0.1361757",
+        "DistanceFromParent": 0.012871345
+      },
+      {
+        "Name": "l_middle_tip",
+        "ParentNode": 32,
+        "FirstChildNode": -1,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.013519198, Y: 9.816885E-05, Z: 2.5346875E-05",
+        "DefaultRotation": "I: 1.0403506E-08, J: -2.3040288E-08, K: -0.08324347, W: -0.9965292",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.47112706, J: -0.7961199, K: -0.37977955",
+        "InverseLeft": "I: -0.21423087, J: -0.5209407, K: 0.8262724",
+        "InverseUp": "I: -0.8556544, J: -0.30791882, K: -0.41598278",
+        "InversePosition": "X: 0.26006615, Y: 0.39066076, Z: 0.114911325",
+        "DistanceFromParent": 0.013519578
+      },
+      {
+        "Name": "l_pinky_tip",
+        "ParentNode": 33,
+        "FirstChildNode": -1,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.011736721, Y: 0.00010293722, Z: -9.213388E-05",
+        "DefaultRotation": "I: -3.6145664E-08, J: 3.2514322E-08, K: -0.09392135, W: -0.9955796",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.30688787, J: -0.8069703, K: -0.50459784",
+        "InverseLeft": "I: -0.13199444, J: -0.5611449, K: 0.8171255",
+        "InverseUp": "I: -0.9425484, J: -0.18416172, K: -0.27872413",
+        "InversePosition": "X: 0.32569015, Y: 0.3402189, Z: 0.065003134",
+        "DistanceFromParent": 0.011737534
+      },
+      {
+        "Name": "l_ring_tip",
+        "ParentNode": 34,
+        "FirstChildNode": -1,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.013456628, Y: -8.612871E-06, Z: -5.0209463E-05",
+        "DefaultRotation": "I: -1.0046614E-08, J: -1.0652249E-08, K: -0.1132064, W: -0.9935715",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.3732758, J: -0.8104996, K: -0.45139322",
+        "InverseLeft": "I: -0.16528258, J: -0.5368774, K: 0.8273117",
+        "InverseUp": "I: -0.91287845, J: -0.23420796, K: -0.3343647",
+        "InversePosition": "X: 0.29834396, Y: 0.36518046, Z: 0.086417325",
+        "DistanceFromParent": 0.013456724
+      },
+      {
+        "Name": "l_thumb_tip",
+        "ParentNode": 35,
+        "FirstChildNode": -1,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.010993868, Y: 0, Z: 0",
+        "DefaultRotation": "I: 0, J: 0, K: 0, W: -1",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.7131458, J: -0.5897973, K: 0.37889627",
+        "InverseLeft": "I: -0.32679373, J: 0.19846949, K: 0.9240216",
+        "InverseUp": "I: -0.62018466, J: -0.78278303, K: -0.051204424",
+        "InversePosition": "X: 0.15086846, Y: 0.42441046, Z: -0.18066366",
+        "DistanceFromParent": 0.010993868
+      },
+      {
+        "Name": "r_index_tip",
+        "ParentNode": 36,
+        "FirstChildNode": -1,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.012870312, Y: 0.00015822053, Z: 2.3283064E-09",
+        "DefaultRotation": "I: -3.764323E-08, J: 1.3088139E-08, K: -0.047978066, W: -0.9988484",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.5436286, J: -0.8305512, K: 0.121049166",
+        "InverseLeft": "I: 0.17317559, J: 0.2521113, K: 0.95207673",
+        "InverseUp": "I: -0.8212663, J: -0.49661317, K: 0.2808861",
+        "InversePosition": "X: 0.22560772, Y: 0.4303372, Z: 0.0053465893",
+        "DistanceFromParent": 0.012871284
+      },
+      {
+        "Name": "r_middle_tip",
+        "ParentNode": 37,
+        "FirstChildNode": -1,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.013518557, Y: 0.00013396144, Z: -1.4901161E-08",
+        "DefaultRotation": "I: -2.2303144E-08, J: -9.80077E-09, K: -0.052336, W: -0.99862957",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.5272582, J: -0.7346835, K: 0.42689463",
+        "InverseLeft": "I: 0.22325139, J: 0.6045314, K: 0.76465726",
+        "InverseUp": "I: -0.8198522, J: -0.3078668, K: 0.48276317",
+        "InversePosition": "X: 0.2343938, Y: 0.38958383, Z: -0.16278157",
+        "DistanceFromParent": 0.013519221
+      },
+      {
+        "Name": "r_pinky_tip",
+        "ParentNode": 38,
+        "FirstChildNode": -1,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.011734307, Y: 0.0002747476, Z: -1.4901161E-08",
+        "DefaultRotation": "I: -1.6798321E-08, J: 1.2741783E-08, K: -0.061048582, W: -0.9981349",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.38903773, J: -0.7242633, K: 0.5692911",
+        "InverseLeft": "I: 0.14171502, J: 0.6576699, K: 0.7398563",
+        "InverseUp": "I: -0.9102563, J: -0.20715469, K: 0.3584973",
+        "InversePosition": "X: 0.29776302, Y: 0.3489893, Z: -0.12391567",
+        "DistanceFromParent": 0.011737523
+      },
+      {
+        "Name": "r_ring_tip",
+        "ParentNode": 39,
+        "FirstChildNode": -1,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.0134524405, Y: 0.00032493472, Z: 0",
+        "DefaultRotation": "I: -7.8015194E-10, J: -3.0066268E-08, K: -0.11320322, W: -0.993572",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.4284827, J: -0.73409593, K: 0.52678835",
+        "InverseLeft": "I: 0.15984923, J: 0.6354119, K: 0.7554469",
+        "InverseUp": "I: -0.88929796, J: -0.23948903, K: 0.38960758",
+        "InversePosition": "X: 0.27589166, Y: 0.36730012, Z: -0.13698411",
+        "DistanceFromParent": 0.013456364
+      },
+      {
+        "Name": "r_thumb_tip",
+        "ParentNode": 40,
+        "FirstChildNode": -1,
+        "NextSiblingNode": -1,
+        "Flags": "None",
+        "DefaultTranslation": "X: 0.010817006, Y: 0, Z: -1.4901161E-08",
+        "DefaultRotation": "I: -1.5456234E-08, J: -0.043619357, K: 2.2445866E-08, W: -0.9990483",
+        "DefaultScale": 1.0,
+        "InverseForward": "I: 0.7434536, J: -0.58979785, K: -0.31530216",
+        "InverseLeft": "I: 0.24501553, J: -0.19847438, K: 0.94898653",
+        "InverseUp": "I: -0.62228954, J: -0.7827811, K: -0.0030467645",
+        "InversePosition": "X: 0.13472591, Y: 0.42440897, Z: 0.19314243",
+        "DistanceFromParent": 0.010817006
+      }
+    ],
+    "MarkerGroups": [
+      {
+        "Name": "autoaim_melee",
+        "Markers": [
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 0,
+            "Flags": "0",
+            "Translation": "X: 0.2256153, Y: 0.02499999, Z: 3.1647E-08",
+            "Rotation": "I: -0.4999993, J: -0.5000007, K: -0.499999, W: -0.500001",
+            "Scale": 0.0
+          }
+        ]
+      },
+      {
+        "Name": "body",
+        "Markers": [
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 6,
+            "Flags": "0",
+            "Translation": "X: 0.01780689, Y: 0.009790983, Z: -2.3507E-08",
+            "Rotation": "I: -0.5001993, J: -0.4998007, K: -0.4998012, W: -0.5001987",
+            "Scale": 0.0
+          }
+        ]
+      },
+      {
+        "Name": "drop",
+        "Markers": [
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 15,
+            "Flags": "0",
+            "Translation": "X: 0.05088969, Y: 0.1441084, Z: -0.001047887",
+            "Rotation": "I: -0.5495249, J: -0.4449972, K: -0.4449971, W: -0.5495248",
+            "Scale": 0.0
+          }
+        ]
+      },
+      {
+        "Name": "drop_left",
+        "Markers": [
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 15,
+            "Flags": "0",
+            "Translation": "X: 0.04859191, Y: 0.1433616, Z: 0.06496456",
+            "Rotation": "I: -0.8191351, J: -0.3679075, K: -0.1038428, W: -0.4276432",
+            "Scale": 0.0
+          }
+        ]
+      },
+      {
+        "Name": "drop_right",
+        "Markers": [
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 15,
+            "Flags": "0",
+            "Translation": "X: 0.04859189, Y: 0.1433616, Z: -0.05503542",
+            "Rotation": "I: -0.4276438, J: -0.1038427, K: -0.3679074, W: -0.8191347",
+            "Scale": 0.0
+          }
+        ]
+      },
+      {
+        "Name": "flaming_ninja",
+        "Markers": [
+          {
+            "RegionIndex": 2,
+            "PermutationIndex": 7,
+            "NodeIndex": 15,
+            "Flags": "0",
+            "Translation": "X: 0.04645691, Y: -0.001428992, Z: -2.56131E-07",
+            "Rotation": "I: -0.7014564, J: -0.08921872, K: -0.08921821, W: -0.701455",
+            "Scale": 0.0
+          }
+        ]
+      },
+      {
+        "Name": "flashlight",
+        "Markers": [
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 15,
+            "Flags": "0",
+            "Translation": "X: 0.0333191, Y: 0.02236564, Z: 0.04090516",
+            "Rotation": "I: -0.5495252, J: -0.4449978, K: -0.4449966, W: -0.5495244",
+            "Scale": 0.0
+          }
+        ]
+      },
+      {
+        "Name": "fp_body_cam",
+        "Markers": [
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 15,
+            "Flags": "0",
+            "Translation": "X: 0.01209911, Y: 0.07083707, Z: 0.04035656",
+            "Rotation": "I: 8.692001E-07, J: -3.852001E-07, K: 0.1124112, W: -0.9936619",
+            "Scale": 0.0
+          }
+        ]
+      },
+      {
+        "Name": "fx_fire_large",
+        "Markers": [
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 6,
+            "Flags": "0",
+            "Translation": "X: 0.03613762, Y: -0.01401526, Z: -4.2829E-08",
+            "Rotation": "I: -0.7071068, J: 0.0002818518, K: 0.0002811412, W: -0.7071067",
+            "Scale": 0.0
+          }
+        ]
+      },
+      {
+        "Name": "fx_fire_small",
+        "Markers": [
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 16,
+            "Flags": "0",
+            "Translation": "X: 0.04492829, Y: 1.0014E-08, Z: 1.5096E-08",
+            "Rotation": "I: -2.35E-08, J: -0.7071068, K: -5.1E-09, W: -0.7071068",
+            "Scale": 0.0
+          },
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 14,
+            "Flags": "0",
+            "Translation": "X: 0.0486424, Y: -1.817E-09, Z: 3.181E-09",
+            "Rotation": "I: 2.05E-08, J: 0.7071068, K: -8.600001E-09, W: -0.7071068",
+            "Scale": 0.0
+          },
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 2,
+            "Flags": "0",
+            "Translation": "X: 0.06909298, Y: 0.0234273, Z: 4.41E-10",
+            "Rotation": "I: 2.74E-08, J: 1.96E-08, K: -0.8433914, W: -0.5372997",
+            "Scale": 0.0
+          },
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 1,
+            "Flags": "0",
+            "Translation": "X: 0.07730807, Y: 0.02193797, Z: 3.566E-09",
+            "Rotation": "I: 3E-09, J: -1.95E-08, K: -0.8433914, W: -0.5372997",
+            "Scale": 0.0
+          }
+        ]
+      },
+      {
+        "Name": "hammer_detonation",
+        "Markers": [
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 20,
+            "Flags": "0",
+            "Translation": "X: 0.04903455, Y: -0.01425574, Z: 0.31518",
+            "Rotation": "I: -0.01682179, J: -0.08228035, K: 0.08493669, W: -0.9928408",
+            "Scale": 0.0
+          }
+        ]
+      },
+      {
+        "Name": "head",
+        "Markers": [
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 15,
+            "Flags": "0",
+            "Translation": "X: 0.03952014, Y: 0.004048229, Z: -2.16344E-07",
+            "Rotation": "I: -0.5000001, J: -0.500001, K: -0.4999999, W: -0.4999991",
+            "Scale": 0.0
+          }
+        ]
+      },
+      {
+        "Name": "infection",
+        "Markers": [
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 6,
+            "Flags": "0",
+            "Translation": "X: 0.1250004, Y: -0.03892635, Z: -3.04E-09",
+            "Rotation": "I: 0.460381, J: -0.5367017, K: -0.536702, W: 0.4603821",
+            "Scale": 0.0
+          }
+        ]
+      },
+      {
+        "Name": "left_foot",
+        "Markers": [
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 7,
+            "Flags": "0",
+            "Translation": "X: 0.0650959, Y: 0.0535178, Z: -2.97284E-05",
+            "Rotation": "I: 0.4999996, J: 0.5000005, K: -0.4999995, W: -0.5000004",
+            "Scale": 0.0
+          }
+        ]
+      },
+      {
+        "Name": "left_hand",
+        "Markers": [
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 19,
+            "Flags": "0",
+            "Translation": "X: 0.03858634, Y: 0.00105648, Z: 0.0003977104",
+            "Rotation": "I: -0.9935211, J: 0.08508001, K: -0.07361341, W: -0.01607794",
+            "Scale": 0.0
+          }
+        ]
+      },
+      {
+        "Name": "right_foot",
+        "Markers": [
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 8,
+            "Flags": "0",
+            "Translation": "X: 0.0650896, Y: 0.05359615, Z: 0.001218119",
+            "Rotation": "I: 0.4999996, J: 0.5000005, K: -0.4999995, W: -0.5000004",
+            "Scale": 0.0
+          }
+        ]
+      },
+      {
+        "Name": "right_hand",
+        "Markers": [
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 20,
+            "Flags": "0",
+            "Translation": "X: 0.04653192, Y: 0.004329915, Z: -0.004439032",
+            "Rotation": "I: -0.01608014, J: -0.07361318, K: 0.08508017, W: -0.993521",
+            "Scale": 0.0
+          }
+        ]
+      },
+      {
+        "Name": "shield_recharge",
+        "Markers": [
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 0,
+            "Flags": "0",
+            "Translation": "X: -0.0807003, Y: 0.002331884, Z: -1.82502E-07",
+            "Rotation": "I: -0.7070788, J: 0.00617107, K: 0.006170041, W: -0.707081",
+            "Scale": 0.0
+          }
+        ]
+      },
+      {
+        "Name": "target_head",
+        "Markers": [
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 15,
+            "Flags": "0",
+            "Translation": "X: 0.0464699, Y: -0.001431749, Z: -2.47422E-07",
+            "Rotation": "I: -0.5495253, J: -0.4449978, K: -0.4449965, W: -0.5495244",
+            "Scale": 0.0
+          }
+        ]
+      },
+      {
+        "Name": "target_leg_l",
+        "Markers": [
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 4,
+            "Flags": "0",
+            "Translation": "X: 0.1183028, Y: -0.04396264, Z: -0.007325392",
+            "Rotation": "I: 0.4199603, J: 0.5823396, K: -0.4588009, W: -0.5234653",
+            "Scale": 0.0
+          },
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 1,
+            "Flags": "0",
+            "Translation": "X: 0.02853655, Y: -0.005506811, Z: 0.006877084",
+            "Rotation": "I: 0.5428495, J: 0.4698938, K: -0.3258288, W: -0.6151015",
+            "Scale": 0.0
+          }
+        ]
+      },
+      {
+        "Name": "target_leg_r",
+        "Markers": [
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 5,
+            "Flags": "0",
+            "Translation": "X: 0.1183878, Y: -0.04178371, Z: 0.0167066",
+            "Rotation": "I: 0.5234631, J: 0.458801, K: -0.5823394, W: -0.4199631",
+            "Scale": 0.0
+          },
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 2,
+            "Flags": "0",
+            "Translation": "X: 0.03023799, Y: -0.002421244, Z: 0.008280649",
+            "Rotation": "I: 0.6150993, J: 0.3258293, K: -0.4698931, W: -0.5428523",
+            "Scale": 0.0
+          }
+        ]
+      },
+      {
+        "Name": "target_main",
+        "Markers": [
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 6,
+            "Flags": "0",
+            "Translation": "X: 0.07480907, Y: -0.01913913, Z: -2.48414E-07",
+            "Rotation": "I: -0.4958187, J: -0.5041474, K: -0.5041464, W: -0.4958182",
+            "Scale": 0.0
+          },
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 0,
+            "Flags": "0",
+            "Translation": "X: 0.01451706, Y: 0.0002747109, Z: 2.11837E-07",
+            "Rotation": "I: -0.4999989, J: -0.5000013, K: -0.4999987, W: -0.5000011",
+            "Scale": 0.0
+          }
+        ]
+      },
+      {
+        "Name": "visor_reflection",
+        "Markers": [
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 15,
+            "Flags": "0",
+            "Translation": "X: 0.05549071, Y: 0.08352325, Z: 7.918E-08",
+            "Rotation": "I: 8.726E-07, J: -3.777E-07, K: 0.1041319, W: -0.9945635",
+            "Scale": 0.0
+          }
+        ]
+      },
+      {
+        "Name": "weapon_back",
+        "Markers": [
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 6,
+            "Flags": "0",
+            "Translation": "X: 0.07424942, Y: -0.0798725, Z: -4.2322E-08",
+            "Rotation": "I: -7.653001E-07, J: -0.7071064, K: -0.7071073, W: -1.798E-07",
+            "Scale": 0.0
+          }
+        ]
+      },
+      {
+        "Name": "weapon_thigh",
+        "Markers": [
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 2,
+            "Flags": "0",
+            "Translation": "X: 0.05742481, Y: 0.01492793, Z: 0.06013717",
+            "Rotation": "I: -0.9954459, J: 0.0008543489, K: 0.007366084, W: -0.09503939",
+            "Scale": 0.0
+          }
+        ]
+      },
+      {
+        "Name": "fx_light_flares",
+        "Markers": [
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 15,
+            "Flags": "0",
+            "Translation": "X: 0.03185329, Y: 0.0252718, Z: 0.04073446",
+            "Rotation": "I: -0.6029078, J: -0.3694634, K: -0.3694622, W: -0.6029069",
+            "Scale": 0.0
+          },
+          {
+            "RegionIndex": -1,
+            "PermutationIndex": -1,
+            "NodeIndex": 15,
+            "Flags": "0",
+            "Translation": "X: 0.03185299, Y: 0.0252718, Z: -0.04072997",
+            "Rotation": "I: -0.6029078, J: -0.3694634, K: -0.3694622, W: -0.6029069",
+            "Scale": 0.0
+          }
+        ]
+      }
+    ],
+    "Materials": [
+      {
+        "RenderMethod": {
+          "Type": "shader",
+          "Name": "objects\\characters\\masterchief\\shaders\\mp_visor",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      },
+      {
+        "RenderMethod": {
+          "Type": "shader",
+          "Name": "objects\\characters\\masterchief\\shaders\\visor_realtime",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      },
+      {
+        "RenderMethod": {
+          "Type": "shader",
+          "Name": "objects\\characters\\masterchief\\shaders\\mp_cobra",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      },
+      {
+        "RenderMethod": {
+          "Type": "shader",
+          "Name": "objects\\characters\\masterchief\\shaders\\mp_cobra_visor",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      },
+      {
+        "RenderMethod": {
+          "Type": "shader",
+          "Name": "objects\\characters\\masterchief\\shaders\\mp_masterchief",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      },
+      {
+        "RenderMethod": {
+          "Type": "shader",
+          "Name": "objects\\characters\\masterchief\\shaders\\mp_intruder",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      },
+      {
+        "RenderMethod": {
+          "Type": "shader",
+          "Name": "objects\\characters\\masterchief\\shaders\\mp_intruder_visor",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      },
+      {
+        "RenderMethod": {
+          "Type": "shader",
+          "Name": "objects\\characters\\masterchief\\shaders\\mp_ninja",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      },
+      {
+        "RenderMethod": {
+          "Type": "shader",
+          "Name": "objects\\characters\\masterchief\\shaders\\mp_ninja_visor",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      },
+      {
+        "RenderMethod": {
+          "Type": "shader",
+          "Name": "objects\\characters\\masterchief\\shaders\\mp_regulator",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      },
+      {
+        "RenderMethod": {
+          "Type": "shader",
+          "Name": "objects\\characters\\masterchief\\shaders\\mp_regulator_visor",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      },
+      {
+        "RenderMethod": {
+          "Type": "shader",
+          "Name": "objects\\characters\\masterchief\\shaders\\mp_ryu",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      },
+      {
+        "RenderMethod": {
+          "Type": "shader",
+          "Name": "objects\\characters\\masterchief\\shaders\\mp_ryu_visor",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      },
+      {
+        "RenderMethod": {
+          "Type": "shader",
+          "Name": "objects\\characters\\masterchief\\shaders\\mp_marathon",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      },
+      {
+        "RenderMethod": {
+          "Type": "shader",
+          "Name": "objects\\characters\\masterchief\\shaders\\mp_marathon_visor",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      },
+      {
+        "RenderMethod": {
+          "Type": "shader",
+          "Name": "objects\\characters\\masterchief\\shaders\\mp_markv",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      },
+      {
+        "RenderMethod": {
+          "Type": "shader",
+          "Name": "objects\\characters\\masterchief\\shaders\\mp_markv_visor",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      },
+      {
+        "RenderMethod": {
+          "Type": "shader",
+          "Name": "objects\\characters\\masterchief\\shaders\\mp_rogue",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      },
+      {
+        "RenderMethod": {
+          "Type": "shader",
+          "Name": "objects\\characters\\masterchief\\shaders\\mp_rogue_visor",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      },
+      {
+        "RenderMethod": {
+          "Type": "shader",
+          "Name": "objects\\characters\\masterchief\\shaders\\mp_scout",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      },
+      {
+        "RenderMethod": {
+          "Type": "shader",
+          "Name": "objects\\characters\\masterchief\\shaders\\mp_scout_visor",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      },
+      {
+        "RenderMethod": {
+          "Type": "shader",
+          "Name": "objects\\characters\\masterchief\\shaders\\mp_odst",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      },
+      {
+        "RenderMethod": {
+          "Type": "shader",
+          "Name": "objects\\characters\\masterchief\\shaders\\mp_odst_visor",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      },
+      {
+        "RenderMethod": {
+          "Type": "shader",
+          "Name": "objects\\characters\\masterchief\\shaders\\mp_masterchief_rubber",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      },
+      {
+        "RenderMethod": {
+          "Type": "shader",
+          "Name": "objects\\characters\\masterchief\\shaders\\lights",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      },
+      {
+        "RenderMethod": {
+          "Type": "shader_decal",
+          "Name": "objects\\characters\\masterchief\\shaders\\mc_emblem",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      },
+      {
+        "RenderMethod": {
+          "Type": "shader_decal",
+          "Name": "objects\\characters\\masterchief\\shaders\\mp_personal_decals",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      },
+      {
+        "RenderMethod": {
+          "Type": "shader",
+          "Name": "objects\\characters\\masterchief\\shaders\\mp_masterchief_black",
+          "Generate": false
+        },
+        "Properties": [],
+        "ImportedMaterialIndex": 0,
+        "BreakableSurfaceIndex": 0
+      }
+    ],
+    "DontDrawOverCameraCosineAngle": 0.0,
+    "LightgenLights": [],
+    "SHRed": [
+      0.8951472,
+      -1.0852382,
+      0.0,
+      -1.0852382,
+      1.6814533,
+      -0.0,
+      -0.9710807,
+      -0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "SHGreen": [
+      0.8951472,
+      -1.0852382,
+      0.0,
+      -1.0852382,
+      1.6814533,
+      -0.0,
+      -0.9710807,
+      -0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "SHBlue": [
+      0.8951472,
+      -1.0852382,
+      0.0,
+      -1.0852382,
+      1.6814533,
+      -0.0,
+      -0.9710807,
+      -0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "VolumeSamples": [],
+    "RuntimeNodeOrientations": [
+      {
+        "Rotation": "I: 0.49999887, J: 0.5000005, K: 0.49999952, W: -0.50000113",
+        "Translation": "X: 0, Y: 0, Z: 0.3943847",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -0.07840926, J: -0.99038625, K: -0.10382927, W: 0.046974003",
+        "Translation": "X: 0, Y: 2.9819317E-05, Z: 0.042186495",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -0.07840926, J: -0.990386, K: 0.103830464, W: -0.04697551",
+        "Translation": "X: 1.7881393E-07, Y: 2.9699742E-05, Z: -0.042186525",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -1.8030405E-06, J: -7.301569E-07, K: -1.4901168E-08, W: 1",
+        "Translation": "X: 0.037365913, Y: -5.891939E-05, Z: 3.0155775E-08",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -3.0021855E-08, J: -5.7198488E-08, K: 0.23043521, W: -0.9730878",
+        "Translation": "X: 0.18032172, Y: 0, Z: -5.2154064E-08",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: 1.1261314E-08, J: -5.888051E-08, K: -0.2304352, W: 0.97308767",
+        "Translation": "X: 0.1803217, Y: -7.450581E-09, Z: 2.2351742E-08",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: 2.2351742E-07, J: -1.0430813E-07, K: 1.4901124E-08, W: -1",
+        "Translation": "X: 0.07399991, Y: -6.858169E-05, Z: -3.177263E-08",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: 0.017248333, J: 0.041522965, K: -0.14815938, W: -0.9879409",
+        "Translation": "X: 0.15626055, Y: -2.7939677E-08, Z: -3.7252903E-08",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: 0.017248206, J: 0.041523077, K: 0.1481593, W: 0.98794085",
+        "Translation": "X: 0.15626055, Y: -3.5390258E-08, Z: 1.4901161E-08",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: 0.681772, J: 0.01887231, K: 0.73109615, W: 0.018142775",
+        "Translation": "X: 0.06349313, Y: 1.7832732E-05, Z: 0.059802715",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: 4.1751317E-08, J: -2.21731E-07, K: 0.06730898, W: 0.99773216",
+        "Translation": "X: 0.086128116, Y: -1.3617726E-05, Z: -7.010531E-09",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: 0.6817721, J: 0.018874137, K: -0.731096, W: -0.01814487",
+        "Translation": "X: 0.06349313, Y: 1.8175808E-05, Z: -0.059802763",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -3.5429032E-08, J: -1.4086661E-08, K: -0.70710677, W: -0.70710677",
+        "Translation": "X: 0.0681937, Y: 0.057603575, Z: 7.450581E-09",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: 1.1259968E-08, J: -3.162729E-08, K: -0.70710677, W: -0.7071068",
+        "Translation": "X: 0.06819373, Y: 0.05760359, Z: 0",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: 0.002878994, J: -0.36595106, K: 0.32782477, W: -0.8709779",
+        "Translation": "X: 0.03042566, Y: 3.958121E-09, Z: 0",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -6.432478E-08, J: 1.8248883E-08, K: -0.0369526, W: -0.999317",
+        "Translation": "X: 0.017247379, Y: 7.450581E-09, Z: 6.428536E-09",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -0.0028792126, J: 0.36595127, K: 0.32782468, W: -0.8709779",
+        "Translation": "X: 0.030425677, Y: 2.561137E-09, Z: 0",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -5.891447E-08, J: -2.6385463E-09, K: 0.20095298, W: -0.979601",
+        "Translation": "X: 0.10859731, Y: 2.2351742E-08, Z: 2.9802322E-08",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: 1.3072754E-07, J: -2.5990134E-08, K: 0.20095314, W: -0.97960085",
+        "Translation": "X: 0.10859725, Y: -1.4901161E-08, Z: 0",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -0.6447437, J: 0.06664318, K: 0.024088731, W: 0.7611072",
+        "Translation": "X: 0.114969194, Y: -0.00027285516, Z: -9.536743E-06",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: 0.6447427, J: -0.0666422, K: 0.024088454, W: 0.761108",
+        "Translation": "X: 0.114969, Y: -0.0002733022, Z: 9.179115E-06",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: 0.0011578437, J: -0.026955888, K: -0.042898525, W: -0.99871504",
+        "Translation": "X: 0.050963063, Y: -0.0074914396, Z: -0.0101123005",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -0.0013668739, J: 0.020497086, K: -0.066524945, W: -0.9975734",
+        "Translation": "X: 0.050966356, Y: -0.00945732, Z: 0.00059853494",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -0.010231779, J: 0.112818204, K: -0.08974043, W: -0.9895019",
+        "Translation": "X: 0.04105495, Y: -0.0058601797, Z: 0.019965269",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -0.007838293, J: 0.07429847, K: -0.10462208, W: -0.99170184",
+        "Translation": "X: 0.049083732, Y: -0.009455413, Z: 0.010145858",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: 0.3590128, J: 0.21058579, K: 0.0015477954, W: 0.909264",
+        "Translation": "X: 0.024918705, Y: 0.0017074943, Z: -0.020185545",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: 0.14670523, J: 0.044985183, K: -0.046299435, W: -0.9870716",
+        "Translation": "X: 0.050962836, Y: -0.007491499, Z: 0.01011125",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -0.049924124, J: -0.018851016, K: -0.07258922, W: -0.9959333",
+        "Translation": "X: 0.050966267, Y: -0.009457111, Z: -0.00059978664",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -0.05441835, J: -0.11320527, K: -0.089209415, W: -0.9880612",
+        "Translation": "X: 0.04105436, Y: -0.0058596134, Z: -0.019966826",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -0.050849278, J: -0.08530153, K: -0.112454824, W: -0.9886819",
+        "Translation": "X: 0.049083497, Y: -0.009455502, Z: -0.010146901",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: 0.35901296, J: 0.21058464, K: -0.0015489914, W: -0.90926427",
+        "Translation": "X: 0.024918213, Y: 0.0017080903, Z: 0.02018433",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: 2.6537245E-07, J: 4.6102897E-08, K: -0.1647062, W: -0.98634267",
+        "Translation": "X: 0.016955338, Y: -8.741021E-05, Z: -0.00047123432",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -5.982471E-08, J: 1.5136985E-08, K: -0.115995, W: -0.9932499",
+        "Translation": "X: 0.01922433, Y: -2.026558E-05, Z: 7.4759126E-05",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -5.2353506E-08, J: -1.1926332E-07, K: -0.13621402, W: -0.99067944",
+        "Translation": "X: 0.01384221, Y: -3.9577484E-05, Z: 3.220141E-05",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -5.6100053E-08, J: -6.091865E-08, K: -0.08189404, W: -0.9966411",
+        "Translation": "X: 0.017281294, Y: 7.721782E-05, Z: -2.528727E-05",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: 1.8931969E-07, J: 3.1087115E-08, K: -0.10018806, W: -0.99496853",
+        "Translation": "X: 0.0155214295, Y: 5.9604645E-08, Z: -1.4901161E-08",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -6.3434E-08, J: -2.143256E-08, K: -0.12853573, W: -0.9917049",
+        "Translation": "X: 0.016962148, Y: 0, Z: 1.3504177E-08",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: 3.8421263E-08, J: -8.008442E-08, K: -0.11523422, W: -0.99333835",
+        "Translation": "X: 0.019224256, Y: 5.9604645E-08, Z: -1.4901161E-08",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -4.2805834E-08, J: -1.8413296E-08, K: -0.13052616, W: -0.9914449",
+        "Translation": "X: 0.013842344, Y: 0, Z: -7.450581E-09",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -1.2533963E-08, J: -3.2493404E-08, K: -0.043619383, W: -0.99904823",
+        "Translation": "X: 0.017281339, Y: 0, Z: 1.4901161E-08",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -1.2161289E-07, J: -5.484351E-10, K: -0.10018814, W: -0.99496865",
+        "Translation": "X: 0.015521504, Y: 5.9604645E-08, Z: 1.4901161E-08",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -3.4753725E-08, J: -4.703028E-08, K: -0.10609448, W: -0.9943562",
+        "Translation": "X: 0.012864426, Y: 0.0002810657, Z: -0.00031474233",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: 1.0403506E-08, J: -2.3040288E-08, K: -0.08324347, W: -0.9965292",
+        "Translation": "X: 0.013519198, Y: 9.816885E-05, Z: 2.5346875E-05",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -3.6145664E-08, J: 3.2514322E-08, K: -0.09392135, W: -0.9955796",
+        "Translation": "X: 0.011736721, Y: 0.00010293722, Z: -9.213388E-05",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -1.0046614E-08, J: -1.0652249E-08, K: -0.1132064, W: -0.9935715",
+        "Translation": "X: 0.013456628, Y: -8.612871E-06, Z: -5.0209463E-05",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: 0, J: 0, K: 0, W: -1",
+        "Translation": "X: 0.010993868, Y: 0, Z: 0",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -3.764323E-08, J: 1.3088139E-08, K: -0.047978066, W: -0.9988484",
+        "Translation": "X: 0.012870312, Y: 0.00015822053, Z: 2.3283064E-09",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -2.2303144E-08, J: -9.80077E-09, K: -0.052336, W: -0.99862957",
+        "Translation": "X: 0.013518557, Y: 0.00013396144, Z: -1.4901161E-08",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -1.6798321E-08, J: 1.2741783E-08, K: -0.061048582, W: -0.9981349",
+        "Translation": "X: 0.011734307, Y: 0.0002747476, Z: -1.4901161E-08",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -7.8015194E-10, J: -3.0066268E-08, K: -0.11320322, W: -0.993572",
+        "Translation": "X: 0.0134524405, Y: 0.00032493472, Z: 0",
+        "Scale": 1.0
+      },
+      {
+        "Rotation": "I: -1.5456234E-08, J: -0.043619357, K: 2.2445866E-08, W: -0.9990483",
+        "Translation": "X: 0.010817006, Y: 0, Z: -1.4901161E-08",
+        "Scale": 1.0
+      }
+    ]
+  }
+}

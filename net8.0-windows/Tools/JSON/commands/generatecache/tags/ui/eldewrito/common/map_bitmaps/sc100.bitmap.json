@@ -1,0 +1,16 @@
+{
+  "TagName": "ui\\eldewrito\\common\\map_bitmaps\\sc100",
+  "TagType": "bitmap",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": [
+    {
+      "BitmapIndex": 0,
+      "DDSFile": "sc100.dds"
+    }
+  ],
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": null
+}

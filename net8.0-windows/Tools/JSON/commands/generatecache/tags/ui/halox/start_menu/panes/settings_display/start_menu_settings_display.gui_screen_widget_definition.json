@@ -1,0 +1,291 @@
+{
+  "TagName": "ui\\halox\\start_menu\\panes\\settings_display\\start_menu_settings_display",
+  "TagType": "gui_screen_widget_definition",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Flags": "0",
+    "GuiRenderBlock": {
+      "Name": "start_menu_settings_display",
+      "ScaledPositioning": "UNUSED",
+      "RenderDepthBias": 0,
+      "Bounds720p": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+      "Bounds480i": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+      "AnimationCollection": null
+    },
+    "StringList": {
+      "Type": "multilingual_unicode_string_list",
+      "Name": "ui\\halox\\start_menu\\panes\\settings_display\\strings",
+      "Generate": false
+    },
+    "ScreenTemplate": {
+      "Type": "gui_screen_widget_definition",
+      "Name": "ui\\halox\\start_menu\\panes\\template_pane",
+      "Generate": false
+    },
+    "InitialButtonKeyName": "a_select_b_done",
+    "DebugDatasources": [
+      {
+        "DataSourceTag": {
+          "Type": "gui_datasource_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\settings_display\\sidebar_items",
+          "Generate": false
+        }
+      },
+      {
+        "DataSourceTag": {
+          "Type": "gui_datasource_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\settings_display\\spinner_display_subtitles",
+          "Generate": false
+        }
+      },
+      {
+        "DataSourceTag": {
+          "Type": "gui_datasource_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\settings_display\\spinner_display_brightness",
+          "Generate": false
+        }
+      }
+    ],
+    "GroupWidgets": [
+      {
+        "TemplateReference": null,
+        "Definition": {
+          "Flags": "0",
+          "GuiRenderBlock": {
+            "Name": "pane",
+            "ScaledPositioning": "UNUSED",
+            "RenderDepthBias": 0,
+            "Bounds720p": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+            "Bounds480i": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+            "AnimationCollection": null
+          },
+          "ListWidgets": [
+            {
+              "TemplateReference": {
+                "Type": "gui_list_widget_definition",
+                "Name": "ui\\halox\\start_menu\\sidebar_spinner",
+                "Generate": false
+              },
+              "Definition": {
+                "Flags": "ListWraps",
+                "GuiRenderBlock": {
+                  "Name": "invalid",
+                  "ScaledPositioning": "UNUSED",
+                  "RenderDepthBias": 0,
+                  "Bounds720p": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+                  "Bounds480i": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+                  "AnimationCollection": null
+                },
+                "DataSourceName": "sidebar_items",
+                "Skin": {
+                  "Type": "gui_skin_definition",
+                  "Name": "ui\\halox\\start_menu\\panes\\settings_controls\\settings_controls_sidebar_wide",
+                  "Generate": false
+                },
+                "Rows": 0,
+                "Items": [],
+                "PrevIndicatorBitmap": null,
+                "NextIndicatorBitmap": null
+              }
+            },
+            {
+              "TemplateReference": {
+                "Type": "gui_list_widget_definition",
+                "Name": "ui\\halox\\start_menu\\panes\\common\\spinner\\spinner",
+                "Generate": false
+              },
+              "Definition": {
+                "Flags": "0",
+                "GuiRenderBlock": {
+                  "Name": "display_subtitles",
+                  "ScaledPositioning": "UNUSED",
+                  "RenderDepthBias": 0,
+                  "Bounds720p": "Top: 0, Left: 483, Bottom: 0, Right: 0",
+                  "Bounds480i": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+                  "AnimationCollection": null
+                },
+                "DataSourceName": "display_subtitles",
+                "Skin": null,
+                "Rows": 0,
+                "Items": [],
+                "PrevIndicatorBitmap": null,
+                "NextIndicatorBitmap": null
+              }
+            },
+            {
+              "TemplateReference": {
+                "Type": "gui_list_widget_definition",
+                "Name": "ui\\halox\\start_menu\\panes\\common\\spinner\\spinner",
+                "Generate": false
+              },
+              "Definition": {
+                "Flags": "0",
+                "GuiRenderBlock": {
+                  "Name": "display_brightness",
+                  "ScaledPositioning": "UNUSED",
+                  "RenderDepthBias": 0,
+                  "Bounds720p": "Top: 0, Left: 483, Bottom: 0, Right: 0",
+                  "Bounds480i": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+                  "AnimationCollection": null
+                },
+                "DataSourceName": "display_brightness",
+                "Skin": null,
+                "Rows": 0,
+                "Items": [],
+                "PrevIndicatorBitmap": null,
+                "NextIndicatorBitmap": null
+              }
+            }
+          ],
+          "TextWidgets": [
+            {
+              "TemplateReference": null,
+              "Definition": {
+                "Flags": "LeftJustify, NoDropShadow",
+                "GuiRenderBlock": {
+                  "Name": "title",
+                  "ScaledPositioning": "UNUSED",
+                  "RenderDepthBias": 0,
+                  "Bounds720p": "Top: 0, Left: 57, Bottom: 59, Right: 787",
+                  "Bounds480i": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+                  "AnimationCollection": {
+                    "Type": "gui_widget_animation_collection_definition",
+                    "Name": "ui\\halox\\start_menu\\animations\\header1",
+                    "Generate": false
+                  }
+                },
+                "ValueOverrideList": "invalid",
+                "ValueIdentifier": "header",
+                "TextColorPreset": "invalid",
+                "CustomFont": "Title"
+              }
+            }
+          ],
+          "BitmapWidgets": [],
+          "ModelWidgets": []
+        }
+      },
+      {
+        "TemplateReference": null,
+        "Definition": {
+          "Flags": "NotLoadedUponInitialization",
+          "GuiRenderBlock": {
+            "Name": "display_subtitles",
+            "ScaledPositioning": "UNUSED",
+            "RenderDepthBias": 0,
+            "Bounds720p": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+            "Bounds480i": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+            "AnimationCollection": null
+          },
+          "ListWidgets": [],
+          "TextWidgets": [
+            {
+              "TemplateReference": null,
+              "Definition": {
+                "Flags": "LeftJustify, LargeTextBuffer255Chars",
+                "GuiRenderBlock": {
+                  "Name": "invalid",
+                  "ScaledPositioning": "UNUSED",
+                  "RenderDepthBias": 0,
+                  "Bounds720p": "Top: 147, Left: 65, Bottom: 422, Right: 603",
+                  "Bounds480i": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+                  "AnimationCollection": {
+                    "Type": "gui_widget_animation_collection_definition",
+                    "Name": "ui\\halox\\start_menu\\animations\\panes",
+                    "Generate": false
+                  }
+                },
+                "ValueOverrideList": "invalid",
+                "ValueIdentifier": "display_setting_description",
+                "TextColorPreset": "ice",
+                "CustomFont": "BodyText"
+              }
+            }
+          ],
+          "BitmapWidgets": [],
+          "ModelWidgets": []
+        }
+      },
+      {
+        "TemplateReference": null,
+        "Definition": {
+          "Flags": "NotLoadedUponInitialization",
+          "GuiRenderBlock": {
+            "Name": "display_brightness",
+            "ScaledPositioning": "UNUSED",
+            "RenderDepthBias": 0,
+            "Bounds720p": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+            "Bounds480i": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+            "AnimationCollection": null
+          },
+          "ListWidgets": [],
+          "TextWidgets": [
+            {
+              "TemplateReference": null,
+              "Definition": {
+                "Flags": "LeftJustify, LargeTextBuffer255Chars",
+                "GuiRenderBlock": {
+                  "Name": "invalid",
+                  "ScaledPositioning": "UNUSED",
+                  "RenderDepthBias": 0,
+                  "Bounds720p": "Top: 187, Left: 70, Bottom: 422, Right: 603",
+                  "Bounds480i": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+                  "AnimationCollection": {
+                    "Type": "gui_widget_animation_collection_definition",
+                    "Name": "ui\\halox\\start_menu\\animations\\panes",
+                    "Generate": false
+                  }
+                },
+                "ValueOverrideList": "invalid",
+                "ValueIdentifier": "display_setting_description",
+                "TextColorPreset": "ice",
+                "CustomFont": "BodyText"
+              }
+            }
+          ],
+          "BitmapWidgets": [
+            {
+              "TemplateReference": null,
+              "Definition": {
+                "Flags": "DoNotApplyOldContentUpscaling",
+                "GuiRenderBlock": {
+                  "Name": "invalid",
+                  "ScaledPositioning": "UNUSED",
+                  "RenderDepthBias": 0,
+                  "Bounds720p": "Top: 187, Left: 620, Bottom: 0, Right: 0",
+                  "Bounds480i": "Top: 0, Left: 0, Bottom: 0, Right: 0",
+                  "AnimationCollection": {
+                    "Type": "gui_widget_animation_collection_definition",
+                    "Name": "ui\\halox\\start_menu\\animations\\panes",
+                    "Generate": false
+                  }
+                },
+                "Bitmap": {
+                  "Type": "bitmap",
+                  "Name": "ui\\halox\\start_menu\\panes\\settings_display\\calibration_range_ui",
+                  "Generate": false
+                },
+                "CustomPixelShader": null,
+                "BlendMethod": "AlphaBlend",
+                "InitialSpriteSequence": 0,
+                "InitialSpriteFrame": 0,
+                "ValueOverrideList": "invalid",
+                "ValueIdentifier": "invalid"
+              }
+            }
+          ],
+          "ModelWidgets": []
+        }
+      }
+    ],
+    "ButtonKeys": [],
+    "SoundOverrides": null,
+    "OnLoadScriptName": "",
+    "ScriptIndex": -1
+  }
+}

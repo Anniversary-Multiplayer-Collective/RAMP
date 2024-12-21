@@ -1,0 +1,109 @@
+{
+  "TagName": "ai\\squad_templates\\sq_sur_brute_jetpack",
+  "TagType": "squad_template",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Name": "sq_sur_brute_jetpack",
+    "CellTemplates": [
+      {
+        "Name": "4_jetpack",
+        "DifficultyFlags": "None",
+        "RoundRange": "Lower: 0, Upper: 0",
+        "SetRange": "Lower: 0, Upper: 0",
+        "NormalDiffCount": 4,
+        "MajorUpgrade": "None",
+        "Characters": [
+          {
+            "DifficultyFlags": "None",
+            "RoundRange": "Lower: 0, Upper: 0",
+            "SetRange": "Lower: 0, Upper: 0",
+            "Object": null,
+            "Probability": 5
+          },
+          {
+            "DifficultyFlags": "None",
+            "RoundRange": "Lower: 2, Upper: 3",
+            "SetRange": "Lower: 0, Upper: 0",
+            "Object": null,
+            "Probability": 3
+          },
+          {
+            "DifficultyFlags": "None",
+            "RoundRange": "Lower: 3, Upper: 3",
+            "SetRange": "Lower: 0, Upper: 0",
+            "Object": null,
+            "Probability": 1
+          }
+        ],
+        "InitialWeapons": [
+          {
+            "DifficultyFlags": "None",
+            "RoundRange": "Lower: 0, Upper: 0",
+            "SetRange": "Lower: 0, Upper: 0",
+            "Object": {
+              "Type": "weapon",
+              "Name": "objects\\weapons\\rifle\\spike_rifle\\spike_rifle",
+              "Generate": false
+            },
+            "Probability": 5
+          },
+          {
+            "DifficultyFlags": "None",
+            "RoundRange": "Lower: 0, Upper: 0",
+            "SetRange": "Lower: 0, Upper: 0",
+            "Object": {
+              "Type": "weapon",
+              "Name": "objects\\weapons\\rifle\\plasma_rifle\\plasma_rifle",
+              "Generate": false
+            },
+            "Probability": 5
+          },
+          {
+            "DifficultyFlags": "None",
+            "RoundRange": "Lower: 2, Upper: 3",
+            "SetRange": "Lower: 0, Upper: 0",
+            "Object": {
+              "Type": "weapon",
+              "Name": "objects\\weapons\\rifle\\covenant_carbine\\covenant_carbine",
+              "Generate": false
+            },
+            "Probability": 3
+          },
+          {
+            "DifficultyFlags": "None",
+            "RoundRange": "Lower: 2, Upper: 3",
+            "SetRange": "Lower: 0, Upper: 0",
+            "Object": {
+              "Type": "weapon",
+              "Name": "objects\\weapons\\support_low\\brute_shot\\brute_shot",
+              "Generate": false
+            },
+            "Probability": 3
+          },
+          {
+            "DifficultyFlags": "None",
+            "RoundRange": "Lower: 3, Upper: 3",
+            "SetRange": "Lower: 0, Upper: 0",
+            "Object": {
+              "Type": "weapon",
+              "Name": "objects\\weapons\\support_high\\flak_cannon\\flak_cannon",
+              "Generate": false
+            },
+            "Probability": 1
+          }
+        ],
+        "InitialSecondaryWeapons": [],
+        "InitialEquipment": [],
+        "GrenadeType": "HumanFragmentation",
+        "Vehicle": null,
+        "VehicleVariant": "invalid",
+        "ActivityName": "invalid"
+      }
+    ]
+  }
+}

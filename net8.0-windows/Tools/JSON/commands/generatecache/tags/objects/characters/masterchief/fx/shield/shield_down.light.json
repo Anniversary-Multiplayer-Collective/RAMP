@@ -1,0 +1,45 @@
+{
+  "TagName": "objects\\characters\\masterchief\\fx\\shield\\shield_down",
+  "TagType": "light",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Flags": "RenderThirdPersonOnly",
+    "Type": "Sphere",
+    "MaximumDistance": 0.45,
+    "FrustumNearWidth": 0.15,
+    "FrustumHeightScale": 1.0,
+    "FrustumFieldOfView": 1.570796,
+    "Color": {
+      "InputVariable": "invalid",
+      "RangeVariable": "invalid",
+      "OutputModifier": "None",
+      "OutputModifierInput": "invalid",
+      "Function": {
+        "Data": "AxQDAAACCwAVWdsAAAAAADeq+gAAAAAAAAAAABQAAAAIAAAAAAAAPwAAAAAAAAAAAACAPw=="
+      }
+    },
+    "Intensity": {
+      "InputVariable": "invalid",
+      "RangeVariable": "invalid",
+      "OutputModifier": "None",
+      "OutputModifierInput": "invalid",
+      "Function": {
+        "Data": "ATQAAAAAAD8AAAA/AAAAAAAAAAAAAAAAAAAAAAAAAAA="
+      }
+    },
+    "GelBitmap": null,
+    "DistanceDiffusion": 0.05,
+    "AngularSmoothness": 5.0,
+    "PercentSpherical": 0.0,
+    "DestroyLightAfter": 0.0,
+    "NearPriority": "Default",
+    "FarPriority": "_4",
+    "TransitionDistance": "Default",
+    "LensFlare": null
+  }
+}

@@ -1,0 +1,1362 @@
+{
+  "TagName": "objects\\vehicles\\warthog\\warthog_snow_no_turret",
+  "TagType": "vehicle",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "ObjectType": {
+      "Halo3ODST": "Vehicle"
+    },
+    "ObjectFlags": {
+      "Flags": "EffectsDoNotSpawnObjectsInMultiplayer"
+    },
+    "BoundingRadius": 1.0,
+    "BoundingOffset": "X: 0, Y: 0, Z: 0",
+    "AccelerationScale": 1.2,
+    "LightmapShadowMode": "Default",
+    "SweetenerSize": "Medium",
+    "WaterDensity": "Default",
+    "RuntimeFlags": 2,
+    "DynamicLightSphereRadius": 0.0,
+    "DynamicLightSphereOffset": "X: 0, Y: 0, Z: 0",
+    "DefaultModelVariant": "no_turret",
+    "Model": {
+      "Type": "model",
+      "Name": "objects\\vehicles\\warthog\\warthog_snow",
+      "Generate": false
+    },
+    "CrateObject": null,
+    "CollisionDamage": {
+      "Type": "collision_damage",
+      "Name": "globals\\collision_damage\\vehicle_medium",
+      "Generate": false
+    },
+    "EarlyMoverProperties": [],
+    "CreationEffect": null,
+    "MaterialEffects": {
+      "Type": "material_effects",
+      "Name": "fx\\material_effects\\objects\\vehicles\\warthog",
+      "Generate": false
+    },
+    "ArmorSounds": null,
+    "MeleeImpactSound": null,
+    "AiProperties": [
+      {
+        "AiFlags": "None",
+        "AiTypeName": "warthog",
+        "AiSize": "Large",
+        "LeapJumpSpeed": "None"
+      }
+    ],
+    "Functions": [
+      {
+        "Flags": "AlwaysActive",
+        "ImportName": "engine_power",
+        "ExportName": "sound_engine_power",
+        "TurnOffWith": "driver_seat_occupied",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAABI4fo+AAAAPygAAAABAAAACgAAzf//f39ADVI91CCNvzVIA0AAAAAAAAAAAAAAgD+A9tI/"
+        },
+        "ScaleBy": "invalid"
+      },
+      {
+        "Flags": "None",
+        "ImportName": "one",
+        "ExportName": "blip1",
+        "TurnOffWith": "driver_seat_occupied",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "AzQAAAAAAAAAAIA/AAAAAAAAAABI4fo+AAAAPxQAAAAEzc3NqDWNPgAAAAAAAIDAAADAPw=="
+        },
+        "ScaleBy": "invalid"
+      },
+      {
+        "Flags": "None",
+        "ImportName": "one",
+        "ExportName": "blip2",
+        "TurnOffWith": "driver_seat_occupied",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "AzQAAAAAAAAAAIA/AAAAAAAAAABI4fo+AAAAPxQAAAAEzc3NkDE3PgAAAAAAAIDAAADAPw=="
+        },
+        "ScaleBy": "invalid"
+      },
+      {
+        "Flags": "None",
+        "ImportName": "compass",
+        "ExportName": "direction",
+        "TurnOffWith": "invalid",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAABI4fo+AAAAPxQAAAABAAAABAAAzf//f38AAIA/AAAAAA=="
+        },
+        "ScaleBy": "invalid"
+      },
+      {
+        "Flags": "None",
+        "ImportName": "driver_seat_power",
+        "ExportName": "headlights",
+        "TurnOffWith": "invalid",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAABI4fo+AAAAPxQAAAABAAAABAAAzf//f38AAIA/AAAAAA=="
+        },
+        "ScaleBy": "flashlights_allowed"
+      },
+      {
+        "Flags": "None",
+        "ImportName": "jump",
+        "ExportName": "tail_lights",
+        "TurnOffWith": "invalid",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAgD4AAIA/AAAAAAAAAAAAAAAAAAAAABQAAAABAAAABAAAzf//f38AAIA/AAAAAA=="
+        },
+        "ScaleBy": "driver_seat_power"
+      },
+      {
+        "Flags": "None",
+        "ImportName": "one",
+        "ExportName": "scanner",
+        "TurnOffWith": "driver_seat_occupied",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "AzQAAAAAAADNzIw/AAAAAAAAAAAAAAAAAAAAABQAAAAGAAAAAACAPgAAAAAAAAAAAACAPw=="
+        },
+        "ScaleBy": "invalid"
+      }
+    ],
+    "HudTextMessageIndex": 16,
+    "SecondaryFlags": "None",
+    "Attachments": [
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "effect",
+          "Name": "objects\\vehicles\\warthog\\fx\\running\\headlights",
+          "Generate": false
+        },
+        "Marker": "fx_headlight",
+        "ChangeColor": "None",
+        "PrimaryScale": "headlights",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "light",
+          "Name": "objects\\vehicles\\warthog\\fx\\running\\headlight_beam",
+          "Generate": false
+        },
+        "Marker": "fx_headlight_light",
+        "ChangeColor": "None",
+        "PrimaryScale": "headlights",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "lens_flare",
+          "Name": "objects\\vehicles\\warthog\\fx\\running\\tail_lights",
+          "Generate": false
+        },
+        "Marker": "fx_brakelight",
+        "ChangeColor": "None",
+        "PrimaryScale": "tail_lights",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "sound_looping",
+          "Name": "sound\\vehicles\\warthog\\new_warthog_left\\new_warthog_left",
+          "Generate": false
+        },
+        "Marker": "warthog_b_d",
+        "ChangeColor": "None",
+        "PrimaryScale": "sound_engine_power",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "sound_looping",
+          "Name": "sound\\vehicles\\warthog\\new_warthog_right\\new_warthog_right",
+          "Generate": false
+        },
+        "Marker": "warthog_b_p",
+        "ChangeColor": "None",
+        "PrimaryScale": "sound_engine_power",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "sound_looping",
+          "Name": "sound\\vehicles\\warthog\\warthog_engine_lod\\warthog_engine_lod",
+          "Generate": false
+        },
+        "Marker": "warthog_b_p",
+        "ChangeColor": "None",
+        "PrimaryScale": "sound_engine_power",
+        "SecondaryScale": "invalid"
+      }
+    ],
+    "Widgets": [
+      {
+        "Instance": {
+          "Type": "antenna",
+          "Name": "objects\\vehicles\\warthog\\attachments\\warthog_antenna",
+          "Generate": false
+        }
+      }
+    ],
+    "ChangeColors": [],
+    "NodeMaps": [],
+    "MultiplayerObject": [
+      {
+        "EngineFlags": "None",
+        "Type": "LightLandVehicle",
+        "TeleporterPassability": "None",
+        "Flags": "None",
+        "BoundaryShape": "None",
+        "SpawnTimerType": "StartsOnDeath",
+        "DefaultSpawnTime": 30,
+        "DefaultAbandonTime": 60,
+        "BoundaryWidthRadius": 0.0,
+        "BoundaryBoxLength": 0.0,
+        "BoundaryPositiveHeight": 0.0,
+        "BoundaryNegativeHeight": 0.0,
+        "StandardRespawnZoneWeight": 0.0,
+        "FlagAwayRespawnZoneWeight": 0.0,
+        "FlagAtHomeRespawnZoneWeight": 0.0,
+        "BoundaryCenterMarker": "invalid",
+        "SpawnedObjectMarkerName": "invalid",
+        "SpawnedObject": null,
+        "NyiBoundaryMaterial": "invalid",
+        "BoundaryShaders": [
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          }
+        ]
+      }
+    ],
+    "RevivingEquipment": [],
+    "PathfindingSpheres": [
+      {
+        "Node": 0,
+        "Flags": "None",
+        "Center": "X: -0.65585226, Y: 0.23821406, Z: -0.11832111",
+        "Radius": 0.41067
+      },
+      {
+        "Node": 0,
+        "Flags": "None",
+        "Center": "X: 0.6333771, Y: -0.23496623, Z: -0.11832111",
+        "Radius": 0.41067
+      },
+      {
+        "Node": 0,
+        "Flags": "None",
+        "Center": "X: 0.24457546, Y: 0.0016239166, Z: -0.019763451",
+        "Radius": 0.46683002
+      },
+      {
+        "Node": 0,
+        "Flags": "None",
+        "Center": "X: 0.6333771, Y: 0.23821406, Z: -0.11832111",
+        "Radius": 0.41067
+      },
+      {
+        "Node": 0,
+        "Flags": "None",
+        "Center": "X: -0.65585226, Y: -0.23496623, Z: -0.11832111",
+        "Radius": 0.41067
+      },
+      {
+        "Node": 0,
+        "Flags": "None",
+        "Center": "X: -0.22860484, Y: 0.0016239166, Z: -0.011515465",
+        "Radius": 0.46683002
+      }
+    ],
+    "UnitFlags": {
+      "Flags": "CircularAiming, CausesPassengerDialogue"
+    },
+    "DefaultTeam": "Default",
+    "ConstantSoundVolume": "Loud",
+    "HologramUnit": null,
+    "CampaignMetagameBuckets": [
+      {
+        "Flags": "OnlyCountsWithRiders",
+        "UnitType": "Warthog",
+        "UnitClass": "StandardVehicle",
+        "PointCount": 150
+      }
+    ],
+    "IntegratedLightToggle": null,
+    "CameraFieldOfView": "Degrees: 70",
+    "CameraStiffness": 0.0,
+    "UnitCamera": {
+      "CameraFlags": "0",
+      "CameraMarkerName": "invalid",
+      "CameraSubmergedMarker": "invalid",
+      "PitchAutoLevel": "Degrees: 0",
+      "PitchRange": "Lower: Degrees: 0, Upper: Degrees: 0",
+      "CameraTracks": [],
+      "PitchSpringBounds": "Lower: 0, Upper: 0",
+      "SpringVelocity": "Degrees: 0",
+      "CameraAcceleration": []
+    },
+    "SyncActionCamera": {
+      "CameraFlags": "0",
+      "CameraMarkerName": "invalid",
+      "CameraSubmergedMarker": "invalid",
+      "PitchAutoLevel": "Degrees: 0",
+      "PitchRange": "Lower: Degrees: 0, Upper: Degrees: 0",
+      "CameraTracks": [],
+      "PitchSpringBounds": "Lower: 0, Upper: 0",
+      "SpringVelocity": "Degrees: 0",
+      "CameraAcceleration": []
+    },
+    "Assassination": {
+      "Response": null,
+      "Weapon": null,
+      "ToolStowAnchor": "invalid",
+      "ToolHandMarker": "invalid",
+      "ToolMarker": "invalid"
+    },
+    "Acceleration": {
+      "Range": "I: 0.33333334, J: 0.33333334, K: 0.6666667",
+      "ActionScale": 0.0,
+      "AttachScale": 0.0
+    },
+    "SoftPingThreshold": 0.0,
+    "SoftPingInterruptTime": 0.0,
+    "HardPingThreshold": 0.0,
+    "HardPingInterruptTime": 0.0,
+    "HardDeathThreshold": 0.0,
+    "FeignDeathThreshold": 0.0,
+    "FeignDeathTime": 0.0,
+    "DistanceOfDiveAnimation": 0.0,
+    "StunnedMovementThreshold": 0.0,
+    "FeignDeathChance": 0.0,
+    "FeignRepeatChance": 0.0,
+    "SpawnedTurretCharacter": null,
+    "SpawnedActorCountBounds": "Lower: 0, Upper: 0",
+    "SpawnedVelocity": 0.0,
+    "AimingVelocityMaximum": "Degrees: 0",
+    "AimingAccelerationMaximum": "Degrees: 0",
+    "CasualAimingModifier": 0.0,
+    "LookingVelocityMaximum": "Degrees: 0",
+    "LookingAccelerationMaximum": "Degrees: 0",
+    "RightHandNode": "gun",
+    "LeftHandNode": "invalid",
+    "PreferredGunNode": "invalid",
+    "MeleeDamage": null,
+    "BoardingMeleeDamage": null,
+    "BoardingMeleeResponse": null,
+    "EvictionMeleeDamage": null,
+    "EvictionMeleeResponse": null,
+    "LandingMeleeDamage": null,
+    "FlurryMeleeDamage": null,
+    "ObstacleSmashMeleeDamage": null,
+    "ShieldPopDamage": null,
+    "AssassinationDamage": null,
+    "MotionSensorBlipSize": "Large",
+    "ItemOwnerSize": "Small",
+    "Postures": [],
+    "HudInterfaces": [],
+    "DialogueVariants": [],
+    "MotionTrackerRangeModifier": 0.0,
+    "GrenadeAngle": "Degrees: 0",
+    "GrenadeAngleMaxElevation": "Degrees: 0",
+    "GrenadeAngleMinElevation": "Degrees: 0",
+    "GrenadeVelocity": 0.0,
+    "GrenadeType": "HumanFragmentation",
+    "GrenadeCount": 0,
+    "PoweredSeats": [
+      {
+        "DriverPowerupTime": 0.25,
+        "DriverPowerdownTime": 0.5
+      }
+    ],
+    "Weapons": [
+      {
+        "Weapon": {
+          "Type": "weapon",
+          "Name": "objects\\vehicles\\warthog\\weapon\\warthog_horn",
+          "Generate": false
+        }
+      }
+    ],
+    "TargetTracking": [],
+    "Seats": [
+      {
+        "Flags": "Driver, ThirdPersonCamera, ControlsOpenAndClose, GunnerPlayerOnly",
+        "Label": "warthog_d",
+        "MarkerName": "driver",
+        "EntryMarkerName": "driver_enter",
+        "BoardingGrenadeMarker": "invalid",
+        "BoardingGrenadeString": "invalid",
+        "BoardingMeleeString": "invalid",
+        "SeatedDetachString": "invalid",
+        "PingScale": 1.0,
+        "FlippedEvictionTime": 0.65,
+        "Acceleration": {
+          "Range": "I: 0.071428575, J: 0.125, K: 0.071428575",
+          "ActionScale": 1.0,
+          "AttachScale": 0.0
+        },
+        "AiScariness": 12.0,
+        "AiSeatType": "Driver",
+        "BoardingSeat": -1,
+        "ListenerInterpolationFactor": 0.6,
+        "YawRateBounds": "Lower: 70, Upper: 50",
+        "PitchRateBounds": "Lower: 30, Upper: 30",
+        "PitchInterpolationTime": 0.0,
+        "MinSpeedReference": 5.5,
+        "MaxSpeedReference": 9.0,
+        "SpeedExponent": 1.6,
+        "UnitCamera": {
+          "CameraFlags": "0",
+          "CameraMarkerName": "invalid",
+          "CameraSubmergedMarker": "invalid",
+          "PitchAutoLevel": "Degrees: 0",
+          "PitchRange": "Lower: Degrees: -45, Upper: Degrees: 45",
+          "CameraTracks": [
+            {
+              "Track": {
+                "Type": "camera_track",
+                "Name": "camera\\warthog_d_camera",
+                "Generate": false
+              }
+            }
+          ],
+          "PitchSpringBounds": "Lower: 0, Upper: 0",
+          "SpringVelocity": "Degrees: 0",
+          "CameraAcceleration": [
+            {
+              "VelocityI": {
+                "K": 0.1,
+                "Scale": 0.8,
+                "Power": 1.5,
+                "Maximum": 0.8,
+                "CameraScaleAxial": 1.0,
+                "CameraScalePerpendicular": 0.1
+              },
+              "VelocityJ": {
+                "K": 0.2,
+                "Scale": -0.15,
+                "Power": 1.5,
+                "Maximum": 0.15,
+                "CameraScaleAxial": 1.0,
+                "CameraScalePerpendicular": 0.1
+              },
+              "VelocityK": {
+                "K": 0.2,
+                "Scale": -0.25,
+                "Power": 1.0,
+                "Maximum": 0.25,
+                "CameraScaleAxial": 1.0,
+                "CameraScalePerpendicular": 0.1
+              },
+              "MaximumCameraVelocity": 10.0
+            }
+          ]
+        },
+        "UnitHudInterface": [
+          {
+            "UnitHudInterface": {
+              "Type": "chud_definition",
+              "Name": "ui\\chud\\v_driver",
+              "Generate": false
+            }
+          }
+        ],
+        "EnterSeatString": "warthog_enter_driver",
+        "YawMinimum": "Degrees: 0",
+        "YawMaximum": "Degrees: 0",
+        "BuiltInGunner": null,
+        "EntryRadius": 1.25,
+        "EntryMarkerConeAngle": "Degrees: 75",
+        "EntryMarkerFacingAngle": "Degrees: 70",
+        "MaximumRelativeVelocity": 3.0,
+        "InvisibleSeatRegion": "invalid",
+        "RuntimeInvisibleSeatRegionIndex": -1
+      },
+      {
+        "Flags": "ThirdPersonCamera, AllowsWeapons, ThirdPersonOnEnter, AiFiringDisabledByMaxAcceleration",
+        "Label": "warthog_p",
+        "MarkerName": "passenger",
+        "EntryMarkerName": "passenger_enter",
+        "BoardingGrenadeMarker": "invalid",
+        "BoardingGrenadeString": "invalid",
+        "BoardingMeleeString": "invalid",
+        "SeatedDetachString": "invalid",
+        "PingScale": 1.0,
+        "FlippedEvictionTime": 0.65,
+        "Acceleration": {
+          "Range": "I: 0.071428575, J: 0.125, K: 0.071428575",
+          "ActionScale": 1.0,
+          "AttachScale": 0.0
+        },
+        "AiScariness": 0.0,
+        "AiSeatType": "Passenger",
+        "BoardingSeat": -1,
+        "ListenerInterpolationFactor": 0.0,
+        "YawRateBounds": "Lower: 0, Upper: 0",
+        "PitchRateBounds": "Lower: 0, Upper: 0",
+        "PitchInterpolationTime": 0.0,
+        "MinSpeedReference": 0.0,
+        "MaxSpeedReference": 0.0,
+        "SpeedExponent": 0.0,
+        "UnitCamera": {
+          "CameraFlags": "0",
+          "CameraMarkerName": "camera_rider",
+          "CameraSubmergedMarker": "invalid",
+          "PitchAutoLevel": "Degrees: 0",
+          "PitchRange": "Lower: Degrees: -45, Upper: Degrees: 45",
+          "CameraTracks": [
+            {
+              "Track": {
+                "Type": "camera_track",
+                "Name": "camera\\warthog_g_camera",
+                "Generate": false
+              }
+            }
+          ],
+          "PitchSpringBounds": "Lower: 0, Upper: 0",
+          "SpringVelocity": "Degrees: 0",
+          "CameraAcceleration": [
+            {
+              "VelocityI": {
+                "K": 0.1,
+                "Scale": 0.8,
+                "Power": 1.5,
+                "Maximum": 0.8,
+                "CameraScaleAxial": 1.0,
+                "CameraScalePerpendicular": 0.1
+              },
+              "VelocityJ": {
+                "K": 0.2,
+                "Scale": -0.15,
+                "Power": 1.5,
+                "Maximum": 0.15,
+                "CameraScaleAxial": 1.0,
+                "CameraScalePerpendicular": 0.1
+              },
+              "VelocityK": {
+                "K": 0.2,
+                "Scale": -0.25,
+                "Power": 1.0,
+                "Maximum": 0.25,
+                "CameraScaleAxial": 1.0,
+                "CameraScalePerpendicular": 0.1
+              },
+              "MaximumCameraVelocity": 10.0
+            }
+          ]
+        },
+        "UnitHudInterface": [],
+        "EnterSeatString": "warthog_enter_passenger",
+        "YawMinimum": "Degrees: -90",
+        "YawMaximum": "Degrees: 90",
+        "BuiltInGunner": null,
+        "EntryRadius": 1.25,
+        "EntryMarkerConeAngle": "Degrees: 75",
+        "EntryMarkerFacingAngle": "Degrees: 70",
+        "MaximumRelativeVelocity": 3.5,
+        "InvisibleSeatRegion": "invalid",
+        "RuntimeInvisibleSeatRegionIndex": -1
+      },
+      {
+        "Flags": "ThirdPersonCamera, BoardingSeat, AiFiringDisabledByMaxAcceleration",
+        "Label": "warthog_b_d",
+        "MarkerName": "warthog_b_d",
+        "EntryMarkerName": "warthog_b_d_enter",
+        "BoardingGrenadeMarker": "invalid",
+        "BoardingGrenadeString": "invalid",
+        "BoardingMeleeString": "invalid",
+        "SeatedDetachString": "invalid",
+        "PingScale": 1.0,
+        "FlippedEvictionTime": 0.2,
+        "Acceleration": {
+          "Range": "I: 0.05, J: 0.05, K: 0.035714287",
+          "ActionScale": 1.0,
+          "AttachScale": 0.0
+        },
+        "AiScariness": 0.0,
+        "AiSeatType": "None",
+        "BoardingSeat": 0,
+        "ListenerInterpolationFactor": 0.0,
+        "YawRateBounds": "Lower: 0, Upper: 0",
+        "PitchRateBounds": "Lower: 0, Upper: 0",
+        "PitchInterpolationTime": 0.0,
+        "MinSpeedReference": 0.0,
+        "MaxSpeedReference": 0.0,
+        "SpeedExponent": 0.0,
+        "UnitCamera": {
+          "CameraFlags": "0",
+          "CameraMarkerName": "invalid",
+          "CameraSubmergedMarker": "invalid",
+          "PitchAutoLevel": "Degrees: -15.000001",
+          "PitchRange": "Lower: Degrees: -25, Upper: Degrees: -5",
+          "CameraTracks": [
+            {
+              "Track": {
+                "Type": "camera_track",
+                "Name": "camera\\board_med_camera",
+                "Generate": false
+              }
+            }
+          ],
+          "PitchSpringBounds": "Lower: 0, Upper: 0",
+          "SpringVelocity": "Degrees: 0",
+          "CameraAcceleration": [
+            {
+              "VelocityI": {
+                "K": 0.1,
+                "Scale": 0.8,
+                "Power": 1.5,
+                "Maximum": 0.8,
+                "CameraScaleAxial": 1.0,
+                "CameraScalePerpendicular": 0.1
+              },
+              "VelocityJ": {
+                "K": 0.2,
+                "Scale": -0.15,
+                "Power": 1.5,
+                "Maximum": 0.15,
+                "CameraScaleAxial": 1.0,
+                "CameraScalePerpendicular": 0.1
+              },
+              "VelocityK": {
+                "K": 0.2,
+                "Scale": -0.25,
+                "Power": 1.0,
+                "Maximum": 0.25,
+                "CameraScaleAxial": 1.0,
+                "CameraScalePerpendicular": 0.1
+              },
+              "MaximumCameraVelocity": 10.0
+            }
+          ]
+        },
+        "UnitHudInterface": [],
+        "EnterSeatString": "warthog_board",
+        "YawMinimum": "Degrees: 0",
+        "YawMaximum": "Degrees: 0",
+        "BuiltInGunner": null,
+        "EntryRadius": 1.5,
+        "EntryMarkerConeAngle": "Degrees: 70",
+        "EntryMarkerFacingAngle": "Degrees: 60.000004",
+        "MaximumRelativeVelocity": 3.5,
+        "InvisibleSeatRegion": "invalid",
+        "RuntimeInvisibleSeatRegionIndex": -1
+      },
+      {
+        "Flags": "ThirdPersonCamera, BoardingSeat, AiFiringDisabledByMaxAcceleration",
+        "Label": "warthog_b_p",
+        "MarkerName": "warthog_b_p",
+        "EntryMarkerName": "warthog_b_p_enter",
+        "BoardingGrenadeMarker": "invalid",
+        "BoardingGrenadeString": "invalid",
+        "BoardingMeleeString": "invalid",
+        "SeatedDetachString": "invalid",
+        "PingScale": 1.0,
+        "FlippedEvictionTime": 0.2,
+        "Acceleration": {
+          "Range": "I: 0.05, J: 0.05, K: 0.035714287",
+          "ActionScale": 1.0,
+          "AttachScale": 0.0
+        },
+        "AiScariness": 0.0,
+        "AiSeatType": "None",
+        "BoardingSeat": 1,
+        "ListenerInterpolationFactor": 0.0,
+        "YawRateBounds": "Lower: 0, Upper: 0",
+        "PitchRateBounds": "Lower: 0, Upper: 0",
+        "PitchInterpolationTime": 0.0,
+        "MinSpeedReference": 0.0,
+        "MaxSpeedReference": 0.0,
+        "SpeedExponent": 0.0,
+        "UnitCamera": {
+          "CameraFlags": "0",
+          "CameraMarkerName": "invalid",
+          "CameraSubmergedMarker": "invalid",
+          "PitchAutoLevel": "Degrees: -15.000001",
+          "PitchRange": "Lower: Degrees: -25, Upper: Degrees: -5",
+          "CameraTracks": [
+            {
+              "Track": {
+                "Type": "camera_track",
+                "Name": "camera\\board_med_camera",
+                "Generate": false
+              }
+            }
+          ],
+          "PitchSpringBounds": "Lower: 0, Upper: 0",
+          "SpringVelocity": "Degrees: 0",
+          "CameraAcceleration": [
+            {
+              "VelocityI": {
+                "K": 0.1,
+                "Scale": 0.8,
+                "Power": 1.5,
+                "Maximum": 0.8,
+                "CameraScaleAxial": 1.0,
+                "CameraScalePerpendicular": 0.1
+              },
+              "VelocityJ": {
+                "K": 0.2,
+                "Scale": -0.15,
+                "Power": 1.5,
+                "Maximum": 0.15,
+                "CameraScaleAxial": 1.0,
+                "CameraScalePerpendicular": 0.1
+              },
+              "VelocityK": {
+                "K": 0.2,
+                "Scale": -0.25,
+                "Power": 1.0,
+                "Maximum": 0.25,
+                "CameraScaleAxial": 1.0,
+                "CameraScalePerpendicular": 0.1
+              },
+              "MaximumCameraVelocity": 10.0
+            }
+          ]
+        },
+        "UnitHudInterface": [],
+        "EnterSeatString": "warthog_board",
+        "YawMinimum": "Degrees: 0",
+        "YawMaximum": "Degrees: 0",
+        "BuiltInGunner": null,
+        "EntryRadius": 1.5,
+        "EntryMarkerConeAngle": "Degrees: 70",
+        "EntryMarkerFacingAngle": "Degrees: 60.000004",
+        "MaximumRelativeVelocity": 3.5,
+        "InvisibleSeatRegion": "invalid",
+        "RuntimeInvisibleSeatRegionIndex": -1
+      },
+      {
+        "Flags": "ThirdPersonCamera, BoardingSeat, AiFiringDisabledByMaxAcceleration, BoardingNeedAnyPassenger",
+        "Label": "warthog_b_h",
+        "MarkerName": "warthog_b_h",
+        "EntryMarkerName": "warthog_b_h_enter",
+        "BoardingGrenadeMarker": "invalid",
+        "BoardingGrenadeString": "invalid",
+        "BoardingMeleeString": "invalid",
+        "SeatedDetachString": "invalid",
+        "PingScale": 1.0,
+        "FlippedEvictionTime": 0.2,
+        "Acceleration": {
+          "Range": "I: 0.05, J: 0.05, K: 0.035714287",
+          "ActionScale": 1.0,
+          "AttachScale": 0.0
+        },
+        "AiScariness": 0.0,
+        "AiSeatType": "None",
+        "BoardingSeat": -1,
+        "ListenerInterpolationFactor": 0.0,
+        "YawRateBounds": "Lower: 0, Upper: 0",
+        "PitchRateBounds": "Lower: 0, Upper: 0",
+        "PitchInterpolationTime": 0.0,
+        "MinSpeedReference": 0.0,
+        "MaxSpeedReference": 0.0,
+        "SpeedExponent": 0.0,
+        "UnitCamera": {
+          "CameraFlags": "0",
+          "CameraMarkerName": "invalid",
+          "CameraSubmergedMarker": "invalid",
+          "PitchAutoLevel": "Degrees: -15.000001",
+          "PitchRange": "Lower: Degrees: -25, Upper: Degrees: -5",
+          "CameraTracks": [
+            {
+              "Track": {
+                "Type": "camera_track",
+                "Name": "camera\\board_med_camera",
+                "Generate": false
+              }
+            }
+          ],
+          "PitchSpringBounds": "Lower: 0, Upper: 0",
+          "SpringVelocity": "Degrees: 0",
+          "CameraAcceleration": [
+            {
+              "VelocityI": {
+                "K": 0.1,
+                "Scale": 0.8,
+                "Power": 1.5,
+                "Maximum": 0.8,
+                "CameraScaleAxial": 1.0,
+                "CameraScalePerpendicular": 0.1
+              },
+              "VelocityJ": {
+                "K": 0.2,
+                "Scale": -0.15,
+                "Power": 1.5,
+                "Maximum": 0.15,
+                "CameraScaleAxial": 1.0,
+                "CameraScalePerpendicular": 0.1
+              },
+              "VelocityK": {
+                "K": 0.2,
+                "Scale": -0.25,
+                "Power": 1.0,
+                "Maximum": 0.25,
+                "CameraScaleAxial": 1.0,
+                "CameraScalePerpendicular": 0.1
+              },
+              "MaximumCameraVelocity": 10.0
+            }
+          ]
+        },
+        "UnitHudInterface": [],
+        "EnterSeatString": "warthog_board",
+        "YawMinimum": "Degrees: 0",
+        "YawMaximum": "Degrees: 0",
+        "BuiltInGunner": null,
+        "EntryRadius": 1.5,
+        "EntryMarkerConeAngle": "Degrees: 70",
+        "EntryMarkerFacingAngle": "Degrees: 50",
+        "MaximumRelativeVelocity": 3.5,
+        "InvisibleSeatRegion": "invalid",
+        "RuntimeInvisibleSeatRegionIndex": -1
+      },
+      {
+        "Flags": "ThirdPersonCamera, BoardingSeat, AiFiringDisabledByMaxAcceleration, BoardingNeedAnyPassenger",
+        "Label": "warthog_b_b",
+        "MarkerName": "warthog_b_b",
+        "EntryMarkerName": "warthog_b_b_enter",
+        "BoardingGrenadeMarker": "invalid",
+        "BoardingGrenadeString": "invalid",
+        "BoardingMeleeString": "invalid",
+        "SeatedDetachString": "invalid",
+        "PingScale": 1.0,
+        "FlippedEvictionTime": 0.2,
+        "Acceleration": {
+          "Range": "I: 0.05, J: 0.05, K: 0.035714287",
+          "ActionScale": 1.0,
+          "AttachScale": 0.0
+        },
+        "AiScariness": 0.0,
+        "AiSeatType": "None",
+        "BoardingSeat": -1,
+        "ListenerInterpolationFactor": 0.0,
+        "YawRateBounds": "Lower: 0, Upper: 0",
+        "PitchRateBounds": "Lower: 0, Upper: 0",
+        "PitchInterpolationTime": 0.0,
+        "MinSpeedReference": 0.0,
+        "MaxSpeedReference": 0.0,
+        "SpeedExponent": 0.0,
+        "UnitCamera": {
+          "CameraFlags": "0",
+          "CameraMarkerName": "invalid",
+          "CameraSubmergedMarker": "invalid",
+          "PitchAutoLevel": "Degrees: -15.000001",
+          "PitchRange": "Lower: Degrees: -25, Upper: Degrees: -5",
+          "CameraTracks": [
+            {
+              "Track": {
+                "Type": "camera_track",
+                "Name": "camera\\board_med_camera",
+                "Generate": false
+              }
+            }
+          ],
+          "PitchSpringBounds": "Lower: 0, Upper: 0",
+          "SpringVelocity": "Degrees: 0",
+          "CameraAcceleration": [
+            {
+              "VelocityI": {
+                "K": 0.1,
+                "Scale": 0.8,
+                "Power": 1.5,
+                "Maximum": 0.8,
+                "CameraScaleAxial": 1.0,
+                "CameraScalePerpendicular": 0.1
+              },
+              "VelocityJ": {
+                "K": 0.2,
+                "Scale": -0.15,
+                "Power": 1.5,
+                "Maximum": 0.15,
+                "CameraScaleAxial": 1.0,
+                "CameraScalePerpendicular": 0.1
+              },
+              "VelocityK": {
+                "K": 0.2,
+                "Scale": -0.25,
+                "Power": 1.0,
+                "Maximum": 0.25,
+                "CameraScaleAxial": 1.0,
+                "CameraScalePerpendicular": 0.1
+              },
+              "MaximumCameraVelocity": 10.0
+            }
+          ]
+        },
+        "UnitHudInterface": [],
+        "EnterSeatString": "warthog_board",
+        "YawMinimum": "Degrees: 0",
+        "YawMaximum": "Degrees: 0",
+        "BuiltInGunner": null,
+        "EntryRadius": 1.25,
+        "EntryMarkerConeAngle": "Degrees: 70",
+        "EntryMarkerFacingAngle": "Degrees: 50",
+        "MaximumRelativeVelocity": 3.5,
+        "InvisibleSeatRegion": "invalid",
+        "RuntimeInvisibleSeatRegionIndex": -1
+      }
+    ],
+    "EmpRadius": 4.0,
+    "EmpEffect": {
+      "Type": "effect",
+      "Name": "fx\\scenery_fx\\destruction\\emp_drain_medium\\emp_drain_medium",
+      "Generate": false
+    },
+    "Boost": {
+      "BoostCollisionDamage": null,
+      "BoostPeakPower": 0.0,
+      "BoostRisePower": 0.0,
+      "BoostPeakTime": 0.0,
+      "BoostFallPower": 0.0,
+      "BoostDeadTime": 0.0
+    },
+    "LipsyncAttackWeight": 0.0,
+    "LipsyncDecayWeight": 0.0,
+    "DetachDamage": null,
+    "DetachedWeapon": null,
+    "VehicleFlags": "CanTriggerAutomaticOpeningDoors, AiDriverEnable",
+    "PhysicsTypes": {
+      "HumanTank": [],
+      "HumanJeep": [
+        {
+          "Steering": {
+            "OverdampenCuspAngle": "Degrees: 1.75",
+            "OverdampenExponent": 1.5
+          },
+          "Turning": {
+            "MaximumLeftTurn": 1.0471976,
+            "MaximumRightTurn": -1.0471976,
+            "TurnRate": 9.424778
+          },
+          "Engine": {
+            "EngineMomentum": 2000.0,
+            "EngineMaximumAngularVelocity": 9.5,
+            "Gears": [
+              {
+                "LoadedTorqueCurve": {
+                  "MinTorque": 60000.0,
+                  "MaxTorque": 30000.0,
+                  "PeakTorqueScale": 0.5,
+                  "PastPeakTorqueExponent": 1.5,
+                  "TorqueAtMaxAngularVelocity": 6500.0,
+                  "TorqueAt2xMaxAngularVelocity": 0.0
+                },
+                "CruisingTorqueCurve": {
+                  "MinTorque": -25000.0,
+                  "MaxTorque": -25000.0,
+                  "PeakTorqueScale": 0.5,
+                  "PastPeakTorqueExponent": 1.0,
+                  "TorqueAtMaxAngularVelocity": -25000.0,
+                  "TorqueAt2xMaxAngularVelocity": -25000.0
+                },
+                "MinTimeToUpshift": 0.0,
+                "EngineUpshiftScale": 0.0,
+                "GearRatio": -0.5,
+                "MinTimeToDownshift": 0.0,
+                "EngineDownshiftScale": 0.0
+              },
+              {
+                "LoadedTorqueCurve": {
+                  "MinTorque": 60000.0,
+                  "MaxTorque": 30000.0,
+                  "PeakTorqueScale": 0.5,
+                  "PastPeakTorqueExponent": 1.4,
+                  "TorqueAtMaxAngularVelocity": 6500.0,
+                  "TorqueAt2xMaxAngularVelocity": 0.0
+                },
+                "CruisingTorqueCurve": {
+                  "MinTorque": -25000.0,
+                  "MaxTorque": -25000.0,
+                  "PeakTorqueScale": 0.5,
+                  "PastPeakTorqueExponent": 1.0,
+                  "TorqueAtMaxAngularVelocity": -25000.0,
+                  "TorqueAt2xMaxAngularVelocity": -25000.0
+                },
+                "MinTimeToUpshift": 0.85,
+                "EngineUpshiftScale": 0.9,
+                "GearRatio": 0.75,
+                "MinTimeToDownshift": 0.0,
+                "EngineDownshiftScale": 0.0
+              },
+              {
+                "LoadedTorqueCurve": {
+                  "MinTorque": 12000.0,
+                  "MaxTorque": 6000.0,
+                  "PeakTorqueScale": 0.6,
+                  "PastPeakTorqueExponent": 1.4,
+                  "TorqueAtMaxAngularVelocity": 2250.0,
+                  "TorqueAt2xMaxAngularVelocity": 0.0
+                },
+                "CruisingTorqueCurve": {
+                  "MinTorque": -25000.0,
+                  "MaxTorque": -25000.0,
+                  "PeakTorqueScale": 0.5,
+                  "PastPeakTorqueExponent": 1.0,
+                  "TorqueAtMaxAngularVelocity": -25000.0,
+                  "TorqueAt2xMaxAngularVelocity": -25000.0
+                },
+                "MinTimeToUpshift": 0.85,
+                "EngineUpshiftScale": 0.9,
+                "GearRatio": 1.0,
+                "MinTimeToDownshift": 0.25,
+                "EngineDownshiftScale": 0.6
+              },
+              {
+                "LoadedTorqueCurve": {
+                  "MinTorque": 5000.0,
+                  "MaxTorque": 3000.0,
+                  "PeakTorqueScale": 0.9,
+                  "PastPeakTorqueExponent": 1.4,
+                  "TorqueAtMaxAngularVelocity": 1750.0,
+                  "TorqueAt2xMaxAngularVelocity": 0.0
+                },
+                "CruisingTorqueCurve": {
+                  "MinTorque": -20000.0,
+                  "MaxTorque": -20000.0,
+                  "PeakTorqueScale": 0.5,
+                  "PastPeakTorqueExponent": 1.0,
+                  "TorqueAtMaxAngularVelocity": -20000.0,
+                  "TorqueAt2xMaxAngularVelocity": -20000.0
+                },
+                "MinTimeToUpshift": 0.0,
+                "EngineUpshiftScale": 0.0,
+                "GearRatio": 1.2,
+                "MinTimeToDownshift": 0.25,
+                "EngineDownshiftScale": 0.6
+              }
+            ],
+            "GearShiftSound": {
+              "Type": "sound",
+              "Name": "sound\\vehicles\\warthog\\warthog_shift",
+              "Generate": false
+            }
+          },
+          "WheelCircumference": 1.25,
+          "GravityAdjust": 0.8
+        }
+      ],
+      "HumanPlane": [],
+      "AlienScout": [],
+      "AlienFighter": [],
+      "Turret": [],
+      "Mantis": [],
+      "Vtol": [],
+      "Chopper": [],
+      "Guardian": []
+    },
+    "HavokVehiclePhysics": {
+      "Flags": {
+        "Halo3": "None"
+      },
+      "GroundFriction": 3.35,
+      "GroundDepth": 0.125,
+      "GroundDampFactor": 1.15,
+      "GroundMovingFriction": 0.0395,
+      "GroundMaximumSlope0": 0.76604444,
+      "GroundMaximumSlope1": 0.64278764,
+      "MaximumNormalForceContribution": 2.2,
+      "AntiGravityBankLift": 0.0,
+      "SteeringBankReactionScale": 0.0,
+      "GravityScale": 1.0,
+      "Radius": 0.36394,
+      "MaximumUpdateDistance": 100.0,
+      "MaximumUpdatePeriod": 0.0,
+      "MaximumRemoteUpdatePeriod": 0.0666667,
+      "AntiGravityPoints": [],
+      "FrictionPoints": [
+        {
+          "MarkerName": "left_front_tire",
+          "Flags": "Powered, FrontTurning, CanBeDestroyed",
+          "FractionOfTotalMass": 7.0,
+          "Radius": 0.25,
+          "DamagedRadius": 0.1,
+          "FrictionType": "Forward",
+          "MovingFrictionVelocityDiff": 7.0,
+          "EBrakeMovingFriction": 0.0,
+          "EBrakeFriction": 0.0,
+          "EBrakeMovingFrictionVelocityDiff": 0.0,
+          "CollisionMaterialName": "tough_inorganic_rubber_hum_tire",
+          "CollisionGlobalMaterialIndex": 38,
+          "ModelStateDestroyed": "Destroyed",
+          "RegionName": "lf_wheel",
+          "RegionIndex": 6
+        },
+        {
+          "MarkerName": "right_front_tire",
+          "Flags": "Powered, FrontTurning, CanBeDestroyed",
+          "FractionOfTotalMass": 7.0,
+          "Radius": 0.25,
+          "DamagedRadius": 0.1,
+          "FrictionType": "Forward",
+          "MovingFrictionVelocityDiff": 7.0,
+          "EBrakeMovingFriction": 0.0,
+          "EBrakeFriction": 0.0,
+          "EBrakeMovingFrictionVelocityDiff": 0.0,
+          "CollisionMaterialName": "tough_inorganic_rubber_hum_tire",
+          "CollisionGlobalMaterialIndex": 38,
+          "ModelStateDestroyed": "Destroyed",
+          "RegionName": "rf_wheel",
+          "RegionIndex": 10
+        },
+        {
+          "MarkerName": "left_back_tire",
+          "Flags": "Powered, AttachedToEBrake, CanBeDestroyed",
+          "FractionOfTotalMass": 6.0,
+          "Radius": 0.25,
+          "DamagedRadius": 0.1,
+          "FrictionType": "Forward",
+          "MovingFrictionVelocityDiff": 1.1,
+          "EBrakeMovingFriction": 0.0075,
+          "EBrakeFriction": 1.0,
+          "EBrakeMovingFrictionVelocityDiff": 3.0,
+          "CollisionMaterialName": "tough_inorganic_rubber_hum_tire",
+          "CollisionGlobalMaterialIndex": 38,
+          "ModelStateDestroyed": "Destroyed",
+          "RegionName": "lb_wheel",
+          "RegionIndex": 4
+        },
+        {
+          "MarkerName": "right_back_tire",
+          "Flags": "Powered, AttachedToEBrake, CanBeDestroyed",
+          "FractionOfTotalMass": 6.0,
+          "Radius": 0.25,
+          "DamagedRadius": 0.1,
+          "FrictionType": "Forward",
+          "MovingFrictionVelocityDiff": 1.1,
+          "EBrakeMovingFriction": 0.0075,
+          "EBrakeFriction": 1.0,
+          "EBrakeMovingFrictionVelocityDiff": 3.0,
+          "CollisionMaterialName": "tough_inorganic_rubber_hum_tire",
+          "CollisionGlobalMaterialIndex": 38,
+          "ModelStateDestroyed": "Destroyed",
+          "RegionName": "rb_wheel",
+          "RegionIndex": 8
+        }
+      ],
+      "PhantomShapes": [
+        {
+          "ListShape": {
+            "VfTableAddress": {
+              "Value": 0
+            },
+            "ReferencedObject": {
+              "SizeAndFlags": 0,
+              "ReferenceCount": 128
+            },
+            "UserDataAddress": {
+              "Value": 0
+            },
+            "Type": 10,
+            "VTableAddress": {
+              "Value": 0
+            },
+            "DisableWelding": true,
+            "ChildInfo": {
+              "DataAddress": {
+                "Value": 0
+              },
+              "Size": 1,
+              "CapacityAndFlags": 0
+            },
+            "AabbHalfExtents": "I: 0.9, J: 0.638, K: 0.25, W: 0.25",
+            "AAbbCenter": "I: -0.0050015748, J: 0, K: 0.19, W: 0"
+          },
+          "MultisphereCount": 1,
+          "Flags": 3,
+          "X0": -1.0127716,
+          "X1": 1.0027684,
+          "Y0": -0.74577,
+          "Y1": 0.74577,
+          "Z0": -0.16777003,
+          "Z1": 0.54777,
+          "Multispheres": [
+            {
+              "VfTableAddress": {
+                "Value": 0
+              },
+              "ReferencedObject": {
+                "SizeAndFlags": 0,
+                "ReferenceCount": 128
+              },
+              "UserDataAddress": {
+                "Value": 1
+              },
+              "Type": 16,
+              "NumSpheres": 4,
+              "Spheres": [
+                "I: 0.6449984, J: 0.38799998, K: 0.19, W: 0.25",
+                "I: 0.6449984, J: -0.38799998, K: 0.19, W: 0.25",
+                "I: -0.6550015, J: 0.38799998, K: 0.19, W: 0.25",
+                "I: -0.6550015, J: -0.38799998, K: 0.19, W: 0.25",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0"
+              ]
+            },
+            {
+              "VfTableAddress": {
+                "Value": 0
+              },
+              "ReferencedObject": {
+                "SizeAndFlags": 0,
+                "ReferenceCount": 0
+              },
+              "UserDataAddress": {
+                "Value": 0
+              },
+              "Type": 0,
+              "NumSpheres": 0,
+              "Spheres": [
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0"
+              ]
+            },
+            {
+              "VfTableAddress": {
+                "Value": 0
+              },
+              "ReferencedObject": {
+                "SizeAndFlags": 0,
+                "ReferenceCount": 0
+              },
+              "UserDataAddress": {
+                "Value": 0
+              },
+              "Type": 0,
+              "NumSpheres": 0,
+              "Spheres": [
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0"
+              ]
+            },
+            {
+              "VfTableAddress": {
+                "Value": 0
+              },
+              "ReferencedObject": {
+                "SizeAndFlags": 0,
+                "ReferenceCount": 0
+              },
+              "UserDataAddress": {
+                "Value": 0
+              },
+              "Type": 0,
+              "NumSpheres": 0,
+              "Spheres": [
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0"
+              ]
+            }
+          ],
+          "ChildShapes": [
+            {
+              "Shape": {
+                "Type": "Sphere",
+                "Index": 0
+              },
+              "CollisionFilterInfo": 0,
+              "ChildShapeSize": 0,
+              "ChildShapeCount": 0
+            },
+            {
+              "Shape": {
+                "Type": "Sphere",
+                "Index": 0
+              },
+              "CollisionFilterInfo": 0,
+              "ChildShapeSize": 0,
+              "ChildShapeCount": 0
+            },
+            {
+              "Shape": {
+                "Type": "Sphere",
+                "Index": 0
+              },
+              "CollisionFilterInfo": 0,
+              "ChildShapeSize": 0,
+              "ChildShapeCount": 0
+            },
+            {
+              "Shape": {
+                "Type": "Sphere",
+                "Index": 0
+              },
+              "CollisionFilterInfo": 0,
+              "ChildShapeSize": 0,
+              "ChildShapeCount": 0
+            }
+          ]
+        }
+      ]
+    },
+    "PlayerTrainingVehicleType": "Warthog",
+    "VehicleSize": "Large",
+    "FlippingAngularVelocityRangeNew": "Lower: 6, Upper: 22.5",
+    "CrouchTransitionTime": 0.0,
+    "Hoojytsu": 1000.0,
+    "SeatEntranceAccelerationScale": 3.0,
+    "SeatExitAccelerationScale": 4.0,
+    "FlipTimeNew": 0.55,
+    "FlipOverMessageNew": "warthog_flip",
+    "SuspensionSound": {
+      "Type": "sound",
+      "Name": "sound\\vehicles\\warthog\\warthog_suspension",
+      "Generate": false
+    },
+    "SpecialEffect": null,
+    "DriverBoostDamageResponse": null,
+    "RiderBoostDamageResponse": null
+  }
+}

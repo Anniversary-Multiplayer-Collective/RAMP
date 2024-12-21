@@ -1,0 +1,185 @@
+{
+  "TagName": "multiplayer\\game_variant_settings\\infection\\infection_scoring_haven_arrival",
+  "TagType": "text_value_pair_definition",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Parameter": "IntInfectionHavenArrivalPoints",
+    "Name": "infection_scoring_haven_arrival",
+    "Description": "infection_scoring_haven_arrival_desc",
+    "TextValuePairs": [
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": -10,
+        "StringidValue": "invalid",
+        "Name": "int_minus_10",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": -9,
+        "StringidValue": "invalid",
+        "Name": "int_minus_9",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": -8,
+        "StringidValue": "invalid",
+        "Name": "int_minus_8",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": -7,
+        "StringidValue": "invalid",
+        "Name": "int_minus_7",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": -6,
+        "StringidValue": "invalid",
+        "Name": "int_minus_6",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": -5,
+        "StringidValue": "invalid",
+        "Name": "int_minus_5",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": -4,
+        "StringidValue": "invalid",
+        "Name": "int_minus_4",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": -3,
+        "StringidValue": "invalid",
+        "Name": "int_minus_3",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": -2,
+        "StringidValue": "invalid",
+        "Name": "int_minus_2",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": -1,
+        "StringidValue": "invalid",
+        "Name": "int_minus_1",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "DefaultSetting",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 0,
+        "StringidValue": "invalid",
+        "Name": "int_0",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 1,
+        "StringidValue": "invalid",
+        "Name": "int_1",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 2,
+        "StringidValue": "invalid",
+        "Name": "int_2",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 3,
+        "StringidValue": "invalid",
+        "Name": "int_3",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 4,
+        "StringidValue": "invalid",
+        "Name": "int_4",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 5,
+        "StringidValue": "invalid",
+        "Name": "int_5",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 6,
+        "StringidValue": "invalid",
+        "Name": "int_6",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 7,
+        "StringidValue": "invalid",
+        "Name": "int_7",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 8,
+        "StringidValue": "invalid",
+        "Name": "int_8",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 9,
+        "StringidValue": "invalid",
+        "Name": "int_9",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 10,
+        "StringidValue": "invalid",
+        "Name": "int_10",
+        "Description": "invalid"
+      }
+    ]
+  }
+}

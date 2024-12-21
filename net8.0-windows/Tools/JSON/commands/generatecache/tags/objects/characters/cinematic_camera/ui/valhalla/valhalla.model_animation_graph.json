@@ -1,0 +1,138 @@
+{
+  "TagName": "objects\\characters\\cinematic_camera\\ui\\valhalla\\valhalla",
+  "TagType": "model_animation_graph",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": {
+    "AnimationResources": [
+      {
+        "AnimationFile": "camera_path_main1.JMM"
+      }
+    ],
+    "SortModes": false
+  },
+  "BlamScriptResource": null,
+  "TagData": {
+    "ParentAnimationGraph": null,
+    "InheritanceFlags": "None",
+    "PrivateFlags": "PreparedForCache, ImportedWithCodecCompressors, AnimationDataReordered, ReadyForUse",
+    "AnimationCodecPack": 6,
+    "SkeletonNodes": [
+      {
+        "Name": "camera01",
+        "NextSiblingNodeIndex": -1,
+        "FirstChildNodeIndex": -1,
+        "ParentNodeIndex": -1,
+        "ModelFlags": "PrimaryModel, LocalRoot",
+        "NodeJointFlags": "None",
+        "BaseVector": "I: 0, J: 0, K: 0",
+        "VectorRange": 0.0,
+        "ZPosition": 1.57E-06
+      }
+    ],
+    "SoundReferences": [],
+    "EffectReferences": [],
+    "BlendScreens": [],
+    "FootMarkers": [],
+    "Animations": [
+      {
+        "Name": "camera_path_main1",
+        "Weight": 0.0,
+        "LoopFrameIndex": 0,
+        "PlaybackFlags": "None",
+        "AnimationData": {
+          "BlendScreen": -1,
+          "DesiredCompression": "BestAccuracy",
+          "CurrentCompression": "BestAccuracy",
+          "NodeCount": 1,
+          "FrameCount": 1831,
+          "AnimationType": "Base",
+          "FrameInfoType": "None",
+          "ProductionFlags": "None",
+          "InternalFlags": "None",
+          "NodeListChecksum": 0,
+          "ProductionChecksum": 0,
+          "ImporterVersion": 5,
+          "CompressorVersion": 6,
+          "ParentAnimation": -1,
+          "NextAnimation": -1,
+          "ResourceGroupIndex": 0,
+          "ResourceGroupMemberIndex": 0,
+          "FrameEvents": [],
+          "SoundEvents": [],
+          "EffectEvents": [],
+          "DialogueEvents": [],
+          "ObjectSpaceParentNodes": [],
+          "FootTracking": [],
+          "Heading": "I: 1, J: 0, K: 0",
+          "AverageTranslationMagnitude": 0.0,
+          "AveragePivotYaw": 0.0
+        }
+      }
+    ],
+    "Modes": [
+      {
+        "Name": "any",
+        "WeaponClass": [
+          {
+            "Label": "any",
+            "WeaponType": [
+              {
+                "Label": "any",
+                "Set": {
+                  "Actions": [
+                    {
+                      "Label": "camera_path_main1",
+                      "GraphIndex": -1,
+                      "Animation": 0
+                    }
+                  ],
+                  "Overlays": [],
+                  "DeathAndDamage": [],
+                  "Transitions": []
+                }
+              }
+            ],
+            "WeaponIk": [],
+            "SyncActionGroups": []
+          }
+        ],
+        "ModeIk": [],
+        "FootDefaults": []
+      }
+    ],
+    "VehicleSuspension": [],
+    "ObjectOverlays": [],
+    "InheritanceList": [],
+    "WeaponList": [
+      {
+        "WeaponName": "any",
+        "WeaponClass": "any"
+      }
+    ],
+    "LeftArmNodes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RightArmNodes": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "LastImportResults": "",
+    "AdditionalNodeData": []
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "TagName": "multiplayer\\game_variant_settings\\player_traits_template\\traits_weapons",
+  "TagType": "multiplayer_variant_settings_interface_definition",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Unknown": 0,
+    "GameEngineSettings": [
+      {
+        "Name": "traits_weapons",
+        "SettingCategory": "TemplatesTraitsWeapons",
+        "Options": [
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": null,
+            "SubmenuSettingCategory": "None",
+            "SubmenuName": "invalid",
+            "SubmenuDescription": "invalid",
+            "ValuePairs": {
+              "Type": "text_value_pair_definition",
+              "Name": "multiplayer\\game_variant_settings\\player_traits_template\\traits_weapons_damage_modifier",
+              "Generate": false
+            }
+          },
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": null,
+            "SubmenuSettingCategory": "None",
+            "SubmenuName": "invalid",
+            "SubmenuDescription": "invalid",
+            "ValuePairs": {
+              "Type": "text_value_pair_definition",
+              "Name": "multiplayer\\game_variant_settings\\player_traits_template\\traits_weapons_initial_primary",
+              "Generate": false
+            }
+          },
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": null,
+            "SubmenuSettingCategory": "None",
+            "SubmenuName": "invalid",
+            "SubmenuDescription": "invalid",
+            "ValuePairs": {
+              "Type": "text_value_pair_definition",
+              "Name": "multiplayer\\game_variant_settings\\player_traits_template\\traits_weapons_initial_secondary",
+              "Generate": false
+            }
+          },
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": null,
+            "SubmenuSettingCategory": "None",
+            "SubmenuName": "invalid",
+            "SubmenuDescription": "invalid",
+            "ValuePairs": {
+              "Type": "text_value_pair_definition",
+              "Name": "multiplayer\\game_variant_settings\\player_traits_template\\traits_weapons_initial_grenade_count",
+              "Generate": false
+            }
+          },
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": null,
+            "SubmenuSettingCategory": "None",
+            "SubmenuName": "invalid",
+            "SubmenuDescription": "invalid",
+            "ValuePairs": {
+              "Type": "text_value_pair_definition",
+              "Name": "multiplayer\\game_variant_settings\\player_traits_template\\traits_weapons_recharging_grenades",
+              "Generate": false
+            }
+          },
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": null,
+            "SubmenuSettingCategory": "None",
+            "SubmenuName": "invalid",
+            "SubmenuDescription": "invalid",
+            "ValuePairs": {
+              "Type": "text_value_pair_definition",
+              "Name": "multiplayer\\game_variant_settings\\player_traits_template\\traits_weapons_infinite_ammo",
+              "Generate": false
+            }
+          },
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": null,
+            "SubmenuSettingCategory": "None",
+            "SubmenuName": "invalid",
+            "SubmenuDescription": "invalid",
+            "ValuePairs": {
+              "Type": "text_value_pair_definition",
+              "Name": "multiplayer\\game_variant_settings\\player_traits_template\\traits_weapons_pickup",
+              "Generate": false
+            }
+          },
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": null,
+            "SubmenuSettingCategory": "None",
+            "SubmenuName": "invalid",
+            "SubmenuDescription": "invalid",
+            "ValuePairs": {
+              "Type": "text_value_pair_definition",
+              "Name": "multiplayer\\game_variant_settings\\player_traits_template\\traits_weapons_third_person_camera",
+              "Generate": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

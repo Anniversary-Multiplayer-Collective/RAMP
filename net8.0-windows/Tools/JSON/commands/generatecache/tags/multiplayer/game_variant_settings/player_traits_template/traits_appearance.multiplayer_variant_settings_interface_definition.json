@@ -1,0 +1,93 @@
+{
+  "TagName": "multiplayer\\game_variant_settings\\player_traits_template\\traits_appearance",
+  "TagType": "multiplayer_variant_settings_interface_definition",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Unknown": 0,
+    "GameEngineSettings": [
+      {
+        "Name": "traits_appearance",
+        "SettingCategory": "TemplatesTraitsAppearance",
+        "Options": [
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": null,
+            "SubmenuSettingCategory": "None",
+            "SubmenuName": "invalid",
+            "SubmenuDescription": "invalid",
+            "ValuePairs": {
+              "Type": "text_value_pair_definition",
+              "Name": "multiplayer\\game_variant_settings\\player_traits_template\\traits_appearance_active_camo",
+              "Generate": false
+            }
+          },
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": null,
+            "SubmenuSettingCategory": "None",
+            "SubmenuName": "invalid",
+            "SubmenuDescription": "invalid",
+            "ValuePairs": {
+              "Type": "text_value_pair_definition",
+              "Name": "multiplayer\\game_variant_settings\\player_traits_template\\traits_appearance_waypoints",
+              "Generate": false
+            }
+          },
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": null,
+            "SubmenuSettingCategory": "None",
+            "SubmenuName": "invalid",
+            "SubmenuDescription": "invalid",
+            "ValuePairs": {
+              "Type": "text_value_pair_definition",
+              "Name": "multiplayer\\game_variant_settings\\player_traits_template\\traits_appearance_forced_change_colors",
+              "Generate": false
+            }
+          },
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": null,
+            "SubmenuSettingCategory": "None",
+            "SubmenuName": "invalid",
+            "SubmenuDescription": "invalid",
+            "ValuePairs": {
+              "Type": "text_value_pair_definition",
+              "Name": "multiplayer\\game_variant_settings\\player_traits_template\\traits_appearance_player_size",
+              "Generate": false
+            }
+          },
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": null,
+            "SubmenuSettingCategory": "None",
+            "SubmenuName": "invalid",
+            "SubmenuDescription": "invalid",
+            "ValuePairs": {
+              "Type": "text_value_pair_definition",
+              "Name": "multiplayer\\game_variant_settings\\player_traits_template\\traits_appearance_player_model_set",
+              "Generate": false
+            }
+          },
+          {
+            "ExplicitSubmenu": null,
+            "TemplateBasedSubmenu": null,
+            "SubmenuSettingCategory": "None",
+            "SubmenuName": "invalid",
+            "SubmenuDescription": "invalid",
+            "ValuePairs": {
+              "Type": "text_value_pair_definition",
+              "Name": "multiplayer\\game_variant_settings\\player_traits_template\\traits_appearance_player_model",
+              "Generate": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

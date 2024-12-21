@@ -1,0 +1,108 @@
+{
+  "TagName": "ui\\global_strings\\weapon_type_name_strings",
+  "TagType": "multilingual_unicode_string_list",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": [
+    {
+      "StringIdName": "offset_assault_rife",
+      "StringIdContent": "Assault Rifle"
+    },
+    {
+      "StringIdName": "offset_battle_rife",
+      "StringIdContent": "Battle Rifle"
+    },
+    {
+      "StringIdName": "offset_beam_rifle",
+      "StringIdContent": "Beam Rifle"
+    },
+    {
+      "StringIdName": "offset_bomb",
+      "StringIdContent": "Bomb"
+    },
+    {
+      "StringIdName": "offset_bruteshot",
+      "StringIdContent": "Brute shot"
+    },
+    {
+      "StringIdName": "offset_carbine_rife",
+      "StringIdContent": "Carbine"
+    },
+    {
+      "StringIdName": "offset_dmr",
+      "StringIdContent": "DMR"
+    },
+    {
+      "StringIdName": "offset_energy_sword",
+      "StringIdContent": "Energy Sword"
+    },
+    {
+      "StringIdName": "offset_flag",
+      "StringIdContent": "Flag"
+    },
+    {
+      "StringIdName": "offset_fuel_rod",
+      "StringIdContent": "Fuel Rod"
+    },
+    {
+      "StringIdName": "offset_gravity_hammer",
+      "StringIdContent": "Gravity Hammer"
+    },
+    {
+      "StringIdName": "offset_magnum",
+      "StringIdContent": "Magnum"
+    },
+    {
+      "StringIdName": "offset_mauler",
+      "StringIdContent": "Mauler"
+    },
+    {
+      "StringIdName": "offset_needler",
+      "StringIdContent": "Needler"
+    },
+    {
+      "StringIdName": "offset_plasma_pistol",
+      "StringIdContent": "Plasma Pistol"
+    },
+    {
+      "StringIdName": "offset_plasma_rife",
+      "StringIdContent": "Plasma Rifle"
+    },
+    {
+      "StringIdName": "offset_rocket_launcher",
+      "StringIdContent": "Rocket Launcher"
+    },
+    {
+      "StringIdName": "offset_sentinel_beam",
+      "StringIdContent": "Sentinel Beam"
+    },
+    {
+      "StringIdName": "offset_shotgun",
+      "StringIdContent": "Shotgun"
+    },
+    {
+      "StringIdName": "offset_skull",
+      "StringIdContent": "Skull"
+    },
+    {
+      "StringIdName": "offset_smg",
+      "StringIdContent": "SMG"
+    },
+    {
+      "StringIdName": "offset_spartan_laser",
+      "StringIdContent": "Spartan Laser"
+    },
+    {
+      "StringIdName": "offset_spiker",
+      "StringIdContent": "Spiker"
+    },
+    {
+      "StringIdName": "offset_sniper_rifle",
+      "StringIdContent": "Sniper Rifle"
+    }
+  ],
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": null
+}

@@ -1,0 +1,852 @@
+{
+  "TagName": "objects\\levels\\multi\\shrine\\behemoth\\behemoth_forge",
+  "TagType": "vehicle",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "ObjectType": {
+      "Halo3ODST": "Vehicle"
+    },
+    "ObjectFlags": {
+      "Flags": "None"
+    },
+    "BoundingRadius": 5.12902,
+    "BoundingOffset": "X: -0.0334177, Y: 0.0498527, Z: 0.55464005",
+    "AccelerationScale": 0.1,
+    "LightmapShadowMode": "Always",
+    "SweetenerSize": "Medium",
+    "WaterDensity": "Default",
+    "RuntimeFlags": 0,
+    "DynamicLightSphereRadius": 0.0,
+    "DynamicLightSphereOffset": "X: 0, Y: 0, Z: 0",
+    "DefaultModelVariant": "invalid",
+    "Model": {
+      "Type": "model",
+      "Name": "objects\\levels\\multi\\shrine\\behemoth\\behemoth",
+      "Generate": false
+    },
+    "CrateObject": null,
+    "CollisionDamage": {
+      "Type": "collision_damage",
+      "Name": "globals\\collision_damage\\vehicle_large",
+      "Generate": false
+    },
+    "EarlyMoverProperties": [
+      {
+        "NodeName": "invalid",
+        "XBounds": "Lower: -4, Upper: 3.5",
+        "YBounds": "Lower: -2.05, Upper: 2.05",
+        "ZBounds": "Lower: 0.5, Upper: 4.5",
+        "Angles": "Yaw: 0, Pitch: 0, Roll: 0"
+      }
+    ],
+    "CreationEffect": null,
+    "MaterialEffects": {
+      "Type": "material_effects",
+      "Name": "fx\\material_effects\\objects\\vehicles\\scorpion",
+      "Generate": false
+    },
+    "ArmorSounds": null,
+    "MeleeImpactSound": null,
+    "AiProperties": [
+      {
+        "AiFlags": "None",
+        "AiTypeName": "scorpion",
+        "AiSize": "Huge",
+        "LeapJumpSpeed": "None"
+      }
+    ],
+    "Functions": [
+      {
+        "Flags": "AlwaysActive",
+        "ImportName": "engine_power",
+        "ExportName": "engine_audio",
+        "TurnOffWith": "driver_seat_occupied",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAABI4fo+AAAAPxQAAAABAAAABAAAzf//f38AAIA/AAAAAA=="
+        },
+        "ScaleBy": "invalid"
+      },
+      {
+        "Flags": "None",
+        "ImportName": "tread_grind",
+        "ExportName": "audio_treads",
+        "TurnOffWith": "invalid",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAABI4fo+AAAAPxQAAAABAAAABAAAzf//f38AAIA/AAAAAA=="
+        },
+        "ScaleBy": "invalid"
+      },
+      {
+        "Flags": "None",
+        "ImportName": "driver_seat_power",
+        "ExportName": "headlight",
+        "TurnOffWith": "invalid",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAABI4fo+AAAAPxQAAAABAAAABAAAzf//f38AAIA/AAAAAA=="
+        },
+        "ScaleBy": "flashlights_allowed"
+      }
+    ],
+    "HudTextMessageIndex": 23,
+    "SecondaryFlags": "None",
+    "Attachments": [
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "sound_looping",
+          "Name": "sound\\vehicles\\behemoth\\behemoth_left\\behemoth_left",
+          "Generate": false
+        },
+        "Marker": "audio_left",
+        "ChangeColor": "None",
+        "PrimaryScale": "engine_audio",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "sound_looping",
+          "Name": "sound\\vehicles\\behemoth\\behemoth_right\\behemoth_right",
+          "Generate": false
+        },
+        "Marker": "audio_right",
+        "ChangeColor": "None",
+        "PrimaryScale": "engine_audio",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "sound_looping",
+          "Name": "sound\\vehicles\\scorpion\\scorpion_treads_left\\scorpion_treads_left",
+          "Generate": false
+        },
+        "Marker": "audio_left",
+        "ChangeColor": "None",
+        "PrimaryScale": "audio_treads",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "sound_looping",
+          "Name": "sound\\vehicles\\scorpion\\scorpion_treads_right\\scorpion_treads_right",
+          "Generate": false
+        },
+        "Marker": "audio_right",
+        "ChangeColor": "None",
+        "PrimaryScale": "audio_treads",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "sound_looping",
+          "Name": "sound\\vehicles\\behemoth\\behemoth_screen_computer\\behemoth_screen_computer",
+          "Generate": false
+        },
+        "Marker": "screen",
+        "ChangeColor": "None",
+        "PrimaryScale": "invalid",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "sound_looping",
+          "Name": "sound\\vehicles\\behemoth\\behemoth_screen_computer_down\\behemoth_screen_computer_down",
+          "Generate": false
+        },
+        "Marker": "driver_entry",
+        "ChangeColor": "None",
+        "PrimaryScale": "invalid",
+        "SecondaryScale": "invalid"
+      }
+    ],
+    "Widgets": [],
+    "ChangeColors": [
+      {
+        "InitialPermutations": [
+          {
+            "Weight": 1.0,
+            "ColorLowerBound": "Red: 0.45, Green: 0.45, Blue: 0.45",
+            "ColorUpperBound": "Red: 0.45, Green: 0.45, Blue: 0.45",
+            "VariantName": "invalid"
+          }
+        ],
+        "Functions": []
+      }
+    ],
+    "NodeMaps": [],
+    "MultiplayerObject": [
+      {
+        "EngineFlags": "None",
+        "Type": "HeavyLandVehicle",
+        "TeleporterPassability": "None",
+        "Flags": "None",
+        "BoundaryShape": "None",
+        "SpawnTimerType": "StartsOnDeath",
+        "DefaultSpawnTime": 5,
+        "DefaultAbandonTime": 32000,
+        "BoundaryWidthRadius": 0.0,
+        "BoundaryBoxLength": 0.0,
+        "BoundaryPositiveHeight": 0.0,
+        "BoundaryNegativeHeight": 0.0,
+        "StandardRespawnZoneWeight": 0.0,
+        "FlagAwayRespawnZoneWeight": 0.0,
+        "FlagAtHomeRespawnZoneWeight": 0.0,
+        "BoundaryCenterMarker": "invalid",
+        "SpawnedObjectMarkerName": "invalid",
+        "SpawnedObject": null,
+        "NyiBoundaryMaterial": "invalid",
+        "BoundaryShaders": [
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          }
+        ]
+      }
+    ],
+    "RevivingEquipment": [],
+    "PathfindingSpheres": [
+      {
+        "Node": 0,
+        "Flags": "None",
+        "Center": "X: -0.0334177, Y: 0.0498527, Z: 0.55464005",
+        "Radius": 5.12902
+      }
+    ],
+    "UnitFlags": {
+      "Flags": "CircularAiming"
+    },
+    "DefaultTeam": "Default",
+    "ConstantSoundVolume": "Shout",
+    "HologramUnit": null,
+    "CampaignMetagameBuckets": [],
+    "IntegratedLightToggle": null,
+    "CameraFieldOfView": "Degrees: 70",
+    "CameraStiffness": 0.0,
+    "UnitCamera": {
+      "CameraFlags": "0",
+      "CameraMarkerName": "invalid",
+      "CameraSubmergedMarker": "invalid",
+      "PitchAutoLevel": "Degrees: 0",
+      "PitchRange": "Lower: Degrees: 0, Upper: Degrees: 0",
+      "CameraTracks": [
+        {
+          "Track": {
+            "Type": "camera_track",
+            "Name": "camera\\wraith_d_camera",
+            "Generate": false
+          }
+        }
+      ],
+      "PitchSpringBounds": "Lower: 0, Upper: 0",
+      "SpringVelocity": "Degrees: 0",
+      "CameraAcceleration": []
+    },
+    "SyncActionCamera": {
+      "CameraFlags": "0",
+      "CameraMarkerName": "invalid",
+      "CameraSubmergedMarker": "invalid",
+      "PitchAutoLevel": "Degrees: 0",
+      "PitchRange": "Lower: Degrees: 0, Upper: Degrees: 0",
+      "CameraTracks": [],
+      "PitchSpringBounds": "Lower: 0, Upper: 0",
+      "SpringVelocity": "Degrees: 0",
+      "CameraAcceleration": []
+    },
+    "Assassination": {
+      "Response": null,
+      "Weapon": null,
+      "ToolStowAnchor": "invalid",
+      "ToolHandMarker": "invalid",
+      "ToolMarker": "invalid"
+    },
+    "Acceleration": {
+      "Range": "I: 0.33333334, J: 0.33333334, K: 0.6666667",
+      "ActionScale": 0.0,
+      "AttachScale": 0.0
+    },
+    "SoftPingThreshold": 0.0,
+    "SoftPingInterruptTime": 0.0,
+    "HardPingThreshold": 0.0,
+    "HardPingInterruptTime": 0.0,
+    "HardDeathThreshold": 0.0,
+    "FeignDeathThreshold": 0.0,
+    "FeignDeathTime": 0.0,
+    "DistanceOfDiveAnimation": 0.0,
+    "StunnedMovementThreshold": 0.0,
+    "FeignDeathChance": 0.0,
+    "FeignRepeatChance": 0.0,
+    "SpawnedTurretCharacter": null,
+    "SpawnedActorCountBounds": "Lower: 0, Upper: 0",
+    "SpawnedVelocity": 0.0,
+    "AimingVelocityMaximum": "Degrees: 90",
+    "AimingAccelerationMaximum": "Degrees: 800",
+    "CasualAimingModifier": 0.0,
+    "LookingVelocityMaximum": "Degrees: 0",
+    "LookingAccelerationMaximum": "Degrees: 0",
+    "RightHandNode": "invalid",
+    "LeftHandNode": "invalid",
+    "PreferredGunNode": "invalid",
+    "MeleeDamage": null,
+    "BoardingMeleeDamage": null,
+    "BoardingMeleeResponse": null,
+    "EvictionMeleeDamage": null,
+    "EvictionMeleeResponse": null,
+    "LandingMeleeDamage": null,
+    "FlurryMeleeDamage": null,
+    "ObstacleSmashMeleeDamage": null,
+    "ShieldPopDamage": null,
+    "AssassinationDamage": null,
+    "MotionSensorBlipSize": "Large",
+    "ItemOwnerSize": "Small",
+    "Postures": [],
+    "HudInterfaces": [],
+    "DialogueVariants": [],
+    "MotionTrackerRangeModifier": 0.0,
+    "GrenadeAngle": "Degrees: 0",
+    "GrenadeAngleMaxElevation": "Degrees: 0",
+    "GrenadeAngleMinElevation": "Degrees: 0",
+    "GrenadeVelocity": 0.0,
+    "GrenadeType": "HumanFragmentation",
+    "GrenadeCount": 0,
+    "PoweredSeats": [
+      {
+        "DriverPowerupTime": 1.0,
+        "DriverPowerdownTime": 0.1
+      }
+    ],
+    "Weapons": [
+      {
+        "Weapon": {
+          "Type": "weapon",
+          "Name": "objects\\levels\\multi\\shrine\\behemoth\\weapon\\behemoth_horn",
+          "Generate": false
+        }
+      }
+    ],
+    "TargetTracking": [],
+    "Seats": [
+      {
+        "Flags": "Driver, Gunner, ThirdPersonCamera, ControlsOpenAndClose, MeleeInstantKillable",
+        "Label": "behemoth_d",
+        "MarkerName": "driver",
+        "EntryMarkerName": "driver_entry",
+        "BoardingGrenadeMarker": "invalid",
+        "BoardingGrenadeString": "invalid",
+        "BoardingMeleeString": "invalid",
+        "SeatedDetachString": "invalid",
+        "PingScale": 0.25,
+        "FlippedEvictionTime": 1.0,
+        "Acceleration": {
+          "Range": "I: 0.11111111, J: 0.11111111, K: 0.055555556",
+          "ActionScale": 0.0,
+          "AttachScale": 0.0
+        },
+        "AiScariness": 20.0,
+        "AiSeatType": "Driver",
+        "BoardingSeat": -1,
+        "ListenerInterpolationFactor": 0.6,
+        "YawRateBounds": "Lower: 40, Upper: 40",
+        "PitchRateBounds": "Lower: 36, Upper: 36",
+        "PitchInterpolationTime": 0.0,
+        "MinSpeedReference": 0.0,
+        "MaxSpeedReference": 0.0,
+        "SpeedExponent": 0.0,
+        "UnitCamera": {
+          "CameraFlags": "0",
+          "CameraMarkerName": "driver_camera",
+          "CameraSubmergedMarker": "invalid",
+          "PitchAutoLevel": "Degrees: 0",
+          "PitchRange": "Lower: Degrees: -15.000001, Upper: Degrees: 35",
+          "CameraTracks": [
+            {
+              "Track": {
+                "Type": "camera_track",
+                "Name": "camera\\dropship_d_camera",
+                "Generate": false
+              }
+            }
+          ],
+          "PitchSpringBounds": "Lower: 0, Upper: 0",
+          "SpringVelocity": "Degrees: 0",
+          "CameraAcceleration": []
+        },
+        "UnitHudInterface": [],
+        "EnterSeatString": "behemoth_enter_driver",
+        "YawMinimum": "Degrees: 0",
+        "YawMaximum": "Degrees: 0",
+        "BuiltInGunner": null,
+        "EntryRadius": 1.5,
+        "EntryMarkerConeAngle": "Degrees: 25",
+        "EntryMarkerFacingAngle": "Degrees: 70",
+        "MaximumRelativeVelocity": 3.0,
+        "InvisibleSeatRegion": "invalid",
+        "RuntimeInvisibleSeatRegionIndex": -1
+      }
+    ],
+    "EmpRadius": 0.0,
+    "EmpEffect": null,
+    "Boost": {
+      "BoostCollisionDamage": null,
+      "BoostPeakPower": 0.0,
+      "BoostRisePower": 0.0,
+      "BoostPeakTime": 0.0,
+      "BoostFallPower": 0.0,
+      "BoostDeadTime": 0.0
+    },
+    "LipsyncAttackWeight": 0.0,
+    "LipsyncDecayWeight": 0.0,
+    "DetachDamage": null,
+    "DetachedWeapon": null,
+    "VehicleFlags": "NoFrictionWithDriver, CanTriggerAutomaticOpeningDoors, AiDriverEnable",
+    "PhysicsTypes": {
+      "HumanTank": [
+        {
+          "ForwardArc": "Degrees: 100",
+          "ForwardTurnScale": 0.4,
+          "ReverseTurnScale": 0.4,
+          "MaximumLeftDifferential": 0.4,
+          "MaximumRightDifferential": 0.4,
+          "DifferentialAcceleration": 2.5,
+          "DifferentialDeceleration": 3.0,
+          "MaximumLeftReverseDifferential": 0.4,
+          "MaximumRightReverseDifferential": 0.4,
+          "DifferentialReverseAcceleration": 2.5,
+          "DifferentialReverseDeceleration": 3.0,
+          "Engine": {
+            "EngineMomentum": 150000.0,
+            "EngineMaximumAngularVelocity": 3.0,
+            "Gears": [
+              {
+                "LoadedTorqueCurve": {
+                  "MinTorque": 100000.0,
+                  "MaxTorque": 800000.0,
+                  "PeakTorqueScale": 0.4,
+                  "PastPeakTorqueExponent": 0.475,
+                  "TorqueAtMaxAngularVelocity": 1000.0,
+                  "TorqueAt2xMaxAngularVelocity": -1000.0
+                },
+                "CruisingTorqueCurve": {
+                  "MinTorque": 0.0,
+                  "MaxTorque": -225000.0,
+                  "PeakTorqueScale": 0.3,
+                  "PastPeakTorqueExponent": 0.475,
+                  "TorqueAtMaxAngularVelocity": -225000.0,
+                  "TorqueAt2xMaxAngularVelocity": -450000.0
+                },
+                "MinTimeToUpshift": 0.0,
+                "EngineUpshiftScale": 1.0,
+                "GearRatio": -0.5,
+                "MinTimeToDownshift": 0.0,
+                "EngineDownshiftScale": 0.0
+              },
+              {
+                "LoadedTorqueCurve": {
+                  "MinTorque": 100000.0,
+                  "MaxTorque": 800000.0,
+                  "PeakTorqueScale": 0.4,
+                  "PastPeakTorqueExponent": 0.475,
+                  "TorqueAtMaxAngularVelocity": 1000.0,
+                  "TorqueAt2xMaxAngularVelocity": -1000.0
+                },
+                "CruisingTorqueCurve": {
+                  "MinTorque": 0.0,
+                  "MaxTorque": -225000.0,
+                  "PeakTorqueScale": 0.4,
+                  "PastPeakTorqueExponent": 0.475,
+                  "TorqueAtMaxAngularVelocity": -225000.0,
+                  "TorqueAt2xMaxAngularVelocity": -450000.0
+                },
+                "MinTimeToUpshift": 0.0,
+                "EngineUpshiftScale": 1.0,
+                "GearRatio": 0.5,
+                "MinTimeToDownshift": 0.0,
+                "EngineDownshiftScale": 0.0
+              }
+            ],
+            "GearShiftSound": null
+          },
+          "WheelCircumference": 2.0,
+          "GravityAdjust": 0.0
+        }
+      ],
+      "HumanJeep": [],
+      "HumanPlane": [],
+      "AlienScout": [],
+      "AlienFighter": [],
+      "Turret": [],
+      "Mantis": [],
+      "Vtol": [],
+      "Chopper": [],
+      "Guardian": []
+    },
+    "HavokVehiclePhysics": {
+      "Flags": {
+        "Halo3": "None"
+      },
+      "GroundFriction": 0.95,
+      "GroundDepth": 1.0,
+      "GroundDampFactor": 1.0,
+      "GroundMovingFriction": 1.0,
+      "GroundMaximumSlope0": 0.9961947,
+      "GroundMaximumSlope1": 0.9396926,
+      "MaximumNormalForceContribution": 3.0,
+      "AntiGravityBankLift": 0.0,
+      "SteeringBankReactionScale": 0.0,
+      "GravityScale": 1.0,
+      "Radius": 4.918521,
+      "MaximumUpdateDistance": 0.0,
+      "MaximumUpdatePeriod": 0.0,
+      "MaximumRemoteUpdatePeriod": 0.0,
+      "AntiGravityPoints": [],
+      "FrictionPoints": [
+        {
+          "MarkerName": "tread_front_a_left",
+          "Flags": "Powered",
+          "FractionOfTotalMass": 40.0,
+          "Radius": 0.52,
+          "DamagedRadius": 0.52,
+          "FrictionType": "Point",
+          "MovingFrictionVelocityDiff": 200.0,
+          "EBrakeMovingFriction": 0.0,
+          "EBrakeFriction": 0.0,
+          "EBrakeMovingFrictionVelocityDiff": 0.0,
+          "CollisionMaterialName": "hard_metal_thick_hum_scorpion_tread",
+          "CollisionGlobalMaterialIndex": 71,
+          "ModelStateDestroyed": "Default",
+          "RegionName": "invalid",
+          "RegionIndex": -1
+        },
+        {
+          "MarkerName": "tread_front_a",
+          "Flags": "Powered",
+          "FractionOfTotalMass": 40.0,
+          "Radius": 0.52,
+          "DamagedRadius": 0.52,
+          "FrictionType": "Point",
+          "MovingFrictionVelocityDiff": 200.0,
+          "EBrakeMovingFriction": 0.0,
+          "EBrakeFriction": 0.0,
+          "EBrakeMovingFrictionVelocityDiff": 0.0,
+          "CollisionMaterialName": "hard_metal_thick_hum_scorpion_tread",
+          "CollisionGlobalMaterialIndex": 71,
+          "ModelStateDestroyed": "Default",
+          "RegionName": "invalid",
+          "RegionIndex": -1
+        },
+        {
+          "MarkerName": "tread_front_b_left",
+          "Flags": "Powered",
+          "FractionOfTotalMass": 40.0,
+          "Radius": 0.52,
+          "DamagedRadius": 0.52,
+          "FrictionType": "Point",
+          "MovingFrictionVelocityDiff": 200.0,
+          "EBrakeMovingFriction": 0.0,
+          "EBrakeFriction": 0.0,
+          "EBrakeMovingFrictionVelocityDiff": 0.0,
+          "CollisionMaterialName": "hard_metal_thick_hum_scorpion_tread",
+          "CollisionGlobalMaterialIndex": 71,
+          "ModelStateDestroyed": "Default",
+          "RegionName": "invalid",
+          "RegionIndex": -1
+        },
+        {
+          "MarkerName": "tread_front_b",
+          "Flags": "Powered",
+          "FractionOfTotalMass": 40.0,
+          "Radius": 0.52,
+          "DamagedRadius": 0.52,
+          "FrictionType": "Point",
+          "MovingFrictionVelocityDiff": 200.0,
+          "EBrakeMovingFriction": 0.0,
+          "EBrakeFriction": 0.0,
+          "EBrakeMovingFrictionVelocityDiff": 0.0,
+          "CollisionMaterialName": "hard_metal_thick_hum_scorpion_tread",
+          "CollisionGlobalMaterialIndex": 71,
+          "ModelStateDestroyed": "Default",
+          "RegionName": "invalid",
+          "RegionIndex": -1
+        },
+        {
+          "MarkerName": "tread_back_a_left",
+          "Flags": "Powered",
+          "FractionOfTotalMass": 40.0,
+          "Radius": 0.52,
+          "DamagedRadius": 0.52,
+          "FrictionType": "Point",
+          "MovingFrictionVelocityDiff": 200.0,
+          "EBrakeMovingFriction": 0.0,
+          "EBrakeFriction": 0.0,
+          "EBrakeMovingFrictionVelocityDiff": 0.0,
+          "CollisionMaterialName": "hard_metal_thick_hum_scorpion_tread",
+          "CollisionGlobalMaterialIndex": 71,
+          "ModelStateDestroyed": "Default",
+          "RegionName": "invalid",
+          "RegionIndex": -1
+        },
+        {
+          "MarkerName": "tread_back_a",
+          "Flags": "Powered",
+          "FractionOfTotalMass": 40.0,
+          "Radius": 0.52,
+          "DamagedRadius": 0.52,
+          "FrictionType": "Point",
+          "MovingFrictionVelocityDiff": 200.0,
+          "EBrakeMovingFriction": 0.0,
+          "EBrakeFriction": 0.0,
+          "EBrakeMovingFrictionVelocityDiff": 0.0,
+          "CollisionMaterialName": "hard_metal_thick_hum_scorpion_tread",
+          "CollisionGlobalMaterialIndex": 71,
+          "ModelStateDestroyed": "Default",
+          "RegionName": "invalid",
+          "RegionIndex": -1
+        },
+        {
+          "MarkerName": "tread_back_b_left",
+          "Flags": "Powered",
+          "FractionOfTotalMass": 40.0,
+          "Radius": 0.52,
+          "DamagedRadius": 0.52,
+          "FrictionType": "Point",
+          "MovingFrictionVelocityDiff": 200.0,
+          "EBrakeMovingFriction": 0.0,
+          "EBrakeFriction": 0.0,
+          "EBrakeMovingFrictionVelocityDiff": 0.0,
+          "CollisionMaterialName": "hard_metal_thick_hum_scorpion_tread",
+          "CollisionGlobalMaterialIndex": 71,
+          "ModelStateDestroyed": "Default",
+          "RegionName": "invalid",
+          "RegionIndex": -1
+        },
+        {
+          "MarkerName": "tread_back_b",
+          "Flags": "Powered",
+          "FractionOfTotalMass": 40.0,
+          "Radius": 0.52,
+          "DamagedRadius": 0.52,
+          "FrictionType": "Point",
+          "MovingFrictionVelocityDiff": 200.0,
+          "EBrakeMovingFriction": 0.0,
+          "EBrakeFriction": 0.0,
+          "EBrakeMovingFrictionVelocityDiff": 0.0,
+          "CollisionMaterialName": "hard_metal_thick_hum_scorpion_tread",
+          "CollisionGlobalMaterialIndex": 71,
+          "ModelStateDestroyed": "Default",
+          "RegionName": "invalid",
+          "RegionIndex": -1
+        }
+      ],
+      "PhantomShapes": [
+        {
+          "ListShape": {
+            "VfTableAddress": {
+              "Value": 0
+            },
+            "ReferencedObject": {
+              "SizeAndFlags": 0,
+              "ReferenceCount": 128
+            },
+            "UserDataAddress": {
+              "Value": 0
+            },
+            "Type": 10,
+            "VTableAddress": {
+              "Value": 0
+            },
+            "DisableWelding": true,
+            "ChildInfo": {
+              "DataAddress": {
+                "Value": 0
+              },
+              "Size": 1,
+              "CapacityAndFlags": 0
+            },
+            "AabbHalfExtents": "I: 3.02, J: 1.9200001, K: 0.52, W: 0.52",
+            "AAbbCenter": "I: -0.4000002, J: 0.049999893, K: 0.46059036, W: 0"
+          },
+          "MultisphereCount": 1,
+          "Flags": 3,
+          "X0": -3.898706,
+          "X1": 3.1,
+          "Y0": -2.15,
+          "Y1": 2.25,
+          "Z0": -0.15000004,
+          "Z1": 0.95,
+          "Multispheres": [
+            {
+              "VfTableAddress": {
+                "Value": 0
+              },
+              "ReferencedObject": {
+                "SizeAndFlags": 0,
+                "ReferenceCount": 128
+              },
+              "UserDataAddress": {
+                "Value": 1
+              },
+              "Type": 16,
+              "NumSpheres": 8,
+              "Spheres": [
+                "I: 2.1, J: 1.4499999, K: 0.46059036, W: 0.52",
+                "I: 2.1, J: -1.3499999, K: 0.46059036, W: 0.52",
+                "I: 0.89999986, J: 1.45, K: 0.46059036, W: 0.52",
+                "I: 0.89999986, J: -1.3499999, K: 0.46059036, W: 0.52",
+                "I: -1.6999999, J: 1.4499999, K: 0.46059036, W: 0.52",
+                "I: -1.6999999, J: -1.3499999, K: 0.46059036, W: 0.52",
+                "I: -2.8999999, J: 1.4499996, K: 0.46059036, W: 0.52",
+                "I: -2.9000003, J: -1.3500003, K: 0.46059036, W: 0.52"
+              ]
+            },
+            {
+              "VfTableAddress": {
+                "Value": 0
+              },
+              "ReferencedObject": {
+                "SizeAndFlags": 0,
+                "ReferenceCount": 0
+              },
+              "UserDataAddress": {
+                "Value": 0
+              },
+              "Type": 0,
+              "NumSpheres": 0,
+              "Spheres": [
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0"
+              ]
+            },
+            {
+              "VfTableAddress": {
+                "Value": 0
+              },
+              "ReferencedObject": {
+                "SizeAndFlags": 0,
+                "ReferenceCount": 0
+              },
+              "UserDataAddress": {
+                "Value": 0
+              },
+              "Type": 0,
+              "NumSpheres": 0,
+              "Spheres": [
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0"
+              ]
+            },
+            {
+              "VfTableAddress": {
+                "Value": 0
+              },
+              "ReferencedObject": {
+                "SizeAndFlags": 0,
+                "ReferenceCount": 0
+              },
+              "UserDataAddress": {
+                "Value": 0
+              },
+              "Type": 0,
+              "NumSpheres": 0,
+              "Spheres": [
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0"
+              ]
+            }
+          ],
+          "ChildShapes": [
+            {
+              "Shape": {
+                "Type": "Sphere",
+                "Index": 0
+              },
+              "CollisionFilterInfo": 0,
+              "ChildShapeSize": 0,
+              "ChildShapeCount": 0
+            },
+            {
+              "Shape": {
+                "Type": "Sphere",
+                "Index": 0
+              },
+              "CollisionFilterInfo": 0,
+              "ChildShapeSize": 0,
+              "ChildShapeCount": 0
+            },
+            {
+              "Shape": {
+                "Type": "Sphere",
+                "Index": 0
+              },
+              "CollisionFilterInfo": 0,
+              "ChildShapeSize": 0,
+              "ChildShapeCount": 0
+            },
+            {
+              "Shape": {
+                "Type": "Sphere",
+                "Index": 0
+              },
+              "CollisionFilterInfo": 0,
+              "ChildShapeSize": 0,
+              "ChildShapeCount": 0
+            }
+          ]
+        }
+      ]
+    },
+    "PlayerTrainingVehicleType": "None",
+    "VehicleSize": "Large",
+    "FlippingAngularVelocityRangeNew": "Lower: 6, Upper: 22.5",
+    "CrouchTransitionTime": 0.0,
+    "Hoojytsu": 1000.0,
+    "SeatEntranceAccelerationScale": 4.0,
+    "SeatExitAccelerationScale": 3.0,
+    "FlipTimeNew": 0.55,
+    "FlipOverMessageNew": "behemoth_flip",
+    "SuspensionSound": null,
+    "SpecialEffect": null,
+    "DriverBoostDamageResponse": null,
+    "RiderBoostDamageResponse": null
+  }
+}

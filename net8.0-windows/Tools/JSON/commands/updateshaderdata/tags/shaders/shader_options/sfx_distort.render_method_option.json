@@ -1,0 +1,123 @@
+{
+  "TagName": "shaders\\shader_options\\sfx_distort",
+  "TagType": "render_method_option",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Parameters": [
+      {
+        "Name": "distort_map",
+        "Type": "Bitmap",
+        "RenderMethodExtern": "none",
+        "DefaultSamplerBitmap": {
+          "Type": "bitmap",
+          "Name": "shaders\\default_bitmaps\\bitmaps\\gray_50_percent_linear",
+          "Generate": false
+        },
+        "DefaultFloatArgument": 0.0,
+        "DefaultIntBoolArgument": 0,
+        "Flags": 0,
+        "DefaultFilterMode": "Trilinear",
+        "DefaultAddressMode": "Wrap",
+        "AnisotropyAmount": 0,
+        "DefaultColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "DefaultBitmapScale": 0.0,
+        "HelpText": ""
+      },
+      {
+        "Name": "distort_scale",
+        "Type": "Real",
+        "RenderMethodExtern": "none",
+        "DefaultSamplerBitmap": null,
+        "DefaultFloatArgument": 0.1,
+        "DefaultIntBoolArgument": 0,
+        "Flags": 0,
+        "DefaultFilterMode": "Trilinear",
+        "DefaultAddressMode": "Wrap",
+        "AnisotropyAmount": 0,
+        "DefaultColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "DefaultBitmapScale": 0.0,
+        "HelpText": ""
+      },
+      {
+        "Name": "soft_fresnel_enabled",
+        "Type": "Bool",
+        "RenderMethodExtern": "none",
+        "DefaultSamplerBitmap": null,
+        "DefaultFloatArgument": 0.0,
+        "DefaultIntBoolArgument": 0,
+        "Flags": 0,
+        "DefaultFilterMode": "Trilinear",
+        "DefaultAddressMode": "Wrap",
+        "AnisotropyAmount": 0,
+        "DefaultColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "DefaultBitmapScale": 0.0,
+        "HelpText": ""
+      },
+      {
+        "Name": "soft_fresnel_power",
+        "Type": "Real",
+        "RenderMethodExtern": "none",
+        "DefaultSamplerBitmap": null,
+        "DefaultFloatArgument": 1.0,
+        "DefaultIntBoolArgument": 0,
+        "Flags": 0,
+        "DefaultFilterMode": "Trilinear",
+        "DefaultAddressMode": "Wrap",
+        "AnisotropyAmount": 0,
+        "DefaultColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "DefaultBitmapScale": 0.0,
+        "HelpText": ""
+      },
+      {
+        "Name": "soft_z_enabled",
+        "Type": "Bool",
+        "RenderMethodExtern": "none",
+        "DefaultSamplerBitmap": null,
+        "DefaultFloatArgument": 0.0,
+        "DefaultIntBoolArgument": 0,
+        "Flags": 0,
+        "DefaultFilterMode": "Trilinear",
+        "DefaultAddressMode": "Wrap",
+        "AnisotropyAmount": 0,
+        "DefaultColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "DefaultBitmapScale": 0.0,
+        "HelpText": ""
+      },
+      {
+        "Name": "soft_z_range",
+        "Type": "Real",
+        "RenderMethodExtern": "none",
+        "DefaultSamplerBitmap": null,
+        "DefaultFloatArgument": 1.0,
+        "DefaultIntBoolArgument": 0,
+        "Flags": 0,
+        "DefaultFilterMode": "Trilinear",
+        "DefaultAddressMode": "Wrap",
+        "AnisotropyAmount": 0,
+        "DefaultColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "DefaultBitmapScale": 0.0,
+        "HelpText": ""
+      },
+      {
+        "Name": "depth_map",
+        "Type": "Bitmap",
+        "RenderMethodExtern": "texture_global_target_z",
+        "DefaultSamplerBitmap": null,
+        "DefaultFloatArgument": 0.0,
+        "DefaultIntBoolArgument": 0,
+        "Flags": 0,
+        "DefaultFilterMode": "Trilinear",
+        "DefaultAddressMode": "Wrap",
+        "AnisotropyAmount": 0,
+        "DefaultColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "DefaultBitmapScale": 0.0,
+        "HelpText": ""
+      }
+    ]
+  }
+}

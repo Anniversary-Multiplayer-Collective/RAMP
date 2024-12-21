@@ -1,0 +1,1888 @@
+{
+  "TagName": "objects\\characters\\elite\\elite_sp",
+  "TagType": "model",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "RenderModel": {
+      "Type": "render_model",
+      "Name": "objects\\characters\\elite\\elite",
+      "Generate": false
+    },
+    "CollisionModel": {
+      "Type": "collision_model",
+      "Name": "objects\\characters\\elite\\elite",
+      "Generate": false
+    },
+    "Animation": {
+      "Type": "model_animation_graph",
+      "Name": "objects\\characters\\dervish\\dervish",
+      "Generate": false
+    },
+    "PhysicsModel": {
+      "Type": "physics_model",
+      "Name": "objects\\characters\\elite\\elite",
+      "Generate": false
+    },
+    "DisappearDistance": 40.0,
+    "BeginFadeDistance": 37.5,
+    "AnimationDistance": 0.0,
+    "ShadowFadeDistance": 10.0,
+    "InstanceDisappearDistance": 0.0,
+    "LodModel": null,
+    "Variants": [
+      {
+        "Name": "default",
+        "Voice": null,
+        "DialogueEffect": "invalid",
+        "AiCharacter": "None",
+        "ModelRegionIndices": [
+          7,
+          6,
+          3,
+          -1,
+          2,
+          0,
+          4,
+          1,
+          5,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Regions": [
+          {
+            "Name": "helmet",
+            "RenderModelRegionIndex": 5,
+            "RuntimeFlags": 0,
+            "ParentVariant": -1,
+            "Permutations": [
+              {
+                "Name": "base",
+                "RenderModelPermutationIndex": 0,
+                "Flags": "None",
+                "Probability": 1.0,
+                "States": [],
+                "RuntimeStatePermutationIndices": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "SortOrder": "NoSorting"
+          },
+          {
+            "Name": "lights",
+            "RenderModelRegionIndex": 7,
+            "RuntimeFlags": 0,
+            "ParentVariant": -1,
+            "Permutations": [
+              {
+                "Name": "base",
+                "RenderModelPermutationIndex": 0,
+                "Flags": "None",
+                "Probability": 1.0,
+                "States": [],
+                "RuntimeStatePermutationIndices": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "SortOrder": "NoSorting"
+          },
+          {
+            "Name": "head",
+            "RenderModelRegionIndex": 4,
+            "RuntimeFlags": 0,
+            "ParentVariant": -1,
+            "Permutations": [
+              {
+                "Name": "base",
+                "RenderModelPermutationIndex": 0,
+                "Flags": "None",
+                "Probability": 1.0,
+                "States": [],
+                "RuntimeStatePermutationIndices": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "SortOrder": "NoSorting"
+          },
+          {
+            "Name": "d_torso",
+            "RenderModelRegionIndex": 2,
+            "RuntimeFlags": 0,
+            "ParentVariant": -1,
+            "Permutations": [
+              {
+                "Name": "base",
+                "RenderModelPermutationIndex": 0,
+                "Flags": "None",
+                "Probability": 1.0,
+                "States": [],
+                "RuntimeStatePermutationIndices": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "SortOrder": "NoSorting"
+          },
+          {
+            "Name": "leftshoulder",
+            "RenderModelRegionIndex": 6,
+            "RuntimeFlags": 0,
+            "ParentVariant": -1,
+            "Permutations": [
+              {
+                "Name": "base",
+                "RenderModelPermutationIndex": 0,
+                "Flags": "None",
+                "Probability": 1.0,
+                "States": [],
+                "RuntimeStatePermutationIndices": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "Name": "spec_ops",
+                "RenderModelPermutationIndex": 1,
+                "Flags": "None",
+                "Probability": 0.0,
+                "States": [],
+                "RuntimeStatePermutationIndices": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "SortOrder": "NoSorting"
+          },
+          {
+            "Name": "rightshoulder",
+            "RenderModelRegionIndex": 8,
+            "RuntimeFlags": 0,
+            "ParentVariant": -1,
+            "Permutations": [
+              {
+                "Name": "base",
+                "RenderModelPermutationIndex": 0,
+                "Flags": "None",
+                "Probability": 1.0,
+                "States": [],
+                "RuntimeStatePermutationIndices": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "Name": "spec_ops",
+                "RenderModelPermutationIndex": 1,
+                "Flags": "None",
+                "Probability": 0.0,
+                "States": [],
+                "RuntimeStatePermutationIndices": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "SortOrder": "NoSorting"
+          },
+          {
+            "Name": "chest",
+            "RenderModelRegionIndex": 1,
+            "RuntimeFlags": 0,
+            "ParentVariant": -1,
+            "Permutations": [
+              {
+                "Name": "invalid",
+                "RenderModelPermutationIndex": -1,
+                "Flags": "None",
+                "Probability": 1.0,
+                "States": [],
+                "RuntimeStatePermutationIndices": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "SortOrder": "NoSorting"
+          },
+          {
+            "Name": "body",
+            "RenderModelRegionIndex": 0,
+            "RuntimeFlags": 0,
+            "ParentVariant": -1,
+            "Permutations": [
+              {
+                "Name": "base",
+                "RenderModelPermutationIndex": 0,
+                "Flags": "None",
+                "Probability": 1.0,
+                "States": [],
+                "RuntimeStatePermutationIndices": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "SortOrder": "NoSorting"
+          }
+        ],
+        "Objects": [],
+        "InstanceGroupIndex": -1
+      },
+      {
+        "Name": "player4",
+        "Voice": null,
+        "DialogueEffect": "invalid",
+        "AiCharacter": "None",
+        "ModelRegionIndices": [
+          7,
+          6,
+          3,
+          -1,
+          2,
+          0,
+          4,
+          1,
+          5,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Regions": [
+          {
+            "Name": "helmet",
+            "RenderModelRegionIndex": 5,
+            "RuntimeFlags": 0,
+            "ParentVariant": -1,
+            "Permutations": [
+              {
+                "Name": "invalid",
+                "RenderModelPermutationIndex": -1,
+                "Flags": "None",
+                "Probability": 1.0,
+                "States": [],
+                "RuntimeStatePermutationIndices": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "SortOrder": "NoSorting"
+          },
+          {
+            "Name": "lights",
+            "RenderModelRegionIndex": 7,
+            "RuntimeFlags": 0,
+            "ParentVariant": -1,
+            "Permutations": [
+              {
+                "Name": "base",
+                "RenderModelPermutationIndex": 0,
+                "Flags": "None",
+                "Probability": 1.0,
+                "States": [],
+                "RuntimeStatePermutationIndices": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "SortOrder": "NoSorting"
+          },
+          {
+            "Name": "head",
+            "RenderModelRegionIndex": 4,
+            "RuntimeFlags": 0,
+            "ParentVariant": -1,
+            "Permutations": [
+              {
+                "Name": "spec_ops",
+                "RenderModelPermutationIndex": 1,
+                "Flags": "None",
+                "Probability": 1.0,
+                "States": [],
+                "RuntimeStatePermutationIndices": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "SortOrder": "NoSorting"
+          },
+          {
+            "Name": "d_torso",
+            "RenderModelRegionIndex": 2,
+            "RuntimeFlags": 0,
+            "ParentVariant": -1,
+            "Permutations": [
+              {
+                "Name": "base",
+                "RenderModelPermutationIndex": 0,
+                "Flags": "None",
+                "Probability": 1.0,
+                "States": [],
+                "RuntimeStatePermutationIndices": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "SortOrder": "NoSorting"
+          },
+          {
+            "Name": "leftshoulder",
+            "RenderModelRegionIndex": 6,
+            "RuntimeFlags": 0,
+            "ParentVariant": -1,
+            "Permutations": [
+              {
+                "Name": "base",
+                "RenderModelPermutationIndex": 0,
+                "Flags": "None",
+                "Probability": 0.0,
+                "States": [],
+                "RuntimeStatePermutationIndices": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "Name": "spec_ops",
+                "RenderModelPermutationIndex": 1,
+                "Flags": "None",
+                "Probability": 1.0,
+                "States": [],
+                "RuntimeStatePermutationIndices": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "SortOrder": "NoSorting"
+          },
+          {
+            "Name": "rightshoulder",
+            "RenderModelRegionIndex": 8,
+            "RuntimeFlags": 0,
+            "ParentVariant": -1,
+            "Permutations": [
+              {
+                "Name": "base",
+                "RenderModelPermutationIndex": 0,
+                "Flags": "None",
+                "Probability": 0.0,
+                "States": [],
+                "RuntimeStatePermutationIndices": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "Name": "spec_ops",
+                "RenderModelPermutationIndex": 1,
+                "Flags": "None",
+                "Probability": 1.0,
+                "States": [],
+                "RuntimeStatePermutationIndices": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "SortOrder": "NoSorting"
+          },
+          {
+            "Name": "chest",
+            "RenderModelRegionIndex": 1,
+            "RuntimeFlags": 0,
+            "ParentVariant": -1,
+            "Permutations": [
+              {
+                "Name": "spec_ops",
+                "RenderModelPermutationIndex": 0,
+                "Flags": "None",
+                "Probability": 1.0,
+                "States": [],
+                "RuntimeStatePermutationIndices": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "SortOrder": "NoSorting"
+          },
+          {
+            "Name": "body",
+            "RenderModelRegionIndex": 0,
+            "RuntimeFlags": 0,
+            "ParentVariant": -1,
+            "Permutations": [
+              {
+                "Name": "base",
+                "RenderModelPermutationIndex": 0,
+                "Flags": "None",
+                "Probability": 1.0,
+                "States": [],
+                "RuntimeStatePermutationIndices": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "SortOrder": "NoSorting"
+          }
+        ],
+        "Objects": [],
+        "InstanceGroupIndex": -1
+      }
+    ],
+    "RegionSort": [],
+    "InstanceGroups": [],
+    "Materials": [
+      {
+        "MaterialName": "armored_head",
+        "MaterialType": "Dirt",
+        "DamageSectionIndex": 1,
+        "RuntimeCollisionMaterialIndex": 0,
+        "RuntimeDamagerMaterialIndex": -1,
+        "GlobalMaterialName": "hard_metal_thin_cov_elite",
+        "GlobalMaterialIndex": 63
+      },
+      {
+        "MaterialName": "skinned_head",
+        "MaterialType": "Dirt",
+        "DamageSectionIndex": 1,
+        "RuntimeCollisionMaterialIndex": 1,
+        "RuntimeDamagerMaterialIndex": -1,
+        "GlobalMaterialName": "hard_metal_thin_cov_elite",
+        "GlobalMaterialIndex": 63
+      },
+      {
+        "MaterialName": "skinned_arm",
+        "MaterialType": "Dirt",
+        "DamageSectionIndex": 0,
+        "RuntimeCollisionMaterialIndex": 2,
+        "RuntimeDamagerMaterialIndex": -1,
+        "GlobalMaterialName": "hard_metal_thin_cov_elite",
+        "GlobalMaterialIndex": 63
+      },
+      {
+        "MaterialName": "armored_arms",
+        "MaterialType": "Dirt",
+        "DamageSectionIndex": 0,
+        "RuntimeCollisionMaterialIndex": 3,
+        "RuntimeDamagerMaterialIndex": -1,
+        "GlobalMaterialName": "hard_metal_thin_cov_elite",
+        "GlobalMaterialIndex": 63
+      },
+      {
+        "MaterialName": "armored_torso",
+        "MaterialType": "Dirt",
+        "DamageSectionIndex": 0,
+        "RuntimeCollisionMaterialIndex": 4,
+        "RuntimeDamagerMaterialIndex": -1,
+        "GlobalMaterialName": "hard_metal_thin_cov_elite",
+        "GlobalMaterialIndex": 63
+      },
+      {
+        "MaterialName": "skinned_torso",
+        "MaterialType": "Dirt",
+        "DamageSectionIndex": 0,
+        "RuntimeCollisionMaterialIndex": 5,
+        "RuntimeDamagerMaterialIndex": -1,
+        "GlobalMaterialName": "hard_metal_thin_cov_elite",
+        "GlobalMaterialIndex": 63
+      },
+      {
+        "MaterialName": "armored_legs",
+        "MaterialType": "Dirt",
+        "DamageSectionIndex": 0,
+        "RuntimeCollisionMaterialIndex": 6,
+        "RuntimeDamagerMaterialIndex": -1,
+        "GlobalMaterialName": "hard_metal_thin_cov_elite",
+        "GlobalMaterialIndex": 63
+      },
+      {
+        "MaterialName": "skinned_legs",
+        "MaterialType": "Dirt",
+        "DamageSectionIndex": 0,
+        "RuntimeCollisionMaterialIndex": 7,
+        "RuntimeDamagerMaterialIndex": -1,
+        "GlobalMaterialName": "hard_metal_thin_cov_elite",
+        "GlobalMaterialIndex": 63
+      }
+    ],
+    "NewDamageInfo": [
+      {
+        "Flags": "TakesShieldDamageForChildren, TakesBodyDamageForChildren",
+        "GlobalIndirectMaterialName": "hard_metal_thin_cov_elite",
+        "IndirectDamageSection": 0,
+        "CollisionDamageReportingType": {
+          "HaloOnline": "Guardians"
+        },
+        "ResponseDamageReportingType": {
+          "HaloOnline": "Guardians"
+        },
+        "MaximumVitality": 45.0,
+        "MinStunDamage": 0.0,
+        "StunTime": 10.0,
+        "RechargeTime": 5.0,
+        "RechargeFraction": 1.0,
+        "MaxShieldVitality": 70.0,
+        "GlobalShieldMaterialName": "energy_shield_thin_cov_elite",
+        "ShieldMinStunDamage": 0.0,
+        "ShieldStunTime": 5.0,
+        "ShieldRechargeTime": 2.0,
+        "ShieldDamagedThreshold": 0.0,
+        "ShieldDamagedEffect": null,
+        "ShieldDepletedEffect": {
+          "Type": "effect",
+          "Name": "objects\\characters\\elite\\fx\\shield\\shield_collapse",
+          "Generate": false
+        },
+        "ShieldRechargingEffect": {
+          "Type": "effect",
+          "Name": "objects\\characters\\elite\\fx\\shield\\shield_recharge",
+          "Generate": false
+        },
+        "DamageSections": [
+          {
+            "Name": "main",
+            "Flags": "None",
+            "VitalityPercentage": 0.5,
+            "InstantResponses": [
+              {
+                "ResponseType": "RecievesAllDamage",
+                "ConstraintDamageType": "None",
+                "ConstraintGroupName": "invalid",
+                "Flags": "KillsObject",
+                "DamageThreshold": 0.0,
+                "PrimaryTransitionEffect": null,
+                "SecondaryTransitionEffect": null,
+                "TransitionDamageEffect": null,
+                "Region": "invalid",
+                "NewState": "Default",
+                "RuntimeRegionIndex": -1,
+                "SecondaryRegion": "invalid",
+                "SecondaryNewState": "Default",
+                "SecondaryRuntimeRegionIndex": -1,
+                "DestroyInstanceGroup": -1,
+                "CustomResponseBehavior": "PlaysIfLabelsMatch",
+                "CustomResponseLabel": "fire",
+                "EffectMarkerName": "invalid",
+                "DamageEffectMarkerName": "invalid",
+                "ResponseDelay": 2.0,
+                "DelayEffect": {
+                  "Type": "effect",
+                  "Name": "objects\\weapons\\turret\\flamethrower\\fx\\biped_fire",
+                  "Generate": false
+                },
+                "DelayEffectMarkerName": "invalid",
+                "EjectingSeatLabel": "invalid",
+                "SkipFraction": 0.0,
+                "DestroyedChildObjectMarkerName": "invalid",
+                "TotalDamageThreshold": 0.0
+              }
+            ],
+            "StunTime": 1.0,
+            "RechargeTime": 1.0,
+            "RuntimeRechargeVelocity": 1.0,
+            "ResurrectionRestoredRegionName": "invalid",
+            "ResurrectionRegionRuntimeIndex": -1
+          },
+          {
+            "Name": "head",
+            "Flags": "Headshotable",
+            "VitalityPercentage": 0.0,
+            "InstantResponses": [],
+            "StunTime": 0.0,
+            "RechargeTime": 0.0,
+            "RuntimeRechargeVelocity": 0.0,
+            "ResurrectionRestoredRegionName": "invalid",
+            "ResurrectionRegionRuntimeIndex": -1
+          }
+        ],
+        "Nodes": [
+          {
+            "RuntimeDamagePart": 0
+          },
+          {
+            "RuntimeDamagePart": 6
+          },
+          {
+            "RuntimeDamagePart": 0
+          },
+          {
+            "RuntimeDamagePart": 10
+          },
+          {
+            "RuntimeDamagePart": 0
+          },
+          {
+            "RuntimeDamagePart": 6
+          },
+          {
+            "RuntimeDamagePart": 10
+          },
+          {
+            "RuntimeDamagePart": 1
+          },
+          {
+            "RuntimeDamagePart": 6
+          },
+          {
+            "RuntimeDamagePart": 10
+          },
+          {
+            "RuntimeDamagePart": 3
+          },
+          {
+            "RuntimeDamagePart": 2
+          },
+          {
+            "RuntimeDamagePart": 7
+          },
+          {
+            "RuntimeDamagePart": 6
+          },
+          {
+            "RuntimeDamagePart": 10
+          },
+          {
+            "RuntimeDamagePart": 3
+          },
+          {
+            "RuntimeDamagePart": 2
+          },
+          {
+            "RuntimeDamagePart": 7
+          },
+          {
+            "RuntimeDamagePart": 4
+          },
+          {
+            "RuntimeDamagePart": 2
+          },
+          {
+            "RuntimeDamagePart": 8
+          },
+          {
+            "RuntimeDamagePart": 4
+          },
+          {
+            "RuntimeDamagePart": 2
+          },
+          {
+            "RuntimeDamagePart": 2
+          },
+          {
+            "RuntimeDamagePart": 2
+          },
+          {
+            "RuntimeDamagePart": 2
+          },
+          {
+            "RuntimeDamagePart": 2
+          },
+          {
+            "RuntimeDamagePart": 2
+          },
+          {
+            "RuntimeDamagePart": 2
+          },
+          {
+            "RuntimeDamagePart": 2
+          },
+          {
+            "RuntimeDamagePart": 2
+          },
+          {
+            "RuntimeDamagePart": 2
+          },
+          {
+            "RuntimeDamagePart": 2
+          },
+          {
+            "RuntimeDamagePart": 2
+          },
+          {
+            "RuntimeDamagePart": 2
+          },
+          {
+            "RuntimeDamagePart": 2
+          },
+          {
+            "RuntimeDamagePart": 2
+          },
+          {
+            "RuntimeDamagePart": 2
+          },
+          {
+            "RuntimeDamagePart": 8
+          },
+          {
+            "RuntimeDamagePart": 4
+          },
+          {
+            "RuntimeDamagePart": 4
+          },
+          {
+            "RuntimeDamagePart": 4
+          },
+          {
+            "RuntimeDamagePart": 4
+          },
+          {
+            "RuntimeDamagePart": 8
+          },
+          {
+            "RuntimeDamagePart": 8
+          },
+          {
+            "RuntimeDamagePart": 8
+          },
+          {
+            "RuntimeDamagePart": 8
+          },
+          {
+            "RuntimeDamagePart": 4
+          },
+          {
+            "RuntimeDamagePart": 4
+          },
+          {
+            "RuntimeDamagePart": 4
+          },
+          {
+            "RuntimeDamagePart": 4
+          },
+          {
+            "RuntimeDamagePart": 8
+          },
+          {
+            "RuntimeDamagePart": 8
+          },
+          {
+            "RuntimeDamagePart": 8
+          },
+          {
+            "RuntimeDamagePart": 8
+          }
+        ],
+        "GlobalShieldMaterialIndex": 149,
+        "GlobalIndirectMaterialIndex": 63,
+        "RuntimeShieldRechargeVelocity": 0.5,
+        "RuntimeHealthRechargeVelocity": 0.2,
+        "DamageSeats": [],
+        "DamageConstraints": []
+      }
+    ],
+    "Targets": [
+      {
+        "Flags": "None",
+        "MarkerName": "target_main",
+        "Size": 0.065,
+        "ConeAngle": "Degrees: 0",
+        "DamageSection": -1,
+        "Variant": -1,
+        "TargetingRelevance": 1.0,
+        "AoeExclusionRadius": 0.0,
+        "LockOnData": {
+          "Flags": "0",
+          "LockOnDistance": 20.0,
+          "TrackingType": "bipeds"
+        }
+      },
+      {
+        "Flags": "None",
+        "MarkerName": "target_head",
+        "Size": 0.04,
+        "ConeAngle": "Degrees: 180",
+        "DamageSection": -1,
+        "Variant": -1,
+        "TargetingRelevance": 1.0,
+        "AoeExclusionRadius": 0.0,
+        "LockOnData": {
+          "Flags": "Headshot",
+          "LockOnDistance": 20.0,
+          "TrackingType": "bipeds"
+        }
+      },
+      {
+        "Flags": "None",
+        "MarkerName": "target_leg_l",
+        "Size": 0.03,
+        "ConeAngle": "Degrees: 0",
+        "DamageSection": -1,
+        "Variant": -1,
+        "TargetingRelevance": 0.0,
+        "AoeExclusionRadius": 0.0,
+        "LockOnData": {
+          "Flags": "UseForNetworkLeadVectorOnly",
+          "LockOnDistance": 0.0,
+          "TrackingType": "invalid"
+        }
+      },
+      {
+        "Flags": "None",
+        "MarkerName": "target_leg_r",
+        "Size": 0.03,
+        "ConeAngle": "Degrees: 0",
+        "DamageSection": -1,
+        "Variant": -1,
+        "TargetingRelevance": 0.0,
+        "AoeExclusionRadius": 0.0,
+        "LockOnData": {
+          "Flags": "UseForNetworkLeadVectorOnly",
+          "LockOnDistance": 0.0,
+          "TrackingType": "invalid"
+        }
+      }
+    ],
+    "CollisionRegions": [
+      {
+        "Name": "body",
+        "CollisionRegionIndex": 0,
+        "PhysicsRegionIndex": 0,
+        "Permutations": [
+          {
+            "Name": "base",
+            "Flags": "None",
+            "CollisionPermutationIndex": 0,
+            "PhysicsPermutationIndex": 0
+          }
+        ]
+      },
+      {
+        "Name": "chest",
+        "CollisionRegionIndex": -1,
+        "PhysicsRegionIndex": -1,
+        "Permutations": [
+          {
+            "Name": "spec_ops",
+            "Flags": "None",
+            "CollisionPermutationIndex": -1,
+            "PhysicsPermutationIndex": -1
+          }
+        ]
+      },
+      {
+        "Name": "d_torso",
+        "CollisionRegionIndex": -1,
+        "PhysicsRegionIndex": -1,
+        "Permutations": [
+          {
+            "Name": "base",
+            "Flags": "None",
+            "CollisionPermutationIndex": -1,
+            "PhysicsPermutationIndex": -1
+          }
+        ]
+      },
+      {
+        "Name": "eyelids",
+        "CollisionRegionIndex": -1,
+        "PhysicsRegionIndex": -1,
+        "Permutations": [
+          {
+            "Name": "base",
+            "Flags": "None",
+            "CollisionPermutationIndex": -1,
+            "PhysicsPermutationIndex": -1
+          },
+          {
+            "Name": "soc",
+            "Flags": "None",
+            "CollisionPermutationIndex": -1,
+            "PhysicsPermutationIndex": -1
+          },
+          {
+            "Name": "soccine",
+            "Flags": "None",
+            "CollisionPermutationIndex": -1,
+            "PhysicsPermutationIndex": -1
+          }
+        ]
+      },
+      {
+        "Name": "head",
+        "CollisionRegionIndex": 1,
+        "PhysicsRegionIndex": 1,
+        "Permutations": [
+          {
+            "Name": "base",
+            "Flags": "None",
+            "CollisionPermutationIndex": 0,
+            "PhysicsPermutationIndex": 0
+          },
+          {
+            "Name": "spec_ops",
+            "Flags": "None",
+            "CollisionPermutationIndex": 0,
+            "PhysicsPermutationIndex": 0
+          },
+          {
+            "Name": "soc",
+            "Flags": "None",
+            "CollisionPermutationIndex": 0,
+            "PhysicsPermutationIndex": 0
+          }
+        ]
+      },
+      {
+        "Name": "helmet",
+        "CollisionRegionIndex": -1,
+        "PhysicsRegionIndex": -1,
+        "Permutations": [
+          {
+            "Name": "base",
+            "Flags": "None",
+            "CollisionPermutationIndex": -1,
+            "PhysicsPermutationIndex": -1
+          }
+        ]
+      },
+      {
+        "Name": "leftshoulder",
+        "CollisionRegionIndex": -1,
+        "PhysicsRegionIndex": -1,
+        "Permutations": [
+          {
+            "Name": "base",
+            "Flags": "None",
+            "CollisionPermutationIndex": -1,
+            "PhysicsPermutationIndex": -1
+          },
+          {
+            "Name": "spec_ops",
+            "Flags": "None",
+            "CollisionPermutationIndex": -1,
+            "PhysicsPermutationIndex": -1
+          }
+        ]
+      },
+      {
+        "Name": "lights",
+        "CollisionRegionIndex": -1,
+        "PhysicsRegionIndex": -1,
+        "Permutations": [
+          {
+            "Name": "base",
+            "Flags": "None",
+            "CollisionPermutationIndex": -1,
+            "PhysicsPermutationIndex": -1
+          }
+        ]
+      },
+      {
+        "Name": "rightshoulder",
+        "CollisionRegionIndex": -1,
+        "PhysicsRegionIndex": -1,
+        "Permutations": [
+          {
+            "Name": "base",
+            "Flags": "None",
+            "CollisionPermutationIndex": -1,
+            "PhysicsPermutationIndex": -1
+          },
+          {
+            "Name": "spec_ops",
+            "Flags": "None",
+            "CollisionPermutationIndex": -1,
+            "PhysicsPermutationIndex": -1
+          }
+        ]
+      }
+    ],
+    "Nodes": [
+      {
+        "Name": "pelvis",
+        "ParentNode": -1,
+        "FirstChildNode": 1,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.01461428, Y: 2.8807998E-08, Z: 0.44002482",
+        "DefaultRotation": "I: 0.49999917, J: 0.50000036, K: 0.4999992, W: -0.50000125",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 8.940697E-07, M12: 0.99999994, M13: -3.2484531E-06, M21: -8.940697E-07, M22: 3.2782555E-06, M23: 1, M31: 1, M32: -8.6426735E-07, M33: 9.536743E-07, M41: -0.44002482, M42: -0.014613899, M43: -4.0097456E-07"
+      },
+      {
+        "Name": "l_thigh",
+        "ParentNode": 0,
+        "FirstChildNode": 5,
+        "NextSiblingNode": 2,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: -2.9802322E-08, Y: 4.0978193E-08, Z: 0.03984552",
+        "DefaultRotation": "I: -0.28578824, J: -0.9443686, K: -0.13056651, W: 0.09718717",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.5143986, M12: 0.8025547, M13: 0.30215868, M21: 0.2581922, M22: 0.19105807, M23: -0.94701314, M31: -0.81775975, M32: 0.5651572, M33: -0.10893345, M41: 0.34202927, M42: -0.26802468, M43: 0.081251875"
+      },
+      {
+        "Name": "physics_control",
+        "ParentNode": 0,
+        "FirstChildNode": -1,
+        "NextSiblingNode": 3,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: -0.44002482, Y: -0.014613896, Z: -3.713978E-07",
+        "DefaultRotation": "I: -0.4999992, J: -0.50000036, K: -0.49999917, W: -0.5000013",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.99999994, M12: 2.9801301E-08, M13: -5.9607494E-08, M21: -2.9803175E-08, M22: 1, M23: -3.126388E-12, M31: 8.940381E-08, M32: 2.9799489E-08, M33: 1, M41: 7.904362E-09, M42: -2.9149747E-09, M43: -1.2629959E-08"
+      },
+      {
+        "Name": "r_thigh",
+        "ParentNode": 0,
+        "FirstChildNode": 6,
+        "NextSiblingNode": 4,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 2.9802322E-08, Y: -5.4948032E-08, Z: -0.039845552",
+        "DefaultRotation": "I: -0.2857884, J: -0.9443683, K: 0.13056757, W: -0.09718848",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.51439977, M12: 0.8025553, M13: -0.30215523, M21: -0.25819042, M22: -0.19105493, M23: -0.9470141, M31: -0.8177595, M32: 0.5651574, M33: 0.10893341, M41: 0.34202912, M42: -0.2680248, M43: -0.081251875"
+      },
+      {
+        "Name": "spine",
+        "ParentNode": 0,
+        "FirstChildNode": 7,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.038051754, Y: 0.009917679, Z: 6.0611285E-09",
+        "DefaultRotation": "I: 2.1049214E-06, J: 5.837097E-07, K: -0.04401648, W: -0.9990308",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.08794853, M12: 0.996125, M13: 9.0592255E-07, M21: 3.7869515E-07, M22: -9.1296437E-07, M23: 1, M31: 0.99612504, M32: -0.08794851, M33: -3.979198E-07, M41: -0.4783816, M42: 0.017609192, M43: 1.3465116E-07"
+      },
+      {
+        "Name": "l_calf",
+        "ParentNode": 1,
+        "FirstChildNode": 8,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.2164034, Y: 2.9802322E-08, Z: -2.9802322E-08",
+        "DefaultRotation": "I: 7.086205E-09, J: 5.305146E-08, K: 0.77904624, W: -0.6269665",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: -0.8939848, M12: 0.33089432, M13: 0.30215874, M21: -0.24184753, M22: 0.21136741, M23: -0.94701314, M31: -0.37722772, M32: -0.91969174, M33: -0.10893335, M41: 0.23496369, M42: 0.18003102, M43: 0.08125188"
+      },
+      {
+        "Name": "r_calf",
+        "ParentNode": 3,
+        "FirstChildNode": 9,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.2164034, Y: -2.9802322E-08, Z: 0",
+        "DefaultRotation": "I: 1.9531699E-08, J: -2.901223E-08, K: -0.77904636, W: 0.6269663",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: -0.89398605, M12: 0.3308949, M13: -0.30215526, M21: 0.24184416, M22: -0.21136637, M23: -0.9470141, M31: -0.37722754, M32: -0.9196919, M33: 0.10893348, M41: 0.2349637, M42: 0.18003106, M43: -0.0812519"
+      },
+      {
+        "Name": "spine1",
+        "ParentNode": 4,
+        "FirstChildNode": 10,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.046162516, Y: -0.00010305084, Z: -3.6130146E-08",
+        "DefaultRotation": "I: 3.235724E-07, J: -1.0375018E-07, K: -1.04805054E-13, W: -1",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.08794853, M12: 0.996125, M13: 1.568809E-06, M21: 1.7119478E-07, M22: -1.5601092E-06, M23: 1, M31: 0.99612504, M32: -0.08794851, M33: -2.4813892E-07, M41: -0.5245441, M42: 0.01771224, M43: 7.054141E-08"
+      },
+      {
+        "Name": "l_horselink",
+        "ParentNode": 5,
+        "FirstChildNode": 13,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.10232222, Y: 0, Z: 7.450581E-09",
+        "DefaultRotation": "I: 1.4327217E-08, J: -7.357148E-08, K: -0.52863735, W: -0.84884775",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: -0.097357176, M12: 0.94827294, M13: 0.30215868, M21: 0.08301973, M22: 0.31028074, M23: -0.94701314, M31: -0.99178094, M32: -0.06711347, M33: -0.108933486, M41: 0.22007775, M42: -0.039632138, M43: 0.0812519"
+      },
+      {
+        "Name": "r_horselink",
+        "ParentNode": 6,
+        "FirstChildNode": 14,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.10232222, Y: 2.9802322E-08, Z: 7.450581E-09",
+        "DefaultRotation": "I: 5.001586E-08, J: -1.8695278E-08, K: -0.5286375, W: -0.84884775",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: -0.0973569, M12: 0.9482743, M13: -0.3021552, M21: -0.08302015, M22: -0.31027722, M23: -0.9470141, M31: -0.99178106, M32: -0.067113444, M33: 0.10893339, M41: 0.22007777, M42: -0.039632168, M43: -0.0812519"
+      },
+      {
+        "Name": "l_clavicle",
+        "ParentNode": 7,
+        "FirstChildNode": 15,
+        "NextSiblingNode": 11,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.11777282, Y: 0.0010237508, Z: 0.025594901",
+        "DefaultRotation": "I: -0.5260011, J: 0.0372941, K: -0.84936446, W: 0.022628885",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: -0.1165632, M12: -0.9924039, M13: 0.03934039, M21: 0.8918455, M22: -0.087156646, M23: 0.4438642, M31: -0.43706384, M32: 0.08682376, M33: 0.8952302, M41: 0.26210746, M42: -0.013884731, M43: -0.5870363"
+      },
+      {
+        "Name": "neck",
+        "ParentNode": 7,
+        "FirstChildNode": 16,
+        "NextSiblingNode": 12,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.12939727, Y: -3.1929463E-05, Z: 4.1290452E-08",
+        "DefaultRotation": "I: -1.3672484E-07, J: 9.655586E-07, K: -0.35607663, W: -0.93445677",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.7285442, M12: 0.68499875, M13: 4.7916745E-07, M21: 9.914816E-07, M22: -1.7105198E-06, M23: 1, M31: 0.6849988, M32: -0.7285442, M33: -1.8657513E-06, M41: -0.4763058, M42: 0.44842717, M43: 1.1208881E-06"
+      },
+      {
+        "Name": "r_clavicle",
+        "ParentNode": 7,
+        "FirstChildNode": 17,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.11777288, Y: 0.0010239091, Z: -0.025594883",
+        "DefaultRotation": "I: 0.5260013, J: -0.037291672, K: -0.8493645, W: 0.022627417",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: -0.11656094, M12: -0.9924039, M13: -0.039341588, M21: -0.8918458, M22: 0.08715409, M23: 0.44386384, M31: -0.4370635, M32: 0.08682379, M33: -0.89523023, M41: 0.26210722, M42: -0.0138847465, M43: 0.5870364"
+      },
+      {
+        "Name": "l_foot",
+        "ParentNode": 8,
+        "FirstChildNode": -1,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.11405618, Y: -2.9802322E-08, Z: -7.450581E-09",
+        "DefaultRotation": "I: -0.014872831, J: 0.054071687, K: -0.0344356, W: -0.9978323",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 6.535973E-08, M12: 0.96029484, M13: 0.2789869, M21: 1.8071658E-07, M22: 0.278987, M23: -0.960295, M31: -1.0000001, M32: 3.9677804E-08, M33: -2.2448425E-07, M41: 0.11134136, M42: -0.044868052, M43: 0.07073267"
+      },
+      {
+        "Name": "r_foot",
+        "ParentNode": 9,
+        "FirstChildNode": -1,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.1140562, Y: -7.450581E-09, Z: -1.4901161E-08",
+        "DefaultRotation": "I: -0.014872965, J: 0.054071836, K: 0.03443555, W: 0.99783236",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 2.5690408E-08, M12: 0.9602962, M13: -0.27898312, M21: 5.7547673E-08, M22: -0.2789832, M23: -0.960296, M31: -1.0000002, M32: -4.38081E-08, M33: -1.8140895E-07, M41: 0.11134133, M42: -0.044868063, M43: -0.070732646"
+      },
+      {
+        "Name": "l_upperarm",
+        "ParentNode": 10,
+        "FirstChildNode": 18,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.101552606, Y: -7.450581E-09, Z: 0",
+        "DefaultRotation": "I: 0.10277006, J: -0.44722867, K: 0.18336424, W: -0.869369",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.31642032, M12: -0.944637, M13: -0.086829275, M21: 0.18248433, M22: -0.029209007, M23: 0.9827749, M31: -0.93090165, M32: -0.32681492, M33: 0.16313905, M41: 0.5255979, M42: 0.2249503, M43: -0.20910887"
+      },
+      {
+        "Name": "neck1",
+        "ParentNode": 11,
+        "FirstChildNode": 19,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.05373442, Y: -2.783537E-05, Z: 4.7928324E-08",
+        "DefaultRotation": "I: 2.4198266E-06, J: 7.0150672E-06, K: -0.39649808, W: -0.9180355",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.99815243, M12: -0.060758844, M13: -1.10697765E-05, M21: 1.0395732E-05, M22: -1.1900389E-05, M23: 1, M31: -0.060758803, M32: -0.99815243, M33: -1.118717E-05, M41: -0.036909506, M42: 0.6933197, M43: 8.411458E-06"
+      },
+      {
+        "Name": "r_upperarm",
+        "ParentNode": 12,
+        "FirstChildNode": 20,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.10155259, Y: 2.7939677E-09, Z: 5.9604645E-08",
+        "DefaultRotation": "I: -0.10277023, J: 0.4472288, K: 0.18336408, W: -0.8693689",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.31642053, M12: -0.9446369, M13: 0.08682716, M21: -0.18248357, M22: 0.029206978, M23: 0.982775, M31: -0.93090165, M32: -0.3268148, M33: -0.16313906, M41: 0.52559793, M42: 0.2249503, M43: 0.20910884"
+      },
+      {
+        "Name": "l_forearm",
+        "ParentNode": 15,
+        "FirstChildNode": 21,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.1299816, Y: 2.9802322E-08, Z: 2.9802322E-08",
+        "DefaultRotation": "I: 3.4159245E-07, J: 1.113035E-07, K: 0.38272762, W: -0.9238612",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.89174473, M12: -0.4441308, M13: -0.08682993, M21: 0.14967987, M22: 0.10839583, M23: 0.9827749, M31: -0.42706856, M32: -0.88938093, M33: 0.16313876, M41: 0.1206369, M42: 0.43881842, M43: -0.20910873"
+      },
+      {
+        "Name": "head",
+        "ParentNode": 16,
+        "FirstChildNode": 22,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.050891653, Y: -5.9604645E-08, Z: -3.872765E-07",
+        "DefaultRotation": "I: -5.0718192E-08, J: -3.8571316E-06, K: 0.3295538, W: -0.9441368",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.8191518, M12: 0.5735767, M13: -3.6729966E-06, M21: 8.226378E-06, M22: -5.292847E-06, M23: 1, M31: 0.57357675, M32: -0.81915176, M33: -8.994503E-06, M41: -0.50017416, M42: 0.48808518, M43: 6.331855E-06"
+      },
+      {
+        "Name": "r_forearm",
+        "ParentNode": 17,
+        "FirstChildNode": 38,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.12998158, Y: 0, Z: 0",
+        "DefaultRotation": "I: -5.9347265E-09, J: 9.5933625E-09, K: 0.38272762, W: -0.9238612",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.89174485, M12: -0.4441307, M13: 0.08682716, M21: -0.14967743, M22: -0.10839724, M23: 0.982775, M31: -0.4270687, M32: -0.8893808, M33: -0.16313905, M41: 0.12063708, M42: 0.43881845, M43: 0.20910883"
+      },
+      {
+        "Name": "l_hand",
+        "ParentNode": 18,
+        "FirstChildNode": 39,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.1426083, Y: 0, Z: -2.9802322E-08",
+        "DefaultRotation": "I: -0.47056544, J: 0.06836296, K: 0.10787376, W: 0.8730738",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.82675254, M12: -0.39238513, M13: -0.40313077, M21: -0.058849197, M22: -0.7729842, M23: 0.6316902, M31: -0.5594795, M32: -0.49852747, M33: -0.6621582, M41: 0.07936087, M42: 0.40855667, M43: 0.25209948"
+      },
+      {
+        "Name": "eye_left",
+        "ParentNode": 19,
+        "FirstChildNode": -1,
+        "NextSiblingNode": 23,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.029582083, Y: 0.07846117, Z: 0.019299839",
+        "DefaultRotation": "I: -0.7449815, J: -0.12665075, K: -0.5651663, W: -0.33098215",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.5923978, M12: -0.5813916, M13: 0.5577174, M21: 0.7582383, M22: 0.6363111, M23: -0.14206637, M31: -0.27228552, M32: 0.5070425, M33: 0.81778264, M41: 0.04157827, M42: -0.22078691, M43: -0.631134"
+      },
+      {
+        "Name": "eye_right",
+        "ParentNode": 19,
+        "FirstChildNode": -1,
+        "NextSiblingNode": 24,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.029582024, Y: 0.0784612, Z: -0.019300157",
+        "DefaultRotation": "I: -0.33098364, J: -0.5651673, K: -0.12665087, W: -0.7449801",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.5924027, M12: 0.58138776, M13: 0.5577161, M21: -0.7582384, M22: 0.6363079, M23: 0.14208096, M31: -0.27227497, M32: -0.50705075, M33: 0.817781, M41: 0.041570548, M42: 0.22079296, M43: -0.63113266"
+      },
+      {
+        "Name": "f_l_brow_inner",
+        "ParentNode": 19,
+        "FirstChildNode": -1,
+        "NextSiblingNode": 25,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.04712844, Y: 0.090014726, Z: 0.019999836",
+        "DefaultRotation": "I: -0.7591921, J: -0.18353517, K: -0.4848883, W: -0.39347902",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.7574825, M12: -0.44162738, M13: 0.4808174, M21: 0.5918124, M22: 0.77544266, M23: -0.22010584, M31: -0.2756414, M32: 0.45128006, M33: 0.84874487, M41: -0.0020718146, M42: -0.2071702, M43: -0.6445744"
+      },
+      {
+        "Name": "f_l_brow_outer",
+        "ParentNode": 19,
+        "FirstChildNode": -1,
+        "NextSiblingNode": 26,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.03820193, Y: 0.06789422, Z: 0.027999809",
+        "DefaultRotation": "I: -0.7889366, J: 0.012104029, K: -0.56595683, W: -0.23900937",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.43836793, M12: -0.7451346, M13: 0.50260115, M21: 0.8987956, M22: 0.363428, M23: -0.24512546, M31: -7.791589E-06, M32: 0.5591908, M33: 0.8290389, M41: -0.11283479, M42: -0.2263008, M43: -0.635019"
+      },
+      {
+        "Name": "f_l_lip_upper",
+        "ParentNode": 19,
+        "FirstChildNode": -1,
+        "NextSiblingNode": 27,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.03581935, Y: 0.102122605, Z: 0.0150229735",
+        "DefaultRotation": "I: -0.7469677, J: -0.16252692, K: -0.43157774, W: -0.47892088",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.84709895, M12: -0.41989046, M13: 0.3257535, M21: 0.48907533, M22: 0.8557638, M23: -0.1687415, M31: -0.20791511, M32: 0.30225876, M33: 0.9302746, M41: -0.062089715, M42: -0.10994121, M43: -0.6484901"
+      },
+      {
+        "Name": "f_l_mouth",
+        "ParentNode": 19,
+        "FirstChildNode": -1,
+        "NextSiblingNode": 28,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.025500834, Y: 0.08952013, Z: 0.022999858",
+        "DefaultRotation": "I: -0.70578873, J: 0.043166935, K: -0.44018453, W: -0.5533866",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.74314255, M12: -0.669133, M13: 2.0166829E-06, M21: 0.66913307, M22: 0.7431425, M23: 7.1598015E-06, M31: -6.1899163E-06, M32: -3.9618562E-06, M33: 0.99999994, M41: -0.1655008, M42: 0.11807504, M43: -0.6280006"
+      },
+      {
+        "Name": "f_lip_middle",
+        "ParentNode": 19,
+        "FirstChildNode": -1,
+        "NextSiblingNode": 29,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.037462175, Y: 0.10626048, Z: 2.2974818E-05",
+        "DefaultRotation": "I: -0.6743807, J: -0.21263136, K: -0.21263036, W: -0.67437893",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.9999999, M12: -3.0593517E-06, M13: -1.1572599E-06, M21: 3.1365648E-06, M22: 1, M23: 6.252681E-06, M31: 1.2402884E-06, M32: -6.181808E-06, M33: 0.9999999, M41: -0.22140072, M42: -1.852475E-05, M43: -0.62114775"
+      },
+      {
+        "Name": "f_r_brow_inner",
+        "ParentNode": 19,
+        "FirstChildNode": -1,
+        "NextSiblingNode": 30,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.04712838, Y: 0.090014786, Z: -0.020000165",
+        "DefaultRotation": "I: -0.39348066, J: -0.48488924, K: -0.18353494, W: -0.7591906",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.7574863, M12: 0.441623, M13: 0.48081553, M21: -0.5918115, M22: 0.7754393, M23: 0.22012039, M31: -0.275633, M32: -0.45129022, M33: 0.8487422, M41: -0.002077957, M42: 0.20717755, M43: -0.64457226"
+      },
+      {
+        "Name": "f_r_brow_outer",
+        "ParentNode": 19,
+        "FirstChildNode": -1,
+        "NextSiblingNode": 31,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.03820181, Y: 0.06789431, Z: -0.028000189",
+        "DefaultRotation": "I: -0.2390104, J: -0.5659576, K: 0.012103978, W: -0.7889357",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.438374, M12: 0.74513257, M13: 0.50259894, M21: -0.8987927, M22: 0.36342472, M23: 0.24514143, M31: 6.0084953E-06, M32: -0.5591957, M33: 0.82903564, M41: -0.11284485, M42: 0.22630434, M43: -0.63501644"
+      },
+      {
+        "Name": "f_r_lip_upper",
+        "ParentNode": 19,
+        "FirstChildNode": -1,
+        "NextSiblingNode": 32,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.035686135, Y: 0.10214254, Z: -0.015000135",
+        "DefaultRotation": "I: -0.47892225, J: -0.43157876, K: -0.16252665, W: -0.7469662",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.847102, M12: 0.41988516, M13: 0.32575238, M21: -0.48907292, M22: 0.85576224, M23: 0.16875625, M31: -0.20790827, M32: -0.3022703, M33: 0.9302724, M41: -0.062019918, M42: 0.10994289, M43: -0.6483743"
+      },
+      {
+        "Name": "f_r_mouth",
+        "ParentNode": 19,
+        "FirstChildNode": -1,
+        "NextSiblingNode": 33,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.025500774, Y: 0.089520246, Z: -0.023000138",
+        "DefaultRotation": "I: -0.40855014, J: -0.44033453, K: -0.04161647, W: -0.7984112",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.7431468, M12: 0.6204051, M13: 0.25065988, M21: -0.66912836, M22: 0.6890312, M23: 0.27839398, M31: 4.5578704E-06, M32: -0.37461117, M33: 0.92718184, M41: -0.16550855, M42: 0.12578186, M43: -0.6265008"
+      },
+      {
+        "Name": "f_thoat",
+        "ParentNode": 19,
+        "FirstChildNode": -1,
+        "NextSiblingNode": 34,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.002881229, Y: 0.07195008, Z: 2.2982662E-05",
+        "DefaultRotation": "I: -0.5007013, J: -0.4992993, K: -0.49929744, W: -0.50070024",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.575872, M12: -8.532113E-07, M13: 0.8175398, M21: -6.044613E-06, M22: 1, M23: 5.290761E-06, M31: -0.81753975, M32: -7.929615E-06, M33: 0.57587206, M41: 0.4147225, M42: -1.7807886E-05, M43: -0.50422055"
+      },
+      {
+        "Name": "l_jaw_bot",
+        "ParentNode": 19,
+        "FirstChildNode": -1,
+        "NextSiblingNode": 35,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: -0.0028941631, Y: 0.05154386, Z: 0.020823214",
+        "DefaultRotation": "I: -0.55484843, J: -0.39493367, K: -0.40815896, W: -0.60792834",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.82670885, M12: -0.0182103, M13: 0.5623351, M21: -0.027252048, M22: 0.99700683, M23: 0.0723508, M31: -0.56196934, M32: -0.07513778, M33: 0.8237382, M41: 0.23205522, M42: 0.030397534, M43: -0.61928624"
+      },
+      {
+        "Name": "l_jaw_top",
+        "ParentNode": 19,
+        "FirstChildNode": -1,
+        "NextSiblingNode": 36,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.0034290552, Y: 0.06241557, Z: 0.021806613",
+        "DefaultRotation": "I: -0.56226546, J: -0.3281993, K: -0.40361077, W: -0.6428384",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.8851263, M12: -0.098707825, M13: 0.45476153, M21: 0.031913575, M22: 0.9878197, M23: 0.15229526, M31: -0.46425503, M32: -0.120287396, M33: 0.8774953, M41: 0.14625508, M42: 0.071767114, M43: -0.63933164"
+      },
+      {
+        "Name": "r_jaw_bot",
+        "ParentNode": 19,
+        "FirstChildNode": -1,
+        "NextSiblingNode": 37,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: -0.0028814673, Y: 0.051567018, Z: -0.021282272",
+        "DefaultRotation": "I: -0.59625363, J: -0.41892585, K: -0.3956436, W: -0.5589713",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.81542116, M12: 0.033079535, M13: 0.57792205, M21: 0.0034706132, M22: 0.9980686, M23: -0.06202504, M31: -0.57885754, M32: 0.052582324, M33: 0.8137315, M41: 0.24416341, M42: -0.0177522, M43: -0.6151182"
+      },
+      {
+        "Name": "r_jaw_top",
+        "ParentNode": 19,
+        "FirstChildNode": -1,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.003417015, Y: 0.062393963, Z: -0.02225593",
+        "DefaultRotation": "I: -0.6428395, J: -0.40361148, K: -0.32819873, W: -0.56226397",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.88512635, M12: 0.09870222, M13: 0.4547628, M21: -0.031915102, M22: 0.98782194, M23: -0.15228003, M31: -0.46425498, M32: 0.120273344, M33: 0.8774973, M41: 0.14626542, M42: -0.071312524, M43: -0.639401"
+      },
+      {
+        "Name": "r_hand",
+        "ParentNode": 20,
+        "FirstChildNode": 43,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.1426083, Y: -5.9604645E-08, Z: -2.9802322E-08",
+        "DefaultRotation": "I: -0.4705656, J: 0.06836289, K: -0.10787368, W: -0.87307376",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.8267522, M12: -0.39238706, M13: 0.40312922, M21: 0.058851197, M22: 0.77298295, M23: 0.6316912, M31: -0.55947953, M32: -0.49852753, M33: 0.66215795, M41: 0.07936103, M42: 0.4085567, M43: -0.2520995"
+      },
+      {
+        "Name": "l_index1",
+        "ParentNode": 21,
+        "FirstChildNode": 47,
+        "NextSiblingNode": 40,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.075384125, Y: -0.009344012, Z: -0.01667124",
+        "DefaultRotation": "I: -0.036480416, J: -0.056959745, K: -0.24357949, W: -0.9675194",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.57397646, M12: -0.7706654, M13: -0.2768142, M21: -0.4774299, M22: -0.5895898, M23: 0.6514944, M31: -0.66529095, M32: -0.24178304, M33: -0.7063493, M41: 0.17734012, M42: 0.3917724, M43: 0.2489164"
+      },
+      {
+        "Name": "l_pinky1",
+        "ParentNode": 21,
+        "FirstChildNode": 48,
+        "NextSiblingNode": 41,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.033753388, Y: -0.0013905168, Z: 0.0118718445",
+        "DefaultRotation": "I: 0.7340253, J: -0.06290794, K: 0.432497, W: 0.5198036",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.088401906, M12: -0.5565366, M13: 0.82610685, M21: 0.1298544, M22: 0.8287153, M23: 0.54439807, M31: -0.98758465, M32: 0.05914766, M33: 0.14552881, M41: 0.34288624, M42: -0.039643634, M43: -0.32970217"
+      },
+      {
+        "Name": "l_ring1",
+        "ParentNode": 21,
+        "FirstChildNode": 49,
+        "NextSiblingNode": 42,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.07442237, Y: -0.0075158477, Z: 0.00786145",
+        "DefaultRotation": "I: -0.04105517, J: -0.017821414, K: -0.21622305, W: -0.9753176",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.58970743, M12: -0.73725504, M13: -0.32969734, M21: -0.391208, M22: -0.61790943, M23: 0.68201506, M31: -0.706542, M32: -0.2732091, M33: -0.65280586, M41: 0.17641607, M42: 0.39513117, M43: 0.21340488"
+      },
+      {
+        "Name": "l_thumb1",
+        "ParentNode": 21,
+        "FirstChildNode": 50,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.033864137, Y: 0.0019107163, Z: -0.021173239",
+        "DefaultRotation": "I: 0.7135631, J: -0.033072997, K: -0.43732682, W: -0.5463325",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.60589206, M12: 0.02585553, M13: -0.7951268, M21: -0.7861762, M22: -0.13349378, M23: -0.60341257, M31: -0.12174595, M32: 0.9907125, M33: -0.06055583, M41: 0.02268671, M42: -0.39205545, M43: 0.29645693"
+      },
+      {
+        "Name": "r_index1",
+        "ParentNode": 38,
+        "FirstChildNode": 51,
+        "NextSiblingNode": 44,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.07538411, Y: -0.009344012, Z: 0.01667127",
+        "DefaultRotation": "I: 0.03648038, J: 0.056959793, K: -0.24357949, W: -0.9675194",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.5739751, M12: -0.7706668, M13: 0.2768126, M21: 0.47743118, M22: 0.5895876, M23: 0.65149504, M31: -0.6652909, M32: -0.241783, M33: 0.7063492, M41: 0.17734022, M42: 0.3917723, M43: -0.24891649"
+      },
+      {
+        "Name": "r_pinky1",
+        "ParentNode": 38,
+        "FirstChildNode": 52,
+        "NextSiblingNode": 45,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.033753395, Y: -0.001390487, Z: -0.011871815",
+        "DefaultRotation": "I: -0.7340253, J: 0.062908, K: 0.4324969, W: 0.51980364",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.08840231, M12: -0.5565345, M13: -0.826108, M21: -0.12985438, M22: -0.82871646, M23: 0.544396, M31: -0.98758453, M32: 0.059147805, M33: -0.145529, M41: 0.34288627, M42: -0.03964362, M43: 0.32970217"
+      },
+      {
+        "Name": "r_ring1",
+        "ParentNode": 38,
+        "FirstChildNode": 53,
+        "NextSiblingNode": 46,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.074422374, Y: -0.007515818, Z: -0.007861435",
+        "DefaultRotation": "I: 0.04105514, J: 0.01782146, K: -0.21622302, W: -0.97531766",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.5897064, M12: -0.7372564, M13: 0.32969567, M21: 0.39120927, M22: 0.61790746, M23: 0.6820158, M31: -0.7065421, M32: -0.27320912, M33: 0.6528057, M41: 0.17641619, M42: 0.3951311, M43: -0.21340495"
+      },
+      {
+        "Name": "r_thumb1",
+        "ParentNode": 38,
+        "FirstChildNode": 54,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.033864144, Y: 0.0019107163, Z: 0.021173239",
+        "DefaultRotation": "I: -0.713563, J: 0.03307296, K: -0.43732682, W: -0.54633254",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.60588986, M12: 0.02585526, M13: 0.7951282, M21: 0.7861776, M22: 0.13349411, M23: -0.6034103, M31: -0.12174631, M32: 0.9907124, M33: 0.060555905, M41: 0.022686921, M42: -0.3920555, M43: -0.2964569"
+      },
+      {
+        "Name": "l_index2",
+        "ParentNode": 39,
+        "FirstChildNode": -1,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.040691763, Y: -2.9802322E-08, Z: -2.9802322E-08",
+        "DefaultRotation": "I: -6.3798904E-09, J: 3.6022808E-08, K: -0.32142594, W: -0.9469347",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: -0.013757869, M12: -0.96082515, M13: -0.2768142, M21: -0.737685, M22: -0.17713316, M23: 0.65149444, M31: -0.67500514, M32: 0.21316487, M33: -0.70634925, M41: 0.3468999, M42: 0.2276376, M43: 0.2489164"
+      },
+      {
+        "Name": "l_pinky2",
+        "ParentNode": 40,
+        "FirstChildNode": -1,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.036145598, Y: -2.2351742E-08, Z: -2.9802322E-08",
+        "DefaultRotation": "I: -3.7273713E-09, J: 5.1482083E-08, K: 0.34421027, W: -0.9388926",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.42717323, M12: -0.36752003, M13: 0.82610685, M21: -0.43655863, M22: 0.71627355, M23: 0.54439807, M31: -0.79179543, M32: -0.5931963, M33: 0.14552891, M41: 0.25967866, M42: 0.16801308, M43: -0.32970217"
+      },
+      {
+        "Name": "l_ring2",
+        "ParentNode": 41,
+        "FirstChildNode": -1,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.043925002, Y: 0, Z: 0",
+        "DefaultRotation": "I: -2.9154709E-08, J: 2.9946545E-08, K: -0.35915148, W: -0.9332793",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: -0.05666407, M12: -0.9423848, M13: -0.3296973, M21: -0.7045167, M22: -0.19624446, M23: 0.6820151, M31: -0.70742184, M32: 0.27092296, M33: -0.6528058, M41: 0.36319807, M42: 0.20437641, M43: 0.21340483"
+      },
+      {
+        "Name": "l_thumb2",
+        "ParentNode": 42,
+        "FirstChildNode": -1,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.025533926, Y: -2.9802322E-08, Z: 0",
+        "DefaultRotation": "I: 1.5694745E-08, J: -1.3152092E-08, K: 0.2878116, W: -0.95768714",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.49126, M12: 0.3555803, M13: -0.7951268, M21: -0.58233887, M22: -0.54477066, M23: -0.6034126, M31: -0.6477232, M32: 0.75946563, M33: -0.060555812, M41: 0.21375166, M42: -0.32867277, M43: 0.29645693"
+      },
+      {
+        "Name": "r_index2",
+        "ParentNode": 43,
+        "FirstChildNode": -1,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.04069175, Y: 0, Z: 2.9802322E-08",
+        "DefaultRotation": "I: 5.868293E-08, J: -5.6417267E-08, K: -0.3214259, W: -0.94693476",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: -0.013759685, M12: -0.9608254, M13: 0.27681255, M21: 0.73768467, M22: 0.1771307, M23: 0.65149516, M31: -0.67500514, M32: 0.21316472, M33: 0.70634913, M41: 0.34689993, M42: 0.2276375, M43: -0.24891646"
+      },
+      {
+        "Name": "r_pinky2",
+        "ParentNode": 44,
+        "FirstChildNode": -1,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.036145598, Y: 7.450581E-09, Z: -2.9802322E-08",
+        "DefaultRotation": "I: 3.233418E-08, J: -1.00738315E-08, K: 0.3442103, W: -0.93889254",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.42717212, M12: -0.36751813, M13: -0.826108, M21: 0.43655947, M22: -0.7162744, M23: 0.5443959, M31: -0.7917954, M32: -0.59319615, M33: -0.14552905, M41: 0.25967872, M42: 0.16801311, M43: 0.3297022"
+      },
+      {
+        "Name": "r_ring2",
+        "ParentNode": 45,
+        "FirstChildNode": -1,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.043924987, Y: 2.9802322E-08, Z: 0",
+        "DefaultRotation": "I: 4.4428898E-08, J: -9.708339E-08, K: -0.35915148, W: -0.9332793",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: -0.056665786, M12: -0.9423851, M13: 0.32969564, M21: 0.70451623, M22: 0.19624215, M23: 0.68201596, M31: -0.70742196, M32: 0.270923, M33: 0.65280557, M41: 0.3631981, M42: 0.20437627, M43: -0.21340488"
+      },
+      {
+        "Name": "r_thumb2",
+        "ParentNode": 46,
+        "FirstChildNode": -1,
+        "NextSiblingNode": -1,
+        "ImportNodeIndex": 0,
+        "DefaultTranslation": "X: 0.025533918, Y: 0, Z: -5.9604645E-08",
+        "DefaultRotation": "I: -1.0754297E-08, J: 5.07484E-09, K: 0.28781158, W: -0.957687",
+        "DefaultScale": 1.0,
+        "Inverse": "M11: 0.49125832, M12: 0.35557884, M13: 0.7951282, M21: 0.5823399, M22: 0.5447717, M23: -0.6034103, M31: -0.64772344, M32: 0.75946534, M33: 0.06055589, M41: 0.21375191, M42: -0.32867274, M43: -0.29645684"
+      }
+    ],
+    "RuntimeNodeListChecksum": 0,
+    "ModelObjectData": [
+      {
+        "Type": "AutoGenerated",
+        "Offset": "X: 0.151317, Y: 0, Z: 0.79162",
+        "Radius": 0.259848
+      }
+    ],
+    "PrimaryDialogue": {
+      "Type": "dialogue",
+      "Name": "sound\\dialog\\combat\\elite_mp",
+      "Generate": false
+    },
+    "SecondaryDialogue": null,
+    "Flags": "None",
+    "DefaultDialogueEffect": "invalid",
+    "RenderOnlyNodeFlags": [
+      -4194304,
+      8388543,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RenderOnlySectionFlags": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RuntimeFlags": "ContainsRuntimeNodes",
+    "ScenarioLoadParameters": [],
+    "ShadowDetail": "AmbientOcclusion",
+    "ShadowBounces": "ZeroBounces",
+    "ShadowCastOverrides": [],
+    "ShadowReceiveOverrides": [],
+    "OcclusionSpheres": [],
+    "ShieldImpactThirdPerson": {
+      "Type": "shield_impact",
+      "Name": "globals\\elite_3p_shield_impact",
+      "Generate": false
+    },
+    "ShieldImpactFirstPerson": {
+      "Type": "shield_impact",
+      "Name": "globals\\elite_fp_shield_impact",
+      "Generate": false
+    },
+    "OvershieldThirdPerson": {
+      "Type": "shield_impact",
+      "Name": "fx\\shield_impacts\\overshield_3p",
+      "Generate": false
+    },
+    "OvershieldFirstPerson": {
+      "Type": "shield_impact",
+      "Name": "fx\\shield_impacts\\overshield_1p",
+      "Generate": false
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "TagName": "shaders\\terrain_options\\default_blending",
+  "TagType": "render_method_option",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Parameters": [
+      {
+        "Name": "blend_map",
+        "Type": "Bitmap",
+        "RenderMethodExtern": "none",
+        "DefaultSamplerBitmap": {
+          "Type": "bitmap",
+          "Name": "shaders\\default_bitmaps\\bitmaps\\gray_50_percent",
+          "Generate": false
+        },
+        "DefaultFloatArgument": 1.0,
+        "DefaultIntBoolArgument": 0,
+        "Flags": 0,
+        "DefaultFilterMode": "Trilinear",
+        "DefaultAddressMode": "Wrap",
+        "AnisotropyAmount": 0,
+        "DefaultColor": "Alpha: 255, Red: 255, Green: 255, Blue: 255",
+        "DefaultBitmapScale": 0.0,
+        "HelpText": ""
+      },
+      {
+        "Name": "global_albedo_tint",
+        "Type": "Real",
+        "RenderMethodExtern": "none",
+        "DefaultSamplerBitmap": null,
+        "DefaultFloatArgument": 1.0,
+        "DefaultIntBoolArgument": 0,
+        "Flags": 0,
+        "DefaultFilterMode": "Trilinear",
+        "DefaultAddressMode": "Wrap",
+        "AnisotropyAmount": 0,
+        "DefaultColor": "Alpha: 255, Red: 255, Green: 255, Blue: 255",
+        "DefaultBitmapScale": 0.0,
+        "HelpText": ""
+      }
+    ]
+  }
+}

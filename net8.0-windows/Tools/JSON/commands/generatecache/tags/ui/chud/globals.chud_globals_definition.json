@@ -1,0 +1,3414 @@
+{
+  "TagName": "ui\\chud\\globals",
+  "TagType": "chud_globals_definition",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "HudGlobals": [
+      {
+        "Type": "Default",
+        "PrimaryBackground": "Alpha: 0, Red: 3, Green: 28, Blue: 56",
+        "SecondaryBackground": "Alpha: 0, Red: 36, Green: 139, Blue: 255",
+        "HighlightForeground": "Alpha: 0, Red: 93, Green: 169, Blue: 255",
+        "WarningFlash": "Alpha: 0, Red: 240, Green: 37, Blue: 37",
+        "CrosshairNormal": "Alpha: 0, Red: 55, Green: 149, Blue: 255",
+        "CrosshairEnemy": "Alpha: 0, Red: 246, Green: 6, Blue: 6",
+        "CrosshairFriendly": "Alpha: 0, Red: 0, Green: 255, Blue: 0",
+        "BaseBlip": "Alpha: 0, Red: 255, Green: 255, Blue: 255",
+        "SelfBlip": "Alpha: 0, Red: 255, Green: 192, Blue: 5",
+        "EnemyBlip": "Alpha: 0, Red: 246, Green: 6, Blue: 6",
+        "NeutralBlip": "Alpha: 0, Red: 255, Green: 192, Blue: 5",
+        "FriendlyBlip": "Alpha: 0, Red: 255, Green: 192, Blue: 5",
+        "BlipPing": "Alpha: 0, Red: 255, Green: 255, Blue: 0",
+        "ObjectiveBlipOnRadar": "Alpha: 0, Red: 255, Green: 255, Blue: 255",
+        "ObjectiveBlipOffRadar": "Alpha: 0, Red: 255, Green: 255, Blue: 255",
+        "NavpointFriendly": "Alpha: 0, Red: 0, Green: 255, Blue: 9",
+        "NavpointNeutral": "Alpha: 0, Red: 94, Green: 94, Blue: 94",
+        "NavpointEnemy": "Alpha: 0, Red: 216, Green: 50, Blue: 50",
+        "NavpointAllyDead": "Alpha: 0, Red: 246, Green: 6, Blue: 10",
+        "NavpointAllyBlue": "Alpha: 0, Red: 0, Green: 96, Blue: 255",
+        "MessageFlashSelf": "Alpha: 0, Red: 0, Green: 255, Blue: 34",
+        "MessageFlashFriendly": "Alpha: 0, Red: 0, Green: 255, Blue: 9",
+        "MessageFlashEnemy": "Alpha: 0, Red: 255, Green: 0, Blue: 0",
+        "MessageFlashNeutral": "Alpha: 0, Red: 255, Green: 255, Blue: 255",
+        "InvincibleShield": "Alpha: 0, Red: 205, Green: 222, Blue: 255",
+        "NavpointAllyStandingBy": "Alpha: 0, Red: 25, Green: 25, Blue: 255",
+        "NavpointAllyFiring": "Alpha: 0, Red: 255, Green: 255, Blue: 25",
+        "NavpointAllyTakingDamage": "Alpha: 0, Red: 212, Green: 62, Blue: 6",
+        "NavpointAllySpeaking": "Alpha: 0, Red: 255, Green: 255, Blue: 255",
+        "GlobalDynamic29_HO": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "DefaultItemOutline": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "MAGItemOutline": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "DMGItemOutline": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "ACCItemOutline": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "ROFItemOutline": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "RNGItemOutline": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "PWRItemOutline": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "HudAttributes": [
+          {
+            "ResolutionFlags": "WideFull, StandardFull",
+            "WarpSourceFovY": "Degrees: 4.5",
+            "WarpAmount": 1.2,
+            "WarpDestinationZOffset": -0.95,
+            "VirtualWidth": 1920,
+            "VirtualHeight": 1080,
+            "MotionSensorOrigin": "X: 82.5, Y: 991.5",
+            "MotionSensorRadius": 87.0,
+            "BlipRadius": 6.0,
+            "GlobalSafeFrameHorizontal": 1.0,
+            "GlobalSafeFrameVertical": 1.0,
+            "SafeFrameHorizontalDing": 0.0,
+            "SafeFrameVerticalDing": 0.0,
+            "DamageBorderHealthEffect": null,
+            "ThirdPersonDamageBorderHealthEffect": null,
+            "DamageBorderShieldEffect": null,
+            "ThirdPersonDamageBorderShieldEffect": null,
+            "StateMessageScale": 1.5,
+            "StateLeftRightOffset_HO": "X: 0, Y: 0.16",
+            "ScaleUnknown1": 0.0,
+            "SpacingUnknown1": 0.0,
+            "ScaleUnknown2": 0.0,
+            "SpacingUnknown2": 0.0,
+            "MessageAnchorVerticalOffset": 0.07,
+            "StateMessageVerticalOffset": -1.0,
+            "MedalScale": 1.0,
+            "MedalWidth": 58.0,
+            "SurvivalMedalsOffset": "X: 0, Y: 0.64",
+            "Unknown32": 1.0,
+            "MultiplayerMedalsOffset": "X: 0, Y: 0",
+            "MessageScale": 1.5,
+            "MessageHeight": 37.5,
+            "MessageCountDelta": 0,
+            "MessageOffset": "X: 0, Y: 0.72",
+            "ScaleUnknown": 0.0,
+            "SpacingUnknown": 0.0,
+            "NullUnknown": 0.0,
+            "UnknownOffset3": "X: 0, Y: 0",
+            "PromptOffsetY": 0.0,
+            "PromptOffsetX": 0.0
+          },
+          {
+            "ResolutionFlags": "WideHalf",
+            "WarpSourceFovY": "Degrees: 4",
+            "WarpAmount": 1.5,
+            "WarpDestinationZOffset": -0.95,
+            "VirtualWidth": 2400,
+            "VirtualHeight": 870,
+            "MotionSensorOrigin": "X: 82.5, Y: 780",
+            "MotionSensorRadius": 87.0,
+            "BlipRadius": 6.0,
+            "GlobalSafeFrameHorizontal": 1.0,
+            "GlobalSafeFrameVertical": 1.0,
+            "SafeFrameHorizontalDing": 0.02,
+            "SafeFrameVerticalDing": 0.03,
+            "DamageBorderHealthEffect": null,
+            "ThirdPersonDamageBorderHealthEffect": null,
+            "DamageBorderShieldEffect": null,
+            "ThirdPersonDamageBorderShieldEffect": null,
+            "StateMessageScale": 1.5,
+            "StateLeftRightOffset_HO": "X: 0, Y: 0.19",
+            "ScaleUnknown1": 0.0,
+            "SpacingUnknown1": 0.0,
+            "ScaleUnknown2": 0.0,
+            "SpacingUnknown2": 0.0,
+            "MessageAnchorVerticalOffset": 0.07,
+            "StateMessageVerticalOffset": -1.0,
+            "MedalScale": 1.15,
+            "MedalWidth": 58.0,
+            "SurvivalMedalsOffset": "X: 0, Y: 0",
+            "Unknown32": 0.0,
+            "MultiplayerMedalsOffset": "X: 0, Y: 0",
+            "MessageScale": 1.875,
+            "MessageHeight": 37.5,
+            "MessageCountDelta": 0,
+            "MessageOffset": "X: 0, Y: 0.66",
+            "ScaleUnknown": 0.0,
+            "SpacingUnknown": 0.0,
+            "NullUnknown": 0.0,
+            "UnknownOffset3": "X: 0, Y: 0",
+            "PromptOffsetY": 0.0,
+            "PromptOffsetX": 0.0
+          },
+          {
+            "ResolutionFlags": "WideQuarter",
+            "WarpSourceFovY": "Degrees: 4.5",
+            "WarpAmount": 1.2,
+            "WarpDestinationZOffset": -0.95,
+            "VirtualWidth": 1440,
+            "VirtualHeight": 870,
+            "MotionSensorOrigin": "X: 82.5, Y: 780",
+            "MotionSensorRadius": 87.0,
+            "BlipRadius": 6.0,
+            "GlobalSafeFrameHorizontal": 1.0,
+            "GlobalSafeFrameVertical": 1.0,
+            "SafeFrameHorizontalDing": 0.02,
+            "SafeFrameVerticalDing": 0.03,
+            "DamageBorderHealthEffect": null,
+            "ThirdPersonDamageBorderHealthEffect": null,
+            "DamageBorderShieldEffect": null,
+            "ThirdPersonDamageBorderShieldEffect": null,
+            "StateMessageScale": 1.5,
+            "StateLeftRightOffset_HO": "X: 0, Y: 0.18",
+            "ScaleUnknown1": 0.0,
+            "SpacingUnknown1": 0.0,
+            "ScaleUnknown2": 0.0,
+            "SpacingUnknown2": 0.0,
+            "MessageAnchorVerticalOffset": 0.07,
+            "StateMessageVerticalOffset": -1.0,
+            "MedalScale": 1.0,
+            "MedalWidth": 58.0,
+            "SurvivalMedalsOffset": "X: 0, Y: 0",
+            "Unknown32": 0.0,
+            "MultiplayerMedalsOffset": "X: 0, Y: 0",
+            "MessageScale": 1.875,
+            "MessageHeight": 45.0,
+            "MessageCountDelta": 0,
+            "MessageOffset": "X: 0, Y: 0.64",
+            "ScaleUnknown": 0.0,
+            "SpacingUnknown": 0.0,
+            "NullUnknown": 0.0,
+            "UnknownOffset3": "X: 0, Y: 0",
+            "PromptOffsetY": 0.0,
+            "PromptOffsetX": 0.0
+          },
+          {
+            "ResolutionFlags": "NativeFull",
+            "WarpSourceFovY": "Degrees: 4.5",
+            "WarpAmount": 1.2,
+            "WarpDestinationZOffset": -0.95,
+            "VirtualWidth": 1707,
+            "VirtualHeight": 960,
+            "MotionSensorOrigin": "X: 82.5, Y: 870",
+            "MotionSensorRadius": 87.0,
+            "BlipRadius": 6.0,
+            "GlobalSafeFrameHorizontal": 1.0,
+            "GlobalSafeFrameVertical": 1.0,
+            "SafeFrameHorizontalDing": 0.0,
+            "SafeFrameVerticalDing": 0.0,
+            "DamageBorderHealthEffect": null,
+            "ThirdPersonDamageBorderHealthEffect": null,
+            "DamageBorderShieldEffect": null,
+            "ThirdPersonDamageBorderShieldEffect": null,
+            "StateMessageScale": 1.2,
+            "StateLeftRightOffset_HO": "X: 0, Y: 0.15",
+            "ScaleUnknown1": 0.0,
+            "SpacingUnknown1": 0.0,
+            "ScaleUnknown2": 0.0,
+            "SpacingUnknown2": 0.0,
+            "MessageAnchorVerticalOffset": 0.07,
+            "StateMessageVerticalOffset": -1.0,
+            "MedalScale": 1.0,
+            "MedalWidth": 58.0,
+            "SurvivalMedalsOffset": "X: 0, Y: 0",
+            "Unknown32": 0.0,
+            "MultiplayerMedalsOffset": "X: 0, Y: 0",
+            "MessageScale": 1.6500001,
+            "MessageHeight": 40.5,
+            "MessageCountDelta": 0,
+            "MessageOffset": "X: 0, Y: 0.67",
+            "ScaleUnknown": 0.0,
+            "SpacingUnknown": 0.0,
+            "NullUnknown": 0.0,
+            "UnknownOffset3": "X: 0, Y: 0",
+            "PromptOffsetY": 0.0,
+            "PromptOffsetX": 0.0
+          },
+          {
+            "ResolutionFlags": "NativeQuarter",
+            "WarpSourceFovY": "Degrees: 4.5",
+            "WarpAmount": 1.2,
+            "WarpDestinationZOffset": -0.95,
+            "VirtualWidth": 1281,
+            "VirtualHeight": 774,
+            "MotionSensorOrigin": "X: 82.5, Y: 684",
+            "MotionSensorRadius": 87.0,
+            "BlipRadius": 6.0,
+            "GlobalSafeFrameHorizontal": 1.0,
+            "GlobalSafeFrameVertical": 1.0,
+            "SafeFrameHorizontalDing": 0.02,
+            "SafeFrameVerticalDing": 0.03,
+            "DamageBorderHealthEffect": null,
+            "ThirdPersonDamageBorderHealthEffect": null,
+            "DamageBorderShieldEffect": null,
+            "ThirdPersonDamageBorderShieldEffect": null,
+            "StateMessageScale": 1.3,
+            "StateLeftRightOffset_HO": "X: 0, Y: 0.2",
+            "ScaleUnknown1": 0.0,
+            "SpacingUnknown1": 0.0,
+            "ScaleUnknown2": 0.0,
+            "SpacingUnknown2": 0.0,
+            "MessageAnchorVerticalOffset": 0.07,
+            "StateMessageVerticalOffset": -1.0,
+            "MedalScale": 1.15,
+            "MedalWidth": 58.0,
+            "SurvivalMedalsOffset": "X: 0, Y: 0",
+            "Unknown32": 0.0,
+            "MultiplayerMedalsOffset": "X: 0, Y: 0",
+            "MessageScale": 2.1,
+            "MessageHeight": 52.5,
+            "MessageCountDelta": -2,
+            "MessageOffset": "X: 0, Y: 0.7",
+            "ScaleUnknown": 0.0,
+            "SpacingUnknown": 0.0,
+            "NullUnknown": 0.0,
+            "UnknownOffset3": "X: 0, Y: 0",
+            "PromptOffsetY": 0.0,
+            "PromptOffsetX": 0.0
+          },
+          {
+            "ResolutionFlags": "StandardFull",
+            "WarpSourceFovY": "Degrees: 4.5",
+            "WarpAmount": 1.2,
+            "WarpDestinationZOffset": -0.95,
+            "VirtualWidth": 1380,
+            "VirtualHeight": 1035,
+            "MotionSensorOrigin": "X: 82.5, Y: 945",
+            "MotionSensorRadius": 87.0,
+            "BlipRadius": 6.0,
+            "GlobalSafeFrameHorizontal": 1.0,
+            "GlobalSafeFrameVertical": 1.0,
+            "SafeFrameHorizontalDing": 0.0,
+            "SafeFrameVerticalDing": 0.0,
+            "DamageBorderHealthEffect": null,
+            "ThirdPersonDamageBorderHealthEffect": null,
+            "DamageBorderShieldEffect": null,
+            "ThirdPersonDamageBorderShieldEffect": null,
+            "StateMessageScale": 1.2,
+            "StateLeftRightOffset_HO": "X: 0, Y: 0.15",
+            "ScaleUnknown1": 0.0,
+            "SpacingUnknown1": 0.0,
+            "ScaleUnknown2": 0.0,
+            "SpacingUnknown2": 0.0,
+            "MessageAnchorVerticalOffset": 0.07,
+            "StateMessageVerticalOffset": -1.0,
+            "MedalScale": 1.0,
+            "MedalWidth": 58.0,
+            "SurvivalMedalsOffset": "X: 0, Y: 0",
+            "Unknown32": 0.0,
+            "MultiplayerMedalsOffset": "X: 0, Y: 0",
+            "MessageScale": 1.6500001,
+            "MessageHeight": 40.5,
+            "MessageCountDelta": 0,
+            "MessageOffset": "X: 0, Y: 0.67",
+            "ScaleUnknown": 0.0,
+            "SpacingUnknown": 0.0,
+            "NullUnknown": 0.0,
+            "UnknownOffset3": "X: 0, Y: 0",
+            "PromptOffsetY": 0.0,
+            "PromptOffsetX": 0.0
+          },
+          {
+            "ResolutionFlags": "StandardHalf",
+            "WarpSourceFovY": "Degrees: 4.5",
+            "WarpAmount": 1.2,
+            "WarpDestinationZOffset": -0.95,
+            "VirtualWidth": 2064,
+            "VirtualHeight": 774,
+            "MotionSensorOrigin": "X: 82.5, Y: 684",
+            "MotionSensorRadius": 87.0,
+            "BlipRadius": 6.0,
+            "GlobalSafeFrameHorizontal": 1.0,
+            "GlobalSafeFrameVertical": 1.0,
+            "SafeFrameHorizontalDing": 0.02,
+            "SafeFrameVerticalDing": 0.03,
+            "DamageBorderHealthEffect": null,
+            "ThirdPersonDamageBorderHealthEffect": null,
+            "DamageBorderShieldEffect": null,
+            "ThirdPersonDamageBorderShieldEffect": null,
+            "StateMessageScale": 1.5,
+            "StateLeftRightOffset_HO": "X: 0, Y: 0.2",
+            "ScaleUnknown1": 0.0,
+            "SpacingUnknown1": 0.0,
+            "ScaleUnknown2": 0.0,
+            "SpacingUnknown2": 0.0,
+            "MessageAnchorVerticalOffset": 0.07,
+            "StateMessageVerticalOffset": -1.0,
+            "MedalScale": 1.0,
+            "MedalWidth": 58.0,
+            "SurvivalMedalsOffset": "X: 0, Y: 0",
+            "Unknown32": 0.0,
+            "MultiplayerMedalsOffset": "X: 0, Y: 0",
+            "MessageScale": 2.1,
+            "MessageHeight": 52.5,
+            "MessageCountDelta": 0,
+            "MessageOffset": "X: 0, Y: 0.56",
+            "ScaleUnknown": 0.0,
+            "SpacingUnknown": 0.0,
+            "NullUnknown": 0.0,
+            "UnknownOffset3": "X: 0, Y: 0",
+            "PromptOffsetY": 0.0,
+            "PromptOffsetX": 0.0
+          },
+          {
+            "ResolutionFlags": "StandardQuarter",
+            "WarpSourceFovY": "Degrees: 4.5",
+            "WarpAmount": 1.2,
+            "WarpDestinationZOffset": -0.95,
+            "VirtualWidth": 1032,
+            "VirtualHeight": 774,
+            "MotionSensorOrigin": "X: 82.5, Y: 684",
+            "MotionSensorRadius": 87.0,
+            "BlipRadius": 6.0,
+            "GlobalSafeFrameHorizontal": 1.0,
+            "GlobalSafeFrameVertical": 1.0,
+            "SafeFrameHorizontalDing": 0.04,
+            "SafeFrameVerticalDing": 0.03,
+            "DamageBorderHealthEffect": null,
+            "ThirdPersonDamageBorderHealthEffect": null,
+            "DamageBorderShieldEffect": null,
+            "ThirdPersonDamageBorderShieldEffect": null,
+            "StateMessageScale": 1.3,
+            "StateLeftRightOffset_HO": "X: 0, Y: 0.2",
+            "ScaleUnknown1": 0.0,
+            "SpacingUnknown1": 0.0,
+            "ScaleUnknown2": 0.0,
+            "SpacingUnknown2": 0.0,
+            "MessageAnchorVerticalOffset": 0.07,
+            "StateMessageVerticalOffset": -1.0,
+            "MedalScale": 1.15,
+            "MedalWidth": 58.0,
+            "SurvivalMedalsOffset": "X: 0, Y: 0",
+            "Unknown32": 0.0,
+            "MultiplayerMedalsOffset": "X: 0, Y: 0",
+            "MessageScale": 2.1,
+            "MessageHeight": 52.5,
+            "MessageCountDelta": -2,
+            "MessageOffset": "X: 0, Y: 0.7",
+            "ScaleUnknown": 0.0,
+            "SpacingUnknown": 0.0,
+            "NullUnknown": 0.0,
+            "UnknownOffset3": "X: 0, Y: 0",
+            "PromptOffsetY": 0.0,
+            "PromptOffsetX": 0.0
+          }
+        ],
+        "HudSounds": [
+          {
+            "LatchedTo": "ShieldMinorDamage",
+            "Scale": 0.0,
+            "Bipeds": [
+              {
+                "BipedType_HO": "Spartan",
+                "Sound": {
+                  "Type": "sound",
+                  "Name": "sound\\game_sfx\\ui\\shield_hit",
+                  "Generate": false
+                }
+              },
+              {
+                "BipedType_HO": "Elite",
+                "Sound": {
+                  "Type": "sound",
+                  "Name": "sound\\game_sfx\\ui\\shield_hit",
+                  "Generate": false
+                }
+              }
+            ]
+          },
+          {
+            "LatchedTo": "ShieldRecharging",
+            "Scale": 0.0,
+            "Bipeds": [
+              {
+                "BipedType_HO": "Spartan",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\game_sfx\\ui\\shield_charge\\shield_charge",
+                  "Generate": false
+                }
+              },
+              {
+                "BipedType_HO": "Elite",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\game_sfx\\ui\\shield_charge_dervish\\shield_charge_dervish",
+                  "Generate": false
+                }
+              }
+            ]
+          },
+          {
+            "LatchedTo": "ShieldLow",
+            "Scale": 0.0,
+            "Bipeds": [
+              {
+                "BipedType_HO": "Spartan",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\game_sfx\\ui\\shield_low\\shield_low",
+                  "Generate": false
+                }
+              },
+              {
+                "BipedType_HO": "Elite",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\game_sfx\\ui\\shield_low_dervish\\shield_low_dervish",
+                  "Generate": false
+                }
+              }
+            ]
+          },
+          {
+            "LatchedTo": "ShieldEmpty",
+            "Scale": 0.0,
+            "Bipeds": [
+              {
+                "BipedType_HO": "Spartan",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\game_sfx\\ui\\shield_depleted\\shield_depleted",
+                  "Generate": false
+                }
+              },
+              {
+                "BipedType_HO": "Elite",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\game_sfx\\ui\\shield_depleted_dervish\\shield_depleted_dervish",
+                  "Generate": false
+                }
+              }
+            ]
+          },
+          {
+            "LatchedTo": "RocketLocking",
+            "Scale": 0.0,
+            "Bipeds": [
+              {
+                "BipedType_HO": "Spartan",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\weapons\\rocket_launcher\\tracking_locking\\tracking_locking",
+                  "Generate": false
+                }
+              },
+              {
+                "BipedType_HO": "Elite",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\weapons\\rocket_launcher\\tracking_locking\\tracking_locking",
+                  "Generate": false
+                }
+              }
+            ]
+          },
+          {
+            "LatchedTo": "RocketLocked",
+            "Scale": 0.0,
+            "Bipeds": [
+              {
+                "BipedType_HO": "Spartan",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\weapons\\rocket_launcher\\tracking_locked\\tracking_locked",
+                  "Generate": false
+                }
+              },
+              {
+                "BipedType_HO": "Elite",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\weapons\\rocket_launcher\\tracking_locked\\tracking_locked",
+                  "Generate": false
+                }
+              }
+            ]
+          },
+          {
+            "LatchedTo": "TrackedTarget",
+            "Scale": 0.0,
+            "Bipeds": [
+              {
+                "BipedType_HO": "Spartan",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\weapons\\missile_launcher\\tracking_locking\\tracking_locking",
+                  "Generate": false
+                }
+              },
+              {
+                "BipedType_HO": "Elite",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\weapons\\missile_launcher\\tracking_locking\\tracking_locking",
+                  "Generate": false
+                }
+              }
+            ]
+          },
+          {
+            "LatchedTo": "LockedTarget",
+            "Scale": 0.0,
+            "Bipeds": [
+              {
+                "BipedType_HO": "Spartan",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\weapons\\missile_launcher\\tracking_locked\\tracking_locked",
+                  "Generate": false
+                }
+              },
+              {
+                "BipedType_HO": "Elite",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\weapons\\missile_launcher\\tracking_locked\\tracking_locked",
+                  "Generate": false
+                }
+              }
+            ]
+          }
+        ],
+        "BannedVehicleEntranceSound": null,
+        "FragGrenadeSwapSound": {
+          "Type": "sound",
+          "Name": "sound\\game_sfx\\ui\\switch_grenades\\switch_to_frag_grenade",
+          "Generate": false
+        },
+        "PlasmaGrenadeSwapSound": {
+          "Type": "sound",
+          "Name": "sound\\game_sfx\\ui\\switch_grenades\\switch_to_plasma_grenade",
+          "Generate": false
+        },
+        "SpikeGrenadeSwapSound": {
+          "Type": "sound",
+          "Name": "sound\\game_sfx\\ui\\switch_grenades\\switch_to_claymore_grenade",
+          "Generate": false
+        },
+        "FirebombGrenadeSwapSound": {
+          "Type": "sound",
+          "Name": "sound\\game_sfx\\ui\\switch_grenades\\switch_to_fire_bomb",
+          "Generate": false
+        },
+        "DamageMicrotexture": {
+          "Type": "bitmap",
+          "Name": "ui\\chud\\bitmaps\\chud_microtexture",
+          "Generate": false
+        },
+        "DamageNoise": {
+          "Type": "bitmap",
+          "Name": "ui\\chud\\bitmaps\\chud_noise",
+          "Generate": false
+        },
+        "DamageDirectionalArrow": {
+          "Type": "bitmap",
+          "Name": "ui\\chud\\bitmaps\\chud_directional_arrow",
+          "Generate": false
+        },
+        "GrenadeWaypoint": null,
+        "PinkGradient": null,
+        "DirectionalArrowDisplayTime": 0.0,
+        "DirectionalCutoffAngle": 0.0,
+        "DirectionalArrowScale": 50.0,
+        "Unknown10": 0.0,
+        "Unknown11": 0.0,
+        "Unknown12": 0.0,
+        "Waypoints": {
+          "Type": "bitmap",
+          "Name": "ui\\chud\\bitmaps\\waypoints",
+          "Generate": false
+        },
+        "PlayerWaypoints": null,
+        "ScoreboardHud": {
+          "Type": "chud_definition",
+          "Name": "ui\\chud\\scoreboard",
+          "Generate": false
+        },
+        "MetagameScoreboardHud": {
+          "Type": "chud_definition",
+          "Name": "ui\\chud\\metagame_scoreboard",
+          "Generate": false
+        },
+        "SurvivalHud": null,
+        "MetagameScoreboardHud2": null,
+        "TheaterHud": {
+          "Type": "chud_definition",
+          "Name": "ui\\chud\\saved_film",
+          "Generate": false
+        },
+        "ForgeHud": {
+          "Type": "chud_definition",
+          "Name": "ui\\chud\\sandbox",
+          "Generate": false
+        },
+        "HudStrings": {
+          "Type": "multilingual_unicode_string_list",
+          "Name": "ui\\hud\\hud_messages",
+          "Generate": false
+        },
+        "Medals": {
+          "Type": "bitmap",
+          "Name": "ui\\chud\\bitmaps\\medals\\medals",
+          "Generate": false
+        },
+        "MultiplayerMedals": [
+          {
+            "MedalName": "medal_extermination"
+          },
+          {
+            "MedalName": "medal_perfection"
+          },
+          {
+            "MedalName": "medal_multikill_2"
+          },
+          {
+            "MedalName": "medal_multikill_3"
+          },
+          {
+            "MedalName": "medal_multikill_4"
+          },
+          {
+            "MedalName": "medal_multikill_5"
+          },
+          {
+            "MedalName": "medal_multikill_6"
+          },
+          {
+            "MedalName": "medal_multikill_7"
+          },
+          {
+            "MedalName": "medal_multikill_8"
+          },
+          {
+            "MedalName": "medal_multikill_9"
+          },
+          {
+            "MedalName": "medal_multikill_10"
+          },
+          {
+            "MedalName": "medal_kill_spree_5"
+          },
+          {
+            "MedalName": "medal_kill_spree_10"
+          },
+          {
+            "MedalName": "medal_kill_spree_15"
+          },
+          {
+            "MedalName": "medal_kill_spree_20"
+          },
+          {
+            "MedalName": "medal_kill_spree_25"
+          },
+          {
+            "MedalName": "medal_kill_spree_30"
+          },
+          {
+            "MedalName": "medal_sniper_5"
+          },
+          {
+            "MedalName": "medal_sniper_10"
+          },
+          {
+            "MedalName": "medal_shotgun_5"
+          },
+          {
+            "MedalName": "medal_shotgun_10"
+          },
+          {
+            "MedalName": "medal_splatter_5"
+          },
+          {
+            "MedalName": "medal_splatter_10"
+          },
+          {
+            "MedalName": "medal_sword_5"
+          },
+          {
+            "MedalName": "medal_sword_10"
+          },
+          {
+            "MedalName": "medal_juggernaut_5"
+          },
+          {
+            "MedalName": "medal_juggernaut_10"
+          },
+          {
+            "MedalName": "medal_zombie_5"
+          },
+          {
+            "MedalName": "medal_zombie_10"
+          },
+          {
+            "MedalName": "medal_survivor_5"
+          },
+          {
+            "MedalName": "medal_survivor_10"
+          },
+          {
+            "MedalName": "medal_survivor_15"
+          },
+          {
+            "MedalName": "medal_koth_5"
+          },
+          {
+            "MedalName": "medal_shotgun_kill_sword"
+          },
+          {
+            "MedalName": "medal_vehicle_impact_kill"
+          },
+          {
+            "MedalName": "medal_vehicle_hijack"
+          },
+          {
+            "MedalName": "medal_aircraft_hijack"
+          },
+          {
+            "MedalName": "medal_deadplayer_kill_player"
+          },
+          {
+            "MedalName": "medal_player_kill_spreeplayer"
+          },
+          {
+            "MedalName": "medal_spartanlaser_kill"
+          },
+          {
+            "MedalName": "medal_stickygrenade_kill"
+          },
+          {
+            "MedalName": "medal_sniper_kill"
+          },
+          {
+            "MedalName": "medal_bashbehind_kill"
+          },
+          {
+            "MedalName": "medal_bash_kill"
+          },
+          {
+            "MedalName": "medal_flame_kill"
+          },
+          {
+            "MedalName": "medal_player_kill_occupiedvehicle"
+          },
+          {
+            "MedalName": "medal_driver_assist_gunner"
+          },
+          {
+            "MedalName": "medal_assault_bomb_planted"
+          },
+          {
+            "MedalName": "medal_assault_player_kill_carrier"
+          },
+          {
+            "MedalName": "medal_vip_player_kill_vip"
+          },
+          {
+            "MedalName": "medal_juggernaut_player_kill_juggernaut"
+          },
+          {
+            "MedalName": "medal_oddball_carrier_kill_player"
+          },
+          {
+            "MedalName": "medal_ctf_flag_captured"
+          },
+          {
+            "MedalName": "medal_ctf_flag_player_kill_carrier"
+          },
+          {
+            "MedalName": "medal_ctf_flag_carrier_kill_player"
+          },
+          {
+            "MedalName": "medal_infection_survive"
+          }
+        ],
+        "MedalHudAnimation2": null,
+        "MedalAnimation": {
+          "Type": "chud_animation_definition",
+          "Name": "ui\\chud\\animations\\medal_animation",
+          "Generate": false
+        },
+        "CortanaChannel": {
+          "Type": "bitmap",
+          "Name": "ui\\chud\\bitmaps\\cortana_channel",
+          "Generate": false
+        },
+        "TestBitmap1": null,
+        "TestBitmap2": null,
+        "JammerDamage": null,
+        "JammerDamageSound": null,
+        "GrenadeSchematicsOffset": "X: 0, Y: 0",
+        "GrenadeAnchorOffset": 79.5,
+        "EquipmentVerticalOffset": 0.0,
+        "EquipmentVerticalOffsetDual": 30.0,
+        "EquipmentVerticalOffsetNone": -38.0,
+        "EquipmentHorizontalSize": 56.0,
+        "ScoreboardSpacingSize": 37.0,
+        "WaypointMinDistanceScale": 1.0,
+        "WaypointMaxDistanceScale": 1.75,
+        "WaypointScale": 0.0
+      },
+      {
+        "Type": "Dervish",
+        "PrimaryBackground": "Alpha: 0, Red: 14, Green: 98, Blue: 73",
+        "SecondaryBackground": "Alpha: 0, Red: 39, Green: 203, Blue: 155",
+        "HighlightForeground": "Alpha: 0, Red: 103, Green: 255, Blue: 210",
+        "WarningFlash": "Alpha: 0, Red: 215, Green: 50, Blue: 81",
+        "CrosshairNormal": "Alpha: 0, Red: 103, Green: 255, Blue: 210",
+        "CrosshairEnemy": "Alpha: 0, Red: 245, Green: 6, Blue: 51",
+        "CrosshairFriendly": "Alpha: 0, Red: 14, Green: 191, Blue: 0",
+        "BaseBlip": "Alpha: 0, Red: 255, Green: 255, Blue: 255",
+        "SelfBlip": "Alpha: 0, Red: 255, Green: 192, Blue: 5",
+        "EnemyBlip": "Alpha: 0, Red: 240, Green: 8, Blue: 51",
+        "NeutralBlip": "Alpha: 0, Red: 255, Green: 192, Blue: 5",
+        "FriendlyBlip": "Alpha: 0, Red: 255, Green: 192, Blue: 5",
+        "BlipPing": "Alpha: 0, Red: 255, Green: 255, Blue: 0",
+        "ObjectiveBlipOnRadar": "Alpha: 0, Red: 255, Green: 255, Blue: 255",
+        "ObjectiveBlipOffRadar": "Alpha: 0, Red: 255, Green: 255, Blue: 255",
+        "NavpointFriendly": "Alpha: 0, Red: 103, Green: 255, Blue: 210",
+        "NavpointNeutral": "Alpha: 0, Red: 94, Green: 94, Blue: 94",
+        "NavpointEnemy": "Alpha: 0, Red: 215, Green: 50, Blue: 81",
+        "NavpointAllyDead": "Alpha: 0, Red: 246, Green: 6, Blue: 51",
+        "NavpointAllyBlue": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "MessageFlashSelf": "Alpha: 0, Red: 13, Green: 191, Blue: 0",
+        "MessageFlashFriendly": "Alpha: 0, Red: 13, Green: 191, Blue: 0",
+        "MessageFlashEnemy": "Alpha: 0, Red: 255, Green: 0, Blue: 48",
+        "MessageFlashNeutral": "Alpha: 0, Red: 255, Green: 255, Blue: 255",
+        "InvincibleShield": "Alpha: 0, Red: 160, Green: 186, Blue: 238",
+        "NavpointAllyStandingBy": "Alpha: 0, Red: 25, Green: 25, Blue: 255",
+        "NavpointAllyFiring": "Alpha: 0, Red: 255, Green: 255, Blue: 25",
+        "NavpointAllyTakingDamage": "Alpha: 0, Red: 212, Green: 62, Blue: 6",
+        "NavpointAllySpeaking": "Alpha: 0, Red: 255, Green: 255, Blue: 255",
+        "GlobalDynamic29_HO": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "DefaultItemOutline": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "MAGItemOutline": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "DMGItemOutline": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "ACCItemOutline": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "ROFItemOutline": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "RNGItemOutline": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "PWRItemOutline": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "HudAttributes": [
+          {
+            "ResolutionFlags": "WideFull, StandardFull",
+            "WarpSourceFovY": "Degrees: 4.5",
+            "WarpAmount": 1.0,
+            "WarpDestinationZOffset": -0.95,
+            "VirtualWidth": 1920,
+            "VirtualHeight": 1080,
+            "MotionSensorOrigin": "X: 82.5, Y: 991.5",
+            "MotionSensorRadius": 87.0,
+            "BlipRadius": 6.0,
+            "GlobalSafeFrameHorizontal": 1.0,
+            "GlobalSafeFrameVertical": 1.0,
+            "SafeFrameHorizontalDing": 0.0,
+            "SafeFrameVerticalDing": 0.0,
+            "DamageBorderHealthEffect": null,
+            "ThirdPersonDamageBorderHealthEffect": null,
+            "DamageBorderShieldEffect": null,
+            "ThirdPersonDamageBorderShieldEffect": null,
+            "StateMessageScale": 1.5,
+            "StateLeftRightOffset_HO": "X: 0, Y: 0.16",
+            "ScaleUnknown1": 0.0,
+            "SpacingUnknown1": 0.0,
+            "ScaleUnknown2": 0.0,
+            "SpacingUnknown2": 0.0,
+            "MessageAnchorVerticalOffset": 0.07,
+            "StateMessageVerticalOffset": -1.0,
+            "MedalScale": 1.0,
+            "MedalWidth": 58.0,
+            "SurvivalMedalsOffset": "X: 0, Y: 0.64",
+            "Unknown32": 1.0,
+            "MultiplayerMedalsOffset": "X: 0, Y: 0",
+            "MessageScale": 1.5,
+            "MessageHeight": 37.5,
+            "MessageCountDelta": 0,
+            "MessageOffset": "X: 0, Y: 0.72",
+            "ScaleUnknown": 0.0,
+            "SpacingUnknown": 0.0,
+            "NullUnknown": 0.0,
+            "UnknownOffset3": "X: 0, Y: 0",
+            "PromptOffsetY": 0.0,
+            "PromptOffsetX": 0.0
+          },
+          {
+            "ResolutionFlags": "WideHalf",
+            "WarpSourceFovY": "Degrees: 4",
+            "WarpAmount": 1.5,
+            "WarpDestinationZOffset": -0.95,
+            "VirtualWidth": 2400,
+            "VirtualHeight": 870,
+            "MotionSensorOrigin": "X: 82.5, Y: 780",
+            "MotionSensorRadius": 87.0,
+            "BlipRadius": 6.0,
+            "GlobalSafeFrameHorizontal": 1.0,
+            "GlobalSafeFrameVertical": 1.0,
+            "SafeFrameHorizontalDing": 0.02,
+            "SafeFrameVerticalDing": 0.03,
+            "DamageBorderHealthEffect": null,
+            "ThirdPersonDamageBorderHealthEffect": null,
+            "DamageBorderShieldEffect": null,
+            "ThirdPersonDamageBorderShieldEffect": null,
+            "StateMessageScale": 1.5,
+            "StateLeftRightOffset_HO": "X: 0, Y: 0.19",
+            "ScaleUnknown1": 0.0,
+            "SpacingUnknown1": 0.0,
+            "ScaleUnknown2": 0.0,
+            "SpacingUnknown2": 0.0,
+            "MessageAnchorVerticalOffset": 0.07,
+            "StateMessageVerticalOffset": -1.0,
+            "MedalScale": 1.15,
+            "MedalWidth": 58.0,
+            "SurvivalMedalsOffset": "X: 0, Y: 0",
+            "Unknown32": 0.0,
+            "MultiplayerMedalsOffset": "X: 0, Y: 0",
+            "MessageScale": 1.875,
+            "MessageHeight": 37.5,
+            "MessageCountDelta": 0,
+            "MessageOffset": "X: 0, Y: 0.66",
+            "ScaleUnknown": 0.0,
+            "SpacingUnknown": 0.0,
+            "NullUnknown": 0.0,
+            "UnknownOffset3": "X: 0, Y: 0",
+            "PromptOffsetY": 0.0,
+            "PromptOffsetX": 0.0
+          },
+          {
+            "ResolutionFlags": "WideQuarter",
+            "WarpSourceFovY": "Degrees: 4.5",
+            "WarpAmount": 1.2,
+            "WarpDestinationZOffset": -0.95,
+            "VirtualWidth": 1440,
+            "VirtualHeight": 870,
+            "MotionSensorOrigin": "X: 82.5, Y: 780",
+            "MotionSensorRadius": 87.0,
+            "BlipRadius": 6.0,
+            "GlobalSafeFrameHorizontal": 1.0,
+            "GlobalSafeFrameVertical": 1.0,
+            "SafeFrameHorizontalDing": 0.02,
+            "SafeFrameVerticalDing": 0.03,
+            "DamageBorderHealthEffect": null,
+            "ThirdPersonDamageBorderHealthEffect": null,
+            "DamageBorderShieldEffect": null,
+            "ThirdPersonDamageBorderShieldEffect": null,
+            "StateMessageScale": 1.5,
+            "StateLeftRightOffset_HO": "X: 0, Y: 0.18",
+            "ScaleUnknown1": 0.0,
+            "SpacingUnknown1": 0.0,
+            "ScaleUnknown2": 0.0,
+            "SpacingUnknown2": 0.0,
+            "MessageAnchorVerticalOffset": 0.07,
+            "StateMessageVerticalOffset": -1.0,
+            "MedalScale": 1.0,
+            "MedalWidth": 58.0,
+            "SurvivalMedalsOffset": "X: 0, Y: 0",
+            "Unknown32": 0.0,
+            "MultiplayerMedalsOffset": "X: 0, Y: 0",
+            "MessageScale": 1.875,
+            "MessageHeight": 45.0,
+            "MessageCountDelta": 0,
+            "MessageOffset": "X: 0, Y: 0.64",
+            "ScaleUnknown": 0.0,
+            "SpacingUnknown": 0.0,
+            "NullUnknown": 0.0,
+            "UnknownOffset3": "X: 0, Y: 0",
+            "PromptOffsetY": 0.0,
+            "PromptOffsetX": 0.0
+          },
+          {
+            "ResolutionFlags": "NativeFull",
+            "WarpSourceFovY": "Degrees: 4.5",
+            "WarpAmount": 1.2,
+            "WarpDestinationZOffset": -0.95,
+            "VirtualWidth": 1707,
+            "VirtualHeight": 960,
+            "MotionSensorOrigin": "X: 82.5, Y: 870",
+            "MotionSensorRadius": 87.0,
+            "BlipRadius": 6.0,
+            "GlobalSafeFrameHorizontal": 1.0,
+            "GlobalSafeFrameVertical": 1.0,
+            "SafeFrameHorizontalDing": 0.0,
+            "SafeFrameVerticalDing": 0.0,
+            "DamageBorderHealthEffect": null,
+            "ThirdPersonDamageBorderHealthEffect": null,
+            "DamageBorderShieldEffect": null,
+            "ThirdPersonDamageBorderShieldEffect": null,
+            "StateMessageScale": 1.2,
+            "StateLeftRightOffset_HO": "X: 0, Y: 0.15",
+            "ScaleUnknown1": 0.0,
+            "SpacingUnknown1": 0.0,
+            "ScaleUnknown2": 0.0,
+            "SpacingUnknown2": 0.0,
+            "MessageAnchorVerticalOffset": 0.07,
+            "StateMessageVerticalOffset": -1.0,
+            "MedalScale": 1.0,
+            "MedalWidth": 58.0,
+            "SurvivalMedalsOffset": "X: 0, Y: 0",
+            "Unknown32": 0.0,
+            "MultiplayerMedalsOffset": "X: 0, Y: 0",
+            "MessageScale": 1.6500001,
+            "MessageHeight": 40.5,
+            "MessageCountDelta": 0,
+            "MessageOffset": "X: 0, Y: 0.67",
+            "ScaleUnknown": 0.0,
+            "SpacingUnknown": 0.0,
+            "NullUnknown": 0.0,
+            "UnknownOffset3": "X: 0, Y: 0",
+            "PromptOffsetY": 0.0,
+            "PromptOffsetX": 0.0
+          },
+          {
+            "ResolutionFlags": "NativeQuarter",
+            "WarpSourceFovY": "Degrees: 4.5",
+            "WarpAmount": 1.2,
+            "WarpDestinationZOffset": -0.95,
+            "VirtualWidth": 1281,
+            "VirtualHeight": 774,
+            "MotionSensorOrigin": "X: 82.5, Y: 684",
+            "MotionSensorRadius": 87.0,
+            "BlipRadius": 6.0,
+            "GlobalSafeFrameHorizontal": 1.0,
+            "GlobalSafeFrameVertical": 1.0,
+            "SafeFrameHorizontalDing": 0.02,
+            "SafeFrameVerticalDing": 0.03,
+            "DamageBorderHealthEffect": null,
+            "ThirdPersonDamageBorderHealthEffect": null,
+            "DamageBorderShieldEffect": null,
+            "ThirdPersonDamageBorderShieldEffect": null,
+            "StateMessageScale": 1.3,
+            "StateLeftRightOffset_HO": "X: 0, Y: 0.2",
+            "ScaleUnknown1": 0.0,
+            "SpacingUnknown1": 0.0,
+            "ScaleUnknown2": 0.0,
+            "SpacingUnknown2": 0.0,
+            "MessageAnchorVerticalOffset": 0.07,
+            "StateMessageVerticalOffset": -1.0,
+            "MedalScale": 1.15,
+            "MedalWidth": 58.0,
+            "SurvivalMedalsOffset": "X: 0, Y: 0",
+            "Unknown32": 0.0,
+            "MultiplayerMedalsOffset": "X: 0, Y: 0",
+            "MessageScale": 2.1,
+            "MessageHeight": 52.5,
+            "MessageCountDelta": -2,
+            "MessageOffset": "X: 0, Y: 0.75",
+            "ScaleUnknown": 0.0,
+            "SpacingUnknown": 0.0,
+            "NullUnknown": 0.0,
+            "UnknownOffset3": "X: 0, Y: 0",
+            "PromptOffsetY": 0.0,
+            "PromptOffsetX": 0.0
+          },
+          {
+            "ResolutionFlags": "StandardFull",
+            "WarpSourceFovY": "Degrees: 4.5",
+            "WarpAmount": 1.2,
+            "WarpDestinationZOffset": -0.95,
+            "VirtualWidth": 1380,
+            "VirtualHeight": 1035,
+            "MotionSensorOrigin": "X: 82.5, Y: 945",
+            "MotionSensorRadius": 87.0,
+            "BlipRadius": 6.0,
+            "GlobalSafeFrameHorizontal": 1.0,
+            "GlobalSafeFrameVertical": 1.0,
+            "SafeFrameHorizontalDing": 0.0,
+            "SafeFrameVerticalDing": 0.0,
+            "DamageBorderHealthEffect": null,
+            "ThirdPersonDamageBorderHealthEffect": null,
+            "DamageBorderShieldEffect": null,
+            "ThirdPersonDamageBorderShieldEffect": null,
+            "StateMessageScale": 1.2,
+            "StateLeftRightOffset_HO": "X: 0, Y: 0.15",
+            "ScaleUnknown1": 0.0,
+            "SpacingUnknown1": 0.0,
+            "ScaleUnknown2": 0.0,
+            "SpacingUnknown2": 0.0,
+            "MessageAnchorVerticalOffset": 0.07,
+            "StateMessageVerticalOffset": -1.0,
+            "MedalScale": 1.0,
+            "MedalWidth": 58.0,
+            "SurvivalMedalsOffset": "X: 0, Y: 0",
+            "Unknown32": 0.0,
+            "MultiplayerMedalsOffset": "X: 0, Y: 0",
+            "MessageScale": 1.6500001,
+            "MessageHeight": 40.5,
+            "MessageCountDelta": 0,
+            "MessageOffset": "X: 0, Y: 0.67",
+            "ScaleUnknown": 0.0,
+            "SpacingUnknown": 0.0,
+            "NullUnknown": 0.0,
+            "UnknownOffset3": "X: 0, Y: 0",
+            "PromptOffsetY": 0.0,
+            "PromptOffsetX": 0.0
+          },
+          {
+            "ResolutionFlags": "StandardHalf",
+            "WarpSourceFovY": "Degrees: 4.5",
+            "WarpAmount": 1.2,
+            "WarpDestinationZOffset": -0.95,
+            "VirtualWidth": 2064,
+            "VirtualHeight": 774,
+            "MotionSensorOrigin": "X: 82.5, Y: 684",
+            "MotionSensorRadius": 87.0,
+            "BlipRadius": 6.0,
+            "GlobalSafeFrameHorizontal": 1.0,
+            "GlobalSafeFrameVertical": 1.0,
+            "SafeFrameHorizontalDing": 0.02,
+            "SafeFrameVerticalDing": 0.03,
+            "DamageBorderHealthEffect": null,
+            "ThirdPersonDamageBorderHealthEffect": null,
+            "DamageBorderShieldEffect": null,
+            "ThirdPersonDamageBorderShieldEffect": null,
+            "StateMessageScale": 1.5,
+            "StateLeftRightOffset_HO": "X: 0, Y: 0.2",
+            "ScaleUnknown1": 0.0,
+            "SpacingUnknown1": 0.0,
+            "ScaleUnknown2": 0.0,
+            "SpacingUnknown2": 0.0,
+            "MessageAnchorVerticalOffset": 0.07,
+            "StateMessageVerticalOffset": -1.0,
+            "MedalScale": 1.0,
+            "MedalWidth": 58.0,
+            "SurvivalMedalsOffset": "X: 0, Y: 0",
+            "Unknown32": 0.0,
+            "MultiplayerMedalsOffset": "X: 0, Y: 0",
+            "MessageScale": 2.1,
+            "MessageHeight": 52.5,
+            "MessageCountDelta": 0,
+            "MessageOffset": "X: 0, Y: 0.56",
+            "ScaleUnknown": 0.0,
+            "SpacingUnknown": 0.0,
+            "NullUnknown": 0.0,
+            "UnknownOffset3": "X: 0, Y: 0",
+            "PromptOffsetY": 0.0,
+            "PromptOffsetX": 0.0
+          },
+          {
+            "ResolutionFlags": "StandardQuarter",
+            "WarpSourceFovY": "Degrees: 4.5",
+            "WarpAmount": 1.2,
+            "WarpDestinationZOffset": -0.95,
+            "VirtualWidth": 1032,
+            "VirtualHeight": 774,
+            "MotionSensorOrigin": "X: 82.5, Y: 684",
+            "MotionSensorRadius": 87.0,
+            "BlipRadius": 6.0,
+            "GlobalSafeFrameHorizontal": 1.0,
+            "GlobalSafeFrameVertical": 1.0,
+            "SafeFrameHorizontalDing": 0.04,
+            "SafeFrameVerticalDing": 0.03,
+            "DamageBorderHealthEffect": null,
+            "ThirdPersonDamageBorderHealthEffect": null,
+            "DamageBorderShieldEffect": null,
+            "ThirdPersonDamageBorderShieldEffect": null,
+            "StateMessageScale": 1.3,
+            "StateLeftRightOffset_HO": "X: 0, Y: 0.21",
+            "ScaleUnknown1": 0.0,
+            "SpacingUnknown1": 0.0,
+            "ScaleUnknown2": 0.0,
+            "SpacingUnknown2": 0.0,
+            "MessageAnchorVerticalOffset": 0.07,
+            "StateMessageVerticalOffset": -1.0,
+            "MedalScale": 1.15,
+            "MedalWidth": 58.0,
+            "SurvivalMedalsOffset": "X: 0, Y: 0",
+            "Unknown32": 0.0,
+            "MultiplayerMedalsOffset": "X: 0, Y: 0",
+            "MessageScale": 2.1,
+            "MessageHeight": 52.5,
+            "MessageCountDelta": -2,
+            "MessageOffset": "X: 0, Y: 0.7",
+            "ScaleUnknown": 0.0,
+            "SpacingUnknown": 0.0,
+            "NullUnknown": 0.0,
+            "UnknownOffset3": "X: 0, Y: 0",
+            "PromptOffsetY": 0.0,
+            "PromptOffsetX": 0.0
+          }
+        ],
+        "HudSounds": [
+          {
+            "LatchedTo": "ShieldMinorDamage",
+            "Scale": 0.0,
+            "Bipeds": [
+              {
+                "BipedType_HO": "Spartan",
+                "Sound": {
+                  "Type": "sound",
+                  "Name": "sound\\game_sfx\\ui\\shield_hit",
+                  "Generate": false
+                }
+              },
+              {
+                "BipedType_HO": "Elite",
+                "Sound": {
+                  "Type": "sound",
+                  "Name": "sound\\game_sfx\\ui\\shield_hit",
+                  "Generate": false
+                }
+              }
+            ]
+          },
+          {
+            "LatchedTo": "ShieldRecharging",
+            "Scale": 0.0,
+            "Bipeds": [
+              {
+                "BipedType_HO": "Spartan",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\game_sfx\\ui\\shield_charge\\shield_charge",
+                  "Generate": false
+                }
+              },
+              {
+                "BipedType_HO": "Elite",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\game_sfx\\ui\\shield_charge_dervish\\shield_charge_dervish",
+                  "Generate": false
+                }
+              }
+            ]
+          },
+          {
+            "LatchedTo": "ShieldLow",
+            "Scale": 0.0,
+            "Bipeds": [
+              {
+                "BipedType_HO": "Spartan",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\game_sfx\\ui\\shield_low\\shield_low",
+                  "Generate": false
+                }
+              },
+              {
+                "BipedType_HO": "Elite",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\game_sfx\\ui\\shield_low_dervish\\shield_low_dervish",
+                  "Generate": false
+                }
+              }
+            ]
+          },
+          {
+            "LatchedTo": "ShieldEmpty",
+            "Scale": 0.0,
+            "Bipeds": [
+              {
+                "BipedType_HO": "Spartan",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\game_sfx\\ui\\shield_depleted\\shield_depleted",
+                  "Generate": false
+                }
+              },
+              {
+                "BipedType_HO": "Elite",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\game_sfx\\ui\\shield_depleted_dervish\\shield_depleted_dervish",
+                  "Generate": false
+                }
+              }
+            ]
+          },
+          {
+            "LatchedTo": "RocketLocking",
+            "Scale": 0.0,
+            "Bipeds": [
+              {
+                "BipedType_HO": "Spartan",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\weapons\\rocket_launcher\\tracking_locking\\tracking_locking",
+                  "Generate": false
+                }
+              },
+              {
+                "BipedType_HO": "Elite",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\weapons\\rocket_launcher\\tracking_locking\\tracking_locking",
+                  "Generate": false
+                }
+              }
+            ]
+          },
+          {
+            "LatchedTo": "RocketLocked",
+            "Scale": 0.0,
+            "Bipeds": [
+              {
+                "BipedType_HO": "Spartan",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\weapons\\rocket_launcher\\tracking_locked\\tracking_locked",
+                  "Generate": false
+                }
+              },
+              {
+                "BipedType_HO": "Elite",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\weapons\\rocket_launcher\\tracking_locked\\tracking_locked",
+                  "Generate": false
+                }
+              }
+            ]
+          },
+          {
+            "LatchedTo": "TrackedTarget",
+            "Scale": 0.0,
+            "Bipeds": [
+              {
+                "BipedType_HO": "Spartan",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\weapons\\missile_launcher\\tracking_locking\\tracking_locking",
+                  "Generate": false
+                }
+              },
+              {
+                "BipedType_HO": "Elite",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\weapons\\missile_launcher\\tracking_locking\\tracking_locking",
+                  "Generate": false
+                }
+              }
+            ]
+          },
+          {
+            "LatchedTo": "LockedTarget",
+            "Scale": 0.0,
+            "Bipeds": [
+              {
+                "BipedType_HO": "Spartan",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\weapons\\missile_launcher\\tracking_locked\\tracking_locked",
+                  "Generate": false
+                }
+              },
+              {
+                "BipedType_HO": "Elite",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\weapons\\missile_launcher\\tracking_locked\\tracking_locked",
+                  "Generate": false
+                }
+              }
+            ]
+          }
+        ],
+        "BannedVehicleEntranceSound": null,
+        "FragGrenadeSwapSound": {
+          "Type": "sound",
+          "Name": "sound\\game_sfx\\ui\\switch_grenades\\switch_to_frag_grenade",
+          "Generate": false
+        },
+        "PlasmaGrenadeSwapSound": {
+          "Type": "sound",
+          "Name": "sound\\game_sfx\\ui\\switch_grenades\\switch_to_plasma_grenade",
+          "Generate": false
+        },
+        "SpikeGrenadeSwapSound": {
+          "Type": "sound",
+          "Name": "sound\\game_sfx\\ui\\switch_grenades\\switch_to_claymore_grenade",
+          "Generate": false
+        },
+        "FirebombGrenadeSwapSound": {
+          "Type": "sound",
+          "Name": "sound\\game_sfx\\ui\\switch_grenades\\switch_to_fire_bomb",
+          "Generate": false
+        },
+        "DamageMicrotexture": {
+          "Type": "bitmap",
+          "Name": "ui\\chud\\bitmaps\\chud__elite_microtexture",
+          "Generate": false
+        },
+        "DamageNoise": {
+          "Type": "bitmap",
+          "Name": "ui\\chud\\bitmaps\\chud_noise",
+          "Generate": false
+        },
+        "DamageDirectionalArrow": {
+          "Type": "bitmap",
+          "Name": "ui\\chud\\bitmaps\\chud_directional_arrow",
+          "Generate": false
+        },
+        "GrenadeWaypoint": null,
+        "PinkGradient": null,
+        "DirectionalArrowDisplayTime": 0.0,
+        "DirectionalCutoffAngle": 0.0,
+        "DirectionalArrowScale": 50.0,
+        "Unknown10": 0.0,
+        "Unknown11": 0.0,
+        "Unknown12": 0.0,
+        "Waypoints": {
+          "Type": "bitmap",
+          "Name": "ui\\chud\\bitmaps\\waypoints",
+          "Generate": false
+        },
+        "PlayerWaypoints": null,
+        "ScoreboardHud": {
+          "Type": "chud_definition",
+          "Name": "ui\\chud\\scoreboard",
+          "Generate": false
+        },
+        "MetagameScoreboardHud": {
+          "Type": "chud_definition",
+          "Name": "ui\\chud\\metagame_scoreboard",
+          "Generate": false
+        },
+        "SurvivalHud": null,
+        "MetagameScoreboardHud2": null,
+        "TheaterHud": {
+          "Type": "chud_definition",
+          "Name": "ui\\chud\\saved_film",
+          "Generate": false
+        },
+        "ForgeHud": {
+          "Type": "chud_definition",
+          "Name": "ui\\chud\\sandbox",
+          "Generate": false
+        },
+        "HudStrings": {
+          "Type": "multilingual_unicode_string_list",
+          "Name": "ui\\hud\\hud_messages",
+          "Generate": false
+        },
+        "Medals": {
+          "Type": "bitmap",
+          "Name": "ui\\chud\\bitmaps\\medals\\medals",
+          "Generate": false
+        },
+        "MultiplayerMedals": [
+          {
+            "MedalName": "medal_extermination"
+          },
+          {
+            "MedalName": "medal_perfection"
+          },
+          {
+            "MedalName": "medal_multikill_2"
+          },
+          {
+            "MedalName": "medal_multikill_3"
+          },
+          {
+            "MedalName": "medal_multikill_4"
+          },
+          {
+            "MedalName": "medal_multikill_5"
+          },
+          {
+            "MedalName": "medal_multikill_6"
+          },
+          {
+            "MedalName": "medal_multikill_7"
+          },
+          {
+            "MedalName": "medal_multikill_8"
+          },
+          {
+            "MedalName": "medal_multikill_9"
+          },
+          {
+            "MedalName": "medal_multikill_10"
+          },
+          {
+            "MedalName": "medal_kill_spree_5"
+          },
+          {
+            "MedalName": "medal_kill_spree_10"
+          },
+          {
+            "MedalName": "medal_kill_spree_15"
+          },
+          {
+            "MedalName": "medal_kill_spree_20"
+          },
+          {
+            "MedalName": "medal_kill_spree_25"
+          },
+          {
+            "MedalName": "medal_kill_spree_30"
+          },
+          {
+            "MedalName": "medal_sniper_5"
+          },
+          {
+            "MedalName": "medal_sniper_10"
+          },
+          {
+            "MedalName": "medal_shotgun_5"
+          },
+          {
+            "MedalName": "medal_shotgun_10"
+          },
+          {
+            "MedalName": "medal_splatter_5"
+          },
+          {
+            "MedalName": "medal_splatter_10"
+          },
+          {
+            "MedalName": "medal_sword_5"
+          },
+          {
+            "MedalName": "medal_sword_10"
+          },
+          {
+            "MedalName": "medal_juggernaut_5"
+          },
+          {
+            "MedalName": "medal_juggernaut_10"
+          },
+          {
+            "MedalName": "medal_zombie_5"
+          },
+          {
+            "MedalName": "medal_zombie_10"
+          },
+          {
+            "MedalName": "medal_survivor_5"
+          },
+          {
+            "MedalName": "medal_survivor_10"
+          },
+          {
+            "MedalName": "medal_survivor_15"
+          },
+          {
+            "MedalName": "medal_koth_5"
+          },
+          {
+            "MedalName": "medal_shotgun_kill_sword"
+          },
+          {
+            "MedalName": "medal_vehicle_impact_kill"
+          },
+          {
+            "MedalName": "medal_vehicle_hijack"
+          },
+          {
+            "MedalName": "medal_aircraft_hijack"
+          },
+          {
+            "MedalName": "medal_deadplayer_kill_player"
+          },
+          {
+            "MedalName": "medal_player_kill_spreeplayer"
+          },
+          {
+            "MedalName": "medal_spartanlaser_kill"
+          },
+          {
+            "MedalName": "medal_stickygrenade_kill"
+          },
+          {
+            "MedalName": "medal_sniper_kill"
+          },
+          {
+            "MedalName": "medal_bashbehind_kill"
+          },
+          {
+            "MedalName": "medal_bash_kill"
+          },
+          {
+            "MedalName": "medal_flame_kill"
+          },
+          {
+            "MedalName": "medal_player_kill_occupiedvehicle"
+          },
+          {
+            "MedalName": "medal_driver_assist_gunner"
+          },
+          {
+            "MedalName": "medal_assault_bomb_planted"
+          },
+          {
+            "MedalName": "medal_assault_player_kill_carrier"
+          },
+          {
+            "MedalName": "medal_vip_player_kill_vip"
+          },
+          {
+            "MedalName": "medal_juggernaut_player_kill_juggernaut"
+          },
+          {
+            "MedalName": "medal_oddball_carrier_kill_player"
+          },
+          {
+            "MedalName": "medal_ctf_flag_captured"
+          },
+          {
+            "MedalName": "medal_ctf_flag_player_kill_carrier"
+          },
+          {
+            "MedalName": "medal_ctf_flag_carrier_kill_player"
+          },
+          {
+            "MedalName": "medal_infection_survive"
+          }
+        ],
+        "MedalHudAnimation2": null,
+        "MedalAnimation": {
+          "Type": "chud_animation_definition",
+          "Name": "ui\\chud\\animations\\medal_animation",
+          "Generate": false
+        },
+        "CortanaChannel": {
+          "Type": "bitmap",
+          "Name": "ui\\chud\\bitmaps\\cortana_channel",
+          "Generate": false
+        },
+        "TestBitmap1": null,
+        "TestBitmap2": null,
+        "JammerDamage": null,
+        "JammerDamageSound": null,
+        "GrenadeSchematicsOffset": "X: 0, Y: 0.003",
+        "GrenadeAnchorOffset": 79.5,
+        "EquipmentVerticalOffset": 0.0,
+        "EquipmentVerticalOffsetDual": 30.0,
+        "EquipmentVerticalOffsetNone": -38.0,
+        "EquipmentHorizontalSize": 56.0,
+        "ScoreboardSpacingSize": 37.0,
+        "WaypointMinDistanceScale": 1.0,
+        "WaypointMaxDistanceScale": 1.75,
+        "WaypointScale": 0.0
+      },
+      {
+        "Type": "Monitor",
+        "PrimaryBackground": "Alpha: 0, Red: 3, Green: 28, Blue: 56",
+        "SecondaryBackground": "Alpha: 0, Red: 36, Green: 139, Blue: 255",
+        "HighlightForeground": "Alpha: 0, Red: 93, Green: 169, Blue: 255",
+        "WarningFlash": "Alpha: 0, Red: 240, Green: 37, Blue: 37",
+        "CrosshairNormal": "Alpha: 0, Red: 55, Green: 149, Blue: 255",
+        "CrosshairEnemy": "Alpha: 0, Red: 246, Green: 6, Blue: 6",
+        "CrosshairFriendly": "Alpha: 0, Red: 0, Green: 255, Blue: 0",
+        "BaseBlip": "Alpha: 0, Red: 255, Green: 255, Blue: 255",
+        "SelfBlip": "Alpha: 0, Red: 255, Green: 192, Blue: 5",
+        "EnemyBlip": "Alpha: 0, Red: 246, Green: 6, Blue: 6",
+        "NeutralBlip": "Alpha: 0, Red: 255, Green: 192, Blue: 5",
+        "FriendlyBlip": "Alpha: 0, Red: 255, Green: 192, Blue: 5",
+        "BlipPing": "Alpha: 0, Red: 255, Green: 255, Blue: 0",
+        "ObjectiveBlipOnRadar": "Alpha: 0, Red: 255, Green: 255, Blue: 255",
+        "ObjectiveBlipOffRadar": "Alpha: 0, Red: 255, Green: 255, Blue: 255",
+        "NavpointFriendly": "Alpha: 0, Red: 0, Green: 255, Blue: 9",
+        "NavpointNeutral": "Alpha: 0, Red: 94, Green: 94, Blue: 94",
+        "NavpointEnemy": "Alpha: 0, Red: 216, Green: 50, Blue: 50",
+        "NavpointAllyDead": "Alpha: 0, Red: 246, Green: 6, Blue: 10",
+        "NavpointAllyBlue": "Alpha: 0, Red: 0, Green: 96, Blue: 255",
+        "MessageFlashSelf": "Alpha: 0, Red: 0, Green: 255, Blue: 34",
+        "MessageFlashFriendly": "Alpha: 0, Red: 0, Green: 255, Blue: 9",
+        "MessageFlashEnemy": "Alpha: 0, Red: 255, Green: 0, Blue: 0",
+        "MessageFlashNeutral": "Alpha: 0, Red: 255, Green: 255, Blue: 255",
+        "InvincibleShield": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "NavpointAllyStandingBy": "Alpha: 0, Red: 25, Green: 25, Blue: 255",
+        "NavpointAllyFiring": "Alpha: 0, Red: 255, Green: 255, Blue: 25",
+        "NavpointAllyTakingDamage": "Alpha: 0, Red: 245, Green: 99, Blue: 31",
+        "NavpointAllySpeaking": "Alpha: 0, Red: 255, Green: 255, Blue: 255",
+        "GlobalDynamic29_HO": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "DefaultItemOutline": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "MAGItemOutline": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "DMGItemOutline": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "ACCItemOutline": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "ROFItemOutline": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "RNGItemOutline": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "PWRItemOutline": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "HudAttributes": [
+          {
+            "ResolutionFlags": "WideFull, StandardFull",
+            "WarpSourceFovY": "Degrees: 1",
+            "WarpAmount": 1.2,
+            "WarpDestinationZOffset": 1.0,
+            "VirtualWidth": 1920,
+            "VirtualHeight": 1080,
+            "MotionSensorOrigin": "X: 82.5, Y: 991.5",
+            "MotionSensorRadius": 87.0,
+            "BlipRadius": 6.0,
+            "GlobalSafeFrameHorizontal": 1.0,
+            "GlobalSafeFrameVertical": 1.0,
+            "SafeFrameHorizontalDing": 0.0,
+            "SafeFrameVerticalDing": 0.0,
+            "DamageBorderHealthEffect": null,
+            "ThirdPersonDamageBorderHealthEffect": null,
+            "DamageBorderShieldEffect": null,
+            "ThirdPersonDamageBorderShieldEffect": null,
+            "StateMessageScale": 1.5,
+            "StateLeftRightOffset_HO": "X: 0, Y: 0.16",
+            "ScaleUnknown1": 0.0,
+            "SpacingUnknown1": 0.0,
+            "ScaleUnknown2": 0.0,
+            "SpacingUnknown2": 0.0,
+            "MessageAnchorVerticalOffset": 0.07,
+            "StateMessageVerticalOffset": -1.0,
+            "MedalScale": 1.0,
+            "MedalWidth": 58.0,
+            "SurvivalMedalsOffset": "X: 0, Y: 0.64",
+            "Unknown32": 1.0,
+            "MultiplayerMedalsOffset": "X: 0, Y: 0",
+            "MessageScale": 1.5,
+            "MessageHeight": 37.5,
+            "MessageCountDelta": 0,
+            "MessageOffset": "X: 0, Y: 0.72",
+            "ScaleUnknown": 0.0,
+            "SpacingUnknown": 0.0,
+            "NullUnknown": 0.0,
+            "UnknownOffset3": "X: 0, Y: 0",
+            "PromptOffsetY": 0.0,
+            "PromptOffsetX": 0.0
+          },
+          {
+            "ResolutionFlags": "WideHalf",
+            "WarpSourceFovY": "Degrees: 1",
+            "WarpAmount": 1.2,
+            "WarpDestinationZOffset": 1.0,
+            "VirtualWidth": 2400,
+            "VirtualHeight": 870,
+            "MotionSensorOrigin": "X: 82.5, Y: 780",
+            "MotionSensorRadius": 87.0,
+            "BlipRadius": 6.0,
+            "GlobalSafeFrameHorizontal": 1.0,
+            "GlobalSafeFrameVertical": 1.0,
+            "SafeFrameHorizontalDing": 0.02,
+            "SafeFrameVerticalDing": 0.03,
+            "DamageBorderHealthEffect": null,
+            "ThirdPersonDamageBorderHealthEffect": null,
+            "DamageBorderShieldEffect": null,
+            "ThirdPersonDamageBorderShieldEffect": null,
+            "StateMessageScale": 1.5,
+            "StateLeftRightOffset_HO": "X: 0, Y: 0.11",
+            "ScaleUnknown1": 0.0,
+            "SpacingUnknown1": 0.0,
+            "ScaleUnknown2": 0.0,
+            "SpacingUnknown2": 0.0,
+            "MessageAnchorVerticalOffset": 0.07,
+            "StateMessageVerticalOffset": -1.0,
+            "MedalScale": 1.15,
+            "MedalWidth": 58.0,
+            "SurvivalMedalsOffset": "X: 0, Y: 0",
+            "Unknown32": 0.0,
+            "MultiplayerMedalsOffset": "X: 0, Y: 0",
+            "MessageScale": 1.875,
+            "MessageHeight": 37.5,
+            "MessageCountDelta": 0,
+            "MessageOffset": "X: 0, Y: 0.67",
+            "ScaleUnknown": 0.0,
+            "SpacingUnknown": 0.0,
+            "NullUnknown": 0.0,
+            "UnknownOffset3": "X: 0, Y: 0",
+            "PromptOffsetY": 0.0,
+            "PromptOffsetX": 0.0
+          },
+          {
+            "ResolutionFlags": "WideQuarter",
+            "WarpSourceFovY": "Degrees: 1",
+            "WarpAmount": 1.2,
+            "WarpDestinationZOffset": 1.0,
+            "VirtualWidth": 1440,
+            "VirtualHeight": 870,
+            "MotionSensorOrigin": "X: 82.5, Y: 780",
+            "MotionSensorRadius": 87.0,
+            "BlipRadius": 6.0,
+            "GlobalSafeFrameHorizontal": 1.0,
+            "GlobalSafeFrameVertical": 1.0,
+            "SafeFrameHorizontalDing": 0.02,
+            "SafeFrameVerticalDing": 0.03,
+            "DamageBorderHealthEffect": null,
+            "ThirdPersonDamageBorderHealthEffect": null,
+            "DamageBorderShieldEffect": null,
+            "ThirdPersonDamageBorderShieldEffect": null,
+            "StateMessageScale": 1.5,
+            "StateLeftRightOffset_HO": "X: 0, Y: 0.1",
+            "ScaleUnknown1": 0.0,
+            "SpacingUnknown1": 0.0,
+            "ScaleUnknown2": 0.0,
+            "SpacingUnknown2": 0.0,
+            "MessageAnchorVerticalOffset": 0.07,
+            "StateMessageVerticalOffset": -1.0,
+            "MedalScale": 1.15,
+            "MedalWidth": 58.0,
+            "SurvivalMedalsOffset": "X: 0, Y: 0",
+            "Unknown32": 0.0,
+            "MultiplayerMedalsOffset": "X: 0, Y: 0",
+            "MessageScale": 1.875,
+            "MessageHeight": 45.0,
+            "MessageCountDelta": 0,
+            "MessageOffset": "X: 0, Y: 0.65",
+            "ScaleUnknown": 0.0,
+            "SpacingUnknown": 0.0,
+            "NullUnknown": 0.0,
+            "UnknownOffset3": "X: 0, Y: 0",
+            "PromptOffsetY": 0.0,
+            "PromptOffsetX": 0.0
+          },
+          {
+            "ResolutionFlags": "NativeFull",
+            "WarpSourceFovY": "Degrees: 1",
+            "WarpAmount": 1.2,
+            "WarpDestinationZOffset": 1.0,
+            "VirtualWidth": 1707,
+            "VirtualHeight": 960,
+            "MotionSensorOrigin": "X: 82.5, Y: 870",
+            "MotionSensorRadius": 87.0,
+            "BlipRadius": 6.0,
+            "GlobalSafeFrameHorizontal": 1.0,
+            "GlobalSafeFrameVertical": 1.0,
+            "SafeFrameHorizontalDing": 0.0,
+            "SafeFrameVerticalDing": 0.0,
+            "DamageBorderHealthEffect": null,
+            "ThirdPersonDamageBorderHealthEffect": null,
+            "DamageBorderShieldEffect": null,
+            "ThirdPersonDamageBorderShieldEffect": null,
+            "StateMessageScale": 1.2,
+            "StateLeftRightOffset_HO": "X: 0, Y: 0.15",
+            "ScaleUnknown1": 0.0,
+            "SpacingUnknown1": 0.0,
+            "ScaleUnknown2": 0.0,
+            "SpacingUnknown2": 0.0,
+            "MessageAnchorVerticalOffset": 0.07,
+            "StateMessageVerticalOffset": -1.0,
+            "MedalScale": 1.0,
+            "MedalWidth": 58.0,
+            "SurvivalMedalsOffset": "X: 0, Y: 0",
+            "Unknown32": 0.0,
+            "MultiplayerMedalsOffset": "X: 0, Y: 0",
+            "MessageScale": 1.6500001,
+            "MessageHeight": 40.5,
+            "MessageCountDelta": 0,
+            "MessageOffset": "X: 0, Y: 0.67",
+            "ScaleUnknown": 0.0,
+            "SpacingUnknown": 0.0,
+            "NullUnknown": 0.0,
+            "UnknownOffset3": "X: 0, Y: 0",
+            "PromptOffsetY": 0.0,
+            "PromptOffsetX": 0.0
+          },
+          {
+            "ResolutionFlags": "NativeQuarter",
+            "WarpSourceFovY": "Degrees: 1",
+            "WarpAmount": 1.2,
+            "WarpDestinationZOffset": 1.0,
+            "VirtualWidth": 1281,
+            "VirtualHeight": 774,
+            "MotionSensorOrigin": "X: 82.5, Y: 684",
+            "MotionSensorRadius": 87.0,
+            "BlipRadius": 6.0,
+            "GlobalSafeFrameHorizontal": 1.0,
+            "GlobalSafeFrameVertical": 1.0,
+            "SafeFrameHorizontalDing": 0.02,
+            "SafeFrameVerticalDing": 0.03,
+            "DamageBorderHealthEffect": null,
+            "ThirdPersonDamageBorderHealthEffect": null,
+            "DamageBorderShieldEffect": null,
+            "ThirdPersonDamageBorderShieldEffect": null,
+            "StateMessageScale": 1.3,
+            "StateLeftRightOffset_HO": "X: 0, Y: 0.2",
+            "ScaleUnknown1": 0.0,
+            "SpacingUnknown1": 0.0,
+            "ScaleUnknown2": 0.0,
+            "SpacingUnknown2": 0.0,
+            "MessageAnchorVerticalOffset": 0.07,
+            "StateMessageVerticalOffset": -1.0,
+            "MedalScale": 1.15,
+            "MedalWidth": 58.0,
+            "SurvivalMedalsOffset": "X: 0, Y: 0",
+            "Unknown32": 0.0,
+            "MultiplayerMedalsOffset": "X: 0, Y: 0",
+            "MessageScale": 2.1,
+            "MessageHeight": 52.5,
+            "MessageCountDelta": -2,
+            "MessageOffset": "X: 0, Y: 0.75",
+            "ScaleUnknown": 0.0,
+            "SpacingUnknown": 0.0,
+            "NullUnknown": 0.0,
+            "UnknownOffset3": "X: 0, Y: 0",
+            "PromptOffsetY": 0.0,
+            "PromptOffsetX": 0.0
+          },
+          {
+            "ResolutionFlags": "StandardFull",
+            "WarpSourceFovY": "Degrees: 1",
+            "WarpAmount": 1.2,
+            "WarpDestinationZOffset": 1.0,
+            "VirtualWidth": 1380,
+            "VirtualHeight": 1035,
+            "MotionSensorOrigin": "X: 82.5, Y: 945",
+            "MotionSensorRadius": 87.0,
+            "BlipRadius": 6.0,
+            "GlobalSafeFrameHorizontal": 1.0,
+            "GlobalSafeFrameVertical": 1.0,
+            "SafeFrameHorizontalDing": 0.0,
+            "SafeFrameVerticalDing": 0.0,
+            "DamageBorderHealthEffect": null,
+            "ThirdPersonDamageBorderHealthEffect": null,
+            "DamageBorderShieldEffect": null,
+            "ThirdPersonDamageBorderShieldEffect": null,
+            "StateMessageScale": 1.2,
+            "StateLeftRightOffset_HO": "X: 0, Y: 0.15",
+            "ScaleUnknown1": 0.0,
+            "SpacingUnknown1": 0.0,
+            "ScaleUnknown2": 0.0,
+            "SpacingUnknown2": 0.0,
+            "MessageAnchorVerticalOffset": 0.07,
+            "StateMessageVerticalOffset": -1.0,
+            "MedalScale": 1.0,
+            "MedalWidth": 58.0,
+            "SurvivalMedalsOffset": "X: 0, Y: 0",
+            "Unknown32": 0.0,
+            "MultiplayerMedalsOffset": "X: 0, Y: 0",
+            "MessageScale": 1.6500001,
+            "MessageHeight": 40.5,
+            "MessageCountDelta": 0,
+            "MessageOffset": "X: 0, Y: 0.67",
+            "ScaleUnknown": 0.0,
+            "SpacingUnknown": 0.0,
+            "NullUnknown": 0.0,
+            "UnknownOffset3": "X: 0, Y: 0",
+            "PromptOffsetY": 0.0,
+            "PromptOffsetX": 0.0
+          },
+          {
+            "ResolutionFlags": "StandardHalf",
+            "WarpSourceFovY": "Degrees: 1",
+            "WarpAmount": 1.2,
+            "WarpDestinationZOffset": 1.0,
+            "VirtualWidth": 2064,
+            "VirtualHeight": 774,
+            "MotionSensorOrigin": "X: 82.5, Y: 684",
+            "MotionSensorRadius": 87.0,
+            "BlipRadius": 6.0,
+            "GlobalSafeFrameHorizontal": 1.0,
+            "GlobalSafeFrameVertical": 1.0,
+            "SafeFrameHorizontalDing": 0.02,
+            "SafeFrameVerticalDing": 0.03,
+            "DamageBorderHealthEffect": null,
+            "ThirdPersonDamageBorderHealthEffect": null,
+            "DamageBorderShieldEffect": null,
+            "ThirdPersonDamageBorderShieldEffect": null,
+            "StateMessageScale": 1.5,
+            "StateLeftRightOffset_HO": "X: 0, Y: 0.19",
+            "ScaleUnknown1": 0.0,
+            "SpacingUnknown1": 0.0,
+            "ScaleUnknown2": 0.0,
+            "SpacingUnknown2": 0.0,
+            "MessageAnchorVerticalOffset": 0.07,
+            "StateMessageVerticalOffset": -1.0,
+            "MedalScale": 1.15,
+            "MedalWidth": 58.0,
+            "SurvivalMedalsOffset": "X: 0, Y: 0",
+            "Unknown32": 0.0,
+            "MultiplayerMedalsOffset": "X: 0, Y: 0",
+            "MessageScale": 2.1,
+            "MessageHeight": 52.5,
+            "MessageCountDelta": 0,
+            "MessageOffset": "X: 0, Y: 0.6",
+            "ScaleUnknown": 0.0,
+            "SpacingUnknown": 0.0,
+            "NullUnknown": 0.0,
+            "UnknownOffset3": "X: 0, Y: 0",
+            "PromptOffsetY": 0.0,
+            "PromptOffsetX": 0.0
+          },
+          {
+            "ResolutionFlags": "StandardQuarter",
+            "WarpSourceFovY": "Degrees: 1",
+            "WarpAmount": 1.2,
+            "WarpDestinationZOffset": 1.0,
+            "VirtualWidth": 1032,
+            "VirtualHeight": 774,
+            "MotionSensorOrigin": "X: 82.5, Y: 684",
+            "MotionSensorRadius": 87.0,
+            "BlipRadius": 6.0,
+            "GlobalSafeFrameHorizontal": 1.0,
+            "GlobalSafeFrameVertical": 1.0,
+            "SafeFrameHorizontalDing": 0.04,
+            "SafeFrameVerticalDing": 0.03,
+            "DamageBorderHealthEffect": null,
+            "ThirdPersonDamageBorderHealthEffect": null,
+            "DamageBorderShieldEffect": null,
+            "ThirdPersonDamageBorderShieldEffect": null,
+            "StateMessageScale": 1.3,
+            "StateLeftRightOffset_HO": "X: 0, Y: 0.19",
+            "ScaleUnknown1": 0.0,
+            "SpacingUnknown1": 0.0,
+            "ScaleUnknown2": 0.0,
+            "SpacingUnknown2": 0.0,
+            "MessageAnchorVerticalOffset": 0.07,
+            "StateMessageVerticalOffset": -1.0,
+            "MedalScale": 1.15,
+            "MedalWidth": 58.0,
+            "SurvivalMedalsOffset": "X: 0, Y: 0",
+            "Unknown32": 0.0,
+            "MultiplayerMedalsOffset": "X: 0, Y: 0",
+            "MessageScale": 2.1,
+            "MessageHeight": 52.5,
+            "MessageCountDelta": -2,
+            "MessageOffset": "X: 0, Y: 0.75",
+            "ScaleUnknown": 0.0,
+            "SpacingUnknown": 0.0,
+            "NullUnknown": 0.0,
+            "UnknownOffset3": "X: 0, Y: 0",
+            "PromptOffsetY": 0.0,
+            "PromptOffsetX": 0.0
+          }
+        ],
+        "HudSounds": [
+          {
+            "LatchedTo": "ShieldMinorDamage",
+            "Scale": 0.0,
+            "Bipeds": [
+              {
+                "BipedType_HO": "Spartan",
+                "Sound": {
+                  "Type": "sound",
+                  "Name": "sound\\game_sfx\\ui\\shield_hit",
+                  "Generate": false
+                }
+              },
+              {
+                "BipedType_HO": "Elite",
+                "Sound": {
+                  "Type": "sound",
+                  "Name": "sound\\game_sfx\\ui\\shield_hit",
+                  "Generate": false
+                }
+              }
+            ]
+          },
+          {
+            "LatchedTo": "ShieldRecharging",
+            "Scale": 0.0,
+            "Bipeds": [
+              {
+                "BipedType_HO": "Spartan",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\game_sfx\\ui\\shield_charge\\shield_charge",
+                  "Generate": false
+                }
+              },
+              {
+                "BipedType_HO": "Elite",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\game_sfx\\ui\\shield_charge_dervish\\shield_charge_dervish",
+                  "Generate": false
+                }
+              }
+            ]
+          },
+          {
+            "LatchedTo": "ShieldLow",
+            "Scale": 0.0,
+            "Bipeds": [
+              {
+                "BipedType_HO": "Spartan",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\game_sfx\\ui\\shield_low\\shield_low",
+                  "Generate": false
+                }
+              },
+              {
+                "BipedType_HO": "Elite",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\game_sfx\\ui\\shield_low_dervish\\shield_low_dervish",
+                  "Generate": false
+                }
+              }
+            ]
+          },
+          {
+            "LatchedTo": "ShieldEmpty",
+            "Scale": 0.0,
+            "Bipeds": [
+              {
+                "BipedType_HO": "Spartan",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\game_sfx\\ui\\shield_depleted\\shield_depleted",
+                  "Generate": false
+                }
+              },
+              {
+                "BipedType_HO": "Elite",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\game_sfx\\ui\\shield_depleted_dervish\\shield_depleted_dervish",
+                  "Generate": false
+                }
+              }
+            ]
+          },
+          {
+            "LatchedTo": "RocketLocking",
+            "Scale": 0.0,
+            "Bipeds": [
+              {
+                "BipedType_HO": "Spartan",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\weapons\\rocket_launcher\\tracking_locking\\tracking_locking",
+                  "Generate": false
+                }
+              },
+              {
+                "BipedType_HO": "Elite",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\weapons\\rocket_launcher\\tracking_locking\\tracking_locking",
+                  "Generate": false
+                }
+              }
+            ]
+          },
+          {
+            "LatchedTo": "RocketLocked",
+            "Scale": 0.0,
+            "Bipeds": [
+              {
+                "BipedType_HO": "Spartan",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\weapons\\rocket_launcher\\tracking_locked\\tracking_locked",
+                  "Generate": false
+                }
+              },
+              {
+                "BipedType_HO": "Elite",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\weapons\\rocket_launcher\\tracking_locked\\tracking_locked",
+                  "Generate": false
+                }
+              }
+            ]
+          },
+          {
+            "LatchedTo": "TrackedTarget",
+            "Scale": 0.0,
+            "Bipeds": [
+              {
+                "BipedType_HO": "Spartan",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\weapons\\missile_launcher\\tracking_locking\\tracking_locking",
+                  "Generate": false
+                }
+              },
+              {
+                "BipedType_HO": "Elite",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\weapons\\missile_launcher\\tracking_locking\\tracking_locking",
+                  "Generate": false
+                }
+              }
+            ]
+          },
+          {
+            "LatchedTo": "LockedTarget",
+            "Scale": 0.0,
+            "Bipeds": [
+              {
+                "BipedType_HO": "Spartan",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\weapons\\missile_launcher\\tracking_locked\\tracking_locked",
+                  "Generate": false
+                }
+              },
+              {
+                "BipedType_HO": "Elite",
+                "Sound": {
+                  "Type": "sound_looping",
+                  "Name": "sound\\weapons\\missile_launcher\\tracking_locked\\tracking_locked",
+                  "Generate": false
+                }
+              }
+            ]
+          }
+        ],
+        "BannedVehicleEntranceSound": null,
+        "FragGrenadeSwapSound": {
+          "Type": "sound",
+          "Name": "sound\\game_sfx\\ui\\switch_grenades\\switch_to_frag_grenade",
+          "Generate": false
+        },
+        "PlasmaGrenadeSwapSound": {
+          "Type": "sound",
+          "Name": "sound\\game_sfx\\ui\\switch_grenades\\switch_to_plasma_grenade",
+          "Generate": false
+        },
+        "SpikeGrenadeSwapSound": {
+          "Type": "sound",
+          "Name": "sound\\game_sfx\\ui\\switch_grenades\\switch_to_claymore_grenade",
+          "Generate": false
+        },
+        "FirebombGrenadeSwapSound": {
+          "Type": "sound",
+          "Name": "sound\\game_sfx\\ui\\switch_grenades\\switch_to_fire_bomb",
+          "Generate": false
+        },
+        "DamageMicrotexture": {
+          "Type": "bitmap",
+          "Name": "ui\\chud\\bitmaps\\chud_microtexture",
+          "Generate": false
+        },
+        "DamageNoise": {
+          "Type": "bitmap",
+          "Name": "ui\\chud\\bitmaps\\chud_noise",
+          "Generate": false
+        },
+        "DamageDirectionalArrow": {
+          "Type": "bitmap",
+          "Name": "ui\\chud\\bitmaps\\chud_directional_arrow",
+          "Generate": false
+        },
+        "GrenadeWaypoint": null,
+        "PinkGradient": null,
+        "DirectionalArrowDisplayTime": 0.0,
+        "DirectionalCutoffAngle": 0.0,
+        "DirectionalArrowScale": 50.0,
+        "Unknown10": 0.0,
+        "Unknown11": 0.0,
+        "Unknown12": 0.0,
+        "Waypoints": {
+          "Type": "bitmap",
+          "Name": "ui\\chud\\bitmaps\\waypoints",
+          "Generate": false
+        },
+        "PlayerWaypoints": null,
+        "ScoreboardHud": {
+          "Type": "chud_definition",
+          "Name": "ui\\chud\\scoreboard",
+          "Generate": false
+        },
+        "MetagameScoreboardHud": {
+          "Type": "chud_definition",
+          "Name": "ui\\chud\\metagame_scoreboard",
+          "Generate": false
+        },
+        "SurvivalHud": null,
+        "MetagameScoreboardHud2": null,
+        "TheaterHud": {
+          "Type": "chud_definition",
+          "Name": "ui\\chud\\saved_film",
+          "Generate": false
+        },
+        "ForgeHud": {
+          "Type": "chud_definition",
+          "Name": "ui\\chud\\sandbox",
+          "Generate": false
+        },
+        "HudStrings": {
+          "Type": "multilingual_unicode_string_list",
+          "Name": "ui\\hud\\hud_messages",
+          "Generate": false
+        },
+        "Medals": {
+          "Type": "bitmap",
+          "Name": "ui\\chud\\bitmaps\\medals\\medals",
+          "Generate": false
+        },
+        "MultiplayerMedals": [
+          {
+            "MedalName": "medal_extermination"
+          },
+          {
+            "MedalName": "medal_perfection"
+          },
+          {
+            "MedalName": "medal_multikill_2"
+          },
+          {
+            "MedalName": "medal_multikill_3"
+          },
+          {
+            "MedalName": "medal_multikill_4"
+          },
+          {
+            "MedalName": "medal_multikill_5"
+          },
+          {
+            "MedalName": "medal_multikill_6"
+          },
+          {
+            "MedalName": "medal_multikill_7"
+          },
+          {
+            "MedalName": "medal_multikill_8"
+          },
+          {
+            "MedalName": "medal_multikill_9"
+          },
+          {
+            "MedalName": "medal_multikill_10"
+          },
+          {
+            "MedalName": "medal_kill_spree_5"
+          },
+          {
+            "MedalName": "medal_kill_spree_10"
+          },
+          {
+            "MedalName": "medal_kill_spree_15"
+          },
+          {
+            "MedalName": "medal_kill_spree_20"
+          },
+          {
+            "MedalName": "medal_kill_spree_25"
+          },
+          {
+            "MedalName": "medal_kill_spree_30"
+          },
+          {
+            "MedalName": "medal_sniper_5"
+          },
+          {
+            "MedalName": "medal_sniper_10"
+          },
+          {
+            "MedalName": "medal_shotgun_5"
+          },
+          {
+            "MedalName": "medal_shotgun_10"
+          },
+          {
+            "MedalName": "medal_splatter_5"
+          },
+          {
+            "MedalName": "medal_splatter_10"
+          },
+          {
+            "MedalName": "medal_sword_5"
+          },
+          {
+            "MedalName": "medal_sword_10"
+          },
+          {
+            "MedalName": "medal_juggernaut_5"
+          },
+          {
+            "MedalName": "medal_juggernaut_10"
+          },
+          {
+            "MedalName": "medal_zombie_5"
+          },
+          {
+            "MedalName": "medal_zombie_10"
+          },
+          {
+            "MedalName": "medal_survivor_5"
+          },
+          {
+            "MedalName": "medal_survivor_10"
+          },
+          {
+            "MedalName": "medal_survivor_15"
+          },
+          {
+            "MedalName": "medal_koth_5"
+          },
+          {
+            "MedalName": "medal_shotgun_kill_sword"
+          },
+          {
+            "MedalName": "medal_vehicle_impact_kill"
+          },
+          {
+            "MedalName": "medal_vehicle_hijack"
+          },
+          {
+            "MedalName": "medal_aircraft_hijack"
+          },
+          {
+            "MedalName": "medal_deadplayer_kill_player"
+          },
+          {
+            "MedalName": "medal_player_kill_spreeplayer"
+          },
+          {
+            "MedalName": "medal_spartanlaser_kill"
+          },
+          {
+            "MedalName": "medal_stickygrenade_kill"
+          },
+          {
+            "MedalName": "medal_sniper_kill"
+          },
+          {
+            "MedalName": "medal_bashbehind_kill"
+          },
+          {
+            "MedalName": "medal_bash_kill"
+          },
+          {
+            "MedalName": "medal_flame_kill"
+          },
+          {
+            "MedalName": "medal_player_kill_occupiedvehicle"
+          },
+          {
+            "MedalName": "medal_driver_assist_gunner"
+          },
+          {
+            "MedalName": "medal_assault_bomb_planted"
+          },
+          {
+            "MedalName": "medal_assault_player_kill_carrier"
+          },
+          {
+            "MedalName": "medal_vip_player_kill_vip"
+          },
+          {
+            "MedalName": "medal_juggernaut_player_kill_juggernaut"
+          },
+          {
+            "MedalName": "medal_oddball_carrier_kill_player"
+          },
+          {
+            "MedalName": "medal_ctf_flag_captured"
+          },
+          {
+            "MedalName": "medal_ctf_flag_player_kill_carrier"
+          },
+          {
+            "MedalName": "medal_ctf_flag_carrier_kill_player"
+          },
+          {
+            "MedalName": "medal_infection_survive"
+          }
+        ],
+        "MedalHudAnimation2": null,
+        "MedalAnimation": {
+          "Type": "chud_animation_definition",
+          "Name": "ui\\chud\\animations\\medal_animation",
+          "Generate": false
+        },
+        "CortanaChannel": {
+          "Type": "bitmap",
+          "Name": "ui\\chud\\bitmaps\\cortana_channel",
+          "Generate": false
+        },
+        "TestBitmap1": null,
+        "TestBitmap2": null,
+        "JammerDamage": null,
+        "JammerDamageSound": null,
+        "GrenadeSchematicsOffset": "X: 0, Y: 0",
+        "GrenadeAnchorOffset": 79.5,
+        "EquipmentVerticalOffset": 0.0,
+        "EquipmentVerticalOffsetDual": 30.0,
+        "EquipmentVerticalOffsetNone": -38.0,
+        "EquipmentHorizontalSize": 56.0,
+        "ScoreboardSpacingSize": 37.0,
+        "WaypointMinDistanceScale": 1.0,
+        "WaypointMaxDistanceScale": 1.75,
+        "WaypointScale": 0.0
+      }
+    ],
+    "HudShaders": [
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\chud_simple",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\chud_simple",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\chud_meter",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\chud_meter",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\chud_text_simple",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\chud_text_simple",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\chud_meter_shield",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\chud_meter_shield",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\chud_meter_gradient",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\chud_meter_gradient",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\chud_crosshair",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\chud_crosshair",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\chud_directional_damage",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\chud_directional_damage",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\chud_solid",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\chud_solid",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\chud_sensor",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\chud_sensor",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\chud_meter_single_color",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\chud_meter_single_color",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\chud_navpoint",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\chud_navpoint",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\chud_medal",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\chud_medal",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\chud_texture_cam",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\chud_texture_cam",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\chud_cortana_screen",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\chud_cortana_screen",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\chud_cortana_camera",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\chud_cortana_camera",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\chud_cortana_offscreen",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\chud_cortana_offscreen",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\chud_cortana_screen_final",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\chud_cortana_screen_final",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\chud_meter_chapter",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\chud_meter_chapter",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\chud_meter_double_gradient",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\chud_meter_double_gradient",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\chud_meter_radial_gradient",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\chud_meter_radial_gradient",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\chud_turbulence",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\chud_turbulence",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\chud_emblem",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\chud_emblem",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\chud_cortana_composite",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\chud_cortana_composite",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\chud_directional_damage_apply",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\chud_directional_damage_apply",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\chud_really_simple",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\chud_really_simple",
+          "Generate": false
+        }
+      }
+    ],
+    "SuckProfiles": [
+      {
+        "EffectRadius": 5.0,
+        "VertexNoiseBounds": "Lower: 0.01, Upper: 0.9",
+        "VertexNoisePower": 0.9,
+        "PixelNoiseBounds": "Lower: 1, Upper: 1",
+        "PixelNoisePower": 1.0,
+        "WarpRadiusBounds": "Lower: 0.01, Upper: 1",
+        "WarpRadiusPower": 2.0,
+        "WarpIntensityBounds": "Lower: 0.01, Upper: 0.4",
+        "WarpIntensityPower": 1.0,
+        "NoiseSharpnessBounds": "Lower: 1, Upper: 1",
+        "NoiseSharpnessPower": 1.0
+      }
+    ],
+    "CortanaConfigs": [
+      {
+        "Name": "invalid",
+        "DistanceConfigs": [
+          {
+            "Distance": 12.0,
+            "Facing": {
+              "NoiseAVelocity": "Lower: 3, Upper: 3",
+              "NoiseAScaleX": "Lower: 1, Upper: 1",
+              "NoiseAScaleY": "Lower: 1, Upper: 1",
+              "NoiseBVelocity": "Lower: 3, Upper: 3.2",
+              "NoiseBScaleX": "Lower: 0, Upper: 0",
+              "NoiseBScaleY": "Lower: 0.25, Upper: 0.25",
+              "PixelationThreshold": "Lower: 0.15, Upper: 0.25",
+              "PixelationPersistence": "Lower: 1, Upper: 1",
+              "PixelationVelocity": "Lower: 0.5, Upper: 0.5",
+              "PixelationTurbulence": "Lower: 0.25, Upper: 0.5",
+              "TranslationScaleX": "Lower: 0.01, Upper: 0.2",
+              "TranslationScaleY": "Lower: 0.01, Upper: 0.2",
+              "SoundReference": null
+            },
+            "Oblique": {
+              "NoiseAVelocity": "Lower: 3, Upper: 3",
+              "NoiseAScaleX": "Lower: 0.5, Upper: 0.5",
+              "NoiseAScaleY": "Lower: 0.5, Upper: 0.5",
+              "NoiseBVelocity": "Lower: 3, Upper: 3.2",
+              "NoiseBScaleX": "Lower: 0, Upper: 0",
+              "NoiseBScaleY": "Lower: 0.25, Upper: 0.25",
+              "PixelationThreshold": "Lower: 0.18, Upper: 0.1",
+              "PixelationPersistence": "Lower: 0.88, Upper: 0.96",
+              "PixelationVelocity": "Lower: 0.02, Upper: 0.02",
+              "PixelationTurbulence": "Lower: 0.25, Upper: 0.5",
+              "TranslationScaleX": "Lower: 0.01, Upper: 0.2",
+              "TranslationScaleY": "Lower: 0.01, Upper: 0.2",
+              "SoundReference": null
+            }
+          },
+          {
+            "Distance": 9.0,
+            "Facing": {
+              "NoiseAVelocity": "Lower: 3, Upper: 3",
+              "NoiseAScaleX": "Lower: 1, Upper: 1",
+              "NoiseAScaleY": "Lower: 1, Upper: 1",
+              "NoiseBVelocity": "Lower: 3, Upper: 3",
+              "NoiseBScaleX": "Lower: 0, Upper: 0",
+              "NoiseBScaleY": "Lower: 0.25, Upper: 1",
+              "PixelationThreshold": "Lower: 0.1, Upper: 0.06",
+              "PixelationPersistence": "Lower: 1, Upper: 1",
+              "PixelationVelocity": "Lower: 0.5, Upper: 0.5",
+              "PixelationTurbulence": "Lower: 0.3, Upper: 1",
+              "TranslationScaleX": "Lower: 0.05, Upper: 0.2",
+              "TranslationScaleY": "Lower: 0, Upper: 0",
+              "SoundReference": null
+            },
+            "Oblique": {
+              "NoiseAVelocity": "Lower: 3, Upper: 3",
+              "NoiseAScaleX": "Lower: 1, Upper: 1",
+              "NoiseAScaleY": "Lower: 1, Upper: 1",
+              "NoiseBVelocity": "Lower: 3, Upper: 3",
+              "NoiseBScaleX": "Lower: 0, Upper: 0",
+              "NoiseBScaleY": "Lower: 0.25, Upper: 1",
+              "PixelationThreshold": "Lower: 0.2, Upper: 0.1",
+              "PixelationPersistence": "Lower: 0.88, Upper: 0.94",
+              "PixelationVelocity": "Lower: 0.02, Upper: 0.02",
+              "PixelationTurbulence": "Lower: 0.25, Upper: 0.5",
+              "TranslationScaleX": "Lower: 0.01, Upper: 0.2",
+              "TranslationScaleY": "Lower: 0.01, Upper: 0.2",
+              "SoundReference": null
+            }
+          },
+          {
+            "Distance": 7.0,
+            "Facing": {
+              "NoiseAVelocity": "Lower: 4, Upper: 4",
+              "NoiseAScaleX": "Lower: 0.25, Upper: 1",
+              "NoiseAScaleY": "Lower: 0.25, Upper: 0.25",
+              "NoiseBVelocity": "Lower: 3, Upper: 3",
+              "NoiseBScaleX": "Lower: 0, Upper: 0",
+              "NoiseBScaleY": "Lower: 0.25, Upper: 1",
+              "PixelationThreshold": "Lower: 0.07, Upper: 0",
+              "PixelationPersistence": "Lower: 1, Upper: 1",
+              "PixelationVelocity": "Lower: 0.7, Upper: 0.9",
+              "PixelationTurbulence": "Lower: 0.3, Upper: 0.5",
+              "TranslationScaleX": "Lower: 0.01, Upper: 0.2",
+              "TranslationScaleY": "Lower: 0, Upper: 0",
+              "SoundReference": null
+            },
+            "Oblique": {
+              "NoiseAVelocity": "Lower: 4, Upper: 4",
+              "NoiseAScaleX": "Lower: 0.25, Upper: 1",
+              "NoiseAScaleY": "Lower: 0.25, Upper: 0.25",
+              "NoiseBVelocity": "Lower: 3, Upper: 3",
+              "NoiseBScaleX": "Lower: 0, Upper: 0",
+              "NoiseBScaleY": "Lower: 0.25, Upper: 1",
+              "PixelationThreshold": "Lower: 0.1, Upper: 0.05",
+              "PixelationPersistence": "Lower: 0.9, Upper: 0.94",
+              "PixelationVelocity": "Lower: 0.05, Upper: 0.1",
+              "PixelationTurbulence": "Lower: 0.3, Upper: 0.5",
+              "TranslationScaleX": "Lower: 0.01, Upper: 0.2",
+              "TranslationScaleY": "Lower: 0, Upper: 0",
+              "SoundReference": null
+            }
+          },
+          {
+            "Distance": 1.0,
+            "Facing": {
+              "NoiseAVelocity": "Lower: 4, Upper: 4",
+              "NoiseAScaleX": "Lower: 0.25, Upper: 1",
+              "NoiseAScaleY": "Lower: 0.25, Upper: 0.25",
+              "NoiseBVelocity": "Lower: 3, Upper: 3",
+              "NoiseBScaleX": "Lower: 0, Upper: 0",
+              "NoiseBScaleY": "Lower: 0.25, Upper: 1",
+              "PixelationThreshold": "Lower: 0.23, Upper: 0.17",
+              "PixelationPersistence": "Lower: 1, Upper: 1",
+              "PixelationVelocity": "Lower: 1.4, Upper: 2.4",
+              "PixelationTurbulence": "Lower: 0.3, Upper: 1",
+              "TranslationScaleX": "Lower: 0.01, Upper: 0.2",
+              "TranslationScaleY": "Lower: 0, Upper: 0",
+              "SoundReference": null
+            },
+            "Oblique": {
+              "NoiseAVelocity": "Lower: 3, Upper: 3",
+              "NoiseAScaleX": "Lower: 0.1, Upper: 0.4",
+              "NoiseAScaleY": "Lower: 0.2, Upper: 0.2",
+              "NoiseBVelocity": "Lower: 2, Upper: 2",
+              "NoiseBScaleX": "Lower: 0, Upper: 0",
+              "NoiseBScaleY": "Lower: 0.1, Upper: 0.7",
+              "PixelationThreshold": "Lower: 0.15, Upper: 0.1",
+              "PixelationPersistence": "Lower: 0.84, Upper: 0.91",
+              "PixelationVelocity": "Lower: 0, Upper: 0",
+              "PixelationTurbulence": "Lower: 0.2, Upper: 0.6",
+              "TranslationScaleX": "Lower: 0.01, Upper: 0.2",
+              "TranslationScaleY": "Lower: 0, Upper: 0",
+              "SoundReference": null
+            }
+          }
+        ]
+      }
+    ],
+    "PlayerTrainingData": [
+      {
+        "DisplayString": "training_flashlight",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 3,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 60,
+        "DisplayDelay": 0.0,
+        "Flags": "NotInMultiplayer"
+      },
+      {
+        "DisplayString": "training_crouch",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 3,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 60,
+        "DisplayDelay": 0.0,
+        "Flags": "NotInMultiplayer"
+      },
+      {
+        "DisplayString": "training_looklong",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 2,
+        "DisappearDelay": 0,
+        "RedisplayDelay": 180,
+        "DisplayDelay": 60.0,
+        "Flags": "NotInMultiplayer"
+      },
+      {
+        "DisplayString": "training_vehiclelooklong",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 3,
+        "DisappearDelay": 0,
+        "RedisplayDelay": 60,
+        "DisplayDelay": 60.0,
+        "Flags": "NotInMultiplayer"
+      },
+      {
+        "DisplayString": "training_stationaryvehicle",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 1,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 0,
+        "DisplayDelay": 12.0,
+        "Flags": "NotInMultiplayer"
+      },
+      {
+        "DisplayString": "training_devicehold",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 2,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 0,
+        "DisplayDelay": 0.5,
+        "Flags": "0"
+      },
+      {
+        "DisplayString": "training_vehiclehold",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 2,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 0,
+        "DisplayDelay": 0.5,
+        "Flags": "0"
+      },
+      {
+        "DisplayString": "training_swaphold",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 2,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 0,
+        "DisplayDelay": 0.5,
+        "Flags": "0"
+      },
+      {
+        "DisplayString": "training_dualhold",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 2,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 0,
+        "DisplayDelay": 0.5,
+        "Flags": "0"
+      },
+      {
+        "DisplayString": "training_leftfire",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 1,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 60,
+        "DisplayDelay": 60.0,
+        "Flags": "0"
+      },
+      {
+        "DisplayString": "training_vehiclelook",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 1,
+        "DisappearDelay": 0,
+        "RedisplayDelay": 0,
+        "DisplayDelay": 20.0,
+        "Flags": "NotInMultiplayer"
+      },
+      {
+        "DisplayString": "training_vehiclemove",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 1,
+        "DisappearDelay": 0,
+        "RedisplayDelay": 0,
+        "DisplayDelay": 30.0,
+        "Flags": "NotInMultiplayer"
+      },
+      {
+        "DisplayString": "training_look",
+        "MaxDisplayTime": 0,
+        "DisplayCount": 1,
+        "DisappearDelay": 0,
+        "RedisplayDelay": 0,
+        "DisplayDelay": 20.0,
+        "Flags": "NotInMultiplayer"
+      },
+      {
+        "DisplayString": "training_move",
+        "MaxDisplayTime": 0,
+        "DisplayCount": 1,
+        "DisappearDelay": 0,
+        "RedisplayDelay": 0,
+        "DisplayDelay": 20.0,
+        "Flags": "NotInMultiplayer"
+      },
+      {
+        "DisplayString": "training_unzoom",
+        "MaxDisplayTime": 0,
+        "DisplayCount": 1,
+        "DisappearDelay": 0,
+        "RedisplayDelay": 0,
+        "DisplayDelay": 20.0,
+        "Flags": "NotInMultiplayer"
+      },
+      {
+        "DisplayString": "invalid",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 1,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 30,
+        "DisplayDelay": 7.0,
+        "Flags": "NotInMultiplayer"
+      },
+      {
+        "DisplayString": "training_zoom",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 1,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 0,
+        "DisplayDelay": 60.0,
+        "Flags": "0"
+      },
+      {
+        "DisplayString": "training_throwgrenade",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 1,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 0,
+        "DisplayDelay": 15.0,
+        "Flags": "NotInMultiplayer"
+      },
+      {
+        "DisplayString": "invalid",
+        "MaxDisplayTime": 0,
+        "DisplayCount": 1,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 0,
+        "DisplayDelay": 7.0,
+        "Flags": "NotInMultiplayer"
+      },
+      {
+        "DisplayString": "training_rearmelee",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 3,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 60,
+        "DisplayDelay": 0.0,
+        "Flags": "NotInMultiplayer"
+      },
+      {
+        "DisplayString": "training_vehicleboard",
+        "MaxDisplayTime": 4,
+        "DisplayCount": 2,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 300,
+        "DisplayDelay": 5.0,
+        "Flags": "NotInMultiplayer"
+      },
+      {
+        "DisplayString": "training_shieldsrecharging",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 2,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 15,
+        "DisplayDelay": 0.0,
+        "Flags": "NotInMultiplayer"
+      },
+      {
+        "DisplayString": "training_shieldsdown",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 2,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 15,
+        "DisplayDelay": 0.0,
+        "Flags": "NotInMultiplayer"
+      },
+      {
+        "DisplayString": "training_reload",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 2,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 300,
+        "DisplayDelay": 20.0,
+        "Flags": "0"
+      },
+      {
+        "DisplayString": "training_ebrake",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 1,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 0,
+        "DisplayDelay": 90.0,
+        "Flags": "0"
+      },
+      {
+        "DisplayString": "invalid",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 1,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 60,
+        "DisplayDelay": 45.0,
+        "Flags": "NotInMultiplayer"
+      },
+      {
+        "DisplayString": "training_bansheeboost",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 1,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 60,
+        "DisplayDelay": 90.0,
+        "Flags": "0"
+      },
+      {
+        "DisplayString": "training_firebansheebomb",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 1,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 60,
+        "DisplayDelay": 45.0,
+        "Flags": "NotInMultiplayer"
+      },
+      {
+        "DisplayString": "training_ghostboost",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 1,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 60,
+        "DisplayDelay": 45.0,
+        "Flags": "0"
+      },
+      {
+        "DisplayString": "training_bansheetrick",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 1,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 60,
+        "DisplayDelay": 90.0,
+        "Flags": "0"
+      },
+      {
+        "DisplayString": "training_teamchat",
+        "MaxDisplayTime": 4,
+        "DisplayCount": 1,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 0,
+        "DisplayDelay": 180.0,
+        "Flags": "0"
+      },
+      {
+        "DisplayString": "training_stealth",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 2,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 60,
+        "DisplayDelay": 20.0,
+        "Flags": "NotInMultiplayer"
+      },
+      {
+        "DisplayString": "training_equipment",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 2,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 300,
+        "DisplayDelay": 60.0,
+        "Flags": "NotInMultiplayer"
+      },
+      {
+        "DisplayString": "training_jump",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 3,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 60,
+        "DisplayDelay": 0.0,
+        "Flags": "NotInMultiplayer"
+      },
+      {
+        "DisplayString": "training_reload_left",
+        "MaxDisplayTime": 6,
+        "DisplayCount": 2,
+        "DisappearDelay": 2,
+        "RedisplayDelay": 300,
+        "DisplayDelay": 20.0,
+        "Flags": "0"
+      }
+    ],
+    "CampaignMetagame": {
+      "Emblems": {
+        "Type": "bitmap",
+        "Name": "ui\\halox\\start_menu\\panes\\common\\start_menu_emblems_ui",
+        "Generate": false
+      },
+      "Medals": {
+        "Type": "bitmap",
+        "Name": "ui\\chud\\bitmaps\\medals\\campaign_medals",
+        "Generate": false
+      },
+      "MedalAnimation": {
+        "Type": "chud_animation_definition",
+        "Name": "ui\\chud\\animations\\medal_animation",
+        "Generate": false
+      },
+      "MedalChudAnchor": "BottomRight",
+      "MedalScale": 1.5,
+      "MedalSpacing": 47.0,
+      "MedalOffset": "X: -290, Y: -113",
+      "ScoreboardTopY": 0.0,
+      "ScoreboardSpacing": 0.0
+    },
+    "DirectDamageMicrotexture": {
+      "Type": "bitmap",
+      "Name": "ui\\chud\\bitmaps\\chud_microtexture",
+      "Generate": false
+    },
+    "MicrotextureScale": 48.0,
+    "MediumSensorBlipScale": 1.5,
+    "SmallSensorBlipScale": 0.90000004,
+    "LargeSensorBlipScale": 2.6999998,
+    "MaxAgeSize": 2.0,
+    "SizePower": 1.5,
+    "AlphaPower": 2.0,
+    "MotionSensorBlip": {
+      "Type": "bitmap",
+      "Name": "ui\\chud\\bitmaps\\sensor_blips",
+      "Generate": false
+    },
+    "GruntBirthdayEffect": {
+      "Type": "effect",
+      "Name": "objects\\characters\\grunt\\fx\\grunt_birthday_party",
+      "Generate": false
+    },
+    "CampaignFloodMask": {
+      "Type": "bitmap",
+      "Name": "ui\\chud\\bitmaps\\floodmask",
+      "Generate": false
+    },
+    "CampaignFloodMaskTile": {
+      "Type": "bitmap",
+      "Name": "ui\\chud\\bitmaps\\gravemind_tile",
+      "Generate": false
+    },
+    "MotionSensorLevelHeightRange": 1.8,
+    "ShieldMinorThreshold": 1.0,
+    "ShieldMajorThreshold": 0.5,
+    "ShieldCriticalThreshold": 0.25,
+    "HealthMinorThreshold": 0.9,
+    "HealthMajorThreshold": 0.75,
+    "HealthCriticalThreshold": 0.5,
+    "HealthMultiplyColor0": "Red: 1, Green: 1, Blue: 1",
+    "HealthMultiplyColor0Alpha": 0.0,
+    "HealthMultiplyColor1": "Red: 0, Green: 0, Blue: 0",
+    "HealthMultiplyColor1Alpha": 0.0,
+    "HealthAdditiveColor0": "Red: 0, Green: 0, Blue: 0",
+    "HealthAdditiveColor0Alpha": 0.0,
+    "HealthAdditiveColor1": "Red: 0, Green: 0, Blue: 0",
+    "HealthAdditiveColor1Alpha": 0.0,
+    "HealthEffectDamageMaskIntensity": {
+      "Data": "CDwAAAAAAAAAAIA/AAAAAAAAAABvEoM6bxIDOygAAAABAAAACgAAzf//f393vv+/2c4/QAAAAAAAAAAAAAAAAAAAgD9L3ZdA"
+    },
+    "ShieldMultiplyColor0": "Red: 1, Green: 1, Blue: 1",
+    "ShieldMultiplyColor0Alpha": 0.0,
+    "ShieldMultiplyColor1": "Red: -0.362636, Green: -0.840421, Blue: -0.857739",
+    "ShieldMultiplyColor1Alpha": 0.5,
+    "ShieldAdditiveColor0": "Red: 0, Green: 0, Blue: 0",
+    "ShieldAdditiveColor0Alpha": 0.0,
+    "ShieldAdditiveColor1": "Red: 0.121569, Green: 0.00984327, Blue: 0.0071511",
+    "ShieldAdditiveColor1Alpha": 0.5,
+    "ShieldEffectDamageMaskIntensity": {
+      "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAACgAAAABAAAACgAAzf//f38AAADAAABAQAAAAAAAAAAAAAAAAAAAgD9L3ZdA"
+    },
+    "SprintFovMultiplier": 1.0,
+    "SprintFovTransitionInTime": 0.5,
+    "SprintFovTransitionOutTime": 1.0,
+    "ParallaxData": null,
+    "CameraShakeRunning": {
+      "Period": 0.0,
+      "Horizontal": {
+        "Data": ""
+      },
+      "Vertical": {
+        "Data": ""
+      },
+      "Yaw": {
+        "Data": ""
+      },
+      "Pitch": {
+        "Data": ""
+      },
+      "Roll": {
+        "Data": ""
+      }
+    },
+    "CameraShakeSprinting": {
+      "Period": 0.0,
+      "Horizontal": {
+        "Data": ""
+      },
+      "Vertical": {
+        "Data": ""
+      },
+      "Yaw": {
+        "Data": ""
+      },
+      "Pitch": {
+        "Data": ""
+      },
+      "Roll": {
+        "Data": ""
+      }
+    },
+    "SurvivalModeMultiplayerIntro": null,
+    "AchievementDisplayTime": 3.0,
+    "Unknown73": 0.0,
+    "Unknown74": 0.0
+  }
+}

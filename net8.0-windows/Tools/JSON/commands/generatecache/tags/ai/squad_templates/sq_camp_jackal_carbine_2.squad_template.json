@@ -1,0 +1,51 @@
+{
+  "TagName": "ai\\squad_templates\\sq_camp_jackal_carbine_2",
+  "TagType": "squad_template",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Name": "sq_camp_jackal_carbine_2",
+    "CellTemplates": [
+      {
+        "Name": "2_jackal",
+        "DifficultyFlags": "None",
+        "RoundRange": "Lower: 0, Upper: 0",
+        "SetRange": "Lower: 0, Upper: 0",
+        "NormalDiffCount": 2,
+        "MajorUpgrade": "Normal",
+        "Characters": [
+          {
+            "DifficultyFlags": "None",
+            "RoundRange": "Lower: 0, Upper: 0",
+            "SetRange": "Lower: 0, Upper: 0",
+            "Object": null,
+            "Probability": 1
+          }
+        ],
+        "InitialWeapons": [
+          {
+            "DifficultyFlags": "None",
+            "RoundRange": "Lower: 0, Upper: 0",
+            "SetRange": "Lower: 0, Upper: 0",
+            "Object": {
+              "Type": "weapon",
+              "Name": "objects\\weapons\\rifle\\covenant_carbine\\covenant_carbine",
+              "Generate": false
+            },
+            "Probability": 3
+          }
+        ],
+        "InitialSecondaryWeapons": [],
+        "InitialEquipment": [],
+        "GrenadeType": "HumanFragmentation",
+        "Vehicle": null,
+        "VehicleVariant": "invalid",
+        "ActivityName": "invalid"
+      }
+    ]
+  }
+}

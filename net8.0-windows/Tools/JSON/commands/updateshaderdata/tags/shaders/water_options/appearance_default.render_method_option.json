@@ -1,0 +1,59 @@
+{
+  "TagName": "shaders\\water_options\\appearance_default",
+  "TagType": "render_method_option",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Parameters": [
+      {
+        "Name": "fresnel_coefficient",
+        "Type": "Real",
+        "RenderMethodExtern": "none",
+        "DefaultSamplerBitmap": null,
+        "DefaultFloatArgument": 0.09769,
+        "DefaultIntBoolArgument": 0,
+        "Flags": 0,
+        "DefaultFilterMode": "Trilinear",
+        "DefaultAddressMode": "Wrap",
+        "AnisotropyAmount": 0,
+        "DefaultColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "DefaultBitmapScale": 0.0,
+        "HelpText": ""
+      },
+      {
+        "Name": "water_diffuse",
+        "Type": "Color",
+        "RenderMethodExtern": "none",
+        "DefaultSamplerBitmap": null,
+        "DefaultFloatArgument": 0.0,
+        "DefaultIntBoolArgument": 0,
+        "Flags": 0,
+        "DefaultFilterMode": "Trilinear",
+        "DefaultAddressMode": "Wrap",
+        "AnisotropyAmount": 0,
+        "DefaultColor": "Alpha: 0, Red: 61, Green: 61, Blue: 61",
+        "DefaultBitmapScale": 0.0,
+        "HelpText": ""
+      },
+      {
+        "Name": "no_dynamic_lights",
+        "Type": "Bool",
+        "RenderMethodExtern": "none",
+        "DefaultSamplerBitmap": null,
+        "DefaultFloatArgument": 0.0,
+        "DefaultIntBoolArgument": 0,
+        "Flags": 0,
+        "DefaultFilterMode": "Trilinear",
+        "DefaultAddressMode": "Wrap",
+        "AnisotropyAmount": 0,
+        "DefaultColor": "Alpha: 0, Red: 0, Green: 0, Blue: 0",
+        "DefaultBitmapScale": 0.0,
+        "HelpText": ""
+      }
+    ]
+  }
+}

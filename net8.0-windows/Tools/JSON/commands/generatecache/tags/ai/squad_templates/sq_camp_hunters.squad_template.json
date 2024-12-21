@@ -1,0 +1,63 @@
+{
+  "TagName": "ai\\squad_templates\\sq_camp_hunters",
+  "TagType": "squad_template",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Name": "sq_camp_hunters",
+    "CellTemplates": [
+      {
+        "Name": "1_hunter_plasma",
+        "DifficultyFlags": "None",
+        "RoundRange": "Lower: 0, Upper: 0",
+        "SetRange": "Lower: 0, Upper: 0",
+        "NormalDiffCount": 1,
+        "MajorUpgrade": "Normal",
+        "Characters": [
+          {
+            "DifficultyFlags": "None",
+            "RoundRange": "Lower: 0, Upper: 0",
+            "SetRange": "Lower: 0, Upper: 0",
+            "Object": null,
+            "Probability": 1
+          }
+        ],
+        "InitialWeapons": [],
+        "InitialSecondaryWeapons": [],
+        "InitialEquipment": [],
+        "GrenadeType": "HumanFragmentation",
+        "Vehicle": null,
+        "VehicleVariant": "invalid",
+        "ActivityName": "invalid"
+      },
+      {
+        "Name": "1_hunter_flak",
+        "DifficultyFlags": "None",
+        "RoundRange": "Lower: 0, Upper: 0",
+        "SetRange": "Lower: 0, Upper: 0",
+        "NormalDiffCount": 1,
+        "MajorUpgrade": "Normal",
+        "Characters": [
+          {
+            "DifficultyFlags": "None",
+            "RoundRange": "Lower: 0, Upper: 0",
+            "SetRange": "Lower: 0, Upper: 0",
+            "Object": null,
+            "Probability": 1
+          }
+        ],
+        "InitialWeapons": [],
+        "InitialSecondaryWeapons": [],
+        "InitialEquipment": [],
+        "GrenadeType": "HumanFragmentation",
+        "Vehicle": null,
+        "VehicleVariant": "invalid",
+        "ActivityName": "invalid"
+      }
+    ]
+  }
+}

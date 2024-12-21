@@ -1,0 +1,51 @@
+{
+  "TagName": "ai\\squad_templates\\sq_camp_scorpion_full",
+  "TagType": "squad_template",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Name": "sq_camp_scorpion_full",
+    "CellTemplates": [
+      {
+        "Name": "1_scorpion",
+        "DifficultyFlags": "None",
+        "RoundRange": "Lower: 0, Upper: 0",
+        "SetRange": "Lower: 0, Upper: 0",
+        "NormalDiffCount": 6,
+        "MajorUpgrade": "Normal",
+        "Characters": [
+          {
+            "DifficultyFlags": "None",
+            "RoundRange": "Lower: 0, Upper: 0",
+            "SetRange": "Lower: 0, Upper: 0",
+            "Object": null,
+            "Probability": 1
+          }
+        ],
+        "InitialWeapons": [
+          {
+            "DifficultyFlags": "None",
+            "RoundRange": "Lower: 0, Upper: 0",
+            "SetRange": "Lower: 0, Upper: 0",
+            "Object": {
+              "Type": "weapon",
+              "Name": "objects\\weapons\\rifle\\assault_rifle\\assault_rifle",
+              "Generate": false
+            },
+            "Probability": 1
+          }
+        ],
+        "InitialSecondaryWeapons": [],
+        "InitialEquipment": [],
+        "GrenadeType": "HumanFragmentation",
+        "Vehicle": null,
+        "VehicleVariant": "invalid",
+        "ActivityName": "invalid"
+      }
+    ]
+  }
+}

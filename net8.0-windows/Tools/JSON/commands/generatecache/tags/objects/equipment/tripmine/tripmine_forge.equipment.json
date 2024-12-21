@@ -1,0 +1,288 @@
+{
+  "TagName": "objects\\equipment\\tripmine\\tripmine_forge",
+  "TagType": "equipment",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "ObjectType": {
+      "Halo3ODST": "Equipment"
+    },
+    "ObjectFlags": {
+      "Flags": "None"
+    },
+    "BoundingRadius": 0.236294,
+    "BoundingOffset": "X: 2.62782E-05, Y: 1.2964E-05, Z: -0.00133085",
+    "AccelerationScale": 0.0,
+    "LightmapShadowMode": "Always",
+    "SweetenerSize": "Default",
+    "WaterDensity": "None",
+    "RuntimeFlags": 0,
+    "DynamicLightSphereRadius": 0.0,
+    "DynamicLightSphereOffset": "X: 0, Y: 0, Z: 0",
+    "DefaultModelVariant": "invalid",
+    "Model": {
+      "Type": "model",
+      "Name": "objects\\equipment\\tripmine\\tripmine",
+      "Generate": false
+    },
+    "CrateObject": null,
+    "CollisionDamage": {
+      "Type": "collision_damage",
+      "Name": "globals\\collision_damage\\harmless_game",
+      "Generate": false
+    },
+    "EarlyMoverProperties": [],
+    "CreationEffect": {
+      "Type": "effect",
+      "Name": "objects\\equipment\\tripmine\\tripmine_creation_effect_for_sound",
+      "Generate": false
+    },
+    "MaterialEffects": {
+      "Type": "material_effects",
+      "Name": "fx\\material_effects\\objects\\weapons\\tripmine",
+      "Generate": false
+    },
+    "ArmorSounds": null,
+    "MeleeImpactSound": null,
+    "AiProperties": [],
+    "Functions": [
+      {
+        "Flags": "AlwaysActive",
+        "ImportName": "one",
+        "ExportName": "warning_light",
+        "TurnOffWith": "invalid",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "AzQAAAAAgD7NzMw+AAAAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAQAAAAAAAAAAAAACAPw=="
+        },
+        "ScaleBy": "invalid"
+      },
+      {
+        "Flags": "RandomTimeOffset",
+        "ImportName": "one",
+        "ExportName": "random_glow",
+        "TurnOffWith": "invalid",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "AzQAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAQAAAAAAAAAAAAACAPw=="
+        },
+        "ScaleBy": "invalid"
+      }
+    ],
+    "HudTextMessageIndex": 0,
+    "SecondaryFlags": "None",
+    "Attachments": [
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "light",
+          "Name": "objects\\equipment\\tripmine\\tripmine_armed",
+          "Generate": false
+        },
+        "Marker": "light",
+        "ChangeColor": "None",
+        "PrimaryScale": "warning_light",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "sound_looping",
+          "Name": "sound\\weapons\\equipment\\tripmine\\tripmine_beep\\tripmine_beep",
+          "Generate": false
+        },
+        "Marker": "light",
+        "ChangeColor": "None",
+        "PrimaryScale": "random_glow",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "sound_looping",
+          "Name": "sound\\weapons\\equipment\\tripmine\\tripmine_loop\\tripmine_loop",
+          "Generate": false
+        },
+        "Marker": "light",
+        "ChangeColor": "None",
+        "PrimaryScale": "random_glow",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "lens_flare",
+          "Name": "objects\\equipment\\tripmine\\fx\\self_destruct",
+          "Generate": false
+        },
+        "Marker": "light",
+        "ChangeColor": "None",
+        "PrimaryScale": "death",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "sound_looping",
+          "Name": "sound\\weapons\\equipment\\tripmine\\tripmine_windup\\tripmine_windup",
+          "Generate": false
+        },
+        "Marker": "light",
+        "ChangeColor": "None",
+        "PrimaryScale": "death",
+        "SecondaryScale": "invalid"
+      }
+    ],
+    "Widgets": [],
+    "ChangeColors": [],
+    "NodeMaps": [],
+    "MultiplayerObject": [
+      {
+        "EngineFlags": "None",
+        "Type": "Equipment",
+        "TeleporterPassability": "None",
+        "Flags": "None",
+        "BoundaryShape": "Sphere",
+        "SpawnTimerType": "StartsOnDeath",
+        "DefaultSpawnTime": 30,
+        "DefaultAbandonTime": 0,
+        "BoundaryWidthRadius": 3.5,
+        "BoundaryBoxLength": 0.0,
+        "BoundaryPositiveHeight": 0.0,
+        "BoundaryNegativeHeight": 0.0,
+        "StandardRespawnZoneWeight": 0.0,
+        "FlagAwayRespawnZoneWeight": 0.0,
+        "FlagAtHomeRespawnZoneWeight": 0.0,
+        "BoundaryCenterMarker": "invalid",
+        "SpawnedObjectMarkerName": "invalid",
+        "SpawnedObject": null,
+        "NyiBoundaryMaterial": "invalid",
+        "BoundaryShaders": [
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          }
+        ]
+      }
+    ],
+    "RevivingEquipment": [],
+    "PathfindingSpheres": [],
+    "ItemFlags": {
+      "Flags": "CrateStyleCollisionFilter"
+    },
+    "ObsoleteItemFields": {
+      "OldMessageIndex": 0,
+      "SortOrder": 0,
+      "OldMultiplayerOnGroundScale": 0.0,
+      "OldCampaignOnGroundScale": 0.0
+    },
+    "PickupMessage": "invalid",
+    "SwapMessage": "invalid",
+    "PickupOrDualWieldMessage": "invalid",
+    "SwapOrDualWieldMessage": "invalid",
+    "PickedUpMessage": "invalid",
+    "SwitchToMessage": "invalid",
+    "SwitchToFromAiMessage": "invalid",
+    "AllWeaponsEmptyMessage": "invalid",
+    "CollisionSound": null,
+    "PredictedBitmaps": [],
+    "DetonationDamageEffect": null,
+    "DetonationDelay": "Lower: 0, Upper: 0",
+    "DetonatingEffect": null,
+    "DetonationEffect": null,
+    "CampaignOnGroundScale": 0.0,
+    "MultiplayerOnGroundScale": 0.0,
+    "ItemUnitScales": {
+      "SmallUnit": {
+        "Armed": 0.0,
+        "Stowed": 0.0
+      },
+      "MediumUnit": {
+        "Armed": 0.0,
+        "Stowed": 0.0
+      },
+      "LargeUnit": {
+        "Armed": 0.0,
+        "Stowed": 0.0
+      },
+      "HugeUnit": {
+        "Armed": 0.0,
+        "Stowed": 0.0
+      }
+    },
+    "GroundedDamping": {
+      "Angular": 5.0,
+      "Linear": 2.0
+    },
+    "UseDuration": 10000000.0,
+    "PhantomVolumeActivationTime": 0.0,
+    "NumberOfUses": 0,
+    "EquipmentFlags": "None",
+    "AiDangerRadius": 1.5,
+    "AiMinDeployDistance": 0.0,
+    "AiAwarenessDelay": 2.0,
+    "OverrideCamera": [],
+    "SuperShield": [],
+    "MultiplayerPowerup": [],
+    "Spawner": [],
+    "ProximityMine": [
+      {
+        "ExplosionEffect": null,
+        "ExplosionDamageEffect": {
+          "Type": "damage_effect",
+          "Name": "objects\\equipment\\tripmine\\damage_effects\\tripmine_explosion",
+          "Generate": false
+        },
+        "ArmTime": 1.0,
+        "SelfDestructTime": 10000000.0,
+        "TriggerTime": 0.1,
+        "TriggerVelocity": 1.25
+      }
+    ],
+    "MotionTrackerNoise": [],
+    "Showme": [],
+    "Invisibility": [],
+    "Invincibility": [],
+    "Regenerator": [],
+    "HealthPack": [],
+    "ForcedReload": [],
+    "ConcussiveBlast": [],
+    "TankMode": [],
+    "MagPulse": [],
+    "Hologram": [],
+    "ReactiveArmor": [],
+    "BombRun": [],
+    "ArmorLock": [],
+    "Adrenaline": [],
+    "LightningStrike": [],
+    "Scrambler": [],
+    "WeaponJammer": [],
+    "AmmoPack": [],
+    "Vision": [],
+    "HudInterface": null,
+    "PickupSound": null,
+    "EmptySound": null,
+    "ActivationEffect": null,
+    "ActiveEffect": null,
+    "DeactivationEffect": null,
+    "EnterAnimation": "invalid",
+    "IdleAnimation": "invalid",
+    "ExitAnimation": "invalid"
+  }
+}

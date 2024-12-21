@@ -1,0 +1,16 @@
+{
+  "TagName": "ui\\eldewrito\\common\\map_bitmaps\\070_waste",
+  "TagType": "bitmap",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": [
+    {
+      "BitmapIndex": 0,
+      "DDSFile": "070_waste.dds"
+    }
+  ],
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": null
+}

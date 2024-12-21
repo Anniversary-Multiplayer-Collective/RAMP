@@ -1,0 +1,1511 @@
+{
+  "TagName": "globals\\rasterizer_globals",
+  "TagType": "rasterizer_globals",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "DefaultBitmaps": [
+      {
+        "Flags": "None",
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "shaders\\default_bitmaps\\bitmaps\\color_white",
+          "Generate": false
+        }
+      },
+      {
+        "Flags": "None",
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "shaders\\default_bitmaps\\bitmaps\\default_vector",
+          "Generate": false
+        }
+      },
+      {
+        "Flags": "None",
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "shaders\\default_bitmaps\\bitmaps\\default_dynamic_cube_map",
+          "Generate": false
+        }
+      },
+      {
+        "Flags": "None",
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "shaders\\default_bitmaps\\bitmaps\\default_environment_map",
+          "Generate": false
+        }
+      },
+      {
+        "Flags": "DoNotLoad",
+        "Bitmap": null
+      },
+      {
+        "Flags": "None",
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "shaders\\default_bitmaps\\bitmaps\\color_black",
+          "Generate": false
+        }
+      },
+      {
+        "Flags": "None",
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "shaders\\default_bitmaps\\bitmaps\\color_black_alpha_black",
+          "Generate": false
+        }
+      },
+      {
+        "Flags": "None",
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "shaders\\default_bitmaps\\bitmaps\\gray_50_percent",
+          "Generate": false
+        }
+      },
+      {
+        "Flags": "None",
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "shaders\\default_bitmaps\\bitmaps\\auto_exposure_weight",
+          "Generate": false
+        }
+      },
+      {
+        "Flags": "None",
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "shaders\\default_bitmaps\\bitmaps\\auto_exposure_weight",
+          "Generate": false
+        }
+      },
+      {
+        "Flags": "None",
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "shaders\\default_bitmaps\\bitmaps\\dither_pattern2",
+          "Generate": false
+        }
+      },
+      {
+        "Flags": "None",
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "shaders\\default_bitmaps\\bitmaps\\random4_warp",
+          "Generate": false
+        }
+      },
+      {
+        "Flags": "None",
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "levels\\shared\\bitmaps\\nature\\water\\water_ripples",
+          "Generate": false
+        }
+      },
+      {
+        "Flags": "None",
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "shaders\\default_bitmaps\\bitmaps\\monochrome_random",
+          "Generate": false
+        }
+      }
+    ],
+    "MaterialTextures": [
+      {
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "rasterizer\\cc0236",
+          "Generate": false
+        }
+      },
+      {
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "rasterizer\\c78d78",
+          "Generate": false
+        }
+      },
+      {
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "rasterizer\\dd0236",
+          "Generate": false
+        }
+      }
+    ],
+    "DefaultVertexShader": {
+      "Type": "vertex_shader",
+      "Name": "rasterizer\\shaders\\simple",
+      "Generate": false
+    },
+    "DefaultPixelShader": {
+      "Type": "pixel_shader",
+      "Name": "rasterizer\\shaders\\simple",
+      "Generate": false
+    },
+    "DefaultShaders": [
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\debug",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\debug",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\debug2d",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\debug2d",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\copy_surface",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\copy_surface",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\spike_blur_vertical",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\spike_blur_vertical",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\spike_blur_horizontal",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\spike_blur_horizontal",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\downsize_2x_to_bloom",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\downsize_2x_to_bloom",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\downsize_2x_target",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\downsize_2x_target",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\copy_rgbe_to_rgb",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\copy_rgbe_to_rgb",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\update_persistence",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\update_persistence",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\add_downsampled",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\add_downsampled",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\add",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\add",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\blur_11_horizontal",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\blur_11_horizontal",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\blur_11_vertical",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\blur_11_vertical",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\cubemap_phi_blur",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\cubemap_phi_blur",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\cubemap_theta_blur",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\cubemap_theta_blur",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\cubemap_clamp",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\cubemap_clamp",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\cubemap_divide",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\cubemap_divide",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\write_depth",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\write_depth",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\final_composite",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\final_composite",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\sky_dome_simple",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\sky_dome_simple",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\transparent",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\transparent",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\shield_meter",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\shield_meter",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\legacy_meter",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\legacy_meter",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\overhead_map_geometry",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\overhead_map_geometry",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\legacy_hud_bitmap",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\legacy_hud_bitmap",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\blend3",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\blend3",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\particle_update",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\particle_update",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\particle_spawn",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\particle_spawn",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\screenshot_combine",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\screenshot_combine",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\downsample_2x2",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\downsample_2x2",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\rotate_2d",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\rotate_2d",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\bspline_resample",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\bspline_resample",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\downsample_4x4_bloom_dof",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\downsample_4x4_bloom_dof",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\final_composite_dof",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\final_composite_dof",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\kernel_5",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\kernel_5",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\exposure_downsample",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\exposure_downsample",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\yuv_to_rgb",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\yuv_to_rgb",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\displacement",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\displacement",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\screenshot_display",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\screenshot_display",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\downsample_4x4_block",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\downsample_4x4_block",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\crop",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\crop",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\screenshot_combine_dof",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\screenshot_combine_dof",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\gamma_correct",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\gamma_correct",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\contrail_spawn",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\contrail_spawn",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\contrail_update",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\contrail_update",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\stencil_stipple",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\stencil_stipple",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\lens_flare",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\lens_flare",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\decorator_default",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\decorator_default",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\downsample_4x4_block_bloom",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\downsample_4x4_block_bloom",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\downsample_4x4_gaussian",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\downsample_4x4_gaussian",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\apply_color_matrix",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\apply_color_matrix",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\copy",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\copy",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\shadow_geometry",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\shadow_geometry",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\shadow_apply",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\shadow_apply",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\gradient",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\gradient",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\alpha_test_explicit",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\alpha_test_explicit",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\patchy_fog",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\patchy_fog",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\light_volume_update",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\light_volume_update",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\water_ripple",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\water_ripple",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\double_gradient",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\double_gradient",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\sniper_scope",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\sniper_scope",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\shield_impact",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\shield_impact",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\player_emblem_world",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\player_emblem_world",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\player_emblem_screen",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\player_emblem_screen",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\implicit_hill",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\implicit_hill",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\chud_overlay_blend",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\chud_overlay_blend",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\bloom_add_alpha1",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\bloom_add_alpha1",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\downsample_4x4_block_bloom_ldr",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\downsample_4x4_block_bloom_ldr",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\restore_ldr_hdr_depth",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\restore_ldr_hdr_depth",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\beam_update",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\beam_update",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\decorator_no_wind",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\decorator_no_wind",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\decorator_static",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\decorator_static",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\decorator_sun",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\decorator_sun",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\decorator_wavy",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\decorator_wavy",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\final_composite_zoom",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\final_composite_zoom",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\final_composite_debug",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\final_composite_debug",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\shadow_apply_point",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\shadow_apply_point",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\shadow_apply_bilinear",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\shadow_apply_bilinear",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\shadow_apply_fancy",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\shadow_apply_fancy",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\shadow_apply_faster",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\shadow_apply_faster",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\shadow_apply",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\shadow_apply",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\displacement_motion_blur",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\displacement_motion_blur",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\decorator_shaded",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\decorator_shaded",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\screenshot_memexport",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\screenshot_memexport",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\downsample_4x4_gaussian_bloom_ldr",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\downsample_4x4_gaussian_bloom_ldr",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\downsample_4x4_gaussian_bloom",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\downsample_4x4_gaussian_bloom",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\downsample_4x4_block_bloom_new",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\downsample_4x4_block_bloom_new",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\bloom_curve",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\bloom_curve",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\custom_gamma_correct",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\custom_gamma_correct",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\pixel_copy",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\pixel_copy",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\decorator_edit",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\decorator_edit",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\hdr_retrieve",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\hdr_retrieve",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\smirnov",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\smirnov",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\fxaa",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\fxaa",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\unknown_94",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\unknown_94",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\sniper_scope_stencil_pc",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\sniper_scope_stencil_pc",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\ssao",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\ssao",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\ssao_blur",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\ssao_blur",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\unknown_98",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\unknown_98",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\lightshafts",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\lightshafts",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\radial_blur",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\radial_blur",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\unknown_101",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\unknown_101",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\unknown_102",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\unknown_102",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\unknown_103",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\unknown_103",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\unknown_104",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\unknown_104",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\unknown_105",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\unknown_105",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\unknown_106",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\unknown_106",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\unknown_107",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\unknown_107",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\hud_camera_nightvision",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\hud_camera_nightvision",
+          "Generate": false
+        }
+      },
+      {
+        "VertexShader": {
+          "Type": "vertex_shader",
+          "Name": "rasterizer\\shaders\\unknown_109",
+          "Generate": false
+        },
+        "PixelShader": {
+          "Type": "pixel_shader",
+          "Name": "rasterizer\\shaders\\unknown_109",
+          "Generate": false
+        }
+      }
+    ],
+    "AtmosphereLookupTables": [],
+    "RuntimeMMaxVsGprs": 0,
+    "RuntimeMMaxPsGprs": 0,
+    "ActiveCamoDistortion": {
+      "Type": "bitmap",
+      "Name": "rasterizer\\active_camouflage_distortion",
+      "Generate": false
+    },
+    "DefaultPerformanceTemplate": {
+      "Type": "performance_throttles",
+      "Name": "globals\\default",
+      "Generate": false
+    },
+    "DefaultShieldImpact": {
+      "Type": "shield_impact",
+      "Name": "globals\\global_shield_impact_settings",
+      "Generate": false
+    },
+    "DefaultVisionMode": {
+      "Type": "vision_mode",
+      "Name": "globals\\default_vision_mode",
+      "Generate": false
+    },
+    "MotionBlurParametersLegacy": {
+      "NumberOfTaps": 6,
+      "MaxBlurX": 0.03,
+      "MaxBlurY": 0.05,
+      "BlurScaleX": 0.05,
+      "BlurScaleY": 0.15,
+      "CenterFalloff": 1.4,
+      "ExpectedTimePerTick": 0.03
+    },
+    "Unknown1": 0,
+    "Unknown2": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "TagName": "sound\\dsp_effects\\sound_effect_templates\\global_speaker_chorus",
+  "TagType": "sound_effect_template",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "TemplateCollection": [],
+    "InternalDspEffectName": "invalid",
+    "AdditionalSoundInputs": [
+      {
+        "DspEffect": "sfx_oscillator_input",
+        "LowFrequencySoundFunction": {
+          "Data": "AzQAAAAAAAAAAIA/AAAAAAAAAABI4fo+AAAAPxQAAAACzc3NAACAPwAAAAAAAAAAAACAPw=="
+        },
+        "TimePeriod": 1.0
+      }
+    ]
+  }
+}

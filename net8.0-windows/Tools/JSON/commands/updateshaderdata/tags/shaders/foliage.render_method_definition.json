@@ -1,0 +1,204 @@
+{
+  "TagName": "shaders\\foliage",
+  "TagType": "render_method_definition",
+  "Generate": true,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "GlobalOptions": {
+      "Type": "render_method_option",
+      "Name": "shaders\\shader_options\\global_shader_options",
+      "Generate": true
+    },
+    "Categories": [
+      {
+        "Name": "albedo",
+        "ShaderOptions": [
+          {
+            "Name": "simple",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\shader_options\\albedo_simple",
+              "Generate": true
+            },
+            "VertexFunction": "calc_albedo_simple_vs",
+            "PixelFunction": "calc_albedo_simple_ps"
+          },
+          {
+            "Name": "default",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\shader_options\\albedo_default",
+              "Generate": true
+            },
+            "VertexFunction": "calc_albedo_default_vs",
+            "PixelFunction": "calc_albedo_default_ps"
+          }
+        ],
+        "VertexFunction": "calc_albedo_vs",
+        "PixelFunction": "calc_albedo_ps"
+      },
+      {
+        "Name": "alpha_test",
+        "ShaderOptions": [
+          {
+            "Name": "none",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\shader_options\\alpha_test_off",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "calc_alpha_test_off_ps"
+          },
+          {
+            "Name": "simple",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\shader_options\\alpha_test_on",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "calc_alpha_test_on_ps"
+          },
+          {
+            "Name": "from_albedo_alpha",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\shader_options\\alpha_test_off",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "calc_alpha_test_from_albedo_ps"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "calc_alpha_test_ps"
+      },
+      {
+        "Name": "material_model",
+        "ShaderOptions": [
+          {
+            "Name": "default",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\foliage_options\\material_default",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "calculate_material_default"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "calculate_material"
+      }
+    ],
+    "EntryPoints": [
+      {
+        "EntryPoint": "Albedo",
+        "Passes": [
+          {
+            "Flags": "None",
+            "CategoryDependencies": []
+          }
+        ]
+      },
+      {
+        "EntryPoint": "Static_Per_Pixel",
+        "Passes": [
+          {
+            "Flags": "None",
+            "CategoryDependencies": []
+          }
+        ]
+      },
+      {
+        "EntryPoint": "Static_Sh",
+        "Passes": [
+          {
+            "Flags": "None",
+            "CategoryDependencies": []
+          }
+        ]
+      },
+      {
+        "EntryPoint": "Static_Per_Vertex",
+        "Passes": [
+          {
+            "Flags": "None",
+            "CategoryDependencies": []
+          }
+        ]
+      },
+      {
+        "EntryPoint": "Shadow_Generate",
+        "Passes": [
+          {
+            "Flags": "HasSharedPixelShader",
+            "CategoryDependencies": [
+              {
+                "Category": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "EntryPoint": "Static_Prt_Ambient",
+        "Passes": [
+          {
+            "Flags": "None",
+            "CategoryDependencies": []
+          }
+        ]
+      },
+      {
+        "EntryPoint": "Static_Prt_Linear",
+        "Passes": [
+          {
+            "Flags": "None",
+            "CategoryDependencies": []
+          }
+        ]
+      },
+      {
+        "EntryPoint": "Static_Prt_Quadratic",
+        "Passes": [
+          {
+            "Flags": "None",
+            "CategoryDependencies": []
+          }
+        ]
+      }
+    ],
+    "VertexTypes": [
+      {
+        "VertexType": "World",
+        "Dependencies": []
+      },
+      {
+        "VertexType": "Rigid",
+        "Dependencies": []
+      },
+      {
+        "VertexType": "Skinned",
+        "Dependencies": []
+      }
+    ],
+    "GlobalPixelShader": {
+      "Type": "global_pixel_shader",
+      "Name": "shaders\\foliage_shared_pixel_shaders",
+      "Generate": true
+    },
+    "GlobalVertexShader": {
+      "Type": "global_vertex_shader",
+      "Name": "shaders\\foliage_shared_vertex_shaders",
+      "Generate": true
+    },
+    "Flags": "None",
+    "Version": 0
+  }
+}

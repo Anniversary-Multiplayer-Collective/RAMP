@@ -1,0 +1,258 @@
+{
+  "TagName": "shaders\\cortana",
+  "TagType": "render_method_definition",
+  "Generate": true,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "GlobalOptions": {
+      "Type": "render_method_option",
+      "Name": "shaders\\shader_options\\global_shader_options",
+      "Generate": true
+    },
+    "Categories": [
+      {
+        "Name": "albedo",
+        "ShaderOptions": [
+          {
+            "Name": "default",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\shader_options\\cortana_albedo",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "bump_mapping",
+        "ShaderOptions": [
+          {
+            "Name": "standard",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\shader_options\\bump_default",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "alpha_test",
+        "ShaderOptions": [
+          {
+            "Name": "none",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\shader_options\\alpha_test_off",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "calc_alpha_test_off_ps"
+          },
+          {
+            "Name": "simple",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\shader_options\\alpha_test_on",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "calc_alpha_test_on_ps"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "calc_alpha_test_ps"
+      },
+      {
+        "Name": "material_model",
+        "ShaderOptions": [
+          {
+            "Name": "cook_torrance",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\shader_options\\material_cook_torrance_option",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "environment_mapping",
+        "ShaderOptions": [
+          {
+            "Name": "none",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "none"
+          },
+          {
+            "Name": "per_pixel",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\shader_options\\env_map_per_pixel",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "per_pixel"
+          },
+          {
+            "Name": "dynamic",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\shader_options\\env_map_dynamic",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "dynamic"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "envmap_type"
+      },
+      {
+        "Name": "warp",
+        "ShaderOptions": [
+          {
+            "Name": "default",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\shader_options\\warp_cortana_default",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "lighting",
+        "ShaderOptions": [
+          {
+            "Name": "default",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "invalid",
+        "ShaderOptions": [
+          {
+            "Name": "default",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\shader_options\\cortana_screenspace",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "invalid",
+        "ShaderOptions": [
+          {
+            "Name": "default",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\shader_options\\cortana_transparency",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      }
+    ],
+    "EntryPoints": [
+      {
+        "EntryPoint": "Active_Camo",
+        "Passes": [
+          {
+            "Flags": "None",
+            "CategoryDependencies": []
+          }
+        ]
+      },
+      {
+        "EntryPoint": "Static_Prt_Ambient",
+        "Passes": [
+          {
+            "Flags": "None",
+            "CategoryDependencies": []
+          }
+        ]
+      },
+      {
+        "EntryPoint": "Static_Sh",
+        "Passes": [
+          {
+            "Flags": "None",
+            "CategoryDependencies": []
+          }
+        ]
+      },
+      {
+        "EntryPoint": "Albedo",
+        "Passes": [
+          {
+            "Flags": "None",
+            "CategoryDependencies": []
+          }
+        ]
+      }
+    ],
+    "VertexTypes": [
+      {
+        "VertexType": "World",
+        "Dependencies": []
+      },
+      {
+        "VertexType": "Rigid",
+        "Dependencies": []
+      },
+      {
+        "VertexType": "Skinned",
+        "Dependencies": []
+      }
+    ],
+    "GlobalPixelShader": {
+      "Type": "global_pixel_shader",
+      "Name": "shaders\\cortana_shared_pixel_shaders",
+      "Generate": true
+    },
+    "GlobalVertexShader": {
+      "Type": "global_vertex_shader",
+      "Name": "shaders\\cortana_shared_vertex_shaders",
+      "Generate": true
+    },
+    "Flags": "None",
+    "Version": 0
+  }
+}

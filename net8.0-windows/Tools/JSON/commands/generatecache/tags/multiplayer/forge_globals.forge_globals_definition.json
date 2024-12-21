@@ -1,0 +1,31 @@
+{
+  "TagName": "multiplayer\\forge_globals",
+  "TagType": "forge_globals_definition",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Version": 0,
+    "DefaultBoundaryRenderMethod": null,
+    "InvisibleRenderMethod": null,
+    "DefaultRenderMethod": null,
+    "ReForgeMaterials": [],
+    "ReForgeMaterialTypes": [],
+    "ReForgeObjects": [],
+    "PrematchCameraObject": null,
+    "PostmatchObject": null,
+    "ModifierObject": null,
+    "KillVolumeObject": null,
+    "GarbageVolumeObject": null,
+    "Descriptions": [],
+    "PaletteCategories": [],
+    "Palette": [],
+    "WeatherEffects": [],
+    "Skies": [],
+    "FxObject": null,
+    "FxLight": null
+  }
+}

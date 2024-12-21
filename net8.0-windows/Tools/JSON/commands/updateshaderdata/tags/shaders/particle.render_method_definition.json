@@ -1,0 +1,446 @@
+{
+  "TagName": "shaders\\particle",
+  "TagType": "render_method_definition",
+  "Generate": true,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "GlobalOptions": {
+      "Type": "render_method_option",
+      "Name": "shaders\\particle_options\\global_particle_options",
+      "Generate": true
+    },
+    "Categories": [
+      {
+        "Name": "albedo",
+        "ShaderOptions": [
+          {
+            "Name": "diffuse_only",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\particle_options\\albedo_diffuse_only",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "diffuse_plus_billboard_alpha",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\particle_options\\albedo_diffuse_plus_billboard_alpha",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "palettized",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\particle_options\\albedo_palettized",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "palettized_plus_billboard_alpha",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\particle_options\\albedo_palettized_plus_billboard_alpha",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "diffuse_plus_sprite_alpha",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\particle_options\\albedo_diffuse_plus_sprite_alpha",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "palettized_plus_sprite_alpha",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\particle_options\\albedo_palettized_plus_sprite_alpha",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "diffuse_modulated",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\particle_options\\albedo_diffuse_modulated",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "palettized_glow",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\particle_options\\albedo_palettized_glow",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "palettized_plasma",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\particle_options\\albedo_palettized_plasma",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "palettized_2d_plasma",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\particle_options\\albedo_palettized_plasma",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "blend_mode",
+        "ShaderOptions": [
+          {
+            "Name": "opaque",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "additive",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "multiply",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "alpha_blend",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "double_multiply",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "maximum",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "multiply_add",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "add_src_times_dstalpha",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "add_src_times_srcalpha",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "inv_alpha_blend",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "pre_multiplied_alpha",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "specialized_rendering",
+        "ShaderOptions": [
+          {
+            "Name": "none",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "distortion",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\particle_options\\specialized_rendering_distortion",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "distortion_expensive",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\particle_options\\specialized_rendering_distortion",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "distortion_diffuse",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\particle_options\\specialized_rendering_distortion",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "distortion_expensive_diffuse",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\particle_options\\specialized_rendering_distortion",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "lighting",
+        "ShaderOptions": [
+          {
+            "Name": "none",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "per_pixel_ravi_order_3",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "per_vertex_ravi_order_0",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "render_targets",
+        "ShaderOptions": [
+          {
+            "Name": "ldr_and_hdr",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "ldr_only",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "depth_fade",
+        "ShaderOptions": [
+          {
+            "Name": "off",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "on",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\particle_options\\depth_fade_on",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "palette_shift",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\particle_options\\depth_fade_palette_shift",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "black_point",
+        "ShaderOptions": [
+          {
+            "Name": "off",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "on",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "fog",
+        "ShaderOptions": [
+          {
+            "Name": "off",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "on",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "frame_blend",
+        "ShaderOptions": [
+          {
+            "Name": "off",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "on",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\particle_options\\frame_blend_on",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      },
+      {
+        "Name": "self_illumination",
+        "ShaderOptions": [
+          {
+            "Name": "none",
+            "Option": null,
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          },
+          {
+            "Name": "constant_color",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\particle_options\\self_illumination_constant_color",
+              "Generate": true
+            },
+            "VertexFunction": "invalid",
+            "PixelFunction": "invalid"
+          }
+        ],
+        "VertexFunction": "invalid",
+        "PixelFunction": "invalid"
+      }
+    ],
+    "EntryPoints": [
+      {
+        "EntryPoint": "Default",
+        "Passes": [
+          {
+            "Flags": "None",
+            "CategoryDependencies": []
+          }
+        ]
+      }
+    ],
+    "VertexTypes": [
+      {
+        "VertexType": "Particle",
+        "Dependencies": []
+      },
+      {
+        "VertexType": "ParticleModel",
+        "Dependencies": []
+      }
+    ],
+    "GlobalPixelShader": {
+      "Type": "global_pixel_shader",
+      "Name": "shaders\\particle_shared_pixel_shaders",
+      "Generate": true
+    },
+    "GlobalVertexShader": {
+      "Type": "global_vertex_shader",
+      "Name": "shaders\\particle_shared_vertex_shaders",
+      "Generate": true
+    },
+    "Flags": "UseAutomaticMacros",
+    "Version": 0
+  }
+}

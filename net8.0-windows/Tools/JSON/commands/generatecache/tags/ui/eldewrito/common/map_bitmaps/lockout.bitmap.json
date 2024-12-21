@@ -1,0 +1,16 @@
+{
+  "TagName": "ui\\eldewrito\\common\\map_bitmaps\\lockout",
+  "TagType": "bitmap",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": [
+    {
+      "BitmapIndex": 0,
+      "DDSFile": "lockout.dds"
+    }
+  ],
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": null
+}

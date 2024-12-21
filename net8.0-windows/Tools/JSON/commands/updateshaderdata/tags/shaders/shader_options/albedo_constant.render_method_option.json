@@ -1,0 +1,29 @@
+{
+  "TagName": "shaders\\shader_options\\albedo_constant",
+  "TagType": "render_method_option",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Parameters": [
+      {
+        "Name": "albedo_color",
+        "Type": "ArgbColor",
+        "RenderMethodExtern": "none",
+        "DefaultSamplerBitmap": null,
+        "DefaultFloatArgument": 0.0,
+        "DefaultIntBoolArgument": 0,
+        "Flags": 0,
+        "DefaultFilterMode": "Trilinear",
+        "DefaultAddressMode": "Wrap",
+        "AnisotropyAmount": 0,
+        "DefaultColor": "Alpha: 255, Red: 192, Green: 192, Blue: 192",
+        "DefaultBitmapScale": 0.0,
+        "HelpText": ""
+      }
+    ]
+  }
+}

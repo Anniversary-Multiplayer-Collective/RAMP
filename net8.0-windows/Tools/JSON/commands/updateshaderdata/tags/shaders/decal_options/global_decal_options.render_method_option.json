@@ -1,0 +1,13 @@
+{
+  "TagName": "shaders\\decal_options\\global_decal_options",
+  "TagType": "render_method_option",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Parameters": []
+  }
+}

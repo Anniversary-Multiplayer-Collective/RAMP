@@ -1,0 +1,65 @@
+{
+  "TagName": "multiplayer\\game_variant_settings\\player_traits_template\\traits_appearance_waypoints",
+  "TagType": "text_value_pair_definition",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Parameter": "IntGlobalTraitsTemplateWaypoint",
+    "Name": "traits_appearance_waypoints",
+    "Description": "traits_appearance_waypoints_desc",
+    "TextValuePairs": [
+      {
+        "Flags": "DefaultSetting",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 0,
+        "StringidValue": "invalid",
+        "Name": "unchanged",
+        "Description": "unchanged_desc"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 1,
+        "StringidValue": "invalid",
+        "Name": "traits_appearance_waypoints_none",
+        "Description": "traits_appearance_waypoints_none_desc"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 2,
+        "StringidValue": "invalid",
+        "Name": "traits_appearance_waypoints_allies",
+        "Description": "traits_appearance_waypoints_allies_desc"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 3,
+        "StringidValue": "invalid",
+        "Name": "traits_appearance_waypoints_all",
+        "Description": "traits_appearance_waypoints_all_desc"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 5,
+        "StringidValue": "invalid",
+        "Name": "traits_appearance_waypoints_nametag_none",
+        "Description": "traits_appearance_waypoints_nametag_none_desc"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 4,
+        "StringidValue": "invalid",
+        "Name": "traits_appearance_waypoints_nametag_allies",
+        "Description": "traits_appearance_waypoints_nametag_allies_desc"
+      }
+    ]
+  }
+}

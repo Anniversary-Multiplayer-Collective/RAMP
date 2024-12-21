@@ -1,0 +1,73 @@
+{
+  "TagName": "shaders\\zonly",
+  "TagType": "render_method_definition",
+  "Generate": true,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "GlobalOptions": {
+      "Type": "render_method_option",
+      "Name": "shaders\\shader_options\\global_shader_options",
+      "Generate": true
+    },
+    "Categories": [
+      {
+        "Name": "test",
+        "ShaderOptions": [
+          {
+            "Name": "default",
+            "Option": {
+              "Type": "render_method_option",
+              "Name": "shaders\\shader_options\\albedo_default",
+              "Generate": true
+            },
+            "VertexFunction": "calc_albedo_default_vs",
+            "PixelFunction": "calc_albedo_default_ps"
+          }
+        ],
+        "VertexFunction": "test_vs",
+        "PixelFunction": "test_ps"
+      }
+    ],
+    "EntryPoints": [
+      {
+        "EntryPoint": "Z_Only",
+        "Passes": [
+          {
+            "Flags": "None",
+            "CategoryDependencies": []
+          }
+        ]
+      }
+    ],
+    "VertexTypes": [
+      {
+        "VertexType": "World",
+        "Dependencies": []
+      },
+      {
+        "VertexType": "Rigid",
+        "Dependencies": []
+      },
+      {
+        "VertexType": "Skinned",
+        "Dependencies": []
+      }
+    ],
+    "GlobalPixelShader": {
+      "Type": "global_pixel_shader",
+      "Name": "shaders\\zonly_shared_pixel_shaders",
+      "Generate": true
+    },
+    "GlobalVertexShader": {
+      "Type": "global_vertex_shader",
+      "Name": "shaders\\zonly_shared_vertex_shaders",
+      "Generate": true
+    },
+    "Flags": "UseAutomaticMacros",
+    "Version": 0
+  }
+}

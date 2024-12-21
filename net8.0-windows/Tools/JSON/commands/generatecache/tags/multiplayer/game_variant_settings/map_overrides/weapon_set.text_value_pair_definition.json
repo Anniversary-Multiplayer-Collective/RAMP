@@ -1,0 +1,129 @@
+{
+  "TagName": "multiplayer\\game_variant_settings\\map_overrides\\weapon_set",
+  "TagType": "text_value_pair_definition",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Parameter": "SidGlobalMapWeaponSet",
+    "Name": "map_overrides_weapon_set",
+    "Description": "map_overrides_weapon_set_desc",
+    "TextValuePairs": [
+      {
+        "Flags": "DefaultSetting",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "default",
+        "Name": "map_default",
+        "Description": "map_overrides_weapon_set_default_desc"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "assault_rifles",
+        "Name": "map_overrides_weapon_set_assault_rifles",
+        "Description": "map_overrides_weapon_set_value_desc"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "duals",
+        "Name": "map_overrides_weapon_set_duals",
+        "Description": "map_overrides_weapon_set_duals_desc"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "hammers",
+        "Name": "map_overrides_weapon_set_hammers",
+        "Description": "map_overrides_weapon_set_value_desc"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "lasers",
+        "Name": "map_overrides_weapon_set_lasers",
+        "Description": "map_overrides_weapon_set_value_desc"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "rockets",
+        "Name": "map_overrides_weapon_set_rockets",
+        "Description": "map_overrides_weapon_set_value_desc"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "shotguns",
+        "Name": "map_overrides_weapon_set_shotguns",
+        "Description": "map_overrides_weapon_set_value_desc"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "sniper_rifles",
+        "Name": "map_overrides_weapon_set_sniper_rifles",
+        "Description": "map_overrides_weapon_set_value_desc"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "swords",
+        "Name": "map_overrides_weapon_set_swords",
+        "Description": "map_overrides_weapon_set_value_desc"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "random",
+        "Name": "map_overrides_weapon_set_random",
+        "Description": "map_overrides_weapon_set_random_desc"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "no_power_weapons",
+        "Name": "map_overrides_weapon_set_no_power_weapons",
+        "Description": "map_overrides_weapon_set_no_power_weapons_desc"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "no_snipers",
+        "Name": "map_overrides_weapon_set_no_snipers",
+        "Description": "map_overrides_weapon_set_no_snipers_desc"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "no_weapons",
+        "Name": "map_overrides_weapon_set_none",
+        "Description": "map_overrides_weapon_set_none_desc"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "StringidReference",
+        "EnumeratedValue": 0,
+        "StringidValue": "base",
+        "Name": "base",
+        "Description": "info"
+      }
+    ]
+  }
+}

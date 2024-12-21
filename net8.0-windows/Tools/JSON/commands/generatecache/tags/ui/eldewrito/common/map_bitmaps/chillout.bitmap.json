@@ -1,0 +1,16 @@
+{
+  "TagName": "ui\\eldewrito\\common\\map_bitmaps\\chillout",
+  "TagType": "bitmap",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": [
+    {
+      "BitmapIndex": 0,
+      "DDSFile": "chillout.dds"
+    }
+  ],
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": null
+}

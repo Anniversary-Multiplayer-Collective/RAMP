@@ -1,0 +1,847 @@
+{
+  "TagName": "objects\\characters\\masterchief\\mp_masterchief\\mp_masterchief",
+  "TagType": "biped",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "ObjectType": {
+      "Halo3ODST": "Biped"
+    },
+    "ObjectFlags": {
+      "Flags": "None"
+    },
+    "BoundingRadius": 0.44,
+    "BoundingOffset": "X: -0.02, Y: 0, Z: 0",
+    "AccelerationScale": 1.2,
+    "LightmapShadowMode": "Default",
+    "SweetenerSize": "Small",
+    "WaterDensity": "Default",
+    "RuntimeFlags": 2,
+    "DynamicLightSphereRadius": 0.0,
+    "DynamicLightSphereOffset": "X: 0, Y: 0, Z: 0",
+    "DefaultModelVariant": "default",
+    "Model": {
+      "Type": "model",
+      "Name": "objects\\characters\\masterchief\\mp_masterchief\\mp_masterchief",
+      "Generate": false
+    },
+    "CrateObject": null,
+    "CollisionDamage": {
+      "Type": "collision_damage",
+      "Name": "globals\\collision_damage\\biped_player",
+      "Generate": false
+    },
+    "EarlyMoverProperties": [],
+    "CreationEffect": null,
+    "MaterialEffects": {
+      "Type": "material_effects",
+      "Name": "fx\\material_effects\\objects\\characters\\masterchief",
+      "Generate": false
+    },
+    "ArmorSounds": null,
+    "MeleeImpactSound": {
+      "Type": "sound",
+      "Name": "sound\\materials\\soft\\organic_flesh\\melee_impact",
+      "Generate": false
+    },
+    "AiProperties": [
+      {
+        "AiFlags": "None",
+        "AiTypeName": "invalid",
+        "AiSize": "Large",
+        "LeapJumpSpeed": "None"
+      }
+    ],
+    "Functions": [
+      {
+        "Flags": "None",
+        "ImportName": "current_shield_damage",
+        "ExportName": "shield_hit",
+        "TurnOffWith": "invalid",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAABI4fo+AAAAPxQAAAABAAAABAAAzf//f38AAIA/AAAAAA=="
+        },
+        "ScaleBy": "invalid"
+      },
+      {
+        "Flags": "None",
+        "ImportName": "shield_depleted",
+        "ExportName": "shield_down",
+        "TurnOffWith": "body_vitality",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAABI4fo+AAAAPxQAAAABAAAABAAAzf//f38AAIA/AAAAAA=="
+        },
+        "ScaleBy": "invalid"
+      },
+      {
+        "Flags": "None",
+        "ImportName": "integrated_light_power",
+        "ExportName": "flashlight_intensity",
+        "TurnOffWith": "alive",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAABQAAAABAAAABAAAzf//f38AAIA/AAAAAA=="
+        },
+        "ScaleBy": "invalid"
+      },
+      {
+        "Flags": "None",
+        "ImportName": "current_shield_damage",
+        "ExportName": "taking_damage",
+        "TurnOffWith": "shield_vitality",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAABQAAAABAAAABAAAzf//f38AAIA/AAAAAA=="
+        },
+        "ScaleBy": "invalid"
+      },
+      {
+        "Flags": "None",
+        "ImportName": "one",
+        "ExportName": "shield_static",
+        "TurnOffWith": "shield_depleted",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "AxQAAAAAgD8AAAAAAAAAAAAAAAAAAAAAAAAAABQAAAALAAAAAACAQAAAAD8AAAAAAACAPw=="
+        },
+        "ScaleBy": "invalid"
+      },
+      {
+        "Flags": "None",
+        "ImportName": "shield_static",
+        "ExportName": "shield_static_invert",
+        "TurnOffWith": "invalid",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAABQAAAABAAAABAAAzf//f38AAIC/AACAPw=="
+        },
+        "ScaleBy": "invalid"
+      },
+      {
+        "Flags": "None",
+        "ImportName": "shield_vitality",
+        "ExportName": "shield_intensity",
+        "TurnOffWith": "invalid",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAACgAAAABAAAACgAAzf//f39RfBtCg4+bwjqOG0KPwvU8AAAAAAAAgD+XSZ49"
+        },
+        "ScaleBy": "shield_static_invert"
+      },
+      {
+        "Flags": "Invert",
+        "ImportName": "active_camouflage",
+        "ExportName": "flaming_ninja_active",
+        "TurnOffWith": "alive",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAABQAAAABAAAABAAAP///f38AAIA/AAAAAA=="
+        },
+        "ScaleBy": "invalid"
+      }
+    ],
+    "HudTextMessageIndex": 0,
+    "SecondaryFlags": "None",
+    "Attachments": [
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "effect",
+          "Name": "objects\\characters\\masterchief\\fx\\shield\\shield_down",
+          "Generate": false
+        },
+        "Marker": "invalid",
+        "ChangeColor": "None",
+        "PrimaryScale": "shield_down",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "light",
+          "Name": "objects\\characters\\masterchief\\flashlight_1p",
+          "Generate": false
+        },
+        "Marker": "flashlight",
+        "ChangeColor": "None",
+        "PrimaryScale": "integrated_light_power",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "light",
+          "Name": "objects\\characters\\masterchief\\flashlight_3p",
+          "Generate": false
+        },
+        "Marker": "flashlight",
+        "ChangeColor": "None",
+        "PrimaryScale": "integrated_light_power",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "effect",
+          "Name": "objects\\characters\\masterchief\\fx\\flaming_ninja",
+          "Generate": false
+        },
+        "Marker": "flaming_ninja",
+        "ChangeColor": "None",
+        "PrimaryScale": "flaming_ninja_active",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "light",
+          "Name": "objects\\characters\\masterchief\\fx\\shield\\shield_down",
+          "Generate": false
+        },
+        "Marker": "body",
+        "ChangeColor": "None",
+        "PrimaryScale": "shield_down",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "effect",
+          "Name": "objects\\characters\\masterchief\\fx\\flashlight",
+          "Generate": false
+        },
+        "Marker": "invalid",
+        "ChangeColor": "None",
+        "PrimaryScale": "integrated_light_power",
+        "SecondaryScale": "invalid"
+      }
+    ],
+    "Widgets": [],
+    "ChangeColors": [
+      {
+        "InitialPermutations": [
+          {
+            "Weight": 1.0,
+            "ColorLowerBound": "Red: 0.501961, Green: 0.501961, Blue: 0.501961",
+            "ColorUpperBound": "Red: 0.501961, Green: 0.501961, Blue: 0.501961",
+            "VariantName": "default"
+          },
+          {
+            "Weight": 1.0,
+            "ColorLowerBound": "Red: 0.172549, Green: 0.231373, Blue: 0.517647",
+            "ColorUpperBound": "Red: 0.172549, Green: 0.231373, Blue: 0.517647",
+            "VariantName": "blue"
+          },
+          {
+            "Weight": 1.0,
+            "ColorLowerBound": "Red: 0.156863, Green: 0.156863, Blue: 0.156863",
+            "ColorUpperBound": "Red: 0.156863, Green: 0.156863, Blue: 0.156863",
+            "VariantName": "grey"
+          },
+          {
+            "Weight": 1.0,
+            "ColorLowerBound": "Red: 0.596078, Green: 0.133333, Blue: 0.133333",
+            "ColorUpperBound": "Red: 0.596078, Green: 0.133333, Blue: 0.133333",
+            "VariantName": "red"
+          }
+        ],
+        "Functions": []
+      },
+      {
+        "InitialPermutations": [
+          {
+            "Weight": 1.0,
+            "ColorLowerBound": "Red: 0.501961, Green: 0.501961, Blue: 0.501961",
+            "ColorUpperBound": "Red: 0.501961, Green: 0.501961, Blue: 0.501961",
+            "VariantName": "default"
+          },
+          {
+            "Weight": 1.0,
+            "ColorLowerBound": "Red: 0.564706, Green: 0.564706, Blue: 0.564706",
+            "ColorUpperBound": "Red: 0.560784, Green: 0.560784, Blue: 0.560784",
+            "VariantName": "blue"
+          },
+          {
+            "Weight": 1.0,
+            "ColorLowerBound": "Red: 0.564706, Green: 0.564706, Blue: 0.564706",
+            "ColorUpperBound": "Red: 0.560784, Green: 0.560784, Blue: 0.560784",
+            "VariantName": "grey"
+          },
+          {
+            "Weight": 1.0,
+            "ColorLowerBound": "Red: 0.835294, Green: 0.807843, Blue: 0.545098",
+            "ColorUpperBound": "Red: 0.835294, Green: 0.807843, Blue: 0.545098",
+            "VariantName": "red"
+          }
+        ],
+        "Functions": []
+      },
+      {
+        "InitialPermutations": [
+          {
+            "Weight": 1.0,
+            "ColorLowerBound": "Red: 1, Green: 0.294118, Blue: 0",
+            "ColorUpperBound": "Red: 0.909804, Green: 0.329412, Blue: 0",
+            "VariantName": "default"
+          }
+        ],
+        "Functions": []
+      },
+      {
+        "InitialPermutations": [],
+        "Functions": []
+      },
+      {
+        "InitialPermutations": [],
+        "Functions": []
+      }
+    ],
+    "NodeMaps": [],
+    "MultiplayerObject": [],
+    "RevivingEquipment": [],
+    "PathfindingSpheres": [
+      {
+        "Node": -1,
+        "Flags": "None",
+        "Center": "X: 0, Y: 0, Z: 0.175",
+        "Radius": 0.175
+      }
+    ],
+    "UnitFlags": {
+      "Flags": "FiresFromCamera, MeleeAttackersCannotAttach, FlashlightPowerDoesntTransferToWeapon, RunsAroundFlaming, ShieldsFryInfectionForms"
+    },
+    "DefaultTeam": "Human",
+    "ConstantSoundVolume": "Silent",
+    "HologramUnit": null,
+    "CampaignMetagameBuckets": [],
+    "IntegratedLightToggle": null,
+    "CameraFieldOfView": "Degrees: 70",
+    "CameraStiffness": 0.0,
+    "UnitCamera": {
+      "CameraFlags": "0",
+      "CameraMarkerName": "head",
+      "CameraSubmergedMarker": "invalid",
+      "PitchAutoLevel": "Degrees: 0",
+      "PitchRange": "Lower: Degrees: 0, Upper: Degrees: 0",
+      "CameraTracks": [
+        {
+          "Track": {
+            "Type": "camera_track",
+            "Name": "camera\\biped_support_camera",
+            "Generate": false
+          }
+        }
+      ],
+      "PitchSpringBounds": "Lower: 0, Upper: 0",
+      "SpringVelocity": "Degrees: 0",
+      "CameraAcceleration": [
+        {
+          "VelocityI": {
+            "K": 1.0,
+            "Scale": 0.025,
+            "Power": 1.0,
+            "Maximum": 0.5,
+            "CameraScaleAxial": 0.0,
+            "CameraScalePerpendicular": 0.0
+          },
+          "VelocityJ": {
+            "K": 1.0,
+            "Scale": -0.01,
+            "Power": 1.0,
+            "Maximum": 0.25,
+            "CameraScaleAxial": 0.0,
+            "CameraScalePerpendicular": 0.0
+          },
+          "VelocityK": {
+            "K": 1.0,
+            "Scale": 0.025,
+            "Power": 1.0,
+            "Maximum": 0.5,
+            "CameraScaleAxial": 0.0,
+            "CameraScalePerpendicular": 0.0
+          },
+          "MaximumCameraVelocity": 0.5
+        }
+      ]
+    },
+    "SyncActionCamera": {
+      "CameraFlags": "0",
+      "CameraMarkerName": "invalid",
+      "CameraSubmergedMarker": "invalid",
+      "PitchAutoLevel": "Degrees: 0",
+      "PitchRange": "Lower: Degrees: -85, Upper: Degrees: 10",
+      "CameraTracks": [
+        {
+          "Track": {
+            "Type": "camera_track",
+            "Name": "camera\\biped_assassination_camera",
+            "Generate": false
+          }
+        }
+      ],
+      "PitchSpringBounds": "Lower: 0, Upper: 0",
+      "SpringVelocity": "Degrees: 0",
+      "CameraAcceleration": []
+    },
+    "Assassination": {
+      "Response": {
+        "Type": "damage_response_definition",
+        "Name": "globals\\damage_responses\\player_assassination",
+        "Generate": false
+      },
+      "Weapon": {
+        "Type": "scenery",
+        "Name": "objects\\props\\human\\unsc\\spartan_knife\\spartan_knife",
+        "Generate": false
+      },
+      "ToolStowAnchor": "knife_stow_anchor",
+      "ToolHandMarker": "right_hand",
+      "ToolMarker": "ass_wpn_placement"
+    },
+    "Acceleration": {
+      "Range": "I: 0, J: 0, K: 0",
+      "ActionScale": 0.0,
+      "AttachScale": 0.0
+    },
+    "SoftPingThreshold": 0.0,
+    "SoftPingInterruptTime": 0.0,
+    "HardPingThreshold": 0.0,
+    "HardPingInterruptTime": 0.0,
+    "HardDeathThreshold": 0.0,
+    "FeignDeathThreshold": 0.0,
+    "FeignDeathTime": 0.0,
+    "DistanceOfDiveAnimation": 0.0,
+    "StunnedMovementThreshold": 0.0,
+    "FeignDeathChance": 0.0,
+    "FeignRepeatChance": 0.0,
+    "SpawnedTurretCharacter": null,
+    "SpawnedActorCountBounds": "Lower: 0, Upper: 0",
+    "SpawnedVelocity": 0.0,
+    "AimingVelocityMaximum": "Degrees: 0",
+    "AimingAccelerationMaximum": "Degrees: 0",
+    "CasualAimingModifier": 0.0,
+    "LookingVelocityMaximum": "Degrees: 0",
+    "LookingAccelerationMaximum": "Degrees: 0",
+    "RightHandNode": "right_hand",
+    "LeftHandNode": "left_hand",
+    "PreferredGunNode": "right_hand_mc",
+    "MeleeDamage": null,
+    "BoardingMeleeDamage": {
+      "Type": "damage_effect",
+      "Name": "objects\\characters\\masterchief\\damage_effects\\masterchief_boarding_melee",
+      "Generate": false
+    },
+    "BoardingMeleeResponse": {
+      "Type": "damage_effect",
+      "Name": "objects\\characters\\masterchief\\damage_effects\\masterchief_boarding_melee_response",
+      "Generate": false
+    },
+    "EvictionMeleeDamage": {
+      "Type": "damage_effect",
+      "Name": "objects\\characters\\masterchief\\damage_effects\\masterchief_ejection_melee",
+      "Generate": false
+    },
+    "EvictionMeleeResponse": {
+      "Type": "damage_effect",
+      "Name": "objects\\characters\\masterchief\\damage_effects\\masterchief_ejection_melee_response",
+      "Generate": false
+    },
+    "LandingMeleeDamage": null,
+    "FlurryMeleeDamage": null,
+    "ObstacleSmashMeleeDamage": null,
+    "ShieldPopDamage": {
+      "Type": "damage_effect",
+      "Name": "globals\\damage_effects\\shield_pop_melee",
+      "Generate": false
+    },
+    "AssassinationDamage": {
+      "Type": "damage_effect",
+      "Name": "globals\\damage_effects\\assassination",
+      "Generate": false
+    },
+    "MotionSensorBlipSize": "Medium",
+    "ItemOwnerSize": "Player",
+    "Postures": [],
+    "HudInterfaces": [
+      {
+        "UnitHudInterface": {
+          "Type": "chud_definition",
+          "Name": "ui\\chud\\spartan",
+          "Generate": false
+        }
+      },
+      {
+        "UnitHudInterface": null
+      }
+    ],
+    "DialogueVariants": [],
+    "MotionTrackerRangeModifier": 0.0,
+    "GrenadeAngle": "Degrees: 0",
+    "GrenadeAngleMaxElevation": "Degrees: 0",
+    "GrenadeAngleMinElevation": "Degrees: 0",
+    "GrenadeVelocity": 10.0,
+    "GrenadeType": "HumanFragmentation",
+    "GrenadeCount": 4,
+    "PoweredSeats": [],
+    "Weapons": [],
+    "TargetTracking": [],
+    "Seats": [],
+    "EmpRadius": 0.0,
+    "EmpEffect": null,
+    "Boost": {
+      "BoostCollisionDamage": null,
+      "BoostPeakPower": 0.0,
+      "BoostRisePower": 0.0,
+      "BoostPeakTime": 0.0,
+      "BoostFallPower": 0.0,
+      "BoostDeadTime": 0.0
+    },
+    "LipsyncAttackWeight": 0.0,
+    "LipsyncDecayWeight": 0.0,
+    "DetachDamage": null,
+    "DetachedWeapon": null,
+    "MovingTurningSpeed": "Degrees: 486.20004",
+    "BipedFlags": "None",
+    "StationaryTurningThreshold": "Degrees: 80",
+    "RagdollThresholdVelocity": 0.0,
+    "RagdollRegionName": "invalid",
+    "JumpVelocity": 3.08,
+    "MaximumSoftLandingTime": 0.6,
+    "MinimumHardLandingTime": 0.1,
+    "MinimumSoftLandingVelocity": 0.5,
+    "MinimumHardLandingVelocity": 3.8,
+    "MaximumHardLandingVelocity": 10.0,
+    "DeathHardLandingVelocity": 0.0,
+    "StunDuration": 1.7,
+    "StandingCameraHeight": 0.62,
+    "RunningCameraHeight": 0.62,
+    "CrouchingCameraHeight": 0.45,
+    "CrouchWalkingCameraHeight": 0.45,
+    "CrouchTransitionTime": 0.2,
+    "CrouchingCameraFunction": {
+      "Data": "CDQAAAAAAAAAAOA/AAAAAAAAAAAAAAAAAAAAABwAAAABAAAABwAAzf//f38AAAAAAACAwAAAgEAAAAAA"
+    },
+    "CameraHeights": [],
+    "CameraInterpolationStart": "Degrees: 15.000001",
+    "CameraInterpolationEnd": "Degrees: 90",
+    "CameraForwardMovementScale": 0.75,
+    "CameraSideMovementScale": 0.5,
+    "CameraVerticalMovementScale": 0.5,
+    "CameraExclusionDistance": 0.13,
+    "AutoaimWidth": 0.0,
+    "LockonFlags": "LockedByPlasmaTargeting",
+    "LockonDistance": 15.0,
+    "PhysicsControlNodeIndex": -1,
+    "CosineStationaryTurningThreshold": 0.17364822,
+    "CrouchTransitionVelocity": 5.0,
+    "CameraHeightVelocity": 0.8500001,
+    "PelvisNodeIndex": 0,
+    "HeadNodeIndex": 15,
+    "FpCrouchMovingAnimSpeedScale": 0.0,
+    "HeadshotAccelerationScale": 1.2,
+    "AreaDamageEffect": {
+      "Type": "effect",
+      "Name": "fx\\material_effects\\objects\\characters\\contact\\collision\\blood_aoe_human_masterchief",
+      "Generate": false
+    },
+    "MovementGates": [],
+    "MovementGatesCrouching": [],
+    "JumpAimOffsetDistance": 0.0,
+    "JumpAimOffsetDuration": 0.0,
+    "LandAimOffsetDistance": 0.0,
+    "LandAimOffsetDuration": 0.0,
+    "AimCompensateMinDistance": 0.0,
+    "AimCompensateMaxDistance": 0.0,
+    "PhysicsFlags": {
+      "Halo3ODST": "UsePlayerPhysics"
+    },
+    "HeightStanding": 0.725,
+    "HeightCrouching": 0.5,
+    "Radius": 0.175,
+    "Mass": 125.0,
+    "LivingMaterialName": "hard_metal_thin_hum_masterchief",
+    "DeadMaterialName": "hard_metal_thin_hum_masterchief",
+    "LivingGlobalMaterialIndex": 56,
+    "DeadGlobalMaterialIndex": 56,
+    "DeadSphereShapes": [
+      {
+        "Name": "invalid",
+        "MaterialIndex": -1,
+        "RuntimeMaterialType": 0,
+        "RelativeMassScale": 0.0,
+        "Friction": 0.0,
+        "Restitution": 0.0,
+        "Volume": 0.0,
+        "Mass": 0.0,
+        "MassDistributionIndex": 0,
+        "PhantomIndex": -1,
+        "ProxyCollisionGroup": 0,
+        "ShapeBase": {
+          "FieldPointerSkip": {
+            "Value": 0
+          },
+          "Size": 0,
+          "Count": 128,
+          "Userdata": {
+            "Value": 0
+          },
+          "ShapeType": 3,
+          "Radius": 0.175
+        },
+        "ConvexBase": {
+          "FieldPointerSkip": {
+            "Value": 0
+          },
+          "Size": 0,
+          "Count": 128,
+          "Userdata": {
+            "Value": 32
+          },
+          "ShapeType": 12,
+          "Radius": 0.175
+        },
+        "FieldPointerSkip": {
+          "Value": 0
+        },
+        "ShapeReference": {
+          "Shapetype": "Sphere",
+          "ShapeIndex": 0,
+          "ChildShapeSize": 0
+        },
+        "Translation": "I: 0, J: 0, K: 0.175",
+        "TranslationRadius": 0.0
+      },
+      {
+        "Name": "invalid",
+        "MaterialIndex": -1,
+        "RuntimeMaterialType": 0,
+        "RelativeMassScale": 0.0,
+        "Friction": 0.0,
+        "Restitution": 0.0,
+        "Volume": 0.0,
+        "Mass": 0.0,
+        "MassDistributionIndex": 0,
+        "PhantomIndex": -1,
+        "ProxyCollisionGroup": 0,
+        "ShapeBase": {
+          "FieldPointerSkip": {
+            "Value": 0
+          },
+          "Size": 0,
+          "Count": 128,
+          "Userdata": {
+            "Value": 112
+          },
+          "ShapeType": 3,
+          "Radius": 0.23625
+        },
+        "ConvexBase": {
+          "FieldPointerSkip": {
+            "Value": 0
+          },
+          "Size": 0,
+          "Count": 128,
+          "Userdata": {
+            "Value": 144
+          },
+          "ShapeType": 12,
+          "Radius": 0.23625
+        },
+        "FieldPointerSkip": {
+          "Value": 0
+        },
+        "ShapeReference": {
+          "Shapetype": "Sphere",
+          "ShapeIndex": 0,
+          "ChildShapeSize": 0
+        },
+        "Translation": "I: 0, J: 0, K: 0.23625",
+        "TranslationRadius": 0.0
+      },
+      {
+        "Name": "invalid",
+        "MaterialIndex": -1,
+        "RuntimeMaterialType": 0,
+        "RelativeMassScale": 0.0,
+        "Friction": 0.0,
+        "Restitution": 0.0,
+        "Volume": 0.0,
+        "Mass": 0.0,
+        "MassDistributionIndex": 0,
+        "PhantomIndex": -1,
+        "ProxyCollisionGroup": 0,
+        "ShapeBase": {
+          "FieldPointerSkip": {
+            "Value": 0
+          },
+          "Size": 0,
+          "Count": 128,
+          "Userdata": {
+            "Value": 224
+          },
+          "ShapeType": 3,
+          "Radius": 0.29749998
+        },
+        "ConvexBase": {
+          "FieldPointerSkip": {
+            "Value": 0
+          },
+          "Size": 0,
+          "Count": 128,
+          "Userdata": {
+            "Value": 256
+          },
+          "ShapeType": 12,
+          "Radius": 0.29749998
+        },
+        "FieldPointerSkip": {
+          "Value": 0
+        },
+        "ShapeReference": {
+          "Shapetype": "Sphere",
+          "ShapeIndex": 0,
+          "ChildShapeSize": 0
+        },
+        "Translation": "I: 0, J: 0, K: 0.29749998",
+        "TranslationRadius": 0.0
+      }
+    ],
+    "PillShapes": [
+      {
+        "Name": "invalid",
+        "MaterialIndex": -1,
+        "RuntimeMaterialType": 0,
+        "RelativeMassScale": 0.0,
+        "Friction": 0.0,
+        "Restitution": 0.0,
+        "Volume": 0.0,
+        "Mass": 0.0,
+        "MassDistributionIndex": 0,
+        "PhantomIndex": -1,
+        "ProxyCollisionGroup": 0,
+        "ShapeBase": {
+          "FieldPointerSkip": {
+            "Value": 0
+          },
+          "Size": 0,
+          "Count": 128,
+          "Userdata": {
+            "Value": 0
+          },
+          "ShapeType": 7,
+          "Radius": 0.175
+        },
+        "Bottom": "I: 0, J: 0, K: 0.55",
+        "BottomRadius": 0.175,
+        "Top": "I: 0, J: 0, K: 0.175",
+        "TopRadius": 0.175
+      },
+      {
+        "Name": "invalid",
+        "MaterialIndex": -1,
+        "RuntimeMaterialType": 0,
+        "RelativeMassScale": 0.0,
+        "Friction": 0.0,
+        "Restitution": 0.0,
+        "Volume": 0.0,
+        "Mass": 0.0,
+        "MassDistributionIndex": 0,
+        "PhantomIndex": -1,
+        "ProxyCollisionGroup": 0,
+        "ShapeBase": {
+          "FieldPointerSkip": {
+            "Value": 0
+          },
+          "Size": 0,
+          "Count": 128,
+          "Userdata": {
+            "Value": 96
+          },
+          "ShapeType": 7,
+          "Radius": 0.175
+        },
+        "Bottom": "I: 0, J: 0, K: 0.325",
+        "BottomRadius": 0.175,
+        "Top": "I: 0, J: 0, K: 0.175",
+        "TopRadius": 0.175
+      }
+    ],
+    "SphereShapes": [],
+    "BipedGroundPhysics": {
+      "MaximumSlopeAngle": "Degrees: 50",
+      "DownhillFalloffAngle": "Degrees: 45",
+      "DownhillCutoffAngle": "Degrees: 50",
+      "UphillFalloffAngle": "Degrees: 45",
+      "UphillCutoffAngle": "Degrees: 50",
+      "DownhillVelocityScale": 1.5,
+      "UphillVelocityScale": 0.5,
+      "RuntimeMinimumNormalK": 0.64278764,
+      "RuntimeDownhillK0": -0.70710677,
+      "RuntimeDownhillK1": -0.76604444,
+      "RuntimeUphillK0": 0.70710677,
+      "RuntimeUphillK1": 0.76604444,
+      "ClimbInflectionAngle": "Degrees: -20",
+      "ScaleAirborneReactionTime": 0.0,
+      "ScaleGroundAdhesionVelocity": 0.0,
+      "GravityScale": 0.0
+    },
+    "BipedFlyingPhysics": {
+      "BankAngle": "Degrees: 0",
+      "BankApplyTime": 0.0,
+      "BankDecayTime": 0.0,
+      "PitchRatio": 0.0,
+      "MaximumVelocity": 0.0,
+      "MaximumSidestepVelocity": 0.0,
+      "Acceleration": 0.0,
+      "Deceleration": 0.0,
+      "AngularVelocityMaximum": "Degrees: 0",
+      "AngularAccelerationMaximum": "Degrees: 0",
+      "CrouchVelocityModifier": 0.0,
+      "Flags": "0"
+    },
+    "ContactPoints": [
+      {
+        "MarkerName": "left_foot"
+      },
+      {
+        "MarkerName": "right_foot"
+      }
+    ],
+    "ReanimationCharacter": null,
+    "ReanimationMorphMuffins": null,
+    "DeathSpawnCharacter": null,
+    "DeathSpawnCount": 0,
+    "BipedLeapingData": {
+      "LeapFlags": "None",
+      "DampeningScale": 0.0,
+      "RollDelay": 0.0,
+      "CannonballOffaxisScale": 0.0,
+      "CannonballOfftrackScale": 0.0,
+      "CannonballRollBounds": "Lower: Degrees: 0, Upper: Degrees: 0",
+      "AnticipationRatioBounds": "Lower: 0, Upper: 0",
+      "ReactionForceBounds": "Lower: 0, Upper: 0",
+      "LobbingDesire": 0.0
+    },
+    "BipedGroundFittingData": {
+      "GroundNormalDampening": 0.75,
+      "RootOffsetMaxScale": 0.6,
+      "RootOffsetDampening": 0.8,
+      "FollowingCamScale": 0.5,
+      "RootLeaningScale": 0.1,
+      "FootRollMax": "Degrees: 5.00003",
+      "FootPitchMax": "Degrees: 40",
+      "PivotonfootScale": 1.0,
+      "PivotMinFootDelta": 0.005,
+      "PivotStrideLengthScale": 1.0,
+      "PivotThrottleScale": 0.5,
+      "PivotOffsetDampening": 0.1
+    },
+    "Unknown4": 0
+  }
+}

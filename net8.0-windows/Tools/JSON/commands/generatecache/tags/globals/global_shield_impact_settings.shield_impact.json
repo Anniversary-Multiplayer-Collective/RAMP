@@ -1,0 +1,136 @@
+{
+  "TagName": "globals\\global_shield_impact_settings",
+  "TagType": "shield_impact",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Flags": "AlwaysRender",
+    "Version": 4,
+    "ShieldIntensity": {
+      "RecentDamageIntensity": 0.04,
+      "CurrentDamageIntensity": 0.0
+    },
+    "ShieldEdge": {
+      "OvershieldScale": 1.0,
+      "DepthFadeRange": 0.25,
+      "OuterFadeRadius": 0.05000001,
+      "CenterRadius": 0.5,
+      "InnerFadeRadius": 0.9,
+      "EdgeGlowColor": {
+        "InputVariable": "invalid",
+        "RangeVariable": "invalid",
+        "Function": {
+          "Data": "CDQCAAAAAP8AAIA/AAAAAByA5f9vEoM6bxIDOxwAAAABAAAABwAAzf//f3/tvms/njMqwONDL0AAAAAA"
+        }
+      },
+      "EdgeGlowIntensity": {
+        "InputVariable": "shield_intensity",
+        "RangeVariable": "invalid",
+        "Function": {
+          "Data": "CDQAAAAAQD8AAMA/AAAAAAAAAABvEoM6bxIDOygAAAABAAAACgAAzf//f3+QsCC+JCyoPwkLCsAAAIA/"
+        }
+      }
+    },
+    "Plasma": {
+      "PlasmaDepthFadeRange": 0.05,
+      "PlasmaNoiseBitmap1": {
+        "Type": "bitmap",
+        "Name": "levels\\shared\\bitmaps\\test_maps\\cloud_1",
+        "Generate": false
+      },
+      "PlasmaNoiseBitmap2": {
+        "Type": "bitmap",
+        "Name": "levels\\shared\\bitmaps\\test_maps\\cloud_2",
+        "Generate": false
+      },
+      "TilingScale": 3.0,
+      "ScrollSpeed": 1.0,
+      "EdgeSharpness": 4.0,
+      "CenterSharpness": 80.0,
+      "PlasmaOuterFadeRadius": 0.05000001,
+      "PlasmaCenterRadius": 0.5,
+      "PlasmaInnerFadeRadius": 0.9,
+      "PlasmaCenterColor": {
+        "InputVariable": "invalid",
+        "RangeVariable": "invalid",
+        "Function": {
+          "Data": "CDQCAAAAAP8XOf//AAAAAKtnY/9vEoM6bxIDOxwAAAABAAAABwAAzf//f3/EQGc/4PnFPQAAAAAAAAAA"
+        }
+      },
+      "PlasmaCenterIntensity": {
+        "InputVariable": "shield_intensity",
+        "RangeVariable": "invalid",
+        "Function": {
+          "Data": "CDQAAAAAAEAAAIBAAAAAAAAAAAAAAAAAAAAAABwAAAABAAAABwAAzf//f38AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        }
+      },
+      "PlasmaEdgeColor": {
+        "InputVariable": "invalid",
+        "RangeVariable": "invalid",
+        "Function": {
+          "Data": "CDQCAAAAAP8XOf//AAAAAP////9vEoM6bxIDOzQAAAACAAAABwAAza5HoT4SJW3Agcz3wMVov0AAAAAABwAAAP//f38AAAAAAAAAAAAAAAAAAIA/"
+        }
+      },
+      "PlasmaEdgeIntensity": {
+        "InputVariable": "shield_intensity",
+        "RangeVariable": "invalid",
+        "Function": {
+          "Data": "CDQAAAAAgD8AAABPAAAAAAAAAAAAAAAAAAAAABwAAAABAAAABwAAzf//f38QxmLAEMYiQAAAAAAAAIA/"
+        }
+      }
+    },
+    "ExtrusionOscillation": {
+      "OscillationBitmap1": {
+        "Type": "bitmap",
+        "Name": "levels\\shared\\bitmaps\\test_maps\\cloud_1",
+        "Generate": false
+      },
+      "OscillationBitmap2": {
+        "Type": "bitmap",
+        "Name": "levels\\shared\\bitmaps\\test_maps\\cloud_2",
+        "Generate": false
+      },
+      "OscillationTilingScale": 2.0,
+      "OscillationScrollSpeed": 0.08,
+      "ExtrusionAmount": {
+        "InputVariable": "shield_vitality",
+        "RangeVariable": "invalid",
+        "Function": {
+          "Data": "CDQAAKabIjumm8Q7AAAAAAAAAAAAAAAAAAAAABwAAAABAAAABwAAzf//f38w+7u+mP3dP2Z/F8AAAIA/AAAAAAAAAAAAAAAA"
+        }
+      },
+      "OscillationAmplitude": {
+        "InputVariable": "shield_vitality",
+        "RangeVariable": "invalid",
+        "Function": {
+          "Data": "ATQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        }
+      }
+    },
+    "HitResponse": {
+      "HitTime": 2.5,
+      "HitColor": {
+        "InputVariable": "invalid",
+        "RangeVariable": "invalid",
+        "Function": {
+          "Data": "AQAAAAAAAAAAAAAAAAAAAAAAAABvEoM6bxIDOwAAAAABAAAABwAAzf//f3+rYqe/XhYIQHOvOT4AAAAAAQAAAAQAAAD//39/AAAAAAAAAD8="
+        }
+      },
+      "HitIntensity": {
+        "InputVariable": "invalid",
+        "RangeVariable": "invalid",
+        "Function": {
+          "Data": "ATQAAM3MzD3NzEw+AAAAAAAAAABvEoM6bxIDOywAAAACAAAABwAAzVyPAj9gFwfAGe2/QA8Pj8AAAAAAAAAAAP//f38AAAAAAAAAAA=="
+        }
+      }
+    },
+    "EdgeScales": "I: 3, J: -4, K: 2, W: -4",
+    "EdgeOffsets": "I: -2, J: 0, K: 0, W: 10",
+    "PlasmaScales": "I: 5, J: 4, K: -45, W: 76",
+    "DepthFadeParameters": "I: 4, J: 1E-12, K: 20, W: 20"
+  }
+}

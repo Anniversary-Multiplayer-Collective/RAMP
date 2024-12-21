@@ -1,0 +1,1170 @@
+{
+  "TagName": "objects\\vehicles\\wraith\\wraith_anti_air",
+  "TagType": "vehicle",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "ObjectType": {
+      "Halo3ODST": "Vehicle"
+    },
+    "ObjectFlags": {
+      "Flags": "None"
+    },
+    "BoundingRadius": 1.8,
+    "BoundingOffset": "X: 0, Y: 0, Z: 0",
+    "AccelerationScale": 0.05,
+    "LightmapShadowMode": "Default",
+    "SweetenerSize": "Medium",
+    "WaterDensity": "Default",
+    "RuntimeFlags": 2,
+    "DynamicLightSphereRadius": 0.0,
+    "DynamicLightSphereOffset": "X: 0, Y: 0, Z: 0",
+    "DefaultModelVariant": "anti_air",
+    "Model": {
+      "Type": "model",
+      "Name": "objects\\vehicles\\wraith\\wraith",
+      "Generate": false
+    },
+    "CrateObject": null,
+    "CollisionDamage": {
+      "Type": "collision_damage",
+      "Name": "globals\\collision_damage\\vehicle_large",
+      "Generate": false
+    },
+    "EarlyMoverProperties": [],
+    "CreationEffect": null,
+    "MaterialEffects": {
+      "Type": "material_effects",
+      "Name": "fx\\material_effects\\objects\\vehicles\\wraith",
+      "Generate": false
+    },
+    "ArmorSounds": null,
+    "MeleeImpactSound": null,
+    "AiProperties": [
+      {
+        "AiFlags": "None",
+        "AiTypeName": "wraith",
+        "AiSize": "Huge",
+        "LeapJumpSpeed": "None"
+      }
+    ],
+    "Functions": [
+      {
+        "Flags": "None",
+        "ImportName": "driver_seat_power",
+        "ExportName": "antigrav_light",
+        "TurnOffWith": "invalid",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAABI4fo+AAAAPxQAAAABAAAABAAAzf//f38AAIA/AAAAAA=="
+        },
+        "ScaleBy": "flashlights_allowed"
+      },
+      {
+        "Flags": "AlwaysActive",
+        "ImportName": "engine_power",
+        "ExportName": "engine_audio",
+        "TurnOffWith": "driver_seat_occupied",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAABI4fo+AAAAPxQAAAABAAAABAAAzf//f38zMzM/AAAAAA=="
+        },
+        "ScaleBy": "invalid"
+      },
+      {
+        "Flags": "None",
+        "ImportName": "boost",
+        "ExportName": "boost_light",
+        "TurnOffWith": "invalid",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAABI4fo+AAAAPxQAAAABAAAABAAAzf//f38AAIA/AAAAAA=="
+        },
+        "ScaleBy": "flashlights_allowed"
+      },
+      {
+        "Flags": "None",
+        "ImportName": "driver_seat_power",
+        "ExportName": "gear_power",
+        "TurnOffWith": "invalid",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAABQAAAABAAAABAAAP///f38AAIA/AAAAAA=="
+        },
+        "ScaleBy": "invalid"
+      },
+      {
+        "Flags": "None",
+        "ImportName": "engine_power",
+        "ExportName": "gear_speed",
+        "TurnOffWith": "invalid",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAABQAAAABAAAABAAAzf//f38AAIA/AAAAAA=="
+        },
+        "ScaleBy": "invalid"
+      },
+      {
+        "Flags": "None",
+        "ImportName": "driver_seat_power",
+        "ExportName": "running_lights",
+        "TurnOffWith": "invalid",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAABQAAAABAAAABAAAzf//f38AAIA/AAAAAA=="
+        },
+        "ScaleBy": "invalid"
+      },
+      {
+        "Flags": "None",
+        "ImportName": "boost",
+        "ExportName": "boost_with_running_lights",
+        "TurnOffWith": "invalid",
+        "MinimumValue": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAD8AAIA/AAAAAAAAAAAAAAAAAAAAABQAAAABAAAABAAAzf//f38AAIA/AAAAAA=="
+        },
+        "ScaleBy": "driver_seat_power"
+      }
+    ],
+    "HudTextMessageIndex": 22,
+    "SecondaryFlags": "None",
+    "Attachments": [
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "sound_looping",
+          "Name": "sound\\vehicles\\wraith\\w_boost_left\\w_boost_left",
+          "Generate": false
+        },
+        "Marker": "l_engine",
+        "ChangeColor": "None",
+        "PrimaryScale": "boost",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "sound_looping",
+          "Name": "sound\\vehicles\\wraith\\w_boost_right\\w_boost_right",
+          "Generate": false
+        },
+        "Marker": "r_engine",
+        "ChangeColor": "None",
+        "PrimaryScale": "boost",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "sound_looping",
+          "Name": "sound\\vehicles\\wraith\\wraith_engine_left\\wraith_engine_left",
+          "Generate": false
+        },
+        "Marker": "l_engine",
+        "ChangeColor": "None",
+        "PrimaryScale": "engine_audio",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "sound_looping",
+          "Name": "sound\\vehicles\\wraith\\wraith_engine_right\\wraith_engine_right",
+          "Generate": false
+        },
+        "Marker": "r_engine",
+        "ChangeColor": "None",
+        "PrimaryScale": "engine_audio",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "light",
+          "Name": "objects\\vehicles\\wraith\\fx\\running\\boost",
+          "Generate": false
+        },
+        "Marker": "fx_boost_left_light",
+        "ChangeColor": "None",
+        "PrimaryScale": "boost_light",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "light",
+          "Name": "objects\\vehicles\\wraith\\fx\\running\\boost",
+          "Generate": false
+        },
+        "Marker": "fx_boost_right_light",
+        "ChangeColor": "None",
+        "PrimaryScale": "boost_light",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "effect",
+          "Name": "objects\\vehicles\\wraith\\fx\\running\\boost_ripples",
+          "Generate": false
+        },
+        "Marker": "fx_boost",
+        "ChangeColor": "None",
+        "PrimaryScale": "boost",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "effect",
+          "Name": "objects\\vehicles\\wraith\\fx\\running\\boost",
+          "Generate": false
+        },
+        "Marker": "fx_boost",
+        "ChangeColor": "None",
+        "PrimaryScale": "boost",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "effect",
+          "Name": "objects\\vehicles\\wraith\\fx\\running\\antigrav_lift",
+          "Generate": false
+        },
+        "Marker": "invalid",
+        "ChangeColor": "None",
+        "PrimaryScale": "driver_seat_power",
+        "SecondaryScale": "invalid"
+      },
+      {
+        "AtlasFlags": "None",
+        "Type": {
+          "Type": "sound_looping",
+          "Name": "sound\\vehicles\\wraith\\wraith_engine_lod\\wraith_engine_lod",
+          "Generate": false
+        },
+        "Marker": "invalid",
+        "ChangeColor": "None",
+        "PrimaryScale": "engine_audio",
+        "SecondaryScale": "invalid"
+      }
+    ],
+    "Widgets": [],
+    "ChangeColors": [],
+    "NodeMaps": [],
+    "MultiplayerObject": [
+      {
+        "EngineFlags": "None",
+        "Type": "HeavyLandVehicle",
+        "TeleporterPassability": "None",
+        "Flags": "None",
+        "BoundaryShape": "None",
+        "SpawnTimerType": "StartsOnDeath",
+        "DefaultSpawnTime": 30,
+        "DefaultAbandonTime": 60,
+        "BoundaryWidthRadius": 0.0,
+        "BoundaryBoxLength": 0.0,
+        "BoundaryPositiveHeight": 0.0,
+        "BoundaryNegativeHeight": 0.0,
+        "StandardRespawnZoneWeight": 0.0,
+        "FlagAwayRespawnZoneWeight": 0.0,
+        "FlagAtHomeRespawnZoneWeight": 0.0,
+        "BoundaryCenterMarker": "invalid",
+        "SpawnedObjectMarkerName": "invalid",
+        "SpawnedObject": null,
+        "NyiBoundaryMaterial": "invalid",
+        "BoundaryShaders": [
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          },
+          {
+            "StandardShader": null,
+            "OpaqueShader": null
+          }
+        ]
+      }
+    ],
+    "RevivingEquipment": [],
+    "PathfindingSpheres": [
+      {
+        "Node": 6,
+        "Flags": "None",
+        "Center": "X: -0.06724365, Y: -0.18003227, Z: 0.017974453",
+        "Radius": 0.5
+      },
+      {
+        "Node": 6,
+        "Flags": "None",
+        "Center": "X: -0.06724365, Y: -0.18003227, Z: 0.017974453",
+        "Radius": 0.5
+      },
+      {
+        "Node": 5,
+        "Flags": "None",
+        "Center": "X: -0.06724365, Y: 0.20205063, Z: 0.017974453",
+        "Radius": 0.5
+      },
+      {
+        "Node": 5,
+        "Flags": "None",
+        "Center": "X: -0.06724365, Y: 0.20205063, Z: 0.017974453",
+        "Radius": 0.5
+      },
+      {
+        "Node": 8,
+        "Flags": "None",
+        "Center": "X: -0.36689007, Y: 1.4776095, Z: -0.1075839",
+        "Radius": 0.29999998
+      },
+      {
+        "Node": 8,
+        "Flags": "None",
+        "Center": "X: -0.3822891, Y: -0.17772003, Z: 0.17950523",
+        "Radius": 0.79999995
+      },
+      {
+        "Node": 8,
+        "Flags": "None",
+        "Center": "X: -0.36689007, Y: 1.4776095, Z: -0.1075839",
+        "Radius": 0.29999998
+      },
+      {
+        "Node": 8,
+        "Flags": "None",
+        "Center": "X: -0.3822891, Y: -0.17772003, Z: 0.17950523",
+        "Radius": 0.79999995
+      },
+      {
+        "Node": 8,
+        "Flags": "None",
+        "Center": "X: -0.3822891, Y: -0.17772003, Z: 0.17950523",
+        "Radius": 0.79999995
+      },
+      {
+        "Node": 7,
+        "Flags": "None",
+        "Center": "X: -0.36689007, Y: -1.48466, Z: -0.1075839",
+        "Radius": 0.29999998
+      },
+      {
+        "Node": 7,
+        "Flags": "None",
+        "Center": "X: -0.3822891, Y: 0.17067276, Z: 0.17950523",
+        "Radius": 0.79999995
+      },
+      {
+        "Node": 7,
+        "Flags": "None",
+        "Center": "X: -0.3822891, Y: 0.17067276, Z: 0.17950523",
+        "Radius": 0.79999995
+      },
+      {
+        "Node": 7,
+        "Flags": "None",
+        "Center": "X: -0.3822891, Y: 0.17067276, Z: 0.17950523",
+        "Radius": 0.79999995
+      },
+      {
+        "Node": 7,
+        "Flags": "None",
+        "Center": "X: -0.36689007, Y: -1.48466, Z: -0.1075839",
+        "Radius": 0.29999998
+      },
+      {
+        "Node": 0,
+        "Flags": "None",
+        "Center": "X: -0.972267, Y: -9.537E-09, Z: 0.04094753",
+        "Radius": 0.7
+      },
+      {
+        "Node": 0,
+        "Flags": "None",
+        "Center": "X: -0.1543851, Y: -9.537E-09, Z: 0.04094753",
+        "Radius": 0.7
+      }
+    ],
+    "UnitFlags": {
+      "Flags": "UnitHasBoost"
+    },
+    "DefaultTeam": "Default",
+    "ConstantSoundVolume": "Loud",
+    "HologramUnit": null,
+    "CampaignMetagameBuckets": [
+      {
+        "Flags": "OnlyCountsWithRiders",
+        "UnitType": "Wraith",
+        "UnitClass": "HeavyVehicle",
+        "PointCount": 200
+      }
+    ],
+    "IntegratedLightToggle": null,
+    "CameraFieldOfView": "Degrees: 70",
+    "CameraStiffness": 0.0,
+    "UnitCamera": {
+      "CameraFlags": "0",
+      "CameraMarkerName": "invalid",
+      "CameraSubmergedMarker": "invalid",
+      "PitchAutoLevel": "Degrees: 0",
+      "PitchRange": "Lower: Degrees: 0, Upper: Degrees: 0",
+      "CameraTracks": [
+        {
+          "Track": {
+            "Type": "camera_track",
+            "Name": "camera\\wraith_d_camera",
+            "Generate": false
+          }
+        }
+      ],
+      "PitchSpringBounds": "Lower: 0, Upper: 0",
+      "SpringVelocity": "Degrees: 0",
+      "CameraAcceleration": []
+    },
+    "SyncActionCamera": {
+      "CameraFlags": "0",
+      "CameraMarkerName": "invalid",
+      "CameraSubmergedMarker": "invalid",
+      "PitchAutoLevel": "Degrees: 0",
+      "PitchRange": "Lower: Degrees: 0, Upper: Degrees: 0",
+      "CameraTracks": [],
+      "PitchSpringBounds": "Lower: 0, Upper: 0",
+      "SpringVelocity": "Degrees: 0",
+      "CameraAcceleration": []
+    },
+    "Assassination": {
+      "Response": null,
+      "Weapon": null,
+      "ToolStowAnchor": "invalid",
+      "ToolHandMarker": "invalid",
+      "ToolMarker": "invalid"
+    },
+    "Acceleration": {
+      "Range": "I: 0.11111111, J: 0.11111111, K: 0.11111111",
+      "ActionScale": 0.0,
+      "AttachScale": 0.0
+    },
+    "SoftPingThreshold": 0.0,
+    "SoftPingInterruptTime": 0.0,
+    "HardPingThreshold": 0.0,
+    "HardPingInterruptTime": 0.0,
+    "HardDeathThreshold": 0.0,
+    "FeignDeathThreshold": 0.0,
+    "FeignDeathTime": 0.0,
+    "DistanceOfDiveAnimation": 0.0,
+    "StunnedMovementThreshold": 0.0,
+    "FeignDeathChance": 0.0,
+    "FeignRepeatChance": 0.0,
+    "SpawnedTurretCharacter": null,
+    "SpawnedActorCountBounds": "Lower: 0, Upper: 0",
+    "SpawnedVelocity": 0.0,
+    "AimingVelocityMaximum": "Degrees: 180",
+    "AimingAccelerationMaximum": "Degrees: 400",
+    "CasualAimingModifier": 0.0,
+    "LookingVelocityMaximum": "Degrees: 0",
+    "LookingAccelerationMaximum": "Degrees: 0",
+    "RightHandNode": "invalid",
+    "LeftHandNode": "invalid",
+    "PreferredGunNode": "invalid",
+    "MeleeDamage": null,
+    "BoardingMeleeDamage": null,
+    "BoardingMeleeResponse": null,
+    "EvictionMeleeDamage": null,
+    "EvictionMeleeResponse": null,
+    "LandingMeleeDamage": null,
+    "FlurryMeleeDamage": null,
+    "ObstacleSmashMeleeDamage": null,
+    "ShieldPopDamage": null,
+    "AssassinationDamage": null,
+    "MotionSensorBlipSize": "Large",
+    "ItemOwnerSize": "Small",
+    "Postures": [],
+    "HudInterfaces": [
+      {
+        "UnitHudInterface": null
+      }
+    ],
+    "DialogueVariants": [],
+    "MotionTrackerRangeModifier": 0.0,
+    "GrenadeAngle": "Degrees: 0",
+    "GrenadeAngleMaxElevation": "Degrees: 0",
+    "GrenadeAngleMinElevation": "Degrees: 0",
+    "GrenadeVelocity": 0.0,
+    "GrenadeType": "HumanFragmentation",
+    "GrenadeCount": 0,
+    "PoweredSeats": [
+      {
+        "DriverPowerupTime": 2.0,
+        "DriverPowerdownTime": 1.0
+      }
+    ],
+    "Weapons": [],
+    "TargetTracking": [],
+    "Seats": [
+      {
+        "Flags": "Driver, Gunner, ThirdPersonCamera, ControlsOpenAndClose, InvisibleUnderMajorDamage, PreventsWeaponStowing",
+        "Label": "wraith_d",
+        "MarkerName": "driver",
+        "EntryMarkerName": "wraith_d_enter",
+        "BoardingGrenadeMarker": "invalid",
+        "BoardingGrenadeString": "invalid",
+        "BoardingMeleeString": "invalid",
+        "SeatedDetachString": "invalid",
+        "PingScale": 1.0,
+        "FlippedEvictionTime": 1.0,
+        "Acceleration": {
+          "Range": "I: 0.11111111, J: 0.11111111, K: 0.055555556",
+          "ActionScale": 0.0,
+          "AttachScale": 0.0
+        },
+        "AiScariness": 20.0,
+        "AiSeatType": "Driver",
+        "BoardingSeat": -1,
+        "ListenerInterpolationFactor": 0.5,
+        "YawRateBounds": "Lower: 20, Upper: 20",
+        "PitchRateBounds": "Lower: 20, Upper: 20",
+        "PitchInterpolationTime": 0.0,
+        "MinSpeedReference": 1.0,
+        "MaxSpeedReference": 3.0,
+        "SpeedExponent": 0.0,
+        "UnitCamera": {
+          "CameraFlags": "0",
+          "CameraMarkerName": "driver_camera",
+          "CameraSubmergedMarker": "invalid",
+          "PitchAutoLevel": "Degrees: 0",
+          "PitchRange": "Lower: Degrees: -25, Upper: Degrees: 55",
+          "CameraTracks": [
+            {
+              "Track": {
+                "Type": "camera_track",
+                "Name": "camera\\wraith_d_camera",
+                "Generate": false
+              }
+            }
+          ],
+          "PitchSpringBounds": "Lower: 0, Upper: 0",
+          "SpringVelocity": "Degrees: 0",
+          "CameraAcceleration": [
+            {
+              "VelocityI": {
+                "K": 0.2,
+                "Scale": 0.7,
+                "Power": 1.5,
+                "Maximum": 0.7,
+                "CameraScaleAxial": 1.0,
+                "CameraScalePerpendicular": 0.25
+              },
+              "VelocityJ": {
+                "K": 1.0,
+                "Scale": -0.05,
+                "Power": 1.1,
+                "Maximum": 0.05,
+                "CameraScaleAxial": 1.0,
+                "CameraScalePerpendicular": 0.25
+              },
+              "VelocityK": {
+                "K": 1.0,
+                "Scale": -0.1,
+                "Power": 1.1,
+                "Maximum": 0.1,
+                "CameraScaleAxial": 1.0,
+                "CameraScalePerpendicular": 0.25
+              },
+              "MaximumCameraVelocity": 0.5
+            }
+          ]
+        },
+        "UnitHudInterface": [],
+        "EnterSeatString": "wraith_enter_driver",
+        "YawMinimum": "Degrees: 0",
+        "YawMaximum": "Degrees: 0",
+        "BuiltInGunner": null,
+        "EntryRadius": 1.7,
+        "EntryMarkerConeAngle": "Degrees: 120.00001",
+        "EntryMarkerFacingAngle": "Degrees: 60.000004",
+        "MaximumRelativeVelocity": 3.0,
+        "InvisibleSeatRegion": "cockpit",
+        "RuntimeInvisibleSeatRegionIndex": 1
+      },
+      {
+        "Flags": "ThirdPersonCamera, BoardingSeat, BoardingNeedAnyPassenger",
+        "Label": "wraith_b_l",
+        "MarkerName": "wraith_b_l",
+        "EntryMarkerName": "wraith_b_l_enter",
+        "BoardingGrenadeMarker": "wraith_b_d_grenade",
+        "BoardingGrenadeString": "wraith_board_grenade",
+        "BoardingMeleeString": "wraith_board_melee",
+        "SeatedDetachString": "invalid",
+        "PingScale": 1.0,
+        "FlippedEvictionTime": 0.2,
+        "Acceleration": {
+          "Range": "I: 0.11111111, J: 0.11111111, K: 0.055555556",
+          "ActionScale": 0.0,
+          "AttachScale": 0.0
+        },
+        "AiScariness": 0.0,
+        "AiSeatType": "None",
+        "BoardingSeat": 0,
+        "ListenerInterpolationFactor": 0.0,
+        "YawRateBounds": "Lower: 0, Upper: 0",
+        "PitchRateBounds": "Lower: 0, Upper: 0",
+        "PitchInterpolationTime": 0.0,
+        "MinSpeedReference": 0.0,
+        "MaxSpeedReference": 1.0,
+        "SpeedExponent": 1.0,
+        "UnitCamera": {
+          "CameraFlags": "0",
+          "CameraMarkerName": "invalid",
+          "CameraSubmergedMarker": "invalid",
+          "PitchAutoLevel": "Degrees: -15.000001",
+          "PitchRange": "Lower: Degrees: -25, Upper: Degrees: -5",
+          "CameraTracks": [
+            {
+              "Track": {
+                "Type": "camera_track",
+                "Name": "camera\\board_large_camera",
+                "Generate": false
+              }
+            }
+          ],
+          "PitchSpringBounds": "Lower: 0, Upper: 0",
+          "SpringVelocity": "Degrees: 0",
+          "CameraAcceleration": []
+        },
+        "UnitHudInterface": [],
+        "EnterSeatString": "wraith_board",
+        "YawMinimum": "Degrees: 0",
+        "YawMaximum": "Degrees: 0",
+        "BuiltInGunner": null,
+        "EntryRadius": 2.0,
+        "EntryMarkerConeAngle": "Degrees: 70",
+        "EntryMarkerFacingAngle": "Degrees: 45",
+        "MaximumRelativeVelocity": 4.0,
+        "InvisibleSeatRegion": "invalid",
+        "RuntimeInvisibleSeatRegionIndex": -1
+      },
+      {
+        "Flags": "ThirdPersonCamera, BoardingSeat, BoardingNeedAnyPassenger",
+        "Label": "wraith_b_r",
+        "MarkerName": "wraith_b_r",
+        "EntryMarkerName": "wraith_b_r_enter",
+        "BoardingGrenadeMarker": "wraith_b_d_grenade",
+        "BoardingGrenadeString": "wraith_board_grenade",
+        "BoardingMeleeString": "wraith_board_melee",
+        "SeatedDetachString": "invalid",
+        "PingScale": 1.0,
+        "FlippedEvictionTime": 0.2,
+        "Acceleration": {
+          "Range": "I: 0.11111111, J: 0.11111111, K: 0.055555556",
+          "ActionScale": 0.0,
+          "AttachScale": 0.0
+        },
+        "AiScariness": 0.0,
+        "AiSeatType": "None",
+        "BoardingSeat": 0,
+        "ListenerInterpolationFactor": 0.0,
+        "YawRateBounds": "Lower: 0, Upper: 0",
+        "PitchRateBounds": "Lower: 0, Upper: 0",
+        "PitchInterpolationTime": 0.0,
+        "MinSpeedReference": 0.0,
+        "MaxSpeedReference": 1.0,
+        "SpeedExponent": 1.0,
+        "UnitCamera": {
+          "CameraFlags": "0",
+          "CameraMarkerName": "invalid",
+          "CameraSubmergedMarker": "invalid",
+          "PitchAutoLevel": "Degrees: -15.000001",
+          "PitchRange": "Lower: Degrees: -25, Upper: Degrees: -5",
+          "CameraTracks": [
+            {
+              "Track": {
+                "Type": "camera_track",
+                "Name": "camera\\board_large_camera",
+                "Generate": false
+              }
+            }
+          ],
+          "PitchSpringBounds": "Lower: 0, Upper: 0",
+          "SpringVelocity": "Degrees: 0",
+          "CameraAcceleration": []
+        },
+        "UnitHudInterface": [],
+        "EnterSeatString": "wraith_board",
+        "YawMinimum": "Degrees: 0",
+        "YawMaximum": "Degrees: 0",
+        "BuiltInGunner": null,
+        "EntryRadius": 2.0,
+        "EntryMarkerConeAngle": "Degrees: 70",
+        "EntryMarkerFacingAngle": "Degrees: 45",
+        "MaximumRelativeVelocity": 4.0,
+        "InvisibleSeatRegion": "invalid",
+        "RuntimeInvisibleSeatRegionIndex": -1
+      },
+      {
+        "Flags": "ThirdPersonCamera, BoardingSeat, BoardingNeedAnyPassenger",
+        "Label": "wraith_b_b",
+        "MarkerName": "wraith_b_b",
+        "EntryMarkerName": "wraith_b_b_enter",
+        "BoardingGrenadeMarker": "wraith_b_b_grenade",
+        "BoardingGrenadeString": "wraith_board_grenade",
+        "BoardingMeleeString": "wraith_board_melee",
+        "SeatedDetachString": "invalid",
+        "PingScale": 1.0,
+        "FlippedEvictionTime": 0.2,
+        "Acceleration": {
+          "Range": "I: 0.11111111, J: 0.11111111, K: 0.11111111",
+          "ActionScale": 0.0,
+          "AttachScale": 0.0
+        },
+        "AiScariness": 0.0,
+        "AiSeatType": "None",
+        "BoardingSeat": 0,
+        "ListenerInterpolationFactor": 0.0,
+        "YawRateBounds": "Lower: 0, Upper: 0",
+        "PitchRateBounds": "Lower: 0, Upper: 0",
+        "PitchInterpolationTime": 0.0,
+        "MinSpeedReference": 0.0,
+        "MaxSpeedReference": 0.0,
+        "SpeedExponent": 0.0,
+        "UnitCamera": {
+          "CameraFlags": "0",
+          "CameraMarkerName": "invalid",
+          "CameraSubmergedMarker": "invalid",
+          "PitchAutoLevel": "Degrees: -15.000001",
+          "PitchRange": "Lower: Degrees: -25, Upper: Degrees: -5",
+          "CameraTracks": [
+            {
+              "Track": {
+                "Type": "camera_track",
+                "Name": "camera\\board_large_camera",
+                "Generate": false
+              }
+            }
+          ],
+          "PitchSpringBounds": "Lower: 0, Upper: 0",
+          "SpringVelocity": "Degrees: 0",
+          "CameraAcceleration": []
+        },
+        "UnitHudInterface": [],
+        "EnterSeatString": "wraith_board",
+        "YawMinimum": "Degrees: 0",
+        "YawMaximum": "Degrees: 0",
+        "BuiltInGunner": null,
+        "EntryRadius": 1.75,
+        "EntryMarkerConeAngle": "Degrees: 80",
+        "EntryMarkerFacingAngle": "Degrees: 45",
+        "MaximumRelativeVelocity": 4.0,
+        "InvisibleSeatRegion": "invalid",
+        "RuntimeInvisibleSeatRegionIndex": -1
+      }
+    ],
+    "EmpRadius": 4.0,
+    "EmpEffect": {
+      "Type": "effect",
+      "Name": "fx\\scenery_fx\\destruction\\emp_drain_large\\emp_drain_large",
+      "Generate": false
+    },
+    "Boost": {
+      "BoostCollisionDamage": null,
+      "BoostPeakPower": 3.0,
+      "BoostRisePower": 0.0667,
+      "BoostPeakTime": 0.5,
+      "BoostFallPower": 0.5333,
+      "BoostDeadTime": 3.0
+    },
+    "LipsyncAttackWeight": 0.0,
+    "LipsyncDecayWeight": 0.0,
+    "DetachDamage": null,
+    "DetachedWeapon": null,
+    "VehicleFlags": "CanTriggerAutomaticOpeningDoors, AiDriverEnable, AiDriverCansidestep",
+    "PhysicsTypes": {
+      "HumanTank": [],
+      "HumanJeep": [],
+      "HumanPlane": [],
+      "AlienScout": [
+        {
+          "Steering": {
+            "OverdampenCuspAngle": "Degrees: 10",
+            "OverdampenExponent": 1.4
+          },
+          "VelocityControl": {
+            "MaximumForwardSpeed": 4.0,
+            "MaximumReverseSpeed": 1.5,
+            "SpeedAcceleration": 2.25,
+            "SpeedDeceleration": 1.75,
+            "MaximumLeftSlide": 1.75,
+            "MaximumRightSlide": 1.75,
+            "SlideAcceleration": 2.25,
+            "SlideDeceleration": 1.75
+          },
+          "SpecificType": "Wraith",
+          "Flags": "None",
+          "DragCoefficient": 0.0,
+          "ConstantDeceleration": 0.0,
+          "TorqueScale": 1.0,
+          "EngineGravityFunction": {
+            "ObjectFunctionDamageRegion": "hull_rear",
+            "AntiGravityEngineSpeedRange": "Lower: 0.5, Upper: 2",
+            "EngineSpeedAcceleration": 0.5,
+            "MaximumVehicleSpeed": 0.0
+          },
+          "ContrailObjectFunction": {
+            "ObjectFunctionDamageRegion": "invalid",
+            "AntiGravityEngineSpeedRange": "Lower: 0, Upper: 0",
+            "EngineSpeedAcceleration": 0.0,
+            "MaximumVehicleSpeed": 0.0
+          },
+          "GearRotationSpeed": "Lower: 0.75, Upper: 2",
+          "SteeringAnimation": {
+            "InterpolationScale": 0.75,
+            "MaximumAngle": "Degrees: 0"
+          }
+        }
+      ],
+      "AlienFighter": [],
+      "Turret": [],
+      "Mantis": [],
+      "Vtol": [],
+      "Chopper": [],
+      "Guardian": []
+    },
+    "HavokVehiclePhysics": {
+      "Flags": {
+        "Halo3": "None"
+      },
+      "GroundFriction": 0.0,
+      "GroundDepth": 0.0,
+      "GroundDampFactor": 0.0,
+      "GroundMovingFriction": 0.0,
+      "GroundMaximumSlope0": 1.0,
+      "GroundMaximumSlope1": 0.999,
+      "MaximumNormalForceContribution": 3.0,
+      "AntiGravityBankLift": 0.2,
+      "SteeringBankReactionScale": 6.0,
+      "GravityScale": 1.0,
+      "Radius": 2.3131332,
+      "MaximumUpdateDistance": 0.0,
+      "MaximumUpdatePeriod": 0.0,
+      "MaximumRemoteUpdatePeriod": 0.0,
+      "AntiGravityPoints": [
+        {
+          "MarkerName": "left_back_antigrav",
+          "Flags": "GetsDamageFromRegion",
+          "AntigravStrength": 0.8,
+          "AntigravOffset": 0.0,
+          "AntigravHeight": 0.65,
+          "AntigravDampFactor": 3.0,
+          "AntigravNormalK1": -0.2,
+          "AntigravNormalK0": -0.25,
+          "Radius": 0.1,
+          "DamageSourceRegionIndex": -1,
+          "DamageSourceRegionName": "l_wing",
+          "DefaultStateError": 0.05,
+          "MinorDamageError": 0.05,
+          "MediumDamageError": 0.1,
+          "MajorDamageError": 0.2,
+          "DestroyedStateError": 0.3
+        },
+        {
+          "MarkerName": "right_back_antigrav",
+          "Flags": "GetsDamageFromRegion",
+          "AntigravStrength": 0.8,
+          "AntigravOffset": 0.0,
+          "AntigravHeight": 0.65,
+          "AntigravDampFactor": 3.0,
+          "AntigravNormalK1": -0.2,
+          "AntigravNormalK0": -0.25,
+          "Radius": 0.1,
+          "DamageSourceRegionIndex": -1,
+          "DamageSourceRegionName": "r_wing",
+          "DefaultStateError": 0.05,
+          "MinorDamageError": 0.05,
+          "MediumDamageError": 0.1,
+          "MajorDamageError": 0.2,
+          "DestroyedStateError": 0.3
+        },
+        {
+          "MarkerName": "left_front_antigrav",
+          "Flags": "GetsDamageFromRegion",
+          "AntigravStrength": 0.4,
+          "AntigravOffset": 0.0,
+          "AntigravHeight": 0.65,
+          "AntigravDampFactor": 3.0,
+          "AntigravNormalK1": -0.2,
+          "AntigravNormalK0": -0.25,
+          "Radius": 0.1,
+          "DamageSourceRegionIndex": -1,
+          "DamageSourceRegionName": "l_vent",
+          "DefaultStateError": 0.05,
+          "MinorDamageError": 0.05,
+          "MediumDamageError": 0.1,
+          "MajorDamageError": 0.2,
+          "DestroyedStateError": 0.3
+        },
+        {
+          "MarkerName": "left_front_mid_antigrav",
+          "Flags": "GetsDamageFromRegion",
+          "AntigravStrength": 0.4,
+          "AntigravOffset": 0.0,
+          "AntigravHeight": 0.65,
+          "AntigravDampFactor": 3.0,
+          "AntigravNormalK1": -0.2,
+          "AntigravNormalK0": -0.25,
+          "Radius": 0.1,
+          "DamageSourceRegionIndex": -1,
+          "DamageSourceRegionName": "r_vent",
+          "DefaultStateError": 0.05,
+          "MinorDamageError": 0.05,
+          "MediumDamageError": 0.1,
+          "MajorDamageError": 0.2,
+          "DestroyedStateError": 0.3
+        },
+        {
+          "MarkerName": "right_front_antigrav",
+          "Flags": "GetsDamageFromRegion",
+          "AntigravStrength": 0.4,
+          "AntigravOffset": 0.0,
+          "AntigravHeight": 0.65,
+          "AntigravDampFactor": 3.0,
+          "AntigravNormalK1": -0.2,
+          "AntigravNormalK0": -0.25,
+          "Radius": 0.1,
+          "DamageSourceRegionIndex": -1,
+          "DamageSourceRegionName": "l_vent",
+          "DefaultStateError": 0.05,
+          "MinorDamageError": 0.05,
+          "MediumDamageError": 0.1,
+          "MajorDamageError": 0.2,
+          "DestroyedStateError": 0.3
+        },
+        {
+          "MarkerName": "right_front_mid_antigrav",
+          "Flags": "GetsDamageFromRegion",
+          "AntigravStrength": 0.4,
+          "AntigravOffset": 0.0,
+          "AntigravHeight": 0.65,
+          "AntigravDampFactor": 3.0,
+          "AntigravNormalK1": -0.2,
+          "AntigravNormalK0": -0.25,
+          "Radius": 0.1,
+          "DamageSourceRegionIndex": -1,
+          "DamageSourceRegionName": "l_vent",
+          "DefaultStateError": 0.05,
+          "MinorDamageError": 0.05,
+          "MediumDamageError": 0.1,
+          "MajorDamageError": 0.2,
+          "DestroyedStateError": 0.3
+        }
+      ],
+      "FrictionPoints": [],
+      "PhantomShapes": [
+        {
+          "ListShape": {
+            "VfTableAddress": {
+              "Value": 0
+            },
+            "ReferencedObject": {
+              "SizeAndFlags": 0,
+              "ReferenceCount": 0
+            },
+            "UserDataAddress": {
+              "Value": 0
+            },
+            "Type": 0,
+            "VTableAddress": {
+              "Value": 0
+            },
+            "DisableWelding": true,
+            "ChildInfo": {
+              "DataAddress": {
+                "Value": 0
+              },
+              "Size": 0,
+              "CapacityAndFlags": 0
+            },
+            "AabbHalfExtents": "I: 0, J: 0, K: 0, W: 0",
+            "AAbbCenter": "I: 0, J: 0, K: 0, W: 0"
+          },
+          "MultisphereCount": 0,
+          "Flags": 3,
+          "X0": -2.09,
+          "X1": 1.4200001,
+          "Y0": -1.89,
+          "Y1": 1.8899999,
+          "Z0": -0.6999999,
+          "Z1": 1.2,
+          "Multispheres": [
+            {
+              "VfTableAddress": {
+                "Value": 0
+              },
+              "ReferencedObject": {
+                "SizeAndFlags": 0,
+                "ReferenceCount": 0
+              },
+              "UserDataAddress": {
+                "Value": 0
+              },
+              "Type": 0,
+              "NumSpheres": 0,
+              "Spheres": [
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0"
+              ]
+            },
+            {
+              "VfTableAddress": {
+                "Value": 0
+              },
+              "ReferencedObject": {
+                "SizeAndFlags": 0,
+                "ReferenceCount": 0
+              },
+              "UserDataAddress": {
+                "Value": 0
+              },
+              "Type": 0,
+              "NumSpheres": 0,
+              "Spheres": [
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0"
+              ]
+            },
+            {
+              "VfTableAddress": {
+                "Value": 0
+              },
+              "ReferencedObject": {
+                "SizeAndFlags": 0,
+                "ReferenceCount": 0
+              },
+              "UserDataAddress": {
+                "Value": 0
+              },
+              "Type": 0,
+              "NumSpheres": 0,
+              "Spheres": [
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0"
+              ]
+            },
+            {
+              "VfTableAddress": {
+                "Value": 0
+              },
+              "ReferencedObject": {
+                "SizeAndFlags": 0,
+                "ReferenceCount": 0
+              },
+              "UserDataAddress": {
+                "Value": 0
+              },
+              "Type": 0,
+              "NumSpheres": 0,
+              "Spheres": [
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0",
+                "I: 0, J: 0, K: 0, W: 0"
+              ]
+            }
+          ],
+          "ChildShapes": [
+            {
+              "Shape": {
+                "Type": "Sphere",
+                "Index": 0
+              },
+              "CollisionFilterInfo": 0,
+              "ChildShapeSize": 0,
+              "ChildShapeCount": 0
+            },
+            {
+              "Shape": {
+                "Type": "Sphere",
+                "Index": 0
+              },
+              "CollisionFilterInfo": 0,
+              "ChildShapeSize": 0,
+              "ChildShapeCount": 0
+            },
+            {
+              "Shape": {
+                "Type": "Sphere",
+                "Index": 0
+              },
+              "CollisionFilterInfo": 0,
+              "ChildShapeSize": 0,
+              "ChildShapeCount": 0
+            },
+            {
+              "Shape": {
+                "Type": "Sphere",
+                "Index": 0
+              },
+              "CollisionFilterInfo": 0,
+              "ChildShapeSize": 0,
+              "ChildShapeCount": 0
+            }
+          ]
+        }
+      ]
+    },
+    "PlayerTrainingVehicleType": "None",
+    "VehicleSize": "Large",
+    "FlippingAngularVelocityRangeNew": "Lower: 6, Upper: 6",
+    "CrouchTransitionTime": 1.0,
+    "Hoojytsu": 1.0,
+    "SeatEntranceAccelerationScale": 4.0,
+    "SeatExitAccelerationScale": 3.0,
+    "FlipTimeNew": 0.0,
+    "FlipOverMessageNew": "wraith_flip",
+    "SuspensionSound": null,
+    "SpecialEffect": null,
+    "DriverBoostDamageResponse": {
+      "Type": "damage_response_definition",
+      "Name": "globals\\damage_responses\\vehicle_boost",
+      "Generate": false
+    },
+    "RiderBoostDamageResponse": {
+      "Type": "damage_response_definition",
+      "Name": "globals\\damage_responses\\vehicle_boost",
+      "Generate": false
+    }
+  }
+}

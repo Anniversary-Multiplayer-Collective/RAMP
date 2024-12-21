@@ -1,0 +1,16 @@
+{
+  "TagName": "multiplayer\\game_variant_settings\\player_traits_template\\traits_appearance_player_model",
+  "TagType": "text_value_pair_definition",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Parameter": "626",
+    "Name": "traits_appearance_player_model",
+    "Description": "traits_appearance_player_model_desc",
+    "TextValuePairs": []
+  }
+}

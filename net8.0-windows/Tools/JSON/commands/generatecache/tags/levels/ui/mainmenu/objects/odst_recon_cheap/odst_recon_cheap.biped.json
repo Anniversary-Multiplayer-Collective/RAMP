@@ -1,0 +1,591 @@
+{
+  "TagName": "levels\\ui\\mainmenu\\objects\\odst_recon_cheap\\odst_recon_cheap",
+  "TagType": "biped",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "ObjectType": {
+      "Halo3ODST": "Biped"
+    },
+    "ObjectFlags": {
+      "Flags": "None"
+    },
+    "BoundingRadius": 0.365,
+    "BoundingOffset": "X: -0.05, Y: 0, Z: 0",
+    "AccelerationScale": 1.25,
+    "LightmapShadowMode": "Default",
+    "SweetenerSize": "Small",
+    "WaterDensity": "Default",
+    "RuntimeFlags": 2,
+    "DynamicLightSphereRadius": 0.0,
+    "DynamicLightSphereOffset": "X: 0, Y: 0, Z: 0",
+    "DefaultModelVariant": "invalid",
+    "Model": {
+      "Type": "model",
+      "Name": "levels\\ui\\mainmenu\\objects\\odst_recon_cheap\\odst_recon_cheap",
+      "Generate": false
+    },
+    "CrateObject": null,
+    "CollisionDamage": null,
+    "EarlyMoverProperties": [],
+    "CreationEffect": null,
+    "MaterialEffects": null,
+    "ArmorSounds": null,
+    "MeleeImpactSound": null,
+    "AiProperties": [],
+    "Functions": [],
+    "HudTextMessageIndex": 0,
+    "SecondaryFlags": "None",
+    "Attachments": [],
+    "Widgets": [],
+    "ChangeColors": [
+      {
+        "InitialPermutations": [
+          {
+            "Weight": 1.0,
+            "ColorLowerBound": "Red: 0.1557059, Green: 0.1557059, Blue: 0.155706",
+            "ColorUpperBound": "Red: 0.1529412, Green: 0.1529412, Blue: 0.1529412",
+            "VariantName": "default"
+          }
+        ],
+        "Functions": []
+      },
+      {
+        "InitialPermutations": [
+          {
+            "Weight": 1.0,
+            "ColorLowerBound": "Red: 0.5019608, Green: 0.5019608, Blue: 0.5019608",
+            "ColorUpperBound": "Red: 0.5019608, Green: 0.5019608, Blue: 0.5019608",
+            "VariantName": "default"
+          }
+        ],
+        "Functions": []
+      },
+      {
+        "InitialPermutations": [
+          {
+            "Weight": 1.0,
+            "ColorLowerBound": "Red: 1, Green: 1, Blue: 1",
+            "ColorUpperBound": "Red: 1, Green: 1, Blue: 1",
+            "VariantName": "default"
+          }
+        ],
+        "Functions": []
+      },
+      {
+        "InitialPermutations": [
+          {
+            "Weight": 1.0,
+            "ColorLowerBound": "Red: 1, Green: 1, Blue: 1",
+            "ColorUpperBound": "Red: 1, Green: 1, Blue: 1",
+            "VariantName": "invalid"
+          }
+        ],
+        "Functions": []
+      }
+    ],
+    "NodeMaps": [],
+    "MultiplayerObject": [],
+    "RevivingEquipment": [],
+    "PathfindingSpheres": [],
+    "UnitFlags": {
+      "Flags": "FiresFromCamera, MeleeAttackersCannotAttach, FlashlightPowerDoesntTransferToWeapon, UseAimStillXxForAirborne"
+    },
+    "DefaultTeam": "Player",
+    "ConstantSoundVolume": "Silent",
+    "HologramUnit": null,
+    "CampaignMetagameBuckets": [],
+    "IntegratedLightToggle": null,
+    "CameraFieldOfView": "Degrees: 80",
+    "CameraStiffness": 0.0,
+    "UnitCamera": {
+      "CameraFlags": "0",
+      "CameraMarkerName": "invalid",
+      "CameraSubmergedMarker": "invalid",
+      "PitchAutoLevel": "Degrees: 0",
+      "PitchRange": "Lower: Degrees: 0, Upper: Degrees: 0",
+      "CameraTracks": [],
+      "PitchSpringBounds": "Lower: 0, Upper: 0",
+      "SpringVelocity": "Degrees: 0",
+      "CameraAcceleration": []
+    },
+    "SyncActionCamera": {
+      "CameraFlags": "0",
+      "CameraMarkerName": "invalid",
+      "CameraSubmergedMarker": "invalid",
+      "PitchAutoLevel": "Degrees: 0",
+      "PitchRange": "Lower: Degrees: 0, Upper: Degrees: 0",
+      "CameraTracks": [],
+      "PitchSpringBounds": "Lower: 0, Upper: 0",
+      "SpringVelocity": "Degrees: 0",
+      "CameraAcceleration": []
+    },
+    "Assassination": {
+      "Response": null,
+      "Weapon": null,
+      "ToolStowAnchor": "invalid",
+      "ToolHandMarker": "invalid",
+      "ToolMarker": "invalid"
+    },
+    "Acceleration": {
+      "Range": "I: 0, J: 0, K: 0",
+      "ActionScale": 0.0,
+      "AttachScale": 0.0
+    },
+    "SoftPingThreshold": 0.0,
+    "SoftPingInterruptTime": 0.0,
+    "HardPingThreshold": 0.0,
+    "HardPingInterruptTime": 0.0,
+    "HardDeathThreshold": 0.0,
+    "FeignDeathThreshold": 0.0,
+    "FeignDeathTime": 0.0,
+    "DistanceOfDiveAnimation": 0.0,
+    "StunnedMovementThreshold": 0.0,
+    "FeignDeathChance": 0.0,
+    "FeignRepeatChance": 0.0,
+    "SpawnedTurretCharacter": null,
+    "SpawnedActorCountBounds": "Lower: 0, Upper: 0",
+    "SpawnedVelocity": 0.0,
+    "AimingVelocityMaximum": "Degrees: 0",
+    "AimingAccelerationMaximum": "Degrees: 0",
+    "CasualAimingModifier": 0.0,
+    "LookingVelocityMaximum": "Degrees: 0",
+    "LookingAccelerationMaximum": "Degrees: 0",
+    "RightHandNode": "invalid",
+    "LeftHandNode": "invalid",
+    "PreferredGunNode": "invalid",
+    "MeleeDamage": null,
+    "BoardingMeleeDamage": null,
+    "BoardingMeleeResponse": null,
+    "EvictionMeleeDamage": null,
+    "EvictionMeleeResponse": null,
+    "LandingMeleeDamage": null,
+    "FlurryMeleeDamage": null,
+    "ObstacleSmashMeleeDamage": null,
+    "ShieldPopDamage": null,
+    "AssassinationDamage": null,
+    "MotionSensorBlipSize": "Medium",
+    "ItemOwnerSize": "Player",
+    "Postures": [],
+    "HudInterfaces": [],
+    "DialogueVariants": [],
+    "MotionTrackerRangeModifier": 25.0,
+    "GrenadeAngle": "Degrees: 15.000001",
+    "GrenadeAngleMaxElevation": "Degrees: 35",
+    "GrenadeAngleMinElevation": "Degrees: 60.000004",
+    "GrenadeVelocity": 8.25,
+    "GrenadeType": "HumanFragmentation",
+    "GrenadeCount": 3,
+    "PoweredSeats": [],
+    "Weapons": [],
+    "TargetTracking": [],
+    "Seats": [],
+    "EmpRadius": 0.0,
+    "EmpEffect": null,
+    "Boost": {
+      "BoostCollisionDamage": null,
+      "BoostPeakPower": 0.0,
+      "BoostRisePower": 0.0,
+      "BoostPeakTime": 0.0,
+      "BoostFallPower": 0.0,
+      "BoostDeadTime": 0.0
+    },
+    "LipsyncAttackWeight": 0.0,
+    "LipsyncDecayWeight": 0.0,
+    "DetachDamage": null,
+    "DetachedWeapon": null,
+    "MovingTurningSpeed": "Degrees: 486.20004",
+    "BipedFlags": "StunnedByEmpDamage",
+    "StationaryTurningThreshold": "Degrees: 80",
+    "RagdollThresholdVelocity": 0.0,
+    "RagdollRegionName": "invalid",
+    "JumpVelocity": 2.6,
+    "MaximumSoftLandingTime": 0.0,
+    "MinimumHardLandingTime": 0.0,
+    "MinimumSoftLandingVelocity": 0.5,
+    "MinimumHardLandingVelocity": 3.8,
+    "MaximumHardLandingVelocity": 10.0,
+    "DeathHardLandingVelocity": 0.0,
+    "StunDuration": 1.5,
+    "StandingCameraHeight": 0.575,
+    "RunningCameraHeight": 0.57,
+    "CrouchingCameraHeight": 0.375,
+    "CrouchWalkingCameraHeight": 0.4,
+    "CrouchTransitionTime": 0.2,
+    "CrouchingCameraFunction": {
+      "Data": "CDQAAAAAAAAAAOA/AAAAAAAAAAAAAAAAAAAAABwAAAABAAAABwAAzf//f38AAAAAAACAwAAAgEAAAAAA"
+    },
+    "CameraHeights": [],
+    "CameraInterpolationStart": "Degrees: 15.000001",
+    "CameraInterpolationEnd": "Degrees: 90",
+    "CameraForwardMovementScale": 0.5,
+    "CameraSideMovementScale": 0.5,
+    "CameraVerticalMovementScale": 0.5,
+    "CameraExclusionDistance": 0.23,
+    "AutoaimWidth": 0.13,
+    "LockonFlags": "LockedByPlasmaTargeting",
+    "LockonDistance": 15.0,
+    "PhysicsControlNodeIndex": 2,
+    "CosineStationaryTurningThreshold": 0.17364822,
+    "CrouchTransitionVelocity": 5.0,
+    "CameraHeightVelocity": 0.9999999,
+    "PelvisNodeIndex": 0,
+    "HeadNodeIndex": 16,
+    "FpCrouchMovingAnimSpeedScale": 0.65,
+    "HeadshotAccelerationScale": 1.25,
+    "AreaDamageEffect": null,
+    "MovementGates": [
+      {
+        "Period": 0.34,
+        "ZOffset": 0.0,
+        "ConstantZOffset": 0.0,
+        "YOffset": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAABQAAAABAAAABAAAzf//f38AAIA/AAAAAA=="
+        }
+      },
+      {
+        "Period": 0.34,
+        "ZOffset": 0.0025,
+        "ConstantZOffset": 0.035,
+        "YOffset": 0.75,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAAEwAAAADAAAABwAAzc3MzD72/3nB+v89QQAAAAAAAAAAB0zzvZqZGT8AAPA3LgAgwRgAIEEkAMC/BwAAAP//f38BAHpBAQAMwgIAuUEGAHDA"
+        }
+      },
+      {
+        "Period": 0.34,
+        "ZOffset": 0.01,
+        "ConstantZOffset": 0.0075,
+        "YOffset": 1.25,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAAEwAAAADAAAABwAAzc3MzD4iC4rBTm9IQQAAAAAAAAAAB0zzvZqZGT/vcxLBoM6DQDqaNUCW0Z2+BwAAAP//f39KeW9BcCgFwtFrrUGvvFbA"
+        }
+      }
+    ],
+    "MovementGatesCrouching": [
+      {
+        "Period": 0.1,
+        "ZOffset": 0.0,
+        "ConstantZOffset": 0.0,
+        "YOffset": 0.0,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAABQAAAABAAAABAAAzf//f38AAIA/AAAAAA=="
+        }
+      },
+      {
+        "Period": 0.78,
+        "ZOffset": 0.05,
+        "ConstantZOffset": 0.05,
+        "YOffset": 0.25,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAAEwAAAADAAAABwAAzc3MzD72/3nB+v89QQAAAAAAAAAAB0zzvZqZGT8AAPA3LgAgwRgAIEEkAMC/BwAAAP//f38BAHpBAQAMwgIAuUEGAHDA"
+        }
+      },
+      {
+        "Period": 0.78,
+        "ZOffset": 0.075,
+        "ConstantZOffset": 0.075,
+        "YOffset": 0.5,
+        "DefaultFunction": {
+          "Data": "CDQAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAAEwAAAADAAAABwAAzc3MzD72/3nB+v89QQAAAAAAAAAAB0zzvZqZGT8AAPA3LgAgwRgAIEEkAMC/BwAAAP//f38BAHpBAQAMwgIAuUEGAHDA"
+        }
+      }
+    ],
+    "JumpAimOffsetDistance": -0.055,
+    "JumpAimOffsetDuration": 0.075,
+    "LandAimOffsetDistance": -0.045,
+    "LandAimOffsetDuration": 0.25,
+    "AimCompensateMinDistance": 2.5,
+    "AimCompensateMaxDistance": 10.0,
+    "PhysicsFlags": {
+      "Halo3ODST": "UsePlayerPhysics"
+    },
+    "HeightStanding": 0.61,
+    "HeightCrouching": 0.45,
+    "Radius": 0.135,
+    "Mass": 100.0,
+    "LivingMaterialName": "invalid",
+    "DeadMaterialName": "invalid",
+    "LivingGlobalMaterialIndex": 9,
+    "DeadGlobalMaterialIndex": 9,
+    "DeadSphereShapes": [
+      {
+        "Name": "invalid",
+        "MaterialIndex": -1,
+        "RuntimeMaterialType": 0,
+        "RelativeMassScale": 0.0,
+        "Friction": 0.0,
+        "Restitution": 0.0,
+        "Volume": 0.0,
+        "Mass": 0.0,
+        "MassDistributionIndex": 0,
+        "PhantomIndex": -1,
+        "ProxyCollisionGroup": 0,
+        "ShapeBase": {
+          "FieldPointerSkip": {
+            "Value": 0
+          },
+          "Size": 0,
+          "Count": 128,
+          "Userdata": {
+            "Value": 0
+          },
+          "ShapeType": 3,
+          "Radius": 0.135
+        },
+        "ConvexBase": {
+          "FieldPointerSkip": {
+            "Value": 0
+          },
+          "Size": 0,
+          "Count": 128,
+          "Userdata": {
+            "Value": 32
+          },
+          "ShapeType": 12,
+          "Radius": 0.135
+        },
+        "FieldPointerSkip": {
+          "Value": 0
+        },
+        "ShapeReference": {
+          "Shapetype": "Sphere",
+          "ShapeIndex": 0,
+          "ChildShapeSize": 0
+        },
+        "Translation": "I: 0, J: 0, K: 0.135",
+        "TranslationRadius": 0.0
+      },
+      {
+        "Name": "invalid",
+        "MaterialIndex": -1,
+        "RuntimeMaterialType": 0,
+        "RelativeMassScale": 0.0,
+        "Friction": 0.0,
+        "Restitution": 0.0,
+        "Volume": 0.0,
+        "Mass": 0.0,
+        "MassDistributionIndex": 0,
+        "PhantomIndex": -1,
+        "ProxyCollisionGroup": 0,
+        "ShapeBase": {
+          "FieldPointerSkip": {
+            "Value": 0
+          },
+          "Size": 0,
+          "Count": 128,
+          "Userdata": {
+            "Value": 112
+          },
+          "ShapeType": 3,
+          "Radius": 0.18225
+        },
+        "ConvexBase": {
+          "FieldPointerSkip": {
+            "Value": 0
+          },
+          "Size": 0,
+          "Count": 128,
+          "Userdata": {
+            "Value": 144
+          },
+          "ShapeType": 12,
+          "Radius": 0.18225
+        },
+        "FieldPointerSkip": {
+          "Value": 0
+        },
+        "ShapeReference": {
+          "Shapetype": "Sphere",
+          "ShapeIndex": 0,
+          "ChildShapeSize": 0
+        },
+        "Translation": "I: 0, J: 0, K: 0.18225",
+        "TranslationRadius": 0.0
+      },
+      {
+        "Name": "invalid",
+        "MaterialIndex": -1,
+        "RuntimeMaterialType": 0,
+        "RelativeMassScale": 0.0,
+        "Friction": 0.0,
+        "Restitution": 0.0,
+        "Volume": 0.0,
+        "Mass": 0.0,
+        "MassDistributionIndex": 0,
+        "PhantomIndex": -1,
+        "ProxyCollisionGroup": 0,
+        "ShapeBase": {
+          "FieldPointerSkip": {
+            "Value": 0
+          },
+          "Size": 0,
+          "Count": 128,
+          "Userdata": {
+            "Value": 224
+          },
+          "ShapeType": 3,
+          "Radius": 0.2295
+        },
+        "ConvexBase": {
+          "FieldPointerSkip": {
+            "Value": 0
+          },
+          "Size": 0,
+          "Count": 128,
+          "Userdata": {
+            "Value": 256
+          },
+          "ShapeType": 12,
+          "Radius": 0.2295
+        },
+        "FieldPointerSkip": {
+          "Value": 0
+        },
+        "ShapeReference": {
+          "Shapetype": "Sphere",
+          "ShapeIndex": 0,
+          "ChildShapeSize": 0
+        },
+        "Translation": "I: 0, J: 0, K: 0.2295",
+        "TranslationRadius": 0.0
+      }
+    ],
+    "PillShapes": [
+      {
+        "Name": "invalid",
+        "MaterialIndex": -1,
+        "RuntimeMaterialType": 0,
+        "RelativeMassScale": 0.0,
+        "Friction": 0.0,
+        "Restitution": 0.0,
+        "Volume": 0.0,
+        "Mass": 0.0,
+        "MassDistributionIndex": 0,
+        "PhantomIndex": -1,
+        "ProxyCollisionGroup": 0,
+        "ShapeBase": {
+          "FieldPointerSkip": {
+            "Value": 0
+          },
+          "Size": 0,
+          "Count": 128,
+          "Userdata": {
+            "Value": 0
+          },
+          "ShapeType": 7,
+          "Radius": 0.135
+        },
+        "Bottom": "I: 0, J: 0, K: 0.475",
+        "BottomRadius": 0.135,
+        "Top": "I: 0, J: 0, K: 0.135",
+        "TopRadius": 0.135
+      },
+      {
+        "Name": "invalid",
+        "MaterialIndex": -1,
+        "RuntimeMaterialType": 0,
+        "RelativeMassScale": 0.0,
+        "Friction": 0.0,
+        "Restitution": 0.0,
+        "Volume": 0.0,
+        "Mass": 0.0,
+        "MassDistributionIndex": 0,
+        "PhantomIndex": -1,
+        "ProxyCollisionGroup": 0,
+        "ShapeBase": {
+          "FieldPointerSkip": {
+            "Value": 0
+          },
+          "Size": 0,
+          "Count": 128,
+          "Userdata": {
+            "Value": 96
+          },
+          "ShapeType": 7,
+          "Radius": 0.135
+        },
+        "Bottom": "I: 0, J: 0, K: 0.315",
+        "BottomRadius": 0.135,
+        "Top": "I: 0, J: 0, K: 0.135",
+        "TopRadius": 0.135
+      }
+    ],
+    "SphereShapes": [],
+    "BipedGroundPhysics": {
+      "MaximumSlopeAngle": "Degrees: 35",
+      "DownhillFalloffAngle": "Degrees: 45",
+      "DownhillCutoffAngle": "Degrees: 50",
+      "UphillFalloffAngle": "Degrees: 30.000002",
+      "UphillCutoffAngle": "Degrees: 40",
+      "DownhillVelocityScale": 1.5,
+      "UphillVelocityScale": 0.5,
+      "RuntimeMinimumNormalK": 0.8191521,
+      "RuntimeDownhillK0": -0.7071068,
+      "RuntimeDownhillK1": -0.7660444,
+      "RuntimeUphillK0": 0.5,
+      "RuntimeUphillK1": 0.6427876,
+      "ClimbInflectionAngle": "Degrees: -20",
+      "ScaleAirborneReactionTime": 0.0,
+      "ScaleGroundAdhesionVelocity": 0.0,
+      "GravityScale": 1.075
+    },
+    "BipedFlyingPhysics": {
+      "BankAngle": "Degrees: 0",
+      "BankApplyTime": 0.0,
+      "BankDecayTime": 0.0,
+      "PitchRatio": 0.0,
+      "MaximumVelocity": 0.0,
+      "MaximumSidestepVelocity": 0.0,
+      "Acceleration": 0.0,
+      "Deceleration": 0.0,
+      "AngularVelocityMaximum": "Degrees: 0",
+      "AngularAccelerationMaximum": "Degrees: 0",
+      "CrouchVelocityModifier": 0.0,
+      "Flags": "0"
+    },
+    "ContactPoints": [
+      {
+        "MarkerName": "left_foot"
+      },
+      {
+        "MarkerName": "right_foot"
+      }
+    ],
+    "ReanimationCharacter": null,
+    "ReanimationMorphMuffins": null,
+    "DeathSpawnCharacter": null,
+    "DeathSpawnCount": 0,
+    "BipedLeapingData": {
+      "LeapFlags": "None",
+      "DampeningScale": 0.0,
+      "RollDelay": 0.0,
+      "CannonballOffaxisScale": 0.0,
+      "CannonballOfftrackScale": 0.0,
+      "CannonballRollBounds": "Lower: Degrees: 0, Upper: Degrees: 0",
+      "AnticipationRatioBounds": "Lower: 0, Upper: 0",
+      "ReactionForceBounds": "Lower: 0, Upper: 0",
+      "LobbingDesire": 0.0
+    },
+    "BipedGroundFittingData": {
+      "GroundNormalDampening": 0.75,
+      "RootOffsetMaxScale": 0.5,
+      "RootOffsetDampening": 0.8,
+      "FollowingCamScale": 0.5,
+      "RootLeaningScale": 0.1,
+      "FootRollMax": "Degrees: 5.00003",
+      "FootPitchMax": "Degrees: 40",
+      "PivotonfootScale": 1.0,
+      "PivotMinFootDelta": 0.005,
+      "PivotStrideLengthScale": 1.0,
+      "PivotThrottleScale": 0.5,
+      "PivotOffsetDampening": 0.1
+    },
+    "Unknown4": 0
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "TagName": "ui\\chud\\bitmaps\\ballistic_meters",
+  "TagType": "bitmap",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Usage": "CHUDRelatedBitmap",
+    "Flags": "UsingTagInteropAndTagResource",
+    "SpriteSpacing": 4,
+    "BumpMapHeight": 5.0,
+    "FadeFactor": 0.5,
+    "CurveMode": "ChooseBest",
+    "MaxMipMapLevel": 1,
+    "MaxResolution": 0,
+    "AtlasIndex": 0,
+    "ForceBitmapFormat": 2,
+    "TightBoundsOld": [],
+    "UsageOverrides": [],
+    "ManualSequences": [],
+    "SourceData": "",
+    "ProcessedPixelData": "",
+    "Sequences": [
+      {
+        "Name": "",
+        "FirstBitmapIndex": 0,
+        "BitmapCount": 1,
+        "Sprites": [
+          {
+            "BitmapIndex": 0,
+            "Left": 0.0,
+            "Right": 0.30859375,
+            "Top": 0.828125,
+            "Bottom": 0.8984375,
+            "RegistrationPoint": "X: 0.15429688, Y: 0.03515625"
+          }
+        ]
+      },
+      {
+        "Name": "import #1",
+        "FirstBitmapIndex": 0,
+        "BitmapCount": 1,
+        "Sprites": [
+          {
+            "BitmapIndex": 0,
+            "Left": 0.0,
+            "Right": 0.30859375,
+            "Top": 0.421875,
+            "Bottom": 0.55859375,
+            "RegistrationPoint": "X: 0.15429688, Y: 0.068359375"
+          }
+        ]
+      },
+      {
+        "Name": "import #2",
+        "FirstBitmapIndex": 0,
+        "BitmapCount": 1,
+        "Sprites": [
+          {
+            "BitmapIndex": 0,
+            "Left": 0.3125,
+            "Right": 0.62109375,
+            "Top": 0.421875,
+            "Bottom": 0.55859375,
+            "RegistrationPoint": "X: 0.15429688, Y: 0.068359375"
+          }
+        ]
+      },
+      {
+        "Name": "import #3",
+        "FirstBitmapIndex": 0,
+        "BitmapCount": 1,
+        "Sprites": [
+          {
+            "BitmapIndex": 0,
+            "Left": 0.625,
+            "Right": 0.93359375,
+            "Top": 0.421875,
+            "Bottom": 0.5546875,
+            "RegistrationPoint": "X: 0.15429688, Y: 0.06640625"
+          }
+        ]
+      },
+      {
+        "Name": "import #4",
+        "FirstBitmapIndex": 0,
+        "BitmapCount": 1,
+        "Sprites": [
+          {
+            "BitmapIndex": 0,
+            "Left": 0.625,
+            "Right": 0.93359375,
+            "Top": 0.703125,
+            "Bottom": 0.77734375,
+            "RegistrationPoint": "X: 0.15429688, Y: 0.037109375"
+          }
+        ]
+      },
+      {
+        "Name": "import #5",
+        "FirstBitmapIndex": 0,
+        "BitmapCount": 1,
+        "Sprites": [
+          {
+            "BitmapIndex": 0,
+            "Left": 0.0,
+            "Right": 0.3125,
+            "Top": 0.703125,
+            "Bottom": 0.8203125,
+            "RegistrationPoint": "X: 0.15625, Y: 0.05859375"
+          }
+        ]
+      },
+      {
+        "Name": "import #6",
+        "FirstBitmapIndex": 0,
+        "BitmapCount": 1,
+        "Sprites": [
+          {
+            "BitmapIndex": 0,
+            "Left": 0.0,
+            "Right": 0.30859375,
+            "Top": 0.5625,
+            "Bottom": 0.6953125,
+            "RegistrationPoint": "X: 0.15429688, Y: 0.06640625"
+          }
+        ]
+      },
+      {
+        "Name": "import #7",
+        "FirstBitmapIndex": 0,
+        "BitmapCount": 1,
+        "Sprites": [
+          {
+            "BitmapIndex": 0,
+            "Left": 0.625,
+            "Right": 0.93359375,
+            "Top": 0.275625,
+            "Bottom": 0.40234375,
+            "RegistrationPoint": "X: 0.15429688, Y: 0.068359375"
+          }
+        ]
+      },
+      {
+        "Name": "import #8",
+        "FirstBitmapIndex": 0,
+        "BitmapCount": 1,
+        "Sprites": [
+          {
+            "BitmapIndex": 0,
+            "Left": 0.625,
+            "Right": 0.9316406,
+            "Top": 0.5625,
+            "Bottom": 0.68359375,
+            "RegistrationPoint": "X: 0.15332031, Y: 0.060546875"
+          }
+        ]
+      },
+      {
+        "Name": "import #9",
+        "FirstBitmapIndex": 0,
+        "BitmapCount": 1,
+        "Sprites": [
+          {
+            "BitmapIndex": 0,
+            "Left": 0.3125,
+            "Right": 0.62109375,
+            "Top": 0.5625,
+            "Bottom": 0.6875,
+            "RegistrationPoint": "X: 0.15429688, Y: 0.0625"
+          }
+        ]
+      },
+      {
+        "Name": "import #10",
+        "FirstBitmapIndex": 0,
+        "BitmapCount": 1,
+        "Sprites": [
+          {
+            "BitmapIndex": 0,
+            "Left": 0.3671875,
+            "Right": 0.67578125,
+            "Top": 0.0,
+            "Bottom": 0.17578125,
+            "RegistrationPoint": "X: 0.15429688, Y: 0.087890625"
+          }
+        ]
+      },
+      {
+        "Name": "import #11",
+        "FirstBitmapIndex": 0,
+        "BitmapCount": 1,
+        "Sprites": [
+          {
+            "BitmapIndex": 0,
+            "Left": 0.3125,
+            "Right": 0.625,
+            "Top": 0.265625,
+            "Bottom": 0.40625,
+            "RegistrationPoint": "X: 0.15625, Y: 0.0703125"
+          }
+        ]
+      },
+      {
+        "Name": "import #12",
+        "FirstBitmapIndex": 0,
+        "BitmapCount": 1,
+        "Sprites": [
+          {
+            "BitmapIndex": 0,
+            "Left": 0.3125,
+            "Right": 0.625,
+            "Top": 0.703125,
+            "Bottom": 0.81640625,
+            "RegistrationPoint": "X: 0.15625, Y: 0.056640625"
+          }
+        ]
+      },
+      {
+        "Name": "import #13",
+        "FirstBitmapIndex": 0,
+        "BitmapCount": 1,
+        "Sprites": [
+          {
+            "BitmapIndex": 0,
+            "Left": 0.0,
+            "Right": 0.30859375,
+            "Top": 0.265625,
+            "Bottom": 0.41796875,
+            "RegistrationPoint": "X: 0.15429688, Y: 0.076171875"
+          }
+        ]
+      },
+      {
+        "Name": "import #14",
+        "FirstBitmapIndex": 0,
+        "BitmapCount": 1,
+        "Sprites": [
+          {
+            "BitmapIndex": 0,
+            "Left": 0.0,
+            "Right": 0.107421875,
+            "Top": 0.0,
+            "Bottom": 0.265625,
+            "RegistrationPoint": "X: 0.053710938, Y: 0.1328125"
+          }
+        ]
+      },
+      {
+        "Name": "import #15",
+        "FirstBitmapIndex": 0,
+        "BitmapCount": 1,
+        "Sprites": [
+          {
+            "BitmapIndex": 0,
+            "Left": 0.6796875,
+            "Right": 0.98828125,
+            "Top": 0.0,
+            "Bottom": 0.1640625,
+            "RegistrationPoint": "X: 0.15429688, Y: 0.08203125"
+          }
+        ]
+      },
+      {
+        "Name": "import #16",
+        "FirstBitmapIndex": 0,
+        "BitmapCount": 1,
+        "Sprites": [
+          {
+            "BitmapIndex": 0,
+            "Left": 0.2109375,
+            "Right": 0.36523438,
+            "Top": 0.0,
+            "Bottom": 0.19921875,
+            "RegistrationPoint": "X: 0.07714844, Y: 0.099609375"
+          }
+        ]
+      },
+      {
+        "Name": "import #17",
+        "FirstBitmapIndex": 0,
+        "BitmapCount": 1,
+        "Sprites": [
+          {
+            "BitmapIndex": 0,
+            "Left": 0.109375,
+            "Right": 0.20898438,
+            "Top": 0.0,
+            "Bottom": 0.24609375,
+            "RegistrationPoint": "X: 0.049804688, Y: 0.123046875"
+          }
+        ]
+      }
+    ],
+    "Images": [
+      {
+        "Signature": "bitm",
+        "Width": 512,
+        "Height": 256,
+        "Depth": 1,
+        "XboxFlags": "None",
+        "Type": "Texture2D",
+        "Format": "A8R8G8B8",
+        "Flags": "PowerOfTwoDimensions",
+        "RegistrationPoint": "X: 0, Y: 0",
+        "MipmapCount": 0,
+        "Curve": "Linear",
+        "InterleavedInterop": 0,
+        "InterleavedTextureIndex": 0,
+        "PixelDataOffset": 0,
+        "PixelDataSize": 524288,
+        "HighResPixelsOffsetOffset": 0,
+        "HighResPixelsSize": 0,
+        "HardwareFormat": -1,
+        "RuntimeTagBaseAddress": {
+          "Value": 0
+        }
+      }
+    ],
+    "XenonBitmaps": "",
+    "XenonImages": [],
+    "UnknownB4": 0
+  }
+}

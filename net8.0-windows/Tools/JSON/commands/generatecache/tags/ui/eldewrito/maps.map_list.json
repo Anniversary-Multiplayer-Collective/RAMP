@@ -1,0 +1,479 @@
+{
+  "TagName": "ui\\eldewrito\\maps",
+  "TagType": "map_list",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "MapImages": [
+      {
+        "MapId": 30,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\zanzibar",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 31,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\s3d_turf",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 300,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\construct",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 310,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\deadlock",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 320,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\guardian",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 330,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\isolation",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 340,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\riverworld",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 350,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\salvation",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 360,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\snowbound",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 380,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\chill",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 390,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\cyberdyne",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 400,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\shrine",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 410,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\bunkerworld",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 440,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\docks",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 470,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\sidewinder",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 480,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\warehouse",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 490,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\descent",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 500,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\spacecamp",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 520,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\lockout",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 580,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\armory",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 590,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\ghosttown",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 600,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\chillout",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 700,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\s3d_reactor",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 703,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\s3d_edge",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 705,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\s3d_avalanche",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 706,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\s3d_waterfall",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 720,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\midship",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 730,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\sandbox",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 740,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\fortress",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 3005,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\005_intro",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 3010,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\010_jungle",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 3020,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\020_base",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 3030,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\030_outskirts",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 3040,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\040_voi",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 3050,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\050_floodvoi",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 3070,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\070_waste",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 3100,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\100_citadel",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 3110,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\110_hc",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 3120,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\120_halo",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 3130,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\130_epilogue",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 4100,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\c100",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 4200,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\c200",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 5000,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\h100",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 5200,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\l200",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 5300,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\l300",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 6100,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\sc100",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 6110,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\sc110",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 6120,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\sc120",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 6130,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\sc130",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 6140,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\sc140",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      },
+      {
+        "MapId": 6150,
+        "Bitmap": {
+          "Type": "bitmap",
+          "Name": "ui\\eldewrito\\common\\map_bitmaps\\sc150",
+          "Generate": false
+        },
+        "LoadingScreenBitmaps": []
+      }
+    ],
+    "DefaultMapImage": {
+      "Type": "bitmap",
+      "Name": "ui\\eldewrito\\common\\map_bitmaps\\placeholder",
+      "Generate": false
+    },
+    "DefaultLoadingScreen": null
+  }
+}

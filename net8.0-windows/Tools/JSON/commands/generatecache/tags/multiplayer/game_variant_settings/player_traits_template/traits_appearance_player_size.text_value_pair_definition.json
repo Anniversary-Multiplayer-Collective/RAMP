@@ -1,0 +1,161 @@
+{
+  "TagName": "multiplayer\\game_variant_settings\\player_traits_template\\traits_appearance_player_size",
+  "TagType": "text_value_pair_definition",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Parameter": "IntGlobalTraitsTemplateVisualAura",
+    "Name": "traits_appearance_player_size",
+    "Description": "traits_appearance_player_size_desc",
+    "TextValuePairs": [
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 0,
+        "StringidValue": "invalid",
+        "Name": "unchanged",
+        "Description": "unchanged_desc"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 2,
+        "StringidValue": "invalid",
+        "Name": "percent_10",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 3,
+        "StringidValue": "invalid",
+        "Name": "percent_15",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 4,
+        "StringidValue": "invalid",
+        "Name": "percent_25",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 5,
+        "StringidValue": "invalid",
+        "Name": "percent_35",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 6,
+        "StringidValue": "invalid",
+        "Name": "percent_50",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 7,
+        "StringidValue": "invalid",
+        "Name": "percent_75",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 8,
+        "StringidValue": "invalid",
+        "Name": "percent_100",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 9,
+        "StringidValue": "invalid",
+        "Name": "percent_125",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 10,
+        "StringidValue": "invalid",
+        "Name": "percent_150",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 11,
+        "StringidValue": "invalid",
+        "Name": "percent_200",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 12,
+        "StringidValue": "invalid",
+        "Name": "percent_300",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 13,
+        "StringidValue": "invalid",
+        "Name": "percent_500",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 14,
+        "StringidValue": "invalid",
+        "Name": "percent_750",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 15,
+        "StringidValue": "invalid",
+        "Name": "percent_1000",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 16,
+        "StringidValue": "invalid",
+        "Name": "percent_1500",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 17,
+        "StringidValue": "invalid",
+        "Name": "percent_2000",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 18,
+        "StringidValue": "invalid",
+        "Name": "percent_3000",
+        "Description": "invalid"
+      }
+    ]
+  }
+}

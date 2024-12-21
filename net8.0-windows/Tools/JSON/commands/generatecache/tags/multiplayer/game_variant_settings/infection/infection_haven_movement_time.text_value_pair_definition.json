@@ -1,0 +1,89 @@
+{
+  "TagName": "multiplayer\\game_variant_settings\\infection\\infection_haven_movement_time",
+  "TagType": "text_value_pair_definition",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Parameter": "IntInfectionHavenMovementTime",
+    "Name": "infection_haven_movement_time",
+    "Description": "infection_haven_movement_time_desc",
+    "TextValuePairs": [
+      {
+        "Flags": "DefaultSetting",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 0,
+        "StringidValue": "invalid",
+        "Name": "disabled",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 5,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_5",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 10,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_10",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 15,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_15",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 20,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_20",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 30,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_30",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 45,
+        "StringidValue": "invalid",
+        "Name": "time_seconds_45",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 60,
+        "StringidValue": "invalid",
+        "Name": "time_minutes_1",
+        "Description": "invalid"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 120,
+        "StringidValue": "invalid",
+        "Name": "time_minutes_2",
+        "Description": "invalid"
+      }
+    ]
+  }
+}

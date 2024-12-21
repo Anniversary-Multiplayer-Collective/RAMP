@@ -1,0 +1,519 @@
+{
+  "TagName": "ui\\main_menu",
+  "TagType": "user_interface_globals_definition",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "SharedGlobals": {
+      "Type": "user_interface_shared_globals_definition",
+      "Name": "ui\\ui_shared_globals",
+      "Generate": false
+    },
+    "MpVariantSettingsUi": {
+      "Type": "multiplayer_variant_settings_interface_definition",
+      "Name": "multiplayer\\game_variant_settings\\multiplayer_editable_settings",
+      "Generate": false
+    },
+    "GameHopperDescriptions": {
+      "Type": "multilingual_unicode_string_list",
+      "Name": "multiplayer\\matchmaking_hopper_descriptions",
+      "Generate": false
+    },
+    "ScreenWidgets": [
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\game_browser\\game_browser_search_criteria",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\main_menu\\main_menu",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\start_menu",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\game_campaign\\start_menu_game_campaign",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\game_multiplayer\\start_menu_game_multiplayer",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\settings\\start_menu_settings",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\hq_screenshots\\start_menu_hq_screenshots",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\hq_screenshots_viewer\\start_menu_hq_screenshots_viewer",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\hq_screenshots\\start_menu_hq_screenshots_option",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\hq\\start_menu_headquarters",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\hq_transfers\\start_menu_hq_transfers",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\hq_transfers\\start_menu_hq_transfers_item_selected",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\hq_service_record\\start_menu_hq_service_record",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\hq_service_record_file_share\\start_menu_hq_service_record_file_share",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\hq_service_record_file_share\\start_menu_hq_service_record_file_share",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\hq_service_record_file_share\\start_menu_hq_service_record_file_share",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\hq_service_record_file_share\\start_menu_hq_service_record_file_share",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\hq_service_record_file_share\\start_menu_hq_service_record_file_share",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\settings_controls\\start_menu_settings_controls",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\settings_controls_thumbstick\\start_menu_settings_controls_thumbstick",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\settings_controls_button\\start_menu_settings_controls_button",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\settings_appearance\\start_menu_settings_appearance",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\settings_appearance_colors\\start_menu_settings_appearance_colors",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\settings_appearance_emblem\\start_menu_settings_appearance_emblem",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\settings_appearance_model\\start_menu_settings_appearance_model",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\settings_voice\\start_menu_settings_voice",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\settings_camera\\start_menu_settings_camera",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\settings_display\\start_menu_settings_display",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\settings_film_autosave\\start_menu_settings_film_autosave",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\e3\\e3_demo",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\alert\\alert_nonblocking",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\alert\\alert_toast",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\dialog\\dialog",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\dialog\\dialog_four",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\spartan_program\\spartan_milestone",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\spartan_program\\spartan_rank",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\campaign\\campaign_select_difficulty",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\campaign\\campaign_select_level",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\campaign\\campaign_loading",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\pregame_lobby\\pregame_lobby_campaign",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\pregame_lobby\\pregame_lobby_matchmaking",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\pregame_lobby\\pregame_lobby_multiplayer",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\pregame_lobby\\pregame_lobby_mapeditor",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\pregame_lobby\\pregame_lobby_theater",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\pregame_lobby\\selection\\pregame_selection",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\pregame_lobby\\maximum_party_size\\maximum_party_size",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\pregame_lobby\\switch_lobby\\pregame_switch_lobby",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": null
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\game_browser\\game_browser",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\postgame_lobby\\postgame_lobby",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\in_progress\\in_progress",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\in_progress\\in_progress_mini",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\game_details\\game_details",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\alpha_legal\\alpha_legal",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\alpha_locked_down\\alpha_locked_down",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\alpha_motd\\alpha_motd",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\matchmaking\\matchmaking_match_found",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\matchmaking\\matchmaking_searching",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\game_options\\game_options_screen",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": null
+      },
+      {
+        "Widget": null
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\pregame_lobby\\advanced_screen\\advanced_matchmaking_options",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": null
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\director\\observer_camera_list_screen",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\campaign\\campaign_settings",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\start_menu\\panes\\hq_screenshots_viewer\\screenshots_file_share_previewer",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\pregame_lobby\\pregame_lobby_survival",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\pregame_lobby\\selection\\pregame_survival_level_selection",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\pregame_lobby\\selection\\survival_select_difficulty",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\pregame_lobby\\selection\\survival_select_skulls",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\campaign\\campaign_select_scoring",
+          "Generate": false
+        }
+      },
+      {
+        "Widget": {
+          "Type": "gui_screen_widget_definition",
+          "Name": "ui\\halox\\campaign\\campaign_select_skulls",
+          "Generate": false
+        }
+      }
+    ],
+    "TextureRenderList": null,
+    "UnknownHO": 0
+  }
+}

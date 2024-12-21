@@ -1,0 +1,477 @@
+{
+  "TagName": "objects\\characters\\masterchief\\shaders\\mp_masterchief",
+  "TagType": "shader",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "BaseRenderMethod": {
+      "Type": "render_method_definition",
+      "Name": "shaders\\shader",
+      "Generate": false
+    },
+    "Options": [
+      {
+        "OptionIndex": 10
+      },
+      {
+        "OptionIndex": 3
+      },
+      {
+        "OptionIndex": 0
+      },
+      {
+        "OptionIndex": 1
+      },
+      {
+        "OptionIndex": 1
+      },
+      {
+        "OptionIndex": 2
+      },
+      {
+        "OptionIndex": 9
+      },
+      {
+        "OptionIndex": 0
+      },
+      {
+        "OptionIndex": 0
+      },
+      {
+        "OptionIndex": 1
+      },
+      {
+        "OptionIndex": 0
+      }
+    ],
+    "Parameters": [],
+    "ShaderProperties": [
+      {
+        "Template": {
+          "Type": "render_method_template",
+          "Name": "shaders\\shader_templates\\_10_3_0_1_1_2_9_0_0_1_0_0",
+          "Generate": false
+        },
+        "TextureConstants": [
+          {
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "objects\\characters\\masterchief\\bitmaps\\mp_masterchief",
+              "Generate": false
+            },
+            "BitmapIndex": 0,
+            "SamplerAddressMode": {
+              "SamplerAddressUV": 0
+            },
+            "FilterMode": "Anisotropic3Expensive",
+            "ExternTextureMode": "UseBitmapAsNormal",
+            "TextureTransformConstantIndex": 0,
+            "TextureTransformOverlayIndices": {
+              "Integer": 0
+            }
+          },
+          {
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "objects\\weapons\\rifle\\battle_rifle\\bitmaps\\gun_detail",
+              "Generate": false
+            },
+            "BitmapIndex": 0,
+            "SamplerAddressMode": {
+              "SamplerAddressUV": 0
+            },
+            "FilterMode": "Anisotropic3Expensive",
+            "ExternTextureMode": "UseBitmapAsNormal",
+            "TextureTransformConstantIndex": 1,
+            "TextureTransformOverlayIndices": {
+              "Integer": 0
+            }
+          },
+          {
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "objects\\characters\\masterchief\\bitmaps\\mp_masterchief_cc",
+              "Generate": false
+            },
+            "BitmapIndex": 0,
+            "SamplerAddressMode": {
+              "SamplerAddressUV": 0
+            },
+            "FilterMode": "Anisotropic3Expensive",
+            "ExternTextureMode": "UseBitmapAsNormal",
+            "TextureTransformConstantIndex": 2,
+            "TextureTransformOverlayIndices": {
+              "Integer": 0
+            }
+          },
+          {
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "objects\\characters\\masterchief\\bitmaps\\mp_masterchief_new_bump",
+              "Generate": false
+            },
+            "BitmapIndex": 0,
+            "SamplerAddressMode": {
+              "SamplerAddressUV": 0
+            },
+            "FilterMode": "Anisotropic3Expensive",
+            "ExternTextureMode": "UseBitmapAsNormal",
+            "TextureTransformConstantIndex": 3,
+            "TextureTransformOverlayIndices": {
+              "Integer": 0
+            }
+          },
+          {
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "objects\\characters\\masterchief\\fp\\bitmaps\\efp_metal_bump",
+              "Generate": false
+            },
+            "BitmapIndex": 0,
+            "SamplerAddressMode": {
+              "SamplerAddressUV": 0
+            },
+            "FilterMode": "Anisotropic3Expensive",
+            "ExternTextureMode": "UseBitmapAsNormal",
+            "TextureTransformConstantIndex": 4,
+            "TextureTransformOverlayIndices": {
+              "Integer": 0
+            }
+          },
+          {
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "shaders\\default_bitmaps\\bitmaps\\color_white",
+              "Generate": false
+            },
+            "BitmapIndex": 0,
+            "SamplerAddressMode": {
+              "SamplerAddressUV": 0
+            },
+            "FilterMode": "Trilinear",
+            "ExternTextureMode": "UseBitmapAsNormal",
+            "TextureTransformConstantIndex": 5,
+            "TextureTransformOverlayIndices": {
+              "Integer": 0
+            }
+          },
+          {
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "shaders\\default_bitmaps\\bitmaps\\gray_50_percent",
+              "Generate": false
+            },
+            "BitmapIndex": 0,
+            "SamplerAddressMode": {
+              "SamplerAddressUV": 0
+            },
+            "FilterMode": "Trilinear",
+            "ExternTextureMode": "UseBitmapAsNormal",
+            "TextureTransformConstantIndex": 14,
+            "TextureTransformOverlayIndices": {
+              "Integer": 0
+            }
+          },
+          {
+            "Bitmap": {
+              "Type": "bitmap",
+              "Name": "objects\\characters\\masterchief\\bitmaps\\masterchief_illum",
+              "Generate": false
+            },
+            "BitmapIndex": 0,
+            "SamplerAddressMode": {
+              "SamplerAddressUV": 0
+            },
+            "FilterMode": "Anisotropic3Expensive",
+            "ExternTextureMode": "UseBitmapAsNormal",
+            "TextureTransformConstantIndex": 19,
+            "TextureTransformOverlayIndices": {
+              "Integer": 0
+            }
+          }
+        ],
+        "RealConstants": [
+          {
+            "Values": [
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "Values": [
+              20.0,
+              20.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "Values": [
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "Values": [
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "Values": [
+              20.0,
+              20.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "Values": [
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "Values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "Values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "Values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          },
+          {
+            "Values": [
+              0.5372549,
+              0.5411765,
+              0.49411768,
+              1.0
+            ]
+          },
+          {
+            "Values": [
+              0.27058825,
+              0.39607847,
+              0.7254902,
+              1.0
+            ]
+          },
+          {
+            "Values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "Values": [
+              0.5019608,
+              0.5019608,
+              0.5019608,
+              1.0
+            ]
+          },
+          {
+            "Values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "Values": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "Values": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "Values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "Values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          },
+          {
+            "Values": [
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "Values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "Values": [
+              0.75,
+              0.75,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "Values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "Values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "Values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "Values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "Values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "Values": [
+              0.3137255,
+              0.34901962,
+              0.454902,
+              1.0
+            ]
+          },
+          {
+            "Values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "Values": [
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "Values": [
+              2.5,
+              2.5,
+              2.5,
+              2.5
+            ]
+          }
+        ],
+        "IntegerConstants": [],
+        "BooleanConstants": 1,
+        "EntryPoints": [],
+        "Passes": [],
+        "RoutingInfo": [],
+        "Functions": [
+          {
+            "Type": "Value",
+            "InputName": "shield_intensity",
+            "RangeName": "invalid",
+            "TimePeriod": 1.0,
+            "Function": {
+              "Data": "CDQAAAAAIEAAACBCAAAAAAAAAAAAAAAAAAAAABQAAAABAAAABAAAP///f38AAIA/AAAAAA=="
+            }
+          }
+        ],
+        "BlendMode": "Opaque",
+        "Flags": "ForceSinglePass",
+        "ImSoFiredPad": 0,
+        "QueryableProperties": [
+          -1,
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      }
+    ],
+    "RenderFlags": "None",
+    "SortLayer": "Normal",
+    "Version": 0,
+    "CustomFogSettingIndex": 0,
+    "PredictionAtomIndex": -1,
+    "Material": "invalid"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "TagName": "multiplayer\\game_variant_settings\\infection\\infection_haven_movement",
+  "TagType": "text_value_pair_definition",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Parameter": "IntInfectionHavenMovement",
+    "Name": "infection_haven_movement",
+    "Description": "infection_haven_movement_none_desc",
+    "TextValuePairs": [
+      {
+        "Flags": "DefaultSetting",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 0,
+        "StringidValue": "invalid",
+        "Name": "infection_haven_movement_none",
+        "Description": "infection_haven_movement_none_desc"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 1,
+        "StringidValue": "invalid",
+        "Name": "infection_haven_movement_random",
+        "Description": "infection_haven_movement_random_desc"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 2,
+        "StringidValue": "invalid",
+        "Name": "infection_haven_movement_sequence",
+        "Description": "infection_haven_movement_sequence_desc"
+      }
+    ]
+  }
+}

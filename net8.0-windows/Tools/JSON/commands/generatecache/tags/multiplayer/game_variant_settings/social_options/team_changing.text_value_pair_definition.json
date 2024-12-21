@@ -1,0 +1,41 @@
+{
+  "TagName": "multiplayer\\game_variant_settings\\social_options\\team_changing",
+  "TagType": "text_value_pair_definition",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Parameter": "IntGlobalTeamChanging",
+    "Name": "social_team_changing",
+    "Description": "social_team_changing_desc",
+    "TextValuePairs": [
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 0,
+        "StringidValue": "invalid",
+        "Name": "not_allowed",
+        "Description": "social_team_changing_disabled_desc"
+      },
+      {
+        "Flags": "DefaultSetting",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 1,
+        "StringidValue": "invalid",
+        "Name": "allowed",
+        "Description": "social_team_changing_enabled_desc"
+      },
+      {
+        "Flags": "0",
+        "ExpectedValueType": "IntegerIndex",
+        "EnumeratedValue": 2,
+        "StringidValue": "invalid",
+        "Name": "balanced",
+        "Description": "social_team_changing_balanced_desc"
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "TagName": "ui\\halox\\pregame_lobby\\lobby_list_multiplayer",
+  "TagType": "gui_datasource_definition",
+  "Generate": false,
+  "TagVersion": "HaloOnlineED",
+  "UnicodeStrings": null,
+  "BitmapResources": null,
+  "AnimationData": null,
+  "BlamScriptResource": null,
+  "TagData": {
+    "Name": "lobby_list",
+    "Elements": [
+      {
+        "IntegerValues": [],
+        "StringValues": [],
+        "StringidValues": [
+          {
+            "Name": "name",
+            "Value": "switch_lobby"
+          }
+        ],
+        "SubmenuControlName": "invalid"
+      },
+      {
+        "IntegerValues": [],
+        "StringValues": [],
+        "StringidValues": [
+          {
+            "Name": "name",
+            "Value": "select_network_mode"
+          },
+          {
+            "Name": "target",
+            "Value": "network_mode"
+          }
+        ],
+        "SubmenuControlName": "invalid"
+      },
+      {
+        "IntegerValues": [],
+        "StringValues": [],
+        "StringidValues": [
+          {
+            "Name": "name",
+            "Value": "switch_multiplayer_game"
+          },
+          {
+            "Name": "target",
+            "Value": "variant"
+          }
+        ],
+        "SubmenuControlName": "invalid"
+      },
+      {
+        "IntegerValues": [],
+        "StringValues": [],
+        "StringidValues": [
+          {
+            "Name": "name",
+            "Value": "switch_multiplayer_map"
+          },
+          {
+            "Name": "target",
+            "Value": "map"
+          }
+        ],
+        "SubmenuControlName": "invalid"
+      },
+      {
+        "IntegerValues": [],
+        "StringValues": [],
+        "StringidValues": [
+          {
+            "Name": "name",
+            "Value": "switch_selected_mod"
+          }
+        ],
+        "SubmenuControlName": "invalid"
+      },
+      {
+        "IntegerValues": [],
+        "StringValues": [],
+        "StringidValues": [
+          {
+            "Name": "name",
+            "Value": "start_game"
+          }
+        ],
+        "SubmenuControlName": "invalid"
+      },
+      {
+        "IntegerValues": [],
+        "StringValues": [],
+        "StringidValues": [
+          {
+            "Name": "name",
+            "Value": "advanced_options"
+          }
+        ],
+        "SubmenuControlName": "invalid"
+      }
+    ]
+  }
+}
