@@ -1,7 +1,7 @@
 TODO:
 Add reach weapons to forge pallette
 Add reach equipment to pallette
-Fix fuel rod projectile drop
+Fix projectile drop
 Find a fix for glass on reach forge items (maybe pull them from RAMP as they dont look as bad)
 Sprint animations for reach weapons
 Space shield on zealot is gone
