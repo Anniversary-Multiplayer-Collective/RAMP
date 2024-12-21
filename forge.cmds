@@ -1488,10 +1488,37 @@ Exit
 PortTag ReachMisc objects\levels\shared\golf_ball\golf_ball.crate
 AddForgeItem "GOLF BALL" 87 objects\levels\shared\golf_ball\golf_ball.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[621].Type Prop
+SetField Palette[622].Type Prop
 SaveTagChanges
 Exit
 
+AddForgeItem "REACH TELEPORTER 2 WAY" 87 objects\levels\forge\ff_teleporter_2_way\ff_teleporter_2_way.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[623].Type Teleporter
+SaveTagChanges
+Exit
+EditTag objects\levels\forge\ff_teleporter_2_way\ff_teleporter_2_way.physics_model
+SetField RigidBodies[0].MotionType Keyframed
+SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
+SaveTagChanges
+Exit
+
+AddForgeItem "REACH TELEPORTER SENDER" 87 objects\levels\forge\ff_teleporter_sender\ff_teleporter_sender.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[624].Type Teleporter
+SaveTagChanges
+Exit
+
+AddForgeItem "REACH TELEPORTER RECEIVER" 87 objects\levels\forge\ff_teleporter_receiver\ff_teleporter_receiver.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[625].Type Teleporter
+SaveTagChanges
+Exit
+EditTag objects\levels\forge\ff_teleporter_receiver\ff_teleporter_receiver.physics_model
+SetField RigidBodies[0].MotionType Keyframed
+SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
+SaveTagChanges
+Exit
 
 # echo ==Fix Shield Doors...==
 edittag objects\levels\forge\ff_one_way_door_garage\ff_one_way_door_garage.physics_model
