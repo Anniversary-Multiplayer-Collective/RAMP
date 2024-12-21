@@ -188,7 +188,56 @@ OpenModPackage "workingdir\Reach Weapons EK.pak"
 ApplyModPackage
 ExitModPackage 
 
-echo ==Apply RAMP HUD and UI==
+# echo ==Add reach specific weapons to the palette...==
+
+EditTag multiplayer\forge_globals.forge_globals_definition
+
+AddBlockElements Palette
+SetField Palette[*].Name "CONCUSSION RIFLE"
+SetField Palette[*].Type Weapon
+SetField Palette[*].CategoryIndex 70
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\weapons\rifle\concussion_rifle\concussion_rifle.weapon
+
+AddBlockElements Palette
+SetField Palette[*].Name "FOCUS RIFLE"
+SetField Palette[*].Type Weapon
+SetField Palette[*].CategoryIndex 70
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\weapons\rifle\focus_rifle\focus_rifle.weapon
+
+AddBlockElements Palette
+SetField Palette[*].Name "GRENADE LAUNCHER"
+SetField Palette[*].Type Weapon
+SetField Palette[*].CategoryIndex 70
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\weapons\rifle\grenade_launcher\grenade_launcher.weapon
+
+AddBlockElements Palette
+SetField Palette[*].Name "NEEDLE RIFLE"
+SetField Palette[*].Type Weapon
+SetField Palette[*].CategoryIndex 70
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\weapons\rifle\needle_rifle\needle_rifle.weapon
+
+AddBlockElements Palette
+SetField Palette[*].Name "PLASMA REPEATER"
+SetField Palette[*].Type Weapon
+SetField Palette[*].CategoryIndex 70
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\weapons\rifle\plasma_repeater\plasma_repeater.weapon
+
+AddBlockElements Palette
+SetField Palette[*].Name "PLASMA LAUNCHER"
+SetField Palette[*].Type Weapon
+SetField Palette[*].CategoryIndex 70
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\weapons\support_high\plasma_launcher\plasma_launcher.weapon
+
+SaveTagChanges
+Exit
+
+echo ==Apply RAMP HUD, UI, Main Menu, Customization, and Armor Abilities==
 OpenModPackage "workingdir\ramphud.pak"
 ApplyModPackage
 ExitModPackage 
@@ -295,6 +344,34 @@ Exit
 
 edittag objects\weapons\melee\energy_blade\energy_blade.weapon
 setfield HudInterface ui\chud\sword.chud_definition
+SaveTagChanges
+Exit
+
+# echo ==Add reach armor abilities to the palette...==
+
+EditTag multiplayer\forge_globals.forge_globals_definition
+
+AddBlockElements Palette
+SetField Palette[*].Name "ARMOR LOCK"
+SetField Palette[*].Type Equipment
+SetField Palette[*].CategoryIndex 67
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\equipment\armor_lockup\armor_lockup.equipment
+
+AddBlockElements Palette
+SetField Palette[*].Name "DROP SHIELD"
+SetField Palette[*].Type Equipment
+SetField Palette[*].CategoryIndex 67
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\equipment\drop_shield\drop_shield.equipment
+
+AddBlockElements Palette
+SetField Palette[*].Name "INVISIBILITY"
+SetField Palette[*].Type Equipment
+SetField Palette[*].CategoryIndex 67
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\equipment\invisibility_equipment\invisibility_equipment.equipment
+
 SaveTagChanges
 Exit
 
