@@ -1,0 +1,4 @@
+TODO:
+
+Space shield on zealot is gone
+Duplicate safe volume and rename it to objects\multi\boundaries\safe_volume.scen and set the model to the one from reach
