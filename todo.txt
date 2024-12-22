@@ -1,4 +1,5 @@
 TODO:
+Fix weapon pickup icons.
 Add reach weapons to forge pallette
 Add reach equipment to pallette
 Fix projectile drop
