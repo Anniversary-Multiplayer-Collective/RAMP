@@ -1667,11 +1667,11 @@ setfield Skies[18].GlobalLighting levels\multi\dlc\dlc_invasion\post_fx\dlc_inva
 #NOT IN THE CACHE YET
 addblockelements Skies
 setfield Skies[19].Name "Condemned"
-##setfield Skies[19].Object levels\dlc\condemned\sky\condemned_glassed_planet\condemned_glassed_planet.scenery
-##setfield Skies[19].BackgroundSound sound\levels\solo\m45\space_filter_loop\space_filter_loop.sound_looping
-##setfield Skies[19].CameraFX levels\dlc\condemned\postfx\dlc_condemned.camera_fx_settings
-##setfield Skies[19].ScreenFX levels\dlc\condemned\postfx\dlc_condemned.area_screen_effect
-##setfield Skies[19].Parameters levels\dlc\condemned\condemned.sky_atm_parameters
+setfield Skies[19].Object levels\dlc\condemned\sky\condemned_glassed_planet\condemned_glassed_planet.scenery
+setfield Skies[19].BackgroundSound sound\levels\solo\m45\space_filter_loop\space_filter_loop.sound_looping
+setfield Skies[19].CameraFX levels\dlc\condemned\postfx\dlc_condemned.camera_fx_settings
+setfield Skies[19].ScreenFX levels\dlc\condemned\postfx\dlc_condemned.area_screen_effect
+setfield Skies[19].Parameters levels\dlc\condemned\condemned.sky_atm_parameters
 
 addblockelements Skies
 setfield Skies[20].Name "Countdown"
