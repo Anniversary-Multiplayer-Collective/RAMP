@@ -2,6 +2,7 @@ TODO:
 Fix weapon pickup icons.
 Fix projectile drop
 Fix propane tank just dissapearing when shot
+You can walk through the Traffic Cones. https://s.zekken.rocks/aUVPM4cc.jpg
 Missing elite sprint meter
 Elites missing animations for armor lock and drop shield
 Find a fix for glass on reach forge items (maybe pull them from RAMP as they dont look as bad)
