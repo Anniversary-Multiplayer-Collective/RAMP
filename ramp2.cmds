@@ -139,9 +139,45 @@ OpenCacheFile "reachmaps\forge_halo.map"
 PortTag ReachMisc Replace objects\multi\spawning\respawn_point.scenery
 PortTag ReachMisc Replace objects\multi\spawning\initial_spawn_point.scenery
 PortTag ReachMisc Replace objects\multi\spawning\ff_respawn_point\ff_respawn_point.scenery
+PortTag ReachMisc Replace objects\gear\human\military\camping_stool_mp\camping_stool_mp.crate
+PortTag ReachMisc Replace objects\gear\human\industrial\propane_tank\propane_tank.crate
+PortTag ReachMisc Replace objects\gear\human\military\barricade_small\barricade_small.crate
+PortTag ReachMisc Replace objects\gear\human\military\fusion_coil\fusion_coil.crate
+PortTag ReachMisc Replace objects\gear\human\military\barricade_large\barricade_large.crate
+PortTag ReachMisc Replace objects\gear\human\industrial\street_cone\street_cone.crate
 Exit
 
 RunCommands "workingdir\forge.cmds"
+
+echo ==Remove damage from ported models==
+EditTag objects\multi\spawning\ff_respawn_point\ff_respawn_point.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+EditTag objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+EditTag objects\multi\spawning\ff_respawn_point\ff_respawn_point.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+EditTag objects\gear\human\military\camping_stool_mp\camping_stool_mp.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+EditTag objects\gear\human\military\barricade_small\barricade_small.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+EditTag objects\gear\human\military\barricade_large\barricade_large.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+EditTag objects\gear\human\industrial\street_cone\street_cone.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
 
 echo ==Revenant==
 
