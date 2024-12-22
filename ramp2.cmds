@@ -143,6 +143,7 @@ PortTag ReachMisc Replace objects\gear\human\military\camping_stool_mp\camping_s
 PortTag ReachMisc Replace objects\gear\human\industrial\propane_tank\propane_tank.crate
 PortTag ReachMisc Replace objects\gear\human\military\barricade_small\barricade_small.crate
 PortTag ReachMisc Replace objects\gear\human\military\fusion_coil\fusion_coil.crate
+PortTag ReachMisc Replace objects\props\covenant\battery\battery.crate
 PortTag ReachMisc Replace objects\gear\human\military\barricade_large\barricade_large.crate
 PortTag ReachMisc Replace objects\gear\human\industrial\street_cone\street_cone.crate
 PortTag ReachMisc Replace objects\gear\human\military\sandbag_wall_90corner\sandbag_wall_90corner.model
@@ -150,6 +151,7 @@ PortTag ReachMisc Replace objects\gear\human\military\sandbag_wall_45corner\sand
 PortTag ReachMisc Replace objects\gear\human\military\sandbag_wall_endcap\sandbag_wall_endcap.model
 PortTag ReachMisc Replace objects\gear\human\military\sandbag_wall\sandbag_wall.model
 PortTag ReachMisc Replace objects\gear\human\military\sandbag_wall_turret\sandbag_wall_turret.model
+PortTag ReachMisc objects\multi\boundaries\safe_volume.scen
 
 Exit
 
@@ -165,6 +167,10 @@ RemoveBlockElements NewDamageInfo 0 1
 SaveTagChanges
 Exit
 EditTag objects\multi\spawning\ff_respawn_point\ff_respawn_point.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+EditTag objects\multi\models\ff_safe_zone\ff_safe_zone.model
 RemoveBlockElements NewDamageInfo 0 1
 SaveTagChanges
 Exit
@@ -411,7 +417,7 @@ savetagchanges
 exit
 
 echo ==Fix projectile drop==
-edittag objects\weapons\support_high\rocket_launcher\projectiles\rocket.projectile
+edittag dw3\r3ach\objects\weapons\support_high\rocket_launcher\projectiles\rocket_launcher_rocket.projectile
 setfield WaterGravityScale 0
 SaveTagChanges
 Exit
