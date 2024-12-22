@@ -1,10 +1,8 @@
 TODO:
 Fix weapon pickup icons.
-Add reach weapons to forge pallette
-Add reach equipment to pallette
 Fix projectile drop
 Find a fix for glass on reach forge items (maybe pull them from RAMP as they dont look as bad)
 Sprint animations for reach weapons
 Space shield on zealot is gone
-Replace the Halo 3 items with their halo Reach equivelent
+Replace the Halo 3 items with their halo Reach equivelent(in progress)
 Fix incorrect ammo count on some weapons when low ammo https://s.zekken.rocks/t1AQw4FN.jpg
