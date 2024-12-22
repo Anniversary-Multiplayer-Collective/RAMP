@@ -1,6 +1,7 @@
 TODO:
 Fix weapon pickup icons.
 Fix projectile drop
+Fix propane tank just dissapearing when shot
 Find a fix for glass on reach forge items (maybe pull them from RAMP as they dont look as bad)
 Sprint animations for reach weapons
 Space shield on zealot is gone

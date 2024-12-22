@@ -135,6 +135,8 @@ ApplyModPackage
 ExitModPackage
 
 echo ==Port Reach Objects==
+nametag objects\gear\covenant\military\battery\battery.crate objects\gear\covenant\military\battery\batteryh3
+
 OpenCacheFile "reachmaps\forge_halo.map"
 PortTag ReachMisc Replace objects\multi\spawning\respawn_point.scenery
 PortTag ReachMisc Replace objects\multi\spawning\initial_spawn_point.scenery
@@ -153,6 +155,12 @@ PortTag ReachMisc Replace objects\gear\human\military\sandbag_wall\sandbag_wall.
 PortTag ReachMisc Replace objects\gear\human\military\sandbag_wall_turret\sandbag_wall_turret.model
 PortTag ReachMisc objects\multi\boundaries\safe_volume.scen
 
+Exit
+
+nametag objects\props\covenant\battery\battery.crate objects\gear\covenant\military\battery\battery
+EditTag objects\props\covenant\battery\battery.model
+setfield NewDamageInfo[0].DamageSections[0].InstantResponses[1].TransitionDamageEffect objects\gear\covenant\military\battery\damage_effects\battery_explosion.damage_effect
+SaveTagChanges
 Exit
 
 RunCommands "workingdir\forge.cmds"
