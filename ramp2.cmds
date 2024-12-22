@@ -145,6 +145,11 @@ PortTag ReachMisc Replace objects\gear\human\military\barricade_small\barricade_
 PortTag ReachMisc Replace objects\gear\human\military\fusion_coil\fusion_coil.crate
 PortTag ReachMisc Replace objects\gear\human\military\barricade_large\barricade_large.crate
 PortTag ReachMisc Replace objects\gear\human\industrial\street_cone\street_cone.crate
+PortTag ReachMisc Replace objects\gear\human\military\sandbag_wall_90corner\sandbag_wall_90corner.model
+PortTag ReachMisc Replace objects\gear\human\military\sandbag_wall_endcap\sandbag_wall_endcap.model
+PortTag ReachMisc Replace objects\gear\human\military\sandbag_wall\sandbag_wall.model
+PortTag ReachMisc Replace objects\gear\human\military\sandbag_wall_turret\sandbag_wall_turret.model
+
 Exit
 
 RunCommands "workingdir\forge.cmds"
@@ -175,6 +180,22 @@ RemoveBlockElements NewDamageInfo 0 1
 SaveTagChanges
 Exit
 EditTag objects\gear\human\industrial\street_cone\street_cone.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+EditTag objects\gear\human\military\sandbag_wall_90corner\sandbag_wall_90corner.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+EditTag objects\gear\human\military\sandbag_wall_endcap\sandbag_wall_endcap.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+EditTag objects\gear\human\military\sandbag_wall\sandbag_wall.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+EditTag objects\gear\human\military\sandbag_wall_turret\sandbag_wall_turret.model
 RemoveBlockElements NewDamageInfo 0 1
 SaveTagChanges
 Exit
