@@ -134,6 +134,13 @@ OpenModPackage "workingdir\Highlands.pak"
 ApplyModPackage
 ExitModPackage
 
+echo ==Port Reach Objects==
+OpenCacheFile "reachmaps\forge_halo.map"
+PortTag ReachMisc Replace objects\multi\spawning\respawn_point.scenery
+PortTag ReachMisc Replace objects\multi\spawning\initial_spawn_point.scenery
+PortTag ReachMisc Replace objects\multi\spawning\ff_respawn_point\ff_respawn_point.scenery
+Exit
+
 RunCommands "workingdir\forge.cmds"
 
 echo ==Revenant==
@@ -153,14 +160,7 @@ setfield Palette[*].Object objects\vehicles\covenant\revenant\revenant.vehicle
 SaveTagChanges
 Exit
 
-edittag ui\hud\hud_messages.multilingual_unicode_string_list
-setstring english revenant_enter_driver "\uE461\uE45F to drive Revenant"
-setstring english revenant_enter_passenger "\uE461\uE45F to ride in Revenant"
-setstring english revenant_board "\uE461\uE45F to board Revenant"
-savetagchanges
-exit
-
-echo ==Fix beaver creek missing textures==
+echo ==Fix Battle Canyon missing textures==
 DuplicateTag levels\multi\deadlock\shaders\deadlock_grate_a.shader objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift_grate
 edittag objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift_grate.shader
 setargument specular_coefficient 0.3
@@ -182,7 +182,7 @@ OpenModPackage "workingdir\Reach Weapons EK.pak"
 ApplyModPackage
 ExitModPackage 
 
-# echo ==Add reach specific weapons to the palette...==
+# echo ==Add Reach specific weapons to the palette...==
 
 EditTag multiplayer\forge_globals.forge_globals_definition
 
@@ -341,6 +341,19 @@ setfield HudInterface ui\chud\sword.chud_definition
 SaveTagChanges
 Exit
 
+edittag ui\hud\hud_messages.multilingual_unicode_string_list
+setstring english revenant_enter_driver "\uE461\uE45F to drive Revenant"
+setstring english revenant_enter_passenger "\uE461\uE45F to ride in Revenant"
+setstring english revenant_board "\uE461\uE45F to board Revenant"
+savetagchanges
+exit
+
+echo ==Fix projectile drop==
+edittag objects\weapons\support_high\rocket_launcher\projectiles\rocket.projectile
+setfield WaterGravityScale 0
+SaveTagChanges
+Exit
+
 # echo ==Add reach armor abilities to the palette...==
 
 EditTag multiplayer\forge_globals.forge_globals_definition
@@ -419,13 +432,55 @@ exit
 echo ==Decrease jump velocity to match reach (also low gravity related)==
 edittag objects\characters\masterchief\mp_masterchief\mp_masterchief.biped
 setfield JumpVelocity 2.3
-savetagchanges
+SaveTagChanges
 exit
 
 edittag objects\characters\elite\mp_elite\mp_elite.biped
 setfield JumpVelocity 2.3
 savetagchanges
 exit
+
+echo ==Replace initial spawn zones==
+EditTag objects\multi\assault\assault_initial_spawn_point.scenery
+SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+SaveTagChanges
+Exit
+
+EditTag objects\multi\ctf\ctf_initial_spawn_point.scenery
+SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+SaveTagChanges
+Exit
+
+EditTag objects\multi\infection\infection_initial_spawn_point.scenery
+SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+SaveTagChanges
+Exit
+
+EditTag objects\multi\oddball\oddball_initial_spawn_point.scenery
+SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+SaveTagChanges
+Exit
+
+EditTag objects\multi\slayer\slayer_initial_spawn_point.scenery
+SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+SaveTagChanges
+Exit
+
+EditTag objects\multi\territories\territories_initial_spawn_point.scenery
+SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+SaveTagChanges
+Exit
+
+EditTag objects\multi\vip\vip_initial_spawn_point.scenery
+SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+SaveTagChanges
+Exit
+
+EditTag objects\multi\koth\koth_initial_spawn_point.scenery
+SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+SaveTagChanges
+Exit
+
 
 importfonts workingdir\fonts_new.bin
 
