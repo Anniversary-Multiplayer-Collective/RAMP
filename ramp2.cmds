@@ -162,7 +162,9 @@ Exit
 OpenCacheFile "reachmaps\m70_bonus.map"
 PortTag ReachMisc Replace objects\gear\human\industrial\jersey_barrier\jersey_barrier.crate
 Exit
-
+OpenCacheFile "reachmaps\dlc_invasion.map"
+PortTag ReachMisc Replace objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big.model
+Exit
 
 nametag objects\props\covenant\battery\battery.crate objects\gear\covenant\military\battery\battery
 EditTag objects\props\covenant\battery\battery.model
