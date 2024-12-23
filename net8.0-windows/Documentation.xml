@@ -375,6 +375,20 @@
             <param name="format"></param>
             <returns></returns>
         </member>
+        <member name="M:TagTool.Bitmaps.BitmapFormatUtils.GetCompressionFactor(TagTool.Bitmaps.BitmapFormat)">
+            <summary>
+            Get the compression factor of a bitmap format.
+            </summary>
+            <param name="format"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TagTool.Bitmaps.BitmapFormatUtils.GetMinimalVirtualSize(TagTool.Bitmaps.BitmapFormat)">
+            <summary>
+            Get the minimal virtual size of an Xbox 360 Bitmap
+            </summary>
+            <param name="format"></param>
+            <returns></returns>
+        </member>
         <member name="T:TagTool.Bitmaps.BitmapType">
             <summary>
             Bitmap types.
@@ -460,6 +474,14 @@
             <param name="indices"></param>
             <param name="c0"></param>
             <param name="c1"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TagTool.Bitmaps.BitmapUtils.GetVirtualSize(System.Int32,System.Int32)">
+            <summary>
+            Get the virtual size of an Xbox 360 bitmap.
+            </summary>
+            <param name="size"></param>
+            <param name="minimalSize"></param>
             <returns></returns>
         </member>
         <member name="M:TagTool.Bitmaps.BitmapUtils.GetEquivalentBitmapFormat(TagTool.Bitmaps.BitmapFormat)">
