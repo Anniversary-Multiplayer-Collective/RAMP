@@ -1577,7 +1577,7 @@ SetField Palette[632].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "HEALT PACK HOLDER" 87 objects\props\human\unsc\health_cabinet\health_cabinet.scenery
+AddForgeItem "HEALTH PACK HOLDER" 87 objects\props\human\unsc\health_cabinet\health_cabinet.scenery
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[633].Type Prop
 SaveTagChanges
@@ -1687,6 +1687,10 @@ exit
 OpenCacheFile "reachmaps\forge_halo.map"
 PortTag ReachMisc objects\levels\shared\golf_cup\golf_cup.crate
 
+echo ==Apply RAMP Forge Blocks, Health Pack, Land Mine, Grenades, TPs, Zealot Shield Door==
+OpenModPackage "workingdir\rampstuff.pak"
+ApplyModPackage
+ExitModPackage 
 
 # echo ==Fix Despawning Forge Items...==
 ForEach hlmt contains: objects\levels\forge RemoveBlockElements NewDamageInfo 0 *
