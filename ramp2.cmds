@@ -1,9 +1,9 @@
-"C:\Users\zekken\Desktop\ElDewrito 0.7 Official\maps\tags.dat"
+D:\ElDewrito\0.7.1\maps\tags.dat
 
 # echo ==Set Variables...==
-SetVariable workingdir "C:\Users\zekken\Desktop\Ramp-2"
-SetVariable modsfolder "C:\Users\zekken\Desktop\ElDewrito 0.7 Official\mods"
-SetVariable reachmaps "Z:\Halo Stuff\retail maps for porting and ed caches\Halo Reach maps"
+SetVariable workingdir "C:\Users\Harry Ricketts\Documents\GitHub\Zekken\Ramp-2"
+SetVariable modsfolder "D:\ElDewrito\0.7.1\mods"
+SetVariable reachmaps "F:\Bruh\HRMaps"
 
 # echo ==Set Caches...==
 UseAudioCache workingdir\caches\audiocache
@@ -23,102 +23,212 @@ AddModFiles workingdir\assets
 
 OpenCacheFile "reachmaps\20_sword_slayer.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !scripts !UpdateMapFiles *.scnr
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\30_settlement.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !scripts !UpdateMapFiles *.scnr
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\35_island.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !scripts !UpdateMapFiles *.scnr
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\45_aftship.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !scripts !UpdateMapFiles *.scnr
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\45_launch_station.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !scripts !UpdateMapFiles *.scnr
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\50_panopticon.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !scripts !UpdateMapFiles *.scnr
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\52_ivory_tower.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !scripts !UpdateMapFiles *.scnr
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\70_boneyard.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !scripts !UpdateMapFiles *.scnr
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\forge_halo.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !scripts !UpdateMapFiles *.scnr
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\cex_beaver_creek.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !scripts !UpdateMapFiles *.scnr
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\cex_damnation.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !scripts !UpdateMapFiles *.scnr
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\cex_hangemhigh.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !scripts !UpdateMapFiles *.scnr
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\cex_headlong.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !scripts !UpdateMapFiles *.scnr
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\cex_prisoner.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !scripts !UpdateMapFiles *.scnr
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\cex_timberland.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !scripts !UpdateMapFiles *.scnr
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\condemned.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !scripts !UpdateMapFiles *.scnr
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\dlc_invasion.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !scripts !UpdateMapFiles *.scnr
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\dlc_medium.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !scripts !UpdateMapFiles *.scnr
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\dlc_slayer.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !scripts !UpdateMapFiles *.scnr
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\trainingpreserve.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !scripts !UpdateMapFiles *.scnr
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+Exit
+
+##OpenCacheFile "reachmaps\ff10_prototype.map"
+##SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+##PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+##Exit
+
+OpenCacheFile "reachmaps\ff20_courtyard.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+Exit
+
+##OpenCacheFile "reachmaps\ff30_waterfront.map"
+##SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+##PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+##Exit
+
+OpenCacheFile "reachmaps\ff45_corvette.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+Exit
+
+OpenCacheFile "reachmaps\ff50_park.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+Exit
+
+##OpenCacheFile "reachmaps\ff60_airview.map"
+##SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+##PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+##Exit
+  
+##OpenCacheFile "reachmaps\ff60_icecave.map"
+##SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+##PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+##Exit
+
+OpenCacheFile "reachmaps\ff70_holdout.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+Exit
+  
+OpenCacheFile "reachmaps\ff_unearthed.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+Exit
+  
+OpenCacheFile "reachmaps\cex_ff_halo.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+Exit
+
+##EditTag levels\firefight\ff10_prototype\ff10_prototype.scenario
+##SetField MapType Multiplayer
+##SetField CampaignId -1
+##SaveTagChanges
+##Exit
+
+EditTag levels\firefight\ff20_courtyard\ff20_courtyard.scenario
+SetField MapType Multiplayer
+SetField CampaignId -1
+SaveTagChanges
+Exit
+
+##EditTag levels\firefight\ff30_waterfront\ff30_waterfront.scenario
+##SetField MapType Multiplayer
+##SetField CampaignId -1
+##SaveTagChanges
+##Exit
+
+EditTag levels\firefight\ff45_corvette\ff45_corvette.scenario
+SetField MapType Multiplayer
+SetField CampaignId -1
+SaveTagChanges
+Exit
+
+EditTag levels\firefight\ff50_park\ff50_park.scenario
+SetField MapType Multiplayer
+SetField CampaignId -1
+SaveTagChanges
+Exit
+
+##EditTag levels\firefight\ff60_airview\ff60_airview.scenario
+##SetField MapType Multiplayer
+##SetField CampaignId -1
+##SaveTagChanges
+##Exit
+
+##EditTag levels\firefight\ff60_icecave\ff60_icecave.scenario
+##SetField MapType Multiplayer
+##SetField CampaignId -1
+##SaveTagChanges
+##Exit
+
+EditTag levels\firefight\ff70_holdout\ff70_holdout.scenario
+SetField MapType Multiplayer
+SetField CampaignId -1
+SaveTagChanges
+Exit
+
+EditTag levels\dlc\ff_unearthed\ff_unearthed.scenario
+SetField MapType Multiplayer
+SetField CampaignId -1
+SaveTagChanges
+Exit
+
+EditTag levels\dlc\cex_ff_halo\cex_ff_halo.scenario
+SetField MapType Multiplayer
+SetField CampaignId -1
+SaveTagChanges
 Exit
 
 echo ==Port Reach Objects==
