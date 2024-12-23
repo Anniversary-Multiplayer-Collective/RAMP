@@ -1577,67 +1577,67 @@ SetField Palette[632].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "HEALT PACK HOLDER" 86 objects\props\human\unsc\health_cabinet\health_cabinet.scenery
+AddForgeItem "HEALT PACK HOLDER" 87 objects\props\human\unsc\health_cabinet\health_cabinet.scenery
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[633].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "RADIO SET 1" 86 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_dlc1.crate
+AddForgeItem "RADIO SET 1" 87 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_dlc1.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[634].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "RADIO SET 2" 86 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_dlc2.crate
+AddForgeItem "RADIO SET 2" 87 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_dlc2.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[635].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "RADIO SET 3" 86 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_dlc3.crate
+AddForgeItem "RADIO SET 3" 87 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_dlc3.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[636].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "RADIO SET 4" 86 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m20.crate
+AddForgeItem "RADIO SET 4" 87 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m20.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[637].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "RADIO SET 5" 86 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m30.crate
+AddForgeItem "RADIO SET 5" 87 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m30.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[638].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "RADIO SET 6" 86 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m35.crate
+AddForgeItem "RADIO SET 6" 87 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m35.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[639].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "RADIO SET 7" 86 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m45.crate
+AddForgeItem "RADIO SET 7" 87 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m45.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[640].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "RADIO SET 8" 86 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m50.crate
+AddForgeItem "RADIO SET 8" 87 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m50.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[641].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "RADIO SET 9" 86 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m52.crate
+AddForgeItem "RADIO SET 9" 87 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m52.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[642].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "RADIO SET 10" 86 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m70.crate
+AddForgeItem "RADIO SET 10" 87 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m70.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[643].Type Prop
 SaveTagChanges
