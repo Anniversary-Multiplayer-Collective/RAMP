@@ -1642,19 +1642,7 @@ EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[643].Type Prop
 SaveTagChanges
 Exit
-
-AddForgeItem "HEALTH PACK" 87 objects\powerups\health_pack\health_pack_large.equipment
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[644].Type Prop
-SaveTagChanges
-Exit
-
-AddForgeItem "LAND MINE" 87 objects\multi\land_mine\land_mine.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[645].Type Prop
-SaveTagChanges
-Exit
-
+## next Palette is 646
 
 # echo ==Fix Shield Doors...==
 edittag objects\levels\forge\ff_one_way_door_garage\ff_one_way_door_garage.physics_model
@@ -1701,9 +1689,22 @@ OpenCacheFile "reachmaps\forge_halo.map"
 PortTag ReachMisc objects\levels\shared\golf_cup\golf_cup.crate
 
 echo ==Apply RAMP Forge Blocks, Health Pack, Land Mine, Grenades, TPs, Zealot Shield Door==
-OpenModPackage "workingdir\rampstuff.pak"
+OpenModPackage "workingdir\paks\rampstuff.pak"
 ApplyModPackage
 ExitModPackage 
+
+
+AddForgeItem "HEALTH PACK" 87 objects\powerups\health_pack\health_pack_large.equipment
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[644].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "LAND MINE" 87 objects\multi\land_mine\land_mine.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[645].Type Prop
+SaveTagChanges
+Exit
 
 # echo ==Fix Despawning Forge Items...==
 ForEach hlmt contains: objects\levels\forge RemoveBlockElements NewDamageInfo 0 *

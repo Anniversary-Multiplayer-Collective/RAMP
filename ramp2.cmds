@@ -217,7 +217,7 @@ Exit
 
 echo ==Revenant==
 
-OpenModPackage "workingdir\revenant.pak"
+OpenModPackage "workingdir\paks\revenant.pak"
 ApplyModPackage
 ExitModPackage
 
@@ -250,7 +250,7 @@ SaveTagChanges
 exit
 
 echo ==Apply Reach Weapons==
-OpenModPackage "workingdir\Reach Weapons EK.pak"
+OpenModPackage "workingdir\paks\Reach Weapons EK.pak"
 ApplyModPackage
 ExitModPackage 
 
@@ -304,7 +304,7 @@ SaveTagChanges
 Exit
 
 echo ==Apply RAMP HUD, UI, Main Menu, Customization, and Armor Abilities==
-OpenModPackage "workingdir\ramphud.pak"
+OpenModPackage "workingdir\paks\ramphud.pak"
 ApplyModPackage
 ExitModPackage 
 
