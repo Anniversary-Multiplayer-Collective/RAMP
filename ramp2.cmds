@@ -26,14 +26,14 @@ SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag ReachMisc !scripts *.scnr
 Exit
 
-##OpenCacheFile "reachmaps\30_settlement.map"
-##SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-##PortTag ReachMisc !scripts *.scnr
-##Exit
+OpenCacheFile "reachmaps\30_settlement.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag ReachMisc !scripts *.scnr
+Exit
 
-OpenModPackage "workingdir\Power House.pak"
-ApplyModPackage
-ExitModPackage
+##OpenModPackage "workingdir\Power House.pak"
+##ApplyModPackage
+##ExitModPackage
 
 OpenCacheFile "reachmaps\35_island.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
@@ -100,15 +100,14 @@ SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag ReachMisc !scripts *.scnr
 Exit
 
-##FIX TAGTOOL MTN
-##OpenCacheFile "reachmaps\condemned.map"
-##SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-##PortTag ReachMisc !scripts *.scnr
-##Exit
+OpenCacheFile "reachmaps\condemned.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag ReachMisc !scripts *.scnr
+Exit
 
-OpenModPackage "workingdir\Condemned.pak"
-ApplyModPackage
-ExitModPackage
+##OpenModPackage "workingdir\Condemned.pak"
+##ApplyModPackage
+##ExitModPackage
 
 OpenCacheFile "reachmaps\dlc_invasion.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
@@ -125,14 +124,14 @@ SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag ReachMisc !scripts *.scnr
 Exit
 
-##OpenCacheFile "reachmaps\trainingpreserve.map"
-##SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-##PortTag ReachMisc !scripts *.scnr
-##Exit
+OpenCacheFile "reachmaps\trainingpreserve.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag ReachMisc !scripts *.scnr
+Exit
 
-OpenModPackage "workingdir\Highlands.pak"
-ApplyModPackage
-ExitModPackage
+##OpenModPackage "workingdir\Highlands.pak"
+##ApplyModPackage
+##ExitModPackage
 
 echo ==Port Reach Objects==
 nametag objects\gear\covenant\military\battery\battery.crate objects\gear\covenant\military\battery\batteryh3
