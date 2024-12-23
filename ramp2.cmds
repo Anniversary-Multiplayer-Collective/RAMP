@@ -267,6 +267,11 @@ OpenModPackage "workingdir\Reach Weapons EK.pak"
 ApplyModPackage
 ExitModPackage 
 
+echo ==Apply RAMP Forge Blocks, Health Pack, Land Mine, Grenades, TPs, Zealot Shield Door==
+OpenModPackage "workingdir\rampstuff.pak"
+ApplyModPackage
+ExitModPackage 
+
 # echo ==Add Reach specific weapons to the palette...==
 
 EditTag multiplayer\forge_globals.forge_globals_definition

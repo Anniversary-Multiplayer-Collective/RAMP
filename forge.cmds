@@ -1571,7 +1571,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-AddForgeItem "BARRIER MP" -1 objects\props\covenant\cov_barrier\cov_barrier.crate
+AddForgeItem "BARRIER MP" 87 objects\props\covenant\cov_barrier\cov_barrier.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[632].Type Prop
 SaveTagChanges
@@ -1787,7 +1787,6 @@ setfield Skies[18].ScreenFX levels\multi\dlc\dlc_invasion\post_fx\dlc_invasion.a
 setfield Skies[18].Parameters levels\multi\dlc\dlc_invasion\dlc_invasion.sky_atm_parameters
 setfield Skies[18].GlobalLighting levels\multi\dlc\dlc_invasion\post_fx\dlc_invasion.chocolate_mountain_new
 
-#NOT IN THE CACHE YET
 addblockelements Skies
 setfield Skies[19].Name "Condemned"
 setfield Skies[19].Object levels\dlc\condemned\sky\condemned_glassed_planet\condemned_glassed_planet.scenery
