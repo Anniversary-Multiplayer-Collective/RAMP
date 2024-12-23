@@ -1520,6 +1520,129 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
+AddForgeItem "COVENANT BARRIER" 87 objects\props\covenant\cov_barrier\cov_barrier.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[626].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "LARGE CRATE" 87 objects\props\human\urban\space_crate\space_crate.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[627].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "HEAVY SHIELD" 87 levels\multi\dlc\objects\dlc_invasion_heavy_shield\dlc_invasion_heavy_shield.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[628].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "DLC_INVASION_ROCK_FLAT" 86 levels\multi\dlc\objects\dlc_invasion\dlc_invasion_rock_flat\dlc_invasion_rock_flat.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[629].Type Structure
+SaveTagChanges
+Exit
+EditTag levels\multi\dlc\objects\dlc_invasion\dlc_invasion_rock_flat\dlc_invasion_rock_flat.physics_model
+SetField RigidBodies[0].MotionType Keyframed
+SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
+SaveTagChanges
+Exit
+
+AddForgeItem "DLC_INVASION_ROCK_SMALL" 86 levels\multi\dlc\objects\dlc_invasion\dlc_invasion_rock_small\dlc_invasion_rock_small.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[630].Type Structure
+SaveTagChanges
+Exit
+EditTag levels\multi\dlc\objects\dlc_invasion\dlc_invasion_rock_small\dlc_invasion_rock_small.physics_model
+SetField RigidBodies[0].MotionType Keyframed
+SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
+SaveTagChanges
+Exit
+
+AddForgeItem "DLC_INVASION_ROCK_MED_A" 86 levels\multi\dlc\objects\dlc_invasion\dlc_invasion_rock_med_a\dlc_invasion_rock_med_a.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[631].Type Structure
+SaveTagChanges
+Exit
+EditTag levels\multi\dlc\objects\dlc_invasion\dlc_invasion_rock_med_a\dlc_invasion_rock_med_a.physics_model
+SetField RigidBodies[0].MotionType Keyframed
+SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
+SaveTagChanges
+Exit
+
+AddForgeItem "BARRIER MP" -1 objects\props\covenant\cov_barrier\cov_barrier.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[632].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "HEALT PACK HOLDER" 86 objects\props\human\unsc\health_cabinet\health_cabinet.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[633].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "RADIO SET 1" 86 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_dlc1.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[634].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "RADIO SET 2" 86 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_dlc2.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[635].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "RADIO SET 3" 86 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_dlc3.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[636].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "RADIO SET 4" 86 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m20.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[637].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "RADIO SET 5" 86 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m30.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[638].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "RADIO SET 6" 86 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m35.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[639].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "RADIO SET 7" 86 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m45.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[640].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "RADIO SET 8" 86 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m50.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[641].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "RADIO SET 9" 86 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m52.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[642].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "RADIO SET 10" 86 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m70.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[643].Type Prop
+SaveTagChanges
+Exit
+
 # echo ==Fix Shield Doors...==
 edittag objects\levels\forge\ff_one_way_door_garage\ff_one_way_door_garage.physics_model
 setfield PhantomTypes[0].Flags.Halo3ODST IgnoresWeapons,IgnoresEquipment,IgnoresProjectiles,IgnoresScenery,IgnoresMachines,IgnoresControls,IgnoresSoundScenery,IgnoresCrates,IgnoresCreatures,IgnoresGiants,IgnoresEffectScenery,IgnoresDeadBipeds
