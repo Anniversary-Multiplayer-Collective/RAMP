@@ -1643,6 +1643,19 @@ SetField Palette[643].Type Prop
 SaveTagChanges
 Exit
 
+AddForgeItem "HEALTH PACK" 87 objects\powerups\health_pack\health_pack_large.equipment
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[644].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "LAND MINE" 87 objects\multi\land_mine\land_mine.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[645].Type Prop
+SaveTagChanges
+Exit
+
+
 # echo ==Fix Shield Doors...==
 edittag objects\levels\forge\ff_one_way_door_garage\ff_one_way_door_garage.physics_model
 setfield PhantomTypes[0].Flags.Halo3ODST IgnoresWeapons,IgnoresEquipment,IgnoresProjectiles,IgnoresScenery,IgnoresMachines,IgnoresControls,IgnoresSoundScenery,IgnoresCrates,IgnoresCreatures,IgnoresGiants,IgnoresEffectScenery,IgnoresDeadBipeds
