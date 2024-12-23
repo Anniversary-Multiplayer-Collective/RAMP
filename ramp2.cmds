@@ -141,7 +141,7 @@ PortTag ReachMisc Replace objects\multi\spawning\respawn_point.scenery
 PortTag ReachMisc Replace objects\multi\spawning\initial_spawn_point.scenery
 PortTag ReachMisc Replace objects\multi\spawning\ff_respawn_point\ff_respawn_point.scenery
 PortTag ReachMisc Replace objects\gear\human\military\camping_stool_mp\camping_stool_mp.crate
-PortTag ReachMisc Replace objects\gear\human\industrial\propane_tank\propane_tank.crate
+##PortTag ReachMisc Replace objects\gear\human\industrial\propane_tank\propane_tank.crate Tagtool Said NOOOOO
 PortTag ReachMisc Replace objects\gear\human\military\barricade_small\barricade_small.crate
 PortTag ReachMisc Replace objects\gear\human\military\fusion_coil\fusion_coil.crate
 PortTag ReachMisc Replace objects\props\covenant\battery\battery.crate
