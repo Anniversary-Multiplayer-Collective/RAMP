@@ -454,6 +454,43 @@ SetField Palette[*].Object objects\equipment\invisibility_equipment\invisibility
 SaveTagChanges
 Exit
 
+echo ==Fix VISR mask==
+edittag shaders\default_bitmaps\bitmaps\vision_mode_mask.bitmap
+importbitmap 0 workingdir\images\vision_mask.dds
+savetagchanges
+exit
+
+edittag objects\characters\elite\mp_elite\bitmaps\vision_mode_mask.bitmap
+importbitmap 0 workingdir\images\vision_mask.dds
+savetagchanges
+exit
+
+echo ==UI Sounds==
+edittag sound\game_sfx\ui\button_based_ui_sounds\a_button.sound
+ImportSound workingdir\sounds\ui\a_button.mp3
+savetagchanges
+exit
+
+edittag sound\game_sfx\ui\button_based_ui_sounds\b_button.sound
+ImportSound workingdir\sounds\ui\b_button.mp3
+savetagchanges
+exit
+
+edittag sound\game_sfx\ui\button_based_ui_sounds\cursor_horzontal.sound
+ImportSound workingdir\sounds\ui\cursor_vertical.mp3
+savetagchanges
+exit
+
+edittag sound\game_sfx\ui\button_based_ui_sounds\cursor_vertical.sound
+ImportSound workingdir\sounds\ui\cursor_horizontal.mp3
+savetagchanges
+exit
+
+edittag sound\game_sfx\ui\button_based_ui_sounds\x_button.sound
+ImportSound workingdir\sounds\ui\y_button.mp3
+savetagchanges
+exit
+
 echo ==Fix Lobby Title Placements==
 edittag ui\halox\pregame_lobby\pregame_lobby_template_mapeditor.gui_group_widget_definition
 setfield TextWidgets[0].Definition.GuiRenderBlock.Bounds720p 265 115 357 714
