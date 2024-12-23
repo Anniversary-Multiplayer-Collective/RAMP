@@ -148,14 +148,21 @@ PortTag ReachMisc Replace objects\gear\human\military\fusion_coil\fusion_coil.cr
 PortTag ReachMisc Replace objects\props\covenant\battery\battery.crate
 PortTag ReachMisc Replace objects\gear\human\military\barricade_large\barricade_large.crate
 PortTag ReachMisc Replace objects\gear\human\industrial\street_cone\street_cone.crate
+PortTag ReachMisc Replace objects\props\covenant\cov_barrier\cov_barrier.crate
 PortTag ReachMisc Replace objects\gear\human\military\sandbag_wall_90corner\sandbag_wall_90corner.model
 PortTag ReachMisc Replace objects\gear\human\military\sandbag_wall_45corner\sandbag_wall_45corner.model
 PortTag ReachMisc Replace objects\gear\human\military\sandbag_wall_endcap\sandbag_wall_endcap.model
 PortTag ReachMisc Replace objects\gear\human\military\sandbag_wall\sandbag_wall.model
 PortTag ReachMisc Replace objects\gear\human\military\sandbag_wall_turret\sandbag_wall_turret.model
 PortTag ReachMisc objects\multi\boundaries\safe_volume.scen
-
 Exit
+OpenCacheFile "reachmaps\ff70_holdout.map"
+PortTag ReachMisc Replace objects\gear\human\industrial\jersey_barrier_short\jersey_barrier_short.crate
+Exit
+OpenCacheFile "reachmaps\m70_bonus.map"
+PortTag ReachMisc Replace objects\gear\human\industrial\jersey_barrier\jersey_barrier.crate
+Exit
+
 
 nametag objects\props\covenant\battery\battery.crate objects\gear\covenant\military\battery\battery
 EditTag objects\props\covenant\battery\battery.model
