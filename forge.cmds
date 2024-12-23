@@ -1688,7 +1688,7 @@ exit
 OpenCacheFile "reachmaps\forge_halo.map"
 PortTag ReachMisc objects\levels\shared\golf_cup\golf_cup.crate
 
-echo ==Apply RAMP Forge Blocks, Health Pack, Land Mine, Grenades, TPs, Zealot Shield Door==
+echo ==Apply RAMP Forge Blocks, Health Pack, Land Mine, TPs, Zealot Shield Door==
 OpenModPackage "workingdir\paks\rampstuff.pak"
 ApplyModPackage
 ExitModPackage 
