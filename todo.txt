@@ -1,12 +1,9 @@
 TODO:
 Fix weapon pickup icons.
-Fix projectile drop
+Fix projectile drop on flak cannon and maybe banshee bomb?
 Fix propane tank just dissapearing when shot
 You can walk through the Traffic Cones. https://s.zekken.rocks/aUVPM4cc.jpg
-Missing elite sprint meter
 Elites missing animations for armor lock and drop shield
-Find a fix for glass on reach forge items (maybe pull them from RAMP as they dont look as bad)
 Sprint animations for reach weapons
-Space shield on zealot is gone
 Replace the Halo 3 items with their halo Reach equivelent(in progress)
 Fix incorrect ammo count on some weapons when low ammo https://s.zekken.rocks/t1AQw4FN.jpg
