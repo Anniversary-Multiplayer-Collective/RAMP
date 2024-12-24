@@ -1,7 +1,6 @@
 TODO:
 Fix weapon pickup icons.
 Fix projectile drop on flak cannon and maybe banshee bomb?
-Fix propane tank just dissapearing when shot
 You can walk through the Traffic Cones. https://s.zekken.rocks/aUVPM4cc.jpg
 Elites missing animations for armor lock and drop shield
 Sprint animations for reach weapons

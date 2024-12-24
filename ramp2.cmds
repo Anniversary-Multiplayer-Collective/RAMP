@@ -235,8 +235,6 @@ SaveTagChanges
 Exit
 
 echo ==Port Reach Objects==
-NameTag objects\gear\covenant\military\battery\battery.crate objects\gear\covenant\military\battery\batteryh3
-
 OpenCacheFile "reachmaps\forge_halo.map"
 PortTag ReachMisc objects\multi\boundaries\safe_volume.scen
 PortTag ReachMisc Replace objects\multi\spawning\respawn_point.scenery
@@ -247,7 +245,6 @@ PortTag ReachMisc Replace objects\gear\human\military\camping_stool_mp\camping_s
 ##PortTag ReachMisc Replace objects\gear\human\industrial\propane_tank\propane_tank.crate
 PortTag ReachMisc Replace objects\gear\human\military\barricade_small\barricade_small.crate
 PortTag ReachMisc Replace objects\gear\human\military\fusion_coil\fusion_coil.crate
-PortTag ReachMisc Replace objects\props\covenant\battery\battery.crate
 PortTag ReachMisc Replace objects\gear\human\military\barricade_large\barricade_large.crate
 PortTag ReachMisc Replace objects\gear\human\industrial\street_cone\street_cone.crate
 PortTag ReachMisc Replace objects\props\covenant\cov_barrier\cov_barrier.crate
@@ -741,6 +738,7 @@ SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.mo
 SaveTagChanges
 Exit
 
+NameTag objects\gear\covenant\military\battery\battery.crate objects\props\covenant\battery\battery
 
 importfonts workingdir\fonts_new.bin
 
