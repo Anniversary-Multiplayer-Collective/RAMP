@@ -1,9 +1,9 @@
-D:\ElDewrito\0.7.1\maps\tags.dat
+"C:\Users\zekken\Desktop\ElDewrito 0.7 Official\maps\tags.dat"
 
 # echo ==Set Variables...==
-SetVariable workingdir "C:\Users\Harry Ricketts\Documents\GitHub\Zekken\Ramp-2"
-SetVariable modsfolder "D:\ElDewrito\0.7.1\mods"
-SetVariable reachmaps "F:\Bruh\HRMaps"
+SetVariable workingdir "C:\Users\zekken\Desktop\Ramp-2"
+SetVariable modsfolder "C:\Users\zekken\Desktop\ElDewrito 0.7 Official\mods"
+SetVariable reachmaps "Z:\Halo Stuff\retail maps for porting and ed caches\Halo Reach maps"
 
 # echo ==Set Caches...==
 UseAudioCache workingdir\caches\audiocache
