@@ -259,15 +259,15 @@ PortTag ReachMisc Replace objects\gear\human\military\sandbag_wall_turret\sandba
 Exit
 OpenCacheFile "reachmaps\ff_unearthed.map"
 PortTag ReachMisc Replace objects\gear\human\military\crate_packing\crate_packing.crate
-PortTag ReachMisc Replace objects\scenery\human\military\warthog_drop_palette\warthog_drop_palette.model
+PortTag ReachMisc Replace objects\scenery\human\military\warthog_drop_palette\warthog_drop_palette.scenery
 Exit
 OpenCacheFile "reachmaps\m60.map"
 PortTag ReachMisc Replace objects\gear\human\industrial\h_barrel_rusty\h_barrel_rusty.crate
-PortTag ReachMisc Replace objects\gear\human\military\drum_12gal\drum_12gal.model
+PortTag ReachMisc Replace objects\gear\human\military\drum_12gal\drum_12gal.crate
 Exit
 OpenCacheFile "reachmaps\ff70_holdout.map"
 PortTag ReachMisc Replace objects\gear\human\industrial\jersey_barrier_short\jersey_barrier_short.crate
-PortTag ReachMisc Replace objects\gear\human\military\drum_55gal\drum_55gal.model
+PortTag ReachMisc Replace objects\gear\human\military\drum_55gal\drum_55gal.crate
 PortTag ReachMisc Replace objects\gear\human\industrial\crate_multi\crate_multi.crate
 PortTag ReachMisc Replace objects\gear\human\industrial\crate_multi_single\crate_multi_single.crate
 PortTag ReachMisc Replace objects\gear\human\military\antennae_mast\antennae_mast.crate
