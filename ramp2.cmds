@@ -238,6 +238,7 @@ echo ==Port Reach Objects==
 NameTag objects\gear\covenant\military\battery\battery.crate objects\gear\covenant\military\battery\batteryh3
 
 OpenCacheFile "reachmaps\forge_halo.map"
+PortTag ReachMisc objects\multi\boundaries\safe_volume.scen
 PortTag ReachMisc Replace objects\multi\spawning\respawn_point.scenery
 PortTag ReachMisc Replace objects\multi\spawning\initial_spawn_point.scenery
 PortTag ReachMisc Replace objects\multi\spawning\ff_respawn_point\ff_respawn_point.scenery
@@ -255,10 +256,21 @@ PortTag ReachMisc Replace objects\gear\human\military\sandbag_wall_45corner\sand
 PortTag ReachMisc Replace objects\gear\human\military\sandbag_wall_endcap\sandbag_wall_endcap.model
 PortTag ReachMisc Replace objects\gear\human\military\sandbag_wall\sandbag_wall.model
 PortTag ReachMisc Replace objects\gear\human\military\sandbag_wall_turret\sandbag_wall_turret.model
-PortTag ReachMisc objects\multi\boundaries\safe_volume.scen
+Exit
+OpenCacheFile "reachmaps\ff_unearthed.map"
+PortTag ReachMisc Replace objects\gear\human\military\crate_packing\crate_packing.crate
+PortTag ReachMisc Replace objects\scenery\human\military\warthog_drop_palette\warthog_drop_palette.model
+Exit
+OpenCacheFile "reachmaps\m60.map"
+PortTag ReachMisc Replace objects\gear\human\industrial\h_barrel_rusty\h_barrel_rusty.crate
+PortTag ReachMisc Replace objects\gear\human\military\drum_12gal\drum_12gal.model
 Exit
 OpenCacheFile "reachmaps\ff70_holdout.map"
 PortTag ReachMisc Replace objects\gear\human\industrial\jersey_barrier_short\jersey_barrier_short.crate
+PortTag ReachMisc Replace objects\gear\human\military\drum_55gal\drum_55gal.model
+PortTag ReachMisc Replace objects\gear\human\industrial\crate_multi\crate_multi.crate
+PortTag ReachMisc Replace objects\gear\human\industrial\crate_multi_single\crate_multi_single.crate
+PortTag ReachMisc Replace objects\gear\human\military\antennae_mast\antennae_mast.crate
 Exit
 OpenCacheFile "reachmaps\m70_bonus.map"
 PortTag ReachMisc Replace objects\gear\human\industrial\jersey_barrier\jersey_barrier.crate
@@ -350,16 +362,6 @@ echo ==Hugegrass Falcon==
 OpenModPackage "workingdir\paks\hugegrassfalcon.pak"
 ApplyModPackage
 ExitModPackage
-
-#Set strings after applying mod package
-edittag ui\hud\hud_messages.multilingual_unicode_string_list
-setstring english falcon_drive "\uE461\uE45F to drive Falcon"
-setstring english falcon_enter_passenger "\uE461\uE45F to ride in Falcon"
-setstring english falcon_board "\uE461\uE45F to board Falcon"
-setstring english falcon_flip "\uE461\uE45F to flip Falcon"
-setstring english falcon_enter_gunner "\uE461\uE45F to operate Falcon turret"
-savetagchanges
-exit
 
 #Add to forge palette
 AddForgeItem "FALCON" "VEHICLES" objects\vehicles\falcon\falcon.vehicle
@@ -552,10 +554,20 @@ setfield HudInterface ui\chud\sword.chud_definition
 SaveTagChanges
 Exit
 
+echo ==Revenant and Falcon strings==
 edittag ui\hud\hud_messages.multilingual_unicode_string_list
 setstring english revenant_enter_driver "\uE461\uE45F to drive Revenant"
 setstring english revenant_enter_passenger "\uE461\uE45F to ride in Revenant"
 setstring english revenant_board "\uE461\uE45F to board Revenant"
+savetagchanges
+exit
+
+edittag ui\hud\hud_messages.multilingual_unicode_string_list
+setstring english falcon_drive "\uE461\uE45F to drive Falcon"
+setstring english falcon_enter_passenger "\uE461\uE45F to ride in Falcon"
+setstring english falcon_board "\uE461\uE45F to board Falcon"
+setstring english falcon_flip "\uE461\uE45F to flip Falcon"
+setstring english falcon_enter_gunner "\uE461\uE45F to operate Falcon turret"
 savetagchanges
 exit
 
