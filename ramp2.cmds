@@ -709,14 +709,19 @@ setfield JumpVelocity 2.3
 savetagchanges
 exit
 
-# echo ==Fix Green Cruisers on TrainingPreserve...==
+# echo ==Fix green cruisers on TrainingPreserve and windows flashing...==
 EditTag objects\vehicles\covenant\covenant_fleet\cruiser\shaders\cruiser.shader
 SetArgument area_specular_contribution 0
 SaveTagChanges
 Exit
+EditTag levels\dlc\trainingpreserve\shaders\ca_preserve_glass_streaked.shader
+SetArgument specular_coefficient 0
+SaveTagChanges
+Exit
+
 
 ## Commented out until I port the Spawn Points
-##echo ==Replace initial spawn zones==
+##echo ==Replace initial spawn points==
 ##EditTag objects\multi\assault\assault_initial_spawn_point.scenery
 ##SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
 ##SaveTagChanges
