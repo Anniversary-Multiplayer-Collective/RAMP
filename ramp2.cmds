@@ -342,6 +342,32 @@ setfield Palette[*].Object objects\vehicles\covenant\revenant\revenant.vehicle
 SaveTagChanges
 Exit
 
+echo ==Hugegrass Falcon==
+
+OpenModPackage "workingdir\paks\hugegrassfalcon.pak"
+ApplyModPackage
+ExitModPackage
+
+#Set strings after applying mod package
+edittag ui\hud\hud_messages.multilingual_unicode_string_list
+setstring english falcon_drive "\uE461\uE45F to drive Falcon"
+setstring english falcon_enter_passenger "\uE461\uE45F to ride in Falcon"
+setstring english falcon_board "\uE461\uE45F to board Falcon"
+setstring english falcon_flip "\uE461\uE45F to flip Falcon"
+setstring english falcon_enter_gunner "\uE461\uE45F to operate Falcon turret"
+savetagchanges
+exit
+
+#Add to forge palette
+AddForgeItem "FALCON" "VEHICLES" objects\vehicles\falcon\falcon.vehicle
+AddForgeItem "FALCON TRANSPORT" "VEHICLES" objects\vehicles\falcon\falcon_transport.vehicle
+
+echo ==Apply RAMP Vehicles==
+
+OpenModPackage "workingdir\paks\rampvehicles.pak"
+ApplyModPackage
+ExitModPackage
+
 echo ==Fix Battle Canyon missing textures==
 DuplicateTag levels\multi\deadlock\shaders\deadlock_grate_a.shader objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift_grate
 edittag objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift_grate.shader
