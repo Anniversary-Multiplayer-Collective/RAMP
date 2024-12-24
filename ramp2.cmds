@@ -21,6 +21,8 @@ AddModFiles workingdir\assets
 
 # echo ==Porting...==
 
+NameTag objects\gear\human\military\crate_packing_giant\crate_packing_giant.render_model objects\gear\human\military\crate_packing_giant\crate_packing_giant_h3
+
 OpenCacheFile "reachmaps\20_sword_slayer.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
@@ -706,6 +708,12 @@ edittag objects\characters\elite\mp_elite\mp_elite.biped
 setfield JumpVelocity 2.3
 savetagchanges
 exit
+
+# echo ==Fix Green Cruisers on TrainingPreserve...==
+EditTag objects\vehicles\covenant\covenant_fleet\cruiser\shaders\cruiser.shader
+SetArgument area_specular_contribution 0
+SaveTagChanges
+Exit
 
 ## Commented out until I port the Spawn Points
 ##echo ==Replace initial spawn zones==
