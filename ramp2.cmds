@@ -276,11 +276,6 @@ OpenCacheFile "reachmaps\dlc_invasion.map"
 PortTag ReachMisc Replace objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big.model
 Exit
 
-EditTag objects\props\covenant\battery\battery.model
-setfield NewDamageInfo[0].DamageSections[0].InstantResponses[1].TransitionDamageEffect objects\gear\covenant\military\battery\damage_effects\battery_explosion.damage_effect
-SaveTagChanges
-Exit
-
 RunCommands "workingdir\forge.cmds"
 
 echo ==Remove damage from ported models==
