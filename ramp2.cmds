@@ -121,6 +121,9 @@ SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
+CreateTag jmad objects\vehicles\human\civilian\truck_cab_large\attachments\bed_small\bed_small
+SaveTagNames
+
 ##OpenCacheFile "reachmaps\ff10_prototype.map"
 ##SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 ##PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
