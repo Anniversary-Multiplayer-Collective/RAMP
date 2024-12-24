@@ -153,7 +153,7 @@ Exit
 ##SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 ##PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 ##Exit
-  
+
 ##OpenCacheFile "reachmaps\ff60_icecave.map"
 ##SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 ##PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
@@ -163,15 +163,28 @@ OpenCacheFile "reachmaps\ff70_holdout.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
-  
+
 OpenCacheFile "reachmaps\ff_unearthed.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag levels\dlc\trainingpreserve\bitmaps\ca_preserve_terrain_rock_cliff2_d.bitmap
+PortTag levels\dlc\trainingpreserve\bitmaps\ca_preserve_terrain_rock_cliff2_n.bitmap
 PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
-  
+
+EditTag levels\dlc\trainingpreserve\shaders\ca_preserve_rock04.shader
+SetField ShaderProperties[0].TextureConstants[0].Bitmap levels\dlc\trainingpreserve\bitmaps\ca_preserve_terrain_rock_cliff2_d.bitmap
+SetField ShaderProperties[0].TextureConstants[2].Bitmap levels\dlc\trainingpreserve\bitmaps\ca_preserve_terrain_rock_cliff2_n.bitmap
+SaveTagChanges
+Exit
+
 OpenCacheFile "reachmaps\cex_ff_halo.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+
+EditTag objects\characters\jackal\fx\_particles\plasma_noise.particle
+setfield RenderMethod.ShaderProperties[0].TextureConstants[0].Bitmap fx\bitmaps\material\impact_spray_large.bitmap
+setfield RenderMethod.ShaderProperties[0].TextureConstants[2].Bitmap fx\bitmaps\material\impact_spray_large.bitmap
+SaveTagChanges
 Exit
 
 ##EditTag levels\firefight\ff10_prototype\ff10_prototype.scenario
@@ -690,46 +703,47 @@ setfield JumpVelocity 2.3
 savetagchanges
 exit
 
-echo ==Replace initial spawn zones==
-EditTag objects\multi\assault\assault_initial_spawn_point.scenery
-SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
-SaveTagChanges
-Exit
-
-EditTag objects\multi\ctf\ctf_initial_spawn_point.scenery
-SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
-SaveTagChanges
-Exit
-
-EditTag objects\multi\infection\infection_initial_spawn_point.scenery
-SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
-SaveTagChanges
-Exit
-
-EditTag objects\multi\oddball\oddball_initial_spawn_point.scenery
-SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
-SaveTagChanges
-Exit
-
-EditTag objects\multi\slayer\slayer_initial_spawn_point.scenery
-SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
-SaveTagChanges
-Exit
-
-EditTag objects\multi\territories\territories_initial_spawn_point.scenery
-SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
-SaveTagChanges
-Exit
-
-EditTag objects\multi\vip\vip_initial_spawn_point.scenery
-SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
-SaveTagChanges
-Exit
-
-EditTag objects\multi\koth\koth_initial_spawn_point.scenery
-SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
-SaveTagChanges
-Exit
+## Commented out until I port the Spawn Points
+##echo ==Replace initial spawn zones==
+##EditTag objects\multi\assault\assault_initial_spawn_point.scenery
+##SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+##SaveTagChanges
+##Exit
+##
+##EditTag objects\multi\ctf\ctf_initial_spawn_point.scenery
+##SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+##SaveTagChanges
+##Exit
+##
+##EditTag objects\multi\infection\infection_initial_spawn_point.scenery
+##SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+##SaveTagChanges
+##Exit
+##
+##EditTag objects\multi\oddball\oddball_initial_spawn_point.scenery
+##SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+##SaveTagChanges
+##Exit
+##
+##EditTag objects\multi\slayer\slayer_initial_spawn_point.scenery
+##SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+##SaveTagChanges
+##Exit
+##
+##EditTag objects\multi\territories\territories_initial_spawn_point.scenery
+##SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+##SaveTagChanges
+##Exit
+##
+##EditTag objects\multi\vip\vip_initial_spawn_point.scenery
+##SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+##SaveTagChanges
+##Exit
+##
+##EditTag objects\multi\koth\koth_initial_spawn_point.scenery
+##SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+##SaveTagChanges
+##Exit
 
 NameTag objects\gear\covenant\military\battery\battery.crate objects\props\covenant\battery\battery
 
