@@ -30,6 +30,10 @@ OpenCacheFile "reachmaps\30_settlement.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
+EditTag levels\shared\decorators\bitmaps\dry_weedy_grass_dec.bitmap
+ImportBitmap 0 "workingdir\dry_weedy_grass_dec.dds"
+SaveTagChanges
+Exit
 
 OpenCacheFile "reachmaps\35_island.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
