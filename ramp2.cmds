@@ -897,6 +897,9 @@ setfield RenderMethod.ShaderProperties[0].TextureConstants[2].Bitmap fx\bitmaps\
 SaveTagChanges
 Exit
 
+echo ==Spartan Weapons Animation==
+runcommands "workingdir\spartan_animations.cmds"
+runcommands "workingdir\spartan_rendermodel.cmds"
 
 importfonts workingdir\fonts_new.bin
 
