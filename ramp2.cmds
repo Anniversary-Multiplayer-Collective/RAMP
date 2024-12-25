@@ -719,6 +719,20 @@ SetArgument specular_coefficient 0
 SaveTagChanges
 Exit
 
+# echo ==Shader fixes for High Noon...==
+edittag levels\dlc\cex_hangemhigh\shaders\ca_heh_glass_control.shader
+setargument specular_coefficient 0
+savetagchanges
+exit
+edittag levels\dlc\cex_hangemhigh\shaders\ca_heh_glass_catwalk.shader
+setargument specular_coefficient 0
+savetagchanges
+exit
+edittag levels\dlc\cex_hangemhigh\shaders\ca_heh_glass_transparent.shader
+setargument specular_coefficient 0
+savetagchanges
+Exit
+
 
 ## Commented out until I port the Spawn Points
 ##echo ==Replace initial spawn points==
