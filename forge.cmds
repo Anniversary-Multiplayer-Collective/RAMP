@@ -1642,7 +1642,7 @@ EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[643].Type Prop
 SaveTagChanges
 Exit
-## next Palette is 646
+#Continues Below
 
 OpenCacheFile "reachmaps\forge_halo.map"
 PortTag ReachMisc objects\levels\shared\golf_cup\golf_cup.crate
@@ -1664,6 +1664,32 @@ EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[645].Type Prop
 SaveTagChanges
 Exit
+##Continue Forge Palette Here
+
+AddForgeItem "DLC_FF_ROCK_SMALL" 86 levels\multi\dlc\objects\dlc_ff_rock_small\dlc_ff_rock_small.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[646].Type Structure
+SaveTagChanges
+Exit
+EditTag levels\multi\dlc\objects\dlc_ff_rock_small\dlc_ff_rock_small.physics_model
+SetField RigidBodies[0].MotionType Keyframed
+SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
+SaveTagChanges
+Exit
+
+AddForgeItem "DLC_MEDIUM_CAVE_BLOCKING_ROCK" 86 levels\multi\dlc\objects\dlc_medium_cave_blocking_rock\dlc_medium_cave_blocking_rock.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[646].Type Structure
+SaveTagChanges
+Exit
+EditTag levels\multi\dlc\objects\dlc_medium_cave_blocking_rock\dlc_medium_cave_blocking_rock.physics_model
+SetField RigidBodies[0].MotionType Keyframed
+SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
+SaveTagChanges
+Exit
+
+
+
 
 # echo ==Fix Shield Doors...==
 edittag objects\levels\forge\ff_one_way_door_garage\ff_one_way_door_garage.physics_model
