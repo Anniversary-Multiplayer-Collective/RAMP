@@ -193,11 +193,6 @@ Exit
 OpenCacheFile "reachmaps\cex_ff_halo.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
-
-EditTag objects\characters\jackal\fx\_particles\plasma_noise.particle
-setfield RenderMethod.ShaderProperties[0].TextureConstants[0].Bitmap fx\bitmaps\material\impact_spray_large.bitmap
-setfield RenderMethod.ShaderProperties[0].TextureConstants[2].Bitmap fx\bitmaps\material\impact_spray_large.bitmap
-SaveTagChanges
 Exit
 
 ##EditTag levels\firefight\ff10_prototype\ff10_prototype.scenario
