@@ -432,6 +432,12 @@ OpenModPackage "workingdir\paks\Reach Weapons EK.pak"
 ApplyModPackage
 ExitModPackage 
 
+# Fix not able to melee while crouching if you're holding the Target Laser
+edittag objects\weapons\pistol\target_laser\target_laser.weapon
+setfield WeaponName hp
+savetagchanges
+exit
+
 # echo ==Add Reach specific weapons to the palette...==
 
 EditTag multiplayer\forge_globals.forge_globals_definition
@@ -439,44 +445,51 @@ EditTag multiplayer\forge_globals.forge_globals_definition
 AddBlockElements Palette
 SetField Palette[*].Name "CONCUSSION RIFLE"
 SetField Palette[*].Type Weapon
-SetField Palette[*].CategoryIndex 70
+SetField Palette[*].CategoryIndex 78
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\weapons\rifle\concussion_rifle\concussion_rifle.weapon
 
 AddBlockElements Palette
 SetField Palette[*].Name "FOCUS RIFLE"
 SetField Palette[*].Type Weapon
-SetField Palette[*].CategoryIndex 70
+SetField Palette[*].CategoryIndex 78
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\weapons\rifle\focus_rifle\focus_rifle.weapon
 
 AddBlockElements Palette
 SetField Palette[*].Name "GRENADE LAUNCHER"
 SetField Palette[*].Type Weapon
-SetField Palette[*].CategoryIndex 70
+SetField Palette[*].CategoryIndex 78
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\weapons\rifle\grenade_launcher\grenade_launcher.weapon
 
 AddBlockElements Palette
 SetField Palette[*].Name "NEEDLE RIFLE"
 SetField Palette[*].Type Weapon
-SetField Palette[*].CategoryIndex 70
+SetField Palette[*].CategoryIndex 78
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\weapons\rifle\needle_rifle\needle_rifle.weapon
 
 AddBlockElements Palette
 SetField Palette[*].Name "PLASMA REPEATER"
 SetField Palette[*].Type Weapon
-SetField Palette[*].CategoryIndex 70
+SetField Palette[*].CategoryIndex 78
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\weapons\rifle\plasma_repeater\plasma_repeater.weapon
 
 AddBlockElements Palette
 SetField Palette[*].Name "PLASMA LAUNCHER"
 SetField Palette[*].Type Weapon
-SetField Palette[*].CategoryIndex 70
+SetField Palette[*].CategoryIndex 78
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\weapons\support_high\plasma_launcher\plasma_launcher.weapon
+
+AddBlockElements Palette
+SetField Palette[*].Name "TARGET LASER"
+SetField Palette[*].Type Weapon
+SetField Palette[*].CategoryIndex 78
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\weapons\pistol\target_laser\target_laser.weapon
 
 SaveTagChanges
 Exit
