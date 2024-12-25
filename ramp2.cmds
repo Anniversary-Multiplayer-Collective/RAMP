@@ -137,20 +137,32 @@ SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
-##OpenCacheFile "reachmaps\ff10_prototype.map"
-##SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-##PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
-##Exit
+OpenCacheFile "reachmaps\ff10_prototype.map"
+
+IgnoreBlamTag objects\characters\brute\brute.biped
+IgnoreBlamTag objects\characters\brute_chieftain\brute_chieftain.biped
+IgnoreBlamTag objects\characters\elite\elite.biped
+IgnoreBlamTag objects\characters\elite_ai\elite_ai.biped
+IgnoreBlamTag objects\characters\grunt\grunt.biped
+IgnoreBlamTag objects\characters\jackal\jackal.biped
+IgnoreBlamTag objects\characters\spartans\spartans.biped
+IgnoreBlamTag objects\equipment\hologram\bipeds\hologram_elite.biped
+IgnoreBlamTag objects\equipment\hologram\bipeds\hologram_jackal.biped
+IgnoreBlamTag objects\equipment\hologram\bipeds\hologram_spartan.biped
+
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+Exit
 
 OpenCacheFile "reachmaps\ff20_courtyard.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
-##OpenCacheFile "reachmaps\ff30_waterfront.map"
-##SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-##PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
-##Exit
+OpenCacheFile "reachmaps\ff30_waterfront.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+Exit
 
 OpenCacheFile "reachmaps\ff45_corvette.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
@@ -162,15 +174,15 @@ SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
-##OpenCacheFile "reachmaps\ff60_airview.map"
-##SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-##PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
-##Exit
+OpenCacheFile "reachmaps\ff60_airview.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+Exit
 
-##OpenCacheFile "reachmaps\ff60_icecave.map"
-##SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-##PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
-##Exit
+OpenCacheFile "reachmaps\ff60_icecave.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+Exit
 
 OpenCacheFile "reachmaps\ff70_holdout.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
@@ -195,11 +207,11 @@ SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
-##EditTag levels\firefight\ff10_prototype\ff10_prototype.scenario
-##SetField MapType Multiplayer
-##SetField CampaignId -1
-##SaveTagChanges
-##Exit
+EditTag levels\firefight\ff10_prototype\ff10_prototype.scenario
+SetField MapType Multiplayer
+SetField CampaignId -1
+SaveTagChanges
+Exit
 
 EditTag levels\firefight\ff20_courtyard\ff20_courtyard.scenario
 SetField MapType Multiplayer
@@ -207,11 +219,11 @@ SetField CampaignId -1
 SaveTagChanges
 Exit
 
-##EditTag levels\firefight\ff30_waterfront\ff30_waterfront.scenario
-##SetField MapType Multiplayer
-##SetField CampaignId -1
-##SaveTagChanges
-##Exit
+EditTag levels\firefight\ff30_waterfront\ff30_waterfront.scenario
+SetField MapType Multiplayer
+SetField CampaignId -1
+SaveTagChanges
+Exit
 
 EditTag levels\firefight\ff45_corvette\ff45_corvette.scenario
 SetField MapType Multiplayer
@@ -225,17 +237,17 @@ SetField CampaignId -1
 SaveTagChanges
 Exit
 
-##EditTag levels\firefight\ff60_airview\ff60_airview.scenario
-##SetField MapType Multiplayer
-##SetField CampaignId -1
-##SaveTagChanges
-##Exit
+EditTag levels\firefight\ff60_airview\ff60_airview.scenario
+SetField MapType Multiplayer
+SetField CampaignId -1
+SaveTagChanges
+Exit
 
-##EditTag levels\firefight\ff60_icecave\ff60_icecave.scenario
-##SetField MapType Multiplayer
-##SetField CampaignId -1
-##SaveTagChanges
-##Exit
+EditTag levels\firefight\ff60_icecave\ff60_icecave.scenario
+SetField MapType Multiplayer
+SetField CampaignId -1
+SaveTagChanges
+Exit
 
 EditTag levels\firefight\ff70_holdout\ff70_holdout.scenario
 SetField MapType Multiplayer
