@@ -855,8 +855,6 @@ exit
 ##SaveTagChanges
 ##Exit
 
-NameTag objects\gear\covenant\military\battery\battery.crate objects\props\covenant\battery\battery
-
 echo ==Apply noble six voices==
 
 OpenModPackage "workingdir\paks\Noble_Six_Voice_Pack.pak"
