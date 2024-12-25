@@ -137,9 +137,6 @@ SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
-CreateTag jmad objects\vehicles\human\civilian\truck_cab_large\attachments\bed_small\bed_small
-SaveTagNames
-
 ##OpenCacheFile "reachmaps\ff10_prototype.map"
 ##SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 ##PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
@@ -414,7 +411,7 @@ DuplicateTag shaders\invalid.shader shaders\invalid_reach
 
 ##Turns out they did this on swordbase.....
 edittag shaders\invalid_reach.shader
-setfield Parameters[0].Bitmap shaders\default_bitmaps\bitmaps\gray_50_percent.bitmap
+SetBitmap base_map shaders\default_bitmaps\bitmaps\gray_50_percent.bitmap
 savetagchanges
 exit
 
