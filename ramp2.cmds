@@ -748,6 +748,10 @@ edittag levels\dlc\cex_hangemhigh\shaders\ca_heh_glass_transparent.shader
 setargument specular_coefficient 0
 savetagchanges
 Exit
+edittag levels\dlc\cex_hangemhigh\shaders\ca_heh_catwalk_floor1.shader
+setargument area_specular_contribution 0
+savetagchanges
+exit
 # echo ==Shader fixes for Boneyard...==
 edittag levels\solo\m70\shaders\m70_outside_stairs.shader
 setargument specular_coefficient 0
