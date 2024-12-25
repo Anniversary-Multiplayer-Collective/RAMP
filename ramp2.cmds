@@ -432,7 +432,7 @@ OpenModPackage "workingdir\paks\Reach Weapons EK.pak"
 ApplyModPackage
 ExitModPackage 
 
-# Fix not able to melee while crouching if you're holding the Target Laser
+# Fix not able to melee while crouching if you're holding the Target Locator
 edittag objects\weapons\pistol\target_laser\target_laser.weapon
 setfield WeaponName hp
 savetagchanges
@@ -485,7 +485,7 @@ SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\weapons\support_high\plasma_launcher\plasma_launcher.weapon
 
 AddBlockElements Palette
-SetField Palette[*].Name "TARGET LASER"
+SetField Palette[*].Name "TARGET LOCATOR"
 SetField Palette[*].Type Weapon
 SetField Palette[*].CategoryIndex 78
 SetField Palette[*].DescriptionIndex -1
