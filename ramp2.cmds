@@ -863,6 +863,13 @@ OpenModPackage "workingdir\paks\Noble_Six_Voice_Pack.pak"
 ApplyModPackage
 ExitModPackage
 
+echo ==Fix Shield Crash==
+EditTag objects\characters\jackal\fx\_particles\plasma_noise.particle
+setfield RenderMethod.ShaderProperties[0].TextureConstants[0].Bitmap fx\bitmaps\material\impact_spray_large.bitmap
+setfield RenderMethod.ShaderProperties[0].TextureConstants[2].Bitmap fx\bitmaps\material\impact_spray_large.bitmap
+SaveTagChanges
+Exit
+
 
 importfonts workingdir\fonts_new.bin
 
