@@ -764,6 +764,48 @@ setargument specular_coefficient 0
 savetagchanges
 Exit
 
+# echo ==Shader fixes for Boardwalk...==
+edittag levels\solo\m50\shaders\paneling\wall_trims_a.shader
+setargument specular_coefficient 0
+setargument diffuse_coefficient 2.5
+savetagchanges
+exit
+edittag levels\solo\m50\shaders\signage\sign_1x1_boardwalk.shader
+setargument albedo_color 30 30 30 30
+savetagchanges
+exit
+edittag levels\solo\m50\shaders\signage\sign_1x1_park.shader
+setargument albedo_color 30 30 30 30
+savetagchanges
+exit
+edittag levels\solo\m50\shaders\signage\sign_2x1_boardwalk.shader
+setargument albedo_color 30 30 30 30
+savetagchanges
+exit
+edittag levels\solo\m50\shaders\signage\sign_2x1_park.shader
+setargument albedo_color 30 30 30 30
+savetagchanges
+exit
+edittag levels\solo\m50\shaders\signage\sign_3x1_be_safe.shader
+setargument albedo_color 30 30 30 30
+savetagchanges
+exit
+edittag levels\solo\m50\shaders\signage\sign_3x1_city_clean.shader
+setargument albedo_color 30 30 30 30
+savetagchanges
+exit
+edittag levels\solo\m50\shaders\signage\sign_3x1_r3.shader
+setargument albedo_color 30 30 30 30
+savetagchanges
+exit
+edittag levels\solo\m50\shaders\signage\sign_3x1_report_activity.shader
+setargument albedo_color 30 30 30 30
+savetagchanges
+exit
+edittag levels\solo\m50\shaders\signage\sign_3x1_welcome.shader
+setargument albedo_color 30 30 30 30
+savetagchanges
+exit
 
 ## Commented out until I port the Spawn Points
 ##echo ==Replace initial spawn points==
