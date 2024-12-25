@@ -409,6 +409,20 @@ setfield Materials[0].RenderMethod objects\cex\cex_beaver_creek\crates\gravity_l
 SaveTagChanges
 exit
 
+# echo ==Fix invalid shader on swordbase...==
+DuplicateTag shaders\invalid.shader shaders\invalid_reach
+
+##Turns out they did this on swordbase.....
+edittag shaders\invalid_reach.shader
+setfield Parameters[0].Bitmap shaders\default_bitmaps\bitmaps\gray_50_percent.bitmap
+savetagchanges
+exit
+
+edittag objects\levels\multi\20_sword_slayer\sword_vent_cover_open_out_a\sword_vent_cover_open_out_a.render_model
+setfield Materials[6].RenderMethod shaders\invalid_reach.shader
+savetagchanges
+exit
+
 echo ==Apply Reach Weapons==
 OpenModPackage "workingdir\paks\Reach Weapons EK.pak"
 ApplyModPackage
