@@ -64,7 +64,17 @@ Exit
 
 OpenCacheFile "reachmaps\70_boneyard.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag levels\shared\bitmaps\human\metal\vinyl_panels_a_dif.bitmap
+PortTag levels\shared\bitmaps\human\metal\vinyl_panels_a_bump.bitmap
+PortTag levels\shared\bitmaps\human\metal\plastic_veins_detail_bump.bitmap
 PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+Exit
+
+edittag levels\solo\m70\shaders\m70_vinyl_panel_dark.shader
+setfield ShaderProperties[0].TextureConstants[0].Bitmap levels\shared\bitmaps\human\metal\vinyl_panels_a_dif.bitmap
+setfield ShaderProperties[0].TextureConstants[2].Bitmap levels\shared\bitmaps\human\metal\vinyl_panels_a_bump.bitmap
+setfield ShaderProperties[0].TextureConstants[3].Bitmap levels\shared\bitmaps\human\metal\plastic_veins_detail_bump.bitmap
+SaveTagChanges
 Exit
 
 OpenCacheFile "reachmaps\forge_halo.map"
@@ -729,6 +739,27 @@ setargument specular_coefficient 0
 savetagchanges
 exit
 edittag levels\dlc\cex_hangemhigh\shaders\ca_heh_glass_transparent.shader
+setargument specular_coefficient 0
+savetagchanges
+Exit
+# echo ==Shader fixes for Boneyard...==
+edittag levels\solo\m70\shaders\m70_outside_stairs.shader
+setargument specular_coefficient 0
+savetagchanges
+Exit
+edittag levels\solo\m70\shaders\m70_garage_door.shader
+setargument specular_coefficient 0
+savetagchanges
+Exit
+edittag levels\solo\m70\shaders\m70_window_protection.shader
+setargument specular_coefficient 0
+savetagchanges
+Exit
+edittag levels\solo\m70\shaders\metal\m70_metal_panel_ext_a_light.shader
+setargument specular_coefficient 0
+savetagchanges
+Exit
+edittag levels\solo\m70\shaders\m70_scaffold.shader
 setargument specular_coefficient 0
 savetagchanges
 Exit
