@@ -2395,7 +2395,60 @@ SetField Palette[763].Type Prop
 SaveTagChanges
 Exit
 
+AddForgeItem "COV_POWERMODULE_STAND" 87 objects\props\covenant\cov_powermodule_stand\cov_powermodule_stand.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[764].Type Prop
+SaveTagChanges
+Exit
 
+#TODO Add to device machine category
+AddForgeItem "COV_POWERMODULE_STAND" 87 objects\vehicles\human\pelican\pelican.device_machine
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[765].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "ONI_TRASH_CAN" 87 objects\props\human\oni\small_desk_objects\oni_trash_can\oni_trash_can.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[766].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "LOUNGE_BENCH_ROW_6SEAT" 87 objects\props\human\oni\furniture\lounge_bench_row_6seat\lounge_bench_row_6seat.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[767].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "COMM_DISPLAY" 87 objects\props\covenant\comm_display\comm_display.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[768].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "SWORD_COV_GRAV_LIFT" 87 objects\levels\multi\20_sword_slayer\sword_cov_grav_lift\sword_cov_grav_lift.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[769].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "LOUNGE_BENCH_B" 87 objects\props\human\oni\furniture\lounge_bench_b\lounge_bench_b.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[770].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "M20_SCREEN_HALOGRAM_DESKMOUNT_A" 87 objects\levels\solo\m20\screen_halogram_deskmount_a\screen_halogram_deskmount_a.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[771].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "DLC_MEDIUM_MANCANNON" 87 levels\multi\dlc\objects\dlc_medium_mancannon\dlc_medium_mancannon.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[772].Type Prop
+SaveTagChanges
+Exit
 
 
 
