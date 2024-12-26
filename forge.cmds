@@ -2295,9 +2295,110 @@ Exit
 
 AddForgeItem "FIRE_EXTINGUISHER_WALL" 87 objects\props\human\pioneer\locker_room\fire_extinguisher_wall\fire_extinguisher_wall.scenery
 EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[746].Type Prop
+SetField Palette[747].Type Prop
 SaveTagChanges
 Exit
+
+AddForgeItem "POTTERY" 87 objects\props\human\pioneer\pottery\august\august.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[748].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "POTTERY" 87 objects\props\human\pioneer\pottery\august\august.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[749].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "BOTTLE_HUM_LIQUOR" 87 objects\props\human\urban\bottle_hum_liquor\bottle_hum_liquor.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[750].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "CA_TIMBERLAND_TOOF" 87 objects\cex\cex_timberland\ca_timberland_toof\ca_timberland_toof.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[751].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "BLUE_BEACON" 87 objects\cex\cex_timberland\props\blue_beacon\blue_beacon.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[752].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "RED_BEACON" 87 objects\cex\cex_timberland\props\red_beacon\red_beacon.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[753].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "CA_TIMBERLAND_TURRET_BASE" 87 objects\cex\cex_timberland\ca_timberland_turret\ca_timberland_turret_base\ca_timberland_turret_base.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[754].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "CA_TIMBERLAND_BUNKER" 87 objects\cex\cex_timberland\ca_timberland_bunker\ca_timberland_bunker\ca_timberland_bunker.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[755].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "CA_TIMBERLAND_TREEOFLIFE" 87 objects\cex\cex_timberland\ca_timberland_treeoflife\ca_timberland_treeoflife.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[756].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "FF_PRISONER_BRIDGE_L" 87 objects\cex\cex_prisoner\forge\ff_prisoner_bridge_l\ff_prisoner_bridge_l.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[757].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "FF_PRISONER_BRIDGE_R" 87 objects\cex\cex_prisoner\forge\ff_prisoner_bridge_r\ff_prisoner_bridge_r.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[758].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "FF_PRISONER_BRIDGE2" 87 objects\cex\cex_prisoner\forge\ff_prisoner_bridge2\ff_prisoner_bridge2.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[759].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "FF_PRISONER_BRIDGE3" 87 objects\cex\cex_prisoner\forge\ff_prisoner_bridge3\ff_prisoner_bridge3.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[760].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "FF_PRISONER_COVERWALL_SM" 87 objects\cex\cex_prisoner\forge\ff_prisoner_coverwall_sm\ff_prisoner_coverwall_sm.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[761].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "FF_PRISONER_FORECRATE_BIG" 87 objects\cex\cex_prisoner\forge\ff_prisoner_forecrate_big\ff_prisoner_forecrate_big.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[762].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "FF_PRISONER_FORECRATE_SMALL" 87 objects\cex\cex_prisoner\forge\ff_prisoner_forecrate_small\ff_prisoner_forecrate_small.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[763].Type Prop
+SaveTagChanges
+Exit
+
+
+
+
+
 
 
 

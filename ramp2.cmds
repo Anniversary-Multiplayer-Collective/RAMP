@@ -125,6 +125,11 @@ SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
+EditTag objects\cex\cex_timberland\ca_timberland_turret\ca_timberland_turret_base\ca_timberland_turret_base.render_model
+SetField Materials[7].RenderMethod shaders\invalid_reach.shader
+SaveTagChanges
+Exit
+
 OpenCacheFile "reachmaps\condemned.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
