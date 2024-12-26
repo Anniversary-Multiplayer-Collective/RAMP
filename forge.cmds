@@ -1571,13 +1571,13 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-AddForgeItem "BARRIER MP" 87 objects\props\covenant\cov_barrier\cov_barrier.crate
+AddForgeItem "COV_BARRIER" 87 objects\props\covenant\cov_barrier\cov_barrier.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[632].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "HEALTH PACK HOLDER" 87 objects\props\human\unsc\health_cabinet\health_cabinet.scenery
+AddForgeItem "HEALTH_CABINET" 87 objects\props\human\unsc\health_cabinet\health_cabinet.scenery
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[633].Type Prop
 SaveTagChanges
@@ -1944,11 +1944,360 @@ SetField Palette[688].Type Prop
 SaveTagChanges
 Exit
 
+AddForgeItem "ONI_CRATE_SMALL" 87 objects\props\human\oni\oni_crate_small\oni_crate_small.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[689].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "ONI_CRATE_GIANT" 87 objects\props\human\oni\oni_crate_giant\oni_crate_giant.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[690].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "SECURITY_WALL_SHORT" 87 objects\props\human\oni\security_wall_short\security_wall_short.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[691].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "SECURITY_WALL_SHORT_B" 87 objects\props\human\oni\security_wall_short_b\security_wall_short_b.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[692].Type Prop
+SaveTagChanges
+Exit
 
 
+AddForgeItem "CONTAINER_SMALL" 87 objects\vehicles\human\civilian\truck_cab_large\attachments\container_small\container_small.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[693].Type Prop
+SaveTagChanges
+Exit
 
+AddForgeItem "CONTAINER_SMALL_RUSTED" 87 objects\props\human\pioneer\garage\container_small_rusted\container_small_rusted.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[694].Type Prop
+SaveTagChanges
+Exit
 
+AddForgeItem "FUEL_DEPOT_CONTAINER" 87 objects\levels\solo\m20\fuel_depot_container\fuel_depot_container.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[695].Type Prop
+SaveTagChanges
+Exit
 
+AddForgeItem "SCREEN_HALOGRAM_WALLMOUNT_A" 87 objects\levels\solo\m20\screen_halogram_wallmount_a\screen_halogram_wallmount_a.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[696].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "SCREEN_HALOGRAM_COMM_PANELS" 87 objects\levels\solo\m20\screen_halogram_comm_panels\screen_halogram_comm_panels\screen_halogram_comm_panels.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[697].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "SECURITY_BARRIER_WIDE" 87 objects\props\human\oni\security_barrier_wide\security_barrier_wide.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[698].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "HEH_ANGLED_CATWALK" 87 objects\cex\cex_hangemhigh\forge\heh_angled_catwalk\heh_angled_catwalk\heh_angled_catwalk.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[699].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "HEH_BLUE_CAP" 87 objects\cex\cex_hangemhigh\forge\heh_blue_cap\heh_blue_cap.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[700].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "HEH_CATWALK_COVER" 87 objects\cex\cex_hangemhigh\forge\heh_catwalk_cover\heh_catwalk_cover\heh_catwalk_cover.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[701].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "HEH_GRAVLIFT_CATWALK" 87 objects\cex\cex_hangemhigh\forge\heh_gravlift_catwalk\heh_gravlift_catwalk\heh_gravlift_catwalk.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[702].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "HEH_RAMP_COLUMN" 87 objects\cex\cex_hangemhigh\forge\heh_ramp_column\heh_ramp_column.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[703].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "HEH_RED_RAMP" 87 objects\cex\cex_hangemhigh\forge\heh_red_ramp\heh_red_ramp.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[704].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "HEH_SMALLWALL" 87 objects\cex\cex_hangemhigh\forge\heh_smallwall\heh_smallwall\heh_smallwall.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[705].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "HEH_TOMBSTONES" 87 objects\cex\cex_hangemhigh\forge\heh_tombstones\heh_tombstones.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[706].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "TELEPORTER_RECEIVER" 87 objects\ca_dev\dlc_preserve\crates\teleporter_receiver\teleporter_receiver.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[707].Type Teleporter
+SaveTagChanges
+Exit
+
+AddForgeItem "TELEPORTER_2WAY" 87 objects\ca_dev\dlc_preserve\crates\teleporter_sender\teleporter_2way.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[708].Type Teleporter
+SaveTagChanges
+Exit
+
+AddForgeItem "TELEPORTER_SENDER" 87 objects\ca_dev\dlc_preserve\crates\teleporter_sender\teleporter_sender.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[709].Type Teleporter
+SaveTagChanges
+Exit
+
+AddForgeItem "TELEPORTER_SHELL" 87 objects\ca_dev\ca_scenery\teleporter_shell\teleporter_shell.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[710].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "WATER_BARREL_PALLETTE" 87 objects\props\human\pioneer\water\water_barrel_pallette\water_barrel_pallette.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[711].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "WATER_BARREL" 87 objects\props\human\pioneer\water\water_barrel\water_barrel.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[712].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "FF_MAN_CANNON_FORGE_HEAVY_2" 87 objects\cex\cex_ff_halo\crates\cov_man_cannon\ff_man_cannon_forge_heavy.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[713].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "BFG" 87 objects\vehicles\covenant\turrets\bfg\bfg.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[714].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "SCORPION_DESTROYED" 87 objects\props\human\unsc\destroyed_vehicles\scorpion_destroyed\scorpion_destroyed.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[715].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "CRATE_TECH_SEMI_SHORT_CLOSED" 87 objects\gear\human\industrial\crate_tech_semi_short_closed\crate_tech_semi_short_closed.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[716].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "WARTHOG_DESTROYED" 87 objects\props\human\unsc\destroyed_vehicles\warthog_destroyed\warthog_destroyed.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[717].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "WRAITH_DESTROYED" 87 objects\props\covenant\destroyed_vehicles\wraith_destroyed\wraith_destroyed.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[718].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "TRUCK_CAB_LARGE_DESTROYED" 87 objects\props\human\unsc\destroyed_vehicles\truck_cab_large_destroyed\truck_cab_large_destroyed.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[719].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "CONTAINER_SMALL_MILITARY" 87 objects\vehicles\human\civilian\truck_cab_large\attachments\container_small_military\container_small_military.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[720].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "CONTAINER_LONG_RUSTED" 87 objects\props\human\pioneer\garage\container_long_rusted\container_long_rusted.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[721].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "SEARCHLIGHT" 87 objects\scenery\human\searchlight\searchlight.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[722].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "SEARCHLIGHT_BROKEN" 87 objects\scenery\human\searchlight_broken\searchlight_broken.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[723].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "CONCRETE_GUARD_RAIL" 87 objects\props\human\unsc\concrete_guard_rail\concrete_guard_rail.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[724].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "HU_MIL_BEDROLL" 87 objects\gear\human\military\hu_mil_bedroll\hu_mil_bedroll.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[725].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "CRATE_PACKING_GIANT" 87 objects\gear\human\military\crate_packing_giant\crate_packing_giant.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[726].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "REVANENT_DESTROYED" 87 objects\props\covenant\destroyed_vehicles\revanent_destroyed\revanent_destroyed.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[727].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "PROPANE_TANK_SMALL" 87 objects\props\human\pioneer\garage\propane_tank_small\propane_tank_small.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[728].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "WOOD_BARREL" 87 objects\props\human\pioneer\farm\wood_barrel\wood_barrel.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[729].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "FEED_BUCKET" 87 objects\props\human\pioneer\farm\feed_bucket\feed_bucket.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[730].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "COV_CAMP_STOOL" 87 objects\props\covenant\cov_camp_stool\cov_camp_stool.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[731].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "030_ROCK_BLOCKER" 87 objects\levels\solo\m10\030_rock_blocker\030_rock_blocker.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[732].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "LARGE_WIND_TURBINE" 87 objects\props\human\pioneer\farm\large_wind_turbine\large_wind_turbine.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[733].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "WIND_TURBINE" 87 objects\props\human\pioneer\farm\wind_turbine\wind_turbine.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[734].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "CEX_DAMNATION_GRUNT_CRATE" 87 levels\dlc\cex_damnation\scenery\cex_damnation_grunt_crate\cex_damnation_grunt_crate.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[735].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "CEX_HEALTH_CABINET" 87 objects\cex\shared\cex_health_cabinet\cex_health_cabinet.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[736].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "TALL_GRAV_LIFT" 87 objects\cex\cex_damnation\crates\tall_grav_lift\tall_grav_lift.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[737].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "SHORT_GRAV_LIFT" 87 objects\cex\cex_damnation\crates\short_grav_lift\short_grav_lift.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[738].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "CONTROL_BOX" 87 objects\props\human\pioneer\tech\control_box\control_box.model
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[739].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "CENTRAL_MONITOR_BANK_01" 87 objects\levels\solo\m30\central_monitor_bank_01\central_monitor_bank_01.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[740].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "CENTRAL_MONITOR_BANK_02" 87 objects\levels\solo\m30\central_monitor_bank_02\central_monitor_bank_02.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[741].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "CENTRAL_MONITOR_BANK_03" 87 objects\levels\solo\m30\central_monitor_bank_03\central_monitor_bank_03.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[742].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "WATER_TANK_HORIZONTAL" 87 objects\props\human\pioneer\farm\water_tank_horizontal\water_tank_horizontal.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[743].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "GLASS_BAR_TALL" 87 objects\props\human\urban\glass_bar_tall\glass_bar_tall.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[744].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "COATRACK_01" 87 objects\props\human\pioneer\furniture\coatrack_01\coatrack_01.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[745].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "FIRE_EXTINGUISHER_WALL" 87 objects\props\human\pioneer\locker_room\fire_extinguisher_wall\fire_extinguisher_wall.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[746].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "FIRE_EXTINGUISHER_WALL" 87 objects\props\human\pioneer\locker_room\fire_extinguisher_wall\fire_extinguisher_wall.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[746].Type Prop
+SaveTagChanges
+Exit
 
 
 

@@ -69,6 +69,11 @@ SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
+EditTag objects\levels\shared\device_machines\ivory_tower_elevator\ivory_tower_elevator.render_model
+setfield Materials[0].RenderMethod shaders\invalid_reach.shader
+SaveTagChanges
+Exit
+
 OpenCacheFile "reachmaps\70_boneyard.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag levels\shared\bitmaps\human\metal\vinyl_panels_a_dif.bitmap
@@ -86,6 +91,7 @@ Exit
 
 OpenCacheFile "reachmaps\forge_halo.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag ReachMisc objects\multi\boundaries\safe_volume.scen
 PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
@@ -284,7 +290,6 @@ Exit
 
 ##echo ==Port Reach Objects==
 ##OpenCacheFile "reachmaps\forge_halo.map"
-##PortTag ReachMisc objects\multi\boundaries\safe_volume.scen
 ##PortTag ReachMisc Replace objects\multi\spawning\respawn_point.scenery
 ##PortTag ReachMisc Replace objects\multi\spawning\initial_spawn_point.scenery
 ##PortTag ReachMisc Replace objects\multi\spawning\ff_respawn_point\ff_respawn_point.scenery
