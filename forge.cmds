@@ -1761,7 +1761,7 @@ RemoveBlockElements NewDamageInfo 0 1
 SaveTagChanges
 Exit
 
-# echo ==Add Skyboxes To Pallette...==
+# echo ==Add MP Skyboxes To Pallette...==
 
 edittag multiplayer\forge_globals.forge_globals_definition
 
@@ -1952,5 +1952,94 @@ setfield Skies[31].CameraFX levels\multi\45_aftship\post_fx\m45.camera_fx_settin
 setfield Skies[31].ScreenFX levels\multi\45_aftship\post_fx\m45.area_screen_effect
 setfield Skies[31].GlobalLighting levels\shared\post_fx\bright.chocolate_mountain_new
 setfield Skies[31].Parameters levels\multi\45_aftship\45_aftship.sky_atm_parameters
+
+# echo ==Add FF Skyboxes To Pallette...==
+addblockelements Skies
+setfield Skies[32].Name "Overlook"
+setfield Skies[32].Wind levels\solo\m10\post_fx\wind.wind
+setfield Skies[32].Object levels\solo\m10\sky_morning_overcast\sky_morning_overcast.scenery
+setfield Skies[32].BackgroundSound sound\levels\solo\m10\m10_int\m10_int.sound_looping
+setfield Skies[32].CameraFX levels\firefight\ff10_prototype\post_fx\ff10.camera_fx_settings
+setfield Skies[32].ScreenFX levels\solo\m10\post_fx\m10.area_screen_effect
+setfield Skies[32].GlobalLighting levels\shared\post_fx\bright.chocolate_mountain_new
+setfield Skies[32].Parameters levels\firefight\ff10_prototype\ff10_prototype.sky_atm_parameters
+
+addblockelements Skies
+setfield Skies[33].Name "Courtyard"
+setfield Skies[33].Object levels\solo\m20\sky_morning\sky_morning.scenery
+setfield Skies[33].BackgroundSound sound\levels\solo\m20\alpine_wind2\alpine_wind2.sound_looping
+setfield Skies[33].Wind levels\solo\m20\post_fx\wind.wind
+setfield Skies[33].Parameters levels\firefight\ff20_courtyard\ff20_courtyard.sky_atm_parameters
+setfield Skies[33].CameraFX levels\solo\m20\post_fx\m20.camera_fx_settings
+setfield Skies[33].ScreenFX levels\solo\m20\post_fx\m20.area_screen_effect
+setfield Skies[33].GlobalLighting levels\shared\post_fx\bright.chocolate_mountain_new
+
+addblockelements Skies
+setfield Skies[34].Name "Waterfront"
+setfield Skies[34].Wind levels\solo\m30\m30_base.wind
+setfield Skies[34].Object levels\solo\m30\sky_night\sky_night.scenery
+setfield Skies[34].BackgroundSound sound\levels\solo\m30\m30_ext\m30_ext.sound_looping
+setfield Skies[34].Parameters levels\firefight\ff30_waterfront\ff30_waterfront.sky_atm_parameters
+setfield Skies[34].CameraFX levels\firefight\ff30_waterfront\post_fx\ff30_waterfront.camera_fx_settings
+setfield Skies[34].ScreenFX levels\solo\m30\post_fx\m30_rain.area_screen_effect
+setfield Skies[34].GlobalLighting levels\shared\post_fx\bright.chocolate_mountain_new
+
+addblockelements Skies
+setfield Skies[35].Name "Corvette"
+setfield Skies[35].Object levels\solo\m45\sky_mission\sky_mission.scenery
+setfield Skies[35].BackgroundSound sound\levels\solo\m45\space_loop\space_loop.sound_looping
+setfield Skies[35].Parameters levels\firefight\ff45_corvette\ff45_corvette.sky_atm_parameters
+setfield Skies[35].CameraFX levels\solo\m45\post_fx\m45.camera_fx_settings
+setfield Skies[35].ScreenFX levels\solo\m45\post_fx\m45.area_screen_effect
+setfield Skies[35].GlobalLighting levels\shared\post_fx\bright.chocolate_mountain_new
+
+addblockelements Skies
+setfield Skies[36].Name "Beachhead"
+setfield Skies[36].Wind levels\solo\m50\post_fx\wind.wind
+setfield Skies[36].Object levels\solo\m50\sky_afternoon_rainy\sky_afternoon_rainy.scenery
+setfield Skies[36].BackgroundSound sound\levels\solo\m50\m50_ext\m50_ext.sound_looping
+setfield Skies[36].Parameters levels\firefight\ff50_park\ff50_park.sky_atm_parameters
+setfield Skies[36].CameraFX levels\solo\m50\post_fx\m50.camera_fx_settings
+setfield Skies[36].ScreenFX levels\solo\m50\post_fx\m50.area_screen_effect
+setfield Skies[36].GlobalLighting levels\shared\post_fx\bright.chocolate_mountain_new
+
+addblockelements Skies
+setfield Skies[37].Name "Outpost"
+setfield Skies[37].Wind levels\solo\m60\post_fx\m60_wind.wind
+setfield Skies[37].Object levels\solo\m60\sky_glassing\sky_glassing.scenery
+setfield Skies[37].BackgroundSound sound\levels\solo\m60\m60_ext_combined\m60_ext_combined.sound_looping
+setfield Skies[37].Parameters levels\firefight\ff60_airview\ff60_airview.sky_atm_parameters
+setfield Skies[37].CameraFX levels\solo\m60\post_fx\m60.camera_fx_settings
+setfield Skies[37].ScreenFX levels\solo\m60\post_fx\m60.area_screen_effect
+setfield Skies[37].GlobalLighting levels\shared\post_fx\bright.chocolate_mountain_new
+
+addblockelements Skies
+setfield Skies[38].Name "Holdout"
+setfield Skies[38].Object levels\solo\m60\sky_glassing\sky_glassing.scenery
+setfield Skies[38].BackgroundSound sound\levels\solo\m60\m60_ext_combined\m60_ext_combined.sound_looping
+setfield Skies[38].Parameters levels\firefight\ff60_icecave\ff60_icecave.sky_atm_parameters
+setfield Skies[38].CameraFX levels\solo\m60\post_fx\m60_exposure_icecave.camera_fx_settings
+setfield Skies[38].ScreenFX objects\levels\solo\m60\fx_m60_screenfx_icecave\fx\fx_m60_screenfx_icecave.area_screen_effect
+setfield Skies[38].GlobalLighting levels\shared\post_fx\ff60_icecave.chocolate_mountain_new
+
+addblockelements Skies
+setfield Skies[39].Name "Unearthed"
+setfield Skies[39].Wind levels\dlc\ff_unearthed\postfx\ff_unearthed.wind
+setfield Skies[39].Object levels\dlc\ff_unearthed\skybox_ff_unearthed\skybox_ff_unearthed.scenery
+setfield Skies[39].BackgroundSound sound\levels\dlc\unearthed\boneyard_interior\boneyard_interior.sound_looping
+setfield Skies[39].Parameters levels\dlc\ff_unearthed\ff_unearthed.sky_atm_parameters
+setfield Skies[39].CameraFX levels\dlc\ff_unearthed\postfx\unearthed.camera_fx_settings
+setfield Skies[39].ScreenFX levels\dlc\ff_unearthed\postfx\unearthed.area_screen_effect
+
+addblockelements Skies
+setfield Skies[40].Name "Installation 04"
+setfield Skies[40].Wind levels\dlc\cex_ff_halo\post_fx\cex_ff.wind
+setfield Skies[40].Object levels\dlc\cex_ff_halo\cex_ff_halo_sky2\cex_ff_halo_sky2.scenery
+setfield Skies[40].BackgroundSound sound\levels\dlc\cex_ff_halo\halo_ext\halo_ext.sound_looping
+setfield Skies[40].Parameters levels\dlc\cex_ff_halo\cex_ff_halo.sky_atm_parameters
+setfield Skies[40].CameraFX levels\dlc\cex_ff_halo\post_fx\cex_halo.camera_fx_settings
+setfield Skies[40].ScreenFX levels\dlc\cex_ff_halo\post_fx\cex_halo.area_screen_effect
+setfield Skies[40].GlobalLighting levels\dlc\cex_ff_halo\post_fx\cex_haloff.chocolate_mountain_new
+
 SaveTagChanges
 Exit
