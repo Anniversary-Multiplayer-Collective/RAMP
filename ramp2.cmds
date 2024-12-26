@@ -767,11 +767,17 @@ Exit
 echo ==Decrease jump velocity to match reach (also low gravity related)==
 EditTag objects\characters\masterchief\mp_masterchief\mp_masterchief.biped
 SetField JumpVelocity 2.3
+SetField MinimumSoftLandingVelocity 0.5
+SetField MinimumHardLandingVelocity 5.25
+SetField MaximumHardLandingVelocity 8.5
 SaveTagChanges
 Exit
 
 EditTag objects\characters\elite\mp_elite\mp_elite.biped
 SetField JumpVelocity 2.3
+SetField MinimumSoftLandingVelocity 0.5
+SetField MinimumHardLandingVelocity 5.25
+SetField MaximumHardLandingVelocity 8.5
 SaveTagChanges
 Exit
 
