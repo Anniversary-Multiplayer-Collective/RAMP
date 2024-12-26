@@ -20,8 +20,14 @@ MainMenu Multiplayer Character
 AddModFiles workingdir\assets
 
 # echo ==Porting...==
-
+EditTag objects\gear\human\military\crate_packing_giant\crate_packing_giant.render_model
+SaveTagChanges
+Exit
 NameTag objects\gear\human\military\crate_packing_giant\crate_packing_giant.render_model objects\gear\human\military\crate_packing_giant\crate_packing_giant_h3
+EditTag objects\gear\human\military\crate_packing_giant\crate_packing_giant_mp.model
+SetField RenderModel objects\gear\human\military\crate_packing_giant\crate_packing_giant_h3.render_model
+SaveTagChanges
+
 
 OpenCacheFile "reachmaps\20_sword_slayer.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
@@ -70,10 +76,10 @@ PortTag levels\shared\bitmaps\human\metal\plastic_veins_detail_bump.bitmap
 PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
-edittag levels\solo\m70\shaders\m70_vinyl_panel_dark.shader
-setfield ShaderProperties[0].TextureConstants[0].Bitmap levels\shared\bitmaps\human\metal\vinyl_panels_a_dif.bitmap
-setfield ShaderProperties[0].TextureConstants[2].Bitmap levels\shared\bitmaps\human\metal\vinyl_panels_a_bump.bitmap
-setfield ShaderProperties[0].TextureConstants[3].Bitmap levels\shared\bitmaps\human\metal\plastic_veins_detail_bump.bitmap
+EditTag levels\solo\m70\shaders\m70_vinyl_panel_dark.shader
+SetField ShaderProperties[0].TextureConstants[0].Bitmap levels\shared\bitmaps\human\metal\vinyl_panels_a_dif.bitmap
+SetField ShaderProperties[0].TextureConstants[2].Bitmap levels\shared\bitmaps\human\metal\vinyl_panels_a_bump.bitmap
+SetField ShaderProperties[0].TextureConstants[3].Bitmap levels\shared\bitmaps\human\metal\plastic_veins_detail_bump.bitmap
 SaveTagChanges
 Exit
 
@@ -177,8 +183,8 @@ PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
 EditTag levels\solo\m50\shaders\metal\metal_expansion_plate_.shader
-setfield ShaderProperties[0].TextureConstants[0].Bitmap levels\solo\m50\bitmaps\metal\metal_expansion_plate_diffuse.bitmap
-setfield ShaderProperties[0].TextureConstants[3].Bitmap levels\solo\m50\bitmaps\metal\metal_expansion_plate_zbump.bitmap
+SetField ShaderProperties[0].TextureConstants[0].Bitmap levels\solo\m50\bitmaps\metal\metal_expansion_plate_diffuse.bitmap
+SetField ShaderProperties[0].TextureConstants[3].Bitmap levels\solo\m50\bitmaps\metal\metal_expansion_plate_zbump.bitmap
 SaveTagChanges
 Exit
 
@@ -377,14 +383,14 @@ OpenModPackage "workingdir\paks\revenant.pak"
 ApplyModPackage
 ExitModPackage
 
-edittag multiplayer\forge_globals.forge_globals_definition
+EditTag multiplayer\forge_globals.forge_globals_definition
 
 addblockelements Palette
-setfield Palette[*].Name "REVENANT"
-setfield Palette[*].Type Vehicle
-setfield Palette[*].CategoryIndex 79
-setfield Palette[*].DescriptionIndex -1
-setfield Palette[*].Object objects\vehicles\covenant\revenant\revenant.vehicle
+SetField Palette[*].Name "REVENANT"
+SetField Palette[*].Type Vehicle
+SetField Palette[*].CategoryIndex 79
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\vehicles\covenant\revenant\revenant.vehicle
 SaveTagChanges
 Exit
 
@@ -406,34 +412,34 @@ ExitModPackage
 
 echo ==Fix Battle Canyon missing textures==
 DuplicateTag levels\multi\deadlock\shaders\deadlock_grate_a.shader objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift_grate
-edittag objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift_grate.shader
-setargument specular_coefficient 0.3
+EditTag objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift_grate.shader
+SetArgument specular_coefficient 0.3
 SaveTagChanges
-exit
+Exit
 
-edittag objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift.render_model
-setfield Materials[0].RenderMethod objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift_grate.shader
+EditTag objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift.render_model
+SetField Materials[0].RenderMethod objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift_grate.shader
 SaveTagChanges
-exit
+Exit
 
-edittag objects\cex\cex_beaver_creek\crates\gravity_lift_blue\gravity_lift_blue.render_model
-setfield Materials[0].RenderMethod objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift_grate.shader
+EditTag objects\cex\cex_beaver_creek\crates\gravity_lift_blue\gravity_lift_blue.render_model
+SetField Materials[0].RenderMethod objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift_grate.shader
 SaveTagChanges
-exit
+Exit
 
 # echo ==Fix invalid shader on swordbase...==
 DuplicateTag shaders\invalid.shader shaders\invalid_reach
 
 ##Turns out they did this on swordbase.....
-edittag shaders\invalid_reach.shader
+EditTag shaders\invalid_reach.shader
 SetBitmap base_map shaders\default_bitmaps\bitmaps\gray_50_percent.bitmap
-savetagchanges
-exit
+SaveTagChanges
+Exit
 
-edittag objects\levels\multi\20_sword_slayer\sword_vent_cover_open_out_a\sword_vent_cover_open_out_a.render_model
-setfield Materials[6].RenderMethod shaders\invalid_reach.shader
-savetagchanges
-exit
+EditTag objects\levels\multi\20_sword_slayer\sword_vent_cover_open_out_a\sword_vent_cover_open_out_a.render_model
+SetField Materials[6].RenderMethod shaders\invalid_reach.shader
+SaveTagChanges
+Exit
 
 echo ==Apply Reach Weapons==
 OpenModPackage "workingdir\paks\Reach Weapons EK.pak"
@@ -441,10 +447,10 @@ ApplyModPackage
 ExitModPackage 
 
 # Fix not able to melee while crouching if you're holding the Target Locator
-edittag objects\weapons\pistol\target_laser\target_laser.weapon
-setfield WeaponName hp
-savetagchanges
-exit
+EditTag objects\weapons\pistol\target_laser\target_laser.weapon
+SetField WeaponName hp
+SaveTagChanges
+Exit
 
 # echo ==Add Reach specific weapons to the palette...==
 
@@ -507,131 +513,131 @@ OpenModPackage "workingdir\paks\ramphud.pak"
 ApplyModPackage
 ExitModPackage 
 
-edittag objects\weapons\support_high\spartan_laser\spartan_laser.weapon
-setfield HudInterface ui\chud\spartan_laser.chud_definition
+EditTag objects\weapons\support_high\spartan_laser\spartan_laser.weapon
+SetField HudInterface ui\chud\spartan_laser.chud_definition
 SaveTagChanges
 Exit
 
-edittag objects\weapons\support_high\rocket_launcher\rocket_launcher.weapon
-setfield HudInterface ui\chud\rocket.chud_definition
+EditTag objects\weapons\support_high\rocket_launcher\rocket_launcher.weapon
+SetField HudInterface ui\chud\rocket.chud_definition
 SaveTagChanges
 Exit
 
-edittag objects\weapons\support_high\plasma_launcher\plasma_launcher.weapon
-setfield HudInterface ui\chud\plasma_launcher.chud_definition
+EditTag objects\weapons\support_high\plasma_launcher\plasma_launcher.weapon
+SetField HudInterface ui\chud\plasma_launcher.chud_definition
 SaveTagChanges
 Exit
 
-edittag objects\weapons\support_high\flak_cannon\flak_cannon.weapon
-setfield HudInterface ui\chud\fuel_rod_cannon.chud_definition
+EditTag objects\weapons\support_high\flak_cannon\flak_cannon.weapon
+SetField HudInterface ui\chud\fuel_rod_cannon.chud_definition
 SaveTagChanges
 Exit
 
-edittag objects\weapons\rifle\spike_rifle\spike_rifle.weapon
-setfield HudInterface ui\chud\spike_rifle.chud_definition
+EditTag objects\weapons\rifle\spike_rifle\spike_rifle.weapon
+SetField HudInterface ui\chud\spike_rifle.chud_definition
 SaveTagChanges
 Exit
 
-edittag objects\weapons\rifle\sniper_rifle\sniper_rifle.weapon
-setfield HudInterface ui\chud\sniper_rifle.chud_definition
+EditTag objects\weapons\rifle\sniper_rifle\sniper_rifle.weapon
+SetField HudInterface ui\chud\sniper_rifle.chud_definition
 SaveTagChanges
 Exit
 
-edittag objects\weapons\rifle\shotgun\shotgun.weapon
-setfield HudInterface ui\chud\shotgun.chud_definition
+EditTag objects\weapons\rifle\shotgun\shotgun.weapon
+SetField HudInterface ui\chud\shotgun.chud_definition
 SaveTagChanges
 Exit
 
-edittag objects\weapons\rifle\plasma_rifle\plasma_rifle.weapon
-setfield HudInterface ui\chud\plasma_rifle.chud_definition
+EditTag objects\weapons\rifle\plasma_rifle\plasma_rifle.weapon
+SetField HudInterface ui\chud\plasma_rifle.chud_definition
 SaveTagChanges
 Exit
 
-edittag objects\weapons\rifle\plasma_repeater\plasma_repeater.weapon
-setfield HudInterface ui\chud\plasma_repeater.chud_definition
+EditTag objects\weapons\rifle\plasma_repeater\plasma_repeater.weapon
+SetField HudInterface ui\chud\plasma_repeater.chud_definition
 SaveTagChanges
 Exit
 
-edittag objects\weapons\rifle\needle_rifle\needle_rifle.weapon
-setfield HudInterface ui\chud\needle_rifle.chud_definition
+EditTag objects\weapons\rifle\needle_rifle\needle_rifle.weapon
+SetField HudInterface ui\chud\needle_rifle.chud_definition
 SaveTagChanges
 Exit
 
-edittag objects\weapons\rifle\grenade_launcher\grenade_launcher.weapon
-setfield HudInterface ui\chud\grenade_launcher.chud_definition
+EditTag objects\weapons\rifle\grenade_launcher\grenade_launcher.weapon
+SetField HudInterface ui\chud\grenade_launcher.chud_definition
 SaveTagChanges
 Exit
 
-edittag objects\weapons\rifle\focus_rifle\focus_rifle.weapon
-setfield HudInterface ui\chud\focus_rifle.chud_definition
+EditTag objects\weapons\rifle\focus_rifle\focus_rifle.weapon
+SetField HudInterface ui\chud\focus_rifle.chud_definition
 SaveTagChanges
 Exit
 
-edittag objects\weapons\rifle\dmr\dmr.weapon
-setfield HudInterface ui\chud\dmr_ramp.chud_definition
+EditTag objects\weapons\rifle\dmr\dmr.weapon
+SetField HudInterface ui\chud\dmr_ramp.chud_definition
 SaveTagChanges
 Exit
 
-edittag objects\weapons\rifle\concussion_rifle\concussion_rifle.weapon
-setfield HudInterface ui\chud\concussion_rifle.chud_definition
+EditTag objects\weapons\rifle\concussion_rifle\concussion_rifle.weapon
+SetField HudInterface ui\chud\concussion_rifle.chud_definition
 SaveTagChanges
 Exit
 
-edittag objects\weapons\rifle\battle_rifle\battle_rifle.weapon
-setfield HudInterface ui\chud\battle_rifle.chud_definition
+EditTag objects\weapons\rifle\battle_rifle\battle_rifle.weapon
+SetField HudInterface ui\chud\battle_rifle.chud_definition
 SaveTagChanges
 Exit
 
-edittag objects\weapons\rifle\assault_rifle\assault_rifle.weapon
-setfield HudInterface ui\chud\assault_rifle.chud_definition
+EditTag objects\weapons\rifle\assault_rifle\assault_rifle.weapon
+SetField HudInterface ui\chud\assault_rifle.chud_definition
 SaveTagChanges
 Exit
 
-edittag objects\weapons\pistol\plasma_pistol\plasma_pistol.weapon
-setfield HudInterface ui\chud\plasma_pistol.chud_definition
+EditTag objects\weapons\pistol\plasma_pistol\plasma_pistol.weapon
+SetField HudInterface ui\chud\plasma_pistol.chud_definition
 SaveTagChanges
 Exit
 
-edittag objects\weapons\pistol\needler\needler.weapon
-setfield HudInterface ui\chud\needler.chud_definition
+EditTag objects\weapons\pistol\needler\needler.weapon
+SetField HudInterface ui\chud\needler.chud_definition
 SaveTagChanges
 Exit
 
-edittag objects\weapons\pistol\magnum\magnum.weapon
-setfield HudInterface ui\chud\magnum.chud_definition
+EditTag objects\weapons\pistol\magnum\magnum.weapon
+SetField HudInterface ui\chud\magnum.chud_definition
 SaveTagChanges
 Exit
 
-edittag objects\weapons\melee\gravity_hammer\gravity_hammer.weapon
-setfield HudInterface ui\chud\hammer.chud_definition
+EditTag objects\weapons\melee\gravity_hammer\gravity_hammer.weapon
+SetField HudInterface ui\chud\hammer.chud_definition
 SaveTagChanges
 Exit
 
-edittag objects\weapons\melee\energy_blade\energy_blade.weapon
-setfield HudInterface ui\chud\sword.chud_definition
+EditTag objects\weapons\melee\energy_blade\energy_blade.weapon
+SetField HudInterface ui\chud\sword.chud_definition
 SaveTagChanges
 Exit
 
 echo ==Revenant and Falcon strings==
-edittag ui\hud\hud_messages.multilingual_unicode_string_list
-setstring english revenant_enter_driver "\uE461\uE45F to drive Revenant"
-setstring english revenant_enter_passenger "\uE461\uE45F to ride in Revenant"
-setstring english revenant_board "\uE461\uE45F to board Revenant"
-savetagchanges
-exit
+EditTag ui\hud\hud_messages.multilingual_unicode_string_list
+SetString english revenant_enter_driver "\uE461\uE45F to drive Revenant"
+SetString english revenant_enter_passenger "\uE461\uE45F to ride in Revenant"
+SetString english revenant_board "\uE461\uE45F to board Revenant"
+SaveTagChanges
+Exit
 
-edittag ui\hud\hud_messages.multilingual_unicode_string_list
-setstring english falcon_drive "\uE461\uE45F to drive Falcon"
-setstring english falcon_enter_passenger "\uE461\uE45F to ride in Falcon"
-setstring english falcon_board "\uE461\uE45F to board Falcon"
-setstring english falcon_flip "\uE461\uE45F to flip Falcon"
-setstring english falcon_enter_gunner "\uE461\uE45F to operate Falcon turret"
-savetagchanges
-exit
+EditTag ui\hud\hud_messages.multilingual_unicode_string_list
+SetString english falcon_drive "\uE461\uE45F to drive Falcon"
+SetString english falcon_enter_passenger "\uE461\uE45F to ride in Falcon"
+SetString english falcon_board "\uE461\uE45F to board Falcon"
+SetString english falcon_flip "\uE461\uE45F to flip Falcon"
+SetString english falcon_enter_gunner "\uE461\uE45F to operate Falcon turret"
+SaveTagChanges
+Exit
 
 echo ==Fix projectile drop==
-edittag dw3\r3ach\objects\weapons\support_high\rocket_launcher\projectiles\rocket_launcher_rocket.projectile
-setfield WaterGravityScale 0
+EditTag dw3\r3ach\objects\weapons\support_high\rocket_launcher\projectiles\rocket_launcher_rocket.projectile
+SetField WaterGravityScale 0
 SaveTagChanges
 Exit
 
@@ -664,99 +670,99 @@ SaveTagChanges
 Exit
 
 echo ==Fix VISR mask==
-edittag shaders\default_bitmaps\bitmaps\vision_mode_mask.bitmap
+EditTag shaders\default_bitmaps\bitmaps\vision_mode_mask.bitmap
 importbitmap 0 workingdir\images\vision_mask.dds
-savetagchanges
-exit
+SaveTagChanges
+Exit
 
-edittag objects\characters\elite\mp_elite\bitmaps\vision_mode_mask.bitmap
+EditTag objects\characters\elite\mp_elite\bitmaps\vision_mode_mask.bitmap
 importbitmap 0 workingdir\images\vision_mask.dds
-savetagchanges
-exit
+SaveTagChanges
+Exit
 
 echo ==UI Sounds==
-edittag sound\game_sfx\ui\button_based_ui_sounds\a_button.sound
+EditTag sound\game_sfx\ui\button_based_ui_sounds\a_button.sound
 ImportSound workingdir\sounds\ui\a_button.mp3
-savetagchanges
-exit
+SaveTagChanges
+Exit
 
-edittag sound\game_sfx\ui\button_based_ui_sounds\b_button.sound
+EditTag sound\game_sfx\ui\button_based_ui_sounds\b_button.sound
 ImportSound workingdir\sounds\ui\b_button.mp3
-savetagchanges
-exit
+SaveTagChanges
+Exit
 
-edittag sound\game_sfx\ui\button_based_ui_sounds\cursor_horzontal.sound
+EditTag sound\game_sfx\ui\button_based_ui_sounds\cursor_horzontal.sound
 ImportSound workingdir\sounds\ui\cursor_vertical.mp3
-savetagchanges
-exit
+SaveTagChanges
+Exit
 
-edittag sound\game_sfx\ui\button_based_ui_sounds\cursor_vertical.sound
+EditTag sound\game_sfx\ui\button_based_ui_sounds\cursor_vertical.sound
 ImportSound workingdir\sounds\ui\cursor_horizontal.mp3
-savetagchanges
-exit
+SaveTagChanges
+Exit
 
-edittag sound\game_sfx\ui\button_based_ui_sounds\x_button.sound
+EditTag sound\game_sfx\ui\button_based_ui_sounds\x_button.sound
 ImportSound workingdir\sounds\ui\y_button.mp3
-savetagchanges
-exit
+SaveTagChanges
+Exit
 
 echo ==Fix Lobby Title Placements==
-edittag ui\halox\pregame_lobby\pregame_lobby_template_mapeditor.gui_group_widget_definition
-setfield TextWidgets[0].Definition.GuiRenderBlock.Bounds720p 265 115 357 714
-savetagchanges
-exit
+EditTag ui\halox\pregame_lobby\pregame_lobby_template_mapeditor.gui_group_widget_definition
+SetField TextWidgets[0].Definition.GuiRenderBlock.Bounds720p 265 115 357 714
+SaveTagChanges
+Exit
 
-duplicatetag ui\halox\pregame_lobby\pregame_lobby_template_campaign.gui_group_widget_definition ui\halox\pregame_lobby\pregame_lobby_template_survival
-edittag ui\halox\pregame_lobby\pregame_lobby_template_survival.gui_group_widget_definition
-setfield TextWidgets[0].Definition.GuiRenderBlock.Bounds720p 265 115 357 714
-savetagchanges
-exit
+DuplicateTag ui\halox\pregame_lobby\pregame_lobby_template_campaign.gui_group_widget_definition ui\halox\pregame_lobby\pregame_lobby_template_survival
+EditTag ui\halox\pregame_lobby\pregame_lobby_template_survival.gui_group_widget_definition
+SetField TextWidgets[0].Definition.GuiRenderBlock.Bounds720p 265 115 357 714
+SaveTagChanges
+Exit
 
-edittag ui\halox\pregame_lobby\pregame_lobby_survival.gui_screen_widget_definition
-setfield GroupWidgets[0].TemplateReference ui\halox\pregame_lobby\pregame_lobby_template_survival.gui_group_widget_definition
-savetagchanges
-exit
+EditTag ui\halox\pregame_lobby\pregame_lobby_survival.gui_screen_widget_definition
+SetField GroupWidgets[0].TemplateReference ui\halox\pregame_lobby\pregame_lobby_template_survival.gui_group_widget_definition
+SaveTagChanges
+Exit
 
 echo ==Fix Lobby Leader Text Placements==
-edittag ui\halox\pregame_lobby\pregame_lobby_template_multiplayer.gui_group_widget_definition
-setfield TextWidgets[2].Definition.GuiRenderBlock.Bounds720p 20 115 350 704
-savetagchanges
-exit
+EditTag ui\halox\pregame_lobby\pregame_lobby_template_multiplayer.gui_group_widget_definition
+SetField TextWidgets[2].Definition.GuiRenderBlock.Bounds720p 20 115 350 704
+SaveTagChanges
+Exit
 
-edittag ui\halox\pregame_lobby\pregame_lobby_template_survival.gui_group_widget_definition
-setfield TextWidgets[2].Definition.GuiRenderBlock.Bounds720p 20 115 350 704
-savetagchanges
-exit
+EditTag ui\halox\pregame_lobby\pregame_lobby_template_survival.gui_group_widget_definition
+SetField TextWidgets[2].Definition.GuiRenderBlock.Bounds720p 20 115 350 704
+SaveTagChanges
+Exit
 
-edittag ui\halox\pregame_lobby\pregame_lobby_template_mapeditor.gui_group_widget_definition
-setfield TextWidgets[5].Definition.GuiRenderBlock.Bounds720p 20 115 350 704
-savetagchanges
-exit
+EditTag ui\halox\pregame_lobby\pregame_lobby_template_mapeditor.gui_group_widget_definition
+SetField TextWidgets[5].Definition.GuiRenderBlock.Bounds720p 20 115 350 704
+SaveTagChanges
+Exit
 
 echo ==Improve low gravity==
-edittag objects\levels\ca_dev\dlc_condemned\zero_g_field\zero_g_field.physics_model
-setfield PhantomTypes[0].Flags.Halo3ODST NegatesGravity,IgnoresScenery
-setfield PhantomTypes[0].DirectionAcceleration -1.5
-setfield PhantomTypes[0].DirectionMaxVelocity 3
-savetagchanges
-exit
+EditTag objects\levels\ca_dev\dlc_condemned\zero_g_field\zero_g_field.physics_model
+SetField PhantomTypes[0].Flags.Halo3ODST NegatesGravity,IgnoresScenery
+SetField PhantomTypes[0].DirectionAcceleration -1.5
+SetField PhantomTypes[0].DirectionMaxVelocity 3
+SaveTagChanges
+Exit
 
-edittag objects\levels\multi\dlc\dlc_slayer\low_grav_space\low_grav_space.physics_model
-setfield PhantomTypes[0].DirectionAcceleration -1.12
-setfield PhantomTypes[0].DirectionMaxVelocity 5
-savetagchanges
-exit
+EditTag objects\levels\multi\dlc\dlc_slayer\low_grav_space\low_grav_space.physics_model
+SetField PhantomTypes[0].DirectionAcceleration -1.12
+SetField PhantomTypes[0].DirectionMaxVelocity 5
+SaveTagChanges
+Exit
 
 echo ==Decrease jump velocity to match reach (also low gravity related)==
-edittag objects\characters\masterchief\mp_masterchief\mp_masterchief.biped
-setfield JumpVelocity 2.3
+EditTag objects\characters\masterchief\mp_masterchief\mp_masterchief.biped
+SetField JumpVelocity 2.3
 SaveTagChanges
-exit
+Exit
 
-edittag objects\characters\elite\mp_elite\mp_elite.biped
-setfield JumpVelocity 2.3
-savetagchanges
-exit
+EditTag objects\characters\elite\mp_elite\mp_elite.biped
+SetField JumpVelocity 2.3
+SaveTagChanges
+Exit
 
 # echo ==Fix green cruisers on TrainingPreserve and windows flashing...==
 EditTag objects\vehicles\covenant\covenant_fleet\cruiser\shaders\cruiser.shader
@@ -769,86 +775,86 @@ SaveTagChanges
 Exit
 
 # echo ==Shader fixes for High Noon...==
-edittag levels\dlc\cex_hangemhigh\shaders\ca_heh_glass_control.shader
-setargument specular_coefficient 0
-savetagchanges
-exit
-edittag levels\dlc\cex_hangemhigh\shaders\ca_heh_glass_catwalk.shader
-setargument specular_coefficient 0
-savetagchanges
-exit
-edittag levels\dlc\cex_hangemhigh\shaders\ca_heh_glass_transparent.shader
-setargument specular_coefficient 0
-savetagchanges
+EditTag levels\dlc\cex_hangemhigh\shaders\ca_heh_glass_control.shader
+SetArgument specular_coefficient 0
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_hangemhigh\shaders\ca_heh_catwalk_floor1.shader
-setargument area_specular_contribution 0
-savetagchanges
-exit
+EditTag levels\dlc\cex_hangemhigh\shaders\ca_heh_glass_catwalk.shader
+SetArgument specular_coefficient 0
+SaveTagChanges
+Exit
+EditTag levels\dlc\cex_hangemhigh\shaders\ca_heh_glass_transparent.shader
+SetArgument specular_coefficient 0
+SaveTagChanges
+Exit
+EditTag levels\dlc\cex_hangemhigh\shaders\ca_heh_catwalk_floor1.shader
+SetArgument area_specular_contribution 0
+SaveTagChanges
+Exit
 # echo ==Shader fixes for Boneyard...==
-edittag levels\solo\m70\shaders\m70_outside_stairs.shader
-setargument specular_coefficient 0
-savetagchanges
+EditTag levels\solo\m70\shaders\m70_outside_stairs.shader
+SetArgument specular_coefficient 0
+SaveTagChanges
 Exit
-edittag levels\solo\m70\shaders\m70_garage_door.shader
-setargument specular_coefficient 0
-savetagchanges
+EditTag levels\solo\m70\shaders\m70_garage_door.shader
+SetArgument specular_coefficient 0
+SaveTagChanges
 Exit
-edittag levels\solo\m70\shaders\m70_window_protection.shader
-setargument specular_coefficient 0
-savetagchanges
+EditTag levels\solo\m70\shaders\m70_window_protection.shader
+SetArgument specular_coefficient 0
+SaveTagChanges
 Exit
-edittag levels\solo\m70\shaders\metal\m70_metal_panel_ext_a_light.shader
-setargument specular_coefficient 0
-savetagchanges
+EditTag levels\solo\m70\shaders\metal\m70_metal_panel_ext_a_light.shader
+SetArgument specular_coefficient 0
+SaveTagChanges
 Exit
-edittag levels\solo\m70\shaders\m70_scaffold.shader
-setargument specular_coefficient 0
-savetagchanges
+EditTag levels\solo\m70\shaders\m70_scaffold.shader
+SetArgument specular_coefficient 0
+SaveTagChanges
 Exit
 
 # echo ==Shader fixes for Boardwalk...==
-edittag levels\solo\m50\shaders\paneling\wall_trims_a.shader
-setargument specular_coefficient 0
-setargument diffuse_coefficient 2.5
-savetagchanges
-exit
-edittag levels\solo\m50\shaders\signage\sign_1x1_boardwalk.shader
-setargument albedo_color 30 30 30 30
-savetagchanges
-exit
-edittag levels\solo\m50\shaders\signage\sign_1x1_park.shader
-setargument albedo_color 30 30 30 30
-savetagchanges
-exit
-edittag levels\solo\m50\shaders\signage\sign_2x1_boardwalk.shader
-setargument albedo_color 30 30 30 30
-savetagchanges
-exit
-edittag levels\solo\m50\shaders\signage\sign_2x1_park.shader
-setargument albedo_color 30 30 30 30
-savetagchanges
-exit
-edittag levels\solo\m50\shaders\signage\sign_3x1_be_safe.shader
-setargument albedo_color 30 30 30 30
-savetagchanges
-exit
-edittag levels\solo\m50\shaders\signage\sign_3x1_city_clean.shader
-setargument albedo_color 30 30 30 30
-savetagchanges
-exit
-edittag levels\solo\m50\shaders\signage\sign_3x1_r3.shader
-setargument albedo_color 30 30 30 30
-savetagchanges
-exit
-edittag levels\solo\m50\shaders\signage\sign_3x1_report_activity.shader
-setargument albedo_color 30 30 30 30
-savetagchanges
-exit
-edittag levels\solo\m50\shaders\signage\sign_3x1_welcome.shader
-setargument albedo_color 30 30 30 30
-savetagchanges
-exit
+EditTag levels\solo\m50\shaders\paneling\wall_trims_a.shader
+SetArgument specular_coefficient 0
+SetArgument diffuse_coefficient 2.5
+SaveTagChanges
+Exit
+EditTag levels\solo\m50\shaders\signage\sign_1x1_boardwalk.shader
+SetArgument albedo_color 30 30 30 30
+SaveTagChanges
+Exit
+EditTag levels\solo\m50\shaders\signage\sign_1x1_park.shader
+SetArgument albedo_color 30 30 30 30
+SaveTagChanges
+Exit
+EditTag levels\solo\m50\shaders\signage\sign_2x1_boardwalk.shader
+SetArgument albedo_color 30 30 30 30
+SaveTagChanges
+Exit
+EditTag levels\solo\m50\shaders\signage\sign_2x1_park.shader
+SetArgument albedo_color 30 30 30 30
+SaveTagChanges
+Exit
+EditTag levels\solo\m50\shaders\signage\sign_3x1_be_safe.shader
+SetArgument albedo_color 30 30 30 30
+SaveTagChanges
+Exit
+EditTag levels\solo\m50\shaders\signage\sign_3x1_city_clean.shader
+SetArgument albedo_color 30 30 30 30
+SaveTagChanges
+Exit
+EditTag levels\solo\m50\shaders\signage\sign_3x1_r3.shader
+SetArgument albedo_color 30 30 30 30
+SaveTagChanges
+Exit
+EditTag levels\solo\m50\shaders\signage\sign_3x1_report_activity.shader
+SetArgument albedo_color 30 30 30 30
+SaveTagChanges
+Exit
+EditTag levels\solo\m50\shaders\signage\sign_3x1_welcome.shader
+SetArgument albedo_color 30 30 30 30
+SaveTagChanges
+Exit
 
 ## Commented out until I port the Spawn Points
 ##echo ==Replace initial spawn points==
@@ -900,8 +906,8 @@ ExitModPackage
 
 echo ==Fix Shield Crash==
 EditTag objects\characters\jackal\fx\_particles\plasma_noise.particle
-setfield RenderMethod.ShaderProperties[0].TextureConstants[0].Bitmap fx\bitmaps\material\impact_spray_large.bitmap
-setfield RenderMethod.ShaderProperties[0].TextureConstants[2].Bitmap fx\bitmaps\material\impact_spray_large.bitmap
+SetField RenderMethod.ShaderProperties[0].TextureConstants[0].Bitmap fx\bitmaps\material\impact_spray_large.bitmap
+SetField RenderMethod.ShaderProperties[0].TextureConstants[2].Bitmap fx\bitmaps\material\impact_spray_large.bitmap
 SaveTagChanges
 Exit
 
