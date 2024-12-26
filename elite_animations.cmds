@@ -1,0 +1,256 @@
+# WEAPONS THAT DON'T NEED IK
+# SWORD, MAGNUM, NEEDLER, PLASMA PISTOL, PLASMA RIFLE, SPIKER, TARGET LOCATOR, FUEL ROD, PLASMA LAUNCHER
+stringid add mineleloldabest_left_hand_elite_fp
+
+edittag dw3\r3ach\objects\weapons\melee\energy_sword\animations\fp_elite\fp_elite.model_animation_graph
+addanimation workingdir\animations\elite_fp\sword
+sortmodes
+savetagchanges
+exit
+
+edittag dw3\r3ach\objects\weapons\melee\gravity_hammer\animations\fp_elite\fp_elite.model_animation_graph
+addanimation workingdir\animations\elite_fp\hammer
+sortmodes
+
+setfield Animations[14].PlaybackFlags DisableWeaponIk
+
+addblockelements Modes[0].WeaponClass[0].WeaponIk
+setfield Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+setfield Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker mineleloldabest_left_hand_elite_fp
+savetagchanges
+exit
+
+edittag dw3\r3ach\objects\weapons\pistol\magnum\animations\fp_elite\fp_elite.model_animation_graph
+addanimation workingdir\animations\elite_fp\magnum
+sortmodes
+savetagchanges
+exit
+
+edittag dw3\r3ach\objects\weapons\pistol\needler\animations\fp_elite\fp_elite.model_animation_graph
+addanimation workingdir\animations\elite_fp\needler
+sortmodes
+savetagchanges
+exit
+
+edittag dw3\r3ach\objects\weapons\pistol\plasma_pistol\animations\fp_elite\fp_elite.model_animation_graph
+addanimation workingdir\animations\elite_fp\plasmapistol
+sortmodes
+savetagchanges
+exit
+
+edittag dw3\r3ach\objects\weapons\rifle\assault_rifle\animations\fp_elite\fp_elite.model_animation_graph
+addanimation workingdir\animations\elite_fp\assaultrifle
+sortmodes
+
+setfield Animations[6].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield Animations[15].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield Animations[16].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield Animations[24].PlaybackFlags DisableWeaponIk
+
+addblockelements Modes[0].WeaponClass[0].WeaponIk
+setfield Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+setfield Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker mineleloldabest_left_hand_elite_fp
+savetagchanges
+exit
+
+edittag dw3\r3ach\objects\weapons\rifle\concussion_rifle\animations\fp_elite\fp_elite.model_animation_graph
+addanimation workingdir\animations\elite_fp\concussionrifle
+sortmodes
+
+setfield Animations[15].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield Animations[16].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+
+addblockelements Modes[0].WeaponClass[0].WeaponIk
+setfield Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+setfield Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker mineleloldabest_left_hand_elite_fp
+savetagchanges
+exit
+
+edittag dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_elite\fp_elite.model_animation_graph
+addanimation workingdir\animations\elite_fp\dmr
+sortmodes
+
+setfield Animations[5].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield Animations[14].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield Animations[15].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield Animations[23].PlaybackFlags DisableWeaponIk
+
+addblockelements Modes[0].WeaponClass[0].WeaponIk
+setfield Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+setfield Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker mineleloldabest_left_hand_elite_fp
+savetagchanges
+exit
+
+edittag dw3\r3ach\objects\weapons\rifle\focus_rifle\animations\fp_elite\fp_elite.model_animation_graph
+addanimation workingdir\animations\elite_fp\focusrifle
+sortmodes
+
+setfield Animations[7].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield Animations[10].PlaybackFlags DisableWeaponIk
+setfield Animations[11].PlaybackFlags DisableWeaponIk
+setfield Animations[12].PlaybackFlags DisableWeaponIk
+setfield Animations[16].PlaybackFlags DisableWeaponIk
+setfield Animations[23].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+
+addblockelements Modes[0].WeaponClass[0].WeaponIk
+setfield Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+setfield Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker mineleloldabest_left_hand_elite_fp
+savetagchanges
+exit
+
+edittag dw3\r3ach\objects\weapons\rifle\grenade_launcher\animations\fp_elite\fp_elite.model_animation_graph
+addanimation workingdir\animations\elite_fp\grenadelauncher
+sortmodes
+
+setfield Animations[4].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield Animations[5].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield Animations[14].PlaybackFlags DisableWeaponAim1stPerson
+setfield Animations[15].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+
+addblockelements Modes[0].WeaponClass[0].WeaponIk
+setfield Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+setfield Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker mineleloldabest_left_hand_elite_fp
+savetagchanges
+exit
+
+edittag dw3\r3ach\objects\weapons\rifle\needle_rifle\animations\fp_elite\fp_elite.model_animation_graph
+addanimation workingdir\animations\elite_fp\needlerifle
+sortmodes
+
+setfield Animations[6].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield Animations[15].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield Animations[16].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+
+addblockelements Modes[0].WeaponClass[0].WeaponIk
+setfield Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+setfield Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker mineleloldabest_left_hand_elite_fp
+savetagchanges
+exit
+
+edittag dw3\r3ach\objects\weapons\rifle\plasma_repeater\animations\fp_elite\fp_elite.model_animation_graph
+addanimation workingdir\animations\elite_fp\plasmarepeater
+sortmodes
+
+setfield Animations[6].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield Animations[18].PlaybackFlags DisableWeaponIk
+setfield Animations[23].PlaybackFlags ForceWeaponIkOn
+setfield Animations[24].PlaybackFlags ForceWeaponIkOn
+setfield Animations[25].PlaybackFlags ForceWeaponIkOn
+setfield Animations[31].PlaybackFlags DisableWeaponIk
+
+addblockelements Modes[0].WeaponClass[0].WeaponIk
+setfield Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+setfield Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker mineleloldabest_left_hand_elite_fp
+savetagchanges
+exit
+
+edittag dw3\r3ach\objects\weapons\rifle\plasma_rifle\animations\fp_elite\fp_elite.model_animation_graph
+addanimation workingdir\animations\elite_fp\plasmarifle
+sortmodes
+savetagchanges
+exit
+
+edittag dw3\r3ach\objects\weapons\rifle\shotgun\animations\fp_elite\fp_elite.model_animation_graph
+addanimation workingdir\animations\elite_fp\shotgun
+sortmodes
+
+setfield Animations[0].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield Animations[7].PlaybackFlags DisableInterpolationIn,DisableInterpolationOut,DisableWeaponIk,DisableWeaponAim1stPerson
+setfield Animations[14].AnimationData.SoundEvents[0].Sound 8
+setfield Animations[14].PlaybackFlags ForceWeaponIkOn
+setfield Animations[16].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield Animations[17].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield Animations[25].PlaybackFlags DisableWeaponIk
+
+addblockelements Modes[0].WeaponClass[0].WeaponIk
+setfield Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+setfield Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker mineleloldabest_left_hand_elite_fp
+savetagchanges
+exit
+
+edittag dw3\r3ach\objects\weapons\rifle\sniper_rifle\animations\fp_elite\fp_elite.model_animation_graph
+addanimation workingdir\animations\elite_fp\sniperrifle
+sortmodes
+
+setfield Animations[9].PlaybackFlags DisableWeaponIk
+setfield Animations[12].PlaybackFlags DisableWeaponIk
+setfield Animations[14].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield Animations[15].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+
+addblockelements Modes[0].WeaponClass[0].WeaponIk
+setfield Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+setfield Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker mineleloldabest_left_hand_elite_fp
+savetagchanges
+exit
+
+edittag dw3\r3ach\objects\weapons\rifle\spike_rifle\animations\fp_elite\fp_elite.model_animation_graph
+addanimation workingdir\animations\elite_fp\spiker
+sortmodes
+savetagchanges
+exit
+
+edittag dw3\r3ach\objects\weapons\support_high\flak_cannon\animations\fp_elite\fp_elite.model_animation_graph
+addanimation workingdir\animations\elite_fp\flakcannon
+sortmodes
+savetagchanges
+exit
+
+edittag dw3\r3ach\objects\weapons\support_high\plasma_launcher\animations\fp_elite\fp_elite.model_animation_graph
+addanimation workingdir\animations\elite_fp\plasmalauncher
+sortmodes
+savetagchanges
+exit
+
+edittag dw3\r3ach\objects\weapons\support_high\rocket_launcher\animations\fp_elite\fp_elite.model_animation_graph
+addanimation workingdir\animations\elite_fp\rocketlauncher
+sortmodes
+
+setfield Animations[0].PlaybackFlags ForceWeaponIkOn
+setfield Animations[1].PlaybackFlags ForceWeaponIkOn
+setfield Animations[2].PlaybackFlags ForceWeaponIkOn
+setfield Animations[3].PlaybackFlags ForceWeaponIkOn
+setfield Animations[4].PlaybackFlags DisableWeaponAim1stPerson,ForceWeaponIkOn
+setfield Animations[11].PlaybackFlags ForceWeaponIkOn
+setfield Animations[10].PlaybackFlags ForceWeaponIkOn
+setfield Animations[9].PlaybackFlags ForceWeaponIkOn
+setfield Animations[25].PlaybackFlags ForceWeaponIkOn
+setfield Animations[26].PlaybackFlags ForceWeaponIkOn
+setfield Animations[27].PlaybackFlags ForceWeaponIkOn
+setfield Animations[24].PlaybackFlags ForceWeaponIkOn
+
+addblockelements Modes[0].WeaponClass[0].WeaponIk
+setfield Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+setfield Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker mineleloldabest_left_hand_elite_fp
+savetagchanges
+exit
+
+edittag dw3\r3ach\objects\weapons\support_high\spartan_laser\animations\fp_elite\fp_elite.model_animation_graph
+addanimation workingdir\animations\elite_fp\spartanlaser
+sortmodes
+
+setfield Animations[1].PlaybackFlags ForceWeaponIkOn
+setfield Animations[2].PlaybackFlags ForceWeaponIkOn
+setfield Animations[3].PlaybackFlags ForceWeaponIkOn
+setfield Animations[4].PlaybackFlags ForceWeaponIkOn
+setfield Animations[5].PlaybackFlags ForceWeaponIkOn
+setfield Animations[6].PlaybackFlags ForceWeaponIkOn
+setfield Animations[8].PlaybackFlags DisableWeaponAim1stPerson,ForceWeaponIkOn
+setfield Animations[12].PlaybackFlags ForceWeaponIkOn
+setfield Animations[13].PlaybackFlags ForceWeaponIkOn
+setfield Animations[31].PlaybackFlags ForceWeaponIkOn
+setfield Animations[32].PlaybackFlags ForceWeaponIkOn
+setfield Animations[33].PlaybackFlags ForceWeaponIkOn
+setfield Animations[34].PlaybackFlags ForceWeaponIkOn
+
+
+addblockelements Modes[0].WeaponClass[0].WeaponIk
+setfield Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+setfield Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker mineleloldabest_left_hand_elite_fp
+savetagchanges
+exit
+
+edittag dw3\r3ach\objects\weapons\pistol\target_laser\animations\fp_elite\fp_elite.model_animation_graph
+addanimation workingdir\animations\elite_fp\targetlaser
+sortmodes
+savetagchanges
+exit

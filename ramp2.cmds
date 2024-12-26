@@ -926,6 +926,10 @@ echo ==Spartan Weapons Animation==
 runcommands "workingdir\spartan_animations.cmds"
 runcommands "workingdir\spartan_rendermodel.cmds"
 
+echo ==Elite Weapons Animation==
+runcommands "workingdir\elite_animations.cmds"
+runcommands "workingdir\elite_rendermodel.cmds"
+
 importfonts workingdir\fonts_new.bin
 
 UpdateMapFiles "workingdir\info"
