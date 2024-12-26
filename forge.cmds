@@ -1814,11 +1814,6 @@ EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[659].Type Prop
 SaveTagChanges
 Exit
-EditTag objects\gear\human\military\crate_h_gun_rack_3\crate_h_gun_rack_3.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
 
 AddForgeItem "MEDICAL_BARREL" 86 objects\gear\human\medical\barrel\barrel.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
