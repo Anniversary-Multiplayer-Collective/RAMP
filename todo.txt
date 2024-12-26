@@ -1,5 +1,4 @@
 TODO:
-Add skyboxed for FF maps to palette
 Fix weapon pickup icons.
 Fix projectile drop on flak cannon and maybe banshee bomb?
 Fix it being square levels\dlc\cex_damnation\fx\particles\greensplat.particle

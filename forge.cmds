@@ -1778,6 +1778,179 @@ SetField Palette[661].Type Prop
 SaveTagChanges
 Exit
 
+AddForgeItem "COV_FOOD_RATIONS" 87 objects\props\covenant\cov_food_rations\cov_food_rations.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[662].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "DLC_SLAYER_CART_A" 87 levels\multi\dlc\objects\dlc_slayer_cart_a\dlc_slayer_cart_a.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[663].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "DLC_SLAYER_CART_B" 87 levels\multi\dlc\objects\dlc_slayer_cart_b\dlc_slayer_cart_b.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[664].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "KILL_VOLUME" -1 objects\multi\boundaries\kill_volume.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[665].Type Tool
+SaveTagChanges
+Exit
+
+AddForgeItem "DRUM_55GAL" -1 objects\gear\human\military\drum_55gal\drum_55gal.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[666].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "5THSPARTAN" 87 objects\props\fifthspartan\5thspartan\5thspartan.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[667].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "VENDING_MACHINE" 87 objects\props\human\urban\vending_machine\vending_machine.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[668].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "TRASH_CAN" 87 objects\props\human\urban\streets\trash_can\trash_can.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[669].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "ANTENNAE_COMM_LARGE" 87 objects\props\covenant\antennae_comm_large\antennae_comm_large.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[670].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "ANTENNAE_COMM" 87 objects\props\covenant\antennae_comm\antennae_comm.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[671].Type Prop
+SaveTagChanges
+Exit
+
+#TODO Add to machine category
+AddForgeItem "PACKAGE_CABINET" 87 objects\multi\package_cabinet\package_cabinet.device_machine
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[672].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "FF_SHORING" 87 objects\cex\cex_headlong\forge\ff_shoring\ff_shoring.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[673].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "MAN_CANNON_ROCKET" 87 objects\cex\cex_headlong\crates\man_cannon\man_cannon.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[674].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "HEADLONG_DBL_CRATE" 87 levels\dlc\cex_headlong\crates\headlong_dbl_crate\headlong_dbl_crate.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[675].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "CONTAINER_LONG_MILITARY" 87 objects\vehicles\human\civilian\truck_cab_large\attachments\container_long_military\container_long_military.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[676].Type Prop
+SaveTagChanges
+Exit
+
+#TODO Add to machine category
+AddForgeItem "DLC_INVASION_ALPHA_RELAY" 87 levels\multi\dlc\objects\dlc_invasion_alpha_relay\dlc_invasion_alpha_relay.device_machine
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[677].Type Prop
+SaveTagChanges
+Exit
+
+#TODO Add to machine category
+AddForgeItem "PHANTOM" 87 objects\vehicles\covenant\phantom\phantom.device_machine
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[678].Type Prop
+SaveTagChanges
+Exit
+
+#TODO Add to machine category
+AddForgeItem "DLC_INVASION_FENCE_GATE" 87 levels\multi\dlc\objects\dlc_invasion_fence_gate\dlc_invasion_fence_gate.device_machine
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[679].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "CA_CONDEMNED_CRATE_PHYSIC" 87 objects\ca_dev\dlc_condemned\crates\ca_condemned_crate_physic\ca_condemned_crate_physic.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[680].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "CA_CONDEMNED_MONITOR_WALL_A_100" 87 levels\dlc\condemned\effects\ca_condemned_monitor_wall_a_100\ca_condemned_monitor_wall_a_100.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[681].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "CA_CONDEMNED_MONITOR_WALL_A_125" 87 levels\dlc\condemned\effects\ca_condemned_monitor_wall_a_125\ca_condemned_monitor_wall_a_125.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[682].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "CA_CONDEMNED_MONITOR_WALL_A_50" 87 levels\dlc\condemned\effects\ca_condemned_monitor_wall_a_50\ca_condemned_monitor_wall_a_50.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[683].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "CA_CONDEMNED_MONITOR_WALL_A_65" 87 levels\dlc\condemned\effects\ca_condemned_monitor_wall_a_65\ca_condemned_monitor_wall_a_65.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[684].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "CA_CONDEMNED_MONITOR_WALL_B_100" 87 levels\dlc\condemned\effects\ca_condemned_monitor_wall_b_100\ca_condemned_monitor_wall_b_100.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[685].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "CA_CONDEMNED_MONITOR_WALL_B_MED" 87 levels\dlc\condemned\effects\ca_condemned_monitor_wall_b_med\ca_condemned_monitor_wall_b_med.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[686].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "SABRE_MP" 87 objects\props\human\unsc\sabre_mp\sabre_mp.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[687].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "H_CHAIR_FOLDING" 87 objects\props\human\urban\chair_folding\h_chair_folding.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[688].Type Prop
+SaveTagChanges
+Exit
+
+
+
+
+
+
+
+
 
 
 # echo ==Fix Shield Doors...==
