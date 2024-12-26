@@ -171,7 +171,15 @@ Exit
 
 OpenCacheFile "reachmaps\ff50_park.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag levels\solo\m50\bitmaps\metal\metal_expansion_plate_diffuse.bitmap
+PortTag levels\solo\m50\bitmaps\metal\metal_expansion_plate_zbump.bitmap
 PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+Exit
+
+EditTag levels\solo\m50\shaders\metal\metal_expansion_plate_.shader
+setfield ShaderProperties[0].TextureConstants[0].Bitmap levels\solo\m50\bitmaps\metal\metal_expansion_plate_diffuse.bitmap
+setfield ShaderProperties[0].TextureConstants[3].Bitmap levels\solo\m50\bitmaps\metal\metal_expansion_plate_zbump.bitmap
+SaveTagChanges
 Exit
 
 OpenCacheFile "reachmaps\ff60_airview.map"
