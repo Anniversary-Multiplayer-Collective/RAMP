@@ -1796,13 +1796,13 @@ SetField Palette[664].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "KILL_VOLUME" -1 objects\multi\boundaries\kill_volume.scenery
+AddForgeItem "KILL_VOLUME" 87 objects\multi\boundaries\kill_volume.scenery
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[665].Type Tool
 SaveTagChanges
 Exit
 
-AddForgeItem "DRUM_55GAL" -1 objects\gear\human\military\drum_55gal\drum_55gal.scenery
+AddForgeItem "DRUM_55GAL" 87 objects\gear\human\military\drum_55gal\drum_55gal.scenery
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[666].Type Prop
 SaveTagChanges
