@@ -1679,7 +1679,7 @@ Exit
 
 AddForgeItem "DLC_MEDIUM_CAVE_BLOCKING_ROCK" 86 levels\multi\dlc\objects\dlc_medium_cave_blocking_rock\dlc_medium_cave_blocking_rock.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[646].Type Structure
+SetField Palette[647].Type Structure
 SaveTagChanges
 Exit
 EditTag levels\multi\dlc\objects\dlc_medium_cave_blocking_rock\dlc_medium_cave_blocking_rock.physics_model
@@ -1688,6 +1688,154 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
+AddForgeItem "FIREFIGHT_RESPAWN_ZONE" 86 objects\multi\firefight\firefight_respawn_zone.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[648].Type Slayer
+SaveTagChanges
+Exit
+EditTag objects\multi\models\mp_area_emitter\mp_area_emitter.physics_model
+SetField RigidBodies[0].MotionType Keyframed
+SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
+SaveTagChanges
+Exit
+
+AddForgeItem "COV_PORTABLE_SHIELD" 86 objects\props\covenant\cov_portable_shield\cov_portable_shield.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[649].Type Prop
+SaveTagChanges
+Exit
+EditTag objects\props\covenant\cov_portable_shield\cov_portable_shield.physics_model
+SetField RigidBodies[0].MotionType Keyframed
+SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
+SaveTagChanges
+Exit
+
+AddForgeItem "CRATE_SPACE_SMALL" 86 objects\props\covenant\crate_space_small\crate_space_small.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[650].Type Prop
+SaveTagChanges
+Exit
+EditTag objects\props\covenant\crate_space_small\crate_space_small.physics_model
+SetField RigidBodies[0].MotionType Keyframed
+SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
+SaveTagChanges
+Exit
+
+AddForgeItem "CRATE_SPACE" 86 objects\props\covenant\crate_space\crate_space.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[651].Type Prop
+SaveTagChanges
+Exit
+EditTag objects\props\covenant\crate_space\crate_space.physics_model
+SetField RigidBodies[0].MotionType Keyframed
+SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
+SaveTagChanges
+Exit
+
+AddForgeItem "COV_FUEL_CELL_A" 86 objects\props\covenant\cov_fuel_cell_a\cov_fuel_cell_a.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[652].Type Prop
+SaveTagChanges
+Exit
+EditTag objects\props\covenant\cov_fuel_cell_a\cov_fuel_cell_a.physics_model
+SetField RigidBodies[0].MotionType Keyframed
+SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
+SaveTagChanges
+Exit
+
+AddForgeItem "COV_FUEL_CELL_B_DYNAMIC" 86 objects\props\covenant\cov_fuel_cell_b\cov_fuel_cell_b_dynamic.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[653].Type Prop
+SaveTagChanges
+Exit
+EditTag objects\props\covenant\cov_fuel_cell_b\cov_fuel_cell_b_dynamic.physics_model
+SetField RigidBodies[0].MotionType Keyframed
+SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
+SaveTagChanges
+Exit
+
+AddForgeItem "COV_FUEL_CELL_C" 86 objects\props\covenant\cov_fuel_cell_c\cov_fuel_cell_c.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[654].Type Prop
+SaveTagChanges
+Exit
+EditTag objects\props\covenant\cov_fuel_cell_c\cov_fuel_cell_c.physics_model
+SetField RigidBodies[0].MotionType Keyframed
+SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
+SaveTagChanges
+Exit
+
+AddForgeItem "VEHICLE_FUEL_STORAGE" 86 objects\props\covenant\vehicle_fuel_storage\vehicle_fuel_storage.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[655].Type Prop
+SaveTagChanges
+Exit
+EditTag objects\props\covenant\vehicle_fuel_storage\vehicle_fuel_storage.physics_model
+SetField RigidBodies[0].MotionType Keyframed
+SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
+SaveTagChanges
+Exit
+
+AddForgeItem "CRATE_H_GUN_RACK_0" 86 objects\gear\human\military\crate_h_gun_rack_0\crate_h_gun_rack_0.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[656].Type Prop
+SaveTagChanges
+Exit
+EditTag objects\gear\human\military\crate_h_gun_rack_0\crate_h_gun_rack_0.physics_model
+SetField RigidBodies[0].MotionType Keyframed
+SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
+SaveTagChanges
+Exit
+
+AddForgeItem "CRATE_H_GUN_RACK_1" 86 objects\gear\human\military\crate_h_gun_rack_1\crate_h_gun_rack_1.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[657].Type Prop
+SaveTagChanges
+Exit
+EditTag objects\gear\human\military\crate_h_gun_rack_1\crate_h_gun_rack_1.physics_model
+SetField RigidBodies[0].MotionType Keyframed
+SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
+SaveTagChanges
+Exit
+
+AddForgeItem "CRATE_H_GUN_RACK_2" 86 objects\gear\human\military\crate_h_gun_rack_2\crate_h_gun_rack_2.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[658].Type Prop
+SaveTagChanges
+Exit
+EditTag objects\gear\human\military\crate_h_gun_rack_2\crate_h_gun_rack_2.physics_model
+SetField RigidBodies[0].MotionType Keyframed
+SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
+SaveTagChanges
+Exit
+
+AddForgeItem "CRATE_H_GUN_RACK_3" 86 objects\gear\human\military\crate_h_gun_rack_3\crate_h_gun_rack_3.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[659].Type Prop
+SaveTagChanges
+Exit
+EditTag objects\gear\human\military\crate_h_gun_rack_3\crate_h_gun_rack_3.physics_model
+SetField RigidBodies[0].MotionType Keyframed
+SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
+SaveTagChanges
+Exit
+
+AddForgeItem "MEDICAL_BARREL" 86 objects\gear\human\medical\barrel\barrel.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[660].Type Prop
+SaveTagChanges
+Exit
+EditTag objects\gear\human\medical\barrel\barrel.physics_model
+SetField RigidBodies[0].MotionType Keyframed
+SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
+SaveTagChanges
+Exit
+
+AddForgeItem "CRATE_MULTI_SINGLE_PLAIN" 86 objects\gear\human\industrial\crate_multi_single_plain\crate_multi_single_plain.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[661].Type Prop
+SaveTagChanges
+Exit
 
 
 
