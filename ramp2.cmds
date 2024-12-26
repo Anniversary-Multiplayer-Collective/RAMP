@@ -27,6 +27,7 @@ NameTag objects\gear\human\military\crate_packing_giant\crate_packing_giant.rend
 EditTag objects\gear\human\military\crate_packing_giant\crate_packing_giant_mp.model
 SetField RenderModel objects\gear\human\military\crate_packing_giant\crate_packing_giant_h3.render_model
 SaveTagChanges
+Exit
 
 
 OpenCacheFile "reachmaps\20_sword_slayer.map"
