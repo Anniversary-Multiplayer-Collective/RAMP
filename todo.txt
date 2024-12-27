@@ -1,5 +1,7 @@
 TODO:
+See if the forge lights and FX balls can be ported
 Fix weapon pickup icons.
+Fix health pack
 Two way teleporter not working, https://s.zekken.rocks/M5gvXoE6.jpg
 Fix projectile drop on flak cannon and maybe banshee bomb?
 Fix it being square levels\dlc\cex_damnation\fx\particles\greensplat.particle

@@ -903,6 +903,55 @@ setargument area_specular_contribution_m_2 0
 SaveTagChanges
 Exit
 
+# echo ==Shader fixes for Countdown...==
+edittag levels\solo\m45\shaders\silo_floor.shader
+setargument specular_coefficient 0.03
+SaveTagChanges
+Exit
+edittag levels\solo\m45\shaders\silo_floor_exterior.shader
+setargument specular_coefficient 0.03
+SaveTagChanges
+Exit
+edittag levels\solo\m45\shaders\unsc_vent_port.shader
+setargument specular_coefficient 0.003
+SaveTagChanges
+Exit
+edittag levels\solo\m45\shaders\unsc_concrete_white.shader
+setargument specular_coefficient 0.003
+SaveTagChanges
+Exit
+edittag levels\solo\m45\shaders\unsc_silo_door.shader
+setargument specular_coefficient 0.003
+SaveTagChanges
+Exit
+edittag levels\solo\m45\shaders\unsc_silo_steps_concrete.shader
+setargument specular_coefficient 0.003
+SaveTagChanges
+Exit
+edittag levels\solo\m45\shaders\ext_unsc_concrete_barnicles.shader
+setargument specular_coefficient 0.003
+SaveTagChanges
+Exit
+edittag levels\solo\m45\shaders\ext_unsc_concrete.shader
+setargument specular_coefficient 0.003
+SaveTagChanges
+Exit
+edittag levels\solo\m45\shaders\unsc_concrete_blue.shader
+setargument specular_coefficient 0.003
+SaveTagChanges
+Exit
+edittag levels\solo\m45\shaders\unsc_concrete_orange.shader
+setargument specular_coefficient 0.003
+SaveTagChanges
+Exit
+edittag levels\solo\m45\shaders\metal_boilerplate.shader
+setargument specular_coefficient 0.003
+SaveTagChanges
+Exit
+
+
+
+
 ## Commented out until I port the Spawn Points
 ##echo ==Replace initial spawn points==
 ##EditTag objects\multi\assault\assault_initial_spawn_point.scenery

@@ -2721,6 +2721,11 @@ SetField Palette[817].Type Prop
 SaveTagChanges
 Exit
 
+AddForgeItem "MONITOR_FLUSH" 87 objects\props\human\oni\monitor_flush\monitor_flush.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[818].Type Prop
+SaveTagChanges
+Exit
 
 
 
@@ -2730,11 +2735,42 @@ Exit
 
 
 
-
-
-
-
-
+### echo ==Reach Screen Effects...== They dont work
+##PortTag objects\levels\shared\screen_fx_orb\fx\juicy.bloc
+##AddForgeItem "JUICY" 87 objects\levels\shared\screen_fx_orb\fx\juicy.bloc
+##PortTag objects\levels\shared\screen_fx_orb\fx\colorblind.bloc
+##AddForgeItem "COLORBLIND" 87 objects\levels\shared\screen_fx_orb\fx\colorblind.bloc
+##PortTag objects\levels\shared\screen_fx_orb\fx\dusk.bloc
+##AddForgeItem "DUSK" 87 objects\levels\shared\screen_fx_orb\fx\dusk.bloc
+##PortTag objects\levels\shared\screen_fx_orb\fx\golden_hour.bloc
+##AddForgeItem "GOLDEN_HOUR" 87 objects\levels\shared\screen_fx_orb\fx\golden_hour.bloc
+##PortTag objects\levels\shared\screen_fx_orb\fx\gloomy.bloc
+##AddForgeItem "GLOOMY" 87 objects\levels\shared\screen_fx_orb\fx\gloomy.bloc
+##PortTag objects\levels\shared\screen_fx_orb\fx\olde_timey.bloc
+##AddForgeItem "OLDE_TIMEY" 87 objects\levels\shared\screen_fx_orb\fx\olde_timey.bloc
+##PortTag objects\levels\shared\screen_fx_orb\fx\eerie.bloc
+##AddForgeItem "EERIE" 87 objects\levels\shared\screen_fx_orb\fx\eerie.bloc
+##PortTag objects\levels\shared\screen_fx_orb\fx\pen_and_ink.crate
+##AddForgeItem "PEN_AND_INK" 87 objects\levels\shared\screen_fx_orb\fx\pen_and_ink.crate
+# echo ==Forge Lights...==
+PortTag objects\levels\forge\ff_light_flash_yellow\ff_light_flash_yellow.bloc
+AddForgeItem "FF_LIGHT_FLASH_YELLOW" 87 objects\levels\forge\ff_light_flash_yellow\ff_light_flash_yellow.bloc
+PortTag objects\levels\forge\ff_light_flash_red\ff_light_flash_red.bloc
+AddForgeItem "FF_LIGHT_FLASH_RED" 87 objects\levels\forge\ff_light_flash_red\ff_light_flash_red.bloc
+PortTag objects\levels\forge\ff_light_red\ff_light_red.bloc
+AddForgeItem "FF_LIGHT_RED" 87 objects\levels\forge\ff_light_red\ff_light_red.bloc
+PortTag objects\levels\forge\ff_light_white\ff_light_white.bloc
+AddForgeItem "FF_LIGHT_WHITE" 87 objects\levels\forge\ff_light_white\ff_light_white.bloc
+PortTag objects\levels\forge\ff_light_green\ff_light_green.bloc
+AddForgeItem "FF_LIGHT_GREEN" 87 objects\levels\forge\ff_light_green\ff_light_green.bloc
+PortTag objects\levels\forge\ff_light_yellow\ff_light_yellow.bloc
+AddForgeItem "FF_LIGHT_YELLOW" 87 objects\levels\forge\ff_light_yellow\ff_light_yellow.bloc
+PortTag objects\levels\forge\ff_light_orange\ff_light_orange.bloc
+AddForgeItem "FF_LIGHT_ORANGE" 87 objects\levels\forge\ff_light_orange\ff_light_orange.bloc
+PortTag objects\levels\forge\ff_light_purple\ff_light_purple.bloc
+AddForgeItem "FF_LIGHT_PURPLE" 87 objects\levels\forge\ff_light_purple\ff_light_purple.bloc
+PortTag objects\levels\forge\ff_light_blue\ff_light_blue.bloc
+AddForgeItem "FF_LIGHT_BLUE" 87 objects\levels\forge\ff_light_blue\ff_light_blue.bloc
 
 # echo ==Fix Shield Doors...==
 EditTag objects\levels\forge\ff_one_way_door_garage\ff_one_way_door_garage.physics_model
@@ -2778,7 +2814,7 @@ SaveTagChanges
 Exit
 
 
-# echo ==Fix Despawning Forge Items...==
+# echo ==Remove damage from ported items...==
 ForEach hlmt contains: objects\levels\forge RemoveBlockElements NewDamageInfo 0 *
 
 EditTag objects\equipment\health_pack\health_pack.model
@@ -2802,6 +2838,51 @@ SaveTagChanges
 Exit
 
 EditTag objects\multi\dice\dice.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+
+EditTag objects\levels\forge\ff_light_flash_yellow\ff_light_flash_yellow.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+
+EditTag objects\levels\forge\ff_light_flash_red\ff_light_flash_red.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+
+EditTag objects\levels\forge\ff_light_red\ff_light_red.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+
+EditTag objects\levels\forge\ff_light_white\ff_light_white.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+
+EditTag objects\levels\forge\ff_light_green\ff_light_green.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+
+EditTag objects\levels\forge\ff_light_yellow\ff_light_yellow.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+
+EditTag objects\levels\forge\ff_light_orange\ff_light_orange.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+
+EditTag objects\levels\forge\ff_light_purple\ff_light_purple.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+
+EditTag objects\levels\forge\ff_light_blue\ff_light_blue.model
 RemoveBlockElements NewDamageInfo 0 1
 SaveTagChanges
 Exit
