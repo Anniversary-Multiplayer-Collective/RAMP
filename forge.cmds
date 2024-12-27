@@ -2499,103 +2499,103 @@ SetField Palette[780].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "GARAGE_STORAGE_RACK_SHORT" objects\props\human\pioneer\furniture\garage_storage_rack_short\garage_storage_rack_short.scenery
+AddForgeItem "GARAGE_STORAGE_RACK_SHORT" 87 objects\props\human\pioneer\furniture\garage_storage_rack_short\garage_storage_rack_short.scenery
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[781].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "BAGS_COMPOST_PILE_A" objects\props\human\pioneer\farm\bags_compost_pile_a\bags_compost_pile_a.scenery
+AddForgeItem "BAGS_COMPOST_PILE_A" 87 objects\props\human\pioneer\farm\bags_compost_pile_a\bags_compost_pile_a.scenery
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[782].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "LOUNGE_BENCH_A" objects\props\human\oni\furniture\lounge_bench_a\lounge_bench_a.scenery
+AddForgeItem "LOUNGE_BENCH_A" 87 objects\props\human\oni\furniture\lounge_bench_a\lounge_bench_a.scenery
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[783].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "ONI_OFFICE_CLIPBOARD" objects\props\human\oni\small_desk_objects\oni_office_clipboard\oni_office_clipboard.crate
+AddForgeItem "ONI_OFFICE_CLIPBOARD" 87 objects\props\human\oni\small_desk_objects\oni_office_clipboard\oni_office_clipboard.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[784].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "GRAVLIFT1_PRISONER" objects\cex\cex_prisoner\crates\gravlift1_prisoner\gravlift1_prisoner.crate
+AddForgeItem "GRAVLIFT1_PRISONER" 87 objects\cex\cex_prisoner\crates\gravlift1_prisoner\gravlift1_prisoner.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[785].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "GRAVLIFT2_PRISONER" objects\cex\cex_prisoner\crates\gravlift2_prisoner\gravlift2_prisoner.crate
+AddForgeItem "GRAVLIFT2_PRISONER" 87 objects\cex\cex_prisoner\crates\gravlift2_prisoner\gravlift2_prisoner.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[786].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "CRATE_SPACE_MP" objects\props\covenant\crate_space\crate_space_mp.crate
+AddForgeItem "CRATE_SPACE_MP" 87 objects\props\covenant\crate_space\crate_space_mp.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[787].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "ONI_EXT_SECURITY_CAMERA" objects\levels\solo\m20\oni_ext_security_camera\oni_ext_security_camera.scenery
+AddForgeItem "ONI_EXT_SECURITY_CAMERA" 87 objects\levels\solo\m20\oni_ext_security_camera\oni_ext_security_camera.scenery
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[788].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "SECURITY_CAMERA_INTERIOR" objects\props\human\oni\security_camera_interior\security_camera_interior.scenery
+AddForgeItem "SECURITY_CAMERA_INTERIOR" 87 objects\props\human\oni\security_camera_interior\security_camera_interior.scenery
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[789].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "HVAC" objects\props\human\pioneer\farm\hvac\hvac.scenery
+AddForgeItem "HVAC" 87 objects\props\human\pioneer\farm\hvac\hvac.scenery
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[790].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "COM_ANTENNAE" objects\props\human\pioneer\farm\com_antennae\com_antennae.scenery
+AddForgeItem "COM_ANTENNAE" 87 objects\props\human\pioneer\farm\com_antennae\com_antennae.scenery
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[791].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "COM_ANTENNAE_02" objects\props\human\pioneer\farm\com_antennae_02\com_antennae_02.scenery
+AddForgeItem "COM_ANTENNAE_02" 87 objects\props\human\pioneer\farm\com_antennae_02\com_antennae_02.scenery
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[792].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "PIONEER_WHITEBOARD_A" objects\props\human\pioneer\office\pioneer_whiteboard_a\pioneer_whiteboard_a.scenery
+AddForgeItem "PIONEER_WHITEBOARD_A" 87 objects\props\human\pioneer\office\pioneer_whiteboard_a\pioneer_whiteboard_a.scenery
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[793].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "WEAK_ANTI_RESPAWN_ZONE" objects\multi\spawning\weak_anti_respawn_zone.scenery
+AddForgeItem "WEAK_ANTI_RESPAWN_ZONE" 87 objects\multi\spawning\weak_anti_respawn_zone.scenery
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[794].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "Y_SET_FAN_SMALL_A" objects\levels\shared\lights\y_set_fan_small_a\y_set_fan_small_a.scenery
+AddForgeItem "Y_SET_FAN_SMALL_A" 87 objects\levels\shared\lights\y_set_fan_small_a\y_set_fan_small_a.scenery
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[795].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "DRUM_55GAL" objects\gear\human\military\drum_55gal\drum_55gal.crate
+AddForgeItem "DRUM_55GAL" 87 objects\gear\human\military\drum_55gal\drum_55gal.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[796].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "HANDTRUCK" objects\props\human\pioneer\farm\handtruck\handtruck.crate
+AddForgeItem "HANDTRUCK" 87 objects\props\human\pioneer\farm\handtruck\handtruck.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[797].Type Prop
 SaveTagChanges
