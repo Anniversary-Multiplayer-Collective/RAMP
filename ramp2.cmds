@@ -29,12 +29,6 @@ SetField RenderModel objects\gear\human\military\crate_packing_giant\crate_packi
 SaveTagChanges
 Exit
 
-EditTag objects\gear\human\military\hu_mil_rucksack\rucksack.crate
-SaveTagChanges
-Exit
-NameTag objects\gear\human\military\hu_mil_rucksack\rucksack.crate objects\gear\human\military\hu_mil_rucksack\hu_mil_rucksack
-
-
 OpenCacheFile "reachmaps\20_sword_slayer.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr

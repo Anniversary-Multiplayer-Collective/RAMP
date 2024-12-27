@@ -2601,6 +2601,42 @@ SetField Palette[797].Type Prop
 SaveTagChanges
 Exit
 
+AddForgeItem "CRATE_PACKING_LID" 87 objects\gear\human\military\crate_packing_lid\crate_packing_lid.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[798].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "GARAGE_STOOL" 87 objects\props\human\pioneer\garage\garage_stool\garage_stool.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[799].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "GARAGE_STOOL2" 87 objects\props\human\pioneer\garage\garage_stool2\garage_stool2.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[800].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "CENTRAL_WORK_TABLE_1" 87 objects\props\human\pioneer\furniture\central_work_table_1\central_work_table_1.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[801].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "CENTRAL_WORK_TABLE_2" 87 objects\props\human\pioneer\furniture\central_work_table_2\central_work_table_2.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[802].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "WATER_FILTRATION" 87 objects\props\human\pioneer\farm\water_filtration\water_filtration.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[803].Type Prop
+SaveTagChanges
+Exit
+
 
 
 
