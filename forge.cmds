@@ -2245,7 +2245,7 @@ SetField Palette[738].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "CONTROL_BOX" 87 objects\props\human\pioneer\tech\control_box\control_box.model
+AddForgeItem "CONTROL_BOX" 87 objects\props\human\pioneer\tech\control_box\control_box.scenery
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[739].Type Prop
 SaveTagChanges

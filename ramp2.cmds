@@ -69,11 +69,6 @@ SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
 
-EditTag objects\levels\shared\device_machines\ivory_tower_elevator\ivory_tower_elevator.render_model
-setfield Materials[0].RenderMethod shaders\invalid_reach.shader
-SaveTagChanges
-Exit
-
 OpenCacheFile "reachmaps\70_boneyard.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag levels\shared\bitmaps\human\metal\vinyl_panels_a_dif.bitmap
@@ -123,11 +118,6 @@ Exit
 OpenCacheFile "reachmaps\cex_timberland.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
-Exit
-
-EditTag objects\cex\cex_timberland\ca_timberland_turret\ca_timberland_turret_base\ca_timberland_turret_base.render_model
-SetField Materials[7].RenderMethod shaders\invalid_reach.shader
-SaveTagChanges
 Exit
 
 OpenCacheFile "reachmaps\condemned.map"
@@ -438,10 +428,10 @@ SetField Materials[0].RenderMethod objects\cex\cex_beaver_creek\crates\gravity_l
 SaveTagChanges
 Exit
 
-# echo ==Fix invalid shader on swordbase...==
+# echo ==Fix invalid shader on some items...==
 DuplicateTag shaders\invalid.shader shaders\invalid_reach
 
-##Turns out they did this on swordbase.....
+##Turns out they did this in reach.....
 EditTag shaders\invalid_reach.shader
 SetBitmap base_map shaders\default_bitmaps\bitmaps\gray_50_percent.bitmap
 SaveTagChanges
@@ -449,6 +439,16 @@ Exit
 
 EditTag objects\levels\multi\20_sword_slayer\sword_vent_cover_open_out_a\sword_vent_cover_open_out_a.render_model
 SetField Materials[6].RenderMethod shaders\invalid_reach.shader
+SaveTagChanges
+Exit
+
+EditTag objects\cex\cex_timberland\ca_timberland_turret\ca_timberland_turret_base\ca_timberland_turret_base.render_model
+SetField Materials[7].RenderMethod shaders\invalid_reach.shader
+SaveTagChanges
+Exit
+
+EditTag objects\levels\shared\device_machines\ivory_tower_elevator\ivory_tower_elevator.render_model
+setfield Materials[0].RenderMethod shaders\invalid_reach.shader
 SaveTagChanges
 Exit
 
