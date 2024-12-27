@@ -2450,9 +2450,65 @@ SetField Palette[772].Type Prop
 SaveTagChanges
 Exit
 
+AddForgeItem "UNSC_GLOW_STICK" 87 objects\props\human\unsc\unsc_glow_stick\unsc_glow_stick.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[773].Type Prop
+SaveTagChanges
+Exit
 
+AddForgeItem "PUMPJACK" 87 objects\levels\solo\m30\pumpjack\pumpjack.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[774].Type Prop
+SaveTagChanges
+Exit
 
+AddForgeItem "PUMPJACK" 87 objects\props\human\pioneer\water\buoy\buoy.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[775].Type Prop
+SaveTagChanges
+Exit
 
+AddForgeItem "WOODEN_BOARDS_STACKED_A" 87 objects\props\human\pioneer\farm\wooden_boards\wooden_boards_stacked_a\wooden_boards_stacked_a.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[776].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "WOODEN_BOARDS_STACKED_B" 87 objects\props\human\pioneer\farm\wooden_boards\wooden_boards_stacked_b\wooden_boards_stacked_b.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[777].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "WOODEN_BOARDS_STACKED_C" 87 objects\props\human\pioneer\farm\wooden_boards\wooden_boards_stacked_c\wooden_boards_stacked_c.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[778].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "WOODEN_BOARDS_STACKED_D" 87 objects\props\human\pioneer\farm\wooden_boards\wooden_boards_stacked_d\wooden_boards_stacked_d.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[779].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "GARAGE_STORAGE_RACK" 87 objects\props\human\pioneer\furniture\garage_storage_rack\garage_storage_rack.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[780].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "GARAGE_STORAGE_RACK_SHORT" objects\props\human\pioneer\furniture\garage_storage_rack_short\garage_storage_rack_short.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[781].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "BAGS_COMPOST_PILE_A" objects\props\human\pioneer\farm\bags_compost_pile_a\bags_compost_pile_a.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[782].Type Prop
+SaveTagChanges
+Exit
 
 
 

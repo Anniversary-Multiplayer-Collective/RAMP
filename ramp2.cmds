@@ -448,7 +448,17 @@ SaveTagChanges
 Exit
 
 EditTag objects\levels\shared\device_machines\ivory_tower_elevator\ivory_tower_elevator.render_model
-setfield Materials[0].RenderMethod shaders\invalid_reach.shader
+SetField Materials[0].RenderMethod shaders\invalid_reach.shader
+SaveTagChanges
+Exit
+
+EditTag objects\cex\cex_timberland\props\blue_beacon\blue_beacon.render_model
+SetField Materials[4].RenderMethod shaders\invalid_reach.shader
+SaveTagChanges
+Exit
+
+EditTag objects\cex\cex_timberland\props\red_beacon\red_beacon.render_model
+SetField Materials[4].RenderMethod shaders\invalid_reach.shader
 SaveTagChanges
 Exit
 
