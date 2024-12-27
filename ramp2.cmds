@@ -29,6 +29,11 @@ SetField RenderModel objects\gear\human\military\crate_packing_giant\crate_packi
 SaveTagChanges
 Exit
 
+EditTag objects\gear\human\military\hu_mil_rucksack\rucksack.crate
+SaveTagChanges
+Exit
+NameTag objects\gear\human\military\hu_mil_rucksack\rucksack.crate objects\gear\human\military\hu_mil_rucksack\hu_mil_rucksack
+
 
 OpenCacheFile "reachmaps\20_sword_slayer.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
@@ -837,7 +842,6 @@ EditTag levels\solo\m70\shaders\m70_scaffold.shader
 SetArgument specular_coefficient 0
 SaveTagChanges
 Exit
-
 # echo ==Shader fixes for Boardwalk...==
 EditTag levels\solo\m50\shaders\paneling\wall_trims_a.shader
 SetArgument specular_coefficient 0
@@ -880,6 +884,20 @@ EditTag levels\solo\m50\shaders\signage\sign_3x1_welcome.shader
 SetArgument albedo_color 30 30 30 30
 SaveTagChanges
 Exit
+# echo ==Shader fixes for Unearthed...==
+EditTag levels\dlc\ff_unearthed\shaders\ca_unearthed_bunkerworld_concrete.shader
+SetArgument specular_coefficient 0
+SaveTagChanges
+Exit
+EditTag levels\dlc\ff_unearthed\shaders\ca_unearthed_scaffold.shader
+SetArgument specular_coefficient 0
+SaveTagChanges
+Exit
+EditTag shaders\ca\pioneer\pioneer_wall_stone.shader
+SetArgument specular_coefficient 0
+SaveTagChanges
+Exit
+
 
 ## Commented out until I port the Spawn Points
 ##echo ==Replace initial spawn points==
