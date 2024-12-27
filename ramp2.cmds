@@ -288,37 +288,7 @@ Exit
 ##PortTag ReachMisc Replace objects\multi\spawning\initial_spawn_point.scenery
 ##PortTag ReachMisc Replace objects\multi\spawning\ff_respawn_point\ff_respawn_point.scenery
 ##PortTag ReachMisc Replace objects\gear\human\military\camping_stool_mp\camping_stool_mp.crate
-#### Tagtool Said NOOOOO
-####PortTag ReachMisc Replace objects\gear\human\industrial\propane_tank\propane_tank.crate
-##PortTag ReachMisc Replace objects\gear\human\military\barricade_small\barricade_small.crate
 ##PortTag ReachMisc Replace objects\gear\human\military\fusion_coil\fusion_coil.crate
-##PortTag ReachMisc Replace objects\gear\human\military\barricade_large\barricade_large.crate
-##PortTag ReachMisc Replace objects\gear\human\industrial\street_cone\street_cone.crate
-##PortTag ReachMisc Replace objects\props\covenant\cov_barrier\cov_barrier.crate
-##PortTag ReachMisc Replace objects\gear\human\military\sandbag_wall_90corner\sandbag_wall_90corner.model
-##PortTag ReachMisc Replace objects\gear\human\military\sandbag_wall_45corner\sandbag_wall_45corner.model
-##PortTag ReachMisc Replace objects\gear\human\military\sandbag_wall_endcap\sandbag_wall_endcap.model
-##PortTag ReachMisc Replace objects\gear\human\military\sandbag_wall\sandbag_wall.model
-##PortTag ReachMisc Replace objects\gear\human\military\sandbag_wall_turret\sandbag_wall_turret.model
-##Exit
-##OpenCacheFile "reachmaps\ff_unearthed.map"
-##PortTag ReachMisc Replace objects\gear\human\military\crate_packing\crate_packing.crate
-##PortTag ReachMisc Replace objects\scenery\human\military\warthog_drop_palette\warthog_drop_palette.scenery
-##Exit
-##OpenCacheFile "reachmaps\m60.map"
-##PortTag ReachMisc Replace objects\gear\human\industrial\h_barrel_rusty\h_barrel_rusty.crate
-##PortTag ReachMisc Replace objects\gear\human\military\drum_12gal\drum_12gal.crate
-##Exit
-##OpenCacheFile "reachmaps\ff70_holdout.map"
-##PortTag ReachMisc Replace objects\gear\human\industrial\jersey_barrier_short\jersey_barrier_short.crate
-##PortTag ReachMisc Replace objects\gear\human\military\drum_55gal\drum_55gal.crate
-##PortTag ReachMisc Replace objects\gear\human\industrial\crate_multi\crate_multi.crate
-##Exit
-##OpenCacheFile "reachmaps\m70_bonus.map"
-##PortTag ReachMisc Replace objects\gear\human\industrial\jersey_barrier\jersey_barrier.crate
-##Exit
-##OpenCacheFile "reachmaps\dlc_invasion.map"
-##PortTag ReachMisc Replace objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big.model
 ##Exit
 
 RunCommands "workingdir\forge.cmds"
@@ -341,38 +311,6 @@ RunCommands "workingdir\forge.cmds"
 ##SaveTagChanges
 ##Exit
 ##EditTag objects\gear\human\military\camping_stool_mp\camping_stool_mp.model
-##RemoveBlockElements NewDamageInfo 0 1
-##SaveTagChanges
-##Exit
-##EditTag objects\gear\human\military\barricade_small\barricade_small.model
-##RemoveBlockElements NewDamageInfo 0 1
-##SaveTagChanges
-##Exit
-##EditTag objects\gear\human\military\barricade_large\barricade_large.model
-##RemoveBlockElements NewDamageInfo 0 1
-##SaveTagChanges
-##Exit
-##EditTag objects\gear\human\industrial\street_cone\street_cone.model
-##RemoveBlockElements NewDamageInfo 0 1
-##SaveTagChanges
-##Exit
-##EditTag objects\gear\human\military\sandbag_wall_90corner\sandbag_wall_90corner.model
-##RemoveBlockElements NewDamageInfo 0 1
-##SaveTagChanges
-##Exit
-##EditTag objects\gear\human\military\sandbag_wall_45corner\sandbag_wall_45corner.model
-##RemoveBlockElements NewDamageInfo 0 1
-##SaveTagChanges
-##Exit
-##EditTag objects\gear\human\military\sandbag_wall_endcap\sandbag_wall_endcap.model
-##RemoveBlockElements NewDamageInfo 0 1
-##SaveTagChanges
-##Exit
-##EditTag objects\gear\human\military\sandbag_wall\sandbag_wall.model
-##RemoveBlockElements NewDamageInfo 0 1
-##SaveTagChanges
-##Exit
-##EditTag objects\gear\human\military\sandbag_wall_turret\sandbag_wall_turret.model
 ##RemoveBlockElements NewDamageInfo 0 1
 ##SaveTagChanges
 ##Exit
@@ -892,6 +830,78 @@ SetArgument specular_coefficient 0
 SaveTagChanges
 Exit
 
+# echo ==Shader fixes for Glacier...==
+edittag levels\solo\m60\shaders\organic\ice_ground_rock.shader_terrain
+setargument specular_coefficient_m_0 0
+savetagchanges
+exit
+edittag levels\solo\m60\shaders\organic\ice_ground.shader_terrain
+setargument specular_coefficient_m_0 0
+savetagchanges
+exit
+edittag levels\solo\m60\shaders\organic\m60_ice_cave_rock_close_prefab.shader_terrain
+setargument specular_power_m_0 0
+setargument area_specular_contribution_m_0 0
+setargument analytical_specular_contribution_m_0 0
+setargument specular_coefficient_m_1 0
+setargument specular_power_m_1 0
+setargument environment_specular_contribution_m_1 0
+setargument analytical_specular_contribution_m_1 0
+setargument area_specular_contribution_m_1 0
+setargument analytical_specular_contribution_m_2 0
+setargument environment_specular_contribution_m_2 0
+setargument albedo_specular_tint_blend_m_2 0
+SaveTagChanges
+Exit
+edittag levels\solo\m60\shaders\organic\m60_ice_cave_rock_close.shader_terrain
+setargument specular_coefficient_m_0 0
+setargument specular_power_m_0 0
+setargument analytical_specular_contribution_m_0 0
+setargument area_specular_contribution_m_0 0
+setargument specular_coefficient_m_1 0
+setargument specular_power_m_1 0
+setargument analytical_specular_contribution_m_1 0
+setargument specular_coefficient_m_2 0
+setargument specular_power_m_2 0
+setargument albedo_specular_tint_blend_m_2 0
+setargument environment_specular_contribution_m_2 0
+setargument analytical_specular_contribution_m_2 0
+SaveTagChanges
+Exit
+edittag levels\solo\m60\shaders\organic\m60_ice_cave_rock_distant_monolithic.shader_terrain
+setargument specular_coefficient_m_0 0
+setargument specular_power_m_0 0
+setargument area_specular_contribution_m_0 0
+setargument analytical_specular_contribution_m_0 0
+setargument specular_coefficient_m_1 0
+setargument specular_power_m_1 0
+setargument area_specular_contribution_m_1 0
+setargument analytical_specular_contribution_m_1 0
+setargument specular_coefficient_m_2 0
+setargument specular_power_m_2 0
+setargument area_specular_contribution_m_2 0
+setargument analytical_specular_contribution_m_2 0
+setargument environment_specular_contribution_m_2 0
+SaveTagChanges
+Exit
+edittag levels\solo\m60\shaders\organic\m60_ice_cave_rock_distant_variance.shader_terrain
+setargument specular_coefficient_m_0 0
+setargument specular_power_m_0 0
+setargument specular_coefficient_m_1 0
+setargument specular_power_m_1 0
+setargument specular_power_m_2 0
+setargument specular_coefficient_m_2 0
+setargument analytical_specular_contribution_m_2 0
+setargument environment_specular_contribution_m_2 0
+setargument albedo_specular_tint_blend_m_2 0
+setargument area_specular_contribution_m_0 0
+setargument analytical_specular_contribution_m_0 0
+setargument area_specular_contribution_m_1 0
+setargument analytical_specular_contribution_m_1 0
+setargument environment_specular_contribution_m_1 0
+setargument area_specular_contribution_m_2 0
+SaveTagChanges
+Exit
 
 ## Commented out until I port the Spawn Points
 ##echo ==Replace initial spawn points==

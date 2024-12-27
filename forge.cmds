@@ -2637,6 +2637,99 @@ SetField Palette[803].Type Prop
 SaveTagChanges
 Exit
 
+AddForgeItem "UNSC_HALCYON_CLASS_CRUISER_POA" 87 objects\vehicles\human\unsc_fleet\unsc_halcyon_class_cruiser_poa\unsc_halcyon_class_cruiser_poa.scenery
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[804].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "hu_mil_rucksack" 87 objects\gear\human\military\hu_mil_rucksack\hu_mil_rucksack.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[805].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "PLASMA_BATTERY_REACH" 87 objects\props\covenant\battery\battery.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[806].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "CRATE_MULTI_SINGLE_PLAIN" 87 objects\gear\human\industrial\crate_multi_single_plain\crate_multi_single_plain.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[807].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "MP_ONI_CRATE_GIANT" 87 objects\ca_dev\dlc_preserve\crates\oni_crate_giant\mp_oni_crate_giant.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[808].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "MP_ONI_CRATE_SMALL" 87 objects\ca_dev\dlc_preserve\crates\oni_crate_small\mp_oni_crate_small.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[809].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "HEH_GRAVLIFT" 87 objects\cex\cex_hangemhigh\crates\heh_gravlift\heh_gravlift.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[810].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "HEH_GRAVLIFT_TUNNELS" 87 objects\cex\cex_hangemhigh\crates\heh_gravlift_tunnels\heh_gravlift_tunnels.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[811].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "H_GRENADE_CRATE" 87 objects\gear\human\military\h_grenade_crate\h_grenade_crate.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[812].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "SANDBAG_WALL" 87 objects\gear\human\military\sandbag_wall\sandbag_wall.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[813].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "SANDBAG_WALL_45CORNER" 87 objects\gear\human\military\sandbag_wall_45corner\sandbag_wall_45corner.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[814].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "SANDBAG_WALL_90CORNER" 87 objects\gear\human\military\sandbag_wall_90corner\sandbag_wall_90corner.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[815].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "SANDBAG_WALL_ENDCAP" 87 objects\gear\human\military\sandbag_wall_endcap\sandbag_wall_endcap.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[816].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "SANDBAG_WALL_TURRET" 87 objects\gear\human\military\sandbag_wall_turret\sandbag_wall_turret.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[817].Type Prop
+SaveTagChanges
+Exit
+
+
+
+
+
+
+
+
+
+
 
 
 
