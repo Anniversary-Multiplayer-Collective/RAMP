@@ -1666,7 +1666,7 @@ SaveTagChanges
 Exit
 ##Continue Forge Palette Here
 
-AddForgeItem "DLC_FF_ROCK_SMALL" 87 levels\multi\dlc\objects\dlc_ff_rock_small\dlc_ff_rock_small.crate
+AddForgeItem "DLC_FF_ROCK_SMALL" 86 levels\multi\dlc\objects\dlc_ff_rock_small\dlc_ff_rock_small.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[646].Type Structure
 SaveTagChanges
@@ -1677,7 +1677,7 @@ SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
 SaveTagChanges
 Exit
 
-AddForgeItem "DLC_MEDIUM_CAVE_BLOCKING_ROCK" 87 levels\multi\dlc\objects\dlc_medium_cave_blocking_rock\dlc_medium_cave_blocking_rock.crate
+AddForgeItem "DLC_MEDIUM_CAVE_BLOCKING_ROCK" 86 levels\multi\dlc\objects\dlc_medium_cave_blocking_rock\dlc_medium_cave_blocking_rock.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[647].Type Structure
 SaveTagChanges
@@ -2005,49 +2005,49 @@ SetField Palette[698].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "HEH_ANGLED_CATWALK" 87 objects\cex\cex_hangemhigh\forge\heh_angled_catwalk\heh_angled_catwalk\heh_angled_catwalk.crate
+AddForgeItem "HEH_ANGLED_CATWALK" 85 objects\cex\cex_hangemhigh\forge\heh_angled_catwalk\heh_angled_catwalk\heh_angled_catwalk.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[699].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "HEH_BLUE_CAP" 87 objects\cex\cex_hangemhigh\forge\heh_blue_cap\heh_blue_cap.crate
+AddForgeItem "HEH_BLUE_CAP" 85 objects\cex\cex_hangemhigh\forge\heh_blue_cap\heh_blue_cap.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[700].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "HEH_CATWALK_COVER" 87 objects\cex\cex_hangemhigh\forge\heh_catwalk_cover\heh_catwalk_cover\heh_catwalk_cover.crate
+AddForgeItem "HEH_CATWALK_COVER" 85 objects\cex\cex_hangemhigh\forge\heh_catwalk_cover\heh_catwalk_cover\heh_catwalk_cover.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[701].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "HEH_GRAVLIFT_CATWALK" 87 objects\cex\cex_hangemhigh\forge\heh_gravlift_catwalk\heh_gravlift_catwalk\heh_gravlift_catwalk.crate
+AddForgeItem "HEH_GRAVLIFT_CATWALK" 85 objects\cex\cex_hangemhigh\forge\heh_gravlift_catwalk\heh_gravlift_catwalk\heh_gravlift_catwalk.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[702].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "HEH_RAMP_COLUMN" 87 objects\cex\cex_hangemhigh\forge\heh_ramp_column\heh_ramp_column.crate
+AddForgeItem "HEH_RAMP_COLUMN" 85 objects\cex\cex_hangemhigh\forge\heh_ramp_column\heh_ramp_column.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[703].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "HEH_RED_RAMP" 87 objects\cex\cex_hangemhigh\forge\heh_red_ramp\heh_red_ramp.crate
+AddForgeItem "HEH_RED_RAMP" 85 objects\cex\cex_hangemhigh\forge\heh_red_ramp\heh_red_ramp.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[704].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "HEH_SMALLWALL" 87 objects\cex\cex_hangemhigh\forge\heh_smallwall\heh_smallwall\heh_smallwall.crate
+AddForgeItem "HEH_SMALLWALL" 85 objects\cex\cex_hangemhigh\forge\heh_smallwall\heh_smallwall\heh_smallwall.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[705].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "HEH_TOMBSTONES" 87 objects\cex\cex_hangemhigh\forge\heh_tombstones\heh_tombstones.crate
+AddForgeItem "HEH_TOMBSTONES" 85 objects\cex\cex_hangemhigh\forge\heh_tombstones\heh_tombstones.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[706].Type Prop
 SaveTagChanges
@@ -2203,7 +2203,7 @@ SetField Palette[731].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "030_ROCK_BLOCKER" 87 objects\levels\solo\m10\030_rock_blocker\030_rock_blocker.scenery
+AddForgeItem "030_ROCK_BLOCKER" 86 objects\levels\solo\m10\030_rock_blocker\030_rock_blocker.scenery
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[732].Type Prop
 SaveTagChanges
@@ -2317,7 +2317,7 @@ SetField Palette[750].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "CA_TIMBERLAND_TOOF" 87 objects\cex\cex_timberland\ca_timberland_toof\ca_timberland_toof.crate
+AddForgeItem "CA_TIMBERLAND_TOOF" 85 objects\cex\cex_timberland\ca_timberland_toof\ca_timberland_toof.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[751].Type Prop
 SaveTagChanges
@@ -2335,13 +2335,13 @@ SetField Palette[753].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "CA_TIMBERLAND_TURRET_BASE" 87 objects\cex\cex_timberland\ca_timberland_turret\ca_timberland_turret_base\ca_timberland_turret_base.crate
+AddForgeItem "CA_TIMBERLAND_TURRET_BASE" 85 objects\cex\cex_timberland\ca_timberland_turret\ca_timberland_turret_base\ca_timberland_turret_base.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[754].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "CA_TIMBERLAND_BUNKER" 87 objects\cex\cex_timberland\ca_timberland_bunker\ca_timberland_bunker\ca_timberland_bunker.crate
+AddForgeItem "CA_TIMBERLAND_BUNKER" 85 objects\cex\cex_timberland\ca_timberland_bunker\ca_timberland_bunker\ca_timberland_bunker.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[755].Type Prop
 SaveTagChanges
@@ -2353,37 +2353,37 @@ SetField Palette[756].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "FF_PRISONER_BRIDGE_L" 87 objects\cex\cex_prisoner\forge\ff_prisoner_bridge_l\ff_prisoner_bridge_l.crate
+AddForgeItem "FF_PRISONER_BRIDGE_L" 85 objects\cex\cex_prisoner\forge\ff_prisoner_bridge_l\ff_prisoner_bridge_l.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[757].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "FF_PRISONER_BRIDGE_R" 87 objects\cex\cex_prisoner\forge\ff_prisoner_bridge_r\ff_prisoner_bridge_r.crate
+AddForgeItem "FF_PRISONER_BRIDGE_R" 85 objects\cex\cex_prisoner\forge\ff_prisoner_bridge_r\ff_prisoner_bridge_r.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[758].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "FF_PRISONER_BRIDGE2" 87 objects\cex\cex_prisoner\forge\ff_prisoner_bridge2\ff_prisoner_bridge2.crate
+AddForgeItem "FF_PRISONER_BRIDGE2" 85 objects\cex\cex_prisoner\forge\ff_prisoner_bridge2\ff_prisoner_bridge2.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[759].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "FF_PRISONER_BRIDGE3" 87 objects\cex\cex_prisoner\forge\ff_prisoner_bridge3\ff_prisoner_bridge3.crate
+AddForgeItem "FF_PRISONER_BRIDGE3" 85 objects\cex\cex_prisoner\forge\ff_prisoner_bridge3\ff_prisoner_bridge3.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[760].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "FF_PRISONER_COVERWALL_SM" 87 objects\cex\cex_prisoner\forge\ff_prisoner_coverwall_sm\ff_prisoner_coverwall_sm.crate
+AddForgeItem "FF_PRISONER_COVERWALL_SM" 85 objects\cex\cex_prisoner\forge\ff_prisoner_coverwall_sm\ff_prisoner_coverwall_sm.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[761].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "FF_PRISONER_FORECRATE_BIG" 87 objects\cex\cex_prisoner\forge\ff_prisoner_forecrate_big\ff_prisoner_forecrate_big.crate
+AddForgeItem "FF_PRISONER_FORECRATE_BIG" 85 objects\cex\cex_prisoner\forge\ff_prisoner_forecrate_big\ff_prisoner_forecrate_big.crate
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[762].Type Prop
 SaveTagChanges
@@ -2750,8 +2750,8 @@ Exit
 ##AddForgeItem "OLDE_TIMEY" 87 objects\levels\shared\screen_fx_orb\fx\olde_timey.bloc
 ##PortTag objects\levels\shared\screen_fx_orb\fx\eerie.bloc
 ##AddForgeItem "EERIE" 87 objects\levels\shared\screen_fx_orb\fx\eerie.bloc
-##PortTag objects\levels\shared\screen_fx_orb\fx\pen_and_ink.crate
-##AddForgeItem "PEN_AND_INK" 87 objects\levels\shared\screen_fx_orb\fx\pen_and_ink.crate
+##PortTag objects\levels\shared\screen_fx_orb\fx\pen_and_ink.bloc
+##AddForgeItem "PEN_AND_INK" 87 objects\levels\shared\screen_fx_orb\fx\pen_and_ink.bloc
 # echo ==Forge Lights...==
 PortTag objects\levels\forge\ff_light_flash_yellow\ff_light_flash_yellow.bloc
 AddForgeItem "FF_LIGHT_FLASH_YELLOW" 87 objects\levels\forge\ff_light_flash_yellow\ff_light_flash_yellow.bloc
@@ -3168,4 +3168,71 @@ SetField Skies[40].ScreenFX levels\dlc\cex_ff_halo\post_fx\cex_halo.area_screen_
 SetField Skies[40].GlobalLighting levels\dlc\cex_ff_halo\post_fx\cex_haloff.chocolate_mountain_new
 
 SaveTagChanges
+Exit
+
+OpenCacheFile "reachmaps\dlc_medium.map"
+
+PortTag levels\multi\dlc\objects\dlc_ff_base_strut\dlc_ff_base_strut.crate
+AddForgeItem "dlc_ff_base_strut" 85 levels\multi\dlc\objects\dlc_ff_base_strut\dlc_ff_base_strut.crate
+PortTag levels\multi\dlc\objects\dlc_ff_brace\dlc_ff_brace.crate
+AddForgeItem "dlc_ff_brace" 85 levels\multi\dlc\objects\dlc_ff_brace\dlc_ff_brace.crate
+PortTag levels\multi\dlc\objects\dlc_ff_bridge_2x3\dlc_ff_bridge_2x3.crate
+AddForgeItem "dlc_ff_bridge_2x3" 85 levels\multi\dlc\objects\dlc_ff_bridge_2x3\dlc_ff_bridge_2x3.crate
+PortTag levels\multi\dlc\objects\dlc_ff_bridge_2x5\dlc_ff_bridge_2x5.crate
+AddForgeItem "dlc_ff_bridge_2x5" 85 levels\multi\dlc\objects\dlc_ff_bridge_2x5\dlc_ff_bridge_2x5.crate
+PortTag levels\multi\dlc\objects\dlc_ff_bridge_diag\dlc_ff_bridge_diag.crate
+AddForgeItem "dlc_ff_bridge_diag" 85 levels\multi\dlc\objects\dlc_ff_bridge_diag\dlc_ff_bridge_diag.crate
+PortTag levels\multi\dlc\objects\dlc_ff_bridge_diag_short\dlc_ff_bridge_diag_short.crate
+AddForgeItem "dlc_ff_bridge_diag_short" 85 levels\multi\dlc\objects\dlc_ff_bridge_diag_short\dlc_ff_bridge_diag_short.crate
+PortTag levels\multi\dlc\objects\dlc_ff_plat_2x2_45\dlc_ff_plat_2x2_45.crate
+AddForgeItem "dlc_ff_plat_2x2_45" 84 levels\multi\dlc\objects\dlc_ff_plat_2x2_45\dlc_ff_plat_2x2_45.crate
+PortTag levels\multi\dlc\objects\dlc_ff_railing_1\dlc_ff_railing_1.crate
+AddForgeItem "dlc_ff_railing_1" 85 levels\multi\dlc\objects\dlc_ff_railing_1\dlc_ff_railing_1.crate
+PortTag levels\multi\dlc\objects\dlc_ff_railing_2\dlc_ff_railing_2.crate
+AddForgeItem "dlc_ff_railing_2" 85 levels\multi\dlc\objects\dlc_ff_railing_2\dlc_ff_railing_2.crate
+PortTag levels\multi\dlc\objects\dlc_ff_railing_3\dlc_ff_railing_3.crate
+AddForgeItem "dlc_ff_railing_3" 85 levels\multi\dlc\objects\dlc_ff_railing_3\dlc_ff_railing_3.crate
+PortTag levels\multi\dlc\objects\dlc_ff_ramp_1x2\dlc_ff_ramp_1x2.crate
+AddForgeItem "dlc_ff_ramp_1x2" 85 levels\multi\dlc\objects\dlc_ff_ramp_1x2\dlc_ff_ramp_1x2.crate
+PortTag levels\multi\dlc\objects\dlc_ff_ramp_1x2_shallow\dlc_ff_ramp_1x2_shallow.crate
+AddForgeItem "dlc_ff_ramp_1x2_shallow" 85 levels\multi\dlc\objects\dlc_ff_ramp_1x2_shallow\dlc_ff_ramp_1x2_shallow.crate
+PortTag levels\multi\dlc\objects\dlc_ff_ramp_2x2_steep\dlc_ff_ramp_2x2_steep.crate
+AddForgeItem "dlc_ff_ramp_2x2_steep" 85 levels\multi\dlc\objects\dlc_ff_ramp_2x2_steep\dlc_ff_ramp_2x2_steep.crate
+PortTag levels\multi\dlc\objects\dlc_ff_ramp_3\dlc_ff_ramp_3.crate
+AddForgeItem "dlc_ff_ramp_3" 85 levels\multi\dlc\objects\dlc_ff_ramp_3\dlc_ff_ramp_3.crate
+PortTag levels\multi\dlc\objects\dlc_ff_ramp_4\dlc_ff_ramp_4.crate
+AddForgeItem "dlc_ff_ramp_4" 85 levels\multi\dlc\objects\dlc_ff_ramp_4\dlc_ff_ramp_4.crate
+PortTag levels\multi\dlc\objects\dlc_ff_ramp_5\dlc_ff_ramp_5.crate
+AddForgeItem "dlc_ff_ramp_5" 85 levels\multi\dlc\objects\dlc_ff_ramp_5\dlc_ff_ramp_5.crate
+PortTag levels\multi\dlc\objects\dlc_ff_rock_arch\dlc_ff_rock_arch.crate
+AddForgeItem "dlc_ff_rock_arch" 86 levels\multi\dlc\objects\dlc_ff_rock_arch\dlc_ff_rock_arch.crate
+PortTag levels\multi\dlc\objects\dlc_ff_rock_flat\dlc_ff_rock_flat.crate
+AddForgeItem "dlc_ff_rock_flat" 86 levels\multi\dlc\objects\dlc_ff_rock_flat\dlc_ff_rock_flat.crate
+PortTag levels\multi\dlc\objects\dlc_ff_rock_med_a\dlc_ff_rock_med_a.crate
+AddForgeItem "dlc_ff_rock_med_a" 86 levels\multi\dlc\objects\dlc_ff_rock_med_a\dlc_ff_rock_med_a.crate
+PortTag levels\multi\dlc\objects\dlc_ff_rock_med_b\dlc_ff_rock_med_b.crate
+AddForgeItem "dlc_ff_rock_med_b" 86 levels\multi\dlc\objects\dlc_ff_rock_med_b\dlc_ff_rock_med_b.crate
+PortTag levels\multi\dlc\objects\dlc_ff_rock_small\dlc_ff_rock_small.crate
+AddForgeItem "dlc_ff_rock_small" 86 levels\multi\dlc\objects\dlc_ff_rock_small\dlc_ff_rock_small.crate
+PortTag levels\multi\dlc\objects\dlc_ff_rock_spire_a\dlc_ff_rock_spire_a.crate
+AddForgeItem "dlc_ff_rock_spire_a" 86 levels\multi\dlc\objects\dlc_ff_rock_spire_a\dlc_ff_rock_spire_a.crate
+PortTag levels\multi\dlc\objects\dlc_ff_rock_spire_b\dlc_ff_rock_spire_b.crate
+AddForgeItem "dlc_ff_rock_spire_b" 86 levels\multi\dlc\objects\dlc_ff_rock_spire_b\dlc_ff_rock_spire_b.crate
+PortTag levels\multi\dlc\objects\dlc_ff_tunnel_2x1\dlc_ff_tunnel_2x1.crate
+AddForgeItem "dlc_ff_tunnel_2x1" 85 levels\multi\dlc\objects\dlc_ff_tunnel_2x1\dlc_ff_tunnel_2x1.crate
+PortTag levels\multi\dlc\objects\dlc_ff_walkway_small\dlc_ff_walkway_small.crate
+AddForgeItem "dlc_ff_walkway_small" 85 levels\multi\dlc\objects\dlc_ff_walkway_small\dlc_ff_walkway_small.crate
+PortTag levels\multi\dlc\objects\dlc_ff_wall_2x2\dlc_ff_wall_2x2.crate
+AddForgeItem "dlc_ff_wall_2x2" 85 levels\multi\dlc\objects\dlc_ff_wall_2x2\dlc_ff_wall_2x2.crate
+PortTag levels\multi\dlc\objects\dlc_ff_wall_2x4\dlc_ff_wall_2x4.crate
+AddForgeItem "dlc_ff_wall_2x4" 85 levels\multi\dlc\objects\dlc_ff_wall_2x4\dlc_ff_wall_2x4.crate
+PortTag levels\multi\dlc\objects\dlc_fish_tilapia\dlc_fish_tilapia.crate
+AddForgeItem "dlc_fish_tilapia" 85 levels\multi\dlc\objects\dlc_fish_tilapia\dlc_fish_tilapia.crate
+PortTag levels\multi\dlc\objects\dlc_medium_mancannon_heavy\dlc_medium_mancannon_heavy.crate
+AddForgeItem "dlc_medium_mancannon_heavy" 85 levels\multi\dlc\objects\dlc_medium_mancannon_heavy\dlc_medium_mancannon_heavy.crate
+PortTag levels\multi\dlc\objects\dlc_medium_mancannon_light\dlc_medium_mancannon_light.crate
+AddForgeItem "dlc_medium_mancannon_light" 85 levels\multi\dlc\objects\dlc_medium_mancannon_light\dlc_medium_mancannon_light.crate
+PortTag levels\multi\dlc\objects\dlc_medium_small_rock\dlc_medium_small_rock.crate
+AddForgeItem "dlc_medium_small_rock" 86 levels\multi\dlc\objects\dlc_medium_small_rock\dlc_medium_small_rock.crate
+
 Exit
