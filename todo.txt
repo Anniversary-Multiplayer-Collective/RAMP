@@ -10,3 +10,4 @@ Elites missing animations for armor lock and drop shield
 Sprint animations for reach weapons
 Replace the Halo 3 items with their halo Reach equivelent
 Fix incorrect ammo count on some weapons when low ammo https://s.zekken.rocks/t1AQw4FN.jpg
+Add Podium to each map
