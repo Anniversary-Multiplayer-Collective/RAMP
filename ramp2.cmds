@@ -17,8 +17,6 @@ RampCollective
 0.1
 MainMenu Multiplayer Character
 
-AddModFiles workingdir\assets
-
 # echo ==Porting...==
 EditTag objects\gear\human\military\crate_packing_giant\crate_packing_giant.render_model
 SaveTagChanges
@@ -994,9 +992,14 @@ Exit
 ##SaveTagChanges
 ##Exit
 
-echo ==Apply noble six voices==
+echo ==Apply noble six voice pak==
 
 OpenModPackage "workingdir\paks\Noble_Six_Voice_Pack.pak"
+ApplyModPackage
+ExitModPackage
+
+echo ==Apply 1999 emotes pak==
+OpenModPackage "workingdir\paks\1999_Emotes v1_5.pak"
 ApplyModPackage
 ExitModPackage
 
@@ -1016,6 +1019,8 @@ runcommands "workingdir\elite_animations.cmds"
 runcommands "workingdir\elite_rendermodel.cmds"
 
 importfonts workingdir\fonts_new.bin
+
+AddModFiles workingdir\assets
 
 UpdateMapFiles "workingdir\info"
 
