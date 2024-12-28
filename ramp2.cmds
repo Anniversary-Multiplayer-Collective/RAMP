@@ -1026,6 +1026,8 @@ runcommands "workingdir\elite_rendermodel.cmds"
 
 importfonts workingdir\fonts_new.bin
 
+DeleteModFiles
+
 AddModFiles workingdir\assets
 
 UpdateMapFiles "workingdir\info"
