@@ -3320,7 +3320,7 @@ AddForgeItem "crate_packing_easter" 87 objects\cex\cex_timberland\crate_packing_
 Exit
 
 
-OpenCacheFile "reachmaps\cex_timberland.map"
+OpenCacheFile "reachmaps\cex_hangemhigh.map"
 
 PortTag objects\cex\cex_hangemhigh\forge\ca_heh_large_hallway_blocker2\ca_heh_large_hallway_blocker2.crate
 AddForgeItem "ca_heh_large_hallway_blocker2" 85 objects\cex\cex_hangemhigh\forge\ca_heh_large_hallway_blocker2\ca_heh_large_hallway_blocker2.crate
