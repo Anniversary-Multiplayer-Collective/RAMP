@@ -2727,7 +2727,23 @@ SetField Palette[818].Type Prop
 SaveTagChanges
 Exit
 
+AddForgeItem "DRIFTWOOD_A" 87 objects\levels\solo\m20\driftwood_a\driftwood_a.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[819].Type Prop
+SaveTagChanges
+Exit
 
+AddForgeItem "DRIFTWOOD_B" 87 objects\levels\solo\m20\driftwood_b\driftwood_b.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[820].Type Prop
+SaveTagChanges
+Exit
+
+AddForgeItem "DRIFTWOOD_C" 87 objects\levels\solo\m20\driftwood_c\driftwood_c.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[821].Type Prop
+SaveTagChanges
+Exit
 
 
 
@@ -2883,6 +2899,16 @@ SaveTagChanges
 Exit
 
 EditTag objects\levels\forge\ff_light_blue\ff_light_blue.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+
+EditTag objects\levels\solo\m10\030_rock_blocker\030_rock_blocker.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+
+EditTag levels\multi\dlc\objects\dlc_medium_cave_blocking_rock\dlc_medium_cave_blocking_rock.model
 RemoveBlockElements NewDamageInfo 0 1
 SaveTagChanges
 Exit
@@ -3236,3 +3262,7 @@ PortTag levels\multi\dlc\objects\dlc_medium_small_rock\dlc_medium_small_rock.cra
 AddForgeItem "dlc_medium_small_rock" 86 levels\multi\dlc\objects\dlc_medium_small_rock\dlc_medium_small_rock.crate
 
 Exit
+
+# echo ==Remove damage from ported items...==
+ForEach hlmt contains: levels\multi\dlc\objects\dlc_ff RemoveBlockElements NewDamageInfo 0 *
+ForEach hlmt contains: levels\multi\dlc\objects\dlc_medium RemoveBlockElements NewDamageInfo 0 *
