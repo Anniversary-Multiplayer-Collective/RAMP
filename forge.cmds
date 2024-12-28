@@ -3290,23 +3290,23 @@ Exit
 OpenCacheFile "reachmaps\cex_timberland.map"
 
 PortTag objects\cex\cex_timberland\ff_timberland_rock_arch\ff_timberland_rock_arch.crate
-AddForgeItem "ff_timberland_rock_arch" 86 
+AddForgeItem "ff_timberland_rock_arch" 86 objects\cex\cex_timberland\ff_timberland_rock_arch\ff_timberland_rock_arch.crate
 PortTag objects\cex\cex_timberland\ff_timberland_rock_flat\ff_timberland_rock_flat.crate
-AddForgeItem "ff_timberland_rock_flat" 86 
+AddForgeItem "ff_timberland_rock_flat" 86 objects\cex\cex_timberland\ff_timberland_rock_flat\ff_timberland_rock_flat.crate
 PortTag objects\cex\cex_timberland\ff_timberland_rock_med_a\ff_timberland_rock_med_a.crate
-AddForgeItem "ff_timberland_rock_med_a" 86 
+AddForgeItem "ff_timberland_rock_med_a" 86 objects\cex\cex_timberland\ff_timberland_rock_med_a\ff_timberland_rock_med_a.crate
 PortTag objects\cex\cex_timberland\ff_timberland_rock_med_b\ff_timberland_rock_med_b.crate
-AddForgeItem "ff_timberland_rock_med_b" 86 
+AddForgeItem "ff_timberland_rock_med_b" 86 objects\cex\cex_timberland\ff_timberland_rock_med_b\ff_timberland_rock_med_b.crate
 PortTag objects\cex\cex_timberland\ff_timberland_rock_sea_stack\ff_timberland_rock_sea_stack.crate
-AddForgeItem "ff_timberland_rock_sea_stack" 86 
+AddForgeItem "ff_timberland_rock_sea_stack" 86 objects\cex\cex_timberland\ff_timberland_rock_sea_stack\ff_timberland_rock_sea_stack.crate
 PortTag objects\cex\cex_timberland\ff_timberland_rock_small\ff_timberland_rock_small.crate
-AddForgeItem "ff_timberland_rock_small" 86 
+AddForgeItem "ff_timberland_rock_small" 86 objects\cex\cex_timberland\ff_timberland_rock_small\ff_timberland_rock_small.crate
 PortTag objects\cex\cex_timberland\ff_timberland_rock_spire_a\ff_timberland_rock_spire_a.crate
-AddForgeItem "ff_timberland_rock_spire_a" 86 
+AddForgeItem "ff_timberland_rock_spire_a" 86 objects\cex\cex_timberland\ff_timberland_rock_spire_a\ff_timberland_rock_spire_a.crate
 PortTag objects\cex\cex_timberland\ff_timberland_rock_spire_b\ff_timberland_rock_spire_b.crate
-AddForgeItem "ff_timberland_rock_spire_b" 86 
+AddForgeItem "ff_timberland_rock_spire_b" 86 objects\cex\cex_timberland\ff_timberland_rock_spire_b\ff_timberland_rock_spire_b.crate
 PortTag objects\cex\cex_timberland\crate_packing_easter\crate_packing_easter.crate
-AddForgeItem "crate_packing_easter" 87 
+AddForgeItem "crate_packing_easter" 87 objects\cex\cex_timberland\crate_packing_easter\crate_packing_easter.crate
 
 Exit
 
