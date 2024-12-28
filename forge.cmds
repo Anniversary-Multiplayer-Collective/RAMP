@@ -2745,6 +2745,15 @@ SetField Palette[821].Type Prop
 SaveTagChanges
 Exit
 
+AddForgeItem "ff_damnation_platform" 85 objects\cex\cex_damnation\forge\ff_damnation_platform\ff_damnation_platform.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[822].Type Prop
+SaveTagChanges
+Exit
+
+
+
+
 
 
 
@@ -3281,7 +3290,7 @@ AddForgeItem "ff_reactor_door_blue" 85 objects\ca_dev\dlc_condemned\crates\ff_re
 PortTag objects\ca_dev\dlc_condemned\crates\ff_reactor_door_red\ff_reactor_door_red.bloc
 AddForgeItem "ff_reactor_door_red" 85 objects\ca_dev\dlc_condemned\crates\ff_reactor_door_red\ff_reactor_door_red.bloc
 PortTag objects\ca_dev\dlc_condemned\crates\ca_condemned_crate_physic\ca_condemned_crate_physic.crate
-AddForgeItem "ca_condemned_crate_physic" 85 objects\ca_dev\dlc_condemned\crates\ca_condemned_crate_physic\ca_condemned_crate_physic.crate
+AddForgeItem "ca_condemned_crate_physic" 87 objects\ca_dev\dlc_condemned\crates\ca_condemned_crate_physic\ca_condemned_crate_physic.crate
 PortTag objects\ca_dev\dlc_condemned\crates\ff_glass_floor\ff_glass_floor.crate
 AddForgeItem "ff_glass_floor" 85 objects\ca_dev\dlc_condemned\crates\ff_glass_floor\ff_glass_floor.crate
 Exit
@@ -3311,12 +3320,32 @@ AddForgeItem "crate_packing_easter" 87 objects\cex\cex_timberland\crate_packing_
 Exit
 
 
+OpenCacheFile "reachmaps\cex_timberland.map"
+
+PortTag objects\cex\cex_hangemhigh\forge\ca_heh_large_hallway_blocker2\ca_heh_large_hallway_blocker2.crate
+AddForgeItem "ca_heh_large_hallway_blocker2" 85 objects\cex\cex_hangemhigh\forge\ca_heh_large_hallway_blocker2\ca_heh_large_hallway_blocker2.crate
+PortTag objects\cex\cex_hangemhigh\forge\heh_bigblock\heh_bigblock\heh_bigblock.crate
+AddForgeItem "heh_bigblock" 85 objects\cex\cex_hangemhigh\forge\heh_bigblock\heh_bigblock\heh_bigblock.crate
+PortTag objects\cex\cex_hangemhigh\forge\heh_hallwayblocker\heh_hallwayblocker.crate
+AddForgeItem "heh_hallwayblocker" 85 objects\cex\cex_hangemhigh\forge\heh_hallwayblocker\heh_hallwayblocker.crate
+PortTag objects\cex\cex_hangemhigh\forge\heh_hallwayblocker_int\heh_hallwayblocker_int.crate
+AddForgeItem "heh_hallwayblocker_int" 85 objects\cex\cex_hangemhigh\forge\heh_hallwayblocker_int\heh_hallwayblocker_int.crate
+PortTag objects\cex\cex_hangemhigh\forge\heh_large_hallway_blocker\heh_large_hallway_blocker.crate
+AddForgeItem "heh_large_hallway_blocker" 85 objects\cex\cex_hangemhigh\forge\heh_large_hallway_blocker\heh_large_hallway_blocker.crate
+PortTag objects\cex\cex_hangemhigh\forge\heh_red_airlift_paneldoor\heh_red_airlift_paneldoor.crate
+AddForgeItem "heh_red_airlift_paneldoor" 85 objects\cex\cex_hangemhigh\forge\heh_red_airlift_paneldoor\heh_red_airlift_paneldoor.crate
+PortTag objects\cex\cex_hangemhigh\forge\heh_redbase_door_big\heh_redbase_door_big.crate
+AddForgeItem "heh_redbase_door_big" 85 objects\cex\cex_hangemhigh\forge\heh_redbase_door_big\heh_redbase_door_big.crate
+PortTag objects\cex\cex_hangemhigh\forge\heh_redbase_door_small\heh_redbase_door_small.crate
+AddForgeItem "heh_redbase_door_small" 85 objects\cex\cex_hangemhigh\forge\heh_redbase_door_small\heh_redbase_door_small.crate
+Exit
 
 
 # echo ==Remove damage from ported items...==
 ForEach hlmt contains: levels\multi\dlc\objects\dlc_ff RemoveBlockElements NewDamageInfo 0 *
 ForEach hlmt contains: levels\multi\dlc\objects\dlc_medium RemoveBlockElements NewDamageInfo 0 *
 ForEach hlmt contains: objects\cex\cex_timberland RemoveBlockElements NewDamageInfo 0 *
+ForEach hlmt contains: objects\cex\cex_hangemhigh\forge RemoveBlockElements NewDamageInfo 0 *
 
 EditTag objects\ca_dev\dlc_condemned\crates\ca_condemned_crate_physic\ca_condemned_crate_physic.model
 RemoveBlockElements NewDamageInfo 0 1
