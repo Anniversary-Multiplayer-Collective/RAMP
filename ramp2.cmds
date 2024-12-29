@@ -999,9 +999,29 @@ ApplyModPackage
 ExitModPackage
 
 echo ==Apply 1999 emotes pak==
-OpenModPackage "workingdir\paks\1999_Emotes v1_5.pak"
+OpenModPackage "workingdir\paks\1999_Emotes v1_5 CUSTOM.pak"
 ApplyModPackage
 ExitModPackage
+
+EditTag objects\vehicles\falcon\player_animations\player_animations.model_animation_graph
+SortModes
+SaveTagChanges
+Exit
+
+EditTag objects\characters\masterchief\masterchief.model_animation_graph
+SortModes
+SaveTagChanges
+Exit
+
+EditTag objects\characters\elite\elite.model_animation_graph
+SortModes
+SaveTagChanges
+Exit
+
+EditTag objects\characters\dervish\dervish.model_animation_graph
+SortModes
+SaveTagChanges
+Exit
 
 echo ==Fix Shield Crash==
 EditTag objects\characters\jackal\fx\_particles\plasma_noise.particle

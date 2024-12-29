@@ -1,4 +1,5 @@
 TODO:
+Add ability to edit viewmodels for weaps
 Replace damage sphere aka the kill ball with reaches
 See if the forge lights and FX balls can be ported(The FX balls have issues ask mtn if can somehow replace the reach ones in the variant converter with the proper ED ones with the right values)
 Fix weapon pickup icons.
