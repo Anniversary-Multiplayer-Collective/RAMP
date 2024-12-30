@@ -2751,7 +2751,11 @@ SetField Palette[822].Type Prop
 SaveTagChanges
 Exit
 
-
+AddForgeItem "damage_sphere" 85 objects\levels\shared\damage_sphere\damage_sphere.crate
+EditTag multiplayer\forge_globals.forge_globals_definition
+SetField Palette[823].Type Prop
+SaveTagChanges
+Exit
 
 
 
@@ -3355,7 +3359,7 @@ Exit
 ForEach hlmt contains: levels\multi\dlc\objects\dlc_ff RemoveBlockElements NewDamageInfo 0 *
 ForEach hlmt contains: levels\multi\dlc\objects\dlc_medium RemoveBlockElements NewDamageInfo 0 *
 ForEach hlmt contains: objects\cex\cex_timberland RemoveBlockElements NewDamageInfo 0 *
-ForEach hlmt contains: objects\cex\cex_hangemhigh\forge RemoveBlockElements NewDamageInfo 0 *
+ForEach hlmt contains: objects\cex\cex_hangemhigh RemoveBlockElements NewDamageInfo 0 *
 ForEach hlmt contains: objects\cex\cex_beaver_creek\forge RemoveBlockElements NewDamageInfo 0 *
 
 
