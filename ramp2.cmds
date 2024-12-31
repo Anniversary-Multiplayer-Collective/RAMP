@@ -1054,6 +1054,9 @@ runcommands "workingdir\CHDTpart1.cmds"
 runcommands "workingdir\CHDTpart2.cmds"
 runcommands "workingdir\CHDTpart3.cmds"
 
+echo ==Third person animations==
+runcommands "workingdir\3Panimations.cmds"
+
 importfonts workingdir\fonts_new.bin
 
 DeleteModFiles
