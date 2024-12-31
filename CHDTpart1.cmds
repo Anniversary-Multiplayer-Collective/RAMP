@@ -1045,7 +1045,7 @@ setfield HudWidgets[5].TextWidgets[0].RenderData[0].LocalColorA 0 255 255 255
 setfield HudWidgets[5].TextWidgets[0].RenderData[0].OutputColorB LocalA
 addblockelements HudWidgets[5].TextWidgets[0].AnimationData
 setfield HudWidgets[5].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
-setfield HudWidgets[5].TextWidgets[0].WidgetIndex 0
+setfield HudWidgets[5].TextWidgets[0].WidgetIndex 1
 
 setfield HudWidgets[5].TextWidgets[1].PlacementData[0].Offset -81 57
 setfield HudWidgets[5].TextWidgets[1].PlacementData[0].Scale 0.9 0.9
