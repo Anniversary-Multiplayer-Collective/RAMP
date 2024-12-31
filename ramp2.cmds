@@ -1049,6 +1049,10 @@ echo ==Elite Weapons Animation==
 runcommands "workingdir\elite_animations.cmds"
 runcommands "workingdir\elite_rendermodel.cmds"
 
+echo ==CHDT Weapons==
+runcommands "workingdir\CHDTpart1.cmds"
+runcommands "workingdir\CHDTpart2.cmds"
+runcommands "workingdir\CHDTpart3.cmds"
 
 importfonts workingdir\fonts_new.bin
 

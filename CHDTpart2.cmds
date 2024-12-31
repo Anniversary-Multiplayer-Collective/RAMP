@@ -1,0 +1,936 @@
+edittag ui\chud\bitmaps\ballistic_meters.bitmap
+# 20
+# INDEX 18
+addblockelements Sequences
+setfield Sequences[*].BitmapCount 1
+addblockelements Sequences[*].Sprites
+setfield Sequences[*].Sprites[*].Left 0.3671875
+setfield Sequences[*].Sprites[*].Right 0.6757813
+setfield Sequences[*].Sprites[*].Top 0.06
+setfield Sequences[*].Sprites[*].Bottom 0.1757813
+setfield Sequences[*].Sprites[*].RegistrationPoint 0.1542969 0.08789063
+savetagchanges
+exit
+
+edittag ui\chud\bitmaps\ballistic_meters_h3.bitmap
+# 20
+# INDEX 18
+addblockelements Sequences
+setfield Sequences[*].BitmapCount 1
+addblockelements Sequences[*].Sprites
+setfield Sequences[*].Sprites[*].Left 0.3671875
+setfield Sequences[*].Sprites[*].Right 0.6757813
+setfield Sequences[*].Sprites[*].Top 0.06
+setfield Sequences[*].Sprites[*].Bottom 0.1757813
+setfield Sequences[*].Sprites[*].RegistrationPoint 0.1542969 0.08789063
+savetagchanges
+exit
+
+# JUST A RANT, WHY THE FUCK THE SMG USE BOTH OF THEM WHEN ONE CAN SUFFICE????
+# THIS SHIT IS JUST RIDICULOUS
+# THIS MOD HAS SO MANY DUPLICATED TEXTURE, IT'S FUCKING UNREAL
+
+# ----------------------------------------------------------------
+# I                       ASSAULT RIFLES                         I
+# ----------------------------------------------------------------
+edittag ui\chud\assault_rifle.chud_definition
+copyblockelements HudWidgets 0 5
+exit
+
+edittag ui\chud\assault_rifle_accuracy.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+
+setfield HudWidgets[4].BitmapWidgets[1].PlacementData[0].Offset -25 50
+setfield HudWidgets[4].BitmapWidgets[1].PlacementData[0].Scale 1.2 1.2
+setfield HudWidgets[4].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlineAccuracy
+setfield HudWidgets[4].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics\assault_rifle.bitmap
+setfield HudWidgets[4].BitmapWidgets[1].BitmapSequenceIndex 5
+
+setfield HudWidgets[3].BitmapWidgets[0].PlacementData[0].Offset -25 4
+setfield HudWidgets[3].BitmapWidgets[0].PlacementData[0].Scale 0.6 0.6
+setfield HudWidgets[3].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[3].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlineAccuracy
+setfield HudWidgets[3].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[3].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics\assault_rifle.bitmap
+setfield HudWidgets[3].BitmapWidgets[0].BitmapSequenceIndex 5
+savetagchanges
+exit
+
+edittag ui\chud\assault_rifle_damage.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 4
+
+setfield HudWidgets[4].BitmapWidgets[1].PlacementData[0].Offset -25 50
+setfield HudWidgets[4].BitmapWidgets[1].PlacementData[0].Scale 1.2 1.2
+setfield HudWidgets[4].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlineDamage
+setfield HudWidgets[4].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics\assault_rifle.bitmap
+setfield HudWidgets[4].BitmapWidgets[1].BitmapSequenceIndex 2
+
+setfield HudWidgets[3].BitmapWidgets[0].PlacementData[0].Offset -25 4
+setfield HudWidgets[3].BitmapWidgets[0].PlacementData[0].Scale 0.6 0.6
+setfield HudWidgets[3].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[3].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlineDamage
+setfield HudWidgets[3].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[3].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics\assault_rifle.bitmap
+setfield HudWidgets[3].BitmapWidgets[0].BitmapSequenceIndex 2
+savetagchanges
+exit
+
+edittag ui\chud\assault_rifle_power.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 0
+
+setfield HudWidgets[4].BitmapWidgets[1].PlacementData[0].Offset -45 50
+setfield HudWidgets[4].BitmapWidgets[1].PlacementData[0].Scale 1.2 1.2
+setfield HudWidgets[4].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlinePower
+setfield HudWidgets[4].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics\assault_rifle.bitmap
+setfield HudWidgets[4].BitmapWidgets[1].BitmapSequenceIndex 6
+
+setfield HudWidgets[3].BitmapWidgets[0].PlacementData[0].Offset -35 4
+setfield HudWidgets[3].BitmapWidgets[0].PlacementData[0].Scale 0.6 0.6
+setfield HudWidgets[3].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[3].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlinePower
+setfield HudWidgets[3].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[3].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics\assault_rifle.bitmap
+setfield HudWidgets[3].BitmapWidgets[0].BitmapSequenceIndex 6
+savetagchanges
+exit
+
+edittag ui\chud\assault_rifle_rof.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+
+setfield HudWidgets[4].BitmapWidgets[1].PlacementData[0].Offset -25 50
+setfield HudWidgets[4].BitmapWidgets[1].PlacementData[0].Scale 1.2 1.2
+setfield HudWidgets[4].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlineRateOfFire
+setfield HudWidgets[4].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics\assault_rifle.bitmap
+setfield HudWidgets[4].BitmapWidgets[1].BitmapSequenceIndex 3
+
+setfield HudWidgets[3].BitmapWidgets[0].PlacementData[0].Offset -25 4
+setfield HudWidgets[3].BitmapWidgets[0].PlacementData[0].Scale 0.6 0.6
+setfield HudWidgets[3].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[3].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlineRateOfFire
+setfield HudWidgets[3].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[3].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics\assault_rifle.bitmap
+setfield HudWidgets[3].BitmapWidgets[0].BitmapSequenceIndex 3
+savetagchanges
+exit
+
+# ----------------------------------------------------------------
+# I                       BATTLE RIFLES                          I
+# ----------------------------------------------------------------
+edittag ui\chud\battle_rifle.chud_definition
+copyblockelements HudWidgets 0 6
+exit
+
+edittag ui\chud\battle_rifle_accuracy.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 3
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -35 50
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 1 1
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlineAccuracy
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics\battle_rifle.bitmap
+setfield HudWidgets[5].BitmapWidgets[1].BitmapSequenceIndex 2
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -25 4
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.55 0.55
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlineAccuracy
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics\battle_rifle.bitmap
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 2
+savetagchanges
+exit
+
+edittag ui\chud\battle_rifle_ammo.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 0
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -15 50
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 1 1
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlineAmmo
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics\battle_rifle.bitmap
+setfield HudWidgets[5].BitmapWidgets[1].BitmapSequenceIndex 3
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -15 4
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.55 0.55
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlineAmmo
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics\battle_rifle.bitmap
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 3
+savetagchanges
+exit
+
+edittag ui\chud\battle_rifle_damage.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+
+setfield HudWidgets[2].StateData[0].UnitZoomFlags BinocularsEnabled
+setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 3
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -25 50
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 1 1
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlineDamage
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics\battle_rifle.bitmap
+setfield HudWidgets[5].BitmapWidgets[1].BitmapSequenceIndex 4
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -20 4
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.55 0.55
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlineDamage
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics\battle_rifle.bitmap
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 4
+removeblockelements HudWidgets 3 1
+savetagchanges
+exit
+
+edittag ui\chud\battle_rifle_power.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 0
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -35 50
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 1 1
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlinePower
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics\battle_rifle.bitmap
+setfield HudWidgets[5].BitmapWidgets[1].BitmapSequenceIndex 6
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -25 4
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.55 0.55
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlinePower
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics\battle_rifle.bitmap
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 6
+savetagchanges
+exit
+
+edittag ui\chud\battle_rifle_range.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 3
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -45 50
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 1 1
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlineRange
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics\battle_rifle.bitmap
+setfield HudWidgets[5].BitmapWidgets[1].BitmapSequenceIndex 5
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -35 4
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.55 0.55
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlineRange
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics\battle_rifle.bitmap
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 5
+savetagchanges
+exit
+
+edittag ui\chud\battle_rifle_rof.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 1
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -25 50
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 1 1
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlineRateOfFire
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics\battle_rifle.bitmap
+setfield HudWidgets[5].BitmapWidgets[1].BitmapSequenceIndex 1
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -20 4
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.55 0.55
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlineRateOfFire
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics\battle_rifle.bitmap
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 1
+savetagchanges
+exit
+
+
+# ----------------------------------------------------------------
+# I                          CARBINE                             I
+# ----------------------------------------------------------------
+edittag ui\chud\carbine.chud_definition
+copyblockelements HudWidgets 0 7
+exit
+
+edittag ui\chud\carbine_ammo.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+
+removeblockelements HudWidgets[5].BitmapWidgets[0].AnimationData 0 *
+setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].ShaderType MeterGradient
+setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].ExternalInput WeaponHeatFraction
+setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].LocalScalarA 20
+setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].LocalScalarB 0
+setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].LocalScalarC 0.1
+setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].LocalScalarD 255
+setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].OutputColorA SecondaryBackground
+setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].OutputColorB WarningFlash
+setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].OutputColorC LocalA
+setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].OutputColorD SecondaryBackground
+setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].OutputScalarB LocalA
+setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].OutputScalarC LocalB
+setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].OutputScalarD LocalC
+setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].OutputScalarE LocalD
+setfield HudWidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\energy_meter_right_hr.bitmap
+setfield HudWidgets[5].BitmapWidgets[0].PlacementData[0].Offset -40 107
+setfield HudWidgets[5].TextWidgets[0].RenderData[0].ExternalInput WeaponBatteryFraction
+setfield HudWidgets[4].TextWidgets[0].RenderData[0].ExternalInput WeaponBatteryFraction
+setfield HudWidgets[4].BitmapWidgets[0].StateData[0].Weapon_SpecialFlags BatteryBelowCutoff
+
+setfield HudWidgets[2].BitmapWidgets[7].PlacementData[0].Anchor Crosshair
+setfield HudWidgets[2].BitmapWidgets[8].PlacementData[0].Anchor Crosshair
+setfield HudWidgets[2].BitmapWidgets[7].PlacementData[0].Offset 0 55
+setfield HudWidgets[2].BitmapWidgets[8].PlacementData[0].Offset 0 55
+
+setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 0
+
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -55 50
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 0.9 0.9
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlineAmmo
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\variant_weapons\carbine.bitmap
+setfield HudWidgets[5].BitmapWidgets[1].BitmapSequenceIndex 2
+
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -40 4
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.55 0.55
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlineAmmo
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_weapons\carbine.bitmap
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 2
+savetagchanges
+exit
+
+edittag ui\chud\covenant_carbine_accuracy.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+
+setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 7
+
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -55 50
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 0.9 0.9
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlineAccuracy
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\variant_weapons\carbine.bitmap
+setfield HudWidgets[5].BitmapWidgets[1].BitmapSequenceIndex 5
+
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -40 4
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.55 0.55
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlineAccuracy
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_weapons\carbine.bitmap
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 5
+savetagchanges
+exit
+
+edittag ui\chud\covenant_carbine_damage.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+
+setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 7
+
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -40 50
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 0.9 0.9
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlineDamage
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\variant_weapons\carbine.bitmap
+setfield HudWidgets[5].BitmapWidgets[1].BitmapSequenceIndex 4
+
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -30 4
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.55 0.55
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlineDamage
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_weapons\carbine.bitmap
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 4
+savetagchanges
+exit
+
+edittag ui\chud\covenant_carbine_power.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+
+setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 2
+
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -50 50
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 0.9 0.9
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlinePower
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\variant_weapons\carbine.bitmap
+setfield HudWidgets[5].BitmapWidgets[1].BitmapSequenceIndex 6
+
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -40 4
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.55 0.55
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlinePower
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_weapons\carbine.bitmap
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 6
+savetagchanges
+exit
+
+edittag ui\chud\covenant_carbine_range.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+
+setfield HudWidgets[3].StateData[0].UnitZoomFlags UnitIsZoomedLevel1,UnitIsZoomedLevel2
+
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -55 50
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 0.9 0.9
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlineRange
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\variant_weapons\carbine.bitmap
+setfield HudWidgets[5].BitmapWidgets[1].BitmapSequenceIndex 3
+
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -45 4
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.55 0.55
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlineRange
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_weapons\carbine.bitmap
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 3
+savetagchanges
+exit
+
+edittag ui\chud\covenant_carbine_rof.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+
+setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 2
+
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -35 50
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 0.9 0.9
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlineRateOfFire
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\variant_weapons\carbine.bitmap
+setfield HudWidgets[5].BitmapWidgets[1].BitmapSequenceIndex 1
+
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -25 4
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.55 0.55
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlineRateOfFire
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_weapons\carbine.bitmap
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 1
+savetagchanges
+exit
+
+# ----------------------------------------------------------------
+# I                            DMR                               I
+# ----------------------------------------------------------------
+edittag ui\chud\dmr_ramp.chud_definition
+copyblockelements HudWidgets 0 6
+exit
+
+edittag ui\chud\dmr_accuracy.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+
+setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 6
+
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -30 55
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 0.9 0.9
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlineAccuracy
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[5].BitmapWidgets[1].Bitmap 0x000021A2
+setfield HudWidgets[5].BitmapWidgets[1].BitmapSequenceIndex 2
+
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -25 4
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.55 0.55
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlineAccuracy
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap 0x000021A2
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 2
+savetagchanges
+exit
+
+edittag ui\chud\dmr_ammo.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+
+setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 2
+
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -30 50
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 0.9 0.9
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlineAmmo
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[5].BitmapWidgets[1].Bitmap 0x000021A2
+setfield HudWidgets[5].BitmapWidgets[1].BitmapSequenceIndex 1
+
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -25 4
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.55 0.55
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlineAmmo
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap 0x000021A2
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 1
+savetagchanges
+exit
+
+edittag ui\chud\dmr_damage.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+
+setfield HudWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
+setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 8
+
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -30 62
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 0.9 0.9
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlineDamage
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[5].BitmapWidgets[1].Bitmap 0x000021A2
+setfield HudWidgets[5].BitmapWidgets[1].BitmapSequenceIndex 4
+
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -25 4
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.55 0.55
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlineDamage
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap 0x000021A2
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 4
+removeblockelements HudWidgets 0 1
+savetagchanges
+exit
+
+edittag ui\chud\dmr_power.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+
+setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 4
+
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -40 55
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 0.9 0.9
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlinePower
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[5].BitmapWidgets[1].Bitmap 0x000021A2
+setfield HudWidgets[5].BitmapWidgets[1].BitmapSequenceIndex 6
+
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -35 4
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.55 0.55
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlinePower
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap 0x000021A2
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 6
+savetagchanges
+exit
+
+edittag ui\chud\dmr_rof.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+
+setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 6
+
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -20 60
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 0.9 0.9
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlineRateOfFire
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[5].BitmapWidgets[1].Bitmap 0x000021A2
+setfield HudWidgets[5].BitmapWidgets[1].BitmapSequenceIndex 3
+
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -15 4
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.55 0.55
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlineRateOfFire
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap 0x000021A2
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 3
+savetagchanges
+exit
+
+# ----------------------------------------------------------------
+# I                            SMG                               I
+# ----------------------------------------------------------------
+edittag ui\chud\smg.chud_definition
+copyblockelements HudWidgets 0 7
+exit
+
+edittag ui\chud\smg_accuracy.chud_definition
+removeblockelements HudWidgets 1 *
+pasteblockelements HudWidgets
+
+setfield HudWidgets[3].StateData[0].UnitZoomFlags None
+setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.25 2.25
+setfield HudWidgets[0].BitmapWidgets[1].PlacementData[0].Scale 2.25 2.25
+setfield HudWidgets[0].BitmapWidgets[2].PlacementData[0].Scale 2.25 2.25
+setfield HudWidgets[0].BitmapWidgets[3].PlacementData[0].Scale 2.25 2.25
+
+setfield HudWidgets[4].BitmapWidgets[1].PlacementData[0].Offset 40 43
+setfield HudWidgets[4].BitmapWidgets[1].PlacementData[0].Scale -1.1 1.1
+setfield HudWidgets[4].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlineAccuracy
+setfield HudWidgets[4].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[1].Bitmap ui\chud\bitmaps\variant_weapons\smg.bitmap
+setfield HudWidgets[4].BitmapWidgets[1].BitmapSequenceIndex 3
+
+setfield HudWidgets[6].BitmapWidgets[1].PlacementData[0].Offset -40 43
+setfield HudWidgets[6].BitmapWidgets[1].PlacementData[0].Scale 1.1 1.1
+setfield HudWidgets[6].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[6].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlineAccuracy
+setfield HudWidgets[6].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[6].BitmapWidgets[1].Bitmap ui\chud\bitmaps\variant_weapons\smg.bitmap
+setfield HudWidgets[6].BitmapWidgets[1].BitmapSequenceIndex 3
+
+setfield HudWidgets[5].BitmapWidgets[0].PlacementData[0].Offset -35 4
+setfield HudWidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.55 0.55
+setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlineAccuracy
+setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_weapons\smg.bitmap
+setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 3
+savetagchanges
+exit
+
+edittag ui\chud\smg_power.chud_definition
+removeblockelements HudWidgets 1 *
+pasteblockelements HudWidgets
+
+setfield HudWidgets[3].StateData[0].UnitZoomFlags None
+setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.25 2.25
+setfield HudWidgets[0].BitmapWidgets[1].PlacementData[0].Scale 2.25 2.25
+setfield HudWidgets[0].BitmapWidgets[2].PlacementData[0].Scale 2.25 2.25
+setfield HudWidgets[0].BitmapWidgets[3].PlacementData[0].Scale 2.25 2.25
+
+setfield HudWidgets[4].BitmapWidgets[1].PlacementData[0].Offset 40 43
+setfield HudWidgets[4].BitmapWidgets[1].PlacementData[0].Scale -1.1 1.1
+setfield HudWidgets[4].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlinePower
+setfield HudWidgets[4].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[1].Bitmap ui\chud\bitmaps\variant_weapons\smg.bitmap
+setfield HudWidgets[4].BitmapWidgets[1].BitmapSequenceIndex 3
+
+setfield HudWidgets[6].BitmapWidgets[1].PlacementData[0].Offset -40 43
+setfield HudWidgets[6].BitmapWidgets[1].PlacementData[0].Scale 1.1 1.1
+setfield HudWidgets[6].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[6].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlinePower
+setfield HudWidgets[6].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[6].BitmapWidgets[1].Bitmap ui\chud\bitmaps\variant_weapons\smg.bitmap
+setfield HudWidgets[6].BitmapWidgets[1].BitmapSequenceIndex 3
+
+setfield HudWidgets[5].BitmapWidgets[0].PlacementData[0].Offset -35 4
+setfield HudWidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.55 0.55
+setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlinePower
+setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_weapons\smg.bitmap
+setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 3
+savetagchanges
+exit
+
+edittag ui\chud\smg_damage.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+
+setfield HudWidgets[3].BitmapWidgets[0].BitmapSequenceIndex 18
+setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 18
+
+setfield HudWidgets[3].BitmapWidgets[1].PlacementData[0].Offset 40 45
+setfield HudWidgets[3].BitmapWidgets[1].PlacementData[0].Scale -1.1 1.1
+setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlineDamage
+setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[3].BitmapWidgets[1].Bitmap ui\chud\bitmaps\variant_weapons\smg.bitmap
+setfield HudWidgets[3].BitmapWidgets[1].BitmapSequenceIndex 4
+
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -40 45
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 1.1 1.1
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlineDamage
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\variant_weapons\smg.bitmap
+setfield HudWidgets[5].BitmapWidgets[1].BitmapSequenceIndex 4
+
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -35 4
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.55 0.55
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlineDamage
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_weapons\smg.bitmap
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 4
+savetagchanges
+exit
+
+edittag ui\chud\smg_rof.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+
+setfield HudWidgets[3].BitmapWidgets[0].BitmapSequenceIndex 18
+setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 18
+
+setfield HudWidgets[3].BitmapWidgets[1].PlacementData[0].Offset 40 45
+setfield HudWidgets[3].BitmapWidgets[1].PlacementData[0].Scale -1.1 1.1
+setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlineRateOfFire
+setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[3].BitmapWidgets[1].Bitmap ui\chud\bitmaps\variant_weapons\smg.bitmap
+setfield HudWidgets[3].BitmapWidgets[1].BitmapSequenceIndex 1
+
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -40 45
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 1.1 1.1
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlineRateOfFire
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\variant_weapons\smg.bitmap
+setfield HudWidgets[5].BitmapWidgets[1].BitmapSequenceIndex 1
+
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -35 4
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.55 0.55
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlineRateOfFire
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_weapons\smg.bitmap
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 1
+savetagchanges
+exit
+
+# ----------------------------------------------------------------
+# I                           MAGNUM                             I
+# ----------------------------------------------------------------
+edittag ui\chud\magnum.chud_definition
+copyblockelements HudWidgets 0 7
+exit
+
+edittag ui\chud\magnum_power.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+
+setfield HudWidgets[2].BitmapWidgets[0].StateData[0].WeaponStatusFlags SourceIsPrimaryWeapon,SourceIsDualWeapon
+setfield HudWidgets[2].BitmapWidgets[1].StateData[0].WeaponStatusFlags SourceIsPrimaryWeapon,SourceIsDualWeapon
+setfield HudWidgets[2].BitmapWidgets[2].StateData[0].WeaponStatusFlags SourceIsPrimaryWeapon,SourceIsDualWeapon
+setfield HudWidgets[2].BitmapWidgets[3].StateData[0].WeaponStatusFlags SourceIsPrimaryWeapon,SourceIsDualWeapon
+setfield HudWidgets[2].BitmapWidgets[4].StateData[0].WeaponStatusFlags SourceIsPrimaryWeapon,SourceIsDualWeapon
+
+setfield HudWidgets[3].TextWidgets[0].PlacementData[0].Offset 56 62
+setfield HudWidgets[3].TextWidgets[1].PlacementData[0].Offset 56 62
+
+setfield HudWidgets[3].BitmapWidgets[1].PlacementData[0].Offset 40 58
+setfield HudWidgets[3].BitmapWidgets[1].PlacementData[0].Scale -1.25 1.25
+setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlinePower
+setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[3].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics\magnum.bitmap
+setfield HudWidgets[3].BitmapWidgets[1].BitmapSequenceIndex 3
+
+setfield HudWidgets[5].TextWidgets[0].PlacementData[0].Offset -56 62
+setfield HudWidgets[5].TextWidgets[1].PlacementData[0].Offset -56 62
+
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -40 58
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 1.25 1.25
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlinePower
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics\magnum.bitmap
+setfield HudWidgets[5].BitmapWidgets[1].BitmapSequenceIndex 3
+
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -55 4
+setfield HudWidgets[4].TextWidgets[0].PlacementData[0].Offset -60 2
+setfield HudWidgets[4].TextWidgets[1].PlacementData[0].Offset -60 2
+
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -55 4
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.5 0.5
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlinePower
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics\magnum.bitmap
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 3
+savetagchanges
+exit
+
+edittag ui\chud\magnum_damage.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+
+setfield HudWidgets[2].BitmapWidgets[0].StateData[0].WeaponStatusFlags SourceIsPrimaryWeapon,SourceIsDualWeapon
+setfield HudWidgets[2].BitmapWidgets[1].StateData[0].WeaponStatusFlags SourceIsPrimaryWeapon,SourceIsDualWeapon
+setfield HudWidgets[2].BitmapWidgets[2].StateData[0].WeaponStatusFlags SourceIsPrimaryWeapon,SourceIsDualWeapon
+setfield HudWidgets[2].BitmapWidgets[3].StateData[0].WeaponStatusFlags SourceIsPrimaryWeapon,SourceIsDualWeapon
+setfield HudWidgets[2].BitmapWidgets[4].StateData[0].WeaponStatusFlags SourceIsPrimaryWeapon,SourceIsDualWeapon
+
+setfield HudWidgets[2].StateData[0].UnitZoomFlags BinocularsEnabled
+setfield HudWidgets[3].BitmapWidgets[0].BitmapSequenceIndex 9
+setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 9
+
+setfield HudWidgets[3].TextWidgets[0].PlacementData[0].Offset 56 62
+setfield HudWidgets[3].TextWidgets[1].PlacementData[0].Offset 56 62
+
+setfield HudWidgets[3].BitmapWidgets[1].PlacementData[0].Offset 30 58
+setfield HudWidgets[3].BitmapWidgets[1].PlacementData[0].Scale -1.25 1.25
+setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlineDamage
+setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[3].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics\magnum.bitmap
+setfield HudWidgets[3].BitmapWidgets[1].BitmapSequenceIndex 2
+
+setfield HudWidgets[5].TextWidgets[0].PlacementData[0].Offset -56 62
+setfield HudWidgets[5].TextWidgets[1].PlacementData[0].Offset -56 62
+
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -30 58
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 1.25 1.25
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlineDamage
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics\magnum.bitmap
+setfield HudWidgets[5].BitmapWidgets[1].BitmapSequenceIndex 2
+
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -55 4
+setfield HudWidgets[4].TextWidgets[0].PlacementData[0].Offset -60 2
+setfield HudWidgets[4].TextWidgets[1].PlacementData[0].Offset -60 2
+
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -50 4
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.5 0.5
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlineDamage
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics\magnum.bitmap
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 2
+removeblockelements HudWidgets 6 1
+savetagchanges
+exit
+
+# ----------------------------------------------------------------
+# I                           MAULER                             I
+# ----------------------------------------------------------------
+edittag ui\chud\excavator.chud_definition
+copyblockelements HudWidgets 0 7
+exit
+
+edittag ui\chud\excavator_power.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+
+setfield HudWidgets[3].BitmapWidgets[0].BitmapSequenceIndex 9
+setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 9
+
+setfield HudWidgets[3].BitmapWidgets[1].PlacementData[0].Offset 82 45
+setfield HudWidgets[3].BitmapWidgets[1].PlacementData[0].Scale -1 1
+setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlinePower
+setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[3].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics\excavator.bitmap
+setfield HudWidgets[3].BitmapWidgets[1].BitmapSequenceIndex 3
+
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -82 45
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 1 1
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlinePower
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics\excavator.bitmap
+setfield HudWidgets[5].BitmapWidgets[1].BitmapSequenceIndex 3
+
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -55 4
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.55 0.55
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlinePower
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics\excavator.bitmap
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 3
+savetagchanges
+exit
+
+# ----------------------------------------------------------------
+# I                       PLASMA PISTOL                          I
+# ----------------------------------------------------------------
+edittag ui\chud\plasma_pistol.chud_definition
+copyblockelements HudWidgets 0 7
+exit
+
+edittag ui\chud\plasma_pistol_power.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+
+setfield HudWidgets[3].BitmapWidgets[1].PlacementData[0].Offset 70 50
+setfield HudWidgets[3].BitmapWidgets[1].PlacementData[0].Scale -0.9 0.9
+setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlinePower
+setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[3].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics\plasma_pistol.bitmap
+setfield HudWidgets[3].BitmapWidgets[1].BitmapSequenceIndex 3
+
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -70 50
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 0.9 0.9
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlinePower
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics\plasma_pistol.bitmap
+setfield HudWidgets[5].BitmapWidgets[1].BitmapSequenceIndex 3
+
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -55 4
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.5 0.5
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlinePower
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics\plasma_pistol.bitmap
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 3
+savetagchanges
+exit
+
+# ----------------------------------------------------------------
+# I                        PLASMA RIFLE                          I
+# ----------------------------------------------------------------
+edittag ui\chud\plasma_rifle.chud_definition
+copyblockelements HudWidgets 0 6
+exit
+
+edittag ui\chud\plasma_rifle_power.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset 65 50
+setfield HudWidgets[3].BitmapWidgets[1].PlacementData[0].Scale -0.95 0.95
+setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlinePower
+setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[3].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics\plasma_rifle.bitmap
+setfield HudWidgets[3].BitmapWidgets[1].BitmapSequenceIndex 6
+
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -65 50
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 0.95 0.95
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA WeaponOutlinePower
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics\plasma_rifle.bitmap
+setfield HudWidgets[5].BitmapWidgets[1].BitmapSequenceIndex 6
+
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -55 4
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.5 0.5
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].ExternalInput WeaponVersionNumber
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA WeaponOutlinePower
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics\plasma_rifle.bitmap
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 6
+savetagchanges
+exit
