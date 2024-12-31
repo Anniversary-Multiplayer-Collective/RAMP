@@ -83,6 +83,12 @@ Exit
 
 OpenCacheFile "reachmaps\forge_halo.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+DoNotReplaceGroups bitm
+PortTag Replace objects\gear\human\military\barricade_large\barricade_large.crate
+PortTag Replace objects\gear\human\military\barricade_small\barricade_small.crate
+PortTag Replace objects\gear\human\military\fusion_coil\fusion_coil.crate
+PortTag Replace objects\gear\human\military\camping_stool_mp\camping_stool_mp.crate
+DoNotReplaceGroups remove bitm
 PortTag ReachMisc objects\multi\boundaries\safe_volume.scen
 PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
 Exit
@@ -280,38 +286,21 @@ SetField CampaignId -1
 SaveTagChanges
 Exit
 
-##echo ==Port Reach Objects==
-##OpenCacheFile "reachmaps\forge_halo.map"
-##PortTag ReachMisc Replace objects\multi\spawning\respawn_point.scenery
-##PortTag ReachMisc Replace objects\multi\spawning\initial_spawn_point.scenery
-##PortTag ReachMisc Replace objects\multi\spawning\ff_respawn_point\ff_respawn_point.scenery
-##PortTag ReachMisc Replace objects\gear\human\military\camping_stool_mp\camping_stool_mp.crate
-##PortTag ReachMisc Replace objects\gear\human\military\fusion_coil\fusion_coil.crate
-##Exit
-
 RunCommands "workingdir\forge.cmds"
 
-##echo ==Remove damage from ported models==
-##EditTag objects\multi\spawning\ff_respawn_point\ff_respawn_point.model
-##RemoveBlockElements NewDamageInfo 0 1
-##SaveTagChanges
-##Exit
-##EditTag objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
-##RemoveBlockElements NewDamageInfo 0 1
-##SaveTagChanges
-##Exit
-##EditTag objects\multi\spawning\ff_respawn_point\ff_respawn_point.model
-##RemoveBlockElements NewDamageInfo 0 1
-##SaveTagChanges
-##Exit
-##EditTag objects\multi\models\ff_safe_zone\ff_safe_zone.model
-##RemoveBlockElements NewDamageInfo 0 1
-##SaveTagChanges
-##Exit
-##EditTag objects\gear\human\military\camping_stool_mp\camping_stool_mp.model
-##RemoveBlockElements NewDamageInfo 0 1
-##SaveTagChanges
-##Exit
+echo ==Remove damage from ported models==
+EditTag objects\multi\spawning\ff_respawn_point\ff_respawn_point.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+EditTag objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+EditTag objects\gear\human\military\camping_stool_mp\camping_stool_mp.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
 
 echo ==Revenant==
 
@@ -949,48 +938,46 @@ Exit
 
 
 
+echo ==Replace initial spawn points==
+EditTag objects\multi\assault\assault_initial_spawn_point.scenery
+SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+SaveTagChanges
+Exit
 
-## Commented out until I port the Spawn Points
-##echo ==Replace initial spawn points==
-##EditTag objects\multi\assault\assault_initial_spawn_point.scenery
-##SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
-##SaveTagChanges
-##Exit
-##
-##EditTag objects\multi\ctf\ctf_initial_spawn_point.scenery
-##SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
-##SaveTagChanges
-##Exit
-##
-##EditTag objects\multi\infection\infection_initial_spawn_point.scenery
-##SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
-##SaveTagChanges
-##Exit
-##
-##EditTag objects\multi\oddball\oddball_initial_spawn_point.scenery
-##SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
-##SaveTagChanges
-##Exit
-##
-##EditTag objects\multi\slayer\slayer_initial_spawn_point.scenery
-##SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
-##SaveTagChanges
-##Exit
-##
-##EditTag objects\multi\territories\territories_initial_spawn_point.scenery
-##SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
-##SaveTagChanges
-##Exit
-##
-##EditTag objects\multi\vip\vip_initial_spawn_point.scenery
-##SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
-##SaveTagChanges
-##Exit
-##
-##EditTag objects\multi\koth\koth_initial_spawn_point.scenery
-##SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
-##SaveTagChanges
-##Exit
+EditTag objects\multi\ctf\ctf_initial_spawn_point.scenery
+SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+SaveTagChanges
+Exit
+
+EditTag objects\multi\infection\infection_initial_spawn_point.scenery
+SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+SaveTagChanges
+Exit
+
+EditTag objects\multi\oddball\oddball_initial_spawn_point.scenery
+SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+SaveTagChanges
+Exit
+
+EditTag objects\multi\slayer\slayer_initial_spawn_point.scenery
+SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+SaveTagChanges
+Exit
+
+EditTag objects\multi\territories\territories_initial_spawn_point.scenery
+SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+SaveTagChanges
+Exit
+
+EditTag objects\multi\vip\vip_initial_spawn_point.scenery
+SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+SaveTagChanges
+Exit
+
+EditTag objects\multi\koth\koth_initial_spawn_point.scenery
+SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+SaveTagChanges
+Exit
 
 echo ==Apply noble six voice pak==
 
