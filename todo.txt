@@ -1,14 +1,10 @@
 TODO:
+Podium HSC on maps
 Add ability to edit viewmodels for weaps
-Replace damage sphere aka the kill ball with reaches
-See if the forge lights and FX balls can be ported(The FX balls have issues ask mtn if can somehow replace the reach ones in the variant converter with the proper ED ones with the right values)
-Fix weapon pickup icons.
+Find way to get Reach FX ball screen FX working.
 Fix health pack
 Two way teleporter not working, https://s.zekken.rocks/M5gvXoE6.jpg
 Fix projectile drop on flak cannon and maybe banshee bomb?
 Fix it being square levels\dlc\cex_damnation\fx\particles\greensplat.particle
-Elites missing animations for armor lock and drop shield
-Sprint animations for reach weapons
 Replace the Halo 3 items with their halo Reach equivelent
-Fix incorrect ammo count on some weapons when low ammo https://s.zekken.rocks/t1AQw4FN.jpg
 Add Podium to each map

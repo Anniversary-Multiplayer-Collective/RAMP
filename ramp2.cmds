@@ -293,7 +293,7 @@ EditTag objects\multi\spawning\ff_respawn_point\ff_respawn_point.model
 RemoveBlockElements NewDamageInfo 0 1
 SaveTagChanges
 Exit
-EditTag objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+EditTag objects\multi\spawning\ff_respawn_point\ff_respawn_point.model
 RemoveBlockElements NewDamageInfo 0 1
 SaveTagChanges
 Exit
@@ -326,8 +326,9 @@ ApplyModPackage
 ExitModPackage
 
 #Add to forge palette
-AddForgeItem "FALCON" "VEHICLES" objects\vehicles\falcon\falcon.vehicle
-AddForgeItem "FALCON TRANSPORT" "VEHICLES" objects\vehicles\falcon\falcon_transport.vehicle
+AddForgeItem "FALCON" "VEHICLES" objects\vehicles\human\falcon\falcon.vehicle
+AddForgeItem "FALCON, TRANSPORT" "VEHICLES" objects\vehicles\human\falcon\falcon_transport.vehicle
+AddForgeItem "FALCON, NOSE GUN" "VEHICLES" objects\vehicles\human\falcon\falcon_nose_gun.vehicle
 
 echo ==Apply RAMP Vehicles==
 
@@ -571,14 +572,14 @@ SetString english revenant_board "\uE461\uE45F to board Revenant"
 SaveTagChanges
 Exit
 
-EditTag ui\hud\hud_messages.multilingual_unicode_string_list
-SetString english falcon_drive "\uE461\uE45F to drive Falcon"
-SetString english falcon_enter_passenger "\uE461\uE45F to ride in Falcon"
-SetString english falcon_board "\uE461\uE45F to board Falcon"
-SetString english falcon_flip "\uE461\uE45F to flip Falcon"
-SetString english falcon_enter_gunner "\uE461\uE45F to operate Falcon turret"
-SaveTagChanges
-Exit
+edittag ui\hud\hud_messages.multilingual_unicode_string_list
+setstring english falcon_drive "\uE461\uE45F to drive Falcon"
+setstring english falcon_enter_passenger "\uE461\uE45F to ride in Falcon"
+setstring english falcon_board "\uE461\uE45F to board Falcon"
+setstring english falcon_flip "\uE461\uE45F to flip Falcon"
+setstring english falcon_enter_gunner "\uE461\uE45F to operate Falcon turret"
+savetagchanges
+exit
 
 echo ==Fix projectile drop==
 EditTag dw3\r3ach\objects\weapons\support_high\rocket_launcher\projectiles\rocket_launcher_rocket.projectile
@@ -940,42 +941,42 @@ Exit
 
 echo ==Replace initial spawn points==
 EditTag objects\multi\assault\assault_initial_spawn_point.scenery
-SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
-SaveTagChanges
+SetField Model objects\multi\spawning\ff_respawn_point\ff_respawn_point.model
+SaveTagChanges 
 Exit
 
 EditTag objects\multi\ctf\ctf_initial_spawn_point.scenery
-SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+SetField Model objects\multi\spawning\ff_respawn_point\ff_respawn_point.model
 SaveTagChanges
 Exit
 
 EditTag objects\multi\infection\infection_initial_spawn_point.scenery
-SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+SetField Model objects\multi\spawning\ff_respawn_point\ff_respawn_point.model
 SaveTagChanges
 Exit
 
 EditTag objects\multi\oddball\oddball_initial_spawn_point.scenery
-SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+SetField Model objects\multi\spawning\ff_respawn_point\ff_respawn_point.model
 SaveTagChanges
 Exit
 
 EditTag objects\multi\slayer\slayer_initial_spawn_point.scenery
-SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+SetField Model objects\multi\spawning\ff_respawn_point\ff_respawn_point.model
 SaveTagChanges
 Exit
 
 EditTag objects\multi\territories\territories_initial_spawn_point.scenery
-SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+SetField Model objects\multi\spawning\ff_respawn_point\ff_respawn_point.model
 SaveTagChanges
 Exit
 
 EditTag objects\multi\vip\vip_initial_spawn_point.scenery
-SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+SetField Model objects\multi\spawning\ff_respawn_point\ff_respawn_point.model
 SaveTagChanges
 Exit
 
 EditTag objects\multi\koth\koth_initial_spawn_point.scenery
-SetField Model objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+SetField Model objects\multi\spawning\ff_respawn_point\ff_respawn_point.model
 SaveTagChanges
 Exit
 
