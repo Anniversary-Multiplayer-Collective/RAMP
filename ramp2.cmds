@@ -1045,6 +1045,26 @@ runcommands "workingdir\CHDTpart3.cmds"
 echo ==Third person animations==
 runcommands "workingdir\3Panimations.cmds"
 
+echo ==Fix Health Pack==
+edittag objects\characters\masterchief\mp_masterchief\mp_masterchief.biped
+setfield RevivingEquipment[0].Instance objects\powerups\health_pack\health_pack_large.equipment
+savetagchanges
+exit
+edittag objects\characters\elite\mp_elite\mp_elite.biped
+setfield RevivingEquipment[0].Instance objects\powerups\health_pack\health_pack_large.equipment
+savetagchanges
+exit
+
+edittag objects\equipment\health_pack\shaders\health_pack.shader
+setfield ShaderProperties[0].Template shaders\shader_templates\_0_1_0_1_2_5_1_0_0_4_0_0.render_method_template
+savetagchanges
+exit
+edittag objects\equipment\health_pack\shaders\health_pack_rubber.shader
+setfield ShaderProperties[0].Template shaders\shader_templates\_0_2_0_1_10_0_0_0_0_4_0_0.render_method_template
+savetagchanges
+exit
+
+
 importfonts workingdir\fonts_new.bin
 
 DeleteModFiles
