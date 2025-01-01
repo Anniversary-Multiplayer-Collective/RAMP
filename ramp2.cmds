@@ -936,6 +936,11 @@ edittag levels\solo\m45\shaders\metal_boilerplate.shader
 setargument specular_coefficient 0.003
 SaveTagChanges
 Exit
+edittag levels\solo\m45\shaders\m45_panel_gantry_simple.shader
+setargument diffuse_coefficient 0.3
+setargument detail_map transform 0 0 0 0.95
+SaveTagChanges
+Exit
 
 
 
@@ -1059,6 +1064,11 @@ setfield ShaderProperties[0].Template shaders\shader_templates\_0_2_0_1_10_0_0_0
 savetagchanges
 exit
 
+echo ==Switch needler projectile==
+edittag objects\weapons\pistol\needler\needler.weapon
+setfield Barrels[0].Projectile objects\weapons\pistol\needler\projectiles\needler_shard\needler_shard.projectile
+savetagchanges
+Exit
 
 importfonts workingdir\fonts_new.bin
 
