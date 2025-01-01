@@ -1024,11 +1024,6 @@ SetField RenderMethod.ShaderProperties[0].TextureConstants[2].Bitmap fx\bitmaps\
 SaveTagChanges
 Exit
 
-EditTag multiplayer\forge_globals.forge_globals_definition
-MaximizeBudget
-SaveTagChanges
-Exit
-
 echo ==Spartan Weapons Animation==
 runcommands "workingdir\spartan_animations.cmds"
 runcommands "workingdir\spartan_rendermodel.cmds"
@@ -1072,6 +1067,11 @@ DeleteModFiles
 AddModFiles workingdir\assets
 
 UpdateMapFiles "workingdir\info"
+
+EditTag multiplayer\forge_globals.forge_globals_definition
+MaximizeBudget
+SaveTagChanges
+Exit
 
 SaveModPackage "modsfolder\RAMP_2.pak"
 

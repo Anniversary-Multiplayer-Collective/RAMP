@@ -306,7 +306,7 @@ setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalScalarB 0.1
 setfield HudWidgets[4].TextWidgets[0].RenderData[0].ShaderType Simple
 addblockelements HudWidgets[4].TextWidgets[0].AnimationData
 setfield HudWidgets[4].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
-setfield HudWidgets[4].TextWidgets[0].WidgetIndex 4
+# setfield HudWidgets[4].TextWidgets[0].WidgetIndex 4
 
 setfield HudWidgets[4].TextWidgets[1].PlacementData[0].Offset -81 57
 setfield HudWidgets[4].TextWidgets[1].PlacementData[0].Scale 0.9 0.9
@@ -350,7 +350,7 @@ setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].LocalScalarB 0.1
 setfield HudWidgets[5].TextWidgets[0].RenderData[0].ShaderType Simple
 addblockelements HudWidgets[5].TextWidgets[0].AnimationData
 setfield HudWidgets[5].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
-setfield HudWidgets[5].TextWidgets[0].WidgetIndex 9
+# setfield HudWidgets[5].TextWidgets[0].WidgetIndex 9
 
 setfield HudWidgets[5].TextWidgets[1].PlacementData[0].Offset -81 57
 setfield HudWidgets[5].TextWidgets[1].PlacementData[0].Scale 0.9 0.9
@@ -393,7 +393,7 @@ setfield HudWidgets[6].TextWidgets[0].RenderData[0].LocalColorA 0 255 255 255
 setfield HudWidgets[6].TextWidgets[0].RenderData[0].ShaderType Simple
 addblockelements HudWidgets[6].TextWidgets[0].AnimationData
 setfield HudWidgets[6].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
-setfield HudWidgets[6].TextWidgets[0].WidgetIndex 1
+# setfield HudWidgets[6].TextWidgets[0].WidgetIndex 1
 
 copyblockelements HudWidgets[6].TextWidgets 0 1
 pasteblockelements HudWidgets[4].Textwidgets
@@ -429,7 +429,7 @@ setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalScalarB 0.1
 setfield HudWidgets[4].TextWidgets[0].RenderData[0].ShaderType Simple
 addblockelements HudWidgets[4].TextWidgets[0].AnimationData
 setfield HudWidgets[4].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
-setfield HudWidgets[4].TextWidgets[0].WidgetIndex 4
+# setfield HudWidgets[4].TextWidgets[0].WidgetIndex 4
 
 setfield HudWidgets[4].TextWidgets[1].PlacementData[0].Offset -81 57
 setfield HudWidgets[4].TextWidgets[1].PlacementData[0].Scale 0.9 0.9
@@ -479,7 +479,7 @@ setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].LocalScalarB 0.1
 setfield HudWidgets[5].TextWidgets[0].RenderData[0].ShaderType Simple
 addblockelements HudWidgets[5].TextWidgets[0].AnimationData
 setfield HudWidgets[5].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
-setfield HudWidgets[5].TextWidgets[0].WidgetIndex 1
+# setfield HudWidgets[5].TextWidgets[0].WidgetIndex 1
 
 setfield HudWidgets[5].TextWidgets[1].PlacementData[0].Offset -81 57
 setfield HudWidgets[5].TextWidgets[1].PlacementData[0].Scale 0.9 0.9
@@ -526,7 +526,7 @@ setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalScalarB 0.1
 setfield HudWidgets[4].TextWidgets[0].RenderData[0].ShaderType Simple
 addblockelements HudWidgets[4].TextWidgets[0].AnimationData
 setfield HudWidgets[4].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
-setfield HudWidgets[4].TextWidgets[0].WidgetIndex 4
+# setfield HudWidgets[4].TextWidgets[0].WidgetIndex 4
 
 setfield HudWidgets[4].TextWidgets[1].PlacementData[0].Offset -81 57
 setfield HudWidgets[4].TextWidgets[1].PlacementData[0].Scale 0.9 0.9
@@ -585,7 +585,7 @@ setfield HudWidgets[0].BitmapWidgets[4].RuntimeWidgetIndex 8
 setfield HudWidgets[5].TextWidgets[0].RenderData[0].ShaderType Simple
 addblockelements HudWidgets[5].TextWidgets[0].AnimationData
 setfield HudWidgets[5].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
-setfield HudWidgets[5].TextWidgets[0].WidgetIndex 1
+# setfield HudWidgets[5].TextWidgets[0].WidgetIndex 1
 
 setfield HudWidgets[5].TextWidgets[1].PlacementData[0].Offset -81 57
 setfield HudWidgets[5].TextWidgets[1].PlacementData[0].Scale 0.9 0.9
@@ -669,7 +669,7 @@ setfield HudWidgets[3].BitmapWidgets[0].RenderData[0].LocalScalarB 0.1
 setfield HudWidgets[3].TextWidgets[0].RenderData[0].ShaderType Simple
 addblockelements HudWidgets[3].TextWidgets[0].AnimationData
 setfield HudWidgets[3].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
-setfield HudWidgets[3].TextWidgets[0].WidgetIndex 1
+# setfield HudWidgets[3].TextWidgets[0].WidgetIndex 1
 
 setfield HudWidgets[3].TextWidgets[1].PlacementData[0].Offset -81 57
 setfield HudWidgets[3].TextWidgets[1].PlacementData[0].Scale 0.9 0.9
@@ -710,7 +710,7 @@ setfield HudWidgets[2].ParallaxData ui\chud\parallax\vehicles.chud_widget_parall
 setfield HudWidgets[6].TextWidgets[0].RenderData[0].ShaderType Simple
 addblockelements HudWidgets[6].TextWidgets[0].AnimationData
 setfield HudWidgets[6].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
-setfield HudWidgets[6].TextWidgets[0].WidgetIndex 1
+# setfield HudWidgets[6].TextWidgets[0].WidgetIndex 1
 
 copyblockelements HudWidgets[6].TextWidgets 0 1
 pasteblockelements HudWidgets[4].Textwidgets
@@ -742,7 +742,7 @@ setfield HudWidgets[2].BitmapWidgets[1].RuntimeWidgetIndex 2
 
 setfield HudWidgets[2].BitmapWidgets[4].PlacementData[0].Offset -15 112
 setfield HudWidgets[2].BitmapWidgets[4].Bitmap ui\chud\bitmaps\energy_meters.bitmap
-setfield HudWidgets[2].BitmapWidgets[4].BitmapSequenceIndex 1
+# setfield HudWidgets[2].BitmapWidgets[4].BitmapSequenceIndex 1
 
 setfield HudWidgets[2].TextWidgets[0].RenderData[0].ShaderType Simple
 addblockelements HudWidgets[2].TextWidgets[0].AnimationData
@@ -790,7 +790,7 @@ setfield HudAmmunitionInfo.LowAmmoLoadedThreshold 0
 setfield HudWidgets[4].TextWidgets[0].RenderData[0].ShaderType Simple
 addblockelements HudWidgets[4].TextWidgets[0].AnimationData
 setfield HudWidgets[4].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
-setfield HudWidgets[4].TextWidgets[0].WidgetIndex 4
+# setfield HudWidgets[4].TextWidgets[0].WidgetIndex 4
 
 setfield HudWidgets[4].TextWidgets[1].PlacementData[0].Offset -55 57
 setfield HudWidgets[4].TextWidgets[1].PlacementData[0].Scale 0.9 0.9
@@ -999,7 +999,7 @@ setfield HudWidgets[4].PlacementData[0].Offset 18 0
 setfield HudWidgets[4].TextWidgets[0].RenderData[0].ShaderType Simple
 addblockelements HudWidgets[4].TextWidgets[0].AnimationData
 setfield HudWidgets[4].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
-setfield HudWidgets[4].TextWidgets[0].WidgetIndex 4
+# setfield HudWidgets[4].TextWidgets[0].WidgetIndex 4
 
 setfield HudWidgets[4].TextWidgets[1].PlacementData[0].Offset -81 57
 setfield HudWidgets[4].TextWidgets[1].PlacementData[0].Scale 0.9 0.9
@@ -1045,7 +1045,7 @@ setfield HudWidgets[5].TextWidgets[0].RenderData[0].LocalColorA 0 255 255 255
 setfield HudWidgets[5].TextWidgets[0].RenderData[0].OutputColorB LocalA
 addblockelements HudWidgets[5].TextWidgets[0].AnimationData
 setfield HudWidgets[5].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
-setfield HudWidgets[5].TextWidgets[0].WidgetIndex 1
+# setfield HudWidgets[5].TextWidgets[0].WidgetIndex 1
 
 setfield HudWidgets[5].TextWidgets[1].PlacementData[0].Offset -81 57
 setfield HudWidgets[5].TextWidgets[1].PlacementData[0].Scale 0.9 0.9
@@ -1086,7 +1086,7 @@ setfield HudWidgets[2].ParallaxData ui\chud\parallax\vehicles.chud_widget_parall
 setfield HudWidgets[5].TextWidgets[0].RenderData[0].ShaderType Simple
 addblockelements HudWidgets[5].TextWidgets[0].AnimationData
 setfield HudWidgets[5].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
-setfield HudWidgets[5].TextWidgets[0].WidgetIndex 1
+# setfield HudWidgets[5].TextWidgets[0].WidgetIndex 1
 
 setfield HudWidgets[3].BitmapWidgets[0].PlacementData[0].Scale -0.9 0.9
 setfield HudWidgets[3].BitmapWidgets[0].PlacementData[0].Offset 170 107
@@ -1140,7 +1140,7 @@ setfield HudWidgets[5].BitmapWidgets[5].PlacementData[0].Offset 6969 6969
 setfield HudWidgets[5].TextWidgets[0].RenderData[0].ShaderType Simple
 addblockelements HudWidgets[5].TextWidgets[0].AnimationData
 setfield HudWidgets[5].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
-setfield HudWidgets[5].TextWidgets[0].WidgetIndex 1
+# setfield HudWidgets[5].TextWidgets[0].WidgetIndex 1
 
 setfield HudWidgets[3].BitmapWidgets[0].PlacementData[0].Scale -0.9 0.9
 setfield HudWidgets[3].BitmapWidgets[0].PlacementData[0].Offset 170 107
@@ -1196,7 +1196,7 @@ setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics_
 setfield HudWidgets[5].TextWidgets[0].RenderData[0].ShaderType Simple
 addblockelements HudWidgets[5].TextWidgets[0].AnimationData
 setfield HudWidgets[5].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
-setfield HudWidgets[5].TextWidgets[0].WidgetIndex 1
+# setfield HudWidgets[5].TextWidgets[0].WidgetIndex 1
 
 copyblockelements HudWidgets[5].TextWidgets 0 1
 pasteblockelements HudWidgets[4].Textwidgets
@@ -1238,7 +1238,7 @@ setfield HudWidgets[0].BitmapWidgets[2].PlacementData[0].Scale 0 0
 setfield HudWidgets[2].TextWidgets[0].RenderData[0].ShaderType Simple
 addblockelements HudWidgets[2].TextWidgets[0].AnimationData
 setfield HudWidgets[2].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
-setfield HudWidgets[2].TextWidgets[0].WidgetIndex 5
+# setfield HudWidgets[2].TextWidgets[0].WidgetIndex 5
 
 setfield HudWidgets[2].BitmapWidgets[0].PlacementData[0].Offset -42 112
 setfield HudWidgets[2].BitmapWidgets[0].Bitmap ui\chud\bitmaps\energy_meters.bitmap
@@ -1284,7 +1284,7 @@ setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].LocalScalarB 0.1
 setfield HudWidgets[5].TextWidgets[0].RenderData[0].ShaderType Simple
 addblockelements HudWidgets[5].TextWidgets[0].AnimationData
 setfield HudWidgets[5].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
-setfield HudWidgets[5].TextWidgets[0].WidgetIndex 1
+# setfield HudWidgets[5].TextWidgets[0].WidgetIndex 1
 
 setfield HudWidgets[5].TextWidgets[1].PlacementData[0].Offset -81 57
 setfield HudWidgets[5].TextWidgets[1].PlacementData[0].Scale 0.9 0.9
@@ -1401,7 +1401,7 @@ setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalScalarB 0.1
 setfield HudWidgets[4].TextWidgets[0].RenderData[0].ShaderType Simple
 addblockelements HudWidgets[4].TextWidgets[0].AnimationData
 setfield HudWidgets[4].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
-setfield HudWidgets[4].TextWidgets[0].WidgetIndex 1
+# setfield HudWidgets[4].TextWidgets[0].WidgetIndex 1
 
 setfield HudWidgets[4].TextWidgets[1].PlacementData[0].Offset -81 57
 setfield HudWidgets[4].TextWidgets[1].PlacementData[0].Scale 0.9 0.9
@@ -1446,7 +1446,7 @@ setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].LocalScalarB 0.1
 setfield HudWidgets[5].TextWidgets[0].RenderData[0].ShaderType Simple
 addblockelements HudWidgets[5].TextWidgets[0].AnimationData
 setfield HudWidgets[5].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
-setfield HudWidgets[5].TextWidgets[0].WidgetIndex 1
+# setfield HudWidgets[5].TextWidgets[0].WidgetIndex 1
 
 setfield HudWidgets[5].TextWidgets[1].PlacementData[0].Offset -81 57
 setfield HudWidgets[5].TextWidgets[1].PlacementData[0].Scale 0.9 0.9
@@ -1491,7 +1491,7 @@ setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].LocalScalarB 0.1
 setfield HudWidgets[5].TextWidgets[0].RenderData[0].ShaderType Simple
 addblockelements HudWidgets[5].TextWidgets[0].AnimationData
 setfield HudWidgets[5].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
-setfield HudWidgets[5].TextWidgets[0].WidgetIndex 1
+# setfield HudWidgets[5].TextWidgets[0].WidgetIndex 1
 
 setfield HudWidgets[5].TextWidgets[1].PlacementData[0].Offset -81 57
 setfield HudWidgets[5].TextWidgets[1].PlacementData[0].Scale 0.9 0.9
@@ -1538,7 +1538,7 @@ setfield HudAmmunitionInfo.LowBatteryThreshold 25
 setfield HudWidgets[4].TextWidgets[0].RenderData[0].ShaderType Simple
 addblockelements HudWidgets[4].TextWidgets[0].AnimationData
 setfield HudWidgets[4].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
-setfield HudWidgets[4].TextWidgets[0].WidgetIndex 5
+# setfield HudWidgets[4].TextWidgets[0].WidgetIndex 5
 
 copyblockelements HudWidgets[4].TextWidgets 0 1
 pasteblockelements HudWidgets[5].Textwidgets
@@ -1568,7 +1568,7 @@ setfield HudWidgets[2].ParallaxData ui\chud\parallax\vehicles.chud_widget_parall
 setfield HudWidgets[4].TextWidgets[0].RenderData[0].ShaderType Simple
 addblockelements HudWidgets[4].TextWidgets[0].AnimationData
 setfield HudWidgets[4].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
-setfield HudWidgets[4].TextWidgets[0].WidgetIndex 5
+# setfield HudWidgets[4].TextWidgets[0].WidgetIndex 5
 
 setfield HudWidgets[4].BitmapWidgets[5].PlacementData[0].Offset 6969 6969
 
