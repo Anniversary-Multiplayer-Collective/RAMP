@@ -342,6 +342,10 @@ setfield Animations[6].PlaybackFlags ForceWeaponIkOn
 setfield Animations[8].PlaybackFlags DisableWeaponAim1stPerson,ForceWeaponIkOn
 setfield Animations[12].PlaybackFlags ForceWeaponIkOn
 setfield Animations[13].PlaybackFlags ForceWeaponIkOn
+setfield Animations[16].PlaybackFlags ForceWeaponIkOn
+setfield Animations[17].PlaybackFlags ForceWeaponIkOn
+setfield Animations[18].PlaybackFlags ForceWeaponIkOn
+setfield Animations[20].PlaybackFlags DisableWeaponIk
 setfield Animations[31].PlaybackFlags ForceWeaponIkOn
 setfield Animations[32].PlaybackFlags ForceWeaponIkOn
 setfield Animations[33].PlaybackFlags ForceWeaponIkOn
