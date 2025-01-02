@@ -2463,7 +2463,7 @@ SetField Palette[774].Type Prop
 SaveTagChanges
 Exit
 
-AddForgeItem "PUMPJACK" 87 objects\props\human\pioneer\water\buoy\buoy.scenery
+AddForgeItem "BUOY" 87 objects\props\human\pioneer\water\buoy\buoy.scenery
 EditTag multiplayer\forge_globals.forge_globals_definition
 SetField Palette[775].Type Prop
 SaveTagChanges

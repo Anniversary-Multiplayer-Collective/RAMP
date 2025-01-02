@@ -1097,7 +1097,7 @@ SaveTagChanges
 Exit
 
 edittag dw3\r3ach\objects\weapons\rifle\sniper_rifle\shaders\scope_alpha.shader_halogram
-setargument self_illum_map transform 0.6 0.6 0.19 0.16
+setargument self_illum_map 0.6 0.6 0.19 0.16
 savetagchanges
 Exit
 
