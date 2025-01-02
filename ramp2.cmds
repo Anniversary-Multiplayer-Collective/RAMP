@@ -1270,6 +1270,9 @@ setfield MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shad
 savetagchanges
 exit
 
+echo ==Weapons Viewmodel Support==
+runcommands "workingdir\weapons_viewmodel.cmds"
+
 importfonts workingdir\fonts_new.bin
 
 DeleteModFiles
