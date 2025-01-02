@@ -947,6 +947,21 @@ SaveTagChanges
 Exit
 
 
+# echo ==Shader fixes for Breakneck...==
+edittag levels\dlc\cex_headlong\shaders\ca_headlong_yellow_crane.shader
+setargument specular_coefficient 0.01
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\ca_headlong_yellow_mech.shader
+setargument specular_coefficient 0.01
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\headlong_clean_metal1_light.shader
+setargument specular_coefficient 0.05
+savetagchanges
+exit
+
+
 
 echo ==Replace initial spawn points==
 EditTag objects\multi\assault\assault_initial_spawn_point.scenery
@@ -1071,6 +1086,18 @@ exit
 echo ==Switch needler projectile==
 edittag objects\weapons\pistol\needler\needler.weapon
 setfield Barrels[0].Projectile objects\weapons\pistol\needler\projectiles\needler_shard\needler_shard.projectile
+savetagchanges
+Exit
+
+EditTag objects\props\covenant\antennae_comm\antennae_comm.physics_model
+SetField NodeEdges[0].Constraints[0].Flags IsRigid
+SetField NodeEdges[1].Constraints[0].Flags IsRigid
+SetField NodeEdges[2].Constraints[0].Flags IsRigid
+SaveTagChanges
+Exit
+
+edittag dw3\r3ach\objects\weapons\rifle\sniper_rifle\shaders\scope_alpha.shader_halogram
+setargument self_illum_map transform 0.6 0.6 0.19 0.16
 savetagchanges
 Exit
 
