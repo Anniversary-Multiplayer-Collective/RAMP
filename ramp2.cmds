@@ -942,7 +942,7 @@ SaveTagChanges
 Exit
 edittag levels\solo\m45\shaders\m45_panel_gantry_simple.shader
 setargument diffuse_coefficient 0.3
-setargument detail_map transform 0 0 0 0.95
+setargument detail_map 0 0 0 0.95
 SaveTagChanges
 Exit
 
