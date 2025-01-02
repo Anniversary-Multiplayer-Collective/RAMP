@@ -960,7 +960,7 @@ edittag levels\dlc\cex_headlong\shaders\headlong_clean_metal1_light.shader
 setargument specular_coefficient 0.05
 savetagchanges
 exit
-edittag levels\solo\m70\bitmaps\fence_safety_fence_a_dif.bitmap
+edittag levels\dlc\cex_headlong\shaders\ca_headlong_fence_safety.shader
 setargument analytical_specular_contribution 0.1
 savetagchanges
 Exit
