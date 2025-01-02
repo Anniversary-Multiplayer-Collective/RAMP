@@ -827,6 +827,10 @@ edittag levels\solo\m60\shaders\organic\ice_ground.shader_terrain
 setargument specular_coefficient_m_0 0
 savetagchanges
 exit
+edittag levels\solo\m60\shaders\organic\ice_ground_ice.shader_terrain
+setargument specular_coefficient_m_0 0
+savetagchanges
+exit
 edittag levels\solo\m60\shaders\organic\m60_ice_cave_rock_close_prefab.shader_terrain
 setargument specular_power_m_0 0
 setargument area_specular_contribution_m_0 0
@@ -1069,6 +1073,8 @@ edittag objects\weapons\pistol\needler\needler.weapon
 setfield Barrels[0].Projectile objects\weapons\pistol\needler\projectiles\needler_shard\needler_shard.projectile
 savetagchanges
 Exit
+
+runcommands "workingdir\worldbounds.cmds"
 
 importfonts workingdir\fonts_new.bin
 

@@ -1,0 +1,134 @@
+
+# Increase world bounds on some maps
+
+EditTag levels\multi\dlc\dlc_slayer\dlc_slayer_main.scenario_structure_bsp
+SetField WorldBoundsX -1000 1000
+SetField WorldBoundsY -1000 1000
+SetField WorldBoundsZ -1000 1000
+SetField Clusters[0].BoundsX -1000 1000
+SetField Clusters[0].BoundsY -1000 1000
+SetField Clusters[0].BoundsZ -1000 1000
+SetField Physics.MoppBoundsMin -1000 -1000 -1000
+SetField Physics.MoppBoundsMax 1000 1000 1000
+SaveTagChanges
+Exit
+
+EditTag levels\multi\50_panopticon\bsp01.scenario_structure_bsp
+SetField WorldBoundsX -1000 1000
+SetField WorldBoundsY -1000 1000
+SetField WorldBoundsZ -1000 1000
+SetField Clusters[0].BoundsX -1000 1000
+SetField Clusters[0].BoundsY -1000 1000
+SetField Clusters[0].BoundsZ -1000 1000
+SetField Physics.MoppBoundsMin -1000 -1000 -1000
+SetField Physics.MoppBoundsMax 1000 1000 1000
+SaveTagChanges
+Exit
+
+EditTag levels\multi\70_boneyard\70_boneyard.scenario_structure_bsp
+SetField WorldBoundsX -1000 1000
+SetField WorldBoundsY -1000 1000
+SetField WorldBoundsZ -1000 1000
+SetField Clusters[0].BoundsX -1000 1000
+SetField Clusters[0].BoundsY -1000 1000
+SetField Clusters[0].BoundsZ -1000 1000
+SetField Physics.MoppBoundsMin -1000 -1000 -1000
+SetField Physics.MoppBoundsMax 1000 1000 1000
+SaveTagChanges
+Exit
+
+EditTag levels\multi\dlc\dlc_invasion\dlc_invasion_main.scenario_structure_bsp
+SetField WorldBoundsX -1000 1000
+SetField WorldBoundsY -1000 1000
+SetField WorldBoundsZ -1000 1000
+SetField Clusters[0].BoundsX -1000 1000
+SetField Clusters[0].BoundsY -1000 1000
+SetField Clusters[0].BoundsZ -1000 1000
+SetField Physics.MoppBoundsMin -1000 -1000 -1000
+SetField Physics.MoppBoundsMax 1000 1000 1000
+SaveTagChanges
+Exit
+
+EditTag levels\multi\45_launch_station\45_launch_station.scenario_structure_bsp
+SetField WorldBoundsX -1000 1000
+SetField WorldBoundsY -1000 1000
+SetField WorldBoundsZ -1000 1000
+SetField Clusters[0].BoundsX -1000 1000
+SetField Clusters[0].BoundsY -1000 1000
+SetField Clusters[0].BoundsZ -1000 1000
+SetField Physics.MoppBoundsMin -1000 -1000 -1000
+SetField Physics.MoppBoundsMax 1000 1000 1000
+SaveTagChanges
+Exit
+
+EditTag levels\multi\forge_halo\forge_halo.scenario_structure_bsp
+SetField WorldBoundsX -1000 1000
+SetField WorldBoundsY -1000 1000
+SetField WorldBoundsZ -1000 1000
+SetField Clusters[0].BoundsX -1000 1000
+SetField Clusters[0].BoundsY -1000 1000
+SetField Clusters[0].BoundsZ -1000 1000
+SetField Physics.MoppBoundsMin -1000 -1000 -1000
+SetField Physics.MoppBoundsMax 1000 1000 1000
+SaveTagChanges
+Exit
+
+EditTag levels\multi\30_settlement\30_settlement.scenario_structure_bsp
+SetField WorldBoundsX -1000 1000
+SetField WorldBoundsY -1000 1000
+SetField WorldBoundsZ -1000 1000
+SetField Clusters[0].BoundsX -1000 1000
+SetField Clusters[0].BoundsY -1000 1000
+SetField Clusters[0].BoundsZ -1000 1000
+SetField Physics.MoppBoundsMin -1000 -1000 -1000
+SetField Physics.MoppBoundsMax 1000 1000 1000
+SaveTagChanges
+Exit
+
+EditTag levels\multi\35_island\35_island.scenario_structure_bsp
+SetField WorldBoundsX -1000 1000
+SetField WorldBoundsY -1000 1000
+SetField WorldBoundsZ -1000 1000
+SetField Clusters[0].BoundsX -1000 1000
+SetField Clusters[0].BoundsY -1000 1000
+SetField Clusters[0].BoundsZ -1000 1000
+SetField Physics.MoppBoundsMin -1000 -1000 -1000
+SetField Physics.MoppBoundsMax 1000 1000 1000
+SaveTagChanges
+Exit
+
+EditTag levels\multi\20_sword_slayer\20_sword_slayer.scenario_structure_bsp
+SetField WorldBoundsX -1000 1000
+SetField WorldBoundsY -1000 1000
+SetField WorldBoundsZ -1000 1000
+SetField Clusters[0].BoundsX -1000 1000
+SetField Clusters[0].BoundsY -1000 1000
+SetField Clusters[0].BoundsZ -1000 1000
+SetField Physics.MoppBoundsMin -1000 -1000 -1000
+SetField Physics.MoppBoundsMax 1000 1000 1000
+SaveTagChanges
+Exit
+
+EditTag levels\multi\dlc\dlc_medium\dlc_medium_main.scenario_structure_bsp
+SetField WorldBoundsX -1000 1000
+SetField WorldBoundsY -1000 1000
+SetField WorldBoundsZ -1000 1000
+SetField Clusters[0].BoundsX -1000 1000
+SetField Clusters[0].BoundsY -1000 1000
+SetField Clusters[0].BoundsZ -1000 1000
+SetField Physics.MoppBoundsMin -1000 -1000 -1000
+SetField Physics.MoppBoundsMax 1000 1000 1000
+SaveTagChanges
+Exit
+
+EditTag levels\multi\45_aftship\45_aftship_000.scenario_structure_bsp
+SetField WorldBoundsX -1000 1000
+SetField WorldBoundsY -1000 1000
+SetField WorldBoundsZ -1000 1000
+SetField Clusters[0].BoundsX -1000 1000
+SetField Clusters[0].BoundsY -1000 1000
+SetField Clusters[0].BoundsZ -1000 1000
+SetField Physics.MoppBoundsMin -1000 -1000 -1000
+SetField Physics.MoppBoundsMax 1000 1000 1000
+SaveTagChanges
+Exit
