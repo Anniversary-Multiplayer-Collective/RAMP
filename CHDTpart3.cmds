@@ -560,6 +560,15 @@ setfield SwitchToFromAiMessage tl_swap_ai
 savetagchanges
 exit
 
+edittag objects\weapons\rifle\dmr\dmr.weapon
+setfield PickupMessage mr_pickup
+setfield SwapMessage mr_swap
+setfield PickedUpMessage mr_picked_up
+setfield SwitchToMessage mr_switch_to
+setfield SwitchToFromAiMessage mr_swap_ai
+savetagchanges
+exit
+
 edittag ui\chud\spartan.chud_definition
 setfield HUDWidgets[2].PlacementData[0].Offset -25 35
 setfield HUDWidgets[2].PlacementData[0].Scale 1.3 1.3
