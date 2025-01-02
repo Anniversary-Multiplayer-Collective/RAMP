@@ -960,6 +960,128 @@ edittag levels\dlc\cex_headlong\shaders\headlong_clean_metal1_light.shader
 setargument specular_coefficient 0.05
 savetagchanges
 exit
+edittag levels\solo\m70\bitmaps\fence_safety_fence_a_dif.bitmap
+setargument analytical_specular_contribution 0.1
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\ca_headlong_metal_panel_dark.shader
+setargument analytical_specular_contribution 0.1
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\ca_headlong_wall_trim1.shader
+setargument analytical_specular_contribution 0.1
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\ca_headlong_trim_horiz.shader
+setargument analytical_specular_contribution 0.1
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\ca_headlong_stripes.shader
+setargument analytical_specular_contribution 0.01
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\ca_headlong_garage_door.shader
+setargument analytical_specular_contribution 0.1
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\bitmaps\ca_billboard_hog.shader
+setargument specular_coefficient 0
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\ca_headlong_concrete_streak.shader
+setargument analytical_specular_contribution 0.2
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\ca_headlong_floor_tile_a.shader
+setargument analytical_specular_contribution 0
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\headlong_concrete_tile_1.shader
+setargument analytical_specular_contribution 0.1
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\ca_headlong_concrete_trim.shader
+setargument analytical_specular_contribution 0.1
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\headlong_panels_2.shader
+setargument analytical_specular_contribution 0
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\ca_headlong_metal_copper.shader
+setargument analytical_specular_contribution 0.1
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\ca_headlong_metal_copper_darker.shader
+setargument analytical_specular_contribution 0
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\ca_headlong_metal_panel_trims_b_light.shader
+setargument analytical_specular_contribution 0.01
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\metal_dark_01.shader
+setargument analytical_specular_contribution 0.1
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\ca_headlong_pipe.shader
+setargument analytical_specular_contribution 0.01
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\ca_headlong_concrete_moulded.shader
+setargument analytical_specular_contribution 0
+setargument specular_coefficient 0.5
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\ca_headlong_grate_circular.shader
+setargument analytical_specular_contribution 0.05
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\headlong_dumpster.shader
+setargument analytical_specular_contribution 0
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\ca_headlong_nm_red_alert_poster.shader
+setargument analytical_specular_contribution 0
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\headlong_monitor.shader
+setargument analytical_specular_contribution 0
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\ca_headlong_chainlink.shader
+setargument analytical_specular_contribution 0.1
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\headlong_clean_trim2_light.shader
+setargument analytical_specular_contribution 0.1
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\ca_headlong_nm_telecom_poster.shader
+setargument albedo_color 15 15 15 15
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\wall_panel_d.shader
+setargument analytical_specular_contribution 0.1
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\ca_headlong_trim_silver.shader
+setargument analytical_specular_contribution 0.1
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\hub_stair_construction.shader
+setargument analytical_specular_contribution 0.1
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\ca_headlong_grate.shader
+setargument analytical_specular_contribution 0.1
+savetagchanges
+Exit
+edittag levels\dlc\cex_headlong\shaders\ca_headlong_panel_metal_worn.shader
+setargument analytical_specular_contribution 0.1
+savetagchanges
+Exit
+
 
 
 
