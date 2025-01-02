@@ -1225,6 +1225,51 @@ Exit
 
 runcommands "workingdir\worldbounds.cmds"
 
+echo ==Teleporters Fix==
+edittag objects\ca_dev\dlc_preserve\crates\teleporter_sender\teleporter_2way.crate
+setfield MultiplayerObject[0].Type Teleporter2way
+setfield MultiplayerObject[0].BoundaryShaders[0].StandardShader objects\multi\shaders\multiplayer_object_plasma.shader
+setfield MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shaders\multiplayer_object_plasma.shader
+savetagchanges
+exit
+
+edittag objects\ca_dev\dlc_preserve\crates\teleporter_receiver\teleporter_receiver.crate
+setfield MultiplayerObject[0].BoundaryShaders[0].StandardShader objects\multi\shaders\multiplayer_object_plasma.shader
+setfield MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shaders\multiplayer_object_plasma.shader
+savetagchanges
+exit
+
+edittag objects\ca_dev\dlc_preserve\crates\teleporter_sender\teleporter_sender.crate
+setfield MultiplayerObject[0].BoundaryShaders[0].StandardShader objects\multi\shaders\multiplayer_object_plasma.shader
+setfield MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shaders\multiplayer_object_plasma.shader
+savetagchanges
+exit
+
+edittag objects\levels\forge\ff_teleporter_2_way\ff_teleporter_2_way.crate
+setfield MultiplayerObject[0].BoundaryShaders[0].StandardShader objects\multi\shaders\multiplayer_object_plasma.shader
+setfield MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shaders\multiplayer_object_plasma.shader
+savetagchanges
+exit
+
+edittag objects\levels\forge\ff_teleporter_receiver\ff_teleporter_receiver.crate
+setfield MultiplayerObject[0].BoundaryShaders[0].StandardShader objects\multi\shaders\multiplayer_object_plasma.shader
+setfield MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shaders\multiplayer_object_plasma.shader
+savetagchanges
+exit
+
+edittag objects\levels\forge\ff_teleporter_sender\ff_teleporter_sender.crate
+setfield MultiplayerObject[0].BoundaryShaders[0].StandardShader objects\multi\shaders\multiplayer_object_plasma.shader
+setfield MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shaders\multiplayer_object_plasma.shader
+savetagchanges
+exit
+
+edittag objects\multi\2way_teleporter\2way_teleporter.crate
+setfield MultiplayerObject[0].Type Teleporter2way
+setfield MultiplayerObject[0].BoundaryShaders[0].StandardShader objects\multi\shaders\multiplayer_object_plasma.shader
+setfield MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shaders\multiplayer_object_plasma.shader
+savetagchanges
+exit
+
 importfonts workingdir\fonts_new.bin
 
 DeleteModFiles
