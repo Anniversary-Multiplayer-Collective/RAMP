@@ -595,7 +595,6 @@ AddForgeItem "FIREFIGHT_RESPAWN_ZONE" 87 objects\multi\firefight\firefight_respa
 AddForgeItem "COV_PORTABLE_SHIELD" 87 objects\props\covenant\cov_portable_shield\cov_portable_shield.scenery
 
 
-
 AddForgeItem "CRATE_SPACE_SMALL" 87 objects\props\covenant\crate_space_small\crate_space_small.crate
 
 
