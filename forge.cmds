@@ -1124,21 +1124,21 @@ AddForgeItem "damage_sphere" 87 objects\levels\shared\damage_sphere\damage_spher
 
 # echo ==Reach Screen Effects...== They dont work
 PortTag objects\levels\shared\screen_fx_orb\fx\juicy.bloc
-AddForgeItem "JUICY" 87 objects\levels\shared\screen_fx_orb\fx\juicy.bloc
+AddForgeItem "HR JUICY" 87 objects\levels\shared\screen_fx_orb\fx\juicy.bloc
 PortTag objects\levels\shared\screen_fx_orb\fx\colorblind.bloc
-AddForgeItem "COLORBLIND" 87 objects\levels\shared\screen_fx_orb\fx\colorblind.bloc
+AddForgeItem "HR COLORBLIND" 87 objects\levels\shared\screen_fx_orb\fx\colorblind.bloc
 PortTag objects\levels\shared\screen_fx_orb\fx\dusk.bloc
-AddForgeItem "DUSK" 87 objects\levels\shared\screen_fx_orb\fx\dusk.bloc
+AddForgeItem "HR DUSK" 87 objects\levels\shared\screen_fx_orb\fx\dusk.bloc
 PortTag objects\levels\shared\screen_fx_orb\fx\golden_hour.bloc
-AddForgeItem "GOLDEN_HOUR" 87 objects\levels\shared\screen_fx_orb\fx\golden_hour.bloc
+AddForgeItem "HR GOLDEN_HOUR" 87 objects\levels\shared\screen_fx_orb\fx\golden_hour.bloc
 PortTag objects\levels\shared\screen_fx_orb\fx\gloomy.bloc
-AddForgeItem "GLOOMY" 87 objects\levels\shared\screen_fx_orb\fx\gloomy.bloc
+AddForgeItem "HR GLOOMY" 87 objects\levels\shared\screen_fx_orb\fx\gloomy.bloc
 PortTag objects\levels\shared\screen_fx_orb\fx\olde_timey.bloc
-AddForgeItem "OLDE_TIMEY" 87 objects\levels\shared\screen_fx_orb\fx\olde_timey.bloc
+AddForgeItem "HR OLDE_TIMEY" 87 objects\levels\shared\screen_fx_orb\fx\olde_timey.bloc
 PortTag objects\levels\shared\screen_fx_orb\fx\eerie.bloc
-AddForgeItem "EERIE" 87 objects\levels\shared\screen_fx_orb\fx\eerie.bloc
+AddForgeItem "HR EERIE" 87 objects\levels\shared\screen_fx_orb\fx\eerie.bloc
 PortTag objects\levels\shared\screen_fx_orb\fx\pen_and_ink.bloc
-AddForgeItem "PEN_AND_INK" 87 objects\levels\shared\screen_fx_orb\fx\pen_and_ink.bloc
+AddForgeItem "HR PEN_AND_INK" 87 objects\levels\shared\screen_fx_orb\fx\pen_and_ink.bloc
 # echo ==Forge Lights...==
 PortTag objects\levels\forge\ff_light_flash_yellow\ff_light_flash_yellow.bloc
 AddForgeItem "FF_LIGHT_FLASH_YELLOW" 87 objects\levels\forge\ff_light_flash_yellow\ff_light_flash_yellow.bloc

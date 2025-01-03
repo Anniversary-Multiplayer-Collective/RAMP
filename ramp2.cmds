@@ -1226,6 +1226,8 @@ Exit
 
 edittag dw3\r3ach\objects\weapons\rifle\focus_rifle\shaders\focus_rifle_scope_alpha.shader_halogram
 setargument self_illum_map 0.6 0.6 0.07 0.31
+savetagchanges
+Exit
 
 runcommands "workingdir\worldbounds.cmds"
 
