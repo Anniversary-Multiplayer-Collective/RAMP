@@ -108,7 +108,7 @@ exit
 
 edittag objects\weapons\rifle\sniper_rifle\sniper_rifle.weapon
 setfield WeaponTypeName offset_sniper_rife
-setfield CenteredFirstPersonWeaponOffset 0.015 0 -0.02
+setfield CenteredFirstPersonWeaponOffset 0.025 0 -0.02
 savetagchanges
 exit
 

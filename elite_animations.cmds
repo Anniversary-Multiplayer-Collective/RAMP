@@ -257,6 +257,7 @@ edittag dw3\r3ach\objects\weapons\rifle\sniper_rifle\animations\fp_elite\fp_elit
 addanimation workingdir\animations\elite_fp\sniperrifle
 sortmodes
 
+setfield Animations[5].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield Animations[9].PlaybackFlags DisableWeaponIk
 setfield Animations[12].PlaybackFlags DisableWeaponIk
 setfield Animations[14].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson

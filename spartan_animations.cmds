@@ -316,6 +316,7 @@ edittag dw3\r3ach\objects\weapons\rifle\sniper_rifle\animations\fp_spartan\fp_sp
 addanimation workingdir\animations\spartan_fp\sniperrifle
 sortmodes
 
+setfield Animations[4].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield Animations[8].PlaybackFlags DisableWeaponIk
 setfield Animations[11].PlaybackFlags DisableWeaponIk
 setfield Animations[13].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson

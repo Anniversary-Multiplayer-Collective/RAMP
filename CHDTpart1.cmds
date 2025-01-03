@@ -1443,6 +1443,7 @@ setfield HudAmmunitionInfo.LowAmmoLoadedThreshold 1
 setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 11
 setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].LocalScalarB 0.1
 
+setfield HudWidgets[5].TextWidgets[0].RenderData[0].OutputColorC LocalA
 setfield HudWidgets[5].TextWidgets[0].RenderData[0].ShaderType Simple
 addblockelements HudWidgets[5].TextWidgets[0].AnimationData
 setfield HudWidgets[5].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
