@@ -308,16 +308,7 @@ OpenModPackage "workingdir\paks\revenant.pak"
 ApplyModPackage
 ExitModPackage
 
-EditTag multiplayer\forge_globals.forge_globals_definition
-
-addblockelements Palette
-SetField Palette[*].Name "REVENANT"
-SetField Palette[*].Type Vehicle
-SetField Palette[*].CategoryIndex 79
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\vehicles\covenant\revenant\revenant.vehicle
-SaveTagChanges
-Exit
+AddForgeItem "REVENANT" "VEHICLES" objects\vehicles\covenant\revenant\revenant.vehicle
 
 echo ==Hugegrass Falcon==
 
@@ -1223,11 +1214,24 @@ setargument self_illum_map 0.6 0.6 0.19 0.16
 savetagchanges
 Exit
 
+edittag dw3\r3ach\objects\weapons\support_high\spartan_laser\shaders\spartan_laser_scope_alpha.shader_halogram
+setargument self_illum_map 0.6 0.6 0.2 0.2
+savetagchanges
+Exit
+
+edittag dw3\r3ach\objects\weapons\support_high\flak_cannon\shaders\fuel_rod_scope_alpha.shader_halogram
+setargument self_illum_map 0.6 0.6 0.19 0.17
+savetagchanges
+Exit
+
+edittag dw3\r3ach\objects\weapons\rifle\focus_rifle\shaders\focus_rifle_scope_alpha.shader_halogram
+setargument self_illum_map 0.6 0.6 0.07 0.31
+
 runcommands "workingdir\worldbounds.cmds"
 
 echo ==Teleporters Fix==
 edittag objects\ca_dev\dlc_preserve\crates\teleporter_sender\teleporter_2way.crate
-setfield MultiplayerObject[0].Type Teleporter2way
+setfield MultiplayerObject[0].Type TeleporterTwoWay
 setfield MultiplayerObject[0].BoundaryShaders[0].StandardShader objects\multi\shaders\multiplayer_object_plasma.shader
 setfield MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shaders\multiplayer_object_plasma.shader
 savetagchanges
@@ -1264,7 +1268,7 @@ savetagchanges
 exit
 
 edittag objects\multi\2way_teleporter\2way_teleporter.crate
-setfield MultiplayerObject[0].Type Teleporter2way
+setfield MultiplayerObject[0].Type TeleporterTwoWay
 setfield MultiplayerObject[0].BoundaryShaders[0].StandardShader objects\multi\shaders\multiplayer_object_plasma.shader
 setfield MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shaders\multiplayer_object_plasma.shader
 savetagchanges
