@@ -1,9 +1,6 @@
 TODO:
 Troop warthog back seats the cameras dont let you look at the right angles
-Podium HSC on maps
-Add ability to edit viewmodels for weaps
 Find way to get Reach FX ball screen FX working.
-Two way teleporter not working, https://s.zekken.rocks/M5gvXoE6.jpg
 Fix projectile drop on flak cannon and maybe banshee bomb?
 Fix it being square levels\dlc\cex_damnation\fx\particles\greensplat.particle
 Replace the Halo 3 items with their halo Reach equivelent
