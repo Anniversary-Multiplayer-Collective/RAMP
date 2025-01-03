@@ -1273,6 +1273,12 @@ exit
 echo ==Weapons Viewmodel Support==
 runcommands "workingdir\weapons_viewmodel.cmds"
 
+echo ==Tempest Skybox Fix==
+edittag levels\multi\dlc\dlc_medium\dlc_medium_beachhead_sky\shaders\dlc_medium_blue_sky_dome.shader
+setfield RenderFlags None
+savetagchanges
+exit
+
 importfonts workingdir\fonts_new.bin
 
 DeleteModFiles
