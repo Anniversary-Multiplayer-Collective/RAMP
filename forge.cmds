@@ -9,1640 +9,564 @@ AddForgeCategory "MISC" 83
 
 Porttag ReachMisc objects\levels\forge\ff_plat_1x1_flat\ff_plat_1x1_flat.bloc
 AddForgeItem "FF_PLAT_1X1_FLAT" 84 objects\levels\forge\ff_plat_1x1_flat\ff_plat_1x1_flat.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[498].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_1x1_flat\ff_plat_1x1_flat.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_1x1_short\ff_plat_1x1_short.bloc
 AddForgeItem "FF_PLAT_1X1_SHORT" 84 objects\levels\forge\ff_plat_1x1_short\ff_plat_1x1_short.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[499].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_1x1_short\ff_plat_1x1_short.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
 
 Porttag ReachMisc objects\levels\forge\ff_plat_1x1_tall_thin\ff_plat_1x1_tall_thin.bloc
 AddForgeItem "FF_PLAT_1X1_TALL_THIN" 84 objects\levels\forge\ff_plat_1x1_tall_thin\ff_plat_1x1_tall_thin.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[500].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_1x1_tall_thin\ff_plat_1x1_tall_thin.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_1x1_tall\ff_plat_1x1_tall.bloc
 AddForgeItem "FF_PLAT_1X1_TALL" 84 objects\levels\forge\ff_plat_1x1_tall\ff_plat_1x1_tall.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[501].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_1x1_tall\ff_plat_1x1_tall.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
 
 Porttag ReachMisc objects\levels\forge\ff_plat_1x1\ff_plat_1x1.bloc
 AddForgeItem "FF_PLAT_1X1" 84 objects\levels\forge\ff_plat_1x1\ff_plat_1x1.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[502].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_1x1\ff_plat_1x1.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_1x2\ff_plat_1x2.bloc
 AddForgeItem "FF_PLAT_1X2" 84 objects\levels\forge\ff_plat_1x2\ff_plat_1x2.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[503].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_1x2\ff_plat_1x2.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_1x4\ff_plat_1x4.bloc
 AddForgeItem "FF_PLAT_1X4" 84 objects\levels\forge\ff_plat_1x4\ff_plat_1x4.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[504].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_1x4\ff_plat_1x4.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_2x1_flat\ff_plat_2x1_flat.bloc
 AddForgeItem "FF_PLAT_2X1_FLAT" 84 objects\levels\forge\ff_plat_2x1_flat\ff_plat_2x1_flat.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[505].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_2x1_flat\ff_plat_2x1_flat.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_2x2_45\ff_plat_2x2_45.bloc
 AddForgeItem "FF_PLAT_2X2_45" 84 objects\levels\forge\ff_plat_2x2_45\ff_plat_2x2_45.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[506].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_2x2_45\ff_plat_2x2_45.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_2x2_corner\ff_plat_2x2_corner.bloc
 AddForgeItem "FF_PLAT_2X2_CORNER" 84 objects\levels\forge\ff_plat_2x2_corner\ff_plat_2x2_corner.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[507].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_2x2_corner\ff_plat_2x2_corner.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_2x2_flat\ff_plat_2x2_flat.bloc
 AddForgeItem "FF_PLAT_2X2_FLAT" 84 objects\levels\forge\ff_plat_2x2_flat\ff_plat_2x2_flat.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[508].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_2x2_flat\ff_plat_2x2_flat.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_2x2_short\ff_plat_2x2_short.bloc
 AddForgeItem "FF_PLAT_2X2_SHORT" 84 objects\levels\forge\ff_plat_2x2_short\ff_plat_2x2_short.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[509].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_2x2_short\ff_plat_2x2_short.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_2x2_tall\ff_plat_2x2_tall.bloc
 AddForgeItem "FF_PLAT_2X2_TALL" 84 objects\levels\forge\ff_plat_2x2_tall\ff_plat_2x2_tall.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[510].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_2x2_tall\ff_plat_2x2_tall.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_2x2\ff_plat_2x2.bloc
 AddForgeItem "FF_PLAT_2X2" 84 objects\levels\forge\ff_plat_2x2\ff_plat_2x2.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[511].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_2x2\ff_plat_2x2.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_2x3\ff_plat_2x3.bloc
 AddForgeItem "FF_PLAT_2X3" 84 objects\levels\forge\ff_plat_2x3\ff_plat_2x3.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[512].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_2x3\ff_plat_2x3.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_2x4\ff_plat_2x4.bloc
 AddForgeItem "FF_PLAT_2X4" 84 objects\levels\forge\ff_plat_2x4\ff_plat_2x4.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[513].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_2x4\ff_plat_2x4.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_3x1_flat\ff_plat_3x1_flat.bloc
 AddForgeItem "FF_PLAT_3X1_FLAT" 84 objects\levels\forge\ff_plat_3x1_flat\ff_plat_3x1_flat.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[514].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_3x1_flat\ff_plat_3x1_flat.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_3x3_flat\ff_plat_3x3_flat.bloc
 AddForgeItem "FF_PLAT_3X3_FLAT" 84 objects\levels\forge\ff_plat_3x3_flat\ff_plat_3x3_flat.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[515].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_3x3_flat\ff_plat_3x3_flat.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_3x3_short\ff_plat_3x3_short.bloc
 AddForgeItem "FF_PLAT_3X3_SHORT" 84 objects\levels\forge\ff_plat_3x3_short\ff_plat_3x3_short.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[516].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_3x3_short\ff_plat_3x3_short.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_3x3_tall\ff_plat_3x3_tall.bloc
 AddForgeItem "FF_PLAT_3X3_TALL" 84 objects\levels\forge\ff_plat_3x3_tall\ff_plat_3x3_tall.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[517].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_3x3_tall\ff_plat_3x3_tall.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_3x3\ff_plat_3x3.bloc
 AddForgeItem "FF_PLAT_3X3" 84 objects\levels\forge\ff_plat_3x3\ff_plat_3x3.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[518].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_3x3\ff_plat_3x3.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_3x4\ff_plat_3x4.bloc
 AddForgeItem "FF_PLAT_3X4" 84 objects\levels\forge\ff_plat_3x4\ff_plat_3x4.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[519].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_3x4\ff_plat_3x4.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_4x4_corner\ff_plat_4x4_corner.bloc
 AddForgeItem "FF_PLAT_4X4_CORNER" 84 objects\levels\forge\ff_plat_4x4_corner\ff_plat_4x4_corner.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[520].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_4x4_corner\ff_plat_4x4_corner.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_4x4_flat\ff_plat_4x4_flat.bloc
 AddForgeItem "FF_PLAT_4X4_FLAT" 84 objects\levels\forge\ff_plat_4x4_flat\ff_plat_4x4_flat.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[521].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_4x4_flat\ff_plat_4x4_flat.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_4x4_short\ff_plat_4x4_short.bloc
 AddForgeItem "FF_PLAT_4X4_SHORT" 84 objects\levels\forge\ff_plat_4x4_short\ff_plat_4x4_short.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[522].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_4x4_short\ff_plat_4x4_short.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_4x4_tall\ff_plat_4x4_tall.bloc
 AddForgeItem "FF_PLAT_4X4_TALL" 84 objects\levels\forge\ff_plat_4x4_tall\ff_plat_4x4_tall.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[523].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_4x4_tall\ff_plat_4x4_tall.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_4x4\ff_plat_4x4.bloc
 AddForgeItem "FF_PLAT_4X4" 84 objects\levels\forge\ff_plat_4x4\ff_plat_4x4.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[524].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_4x4\ff_plat_4x4.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_4x6\ff_plat_4x6.bloc
 AddForgeItem "FF_PLAT_4X6" 84 objects\levels\forge\ff_plat_4x6\ff_plat_4x6.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[525].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_4x6\ff_plat_4x6.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_5x1_flat\ff_plat_5x1_flat.bloc
 AddForgeItem "FF_PLAT_5X1_FLAT" 84 objects\levels\forge\ff_plat_5x1_flat\ff_plat_5x1_flat.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[526].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_5x1_flat\ff_plat_5x1_flat.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_5x5_flat\ff_plat_5x5_flat.bloc
 AddForgeItem "FF_PLAT_5X5_FLAT" 84 objects\levels\forge\ff_plat_5x5_flat\ff_plat_5x5_flat.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[527].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_5x5_flat\ff_plat_5x5_flat.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_tower_4x4\ff_plat_tower_4x4.bloc
 AddForgeItem "FF_PLAT_TOWER_4X4" 84 objects\levels\forge\ff_plat_tower_4x4\ff_plat_tower_4x4.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[528].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_tower_4x4\ff_plat_tower_4x4.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_y_cross_large\ff_plat_y_cross_large.bloc
 AddForgeItem "FF_PLAT_Y_CROSS_LARGE" 84 objects\levels\forge\ff_plat_y_cross_large\ff_plat_y_cross_large.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[529].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_y_cross_large\ff_plat_y_cross_large.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_plat_y_cross\ff_plat_y_cross.bloc
 AddForgeItem "FF_PLAT_Y_CROSS" 84 objects\levels\forge\ff_plat_y_cross\ff_plat_y_cross.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[530].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_plat_y_cross\ff_plat_y_cross.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_antenna\ff_antenna.bloc
 AddForgeItem "FF_ANTENNA" 85 objects\levels\forge\ff_antenna\ff_antenna.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[531].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_antenna\ff_antenna.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_arch_brace\ff_arch_brace.bloc
 AddForgeItem "FF_ARCH_BRACE" 85 objects\levels\forge\ff_arch_brace\ff_arch_brace.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[532].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_arch_brace\ff_arch_brace.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_arena_wall\ff_arena_wall.bloc
 AddForgeItem "FF_ARENA_WALL" 85 objects\levels\forge\ff_arena_wall\ff_arena_wall.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[533].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_arena_wall\ff_arena_wall.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_arena_window\ff_arena_window.bloc
 AddForgeItem "FF_ARENA_WINDOW" 85 objects\levels\forge\ff_arena_window\ff_arena_window.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[534].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_arena_window\ff_arena_window.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_bank_1x1\ff_bank_1x1.bloc
 AddForgeItem "FF_BANK_1X1" 85 objects\levels\forge\ff_bank_1x1\ff_bank_1x1.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[535].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_bank_1x1\ff_bank_1x1.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_bank_1x2\ff_bank_1x2.bloc
 AddForgeItem "FF_BANK_1X2" 85 objects\levels\forge\ff_bank_1x2\ff_bank_1x2.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[536].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_bank_1x2\ff_bank_1x2.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_bank_2x1\ff_bank_2x1.bloc
 AddForgeItem "FF_BANK_2X1" 85 objects\levels\forge\ff_bank_2x1\ff_bank_2x1.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[537].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_bank_2x1\ff_bank_2x1.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_bank_2x2\ff_bank_2x2.bloc
 AddForgeItem "FF_BANK_2X2" 85 objects\levels\forge\ff_bank_2x2\ff_bank_2x2.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[538].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_bank_2x2\ff_bank_2x2.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_base_round\ff_base_round.bloc
 AddForgeItem "FF_BASE_ROUND" 85 objects\levels\forge\ff_base_round\ff_base_round.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[539].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_base_round\ff_base_round.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_base_strut\ff_base_strut.bloc
 AddForgeItem "FF_BASE_STRUT" 85 objects\levels\forge\ff_base_strut\ff_base_strut.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[540].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_base_strut\ff_base_strut.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_brace\ff_brace.bloc
 AddForgeItem "FF_BRACE" 85 objects\levels\forge\ff_brace\ff_brace.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[541].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_brace\ff_brace.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_bridge_2x1\ff_bridge_2x1.bloc
 AddForgeItem "FF_BRIDGE_2X1" 85 objects\levels\forge\ff_bridge_2x1\ff_bridge_2x1.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[542].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_bridge_2x1\ff_bridge_2x1.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_bridge_2x2\ff_bridge_2x2.bloc
 AddForgeItem "FF_BRIDGE_2X2" 85 objects\levels\forge\ff_bridge_2x2\ff_bridge_2x2.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[543].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_bridge_2x2\ff_bridge_2x2.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_bridge_2x3\ff_bridge_2x3.bloc
 AddForgeItem "FF_BRIDGE_2X3" 85 objects\levels\forge\ff_bridge_2x3\ff_bridge_2x3.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[544].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_bridge_2x3\ff_bridge_2x3.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_bridge_2x5\ff_bridge_2x5.bloc
 AddForgeItem "FF_BRIDGE_2X5" 85 objects\levels\forge\ff_bridge_2x5\ff_bridge_2x5.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[545].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_bridge_2x5\ff_bridge_2x5.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_bridge_diag_short\ff_bridge_diag_short.bloc
 AddForgeItem "FF_BRIDGE_DIAG_SHORT" 85 objects\levels\forge\ff_bridge_diag_short\ff_bridge_diag_short.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[546].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_bridge_diag_short\ff_bridge_diag_short.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_bridge_diag\ff_bridge_diag.bloc
 AddForgeItem "FF_BRIDGE_DIAG" 85 objects\levels\forge\ff_bridge_diag\ff_bridge_diag.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[547].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_bridge_diag\ff_bridge_diag.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_bunker_covered\ff_bunker_covered.bloc
 AddForgeItem "FF_BUNKER_COVERED" 85 objects\levels\forge\ff_bunker_covered\ff_bunker_covered.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[548].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_bunker_covered\ff_bunker_covered.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_bunker_full\ff_bunker_full.bloc
 AddForgeItem "FF_BUNKER_FULL" 85 objects\levels\forge\ff_bunker_full\ff_bunker_full.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[549].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_bunker_full\ff_bunker_full.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_bunker_low\ff_bunker_low.bloc
 AddForgeItem "FF_BUNKER_LOW" 85 objects\levels\forge\ff_bunker_low\ff_bunker_low.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[550].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_bunker_low\ff_bunker_low.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_bunker_stair\ff_bunker_stair.bloc
 AddForgeItem "FF_BUNKER_STAIR" 85 objects\levels\forge\ff_bunker_stair\ff_bunker_stair.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[551].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_bunker_stair\ff_bunker_stair.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_column\ff_column.bloc
 AddForgeItem "FF_COLUMN" 85 objects\levels\forge\ff_column\ff_column.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[552].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_column\ff_column.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_cover_2\ff_cover_2.bloc
 AddForgeItem "FF_COVER_2" 85 objects\levels\forge\ff_cover_2\ff_cover_2.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[553].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_cover_2\ff_cover_2.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_crenel_full\ff_crenel_full.bloc
 AddForgeItem "FF_CRENEL_FULL" 85 objects\levels\forge\ff_crenel_full\ff_crenel_full.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[554].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_crenel_full\ff_crenel_full.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_crenel_notch\ff_crenel_notch.bloc
 AddForgeItem "FF_CRENEL_NOTCH" 85 objects\levels\forge\ff_crenel_notch\ff_crenel_notch.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[555].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_crenel_notch\ff_crenel_notch.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_cylinder_big\ff_cylinder_big.bloc
 AddForgeItem "FF_CYLINDER_BIG" 85 objects\levels\forge\ff_cylinder_big\ff_cylinder_big.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[556].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_cylinder_big\ff_cylinder_big.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_cylinder_small\ff_cylinder_small.bloc
 AddForgeItem "FF_CYLINDER_SMALL" 85 objects\levels\forge\ff_cylinder_small\ff_cylinder_small.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[557].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_cylinder_small\ff_cylinder_small.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_dish_antenna\ff_dish_antenna.bloc
 AddForgeItem "FF_DISH_ANTENNA" 85 objects\levels\forge\ff_dish_antenna\ff_dish_antenna.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[558].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_dish_antenna\ff_dish_antenna.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_dish_door\ff_dish_door.bloc
 AddForgeItem "FF_DISH_DOOR" 85 objects\levels\forge\ff_dish_door\ff_dish_door.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[559].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_dish_door\ff_dish_door.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_dish\ff_dish.bloc
 AddForgeItem "FF_DISH" 85 objects\levels\forge\ff_dish\ff_dish.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[560].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_dish\ff_dish.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_door_2\ff_door_2.bloc
 AddForgeItem "FF_DOOR_2" 85 objects\levels\forge\ff_door_2\ff_door_2.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[561].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_door_2\ff_door_2.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_large_brace\ff_large_brace.bloc
 AddForgeItem "FF_LARGE_BRACE" 85 objects\levels\forge\ff_large_brace\ff_large_brace.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[562].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_large_brace\ff_large_brace.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_pyramid\ff_pyramid.bloc
 AddForgeItem "FF_PYRAMID" 85 objects\levels\forge\ff_pyramid\ff_pyramid.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[563].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_pyramid\ff_pyramid.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_race_stunt_ramp\ff_race_stunt_ramp.bloc
 AddForgeItem "FF_RACE_STUNT_RAMP" 85 objects\levels\forge\ff_race_stunt_ramp\ff_race_stunt_ramp.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[564].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_race_stunt_ramp\ff_race_stunt_ramp.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_railing_1\ff_railing_1.bloc
 AddForgeItem "FF_RAILING_1" 85 objects\levels\forge\ff_railing_1\ff_railing_1.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[565].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_railing_1\ff_railing_1.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_railing_2\ff_railing_2.bloc
 AddForgeItem "FF_RAILING_2" 85 objects\levels\forge\ff_railing_2\ff_railing_2.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[566].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_railing_2\ff_railing_2.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_railing_3\ff_railing_3.bloc
 AddForgeItem "FF_RAILING_3" 85 objects\levels\forge\ff_railing_3\ff_railing_3.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[567].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_railing_3\ff_railing_3.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_ramp_1x2_shallow\ff_ramp_1x2_shallow.bloc
 AddForgeItem "FF_RAMP_1X2_SHALLOW" 85 objects\levels\forge\ff_ramp_1x2_shallow\ff_ramp_1x2_shallow.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[568].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_ramp_1x2_shallow\ff_ramp_1x2_shallow.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_ramp_1x2\ff_ramp_1x2.bloc
 AddForgeItem "FF_RAMP_1X2" 85 objects\levels\forge\ff_ramp_1x2\ff_ramp_1x2.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[569].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_ramp_1x2\ff_ramp_1x2.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_ramp_2x2_steep\ff_ramp_2x2_steep.bloc
 AddForgeItem "FF_RAMP_2X2_STEEP" 85 objects\levels\forge\ff_ramp_2x2_steep\ff_ramp_2x2_steep.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[570].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_ramp_2x2_steep\ff_ramp_2x2_steep.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_ramp_2x2\ff_ramp_2x2.bloc
 AddForgeItem "FF_RAMP_2X2" 85 objects\levels\forge\ff_ramp_2x2\ff_ramp_2x2.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[571].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_ramp_2x2\ff_ramp_2x2.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_ramp_3\ff_ramp_3.bloc
 AddForgeItem "FF_RAMP_3" 85 objects\levels\forge\ff_ramp_3\ff_ramp_3.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[572].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_ramp_3\ff_ramp_3.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_ramp_4\ff_ramp_4.bloc
 AddForgeItem "FF_RAMP_4" 85 objects\levels\forge\ff_ramp_4\ff_ramp_4.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[573].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_ramp_4\ff_ramp_4.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_ramp_4x2\ff_ramp_4x2.bloc
 AddForgeItem "FF_RAMP_4X2" 85 objects\levels\forge\ff_ramp_4x2\ff_ramp_4x2.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[574].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_ramp_4x2\ff_ramp_4x2.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_ramp_5\ff_ramp_5.bloc
 AddForgeItem "FF_RAMP_5" 85 objects\levels\forge\ff_ramp_5\ff_ramp_5.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[575].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_ramp_5\ff_ramp_5.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_ramp_circle_large\ff_ramp_circle_large.bloc
 AddForgeItem "FF_RAMP_CIRCLE_LARGE" 85 objects\levels\forge\ff_ramp_circle_large\ff_ramp_circle_large.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[576].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_ramp_circle_large\ff_ramp_circle_large.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_ramp_circle_small\ff_ramp_circle_small.bloc
 AddForgeItem "FF_RAMP_CIRCLE_SMALL" 85 objects\levels\forge\ff_ramp_circle_small\ff_ramp_circle_small.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[577].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_ramp_circle_small\ff_ramp_circle_small.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_ramp_enclosed\ff_ramp_enclosed.bloc
 AddForgeItem "FF_RAMP_ENCLOSED" 85 objects\levels\forge\ff_ramp_enclosed\ff_ramp_enclosed.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[578].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_ramp_enclosed\ff_ramp_enclosed.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_ramp_plat\ff_ramp_plat.bloc
 AddForgeItem "FF_RAMP_PLAT" 85 objects\levels\forge\ff_ramp_plat\ff_ramp_plat.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[579].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_ramp_plat\ff_ramp_plat.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_ramp_wall_2x1\ff_ramp_wall_2x1.bloc
 AddForgeItem "FF_RAMP_WALL_2X1" 85 objects\levels\forge\ff_ramp_wall_2x1\ff_ramp_wall_2x1.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[580].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_ramp_wall_2x1\ff_ramp_wall_2x1.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_room_double\ff_room_double.bloc
 AddForgeItem "FF_ROOM_DOUBLE" 85 objects\levels\forge\ff_room_double\ff_room_double.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[581].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_room_double\ff_room_double.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_room_triple\ff_room_triple.bloc
 AddForgeItem "FF_ROOM_TRIPLE" 85 objects\levels\forge\ff_room_triple\ff_room_triple.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[582].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_room_triple\ff_room_triple.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_stair_case\ff_stair_case.bloc
 AddForgeItem "FF_STAIR_CASE" 85 objects\levels\forge\ff_stair_case\ff_stair_case.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[583].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_stair_case\ff_stair_case.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_teleport_frame\ff_teleport_frame.bloc
 AddForgeItem "FF_TELEPORT_FRAME" 85 objects\levels\forge\ff_teleport_frame\ff_teleport_frame.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[584].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_teleport_frame\ff_teleport_frame.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_tower_3_story\ff_tower_3_story.bloc
 AddForgeItem "FF_TOWER_3_STORY" 85 objects\levels\forge\ff_tower_3_story\ff_tower_3_story.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[585].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_tower_3_story\ff_tower_3_story.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_tower_tall\ff_tower_tall.bloc
 AddForgeItem "FF_TOWER_TALL" 85 objects\levels\forge\ff_tower_tall\ff_tower_tall.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[586].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_tower_tall\ff_tower_tall.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_tower\ff_tower.bloc
 AddForgeItem "FF_TOWER" 85 objects\levels\forge\ff_tower\ff_tower.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[587].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_tower\ff_tower.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_tunnel_2x1\ff_tunnel_2x1.bloc
 AddForgeItem "FF_TUNNEL_2X1" 85 objects\levels\forge\ff_tunnel_2x1\ff_tunnel_2x1.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[588].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_tunnel_2x1\ff_tunnel_2x1.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_tunnel_3x3\ff_tunnel_3x3.bloc
 AddForgeItem "FF_TUNNEL_3X3" 85 objects\levels\forge\ff_tunnel_3x3\ff_tunnel_3x3.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[589].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_tunnel_3x3\ff_tunnel_3x3.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_walkway_small_cover\ff_walkway_small_cover.bloc
 AddForgeItem "FF_WALKWAY_SMALL_COVER" 85 objects\levels\forge\ff_walkway_small_cover\ff_walkway_small_cover.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[590].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_walkway_small_cover\ff_walkway_small_cover.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_walkway_small\ff_walkway_small.bloc
 AddForgeItem "FF_WALKWAY_SMALL" 85 objects\levels\forge\ff_walkway_small\ff_walkway_small.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[591].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_walkway_small\ff_walkway_small.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_wall_2x1_corner\ff_wall_2x1_corner.bloc
 AddForgeItem "FF_WALL_2X1_CORNER" 85 objects\levels\forge\ff_wall_2x1_corner\ff_wall_2x1_corner.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[592].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_wall_2x1_corner\ff_wall_2x1_corner.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_wall_2x1_door\ff_wall_2x1_door.bloc
 AddForgeItem "FF_WALL_2X1_DOOR" 85 objects\levels\forge\ff_wall_2x1_door\ff_wall_2x1_door.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[593].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_wall_2x1_door\ff_wall_2x1_door.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_wall_2x1_window\ff_wall_2x1_window.bloc
 AddForgeItem "FF_WALL_2X1_WINDOW" 85 objects\levels\forge\ff_wall_2x1_window\ff_wall_2x1_window.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[594].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_wall_2x1_window\ff_wall_2x1_window.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_wall_2x2_window\ff_wall_2x2_window.bloc
 AddForgeItem "FF_WALL_2X2_WINDOW" 85 objects\levels\forge\ff_wall_2x2_window\ff_wall_2x2_window.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[595].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_wall_2x2_window\ff_wall_2x2_window.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_wall_2x2\ff_wall_2x2.bloc
 AddForgeItem "FF_WALL_2X2" 85 objects\levels\forge\ff_wall_2x2\ff_wall_2x2.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[596].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_wall_2x2\ff_wall_2x2.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_wall_2x4\ff_wall_2x4.bloc
 AddForgeItem "FF_WALL_2X4" 85 objects\levels\forge\ff_wall_2x4\ff_wall_2x4.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[597].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_wall_2x4\ff_wall_2x4.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_wall_curve_short\ff_wall_curve_short.bloc
 AddForgeItem "FF_WALL_CURVE_SHORT" 85 objects\levels\forge\ff_wall_curve_short\ff_wall_curve_short.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[598].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_wall_curve_short\ff_wall_curve_short.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_rock_arch\ff_rock_arch.bloc
 AddForgeItem "FF_ROCK_ARCH" 86 objects\levels\forge\ff_rock_arch\ff_rock_arch.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[599].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_rock_arch\ff_rock_arch.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_rock_flat\ff_rock_flat.bloc
 AddForgeItem "FF_ROCK_FLAT" 86 objects\levels\forge\ff_rock_flat\ff_rock_flat.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[600].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_rock_flat\ff_rock_flat.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_rock_med_a\ff_rock_med_a.bloc
 AddForgeItem "FF_ROCK_MED_A" 86 objects\levels\forge\ff_rock_med_a\ff_rock_med_a.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[601].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_rock_med_a\ff_rock_med_a.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_rock_med_b\ff_rock_med_b.bloc
 AddForgeItem "FF_ROCK_MED_B" 86 objects\levels\forge\ff_rock_med_b\ff_rock_med_b.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[602].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_rock_med_b\ff_rock_med_b.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_rock_sea_stack\ff_rock_sea_stack.bloc
 AddForgeItem "FF_ROCK_SEA_STACK" 86 objects\levels\forge\ff_rock_sea_stack\ff_rock_sea_stack.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[603].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_rock_sea_stack\ff_rock_sea_stack.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_rock_small\ff_rock_small.bloc
 AddForgeItem "FF_ROCK_SMALL" 86 objects\levels\forge\ff_rock_small\ff_rock_small.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[604].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_rock_small\ff_rock_small.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_rock_spire_a\ff_rock_spire_a.bloc
 AddForgeItem "FF_ROCK_SPIRE_A" 86 objects\levels\forge\ff_rock_spire_a\ff_rock_spire_a.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[605].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_rock_spire_a\ff_rock_spire_a.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_rock_spire_b\ff_rock_spire_b.bloc
 AddForgeItem "FF_ROCK_SPIRE_B" 86 objects\levels\forge\ff_rock_spire_b\ff_rock_spire_b.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[606].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_rock_spire_b\ff_rock_spire_b.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_grid_object\ff_grid_object.bloc
 AddForgeItem "FF_GRID_OBJECT" 87 objects\levels\forge\ff_grid_object\ff_grid_object.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[607].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_grid_object\ff_grid_object.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_veh_man_cannon\ff_veh_man_cannon.bloc
 AddForgeItem "FF_VEH_MAN_CANNON" 87 objects\levels\forge\ff_veh_man_cannon\ff_veh_man_cannon.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[608].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_veh_man_cannon\ff_veh_man_cannon.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_grav_lift\ff_grav_lift.bloc
 AddForgeItem "FF_GRAV_LIFT" 87 objects\levels\forge\ff_grav_lift\ff_grav_lift.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[609].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_grav_lift\ff_grav_lift.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_man_cannon_forge_heavy\ff_man_cannon_forge_heavy.bloc
 AddForgeItem "FF_MAN_CANNON_FORGE_HEAVY" 87 objects\levels\forge\ff_man_cannon_forge_heavy\ff_man_cannon_forge_heavy.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[610].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_man_cannon_forge_heavy\ff_man_cannon_forge_heavy.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_man_cannon_forge_light\ff_man_cannon_forge_light.bloc
 AddForgeItem "FF_MAN_CANNON_FORGE_LIGHT" 87 objects\levels\forge\ff_man_cannon_forge_light\ff_man_cannon_forge_light.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[611].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_man_cannon_forge_light\ff_man_cannon_forge_light.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_man_cannon_forge\ff_man_cannon_forge.bloc
 AddForgeItem "FF_MAN_CANNON_FORGE" 87 objects\levels\forge\ff_man_cannon_forge\ff_man_cannon_forge.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[612].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_man_cannon_forge\ff_man_cannon_forge.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_one_way_door_large\ff_one_way_door_large.bloc
 AddForgeItem "FF_ONE_WAY_DOOR_LARGE" 87 objects\levels\forge\ff_one_way_door_large\ff_one_way_door_large.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[613].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_one_way_door_large\ff_one_way_door_large.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_one_way_door_medium\ff_one_way_door_medium.bloc
 AddForgeItem "FF_ONE_WAY_DOOR_MEDIUM" 87 objects\levels\forge\ff_one_way_door_medium\ff_one_way_door_medium.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[614].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_one_way_door_medium\ff_one_way_door_medium.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_one_way_door_small\ff_one_way_door_small.bloc
 AddForgeItem "FF_ONE_WAY_DOOR_SMALL" 87 objects\levels\forge\ff_one_way_door_small\ff_one_way_door_small.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[615].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_one_way_door_small\ff_one_way_door_small.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_two_way_door_large\ff_two_way_door_large.bloc
 AddForgeItem "FF_TWO_WAY_DOOR_LARGE" 87 objects\levels\forge\ff_two_way_door_large\ff_two_way_door_large.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[616].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_two_way_door_large\ff_two_way_door_large.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_two_way_door_medium\ff_two_way_door_medium.bloc
 AddForgeItem "FF_TWO_WAY_DOOR_MEDIUM" 87 objects\levels\forge\ff_two_way_door_medium\ff_two_way_door_medium.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[617].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_two_way_door_medium\ff_two_way_door_medium.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 Porttag ReachMisc objects\levels\forge\ff_two_way_door_small\ff_two_way_door_small.bloc
 AddForgeItem "FF_TWO_WAY_DOOR_SMALL" 87 objects\levels\forge\ff_two_way_door_small\ff_two_way_door_small.bloc
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[618].Type Structure
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_two_way_door_small\ff_two_way_door_small.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 PortTag ReachMisc objects\multi\dice\dice.crate
 AddForgeItem "DICE" 87 objects\multi\dice\dice.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[619].Type Prop
-SaveTagChanges
-Exit
+
 
 PortTag ReachMisc objects\levels\shared\golf_cup\golf_cup.crate
 AddForgeItem "TIN CUP" 87 objects\levels\shared\golf_cup\golf_cup.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[620].Type Prop
-SaveTagChanges
-Exit
-EditTag objects\levels\shared\golf_cup\golf_cup.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 PortTag ReachMisc objects\levels\shared\soccer_ball\soccer_ball.crate
 AddForgeItem "SOCCER BALL" 87 objects\levels\shared\soccer_ball\soccer_ball.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[621].Type Prop
-SaveTagChanges
-Exit
+
 
 PortTag ReachMisc objects\levels\shared\golf_ball\golf_ball.crate
 AddForgeItem "GOLF BALL" 87 objects\levels\shared\golf_ball\golf_ball.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[622].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "REACH TELEPORTER 2 WAY" 87 objects\levels\forge\ff_teleporter_2_way\ff_teleporter_2_way.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[623].Type Teleporter
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_teleporter_2_way\ff_teleporter_2_way.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 AddForgeItem "REACH TELEPORTER SENDER" 87 objects\levels\forge\ff_teleporter_sender\ff_teleporter_sender.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[624].Type Teleporter
-SaveTagChanges
-Exit
+
 
 AddForgeItem "REACH TELEPORTER RECEIVER" 87 objects\levels\forge\ff_teleporter_receiver\ff_teleporter_receiver.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[625].Type Teleporter
-SaveTagChanges
-Exit
-EditTag objects\levels\forge\ff_teleporter_receiver\ff_teleporter_receiver.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 AddForgeItem "COVENANT BARRIER" 87 objects\props\covenant\cov_barrier\cov_barrier.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[626].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "LARGE CRATE" 87 objects\props\human\urban\space_crate\space_crate.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[627].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "HEAVY SHIELD" 87 levels\multi\dlc\objects\dlc_invasion_heavy_shield\dlc_invasion_heavy_shield.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[628].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "DLC_INVASION_ROCK_FLAT" 86 levels\multi\dlc\objects\dlc_invasion\dlc_invasion_rock_flat\dlc_invasion_rock_flat.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[629].Type Structure
-SaveTagChanges
-Exit
-EditTag levels\multi\dlc\objects\dlc_invasion\dlc_invasion_rock_flat\dlc_invasion_rock_flat.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 AddForgeItem "DLC_INVASION_ROCK_SMALL" 86 levels\multi\dlc\objects\dlc_invasion\dlc_invasion_rock_small\dlc_invasion_rock_small.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[630].Type Structure
-SaveTagChanges
-Exit
-EditTag levels\multi\dlc\objects\dlc_invasion\dlc_invasion_rock_small\dlc_invasion_rock_small.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 AddForgeItem "DLC_INVASION_ROCK_MED_A" 86 levels\multi\dlc\objects\dlc_invasion\dlc_invasion_rock_med_a\dlc_invasion_rock_med_a.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[631].Type Structure
-SaveTagChanges
-Exit
-EditTag levels\multi\dlc\objects\dlc_invasion\dlc_invasion_rock_med_a\dlc_invasion_rock_med_a.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 AddForgeItem "COV_BARRIER" 87 objects\props\covenant\cov_barrier\cov_barrier.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[632].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "HEALTH_CABINET" 87 objects\props\human\unsc\health_cabinet\health_cabinet.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[633].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "RADIO SET 1" 87 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_dlc1.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[634].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "RADIO SET 2" 87 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_dlc2.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[635].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "RADIO SET 3" 87 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_dlc3.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[636].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "RADIO SET 4" 87 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m20.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[637].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "RADIO SET 5" 87 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m30.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[638].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "RADIO SET 6" 87 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m35.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[639].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "RADIO SET 7" 87 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m45.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[640].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "RADIO SET 8" 87 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m50.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[641].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "RADIO SET 9" 87 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m52.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[642].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "RADIO SET 10" 87 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m70.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[643].Type Prop
-SaveTagChanges
-Exit
-#Continues Below
+
 
 OpenCacheFile "reachmaps\forge_halo.map"
 PortTag ReachMisc objects\levels\shared\golf_cup\golf_cup.crate
@@ -1654,1111 +578,546 @@ ExitModPackage
 
 
 AddForgeItem "HEALTH PACK" 87 objects\powerups\health_pack\health_pack_large.equipment
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[644].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "LAND MINE" 87 objects\multi\land_mine\land_mine.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[645].Type Prop
-SaveTagChanges
-Exit
-##Continue Forge Palette Here
+
 
 AddForgeItem "DLC_FF_ROCK_SMALL" 86 levels\multi\dlc\objects\dlc_ff_rock_small\dlc_ff_rock_small.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[646].Type Structure
-SaveTagChanges
-Exit
-EditTag levels\multi\dlc\objects\dlc_ff_rock_small\dlc_ff_rock_small.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 AddForgeItem "DLC_MEDIUM_CAVE_BLOCKING_ROCK" 86 levels\multi\dlc\objects\dlc_medium_cave_blocking_rock\dlc_medium_cave_blocking_rock.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[647].Type Structure
-SaveTagChanges
-Exit
-EditTag levels\multi\dlc\objects\dlc_medium_cave_blocking_rock\dlc_medium_cave_blocking_rock.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 AddForgeItem "FIREFIGHT_RESPAWN_ZONE" 87 objects\multi\firefight\firefight_respawn_zone.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[648].Type Slayer
-SaveTagChanges
-Exit
-EditTag objects\multi\models\mp_area_emitter\mp_area_emitter.physics_model
-SetField RigidBodies[0].MotionType Keyframed
-SetField RigidBodies[0].NoPhantomPowerAltRigidBody 0
-SaveTagChanges
-Exit
+
 
 AddForgeItem "COV_PORTABLE_SHIELD" 87 objects\props\covenant\cov_portable_shield\cov_portable_shield.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[649].Type Prop
-SaveTagChanges
-Exit
+
 
 
 AddForgeItem "CRATE_SPACE_SMALL" 87 objects\props\covenant\crate_space_small\crate_space_small.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[650].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CRATE_SPACE" 87 objects\props\covenant\crate_space\crate_space.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[651].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "COV_FUEL_CELL_A" 87 objects\props\covenant\cov_fuel_cell_a\cov_fuel_cell_a.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[652].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "COV_FUEL_CELL_B_DYNAMIC" 87 objects\props\covenant\cov_fuel_cell_b\cov_fuel_cell_b_dynamic.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[653].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "COV_FUEL_CELL_C" 87 objects\props\covenant\cov_fuel_cell_c\cov_fuel_cell_c.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[654].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "VEHICLE_FUEL_STORAGE" 87 objects\props\covenant\vehicle_fuel_storage\vehicle_fuel_storage.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[655].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CRATE_H_GUN_RACK_0" 87 objects\gear\human\military\crate_h_gun_rack_0\crate_h_gun_rack_0.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[656].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CRATE_H_GUN_RACK_1" 87 objects\gear\human\military\crate_h_gun_rack_1\crate_h_gun_rack_1.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[657].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CRATE_H_GUN_RACK_2" 87 objects\gear\human\military\crate_h_gun_rack_2\crate_h_gun_rack_2.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[658].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CRATE_H_GUN_RACK_3" 87 objects\gear\human\military\crate_h_gun_rack_3\crate_h_gun_rack_3.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[659].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "MEDICAL_BARREL" 87 objects\gear\human\medical\barrel\barrel.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[660].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CRATE_MULTI_SINGLE_PLAIN" 87 objects\gear\human\industrial\crate_multi_single_plain\crate_multi_single_plain.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[661].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "COV_FOOD_RATIONS" 87 objects\props\covenant\cov_food_rations\cov_food_rations.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[662].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "DLC_SLAYER_CART_A" 87 levels\multi\dlc\objects\dlc_slayer_cart_a\dlc_slayer_cart_a.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[663].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "DLC_SLAYER_CART_B" 87 levels\multi\dlc\objects\dlc_slayer_cart_b\dlc_slayer_cart_b.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[664].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "KILL_VOLUME" 87 objects\multi\boundaries\kill_volume.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[665].Type Tool
-SaveTagChanges
-Exit
+
 
 AddForgeItem "DRUM_55GAL" 87 objects\gear\human\military\drum_55gal\drum_55gal.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[666].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "5THSPARTAN" 87 objects\props\fifthspartan\5thspartan\5thspartan.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[667].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "VENDING_MACHINE" 87 objects\props\human\urban\vending_machine\vending_machine.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[668].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "TRASH_CAN" 87 objects\props\human\urban\streets\trash_can\trash_can.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[669].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "ANTENNAE_COMM_LARGE" 87 objects\props\covenant\antennae_comm_large\antennae_comm_large.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[670].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "ANTENNAE_COMM" 87 objects\props\covenant\antennae_comm\antennae_comm.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[671].Type Prop
-SaveTagChanges
-Exit
+
 
 #TODO Add to machine category
 AddForgeItem "PACKAGE_CABINET" 87 objects\multi\package_cabinet\package_cabinet.device_machine
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[672].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "FF_SHORING" 87 objects\cex\cex_headlong\forge\ff_shoring\ff_shoring.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[673].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "MAN_CANNON_ROCKET" 87 objects\cex\cex_headlong\crates\man_cannon\man_cannon.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[674].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "HEADLONG_DBL_CRATE" 87 levels\dlc\cex_headlong\crates\headlong_dbl_crate\headlong_dbl_crate.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[675].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CONTAINER_LONG_MILITARY" 87 objects\vehicles\human\civilian\truck_cab_large\attachments\container_long_military\container_long_military.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[676].Type Prop
-SaveTagChanges
-Exit
+
 
 #TODO Add to machine category
 AddForgeItem "DLC_INVASION_ALPHA_RELAY" 87 levels\multi\dlc\objects\dlc_invasion_alpha_relay\dlc_invasion_alpha_relay.device_machine
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[677].Type Prop
-SaveTagChanges
-Exit
+
 
 #TODO Add to machine category
 AddForgeItem "PHANTOM" 87 objects\vehicles\covenant\phantom\phantom.device_machine
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[678].Type Prop
-SaveTagChanges
-Exit
+
 
 #TODO Add to machine category
 AddForgeItem "DLC_INVASION_FENCE_GATE" 87 levels\multi\dlc\objects\dlc_invasion_fence_gate\dlc_invasion_fence_gate.device_machine
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[679].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CA_CONDEMNED_CRATE_PHYSIC" 87 objects\ca_dev\dlc_condemned\crates\ca_condemned_crate_physic\ca_condemned_crate_physic.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[680].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CA_CONDEMNED_MONITOR_WALL_A_100" 87 levels\dlc\condemned\effects\ca_condemned_monitor_wall_a_100\ca_condemned_monitor_wall_a_100.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[681].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CA_CONDEMNED_MONITOR_WALL_A_125" 87 levels\dlc\condemned\effects\ca_condemned_monitor_wall_a_125\ca_condemned_monitor_wall_a_125.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[682].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CA_CONDEMNED_MONITOR_WALL_A_50" 87 levels\dlc\condemned\effects\ca_condemned_monitor_wall_a_50\ca_condemned_monitor_wall_a_50.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[683].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CA_CONDEMNED_MONITOR_WALL_A_65" 87 levels\dlc\condemned\effects\ca_condemned_monitor_wall_a_65\ca_condemned_monitor_wall_a_65.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[684].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CA_CONDEMNED_MONITOR_WALL_B_100" 87 levels\dlc\condemned\effects\ca_condemned_monitor_wall_b_100\ca_condemned_monitor_wall_b_100.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[685].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CA_CONDEMNED_MONITOR_WALL_B_MED" 87 levels\dlc\condemned\effects\ca_condemned_monitor_wall_b_med\ca_condemned_monitor_wall_b_med.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[686].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "SABRE_MP" 87 objects\props\human\unsc\sabre_mp\sabre_mp.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[687].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "H_CHAIR_FOLDING" 87 objects\props\human\urban\chair_folding\h_chair_folding.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[688].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "ONI_CRATE_SMALL" 87 objects\props\human\oni\oni_crate_small\oni_crate_small.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[689].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "ONI_CRATE_GIANT" 87 objects\props\human\oni\oni_crate_giant\oni_crate_giant.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[690].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "SECURITY_WALL_SHORT" 87 objects\props\human\oni\security_wall_short\security_wall_short.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[691].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "SECURITY_WALL_SHORT_B" 87 objects\props\human\oni\security_wall_short_b\security_wall_short_b.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[692].Type Prop
-SaveTagChanges
-Exit
+
 
 
 AddForgeItem "CONTAINER_SMALL" 87 objects\vehicles\human\civilian\truck_cab_large\attachments\container_small\container_small.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[693].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CONTAINER_SMALL_RUSTED" 87 objects\props\human\pioneer\garage\container_small_rusted\container_small_rusted.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[694].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "FUEL_DEPOT_CONTAINER" 87 objects\levels\solo\m20\fuel_depot_container\fuel_depot_container.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[695].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "SCREEN_HALOGRAM_WALLMOUNT_A" 87 objects\levels\solo\m20\screen_halogram_wallmount_a\screen_halogram_wallmount_a.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[696].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "SCREEN_HALOGRAM_COMM_PANELS" 87 objects\levels\solo\m20\screen_halogram_comm_panels\screen_halogram_comm_panels\screen_halogram_comm_panels.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[697].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "SECURITY_BARRIER_WIDE" 87 objects\props\human\oni\security_barrier_wide\security_barrier_wide.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[698].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "HEH_ANGLED_CATWALK" 85 objects\cex\cex_hangemhigh\forge\heh_angled_catwalk\heh_angled_catwalk\heh_angled_catwalk.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[699].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "HEH_BLUE_CAP" 85 objects\cex\cex_hangemhigh\forge\heh_blue_cap\heh_blue_cap.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[700].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "HEH_CATWALK_COVER" 85 objects\cex\cex_hangemhigh\forge\heh_catwalk_cover\heh_catwalk_cover\heh_catwalk_cover.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[701].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "HEH_GRAVLIFT_CATWALK" 85 objects\cex\cex_hangemhigh\forge\heh_gravlift_catwalk\heh_gravlift_catwalk\heh_gravlift_catwalk.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[702].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "HEH_RAMP_COLUMN" 85 objects\cex\cex_hangemhigh\forge\heh_ramp_column\heh_ramp_column.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[703].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "HEH_RED_RAMP" 85 objects\cex\cex_hangemhigh\forge\heh_red_ramp\heh_red_ramp.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[704].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "HEH_SMALLWALL" 85 objects\cex\cex_hangemhigh\forge\heh_smallwall\heh_smallwall\heh_smallwall.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[705].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "HEH_TOMBSTONES" 85 objects\cex\cex_hangemhigh\forge\heh_tombstones\heh_tombstones.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[706].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "TELEPORTER_RECEIVER" 87 objects\ca_dev\dlc_preserve\crates\teleporter_receiver\teleporter_receiver.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[707].Type Teleporter
-SaveTagChanges
-Exit
+
 
 AddForgeItem "TELEPORTER_2WAY" 87 objects\ca_dev\dlc_preserve\crates\teleporter_sender\teleporter_2way.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[708].Type Teleporter
-SaveTagChanges
-Exit
+
 
 AddForgeItem "TELEPORTER_SENDER" 87 objects\ca_dev\dlc_preserve\crates\teleporter_sender\teleporter_sender.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[709].Type Teleporter
-SaveTagChanges
-Exit
+
 
 AddForgeItem "TELEPORTER_SHELL" 87 objects\ca_dev\ca_scenery\teleporter_shell\teleporter_shell.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[710].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "WATER_BARREL_PALLETTE" 87 objects\props\human\pioneer\water\water_barrel_pallette\water_barrel_pallette.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[711].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "WATER_BARREL" 87 objects\props\human\pioneer\water\water_barrel\water_barrel.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[712].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "FF_MAN_CANNON_FORGE_HEAVY_2" 87 objects\cex\cex_ff_halo\crates\cov_man_cannon\ff_man_cannon_forge_heavy.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[713].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "BFG" 87 objects\vehicles\covenant\turrets\bfg\bfg.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[714].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "SCORPION_DESTROYED" 87 objects\props\human\unsc\destroyed_vehicles\scorpion_destroyed\scorpion_destroyed.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[715].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CRATE_TECH_SEMI_SHORT_CLOSED" 87 objects\gear\human\industrial\crate_tech_semi_short_closed\crate_tech_semi_short_closed.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[716].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "WARTHOG_DESTROYED" 87 objects\props\human\unsc\destroyed_vehicles\warthog_destroyed\warthog_destroyed.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[717].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "WRAITH_DESTROYED" 87 objects\props\covenant\destroyed_vehicles\wraith_destroyed\wraith_destroyed.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[718].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "TRUCK_CAB_LARGE_DESTROYED" 87 objects\props\human\unsc\destroyed_vehicles\truck_cab_large_destroyed\truck_cab_large_destroyed.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[719].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CONTAINER_SMALL_MILITARY" 87 objects\vehicles\human\civilian\truck_cab_large\attachments\container_small_military\container_small_military.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[720].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CONTAINER_LONG_RUSTED" 87 objects\props\human\pioneer\garage\container_long_rusted\container_long_rusted.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[721].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "SEARCHLIGHT" 87 objects\scenery\human\searchlight\searchlight.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[722].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "SEARCHLIGHT_BROKEN" 87 objects\scenery\human\searchlight_broken\searchlight_broken.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[723].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CONCRETE_GUARD_RAIL" 87 objects\props\human\unsc\concrete_guard_rail\concrete_guard_rail.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[724].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "HU_MIL_BEDROLL" 87 objects\gear\human\military\hu_mil_bedroll\hu_mil_bedroll.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[725].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CRATE_PACKING_GIANT" 87 objects\gear\human\military\crate_packing_giant\crate_packing_giant.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[726].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "REVANENT_DESTROYED" 87 objects\props\covenant\destroyed_vehicles\revanent_destroyed\revanent_destroyed.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[727].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "PROPANE_TANK_SMALL" 87 objects\props\human\pioneer\garage\propane_tank_small\propane_tank_small.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[728].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "WOOD_BARREL" 87 objects\props\human\pioneer\farm\wood_barrel\wood_barrel.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[729].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "FEED_BUCKET" 87 objects\props\human\pioneer\farm\feed_bucket\feed_bucket.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[730].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "COV_CAMP_STOOL" 87 objects\props\covenant\cov_camp_stool\cov_camp_stool.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[731].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "030_ROCK_BLOCKER" 86 objects\levels\solo\m10\030_rock_blocker\030_rock_blocker.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[732].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "LARGE_WIND_TURBINE" 87 objects\props\human\pioneer\farm\large_wind_turbine\large_wind_turbine.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[733].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "WIND_TURBINE" 87 objects\props\human\pioneer\farm\wind_turbine\wind_turbine.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[734].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CEX_DAMNATION_GRUNT_CRATE" 87 levels\dlc\cex_damnation\scenery\cex_damnation_grunt_crate\cex_damnation_grunt_crate.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[735].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CEX_HEALTH_CABINET" 87 objects\cex\shared\cex_health_cabinet\cex_health_cabinet.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[736].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "TALL_GRAV_LIFT" 87 objects\cex\cex_damnation\crates\tall_grav_lift\tall_grav_lift.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[737].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "SHORT_GRAV_LIFT" 87 objects\cex\cex_damnation\crates\short_grav_lift\short_grav_lift.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[738].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CONTROL_BOX" 87 objects\props\human\pioneer\tech\control_box\control_box.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[739].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CENTRAL_MONITOR_BANK_01" 87 objects\levels\solo\m30\central_monitor_bank_01\central_monitor_bank_01.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[740].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CENTRAL_MONITOR_BANK_02" 87 objects\levels\solo\m30\central_monitor_bank_02\central_monitor_bank_02.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[741].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CENTRAL_MONITOR_BANK_03" 87 objects\levels\solo\m30\central_monitor_bank_03\central_monitor_bank_03.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[742].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "WATER_TANK_HORIZONTAL" 87 objects\props\human\pioneer\farm\water_tank_horizontal\water_tank_horizontal.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[743].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "GLASS_BAR_TALL" 87 objects\props\human\urban\glass_bar_tall\glass_bar_tall.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[744].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "COATRACK_01" 87 objects\props\human\pioneer\furniture\coatrack_01\coatrack_01.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[745].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "FIRE_EXTINGUISHER_WALL" 87 objects\props\human\pioneer\locker_room\fire_extinguisher_wall\fire_extinguisher_wall.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[746].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "FIRE_EXTINGUISHER_WALL" 87 objects\props\human\pioneer\locker_room\fire_extinguisher_wall\fire_extinguisher_wall.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[747].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "POTTERY" 87 objects\props\human\pioneer\pottery\august\august.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[748].Type Prop
-SaveTagChanges
-Exit
 
-AddForgeItem "POTTERY" 87 objects\props\human\pioneer\pottery\august\august.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[749].Type Prop
-SaveTagChanges
-Exit
 
 AddForgeItem "BOTTLE_HUM_LIQUOR" 87 objects\props\human\urban\bottle_hum_liquor\bottle_hum_liquor.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[750].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CA_TIMBERLAND_TOOF" 85 objects\cex\cex_timberland\ca_timberland_toof\ca_timberland_toof.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[751].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "BLUE_BEACON" 87 objects\cex\cex_timberland\props\blue_beacon\blue_beacon.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[752].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "RED_BEACON" 87 objects\cex\cex_timberland\props\red_beacon\red_beacon.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[753].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CA_TIMBERLAND_TURRET_BASE" 85 objects\cex\cex_timberland\ca_timberland_turret\ca_timberland_turret_base\ca_timberland_turret_base.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[754].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CA_TIMBERLAND_BUNKER" 85 objects\cex\cex_timberland\ca_timberland_bunker\ca_timberland_bunker\ca_timberland_bunker.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[755].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CA_TIMBERLAND_TREEOFLIFE" 87 objects\cex\cex_timberland\ca_timberland_treeoflife\ca_timberland_treeoflife.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[756].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "FF_PRISONER_BRIDGE_L" 85 objects\cex\cex_prisoner\forge\ff_prisoner_bridge_l\ff_prisoner_bridge_l.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[757].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "FF_PRISONER_BRIDGE_R" 85 objects\cex\cex_prisoner\forge\ff_prisoner_bridge_r\ff_prisoner_bridge_r.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[758].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "FF_PRISONER_BRIDGE2" 85 objects\cex\cex_prisoner\forge\ff_prisoner_bridge2\ff_prisoner_bridge2.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[759].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "FF_PRISONER_BRIDGE3" 85 objects\cex\cex_prisoner\forge\ff_prisoner_bridge3\ff_prisoner_bridge3.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[760].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "FF_PRISONER_COVERWALL_SM" 85 objects\cex\cex_prisoner\forge\ff_prisoner_coverwall_sm\ff_prisoner_coverwall_sm.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[761].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "FF_PRISONER_FORECRATE_BIG" 85 objects\cex\cex_prisoner\forge\ff_prisoner_forecrate_big\ff_prisoner_forecrate_big.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[762].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "FF_PRISONER_FORECRATE_SMALL" 87 objects\cex\cex_prisoner\forge\ff_prisoner_forecrate_small\ff_prisoner_forecrate_small.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[763].Type Prop
-SaveTagChanges
-Exit
+
 
 #TODO Add to device machine category
 AddForgeItem "COV_POWERMODULE_STAND" 87 objects\props\covenant\cov_powermodule_stand\cov_powermodule_stand.device_machine
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[764].Type Prop
-SaveTagChanges
-Exit
+
 
 #TODO Add to device machine category
 AddForgeItem "PELICAN" 87 objects\vehicles\human\pelican\pelican.device_machine
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[765].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "ONI_TRASH_CAN" 87 objects\props\human\oni\small_desk_objects\oni_trash_can\oni_trash_can.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[766].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "LOUNGE_BENCH_ROW_6SEAT" 87 objects\props\human\oni\furniture\lounge_bench_row_6seat\lounge_bench_row_6seat.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[767].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "COMM_DISPLAY" 87 objects\props\covenant\comm_display\comm_display.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[768].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "SWORD_COV_GRAV_LIFT" 87 objects\levels\multi\20_sword_slayer\sword_cov_grav_lift\sword_cov_grav_lift.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[769].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "LOUNGE_BENCH_B" 87 objects\props\human\oni\furniture\lounge_bench_b\lounge_bench_b.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[770].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "M20_SCREEN_HALOGRAM_DESKMOUNT_A" 87 objects\levels\solo\m20\screen_halogram_deskmount_a\screen_halogram_deskmount_a.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[771].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "DLC_MEDIUM_MANCANNON" 87 levels\multi\dlc\objects\dlc_medium_mancannon\dlc_medium_mancannon.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[772].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "UNSC_GLOW_STICK" 87 objects\props\human\unsc\unsc_glow_stick\unsc_glow_stick.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[773].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "PUMPJACK" 87 objects\levels\solo\m30\pumpjack\pumpjack.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[774].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "BUOY" 87 objects\props\human\pioneer\water\buoy\buoy.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[775].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "WOODEN_BOARDS_STACKED_A" 87 objects\props\human\pioneer\farm\wooden_boards\wooden_boards_stacked_a\wooden_boards_stacked_a.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[776].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "WOODEN_BOARDS_STACKED_B" 87 objects\props\human\pioneer\farm\wooden_boards\wooden_boards_stacked_b\wooden_boards_stacked_b.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[777].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "WOODEN_BOARDS_STACKED_C" 87 objects\props\human\pioneer\farm\wooden_boards\wooden_boards_stacked_c\wooden_boards_stacked_c.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[778].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "WOODEN_BOARDS_STACKED_D" 87 objects\props\human\pioneer\farm\wooden_boards\wooden_boards_stacked_d\wooden_boards_stacked_d.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[779].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "GARAGE_STORAGE_RACK" 87 objects\props\human\pioneer\furniture\garage_storage_rack\garage_storage_rack.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[780].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "GARAGE_STORAGE_RACK_SHORT" 87 objects\props\human\pioneer\furniture\garage_storage_rack_short\garage_storage_rack_short.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[781].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "BAGS_COMPOST_PILE_A" 87 objects\props\human\pioneer\farm\bags_compost_pile_a\bags_compost_pile_a.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[782].Type Prop
-SaveTagChanges
-Exit
 
 AddForgeItem "LOUNGE_BENCH_A" 87 objects\props\human\oni\furniture\lounge_bench_a\lounge_bench_a.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[783].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "ONI_OFFICE_CLIPBOARD" 87 objects\props\human\oni\small_desk_objects\oni_office_clipboard\oni_office_clipboard.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[784].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "GRAVLIFT1_PRISONER" 87 objects\cex\cex_prisoner\crates\gravlift1_prisoner\gravlift1_prisoner.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[785].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "GRAVLIFT2_PRISONER" 87 objects\cex\cex_prisoner\crates\gravlift2_prisoner\gravlift2_prisoner.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[786].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CRATE_SPACE_MP" 87 objects\props\covenant\crate_space\crate_space_mp.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[787].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "ONI_EXT_SECURITY_CAMERA" 87 objects\levels\solo\m20\oni_ext_security_camera\oni_ext_security_camera.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[788].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "SECURITY_CAMERA_INTERIOR" 87 objects\props\human\oni\security_camera_interior\security_camera_interior.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[789].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "HVAC" 87 objects\props\human\pioneer\farm\hvac\hvac.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[790].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "COM_ANTENNAE" 87 objects\props\human\pioneer\farm\com_antennae\com_antennae.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[791].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "COM_ANTENNAE_02" 87 objects\props\human\pioneer\farm\com_antennae_02\com_antennae_02.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[792].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "PIONEER_WHITEBOARD_A" 87 objects\props\human\pioneer\office\pioneer_whiteboard_a\pioneer_whiteboard_a.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[793].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "WEAK_ANTI_RESPAWN_ZONE" 87 objects\multi\spawning\weak_anti_respawn_zone.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[794].Type Prop
-SaveTagChanges
-Exit
 
 AddForgeItem "Y_SET_FAN_SMALL_A" 87 objects\levels\shared\lights\y_set_fan_small_a\y_set_fan_small_a.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[795].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "DRUM_55GAL" 87 objects\gear\human\military\drum_55gal\drum_55gal.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[796].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "HANDTRUCK" 87 objects\props\human\pioneer\farm\handtruck\handtruck.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[797].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CRATE_PACKING_LID" 87 objects\gear\human\military\crate_packing_lid\crate_packing_lid.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[798].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "GARAGE_STOOL" 87 objects\props\human\pioneer\garage\garage_stool\garage_stool.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[799].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "GARAGE_STOOL2" 87 objects\props\human\pioneer\garage\garage_stool2\garage_stool2.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[800].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CENTRAL_WORK_TABLE_1" 87 objects\props\human\pioneer\furniture\central_work_table_1\central_work_table_1.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[801].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CENTRAL_WORK_TABLE_2" 87 objects\props\human\pioneer\furniture\central_work_table_2\central_work_table_2.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[802].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "WATER_FILTRATION" 87 objects\props\human\pioneer\farm\water_filtration\water_filtration.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[803].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "UNSC_HALCYON_CLASS_CRUISER_POA" 87 objects\vehicles\human\unsc_fleet\unsc_halcyon_class_cruiser_poa\unsc_halcyon_class_cruiser_poa.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[804].Type Prop
-SaveTagChanges
-Exit
 
-AddForgeItem "hu_mil_rucksack" 87 objects\gear\human\military\hu_mil_rucksack\hu_mil_rucksack.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[805].Type Prop
-SaveTagChanges
-Exit
+
+AddForgeItem "HU_MIL_RUCKSACK" 87 objects\gear\human\military\hu_mil_rucksack\hu_mil_rucksack.crate
+
 
 AddForgeItem "PLASMA_BATTERY_REACH" 87 objects\props\covenant\battery\battery.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[806].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "CRATE_MULTI_SINGLE_PLAIN" 87 objects\gear\human\industrial\crate_multi_single_plain\crate_multi_single_plain.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[807].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "MP_ONI_CRATE_GIANT" 87 objects\ca_dev\dlc_preserve\crates\oni_crate_giant\mp_oni_crate_giant.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[808].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "MP_ONI_CRATE_SMALL" 87 objects\ca_dev\dlc_preserve\crates\oni_crate_small\mp_oni_crate_small.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[809].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "HEH_GRAVLIFT" 87 objects\cex\cex_hangemhigh\crates\heh_gravlift\heh_gravlift.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[810].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "HEH_GRAVLIFT_TUNNELS" 87 objects\cex\cex_hangemhigh\crates\heh_gravlift_tunnels\heh_gravlift_tunnels.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[811].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "H_GRENADE_CRATE" 87 objects\gear\human\military\h_grenade_crate\h_grenade_crate.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[812].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "SANDBAG_WALL" 87 objects\gear\human\military\sandbag_wall\sandbag_wall.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[813].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "SANDBAG_WALL_45CORNER" 87 objects\gear\human\military\sandbag_wall_45corner\sandbag_wall_45corner.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[814].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "SANDBAG_WALL_90CORNER" 87 objects\gear\human\military\sandbag_wall_90corner\sandbag_wall_90corner.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[815].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "SANDBAG_WALL_ENDCAP" 87 objects\gear\human\military\sandbag_wall_endcap\sandbag_wall_endcap.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[816].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "SANDBAG_WALL_TURRET" 87 objects\gear\human\military\sandbag_wall_turret\sandbag_wall_turret.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[817].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "MONITOR_FLUSH" 87 objects\props\human\oni\monitor_flush\monitor_flush.scenery
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[818].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "DRIFTWOOD_A" 87 objects\levels\solo\m20\driftwood_a\driftwood_a.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[819].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "DRIFTWOOD_B" 87 objects\levels\solo\m20\driftwood_b\driftwood_b.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[820].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "DRIFTWOOD_C" 87 objects\levels\solo\m20\driftwood_c\driftwood_c.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[821].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "ff_damnation_platform" 85 objects\cex\cex_damnation\forge\ff_damnation_platform\ff_damnation_platform.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[822].Type Prop
-SaveTagChanges
-Exit
+
 
 AddForgeItem "damage_sphere" 87 objects\levels\shared\damage_sphere\damage_sphere.crate
-EditTag multiplayer\forge_globals.forge_globals_definition
-SetField Palette[823].Type Prop
-SaveTagChanges
-Exit
-
-
-
 
 
 

@@ -308,16 +308,7 @@ OpenModPackage "workingdir\paks\revenant.pak"
 ApplyModPackage
 ExitModPackage
 
-EditTag multiplayer\forge_globals.forge_globals_definition
-
-addblockelements Palette
-SetField Palette[*].Name "REVENANT"
-SetField Palette[*].Type Vehicle
-SetField Palette[*].CategoryIndex 79
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\vehicles\covenant\revenant\revenant.vehicle
-SaveTagChanges
-Exit
+AddForgeItem "REVENANT" "VEHICLES" objects\vehicles\covenant\revenant\revenant.vehicle
 
 echo ==Hugegrass Falcon==
 
