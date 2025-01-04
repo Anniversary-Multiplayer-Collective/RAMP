@@ -229,6 +229,11 @@ SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
+edittag levels\dlc\cex_ff_halo\fx\distantbeam.particle
+setfield ParticleBillboardStyle ParallelToDirection
+savetagchanges
+Exit
+
 EditTag levels\firefight\ff10_prototype\ff10_prototype.scenario
 SetField MapType Multiplayer
 SetField CampaignId -1
