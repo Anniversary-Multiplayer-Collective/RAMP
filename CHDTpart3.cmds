@@ -570,6 +570,11 @@ savetagchanges
 exit
 
 edittag ui\chud\spartan.chud_definition
+setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 4.05 4.05
+setfield HudWidgets[0].BitmapWidgets[0].RenderData[0].LocalScalarA 0.8
+setfield HudWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 0.405 0.405
+setfield HudWidgets[1].BitmapWidgets[1].PlacementData[0].Scale 0.4 0.4
+setfield HudWidgets[1].BitmapWidgets[1].PlacementData[0].Offset 12 -14
 setfield HUDWidgets[2].PlacementData[0].Offset -25 35
 setfield HUDWidgets[2].PlacementData[0].Scale 1.3 1.3
 setfield HUDWidgets[3].PlacementData[0].Offset -25 35
@@ -614,7 +619,26 @@ setfield HudGlobals[0].EquipmentVerticalOffsetDual 70
 savetagchanges
 exit
 
+edittag ui\chud\bitmaps\elite_shield_border.bitmap
+importbitmap 0 workingdir\bitmaps\elite_shield_border.dds
+savetagchanges
+exit
+
 edittag ui\chud\elite.chud_definition
+setfield HudWidgets[1].BitmapWidgets[0].PlacementData[0].Offset 0 10
+setfield HudWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 2.95 2.25
+setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].LocalScalarA 0.8
+setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].OutputColorA CrosshairEnemy
+setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].OutputColorB CrosshairEnemy
+setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].OutputColorC CrosshairEnemy
+setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].OutputColorD CrosshairEnemy
+setfield HudWidgets[1].BitmapWidgets[1].PlacementData[0].Origin -0.97 -1
+setfield HudWidgets[1].BitmapWidgets[2].AnimationData[0].Flashing.Animation null
+setfield HudWidgets[2].PlacementData[0].Offset 38 29
+setfield HudWidgets[2].BitmapWidgets[0].PlacementData[0].Offset -5 -24
+setfield HudWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 0.49 0.49
+setfield HudWidgets[2].BitmapWidgets[1].PlacementData[0].Offset 95 -128
+setfield HudWidgets[2].BitmapWidgets[1].PlacementData[0].Scale 0.475 0.475
 setfield HUDWidgets[3].PlacementData[0].Offset -24 32
 setfield HUDWidgets[3].PlacementData[0].Scale 1.3 1.3
 setfield HUDWidgets[4].PlacementData[0].Offset -24 32

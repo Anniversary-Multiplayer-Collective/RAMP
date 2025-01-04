@@ -8,6 +8,11 @@ importbitmap 0 workingdir\bitmaps\nothing.dds
 savetagchanges
 exit
 
+edittag ui\chud\bitmaps\weapon_scematics_ramp.bitmap
+importbitmap 0 workingdir\bitmaps\weapon_scematics_ramp.dds
+savetagchanges
+exit
+
 edittag ui\chud\bitmaps\hud_reticles.bitmap
 importbitmap 1 workingdir\bitmaps\spartanlaserunzoomed.dds
 importbitmap 2 workingdir\bitmaps\spartanlaserzoomed.dds
