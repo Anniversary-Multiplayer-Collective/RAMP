@@ -17,6 +17,9 @@ RampCollective
 0.1
 MainMenu Multiplayer Character
 
+# echo ==Bitmap Fixes...==
+runcommands "workingdir\bitmap_fixes.cmds"
+
 # echo ==Porting...==
 EditTag objects\gear\human\military\crate_packing_giant\crate_packing_giant.render_model
 SaveTagChanges
@@ -68,17 +71,7 @@ Exit
 
 OpenCacheFile "reachmaps\70_boneyard.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag levels\shared\bitmaps\human\metal\vinyl_panels_a_dif.bitmap
-PortTag levels\shared\bitmaps\human\metal\vinyl_panels_a_bump.bitmap
-PortTag levels\shared\bitmaps\human\metal\plastic_veins_detail_bump.bitmap
 PortTag !Scripts !UpdateMapFiles *.scnr
-Exit
-
-EditTag levels\solo\m70\shaders\m70_vinyl_panel_dark.shader
-SetField ShaderProperties[0].TextureConstants[0].Bitmap levels\shared\bitmaps\human\metal\vinyl_panels_a_dif.bitmap
-SetField ShaderProperties[0].TextureConstants[2].Bitmap levels\shared\bitmaps\human\metal\vinyl_panels_a_bump.bitmap
-SetField ShaderProperties[0].TextureConstants[3].Bitmap levels\shared\bitmaps\human\metal\plastic_veins_detail_bump.bitmap
-SaveTagChanges
 Exit
 
 OpenCacheFile "reachmaps\forge_halo.map"
@@ -185,15 +178,7 @@ Exit
 
 OpenCacheFile "reachmaps\ff50_park.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag levels\solo\m50\bitmaps\metal\metal_expansion_plate_diffuse.bitmap
-PortTag levels\solo\m50\bitmaps\metal\metal_expansion_plate_zbump.bitmap
 PortTag !Scripts !UpdateMapFiles *.scnr
-Exit
-
-EditTag levels\solo\m50\shaders\metal\metal_expansion_plate_.shader
-SetField ShaderProperties[0].TextureConstants[0].Bitmap levels\solo\m50\bitmaps\metal\metal_expansion_plate_diffuse.bitmap
-SetField ShaderProperties[0].TextureConstants[3].Bitmap levels\solo\m50\bitmaps\metal\metal_expansion_plate_zbump.bitmap
-SaveTagChanges
 Exit
 
 OpenCacheFile "reachmaps\ff60_airview.map"
@@ -213,15 +198,7 @@ Exit
 
 OpenCacheFile "reachmaps\ff_unearthed.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag levels\dlc\trainingpreserve\bitmaps\ca_preserve_terrain_rock_cliff2_d.bitmap
-PortTag levels\dlc\trainingpreserve\bitmaps\ca_preserve_terrain_rock_cliff2_n.bitmap
 PortTag !Scripts !UpdateMapFiles *.scnr
-Exit
-
-EditTag levels\dlc\trainingpreserve\shaders\ca_preserve_rock04.shader
-SetField ShaderProperties[0].TextureConstants[0].Bitmap levels\dlc\trainingpreserve\bitmaps\ca_preserve_terrain_rock_cliff2_d.bitmap
-SetField ShaderProperties[0].TextureConstants[2].Bitmap levels\dlc\trainingpreserve\bitmaps\ca_preserve_terrain_rock_cliff2_n.bitmap
-SaveTagChanges
 Exit
 
 OpenCacheFile "reachmaps\cex_ff_halo.map"
