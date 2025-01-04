@@ -29,12 +29,12 @@ Exit
 
 OpenCacheFile "reachmaps\20_sword_slayer.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\30_settlement.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 EditTag levels\shared\decorators\bitmaps\dry_weedy_grass_dec.bitmap
 ImportBitmap 0 "workingdir\dry_weedy_grass_dec.dds"
@@ -43,27 +43,27 @@ Exit
 
 OpenCacheFile "reachmaps\35_island.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\45_aftship.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\45_launch_station.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\50_panopticon.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\52_ivory_tower.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\70_boneyard.map"
@@ -71,7 +71,7 @@ SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag levels\shared\bitmaps\human\metal\vinyl_panels_a_dif.bitmap
 PortTag levels\shared\bitmaps\human\metal\vinyl_panels_a_bump.bitmap
 PortTag levels\shared\bitmaps\human\metal\plastic_veins_detail_bump.bitmap
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 EditTag levels\solo\m70\shaders\m70_vinyl_panel_dark.shader
@@ -89,63 +89,63 @@ PortTag Replace objects\gear\human\military\barricade_small\barricade_small.crat
 PortTag Replace objects\gear\human\military\fusion_coil\fusion_coil.crate
 PortTag Replace objects\gear\human\military\camping_stool_mp\camping_stool_mp.crate
 DoNotReplaceGroups remove bitm
-PortTag ReachMisc objects\multi\boundaries\safe_volume.scen
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag objects\multi\boundaries\safe_volume.scen
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\cex_beaver_creek.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\cex_damnation.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\cex_hangemhigh.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\cex_headlong.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\cex_prisoner.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\cex_timberland.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\condemned.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\dlc_invasion.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\dlc_medium.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\dlc_slayer.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\trainingpreserve.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\ff10_prototype.map"
@@ -162,29 +162,29 @@ IgnoreBlamTag objects\equipment\hologram\bipeds\hologram_jackal.biped
 IgnoreBlamTag objects\equipment\hologram\bipeds\hologram_spartan.biped
 
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\ff20_courtyard.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\ff30_waterfront.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\ff45_corvette.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\ff50_park.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag levels\solo\m50\bitmaps\metal\metal_expansion_plate_diffuse.bitmap
 PortTag levels\solo\m50\bitmaps\metal\metal_expansion_plate_zbump.bitmap
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 EditTag levels\solo\m50\shaders\metal\metal_expansion_plate_.shader
@@ -195,24 +195,24 @@ Exit
 
 OpenCacheFile "reachmaps\ff60_airview.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\ff60_icecave.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\ff70_holdout.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 OpenCacheFile "reachmaps\ff_unearthed.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag levels\dlc\trainingpreserve\bitmaps\ca_preserve_terrain_rock_cliff2_d.bitmap
 PortTag levels\dlc\trainingpreserve\bitmaps\ca_preserve_terrain_rock_cliff2_n.bitmap
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 EditTag levels\dlc\trainingpreserve\shaders\ca_preserve_rock04.shader
@@ -223,7 +223,7 @@ Exit
 
 OpenCacheFile "reachmaps\cex_ff_halo.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag ReachMisc !Scripts !UpdateMapFiles *.scnr
+PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 EditTag levels\firefight\ff10_prototype\ff10_prototype.scenario
