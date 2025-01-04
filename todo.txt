@@ -6,3 +6,123 @@ Fix it being square levels\dlc\cex_damnation\fx\particles\greensplat.particle
 Replace the Halo 3 items with their halo Reach equivelent
 Add Podium to each map
 Increase the projectile speed for certain hitscan weapons (To combat ED buggy network)
+
+Known maps bugs
+If anyone know any bugs please put them here
+If anyone has fixed any of these please delete or comment it out with a #
+
+(GENERAL [APPLY TO ALL MAPS IF SPAWNED IN])
+- Healthpack doesn't spawn correctly
+- The shield is always red and is not breakable
+- Reach kill volume properties cannot be changed (doesn't really matter)
+
+(ANCHOR 9)
+- Haven't found any
+
+(BATTLE CANYON)
+- Sniper rifle spawn floating in the air
+
+(BEACHHEAD)
+- The city skybox is way too bright
+- The skybox disappear if you look at specific angles
+|->to fix it you have to change the skybox to something then set it to default again
+- The main stair has weird shader where it becomes bright if you look at certain angles
+
+(BOARDWALK)
+- The city skybox is way too bright
+- Too many instanced geometry thus making some object deloads
+
+(BREAKNECK)
+- Missing some decals
+- Sound plays incorrectly or doesn't get play at all (sound scenery overloaded)
+- Offense street cones spawns weird (2 on the side spawn normal, 2 in the middle fallen/floating)
+- Banshee spawns floating in the air
+- Defense ghost spawn floating in the air
+- Offense ghost spawn clipped in the road
+- Warthog spawns floating in the air
+
+(BREAKPOINT)
+- Small bridge has weird shader at certain angles
+- THE PHANTOM FUCKING EXPLODED AFTER CERTAIN AMOUNT OF TIME (HAS SOMETHING TO DO WITH THE BANSHEE)
+- One of the wraith spawn floating in the air
+
+(CONDEMNED)
+- The electric reactor in the low gravity section use the invalid texture
+
+(CORVETTE)
+- Haven't found any
+
+(COUNTDOWN)
+- Healthpack doesn't spawn correctly
+
+(COURTYARD)
+- Theres some weird smoke, middle in the air, one on the floor, and one under the floor
+|->removing the entire effect scenery and palette fixed it (hacky fix), haven't found any visual differences
+
+(FORGE WORLD)
+- Haven't found any
+
+(GLACIER)
+- When entering the building, some bsp despawned
+
+(HIGH NOON)
+- Haven't found any
+
+(HIGHLANDS)
+- Has some weird kill barriers near red base, literally kills you while you're still in the map
+- Sound plays incorrectly or doesn't get play at all (sound scenery overloaded)
+
+(HOLDOUT)
+- When you're in under the balcony, the upper floor it self deloads
+- When you're in the upper stair the balcony floor it self deloads
+- Weird still flame glowly effect on the crane that's holding the pillar of autumm
+
+(INSTALLATION 04)
+- The rock in the water has weird shader where it becomes bright if you look at certain angles
+- The map in general has low contrast fx affecting everything, not sure if this intended
+
+(OUTPOST)
+- The glacier that blocks other part of the maps is way too bright
+- One of the crate packing lid spawns at vertical orientation thus making it clipped through the floor halfway through
+
+(OVERLOOK)
+- The map has weird blue fog covering the floor of the map
+- Too many instanced geometry thus making some object deloads
+
+(PENANCE)
+- The droplets on the upper pipe doesn't despawned correctly
+
+(POWERHOUSE)
+- Theres a kill barrier high enough that's still reachable if you do a grenade jump
+- The dead tree branch has weird shader where it becomes bright if you look at certain angles
+
+(REFLECTION)
+- The skybox disappears if you look at certain angles
+|->to fix it you have to change the skybox to something then set it to default again
+- The city skybox is way too bright
+
+(RIDGELINE)
+- Haven't found any
+
+(SOLITARY)
+- Haven't found any
+
+(SPIRE)
+- Theres a pelican floating there... menacingly
+- The shield layer doesn't mix well with the skybox
+
+(SWORD BASE)
+- Haven't found any
+
+(TEMPEST)
+- Just one, ONE specific grass decal is way too bright
+
+(UNEARTHED)
+- One of the road barrier spawns slightly clipped in the floor
+
+(WATERFRONT)
+- The propane tank has weird shader where if you look at certains angle the outer/lines becomes white
+- The pumpjack (the buoyancy) has also the weird shader where if you look at certains angle the outer/lines becomes white
+
+(ZEALOT)
+- The covenant glass shield is just pure transparent
