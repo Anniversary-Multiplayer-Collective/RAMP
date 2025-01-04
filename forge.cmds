@@ -388,8 +388,6 @@ AddForgeItem "REACH TELEPORTER SENDER" 87 objects\levels\forge\ff_teleporter_sen
 
 AddForgeItem "REACH TELEPORTER RECEIVER" 87 objects\levels\forge\ff_teleporter_receiver\ff_teleporter_receiver.crate
 
-AddForgeItem "COVENANT BARRIER" 87 objects\props\covenant\cov_barrier\cov_barrier.crate
-
 AddForgeItem "LARGE CRATE" 87 objects\props\human\urban\space_crate\space_crate.crate
 
 AddForgeItem "HEAVY SHIELD" 87 levels\multi\dlc\objects\dlc_invasion_heavy_shield\dlc_invasion_heavy_shield.crate
@@ -651,8 +649,6 @@ AddForgeItem "WATER_TANK_HORIZONTAL" 87 objects\props\human\pioneer\farm\water_t
 AddForgeItem "GLASS_BAR_TALL" 87 objects\props\human\urban\glass_bar_tall\glass_bar_tall.crate
 
 AddForgeItem "COATRACK_01" 87 objects\props\human\pioneer\furniture\coatrack_01\coatrack_01.crate
-
-AddForgeItem "FIRE_EXTINGUISHER_WALL" 87 objects\props\human\pioneer\locker_room\fire_extinguisher_wall\fire_extinguisher_wall.scenery
 
 AddForgeItem "FIRE_EXTINGUISHER_WALL" 87 objects\props\human\pioneer\locker_room\fire_extinguisher_wall\fire_extinguisher_wall.scenery
 
