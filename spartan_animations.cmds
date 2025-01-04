@@ -387,6 +387,21 @@ edittag dw3\r3ach\objects\weapons\support_high\rocket_launcher\animations\fp_spa
 addanimation workingdir\animations\spartan_fp\rocketlauncher
 sortmodes
 
+setfield Animations[0].Weight 0.34
+setfield Animations[0].AnimationData.InternalFlags CompressionDisabled,ValidProductionChecksum
+setfield Animations[0].AnimationData.NodeListChecksum -462889827
+setfield Animations[0].AnimationData.ProductionChecksum -910107603
+setfield Animations[0].AnimationData.NextAnimation 1
+addblockelements Animations[0].AnimationData.SoundEvents
+
+setfield Animations[1].Weight 0.67
+setfield Animations[1].AnimationData.InternalFlags CompressionDisabled,ValidProductionChecksum
+setfield Animations[1].AnimationData.NodeListChecksum -462889827
+setfield Animations[1].AnimationData.ProductionChecksum -910107603
+setfield Animations[1].AnimationData.ParentAnimation 0
+setfield Animations[1].AnimationData.NextAnimation 2
+addblockelements Animations[1].AnimationData.SoundEvents
+
 setfield Animations[5].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield Animations[15].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield Animations[16].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
@@ -400,6 +415,7 @@ setfield Animations[14].PlaybackFlags DisableWeaponIk
 addblockelements Modes[0].WeaponClass[0].WeaponIk
 setfield Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand
 setfield Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker mineleloldabest_left_hand_spartan_fp
+setfield Modes[0].WeaponClass[0].WeaponType[0].Set.Actions[0].Animation 0
 savetagchanges
 exit
 

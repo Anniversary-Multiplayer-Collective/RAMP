@@ -304,6 +304,13 @@ edittag dw3\r3ach\objects\weapons\support_high\rocket_launcher\animations\fp_eli
 addanimation workingdir\animations\elite_fp\rocketlauncher
 sortmodes
 
+setfield Animations[0].AnimationData.NextAnimation -1
+setfield Animations[1].Weight 0
+setfield Animations[1].AnimationData.ParentAnimation -1
+setfield Animations[1].AnimationData.NextAnimation -1
+setfield Animations[2].Weight 0
+setfield Animations[2].AnimationData.ParentAnimation -1
+
 setfield Animations[0].PlaybackFlags ForceWeaponIkOn
 setfield Animations[1].PlaybackFlags ForceWeaponIkOn
 setfield Animations[2].PlaybackFlags ForceWeaponIkOn

@@ -30,6 +30,13 @@ exit
 # THIS SHIT IS JUST RIDICULOUS
 # THIS MOD HAS SO MANY DUPLICATED TEXTURE, IT'S FUCKING UNREAL
 
+duplicatetag ui\chud\animations\crosshair_animations\dmr_reticule.chud_animation_definition ui\chud\animations\crosshair_animations\br_reticule
+edittag ui\chud\animations\crosshair_animations\br_reticule.chud_animation_definition
+setfield Scale[0].Keyframes[1].Scale 0.8 0.8
+setfield Rotation[0].Keyframes[1].Angles 85 0 0
+savetagchanges
+exit
+
 # ----------------------------------------------------------------
 # I                       ASSAULT RIFLES                         I
 # ----------------------------------------------------------------
@@ -139,6 +146,7 @@ exit
 edittag ui\chud\battle_rifle_accuracy.chud_definition
 removeblockelements HudWidgets 0 *
 pasteblockelements HudWidgets
+setfield HudWidgets[2].BitmapWidgets[2].AnimationData[0].Active.Animation ui\chud\animations\crosshair_animations\br_reticule.chud_animation_definition
 setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 3
 setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -35 50
 setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 1 1
@@ -160,6 +168,7 @@ exit
 edittag ui\chud\battle_rifle_ammo.chud_definition
 removeblockelements HudWidgets 0 *
 pasteblockelements HudWidgets
+setfield HudWidgets[2].BitmapWidgets[2].AnimationData[0].Active.Animation ui\chud\animations\crosshair_animations\br_reticule.chud_animation_definition
 setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 0
 setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -15 50
 setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 1 1
@@ -181,7 +190,7 @@ exit
 edittag ui\chud\battle_rifle_damage.chud_definition
 removeblockelements HudWidgets 0 *
 pasteblockelements HudWidgets
-
+setfield HudWidgets[2].BitmapWidgets[2].AnimationData[0].Active.Animation ui\chud\animations\crosshair_animations\br_reticule.chud_animation_definition
 setfield HudWidgets[2].StateData[0].UnitZoomFlags BinocularsEnabled
 setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 3
 setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -25 50
@@ -205,6 +214,7 @@ exit
 edittag ui\chud\battle_rifle_power.chud_definition
 removeblockelements HudWidgets 0 *
 pasteblockelements HudWidgets
+setfield HudWidgets[2].BitmapWidgets[2].AnimationData[0].Active.Animation ui\chud\animations\crosshair_animations\br_reticule.chud_animation_definition
 setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 0
 setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -35 50
 setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 1 1
@@ -226,6 +236,7 @@ exit
 edittag ui\chud\battle_rifle_range.chud_definition
 removeblockelements HudWidgets 0 *
 pasteblockelements HudWidgets
+setfield HudWidgets[2].BitmapWidgets[2].AnimationData[0].Active.Animation ui\chud\animations\crosshair_animations\br_reticule.chud_animation_definition
 setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 3
 setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -45 50
 setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 1 1
@@ -247,6 +258,7 @@ exit
 edittag ui\chud\battle_rifle_rof.chud_definition
 removeblockelements HudWidgets 0 *
 pasteblockelements HudWidgets
+setfield HudWidgets[2].BitmapWidgets[2].AnimationData[0].Active.Animation ui\chud\animations\crosshair_animations\br_reticule.chud_animation_definition
 setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 1
 setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -25 50
 setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 1 1
