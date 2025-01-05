@@ -30,6 +30,11 @@ SetField RenderModel objects\gear\human\military\crate_packing_giant\crate_packi
 SaveTagChanges
 Exit
 
+edittag shaders\invalid.shader
+SaveTagChanges
+Exit
+nametag shaders\invalid.shader shaders\invalid_h3
+
 OpenCacheFile "reachmaps\20_sword_slayer.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag !Scripts !UpdateMapFiles *.scnr
@@ -326,40 +331,6 @@ Exit
 
 EditTag objects\cex\cex_beaver_creek\crates\gravity_lift_blue\gravity_lift_blue.render_model
 SetField Materials[0].RenderMethod objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift_grate.shader
-SaveTagChanges
-Exit
-
-# echo ==Fix invalid shader on some items...==
-DuplicateTag shaders\invalid.shader shaders\invalid_reach
-
-##Turns out they did this in reach.....
-EditTag shaders\invalid_reach.shader
-SetBitmap base_map shaders\default_bitmaps\bitmaps\gray_50_percent.bitmap
-SaveTagChanges
-Exit
-
-EditTag objects\levels\multi\20_sword_slayer\sword_vent_cover_open_out_a\sword_vent_cover_open_out_a.render_model
-SetField Materials[6].RenderMethod shaders\invalid_reach.shader
-SaveTagChanges
-Exit
-
-EditTag objects\cex\cex_timberland\ca_timberland_turret\ca_timberland_turret_base\ca_timberland_turret_base.render_model
-SetField Materials[7].RenderMethod shaders\invalid_reach.shader
-SaveTagChanges
-Exit
-
-EditTag objects\levels\shared\device_machines\ivory_tower_elevator\ivory_tower_elevator.render_model
-SetField Materials[0].RenderMethod shaders\invalid_reach.shader
-SaveTagChanges
-Exit
-
-EditTag objects\cex\cex_timberland\props\blue_beacon\blue_beacon.render_model
-SetField Materials[4].RenderMethod shaders\invalid_reach.shader
-SaveTagChanges
-Exit
-
-EditTag objects\cex\cex_timberland\props\red_beacon\red_beacon.render_model
-SetField Materials[4].RenderMethod shaders\invalid_reach.shader
 SaveTagChanges
 Exit
 
