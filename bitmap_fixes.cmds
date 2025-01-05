@@ -461,6 +461,10 @@ PortTag levels\shared\decals\signage\human\oni\micro\sign_oni_caution_sub_vlf.bi
 PortTag levels\shared\decals\signage\human\oni\micro\sign_oni_floor_dark_1a_diffuse.bitmap
 PortTag levels\shared\decals\signage\human\oni\micro\oni_base_sign_black_keepclear.bitmap
 PortTag levels\shared\decals\archive\nature\snow\snow_ice_crust1_dif.bitmap
+PortTag levels\solo\m60\m60_lightmap_m20_020_16f_lp_array_dualvmf_pixel_direction_dxtn.bitmap
+PortTag levels\solo\m60\m60_lightmap_m20_020_16f_lp_array_dualvmf_pixel_intensity_dxt5.bitmap
+PortTag levels\solo\m60\m60_lightmap_m20_040_16f_lp_array_dualvmf_pixel_direction_dxtn.bitmap
+PortTag levels\solo\m60\m60_lightmap_m20_040_16f_lp_array_dualvmf_pixel_intensity_dxt5.bitmap
 PortTag levels\solo\m60\m60_m20_020_cubemaps.bitmap
 PortTag levels\solo\m60\m60_m20_040_cubemaps.bitmap
 PortTag levels\solo\m60\sky_glacier_explosion\bitmaps\horizon_band.bitmap
