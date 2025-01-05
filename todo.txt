@@ -47,7 +47,7 @@ If anyone has fixed any of these please delete or comment it out with a #
 - One of the wraith spawn floating in the air
 
 (CONDEMNED)
-- The electric reactor in the low gravity section use the invalid texture
+#- The electric reactor in the low gravity section use the invalid texture
 
 (CORVETTE)
 - Haven't found any

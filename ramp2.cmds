@@ -18,7 +18,7 @@ RampCollective
 MainMenu Multiplayer Character
 
 # echo ==Bitmap Fixes...==
-runcommands "workingdir\bitmap_fixes.cmds"
+RunCommands "workingdir\bitmap_fixes.cmds"
 
 # echo ==Porting...==
 EditTag objects\gear\human\military\crate_packing_giant\crate_packing_giant.render_model
@@ -30,13 +30,16 @@ SetField RenderModel objects\gear\human\military\crate_packing_giant\crate_packi
 SaveTagChanges
 Exit
 
-edittag shaders\invalid.shader
+EditTag shaders\invalid.shader
 SaveTagChanges
 Exit
 nametag shaders\invalid.shader shaders\invalid_h3
 
 OpenCacheFile "reachmaps\20_sword_slayer.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+DoNotReplaceGroups bitm
+PortTag Replace objects\gear\human\industrial\jersey_barrier\jersey_barrier.crate
+DoNotReplaceGroups remove bitm
 PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
@@ -45,7 +48,7 @@ SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 EditTag levels\shared\decorators\bitmaps\dry_weedy_grass_dec.bitmap
-ImportBitmap 0 "workingdir\dry_weedy_grass_dec.dds"
+ImportBitmap 0 "workingdir\bitmaps\dry_weedy_grass_dec.dds"
 SaveTagChanges
 Exit
 
@@ -203,6 +206,11 @@ Exit
 
 OpenCacheFile "reachmaps\ff_unearthed.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+DoNotReplaceGroups bitm
+PortTag Replace objects\gear\human\military\crate_packing\crate_packing.crate
+PortTag Replace objects\gear\human\military\crate_packing_lid\crate_packing_lid.crate
+PortTag Replace objects\gear\human\industrial\jersey_barrier_short\jersey_barrier_short.crate
+DoNotReplaceGroups remove bitm
 PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
@@ -211,9 +219,9 @@ SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
-edittag levels\dlc\cex_ff_halo\fx\distantbeam.particle
-setfield ParticleBillboardStyle ParallelToDirection
-savetagchanges
+EditTag levels\dlc\cex_ff_halo\fx\distantbeam.particle
+SetField ParticleBillboardStyle ParallelToDirection
+SaveTagChanges
 Exit
 
 EditTag levels\firefight\ff10_prototype\ff10_prototype.scenario
@@ -519,14 +527,14 @@ SetString english revenant_board "\uE461\uE45F to board Revenant"
 SaveTagChanges
 Exit
 
-edittag ui\hud\hud_messages.multilingual_unicode_string_list
+EditTag ui\hud\hud_messages.multilingual_unicode_string_list
 setstring english falcon_drive "\uE461\uE45F to drive Falcon"
 setstring english falcon_enter_passenger "\uE461\uE45F to ride in Falcon"
 setstring english falcon_board "\uE461\uE45F to board Falcon"
 setstring english falcon_flip "\uE461\uE45F to flip Falcon"
 setstring english falcon_enter_gunner "\uE461\uE45F to operate Falcon turret"
-savetagchanges
-exit
+SaveTagChanges
+Exit
 
 echo ==Fix projectile drop==
 EditTag dw3\r3ach\objects\weapons\support_high\rocket_launcher\projectiles\rocket_launcher_rocket.projectile
@@ -564,12 +572,12 @@ Exit
 
 echo ==Fix VISR mask==
 EditTag shaders\default_bitmaps\bitmaps\vision_mode_mask.bitmap
-importbitmap 0 workingdir\images\vision_mask.dds
+ImportBitmap 0 workingdir\bitmaps\vision_mask.dds
 SaveTagChanges
 Exit
 
 EditTag objects\characters\elite\mp_elite\bitmaps\vision_mode_mask.bitmap
-importbitmap 0 workingdir\images\vision_mask.dds
+ImportBitmap 0 workingdir\bitmaps\vision_mask.dds
 SaveTagChanges
 Exit
 
@@ -766,267 +774,267 @@ SaveTagChanges
 Exit
 
 # echo ==Shader fixes for Glacier...==
-edittag levels\solo\m60\shaders\organic\ice_ground_rock.shader_terrain
-setargument specular_coefficient_m_0 0
-savetagchanges
-exit
-edittag levels\solo\m60\shaders\organic\ice_ground.shader_terrain
-setargument specular_coefficient_m_0 0
-savetagchanges
-exit
-edittag levels\solo\m60\shaders\organic\ice_ground_ice.shader_terrain
-setargument specular_coefficient_m_0 0
-savetagchanges
-exit
-edittag levels\solo\m60\shaders\organic\m60_ice_cave_rock_close_prefab.shader_terrain
-setargument specular_power_m_0 0
-setargument area_specular_contribution_m_0 0
-setargument analytical_specular_contribution_m_0 0
-setargument specular_coefficient_m_1 0
-setargument specular_power_m_1 0
-setargument environment_specular_contribution_m_1 0
-setargument analytical_specular_contribution_m_1 0
-setargument area_specular_contribution_m_1 0
-setargument analytical_specular_contribution_m_2 0
-setargument environment_specular_contribution_m_2 0
-setargument albedo_specular_tint_blend_m_2 0
+EditTag levels\solo\m60\shaders\organic\ice_ground_rock.shader_terrain
+SetArgument specular_coefficient_m_0 0
 SaveTagChanges
 Exit
-edittag levels\solo\m60\shaders\organic\m60_ice_cave_rock_close.shader_terrain
-setargument specular_coefficient_m_0 0
-setargument specular_power_m_0 0
-setargument analytical_specular_contribution_m_0 0
-setargument area_specular_contribution_m_0 0
-setargument specular_coefficient_m_1 0
-setargument specular_power_m_1 0
-setargument analytical_specular_contribution_m_1 0
-setargument specular_coefficient_m_2 0
-setargument specular_power_m_2 0
-setargument albedo_specular_tint_blend_m_2 0
-setargument environment_specular_contribution_m_2 0
-setargument analytical_specular_contribution_m_2 0
+EditTag levels\solo\m60\shaders\organic\ice_ground.shader_terrain
+SetArgument specular_coefficient_m_0 0
 SaveTagChanges
 Exit
-edittag levels\solo\m60\shaders\organic\m60_ice_cave_rock_distant_monolithic.shader_terrain
-setargument specular_coefficient_m_0 0
-setargument specular_power_m_0 0
-setargument area_specular_contribution_m_0 0
-setargument analytical_specular_contribution_m_0 0
-setargument specular_coefficient_m_1 0
-setargument specular_power_m_1 0
-setargument area_specular_contribution_m_1 0
-setargument analytical_specular_contribution_m_1 0
-setargument specular_coefficient_m_2 0
-setargument specular_power_m_2 0
-setargument area_specular_contribution_m_2 0
-setargument analytical_specular_contribution_m_2 0
-setargument environment_specular_contribution_m_2 0
+EditTag levels\solo\m60\shaders\organic\ice_ground_ice.shader_terrain
+SetArgument specular_coefficient_m_0 0
 SaveTagChanges
 Exit
-edittag levels\solo\m60\shaders\organic\m60_ice_cave_rock_distant_variance.shader_terrain
-setargument specular_coefficient_m_0 0
-setargument specular_power_m_0 0
-setargument specular_coefficient_m_1 0
-setargument specular_power_m_1 0
-setargument specular_power_m_2 0
-setargument specular_coefficient_m_2 0
-setargument analytical_specular_contribution_m_2 0
-setargument environment_specular_contribution_m_2 0
-setargument albedo_specular_tint_blend_m_2 0
-setargument area_specular_contribution_m_0 0
-setargument analytical_specular_contribution_m_0 0
-setargument area_specular_contribution_m_1 0
-setargument analytical_specular_contribution_m_1 0
-setargument environment_specular_contribution_m_1 0
-setargument area_specular_contribution_m_2 0
+EditTag levels\solo\m60\shaders\organic\m60_ice_cave_rock_close_prefab.shader_terrain
+SetArgument specular_power_m_0 0
+SetArgument area_specular_contribution_m_0 0
+SetArgument analytical_specular_contribution_m_0 0
+SetArgument specular_coefficient_m_1 0
+SetArgument specular_power_m_1 0
+SetArgument environment_specular_contribution_m_1 0
+SetArgument analytical_specular_contribution_m_1 0
+SetArgument area_specular_contribution_m_1 0
+SetArgument analytical_specular_contribution_m_2 0
+SetArgument environment_specular_contribution_m_2 0
+SetArgument albedo_specular_tint_blend_m_2 0
+SaveTagChanges
+Exit
+EditTag levels\solo\m60\shaders\organic\m60_ice_cave_rock_close.shader_terrain
+SetArgument specular_coefficient_m_0 0
+SetArgument specular_power_m_0 0
+SetArgument analytical_specular_contribution_m_0 0
+SetArgument area_specular_contribution_m_0 0
+SetArgument specular_coefficient_m_1 0
+SetArgument specular_power_m_1 0
+SetArgument analytical_specular_contribution_m_1 0
+SetArgument specular_coefficient_m_2 0
+SetArgument specular_power_m_2 0
+SetArgument albedo_specular_tint_blend_m_2 0
+SetArgument environment_specular_contribution_m_2 0
+SetArgument analytical_specular_contribution_m_2 0
+SaveTagChanges
+Exit
+EditTag levels\solo\m60\shaders\organic\m60_ice_cave_rock_distant_monolithic.shader_terrain
+SetArgument specular_coefficient_m_0 0
+SetArgument specular_power_m_0 0
+SetArgument area_specular_contribution_m_0 0
+SetArgument analytical_specular_contribution_m_0 0
+SetArgument specular_coefficient_m_1 0
+SetArgument specular_power_m_1 0
+SetArgument area_specular_contribution_m_1 0
+SetArgument analytical_specular_contribution_m_1 0
+SetArgument specular_coefficient_m_2 0
+SetArgument specular_power_m_2 0
+SetArgument area_specular_contribution_m_2 0
+SetArgument analytical_specular_contribution_m_2 0
+SetArgument environment_specular_contribution_m_2 0
+SaveTagChanges
+Exit
+EditTag levels\solo\m60\shaders\organic\m60_ice_cave_rock_distant_variance.shader_terrain
+SetArgument specular_coefficient_m_0 0
+SetArgument specular_power_m_0 0
+SetArgument specular_coefficient_m_1 0
+SetArgument specular_power_m_1 0
+SetArgument specular_power_m_2 0
+SetArgument specular_coefficient_m_2 0
+SetArgument analytical_specular_contribution_m_2 0
+SetArgument environment_specular_contribution_m_2 0
+SetArgument albedo_specular_tint_blend_m_2 0
+SetArgument area_specular_contribution_m_0 0
+SetArgument analytical_specular_contribution_m_0 0
+SetArgument area_specular_contribution_m_1 0
+SetArgument analytical_specular_contribution_m_1 0
+SetArgument environment_specular_contribution_m_1 0
+SetArgument area_specular_contribution_m_2 0
 SaveTagChanges
 Exit
 
 # echo ==Shader fixes for Countdown...==
-edittag levels\solo\m45\shaders\silo_floor.shader
-setargument specular_coefficient 0.03
+EditTag levels\solo\m45\shaders\silo_floor.shader
+SetArgument specular_coefficient 0.03
 SaveTagChanges
 Exit
-edittag levels\solo\m45\shaders\silo_floor_exterior.shader
-setargument specular_coefficient 0.03
+EditTag levels\solo\m45\shaders\silo_floor_exterior.shader
+SetArgument specular_coefficient 0.03
 SaveTagChanges
 Exit
-edittag levels\solo\m45\shaders\unsc_vent_port.shader
-setargument specular_coefficient 0.003
+EditTag levels\solo\m45\shaders\unsc_vent_port.shader
+SetArgument specular_coefficient 0.003
 SaveTagChanges
 Exit
-edittag levels\solo\m45\shaders\unsc_concrete_white.shader
-setargument specular_coefficient 0.003
+EditTag levels\solo\m45\shaders\unsc_concrete_white.shader
+SetArgument specular_coefficient 0.003
 SaveTagChanges
 Exit
-edittag levels\solo\m45\shaders\unsc_silo_door.shader
-setargument specular_coefficient 0.003
+EditTag levels\solo\m45\shaders\unsc_silo_door.shader
+SetArgument specular_coefficient 0.003
 SaveTagChanges
 Exit
-edittag levels\solo\m45\shaders\unsc_silo_steps_concrete.shader
-setargument specular_coefficient 0.003
+EditTag levels\solo\m45\shaders\unsc_silo_steps_concrete.shader
+SetArgument specular_coefficient 0.003
 SaveTagChanges
 Exit
-edittag levels\solo\m45\shaders\ext_unsc_concrete_barnicles.shader
-setargument specular_coefficient 0.003
+EditTag levels\solo\m45\shaders\ext_unsc_concrete_barnicles.shader
+SetArgument specular_coefficient 0.003
 SaveTagChanges
 Exit
-edittag levels\solo\m45\shaders\ext_unsc_concrete.shader
-setargument specular_coefficient 0.003
+EditTag levels\solo\m45\shaders\ext_unsc_concrete.shader
+SetArgument specular_coefficient 0.003
 SaveTagChanges
 Exit
-edittag levels\solo\m45\shaders\unsc_concrete_blue.shader
-setargument specular_coefficient 0.003
+EditTag levels\solo\m45\shaders\unsc_concrete_blue.shader
+SetArgument specular_coefficient 0.003
 SaveTagChanges
 Exit
-edittag levels\solo\m45\shaders\unsc_concrete_orange.shader
-setargument specular_coefficient 0.003
+EditTag levels\solo\m45\shaders\unsc_concrete_orange.shader
+SetArgument specular_coefficient 0.003
 SaveTagChanges
 Exit
-edittag levels\solo\m45\shaders\metal_boilerplate.shader
-setargument specular_coefficient 0.003
+EditTag levels\solo\m45\shaders\metal_boilerplate.shader
+SetArgument specular_coefficient 0.003
 SaveTagChanges
 Exit
-edittag levels\solo\m45\shaders\m45_panel_gantry_simple.shader
-setargument diffuse_coefficient 0.3
-setargument detail_map 0 0 0 0.95
+EditTag levels\solo\m45\shaders\m45_panel_gantry_simple.shader
+SetArgument diffuse_coefficient 0.3
+SetArgument detail_map 0 0 0 0.95
 SaveTagChanges
 Exit
 
 
 # echo ==Shader fixes for Breakneck...==
-edittag levels\dlc\cex_headlong\shaders\ca_headlong_yellow_crane.shader
-setargument specular_coefficient 0.01
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\ca_headlong_yellow_crane.shader
+SetArgument specular_coefficient 0.01
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\ca_headlong_yellow_mech.shader
-setargument specular_coefficient 0.01
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\ca_headlong_yellow_mech.shader
+SetArgument specular_coefficient 0.01
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\headlong_clean_metal1_light.shader
-setargument specular_coefficient 0.05
-savetagchanges
-exit
-edittag levels\dlc\cex_headlong\shaders\ca_headlong_fence_safety.shader
-setargument analytical_specular_contribution 0.1
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\headlong_clean_metal1_light.shader
+SetArgument specular_coefficient 0.05
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\ca_headlong_metal_panel_dark.shader
-setargument analytical_specular_contribution 0.1
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\ca_headlong_fence_safety.shader
+SetArgument analytical_specular_contribution 0.1
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\ca_headlong_wall_trim1.shader
-setargument analytical_specular_contribution 0.1
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\ca_headlong_metal_panel_dark.shader
+SetArgument analytical_specular_contribution 0.1
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\ca_headlong_trim_horiz.shader
-setargument analytical_specular_contribution 0.1
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\ca_headlong_wall_trim1.shader
+SetArgument analytical_specular_contribution 0.1
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\ca_headlong_stripes.shader
-setargument analytical_specular_contribution 0.01
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\ca_headlong_trim_horiz.shader
+SetArgument analytical_specular_contribution 0.1
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\ca_headlong_garage_door.shader
-setargument analytical_specular_contribution 0.1
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\ca_headlong_stripes.shader
+SetArgument analytical_specular_contribution 0.01
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\bitmaps\ca_billboard_hog.shader
-setargument specular_coefficient 0
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\ca_headlong_garage_door.shader
+SetArgument analytical_specular_contribution 0.1
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\ca_headlong_concrete_streak.shader
-setargument analytical_specular_contribution 0.2
-savetagchanges
+EditTag levels\dlc\cex_headlong\bitmaps\ca_billboard_hog.shader
+SetArgument specular_coefficient 0
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\ca_headlong_floor_tile_a.shader
-setargument analytical_specular_contribution 0
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\ca_headlong_concrete_streak.shader
+SetArgument analytical_specular_contribution 0.2
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\headlong_concrete_tile_1.shader
-setargument analytical_specular_contribution 0.1
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\ca_headlong_floor_tile_a.shader
+SetArgument analytical_specular_contribution 0
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\ca_headlong_concrete_trim.shader
-setargument analytical_specular_contribution 0.1
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\headlong_concrete_tile_1.shader
+SetArgument analytical_specular_contribution 0.1
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\headlong_panels_2.shader
-setargument analytical_specular_contribution 0
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\ca_headlong_concrete_trim.shader
+SetArgument analytical_specular_contribution 0.1
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\ca_headlong_metal_copper.shader
-setargument analytical_specular_contribution 0.1
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\headlong_panels_2.shader
+SetArgument analytical_specular_contribution 0
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\ca_headlong_metal_copper_darker.shader
-setargument analytical_specular_contribution 0
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\ca_headlong_metal_copper.shader
+SetArgument analytical_specular_contribution 0.1
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\ca_headlong_metal_panel_trims_b_light.shader
-setargument analytical_specular_contribution 0.01
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\ca_headlong_metal_copper_darker.shader
+SetArgument analytical_specular_contribution 0
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\metal_dark_01.shader
-setargument analytical_specular_contribution 0.1
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\ca_headlong_metal_panel_trims_b_light.shader
+SetArgument analytical_specular_contribution 0.01
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\ca_headlong_pipe.shader
-setargument analytical_specular_contribution 0.01
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\metal_dark_01.shader
+SetArgument analytical_specular_contribution 0.1
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\ca_headlong_concrete_moulded.shader
-setargument analytical_specular_contribution 0
-setargument specular_coefficient 0.5
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\ca_headlong_pipe.shader
+SetArgument analytical_specular_contribution 0.01
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\ca_headlong_grate_circular.shader
-setargument analytical_specular_contribution 0.05
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\ca_headlong_concrete_moulded.shader
+SetArgument analytical_specular_contribution 0
+SetArgument specular_coefficient 0.5
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\headlong_dumpster.shader
-setargument analytical_specular_contribution 0
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\ca_headlong_grate_circular.shader
+SetArgument analytical_specular_contribution 0.05
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\ca_headlong_nm_red_alert_poster.shader
-setargument analytical_specular_contribution 0
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\headlong_dumpster.shader
+SetArgument analytical_specular_contribution 0
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\headlong_monitor.shader
-setargument analytical_specular_contribution 0
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\ca_headlong_nm_red_alert_poster.shader
+SetArgument analytical_specular_contribution 0
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\ca_headlong_chainlink.shader
-setargument analytical_specular_contribution 0.1
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\headlong_monitor.shader
+SetArgument analytical_specular_contribution 0
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\headlong_clean_trim2_light.shader
-setargument analytical_specular_contribution 0.1
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\ca_headlong_chainlink.shader
+SetArgument analytical_specular_contribution 0.1
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\ca_headlong_nm_telecom_poster.shader
-setargument albedo_color 15 15 15 15
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\headlong_clean_trim2_light.shader
+SetArgument analytical_specular_contribution 0.1
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\wall_panel_d.shader
-setargument analytical_specular_contribution 0.1
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\ca_headlong_nm_telecom_poster.shader
+SetArgument albedo_color 15 15 15 15
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\ca_headlong_trim_silver.shader
-setargument analytical_specular_contribution 0.1
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\wall_panel_d.shader
+SetArgument analytical_specular_contribution 0.1
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\hub_stair_construction.shader
-setargument analytical_specular_contribution 0.1
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\ca_headlong_trim_silver.shader
+SetArgument analytical_specular_contribution 0.1
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\ca_headlong_grate.shader
-setargument analytical_specular_contribution 0.1
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\hub_stair_construction.shader
+SetArgument analytical_specular_contribution 0.1
+SaveTagChanges
 Exit
-edittag levels\dlc\cex_headlong\shaders\ca_headlong_panel_metal_worn.shader
-setargument analytical_specular_contribution 0.1
-savetagchanges
+EditTag levels\dlc\cex_headlong\shaders\ca_headlong_grate.shader
+SetArgument analytical_specular_contribution 0.1
+SaveTagChanges
+Exit
+EditTag levels\dlc\cex_headlong\shaders\ca_headlong_panel_metal_worn.shader
+SetArgument analytical_specular_contribution 0.1
+SaveTagChanges
 Exit
 
 
@@ -1118,44 +1126,44 @@ SaveTagChanges
 Exit
 
 echo ==Spartan Weapons Animation==
-runcommands "workingdir\spartan_animations.cmds"
-runcommands "workingdir\spartan_rendermodel.cmds"
+RunCommands "workingdir\spartan_animations.cmds"
+RunCommands "workingdir\spartan_rendermodel.cmds"
 
 echo ==Elite Weapons Animation==
-runcommands "workingdir\elite_animations.cmds"
-runcommands "workingdir\elite_rendermodel.cmds"
+RunCommands "workingdir\elite_animations.cmds"
+RunCommands "workingdir\elite_rendermodel.cmds"
 
 echo ==CHDT Weapons==
-runcommands "workingdir\CHDTpart1.cmds"
-runcommands "workingdir\CHDTpart2.cmds"
-runcommands "workingdir\CHDTpart3.cmds"
+RunCommands "workingdir\CHDTpart1.cmds"
+RunCommands "workingdir\CHDTpart2.cmds"
+RunCommands "workingdir\CHDTpart3.cmds"
 
 echo ==Third person animations==
-runcommands "workingdir\3Panimations.cmds"
+RunCommands "workingdir\3Panimations.cmds"
 
 echo ==Fix Health Pack==
-edittag objects\characters\masterchief\mp_masterchief\mp_masterchief.biped
-setfield RevivingEquipment[0].Instance objects\powerups\health_pack\health_pack_large.equipment
-savetagchanges
-exit
-edittag objects\characters\elite\mp_elite\mp_elite.biped
-setfield RevivingEquipment[0].Instance objects\powerups\health_pack\health_pack_large.equipment
-savetagchanges
-exit
+EditTag objects\characters\masterchief\mp_masterchief\mp_masterchief.biped
+SetField RevivingEquipment[0].Instance objects\powerups\health_pack\health_pack_large.equipment
+SaveTagChanges
+Exit
+EditTag objects\characters\elite\mp_elite\mp_elite.biped
+SetField RevivingEquipment[0].Instance objects\powerups\health_pack\health_pack_large.equipment
+SaveTagChanges
+Exit
 
-edittag objects\equipment\health_pack\shaders\health_pack.shader
-setfield ShaderProperties[0].Template shaders\shader_templates\_0_1_0_1_2_5_1_0_0_4_0_0.render_method_template
-savetagchanges
-exit
-edittag objects\equipment\health_pack\shaders\health_pack_rubber.shader
-setfield ShaderProperties[0].Template shaders\shader_templates\_0_2_0_1_10_0_0_0_0_4_0_0.render_method_template
-savetagchanges
-exit
+EditTag objects\equipment\health_pack\shaders\health_pack.shader
+SetField ShaderProperties[0].Template shaders\shader_templates\_0_1_0_1_2_5_1_0_0_4_0_0.render_method_template
+SaveTagChanges
+Exit
+EditTag objects\equipment\health_pack\shaders\health_pack_rubber.shader
+SetField ShaderProperties[0].Template shaders\shader_templates\_0_2_0_1_10_0_0_0_0_4_0_0.render_method_template
+SaveTagChanges
+Exit
 
 echo ==Switch needler projectile==
-edittag objects\weapons\pistol\needler\needler.weapon
-setfield Barrels[0].Projectile objects\weapons\pistol\needler\projectiles\needler_shard\needler_shard.projectile
-savetagchanges
+EditTag objects\weapons\pistol\needler\needler.weapon
+SetField Barrels[0].Projectile objects\weapons\pistol\needler\projectiles\needler_shard\needler_shard.projectile
+SaveTagChanges
 Exit
 
 EditTag objects\props\covenant\antennae_comm\antennae_comm.physics_model
@@ -1165,83 +1173,129 @@ SetField NodeEdges[2].Constraints[0].Flags IsRigid
 SaveTagChanges
 Exit
 
-edittag dw3\r3ach\objects\weapons\rifle\sniper_rifle\shaders\scope_alpha.shader_halogram
-setargument self_illum_map 0.6 0.6 0.19 0.16
-savetagchanges
+EditTag dw3\r3ach\objects\weapons\rifle\sniper_rifle\shaders\scope_alpha.shader_halogram
+SetArgument self_illum_map 0.6 0.6 0.19 0.16
+SaveTagChanges
 Exit
 
-edittag dw3\r3ach\objects\weapons\support_high\spartan_laser\shaders\spartan_laser_scope_alpha.shader_halogram
-setargument self_illum_map 0.6 0.6 0.2 0.2
-savetagchanges
+EditTag dw3\r3ach\objects\weapons\support_high\spartan_laser\shaders\spartan_laser_scope_alpha.shader_halogram
+SetArgument self_illum_map 0.6 0.6 0.2 0.2
+SaveTagChanges
 Exit
 
-edittag dw3\r3ach\objects\weapons\support_high\flak_cannon\shaders\fuel_rod_scope_alpha.shader_halogram
-setargument self_illum_map 0.6 0.6 0.19 0.17
-savetagchanges
+EditTag dw3\r3ach\objects\weapons\support_high\flak_cannon\shaders\fuel_rod_scope_alpha.shader_halogram
+SetArgument self_illum_map 0.6 0.6 0.19 0.17
+SaveTagChanges
 Exit
 
-edittag dw3\r3ach\objects\weapons\rifle\focus_rifle\shaders\focus_rifle_scope_alpha.shader_halogram
-setargument self_illum_map 0.6 0.6 0.07 0.31
-savetagchanges
+EditTag dw3\r3ach\objects\weapons\rifle\focus_rifle\shaders\focus_rifle_scope_alpha.shader_halogram
+SetArgument self_illum_map 0.6 0.6 0.07 0.31
+SaveTagChanges
 Exit
 
-runcommands "workingdir\worldbounds.cmds"
+RunCommands "workingdir\worldbounds.cmds"
 
 echo ==Teleporters Fix==
-edittag objects\ca_dev\dlc_preserve\crates\teleporter_sender\teleporter_2way.crate
-setfield MultiplayerObject[0].Type TeleporterTwoWay
-setfield MultiplayerObject[0].BoundaryShaders[0].StandardShader objects\multi\shaders\multiplayer_object_plasma.shader
-setfield MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shaders\multiplayer_object_plasma.shader
-savetagchanges
-exit
+EditTag objects\ca_dev\dlc_preserve\crates\teleporter_sender\teleporter_2way.crate
+SetField MultiplayerObject[0].Type TeleporterTwoWay
+SetField MultiplayerObject[0].BoundaryShaders[0].StandardShader objects\multi\shaders\multiplayer_object_plasma.shader
+SetField MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shaders\multiplayer_object_plasma.shader
+SaveTagChanges
+Exit
 
-edittag objects\ca_dev\dlc_preserve\crates\teleporter_receiver\teleporter_receiver.crate
-setfield MultiplayerObject[0].BoundaryShaders[0].StandardShader objects\multi\shaders\multiplayer_object_plasma.shader
-setfield MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shaders\multiplayer_object_plasma.shader
-savetagchanges
-exit
+EditTag objects\ca_dev\dlc_preserve\crates\teleporter_receiver\teleporter_receiver.crate
+SetField MultiplayerObject[0].BoundaryShaders[0].StandardShader objects\multi\shaders\multiplayer_object_plasma.shader
+SetField MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shaders\multiplayer_object_plasma.shader
+SaveTagChanges
+Exit
 
-edittag objects\ca_dev\dlc_preserve\crates\teleporter_sender\teleporter_sender.crate
-setfield MultiplayerObject[0].BoundaryShaders[0].StandardShader objects\multi\shaders\multiplayer_object_plasma.shader
-setfield MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shaders\multiplayer_object_plasma.shader
-savetagchanges
-exit
+EditTag objects\ca_dev\dlc_preserve\crates\teleporter_sender\teleporter_sender.crate
+SetField MultiplayerObject[0].BoundaryShaders[0].StandardShader objects\multi\shaders\multiplayer_object_plasma.shader
+SetField MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shaders\multiplayer_object_plasma.shader
+SaveTagChanges
+Exit
 
-edittag objects\levels\forge\ff_teleporter_2_way\ff_teleporter_2_way.crate
-setfield MultiplayerObject[0].BoundaryShaders[0].StandardShader objects\multi\shaders\multiplayer_object_plasma.shader
-setfield MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shaders\multiplayer_object_plasma.shader
-savetagchanges
-exit
+EditTag objects\levels\forge\ff_teleporter_2_way\ff_teleporter_2_way.crate
+SetField MultiplayerObject[0].BoundaryShaders[0].StandardShader objects\multi\shaders\multiplayer_object_plasma.shader
+SetField MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shaders\multiplayer_object_plasma.shader
+SaveTagChanges
+Exit
 
-edittag objects\levels\forge\ff_teleporter_receiver\ff_teleporter_receiver.crate
-setfield MultiplayerObject[0].BoundaryShaders[0].StandardShader objects\multi\shaders\multiplayer_object_plasma.shader
-setfield MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shaders\multiplayer_object_plasma.shader
-savetagchanges
-exit
+EditTag objects\levels\forge\ff_teleporter_receiver\ff_teleporter_receiver.crate
+SetField MultiplayerObject[0].BoundaryShaders[0].StandardShader objects\multi\shaders\multiplayer_object_plasma.shader
+SetField MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shaders\multiplayer_object_plasma.shader
+SaveTagChanges
+Exit
 
-edittag objects\levels\forge\ff_teleporter_sender\ff_teleporter_sender.crate
-setfield MultiplayerObject[0].BoundaryShaders[0].StandardShader objects\multi\shaders\multiplayer_object_plasma.shader
-setfield MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shaders\multiplayer_object_plasma.shader
-savetagchanges
-exit
+EditTag objects\levels\forge\ff_teleporter_sender\ff_teleporter_sender.crate
+SetField MultiplayerObject[0].BoundaryShaders[0].StandardShader objects\multi\shaders\multiplayer_object_plasma.shader
+SetField MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shaders\multiplayer_object_plasma.shader
+SaveTagChanges
+Exit
 
-edittag objects\multi\2way_teleporter\2way_teleporter.crate
-setfield MultiplayerObject[0].Type TeleporterTwoWay
-setfield MultiplayerObject[0].BoundaryShaders[0].StandardShader objects\multi\shaders\multiplayer_object_plasma.shader
-setfield MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shaders\multiplayer_object_plasma.shader
-savetagchanges
-exit
+EditTag objects\multi\2way_teleporter\2way_teleporter.crate
+SetField MultiplayerObject[0].Type TeleporterTwoWay
+SetField MultiplayerObject[0].BoundaryShaders[0].StandardShader objects\multi\shaders\multiplayer_object_plasma.shader
+SetField MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shaders\multiplayer_object_plasma.shader
+SaveTagChanges
+Exit
 
 echo ==Weapons Viewmodel Support==
-runcommands "workingdir\weapons_viewmodel.cmds"
+RunCommands "workingdir\weapons_viewmodel.cmds"
 
 echo ==Tempest Skybox Fix==
-edittag levels\multi\dlc\dlc_medium\dlc_medium_beachhead_sky\shaders\dlc_medium_blue_sky_dome.shader
-setfield RenderFlags None
-savetagchanges
-exit
+EditTag levels\multi\dlc\dlc_medium\dlc_medium_beachhead_sky\shaders\dlc_medium_blue_sky_dome.shader
+SetField RenderFlags None
+SaveTagChanges
+Exit
 
-importfonts workingdir\fonts_new.bin
+echo ==Tempest water fix==
+EditTag fx\bitmaps\liquid\fluid_foam_medium.bitmap
+ImportBitmap 0 "workingdir\bitmaps\fluid_foam_medium.dds"
+SaveTagChanges
+Exit
+EditTag fx\bitmaps\liquid\fluid_spray_medium.bitmap
+ImportBitmap 0 "workingdir\bitmaps\fluid_spray_medium.dds"
+SaveTagChanges
+Exit
+EditTag fx\bitmaps\flash\energy_impact_flash.bitmap
+ImportBitmap 0 "workingdir\bitmaps\energy_impact_flash.dds"
+SaveTagChanges
+Exit
+EditTag fx\bitmaps\material\impact_burst_medium.bitmap
+ImportBitmap 0 "workingdir\bitmaps\impact_burst_medium.dds"
+SaveTagChanges
+Exit
+EditTag fx\bitmaps\material\impact_chunks_small.bitmap
+ImportBitmap 0 "workingdir\bitmaps\impact_chunks_small.dds"
+SaveTagChanges
+Exit
+
+
+echo ==Fix grenade child objects on grenade case==
+EditTag objects\gear\human\military\h_grenade_crate\h_grenade_crate.model
+SetField Variants[1].Objects[0].ChildObject objects\weapons\grenade\frag_grenade\frag_grenade.equipment
+SetField Variants[1].Objects[1].ChildObject objects\weapons\grenade\frag_grenade\frag_grenade.equipment
+SetField Variants[2].Objects[0].ChildObject objects\weapons\grenade\frag_grenade\frag_grenade.equipment
+SetField Variants[2].Objects[1].ChildObject objects\weapons\grenade\frag_grenade\frag_grenade.equipment
+SetField Variants[2].Objects[2].ChildObject objects\weapons\grenade\frag_grenade\frag_grenade.equipment
+SetField Variants[2].Objects[3].ChildObject objects\weapons\grenade\frag_grenade\frag_grenade.equipment
+SetField Variants[3].Objects[0].ChildObject objects\weapons\grenade\frag_grenade\frag_grenade.equipment
+SetField Variants[3].Objects[1].ChildObject objects\weapons\grenade\frag_grenade\frag_grenade.equipment
+SetField Variants[3].Objects[2].ChildObject objects\weapons\grenade\frag_grenade\frag_grenade.equipment
+SetField Variants[4].Objects[0].ChildObject objects\weapons\grenade\firebomb_grenade\firebomb_grenade.equipment
+SetField Variants[4].Objects[1].ChildObject objects\weapons\grenade\firebomb_grenade\firebomb_grenade.equipment
+SetField Variants[4].Objects[2].ChildObject objects\weapons\grenade\firebomb_grenade\firebomb_grenade.equipment
+SetField Variants[4].Objects[3].ChildObject objects\weapons\grenade\firebomb_grenade\firebomb_grenade.equipment
+SetField Variants[5].Objects[0].ChildObject objects\weapons\grenade\plasma_grenade\plasma_grenade.equipment
+SetField Variants[5].Objects[1].ChildObject objects\weapons\grenade\plasma_grenade\plasma_grenade.equipment
+SetField Variants[5].Objects[2].ChildObject objects\weapons\grenade\plasma_grenade\plasma_grenade.equipment
+SetField Variants[5].Objects[3].ChildObject objects\weapons\grenade\plasma_grenade\plasma_grenade.equipment
+SaveTagChanges
+Exit
+
+
+ImportFonts workingdir\fonts_new.bin
 
 DeleteModFiles
 
