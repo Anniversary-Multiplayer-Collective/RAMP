@@ -33,7 +33,7 @@ Exit
 EditTag shaders\invalid.shader
 SaveTagChanges
 Exit
-nametag shaders\invalid.shader shaders\invalid_h3
+NameTag shaders\invalid.shader shaders\invalid_h3
 
 OpenCacheFile "reachmaps\20_sword_slayer.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
@@ -1078,6 +1078,19 @@ Exit
 
 EditTag objects\multi\koth\koth_initial_spawn_point.scenery
 SetField Model objects\multi\spawning\ff_respawn_point\ff_respawn_point.model
+SaveTagChanges
+Exit
+
+echo ==Replace kill volume model==
+EditTag objects\multi\boundaries\kill_volume.crate
+SetField Model objects\multi\models\ff_kill_zone\ff_kill_zone.model
+SaveTagChanges
+Exit
+
+echo ==Replace FF respawn zone boundry==
+edittag objects\multi\firefight\firefight_respawn_zone.scenery
+setfield MultiplayerObject[0].BoundaryShaders[0].StandardShader objects\multi\shaders\multiplayer_object_plasma.shader
+setfield MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shaders\multiplayer_object_plasma.shader
 SaveTagChanges
 Exit
 
