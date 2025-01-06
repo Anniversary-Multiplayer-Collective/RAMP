@@ -84,15 +84,15 @@ Exit
 
 OpenCacheFile "reachmaps\forge_halo.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-DoNotReplaceGroups bitm
+DoNotReplaceGroups bitm,prt3
 PortTag Replace objects\gear\human\military\barricade_large\barricade_large.crate
 PortTag Replace objects\gear\human\military\barricade_small\barricade_small.crate
 PortTag Replace objects\gear\human\military\fusion_coil\fusion_coil.crate
 PortTag Replace objects\gear\human\military\camping_stool_mp\camping_stool_mp.crate
-##PortTag Replace objects\weapons\grenade\frag_grenade\frag_grenade.equipment
-##PortTag Replace objects\weapons\grenade\plasma_grenade\plasma_grenade.equipment
-##PortTag Replace objects\weapons\grenade\frag_grenade\fx\projectile.effect
-DoNotReplaceGroups remove bitm
+PortTag Replace objects\weapons\grenade\frag_grenade\frag_grenade.equipment
+PortTag Replace objects\weapons\grenade\plasma_grenade\plasma_grenade.equipment
+PortTag Replace objects\weapons\grenade\frag_grenade\fx\projectile.effect
+DoNotReplaceGroups remove bitm,prt3
 PortTag objects\multi\boundaries\safe_volume.scen
 PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
