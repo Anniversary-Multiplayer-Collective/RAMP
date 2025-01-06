@@ -1179,13 +1179,6 @@ SetField Barrels[0].Projectile objects\weapons\pistol\needler\projectiles\needle
 SaveTagChanges
 Exit
 
-EditTag objects\props\covenant\antennae_comm\antennae_comm.physics_model
-SetField NodeEdges[0].Constraints[0].Flags IsRigid
-SetField NodeEdges[1].Constraints[0].Flags IsRigid
-SetField NodeEdges[2].Constraints[0].Flags IsRigid
-SaveTagChanges
-Exit
-
 EditTag dw3\r3ach\objects\weapons\rifle\sniper_rifle\shaders\scope_alpha.shader_halogram
 SetArgument self_illum_map 0.6 0.6 0.19 0.16
 SaveTagChanges
