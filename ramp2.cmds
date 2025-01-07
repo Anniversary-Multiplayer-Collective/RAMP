@@ -20,6 +20,47 @@ MainMenu Multiplayer Character
 # echo ==Bitmap Fixes...==
 RunCommands "workingdir\bitmap_fixes.cmds"
 
+echo ==Revenant==
+
+OpenModPackage "workingdir\paks\revenant.pak"
+ApplyModPackage
+ExitModPackage
+
+AddForgeItem "REVENANT" "VEHICLES" objects\vehicles\covenant\revenant\revenant.vehicle
+
+echo ==Hugegrass Falcon==
+
+OpenModPackage "workingdir\paks\hugegrassfalcon.pak"
+ApplyModPackage
+ExitModPackage
+
+#Add to forge palette
+AddForgeItem "FALCON" "VEHICLES" objects\vehicles\human\falcon\falcon.vehicle
+AddForgeItem "FALCON, TRANSPORT" "VEHICLES" objects\vehicles\human\falcon\falcon_transport.vehicle
+AddForgeItem "FALCON, NOSE GUN" "VEHICLES" objects\vehicles\human\falcon\falcon_nose_gun.vehicle
+
+echo ==Apply RAMP Vehicles==
+
+OpenModPackage "workingdir\paks\rampvehicles.pak"
+ApplyModPackage
+ExitModPackage
+
+echo ==Apply Reach Weapons==
+OpenModPackage "workingdir\paks\Reach Weapons EK.pak"
+ApplyModPackage
+ExitModPackage 
+
+# Fix not able to melee while crouching if you're holding the Target Locator
+EditTag objects\weapons\pistol\target_laser\target_laser.weapon
+SetField WeaponName hp
+SaveTagChanges
+Exit
+
+echo ==Apply RAMP HUD, UI, Main Menu, Customization, and Armor Abilities==
+OpenModPackage "workingdir\paks\ramphud.pak"
+ApplyModPackage
+ExitModPackage 
+
 # echo ==Porting...==
 EditTag objects\gear\human\military\crate_packing_giant\crate_packing_giant.render_model
 SaveTagChanges
@@ -300,31 +341,6 @@ RemoveBlockElements NewDamageInfo 0 1
 SaveTagChanges
 Exit
 
-echo ==Revenant==
-
-OpenModPackage "workingdir\paks\revenant.pak"
-ApplyModPackage
-ExitModPackage
-
-AddForgeItem "REVENANT" "VEHICLES" objects\vehicles\covenant\revenant\revenant.vehicle
-
-echo ==Hugegrass Falcon==
-
-OpenModPackage "workingdir\paks\hugegrassfalcon.pak"
-ApplyModPackage
-ExitModPackage
-
-#Add to forge palette
-AddForgeItem "FALCON" "VEHICLES" objects\vehicles\human\falcon\falcon.vehicle
-AddForgeItem "FALCON, TRANSPORT" "VEHICLES" objects\vehicles\human\falcon\falcon_transport.vehicle
-AddForgeItem "FALCON, NOSE GUN" "VEHICLES" objects\vehicles\human\falcon\falcon_nose_gun.vehicle
-
-echo ==Apply RAMP Vehicles==
-
-OpenModPackage "workingdir\paks\rampvehicles.pak"
-ApplyModPackage
-ExitModPackage
-
 echo ==Fix Battle Canyon missing textures==
 DuplicateTag levels\multi\deadlock\shaders\deadlock_grate_a.shader objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift_grate
 EditTag objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift_grate.shader
@@ -342,16 +358,6 @@ SetField Materials[0].RenderMethod objects\cex\cex_beaver_creek\crates\gravity_l
 SaveTagChanges
 Exit
 
-echo ==Apply Reach Weapons==
-OpenModPackage "workingdir\paks\Reach Weapons EK.pak"
-ApplyModPackage
-ExitModPackage 
-
-# Fix not able to melee while crouching if you're holding the Target Locator
-EditTag objects\weapons\pistol\target_laser\target_laser.weapon
-SetField WeaponName hp
-SaveTagChanges
-Exit
 
 # echo ==Add Reach specific weapons to the palette...==
 
@@ -409,10 +415,7 @@ SetField Palette[*].Object objects\weapons\pistol\target_laser\target_laser.weap
 SaveTagChanges
 Exit
 
-echo ==Apply RAMP HUD, UI, Main Menu, Customization, and Armor Abilities==
-OpenModPackage "workingdir\paks\ramphud.pak"
-ApplyModPackage
-ExitModPackage 
+echo ==Set weapon CHUDS to ramps from ramphud.pak==
 
 EditTag objects\weapons\support_high\spartan_laser\spartan_laser.weapon
 SetField HudInterface ui\chud\spartan_laser.chud_definition
