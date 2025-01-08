@@ -1,4 +1,5 @@
 TODO:
+Respawn zone isn't phased...
 Troop warthog back seats the cameras dont let you look at the right angles
 Find way to get Reach FX ball screen FX working.
 Fix projectile drop on flak cannon and maybe banshee bomb?
@@ -47,7 +48,8 @@ If anyone has fixed any of these please delete or comment it out with a #
 - One of the wraith spawn floating in the air
 
 (CONDEMNED)
-#- The electric reactor in the low gravity section use the invalid texture
+- Haven't found any
+
 
 (CORVETTE)
 - Haven't found any
@@ -118,7 +120,7 @@ If anyone has fixed any of these please delete or comment it out with a #
 - Just one, ONE specific grass decal is way too bright
 
 (UNEARTHED)
-- One of the road barrier spawns slightly clipped in the floor
+- Haven't found any
 
 (WATERFRONT)
 - The propane tank has weird shader where if you look at certains angle the outer/lines becomes white
