@@ -1,6 +1,6 @@
 TODO:
+Kill volume isn't phased...
 Respawn zone isn't phased...
-Troop warthog back seats the cameras dont let you look at the right angles
 Find way to get Reach FX ball screen FX working.
 Fix projectile drop on flak cannon and maybe banshee bomb?
 Fix it being square levels\dlc\cex_damnation\fx\particles\greensplat.particle
