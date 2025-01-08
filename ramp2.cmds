@@ -1280,6 +1280,15 @@ ImportBitmap 0 "workingdir\bitmaps\impact_chunks_small.dds"
 SaveTagChanges
 Exit
 
+echo ==Make frag and plasma grenades explode with precision weapons==
+EditTag objects\weapons\grenade\frag_grenade\frag_grenade_equipment.model
+SetField NewDamageInfo[0].DamageSections[1].InstantResponses[1].CustomResponseLabel headshot
+SaveTagChanges
+Exit
+EditTag objects\weapons\grenade\plasma_grenade\plasma_grenade_equipment.model
+SetField NewDamageInfo[0].DamageSections[1].InstantResponses[1].CustomResponseLabel headshot
+SaveTagChanges
+Exit
 
 echo ==Fix grenade child objects on grenade case==
 EditTag objects\gear\human\military\h_grenade_crate\h_grenade_crate.model
