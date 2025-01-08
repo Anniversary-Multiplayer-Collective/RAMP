@@ -328,14 +328,6 @@ Exit
 RunCommands "workingdir\forge.cmds"
 
 echo ==Remove damage from ported models==
-EditTag objects\multi\spawning\ff_respawn_point\ff_respawn_point.model
-RemoveBlockElements NewDamageInfo 0 1
-SaveTagChanges
-Exit
-EditTag objects\multi\spawning\ff_respawn_point\ff_respawn_point.model
-RemoveBlockElements NewDamageInfo 0 1
-SaveTagChanges
-Exit
 EditTag objects\gear\human\military\camping_stool_mp\camping_stool_mp.model
 RemoveBlockElements NewDamageInfo 0 1
 SaveTagChanges
@@ -744,7 +736,15 @@ OpenModPackage "workingdir\paks\InitialSpawns.pak"
 ApplyModPackage
 ExitModPackage
 
+EditTag objects\multi\spawning\ff_respawn_point\ff_respawn_point.model
+RemoveBlockElements NewDamageInfo 0 *
+SaveTagChanges
+Exit
 
+EditTag objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
+RemoveBlockElements NewDamageInfo 0 *
+SaveTagChanges
+Exit
 
 EditTag objects\vehicles\falcon\player_animations\player_animations.model_animation_graph
 SortModes

@@ -1066,12 +1066,3 @@ Exit
 ### echo ==Remove damage from forge items from applied pak...==
 ForEach hlmt contains: objects\levels\forge RemoveBlockElements NewDamageInfo 0 *
 
-EditTag objects\multi\spawning\ff_respawn_point\ff_respawn_point.model
-RemoveBlockElements NewDamageInfo 0 *
-SaveTagChanges
-Exit
-
-EditTag objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
-RemoveBlockElements NewDamageInfo 0 *
-SaveTagChanges
-Exit
