@@ -809,6 +809,9 @@ RunCommands "workingdir\shaderfixes.cmds"
 echo ==Third person animations==
 RunCommands "workingdir\3Panimations.cmds"
 
+echo ==Default Variants==
+RunCommands "workingdir\default_variants.cmds"
+
 echo ==Fix Health Pack==
 EditTag objects\characters\masterchief\mp_masterchief\mp_masterchief.biped
 SetField RevivingEquipment[0].Instance objects\powerups\health_pack\health_pack_large.equipment

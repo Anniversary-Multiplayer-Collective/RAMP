@@ -1,0 +1,56 @@
+
+
+EditTag levels\multi\52_ivory_tower\52_ivory_tower.scenario
+ImportMapVariant !verify "workingdir\map_variants\I04\sandbox.map"
+SaveTagChanges
+Exit
+
+##EditTag levels\firefight\ff10_prototype\ff10_prototype.scenario
+##ImportMapVariant !verify "workingdir\map_variants\Reflection New\sandbox.map"
+##SaveTagChanges
+##Exit
+##
+##EditTag levels\firefight\ff20_courtyard\ff20_courtyard.scenario
+##ImportMapVariant !verify "workingdir\map_variants\I04\sandbox.map"
+##SaveTagChanges
+##Exit
+##
+##EditTag levels\firefight\ff30_waterfront\ff30_waterfront.scenario
+##ImportMapVariant !verify "workingdir\map_variants\I04\sandbox.map"
+##SaveTagChanges
+##Exit
+##
+##EditTag levels\firefight\ff45_corvette\ff45_corvette.scenario
+##ImportMapVariant !verify "workingdir\map_variants\I04\sandbox.map"
+##SaveTagChanges
+##Exit
+##
+##EditTag levels\firefight\ff50_park\ff50_park.scenario
+##ImportMapVariant !verify "workingdir\map_variants\I04\sandbox.map"
+##SaveTagChanges
+##Exit
+##
+####EditTag levels\firefight\ff60_airview\ff60_airview.scenario
+####ImportMapVariant !verify "workingdir\map_variants\I04\sandbox.map"
+####SaveTagChanges
+####Exit
+##
+##EditTag levels\firefight\ff60_icecave\ff60_icecave.scenario
+##ImportMapVariant !verify "workingdir\map_variants\I04\sandbox.map"
+##SaveTagChanges
+##Exit
+##
+##EditTag levels\firefight\ff70_holdout\ff70_holdout.scenario
+##ImportMapVariant !verify "workingdir\map_variants\I04\sandbox.map"
+##SaveTagChanges
+##Exit
+##
+##EditTag levels\dlc\ff_unearthed\ff_unearthed.scenario
+##ImportMapVariant !verify "workingdir\map_variants\I04\sandbox.map"
+##SaveTagChanges
+##Exit
+##
+##EditTag levels\dlc\cex_ff_halo\cex_ff_halo.scenario
+##ImportMapVariant !verify "workingdir\map_variants\I04\sandbox.map"
+##SaveTagChanges
+##Exit
