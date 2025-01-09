@@ -1,7 +1,7 @@
 
 
 EditTag levels\multi\52_ivory_tower\52_ivory_tower.scenario
-ImportMapVariant !verify "workingdir\map_variants\I04\sandbox.map"
+ImportMapVariant !verify "workingdir\map_variants\Reflection\sandbox.map"
 SaveTagChanges
 Exit
 
