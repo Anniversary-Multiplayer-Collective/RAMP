@@ -260,10 +260,27 @@ SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
+echo ==Fix Particles being sideways==
 EditTag levels\dlc\cex_ff_halo\fx\distantbeam.particle
 SetField ParticleBillboardStyle ParallelToDirection
 SaveTagChanges
 Exit
+
+EditTag levels\dlc\cex_headlong\fx\flame30fps.particle
+SetField ParticleBillboardStyle CameraFacing
+SetField AppearanceFlags RandomUMirror,IntensityAffectsAlpha,DepthFadeActive
+SaveTagChanges
+Exit
+
+EditTag levels\dlc\cex_headlong\fx\flames_fall.particle
+SetField ParticleBillboardStyle CameraFacing
+SetField AppearanceFlags RandomUMirror,DepthFadeActive
+SaveTagChanges
+Exit
+
+
+
+
 
 EditTag levels\firefight\ff10_prototype\ff10_prototype.scenario
 SetField MapType Multiplayer
@@ -713,9 +730,9 @@ SaveTagChanges
 Exit
 
 echo ==Replace FF respawn zone boundry==
-edittag objects\multi\firefight\firefight_respawn_zone.scenery
-setfield MultiplayerObject[0].BoundaryShaders[0].StandardShader objects\multi\shaders\multiplayer_object_plasma.shader
-setfield MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shaders\multiplayer_object_plasma.shader
+EditTag objects\multi\firefight\firefight_respawn_zone.scenery
+SetField MultiplayerObject[0].BoundaryShaders[0].StandardShader objects\multi\shaders\multiplayer_object_plasma.shader
+SetField MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shaders\multiplayer_object_plasma.shader
 SaveTagChanges
 Exit
 
@@ -948,48 +965,48 @@ SaveTagChanges
 Exit
 
 echo ==Mangum Crosshair fix==
-edittag objects\weapons\pistol\magnum\magnum.weapon
-setfield Barrels[0].ProjectileMinimumError 0.05
-setfield Barrels[0].ProjectileErrorAngle 0.15 1
-setfield Barrels[0].FiringError.AccelerationTime 0
-setfield Barrels[0].FiringError.DecelerationTime 0
-setfield Barrels[0].VerticalRecoil.AngleChangeAccelerationRate 1000
-setfield Barrels[0].VerticalRecoil.AngleChangeDecelerationRate 1000
-setfield Barrels[0].EjectionPortRecoveryRate 1000
-setfield Barrels[0].RateOfFireAccelerationTime 1000
-setfield Barrels[0].RateOfFireDecelerationTime 1000
-setfield Barrels[0].ErrorAccelerationRate 1000
-setfield Barrels[0].ErrorDecelerationRate 2.5
-setfield Barrels[0].VerticalRecoil.AngleChangePerShot 0 0
-setfield Barrels[0].DualWeaponError.RuntimeDecelerationRate 1000
-setfield Barrels[0].DualWeaponError.RuntimeAccelerationRate 1000
+EditTag objects\weapons\pistol\magnum\magnum.weapon
+SetField Barrels[0].ProjectileMinimumError 0.05
+SetField Barrels[0].ProjectileErrorAngle 0.15 1
+SetField Barrels[0].FiringError.AccelerationTime 0
+SetField Barrels[0].FiringError.DecelerationTime 0
+SetField Barrels[0].VerticalRecoil.AngleChangeAccelerationRate 1000
+SetField Barrels[0].VerticalRecoil.AngleChangeDecelerationRate 1000
+SetField Barrels[0].EjectionPortRecoveryRate 1000
+SetField Barrels[0].RateOfFireAccelerationTime 1000
+SetField Barrels[0].RateOfFireDecelerationTime 1000
+SetField Barrels[0].ErrorAccelerationRate 1000
+SetField Barrels[0].ErrorDecelerationRate 2.5
+SetField Barrels[0].VerticalRecoil.AngleChangePerShot 0 0
+SetField Barrels[0].DualWeaponError.RuntimeDecelerationRate 1000
+SetField Barrels[0].DualWeaponError.RuntimeAccelerationRate 1000
 savetagchanges
 exit
 
 echo ==DMR Crosshair fix==
-edittag objects\weapons\rifle\dmr\dmr.weapon
-setfield Barrels[0].FiringError.AccelerationTime 0.5
-setfield Barrels[0].FiringError.DecelerationTime 0.65
-setfield Barrels[0].DualWeaponError.RuntimeDecelerationRate 1.428571
-setfield Barrels[0].DualWeaponError.RuntimeAccelerationRate 1000
-setfield Barrels[0].DualWeaponError.DecelerationTime 0.7
-setfield Barrels[0].ProjectileMinimumError 0.15
-setfield Barrels[0].ProjectileErrorAngle 0.15 0.65
-setfield Barrels[0].AccuracyPenalties.ReloadPenalty 2.4
-setfield Barrels[0].AccuracyPenalties.SwitchPenalty 1
-setfield Barrels[0].VerticalRecoil.AngleChangeAccelerationRate 1000
-setfield Barrels[0].VerticalRecoil.AngleChangeDecelerationRate 1000
-setfield Barrels[0].EjectionPortRecoveryRate 1000
-setfield Barrels[0].RateOfFireAccelerationTime 1000
-setfield Barrels[0].RateOfFireDecelerationTime 1000
-setfield Barrels[0].ErrorAccelerationRate 2
-setfield Barrels[0].ErrorDecelerationRate 1.538462
-setfield Barrels[0].VerticalRecoil.AngleChangePerShot 0 0
-setfield Barrels[0].DamageReportingType.HaloOnline Carbine
+EditTag objects\weapons\rifle\dmr\dmr.weapon
+SetField Barrels[0].FiringError.AccelerationTime 0.5
+SetField Barrels[0].FiringError.DecelerationTime 0.65
+SetField Barrels[0].DualWeaponError.RuntimeDecelerationRate 1.428571
+SetField Barrels[0].DualWeaponError.RuntimeAccelerationRate 1000
+SetField Barrels[0].DualWeaponError.DecelerationTime 0.7
+SetField Barrels[0].ProjectileMinimumError 0.15
+SetField Barrels[0].ProjectileErrorAngle 0.15 0.65
+SetField Barrels[0].AccuracyPenalties.ReloadPenalty 2.4
+SetField Barrels[0].AccuracyPenalties.SwitchPenalty 1
+SetField Barrels[0].VerticalRecoil.AngleChangeAccelerationRate 1000
+SetField Barrels[0].VerticalRecoil.AngleChangeDecelerationRate 1000
+SetField Barrels[0].EjectionPortRecoveryRate 1000
+SetField Barrels[0].RateOfFireAccelerationTime 1000
+SetField Barrels[0].RateOfFireDecelerationTime 1000
+SetField Barrels[0].ErrorAccelerationRate 2
+SetField Barrels[0].ErrorDecelerationRate 1.538462
+SetField Barrels[0].VerticalRecoil.AngleChangePerShot 0 0
+SetField Barrels[0].DamageReportingType.HaloOnline Carbine
 addblockelements Barrels[0].AccuracyPenalties.SingleWieldPenalties.FiringPenaltyFunction
-setfield Barrels[0].AccuracyPenalties.SingleWieldPenalties.FiringPenaltyFunction[0].Function.Data 08340000000000000000803F00000000000000006F12833A6F12033B2400000002000000040000CD0AD7233EB9DE9F3F3333333F04000000FFFF7F7F881069BF0AD3853F
+SetField Barrels[0].AccuracyPenalties.SingleWieldPenalties.FiringPenaltyFunction[0].Function.Data 08340000000000000000803F00000000000000006F12833A6F12033B2400000002000000040000CD0AD7233EB9DE9F3F3333333F04000000FFFF7F7F881069BF0AD3853F
 addblockelements Barrels[0].AccuracyPenalties.SingleWieldPenalties.FiringCrouchedPenaltyFunction
-setfield Barrels[0].AccuracyPenalties.SingleWieldPenalties.FiringCrouchedPenaltyFunction[0].Function.Data 08340000000000000000803F00000000000000006F12833A6F12033B2400000002000000040000CDC3F5283ECC261B3F4444043F04000000FFFF7F7FCCA413BF573A363F
+SetField Barrels[0].AccuracyPenalties.SingleWieldPenalties.FiringCrouchedPenaltyFunction[0].Function.Data 08340000000000000000803F00000000000000006F12833A6F12033B2400000002000000040000CDC3F5283ECC261B3F4444043F04000000FFFF7F7FCCA413BF573A363F
 savetagchanges
 exit
 
