@@ -350,6 +350,11 @@ RemoveBlockElements NewDamageInfo 0 1
 SaveTagChanges
 Exit
 
+EditTag objects\equipment\health_pack\health_pack.model
+RemoveBlockElements NewDamageInfo 0 1
+SaveTagChanges
+Exit
+
 echo ==Fix Battle Canyon missing textures==
 DuplicateTag levels\multi\deadlock\shaders\deadlock_grate_a.shader objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift_grate
 EditTag objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift_grate.shader

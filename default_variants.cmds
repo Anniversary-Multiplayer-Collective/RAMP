@@ -5,6 +5,31 @@ ImportMapVariant !verify "workingdir\map_variants\Reflection\sandbox.map"
 SaveTagChanges
 Exit
 
+EditTag levels\multi\45_aftship\45_aftship.scenario
+ImportMapVariant !verify "workingdir\map_variants\Zealot\sandbox.map"
+SaveTagChanges
+Exit
+
+EditTag levels\dlc\cex_beaver_creek\cex_beaver_creek.scenario
+ImportMapVariant !verify "workingdir\map_variants\Battle Canyon\sandbox.map"
+SaveTagChanges
+Exit
+
+EditTag levels\dlc\cex_prisoner\cex_prisoner.scenario
+ImportMapVariant !verify "workingdir\map_variants\Solitary\sandbox.map"
+SaveTagChanges
+Exit
+
+EditTag levels\multi\50_panopticon\50_panopticon.scenario
+ImportMapVariant !verify "workingdir\map_variants\Boardwalk\sandbox.map"
+SaveTagChanges
+Exit
+
+EditTag levels\dlc\cex_hangemhigh\cex_hangemhigh.scenario
+ImportMapVariant !verify "workingdir\map_variants\High Noon\sandbox.map"
+SaveTagChanges
+Exit
+
 ##EditTag levels\firefight\ff10_prototype\ff10_prototype.scenario
 ##ImportMapVariant !verify "workingdir\map_variants\Reflection New\sandbox.map"
 ##SaveTagChanges
