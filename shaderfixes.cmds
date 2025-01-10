@@ -439,3 +439,13 @@ Exit
 # echo ==Shader fixes for Prisoner...==
 
 ForEach rmsh contains: levels\dlc\cex_prisoner\shaders\ca_prisoner_glass_frosted setargument specular_coefficient 0
+
+# echo ==Shader fixes for Penance...==
+EditTag levels\dlc\cex_damnation\shaders\ca_damnation_cov_metal_shell_purple_strip_a.shader
+SetArgument specular_coefficient 0
+SaveTagChanges
+Exit
+EditTag levels\dlc\cex_damnation\shaders\ca_damnation_cov_metal_shell_blue_strip_a.shader
+SetArgument specular_coefficient 0
+SaveTagChanges
+Exit
