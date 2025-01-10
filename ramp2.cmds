@@ -135,6 +135,13 @@ PortTag Replace objects\weapons\grenade\plasma_grenade\plasma_grenade.equipment
 PortTag Replace objects\weapons\grenade\frag_grenade\fx\projectile.effect
 DoNotReplaceGroups remove bitm,prt3
 PortTag objects\multi\boundaries\safe_volume.scen
+PortTag sound\dialog\combat\elite2\default\14_1st_person\sprint.sound
+PortTag sound\dialog\combat\elite2\default\14_1st_person\sprint_end.sound
+PortTag sound\dialog\combat\spartan6_fem\default\14_1st_person\sprint.sound
+PortTag sound\dialog\combat\spartan6_fem\default\14_1st_person\sprint_end.sound
+PortTag sound\dialog\combat\spartan6_male\default\14_1st_person\sprint.sound
+PortTag sound\dialog\combat\spartan6_male\default\14_1st_person\sprint_end.sound
+PortTag sound\weapons\equipment\sprint\sprint_deactivate.sound
 PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
