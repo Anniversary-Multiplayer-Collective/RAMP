@@ -449,3 +449,9 @@ EditTag levels\dlc\cex_damnation\shaders\ca_damnation_cov_metal_shell_blue_strip
 SetArgument specular_coefficient 0
 SaveTagChanges
 Exit
+
+# echo ==Shader fixes for Holdout...==
+edittag objects\levels\solo\m70\poa_gantry\shaders\gantry_illum.shader
+setfield SortLayer PrePass
+savetagchanges
+exit

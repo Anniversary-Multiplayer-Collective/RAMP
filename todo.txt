@@ -76,7 +76,6 @@ If anyone has fixed any of these please delete or comment it out with a #
 (HOLDOUT)
 - When you're in under the balcony, the upper floor it self deloads
 - When you're in the upper stair the balcony floor it self deloads
-- Weird still flame glowly effect on the crane that's holding the pillar of autumm
 
 (INSTALLATION 04)
 - The rock in the water has weird shader where it becomes bright if you look at certain angles
