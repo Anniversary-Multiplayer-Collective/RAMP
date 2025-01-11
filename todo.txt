@@ -87,7 +87,6 @@ If anyone has fixed any of these please delete or comment it out with a #
 - One of the crate packing lid spawns at vertical orientation thus making it clipped through the floor halfway through
 
 (OVERLOOK)
-- The map has weird blue fog covering the floor of the map
 - Too many instanced geometry thus making some object deloads
 
 (PENANCE)
