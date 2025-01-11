@@ -1022,6 +1022,8 @@ SetField Barrels[0].AccuracyPenalties.SingleWieldPenalties.FiringCrouchedPenalty
 savetagchanges
 exit
 
+echo ==Make weapons not float like in reach==
+ForEach weap contains: objects\weapons setfield WaterDensity None
 
 ImportFonts workingdir\fonts_new.bin
 

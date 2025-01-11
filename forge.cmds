@@ -1063,6 +1063,6 @@ AddForgeItem "ff_redbase_rocks02" 86 objects\cex\cex_beaver_creek\forge\ff_redba
 Exit
 
 
-### echo ==Remove damage from forge items from applied pak...==
+echo ==Remove damage from forge items from applied pak...==
 ForEach hlmt contains: objects\levels\forge RemoveBlockElements NewDamageInfo 0 *
 
