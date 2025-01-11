@@ -963,6 +963,16 @@ setfield RenderFlags None
 savetagchanges
 exit
 
+echo ==Overlook fog fix==
+# at least it's no longer blue, still inaccurate tho
+
+edittag levels\firefight\ff10_prototype\ff10_prototype.sky_atm_parameters
+setfield AtmosphereSettings[0].Flags EnableAtmosphere,PatchyFog
+setfield AtmosphereSettings[0].SeaLevel -15
+setfield AtmosphereSettings[0].MaxFogThickness 1000
+savetagchanges
+exit
+
 echo ==Make frag and plasma grenades explode with precision weapons==
 EditTag objects\weapons\grenade\frag_grenade\frag_grenade_equipment.model
 SetField NewDamageInfo[0].DamageSections[1].InstantResponses[1].CustomResponseLabel headshot
