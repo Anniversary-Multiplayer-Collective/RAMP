@@ -62,7 +62,7 @@ If anyone has fixed any of these please delete or comment it out with a #
 |->removing the entire effect scenery and palette fixed it (hacky fix), haven't found any visual differences
 
 (FORGE WORLD)
-- Haven't found any
+- Forerunner structure shader fucks it self if you spawned any reach building blocks
 
 (GLACIER)
 - When entering the building, some bsp despawned
@@ -116,7 +116,7 @@ If anyone has fixed any of these please delete or comment it out with a #
 - Haven't found any
 
 (TEMPEST)
-- Just one, ONE specific grass decal is way too bright
+- Haven't found any
 
 (UNEARTHED)
 - Haven't found any
