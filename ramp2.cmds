@@ -947,6 +947,21 @@ ImportBitmap 0 "workingdir\bitmaps\impact_chunks_small.dds"
 SaveTagChanges
 Exit
 
+echo ==Forge World more accurate skybox fog==
+edittag levels\multi\forge_halo\forge_halo.sky_atm_parameters
+setfield AtmosphereSettings[0].Color 0.4520674 0.7947002 1.226353
+setfield AtmosphereSettings[0].Intensity 3
+setfield AtmosphereSettings[0].RayleighMultiplier 0
+setfield AtmosphereSettings[0].MieMultiplier 0
+setfield AtmosphereSettings[0].MaxFogThickness 2000
+savetagchanges
+exit
+
+edittag levels\multi\forge_halo\sky_halo\shaders\sky_halo_ring.shader
+setfield RenderFlags None
+savetagchanges
+exit
+
 echo ==Make frag and plasma grenades explode with precision weapons==
 EditTag objects\weapons\grenade\frag_grenade\frag_grenade_equipment.model
 SetField NewDamageInfo[0].DamageSections[1].InstantResponses[1].CustomResponseLabel headshot
