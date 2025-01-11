@@ -349,7 +349,10 @@ SetField CampaignId -1
 SaveTagChanges
 Exit
 
-RunCommands "workingdir\forge.cmds"
+echo == FORGE ==
+# RunCommands "workingdir\forge.cmds"
+RunCommands "workingdir\forge_object_port.cmds"
+RunCommands "workingdir\forge_object_palette.cmds"
 
 echo ==Remove damage from ported models==
 EditTag objects\gear\human\military\camping_stool_mp\camping_stool_mp.model
