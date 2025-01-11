@@ -958,8 +958,7 @@ savetagchanges
 exit
 
 edittag levels\multi\forge_halo\sky_halo\shaders\sky_halo_ring.shader
-setfield ShaderProperties[0].RealConstants[3].Values[1] 1.2
-setfield ShaderProperties[0].RealConstants[3].Values[2] 1.5
+setfield ShaderProperties[0].RealConstants[3].Values 1 1.2 1.5 1
 setfield RenderFlags None
 savetagchanges
 exit
