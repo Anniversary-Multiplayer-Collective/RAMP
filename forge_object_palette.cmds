@@ -1212,7 +1212,7 @@ setfield Palette[*].Name "LANDING PAD"
 setfield Palette[*].Type Prop
 setfield Palette[*].CategoryIndex 98
 setfield Palette[*].DescriptionIndex -1
-setfield Palette[*].Object objects\levels\forge\ff_plat_4x6\ff_plat_4x6
+setfield Palette[*].Object objects\levels\forge\ff_plat_4x6\ff_plat_4x6.bloc
 addblockelements Palette[*].Setters 1
 setfield Palette[*].Setters[*].Target General_Physics
 setfield Palette[*].Setters[*].IntegerValue 1
