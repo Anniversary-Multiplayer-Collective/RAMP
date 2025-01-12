@@ -461,3 +461,19 @@ edittag objects\props\covenant\cov_watchtower\shaders\cov_watchtower_illum_2.sha
 setfield SortLayer PrePass
 savetagchanges
 exit
+
+# echo ==Shader fixes for Forge World...== Not sure about these ones
+EditTag levels\multi\forge_halo\shaders\forge_halo_forerunner_pipe.shader
+setargument analytical_specular_contribution 0
+SaveTagChanges
+Exit
+
+edittag levels\multi\forge_halo\shaders\forge_halo_forerunner_hall.shader
+setargument analytical_specular_contribution 0
+SaveTagChanges
+Exit
+
+edittag levels\multi\forge_halo\shaders\forge_halo_forerunner_base.shader
+setargument analytical_specular_contribution 0
+SaveTagChanges
+Exit
