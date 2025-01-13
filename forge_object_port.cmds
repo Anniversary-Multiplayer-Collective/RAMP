@@ -368,28 +368,22 @@ PortTag objects\levels\shared\golf_cup\golf_cup.crate
 PortTag objects\levels\shared\soccer_ball\soccer_ball.crate
 PortTag objects\levels\shared\golf_ball\golf_ball.crate
 
-echo ==Apply RAMP Forge Blocks, Health Pack, Land Mine, TPs, Zealot Shield Door==
+# echo ==Apply RAMP Forge Blocks, Health Pack, Land Mine, TPs, Zealot Shield Door==
 OpenModPackage "workingdir\paks\rampstuff.pak"
 ApplyModPackage
 ExitModPackage 
 
-### echo ==Reach Screen Effects...== They dont work
-##PortTag objects\levels\shared\screen_fx_orb\fx\juicy.bloc
-##AddForgeItem "HR JUICY" 87 objects\levels\shared\screen_fx_orb\fx\juicy.bloc
-##PortTag objects\levels\shared\screen_fx_orb\fx\colorblind.bloc
-##AddForgeItem "HR COLORBLIND" 87 objects\levels\shared\screen_fx_orb\fx\colorblind.bloc
-##PortTag objects\levels\shared\screen_fx_orb\fx\dusk.bloc
-##AddForgeItem "HR DUSK" 87 objects\levels\shared\screen_fx_orb\fx\dusk.bloc
-##PortTag objects\levels\shared\screen_fx_orb\fx\golden_hour.bloc
-##AddForgeItem "HR GOLDEN_HOUR" 87 objects\levels\shared\screen_fx_orb\fx\golden_hour.bloc
-##PortTag objects\levels\shared\screen_fx_orb\fx\gloomy.bloc
-##AddForgeItem "HR GLOOMY" 87 objects\levels\shared\screen_fx_orb\fx\gloomy.bloc
-##PortTag objects\levels\shared\screen_fx_orb\fx\olde_timey.bloc
-##AddForgeItem "HR OLDE_TIMEY" 87 objects\levels\shared\screen_fx_orb\fx\olde_timey.bloc
-##PortTag objects\levels\shared\screen_fx_orb\fx\eerie.bloc
-##AddForgeItem "HR EERIE" 87 objects\levels\shared\screen_fx_orb\fx\eerie.bloc
-##PortTag objects\levels\shared\screen_fx_orb\fx\pen_and_ink.bloc
-##AddForgeItem "HR PEN_AND_INK" 87 objects\levels\shared\screen_fx_orb\fx\pen_and_ink.bloc
+# echo ==Reach Screen Effects...==
+PortTag objects\levels\shared\screen_fx_orb\fx\juicy.bloc
+PortTag objects\levels\shared\screen_fx_orb\fx\colorblind.bloc
+PortTag objects\levels\shared\screen_fx_orb\fx\dusk.bloc
+PortTag objects\levels\shared\screen_fx_orb\fx\golden_hour.bloc
+PortTag objects\levels\shared\screen_fx_orb\fx\gloomy.bloc
+PortTag objects\levels\shared\screen_fx_orb\fx\olde_timey.bloc
+PortTag objects\levels\shared\screen_fx_orb\fx\eerie.bloc
+PortTag objects\levels\shared\screen_fx_orb\fx\pen_and_ink.bloc
+PortTag objects\levels\shared\screen_fx_orb\fx\nova.bloc
+
 # echo ==Forge Lights...==
 PortTag objects\levels\forge\ff_light_flash_yellow\ff_light_flash_yellow.bloc
 PortTag objects\levels\forge\ff_light_flash_red\ff_light_flash_red.bloc

@@ -49,7 +49,8 @@ AddForgeCategory "DOORS, WINDOWS, AND WALLS" 96
 AddForgeCategory "INCLINES" 96
 # INDEX 103
 AddForgeCategory "DLC DUPLICATES" 96
-
+# INDEX 104
+AddForgeCategory "FX [BROKEN]" 84
 # EQUIPMENTS
 AddForgeItem "HEALTH PACK" 66 objects\powerups\health_pack\health_pack_large.equipment
 # AMMO PACK, MY BELOVED
@@ -819,7 +820,18 @@ AddForgeItem "SOLITARY COVER" 95 objects\cex\cex_prisoner\forge\ff_prisoner_cove
 AddForgeItem "BATTLE CANYON DOOR PANEL 1" 95 objects\cex\cex_beaver_creek\forge\ff_forerunner_wall\ff_forerunner_wall.crate
 AddForgeItem "BATTLE CANYON DOOR PANEL 2" 95 objects\cex\cex_beaver_creek\forge\ff_bluebase_rocks02\ff_bluebase_rocks02.crate
 
-# BUILDING BLOCKS [97] -------------------------------------------------------------------------------------------------------------
+# FX [104] -------------------------------------------------------------------------------------------------------------
+AddForgeItem "COLORBLIND [REACH]" 104 objects\levels\shared\screen_fx_orb\fx\colorblind.bloc
+AddForgeItem "NEXT GEN [REACH]" 104 objects\levels\shared\screen_fx_orb\fx\gloomy.bloc
+AddForgeItem "JUICY [REACH]" 104 objects\levels\shared\screen_fx_orb\fx\juicy.bloc
+AddForgeItem "NOVA [REACH]" 104 objects\levels\shared\screen_fx_orb\fx\nova.bloc
+AddForgeItem "OLDE TIMEY [REACH]" 104 objects\levels\shared\screen_fx_orb\fx\olde_timey.bloc
+AddForgeItem "PEN AND INK [REACH]" 104 objects\levels\shared\screen_fx_orb\fx\pen_and_ink.bloc
+AddForgeItem "PURPLE [REACH]" 104 objects\levels\shared\screen_fx_orb\fx\dusk.bloc
+AddForgeItem "GREEN [REACH]" 104 objects\levels\shared\screen_fx_orb\fx\eerie.bloc
+AddForgeItem "ORANGE [REACH]" 104 objects\levels\shared\screen_fx_orb\fx\golden_hour.bloc
+
+
 edittag multiplayer\forge_globals.forge_globals_definition
 
 addblockelements Palette
