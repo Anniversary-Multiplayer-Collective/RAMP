@@ -948,30 +948,40 @@ SaveTagChanges
 Exit
 
 echo ==Forge World more accurate skybox fog==
-edittag levels\multi\forge_halo\forge_halo.sky_atm_parameters
-setfield AtmosphereSettings[0].Color 0.4520674 0.7947002 1.226353
-setfield AtmosphereSettings[0].Intensity 2
-setfield AtmosphereSettings[0].RayleighMultiplier 0
-setfield AtmosphereSettings[0].MieMultiplier 0
-setfield AtmosphereSettings[0].MaxFogThickness 10000
-savetagchanges
-exit
+EditTag levels\multi\forge_halo\forge_halo.sky_atm_parameters
+SetField AtmosphereSettings[0].Color 0.4520674 0.7947002 1.226353
+SetField AtmosphereSettings[0].Intensity 2
+SetField AtmosphereSettings[0].RayleighMultiplier 0
+SetField AtmosphereSettings[0].MieMultiplier 0
+SetField AtmosphereSettings[0].MaxFogThickness 10000
+SaveTagChanges
+Exit
 
-edittag levels\multi\forge_halo\sky_halo\shaders\sky_halo_ring.shader
-setfield ShaderProperties[0].RealConstants[3].Values 1 1.2 1.5 1
-setfield RenderFlags None
-savetagchanges
-exit
+EditTag levels\multi\forge_halo\sky_halo\shaders\sky_halo_ring.shader
+SetField ShaderProperties[0].RealConstants[3].Values 1 1.2 1.5 1
+SetField RenderFlags None
+SaveTagChanges
+Exit
 
 echo ==Overlook fog fix==
 # at least it's no longer blue, still inaccurate tho
 
-edittag levels\firefight\ff10_prototype\ff10_prototype.sky_atm_parameters
-setfield AtmosphereSettings[0].Flags EnableAtmosphere,PatchyFog
-setfield AtmosphereSettings[0].SeaLevel -15
-setfield AtmosphereSettings[0].MaxFogThickness 1000
-savetagchanges
-exit
+EditTag levels\firefight\ff10_prototype\ff10_prototype.sky_atm_parameters
+SetField AtmosphereSettings[0].Flags EnableAtmosphere,PatchyFog
+SetField AtmosphereSettings[0].SeaLevel -15
+SetField AtmosphereSettings[0].MaxFogThickness 1000
+SaveTagChanges
+Exit
+
+echo --Spire mountain fog fix==
+EditTag levels\solo\m35\sky_daytime\shaders\mountains_cutout.shader
+SetField RenderFlags None
+SaveTagChanges
+Exit
+EditTag levels\solo\m35\sky_daytime\shaders\very_distant_mountains.shader
+SetField RenderFlags None
+SaveTagChanges
+Exit
 
 echo ==Make frag and plasma grenades explode with precision weapons==
 EditTag objects\weapons\grenade\frag_grenade\frag_grenade_equipment.model
