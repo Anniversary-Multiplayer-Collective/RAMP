@@ -488,6 +488,11 @@ setargument analytical_specular_contribution 0
 SaveTagChanges
 Exit
 
+edittag levels\multi\forge_halo\shaders\forge_halo_forerunner_base.shader
+setargument specular_coefficient 0
+SaveTagChanges
+Exit
+
 # echo ==Shader fixes for PowerHouse...==
 edittag levels\solo\m30\shaders\m30_wire_bundled.shader
 setargument specular_coefficient 0
