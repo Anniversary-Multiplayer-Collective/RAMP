@@ -609,6 +609,11 @@ SetField WaterGravityScale 0
 SaveTagChanges
 Exit
 
+edittag dw3\r3ach\objects\weapons\support_high\flak_cannon\projectiles\flak_bolt.projectile
+setfield WaterGravityScale 0
+savetagchanges
+exit
+
 # echo ==Add reach armor abilities to the palette...==
 
 EditTag multiplayer\forge_globals.forge_globals_definition
