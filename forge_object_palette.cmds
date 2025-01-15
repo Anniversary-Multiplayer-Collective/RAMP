@@ -59,6 +59,11 @@ setfield Palette[476].CategoryIndex 66
 savetagchanges
 exit
 
+# WEAPONS
+AddForgeItem "JORGES MACHINEGUN" 77 objects\weapons\turret\machinegun_turret_jorge\machinegun_turret_jorge.weapon
+AddForgeItem "SMG, SILENCED" 73 objects\weapons\rifle\smg_silenced\smg_silenced.weapon
+AddForgeItem "AUTOMAG" 76 objects\weapons\pistol\automag\automag.weapon
+
 # VEHICLES
 AddForgeItem "WARTHOG, ROCKET" 79 objects\vehicles\warthog\warthog_rocket.vehicle
 

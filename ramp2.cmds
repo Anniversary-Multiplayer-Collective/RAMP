@@ -96,6 +96,11 @@ SetField WeaponName hp
 SaveTagChanges
 Exit
 
+echo ==Apply RAMP Weapon Variants==
+OpenModPackage "workingdir\paks\RAMPWeaponVariants.pak"
+ApplyModPackage
+ExitModPackage
+
 echo ==Apply RAMP HUD, UI, Main Menu, Customization, and Armor Abilities==
 OpenModPackage "workingdir\paks\ramphud.pak"
 ApplyModPackage
@@ -849,6 +854,7 @@ SetField RenderMethod.ShaderProperties[0].TextureConstants[0].Bitmap fx\bitmaps\
 SetField RenderMethod.ShaderProperties[0].TextureConstants[2].Bitmap fx\bitmaps\material\impact_spray_large.bitmap
 SaveTagChanges
 Exit
+
 
 echo ==Spartan Weapons Animation==
 RunCommands "workingdir\spartan_animations.cmds"
