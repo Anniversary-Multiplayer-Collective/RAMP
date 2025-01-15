@@ -17,6 +17,46 @@ RampCollective
 0.1
 MainMenu Multiplayer Character
 
+# echo ==Add default bitmap + parameter for reach diffuse power...==
+opencachefile "reachmaps\dlc_slayer.map"
+porttag rasterizer\diffuse_power_specular\diffuse_power.bitmap
+exit
+edittag *.rasg
+addblockelements defaultbitmaps
+setfield defaultbitmaps[*].bitmap rasterizer\diffuse_power_specular\diffuse_power.bitmap
+savetagchanges
+exit
+stringid add g_diffuse_power_specular
+edittag shaders\shader_options\material_cook_torrance_option_reach.render_method_option
+addblockelements parameters
+setfield parameters[*].name g_diffuse_power_specular
+setfield parameters[*].RenderMethodExtern material_diffuse_power
+savetagchanges
+exit
+edittag shaders\shader_options\material_two_lobe_phong_option_reach.render_method_option
+addblockelements parameters
+setfield parameters[*].name g_diffuse_power_specular
+setfield parameters[*].RenderMethodExtern material_diffuse_power
+savetagchanges
+exit
+
+# echo ==Fix missing parameters in reach cook torrance...==
+edittag shaders\shader_options\material_cook_torrance_option_reach.render_method_option
+addblockelements parameters
+setfield parameters[*].Name g_sampler_cc0236
+setfield parameters[*].rendermethodextern texture_cook_torrance_cc0236
+addblockelements parameters
+setfield parameters[*].Name g_sampler_dd0236
+setfield parameters[*].rendermethodextern texture_cook_torrance_dd0236
+addblockelements parameters
+setfield parameters[*].Name g_sampler_c78d78
+setfield parameters[*].rendermethodextern texture_cook_torrance_c78d78
+savetagchanges
+exit
+
+# echo ==Reach water vertex shader...==
+##generateshader glvs water
+
 # echo ==Bitmap Fixes...==
 RunCommands "workingdir\bitmap_fixes.cmds"
 
