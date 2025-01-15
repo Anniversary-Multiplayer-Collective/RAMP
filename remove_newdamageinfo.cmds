@@ -1,0 +1,60 @@
+EditTag objects\weapons\multiplayer\assault_bomb\assault_bomb.model
+RemoveBlockElements NewDamageInfo 0 *
+SaveTagChanges
+Exit
+EditTag objects\weapons\multiplayer\skull\skull.model
+RemoveBlockElements NewDamageInfo 0 *
+SaveTagChanges
+Exit
+EditTag objects\weapons\pistol\magnum\magnum_red.model
+RemoveBlockElements NewDamageInfo 0 *
+SaveTagChanges
+Exit
+EditTag objects\weapons\pistol\magnum\magnum_gold.model
+RemoveBlockElements NewDamageInfo 0 *
+SaveTagChanges
+Exit
+EditTag objects\weapons\pistol\plasma_pistol\plasma_pistol_gold.model
+RemoveBlockElements NewDamageInfo 0 *
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\assault_rifle\assault_rifle_green.model
+RemoveBlockElements NewDamageInfo 0 *
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\assault_rifle\assault_rifle_red.model
+RemoveBlockElements NewDamageInfo 0 *
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\assault_rifle\assault_rifle_gold.model
+RemoveBlockElements NewDamageInfo 0 *
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\assault_rifle\assault_rifle_orange.model
+RemoveBlockElements NewDamageInfo 0 *
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\dmr\dmr_green.model
+RemoveBlockElements NewDamageInfo 0 *
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\dmr\dmr_blue.model
+RemoveBlockElements NewDamageInfo 0 *
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\dmr\dmr_red.model
+RemoveBlockElements NewDamageInfo 0 *
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\dmr\dmr_gold.model
+RemoveBlockElements NewDamageInfo 0 *
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\dmr\dmr_orange.model
+RemoveBlockElements NewDamageInfo 0 *
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\plasma_rifle\plasma_rifle_gold.model
+RemoveBlockElements NewDamageInfo 0 *
+SaveTagChanges
+Exit

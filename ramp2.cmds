@@ -101,6 +101,9 @@ OpenModPackage "workingdir\paks\RAMPWeaponVariants.pak"
 ApplyModPackage
 ExitModPackage
 
+echo ==Remove newdamageinfo block for RAMP weapon variants==
+RunCommands workingdir\remove_newdamageinfo.cmds
+
 echo ==Apply RAMP HUD, UI, Main Menu, Customization, and Armor Abilities==
 OpenModPackage "workingdir\paks\ramphud.pak"
 ApplyModPackage
