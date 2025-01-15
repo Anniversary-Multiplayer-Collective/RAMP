@@ -438,7 +438,7 @@ Exit
 
 # echo ==Shader fixes for Prisoner...==
 
-ForEach rmsh contains: levels\dlc\cex_prisoner\shaders\ca_prisoner_glass_frosted setargument specular_coefficient 0
+ForEach rmsh contains: levels\dlc\cex_prisoner\shaders\ca_prisoner_glass_frosted SetArgument specular_coefficient 0
 
 # echo ==Shader fixes for Penance...==
 EditTag levels\dlc\cex_damnation\shaders\ca_damnation_cov_metal_shell_purple_strip_a.shader
@@ -452,49 +452,55 @@ SaveTagChanges
 Exit
 
 # echo ==Shader fixes for Holdout...==
-edittag objects\levels\solo\m70\poa_gantry\shaders\gantry_illum.shader
-setfield SortLayer PrePass
-savetagchanges
-exit
+EditTag objects\levels\solo\m70\poa_gantry\shaders\gantry_illum.shader
+SetField SortLayer PrePass
+SaveTagChanges
+Exit
 
-edittag objects\props\covenant\cov_watchtower\shaders\cov_watchtower_illum_2.shader
-setfield SortLayer PrePass
-savetagchanges
-exit
+EditTag objects\props\covenant\cov_watchtower\shaders\cov_watchtower_illum_2.shader
+SetField SortLayer PrePass
+SaveTagChanges
+Exit
 
-### echo ==Shader fixes for Forge World...== Not sure about these ones
+# echo ==Shader fixes for Forge World...== Not sure about these ones
 ##EditTag levels\multi\forge_halo\shaders\forge_halo_forerunner_pipe.shader
-##setargument analytical_specular_contribution 0
+##SetArgument analytical_specular_contribution 0
 ##SaveTagChanges
 ##Exit
 ##
-##edittag levels\multi\forge_halo\shaders\forge_halo_forerunner_hall.shader
-##setargument analytical_specular_contribution 0
+##EditTag levels\multi\forge_halo\shaders\forge_halo_forerunner_hall.shader
+##SetArgument analytical_specular_contribution 0
 ##SaveTagChanges
 ##Exit
 ##
-##edittag levels\multi\forge_halo\shaders\forge_halo_forerunner_base.shader
-##setargument analytical_specular_contribution 0
+##EditTag levels\multi\forge_halo\shaders\forge_halo_forerunner_base.shader
+##SetArgument analytical_specular_contribution 0
 ##SaveTagChanges
 ##Exit
 ##
-##edittag levels\multi\forge_halo\shaders\forge_halo_forerunner_wall.shader
-##setargument analytical_specular_contribution 0
+##EditTag levels\multi\forge_halo\shaders\forge_halo_forerunner_wall.shader
+##SetArgument analytical_specular_contribution 0
 ##SaveTagChanges
 ##Exit
 ##
-##edittag levels\multi\forge_halo\shaders\forge_halo_forerunner_wall_dark.shader
-##setargument analytical_specular_contribution 0
+##EditTag levels\multi\forge_halo\shaders\forge_halo_forerunner_wall_dark.shader
+##SetArgument analytical_specular_contribution 0
 ##SaveTagChanges
 ##Exit
 ##
-##edittag levels\multi\forge_halo\shaders\forge_halo_forerunner_base.shader
-##setargument specular_coefficient 0
+##EditTag levels\multi\forge_halo\shaders\forge_halo_forerunner_base.shader
+##SetArgument specular_coefficient 0
 ##SaveTagChanges
 ##Exit
 
 # echo ==Shader fixes for PowerHouse...==
-edittag levels\solo\m30\shaders\m30_wire_bundled.shader
-setargument specular_coefficient 0
+EditTag levels\solo\m30\shaders\m30_wire_bundled.shader
+SetArgument specular_coefficient 0
+SaveTagChanges
+Exit
+
+# echo ==Shader fixes for Sword Base...==
+EditTag levels\shared\shaders\oni\metal_oni_int_panel_n_cool.shader
+SetArgument specular_coefficient 0.1
 SaveTagChanges
 Exit
