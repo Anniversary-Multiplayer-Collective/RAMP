@@ -1120,6 +1120,9 @@ exit
 echo ==Make weapons not float like in reach==
 ForEach weap contains: objects\weapons setfield WaterDensity None
 
+# echo ==Podium/Prematch Camera...==
+RunCommands "workingdir\podiumcamera.cmds"
+
 ImportFonts workingdir\fonts_new.bin
 
 DeleteModFiles
