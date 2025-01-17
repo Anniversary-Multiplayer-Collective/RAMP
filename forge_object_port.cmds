@@ -547,6 +547,53 @@ OpenCacheFile "reachmaps\cex_beaver_creek.map"
 PortTag objects\cex\cex_beaver_creek\forge\ff_forerunner_wall\ff_forerunner_wall.crate
 Exit
 
+OpenCacheFile "reachmaps\m20.map"
+PortTag objects\levels\solo\m20\gatehouse_frontdoor_large\gatehouse_frontdoor_large.device_machine
+PortTag objects\levels\solo\m20\gatehouse_frontdoor_small\gatehouse_frontdoor_small.device_machine
+PortTag objects\levels\solo\m20\gatehouse_door\gatehouse_door.device_machine
+PortTag objects\levels\solo\m20\door_interior_standard_glass\door_interior_standard_glass.device_machine
+PortTag objects\levels\solo\m20\door_interior_large_logo\door_interior_large_logo.device_machine
+PortTag objects\levels\solo\m20\door_interior_large\door_interior_large.device_machine
+PortTag objects\levels\solo\m20\weapon_display_case\weapon_display_case.device_machine
+PortTag objects\levels\shared\m20_elevator_sm\m20_elevator_sm.device_machine
+PortTag objects\levels\shared\m20_elevator_sm_button\m20_elevator_sm_button.device_control
+PortTag objects\levels\shared\device_controls\switches\hum_single_button_1\hum_single_button_1.device_control
+PortTag objects\scenery\human\searchlight\searchlight.scenery
+Exit
+
+OpenCacheFile "reachmaps\m10.map"
+PortTag objects\levels\shared\device_machines\metal__gate_see_through\metal__gate_see_through.device_machine
+PortTag objects\props\human\pioneer\doors\door_slider_utility\door_slider_utility.device_machine
+PortTag objects\levels\shared\device_machines\blast_door\blast_door.device_machine
+PortTag objects\levels\shared\device_machines\unsc_door_small\unsc_door_small.device_machine
+PortTag objects\levels\shared\device_machines\unsc_door_large\unsc_door_large.device_machine
+PortTag objects\levels\shared\device_machines\unsc_server_a\unsc_server_a.device_machine
+PortTag objects\props\human\pioneer\farm\wind_turbine_small\wind_turbine_small.device_machine
+PortTag objects\props\human\pioneer\tech\com_a\com_a.scenery
+PortTag objects\props\human\pioneer\farm\com_antennae\com_antennae.scenery
+PortTag objects\levels\shared\device_controls\switches\hum_keypad_02\hum_keypad_02.device_control
+Exit
+
+OpenCacheFile "reachmaps\m05.map"
+PortTag objects\props\human\unsc\light_fixture_telescoping\light_fixture_telescoping.scenery
+PortTag objects\props\human\unsc\wind_gauge\wind_gauge.scenery
+PortTag objects\props\human\unsc\portable_comm_tower\portable_comm_tower.scenery
+PortTag objects\props\human\unsc\locker_large\locker_large.scenery
+PortTag objects\props\human\unsc\locker_single\locker_single.scenery
+PortTag objects\props\human\unsc\locker_small\locker_small.scenery
+PortTag objects\gear\human\residential\h_bunk_collapsable_case\h_bunk_collapsable_case.scenery
+PortTag objects\props\human\unsc\planning_table\planning_table.scenery
+Exit
+
+OpenCacheFile "reachmaps\m45.map"
+PortTag objects\props\human\pioneer\pioneer_weapons_stash\pioneer_weapons_stash.device_machine
+Exit
+
+OpenCacheFile "reachmaps\m30.map"
+PortTag objects\levels\shared\device_machines\metal_gate\metal_gate.device_machine
+Exit
+
+
 
 echo ==Remove damage from forge items from applied pak...==
 ForEach hlmt contains: objects\levels\forge RemoveBlockElements NewDamageInfo 0 *
