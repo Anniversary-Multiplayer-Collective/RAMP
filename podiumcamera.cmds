@@ -216,8 +216,11 @@ Exit
 
 EditTag levels\multi\dlc\dlc_slayer\dlc_slayer.scenario
 AddBlockElements CutsceneCameraPoints
+setfield CutsceneCameraPoints[0].Name "prematch_camera"
+setfield CutsceneCameraPoints[0].Flags PrematchCameraHack
 SetField CutsceneCameraPoints[0].Position 0.627 21.187 3.799
 SetField CutsceneCameraPoints[0].Orientation -96.988 0.399 3.254
+AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[1].Name "podium_camera"
 SetField CutsceneCameraPoints[1].Position 0 0 0
 SetField CutsceneCameraPoints[1].Orientation 0 0 0

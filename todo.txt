@@ -2,9 +2,8 @@ TODO:
 Kill volume isn't phased...
 Respawn zone isn't phased...
 Find way to get Reach FX ball screen FX working.
-Fix projectile drop on flak cannon and maybe banshee bomb?
-Replace the Halo 3 items with their halo Reach equivelent
-Add Podium to each map
+See if there's projectile drop on banshee bomb and if there is fix it.
+Add Podium to each map (WIP)
 Increase the projectile speed for certain hitscan weapons (To combat ED buggy network)
 
 Known maps bugs
@@ -61,7 +60,7 @@ If anyone has fixed any of these please delete or comment it out with a #
 |->removing the entire effect scenery and palette fixed it (hacky fix), haven't found any visual differences
 
 (FORGE WORLD)
-- Forerunner structure shader fucks it self if you spawned any reach building blocks
+- Haven't found any
 
 (GLACIER)
 - When entering the building, some bsp despawned
