@@ -96,8 +96,8 @@ Exit
 
 EditTag levels\multi\forge_halo\forge_halo.scenario
 AddBlockElements CutsceneCameraPoints
-SetField CutsceneCameraPoints[0].Position 0 0 0
-SetField CutsceneCameraPoints[0].Orientation 0 0 0
+SetField CutsceneCameraPoints[0].Position 79.415 176.478 60.383
+SetField CutsceneCameraPoints[0].Orientation 112.588 7.746 -17.951
 SetField CutsceneCameraPoints[1].Name "podium_camera"
 SetField CutsceneCameraPoints[1].Position 0 0 0
 SetField CutsceneCameraPoints[1].Orientation 0 0 0
