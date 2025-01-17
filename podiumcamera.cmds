@@ -243,8 +243,11 @@ Exit
 
 EditTag levels\firefight\ff10_prototype\ff10_prototype.scenario
 AddBlockElements CutsceneCameraPoints
+setfield CutsceneCameraPoints[0].Name "prematch_camera"
+setfield CutsceneCameraPoints[0].Flags PrematchCameraHack
 SetField CutsceneCameraPoints[0].Position 175.745 58.169 6.604
 SetField CutsceneCameraPoints[0].Orientation -179.107 26.428 2.400
+AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[1].Name "podium_camera"
 SetField CutsceneCameraPoints[1].Position 0 0 0
 SetField CutsceneCameraPoints[1].Orientation 0 0 0
@@ -255,8 +258,11 @@ Exit
 
 EditTag levels\firefight\ff20_courtyard\ff20_courtyard.scenario
 AddBlockElements CutsceneCameraPoints
+setfield CutsceneCameraPoints[0].Name "prematch_camera"
+setfield CutsceneCameraPoints[0].Flags PrematchCameraHack
 SetField CutsceneCameraPoints[0].Position -79.180 5.929 25.492
 SetField CutsceneCameraPoints[0].Orientation 113.336 5.922 -12.564
+AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[1].Name "podium_camera"
 SetField CutsceneCameraPoints[1].Position 0 0 0
 SetField CutsceneCameraPoints[1].Orientation 0 0 0
@@ -267,8 +273,11 @@ Exit
 
 EditTag levels\firefight\ff30_waterfront\ff30_waterfront.scenario
 AddBlockElements CutsceneCameraPoints
+setfield CutsceneCameraPoints[0].Name "prematch_camera"
+setfield CutsceneCameraPoints[0].Flags PrematchCameraHack
 SetField CutsceneCameraPoints[0].Position 28.212 217.373 51.168
 SetField CutsceneCameraPoints[0].Orientation 165.203 25.640 -5.516
+AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[1].Name "podium_camera"
 SetField CutsceneCameraPoints[1].Position 0 0 0
 SetField CutsceneCameraPoints[1].Orientation 0 0 0
@@ -279,8 +288,11 @@ Exit
 
 EditTag levels\firefight\ff45_corvette\ff45_corvette.scenario
 AddBlockElements CutsceneCameraPoints
+setfield CutsceneCameraPoints[0].Name "prematch_camera"
+setfield CutsceneCameraPoints[0].Flags PrematchCameraHack
 SetField CutsceneCameraPoints[0].Position 11.508 -56.460 4.535
 SetField CutsceneCameraPoints[0].Orientation 136.124 12.047 -11.348
+AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[1].Name "podium_camera"
 SetField CutsceneCameraPoints[1].Position 0 0 0
 SetField CutsceneCameraPoints[1].Orientation 0 0 0
@@ -291,8 +303,11 @@ Exit
 
 EditTag levels\firefight\ff50_park\ff50_park.scenario
 AddBlockElements CutsceneCameraPoints
+setfield CutsceneCameraPoints[0].Name "prematch_camera"
+setfield CutsceneCameraPoints[0].Flags PrematchCameraHack
 SetField CutsceneCameraPoints[0].Position -179.095 -3.872 -26.757
 SetField CutsceneCameraPoints[0].Orientation 108.560 2.267 -9.530
+AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[1].Name "podium_camera"
 SetField CutsceneCameraPoints[1].Position 0 0 0
 SetField CutsceneCameraPoints[1].Orientation 0 0 0
@@ -303,8 +318,11 @@ Exit
 
 EditTag levels\firefight\ff60_airview\ff60_airview.scenario
 AddBlockElements CutsceneCameraPoints
+setfield CutsceneCameraPoints[0].Name "prematch_camera"
+setfield CutsceneCameraPoints[0].Flags PrematchCameraHack
 SetField CutsceneCameraPoints[0].Position -107.780 -130.013 21.419
 SetField CutsceneCameraPoints[0].Orientation 175.768 11.224 -3.317
+AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[1].Name "podium_camera"
 SetField CutsceneCameraPoints[1].Position 0 0 0
 SetField CutsceneCameraPoints[1].Orientation 0 0 0
@@ -315,8 +333,11 @@ Exit
 
 EditTag levels\firefight\ff60_icecave\ff60_icecave.scenario
 AddBlockElements CutsceneCameraPoints
+setfield CutsceneCameraPoints[0].Name "prematch_camera"
+setfield CutsceneCameraPoints[0].Flags PrematchCameraHack
 SetField CutsceneCameraPoints[0].Position -92.725 279.043 -99.946
 SetField CutsceneCameraPoints[0].Orientation -38.191 0 0
+AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[1].Name "podium_camera"
 SetField CutsceneCameraPoints[1].Position 0 0 0
 SetField CutsceneCameraPoints[1].Orientation 0 0 0
@@ -327,8 +348,11 @@ Exit
 
 EditTag levels\firefight\ff70_holdout\ff70_holdout.scenario
 AddBlockElements CutsceneCameraPoints
+setfield CutsceneCameraPoints[0].Name "prematch_camera"
+setfield CutsceneCameraPoints[0].Flags PrematchCameraHack
 SetField CutsceneCameraPoints[0].Position 437.925 109.668 0.921
 SetField CutsceneCameraPoints[0].Orientation 31.350 -17.120 -10.167
+AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[1].Name "podium_camera"
 SetField CutsceneCameraPoints[1].Position 0 0 0
 SetField CutsceneCameraPoints[1].Orientation 0 0 0
@@ -339,8 +363,11 @@ Exit
 
 EditTag levels\dlc\ff_unearthed\ff_unearthed.scenario
 AddBlockElements CutsceneCameraPoints
+setfield CutsceneCameraPoints[0].Name "prematch_camera"
+setfield CutsceneCameraPoints[0].Flags PrematchCameraHack
 SetField CutsceneCameraPoints[0].Position 34.367 26.719 8.361
 SetField CutsceneCameraPoints[0].Orientation -146.220 9.466 6.278
+AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[1].Name "podium_camera"
 SetField CutsceneCameraPoints[1].Position 0 0 0
 SetField CutsceneCameraPoints[1].Orientation 0 0 0
@@ -351,8 +378,11 @@ Exit
 
 EditTag levels\dlc\cex_ff_halo\cex_ff_halo.scenario
 AddBlockElements CutsceneCameraPoints
+setfield CutsceneCameraPoints[0].Name "prematch_camera"
+setfield CutsceneCameraPoints[0].Flags PrematchCameraHack
 SetField CutsceneCameraPoints[0].Position -63.016 -61.476 69
 SetField CutsceneCameraPoints[0].Orientation 53.336 0 0
+AddBlockElements CutsceneCameraPoints
 SetField CutsceneCameraPoints[1].Name "podium_camera"
 SetField CutsceneCameraPoints[1].Position 0 0 0
 SetField CutsceneCameraPoints[1].Orientation 0 0 0
