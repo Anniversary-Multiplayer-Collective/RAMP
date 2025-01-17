@@ -1,0 +1,95 @@
+EditTag objects\weapons\pistol\magnum\magnum_damage.weapon
+setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\pistol\magnum\animations\fp_spartan\fp_spartan.model_animation_graph
+setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\pistol\magnum\animations\fp_elite\fp_elite.model_animation_graph
+SaveTagChanges
+Exit
+EditTag objects\weapons\pistol\magnum\magnum_power.weapon
+setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\pistol\magnum\animations\fp_spartan\fp_spartan.model_animation_graph
+setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\pistol\magnum\animations\fp_elite\fp_elite.model_animation_graph
+SaveTagChanges
+Exit
+EditTag objects\weapons\pistol\plasma_pistol\plasma_pistol_power.weapon
+setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\pistol\plasma_pistol\animations\fp_spartan\fp_spartan.model_animation_graph
+setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\pistol\plasma_pistol\animations\fp_elite\fp_elite.model_animation_graph
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\assault_rifle_accuracy\assault_rifle_accuracy.weapon
+setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\assault_rifle\animations\fp_spartan\fp_spartan.model_animation_graph
+setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\assault_rifle\animations\fp_elite\fp_elite.model_animation_graph
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\assault_rifle_damage\assault_rifle_damage.weapon
+setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\assault_rifle\animations\fp_spartan\fp_spartan.model_animation_graph
+setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\assault_rifle\animations\fp_elite\fp_elite.model_animation_graph
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\assault_rifle_power\assault_rifle_power.weapon
+setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\assault_rifle\animations\fp_spartan\fp_spartan.model_animation_graph
+setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\assault_rifle\animations\fp_elite\fp_elite.model_animation_graph
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\assault_rifle_rof\assault_rifle_rof.weapon
+setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\assault_rifle\animations\fp_spartan\fp_spartan.model_animation_graph
+setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\assault_rifle\animations\fp_elite\fp_elite.model_animation_graph
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\battle_rifle_accuracy\battle_rifle_accuracy.weapon
+setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_spartan\fp_spartan.model_animation_graph
+setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_elite\fp_elite.model_animation_graph
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\battle_rifle_ammo\battle_rifle_ammo.weapon
+setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_spartan\fp_spartan.model_animation_graph
+setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_elite\fp_elite.model_animation_graph
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\battle_rifle_damage\battle_rifle_damage.weapon
+setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_spartan\fp_spartan.model_animation_graph
+setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_elite\fp_elite.model_animation_graph
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\battle_rifle_power\battle_rifle_power.weapon
+setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_spartan\fp_spartan.model_animation_graph
+setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_elite\fp_elite.model_animation_graph
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\battle_rifle_range\battle_rifle_range.weapon
+setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_spartan\fp_spartan.model_animation_graph
+setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_elite\fp_elite.model_animation_graph
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\battle_rifle_rof\battle_rifle_rof.weapon
+setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_spartan\fp_spartan.model_animation_graph
+setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_elite\fp_elite.model_animation_graph
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\dmr_accuracy\dmr_accuracy.weapon
+setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_spartan\fp_spartan.model_animation_graph
+setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_elite\fp_elite.model_animation_graph
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\dmr_ammo\dmr_ammo.weapon
+setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_spartan\fp_spartan.model_animation_graph
+setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_elite\fp_elite.model_animation_graph
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\dmr_damage\dmr_damage.weapon
+setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_spartan\fp_spartan.model_animation_graph
+setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_elite\fp_elite.model_animation_graph
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\dmr_power\dmr_power.weapon
+setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_spartan\fp_spartan.model_animation_graph
+setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_elite\fp_elite.model_animation_graph
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\dmr_rof\dmr_rof.weapon
+setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_spartan\fp_spartan.model_animation_graph
+setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_elite\fp_elite.model_animation_graph
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\plasma_rifle\plasma_rifle_power.weapon
+setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\plasma_rifle\animations\fp_spartan\fp_spartan.model_animation_graph
+setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\plasma_rifle\animations\fp_elite\fp_elite.model_animation_graph
+SaveTagChanges
+Exit
