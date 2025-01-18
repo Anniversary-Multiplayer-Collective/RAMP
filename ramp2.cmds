@@ -112,12 +112,12 @@ ApplyModPackage
 ExitModPackage
 
 edittag ui\halox\start_menu\panes\settings_appearance_model\strings.multilingual_unicode_string_list
-setstring english female_techsuit_base "Female Techsuit"
-setstring english female_techsuit_black "Female Black Techsuit"
-setstring english female_techsuit_colored "Female Colored Techsuit"
-setstring english female_techsuit_secondary "Female Colored Secondary Techsuit"
-setstring english female_techsuit_camo "Female ODST Camo Techsuit"
-setstring english female_techsuit_armorcamo "Female ODST Camo Armor"
+setstring english female_techsuit_base "FEMALE TECHSUIT"
+setstring english female_techsuit_black "FEMALE BLACK TECHSUIT"
+setstring english female_techsuit_colored "FEMALE COLORED TECHSUIT"
+setstring english female_techsuit_secondary "FEMALE COLORED SECONDARY TECHSUIT"
+setstring english female_techsuit_camo "FEMALE ODST CAMO TECHSUIT"
+setstring english female_techsuit_armorcamo "FEMALE ODST CAMO ARMOR"
 savetagchanges
 exit 
 
