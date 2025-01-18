@@ -1,9 +1,10 @@
 TODO:
+Check all podiums to make sure they're good. Dont put them in water.......
+Redo Battle Canyon, Boneyard, Breakpoint, Powerhouse, Reflection, Ridgeline, Tempest, podiums
 Kill volume isn't phased...
 Respawn zone isn't phased...
 Find way to get Reach FX ball screen FX working.
 See if there's projectile drop on banshee bomb and if there is fix it.
-Add Podium to each map (WIP)
 Increase the projectile speed for certain hitscan weapons (To combat ED buggy network)
 
 Known maps bugs
