@@ -109,7 +109,17 @@ RunCommands workingdir\remove_newdamageinfo.cmds
 echo ==Apply RAMP HUD, UI, Main Menu, Customization, and Armor Abilities==
 OpenModPackage "workingdir\paks\ramphud.pak"
 ApplyModPackage
-ExitModPackage 
+ExitModPackage
+
+edittag ui\halox\start_menu\panes\settings_appearance_model\strings.multilingual_unicode_string_list
+setstring english female_techsuit_base "Female Techsuit"
+setstring english female_techsuit_black "Female Black Techsuit"
+setstring english female_techsuit_colored "Female Colored Techsuit"
+setstring english female_techsuit_secondary "Female Colored Secondary Techsuit"
+setstring english female_techsuit_camo "Female ODST Camo Techsuit"
+setstring english female_techsuit_armorcamo "Female ODST Camo Armor"
+savetagchanges
+exit 
 
 # echo ==Porting...==
 EditTag objects\gear\human\military\crate_packing_giant\crate_packing_giant.render_model
