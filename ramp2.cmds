@@ -345,7 +345,11 @@ SetField AppearanceFlags RandomUMirror,DepthFadeActive
 SaveTagChanges
 Exit
 
-
+EditTag levels\multi\dlc\dlc_invasion\fx\particles\science_bolt.particle
+SetField ParticleBillboardStyle ParallelToDirection
+SetField AppearanceFlags RandomUMirror,RandomVMirror,BitmapAuthoredVertically
+SaveTagChanges
+Exit
 
 
 
