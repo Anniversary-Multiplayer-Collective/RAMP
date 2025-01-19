@@ -191,7 +191,7 @@ edittag ui\chud\battle_rifle_damage.chud_definition
 removeblockelements HudWidgets 0 *
 pasteblockelements HudWidgets
 setfield HudWidgets[2].BitmapWidgets[2].AnimationData[0].Active.Animation ui\chud\animations\crosshair_animations\br_reticule.chud_animation_definition
-setfield HudWidgets[2].StateData[0].UnitZoomFlags BinocularsEnabled
+setfield HudWidgets[2].StateData[0].UnitZoomState Unzoomed
 setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 3
 setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -25 50
 setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 1 1
@@ -308,7 +308,7 @@ setfield HudWidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\energy_meter_righ
 setfield HudWidgets[5].BitmapWidgets[0].PlacementData[0].Offset -40 107
 setfield HudWidgets[5].TextWidgets[0].RenderData[0].ExternalInput WeaponBatteryFraction
 setfield HudWidgets[4].TextWidgets[0].RenderData[0].ExternalInput WeaponBatteryFraction
-setfield HudWidgets[4].BitmapWidgets[0].StateData[0].Weapon_SpecialFlags BatteryBelowCutoff
+setfield HudWidgets[4].BitmapWidgets[0].StateData[0].WeaponFlash BatteryLow
 
 setfield HudWidgets[2].BitmapWidgets[7].PlacementData[0].Anchor Crosshair
 setfield HudWidgets[2].BitmapWidgets[8].PlacementData[0].Anchor Crosshair
@@ -411,7 +411,7 @@ edittag ui\chud\covenant_carbine_range.chud_definition
 removeblockelements HudWidgets 0 *
 pasteblockelements HudWidgets
 
-setfield HudWidgets[3].StateData[0].UnitZoomFlags UnitIsZoomedLevel1,UnitIsZoomedLevel2
+setfield HudWidgets[3].StateData[0].UnitZoomState ZoomLvl1,ZoomLvl2
 
 setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -55 50
 setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 0.9 0.9
@@ -514,7 +514,7 @@ edittag ui\chud\dmr_damage.chud_definition
 removeblockelements HudWidgets 0 *
 pasteblockelements HudWidgets
 
-setfield HudWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
+setfield HudWidgets[0].StateData[0].UnitZoomState Unzoomed
 setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 8
 
 setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -30 62
@@ -595,7 +595,7 @@ edittag ui\chud\smg_accuracy.chud_definition
 removeblockelements HudWidgets 1 *
 pasteblockelements HudWidgets
 
-setfield HudWidgets[3].StateData[0].UnitZoomFlags None
+setfield HudWidgets[3].StateData[0].UnitZoomState None
 setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.25 2.25
 setfield HudWidgets[0].BitmapWidgets[1].PlacementData[0].Scale 2.25 2.25
 setfield HudWidgets[0].BitmapWidgets[2].PlacementData[0].Scale 2.25 2.25
@@ -631,7 +631,7 @@ edittag ui\chud\smg_power.chud_definition
 removeblockelements HudWidgets 1 *
 pasteblockelements HudWidgets
 
-setfield HudWidgets[3].StateData[0].UnitZoomFlags None
+setfield HudWidgets[3].StateData[0].UnitZoomState None
 setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.25 2.25
 setfield HudWidgets[0].BitmapWidgets[1].PlacementData[0].Scale 2.25 2.25
 setfield HudWidgets[0].BitmapWidgets[2].PlacementData[0].Scale 2.25 2.25
@@ -740,11 +740,11 @@ edittag ui\chud\magnum_power.chud_definition
 removeblockelements HudWidgets 0 *
 pasteblockelements HudWidgets
 
-setfield HudWidgets[2].BitmapWidgets[0].StateData[0].WeaponStatusFlags SourceIsPrimaryWeapon,SourceIsDualWeapon
-setfield HudWidgets[2].BitmapWidgets[1].StateData[0].WeaponStatusFlags SourceIsPrimaryWeapon,SourceIsDualWeapon
-setfield HudWidgets[2].BitmapWidgets[2].StateData[0].WeaponStatusFlags SourceIsPrimaryWeapon,SourceIsDualWeapon
-setfield HudWidgets[2].BitmapWidgets[3].StateData[0].WeaponStatusFlags SourceIsPrimaryWeapon,SourceIsDualWeapon
-setfield HudWidgets[2].BitmapWidgets[4].StateData[0].WeaponStatusFlags SourceIsPrimaryWeapon,SourceIsDualWeapon
+setfield HudWidgets[2].BitmapWidgets[0].StateData[0].WeaponArmedStateHO RightHand,LeftHand
+setfield HudWidgets[2].BitmapWidgets[1].StateData[0].WeaponArmedStateHO RightHand,LeftHand
+setfield HudWidgets[2].BitmapWidgets[2].StateData[0].WeaponArmedStateHO RightHand,LeftHand
+setfield HudWidgets[2].BitmapWidgets[3].StateData[0].WeaponArmedStateHO RightHand,LeftHand
+setfield HudWidgets[2].BitmapWidgets[4].StateData[0].WeaponArmedStateHO RightHand,LeftHand
 
 setfield HudWidgets[3].TextWidgets[0].PlacementData[0].Offset 56 62
 setfield HudWidgets[3].TextWidgets[1].PlacementData[0].Offset 56 62
@@ -786,13 +786,13 @@ edittag ui\chud\magnum_damage.chud_definition
 removeblockelements HudWidgets 0 *
 pasteblockelements HudWidgets
 
-setfield HudWidgets[2].BitmapWidgets[0].StateData[0].WeaponStatusFlags SourceIsPrimaryWeapon,SourceIsDualWeapon
-setfield HudWidgets[2].BitmapWidgets[1].StateData[0].WeaponStatusFlags SourceIsPrimaryWeapon,SourceIsDualWeapon
-setfield HudWidgets[2].BitmapWidgets[2].StateData[0].WeaponStatusFlags SourceIsPrimaryWeapon,SourceIsDualWeapon
-setfield HudWidgets[2].BitmapWidgets[3].StateData[0].WeaponStatusFlags SourceIsPrimaryWeapon,SourceIsDualWeapon
-setfield HudWidgets[2].BitmapWidgets[4].StateData[0].WeaponStatusFlags SourceIsPrimaryWeapon,SourceIsDualWeapon
+setfield HudWidgets[2].BitmapWidgets[0].StateData[0].WeaponArmedStateHO RightHand,LeftHand
+setfield HudWidgets[2].BitmapWidgets[1].StateData[0].WeaponArmedStateHO RightHand,LeftHand
+setfield HudWidgets[2].BitmapWidgets[2].StateData[0].WeaponArmedStateHO RightHand,LeftHand
+setfield HudWidgets[2].BitmapWidgets[3].StateData[0].WeaponArmedStateHO RightHand,LeftHand
+setfield HudWidgets[2].BitmapWidgets[4].StateData[0].WeaponArmedStateHO RightHand,LeftHand
 
-setfield HudWidgets[2].StateData[0].UnitZoomFlags BinocularsEnabled
+setfield HudWidgets[2].StateData[0].UnitZoomState Unzoomed
 setfield HudWidgets[3].BitmapWidgets[0].BitmapSequenceIndex 9
 setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 9
 

@@ -650,7 +650,7 @@ setfield HUDWidgets[5].PlacementData[0].Offset -23 32
 setfield HUDWidgets[5].PlacementData[0].Scale 1.3 1.3
 setfield HUDWidgets[6].PlacementData[0].Offset -22 32
 setfield HUDWidgets[6].PlacementData[0].Scale 1.3 1.3
-setfield HudWidgets[23].StateData[0].UnitZoomFlags BinocularsEnabled
+setfield HudWidgets[23].StateData[0].UnitZoomState Unzoomed
 removeblockelements HudWidgets[24].BitmapWidgets 1 *
 savetagchanges
 exit

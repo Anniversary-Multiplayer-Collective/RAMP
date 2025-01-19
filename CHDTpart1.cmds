@@ -331,15 +331,15 @@ setfield HudWidgets[3].TextWidgets[1].PlacementData[0].Scale 0.312 0.312
 setfield HudWidgets[3].TextWidgets[0].WidgetIndex 3
 
 addblockelements HudWidgets[3].TextWidgets[0].StateData
-setfield HudWidgets[3].TextWidgets[0].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[3].TextWidgets[0].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[3].TextWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[3].TextWidgets[0].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[3].TextWidgets[0].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[3].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[3].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[3].TextWidgets[0].StateData[0].HiddenState Zoomed
 
-setfield HudWidgets[3].TextWidgets[1].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[3].TextWidgets[1].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[3].TextWidgets[1].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[3].TextWidgets[1].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[3].TextWidgets[1].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[3].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[3].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[3].TextWidgets[1].StateData[0].HiddenState Zoomed
 
 savetagchanges
 exit
@@ -375,15 +375,15 @@ setfield HudWidgets[4].TextWidgets[1].PlacementData[0].Scale 0.312 0.312
 setfield HudWidgets[4].TextWidgets[0].WidgetIndex 3
 
 addblockelements HudWidgets[4].TextWidgets[0].StateData
-setfield HudWidgets[4].TextWidgets[0].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[0].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[0].StateData[0].HiddenState Zoomed
 
-setfield HudWidgets[4].TextWidgets[1].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[1].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[1].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[1].StateData[0].HiddenState Zoomed
 
 savetagchanges
 exit
@@ -413,10 +413,10 @@ setfield HudWidgets[4].TextWidgets[0].PlacementData[0].Scale 0.26 0.26
 setfield HudWidgets[4].TextWidgets[0].WidgetIndex 3
 
 addblockelements HudWidgets[4].TextWidgets[0].StateData
-setfield HudWidgets[4].TextWidgets[0].StateData[0].Weapon_SpecialFlags BatteryBelowCutoff
-setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[0].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponFlash BatteryLow
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[0].StateData[0].HiddenState Zoomed
 
 savetagchanges
 exit
@@ -454,15 +454,15 @@ setfield HudWidgets[3].TextWidgets[1].PlacementData[0].Scale 0.312 0.312
 setfield HudWidgets[3].TextWidgets[0].WidgetIndex 3
 
 addblockelements HudWidgets[3].TextWidgets[0].StateData
-setfield HudWidgets[3].TextWidgets[0].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[3].TextWidgets[0].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[3].TextWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[3].TextWidgets[0].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[3].TextWidgets[0].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[3].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[3].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[3].TextWidgets[0].StateData[0].HiddenState Zoomed
 
-setfield HudWidgets[3].TextWidgets[1].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[3].TextWidgets[1].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[3].TextWidgets[1].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[3].TextWidgets[1].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[3].TextWidgets[1].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[3].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[3].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[3].TextWidgets[1].StateData[0].HiddenState Zoomed
 
 savetagchanges
 exit
@@ -504,15 +504,15 @@ setfield HudWidgets[4].TextWidgets[1].PlacementData[0].Scale 0.312 0.312
 setfield HudWidgets[4].TextWidgets[0].WidgetIndex 3
 
 addblockelements HudWidgets[4].TextWidgets[0].StateData
-setfield HudWidgets[4].TextWidgets[0].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[0].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[0].StateData[0].HiddenState Zoomed
 
-setfield HudWidgets[4].TextWidgets[1].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[1].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[1].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[1].StateData[0].HiddenState Zoomed
 
 savetagchanges
 exit
@@ -551,15 +551,15 @@ setfield HudWidgets[3].TextWidgets[1].PlacementData[0].Scale 0.312 0.312
 setfield HudWidgets[3].TextWidgets[0].WidgetIndex 3
 
 addblockelements HudWidgets[3].TextWidgets[0].StateData
-setfield HudWidgets[3].TextWidgets[0].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[3].TextWidgets[0].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[3].TextWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[3].TextWidgets[0].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[3].TextWidgets[0].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[3].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[3].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[3].TextWidgets[0].StateData[0].HiddenState Zoomed
 
-setfield HudWidgets[3].TextWidgets[1].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[3].TextWidgets[1].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[3].TextWidgets[1].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[3].TextWidgets[1].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[3].TextWidgets[1].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[3].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[3].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[3].TextWidgets[1].StateData[0].HiddenState Zoomed
 savetagchanges
 exit
 
@@ -610,15 +610,15 @@ setfield HudWidgets[4].TextWidgets[1].PlacementData[0].Scale 0.312 0.312
 setfield HudWidgets[4].TextWidgets[0].WidgetIndex 3
 
 addblockelements HudWidgets[4].TextWidgets[0].StateData
-setfield HudWidgets[4].TextWidgets[0].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[0].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[0].StateData[0].HiddenState Zoomed
 
-setfield HudWidgets[4].TextWidgets[1].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[1].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[1].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[1].StateData[0].HiddenState Zoomed
 
 savetagchanges
 exit
@@ -654,10 +654,10 @@ setfield HudWidgets[4].TextWidgets[0].PlacementData[0].Scale 0.26 0.26
 setfield HudWidgets[4].TextWidgets[0].WidgetIndex 3
 
 addblockelements HudWidgets[4].TextWidgets[0].StateData
-setfield HudWidgets[4].TextWidgets[0].StateData[0].Weapon_SpecialFlags BatteryBelowCutoff
-setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[0].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponFlash BatteryLow
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[0].StateData[0].HiddenState Zoomed
 
 savetagchanges
 exit
@@ -694,15 +694,15 @@ setfield HudWidgets[5].TextWidgets[1].PlacementData[0].Scale 0.312 0.312
 setfield HudWidgets[5].TextWidgets[0].WidgetIndex 3
 
 addblockelements HudWidgets[5].TextWidgets[0].StateData
-setfield HudWidgets[5].TextWidgets[0].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[5].TextWidgets[0].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[5].TextWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[5].TextWidgets[0].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[5].TextWidgets[0].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[5].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[5].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[5].TextWidgets[0].StateData[0].HiddenState Zoomed
 
-setfield HudWidgets[5].TextWidgets[1].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[5].TextWidgets[1].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[5].TextWidgets[1].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[5].TextWidgets[1].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[5].TextWidgets[1].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[5].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[5].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[5].TextWidgets[1].StateData[0].HiddenState Zoomed
 
 savetagchanges
 exit
@@ -730,10 +730,10 @@ setfield HudWidgets[4].TextWidgets[0].PlacementData[0].Scale 0.26 0.26
 setfield HudWidgets[4].TextWidgets[0].WidgetIndex 3
 
 addblockelements HudWidgets[4].TextWidgets[0].StateData
-setfield HudWidgets[4].TextWidgets[0].StateData[0].Weapon_SpecialFlags BatteryBelowCutoff
-setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[0].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponFlash BatteryLow
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[0].StateData[0].HiddenState Zoomed
 
 savetagchanges
 exit
@@ -770,10 +770,10 @@ setfield HudWidgets[4].TextWidgets[0].PlacementData[0].Scale 0.26 0.26
 setfield HudWidgets[4].TextWidgets[0].WidgetIndex 3
 
 addblockelements HudWidgets[4].TextWidgets[0].StateData
-setfield HudWidgets[4].TextWidgets[0].StateData[0].Weapon_SpecialFlags BatteryBelowCutoff
-setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[0].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponFlash BatteryLow
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[0].StateData[0].HiddenState Zoomed
 
 savetagchanges
 exit
@@ -820,15 +820,15 @@ setfield HudWidgets[3].TextWidgets[1].PlacementData[0].Scale 0.312 0.312
 setfield HudWidgets[3].TextWidgets[0].WidgetIndex 3
 
 addblockelements HudWidgets[3].TextWidgets[0].StateData
-setfield HudWidgets[3].TextWidgets[0].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[3].TextWidgets[0].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[3].TextWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[3].TextWidgets[0].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[3].TextWidgets[0].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[3].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[3].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[3].TextWidgets[0].StateData[0].HiddenState Zoomed
 
-setfield HudWidgets[3].TextWidgets[1].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[3].TextWidgets[1].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[3].TextWidgets[1].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[3].TextWidgets[1].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[3].TextWidgets[1].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[3].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[3].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[3].TextWidgets[1].StateData[0].HiddenState Zoomed
 setfield HudWidgets[2].ParallaxData ui\chud\parallax\vehicles.chud_widget_parallax_data
 savetagchanges
 exit
@@ -901,15 +901,15 @@ setfield HudWidgets[4].TextWidgets[1].PlacementData[0].Scale 0.312 0.312
 
 setfield HudWidgets[4].TextWidgets[0].WidgetIndex 10
 addblockelements HudWidgets[4].TextWidgets[0].StateData
-setfield HudWidgets[4].TextWidgets[0].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[0].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[0].StateData[0].HiddenState Zoomed
 
-setfield HudWidgets[4].TextWidgets[1].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[1].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[1].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[1].StateData[0].HiddenState Zoomed
 
 savetagchanges
 exit
@@ -979,15 +979,15 @@ setfield HudWidgets[4].TextWidgets[1].PlacementData[0].Scale 0.312 0.312
 
 setfield HudWidgets[4].TextWidgets[0].WidgetIndex 10
 addblockelements HudWidgets[4].TextWidgets[0].StateData
-setfield HudWidgets[4].TextWidgets[0].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[0].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[0].StateData[0].HiddenState Zoomed
 
-setfield HudWidgets[4].TextWidgets[1].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[1].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[1].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[1].StateData[0].HiddenState Zoomed
 savetagchanges
 exit
 
@@ -1024,15 +1024,15 @@ setfield HudWidgets[3].TextWidgets[1].PlacementData[0].Scale 0.312 0.312
 setfield HudWidgets[3].TextWidgets[0].WidgetIndex 3
 
 addblockelements HudWidgets[3].TextWidgets[0].StateData
-setfield HudWidgets[3].TextWidgets[0].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[3].TextWidgets[0].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[3].TextWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[3].TextWidgets[0].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[3].TextWidgets[0].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[3].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[3].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[3].TextWidgets[0].StateData[0].HiddenState Zoomed
 
-setfield HudWidgets[3].TextWidgets[1].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[3].TextWidgets[1].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[3].TextWidgets[1].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[3].TextWidgets[1].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[3].TextWidgets[1].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[3].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[3].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[3].TextWidgets[1].StateData[0].HiddenState Zoomed
 
 savetagchanges
 exit
@@ -1070,15 +1070,15 @@ setfield HudWidgets[4].TextWidgets[1].PlacementData[0].Scale 0.312 0.312
 setfield HudWidgets[4].TextWidgets[0].WidgetIndex 3
 
 addblockelements HudWidgets[4].TextWidgets[0].StateData
-setfield HudWidgets[4].TextWidgets[0].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[0].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[0].StateData[0].HiddenState Zoomed
 
-setfield HudWidgets[4].TextWidgets[1].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[1].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[1].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[1].StateData[0].HiddenState Zoomed
 
 savetagchanges
 exit
@@ -1129,10 +1129,10 @@ setfield HudWidgets[4].TextWidgets[0].PlacementData[0].Scale 0.26 0.26
 setfield HudWidgets[4].TextWidgets[0].WidgetIndex 3
 
 addblockelements HudWidgets[4].TextWidgets[0].StateData
-setfield HudWidgets[4].TextWidgets[0].StateData[0].Weapon_SpecialFlags BatteryBelowCutoff
-setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[0].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponFlash BatteryLow
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[0].StateData[0].HiddenState Zoomed
 savetagchanges
 exit
 
@@ -1183,10 +1183,10 @@ setfield HudWidgets[4].TextWidgets[0].PlacementData[0].Scale 0.26 0.26
 setfield HudWidgets[4].TextWidgets[0].WidgetIndex 3
 
 addblockelements HudWidgets[4].TextWidgets[0].StateData
-setfield HudWidgets[4].TextWidgets[0].StateData[0].Weapon_SpecialFlags BatteryBelowCutoff
-setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[0].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponFlash BatteryLow
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[0].StateData[0].HiddenState Zoomed
 savetagchanges
 exit
 
@@ -1216,10 +1216,10 @@ setfield HudWidgets[4].TextWidgets[0].PlacementData[0].Scale 0.26 0.26
 setfield HudWidgets[4].TextWidgets[0].WidgetIndex 3
 
 addblockelements HudWidgets[4].TextWidgets[0].StateData
-setfield HudWidgets[4].TextWidgets[0].StateData[0].Weapon_SpecialFlags BatteryBelowCutoff
-setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[0].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponFlash BatteryLow
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[0].StateData[0].HiddenState Zoomed
 savetagchanges
 exit
 
@@ -1267,10 +1267,10 @@ setfield HudWidgets[4].TextWidgets[0].PlacementData[0].Scale 0.26 0.26
 setfield HudWidgets[4].TextWidgets[0].WidgetIndex 7
 
 addblockelements HudWidgets[4].TextWidgets[0].StateData
-setfield HudWidgets[4].TextWidgets[0].StateData[0].Weapon_SpecialFlags BatteryBelowCutoff
-setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[0].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponFlash BatteryLow
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[0].StateData[0].HiddenState Zoomed
 setfield HudWidgets[3].ParallaxData ui\chud\parallax\vehicles.chud_widget_parallax_data
 savetagchanges
 exit
@@ -1309,15 +1309,15 @@ setfield HudWidgets[4].TextWidgets[1].PlacementData[0].Scale 0.312 0.312
 setfield HudWidgets[4].TextWidgets[0].WidgetIndex 3
 
 addblockelements HudWidgets[4].TextWidgets[0].StateData
-setfield HudWidgets[4].TextWidgets[0].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[0].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[0].StateData[0].HiddenState Zoomed
 
-setfield HudWidgets[4].TextWidgets[1].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[1].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[1].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[1].StateData[0].HiddenState Zoomed
 
 savetagchanges
 exit
@@ -1382,15 +1382,15 @@ setfield HudWidgets[4].TextWidgets[1].PlacementData[0].Scale 0.312 0.312
 
 setfield HudWidgets[4].TextWidgets[0].WidgetIndex 10
 addblockelements HudWidgets[4].TextWidgets[0].StateData
-setfield HudWidgets[4].TextWidgets[0].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[0].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[0].StateData[0].HiddenState Zoomed
 
-setfield HudWidgets[4].TextWidgets[1].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[1].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[1].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[1].StateData[0].HiddenState Zoomed
 savetagchanges
 exit
 
@@ -1426,15 +1426,15 @@ setfield HudWidgets[3].TextWidgets[1].PlacementData[0].Scale 0.312 0.312
 setfield HudWidgets[3].TextWidgets[0].WidgetIndex 3
 
 addblockelements HudWidgets[3].TextWidgets[0].StateData
-setfield HudWidgets[3].TextWidgets[0].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[3].TextWidgets[0].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[3].TextWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[3].TextWidgets[0].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[3].TextWidgets[0].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[3].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[3].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[3].TextWidgets[0].StateData[0].HiddenState Zoomed
 
-setfield HudWidgets[3].TextWidgets[1].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[3].TextWidgets[1].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[3].TextWidgets[1].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[3].TextWidgets[1].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[3].TextWidgets[1].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[3].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[3].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[3].TextWidgets[1].StateData[0].HiddenState Zoomed
 
 savetagchanges
 exit
@@ -1472,15 +1472,15 @@ setfield HudWidgets[4].TextWidgets[1].PlacementData[0].Scale 0.312 0.312
 setfield HudWidgets[4].TextWidgets[0].WidgetIndex 3
 
 addblockelements HudWidgets[4].TextWidgets[0].StateData
-setfield HudWidgets[4].TextWidgets[0].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[0].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[0].StateData[0].HiddenState Zoomed
 
-setfield HudWidgets[4].TextWidgets[1].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[1].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[1].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[1].StateData[0].HiddenState Zoomed
 
 savetagchanges
 exit
@@ -1517,15 +1517,15 @@ setfield HudWidgets[4].TextWidgets[1].PlacementData[0].Scale 0.312 0.312
 setfield HudWidgets[4].TextWidgets[0].WidgetIndex 3
 
 addblockelements HudWidgets[4].TextWidgets[0].StateData
-setfield HudWidgets[4].TextWidgets[0].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[0].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[0].StateData[0].HiddenState Zoomed
 
-setfield HudWidgets[4].TextWidgets[1].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
-setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[4].TextWidgets[1].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[4].TextWidgets[1].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponFlash AmmoLoadedLow
+setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[4].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[4].TextWidgets[1].StateData[0].HiddenState Zoomed
 
 savetagchanges
 exit
@@ -1559,10 +1559,10 @@ setfield HudWidgets[5].TextWidgets[0].PlacementData[0].Scale 0.26 0.26
 setfield HudWidgets[5].TextWidgets[0].WidgetIndex 7
 
 addblockelements HudWidgets[5].TextWidgets[0].StateData
-setfield HudWidgets[5].TextWidgets[0].StateData[0].Weapon_SpecialFlags BatteryBelowCutoff
-setfield HudWidgets[5].TextWidgets[0].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[5].TextWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[5].TextWidgets[0].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[5].TextWidgets[0].StateData[0].WeaponFlash BatteryLow
+setfield HudWidgets[5].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[5].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[5].TextWidgets[0].StateData[0].HiddenState Zoomed
 savetagchanges
 exit
 
@@ -1593,10 +1593,10 @@ setfield HudWidgets[3].TextWidgets[0].PlacementData[0].Scale 0.26 0.26
 setfield HudWidgets[3].TextWidgets[0].WidgetIndex 7
 
 addblockelements HudWidgets[3].TextWidgets[0].StateData
-setfield HudWidgets[3].TextWidgets[0].StateData[0].Weapon_SpecialFlags BatteryBelowCutoff
-setfield HudWidgets[3].TextWidgets[0].StateData[0].WeaponStatusFlags SourceIsBackpacked
-setfield HudWidgets[3].TextWidgets[0].StateData[0].UnitZoomFlags BinocularsEnabled
-setfield HudWidgets[3].TextWidgets[0].StateData[0].InverseFlags NotZoomedIn
+setfield HudWidgets[3].TextWidgets[0].StateData[0].WeaponFlash BatteryLow
+setfield HudWidgets[3].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+setfield HudWidgets[3].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[3].TextWidgets[0].StateData[0].HiddenState Zoomed
 savetagchanges
 exit
 
