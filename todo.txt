@@ -1,7 +1,8 @@
 TODO:
+Revenant crosshair dissapeared, we need to find it.
 Kill volume isn't phased...
 Respawn zone isn't phased...
-Find way to get Reach FX ball screen FX working.
+Find way to get Reach FX ball screen FX working. Function min and max need to be fixed.
 See if there's projectile drop on banshee bomb and if there is fix it.
 Increase the projectile speed for certain hitscan weapons (To combat ED buggy network)
 
