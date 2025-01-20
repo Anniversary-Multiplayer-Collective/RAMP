@@ -1138,7 +1138,7 @@ ForEach weap contains: objects\weapons setfield WaterDensity None
 RunCommands "workingdir\podiumcamera.cmds"
 
 # echo ==Copy 0.7 NewDamageInfo for fusion coil and plasma battery...==
-RunCommands "fusion_coil_plasma_battery_damage.cmds"
+RunCommands "workingdir\fusion_coil_plasma_battery_damage.cmds"
 
 ImportFonts workingdir\fonts_new.bin
 
