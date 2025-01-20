@@ -94,7 +94,7 @@ SetField NewDamageInfo[0].DamageSections[1].InstantResponses[0].ConstraintDamage
 SetField NewDamageInfo[0].DamageSections[1].InstantResponses[0].ConstraintGroupName invalid
 SetField NewDamageInfo[0].DamageSections[1].InstantResponses[0].Flags DestroysObject,ForceUnattachedEffects
 SetField NewDamageInfo[0].DamageSections[1].InstantResponses[0].DamageThreshold 0
-SetField NewDamageInfo[0].DamageSections[1].InstantResponses[0].PrimaryTransitionEffect fx\scenery_fx\explosions\human_explosion_medium\human_explosion_medium.effect
+SetField NewDamageInfo[0].DamageSections[1].InstantResponses[0].PrimaryTransitionEffect fx\fx_library\explosions\human_explosion_medium\human_explosion_medium.effect
 SetField NewDamageInfo[0].DamageSections[1].InstantResponses[0].SecondaryTransitionEffect objects\gear\human\military\fusion_coil\fx\detonation.effect
 SetField NewDamageInfo[0].DamageSections[1].InstantResponses[0].TransitionDamageEffect objects\gear\human\military\damage_effects\fusion_coil_explosion.damage_effect
 SetField NewDamageInfo[0].DamageSections[1].InstantResponses[0].Region invalid
@@ -226,7 +226,7 @@ SetField NewDamageInfo[0].DamageSections[1].InstantResponses[0].ConstraintDamage
 #SetField NewDamageInfo[0].DamageSections[1].InstantResponses[0].ConstraintGroupName invalid
 SetField NewDamageInfo[0].DamageSections[1].InstantResponses[0].Flags DestroysObject,ForceUnattachedEffects,SkipSoundsOnGenericEffect
 SetField NewDamageInfo[0].DamageSections[1].InstantResponses[0].DamageThreshold 0
-SetField NewDamageInfo[0].DamageSections[1].InstantResponses[0].PrimaryTransitionEffect fx\scenery_fx\explosions\covenant_explosion_medium\covenant_explosion_medium_3.effect
+SetField NewDamageInfo[0].DamageSections[1].InstantResponses[0].PrimaryTransitionEffect fx\fx_library\explosions\covenant_explosion_large\covenant_explosion_large.effect
 SetField NewDamageInfo[0].DamageSections[1].InstantResponses[0].SecondaryTransitionEffect objects\gear\covenant\military\battery\fx\trans_battery_destroyed.effect
 SetField NewDamageInfo[0].DamageSections[1].InstantResponses[0].TransitionDamageEffect objects\gear\covenant\military\battery\damage_effects\battery_explosion.damage_effect
 SetField NewDamageInfo[0].DamageSections[1].InstantResponses[0].Region object
