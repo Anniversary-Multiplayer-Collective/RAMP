@@ -1140,6 +1140,9 @@ RunCommands "workingdir\podiumcamera.cmds"
 # echo ==Copy 0.7 NewDamageInfo for fusion coil and plasma battery...==
 RunCommands "workingdir\fusion_coil_plasma_battery_damage.cmds"
 
+# echo ==Fix Holograms...==
+RunCommands "workingdir\fixholograms.cmds"
+
 ImportFonts workingdir\fonts_new.bin
 
 DeleteModFiles
