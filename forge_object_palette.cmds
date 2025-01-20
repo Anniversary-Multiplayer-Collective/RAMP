@@ -1138,6 +1138,7 @@ AddForgeItem "COVENANT BFG" 99 objects\vehicles\covenant\turrets\bfg\bfg.scenery
 AddForgeItem "COVENANT DISPLAY" 99 objects\props\covenant\comm_display\comm_display.scenery
 AddForgeItem "COVENANT FUEL STORAGE" 99 objects\props\covenant\vehicle_fuel_storage\vehicle_fuel_storage.crate
 AddForgeItem "COVENANT FOOD RATIONS" 99 objects\props\covenant\cov_food_rations\cov_food_rations.crate
+AddForgeItem "COVENANT SIGNAL JAMMER" 99 objects\props\covenant\cov_signal_jammer\cov_signal_jammer.scenery
 AddForgeItem "COVENANT STOOL" 99 objects\props\covenant\cov_camp_stool\cov_camp_stool.crate
 AddForgeItem "COVENANT PLASMA STORAGE" 99 objects\props\covenant\bulk_plasma_storage\bulk_plasma_storage.crate
 AddForgeItem "COVENANT SUCKERS PLANT" 99 levels\dlc\cex_damnation\scenery\cex_damnation_plant\cex_damnation_plant.scenery
