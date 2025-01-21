@@ -1,10 +1,13 @@
 TODO:
-Revenant crosshair dissapeared, we need to find it.
-Kill volume isn't phased...
-Respawn zone isn't phased...
+Warthog brake lights are out, Change the bulbs.
+Add dual wield animations?
+Gold and Orange BR's are color swapped
+Gold and Orange SMG's are color swapped
+Revenant crosshair dissapeared, We need to find it.
+Several objects need to be set to phased such as kill volumes, Camera, Respawn Zone, ect.
 Find way to get Reach FX ball screen FX working. Function min and max need to be fixed.
-See if there's projectile drop on banshee bomb and if there is fix it.
 Increase the projectile speed for certain hitscan weapons (To combat ED buggy network)
+Fix projectile drop on banshee bomb
 
 Known maps bugs
 If anyone know any bugs please put them here
