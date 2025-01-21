@@ -871,21 +871,6 @@ OpenModPackage "workingdir\paks\1999_Emotes v1_5 CUSTOM.pak"
 ApplyModPackage
 ExitModPackage
 
-echo ==Apply Spawn Points==
-
-OpenModPackage "workingdir\paks\InitialSpawns.pak"
-ApplyModPackage
-ExitModPackage
-
-EditTag objects\multi\spawning\ff_respawn_point\ff_respawn_point.model
-RemoveBlockElements NewDamageInfo 0 *
-SaveTagChanges
-Exit
-
-EditTag objects\multi\spawning\ff_init_spawn_point\ff_init_spawn_point.model
-RemoveBlockElements NewDamageInfo 0 *
-SaveTagChanges
-Exit
 
 EditTag objects\vehicles\falcon\player_animations\player_animations.model_animation_graph
 SortModes
@@ -906,6 +891,11 @@ EditTag objects\characters\dervish\dervish.model_animation_graph
 SortModes
 SaveTagChanges
 Exit
+
+echo ==Apply Spawn Points==
+OpenModPackage "workingdir\paks\InitialSpawns.pak"
+ApplyModPackage
+ExitModPackage
 
 echo ==Fix Shield Crash==
 EditTag objects\characters\jackal\fx\_particles\plasma_noise.particle
