@@ -1143,6 +1143,17 @@ RunCommands "workingdir\fusion_coil_plasma_battery_damage.cmds"
 # echo ==Fix Holograms...==
 RunCommands "workingdir\fixholograms.cmds"
 
+# echo ==Elite Model Improvements...==
+EditTag objects\characters\elite\mp_elite\mp_elite.render_model
+ReplaceRenderGeometry "workingdir\models\ramp_dino.dae" TriangleStrip
+SaveTagChanges
+Exit
+
+EditTag objects\characters\elite\mp_elite\fp_body\fp_body.render_model
+ReplaceRenderGeometry "workingdir\models\ramp_elite_fp_body.dae" TriangleStrip
+SaveTagChanges
+Exit
+
 ImportFonts workingdir\fonts_new.bin
 
 DeleteModFiles
