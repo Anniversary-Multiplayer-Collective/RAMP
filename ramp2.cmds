@@ -659,24 +659,32 @@ SaveTagChanges
 Exit
 
 EditTag ui\hud\hud_messages.multilingual_unicode_string_list
-setstring english falcon_drive "\uE461\uE45F to drive Falcon"
-setstring english falcon_enter_passenger "\uE461\uE45F to ride in Falcon"
-setstring english falcon_board "\uE461\uE45F to board Falcon"
-setstring english falcon_flip "\uE461\uE45F to flip Falcon"
-setstring english falcon_enter_gunner "\uE461\uE45F to operate Falcon turret"
+SetString english falcon_drive "\uE461\uE45F to drive Falcon"
+SetString english falcon_enter_passenger "\uE461\uE45F to ride in Falcon"
+SetString english falcon_board "\uE461\uE45F to board Falcon"
+SetString english falcon_flip "\uE461\uE45F to flip Falcon"
+SetString english falcon_enter_gunner "\uE461\uE45F to operate Falcon turret"
 SaveTagChanges
 Exit
 
 echo ==Fix projectile drop==
 EditTag dw3\r3ach\objects\weapons\support_high\rocket_launcher\projectiles\rocket_launcher_rocket.projectile
-SetField WaterGravityScale 0
+SetField WaterGravityScale 0.02
+SetField WaterDamageRange 0 150
 SaveTagChanges
 Exit
 
-edittag dw3\r3ach\objects\weapons\support_high\flak_cannon\projectiles\flak_bolt.projectile
-setfield WaterGravityScale 0
-savetagchanges
-exit
+EditTag dw3\r3ach\objects\weapons\support_high\flak_cannon\projectiles\flak_bolt.projectile
+SetField WaterGravityScale 0.025
+SetField WaterDamageRange 0 150
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\banshee\weapon\banshee_bomb.projectile
+SetField WaterGravityScale 0.2
+SetField WaterDamageRange 0 0
+SaveTagChanges
+Exit
 
 # echo ==Add reach armor abilities to the palette...==
 
