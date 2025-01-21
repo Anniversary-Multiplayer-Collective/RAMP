@@ -438,6 +438,45 @@ SetField PhantomTypes[0].Flags.Halo3ODST IgnoresPlayers,IgnoresBipeds,IgnoresVeh
 SaveTagChanges
 Exit
 
+EditTag levels\multi\dlc\objects\dlc_vehicle_bay_shield_door_large\dlc_vehicle_bay_shield_door_large.physics_model
+SetField PhantomTypes[0].Flags.Halo3ODST IgnoresWeapons,IgnoresEquipment,IgnoresProjectiles,IgnoresScenery,IgnoresMachines,IgnoresControls,IgnoresSoundScenery,IgnoresCrates,IgnoresCreatures,IgnoresGiants,IgnoresEffectScenery,IgnoresDeadBipeds
+SaveTagChanges
+Exit
+
+EditTag levels\multi\dlc\objects\dlc_vehicle_bay_shield_door_small\dlc_vehicle_bay_shield_door_small.physics_model
+SetField PhantomTypes[0].Flags.Halo3ODST IgnoresWeapons,IgnoresEquipment,IgnoresProjectiles,IgnoresScenery,IgnoresMachines,IgnoresControls,IgnoresSoundScenery,IgnoresCrates,IgnoresCreatures,IgnoresGiants,IgnoresEffectScenery,IgnoresDeadBipeds
+SaveTagChanges
+Exit
+
+EditTag objects\props\human\unsc\laser_field_huge\laser_field_huge.physics_model
+SetField PhantomTypes[0].Flags.Halo3ODST IgnoresWeapons,IgnoresEquipment,IgnoresProjectiles,IgnoresScenery,IgnoresMachines,IgnoresControls,IgnoresSoundScenery,IgnoresCrates,IgnoresCreatures,IgnoresGiants,IgnoresEffectScenery,IgnoresDeadBipeds
+SaveTagChanges
+Exit
+
+EditTag objects\levels\forge\ff_shield_door_large\ff_shield_door_large.physics_model
+SetField PhantomTypes[0].Flags.Halo3ODST IgnoresWeapons,IgnoresEquipment,IgnoresProjectiles,IgnoresScenery,IgnoresMachines,IgnoresControls,IgnoresSoundScenery,IgnoresCrates,IgnoresCreatures,IgnoresGiants,IgnoresEffectScenery,IgnoresDeadBipeds
+SaveTagChanges
+Exit
+
+EditTag objects\levels\forge\ff_shield_door_medium\ff_shield_door_medium.physics_model
+SetField PhantomTypes[0].Flags.Halo3ODST IgnoresWeapons,IgnoresEquipment,IgnoresProjectiles,IgnoresScenery,IgnoresMachines,IgnoresControls,IgnoresSoundScenery,IgnoresCrates,IgnoresCreatures,IgnoresGiants,IgnoresEffectScenery,IgnoresDeadBipeds
+SaveTagChanges
+Exit
+
+EditTag objects\levels\forge\ff_shield_door_small\ff_shield_door_small.physics_model
+SetField PhantomTypes[0].Flags.Halo3ODST IgnoresWeapons,IgnoresEquipment,IgnoresProjectiles,IgnoresScenery,IgnoresMachines,IgnoresControls,IgnoresSoundScenery,IgnoresCrates,IgnoresCreatures,IgnoresGiants,IgnoresEffectScenery,IgnoresDeadBipeds
+SaveTagChanges
+Exit
+
+# No vehicles on this map so I don't know how they behave with them.
+# objects\levels\multi\dlc\dlc_slayer\dlc_hangar_shield\dlc_hangar_shield.physics_model
+
+# levels\multi\dlc\objects\dlc_slayer_shield_repair_s\dlc_hangar_shield_repair_s\dlc_hangar_shield_repair_s.physics_model
+
+
+
+
+
 # echo ==Add MP Skyboxes To Pallette...==
 
 AddSkyBox "Anchor 9" levels\multi\dlc\dlc_slayer\dlc_slayer
