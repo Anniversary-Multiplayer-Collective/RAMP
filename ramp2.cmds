@@ -418,6 +418,46 @@ echo == FORGE ==
 RunCommands "workingdir\forge_object_port.cmds"
 RunCommands "workingdir\forge_object_palette.cmds"
 
+echo == M20 ELEVATOR FIX ==
+EditTag objects\levels\shared\m20_elevator_sm\m20_elevator_sm.device_machine
+SetField ObjectFlags.Flags DoesNotCastShadow
+SaveTagChanges
+Exit
+
+EditTag objects\levels\shared\m20_elevator_sm\m20_elevator_sm.model_animation_graph
+setfield SoundReferences[2].Reference sound\device_machines\omaha\doors_lifts\m20_elevator_small\m20_elev_open_close\m20_elev_open.sound
+setfield SoundReferences[3].Reference sound\device_machines\omaha\doors_lifts\m20_elevator_small\m20_elev_open_close\m20_elev_close.sound
+AddAnimation workingdir\animations\m20_elevator
+SetField Animations[0].AnimationData.DesiredCompression BestScore
+SetField Animations[0].AnimationData.CurrentCompression BestScore
+SetField Animations[0].AnimationData.NodeListChecksum -343606298
+AddBlockElements Animations[0].AnimationData.SoundEvents 4
+
+# Lol, absolutely noone will notice about the missing sound but eh
+# If it can be fixed, then it will
+
+# OPEN BOTTOM
+setfield Animations[0].AnimationData.SoundEvents[0].Sound 2
+setfield Animations[0].AnimationData.SoundEvents[0].Frame 2
+setfield Animations[0].AnimationData.SoundEvents[0].MarkerName entry_audio
+
+# CLOSE BOTTOM
+setfield Animations[0].AnimationData.SoundEvents[1].Sound 1
+setfield Animations[0].AnimationData.SoundEvents[1].Frame 0
+setfield Animations[0].AnimationData.SoundEvents[1].MarkerName entry_audio
+
+# OPEN TOP
+setfield Animations[0].AnimationData.SoundEvents[2].Sound 0
+setfield Animations[0].AnimationData.SoundEvents[2].Frame 13
+setfield Animations[0].AnimationData.SoundEvents[2].MarkerName exit_audio
+
+# CLOSE TOP
+setfield Animations[0].AnimationData.SoundEvents[3].Sound 3
+setfield Animations[0].AnimationData.SoundEvents[3].Frame 15
+setfield Animations[0].AnimationData.SoundEvents[3].MarkerName exit_audio
+SaveTagChanges
+Exit
+
 echo ==Remove damage from ported models==
 EditTag objects\gear\human\military\camping_stool_mp\camping_stool_mp.model
 RemoveBlockElements NewDamageInfo 0 1
