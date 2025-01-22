@@ -1091,6 +1091,15 @@ SetField RenderFlags None
 SaveTagChanges
 Exit
 
+echo ==Outpost fog fix==
+# at least it's no longer blue, still inaccurate tho
+
+EditTag levels\firefight\ff60_airview\ff60_airview.sky_atm_parameters
+SetField AtmosphereSettings[0].Color 0.1 0.059 0.036
+SetField AtmosphereSettings[0].MaxFogThickness 100
+SaveTagChanges
+Exit
+
 echo ==Make frag and plasma grenades explode with precision weapons==
 EditTag objects\weapons\grenade\frag_grenade\frag_grenade_equipment.model
 SetField NewDamageInfo[0].DamageSections[1].InstantResponses[1].CustomResponseLabel headshot
@@ -1201,7 +1210,7 @@ AddModFiles workingdir\assets
 UpdateMapFiles "workingdir\info"
 
 EditTag multiplayer\forge_globals.forge_globals_definition
-MaximizeBudget
+MaximizeBudget All
 SaveTagChanges
 Exit
 

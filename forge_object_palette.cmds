@@ -62,7 +62,6 @@ AddForgeCategory "H:R MULTIPLAYER MAP BLOCKS" 85
 # EQUIPMENTS
 AddForgeItem "HEALTH PACK" 66 objects\powerups\health_pack\health_pack_large.equipment
 
-AddForgeItem "NEEDLER AMMO" 69 objects\powerups\needler_ammo\needler_ammo.equipment
 AddForgeItem "MAGNUM AMMO" 69 objects\powerups\pistol_ammo\pistol_ammo.equipment
 AddForgeItem "SPNKR AMMO" 69 objects\powerups\rocket_launcher_ammo\rocket_launcher_ammo.equipment
 AddForgeItem "SHOTGUN AMMO" 69 objects\powerups\shotgun_ammo\shotgun_ammo.equipment
@@ -92,7 +91,7 @@ AddForgeItem "RECEIVER, HUMAN" TELEPORTERS objects\ca_dev\dlc_preserve\crates\te
 AddForgeItem "SENDER, HUMAN" TELEPORTERS objects\ca_dev\dlc_preserve\crates\teleporter_sender\teleporter_sender.crate
 
 # DEVICES [86] -------------------------------------------------------------------------------------------------------------
-AddForgeItem "BRIDGE" 86 levels\multi\dlc\objects\dlc_invasion_bridge\dlc_invasion_bridge.device_machine
+AddForgeItem "BREAKPOINT BRIDGE" 86 levels\multi\dlc\objects\dlc_invasion_bridge\dlc_invasion_bridge.device_machine
 AddForgeItem "COVENANT POWER MODULE" 86 objects\props\covenant\cov_powermodule_stand\cov_powermodule_stand.device_machine
 AddForgeItem "ELEVATOR" 86 objects\levels\shared\m20_elevator_sm\m20_elevator_sm.device_machine
 
@@ -1009,11 +1008,31 @@ setfield Palette[*].Setters[*].Target General_Physics
 setfield Palette[*].Setters[*].IntegerValue 1
 
 addblockelements Palette
-setfield Palette[*].Name "ONE WAY SHIELD, NO SIGN, LARGE"
+setfield Palette[*].Name "ONE WAY SHIELD, NO SIGN, XMEDIUM"
+setfield Palette[*].Type Prop
+setfield Palette[*].CategoryIndex 97
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\props\covenant\shield_door_medium\shield_door_medium.crate
+addblockelements Palette[*].Setters 1
+setfield Palette[*].Setters[*].Target General_Physics
+setfield Palette[*].Setters[*].IntegerValue 1
+
+addblockelements Palette
+setfield Palette[*].Name "ONE WAY SHIELD, NO SIGN, LARGE 1"
 setfield Palette[*].Type Prop
 setfield Palette[*].CategoryIndex 97
 setfield Palette[*].DescriptionIndex -1
 setfield Palette[*].Object objects\levels\forge\ff_shield_door_large\ff_shield_door_large.crate
+addblockelements Palette[*].Setters 1
+setfield Palette[*].Setters[*].Target General_Physics
+setfield Palette[*].Setters[*].IntegerValue 1
+
+addblockelements Palette
+setfield Palette[*].Name "ONE WAY SHIELD, NO SIGN, LARGE 2"
+setfield Palette[*].Type Prop
+setfield Palette[*].CategoryIndex 97
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\props\covenant\shield_door_large\shield_door_large.crate
 addblockelements Palette[*].Setters 1
 setfield Palette[*].Setters[*].Target General_Physics
 setfield Palette[*].Setters[*].IntegerValue 1
@@ -1129,7 +1148,7 @@ AddForgeItem "FORERUNNER, FRUNNER WHEEL" 99 levels\dlc\cex_beaver_creek\scenery\
 duplicatetag levels\dlc\cex_ff_halo\scenery\cannonengine2\cannonengine2.scenery levels\dlc\cex_ff_halo\scenery\cannonengine2\cannonengine2_ramp
 AddForgeItem "FORERUNNER, ENGINE WIND UP" 99 levels\dlc\cex_ff_halo\scenery\cannonengine2\cannonengine2_ramp.scenery
 
-AddForgeItem "BRIDGE DOWN" 99 levels\multi\dlc\objects\dlc_invasion_bridge_down\dlc_invasion_bridge_down.crate
+AddForgeItem "BREAKPOINT BRIDGE DOWN" 99 levels\multi\dlc\objects\dlc_invasion_bridge_down\dlc_invasion_bridge_down.crate
 AddForgeItem "CRANE" 99 objects\levels\solo\m30\crane\crane.scenery
 AddForgeItem "FUELING STATION" 99 objects\props\human\unsc\diagnostic_fueling_station\diagnostic_fueling_station.scenery
 AddForgeItem "VEHICLE MAINTENANCE STATION" 99 objects\props\human\unsc\vehicle_maintenance_station\vehicle_maintenance_station.scenery
@@ -2597,8 +2616,30 @@ Foreach scenery startingwith: objects\levels\firefight\ff30_waterfront\ff30_path
 Foreach scenery startingwith: objects\gear\human\military\antennae_mast\antennae_mast addblockelements MultiplayerObject 1
 Foreach scenery startingwith: objects\props\human\pioneer\garage\container_long_rusted\container_long_rusted addblockelements MultiplayerObject 1
 Foreach scenery startingwith: objects\props\human\pioneer\garage\container_small_rusted\container_small_rusted addblockelements MultiplayerObject 1
+Foreach scenery startingwith: objects\gear\human\military\resupply_capsule\resupply_capsule addblockelements MultiplayerObject 1
+Foreach scenery startingwith: objects\props\human\unsc\concrete_guard_rail\concrete_guard_rail addblockelements MultiplayerObject 1
 
 edittag multiplayer\forge_globals.forge_globals_definition
+
+addblockelements Palette
+setfield Palette[*].Name "RESUPPLY CASE"
+setfield Palette[*].Type Prop
+setfield Palette[*].CategoryIndex -1 
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\gear\human\military\resupply_capsule\resupply_capsule.scenery
+addblockelements Palette[*].Setters 1
+setfield Palette[*].Setters[*].Target General_Physics
+setfield Palette[*].Setters[*].IntegerValue 1
+
+addblockelements Palette
+setfield Palette[*].Name "GUARD RAIL, CONCRETE"
+setfield Palette[*].Type Prop
+setfield Palette[*].CategoryIndex -1 
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object oobjects\props\human\unsc\concrete_guard_rail\concrete_guard_rail.scenery
+addblockelements Palette[*].Setters 1
+setfield Palette[*].Setters[*].Target General_Physics
+setfield Palette[*].Setters[*].IntegerValue 1
 
 addblockelements Palette
 setfield Palette[*].Name "CONTAINER CARGO, LONG, RUSTED"
