@@ -708,6 +708,12 @@ SetField WaterGravityScale 0.1
 SaveTagChanges
 Exit
 
+EditTag objects\vehicles\covenant\revenant\turrets\revenant_plasma_turret\weapon\revenant_plasma_turret.projectile
+SetField WaterGravityScale 0.33
+SaveTagChanges
+Exit
+
+
 # echo ==Add reach armor abilities to the palette...==
 
 EditTag multiplayer\forge_globals.forge_globals_definition
