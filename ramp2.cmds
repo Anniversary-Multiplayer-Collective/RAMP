@@ -73,6 +73,11 @@ setfield Barrels[0].Projectile objects\vehicles\covenant\revenant\turrets\revena
 savetagchanges
 Exit
 
+edittag objects\vehicles\covenant\revenant\turrets\revenant_plasma_mortar\revenant_plasma_mortar.weapon
+setfield WeaponFlags.NewFlags SecondaryTriggerOverridesGrenades,CannotFireWhileBoosting
+savetagchanges
+Exit
+
 echo ==Hugegrass Falcon==
 
 OpenModPackage "workingdir\paks\hugegrassfalcon.pak"
