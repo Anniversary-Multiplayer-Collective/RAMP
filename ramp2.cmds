@@ -68,6 +68,11 @@ ExitModPackage
 
 AddForgeItem "REVENANT" "VEHICLES" objects\vehicles\covenant\revenant\revenant.vehicle
 
+edittag objects\vehicles\covenant\revenant\turrets\revenant_plasma_mortar\revenant_plasma_mortar.weapon
+setfield Barrels[0].Projectile objects\vehicles\covenant\revenant\turrets\revenant_plasma_turret\weapon\revenant_plasma_turret.projectile
+savetagchanges
+Exit
+
 echo ==Hugegrass Falcon==
 
 OpenModPackage "workingdir\paks\hugegrassfalcon.pak"
@@ -203,6 +208,7 @@ PortTag sound\dialog\combat\spartan6_male\default\14_1st_person\sprint.sound
 PortTag sound\dialog\combat\spartan6_male\default\14_1st_person\sprint_end.sound
 PortTag sound\weapons\equipment\sprint\sprint_deactivate.sound
 PortTag !Scripts !UpdateMapFiles *.scnr
+PortTag objects\vehicles\covenant\revenant\turrets\revenant_plasma_turret\weapon\revenant_plasma_turret.projectile
 Exit
 
 OpenCacheFile "reachmaps\cex_beaver_creek.map"
