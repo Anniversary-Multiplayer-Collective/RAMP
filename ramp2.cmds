@@ -678,7 +678,7 @@ SetString english falcon_enter_gunner "\uE461\uE45F to operate Falcon turret"
 SaveTagChanges
 Exit
 
-echo ==Fix projectile drop==
+echo ==Fix projectile drop & other issues related==
 EditTag dw3\r3ach\objects\weapons\support_high\rocket_launcher\projectiles\rocket_launcher_rocket.projectile
 SetField WaterGravityScale 0.02
 SetField WaterDamageRange 0 150
@@ -694,6 +694,17 @@ Exit
 EditTag objects\vehicles\banshee\weapon\banshee_bomb.projectile
 SetField WaterGravityScale 0.2
 SetField WaterDamageRange 0 0
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\banshee\weapon\banshee_bolt.projectile
+SetField WaterGravityScale 0
+SetField WaterDamageRange 0 160
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\support_high\plasma_launcher\projectiles\grenade.projectile
+SetField WaterGravityScale 0.1
 SaveTagChanges
 Exit
 
