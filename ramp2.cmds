@@ -669,42 +669,6 @@ SetString english falcon_enter_gunner "\uE461\uE45F to operate Falcon turret"
 SaveTagChanges
 Exit
 
-echo ==Fix projectile drop & other issues related==
-EditTag dw3\r3ach\objects\weapons\support_high\rocket_launcher\projectiles\rocket_launcher_rocket.projectile
-SetField WaterGravityScale 0.02
-SetField WaterDamageRange 0 150
-SaveTagChanges
-Exit
-
-EditTag dw3\r3ach\objects\weapons\support_high\flak_cannon\projectiles\flak_bolt.projectile
-SetField WaterGravityScale 0.025
-SetField WaterDamageRange 0 150
-SaveTagChanges
-Exit
-
-EditTag objects\vehicles\banshee\weapon\banshee_bomb.projectile
-SetField WaterGravityScale 0.2
-SetField WaterDamageRange 0 0
-SaveTagChanges
-Exit
-
-EditTag objects\vehicles\banshee\weapon\banshee_bolt.projectile
-SetField WaterGravityScale 0
-SetField WaterDamageRange 0 160
-SaveTagChanges
-Exit
-
-EditTag dw3\r3ach\objects\weapons\support_high\plasma_launcher\projectiles\grenade.projectile
-SetField WaterGravityScale 0.1
-SaveTagChanges
-Exit
-
-EditTag objects\vehicles\covenant\revenant\turrets\revenant_plasma_turret\weapon\revenant_plasma_turret.projectile
-SetField WaterGravityScale 0.33
-SaveTagChanges
-Exit
-
-
 # echo ==Add reach armor abilities to the palette...==
 
 EditTag multiplayer\forge_globals.forge_globals_definition
@@ -1231,6 +1195,10 @@ EditTag objects\characters\elite\mp_elite\fp_body\fp_body.render_model
 ReplaceRenderGeometry "workingdir\models\ramp_elite_fp_body.dae" TriangleStrip
 SaveTagChanges
 Exit
+
+
+# echo ==Make WaterGravityScale and WaterDamageRange the same as the AirGravityScale and AirDamageRange for every projectile to combat a BUG Fixes weapon drop and more...==
+cs < "workingdir\WeaponWaterFix.cs"
 
 ImportFonts workingdir\fonts_new.bin
 
