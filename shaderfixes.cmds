@@ -504,3 +504,9 @@ EditTag levels\shared\shaders\oni\metal_oni_int_panel_n_cool.shader
 SetArgument specular_coefficient 0.1
 SaveTagChanges
 Exit
+
+# echo ==Shader fixes for Installion 04...==
+EditTag levels\dlc\cex_ff_halo\shaders\ca_halo_ocean_rocks.shader
+SetArgument specular_coefficient 0
+SaveTagChanges
+Exit
