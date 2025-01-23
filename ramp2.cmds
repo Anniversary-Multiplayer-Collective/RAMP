@@ -68,15 +68,6 @@ ExitModPackage
 
 AddForgeItem "REVENANT" "VEHICLES" objects\vehicles\covenant\revenant\revenant.vehicle
 
-edittag objects\vehicles\covenant\revenant\turrets\revenant_plasma_mortar\revenant_plasma_mortar.weapon
-setfield Barrels[0].Projectile objects\vehicles\covenant\revenant\turrets\revenant_plasma_turret\weapon\revenant_plasma_turret.projectile
-savetagchanges
-Exit
-
-edittag objects\vehicles\covenant\revenant\turrets\revenant_plasma_mortar\revenant_plasma_mortar.weapon
-setfield WeaponFlags.NewFlags SecondaryTriggerOverridesGrenades,CannotFireWhileBoosting
-savetagchanges
-Exit
 
 echo ==Hugegrass Falcon==
 
@@ -1205,6 +1196,18 @@ addblockelements Barrels[0].AccuracyPenalties.SingleWieldPenalties.FiringCrouche
 SetField Barrels[0].AccuracyPenalties.SingleWieldPenalties.FiringCrouchedPenaltyFunction[0].Function.Data 08340000000000000000803F00000000000000006F12833A6F12033B2400000002000000040000CDC3F5283ECC261B3F4444043F04000000FFFF7F7FCCA413BF573A363F
 savetagchanges
 exit
+
+
+echo ==Revenant projectile swap==
+edittag objects\vehicles\covenant\revenant\turrets\revenant_plasma_mortar\revenant_plasma_mortar.weapon
+setfield Barrels[0].Projectile objects\vehicles\covenant\revenant\turrets\revenant_plasma_turret\weapon\revenant_plasma_turret.projectile
+savetagchanges
+Exit
+
+edittag objects\vehicles\covenant\revenant\turrets\revenant_plasma_mortar\revenant_plasma_mortar.weapon
+setfield WeaponFlags.NewFlags SecondaryTriggerOverridesGrenades,CannotFireWhileBoosting
+savetagchanges
+Exit
 
 echo ==Make weapons not float like in reach==
 ForEach weap contains: objects\weapons setfield WaterDensity None
