@@ -86,7 +86,7 @@ OpenModPackage "workingdir\paks\rampvehicles.pak"
 ApplyModPackage
 ExitModPackage
 
-edittag objects\vehicles\warthog\warthog.render_model
+EditTag objects\vehicles\warthog\warthog.render_model
 SetField MarkerGroups[7].Markers[0].Translation -0.9167317 -0.2197281 0.09
 SetField MarkerGroups[7].Markers[1].Translation -0.9167317 0.2204493 0.09
 SetField MarkerGroups[19].Markers[0].Translation -0.9167317 0.22 0.09
@@ -96,6 +96,11 @@ SetField Geometry.Meshes[2].Parts[2].FlagsNew PreventBackfaceCulling
 SetField Geometry.Meshes[4].Parts[3].FlagsNew PreventBackfaceCulling
 SetField Geometry.Meshes[5].Parts[3].FlagsNew PreventBackfaceCulling
 SetField Geometry.Meshes[6].Parts[2].FlagsNew PreventBackfaceCulling
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\human\warthog\shaders\warthog_brakelights.shader
+SetArgument specular_coefficient 0.15
 SaveTagChanges
 Exit
 
