@@ -23,34 +23,34 @@ porttag rasterizer\diffuse_power_specular\diffuse_power.bitmap
 exit
 edittag *.rasg
 addblockelements defaultbitmaps
-setfield defaultbitmaps[*].bitmap rasterizer\diffuse_power_specular\diffuse_power.bitmap
+SetField defaultbitmaps[*].bitmap rasterizer\diffuse_power_specular\diffuse_power.bitmap
 savetagchanges
 exit
 stringid add g_diffuse_power_specular
 edittag shaders\shader_options\material_cook_torrance_option_reach.render_method_option
 addblockelements parameters
-setfield parameters[*].name g_diffuse_power_specular
-setfield parameters[*].RenderMethodExtern material_diffuse_power
+SetField parameters[*].name g_diffuse_power_specular
+SetField parameters[*].RenderMethodExtern material_diffuse_power
 savetagchanges
 exit
 edittag shaders\shader_options\material_two_lobe_phong_option_reach.render_method_option
 addblockelements parameters
-setfield parameters[*].name g_diffuse_power_specular
-setfield parameters[*].RenderMethodExtern material_diffuse_power
+SetField parameters[*].name g_diffuse_power_specular
+SetField parameters[*].RenderMethodExtern material_diffuse_power
 savetagchanges
 exit
 
 # echo ==Fix missing parameters in reach cook torrance...==
 edittag shaders\shader_options\material_cook_torrance_option_reach.render_method_option
 addblockelements parameters
-setfield parameters[*].Name g_sampler_cc0236
-setfield parameters[*].rendermethodextern texture_cook_torrance_cc0236
+SetField parameters[*].Name g_sampler_cc0236
+SetField parameters[*].rendermethodextern texture_cook_torrance_cc0236
 addblockelements parameters
-setfield parameters[*].Name g_sampler_dd0236
-setfield parameters[*].rendermethodextern texture_cook_torrance_dd0236
+SetField parameters[*].Name g_sampler_dd0236
+SetField parameters[*].rendermethodextern texture_cook_torrance_dd0236
 addblockelements parameters
-setfield parameters[*].Name g_sampler_c78d78
-setfield parameters[*].rendermethodextern texture_cook_torrance_c78d78
+SetField parameters[*].Name g_sampler_c78d78
+SetField parameters[*].rendermethodextern texture_cook_torrance_c78d78
 savetagchanges
 exit
 
@@ -85,6 +85,14 @@ echo ==Apply RAMP Vehicles==
 OpenModPackage "workingdir\paks\rampvehicles.pak"
 ApplyModPackage
 ExitModPackage
+
+edittag objects\vehicles\warthog\warthog.render_model
+SetField MarkerGroups[7].Markers[0].Translation -0.9167317 -0.2197281 0.09
+SetField MarkerGroups[7].Markers[1].Translation -0.9167317 0.2204493 0.09
+SetField MarkerGroups[19].Markers[0].Translation -0.9167317 0.22 0.09
+SetField MarkerGroups[25].Markers[0].Translation -0.9167317 -0.22 0.09
+SaveTagChanges
+Exit
 
 echo ==Apply Reach Weapons==
 OpenModPackage "workingdir\paks\Reach Weapons EK.pak"
@@ -427,8 +435,8 @@ SaveTagChanges
 Exit
 
 EditTag objects\levels\shared\m20_elevator_sm\m20_elevator_sm.model_animation_graph
-setfield SoundReferences[2].Reference sound\device_machines\omaha\doors_lifts\m20_elevator_small\m20_elev_open_close\m20_elev_open.sound
-setfield SoundReferences[3].Reference sound\device_machines\omaha\doors_lifts\m20_elevator_small\m20_elev_open_close\m20_elev_close.sound
+SetField SoundReferences[2].Reference sound\device_machines\omaha\doors_lifts\m20_elevator_small\m20_elev_open_close\m20_elev_open.sound
+SetField SoundReferences[3].Reference sound\device_machines\omaha\doors_lifts\m20_elevator_small\m20_elev_open_close\m20_elev_close.sound
 AddAnimation workingdir\animations\m20_elevator
 SetField Animations[0].AnimationData.DesiredCompression BestScore
 SetField Animations[0].AnimationData.CurrentCompression BestScore
@@ -439,24 +447,24 @@ AddBlockElements Animations[0].AnimationData.SoundEvents 4
 # If it can be fixed, then it will
 
 # OPEN BOTTOM
-setfield Animations[0].AnimationData.SoundEvents[0].Sound 2
-setfield Animations[0].AnimationData.SoundEvents[0].Frame 2
-setfield Animations[0].AnimationData.SoundEvents[0].MarkerName entry_audio
+SetField Animations[0].AnimationData.SoundEvents[0].Sound 2
+SetField Animations[0].AnimationData.SoundEvents[0].Frame 2
+SetField Animations[0].AnimationData.SoundEvents[0].MarkerName entry_audio
 
 # CLOSE BOTTOM
-setfield Animations[0].AnimationData.SoundEvents[1].Sound 1
-setfield Animations[0].AnimationData.SoundEvents[1].Frame 0
-setfield Animations[0].AnimationData.SoundEvents[1].MarkerName entry_audio
+SetField Animations[0].AnimationData.SoundEvents[1].Sound 1
+SetField Animations[0].AnimationData.SoundEvents[1].Frame 0
+SetField Animations[0].AnimationData.SoundEvents[1].MarkerName entry_audio
 
 # OPEN TOP
-setfield Animations[0].AnimationData.SoundEvents[2].Sound 0
-setfield Animations[0].AnimationData.SoundEvents[2].Frame 13
-setfield Animations[0].AnimationData.SoundEvents[2].MarkerName exit_audio
+SetField Animations[0].AnimationData.SoundEvents[2].Sound 0
+SetField Animations[0].AnimationData.SoundEvents[2].Frame 13
+SetField Animations[0].AnimationData.SoundEvents[2].MarkerName exit_audio
 
 # CLOSE TOP
-setfield Animations[0].AnimationData.SoundEvents[3].Sound 3
-setfield Animations[0].AnimationData.SoundEvents[3].Frame 15
-setfield Animations[0].AnimationData.SoundEvents[3].MarkerName exit_audio
+SetField Animations[0].AnimationData.SoundEvents[3].Sound 3
+SetField Animations[0].AnimationData.SoundEvents[3].Frame 15
+SetField Animations[0].AnimationData.SoundEvents[3].MarkerName exit_audio
 SaveTagChanges
 Exit
 
@@ -1164,17 +1172,17 @@ exit
 
 echo ==Revenant projectile swap==
 edittag objects\vehicles\covenant\revenant\turrets\revenant_plasma_mortar\revenant_plasma_mortar.weapon
-setfield Barrels[0].Projectile objects\vehicles\covenant\revenant\turrets\revenant_plasma_turret\weapon\revenant_plasma_turret.projectile
+SetField Barrels[0].Projectile objects\vehicles\covenant\revenant\turrets\revenant_plasma_turret\weapon\revenant_plasma_turret.projectile
 savetagchanges
 Exit
 
 edittag objects\vehicles\covenant\revenant\turrets\revenant_plasma_mortar\revenant_plasma_mortar.weapon
-setfield WeaponFlags.NewFlags SecondaryTriggerOverridesGrenades,CannotFireWhileBoosting
+SetField WeaponFlags.NewFlags SecondaryTriggerOverridesGrenades,CannotFireWhileBoosting
 savetagchanges
 Exit
 
 echo ==Make weapons not float like in reach==
-ForEach weap contains: objects\weapons setfield WaterDensity None
+ForEach weap contains: objects\weapons SetField WaterDensity None
 
 # echo ==Podium/Prematch Camera...==
 RunCommands "workingdir\podiumcamera.cmds"
