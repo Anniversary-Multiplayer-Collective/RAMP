@@ -1,4 +1,4 @@
-stringid add mineleloldabest_left_hand_spartan_fp
+# stringid add mineleloldabest_left_hand_spartan_fp
 
 edittag dw3\r3ach\objects\weapons\melee\energy_sword\animations\fp_spartan\fp_spartan.model_animation_graph
 addanimation workingdir\animations\spartan_fp\sword

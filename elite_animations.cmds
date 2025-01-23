@@ -1,6 +1,6 @@
 # WEAPONS THAT DON'T NEED IK
 # SWORD, MAGNUM, NEEDLER, PLASMA PISTOL, PLASMA RIFLE, SPIKER, TARGET LOCATOR, FUEL ROD, PLASMA LAUNCHER
-stringid add mineleloldabest_left_hand_elite_fp
+# stringid add mineleloldabest_left_hand_elite_fp
 
 edittag dw3\r3ach\objects\weapons\melee\energy_sword\animations\fp_elite\fp_elite.model_animation_graph
 addanimation workingdir\animations\elite_fp\sword
