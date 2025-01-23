@@ -17,6 +17,7 @@ RampCollective
 0.1
 MainMenu Multiplayer Character
 
+# Thanks to NoShotz for helping out :), really appreciate it
 # echo ==Add default bitmap + parameter for reach diffuse power...==
 opencachefile "reachmaps\dlc_slayer.map"
 porttag rasterizer\diffuse_power_specular\diffuse_power.bitmap

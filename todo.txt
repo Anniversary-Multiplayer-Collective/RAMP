@@ -80,7 +80,6 @@ If anyone has fixed any of these please delete or comment it out with a #
 - When you're in the upper stair the balcony floor it self deloads
 
 (INSTALLATION 04)
-- The rock in the water has weird shader where it becomes bright if you look at certain angles
 - The map in general has low contrast fx affecting everything, not sure if this intended
 
 (OUTPOST)
@@ -110,7 +109,6 @@ If anyone has fixed any of these please delete or comment it out with a #
 
 (SPIRE)
 - Theres a pelican floating there... menacingly
-- The shield layer doesn't mix well with the skybox
 
 (SWORD BASE)
 - Haven't found any
