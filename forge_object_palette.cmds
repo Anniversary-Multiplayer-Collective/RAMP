@@ -2636,7 +2636,7 @@ setfield Palette[*].Name "GUARD RAIL, CONCRETE"
 setfield Palette[*].Type Prop
 setfield Palette[*].CategoryIndex -1 
 setfield Palette[*].DescriptionIndex -1
-setfield Palette[*].Object oobjects\props\human\unsc\concrete_guard_rail\concrete_guard_rail.scenery
+setfield Palette[*].Object objects\props\human\unsc\concrete_guard_rail\concrete_guard_rail.scenery
 addblockelements Palette[*].Setters 1
 setfield Palette[*].Setters[*].Target General_Physics
 setfield Palette[*].Setters[*].IntegerValue 1
