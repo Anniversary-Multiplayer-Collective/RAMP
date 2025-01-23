@@ -1209,9 +1209,11 @@ ReplaceRenderGeometry "workingdir\models\ramp_elite_fp_body.dae" TriangleStrip
 SaveTagChanges
 Exit
 
-
 # echo ==Make WaterGravityScale and WaterDamageRange the same as the AirGravityScale and AirDamageRange for every projectile to combat a BUG Fixes weapon drop and more...==
 cs < "workingdir\WeaponWaterFix.cs"
+
+# echo ==Fix Covenant Portable Shield==
+RunCommands "workingdir\portableshieldfix.cmds"
 
 ImportFonts workingdir\fonts_new.bin
 
