@@ -107,6 +107,35 @@ SetArgument albedo_color 30 30 30 30
 SaveTagChanges
 Exit
 
+# echo ==Shader fixes for Boardwalk, Beachhead, Reflection City SkyBox==
+edittag levels\solo\m50\shaders\paneling\metal_bldg_white_a.shader
+setargument specular_coefficient 0.2
+savetagchanges
+exit
+
+edittag levels\solo\m50\shaders\paneling\metal_bldg_white_b.shader
+setargument specular_coefficient 0.2
+savetagchanges
+exit
+
+edittag levels\solo\m50\shaders\paneling\metal_bldg_white_e.shader
+setargument specular_coefficient 0.2
+savetagchanges
+exit
+
+edittag levels\solo\m50\shaders\paneling\metal_bldg_grey_a.shader
+setargument specular_coefficient 0.2
+savetagchanges
+exit
+
+edittag levels\solo\m52\shaders\exterior_buildings\metal_skyscraper_white_a.shader
+setargument specular_coefficient 0.2
+savetagchanges
+exit
+
+# levels\solo\m52\shaders\exterior_buildings\metal_skyscraper_white_b.shader
+# levels\solo\m52\shaders\exterior_buildings\metal_skyscraper_white_e.shader
+
 # echo ==Shader fixes for Unearthed...==
 EditTag levels\dlc\ff_unearthed\shaders\ca_unearthed_bunkerworld_concrete.shader
 SetArgument specular_coefficient 0
