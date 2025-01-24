@@ -1,6 +1,5 @@
 TODO:
 Prevent shooting revenant while boosting
-Warthog brake lights are out, Change the bulbs.
 Add dual wield animations?
 Gold and Orange BR's are color swapped
 Gold and Orange SMG's are color swapped
