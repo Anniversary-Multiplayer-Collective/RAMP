@@ -1221,6 +1221,15 @@ cs < "workingdir\WeaponWaterFix.cs"
 # echo ==Fix Covenant Portable Shield==
 RunCommands "workingdir\portableshieldfix.cmds"
 
+# echo ==Fix Kill Volume Physics==
+EditTag objects\multi\models\ff_kill_zone\ff_kill_zone.physics_model
+SetField RigidBodies[0].MotionType Keyframed
+SaveTagChanges
+Exit
+
+
+RunCommands "workingdir\portableshieldfix.cmds"
+
 ImportFonts workingdir\fonts_new.bin
 
 DeleteModFiles

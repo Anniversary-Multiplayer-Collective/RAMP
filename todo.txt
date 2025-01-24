@@ -14,7 +14,6 @@ If anyone has fixed any of these please delete or comment it out with a #
 
 (GENERAL [APPLY TO ALL MAPS IF SPAWNED IN])
 - Healthpack doesn't spawn correctly
-- The shield is always red and is not breakable
 - Reach kill volume properties cannot be changed (doesn't really matter)
 
 (ANCHOR 9)
@@ -49,7 +48,6 @@ If anyone has fixed any of these please delete or comment it out with a #
 
 (CONDEMNED)
 - Haven't found any
-
 
 (CORVETTE)
 - Haven't found any
