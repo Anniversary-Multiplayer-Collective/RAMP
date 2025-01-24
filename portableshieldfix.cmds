@@ -1,3 +1,7 @@
+OpenCacheFile "reachmaps\ff50_park.map"
+PortTag objects\props\covenant\cov_portable_shield\fx\shield_recharge.effect
+Exit
+
 edittag objects\props\covenant\cov_portable_shield\cov_portable_shield.model
 setfield Variants[0].Regions[1].Permutations[0].States[1].State2 MinorDamage
 setfield Variants[0].Regions[1].Permutations[0].States[0].State2 MinorDamage
@@ -14,15 +18,15 @@ SetField NewDamageInfo[0].MinStunDamage 0
 SetField NewDamageInfo[0].StunTime 0
 SetField NewDamageInfo[0].RechargeTime 0
 SetField NewDamageInfo[0].RechargeFraction 1
-SetField NewDamageInfo[0].MaxShieldVitality 200
+SetField NewDamageInfo[0].MaxShieldVitality 100
 SetField NewDamageInfo[0].GlobalShieldMaterialName energy_shield_thick_cov_instantcover_out
 SetField NewDamageInfo[0].ShieldMinStunDamage 0
 SetField NewDamageInfo[0].ShieldStunTime 5
 SetField NewDamageInfo[0].ShieldRechargeTime 0.1
 SetField NewDamageInfo[0].ShieldDamagedThreshold 0
 SetField NewDamageInfo[0].ShieldDamagedEffect null
-SetField NewDamageInfo[0].ShieldDepletedEffect objects\equipment\instantcover\fx\shield_collapse.effect
-SetField NewDamageInfo[0].ShieldRechargingEffect objects\equipment\instantcover\fx\shield_recharge.effect
+SetField NewDamageInfo[0].ShieldDepletedEffect objects\props\covenant\cov_portable_shield\fx\shield_depletion.effect
+SetField NewDamageInfo[0].ShieldRechargingEffect objects\props\covenant\cov_portable_shield\fx\shield_recharge.effect
 AddBlockElements NewDamageInfo[0].DamageSections 3
 SetField NewDamageInfo[0].DamageSections[0].Name shield
 SetField NewDamageInfo[0].DamageSections[0].Flags AbsorbsBodyDamage
@@ -139,7 +143,7 @@ SetField NewDamageInfo[0].Nodes[5].RuntimeDamagePart -1
 SetField NewDamageInfo[0].Nodes[6].RuntimeDamagePart -1
 SetField NewDamageInfo[0].GlobalShieldMaterialIndex 229
 SetField NewDamageInfo[0].GlobalIndirectMaterialIndex 222
-SetField NewDamageInfo[0].RuntimeShieldRechargeVelocity 10
+SetField NewDamageInfo[0].RuntimeShieldRechargeVelocity 0.2
 SetField NewDamageInfo[0].RuntimeHealthRechargeVelocity 0
 SaveTagChanges
 Exit
