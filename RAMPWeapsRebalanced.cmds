@@ -1,0 +1,50 @@
+# -----------------------------------------------
+# I               PLASMA PISTOL                 I
+# -----------------------------------------------
+# Aiming the charged bolt at the ground now deals damage to nearby players
+
+edittag objects\weapons\pistol\plasma_pistol_power\projectiles\plasma_pistol_charged_bolt.projectile
+
+setfield AirborneDetonationEffect dw3\r3ach\objects\weapons\pistol\plasma_pistol\projectiles\detonation.effect
+setfield GroundDetonationEffect dw3\r3ach\objects\weapons\pistol\plasma_pistol\projectiles\detonation.effect
+setfield DetonationDamage dw3\r3ach\objects\weapons\pistol\plasma_pistol\projectiles\detonation.damage_effect
+
+setfield MaterialResponses[0].DefaultResponse ImpactDetonate
+
+savetagchanges
+exit
+
+edittag objects\weapons\pistol\plasma_pistol_power\damage_effects\plasma_pistol_charged_bolt.damage_effect
+setfield CustomResponseLabel emp_damage
+savetagchanges
+exit
+
+# -----------------------------------------------
+# I                   MAULER                    I
+# -----------------------------------------------
+# Removing dual wield option
+
+edittag objects\weapons\pistol\excavator\excavator.weapon
+setfield WeaponFlags.NewFlags None
+savetagchanges
+exit
+
+edittag objects\weapons\pistol\excavator_power\excavator_power.weapon
+setfield WeaponFlags.NewFlags None
+savetagchanges
+exit
+
+# -----------------------------------------------
+# I                   MAGNUM                    I
+# -----------------------------------------------
+# Faster Rate of Fire
+
+edittag objects\weapons\pistol\magnum\magnum_damage.weapon
+setfield Barrels[0].Firing.FireRecoveryTime 0.33
+savetagchanges
+exit
+
+edittag objects\weapons\pistol\magnum\magnum_power.weapon
+setfield Barrels[0].Firing.FireRecoveryTime 0.25
+savetagchanges
+exit

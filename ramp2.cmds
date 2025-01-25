@@ -126,6 +126,9 @@ RunCommands workingdir\RAMPWeaponVariants.cmds
 echo ==Remove newdamageinfo block for RAMP weapon variants==
 RunCommands workingdir\remove_newdamageinfo.cmds
 
+echo ==Rebalanced RAMP weapon variants==
+RunCommands workingdir\RAMPWeapsRebalanced.cmds
+
 echo ==Apply RAMP HUD, UI, Main Menu, Customization, and Armor Abilities==
 OpenModPackage "workingdir\paks\ramphud.pak"
 ApplyModPackage

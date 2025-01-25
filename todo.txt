@@ -7,6 +7,7 @@ Revenant crosshair dissapeared, We need to find it.
 Several objects need to be set to phased such as kill volumes, Camera, Respawn Zone, ect.
 Find way to get Reach FX ball screen FX working. Function min and max need to be fixed.
 Increase the projectile speed for certain hitscan weapons (To combat ED buggy network)
+Grenade launcher projectile no longers play exploding sound
 
 Known maps bugs
 If anyone know any bugs please put them here
@@ -15,12 +16,13 @@ If anyone has fixed any of these please delete or comment it out with a #
 (GENERAL [APPLY TO ALL MAPS IF SPAWNED IN])
 - Healthpack doesn't spawn correctly
 - Reach kill volume properties cannot be changed (doesn't really matter)
+- Some object disappears when theres too many instanced geo (CANNOT BE FIXED, UNLESS MTNDEWIT FOUND A WAY TO COMBINE MULTIPLE INSTANCED GEO INTO ONE)
 
 (ANCHOR 9)
 - Haven't found any
 
 (BATTLE CANYON)
-- Sniper rifle spawn floating in the air
+- Haven't found any
 
 (BEACHHEAD)
 - The city skybox is way too bright
@@ -29,22 +31,14 @@ If anyone has fixed any of these please delete or comment it out with a #
 - The main stair has weird shader where it becomes bright if you look at certain angles
 
 (BOARDWALK)
-- The city skybox is way too bright
-- Too many instanced geometry thus making some object deloads
+- Fog aren't accurate
 
 (BREAKNECK)
 - Missing some decals
 - Sound plays incorrectly or doesn't get play at all (sound scenery overloaded)
-- Offense street cones spawns weird (2 on the side spawn normal, 2 in the middle fallen/floating)
-- Banshee spawns floating in the air
-- Defense ghost spawn floating in the air
-- Offense ghost spawn clipped in the road
-- Warthog spawns floating in the air
 
 (BREAKPOINT)
-- Small bridge has weird shader at certain angles
-- THE PHANTOM FUCKING EXPLODED AFTER CERTAIN AMOUNT OF TIME (HAS SOMETHING TO DO WITH THE BANSHEE)
-- One of the wraith spawn floating in the air
+- Skybox is just fucked, missing skybox water shader and more
 
 (CONDEMNED)
 - Haven't found any
@@ -53,7 +47,7 @@ If anyone has fixed any of these please delete or comment it out with a #
 - Haven't found any
 
 (COUNTDOWN)
-- Healthpack doesn't spawn correctly
+- Haven't found any
 
 (COURTYARD)
 - Theres some weird smoke, middle in the air, one on the floor, and one under the floor
@@ -63,7 +57,7 @@ If anyone has fixed any of these please delete or comment it out with a #
 - Haven't found any
 
 (GLACIER)
-- When entering the building, some bsp despawned
+- The skybox cause vertex explosion for lights or specular shader
 
 (HIGH NOON)
 - Haven't found any
@@ -73,30 +67,26 @@ If anyone has fixed any of these please delete or comment it out with a #
 - Sound plays incorrectly or doesn't get play at all (sound scenery overloaded)
 
 (HOLDOUT)
-- When you're in under the balcony, the upper floor it self deloads
-- When you're in the upper stair the balcony floor it self deloads
+- The tree is uhm.. not treeing?
 
 (INSTALLATION 04)
 - The map in general has low contrast fx affecting everything, not sure if this intended
 
 (OUTPOST)
-- The glacier that blocks other part of the maps is way too bright
-- One of the crate packing lid spawns at vertical orientation thus making it clipped through the floor halfway through
+- Haven't found any
 
 (OVERLOOK)
 - Too many instanced geometry thus making some object deloads
 
 (PENANCE)
-- The droplets on the upper pipe doesn't despawned correctly
+- Haven't found any
 
 (POWERHOUSE)
 - Theres a kill barrier high enough that's still reachable if you do a grenade jump
-- The dead tree branch has weird shader where it becomes bright if you look at certain angles
 
 (REFLECTION)
 - The skybox disappears if you look at certain angles
 |->to fix it you have to change the skybox to something then set it to default again
-- The city skybox is way too bright
 
 (RIDGELINE)
 - Haven't found any
@@ -105,7 +95,7 @@ If anyone has fixed any of these please delete or comment it out with a #
 - Haven't found any
 
 (SPIRE)
-- Theres a pelican floating there... menacingly
+- Haven't found any
 
 (SWORD BASE)
 - Haven't found any
@@ -122,3 +112,4 @@ If anyone has fixed any of these please delete or comment it out with a #
 
 (ZEALOT)
 - The covenant glass shield is just pure transparent
+- The upper gravity section has broken physics models
