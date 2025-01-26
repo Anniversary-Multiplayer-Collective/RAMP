@@ -1,4 +1,6 @@
 TODO:
+No shield pop sound
+Set objects to phased by default to prevent lag from spawning big items
 Prevent shooting revenant while boosting
 Add dual wield animations?
 Gold and Orange BR's are color swapped
