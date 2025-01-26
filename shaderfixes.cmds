@@ -235,6 +235,12 @@ SetArgument area_specular_contribution_m_2 0
 SaveTagChanges
 Exit
 
+EditTag objects\props\human\unsc\generator_x_large\bitmaps\work\generator_xlarge_illum.bitmap
+SetField SortLayer PrePass
+SaveTagChanges
+Exit
+
+
 # echo ==Shader fixes for Countdown...==
 EditTag levels\solo\m45\shaders\silo_floor.shader
 SetArgument specular_coefficient 0.03
