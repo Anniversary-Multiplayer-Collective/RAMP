@@ -129,6 +129,11 @@ RunCommands workingdir\remove_newdamageinfo.cmds
 echo ==Rebalanced RAMP weapon variants==
 RunCommands workingdir\RAMPWeapsRebalanced.cmds
 
+# echo ==Apply RAMP Forge Blocks, Health Pack, Land Mine, TPs, Zealot Shield Door==
+OpenModPackage "workingdir\paks\rampstuff.pak"
+ApplyModPackage
+ExitModPackage 
+
 echo ==Apply RAMP HUD, UI, Main Menu, Customization, and Armor Abilities==
 OpenModPackage "workingdir\paks\ramphud.pak"
 ApplyModPackage

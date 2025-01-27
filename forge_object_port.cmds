@@ -368,11 +368,6 @@ PortTag objects\levels\shared\golf_cup\golf_cup.crate
 PortTag objects\levels\shared\soccer_ball\soccer_ball.crate
 PortTag objects\levels\shared\golf_ball\golf_ball.crate
 
-# echo ==Apply RAMP Forge Blocks, Health Pack, Land Mine, TPs, Zealot Shield Door==
-OpenModPackage "workingdir\paks\rampstuff.pak"
-ApplyModPackage
-ExitModPackage 
-
 # echo ==Reach Screen Effects...==
 PortTag objects\levels\shared\screen_fx_orb\fx\juicy.bloc
 PortTag objects\levels\shared\screen_fx_orb\fx\colorblind.bloc
