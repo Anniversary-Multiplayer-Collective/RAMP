@@ -5,19 +5,15 @@ Prevent shooting revenant while boosting
 Add dual wield animations?
 Gold and Orange BR's are color swapped
 Gold and Orange SMG's are color swapped
-Revenant crosshair dissapeared, We need to find it.
 Several objects need to be set to phased such as kill volumes, Camera, Respawn Zone, ect.
 Find way to get Reach FX ball screen FX working. Function min and max need to be fixed.
 Increase the projectile speed for certain hitscan weapons (To combat ED buggy network)
-Grenade launcher projectile no longers play exploding sound
 
 Known maps bugs
 If anyone know any bugs please put them here
 If anyone has fixed any of these please delete or comment it out with a #
 
 (GENERAL [APPLY TO ALL MAPS IF SPAWNED IN])
-- Healthpack doesn't spawn correctly
-- Reach kill volume properties cannot be changed (doesn't really matter)
 - Some object disappears when theres too many instanced geo (CANNOT BE FIXED, UNLESS MTNDEWIT FOUND A WAY TO COMBINE MULTIPLE INSTANCED GEO INTO ONE)
 
 (ANCHOR 9)
@@ -56,13 +52,13 @@ If anyone has fixed any of these please delete or comment it out with a #
 |->removing the entire effect scenery and palette fixed it (hacky fix), haven't found any visual differences
 
 (FORGE WORLD)
-- Haven't found any
+- Low exposure
 
 (GLACIER)
 - The skybox cause vertex explosion for lights or specular shader
 
 (HIGH NOON)
-- Haven't found any
+- Sound plays incorrectly or doesn't get play at all (sound scenery overloaded)
 
 (HIGHLANDS)
 - Has some weird kill barriers near red base, literally kills you while you're still in the map
@@ -109,8 +105,7 @@ If anyone has fixed any of these please delete or comment it out with a #
 - Haven't found any
 
 (WATERFRONT)
-- The propane tank has weird shader where if you look at certains angle the outer/lines becomes white
-- The pumpjack (the buoyancy) has also the weird shader where if you look at certains angle the outer/lines becomes white
+- Haven't found any
 
 (ZEALOT)
 - The covenant glass shield is just pure transparent
