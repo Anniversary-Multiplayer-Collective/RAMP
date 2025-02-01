@@ -1200,6 +1200,55 @@ SetField WeaponFlags.NewFlags SecondaryTriggerOverridesGrenades,CannotFireWhileB
 savetagchanges
 Exit
 
+echo ==Revenant HUD==
+edittag objects\vehicles\covenant\revenant\revenant.vehicle
+setfield HudInterfaces[0].UnitHudInterface ui\chud\v_revenant.chud_definition
+savetagchanges
+exit
+
+edittag ui\chud\v_revenant.chud_definition
+setfield HudWidgets[0].BitmapWidgets[0].Bitmap ms30\ui\chud\bitmaps\hud_revenant_reticle.bitmap
+savetagchanges
+exit
+
+echo ==Revenant engine low sound==
+# Up the gain by 10, so -10 become 0 and -14 become -4
+edittag sound\vehicles\spectre\spectre_boost_l\spectre_boost_l.sound_looping
+setfield Tracks[0].Gain 0
+savetagchanges
+exit
+
+edittag sound\vehicles\spectre\spectre_boost_r\spectre_boost_r.sound_looping
+setfield Tracks[0].Gain 0
+savetagchanges
+exit
+
+edittag sound\vehicles\revenant\revenant_engine_left\revenant_engine_left.sound_looping
+setfield Tracks[0].Gain -4
+savetagchanges
+exit
+
+edittag sound\vehicles\revenant\revenant_engine_right\revenant_engine_right.sound_looping
+setfield Tracks[0].Gain -4
+savetagchanges
+exit
+
+edittag sound\vehicles\revenant\revenant_lod\revenant_lod.sound_looping
+setfield Tracks[0].Gain -7
+savetagchanges
+exit
+
+echo ==Grenade launcher explosion sound fix==
+edittag dw3\r3ach\objects\weapons\rifle\grenade_launcher\projectiles\primary\detonation.effect
+setfield Events[0].Parts[0].Type dw3\r3ach\sound\weapons\grenade_launcher\grenade_launcher_expl.sound
+savetagchanges
+exit
+
+edittag dw3\r3ach\objects\weapons\rifle\grenade_launcher\projectiles\secondary\detonation.effect
+setfield Events[0].Parts[0].Type dw3\r3ach\sound\weapons\grenade_launcher\grenade_launcher_expl.sound
+savetagchanges
+exit
+
 echo ==Make weapons not float like in reach==
 ForEach weap contains: objects\weapons SetField WaterDensity None
 
