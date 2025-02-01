@@ -627,7 +627,24 @@ OpenCacheFile "reachmaps\m30.map"
 PortTag objects\levels\shared\device_machines\metal_gate\metal_gate.device_machine
 Exit
 
+OpenCacheFile "reachmaps\m52.map"
+PortTag objects\levels\solo\m50\club_door_single\club_door_single.device_machine
+PortTag objects\levels\solo\m50\door_urban_club_medium_a\door_urban_club_medium_a.device_machine
+PortTag objects\levels\solo\m52\m52_door_hospital_glass\m52_door_hospital_glass.device_machine
+PortTag objects\levels\solo\m52\m52_elevator_ivory_tower\m52_elevator_ivory_tower.device_machine
+PortTag objects\levels\shared\lights\y_m52_club_stage_a\y_m52_club_stage_a.scenery
+PortTag objects\levels\solo\m52\m52_club_hologram\m52_club_hologram.scenery
 
+Exit
+
+OpenCacheFile "reachmaps\cex_headlong.map"
+PortTag objects\cex\cex_headlong\forge\ff_door\ff_door.crate
+Exit
+
+OpenCacheFile "reachmaps\cex_prisoner.map"
+PortTag objects\cex\cex_prisoner\forge\ff_prisoner_doorblocker_b\ff_prisoner_doorblocker_b.crate
+PortTag objects\cex\cex_prisoner\forge\ff_prisoner_doorblocker_a\ff_prisoner_doorblocker_a.crate
+Exit
 
 echo ==Remove damage from forge items from applied pak...==
 ForEach hlmt contains: objects\levels\forge RemoveBlockElements NewDamageInfo 0 *
