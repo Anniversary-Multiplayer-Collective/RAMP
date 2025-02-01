@@ -942,6 +942,12 @@ RunCommands "workingdir\shaderfixes.cmds"
 echo ==Third person animations==
 RunCommands "workingdir\3Panimations.cmds"
 
+echo ==Prevent vehicles being succed by golf cup==
+EditTag objects\levels\shared\golf_cup\golf_cup.physics_model
+SetField PhantomTypes[0].Flags.Halo3ODST IgnoresPlayers,IgnoresBipeds,IgnoresVehicles,IgnoresWeapons,IgnoresEquipment,IgnoresProjectiles,IgnoresScenery,IgnoresMachines,IgnoresControls,IgnoresSoundScenery,IgnoresCreatures,IgnoresGiants,IgnoresEffectScenery
+SaveTagChanges
+Exit
+
 echo ==Fix Health Pack==
 EditTag objects\characters\masterchief\mp_masterchief\mp_masterchief.biped
 SetField RevivingEquipment[0].Instance objects\powerups\health_pack\health_pack_large.equipment
