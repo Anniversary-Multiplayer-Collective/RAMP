@@ -583,6 +583,7 @@ setfield HudWidgets[0].BitmapWidgets[7].PlacementData[0].Scale 0.8 1.1
 setfield HudWidgets[0].BitmapWidgets[7].PlacementData[0].Origin -41 0
 setfield HudWidgets[0].BitmapWidgets[7].PlacementData[0].Offset 0 5
 
+setfield HudWidgets[0].BitmapWidgets[7].RuntimeWidgetIndex 8
 setfield HudWidgets[0].BitmapWidgets[6].RuntimeWidgetIndex 8
 setfield HudWidgets[0].BitmapWidgets[5].RuntimeWidgetIndex 8
 setfield HudWidgets[0].BitmapWidgets[4].RuntimeWidgetIndex 8
