@@ -845,7 +845,7 @@ exit
 
 edittag ui\chud\magnum.chud_definition
 setfield HudAmmunitionInfo.LowAmmoLoadedThreshold 3
-setfield HudWidgets[5].StateData[0].UnitZoomFlags None
+setfield HudWidgets[5].StateData[0].UnitZoomState None
 setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 8
 setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].LocalScalarB 0.1
 setfield HudWidgets[5].BitmapWidgets[1].RuntimeWidgetIndex 9
@@ -1251,7 +1251,7 @@ removeblockelements HudWidgets 6 *
 setfield HudWidgets[0].BitmapWidgets[2].PlacementData[0].Offset 6969 6969
 setfield HudWidgets[0].BitmapWidgets[2].PlacementData[0].Scale 0 0
 
-setfield HudWidgets[2].StateData[0].UnitZoomFlags None
+setfield HudWidgets[2].StateData[0].UnitZoomState None
 setfield HudWidgets[2].TextWidgets[0].RenderData[0].ShaderType Simple
 addblockelements HudWidgets[2].TextWidgets[0].AnimationData
 setfield HudWidgets[2].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
