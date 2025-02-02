@@ -3107,3 +3107,9 @@ setfield Palette[*].Setters[*].IntegerValue 1
 
 savetagchanges
 exit
+
+# Post cleaning (removing object from the scnr that wasn't meant to be placed in the first place)
+edittag levels\dlc\cex_headlong\cex_headlong.scenario
+removeblockelements Crates 49 1
+savetagchanges
+exit
