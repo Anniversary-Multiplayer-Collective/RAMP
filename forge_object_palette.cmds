@@ -891,6 +891,7 @@ AddForgeItem "GRAVLIFT, PENANCE, COVENANT 2" 96 objects\cex\cex_damnation\crates
 AddForgeItem "GRAVLIFT, SWORDBASE, COVENANT" 96 objects\levels\multi\20_sword_slayer\sword_cov_grav_lift\sword_cov_grav_lift.crate
 
 # SHIELD DOOR [97] -------------------------------------------------------------------------------------------------------------
+Foreach scenery startingwith: objects\levels\solo\m45\m45_corvette_forcefield_hangar\m45_corvette_forcefield_hangar addblockelements MultiplayerObject 1
 edittag multiplayer\forge_globals.forge_globals_definition
 
 addblockelements Palette
@@ -1014,6 +1015,16 @@ setfield Palette[*].Setters[*].Target General_Physics
 setfield Palette[*].Setters[*].IntegerValue 1
 
 addblockelements Palette
+setfield Palette[*].Name "FORCEFIELD HANGAR, LARGE"
+setfield Palette[*].Type Prop
+setfield Palette[*].CategoryIndex 97
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\levels\solo\m45\m45_corvette_forcefield_hangar\m45_corvette_forcefield_hangar.scenery
+addblockelements Palette[*].Setters 1
+setfield Palette[*].Setters[*].Target General_Physics
+setfield Palette[*].Setters[*].IntegerValue 1
+
+addblockelements Palette
 setfield Palette[*].Name "ONE WAY SHIELD, NO SIGN, SMALL"
 setfield Palette[*].Type Prop
 setfield Palette[*].CategoryIndex 97
@@ -1069,16 +1080,6 @@ setfield Palette[*].Type Prop
 setfield Palette[*].CategoryIndex 97
 setfield Palette[*].DescriptionIndex -1
 setfield Palette[*].Object objects\props\human\unsc\laser_field_huge\laser_field_huge.crate
-addblockelements Palette[*].Setters 1
-setfield Palette[*].Setters[*].Target General_Physics
-setfield Palette[*].Setters[*].IntegerValue 1
-
-addblockelements Palette
-setfield Palette[*].Name "FORCEFIELD HANGAR, LARGE"
-setfield Palette[*].Type Prop
-setfield Palette[*].CategoryIndex 97
-setfield Palette[*].DescriptionIndex -1
-setfield Palette[*].Object objects\levels\solo\m45\m45_corvette_forcefield_hangar\m45_corvette_forcefield_hangar.scenery
 addblockelements Palette[*].Setters 1
 setfield Palette[*].Setters[*].Target General_Physics
 setfield Palette[*].Setters[*].IntegerValue 1
