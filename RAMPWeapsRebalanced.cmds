@@ -38,6 +38,12 @@ exit
 # I                   MAGNUM                    I
 # -----------------------------------------------
 # Faster Rate of Fire
+# Nerf the damage on dw3 magnum
+
+edittag objects\weapons\pistol\magnum\magnum.weapon
+setfield Barrels[0].FiringEffects[0].FiringDamage globals\damage_responses\trigger_semiauto3.damage_response_definition
+savetagchanges
+exit
 
 edittag objects\weapons\pistol\magnum\magnum_damage.weapon
 setfield Barrels[0].Firing.FireRecoveryTime 0.33
