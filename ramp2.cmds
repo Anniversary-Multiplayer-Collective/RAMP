@@ -1290,7 +1290,7 @@ SetField RigidBodies[0].MotionType Keyframed
 SaveTagChanges
 Exit
 
-# echo ==Map fog issue fix==
+# echo ==Map fog effect issue fix==
 # Smoke balls on courtyard BEGONE
 EditTag levels\firefight\ff20_courtyard\ff20_courtyard.scenario
 RemoveBlockElements EffectScenery 52 5
@@ -1302,6 +1302,9 @@ EditTag levels\dlc\cex_timberland\cex_timberland.scenario
 RemoveBlockElements EffectScenery 59 4
 SaveTagChanges
 Exit
+
+# echo ==Map sound scenery issue fix==
+RunCommands "workingdir\soundsceneryscenario.cmds"
 
 ImportFonts workingdir\fonts_new.bin
 
