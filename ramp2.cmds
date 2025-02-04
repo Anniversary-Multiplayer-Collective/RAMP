@@ -1306,6 +1306,83 @@ Exit
 # echo ==Map sound scenery issue fix==
 RunCommands "workingdir\soundsceneryscenario.cmds"
 
+
+# echo ==Zealot Low Gravity Collision Fix==
+EditTag objects\levels\multi\45_aftship\zero_g_field\zero_g_field.physics_model
+# GOD BLESS DEEPSEEK
+# LITERALLY BETTER THAN CHATGPT
+
+RemoveBlockElements Boxes 0 *
+AddBlockElements Polyhedra 1
+
+SetField Polyhedra[0].Name $_physics
+SetField Polyhedra[0].MaterialIndex 0
+SetField Polyhedra[0].RuntimeMaterialType 0
+SetField Polyhedra[0].RelativeMassScale 1
+SetField Polyhedra[0].Friction 0.9
+SetField Polyhedra[0].Restitution 0.2
+SetField Polyhedra[0].Volume 24000
+SetField Polyhedra[0].Mass 60000000
+SetField Polyhedra[0].MassDistributionIndex 0
+SetField Polyhedra[0].PhantomIndex 0
+SetField Polyhedra[0].ProxyCollisionGroup -1
+SetField Polyhedra[0].ShapeBase.Size 0
+SetField Polyhedra[0].ShapeBase.Count 128
+# SetField Polyhedra[0].ShapeBase.Userdata 0x20
+SetField Polyhedra[0].ShapeBase.ShapeType 6
+SetField Polyhedra[0].ShapeBase.Radius 0.0164
+SetField Polyhedra[0].AabbHalfExtents 19.9836 19.9836 7.4836
+SetField Polyhedra[0].AabbHalfExtentsRadius 0
+SetField Polyhedra[0].AabbCenter 0 0 7.5
+SetField Polyhedra[0].AabbCenterRadius 0
+SetField Polyhedra[0].FourVectorsSize 4
+SetField Polyhedra[0].FourVectorsCapacity 2147483652
+SetField Polyhedra[0].NumVertices 8
+SetField Polyhedra[0].PlaneEquationsSize 6
+SetField Polyhedra[0].PlaneEquationsCapacity 2147483654
+SetField Polyhedra[0].Connectivity 0
+
+AddBlockElements PolyhedronFourVectors 4
+SetField PolyhedronFourVectors[0].FourVectorsX -19.9836 19.9836 -19.9836
+SetField PolyhedronFourVectors[0].FourVectorsXW 19.9836
+SetField PolyhedronFourVectors[0].FourVectorsY -19.9836 -19.9836 19.9836
+SetField PolyhedronFourVectors[0].FourVectorsYW 19.9836
+SetField PolyhedronFourVectors[0].FourVectorsZ -7.4836 -7.4836 -7.4836
+SetField PolyhedronFourVectors[0].FourVectorsZW 7.4836
+
+SetField PolyhedronFourVectors[1].FourVectorsX -19.9836 19.9836 -19.9836
+SetField PolyhedronFourVectors[1].FourVectorsXW 19.9836
+SetField PolyhedronFourVectors[1].FourVectorsY -19.9836 -19.9836 19.9836
+SetField PolyhedronFourVectors[1].FourVectorsYW 19.9836
+SetField PolyhedronFourVectors[1].FourVectorsZ 7.4836 7.4836 7.4836
+SetField PolyhedronFourVectors[1].FourVectorsZW -7.4836
+
+SetField PolyhedronFourVectors[2].FourVectorsX -19.9836 -19.9836 -19.9836
+SetField PolyhedronFourVectors[2].FourVectorsXW -19.9836
+SetField PolyhedronFourVectors[2].FourVectorsY 19.9836 19.9836 19.9836
+SetField PolyhedronFourVectors[2].FourVectorsYW 19.9836
+SetField PolyhedronFourVectors[2].FourVectorsZ -7.4836 7.4836 -7.4836
+SetField PolyhedronFourVectors[2].FourVectorsZW 7.4836
+
+SetField PolyhedronFourVectors[3].FourVectorsX 19.9836 19.9836 19.9836
+SetField PolyhedronFourVectors[3].FourVectorsXW 19.9836
+SetField PolyhedronFourVectors[3].FourVectorsY -19.9836 -19.9836 -19.9836
+SetField PolyhedronFourVectors[3].FourVectorsYW -19.9836
+SetField PolyhedronFourVectors[3].FourVectorsZ -7.4836 7.4836 -7.4836
+SetField PolyhedronFourVectors[3].FourVectorsZW 7.4836
+
+AddBlockElements PolyhedronPlaneEquations 6
+SetField PolyhedronPlaneEquations[0].PlaneEquation 1 0 0 -19.9836
+SetField PolyhedronPlaneEquations[1].PlaneEquation -1 0 0 -19.9836
+SetField PolyhedronPlaneEquations[2].PlaneEquation 0 1 0 -19.9836
+SetField PolyhedronPlaneEquations[3].PlaneEquation 0 -1 0 -19.9836
+SetField PolyhedronPlaneEquations[4].PlaneEquation 0 0 1 -7.4836
+SetField PolyhedronPlaneEquations[5].PlaneEquation 0 0 -1 -7.4836
+
+SetField Phantoms[0].ShapeType Polyhedron
+SaveTagChanges
+Exit
+
 ImportFonts workingdir\fonts_new.bin
 
 DeleteModFiles
