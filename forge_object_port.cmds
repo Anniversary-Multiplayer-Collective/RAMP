@@ -463,6 +463,16 @@ SetField PhantomTypes[0].Flags.Halo3ODST IgnoresWeapons,IgnoresEquipment,Ignores
 SaveTagChanges
 Exit
 
+EditTag objects\props\covenant\shield_door_medium\shield_door_medium.physics_model
+SetField PhantomTypes[0].Flags.Halo3ODST IgnoresWeapons,IgnoresEquipment,IgnoresProjectiles,IgnoresScenery,IgnoresMachines,IgnoresControls,IgnoresSoundScenery,IgnoresCrates,IgnoresCreatures,IgnoresGiants,IgnoresEffectScenery,IgnoresDeadBipeds
+SaveTagChanges
+Exit
+
+EditTag objects\props\covenant\shield_door_large\shield_door_large.physics_model
+SetField PhantomTypes[0].Flags.Halo3ODST IgnoresWeapons,IgnoresEquipment,IgnoresProjectiles,IgnoresScenery,IgnoresMachines,IgnoresControls,IgnoresSoundScenery,IgnoresCrates,IgnoresCreatures,IgnoresGiants,IgnoresEffectScenery,IgnoresDeadBipeds
+SaveTagChanges
+Exit
+
 # No vehicles on this map so I don't know how they behave with them.
 # objects\levels\multi\dlc\dlc_slayer\dlc_hangar_shield\dlc_hangar_shield.physics_model
 

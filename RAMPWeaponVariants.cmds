@@ -1,95 +1,334 @@
 EditTag objects\weapons\pistol\magnum\magnum_damage.weapon
 setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\pistol\magnum\animations\fp_spartan\fp_spartan.model_animation_graph
 setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\pistol\magnum\animations\fp_elite\fp_elite.model_animation_graph
+setfield HudInterface ui\chud\magnum_damage.chud_definition
 SaveTagChanges
 Exit
 EditTag objects\weapons\pistol\magnum\magnum_power.weapon
 setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\pistol\magnum\animations\fp_spartan\fp_spartan.model_animation_graph
 setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\pistol\magnum\animations\fp_elite\fp_elite.model_animation_graph
+setfield HudInterface ui\chud\magnum_power.chud_definition
 SaveTagChanges
 Exit
+
 EditTag objects\weapons\pistol\plasma_pistol\plasma_pistol_power.weapon
 setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\pistol\plasma_pistol\animations\fp_spartan\fp_spartan.model_animation_graph
 setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\pistol\plasma_pistol\animations\fp_elite\fp_elite.model_animation_graph
+setfield HudInterface ui\chud\plasma_pistol_power.chud_definition
 SaveTagChanges
 Exit
+
 EditTag objects\weapons\rifle\assault_rifle_accuracy\assault_rifle_accuracy.weapon
 setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\assault_rifle\animations\fp_spartan\fp_spartan.model_animation_graph
 setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\assault_rifle\animations\fp_elite\fp_elite.model_animation_graph
+setfield HudInterface ui\chud\assault_rifle_accuracy.chud_definition
 SaveTagChanges
 Exit
 EditTag objects\weapons\rifle\assault_rifle_damage\assault_rifle_damage.weapon
 setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\assault_rifle\animations\fp_spartan\fp_spartan.model_animation_graph
 setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\assault_rifle\animations\fp_elite\fp_elite.model_animation_graph
+setfield HudInterface ui\chud\assault_rifle_damage.chud_definition
 SaveTagChanges
 Exit
 EditTag objects\weapons\rifle\assault_rifle_power\assault_rifle_power.weapon
 setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\assault_rifle\animations\fp_spartan\fp_spartan.model_animation_graph
 setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\assault_rifle\animations\fp_elite\fp_elite.model_animation_graph
+setfield HudInterface ui\chud\assault_rifle_power.chud_definition
 SaveTagChanges
 Exit
 EditTag objects\weapons\rifle\assault_rifle_rof\assault_rifle_rof.weapon
 setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\assault_rifle\animations\fp_spartan\fp_spartan.model_animation_graph
 setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\assault_rifle\animations\fp_elite\fp_elite.model_animation_graph
+setfield HudInterface ui\chud\assault_rifle_rof.chud_definition
 SaveTagChanges
 Exit
+
 EditTag objects\weapons\rifle\battle_rifle_accuracy\battle_rifle_accuracy.weapon
 setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_spartan\fp_spartan.model_animation_graph
 setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_elite\fp_elite.model_animation_graph
+setfield HudInterface ui\chud\battle_rifle_accuracy.chud_definition
 SaveTagChanges
 Exit
 EditTag objects\weapons\rifle\battle_rifle_ammo\battle_rifle_ammo.weapon
 setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_spartan\fp_spartan.model_animation_graph
 setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_elite\fp_elite.model_animation_graph
+setfield HudInterface ui\chud\battle_rifle_ammo.chud_definition
 SaveTagChanges
 Exit
 EditTag objects\weapons\rifle\battle_rifle_damage\battle_rifle_damage.weapon
 setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_spartan\fp_spartan.model_animation_graph
 setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_elite\fp_elite.model_animation_graph
+setfield HudInterface ui\chud\battle_rifle_damage.chud_definition
 SaveTagChanges
 Exit
 EditTag objects\weapons\rifle\battle_rifle_power\battle_rifle_power.weapon
 setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_spartan\fp_spartan.model_animation_graph
 setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_elite\fp_elite.model_animation_graph
+setfield HudInterface ui\chud\battle_rifle_power.chud_definition
 SaveTagChanges
 Exit
 EditTag objects\weapons\rifle\battle_rifle_range\battle_rifle_range.weapon
 setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_spartan\fp_spartan.model_animation_graph
 setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_elite\fp_elite.model_animation_graph
+setfield HudInterface ui\chud\battle_rifle_range.chud_definition
 SaveTagChanges
 Exit
 EditTag objects\weapons\rifle\battle_rifle_rof\battle_rifle_rof.weapon
 setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_spartan\fp_spartan.model_animation_graph
 setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_elite\fp_elite.model_animation_graph
+setfield HudInterface ui\chud\battle_rifle_rof.chud_definition
 SaveTagChanges
 Exit
+
 EditTag objects\weapons\rifle\dmr_accuracy\dmr_accuracy.weapon
 setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_spartan\fp_spartan.model_animation_graph
 setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_elite\fp_elite.model_animation_graph
+setfield HudInterface ui\chud\dmr_accuracy.chud_definition
 SaveTagChanges
 Exit
 EditTag objects\weapons\rifle\dmr_ammo\dmr_ammo.weapon
 setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_spartan\fp_spartan.model_animation_graph
 setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_elite\fp_elite.model_animation_graph
+setfield HudInterface ui\chud\dmr_ammo.chud_definition
 SaveTagChanges
 Exit
 EditTag objects\weapons\rifle\dmr_damage\dmr_damage.weapon
 setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_spartan\fp_spartan.model_animation_graph
 setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_elite\fp_elite.model_animation_graph
+setfield HudInterface ui\chud\dmr_damage.chud_definition
 SaveTagChanges
 Exit
 EditTag objects\weapons\rifle\dmr_power\dmr_power.weapon
 setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_spartan\fp_spartan.model_animation_graph
 setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_elite\fp_elite.model_animation_graph
+setfield HudInterface ui\chud\dmr_power.chud_definition
 SaveTagChanges
 Exit
 EditTag objects\weapons\rifle\dmr_rof\dmr_rof.weapon
 setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_spartan\fp_spartan.model_animation_graph
 setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_elite\fp_elite.model_animation_graph
+setfield HudInterface ui\chud\dmr_rof.chud_definition
 SaveTagChanges
 Exit
+
 EditTag objects\weapons\rifle\plasma_rifle\plasma_rifle_power.weapon
 setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\plasma_rifle\animations\fp_spartan\fp_spartan.model_animation_graph
 setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\plasma_rifle\animations\fp_elite\fp_elite.model_animation_graph
+setfield HudInterface ui\chud\plasma_rifle_power.chud_definition
 SaveTagChanges
 Exit
+
+EditTag objects\weapons\rifle\smg\smg_accuracy.weapon
+setfield HudInterface ui\chud\smg_accuracy.chud_definition
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\rifle\smg\smg_damage.weapon
+setfield HudInterface ui\chud\smg_damage.chud_definition
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\rifle\smg\smg_power.weapon
+setfield HudInterface ui\chud\smg_power.chud_definition
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\rifle\smg\smg_rof.weapon
+setfield HudInterface ui\chud\smg_rof.chud_definition
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\rifle\assault_rifle\assault_rifle_green_fp.render_model
+addblockelements MarkerGroups
+addblockelements MarkerGroups[*].Markers
+setfield MarkerGroups[*].Name mineleloldabest_left_hand_spartan_fp
+setfield MarkerGroups[*].Markers[*].RegionIndex -1
+setfield MarkerGroups[*].Markers[*].PermutationIndex -1
+setfield MarkerGroups[*].Markers[*].Translation 0.098 -0.00226 0.0147
+setfield MarkerGroups[*].Markers[*].Rotation -0.6241 0.16707 -0.45504 0.61277
+
+addblockelements MarkerGroups
+addblockelements MarkerGroups[*].Markers
+setfield MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
+setfield MarkerGroups[*].Markers[*].RegionIndex -1
+setfield MarkerGroups[*].Markers[*].PermutationIndex -1
+setfield MarkerGroups[*].Markers[*].Translation 0.106 0 0.0125
+setfield MarkerGroups[*].Markers[*].Rotation -0.67 0.208 -0.48 0.6
+savetagchanges
+exit
+
+EditTag objects\weapons\rifle\assault_rifle\assault_rifle_gold_fp.render_model
+addblockelements MarkerGroups
+addblockelements MarkerGroups[*].Markers
+setfield MarkerGroups[*].Name mineleloldabest_left_hand_spartan_fp
+setfield MarkerGroups[*].Markers[*].RegionIndex -1
+setfield MarkerGroups[*].Markers[*].PermutationIndex -1
+setfield MarkerGroups[*].Markers[*].Translation 0.098 -0.00226 0.0147
+setfield MarkerGroups[*].Markers[*].Rotation -0.6241 0.16707 -0.45504 0.61277
+
+addblockelements MarkerGroups
+addblockelements MarkerGroups[*].Markers
+setfield MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
+setfield MarkerGroups[*].Markers[*].RegionIndex -1
+setfield MarkerGroups[*].Markers[*].PermutationIndex -1
+setfield MarkerGroups[*].Markers[*].Translation 0.106 0 0.0125
+setfield MarkerGroups[*].Markers[*].Rotation -0.67 0.208 -0.48 0.6
+savetagchanges
+exit
+
+EditTag objects\weapons\rifle\assault_rifle\assault_rifle_orange_fp.render_model
+addblockelements MarkerGroups
+addblockelements MarkerGroups[*].Markers
+setfield MarkerGroups[*].Name mineleloldabest_left_hand_spartan_fp
+setfield MarkerGroups[*].Markers[*].RegionIndex -1
+setfield MarkerGroups[*].Markers[*].PermutationIndex -1
+setfield MarkerGroups[*].Markers[*].Translation 0.098 -0.00226 0.0147
+setfield MarkerGroups[*].Markers[*].Rotation -0.6241 0.16707 -0.45504 0.61277
+
+addblockelements MarkerGroups
+addblockelements MarkerGroups[*].Markers
+setfield MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
+setfield MarkerGroups[*].Markers[*].RegionIndex -1
+setfield MarkerGroups[*].Markers[*].PermutationIndex -1
+setfield MarkerGroups[*].Markers[*].Translation 0.106 0 0.0125
+setfield MarkerGroups[*].Markers[*].Rotation -0.67 0.208 -0.48 0.6
+savetagchanges
+exit
+
+EditTag objects\weapons\rifle\assault_rifle\assault_rifle_red_fp.render_model
+addblockelements MarkerGroups
+addblockelements MarkerGroups[*].Markers
+setfield MarkerGroups[*].Name mineleloldabest_left_hand_spartan_fp
+setfield MarkerGroups[*].Markers[*].RegionIndex -1
+setfield MarkerGroups[*].Markers[*].PermutationIndex -1
+setfield MarkerGroups[*].Markers[*].Translation 0.098 -0.00226 0.0147
+setfield MarkerGroups[*].Markers[*].Rotation -0.6241 0.16707 -0.45504 0.61277
+
+addblockelements MarkerGroups
+addblockelements MarkerGroups[*].Markers
+setfield MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
+setfield MarkerGroups[*].Markers[*].RegionIndex -1
+setfield MarkerGroups[*].Markers[*].PermutationIndex -1
+setfield MarkerGroups[*].Markers[*].Translation 0.106 0 0.0125
+setfield MarkerGroups[*].Markers[*].Rotation -0.67 0.208 -0.48 0.6
+savetagchanges
+exit
+
+
+edittag objects\weapons\rifle\dmr\dmr_blue_fp.render_model
+addblockelements MarkerGroups
+addblockelements MarkerGroups[*].Markers
+setfield MarkerGroups[*].Name mineleloldabest_left_hand_spartan_fp
+setfield MarkerGroups[*].Markers[*].RegionIndex -1
+setfield MarkerGroups[*].Markers[*].PermutationIndex -1
+setfield MarkerGroups[*].Markers[*].Translation 0.096 -0.0048 0.024
+setfield MarkerGroups[*].Markers[*].Rotation -0.62 0.185 -0.44 0.625
+
+addblockelements MarkerGroups
+addblockelements MarkerGroups[*].Markers
+setfield MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
+setfield MarkerGroups[*].Markers[*].RegionIndex -1
+setfield MarkerGroups[*].Markers[*].PermutationIndex -1
+setfield MarkerGroups[*].Markers[*].Translation 0.079 -0.0001 0.0182
+setfield MarkerGroups[*].Markers[*].Rotation -0.598 0.1255 -0.49 0.6
+savetagchanges
+exit
+
+edittag objects\weapons\rifle\dmr\dmr_gold_fp.render_model
+addblockelements MarkerGroups
+addblockelements MarkerGroups[*].Markers
+setfield MarkerGroups[*].Name mineleloldabest_left_hand_spartan_fp
+setfield MarkerGroups[*].Markers[*].RegionIndex -1
+setfield MarkerGroups[*].Markers[*].PermutationIndex -1
+setfield MarkerGroups[*].Markers[*].Translation 0.096 -0.0048 0.024
+setfield MarkerGroups[*].Markers[*].Rotation -0.62 0.185 -0.44 0.625
+
+addblockelements MarkerGroups
+addblockelements MarkerGroups[*].Markers
+setfield MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
+setfield MarkerGroups[*].Markers[*].RegionIndex -1
+setfield MarkerGroups[*].Markers[*].PermutationIndex -1
+setfield MarkerGroups[*].Markers[*].Translation 0.079 -0.0001 0.0182
+setfield MarkerGroups[*].Markers[*].Rotation -0.598 0.1255 -0.49 0.6
+savetagchanges
+exit
+
+edittag objects\weapons\rifle\dmr\dmr_green_fp.render_model
+addblockelements MarkerGroups
+addblockelements MarkerGroups[*].Markers
+setfield MarkerGroups[*].Name mineleloldabest_left_hand_spartan_fp
+setfield MarkerGroups[*].Markers[*].RegionIndex -1
+setfield MarkerGroups[*].Markers[*].PermutationIndex -1
+setfield MarkerGroups[*].Markers[*].Translation 0.096 -0.0048 0.024
+setfield MarkerGroups[*].Markers[*].Rotation -0.62 0.185 -0.44 0.625
+
+addblockelements MarkerGroups
+addblockelements MarkerGroups[*].Markers
+setfield MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
+setfield MarkerGroups[*].Markers[*].RegionIndex -1
+setfield MarkerGroups[*].Markers[*].PermutationIndex -1
+setfield MarkerGroups[*].Markers[*].Translation 0.079 -0.0001 0.0182
+setfield MarkerGroups[*].Markers[*].Rotation -0.598 0.1255 -0.49 0.6
+savetagchanges
+exit
+
+edittag objects\weapons\rifle\dmr\dmr_orange_fp.render_model
+addblockelements MarkerGroups
+addblockelements MarkerGroups[*].Markers
+setfield MarkerGroups[*].Name mineleloldabest_left_hand_spartan_fp
+setfield MarkerGroups[*].Markers[*].RegionIndex -1
+setfield MarkerGroups[*].Markers[*].PermutationIndex -1
+setfield MarkerGroups[*].Markers[*].Translation 0.096 -0.0048 0.024
+setfield MarkerGroups[*].Markers[*].Rotation -0.62 0.185 -0.44 0.625
+
+addblockelements MarkerGroups
+addblockelements MarkerGroups[*].Markers
+setfield MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
+setfield MarkerGroups[*].Markers[*].RegionIndex -1
+setfield MarkerGroups[*].Markers[*].PermutationIndex -1
+setfield MarkerGroups[*].Markers[*].Translation 0.079 -0.0001 0.0182
+setfield MarkerGroups[*].Markers[*].Rotation -0.598 0.1255 -0.49 0.6
+savetagchanges
+exit
+
+edittag objects\weapons\rifle\dmr\dmr_red_fp.render_model
+addblockelements MarkerGroups
+addblockelements MarkerGroups[*].Markers
+setfield MarkerGroups[*].Name mineleloldabest_left_hand_spartan_fp
+setfield MarkerGroups[*].Markers[*].RegionIndex -1
+setfield MarkerGroups[*].Markers[*].PermutationIndex -1
+setfield MarkerGroups[*].Markers[*].Translation 0.096 -0.0048 0.024
+setfield MarkerGroups[*].Markers[*].Rotation -0.62 0.185 -0.44 0.625
+
+addblockelements MarkerGroups
+addblockelements MarkerGroups[*].Markers
+setfield MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
+setfield MarkerGroups[*].Markers[*].RegionIndex -1
+setfield MarkerGroups[*].Markers[*].PermutationIndex -1
+setfield MarkerGroups[*].Markers[*].Translation 0.079 -0.0001 0.0182
+setfield MarkerGroups[*].Markers[*].Rotation -0.598 0.1255 -0.49 0.6
+savetagchanges
+exit
+
+
+edittag objects\weapons\pistol\magnum\magnum_gold_fp.render_model
+addblockelements MarkerGroups
+addblockelements MarkerGroups[*].Markers
+setfield MarkerGroups[*].Name mineleloldabest_left_hand_spartan_fp
+setfield MarkerGroups[*].Markers[*].RegionIndex -1
+setfield MarkerGroups[*].Markers[*].PermutationIndex -1
+setfield MarkerGroups[*].Markers[*].Translation 0.004 -0.00277 -0.0188
+setfield MarkerGroups[*].Markers[*].Rotation -0.473 -0.02672 -0.3264 0.8179152
+savetagchanges
+exit
+
+edittag objects\weapons\pistol\magnum\magnum_red_fp.render_model
+addblockelements MarkerGroups
+addblockelements MarkerGroups[*].Markers
+setfield MarkerGroups[*].Name mineleloldabest_left_hand_spartan_fp
+setfield MarkerGroups[*].Markers[*].RegionIndex -1
+setfield MarkerGroups[*].Markers[*].PermutationIndex -1
+setfield MarkerGroups[*].Markers[*].Translation 0.004 -0.00277 -0.0188
+setfield MarkerGroups[*].Markers[*].Rotation -0.473 -0.02672 -0.3264 0.8179152
+savetagchanges
+exit

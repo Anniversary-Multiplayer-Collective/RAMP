@@ -515,6 +515,11 @@ SetField Materials[0].RenderMethod objects\cex\cex_beaver_creek\crates\gravity_l
 SaveTagChanges
 Exit
 
+# echo ==Fix reach magnum illum color...==
+EditTag dw3\r3ach\objects\weapons\pistol\magnum\shaders\magnum_illum.shader
+SetArgument self_illum_color 0.8 1.2 0.4 1
+SaveTagChanges
+Exit
 
 # echo ==Add Reach specific weapons to the palette...==
 
@@ -713,13 +718,6 @@ SetField Palette[*].Type Equipment
 SetField Palette[*].CategoryIndex 67
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\equipment\drop_shield\drop_shield.equipment
-
-AddBlockElements Palette
-SetField Palette[*].Name "INVISIBILITY"
-SetField Palette[*].Type Equipment
-SetField Palette[*].CategoryIndex 67
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\equipment\invisibility_equipment\invisibility_equipment.equipment
 
 SaveTagChanges
 Exit

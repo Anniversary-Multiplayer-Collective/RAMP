@@ -66,6 +66,7 @@ AddForgeItem "MAGNUM AMMO" 69 objects\powerups\pistol_ammo\pistol_ammo.equipment
 AddForgeItem "SPNKR AMMO" 69 objects\powerups\rocket_launcher_ammo\rocket_launcher_ammo.equipment
 AddForgeItem "SHOTGUN AMMO" 69 objects\powerups\shotgun_ammo\shotgun_ammo.equipment
 AddForgeItem "SMG AMMO" 69 objects\powerups\smg_ammo\smg_ammo.equipment
+AddForgeItem "SNIPER AMMO" 69 objects\powerups\sniper_rifle_ammo\sniper_rifle_ammo.equipment
 
 # AMMO PACK, MY BELOVED
 edittag multiplayer\forge_globals.forge_globals_definition
@@ -119,7 +120,6 @@ AddForgeItem "INTERIOR DOOR, ONI LOGO" 86 objects\levels\solo\m20\door_interior_
 duplicatetag objects\levels\solo\m20\door_interior_large\door_interior_large.device_machine objects\levels\solo\m20\door_interior_large\door_interior_large_ramp
 AddForgeItem "INTERIOR DOOR, LARGE" 86 objects\levels\solo\m20\door_interior_large\door_interior_large_ramp.device_machine
 
-
 AddForgeItem "UNSC DOOR, SMALL" 86 objects\levels\shared\device_machines\unsc_door_small\unsc_door_small.device_machine
 AddForgeItem "UNSC DOOR, LARGE" 86 objects\levels\shared\device_machines\unsc_door_large\unsc_door_large.device_machine
 AddForgeItem "BLAST DOOR" 86 objects\levels\shared\device_machines\blast_door\blast_door.device_machine
@@ -143,7 +143,7 @@ AddForgeItem "KEYPAD, TOGGLE" 86 objects\levels\shared\device_controls\switches\
 AddForgeItem "KEYPAD UNSC, TOGGLE" 86 objects\levels\shared\device_controls\switches\hum_keypad_02\hum_keypad_02.device_control
 
 # NATURALS [87] -------------------------------------------------------------------------------------------------------------
-
+Foreach crate startingwith: objects\levels\solo\m10\030_rock_blocker MultiplayerObject 1
 Foreach crate startingwith: objects\levels\solo\m20\bamboo\bamboo addblockelements MultiplayerObject 1
 Foreach crate startingwith: objects\levels\shared\ice_chunk_large_a\ice_chunk_large_a addblockelements MultiplayerObject 1
 Foreach crate startingwith: objects\levels\shared\ice_chunk_large_b\ice_chunk_large_b addblockelements MultiplayerObject 1
@@ -574,7 +574,7 @@ AddForgeItem "CONTAINER, FUEL DEPOT" 89 objects\levels\solo\m20\fuel_depot_conta
 AddForgeItem "CONTAINER, FUEL TANK" 89 objects\props\human\pioneer\garage\fuel_tank\fuel_tank.scenery
 AddForgeItem "CONTAINER, PROPANE TANK" 89 objects\props\human\pioneer\garage\propane_tank\propane_tank.scenery
 AddForgeItem "CONTAINER, WATER FILTRATION" 89 objects\props\human\pioneer\farm\water_filtration\water_filtration.scenery
-AddForgeItem "CONTAINER, WATERTANK, HORIZONTAL" 89 objects\props\human\pioneer\farm\water_tank_horizontal\water_tank_horizontal.scenery
+AddForgeItem "CONTAINER, WATERTANK" 89 objects\props\human\pioneer\farm\water_tank_horizontal\water_tank_horizontal.scenery
 AddForgeItem "CONTAINER, WASTE RECYCLING" 89 objects\props\human\pioneer\farm\waste_recycling\waste_recycling.scenery
 
 AddForgeItem "CRATE, ONI, LARGE [SP]" 89 objects\props\human\oni\oni_crate_giant\oni_crate_giant.crate
@@ -1045,7 +1045,7 @@ setfield Palette[*].Setters[*].Target General_Physics
 setfield Palette[*].Setters[*].IntegerValue 1
 
 addblockelements Palette
-setfield Palette[*].Name "ONE WAY SHIELD, NO SIGN, XMEDIUM"
+setfield Palette[*].Name "ONE WAY SHIELD, NO SIGN, XMED"
 setfield Palette[*].Type Prop
 setfield Palette[*].CategoryIndex 97
 setfield Palette[*].DescriptionIndex -1
@@ -1055,7 +1055,7 @@ setfield Palette[*].Setters[*].Target General_Physics
 setfield Palette[*].Setters[*].IntegerValue 1
 
 addblockelements Palette
-setfield Palette[*].Name "ONE WAY SHIELD, NO SIGN, LARGE 1"
+setfield Palette[*].Name "ONE WAY SHIELD, NO SIGN, LARGE"
 setfield Palette[*].Type Prop
 setfield Palette[*].CategoryIndex 97
 setfield Palette[*].DescriptionIndex -1
@@ -1065,7 +1065,7 @@ setfield Palette[*].Setters[*].Target General_Physics
 setfield Palette[*].Setters[*].IntegerValue 1
 
 addblockelements Palette
-setfield Palette[*].Name "ONE WAY SHIELD, NO SIGN, LARGE 2"
+setfield Palette[*].Name "ONE WAY SHIELD, NO SIGN, XLARGE"
 setfield Palette[*].Type Prop
 setfield Palette[*].CategoryIndex 97
 setfield Palette[*].DescriptionIndex -1

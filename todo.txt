@@ -23,17 +23,14 @@ If anyone has fixed any of these please delete or comment it out with a #
 - Haven't found any
 
 (BEACHHEAD)
-- The city skybox is way too bright
 - The skybox disappear if you look at specific angles
 |->to fix it you have to change the skybox to something then set it to default again
-- The main stair has weird shader where it becomes bright if you look at certain angles
 
 (BOARDWALK)
 - Fog aren't accurate
 
 (BREAKNECK)
 - Missing some decals
-- Sound plays incorrectly or doesn't get play at all (sound scenery overloaded)
 
 (BREAKPOINT)
 - Skybox is just fucked, missing skybox water shader and more
@@ -48,7 +45,6 @@ If anyone has fixed any of these please delete or comment it out with a #
 - Haven't found any
 
 (COURTYARD)
-- Theres some weird smoke, middle in the air, one on the floor, and one under the floor
 |->removing the entire effect scenery and palette fixed it (hacky fix), haven't found any visual differences
 
 (FORGE WORLD)
@@ -58,11 +54,10 @@ If anyone has fixed any of these please delete or comment it out with a #
 - The skybox cause vertex explosion for lights or specular shader
 
 (HIGH NOON)
-- Sound plays incorrectly or doesn't get play at all (sound scenery overloaded)
+- Haven't found any
 
 (HIGHLANDS)
 - Has some weird kill barriers near red base, literally kills you while you're still in the map
-- Sound plays incorrectly or doesn't get play at all (sound scenery overloaded)
 
 (HOLDOUT)
 - The tree is uhm.. not treeing?
@@ -109,4 +104,3 @@ If anyone has fixed any of these please delete or comment it out with a #
 
 (ZEALOT)
 - The covenant glass shield is just pure transparent
-- The upper gravity section has broken physics models
