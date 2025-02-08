@@ -59,7 +59,7 @@ exit
 ##generateshader glvs water
 
 # echo ==Bitmap Fixes...==
-RunCommands "workingdir\bitmap_fixes.cmds"
+RunCommands "workingdir\cmds\bitmap_fixes.cmds"
 
 echo ==Revenant==
 
@@ -121,13 +121,13 @@ OpenModPackage "workingdir\paks\RAMPWeaponVariants.pak"
 ApplyModPackage
 ExitModPackage
 
-RunCommands workingdir\RAMPWeaponVariants.cmds
+RunCommands workingdir\cmds\RAMPWeaponVariants.cmds
 
 echo ==Remove newdamageinfo block for RAMP weapon variants==
-RunCommands workingdir\remove_newdamageinfo.cmds
+RunCommands workingdir\cmds\remove_newdamageinfo.cmds
 
 echo ==Rebalanced RAMP weapon variants==
-RunCommands workingdir\RAMPWeapsRebalanced.cmds
+RunCommands workingdir\cmds\RAMPWeapsRebalanced.cmds
 
 # echo ==Apply RAMP Forge Blocks, Health Pack, Land Mine, TPs, Zealot Shield Door==
 OpenModPackage "workingdir\paks\rampstuff.pak"
@@ -443,9 +443,9 @@ SaveTagChanges
 Exit
 
 echo == FORGE ==
-# RunCommands "workingdir\forge.cmds"
-RunCommands "workingdir\forge_object_port.cmds"
-RunCommands "workingdir\forge_object_palette.cmds"
+# RunCommands "workingdir\cmds\forge.cmds"
+RunCommands "workingdir\cmds\forge_object_port.cmds"
+RunCommands "workingdir\cmds\forge_object_palette.cmds"
 
 echo == M20 ELEVATOR FIX ==
 EditTag objects\levels\shared\m20_elevator_sm\m20_elevator_sm.device_machine
@@ -922,23 +922,23 @@ Exit
 
 
 echo ==Spartan Weapons Animation==
-RunCommands "workingdir\spartan_animations.cmds"
-RunCommands "workingdir\spartan_rendermodel.cmds"
+RunCommands "workingdir\cmds\spartan_animations.cmds"
+RunCommands "workingdir\cmds\spartan_rendermodel.cmds"
 
 echo ==Elite Weapons Animation==
-RunCommands "workingdir\elite_animations.cmds"
-RunCommands "workingdir\elite_rendermodel.cmds"
+RunCommands "workingdir\cmds\elite_animations.cmds"
+RunCommands "workingdir\cmds\elite_rendermodel.cmds"
 
 echo ==CHDT Weapons==
-RunCommands "workingdir\CHDTpart1.cmds"
-RunCommands "workingdir\CHDTpart2.cmds"
-RunCommands "workingdir\CHDTpart3.cmds"
+RunCommands "workingdir\cmds\CHDTpart1.cmds"
+RunCommands "workingdir\cmds\CHDTpart2.cmds"
+RunCommands "workingdir\cmds\CHDTpart3.cmds"
 
 echo ==Shader Fixes==
-RunCommands "workingdir\shaderfixes.cmds"
+RunCommands "workingdir\cmds\shaderfixes.cmds"
 
 echo ==Third person animations==
-RunCommands "workingdir\3Panimations.cmds"
+RunCommands "workingdir\cmds\3Panimations.cmds"
 
 echo ==Prevent vehicles being succed by golf cup==
 EditTag objects\levels\shared\golf_cup\golf_cup.physics_model
@@ -991,7 +991,7 @@ SetArgument self_illum_map 0.6 0.6 0.07 0.31
 SaveTagChanges
 Exit
 
-RunCommands "workingdir\worldbounds.cmds"
+RunCommands "workingdir\cmds\worldbounds.cmds"
 
 echo ==Teleporters Fix==
 EditTag objects\ca_dev\dlc_preserve\crates\teleporter_sender\teleporter_2way.crate
@@ -1039,7 +1039,7 @@ SaveTagChanges
 Exit
 
 echo ==Weapons Viewmodel Support==
-RunCommands "workingdir\weapons_viewmodel.cmds"
+RunCommands "workingdir\cmds\weapons_viewmodel.cmds"
 
 echo ==Tempest Skybox Fix==
 EditTag levels\multi\dlc\dlc_medium\dlc_medium_beachhead_sky\shaders\dlc_medium_blue_sky_dome.shader
@@ -1257,13 +1257,13 @@ echo ==Make weapons not float like in reach==
 ForEach weap contains: objects\weapons SetField WaterDensity None
 
 # echo ==Podium/Prematch Camera...==
-RunCommands "workingdir\podiumcamera.cmds"
+RunCommands "workingdir\cmds\podiumcamera.cmds"
 
 # echo ==Copy 0.7 NewDamageInfo for fusion coil and plasma battery...==
-RunCommands "workingdir\fusion_coil_plasma_battery_damage.cmds"
+RunCommands "workingdir\cmds\fusion_coil_plasma_battery_damage.cmds"
 
 # echo ==Fix Holograms...==
-RunCommands "workingdir\fixholograms.cmds"
+RunCommands "workingdir\cmds\fixholograms.cmds"
 
 # echo ==Elite Model Improvements...==
 EditTag objects\characters\elite\mp_elite\mp_elite.render_model
@@ -1280,7 +1280,7 @@ Exit
 cs < "workingdir\WeaponWaterFix.cs"
 
 # echo ==Fix Covenant Portable Shield==
-RunCommands "workingdir\portableshieldfix.cmds"
+RunCommands "workingdir\cmds\portableshieldfix.cmds"
 
 # echo ==Fix Kill Volume Physics==
 EditTag objects\multi\models\ff_kill_zone\ff_kill_zone.physics_model
@@ -1302,7 +1302,7 @@ SaveTagChanges
 Exit
 
 # echo ==Map sound scenery issue fix==
-RunCommands "workingdir\soundsceneryscenario.cmds"
+RunCommands "workingdir\cmds\soundsceneryscenario.cmds"
 
 
 # echo ==Zealot Low Gravity Collision Fix==
