@@ -1381,6 +1381,65 @@ SetField Phantoms[0].ShapeType Polyhedron
 SaveTagChanges
 Exit
 
+# echo ==Weapons Multiplayer Globals==
+# Fiesta now should work
+edittag multiplayer\multiplayer_globals.multiplayer_globals
+# Add 10
+removeblockelements Universal[0].GameVariantWeapons 71 *
+
+addblockelements Universal[0].GameVariantWeapons 1
+setfield Universal[0].GameVariantWeapons[*].Name mgt_jorge
+setfield Universal[0].GameVariantWeapons[*].RandomChance 0
+setfield Universal[0].GameVariantWeapons[*].Weapon objects\weapons\turret\machinegun_turret_jorge\machinegun_turret_jorge.weapon
+
+addblockelements Universal[0].GameVariantWeapons 1
+setfield Universal[0].GameVariantWeapons[*].Name automag
+setfield Universal[0].GameVariantWeapons[*].RandomChance 0.1
+setfield Universal[0].GameVariantWeapons[*].Weapon objects\weapons\pistol\automag\automag.weapon
+
+addblockelements Universal[0].GameVariantWeapons 1
+setfield Universal[0].GameVariantWeapons[*].Name smg_silenced
+setfield Universal[0].GameVariantWeapons[*].RandomChance 0.1
+setfield Universal[0].GameVariantWeapons[*].Weapon objects\weapons\rifle\smg_silenced\smg_silenced.weapon
+
+addblockelements Universal[0].GameVariantWeapons 1
+setfield Universal[0].GameVariantWeapons[*].Name concussion_rifle
+setfield Universal[0].GameVariantWeapons[*].RandomChance 0.1
+setfield Universal[0].GameVariantWeapons[*].Weapon objects\weapons\rifle\concussion_rifle\concussion_rifle.weapon
+
+addblockelements Universal[0].GameVariantWeapons 1
+setfield Universal[0].GameVariantWeapons[*].Name focus_rifle
+setfield Universal[0].GameVariantWeapons[*].RandomChance 0.1
+setfield Universal[0].GameVariantWeapons[*].Weapon objects\weapons\rifle\focus_rifle\focus_rifle.weapon
+
+addblockelements Universal[0].GameVariantWeapons 1
+setfield Universal[0].GameVariantWeapons[*].Name grenade_launcher
+setfield Universal[0].GameVariantWeapons[*].RandomChance 0.1
+setfield Universal[0].GameVariantWeapons[*].Weapon objects\weapons\rifle\grenade_launcher\grenade_launcher.weapon
+
+addblockelements Universal[0].GameVariantWeapons 1
+setfield Universal[0].GameVariantWeapons[*].Name needle_rifle
+setfield Universal[0].GameVariantWeapons[*].RandomChance 0.1
+setfield Universal[0].GameVariantWeapons[*].Weapon objects\weapons\rifle\needle_rifle\needle_rifle.weapon
+
+addblockelements Universal[0].GameVariantWeapons 1
+setfield Universal[0].GameVariantWeapons[*].Name plasma_repeater
+setfield Universal[0].GameVariantWeapons[*].RandomChance 0.1
+setfield Universal[0].GameVariantWeapons[*].Weapon objects\weapons\rifle\plasma_repeater\plasma_repeater.weapon
+
+addblockelements Universal[0].GameVariantWeapons 1
+setfield Universal[0].GameVariantWeapons[*].Name plasma_launcher
+setfield Universal[0].GameVariantWeapons[*].RandomChance 0.1
+setfield Universal[0].GameVariantWeapons[*].Weapon objects\weapons\support_high\plasma_launcher\plasma_launcher.weapon
+
+addblockelements Universal[0].GameVariantWeapons 1
+setfield Universal[0].GameVariantWeapons[*].Name target_laser
+setfield Universal[0].GameVariantWeapons[*].RandomChance 0.1
+setfield Universal[0].GameVariantWeapons[*].Weapon objects\weapons\pistol\target_laser\target_laser.weapon
+savetagchanges
+exit
+
+
 ImportFonts workingdir\fonts_new.bin
 
 DeleteModFiles

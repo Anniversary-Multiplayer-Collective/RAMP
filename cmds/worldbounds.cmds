@@ -132,3 +132,15 @@ SetField Physics.MoppBoundsMin -1000 -1000 -1000
 SetField Physics.MoppBoundsMax 1000 1000 1000
 SaveTagChanges
 Exit
+
+EditTag levels\multi\45_aftship\45_aftship_010.scenario_structure_bsp
+SetField WorldBoundsX -1000 1000
+SetField WorldBoundsY -1000 1000
+SetField WorldBoundsZ -1000 1000
+SetField Clusters[0].BoundsX -1000 1000
+SetField Clusters[0].BoundsY -1000 1000
+SetField Clusters[0].BoundsZ -1000 1000
+SetField Physics.MoppBoundsMin -1000 -1000 -1000
+SetField Physics.MoppBoundsMax 1000 1000 1000
+SaveTagChanges
+Exit
