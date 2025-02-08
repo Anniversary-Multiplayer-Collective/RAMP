@@ -7,7 +7,6 @@ SetField CutsceneCameraPoints[1].Position -118.984 49.299 26.017
 SetField CutsceneCameraPoints[1].Orientation -134 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -20,7 +19,6 @@ SetField CutsceneCameraPoints[1].Position 130.287 246.321 41.337
 SetField CutsceneCameraPoints[1].Orientation 60 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -33,7 +31,6 @@ SetField CutsceneCameraPoints[1].Position -162.963 -430.178 -58.323
 SetField CutsceneCameraPoints[1].Orientation 150 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -46,7 +43,6 @@ SetField CutsceneCameraPoints[1].Position 0.018 -1.677 8.450
 SetField CutsceneCameraPoints[1].Orientation -90 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -59,7 +55,6 @@ SetField CutsceneCameraPoints[1].Position -154.219 -13.627 5.214
 SetField CutsceneCameraPoints[1].Orientation 90 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -72,7 +67,6 @@ SetField CutsceneCameraPoints[1].Position 227.762 -20.792 -2.285
 SetField CutsceneCameraPoints[1].Orientation 0 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -85,7 +79,6 @@ SetField CutsceneCameraPoints[1].Position -27.199 -162.525 245.296
 SetField CutsceneCameraPoints[1].Orientation -90 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -98,7 +91,6 @@ SetField CutsceneCameraPoints[1].Position 300.648 82.864 -7.985
 SetField CutsceneCameraPoints[1].Orientation -179.985 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -111,7 +103,6 @@ SetField CutsceneCameraPoints[1].Position 63.503 232.321 44.665
 SetField CutsceneCameraPoints[1].Orientation -90 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -124,7 +115,6 @@ SetField CutsceneCameraPoints[1].Position -4.502 0.500 -0.047
 SetField CutsceneCameraPoints[1].Orientation -90 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -137,7 +127,6 @@ SetField CutsceneCameraPoints[1].Position -5.836 7.997 3.446
 SetField CutsceneCameraPoints[1].Orientation 90 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -150,7 +139,6 @@ SetField CutsceneCameraPoints[1].Position 16.257 -6.707 -3.241
 SetField CutsceneCameraPoints[1].Orientation 90 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -163,7 +151,6 @@ SetField CutsceneCameraPoints[1].Position 1.487 -19.626 3.532
 SetField CutsceneCameraPoints[1].Orientation -90 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -176,7 +163,6 @@ SetField CutsceneCameraPoints[1].Position 0.289 3.101 -3.459
 SetField CutsceneCameraPoints[1].Orientation -90 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -189,7 +175,6 @@ SetField CutsceneCameraPoints[1].Position -16.209 48.962 -12.887
 SetField CutsceneCameraPoints[1].Orientation -90 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -202,7 +187,6 @@ SetField CutsceneCameraPoints[1].Position 16.090 -16.598 3.265
 SetField CutsceneCameraPoints[1].Orientation 135 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -215,7 +199,6 @@ SetField CutsceneCameraPoints[1].Position 10.303 23.358 -8.725
 SetField CutsceneCameraPoints[1].Orientation 60 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -228,7 +211,6 @@ SetField CutsceneCameraPoints[1].Position 18.296 14.199 3.116
 SetField CutsceneCameraPoints[1].Orientation 90 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -244,7 +226,6 @@ SetField CutsceneCameraPoints[1].Position 0.032 -4.870 1.516
 SetField CutsceneCameraPoints[1].Orientation 90 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -257,7 +238,6 @@ SetField CutsceneCameraPoints[1].Position 0.521 23.607 5.662
 SetField CutsceneCameraPoints[1].Orientation -90 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -273,7 +253,6 @@ SetField CutsceneCameraPoints[1].Position 135.328 83.438 0.512
 SetField CutsceneCameraPoints[1].Orientation 120 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -289,7 +268,6 @@ SetField CutsceneCameraPoints[1].Position -110.072 56.644 15.065
 SetField CutsceneCameraPoints[1].Orientation 0 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -305,7 +283,6 @@ SetField CutsceneCameraPoints[1].Position 14.812 219.587 44.240
 SetField CutsceneCameraPoints[1].Orientation 45 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -321,7 +298,6 @@ SetField CutsceneCameraPoints[1].Position 0 -35.218 4.515
 SetField CutsceneCameraPoints[1].Orientation 90 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -337,7 +313,6 @@ SetField CutsceneCameraPoints[1].Position -167.985 45.845 -38.285
 SetField CutsceneCameraPoints[1].Orientation -90 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -353,7 +328,6 @@ SetField CutsceneCameraPoints[1].Position -124.525 -125.654 12.841
 SetField CutsceneCameraPoints[1].Orientation -90 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -369,7 +343,6 @@ SetField CutsceneCameraPoints[1].Position -91.895 262.031 -103.170
 SetField CutsceneCameraPoints[1].Orientation 20 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -385,7 +358,6 @@ SetField CutsceneCameraPoints[1].Position 457.722 128.952 -6.827
 SetField CutsceneCameraPoints[1].Orientation -132.972 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -401,7 +373,6 @@ SetField CutsceneCameraPoints[1].Position 5.983 -12.963 2.521
 SetField CutsceneCameraPoints[1].Orientation 90 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit
 
@@ -417,6 +388,5 @@ SetField CutsceneCameraPoints[1].Position -55.221 -33.258 67.621
 SetField CutsceneCameraPoints[1].Orientation 90 0 0
 SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
-ConvertPlacementLightprobes
 SaveTagChanges
 Exit

@@ -786,7 +786,7 @@ edittag ui\chud\magnum_damage.chud_definition
 removeblockelements HudWidgets 0 *
 pasteblockelements HudWidgets
 
-setfield HudWidgets[5].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[5].StateData[0].UnitZoomState BinocularsEnabled
 
 setfield HudWidgets[2].BitmapWidgets[0].StateData[0].WeaponArmedStateHO RightHand,LeftHand
 setfield HudWidgets[2].BitmapWidgets[1].StateData[0].WeaponArmedStateHO RightHand,LeftHand
