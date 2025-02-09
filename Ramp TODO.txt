@@ -1,4 +1,19 @@
 TODO:
+Redo Reflection Podium
+CTF Progress Bar
+Redo podium in Breakneck
+Fix tank projectile
+Fix PP tracking
+No overheat icon for Turret
+Deacrease death sound bounds
+Weapon Descope
+Fix hud score https://s.zekken.rocks/8SQvP5C9.png
+Anchor 9 podium
+Breakpoint Podium
+
+
+
+
 No shield pop sound
 Set objects to phased by default to prevent lag from spawning big items
 Prevent shooting revenant while boosting
