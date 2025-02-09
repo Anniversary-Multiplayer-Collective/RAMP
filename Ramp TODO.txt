@@ -10,7 +10,7 @@ Weapon Descope
 Fix hud score https://s.zekken.rocks/8SQvP5C9.png
 Anchor 9 podium
 Breakpoint Podium
-
+Fix radar levels
 
 
 
