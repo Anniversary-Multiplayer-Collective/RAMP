@@ -1,16 +1,15 @@
 TODO:
-Redo Reflection Podium
 CTF Progress Bar
-Redo podium in Breakneck
-Fix tank projectile
-Fix PP tracking
+Fix tank projectile not damaging vehicles
+Fix PP tracking?
 No overheat icon for Turret
 Deacrease death sound bounds
-Weapon Descope
+Weapon Descope `SetField MagnificationFlags Bit0`
 Fix hud score https://s.zekken.rocks/8SQvP5C9.png
-Anchor 9 podium
-Breakpoint Podium
 Fix radar levels
+Set animation distance to 0 in falcon model tag
+Null mopp data for sucker plant
+Lockon for plasma launcher
 
 
 
