@@ -4,16 +4,17 @@ Fix tank projectile not damaging vehicles
 Fix PP tracking?
 No overheat icon for Turret
 Deacrease death sound bounds
-Weapon Descope `SetField MagnificationFlags Bit0`
+Weapon Descope
 Fix hud score https://s.zekken.rocks/8SQvP5C9.png
 Fix radar levels
 Set animation distance to 0 in falcon model tag
 Null mopp data for sucker plant
 Lockon for plasma launcher
-
-
-
 No shield pop sound
+
+
+
+
 Set objects to phased by default to prevent lag from spawning big items
 Prevent shooting revenant while boosting
 Add dual wield animations?
