@@ -1439,6 +1439,18 @@ setfield Universal[0].GameVariantWeapons[*].Weapon objects\weapons\pistol\target
 savetagchanges
 exit
 
+# echo ==Make grenades not have a mind of their own==
+edittag objects\weapons\grenade\frag_grenade\frag_grenade.physics_model
+setfield RigidBodies[0].LinearDampening 1
+setfield RigidBodies[0].AngularDampening 1
+savetagchanges
+exit
+edittag objects\weapons\grenade\plasma_grenade\plasma_grenade.physics_model
+setfield RigidBodies[0].LinearDampening 1
+setfield RigidBodies[0].AngularDampening 0.5
+savetagchanges
+exit
+
 
 ImportFonts workingdir\fonts_new.bin
 
