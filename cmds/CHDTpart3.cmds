@@ -574,7 +574,8 @@ removeblockelements Sequences 6 *
 setfield Sequences[1].Name " "
 setfield Sequences[2].Name " "
 importbitmap 0 workingdir\bitmaps\sensor_blips.dds 
-
+savetagchanges
+exit
 
 edittag ui\chud\spartan.chud_definition
 setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 4.05 4.05
