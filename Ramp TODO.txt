@@ -17,7 +17,7 @@ Look into adding reach spartan jumping and landing sounds
 Look into adding reach global materials (sounds and other associated data, pak size allowing)
 Look into changing starting magnum clip count (scenario player starting profile)
 
-Fix grenade self illum map (its using the MS23 tag instead of the reach one)
+Fix swapping equipment with grenades
 
 Set objects to phased by default to prevent lag from spawning big items
 Prevent shooting revenant while boosting

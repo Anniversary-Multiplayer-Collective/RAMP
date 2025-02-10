@@ -212,6 +212,7 @@ SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
+NameTag objects\weapons\grenade\frag_grenade\bitmaps\frag_grenade_illum.bitmap objects\weapons\grenade\frag_grenade\bitmaps\frag_grenade_illum_h3
 OpenCacheFile "reachmaps\forge_halo.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 DoNotReplaceGroups bitm,prt3
