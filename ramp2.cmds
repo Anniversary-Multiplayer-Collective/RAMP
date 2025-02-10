@@ -1477,6 +1477,10 @@ OpenModPackage "modsfolder\RAMP_2.pak"
 DeleteModFiles
 ApplyModPackage
 ExitModPackage
+EditTag objects\characters\masterchief\masterchief.model_animation_graph
+SortModes
+SaveTagChanges
+Exit
 AddModFiles workingdir\assets
 SaveModPackage "modsfolder\RAMP_2.pak"
 
