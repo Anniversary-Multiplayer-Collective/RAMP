@@ -1456,8 +1456,6 @@ ImportFonts workingdir\fonts_new.bin
 
 DeleteModFiles
 
-AddModFiles workingdir\assets
-
 UpdateMapFiles "workingdir\info"
 
 EditTag multiplayer\forge_globals.forge_globals_definition
@@ -1465,6 +1463,21 @@ MaximizeBudget All
 SaveTagChanges
 Exit
 
+SaveModPackage "modsfolder\RAMP_2.pak"
+
+# Make mod pak smaller
+ExitModPackage
+CreateModPackage 1 large
+Ramp 2
+Ramp 2
+RampCollective
+0.2
+MainMenu Multiplayer Character
+OpenModPackage "modsfolder\RAMP_2.pak"
+DeleteModFiles
+ApplyModPackage
+ExitModPackage
+AddModFiles workingdir\assets
 SaveModPackage "modsfolder\RAMP_2.pak"
 
 DumpLog workingdir\logs
