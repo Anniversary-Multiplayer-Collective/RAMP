@@ -236,6 +236,19 @@ PortTag !Scripts !UpdateMapFiles *.scnr
 PortTag objects\vehicles\covenant\revenant\turrets\revenant_plasma_turret\weapon\revenant_plasma_turret.projectile
 Exit
 
+# echo ==Fix Swapping Equipment With Grenades...==
+
+EditTag objects\weapons\grenade\frag_grenade\frag_grenade.equipment
+SetField UseDuration 0
+SetField NumberOfUses 0
+SaveTagChanges
+Exit
+EditTag objects\weapons\grenade\plasma_grenade\plasma_grenade.equipment
+SetField UseDuration 0
+SetField NumberOfUses 0
+SaveTagChanges
+Exit
+
 OpenCacheFile "reachmaps\cex_beaver_creek.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag !Scripts !UpdateMapFiles *.scnr
