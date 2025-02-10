@@ -4,7 +4,6 @@ Fix tank projectile not damaging vehicles
 Fix PP tracking?
 No overheat icon for Turret
 Deacrease death sound bounds
-Weapon Descope
 Fix hud score https://s.zekken.rocks/8SQvP5C9.png
 Fix radar levels
 Null mopp data for sucker plant

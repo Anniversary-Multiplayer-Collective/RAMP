@@ -1,3 +1,264 @@
+EditTag objects\weapons\melee\energy_blade\energy_blade.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\melee\energy_blade\energy_blade_useless.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\melee\energy_blade\unarmed.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\melee\gravity_hammer\gravity_hammer.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\multiplayer\assault_bomb\assault_bomb.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\multiplayer\ball\ball.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\multiplayer\flag\flag.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\pistol\automag\automag.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\pistol\excavator\excavator.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\pistol\excavator_power\excavator_power.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\pistol\magnum\magnum.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\pistol\magnum\magnum_damage.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\pistol\magnum\magnum_power.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\pistol\needler\needler.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\pistol\plasma_pistol\plasma_pistol.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\pistol\plasma_pistol\plasma_pistol_power.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\pistol\target_laser\target_laser.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\assault_rifle\assault_rifle.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\assault_rifle_accuracy\assault_rifle_accuracy.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\assault_rifle_damage\assault_rifle_damage.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\assault_rifle_power\assault_rifle_power.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\assault_rifle_rof\assault_rifle_rof.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\battle_rifle\battle_rifle.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\battle_rifle_accuracy\battle_rifle_accuracy.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\battle_rifle_ammo\battle_rifle_ammo.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\battle_rifle_damage\battle_rifle_damage.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\battle_rifle_power\battle_rifle_power.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\battle_rifle_range\battle_rifle_range.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\battle_rifle_rof\battle_rifle_rof.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\beam_rifle\beam_rifle.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\concussion_rifle\concussion_rifle.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\covenant_carbine\covenant_carbine.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\covenant_carbine_accuracy\covenant_carbine_accuracy.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\covenant_carbine_ammo\covenant_carbine_ammo.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\covenant_carbine_damage\covenant_carbine_damage.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\covenant_carbine_power\covenant_carbine_power.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\covenant_carbine_range\covenant_carbine_range.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\covenant_carbine_rof\covenant_carbine_rof.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\dmr\dmr.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\dmr_accuracy\dmr_accuracy.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\dmr_ammo\dmr_ammo.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\dmr_damage\dmr_damage.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\dmr_power\dmr_power.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\dmr_rof\dmr_rof.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\focus_rifle\focus_rifle.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\grenade_launcher\grenade_launcher.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\needle_rifle\needle_rifle.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\plasma_repeater\plasma_repeater.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\plasma_rifle\plasma_rifle.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\plasma_rifle\plasma_rifle_power.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\shotgun\shotgun.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\smg\smg.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\smg\smg_accuracy.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\smg\smg_damage.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\smg\smg_power.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\smg\smg_rof.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\smg_silenced\smg_silenced.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\sniper_rifle\sniper_rifle.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\rifle\spike_rifle\spike_rifle.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\support_high\flak_cannon\flak_cannon.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\support_high\plasma_launcher\plasma_launcher.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\support_high\rocket_launcher\rocket_launcher.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\support_high\spartan_laser\spartan_laser.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\support_low\brute_shot\brute_shot.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+EditTag objects\weapons\support_low\sentinel_gun\sentinel_gun.weapon
+SetField MagnificationFlags Bit0
+SaveTagChanges
+Exit
+
 EditTag objects\weapons\pistol\magnum\magnum_damage.weapon
 setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\pistol\magnum\animations\fp_spartan\fp_spartan.model_animation_graph
 setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\pistol\magnum\animations\fp_elite\fp_elite.model_animation_graph
