@@ -16,6 +16,7 @@ Add extra medals from reach
 Look into adding reach spartan jumping and landing sounds
 Look into adding reach global materials (sounds and other associated data, pak size allowing)
 Look into changing starting magnum clip count (scenario player starting profile)
+Look into changing default weapon ammo counts (We would need to take into account thing such as reach bloom and DPS. Discussion Required)
 
 Set objects to phased by default to prevent lag from spawning big items
 Prevent shooting revenant while boosting
