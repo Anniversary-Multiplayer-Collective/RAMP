@@ -569,6 +569,13 @@ setfield SwitchToFromAiMessage mr_swap_ai
 savetagchanges
 exit
 
+edittag ui\chud\bitmaps\sensor_blips.bitmap
+removeblockelements Sequences 6 *
+setfield Sequences[1].Name " "
+setfield Sequences[2].Name " "
+importbitmap 0 workingdir\bitmaps\sensor_blips.dds 
+
+
 edittag ui\chud\spartan.chud_definition
 setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 4.05 4.05
 setfield HudWidgets[0].BitmapWidgets[0].RenderData[0].LocalScalarA 0.8
@@ -650,6 +657,14 @@ setfield HUDWidgets[5].PlacementData[0].Offset -23 32
 setfield HUDWidgets[5].PlacementData[0].Scale 1.3 1.3
 setfield HUDWidgets[6].PlacementData[0].Offset -22 32
 setfield HUDWidgets[6].PlacementData[0].Scale 1.3 1.3
+
+setfield HudWidgets[21].BitmapWidgets[0].RenderData[0].OutputColorB PrimaryBackground
+setfield HudWidgets[21].BitmapWidgets[0].RenderData[0].OutputColorC SecondaryBackground
+setfield HudWidgets[21].BitmapWidgets[1].RenderData[0].OutputColorB HighlightForeground
+setfield HudWidgets[21].BitmapWidgets[2].RenderData[0].OutputColorB HighlightForeground
+setfield HudWidgets[21].BitmapWidgets[2].RenderData[0].OutputColorC PrimaryBackground
+setfield HudWidgets[21].BitmapWidgets[1].Bitmap ui\chud\bitmaps\equipment_meter_border.bitmap
+
 setfield HudWidgets[23].StateData[0].UnitZoomState Unzoomed
 removeblockelements HudWidgets[24].BitmapWidgets 1 *
 savetagchanges

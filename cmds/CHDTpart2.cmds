@@ -208,6 +208,7 @@ setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
 setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics\battle_rifle.bitmap
 setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 4
 removeblockelements HudWidgets 3 1
+setfield HudWidgets[4].StateData[0].UnitZoomState Unzoomed
 savetagchanges
 exit
 
@@ -515,6 +516,7 @@ removeblockelements HudWidgets 0 *
 pasteblockelements HudWidgets
 
 setfield HudWidgets[0].StateData[0].UnitZoomState Unzoomed
+setfield HudWidgets[1].StateData[0].UnitZoomState Unzoomed
 setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 8
 
 setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -30 62
@@ -533,6 +535,7 @@ setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarA RangeInput
 setfield HudWidgets[4].BitmapWidgets[0].Bitmap 0x000021A2
 setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 4
 removeblockelements HudWidgets 0 1
+setfield HudWidgets[4].StateData[0].UnitZoomState Unzoomed
 savetagchanges
 exit
 
@@ -596,6 +599,7 @@ removeblockelements HudWidgets 1 *
 pasteblockelements HudWidgets
 
 setfield HudWidgets[3].StateData[0].UnitZoomState None
+setfield HudWidgets[6].StateData[0].UnitZoomState None
 setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.25 2.25
 setfield HudWidgets[0].BitmapWidgets[1].PlacementData[0].Scale 2.25 2.25
 setfield HudWidgets[0].BitmapWidgets[2].PlacementData[0].Scale 2.25 2.25
@@ -632,6 +636,7 @@ removeblockelements HudWidgets 1 *
 pasteblockelements HudWidgets
 
 setfield HudWidgets[3].StateData[0].UnitZoomState None
+setfield HudWidgets[6].StateData[0].UnitZoomState None
 setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.25 2.25
 setfield HudWidgets[0].BitmapWidgets[1].PlacementData[0].Scale 2.25 2.25
 setfield HudWidgets[0].BitmapWidgets[2].PlacementData[0].Scale 2.25 2.25
