@@ -1280,7 +1280,7 @@ RunCommands "workingdir\cmds\fusion_coil_plasma_battery_damage.cmds"
 # echo ==Fix Holograms...==
 RunCommands "workingdir\cmds\fixholograms.cmds"
 
-# echo ==Elite Model Improvements...==
+# echo ==Character Model Improvements...==
 EditTag objects\characters\elite\mp_elite\mp_elite.render_model
 ReplaceRenderGeometry "workingdir\models\ramp_dino.dae" TriangleStrip
 SaveTagChanges
@@ -1288,6 +1288,11 @@ Exit
 
 EditTag objects\characters\elite\mp_elite\fp_body\fp_body.render_model
 ReplaceRenderGeometry "workingdir\models\ramp_elite_fp_body.dae" TriangleStrip
+SaveTagChanges
+Exit
+
+EditTag objects\characters\masterchief\mp_masterchief\mp_masterchief.render_model
+ReplaceRenderGeometry "workingdir\models\spartan.fbx" TriangleStrip
 SaveTagChanges
 Exit
 
