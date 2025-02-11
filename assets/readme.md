@@ -10,6 +10,8 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 * TwistedFlog (Modeler, Animator & Tagtool Maintainer)
 * Dirkkane (Minor Contributor & Server Host)
 * Newbie (Engine Knowledge)
+* Twister (Engine Knowledge)
+* IlikeMyName (Minor Contributor)
 * NoShotz (Original RAMP Creator)
 * Dank (Original RAMP Creator)
 * Fyzure (Noble 6 Voice Lines & Macworld 1999 Emotes)
