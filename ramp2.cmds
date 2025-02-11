@@ -1466,6 +1466,8 @@ setfield RigidBodies[0].AngularDampening 0.5
 savetagchanges
 exit
 
+# echo ==Fix Silenced SMG and Automag font icons and strings==
+runcommands workingdir\cmds\weapon_strings.cmds
 
 ImportFonts workingdir\fonts_new.bin
 
