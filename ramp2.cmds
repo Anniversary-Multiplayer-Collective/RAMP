@@ -1291,10 +1291,10 @@ ReplaceRenderGeometry "workingdir\models\ramp_elite_fp_body.dae" TriangleStrip
 SaveTagChanges
 Exit
 
-EditTag objects\characters\masterchief\mp_masterchief\mp_masterchief.render_model
-ReplaceRenderGeometry "workingdir\models\spartan.fbx" TriangleStrip
-SaveTagChanges
-Exit
+##EditTag objects\characters\masterchief\mp_masterchief\mp_masterchief.render_model
+##ReplaceRenderGeometry "workingdir\models\spartan.fbx" TriangleStrip
+##SaveTagChanges
+##Exit
 
 # echo ==Make WaterGravityScale and WaterDamageRange the same as the AirGravityScale and AirDamageRange for every projectile to combat a BUG Fixes weapon drop and more...==
 cs < "workingdir\WeaponWaterFix.cs"
