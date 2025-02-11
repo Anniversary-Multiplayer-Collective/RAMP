@@ -1,20 +1,20 @@
 TODO:
-CTF Progress Bar
+CTF Return Progress Bar missing
 Fix tank projectile not damaging vehicles
 No overheat icon for Turret
-Deacrease death sound bounds
+Add overheat to Turret and Tank Turret
+Deacrease death sound bounds(Maybe caused by fyzures sound pak)
 Fix hud score https://s.zekken.rocks/8SQvP5C9.png
 Null mopp data for sucker plant
-Lockon for plasma launcher
+Add target lock for plasma launcher
 No shield pop sound
 Spire lift is considered a Invasion item
-Add cooldown to turret of tank and portable turret
 Killfeed and sprint overlap
 Arbiter head hitbox broken?
+Menu not removing previously selected option. https://s.zekken.rocks/O8hyhFLI.png
 
 
-Add extra medals from reach
-
+Look into extra medals from reach
 Look into adding reach spartan jumping and landing sounds
 Look into adding reach global materials (sounds and other associated data, pak size allowing)
 Look into changing starting magnum clip count (scenario player starting profile)
