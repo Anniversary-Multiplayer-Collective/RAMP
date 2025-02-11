@@ -1,15 +1,18 @@
 TODO:
 CTF Progress Bar
 Fix tank projectile not damaging vehicles
-Fix PP tracking?
 No overheat icon for Turret
 Deacrease death sound bounds
 Fix hud score https://s.zekken.rocks/8SQvP5C9.png
-Fix radar levels
 Null mopp data for sucker plant
 Lockon for plasma launcher
 No shield pop sound
 Spire lift is considered a Invasion item
+Add cooldown to turret of tank and portable turret
+Killfeed and sprint overlap
+Arbiter head hitbox broken?
+Adjust sprint speed to match reach
+
 
 Add extra medals from reach
 
