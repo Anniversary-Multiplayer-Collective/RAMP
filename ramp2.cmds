@@ -12,7 +12,7 @@ UseShaderCache workingdir\caches\shadercache
 # echo ==Creating Mod Package...==
 CreateModPackage 1 large
 Ramp 2
-Ramp 2
+Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even better. Featuring extensive bug fixes, quality of life improvements, and plenty of new content to play with. We hope you enjoy this labor of love, we'll see you starside.
 RampCollective
 0.2
 MainMenu Multiplayer Character
@@ -1486,7 +1486,7 @@ SaveModPackage "modsfolder\RAMP_2.pak"
 ExitModPackage
 CreateModPackage 1 large
 Ramp 2
-Ramp 2
+Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even better. Featuring extensive bug fixes, quality of life improvements, and plenty of new content to play with. We hope you enjoy this labor of love, we'll see you starside.
 RampCollective
 0.2
 MainMenu Multiplayer Character
