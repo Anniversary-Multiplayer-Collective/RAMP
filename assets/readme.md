@@ -5,7 +5,7 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 
 ## Contributors & Credits
 * Zekken (Team Lead)
-* MtnDewit (Tagtool Maintainer & Bug Fixer)
+* MtnDewIt (Tagtool Maintainer & Bug Fixer)
 * Minelelol (Core Contributor & Animator)
 * TwistedFlog (Modeler, Animator & Tagtool Maintainer)
 * Dirkkane (Minor Contributor & Server Host)
