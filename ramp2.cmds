@@ -1497,6 +1497,13 @@ setfield PlayerInformation[1].SneakAcceleration 6.1
 savetagchanges
 exit
 
+# echo == Fix needle rifle supercombine effect==
+edittag dw3\r3ach\objects\weapons\rifle\needle_rifle\projectiles\needle_rifle_shard.projectile
+setfield AirborneDetonationEffect objects\weapons\pistol\needler\fx\airborne_detonation.effect
+setfield GroundDetonationEffect objects\weapons\pistol\needler\fx\detonation.effect
+savetagchanges
+exit
+
 # echo ==Fix Silenced SMG and Automag font icons and strings==
 runcommands workingdir\cmds\weapon_strings.cmds
 
