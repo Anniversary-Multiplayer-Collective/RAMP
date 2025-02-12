@@ -2054,6 +2054,11 @@
             <param name="cachePlatform"></param>
             <param name="pluginsDirectory">The path to save the plugin files to.</param>
         </member>
+        <member name="M:TagTool.Commands.ModelAnimationGraphs.SetInheritanceCommand.ComputeNewGraphIndexForMapping(System.Int16)">
+            <summary>
+            Compute the new GraphIndex for mapping: donorGraphIndex + 1.
+            </summary>
+        </member>
         <member name="T:TagTool.Commands.ParseResult">
             <summary>
             Helper class for parsing a RuntimeCommand, identifying its arguments (if applicable), and validating the RuntimeCommand as a whole.
