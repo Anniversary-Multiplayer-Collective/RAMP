@@ -149,8 +149,8 @@ EditTag objects\vehicles\human\falcon\falcon.vehicle
 SetField PhysicsTypes.Vtol[0].LiftAnglesAcceleration 360
 SetField PhysicsTypes.Vtol[0].RenderLiftAnglesAcceleration 360
 SetField PhysicsTypes.Vtol[0].PropellerRotationSpeed 2 4
-SetField PhysicsTypes.Vtol[0].SpeedParameters.MaximumForwardAcceleration 3
-SetField PhysicsTypes.Vtol[0].SpeedParameters.MaximumLeftAcceleration 3
+setfield PhysicsTypes.Vtol[0].SpeedParameters.MaximumForwardAcceleration 8
+setfield PhysicsTypes.Vtol[0].SpeedParameters.MaximumLeftAcceleration 8
 SetField PhysicsTypes.Vtol[0].SpeedParameters.RotorDamping 6
 SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccExp 1
 SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccScale 6
@@ -165,8 +165,8 @@ EditTag objects\vehicles\human\falcon\falcon_nose_gun.vehicle
 SetField PhysicsTypes.Vtol[0].LiftAnglesAcceleration 360
 SetField PhysicsTypes.Vtol[0].RenderLiftAnglesAcceleration 360
 SetField PhysicsTypes.Vtol[0].PropellerRotationSpeed 2 4
-SetField PhysicsTypes.Vtol[0].SpeedParameters.MaximumForwardAcceleration 3
-SetField PhysicsTypes.Vtol[0].SpeedParameters.MaximumLeftAcceleration 3
+setfield PhysicsTypes.Vtol[0].SpeedParameters.MaximumForwardAcceleration 8
+setfield PhysicsTypes.Vtol[0].SpeedParameters.MaximumLeftAcceleration 8
 SetField PhysicsTypes.Vtol[0].SpeedParameters.RotorDamping 6
 SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccExp 1
 SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccScale 6
@@ -181,8 +181,8 @@ EditTag objects\vehicles\human\falcon\falcon_transport.vehicle
 SetField PhysicsTypes.Vtol[0].LiftAnglesAcceleration 360
 SetField PhysicsTypes.Vtol[0].RenderLiftAnglesAcceleration 360
 SetField PhysicsTypes.Vtol[0].PropellerRotationSpeed 2 4
-SetField PhysicsTypes.Vtol[0].SpeedParameters.MaximumForwardAcceleration 3
-SetField PhysicsTypes.Vtol[0].SpeedParameters.MaximumLeftAcceleration 3
+setfield PhysicsTypes.Vtol[0].SpeedParameters.MaximumForwardAcceleration 8
+setfield PhysicsTypes.Vtol[0].SpeedParameters.MaximumLeftAcceleration 8
 SetField PhysicsTypes.Vtol[0].SpeedParameters.RotorDamping 6
 SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccExp 1
 SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccScale 6
