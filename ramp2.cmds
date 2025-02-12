@@ -16,6 +16,12 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 RampCollective
 0.3
 MainMenu Multiplayer Character
+
+editmodmetadata
+setfield metadata.URL https://github.com/Zekken01/Ramp-2
+savemodmetadata
+exit
+
 # Update the version at the bottom of the pak
 
 # Thanks to NoShotz for helping out :), really appreciate it
@@ -1528,6 +1534,10 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 RampCollective
 0.3
 MainMenu Multiplayer Character
+editmodmetadata
+setfield metadata.URL https://github.com/Zekken01/Ramp-2
+savemodmetadata
+exit
 OpenModPackage "modsfolder\RAMP_2.pak"
 DeleteModFiles
 ApplyModPackage
