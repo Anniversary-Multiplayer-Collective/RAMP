@@ -251,6 +251,12 @@ OpenModPackage "workingdir\paks\ramphud.pak"
 ApplyModPackage
 ExitModPackage
 
+EditTag ui\halox\game_options\game_options.gui_skin_definition
+SetField TextWidgets[0].Definition.GuiRenderBlock.AnimationCollection ui\halox\game_options\animations\options_list_item.gui_widget_animation_collection_definition
+SetField TextWidgets[1].Definition.GuiRenderBlock.AnimationCollection ui\halox\game_options\animations\options_value.gui_widget_animation_collection_definition
+SaveTagChanges
+Exit
+
 edittag ui\halox\start_menu\panes\settings_appearance_model\strings.multilingual_unicode_string_list
 setstring english female_techsuit_base "FEMALE TECHSUIT"
 setstring english female_techsuit_black "FEMALE BLACK TECHSUIT"
