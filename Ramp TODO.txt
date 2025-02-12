@@ -6,7 +6,7 @@ Add overheat to Turret and Tank Turret
 Deacrease death sound bounds(Maybe caused by fyzures sound pak)
 Fix hud score https://s.zekken.rocks/8SQvP5C9.png
 Null mopp data for sucker plant
-Add target lock for plasma launcher
+Add target lock for plasma launcher (Still need to add the lock on reticule)
 Killfeed and sprint overlap
 Elite neck hitbox broken
 Increase sound range of other players projectiles, sometimes you die and dont even know how or where.

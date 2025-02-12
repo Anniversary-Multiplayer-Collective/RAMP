@@ -222,6 +222,18 @@ OpenModPackage "workingdir\paks\Reach Weapons EK.pak"
 ApplyModPackage
 ExitModPackage 
 
+EditTag objects\weapons\support_high\plasma_launcher\plasma_launcher.weapon
+AddBlockElements TargetTracking 1
+AddBlockElements TargetTracking[0].TrackingTypes 3
+SetField TargetTracking[0].TrackingTypes[0].TrackingType2 bipeds
+SetField TargetTracking[0].TrackingTypes[1].TrackingType2 flying_vehicles
+SetField TargetTracking[0].TrackingTypes[2].TrackingType2 ground_vehicles
+SetField TargetTracking[0].AcquireTime 0.5
+SetField TargetTracking[0].GraceTime 0.5
+SetField TargetTracking[0].DecayTime 0.5
+SaveTagChanges
+Exit
+
 # Fix not able to melee while crouching if you're holding the Target Locator
 EditTag objects\weapons\pistol\target_laser\target_laser.weapon
 SetField WeaponName hp
