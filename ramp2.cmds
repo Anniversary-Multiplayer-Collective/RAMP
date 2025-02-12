@@ -1709,8 +1709,8 @@ setfield HudWidgets[0].TextWidgets[0].Font MainMenuFont
 setfield HudWidgets[0].TextWidgets[0].PlacementData[0].Anchor Parent
 setfield HudWidgets[0].TextWidgets[0].PlacementData[0].Scale 1 0.8
 setfield HudWidgets[0].TextWidgets[0].PlacementData[0].Origin 0 0.8
-setfield HudWidgets[0].TextWidgets[0].StateData[0].UnitGeneralFlags HasShields
-setfield HudWidgets[0].TextWidgets[0].StateData[0].Player_SpecialFlags ShieldsHeavyDamage
+setfield HudWidgets[0].TextWidgets[0].StateData[0].UnitMiscState ShieldAvailable
+setfield HudWidgets[0].TextWidgets[0].StateData[0].NonWeaponFlashHO ShieldCritical
 setfield HudWidgets[0].TextWidgets[0].AnimationData[0].Active.Animation ui\chud\animations\invisible.chud_animation_definition
 setfield HudWidgets[0].TextWidgets[0].AnimationData[0].Flashing.Animation ui\chud\animations\warning_flash_ramp.chud_animation_definition
 setfield HudWidgets[0].TextWidgets[0].RenderData[0].LocalColorA 0 255 94 94
