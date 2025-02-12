@@ -1674,7 +1674,6 @@ setstring english shield_warning "WARNING"
 SaveTagChanges
 exit
 
-edittag ui\chud\spartan.chud_definition
 duplicatetag ui\chud\animations\warning_flash.chud_animation_definition ui\chud\animations\warning_flash_ramp
 edittag ui\chud\animations\warning_flash_ramp.chud_animation_definition
 setfield RuntimePeriodMsec 600
@@ -1697,6 +1696,7 @@ setfield Flash[0].Keyframes[3].TimeOffset 600
 savetagchanges
 exit
 
+edittag ui\chud\spartan.chud_definition
 addblockelements HudWidgets[0].TextWidgets
 addblockelements HudWidgets[0].TextWidgets[0].RenderData
 addblockelements HudWidgets[0].TextWidgets[0].PlacementData
