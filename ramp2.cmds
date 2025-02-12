@@ -193,6 +193,13 @@ SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
+# Fix falcon being merged into bsp
+EditTag levels\multi\35_island\35_island.scenario
+SetField Vehicles[11].Position -189.719 -404.428 -59.795
+SetField Vehicles[11].Rotation -35.406 -12.174 -2.97
+SaveTagChanges
+Exit
+
 OpenCacheFile "reachmaps\45_aftship.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag !Scripts !UpdateMapFiles *.scnr

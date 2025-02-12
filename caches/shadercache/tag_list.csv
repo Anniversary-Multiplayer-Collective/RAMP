@@ -253,3 +253,9 @@
 0x000000FC,shaders\particle_templates\_3_3_0_2_0_1_1_1_0_1
 0x000000FD,shaders\particle_templates\_3_3_0_2_0_1_1_1_0_1
 0x000000FE,shaders\particle_templates\_3_3_0_2_0_1_1_1_0_1
+0x000000FF,shaders\light_volume_templates\_1_8_0_1
+0x00000100,shaders\light_volume_templates\_1_8_0_1
+0x00000101,shaders\light_volume_templates\_1_8_0_1
+0x00000102,shaders\particle_templates\_0_3_0_2_0_1_1_1_0_1
+0x00000103,shaders\particle_templates\_0_3_0_2_0_1_1_1_0_1
+0x00000104,shaders\particle_templates\_0_3_0_2_0_1_1_1_0_1
