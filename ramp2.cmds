@@ -1668,6 +1668,56 @@ setfield Events[0].Parts[3].Type sound\characters\elite\shield_pop_elite.sound
 savetagchanges
 exit
 
+# echo ==Add warning text when spartan shields are down==
+edittag ui\hud\hud_messages.multilingual_unicode_string_list
+setstring english shield_warning "WARNING"
+SaveTagChanges
+exit
+
+edittag ui\chud\spartan.chud_definition
+duplicatetag ui\chud\animations\warning_flash.chud_animation_definition ui\chud\animations\warning_flash_ramp
+edittag ui\chud\animations\warning_flash_ramp.chud_animation_definition
+setfield RuntimePeriodMsec 600
+removeblockelements Alpha[0].Keyframes 4 1
+removeblockelements Flash[0].Keyframes 4 1
+setfield Flash[0].Keyframes[0].ScalarValue 1
+setfield Flash[0].Keyframes[1].ScalarValue 0
+setfield Flash[0].Keyframes[2].ScalarValue 1
+setfield Flash[0].Keyframes[3].ScalarValue 0
+setfield Alpha[0].Keyframes[0].ScalarValue 1
+setfield Alpha[0].Keyframes[1].ScalarValue 0
+setfield Alpha[0].Keyframes[2].ScalarValue 1
+setfield Alpha[0].Keyframes[3].ScalarValue 0
+setfield Alpha[0].Keyframes[1].TimeOffset 200
+setfield Alpha[0].Keyframes[2].TimeOffset 400
+setfield Alpha[0].Keyframes[3].TimeOffset 600
+setfield Flash[0].Keyframes[1].TimeOffset 200
+setfield Flash[0].Keyframes[2].TimeOffset 400
+setfield Flash[0].Keyframes[3].TimeOffset 600
+savetagchanges
+exit
+
+addblockelements HudWidgets[0].TextWidgets
+addblockelements HudWidgets[0].TextWidgets[0].RenderData
+addblockelements HudWidgets[0].TextWidgets[0].PlacementData
+addblockelements HudWidgets[0].TextWidgets[0].RenderData
+addblockelements HudWidgets[0].TextWidgets[0].AnimationData
+addblockelements HudWidgets[0].TextWidgets[0].StateData
+setfield HudWidgets[0].TextWidgets[0].InputString shield_warning
+setfield HudWidgets[0].TextWidgets[0].Name shield_warning
+setfield HudWidgets[0].TextWidgets[0].Font MainMenuFont
+setfield HudWidgets[0].TextWidgets[0].PlacementData[0].Anchor Parent
+setfield HudWidgets[0].TextWidgets[0].PlacementData[0].Scale 1 0.8
+setfield HudWidgets[0].TextWidgets[0].PlacementData[0].Origin 0 0.8
+setfield HudWidgets[0].TextWidgets[0].StateData[0].UnitGeneralFlags HasShields
+setfield HudWidgets[0].TextWidgets[0].StateData[0].Player_SpecialFlags ShieldsHeavyDamage
+setfield HudWidgets[0].TextWidgets[0].AnimationData[0].Active.Animation ui\chud\animations\invisible.chud_animation_definition
+setfield HudWidgets[0].TextWidgets[0].AnimationData[0].Flashing.Animation ui\chud\animations\warning_flash_ramp.chud_animation_definition
+setfield HudWidgets[0].TextWidgets[0].RenderData[0].LocalColorA 0 255 94 94
+SaveTagChanges
+exit
+
+
 ImportFonts workingdir\fonts_new.bin
 
 DeleteModFiles
