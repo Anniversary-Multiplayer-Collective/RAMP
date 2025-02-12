@@ -1512,6 +1512,12 @@ setfield GroundDetonationEffect objects\weapons\pistol\needler\fx\detonation.eff
 savetagchanges
 exit
 
+# echo == Set scorpion projectile to base ED==
+edittag objects\vehicles\scorpion\turrets\cannon\weapon\cannon_turret.weapon
+setfield Barrels[0].Projectile objects\vehicles\scorpion\turrets\cannon\weapon\tank_shell.projectile
+savetagchanges
+exit
+
 # echo ==Fix Silenced SMG and Automag font icons and strings==
 runcommands workingdir\cmds\weapon_strings.cmds
 

@@ -1,6 +1,5 @@
 TODO:
 CTF Return Progress Bar missing
-Fix tank projectile not damaging vehicles
 No overheat icon for Turret
 Add overheat to Turret and Tank Turret
 Deacrease death sound bounds(Maybe caused by fyzures sound pak)
