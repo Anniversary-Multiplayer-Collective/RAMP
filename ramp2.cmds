@@ -1697,10 +1697,41 @@ OpenModPackage "modsfolder\RAMP_2.pak"
 DeleteModFiles
 ApplyModPackage
 ExitModPackage
+
+echo ==Civilian Reach Vehicles==
+
+OpenModPackage "workingdir\paks\RampCivilianVehicles.pak"
+ApplyModPackage
+ExitModPackage
+
+#Add to forge palette
+AddForgeItem "PICKUP" "VEHICLES" objects\vehicles\human\civilian\pickup\pickup.vehicle
+AddForgeItem "TRUCK" "VEHICLES" objects\vehicles\human\civilian\military_truck\military_truck.vehicle
+AddForgeItem "TRUCK, CAB" "VEHICLES" objects\vehicles\human\civilian\truck_cab_large\truck_cab_large.vehicle
+AddForgeItem "TRUCK, CARGO" "VEHICLES" objects\vehicles\human\civilian\cargo_truck\cargo_truck.vehicle
+AddForgeItem "CAB, SMALL" "VEHICLES" objects\vehicles\human\civilian\truck_cab_large\attachments\bed_small\bed_small.vehicle
+AddForgeItem "CAB, LONG" "VEHICLES" objects\vehicles\human\civilian\truck_cab_large\attachments\bed_long\bed_long.vehicle
+AddForgeItem "CART, ELECTRIC" "VEHICLES" objects\vehicles\human\civilian\cart_electric\cart_electric.vehicle
+AddForgeItem "FORKLIFT" "VEHICLES" objects\vehicles\human\civilian\forklift\forklift.vehicle
+
+EditTag ui\hud\hud_messages.multilingual_unicode_string_list
+SetString english truck_enter_driver "\uE461\uE45F to drive Truck"
+SetString english truck_enter_passenger "\uE461\uE45F to ride in Truck"
+SetString english cart_enter_driver "\uE461\uE45F to drive Cart"
+SetString english forklift_enter_driver "\uE461\uE45F to drive Forklift"
+SaveTagChanges
+Exit
+
 EditTag objects\characters\masterchief\masterchief.model_animation_graph
+addblockelements Modes[14].ModeIk 2
+SetField Modes[14].ModeIk[2].AttachToMarker right_foot_d_spartan
+SetField Modes[14].ModeIk[2].Marker right_foot
+SetField Modes[14].ModeIk[3].AttachToMarker left_foot_d_spartan
+SetField Modes[14].ModeIk[3].Marker left_foot
 SortModes
 SaveTagChanges
 Exit
+
 AddModFiles workingdir\assets
 SaveModPackage "modsfolder\RAMP_2.pak"
 
