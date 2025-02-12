@@ -7,7 +7,6 @@ Deacrease death sound bounds(Maybe caused by fyzures sound pak)
 Fix hud score https://s.zekken.rocks/8SQvP5C9.png
 Null mopp data for sucker plant
 Add target lock for plasma launcher
-No shield pop sound
 Spire lift is considered a Invasion item
 Killfeed and sprint overlap
 Arbiter head hitbox broken?
