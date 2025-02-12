@@ -88,6 +88,111 @@ AddForgeItem "FALCON" "VEHICLES" objects\vehicles\human\falcon\falcon.vehicle
 AddForgeItem "FALCON, TRANSPORT" "VEHICLES" objects\vehicles\human\falcon\falcon_transport.vehicle
 AddForgeItem "FALCON, NOSE GUN" "VEHICLES" objects\vehicles\human\falcon\falcon_nose_gun.vehicle
 
+EditTag objects\vehicles\falcon\falcon_transport.model
+SetField NewDamageInfo[0].MaximumVitality 500
+SetField NewDamageInfo[0].StunTime 0
+SetField NewDamageInfo[0].RechargeTime 1
+SetField NewDamageInfo[0].RechargeFraction 0.1
+SetField NewDamageInfo[0].ShieldStunTime 0
+SetField NewDamageInfo[0].ShieldRechargeTime 0
+SetField NewDamageInfo[0].RuntimeShieldRechargeVelocity 1000
+SetField NewDamageInfo[0].RuntimeHealthRechargeVelocity 10
+SetField NewDamageInfo[0].StunTime 2
+SetField NewDamageInfo[0].DamageSections[0].Flags TakesFullDamageWhenObjectDies
+SetField NewDamageInfo[0].DamageSections[0].StunTime 4
+SetField NewDamageInfo[0].DamageSections[0].RechargeTime 10
+SetField NewDamageInfo[0].DamageSections[0].RuntimeRechargeVelocity 0.1
+SetField NewDamageInfo[0].DamageSections[0].InstantResponses[0].Flags None
+SetField NewDamageInfo[0].DamageSections[0].InstantResponses[4].Flags KillsObject,KillsVariantObjects
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\falcon\falcon_nose_gun.model
+SetField NewDamageInfo[0].MaximumVitality 500
+SetField NewDamageInfo[0].StunTime 0
+SetField NewDamageInfo[0].RechargeTime 1
+SetField NewDamageInfo[0].RechargeFraction 0.1
+SetField NewDamageInfo[0].ShieldStunTime 0
+SetField NewDamageInfo[0].ShieldRechargeTime 0
+SetField NewDamageInfo[0].RuntimeShieldRechargeVelocity 1000
+SetField NewDamageInfo[0].RuntimeHealthRechargeVelocity 10
+SetField NewDamageInfo[0].StunTime 2
+SetField NewDamageInfo[0].DamageSections[0].Flags TakesFullDamageWhenObjectDies
+SetField NewDamageInfo[0].DamageSections[0].StunTime 4
+SetField NewDamageInfo[0].DamageSections[0].RechargeTime 10
+SetField NewDamageInfo[0].DamageSections[0].RuntimeRechargeVelocity 0.1
+SetField NewDamageInfo[0].DamageSections[0].InstantResponses[0].Flags None
+SetField NewDamageInfo[0].DamageSections[0].InstantResponses[4].Flags KillsObject,KillsVariantObjects
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\falcon\falcon.model
+SetField NewDamageInfo[0].MaximumVitality 500
+SetField NewDamageInfo[0].StunTime 0
+SetField NewDamageInfo[0].RechargeTime 1
+SetField NewDamageInfo[0].RechargeFraction 0.1
+SetField NewDamageInfo[0].ShieldStunTime 0
+SetField NewDamageInfo[0].ShieldRechargeTime 0
+SetField NewDamageInfo[0].RuntimeShieldRechargeVelocity 1000
+SetField NewDamageInfo[0].RuntimeHealthRechargeVelocity 10
+SetField NewDamageInfo[0].StunTime 2
+SetField NewDamageInfo[0].DamageSections[0].Flags TakesFullDamageWhenObjectDies
+SetField NewDamageInfo[0].DamageSections[0].StunTime 4
+SetField NewDamageInfo[0].DamageSections[0].RechargeTime 10
+SetField NewDamageInfo[0].DamageSections[0].RuntimeRechargeVelocity 0.1
+SetField NewDamageInfo[0].DamageSections[0].InstantResponses[0].Flags None
+SetField NewDamageInfo[0].DamageSections[0].InstantResponses[4].Flags KillsObject,KillsVariantObjects
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\human\falcon\falcon.vehicle
+SetField PhysicsTypes.Vtol[0].LiftAnglesAcceleration 360
+SetField PhysicsTypes.Vtol[0].RenderLiftAnglesAcceleration 360
+SetField PhysicsTypes.Vtol[0].PropellerRotationSpeed 2 4
+SetField PhysicsTypes.Vtol[0].SpeedParameters.MaximumForwardAcceleration 3
+SetField PhysicsTypes.Vtol[0].SpeedParameters.MaximumLeftAcceleration 3
+SetField PhysicsTypes.Vtol[0].SpeedParameters.RotorDamping 6
+SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccExp 1
+SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccScale 6
+SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccK 0.7
+SetField PhysicsTypes.Vtol[0].TurnAccelerationGain 30
+SetField PhysicsTypes.Vtol[0].MinimumUpAcceleration 0.3
+SetField PhysicsTypes.Vtol[0].MaximumUpAcceleration 6
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\human\falcon\falcon_nose_gun.vehicle
+SetField PhysicsTypes.Vtol[0].LiftAnglesAcceleration 360
+SetField PhysicsTypes.Vtol[0].RenderLiftAnglesAcceleration 360
+SetField PhysicsTypes.Vtol[0].PropellerRotationSpeed 2 4
+SetField PhysicsTypes.Vtol[0].SpeedParameters.MaximumForwardAcceleration 3
+SetField PhysicsTypes.Vtol[0].SpeedParameters.MaximumLeftAcceleration 3
+SetField PhysicsTypes.Vtol[0].SpeedParameters.RotorDamping 6
+SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccExp 1
+SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccScale 6
+SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccK 0.7
+SetField PhysicsTypes.Vtol[0].TurnAccelerationGain 30
+SetField PhysicsTypes.Vtol[0].MinimumUpAcceleration 0.3
+SetField PhysicsTypes.Vtol[0].MaximumUpAcceleration 6
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\human\falcon\falcon_transport.vehicle
+SetField PhysicsTypes.Vtol[0].LiftAnglesAcceleration 360
+SetField PhysicsTypes.Vtol[0].RenderLiftAnglesAcceleration 360
+SetField PhysicsTypes.Vtol[0].PropellerRotationSpeed 2 4
+SetField PhysicsTypes.Vtol[0].SpeedParameters.MaximumForwardAcceleration 3
+SetField PhysicsTypes.Vtol[0].SpeedParameters.MaximumLeftAcceleration 3
+SetField PhysicsTypes.Vtol[0].SpeedParameters.RotorDamping 6
+SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccExp 1
+SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccScale 6
+SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccK 0.7
+SetField PhysicsTypes.Vtol[0].TurnAccelerationGain 30
+SetField PhysicsTypes.Vtol[0].MinimumUpAcceleration 0.3
+SetField PhysicsTypes.Vtol[0].MaximumUpAcceleration 6
+SaveTagChanges
+Exit
+
 echo ==Apply RAMP Vehicles==
 
 OpenModPackage "workingdir\paks\rampvehicles.pak"
