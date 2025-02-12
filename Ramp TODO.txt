@@ -11,6 +11,7 @@ Spire lift is considered a Invasion item
 Killfeed and sprint overlap
 Arbiter head hitbox broken?
 Menu not removing previously selected option. https://s.zekken.rocks/O8hyhFLI.png
+Increase sound range of other players projectiles, sometimes you die and dont even know how or where.
 
 
 Look into extra medals from reach
