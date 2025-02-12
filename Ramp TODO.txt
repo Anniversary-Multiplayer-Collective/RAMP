@@ -7,7 +7,7 @@ Fix hud score https://s.zekken.rocks/8SQvP5C9.png
 Null mopp data for sucker plant
 Add target lock for plasma launcher
 Killfeed and sprint overlap
-Arbiter head hitbox broken?
+Elite neck hitbox broken
 Menu not removing previously selected option. https://s.zekken.rocks/O8hyhFLI.png
 Increase sound range of other players projectiles, sometimes you die and dont even know how or where.
 
