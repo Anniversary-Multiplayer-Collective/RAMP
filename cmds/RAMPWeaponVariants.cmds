@@ -607,7 +607,106 @@ SaveTagChanges
 Exit
 
 EditTag objects\weapons\pistol\plasma_pistol\plasma_pistol_gold_fp.render_model
-setfield Materials[5].RenderMethod dw3\r3ach\objects\weapons\pistol\plasma_pistol\shaders\plasma_pistol_pilot.shader
+SetField Materials[5].RenderMethod dw3\r3ach\objects\weapons\pistol\plasma_pistol\shaders\plasma_pistol_pilot.shader
 ReplaceRenderGeometry workingdir\models\pp_power.dae TriangleStrip
+SaveTagChanges
+Exit
+
+
+# Shader fix
+EditTag objects\weapons\rifle\assault_rifle\assault_rifle_red_fp.render_model
+SetField Materials[9].RenderMethod objects\weapons\rifle\assault_rifle\shaders\item_red.shader
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\rifle\assault_rifle\assault_rifle_orange_fp.render_model
+SetField Materials[10].RenderMethod objects\weapons\rifle\assault_rifle\shaders\item_orange.shader
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\rifle\fp_battle_rifle\fp_battle_rifle\green_fp.render_model
+SetField Materials[4].RenderMethod objects\weapons\rifle\assault_rifle\shaders\item_green.shader
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\rifle\fp_battle_rifle\fp_battle_rifle\orange_fp.render_model
+SetField Materials[0].RenderMethod objects\weapons\rifle\br\shaders\br_rubber_base_yellow.shader
+SetField Materials[1].RenderMethod objects\weapons\rifle\br\shaders\br_rubber_yellow.shader
+SetField Materials[2].RenderMethod objects\weapons\rifle\assault_rifle\shaders\compass.shader
+SetField Materials[3].RenderMethod objects\weapons\rifle\battle_rifle\shaders\display_yellow.shader
+SetField Materials[4].RenderMethod objects\weapons\rifle\assault_rifle\shaders\item_yellow.shader
+SetField Materials[5].RenderMethod objects\weapons\rifle\battle_rifle\shaders\ones_yellow.shader
+SetField Materials[6].RenderMethod objects\weapons\rifle\battle_rifle\reach_br\scope_yellow.shader
+SetField Materials[7].RenderMethod objects\weapons\rifle\battle_rifle\shaders\tens_yellow.shader
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\rifle\fp_battle_rifle\fp_battle_rifle\orange.render_model
+SetField Materials[0].RenderMethod objects\weapons\rifle\br\shaders\br_rubber_yellow.shader
+SetField Materials[1].RenderMethod objects\weapons\rifle\br\shaders\br_rubber_base_yellow.shader
+SetField Materials[2].RenderMethod objects\weapons\rifle\battle_rifle\shaders\display_yellow.shader
+SetField Materials[4].RenderMethod objects\weapons\rifle\assault_rifle\shaders\item_yellow.shader
+SetField Materials[5].RenderMethod objects\weapons\rifle\battle_rifle\shaders\ones_yellow.shader
+SetField Materials[6].RenderMethod objects\weapons\rifle\br\shaders\br_rubber_base_yellow.shader
+SetField Materials[7].RenderMethod objects\weapons\rifle\br\shaders\br_rubber_yellow.shader
+SetField Materials[8].RenderMethod objects\weapons\rifle\battle_rifle\reach_br\scope_yellow.shader
+SetField Materials[9].RenderMethod objects\weapons\rifle\battle_rifle\shaders\tens_yellow.shader
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\rifle\fp_battle_rifle\fp_battle_rifle\red_fp.render_model
+SetField Materials[4].RenderMethod objects\weapons\rifle\assault_rifle\shaders\item_red.shader
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\rifle\fp_battle_rifle\fp_battle_rifle\yellow_fp.render_model
+SetField Materials[0].RenderMethod objects\weapons\rifle\br\shaders\br_rubber_base_orange.shader
+SetField Materials[1].RenderMethod objects\weapons\rifle\br\shaders\br_rubber_orange.shader
+SetField Materials[3].RenderMethod objects\weapons\rifle\battle_rifle\shaders\display_orange.shader
+SetField Materials[4].RenderMethod objects\weapons\rifle\assault_rifle\shaders\item_orange.shader
+SetField Materials[5].RenderMethod objects\weapons\rifle\battle_rifle\shaders\ones_orange.shader
+SetField Materials[6].RenderMethod objects\weapons\rifle\battle_rifle\reach_br\scope_orange.shader
+SetField Materials[7].RenderMethod objects\weapons\rifle\battle_rifle\shaders\tens_orange.shader
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\rifle\fp_battle_rifle\fp_battle_rifle\yellow.render_model
+SetField Materials[0].RenderMethod objects\weapons\rifle\br\shaders\br_rubber_orange.shader
+SetField Materials[1].RenderMethod objects\weapons\rifle\br\shaders\br_rubber_base_orange.shader
+SetField Materials[2].RenderMethod objects\weapons\rifle\battle_rifle\shaders\display_orange.shader
+SetField Materials[4].RenderMethod objects\weapons\rifle\assault_rifle\shaders\item_orange.shader
+SetField Materials[5].RenderMethod objects\weapons\rifle\battle_rifle\shaders\ones_orange.shader
+SetField Materials[6].RenderMethod objects\weapons\rifle\br\shaders\br_rubber_base_orange.shader
+SetField Materials[7].RenderMethod objects\weapons\rifle\br\shaders\br_rubber_orange.shader
+SetField Materials[8].RenderMethod objects\weapons\rifle\battle_rifle\reach_br\scope_orange.shader
+SetField Materials[9].RenderMethod objects\weapons\rifle\battle_rifle\shaders\tens_orange.shader
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\rifle\smg_power\fp_smg_power_fp.render_model
+SetField Materials[1].RenderMethod objects\weapons\rifle\smg\shaders\reach_smg_laser_yellow.shader
+SetField Materials[2].RenderMethod objects\weapons\rifle\smg\shaders\reach_smg_rubber_yellow.shader
+SetField Materials[3].RenderMethod objects\weapons\rifle\smg\shaders\reach_smg_rubber_yellow.shader
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\rifle\smg_power\fp_smg_power.render_model
+SetField Materials[1].RenderMethod objects\weapons\rifle\smg\shaders\reach_smg_laser_yellow.shader
+SetField Materials[2].RenderMethod objects\weapons\rifle\smg\shaders\reach_smg_rubber_yellow.shader
+SetField Materials[3].RenderMethod objects\weapons\rifle\smg\shaders\reach_smg_rubber_yellow.shader
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\rifle\smg_rof\fp_smg_rof\fp_smg_rof_fp.render_model
+SetField Materials[0].RenderMethod objects\weapons\rifle\smg\shaders\reach_smg_laser_gold.shader
+SetField Materials[1].RenderMethod objects\weapons\rifle\smg\shaders\reach_smg_rubber_gold.shader
+SetField Materials[2].RenderMethod objects\weapons\rifle\smg\shaders\reach_smg_rubber_gold.shader
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\rifle\smg_rof\fp_smg_rof\fp_smg_rof.render_model
+SetField Materials[0].RenderMethod objects\weapons\rifle\smg\shaders\reach_smg_laser_gold.shader
+SetField Materials[1].RenderMethod objects\weapons\rifle\smg\shaders\reach_smg_rubber_gold.shader
+SetField Materials[2].RenderMethod objects\weapons\rifle\smg\shaders\reach_smg_rubber_gold.shader
 SaveTagChanges
 Exit

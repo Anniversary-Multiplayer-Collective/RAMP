@@ -49,6 +49,7 @@ exit
 
 edittag objects\weapons\rifle\battle_rifle\battle_rifle.weapon
 setfield WeaponTypeName offset_battle_rife
+setfield FirstPersonWeaponOffset 0.025 0 0
 setfield CenteredFirstPersonWeaponOffset 0.025 0 -0.01
 savetagchanges
 exit
