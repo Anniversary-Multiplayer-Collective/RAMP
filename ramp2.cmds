@@ -1756,8 +1756,8 @@ ApplyModPackage
 ExitModPackage
 
 #Add to forge palette
-AddForgeItem "PICKUP" "VEHICLES" objects\vehicles\human\civilian\pickup\pickup.vehicle
-AddForgeItem "TRUCK" "VEHICLES" objects\vehicles\human\civilian\military_truck\military_truck.vehicle
+AddForgeItem "TRUCK, PICKUP" "VEHICLES" objects\vehicles\human\civilian\pickup\pickup.vehicle
+AddForgeItem "TRUCK, MILITARY" "VEHICLES" objects\vehicles\human\civilian\military_truck\military_truck.vehicle
 AddForgeItem "TRUCK, CAB" "VEHICLES" objects\vehicles\human\civilian\truck_cab_large\truck_cab_large.vehicle
 AddForgeItem "TRUCK, CARGO" "VEHICLES" objects\vehicles\human\civilian\cargo_truck\cargo_truck.vehicle
 AddForgeItem "CAB, SMALL" "VEHICLES" objects\vehicles\human\civilian\truck_cab_large\attachments\bed_small\bed_small.vehicle
