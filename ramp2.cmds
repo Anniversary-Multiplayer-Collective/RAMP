@@ -1718,6 +1718,7 @@ SaveTagChanges
 exit
 
 
+
 ImportFonts workingdir\fonts_new.bin
 
 DeleteModFiles
@@ -1781,6 +1782,28 @@ SetField Modes[14].ModeIk[3].Marker left_foot
 SortModes
 SaveTagChanges
 Exit
+
+# echo ==Fix headlights on civilian vehicles==
+edittag objects\vehicles\human\civilian\pickup\pickup.vehicle
+setfield Attachments[3].Type objects\vehicles\warthog\fx\running\headlight_beam.light
+savetagchanges
+exit
+
+edittag objects\vehicles\human\civilian\military_truck\military_truck.vehicle
+setfield Attachments[3].Type objects\vehicles\warthog\fx\running\headlight_beam.light
+savetagchanges
+exit
+
+edittag objects\vehicles\human\civilian\truck_cab_large\truck_cab_large.vehicle
+setfield Attachments[8].Type objects\vehicles\warthog\fx\running\headlight_beam.light
+savetagchanges
+exit
+
+edittag objects\vehicles\human\civilian\cargo_truck\cargo_truck.vehicle
+setfield Attachments[3].Type objects\vehicles\warthog\fx\running\headlight_beam.light
+setfield Attachments[6].Type objects\vehicles\warthog\fx\running\headlight_beam.light
+savetagchanges
+exit
 
 AddModFiles workingdir\assets
 SaveModPackage "modsfolder\RAMP_2.pak"
