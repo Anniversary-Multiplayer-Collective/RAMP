@@ -1,7 +1,7 @@
 TODO:
 Use hornet hijack animation on falcon
 CTF Return Progress Bar missing
-No overheat icon for Turret
+Turrets that can overheat have no hud indicator.
 Add overheat to Turret and Tank Turret
 Deacrease death sound bounds(Maybe caused by fyzures sound pak)
 Fix hud score https://s.zekken.rocks/8SQvP5C9.png
@@ -10,6 +10,8 @@ Add target lock for plasma launcher (Still need to add the lock on reticule)
 Killfeed and sprint overlap
 Elite neck hitbox broken
 Increase sound range of other players projectiles, sometimes you die and dont even know how or where.
+No sprint animation for gold SMG and incorrect ammo count.
+Needle Rifle doesn't detonate grenades
 
 
 Look into extra medals from reach
