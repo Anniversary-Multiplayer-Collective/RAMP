@@ -346,20 +346,21 @@ CompilePodiumScripts
 SaveTagChanges
 Exit
 
-EditTag levels\firefight\ff70_holdout\ff70_holdout.scenario
-AddBlockElements CutsceneCameraPoints
-setfield CutsceneCameraPoints[0].Name "prematch_camera"
-setfield CutsceneCameraPoints[0].Flags PrematchCameraHack
-SetField CutsceneCameraPoints[0].Position 437.925 109.668 0.921
-SetField CutsceneCameraPoints[0].Orientation 31.350 -17.120 -10.167
-AddBlockElements CutsceneCameraPoints
-SetField CutsceneCameraPoints[1].Name "podium_camera"
-SetField CutsceneCameraPoints[1].Position 457.722 128.952 -6.827
-SetField CutsceneCameraPoints[1].Orientation -132.972 0 0
-SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
-CompilePodiumScripts
-SaveTagChanges
-Exit
+## Cut Content
+##EditTag levels\firefight\ff70_holdout\ff70_holdout.scenario
+##AddBlockElements CutsceneCameraPoints
+##setfield CutsceneCameraPoints[0].Name "prematch_camera"
+##setfield CutsceneCameraPoints[0].Flags PrematchCameraHack
+##SetField CutsceneCameraPoints[0].Position 437.925 109.668 0.921
+##SetField CutsceneCameraPoints[0].Orientation 31.350 -17.120 -10.167
+##AddBlockElements CutsceneCameraPoints
+##SetField CutsceneCameraPoints[1].Name "podium_camera"
+##SetField CutsceneCameraPoints[1].Position 457.722 128.952 -6.827
+##SetField CutsceneCameraPoints[1].Orientation -132.972 0 0
+##SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
+##CompilePodiumScripts
+##SaveTagChanges
+##Exit
 
 EditTag levels\dlc\ff_unearthed\ff_unearthed.scenario
 AddBlockElements CutsceneCameraPoints

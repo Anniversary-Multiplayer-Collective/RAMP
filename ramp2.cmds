@@ -497,10 +497,11 @@ SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
-OpenCacheFile "reachmaps\ff70_holdout.map"
-SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-PortTag !Scripts !UpdateMapFiles *.scnr
-Exit
+## Cut to save space. R.I.P Holdout
+##OpenCacheFile "reachmaps\ff70_holdout.map"
+##SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+##PortTag !Scripts !UpdateMapFiles *.scnr
+##Exit
 
 OpenCacheFile "reachmaps\ff_unearthed.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
@@ -585,11 +586,12 @@ SetField CampaignId -1
 SaveTagChanges
 Exit
 
-EditTag levels\firefight\ff70_holdout\ff70_holdout.scenario
-SetField MapType Multiplayer
-SetField CampaignId -1
-SaveTagChanges
-Exit
+## Cut Content
+##EditTag levels\firefight\ff70_holdout\ff70_holdout.scenario
+##SetField MapType Multiplayer
+##SetField CampaignId -1
+##SaveTagChanges
+##Exit
 
 EditTag levels\dlc\ff_unearthed\ff_unearthed.scenario
 SetField MapType Multiplayer
