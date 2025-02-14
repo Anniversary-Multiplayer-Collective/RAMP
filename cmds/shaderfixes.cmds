@@ -546,3 +546,26 @@ EditTag levels\dlc\cex_ff_halo\shaders\ca_halo_ocean_rocks.shader
 SetArgument specular_coefficient 0
 SaveTagChanges
 Exit
+
+# echo ==Shader fixes for Overlook...==
+edittag levels\solo\m10\shaders\m10_coorigated_sheet_wall_rust.shader
+setargument specular_coefficient 0.01
+SaveTagChanges
+Exit
+
+edittag levels\solo\m10\shaders\040_welded_metal.shader
+setargument specular_coefficient 0
+SaveTagChanges
+Exit
+
+edittag levels\solo\m10\shaders\040_kive_beam.shader
+setargument specular_coefficient 0.01
+SaveTagChanges
+Exit
+
+edittag levels\solo\m10\shaders\m10_metal_plate_welded.shader
+setargument specular_coefficient 0.01
+SaveTagChanges
+Exit
+
+
