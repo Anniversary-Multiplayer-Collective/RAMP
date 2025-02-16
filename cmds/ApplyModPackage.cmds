@@ -22,16 +22,6 @@ SetString english forklift_enter_driver "\uE461\uE45F to drive Forklift"
 SaveTagChanges
 Exit
 
-EditTag objects\characters\masterchief\masterchief.model_animation_graph
-addblockelements Modes[14].ModeIk 2
-SetField Modes[14].ModeIk[2].AttachToMarker right_foot_d_spartan
-SetField Modes[14].ModeIk[2].Marker right_foot
-SetField Modes[14].ModeIk[3].AttachToMarker left_foot_d_spartan
-SetField Modes[14].ModeIk[3].Marker left_foot
-SortModes
-SaveTagChanges
-Exit
-
 # echo ==Fix headlights on civilian vehicles==
 edittag objects\vehicles\human\civilian\pickup\pickup.vehicle
 setfield Attachments[3].Type objects\vehicles\warthog\fx\running\headlight_beam.light
@@ -59,3 +49,22 @@ echo ==H2AMP Beam Rifle==
 OpenModPackage "workingdir\paks\h2amp_beam_rifle.pak"
 ApplyModPackage
 ExitModPackage
+
+# Make sure this last part is always last to prevent emotes and falcon enter animations from breaking:
+EditTag objects\characters\elite\elite.model_animation_graph
+SortModes
+SaveTagChanges
+Exit
+EditTag objects\characters\dervish\dervish.model_animation_graph
+SortModes
+SaveTagChanges
+Exit
+EditTag objects\characters\masterchief\masterchief.model_animation_graph
+addblockelements Modes[14].ModeIk 2
+SetField Modes[14].ModeIk[2].AttachToMarker right_foot_d_spartan
+SetField Modes[14].ModeIk[2].Marker right_foot
+SetField Modes[14].ModeIk[3].AttachToMarker left_foot_d_spartan
+SetField Modes[14].ModeIk[3].Marker left_foot
+SortModes
+SaveTagChanges
+Exit
