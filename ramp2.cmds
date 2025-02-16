@@ -18,7 +18,7 @@ RampCollective
 MainMenu Multiplayer Character
 
 editmodmetadata
-setfield metadata.URL https://github.com/Zekken01/Ramp-2
+setfield metadata.URL github.com/Zekken01/Ramp-2
 savemodmetadata
 exit
 
@@ -1758,7 +1758,7 @@ RampCollective
 0.3
 MainMenu Multiplayer Character
 editmodmetadata
-setfield metadata.URL https://github.com/Zekken01/Ramp-2
+setfield metadata.URL github.com/Zekken01/Ramp-2
 savemodmetadata
 exit
 OpenModPackage "modsfolder\RAMP_2.pak"
