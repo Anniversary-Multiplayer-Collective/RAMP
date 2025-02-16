@@ -1726,7 +1726,15 @@ setfield HudWidgets[0].TextWidgets[0].RenderData[0].LocalColorA 0 255 94 94
 SaveTagChanges
 exit
 
-
+# echo Improve shield bar color accuracy
+edittag ui\chud\spartan.chud_definition
+setfield HudWidgets[0].BitmapWidgets[2].RenderData[0].OutputColorA HighlightForeground
+setfield HudWidgets[26].BitmapWidgets[0].RenderData[0].OutputColorA HighlightForeground
+setfield HudWidgets[0].BitmapWidgets[1].RenderData[0].ShaderType MeterGradient
+setfield HudWidgets[0].BitmapWidgets[1].RenderData[0].LocalColorC 255 137 253 255
+setfield HudWidgets[0].BitmapWidgets[1].RenderData[0].OutputColorA LocalC
+savetagchanges
+exit
 
 ImportFonts workingdir\fonts_new.bin
 
