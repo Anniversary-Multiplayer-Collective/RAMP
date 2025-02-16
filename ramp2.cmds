@@ -498,10 +498,10 @@ PortTag !Scripts !UpdateMapFiles *.scnr
 Exit
 
 ## Cut to save space. R.I.P Holdout
-##OpenCacheFile "reachmaps\ff70_holdout.map"
-##SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
-##PortTag !Scripts !UpdateMapFiles *.scnr
-##Exit
+OpenCacheFile "reachmaps\ff70_holdout.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag !Scripts !UpdateMapFiles *.scnr
+Exit
 
 OpenCacheFile "reachmaps\ff_unearthed.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
@@ -587,11 +587,11 @@ SaveTagChanges
 Exit
 
 ## Cut Content
-##EditTag levels\firefight\ff70_holdout\ff70_holdout.scenario
-##SetField MapType Multiplayer
-##SetField CampaignId -1
-##SaveTagChanges
-##Exit
+EditTag levels\firefight\ff70_holdout\ff70_holdout.scenario
+SetField MapType Multiplayer
+SetField CampaignId -1
+SaveTagChanges
+Exit
 
 EditTag levels\dlc\ff_unearthed\ff_unearthed.scenario
 SetField MapType Multiplayer
@@ -1766,61 +1766,8 @@ DeleteModFiles
 ApplyModPackage
 ExitModPackage
 
-echo ==Civilian Reach Vehicles==
-
-OpenModPackage "workingdir\paks\RampCivilianVehicles.pak"
-ApplyModPackage
-ExitModPackage
-
-#Add to forge palette
-AddForgeItem "TRUCK, PICKUP" "VEHICLES" objects\vehicles\human\civilian\pickup\pickup.vehicle
-AddForgeItem "TRUCK, MILITARY" "VEHICLES" objects\vehicles\human\civilian\military_truck\military_truck.vehicle
-AddForgeItem "TRUCK, CAB" "VEHICLES" objects\vehicles\human\civilian\truck_cab_large\truck_cab_large.vehicle
-AddForgeItem "TRUCK, CARGO" "VEHICLES" objects\vehicles\human\civilian\cargo_truck\cargo_truck.vehicle
-AddForgeItem "CAB, SMALL" "VEHICLES" objects\vehicles\human\civilian\truck_cab_large\attachments\bed_small\bed_small.vehicle
-AddForgeItem "CAB, LONG" "VEHICLES" objects\vehicles\human\civilian\truck_cab_large\attachments\bed_long\bed_long.vehicle
-AddForgeItem "CART, ELECTRIC" "VEHICLES" objects\vehicles\human\civilian\cart_electric\cart_electric.vehicle
-AddForgeItem "FORKLIFT" "VEHICLES" objects\vehicles\human\civilian\forklift\forklift.vehicle
-
-EditTag ui\hud\hud_messages.multilingual_unicode_string_list
-SetString english truck_enter_driver "\uE461\uE45F to drive Truck"
-SetString english truck_enter_passenger "\uE461\uE45F to ride in Truck"
-SetString english cart_enter_driver "\uE461\uE45F to drive Cart"
-SetString english forklift_enter_driver "\uE461\uE45F to drive Forklift"
-SaveTagChanges
-Exit
-
-EditTag objects\characters\masterchief\masterchief.model_animation_graph
-addblockelements Modes[14].ModeIk 2
-SetField Modes[14].ModeIk[2].AttachToMarker right_foot_d_spartan
-SetField Modes[14].ModeIk[2].Marker right_foot
-SetField Modes[14].ModeIk[3].AttachToMarker left_foot_d_spartan
-SetField Modes[14].ModeIk[3].Marker left_foot
-SortModes
-SaveTagChanges
-Exit
-
-# echo ==Fix headlights on civilian vehicles==
-edittag objects\vehicles\human\civilian\pickup\pickup.vehicle
-setfield Attachments[3].Type objects\vehicles\warthog\fx\running\headlight_beam.light
-savetagchanges
-exit
-
-edittag objects\vehicles\human\civilian\military_truck\military_truck.vehicle
-setfield Attachments[3].Type objects\vehicles\warthog\fx\running\headlight_beam.light
-savetagchanges
-exit
-
-edittag objects\vehicles\human\civilian\truck_cab_large\truck_cab_large.vehicle
-setfield Attachments[8].Type objects\vehicles\warthog\fx\running\headlight_beam.light
-savetagchanges
-exit
-
-edittag objects\vehicles\human\civilian\cargo_truck\cargo_truck.vehicle
-setfield Attachments[3].Type objects\vehicles\warthog\fx\running\headlight_beam.light
-setfield Attachments[6].Type objects\vehicles\warthog\fx\running\headlight_beam.light
-savetagchanges
-exit
+#Add more stuff
+RunCommands workingdir\cmds\ApplyModPackage.cmds
 
 AddModFiles workingdir\assets
 SaveModPackage "modsfolder\RAMP_2.pak"

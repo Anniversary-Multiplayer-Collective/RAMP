@@ -487,11 +487,11 @@ SaveTagChanges
 Exit
 
 # Cut Content
-### echo ==Shader fixes for Holdout...==
-##EditTag objects\levels\solo\m70\poa_gantry\shaders\gantry_illum.shader
-##SetField SortLayer PrePass
-##SaveTagChanges
-##Exit
+ echo ==Shader fixes for Holdout...==
+EditTag objects\levels\solo\m70\poa_gantry\shaders\gantry_illum.shader
+SetField SortLayer PrePass
+SaveTagChanges
+Exit
 
 EditTag objects\props\covenant\cov_watchtower\shaders\cov_watchtower_illum_2.shader
 SetField SortLayer PrePass
