@@ -68,14 +68,6 @@ exit
 # echo ==Bitmap Fixes...==
 RunCommands "workingdir\cmds\bitmap_fixes.cmds"
 
-
-echo ==H2AMP Beam Rifle==
-
-OpenModPackage "workingdir\paks\h2amp_beam_rifle.pak"
-ApplyModPackage
-ExitModPackage
-
-
 echo ==Revenant==
 
 OpenModPackage "workingdir\paks\revenant.pak"
