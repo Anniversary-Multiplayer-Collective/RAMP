@@ -1441,6 +1441,11 @@ Exit
 ##SaveTagChanges
 ##Exit
 
+##EditTag objects\characters\masterchief\mp_masterchief\fp\fp.render_model
+##ReplaceRenderGeometry "workingdir\models\spartan_fp_arms.dae" TriangleStrip
+##SaveTagChanges
+##Exit
+
 # echo ==Make WaterGravityScale and WaterDamageRange the same as the AirGravityScale and AirDamageRange for every projectile to combat a BUG Fixes weapon drop and more...==
 cs < "workingdir\WeaponWaterFix.cs"
 
