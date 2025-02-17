@@ -1743,6 +1743,14 @@ setfield HudGlobals[0].HudAttributes[0].MessageOffset 0 0.68
 savetagchanges
 exit
 
+edittag objects\powerups\health_pack\health_pack_large.equipment
+setfield UseDuration 4
+setfield SuperShield[0].ShieldRechargeDelayScale 0.5
+setfield SuperShield[0].ShieldRechargeRateScale 2
+setfield SuperShield[0].ShieldCeilingScale 0
+savetagchanges
+exit
+
 ImportFonts workingdir\fonts_new.bin
 
 DeleteModFiles
