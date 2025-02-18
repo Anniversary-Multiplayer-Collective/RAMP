@@ -657,7 +657,10 @@ setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].OutputColorB CrosshairEnem
 setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].OutputColorC CrosshairEnemy
 setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].OutputColorD CrosshairEnemy
 setfield HudWidgets[1].BitmapWidgets[1].PlacementData[0].Origin -0.97 -1
+setfield HudWidgets[1].BitmapWidgets[2].PlacementData[0].Offset 12 -11.5
 setfield HudWidgets[1].BitmapWidgets[2].AnimationData[0].Flashing.Animation null
+setfield HudWidgets[1].BitmapWidgets[3].StateData[0].UnitGeneralFlags MotionTrackerEnabled
+setfield HudWidgets[1].BitmapWidgets[3].PlacementData[0].Offset 12 -11.5
 setfield HudWidgets[2].PlacementData[0].Offset 38 29
 setfield HudWidgets[2].BitmapWidgets[0].PlacementData[0].Offset -5 -24
 setfield HudWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 0.49 0.49

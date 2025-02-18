@@ -1745,6 +1745,49 @@ setfield HudGlobals[0].HudAttributes[0].SurvivalMedalsOffset 0 0.62
 savetagchanges
 exit
 
+#echo ==Fix Objective Arming Meter==
+EditTag ui\chud\scoreboard.chud_definition
+SetField HudWidgets[4].BitmapWidgets[0].Name arming_meter
+SetField HudWidgets[4].BitmapWidgets[0].ScriptingClass UseParent
+SetField HudWidgets[4].BitmapWidgets[0].BaseFlags None
+SetField HudWidgets[4].BitmapWidgets[0].SortLayer Inherited
+SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Anchor BottomCenter
+SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].AnchorFlags 0
+SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Origin 0 1
+SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset 0 20
+SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.88 1.2
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].ShaderType MeterSingleColor
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].BlendModeHO AlphaBlend
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].ExternalInput ArmingFraction
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].RangeInput One
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalColorA 0 255 98 0
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalColorB 0 0 0 0
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalColorC 0 0 0 0
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalColorD 0 0 0 0
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalScalarA 0
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalScalarB 0.2
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalScalarC 0.4
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalScalarD 30
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA LocalA
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorB LocalB
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorC LocalB
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorD LocalB
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorE LocalB
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorF LocalB
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarA Input
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarB RangeInput
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarC LocalA
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarD LocalB
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarE LocalC
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputScalarF LocalD
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].ScissorRect 0 0 0 0
+SetField HudWidgets[4].BitmapWidgets[0].RuntimeWidgetIndex 9
+SetField HudWidgets[4].BitmapWidgets[0].Flags None
+SetField HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\arming_meter.bitmap
+SetField HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 0
+SaveTagChanges
+Exit
+
 ImportFonts workingdir\fonts_new.bin
 
 DeleteModFiles
