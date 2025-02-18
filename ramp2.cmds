@@ -1793,6 +1793,20 @@ SetField HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 0
 SaveTagChanges
 Exit
 
+# echo ==Restore Revenge Medal==
+edittag multiplayer\multiplayer_globals.multiplayer_globals
+setfield Runtime[0].EarnWpEvents[31].MedalAward medal_nemesis
+setfield Runtime[0].EarnWpEvents[31].RuntimeEventType General
+savetagchanges
+exit
+
+#The extermination medals were swapped.
+edittag ui\chud\globals.chud_globals_definition
+setfield HudGlobals[0].MultiplayerMedals[29].MedalName medal_extermination
+setfield HudGlobals[0].MultiplayerMedals[0].MedalName medal_survivor_5
+savetagchanges
+exit
+
 ImportFonts workingdir\fonts_new.bin
 
 DeleteModFiles
