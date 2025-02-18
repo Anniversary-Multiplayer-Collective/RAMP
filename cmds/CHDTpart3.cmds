@@ -588,7 +588,14 @@ exit
 edittag ui\chud\spartan.chud_definition
 setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 4.05 4.05
 setfield HudWidgets[0].BitmapWidgets[0].RenderData[0].LocalScalarA 0.8
+setfield HudWidgets[0].BitmapWidgets[2].PlacementData[0].Offset 0.1 0
 setfield HudWidgets[0].BitmapWidgets[2].PlacementData[0].Scale 0.811 0.7
+setfield HudWidgets[0].BitmapWidgets[3].PlacementData[0].Offset 0.1 0
+setfield HudWidgets[0].BitmapWidgets[3].PlacementData[0].Scale 0.811 0.7
+setfield HudWidgets[0].BitmapWidgets[4].PlacementData[0].Offset 0.1 0
+setfield HudWidgets[0].BitmapWidgets[4].PlacementData[0].Scale 0.811 0.7
+setfield HudWidgets[0].BitmapWidgets[5].PlacementData[0].Offset 0.1 0
+setfield HudWidgets[0].BitmapWidgets[5].PlacementData[0].Scale 0.811 0.7
 setfield HudWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 0.405 0.405
 setfield HudWidgets[1].BitmapWidgets[1].PlacementData[0].Scale 0.4 0.4
 setfield HudWidgets[1].BitmapWidgets[1].PlacementData[0].Offset 12 -14
