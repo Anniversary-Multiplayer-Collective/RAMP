@@ -14,7 +14,7 @@ CreateModPackage 1 large
 Ramp 2
 Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even better. Featuring extensive bug fixes, quality of life improvements, and plenty of new content to play with. We hope you enjoy this labor of love, we'll see you starside.
 RampCollective
-0.3
+0.4
 MainMenu Multiplayer Character
 
 editmodmetadata
@@ -1764,7 +1764,7 @@ CreateModPackage 1 large
 Ramp 2
 Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even better. Featuring extensive bug fixes, quality of life improvements, and plenty of new content to play with. We hope you enjoy this labor of love, we'll see you starside.
 RampCollective
-0.3
+0.4
 MainMenu Multiplayer Character
 editmodmetadata
 setfield metadata.URL https://github.com/Zekken01/Ramp-2
