@@ -21,6 +21,7 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 
 ## v0.4 Changelog
 * Reverted delayed health pack recharge
+* Restored Revenge medal
 * Fixed medals clipping into kill feed 
 * Fixed Missing Objective Arming Meter
 
