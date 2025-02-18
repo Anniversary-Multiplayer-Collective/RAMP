@@ -19,18 +19,45 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 * Rejected Shotgun (Falcon Tags)
 * Just Alex (Revenant Tags)
 
-## Changelog
-What's new in RAMP 2? See below!
+## v0.4 Changelog
+* Reverted delayed health pack recharge
+* Fixed medals clipping into kill feed 
 
-* ADD CHANGELOG HERE!!!!!!!!!!!!!!!!
-* ADD CHANGELOG HERE!!!!!!!!!!!!!!!!
-* ADD CHANGELOG HERE!!!!!!!!!!!!!!!!
-* ADD CHANGELOG HERE!!!!!!!!!!!!!!!!
-* ADD CHANGELOG HERE!!!!!!!!!!!!!!!!
-* ADD CHANGELOG HERE!!!!!!!!!!!!!!!!
-* ADD CHANGELOG HERE!!!!!!!!!!!!!!!!
-* ADD CHANGELOG HERE!!!!!!!!!!!!!!!!
-* ADD CHANGELOG HERE!!!!!!!!!!!!!!!!
-* ADD CHANGELOG HERE!!!!!!!!!!!!!!!!
-* ADD CHANGELOG HERE!!!!!!!!!!!!!!!!
+## RAMP 1 -> RAMP 2 v0.3 Changelog
+* Added Firefight maps from Reach as multiplayer maps
+* Added tons of new forge blocks and items
+* Added Reach UI sound effects
+* Added Noble Six voice pack by Fyzure
+* Added Macworld 1999 Emotes by Fyzure
+* Added Target Locator
+* Added "WARNING" text when shields are down
+* Added Reach weapon icons to font package
+* Added H2A Beam Rifle model
+* Added many new custom animations by Minelelol
+* Added female player model as techsuit
+* Added Revenant by Just Alex
+* Added Falcon by Rejected Shotgun
+* Added weapon descope
+* Added shield break sound effect
+* Added civilian vehicles from Reach
+* Fixed water graphics
+* Fixed missing texture on Beaver Creek's air vent
+* Fixed various issues with the HUD
+* Fixed scenario-placed health packs
+* Fixed weapon projectiles dropping faster than intended
+* Fixed missing characters in map descriptions
+* Fixed forge objects disappearing when damaged
+* Fixed default podium configurations
+* Fixed grenades endlessly rolling
+* Fixed blood effect when shooting most surfaces
+* Fixed some menu text not clearing properly
+* Fixed kill feed overlapping with sprint meter
+* Fixed VISR HUD mask
+* Maximized forge budget on all maps
+* Replaced weapons with better versions by VKMT
+* Low-gravity more closely resembles reach
+* Player movement more closely resembles Reach (walking, sprinting, jumping, etc.)
+* Grenades now explode when shot with precision weapons
+* Improved map shaders
+* So, so, SO many more bug fixes that we can't even remember!
 * Removed Herobrine
