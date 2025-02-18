@@ -1736,10 +1736,12 @@ exit
 # echo ==Fix hud message/sprint overlap==
 edittag ui\chud\globals.chud_globals_definition
 setfield HudGlobals[0].HudAttributes[0].MessageOffset 0 0.68
+setfield HudGlobals[0].HudAttributes[0].SurvivalMedalsOffset 0 0.62
 savetagchanges
 exit
 edittag objects\characters\elite\mp_elite\chud\globals.chud_globals_definition
 setfield HudGlobals[0].HudAttributes[0].MessageOffset 0 0.68
+setfield HudGlobals[0].HudAttributes[0].SurvivalMedalsOffset 0 0.62
 savetagchanges
 exit
 
