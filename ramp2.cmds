@@ -1746,6 +1746,11 @@ savetagchanges
 exit
 
 #echo ==Fix Objective Arming Meter==
+
+OpenCacheFile "reachmaps\forge_halo.map"
+PortTag Replace Single ui\chud\bitmaps\arming_meter.bitmap
+Exit
+
 EditTag ui\chud\scoreboard.chud_definition
 SetField HudWidgets[4].BitmapWidgets[0].Name arming_meter
 SetField HudWidgets[4].BitmapWidgets[0].ScriptingClass UseParent
@@ -1754,13 +1759,13 @@ SetField HudWidgets[4].BitmapWidgets[0].SortLayer Inherited
 SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Anchor BottomCenter
 SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].AnchorFlags 0
 SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Origin 0 1
-SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset 0 20
-SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.88 1.2
+SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset 0 -77
+SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 1.917 1.817
 SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].ShaderType MeterSingleColor
 SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].BlendModeHO AlphaBlend
 SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].ExternalInput ArmingFraction
 SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].RangeInput One
-SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalColorA 0 255 98 0
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalColorA 0 255 0 0
 SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalColorB 0 0 0 0
 SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalColorC 0 0 0 0
 SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalColorD 0 0 0 0
