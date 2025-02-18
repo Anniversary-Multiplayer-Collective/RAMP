@@ -24,6 +24,7 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 * Restored Revenge medal
 * Fixed medals clipping into kill feed 
 * Fixed Missing Objective Arming Meter
+* Replace all medals with Halo Reach variants
 
 ## RAMP 1 -> RAMP 2 v0.3 Changelog
 * Added Firefight maps from Reach as multiplayer maps

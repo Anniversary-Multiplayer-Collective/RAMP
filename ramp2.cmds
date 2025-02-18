@@ -370,6 +370,7 @@ PortTag sound\dialog\combat\spartan6_male\default\14_1st_person\sprint_end.sound
 PortTag sound\weapons\equipment\sprint\sprint_deactivate.sound
 PortTag sound\characters\elite\shield_pop_elite.sound
 PortTag sound\characters\spartan\shield_pop_spartan.sound
+PortTag sound\dialog\multiplayer\reach\new_medals\revenge.sound
 PortTag !Scripts !UpdateMapFiles *.scnr
 PortTag objects\vehicles\covenant\revenant\turrets\revenant_plasma_turret\weapon\revenant_plasma_turret.projectile
 Exit
@@ -1794,18 +1795,17 @@ SaveTagChanges
 Exit
 
 # echo ==Restore Revenge Medal==
-edittag multiplayer\multiplayer_globals.multiplayer_globals
-setfield Runtime[0].EarnWpEvents[31].MedalAward medal_nemesis
-setfield Runtime[0].EarnWpEvents[31].RuntimeEventType General
-savetagchanges
-exit
+EditTag multiplayer\multiplayer_globals.multiplayer_globals
+SetField Runtime[0].EarnWpEvents[31].MedalAward medal_nemesis
+SetField Runtime[0].EarnWpEvents[31].RuntimeEventType General
+SaveTagChanges
+Exit
 
-#The extermination medals were swapped.
-edittag ui\chud\globals.chud_globals_definition
-setfield HudGlobals[0].MultiplayerMedals[29].MedalName medal_extermination
-setfield HudGlobals[0].MultiplayerMedals[0].MedalName medal_survivor_5
-savetagchanges
-exit
+# echo ==Replace medals==
+EditTag ui\chud\bitmaps\medals\medals.bitmap
+ImportBitmap 0 "workingdir\bitmaps\medals.dds"
+SaveTagChanges
+Exit
 
 ImportFonts workingdir\fonts_new.bin
 
