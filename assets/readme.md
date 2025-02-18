@@ -22,6 +22,7 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 ## v0.4 Changelog
 * Reverted delayed health pack recharge
 * Fixed medals clipping into kill feed 
+* Fixed Missing Objective Arming Meter
 
 ## RAMP 1 -> RAMP 2 v0.3 Changelog
 * Added Firefight maps from Reach as multiplayer maps
