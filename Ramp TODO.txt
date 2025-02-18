@@ -11,7 +11,7 @@ Elite neck hitbox broken
 Increase sound range of other players projectiles, sometimes you die and dont even know how or where.
 No sprint animation for gold SMG and incorrect ammo count.
 Needle Rifle doesn't detonate grenades
-Health Bar Appears Before Shield Bar When Spawning and Respawning (Occurs with spartan don't know about the elite hud)
+
 
 Look into extra medals from reach
 Look into adding reach spartan jumping and landing sounds
