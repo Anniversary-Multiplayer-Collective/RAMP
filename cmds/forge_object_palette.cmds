@@ -143,7 +143,7 @@ AddForgeItem "KEYPAD, TOGGLE" 86 objects\levels\shared\device_controls\switches\
 AddForgeItem "KEYPAD UNSC, TOGGLE" 86 objects\levels\shared\device_controls\switches\hum_keypad_02\hum_keypad_02.device_control
 
 # NATURALS [87] -------------------------------------------------------------------------------------------------------------
-Foreach scenery startingwith: objects\levels\solo\m10\030_rock_blocker MultiplayerObject 1
+Foreach scenery startingwith: objects\levels\solo\m10\030_rock_blocker addblockelements MultiplayerObject 1
 Foreach crate startingwith: objects\levels\solo\m20\bamboo\bamboo addblockelements MultiplayerObject 1
 Foreach crate startingwith: objects\levels\shared\ice_chunk_large_a\ice_chunk_large_a addblockelements MultiplayerObject 1
 Foreach crate startingwith: objects\levels\shared\ice_chunk_large_b\ice_chunk_large_b addblockelements MultiplayerObject 1
