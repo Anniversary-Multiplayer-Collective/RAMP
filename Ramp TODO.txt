@@ -3,27 +3,27 @@ Use hornet hijack animation on falcon
 Turrets that can overheat have no hud indicator.
 Add overheat to Turret and Tank Turret
 Deacrease death sound bounds(Maybe caused by fyzures sound pak)
-Fix hud score https://s.zekken.rocks/8SQvP5C9.png
+Fix hud score, https://s.zekken.rocks/8SQvP5C9.png
 Null mopp data for sucker plant
-Add target lock for plasma launcher (Still need to add the lock on reticule)
+Add hud elements for plasma launcher lockon
 Elite neck hitbox broken
 Increase sound range of other players projectiles, sometimes you die and dont even know how or where.
+Gold BR HUD has incorrent ammo count
 No sprint animation for gold SMG and incorrect ammo count.
 Needle Rifle doesn't detonate grenades
+Bomb,flag hud image misplaced, https://s.zekken.rocks/NoJ8vVCk.png https://s.zekken.rocks/GfmomkVL.png
+No hud icon for skull, https://s.zekken.rocks/1X1p6cyr.jpg
+Fix tracking reticle for missile pod, https://s.zekken.rocks/3CikSsSY.jpg
 
 
 Look into extra medals from reach
 Look into adding reach spartan jumping and landing sounds
 Look into adding reach global materials (sounds and other associated data, pak size allowing)
 Look into changing starting magnum clip count (scenario player starting profile)
-Look into changing default weapon ammo counts (We would need to take into account thing such as reach bloom and DPS. Discussion Required)
 Look into increasing announcer sound volume
 
 Set objects to phased by default to prevent lag from spawning big items
-Prevent shooting revenant while boosting
 Add dual wield animations?
-Gold and Orange BR's are color swapped
-Gold and Orange SMG's are color swapped
 Several objects need to be set to phased such as kill volumes, Camera, Respawn Zone, ect.
 Find way to get Reach FX ball screen FX working. Function min and max need to be fixed.
 Increase the projectile speed for certain hitscan weapons (To combat ED buggy network)
@@ -79,7 +79,7 @@ If anyone has fixed any of these please delete or comment it out with a #
 - Has some weird kill barriers near red base, literally kills you while you're still in the map
 
 (HOLDOUT)
-- The tree is uhm.. not treeing?
+- The tree is uhm.. not treeing? https://s.zekken.rocks/g1N6jsOQ.jpg
 
 (INSTALLATION 04)
 - The map in general has low contrast fx affecting everything, not sure if this intended
