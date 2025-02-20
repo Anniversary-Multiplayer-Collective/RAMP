@@ -25,8 +25,8 @@ exit
 # Update the version at the bottom of the pak
 
 ## NO VALID RESOURCE DEFINITION IN ANY REACH CACHE
-## rasterizer\water\static_wave\static_wave_slope_water
-opencachefile "reachmaps\forge_halo.map"
+## rasterizer\water\static_wave\static_wave_slope_water.bitmap
+opencachefile "reachmaps\70_boneyard.map"
 porttag rasterizer\rain\rain_noise_boundary.bitmap
 exit
 opencachefile "reachmaps\forge_halo.map"
