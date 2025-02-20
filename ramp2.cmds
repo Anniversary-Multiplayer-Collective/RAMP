@@ -24,6 +24,176 @@ exit
 
 # Update the version at the bottom of the pak
 
+opencachefile "reachmaps\forge_halo.map"
+porttag shaders\shader_options\bump_detail_blend.render_method_option
+porttag shaders\shader_options\bump_three_detail_blend.render_method_option
+porttag shaders\shader_options\bump_default_wrinkle.render_method_option
+porttag shaders\shader_options\bump_detail_wrinkle.render_method_option
+porttag shaders\glass_options\glass_specular_option.render_method_option
+porttag shaders\wetness_options\wetness_simple.render_method_option
+porttag shaders\wetness_options\wetness_flood.render_method_option
+porttag shaders\shader_options\blend_source_from_albedo_alpha.render_method_option
+porttag shaders\shader_options\blend_source_from_opacity_map.render_method_option
+exit
+
+createtag glvs shaders\glass_shared_vertex_shaders
+createtag glps shaders\glass_shared_pixel_shaders
+createtag rmdf shaders\glass
+
+edittag shaders\glass.rmdf
+stringid add calc_bumpmap_detail_blend_vs
+stringid add calc_bumpmap_detail_blend_ps
+stringid add calc_bumpmap_three_detail_blend_vs
+stringid add calc_bumpmap_three_detail_blend_ps
+stringid add standard_wrinkle
+stringid add calc_bumpmap_default_wrinkle_vs
+stringid add calc_bumpmap_default_wrinkle_ps
+stringid add detail_wrinkle
+stringid add calc_bumpmap_detail_wrinkle_vs
+stringid add calc_bumpmap_detail_wrinkle_ps
+stringid add wetness
+stringid add calc_wetness_simple_ps
+stringid add flood
+stringid add calc_wetness_flood_ps
+stringid add calc_wetness_ps
+stringid add alpha_blend_source
+stringid add from_albedo_alpha_without_fresnel
+stringid add albedo_alpha_without_fresnel
+stringid add albedo_alpha
+stringid add from_opacity_map_alpha
+stringid add opacity_map_alpha
+stringid add from_opacity_map_rgb
+stringid add opacity_map_rgb
+stringid add from_opacity_map_alpha_and_albedo_alpha
+stringid add opacity_map_alpha_and_albedo_alpha
+
+SetField GlobalOptions shaders\shader_options\global_shader_options.render_method_option
+AddBlockElements Categories 6
+SetField Categories[0].Name albedo
+AddBlockElements Categories[0].ShaderOptions 1
+SetField Categories[0].ShaderOptions[0].Name map
+SetField Categories[0].ShaderOptions[0].Option shaders\shader_options\albedo_default.render_method_option
+SetField Categories[0].ShaderOptions[0].VertexFunction calc_albedo_default_vs
+SetField Categories[0].ShaderOptions[0].PixelFunction calc_albedo_default_ps
+SetField Categories[0].VertexFunction calc_albedo_vs
+SetField Categories[0].PixelFunction calc_albedo_ps
+SetField Categories[1].Name bump_mapping
+AddBlockElements Categories[1].ShaderOptions 7
+SetField Categories[1].ShaderOptions[0].Name off
+SetField Categories[1].ShaderOptions[0].Option shaders\shader_options\bump_off.render_method_option
+SetField Categories[1].ShaderOptions[0].VertexFunction calc_bumpmap_off_vs
+SetField Categories[1].ShaderOptions[0].PixelFunction calc_bumpmap_off_ps
+SetField Categories[1].ShaderOptions[1].Name standard
+SetField Categories[1].ShaderOptions[1].Option shaders\shader_options\bump_default.render_method_option
+SetField Categories[1].ShaderOptions[1].VertexFunction calc_bumpmap_default_vs
+SetField Categories[1].ShaderOptions[1].PixelFunction calc_bumpmap_default_ps
+SetField Categories[1].ShaderOptions[2].Name detail
+SetField Categories[1].ShaderOptions[2].Option shaders\shader_options\bump_detail.render_method_option
+SetField Categories[1].ShaderOptions[2].VertexFunction calc_bumpmap_detail_vs
+SetField Categories[1].ShaderOptions[2].PixelFunction calc_bumpmap_detail_ps
+SetField Categories[1].ShaderOptions[3].Name detail_blend
+SetField Categories[1].ShaderOptions[3].Option shaders\shader_options\bump_detail_blend.render_method_option
+SetField Categories[1].ShaderOptions[3].VertexFunction calc_bumpmap_detail_blend_vs
+SetField Categories[1].ShaderOptions[3].PixelFunction calc_bumpmap_detail_blend_ps
+SetField Categories[1].ShaderOptions[4].Name three_detail_blend
+SetField Categories[1].ShaderOptions[4].Option shaders\shader_options\bump_three_detail_blend.render_method_option
+SetField Categories[1].ShaderOptions[4].VertexFunction calc_bumpmap_three_detail_blend_vs
+SetField Categories[1].ShaderOptions[4].PixelFunction calc_bumpmap_three_detail_blend_ps
+SetField Categories[1].ShaderOptions[5].Name standard_wrinkle
+SetField Categories[1].ShaderOptions[5].Option shaders\shader_options\bump_default_wrinkle.render_method_option
+SetField Categories[1].ShaderOptions[5].VertexFunction calc_bumpmap_default_wrinkle_vs
+SetField Categories[1].ShaderOptions[5].PixelFunction calc_bumpmap_default_wrinkle_ps
+SetField Categories[1].ShaderOptions[6].Name detail_wrinkle
+SetField Categories[1].ShaderOptions[6].Option shaders\shader_options\bump_detail_wrinkle.render_method_option
+SetField Categories[1].ShaderOptions[6].VertexFunction calc_bumpmap_detail_wrinkle_vs
+SetField Categories[1].ShaderOptions[6].PixelFunction calc_bumpmap_detail_wrinkle_ps
+SetField Categories[1].VertexFunction calc_bumpmap_vs
+SetField Categories[1].PixelFunction calc_bumpmap_ps
+SetField Categories[2].Name material_model
+AddBlockElements Categories[2].ShaderOptions 1
+SetField Categories[2].ShaderOptions[0].Name two_lobe_phong_reach
+SetField Categories[2].ShaderOptions[0].Option shaders\glass_options\glass_specular_option.render_method_option
+SetField Categories[2].ShaderOptions[0].VertexFunction invalid
+SetField Categories[2].ShaderOptions[0].PixelFunction two_lobe_phong_reach
+SetField Categories[2].VertexFunction invalid
+SetField Categories[2].PixelFunction material_type
+SetField Categories[3].Name environment_mapping
+AddBlockElements Categories[3].ShaderOptions 4
+SetField Categories[3].ShaderOptions[0].Name none
+SetField Categories[3].ShaderOptions[0].Option null
+SetField Categories[3].ShaderOptions[0].VertexFunction invalid
+SetField Categories[3].ShaderOptions[0].PixelFunction none
+SetField Categories[3].ShaderOptions[1].Name per_pixel
+SetField Categories[3].ShaderOptions[1].Option shaders\shader_options\env_map_per_pixel.render_method_option
+SetField Categories[3].ShaderOptions[1].VertexFunction invalid
+SetField Categories[3].ShaderOptions[1].PixelFunction per_pixel
+SetField Categories[3].ShaderOptions[2].Name dynamic
+SetField Categories[3].ShaderOptions[2].Option shaders\shader_options\env_map_dynamic.render_method_option
+SetField Categories[3].ShaderOptions[2].VertexFunction invalid
+SetField Categories[3].ShaderOptions[2].PixelFunction dynamic
+SetField Categories[3].ShaderOptions[3].Name from_flat_texture
+SetField Categories[3].ShaderOptions[3].Option shaders\shader_options\env_map_from_flat_texture.render_method_option
+SetField Categories[3].ShaderOptions[3].VertexFunction invalid
+SetField Categories[3].ShaderOptions[3].PixelFunction from_flat_texture
+SetField Categories[3].VertexFunction invalid
+SetField Categories[3].PixelFunction envmap_type
+SetField Categories[4].Name wetness
+AddBlockElements Categories[4].ShaderOptions 2
+SetField Categories[4].ShaderOptions[0].Name simple
+SetField Categories[4].ShaderOptions[0].Option shaders\wetness_options\wetness_simple.render_method_option
+SetField Categories[4].ShaderOptions[0].VertexFunction invalid
+SetField Categories[4].ShaderOptions[0].PixelFunction calc_wetness_simple_ps
+SetField Categories[4].ShaderOptions[1].Name flood
+SetField Categories[4].ShaderOptions[1].Option shaders\wetness_options\wetness_flood.render_method_option
+SetField Categories[4].ShaderOptions[1].VertexFunction invalid
+SetField Categories[4].ShaderOptions[1].PixelFunction calc_wetness_flood_ps
+SetField Categories[4].VertexFunction invalid
+SetField Categories[4].PixelFunction calc_wetness_ps
+SetField Categories[5].Name alpha_blend_source
+AddBlockElements Categories[5].ShaderOptions 5
+SetField Categories[5].ShaderOptions[0].Name from_albedo_alpha_without_fresnel
+SetField Categories[5].ShaderOptions[0].Option null
+SetField Categories[5].ShaderOptions[0].VertexFunction invalid
+SetField Categories[5].ShaderOptions[0].PixelFunction albedo_alpha_without_fresnel
+SetField Categories[5].ShaderOptions[1].Name from_albedo_alpha
+SetField Categories[5].ShaderOptions[1].Option shaders\shader_options\blend_source_from_albedo_alpha.render_method_option
+SetField Categories[5].ShaderOptions[1].VertexFunction invalid
+SetField Categories[5].ShaderOptions[1].PixelFunction albedo_alpha
+SetField Categories[5].ShaderOptions[2].Name from_opacity_map_alpha
+SetField Categories[5].ShaderOptions[2].Option shaders\shader_options\blend_source_from_opacity_map.render_method_option
+SetField Categories[5].ShaderOptions[2].VertexFunction invalid
+SetField Categories[5].ShaderOptions[2].PixelFunction opacity_map_alpha
+SetField Categories[5].ShaderOptions[3].Name from_opacity_map_rgb
+SetField Categories[5].ShaderOptions[3].Option shaders\shader_options\blend_source_from_opacity_map.render_method_option
+SetField Categories[5].ShaderOptions[3].VertexFunction invalid
+SetField Categories[5].ShaderOptions[3].PixelFunction opacity_map_rgb
+SetField Categories[5].ShaderOptions[4].Name from_opacity_map_alpha_and_albedo_alpha
+SetField Categories[5].ShaderOptions[4].Option shaders\shader_options\blend_source_from_opacity_map.render_method_option
+SetField Categories[5].ShaderOptions[4].VertexFunction invalid
+SetField Categories[5].ShaderOptions[4].PixelFunction opacity_map_alpha_and_albedo_alpha
+SetField Categories[5].VertexFunction invalid
+SetField Categories[5].PixelFunction alpha_blend_source
+AddBlockElements EntryPoints 3
+SetField EntryPoints[0].EntryPoint Static_Sh
+SetField EntryPoints[1].EntryPoint Static_Per_Vertex
+SetField EntryPoints[2].EntryPoint Static_Prt_Ambient
+AddBlockElements EntryPoints[0].Passes 1
+AddBlockElements EntryPoints[1].Passes 1
+AddBlockElements EntryPoints[2].Passes 1
+AddBlockElements VertexTypes 3
+SetField VertexTypes[0].VertexType World
+SetField VertexTypes[1].VertexType Rigid
+SetField VertexTypes[2].VertexType Skinned
+SetField GlobalPixelShader shaders\glass_shared_pixel_shaders.glps
+SetField GlobalVertexShader shaders\glass_shared_vertex_shaders.glvs
+SetField Flags None
+SetField Version 0
+savetagchanges
+exit
+generateshader glvs glass
+generateshader glps glass
+savetagnames
+
 # Thanks to NoShotz for helping out :), really appreciate it
 # echo ==Add default bitmap + parameter for reach diffuse power...==
 opencachefile "reachmaps\dlc_slayer.map"
