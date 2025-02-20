@@ -1839,6 +1839,9 @@ exit
 # echo ==Fix Silenced SMG and Automag font icons and strings==
 runcommands workingdir\cmds\weapon_strings.cmds
 
+# == Automag and Silenced SMG Animations==
+runcommands "workingdir\cmds\odstweapsanimations.cmds"
+
 # echo ==Add shield break sfx==
 edittag objects\characters\masterchief\fx\shield\shield_collapse.effect
 addblockelements Events[0].Parts
