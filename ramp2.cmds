@@ -1977,6 +1977,9 @@ ImportBitmap 0 "workingdir\bitmaps\medals.dds"
 SaveTagChanges
 Exit
 
+# echo ==Replace medals in medals_lg_ui with Reach Medals ==
+RunCommands "workingdir\cmds\reachify_medals_lg_ui.cmds"
+
 ImportFonts workingdir\fonts_new.bin
 
 DeleteModFiles
