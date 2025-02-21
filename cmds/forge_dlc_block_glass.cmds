@@ -33,6 +33,11 @@ SetField Materials[0].RenderMethod objects\levels\forge\shaders\for_forge_glass.
 SaveTagChanges
 Exit
 
+EditTag levels\multi\dlc\objects\dlc_ff_railing_1\dlc_ff_railing_1.render_model
+SetField Materials[0].RenderMethod objects\levels\forge\shaders\for_forge_glass.rmgl
+SaveTagChanges
+Exit
+
 EditTag levels\multi\dlc\objects\dlc_ff_railing_2\dlc_ff_railing_2.render_model
 SetField Materials[0].RenderMethod objects\levels\forge\shaders\for_forge_glass.rmgl
 SaveTagChanges
