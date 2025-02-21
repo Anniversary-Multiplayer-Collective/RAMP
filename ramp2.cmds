@@ -1628,14 +1628,6 @@ cs < "workingdir\WeaponWaterFix.cs"
 # echo ==Fix Covenant Portable Shield==
 RunCommands "workingdir\cmds\portableshieldfix.cmds"
 
-# echo ==Fix respawn points collision in multiplayer==
-EditTag objects\multi\spawning\ff_respawn_point\ff_respawn_point.physics_model
-SetField Materials[0].ProxyCollisionGroup 1
-SetField Materials[0].RuntimeCollisionGroup 5
-SetField Polyhedra[0].ProxyCollisionGroup 5
-SaveTagChanges
-Exit
-
 # echo ==Fix Kill Volume Physics==
 EditTag objects\multi\models\ff_kill_zone\ff_kill_zone.physics_model
 SetField RigidBodies[0].MotionType Keyframed
