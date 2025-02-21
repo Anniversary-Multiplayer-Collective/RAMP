@@ -106,7 +106,7 @@ addblockelements Modes[0].WeaponClass[1].WeaponType[0].Set.Actions
 setfield Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[0].Label fire_1
 setfield Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[0].GraphIndex -1
 
-addanimation F:\automagMINE
+addanimation workingdir\animations\elite_fp\automag
 sortmodes
 
 
