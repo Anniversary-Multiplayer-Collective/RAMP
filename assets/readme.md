@@ -26,6 +26,7 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 * Fixed Missing Objective Arming Meter
 * Replace all medals with Halo Reach variants
 * Add Reach Glass Shader Support
+* Fix respawn points having collision in multiplayer
 
 ## RAMP 1 -> RAMP 2 v0.3 Changelog
 * Added Firefight maps from Reach as multiplayer maps
