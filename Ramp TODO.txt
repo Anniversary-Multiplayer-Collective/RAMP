@@ -122,4 +122,4 @@ If anyone has fixed any of these please delete or comment it out with a #
 - Haven't found any
 
 (ZEALOT)
-- The covenant glass shield is just pure transparent
+- Haven't found any
