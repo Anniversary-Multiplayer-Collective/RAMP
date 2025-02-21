@@ -1,4 +1,4 @@
-EditTag objects\levels\forge\ff_base_strut\ff_base_strut.render_model
+EditTag levels\multi\dlc\objects\dlc_ff_base_strut\dlc_ff_base_strut.render_model
 SetField Materials[0].RenderMethod objects\levels\forge\shaders\for_forge_glass.rmgl
 SaveTagChanges
 Exit
