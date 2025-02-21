@@ -1988,6 +1988,18 @@ Exit
 # echo ==Replace medals in medals_lg_ui with Reach Medals ==
 RunCommands "workingdir\cmds\reachify_medals_lg_ui.cmds"
 
+# echo ==Fix Armor Lights ==
+opencachefile "reachmaps\forge_halo.map"
+porttag replace single objects\characters\spartans\shaders\spartan_shield_display.shader
+exit
+
+edittag objects\characters\spartans\shaders\spartan_shield_display.rmsh
+setargument self_illum_intensity 7
+setfield shaderproperties[0].RoutingInfo[5].RegisterIndex 1
+setfield shaderproperties[0].Functions[0].Type ChangeColorQuaternary
+savetagchanges
+exit
+
 ImportFonts workingdir\fonts_new.bin
 
 DeleteModFiles
