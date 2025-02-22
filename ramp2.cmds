@@ -2010,6 +2010,12 @@ ImportBitmap 0 "workingdir\bitmaps\exp_med_ui.dds"
 SaveTagChanges
 Exit
 
+EditTag ui\halox\spartan_program\exp_lg_ui.bitmap
+ImportBitmap 0 "workingdir\bitmaps\exp_lg_ui.dds"
+SaveTagChanges
+Exit
+
+
 # echo ==Replace medals in medals_lg_ui with Reach Medals ==
 RunCommands "workingdir\cmds\reachify_medals_lg_ui.cmds"
 
