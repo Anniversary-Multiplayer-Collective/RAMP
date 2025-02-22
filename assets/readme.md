@@ -31,6 +31,8 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 * Fixed shield meter alignment issues
 * Added Reach EMP effect to all vehicles
 * Replaced Halo 3 ranks with Reach ranks
+* Added more customization options
+* Fixed Falcon boarding
 
 ## RAMP 1 -> RAMP 2 v0.3 Changelog
 * Added Firefight maps from Reach as multiplayer maps
