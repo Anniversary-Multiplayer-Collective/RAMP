@@ -29,6 +29,7 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 * Fixed respawn points having collision in multiplayer
 * Fixed Armor Lights
 * Fixed shield meter alignment issues
+* Added Reach EMP effect to all vehicles
 
 ## RAMP 1 -> RAMP 2 v0.3 Changelog
 * Added Firefight maps from Reach as multiplayer maps

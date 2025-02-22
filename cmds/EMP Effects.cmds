@@ -1,0 +1,91 @@
+OpenCacheFile "reachmaps\forge_halo.map"
+PortTag objects\vehicles\covenant\banshee\fx\destruction\emp_drain.effect
+PortTag objects\vehicles\covenant\ghost\fx\destruction\emp_drain.effect
+PortTag objects\vehicles\covenant\turrets\shade\fx\destruction\emp_drain.effect
+PortTag objects\vehicles\covenant\revenant\fx\destruction\emp_drain.effect
+Exit
+
+EditTag objects\vehicles\human\civilian\pickup\pickup.vehicle
+SetField EmpRadius 4
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\human\civilian\military_truck\military_truck.vehicle
+SetField EmpRadius 4
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\human\civilian\truck_cab_large\truck_cab_large.vehicle
+SetField EmpRadius 4
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\human\civilian\cargo_truck\cargo_truck.vehicle
+SetField EmpRadius 4
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\human\civilian\forklift\forklift.vehicle
+SetField EmpRadius 4
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\human\civilian\cart_electric\cart_electric.vehicle
+SetField EmpRadius 4
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\banshee\banshee.vehicle
+SetField EmpEffect objects\vehicles\covenant\banshee\fx\destruction\emp_drain.effect
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\human\falcon\falcon.vehicle
+SetField EmpEffect objects\vehicles\covenant\banshee\fx\destruction\emp_drain.effect
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\human\falcon\falcon_nose_gun.vehicle
+SetField EmpEffect objects\vehicles\covenant\banshee\fx\destruction\emp_drain.effect
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\human\falcon\falcon_transport.vehicle
+SetField EmpEffect objects\vehicles\covenant\banshee\fx\destruction\emp_drain.effect
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\ghost\ghost.vehicle
+SetField EmpEffect objects\vehicles\covenant\ghost\fx\destruction\emp_drain.effect
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\shade\shade.vehicle
+SetField EmpEffect objects\vehicles\covenant\turrets\shade\fx\destruction\emp_drain.effect
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\covenant\revenant\revenant.vehicle
+SetField EmpEffect objects\vehicles\covenant\revenant\fx\destruction\emp_drain.effect
+SaveTagChanges
+Exit
+
+edittag objects\levels\dlc\sidewinder\hornet_lite\hornet_lite.vehicle
+setfield EmpEffect objects\vehicles\covenant\banshee\fx\destruction\emp_drain.effect
+SaveTagChanges
+Exit
+
+edittag objects\vehicles\hornet\hornet.vehicle
+setfield EmpEffect objects\vehicles\covenant\banshee\fx\destruction\emp_drain.effect
+SaveTagChanges
+Exit
+
+edittag objects\vehicles\brute_chopper\brute_chopper.vehicle
+setfield EmpEffect objects\vehicles\covenant\revenant\fx\destruction\emp_drain.effect
+SaveTagChanges
+Exit
+
+edittag objects\vehicles\mauler\mauler.vehicle
+setfield EmpEffect objects\vehicles\covenant\revenant\fx\destruction\emp_drain.effect
+SaveTagChanges
+Exit
