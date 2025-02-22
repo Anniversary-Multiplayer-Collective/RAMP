@@ -2110,7 +2110,7 @@ setfield Palette[*].Setters[*].Target General_Physics
 setfield Palette[*].Setters[*].IntegerValue 1
 
 addblockelements Palette
-setfield Palette[*].Name "WINDOW, COLOSSEUM"
+setfield Palette[*].Name "WINDOW, COLISEUM"
 setfield Palette[*].Type Prop
 setfield Palette[*].CategoryIndex 104
 setfield Palette[*].DescriptionIndex -1
@@ -2160,7 +2160,7 @@ setfield Palette[*].Setters[*].Target General_Physics
 setfield Palette[*].Setters[*].IntegerValue 1
 
 addblockelements Palette
-setfield Palette[*].Name "WALL, COLOSSEUM"
+setfield Palette[*].Name "WALL, COLISEUM"
 setfield Palette[*].Type Prop
 setfield Palette[*].CategoryIndex 104
 setfield Palette[*].DescriptionIndex -1
