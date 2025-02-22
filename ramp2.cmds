@@ -2010,9 +2010,6 @@ RunCommands "workingdir\cmds\reachify_medals_lg_ui.cmds"
 # echo ==Fix the glass on the duplicate DLC forge items ==
 RunCommands "workingdir\cmds\forge_dlc_block_glass.cmds"
 
-# echo ==Added Reach EMP effect to all vehicles ==
-RunCommands "workingdir\cmds\EMP Effects.cmds"
-
 # echo ==Fix Armor Lights ==
 opencachefile "reachmaps\forge_halo.map"
 porttag replace single objects\characters\spartans\shaders\spartan_shield_display.shader
@@ -2037,26 +2034,31 @@ SaveTagChanges
 Exit
 
 SaveModPackage "modsfolder\RAMP_2.pak"
-
-# Make mod pak smaller
 ExitModPackage
+
+# echo ==Make Pak Smaller ==
 CreateModPackage 1 large
 Reach Anniversary Multiplayer 2
 Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even better. Featuring extensive bug fixes, quality of life improvements, and plenty of new content to play with. We hope you enjoy this labor of love, we'll see you starside.
 RampCollective
 0.4
 MainMenu Multiplayer Character
-editmodmetadata
-setfield metadata.URL https://github.com/Zekken01/Ramp-2
-savemodmetadata
-exit
+
+EditModMetaData
+SetField metadata.URL https://github.com/Zekken01/Ramp-2
+SaveModMetaData
+Exit
+
 OpenModPackage "modsfolder\RAMP_2.pak"
 DeleteModFiles
 ApplyModPackage
 ExitModPackage
 
-#Add more stuff
+# echo ==Add More Stuff ==
 RunCommands workingdir\cmds\ApplyModPackage.cmds
+
+# echo ==Added Reach EMP effect to all vehicles ==
+RunCommands "workingdir\cmds\EMP Effects.cmds"
 
 AddModFiles workingdir\assets
 SaveModPackage "modsfolder\RAMP_2.pak"
