@@ -1,5 +1,5 @@
 TODO:
-Use hornet hijack animation on falcon
+Theres no rankup UI
 Turrets that can overheat have no hud indicator.
 Add overheat to Turret and Tank Turret
 Deacrease death sound bounds(Maybe caused by fyzures sound pak)

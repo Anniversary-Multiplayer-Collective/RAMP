@@ -2004,6 +2004,12 @@ ImportBitmap 0 "workingdir\bitmaps\medals.dds"
 SaveTagChanges
 Exit
 
+# echo ==Replace Ranks==
+EditTag ui\halox\common\roster\exp_med_ui.bitmap
+ImportBitmap 0 "workingdir\bitmaps\exp_med_ui.dds"
+SaveTagChanges
+Exit
+
 # echo ==Replace medals in medals_lg_ui with Reach Medals ==
 RunCommands "workingdir\cmds\reachify_medals_lg_ui.cmds"
 
