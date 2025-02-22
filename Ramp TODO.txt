@@ -4,7 +4,6 @@ Turrets that can overheat have no hud indicator.
 Add overheat to Turret and Tank Turret
 Deacrease death sound bounds(Maybe caused by fyzures sound pak)
 Fix hud score, https://s.zekken.rocks/8SQvP5C9.png
-Null mopp data for sucker plant
 Add hud elements for plasma launcher lockon
 Elite neck hitbox broken
 Increase sound range of other players projectiles, sometimes you die and dont even know how or where.
