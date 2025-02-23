@@ -375,8 +375,8 @@ ApplyModPackage
 ExitModPackage
 
 EditTag objects\vehicles\warthog\warthog.render_model
-SetField MarkerGroups[7].Markers[0].Translation -0.9167317 -0.2197281 0.09
-SetField MarkerGroups[7].Markers[1].Translation -0.9167317 0.2204493 0.09
+SetField MarkerGroups[7].Markers[0].Translation -0.9197317 -0.2197281 0.095
+SetField MarkerGroups[7].Markers[1].Translation -0.9197317 0.2204493 0.095
 SetField MarkerGroups[19].Markers[0].Translation -0.9167317 0.22 0.09
 SetField MarkerGroups[25].Markers[0].Translation -0.9167317 -0.22 0.09
 SetField Geometry.Meshes[3].Parts[3].FlagsNew PreventBackfaceCulling
@@ -1432,6 +1432,20 @@ Exit
 EditTag levels\multi\forge_halo\sky_halo\shaders\sky_halo_ring.shader
 SetField ShaderProperties[0].RealConstants[3].Values 1 1.2 1.5 1
 SetField RenderFlags None
+SaveTagChanges
+Exit
+
+Echo ==Forge World brighter exposure==
+EditTag levels\multi\forge_halo\post_fx\forge_halo.area_screen_effect
+SetField ScreenEffects[0].ExposureBoost 0.6
+SaveTagChanges
+Exit
+
+Echo ==Installation 04 brighter exposure==
+EditTag levels\dlc\cex_ff_halo\post_fx\cex_halo.area_screen_effect
+SetField ScreenEffects[0].ExposureBoost 0.2
+SetField ScreenEffects[0].GammaEnhance 0
+SetField ScreenEffects[0].ColorFloor 0 0 0
 SaveTagChanges
 Exit
 
