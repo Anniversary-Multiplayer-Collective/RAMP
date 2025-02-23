@@ -1698,5 +1698,12 @@ setfield HUDWidgets[3].BitmapWidgets[5].PlacementData[0].Scale 0.8139 0.8139
 
 setfield HudWidgets[1].BitmapWidgets[0].PlacementData[0].Offset 6969 6969
 setfield HudWidgets[1].BitmapWidgets[1].BitmapSequenceIndex 22
+
+removeblockelements HudWidgets[1].BitmapWidgets 0 1
+removeblockelements HudWidgets[1].BitmapWidgets 3 1
+setfield HudWidgets[1].BitmapWidgets[0].RuntimeWidgetIndex 7
+setfield HudWidgets[1].BitmapWidgets[1].RuntimeWidgetIndex 8
+setfield HudWidgets[1].BitmapWidgets[2].RuntimeWidgetIndex 9
+
 savetagchanges
 exit
