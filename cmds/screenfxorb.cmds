@@ -23,7 +23,6 @@ setfield Palette[666].Setters[4].RealValue 1
 
 setfield Palette[666].Setters[5].Target Fx_GammaIncrease
 setfield Palette[666].Setters[5].Type Real
-setfield Palette[666].Setters[5].RealValue 0.3
 
 setfield Palette[666].Setters[6].Target Fx_GammaDecrease
 setfield Palette[666].Setters[6].Type Real
@@ -135,7 +134,6 @@ setfield Palette[668].Setters[4].Type Real
 
 setfield Palette[668].Setters[5].Target Fx_GammaIncrease
 setfield Palette[668].Setters[5].Type Real
-setfield Palette[668].Setters[5].RealValue 0.5
 
 setfield Palette[668].Setters[6].Target Fx_GammaDecrease
 setfield Palette[668].Setters[6].Type Real
