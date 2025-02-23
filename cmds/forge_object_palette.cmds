@@ -1208,6 +1208,7 @@ AddForgeItem "SPADEHORN WINDOW" 99 objects\levels\solo\m10\spadehorn_window\spad
 AddForgeItem "INTERIOR DOOR, WALL" 99 objects\levels\solo\m20\door_interior_standard_closed\door_interior_standard_closed.scenery
 AddForgeItem "GATEHOUSE FRONTDOOR, CLOSED" 99 objects\levels\solo\m20\gatehouse_frontdoor_closed\gatehouse_frontdoor_closed.scenery
 AddForgeItem "GARAGE DOOR, CLOSED" 99 levels\multi\dlc\objects\dlc_invasion_bomb_door\dlc_invasion_bomb_door.scenery
+AddForgeItem "SLIDER DOOR, CLOSED" 99 objects\props\human\pioneer\doors\door_slider_utility\door_slider_utility.scenery
 AddForgeItem "GANTRY STEPS" 99 objects\levels\solo\m45\gantry_steps\gantry_steps.scenery
 AddForgeItem "PILLAR POWER BOX" 99 objects\levels\solo\m60\power_box_unsc\power_box_unsc.scenery
 AddForgeItem "PILLAR SHORING" 99 objects\cex\cex_headlong\forge\ff_shoring\ff_shoring.crate
@@ -1919,7 +1920,7 @@ setfield Palette[*].Name "ANTENNA, SATELLITE"
 setfield Palette[*].Type Prop
 setfield Palette[*].CategoryIndex 103
 setfield Palette[*].DescriptionIndex -1
-setfield Palette[*].Object objects\levels\forge\ff_dish_antenna\ff_dish_antenna.bloc
+setfield Palette[*].Object objects\levels\forge\ff_dish_antenna\ff_dish_antenna.scenery
 addblockelements Palette[*].Setters 1
 setfield Palette[*].Setters[*].Target General_Physics
 setfield Palette[*].Setters[*].IntegerValue 1
@@ -2347,6 +2348,7 @@ savetagchanges
 exit
 
 # DLC DUPLICATES [106]
+Foreach crate startingwith: objects\levels\forge\ff_dish_antenna\ff_dish_antenna addblockelements MultiplayerObject 1
 edittag multiplayer\forge_globals.forge_globals_definition
 addblockelements Palette
 setfield Palette[*].Name "STRUT [DLC]"
@@ -2553,7 +2555,7 @@ setfield Palette[*].Name "ANTENNA, SATELLITE [DLC]"
 setfield Palette[*].Type Prop
 setfield Palette[*].CategoryIndex 106
 setfield Palette[*].DescriptionIndex -1
-setfield Palette[*].Object objects\levels\forge\ff_dish_antenna\ff_dish_antenna.scenery
+setfield Palette[*].Object objects\levels\forge\ff_dish_antenna\ff_dish_antenna.bloc
 addblockelements Palette[*].Setters 1
 setfield Palette[*].Setters[*].Target General_Physics
 setfield Palette[*].Setters[*].IntegerValue 1
