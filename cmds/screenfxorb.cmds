@@ -375,27 +375,23 @@ setfield Palette[672].Setters[6].RealValue 0.1
 
 setfield Palette[672].Setters[7].Target Fx_ColorFilterR
 setfield Palette[672].Setters[7].Type Real
-setfield Palette[672].Setters[7].RealValue 0.5769709
 
 setfield Palette[672].Setters[8].Target Fx_ColorFilterG
 setfield Palette[672].Setters[8].Type Real
-setfield Palette[672].Setters[8].RealValue 0.535701
+setfield Palette[672].Setters[8].RealValue 25
 
 setfield Palette[672].Setters[9].Target Fx_ColorFilterB
 setfield Palette[672].Setters[9].Type Real
-setfield Palette[672].Setters[9].RealValue 0.8484706
+setfield Palette[672].Setters[9].RealValue 61
 
 setfield Palette[672].Setters[10].Target Fx_ColorFloorR
 setfield Palette[672].Setters[10].Type Real
-setfield Palette[672].Setters[10].RealValue 0.04847059
 
 setfield Palette[672].Setters[11].Target Fx_ColorFloorG
 setfield Palette[672].Setters[11].Type Real
-setfield Palette[672].Setters[11].RealValue 0.04496535
 
 setfield Palette[672].Setters[12].Target Fx_ColorFloorB
 setfield Palette[672].Setters[12].Type Real
-setfield Palette[672].Setters[12].RealValue 0.03250381
 
 setfield Palette[672].Setters[13].Target Fx_Tracing
 setfield Palette[672].Setters[13].Type Real
