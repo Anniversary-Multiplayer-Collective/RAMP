@@ -202,15 +202,15 @@ setfield Palette[669].Setters[6].Type Real
 
 setfield Palette[669].Setters[7].Target Fx_ColorFilterR
 setfield Palette[669].Setters[7].Type Real
-setfield Palette[669].Setters[7].RealValue 255
+setfield Palette[669].Setters[7].RealValue 254
 
 setfield Palette[669].Setters[8].Target Fx_ColorFilterG
 setfield Palette[669].Setters[8].Type Real
-setfield Palette[669].Setters[8].RealValue 255
+setfield Palette[669].Setters[8].RealValue 254
 
 setfield Palette[669].Setters[9].Target Fx_ColorFilterB
 setfield Palette[669].Setters[9].Type Real
-setfield Palette[669].Setters[9].RealValue 255
+setfield Palette[669].Setters[9].RealValue 254
 
 setfield Palette[669].Setters[10].Target Fx_ColorFloorR
 setfield Palette[669].Setters[10].Type Real
@@ -379,11 +379,11 @@ setfield Palette[672].Setters[7].Type Real
 
 setfield Palette[672].Setters[8].Target Fx_ColorFilterG
 setfield Palette[672].Setters[8].Type Real
-setfield Palette[672].Setters[8].RealValue 25
+setfield Palette[672].Setters[8].RealValue 22
 
 setfield Palette[672].Setters[9].Target Fx_ColorFilterB
 setfield Palette[672].Setters[9].Type Real
-setfield Palette[672].Setters[9].RealValue 61
+setfield Palette[672].Setters[9].RealValue 120
 
 setfield Palette[672].Setters[10].Target Fx_ColorFloorR
 setfield Palette[672].Setters[10].Type Real
