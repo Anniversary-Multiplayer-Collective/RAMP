@@ -776,7 +776,7 @@ AddForgeItem "HVAC" 93 objects\props\human\pioneer\farm\hvac\hvac.scenery
 AddForgeItem "ROOF FAN, SMALL" 93 objects\levels\shared\lights\y_set_fan_small_a\y_set_fan_small_a.scenery
 
 # GADGETS [94] -------------------------------------------------------------------------------------------------------------
-AddForgeItem "DICE" 94 objects\multi\dice\dice.crate
+AddForgeItem "DIE" 94 objects\multi\dice\dice.crate
 AddForgeItem "TIN CUP" 94 objects\levels\shared\golf_cup\golf_cup.crate
 AddForgeItem "SOCCER BALL [REACH]" 94 objects\levels\shared\soccer_ball\soccer_ball.crate
 AddForgeItem "WEAPONS HOLDER [REACH]" 94 objects\props\covenant\cov_sword_holder\cov_sword_holder.crate
