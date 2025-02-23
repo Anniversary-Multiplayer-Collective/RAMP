@@ -2,7 +2,7 @@ Foreach crate startingwith: objects\levels\shared\screen_fx_orb\fx setfield Atta
 
 #COLORBLIND
 edittag multiplayer\forge_globals.forge_globals_definition
-addblockelements Palette[666].Setters 14
+addblockelements Palette[666].Setters 15
 
 setfield Palette[666].Setters[0].Target Fx_Range
 setfield Palette[666].Setters[0].Type Real
@@ -50,12 +50,15 @@ setfield Palette[666].Setters[12].Type Real
 
 setfield Palette[666].Setters[13].Target Fx_Tracing
 setfield Palette[666].Setters[13].Type Real
+
+setfield Palette[666].Setters[14].Target General_Physics
+setfield Palette[666].Setters[14].IntegerValue 1
 savetagchanges
 exit
 
 #NEXT GEN
 edittag multiplayer\forge_globals.forge_globals_definition
-addblockelements Palette[667].Setters 14
+addblockelements Palette[667].Setters 15
 
 setfield Palette[667].Setters[0].Target Fx_Range
 setfield Palette[667].Setters[0].Type Real
@@ -108,12 +111,15 @@ setfield Palette[667].Setters[12].RealValue 0.0125564
 
 setfield Palette[667].Setters[13].Target Fx_Tracing
 setfield Palette[667].Setters[13].Type Real
+
+setfield Palette[667].Setters[14].Target General_Physics
+setfield Palette[667].Setters[14].IntegerValue 1
 savetagchanges
 exit
 
 #JUICY
 edittag multiplayer\forge_globals.forge_globals_definition
-addblockelements Palette[668].Setters 14
+addblockelements Palette[668].Setters 15
 
 setfield Palette[668].Setters[0].Target Fx_Range
 setfield Palette[668].Setters[0].Type Real
@@ -161,12 +167,15 @@ setfield Palette[668].Setters[12].Type Real
 
 setfield Palette[668].Setters[13].Target Fx_Tracing
 setfield Palette[668].Setters[13].Type Real
+
+setfield Palette[668].Setters[14].Target General_Physics
+setfield Palette[668].Setters[14].IntegerValue 1
 savetagchanges
 exit
 
 #NOVA
 edittag multiplayer\forge_globals.forge_globals_definition
-addblockelements Palette[669].Setters 14
+addblockelements Palette[669].Setters 15
 
 setfield Palette[669].Setters[0].Target Fx_Range
 setfield Palette[669].Setters[0].Type Real
@@ -215,12 +224,15 @@ setfield Palette[669].Setters[12].Type Real
 
 setfield Palette[669].Setters[13].Target Fx_Tracing
 setfield Palette[669].Setters[13].Type Real
+
+setfield Palette[669].Setters[14].Target General_Physics
+setfield Palette[669].Setters[14].IntegerValue 1
 savetagchanges
 exit
 
 #OLDE TIMEY
 edittag multiplayer\forge_globals.forge_globals_definition
-addblockelements Palette[670].Setters 14
+addblockelements Palette[670].Setters 15
 
 setfield Palette[670].Setters[0].Target Fx_Range
 setfield Palette[670].Setters[0].Type Real
@@ -268,12 +280,15 @@ setfield Palette[670].Setters[12].Type Real
 
 setfield Palette[670].Setters[13].Target Fx_Tracing
 setfield Palette[670].Setters[13].Type Real
+
+setfield Palette[670].Setters[14].Target General_Physics
+setfield Palette[670].Setters[14].IntegerValue 1
 savetagchanges
 exit
 
 #PEN AND INK
 edittag multiplayer\forge_globals.forge_globals_definition
-addblockelements Palette[671].Setters 14
+addblockelements Palette[671].Setters 15
 
 setfield Palette[671].Setters[0].Target Fx_Range
 setfield Palette[671].Setters[0].Type Real
@@ -325,12 +340,15 @@ setfield Palette[671].Setters[12].RealValue 1
 
 setfield Palette[671].Setters[13].Target Fx_Tracing
 setfield Palette[671].Setters[13].Type Real
+
+setfield Palette[671].Setters[14].Target General_Physics
+setfield Palette[671].Setters[14].IntegerValue 1
 savetagchanges
 exit
 
 #PURPLE
 edittag multiplayer\forge_globals.forge_globals_definition
-addblockelements Palette[672].Setters 14
+addblockelements Palette[672].Setters 15
 
 setfield Palette[672].Setters[0].Target Fx_Range
 setfield Palette[672].Setters[0].Type Real
@@ -382,12 +400,15 @@ setfield Palette[672].Setters[12].RealValue 0.03250381
 
 setfield Palette[672].Setters[13].Target Fx_Tracing
 setfield Palette[672].Setters[13].Type Real
+
+setfield Palette[672].Setters[14].Target General_Physics
+setfield Palette[672].Setters[14].IntegerValue 1
 savetagchanges
 exit
 
 #GREEN
 edittag multiplayer\forge_globals.forge_globals_definition
-addblockelements Palette[673].Setters 14
+addblockelements Palette[673].Setters 15
 
 setfield Palette[673].Setters[0].Target Fx_Range
 setfield Palette[673].Setters[0].Type Real
@@ -440,12 +461,15 @@ setfield Palette[673].Setters[12].RealValue 0.2450737
 
 setfield Palette[673].Setters[13].Target Fx_Tracing
 setfield Palette[673].Setters[13].Type Real
+
+setfield Palette[673].Setters[14].Target General_Physics
+setfield Palette[673].Setters[14].IntegerValue 1
 savetagchanges
 exit
 
 #ORANGE
 edittag multiplayer\forge_globals.forge_globals_definition
-addblockelements Palette[674].Setters 14
+addblockelements Palette[674].Setters 15
 
 setfield Palette[674].Setters[0].Target Fx_Range
 setfield Palette[674].Setters[0].Type Real
@@ -497,5 +521,8 @@ setfield Palette[674].Setters[12].RealValue 0.08072244
 
 setfield Palette[674].Setters[13].Target Fx_Tracing
 setfield Palette[674].Setters[13].Type Real
+
+setfield Palette[674].Setters[14].Target General_Physics
+setfield Palette[674].Setters[14].IntegerValue 1
 savetagchanges
 exit
