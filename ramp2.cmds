@@ -324,11 +324,11 @@ EditTag objects\vehicles\human\falcon\falcon.vehicle
 SetField PhysicsTypes.Vtol[0].LiftAnglesAcceleration 360
 SetField PhysicsTypes.Vtol[0].RenderLiftAnglesAcceleration 360
 SetField PhysicsTypes.Vtol[0].PropellerRotationSpeed 2 4
-setfield PhysicsTypes.Vtol[0].SpeedParameters.MaximumForwardAcceleration 8
-setfield PhysicsTypes.Vtol[0].SpeedParameters.MaximumLeftAcceleration 8
+setfield PhysicsTypes.Vtol[0].SpeedParameters.MaximumForwardAcceleration 6
+setfield PhysicsTypes.Vtol[0].SpeedParameters.MaximumLeftAcceleration 6
 SetField PhysicsTypes.Vtol[0].SpeedParameters.RotorDamping 6
 SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccExp 1
-SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccScale 6
+SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccScale 10
 SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccK 0.7
 SetField PhysicsTypes.Vtol[0].TurnAccelerationGain 30
 SetField PhysicsTypes.Vtol[0].MinimumUpAcceleration 0.3
@@ -340,11 +340,11 @@ EditTag objects\vehicles\human\falcon\falcon_nose_gun.vehicle
 SetField PhysicsTypes.Vtol[0].LiftAnglesAcceleration 360
 SetField PhysicsTypes.Vtol[0].RenderLiftAnglesAcceleration 360
 SetField PhysicsTypes.Vtol[0].PropellerRotationSpeed 2 4
-setfield PhysicsTypes.Vtol[0].SpeedParameters.MaximumForwardAcceleration 8
-setfield PhysicsTypes.Vtol[0].SpeedParameters.MaximumLeftAcceleration 8
+setfield PhysicsTypes.Vtol[0].SpeedParameters.MaximumForwardAcceleration 6
+setfield PhysicsTypes.Vtol[0].SpeedParameters.MaximumLeftAcceleration 6
 SetField PhysicsTypes.Vtol[0].SpeedParameters.RotorDamping 6
 SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccExp 1
-SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccScale 6
+SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccScale 10
 SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccK 0.7
 SetField PhysicsTypes.Vtol[0].TurnAccelerationGain 30
 SetField PhysicsTypes.Vtol[0].MinimumUpAcceleration 0.3
@@ -356,11 +356,11 @@ EditTag objects\vehicles\human\falcon\falcon_transport.vehicle
 SetField PhysicsTypes.Vtol[0].LiftAnglesAcceleration 360
 SetField PhysicsTypes.Vtol[0].RenderLiftAnglesAcceleration 360
 SetField PhysicsTypes.Vtol[0].PropellerRotationSpeed 2 4
-setfield PhysicsTypes.Vtol[0].SpeedParameters.MaximumForwardAcceleration 8
-setfield PhysicsTypes.Vtol[0].SpeedParameters.MaximumLeftAcceleration 8
+setfield PhysicsTypes.Vtol[0].SpeedParameters.MaximumForwardAcceleration 6
+setfield PhysicsTypes.Vtol[0].SpeedParameters.MaximumLeftAcceleration 6
 SetField PhysicsTypes.Vtol[0].SpeedParameters.RotorDamping 6
 SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccExp 1
-SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccScale 6
+SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccScale 10
 SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccK 0.7
 SetField PhysicsTypes.Vtol[0].TurnAccelerationGain 30
 SetField PhysicsTypes.Vtol[0].MinimumUpAcceleration 0.3
