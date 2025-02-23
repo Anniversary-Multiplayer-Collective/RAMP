@@ -241,7 +241,6 @@ setfield Palette[670].Setters[4].RealValue 0.7
 
 setfield Palette[670].Setters[5].Target Fx_GammaIncrease
 setfield Palette[670].Setters[5].Type Real
-setfield Palette[670].Setters[5].RealValue 0.4
 
 setfield Palette[670].Setters[6].Target Fx_GammaDecrease
 setfield Palette[670].Setters[6].Type Real
