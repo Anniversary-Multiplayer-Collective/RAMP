@@ -24,7 +24,7 @@ Look into increasing announcer sound volume
 Set objects to phased by default to prevent lag from spawning big items
 Add dual wield animations?
 Several objects need to be set to phased such as kill volumes, Camera, Respawn Zone, ect.
-Find way to get Reach FX ball screen FX working. Function min and max need to be fixed.
+Tweak Reach Screen FX to match better
 Increase the projectile speed for certain hitscan weapons (To combat ED buggy network)
 
 Known maps bugs
