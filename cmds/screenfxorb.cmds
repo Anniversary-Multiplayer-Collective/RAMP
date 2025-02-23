@@ -295,7 +295,7 @@ setfield Palette[671].Setters[0].RealValue 225
 
 setfield Palette[671].Setters[1].Target Fx_LightIntensity
 setfield Palette[671].Setters[1].Type Real
-setfield Palette[671].Setters[1].RealValue 3.1
+setfield Palette[671].Setters[1].RealValue 0.90
 
 setfield Palette[671].Setters[2].Target Fx_Hue
 setfield Palette[671].Setters[2].Type Real
@@ -309,33 +309,34 @@ setfield Palette[671].Setters[4].RealValue 1
 
 setfield Palette[671].Setters[5].Target Fx_GammaIncrease
 setfield Palette[671].Setters[5].Type Real
+setfield Palette[671].Setters[5].RealValue 0.41
 
 setfield Palette[671].Setters[6].Target Fx_GammaDecrease
 setfield Palette[671].Setters[6].Type Real
 
 setfield Palette[671].Setters[7].Target Fx_ColorFilterR
 setfield Palette[671].Setters[7].Type Real
-setfield Palette[671].Setters[7].RealValue 0.1112157
+setfield Palette[671].Setters[7].RealValue 70
 
 setfield Palette[671].Setters[8].Target Fx_ColorFilterG
 setfield Palette[671].Setters[8].Type Real
-setfield Palette[671].Setters[8].RealValue 0.1107795
+setfield Palette[671].Setters[8].RealValue 70
 
 setfield Palette[671].Setters[9].Target Fx_ColorFilterB
 setfield Palette[671].Setters[9].Type Real
-setfield Palette[671].Setters[9].RealValue 0.1107795
+setfield Palette[671].Setters[9].RealValue 70
 
 setfield Palette[671].Setters[10].Target Fx_ColorFloorR
 setfield Palette[671].Setters[10].Type Real
-setfield Palette[671].Setters[10].RealValue 1
+setfield Palette[671].Setters[10].RealValue 68
 
 setfield Palette[671].Setters[11].Target Fx_ColorFloorG
 setfield Palette[671].Setters[11].Type Real
-setfield Palette[671].Setters[11].RealValue 1
+setfield Palette[671].Setters[11].RealValue 68
 
 setfield Palette[671].Setters[12].Target Fx_ColorFloorB
 setfield Palette[671].Setters[12].Type Real
-setfield Palette[671].Setters[12].RealValue 1
+setfield Palette[671].Setters[12].RealValue 68
 
 setfield Palette[671].Setters[13].Target Fx_Tracing
 setfield Palette[671].Setters[13].Type Real
