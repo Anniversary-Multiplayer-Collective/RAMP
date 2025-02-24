@@ -1,4 +1,6 @@
 TODO:
+Finish setting up the two flashing lights. (Reminder for myself!!!!)
+
 Theres no rankup UI
 Turrets that can overheat have no hud indicator.
 Add overheat to Turret and Tank Turret
@@ -24,8 +26,22 @@ Look into increasing announcer sound volume
 Set objects to phased by default to prevent lag from spawning big items
 Add dual wield animations?
 Several objects need to be set to phased such as kill volumes, Camera, Respawn Zone, ect.
-Tweak Reach Screen FX to match better
 Increase the projectile speed for certain hitscan weapons (To combat ED buggy network)
+
+Tweak Reach Screen FX to match better
+
+Fixed:
+OLDE TIMEY
+JUICY
+COLORBLIND
+NEXT GEN
+NOVA
+PURPLE
+PEN AND INK
+
+Broken:
+GREEN
+ORANGE
 
 Known maps bugs
 If anyone know any bugs please put them here
