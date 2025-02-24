@@ -38,9 +38,10 @@ NEXT GEN
 NOVA
 PURPLE
 PEN AND INK
+GREEN
 
 Broken:
-GREEN
+
 ORANGE
 
 Known maps bugs

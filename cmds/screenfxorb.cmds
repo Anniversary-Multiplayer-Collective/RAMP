@@ -412,6 +412,7 @@ setfield Palette[673].Setters[0].RealValue 100
 
 setfield Palette[673].Setters[1].Target Fx_LightIntensity
 setfield Palette[673].Setters[1].Type Real
+setfield Palette[673].Setters[1].RealValue 0.69
 
 setfield Palette[673].Setters[2].Target Fx_Hue
 setfield Palette[673].Setters[2].Type Real
@@ -425,7 +426,6 @@ setfield Palette[673].Setters[4].RealValue 0.8
 
 setfield Palette[673].Setters[5].Target Fx_GammaIncrease
 setfield Palette[673].Setters[5].Type Real
-setfield Palette[673].Setters[5].RealValue 0.1
 
 setfield Palette[673].Setters[6].Target Fx_GammaDecrease
 setfield Palette[673].Setters[6].Type Real
@@ -433,33 +433,36 @@ setfield Palette[673].Setters[6].RealValue 0.2
 
 setfield Palette[673].Setters[7].Target Fx_ColorFilterR
 setfield Palette[673].Setters[7].Type Real
-setfield Palette[673].Setters[7].RealValue 0.6149492
+setfield Palette[673].Setters[7].RealValue 0.17647058823
 
 setfield Palette[673].Setters[8].Target Fx_ColorFilterG
 setfield Palette[673].Setters[8].Type Real
-setfield Palette[673].Setters[8].RealValue 0.6406274
+setfield Palette[673].Setters[8].RealValue 0.17647058823
 
 setfield Palette[673].Setters[9].Target Fx_ColorFilterB
 setfield Palette[673].Setters[9].Type Real
-setfield Palette[673].Setters[9].RealValue 0.5401369
+setfield Palette[673].Setters[9].RealValue 0.17647058823
 
 setfield Palette[673].Setters[10].Target Fx_ColorFloorR
 setfield Palette[673].Setters[10].Type Real
-setfield Palette[673].Setters[10].RealValue 0.2837647
 
 setfield Palette[673].Setters[11].Target Fx_ColorFloorG
 setfield Palette[673].Setters[11].Type Real
-setfield Palette[673].Setters[11].RealValue 0.2014173
 
 setfield Palette[673].Setters[12].Target Fx_ColorFloorB
 setfield Palette[673].Setters[12].Type Real
-setfield Palette[673].Setters[12].RealValue 0.2450737
 
 setfield Palette[673].Setters[13].Target Fx_Tracing
 setfield Palette[673].Setters[13].Type Real
 
 setfield Palette[673].Setters[14].Target General_Physics
 setfield Palette[673].Setters[14].IntegerValue 1
+savetagchanges
+exit
+
+edittag objects\levels\shared\screen_effects\eerie.shader_screen
+setargument tint_color 0.1 0.4 0.1 0.8
+setargument add_color 0 0 0 0.2
 savetagchanges
 exit
 
