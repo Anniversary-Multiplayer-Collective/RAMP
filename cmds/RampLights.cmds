@@ -1,4 +1,5 @@
 Foreach light startingwith: objects\levels\forge\ff_light_ setfield Flags ElDewritoForgeLight
+Foreach light startingwith: objects\levels\forge\ff_light_flash setfield Flags None
 
 EditTag multiplayer\forge_globals.forge_globals_definition
 setfield Palette[675].Type Light
