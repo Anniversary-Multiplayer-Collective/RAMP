@@ -1,0 +1,266 @@
+Foreach light startingwith: objects\levels\forge\ff_light_ setfield Flags ElDewritoForgeLight
+
+EditTag multiplayer\forge_globals.forge_globals_definition
+setfield Palette[675].Type Light
+setfield Palette[676].Type Light
+setfield Palette[677].Type Light
+setfield Palette[678].Type Light
+setfield Palette[679].Type Light
+setfield Palette[680].Type Light
+setfield Palette[681].Type Light
+setfield Palette[682].Type Light
+setfield Palette[683].Type Light
+SaveTagChanges
+Exit
+
+#FF_LIGHT_WHITE
+edittag multiplayer\forge_globals.forge_globals_definition
+addblockelements Palette[675].Setters 8
+setfield Palette[675].Setters[1].Target Light_Type
+setfield Palette[675].Setters[1].IntegerValue 0
+
+setfield Palette[675].Setters[2].Type Real
+setfield Palette[675].Setters[2].Target Light_ColorR
+setfield Palette[675].Setters[2].RealValue 0.7294117647
+
+setfield Palette[675].Setters[3].Type Real
+setfield Palette[675].Setters[3].Target Light_ColorG
+setfield Palette[675].Setters[3].RealValue 0.85882352941
+
+setfield Palette[675].Setters[4].Type Real
+setfield Palette[675].Setters[4].Target Light_ColorB
+setfield Palette[675].Setters[4].RealValue 0.92549019607
+
+setfield Palette[675].Setters[5].Type Real
+setfield Palette[675].Setters[5].Target Light_Intensity
+setfield Palette[675].Setters[5].RealValue 0.01960784313
+
+setfield Palette[675].Setters[6].Type Real
+setfield Palette[675].Setters[6].Target Light_Radius
+setfield Palette[675].Setters[6].RealValue 11
+
+setfield Palette[675].Setters[7].Type Real
+setfield Palette[675].Setters[7].Target Light_FieldOfView
+setfield Palette[675].Setters[7].RealValue 1.047198
+
+setfield Palette[675].Setters[8].Type Real
+setfield Palette[675].Setters[8].Target Light_NearWidth
+setfield Palette[675].Setters[8].RealValue 1
+SaveTagChanges
+Exit
+
+#FF_LIGHT_RED
+edittag multiplayer\forge_globals.forge_globals_definition
+addblockelements Palette[676].Setters 8
+setfield Palette[676].Setters[1].Target Light_Type
+setfield Palette[676].Setters[1].IntegerValue 0
+
+setfield Palette[676].Setters[2].Type Real
+setfield Palette[676].Setters[2].Target Light_ColorR
+setfield Palette[676].Setters[2].RealValue 1
+
+setfield Palette[676].Setters[3].Type Real
+setfield Palette[676].Setters[3].Target Light_ColorG
+setfield Palette[676].Setters[3].RealValue 0.15294117647
+
+setfield Palette[676].Setters[4].Type Real
+setfield Palette[676].Setters[4].Target Light_ColorB
+setfield Palette[676].Setters[4].RealValue 0.0431372549
+
+setfield Palette[676].Setters[5].Type Real
+setfield Palette[676].Setters[5].Target Light_Intensity
+setfield Palette[676].Setters[5].RealValue 0.01960784313
+
+setfield Palette[676].Setters[6].Type Real
+setfield Palette[676].Setters[6].Target Light_Radius
+setfield Palette[676].Setters[6].RealValue 11
+
+setfield Palette[676].Setters[7].Type Real
+setfield Palette[676].Setters[7].Target Light_FieldOfView
+setfield Palette[676].Setters[7].RealValue 1.047198
+
+setfield Palette[676].Setters[8].Type Real
+setfield Palette[676].Setters[8].Target Light_NearWidth
+setfield Palette[676].Setters[8].RealValue 1
+SaveTagChanges
+Exit
+
+#FF_LIGHT_YELLOW
+edittag multiplayer\forge_globals.forge_globals_definition
+addblockelements Palette[677].Setters 8
+setfield Palette[677].Setters[1].Target Light_Type
+setfield Palette[677].Setters[1].IntegerValue 0
+
+setfield Palette[677].Setters[2].Type Real
+setfield Palette[677].Setters[2].Target Light_ColorR
+setfield Palette[677].Setters[2].RealValue 1
+
+setfield Palette[677].Setters[3].Type Real
+setfield Palette[677].Setters[3].Target Light_ColorG
+setfield Palette[677].Setters[3].RealValue 0.90588235294
+
+setfield Palette[677].Setters[4].Type Real
+setfield Palette[677].Setters[4].Target Light_ColorB
+setfield Palette[677].Setters[4].RealValue 0.0431372549
+
+setfield Palette[677].Setters[5].Type Real
+setfield Palette[677].Setters[5].Target Light_Intensity
+setfield Palette[677].Setters[5].RealValue 0.01960784313
+
+setfield Palette[677].Setters[6].Type Real
+setfield Palette[677].Setters[6].Target Light_Radius
+setfield Palette[677].Setters[6].RealValue 11
+
+setfield Palette[677].Setters[7].Type Real
+setfield Palette[677].Setters[7].Target Light_FieldOfView
+setfield Palette[677].Setters[7].RealValue 1.047198
+
+setfield Palette[677].Setters[8].Type Real
+setfield Palette[677].Setters[8].Target Light_NearWidth
+setfield Palette[677].Setters[8].RealValue 1
+SaveTagChanges
+Exit
+
+#FF_LIGHT_ORANGE
+edittag multiplayer\forge_globals.forge_globals_definition
+addblockelements Palette[678].Setters 8
+setfield Palette[678].Setters[1].Target Light_Type
+setfield Palette[678].Setters[1].IntegerValue 0
+
+setfield Palette[678].Setters[2].Type Real
+setfield Palette[678].Setters[2].Target Light_ColorR
+setfield Palette[678].Setters[2].RealValue 0.99607843137
+
+setfield Palette[678].Setters[3].Type Real
+setfield Palette[678].Setters[3].Target Light_ColorG
+setfield Palette[678].Setters[3].RealValue 0.33333333333
+
+setfield Palette[678].Setters[4].Type Real
+setfield Palette[678].Setters[4].Target Light_ColorB
+setfield Palette[678].Setters[4].RealValue 0
+
+setfield Palette[678].Setters[5].Type Real
+setfield Palette[678].Setters[5].Target Light_Intensity
+setfield Palette[678].Setters[5].RealValue 0.01960784313
+
+setfield Palette[678].Setters[6].Type Real
+setfield Palette[678].Setters[6].Target Light_Radius
+setfield Palette[678].Setters[6].RealValue 11
+
+setfield Palette[678].Setters[7].Type Real
+setfield Palette[678].Setters[7].Target Light_FieldOfView
+setfield Palette[678].Setters[7].RealValue 1.047198
+
+setfield Palette[678].Setters[8].Type Real
+setfield Palette[678].Setters[8].Target Light_NearWidth
+setfield Palette[678].Setters[8].RealValue 1
+SaveTagChanges
+Exit
+
+#FF_LIGHT_GREEN
+edittag multiplayer\forge_globals.forge_globals_definition
+addblockelements Palette[679].Setters 8
+setfield Palette[679].Setters[1].Target Light_Type
+setfield Palette[679].Setters[1].IntegerValue 0
+
+setfield Palette[679].Setters[2].Type Real
+setfield Palette[679].Setters[2].Target Light_ColorR
+setfield Palette[679].Setters[2].RealValue 0.4
+
+setfield Palette[679].Setters[3].Type Real
+setfield Palette[679].Setters[3].Target Light_ColorG
+setfield Palette[679].Setters[3].RealValue 0.98039215686
+
+setfield Palette[679].Setters[4].Type Real
+setfield Palette[679].Setters[4].Target Light_ColorB
+setfield Palette[679].Setters[4].RealValue 0.37647058823
+
+setfield Palette[679].Setters[5].Type Real
+setfield Palette[679].Setters[5].Target Light_Intensity
+setfield Palette[679].Setters[5].RealValue 0.01960784313
+
+setfield Palette[679].Setters[6].Type Real
+setfield Palette[679].Setters[6].Target Light_Radius
+setfield Palette[679].Setters[6].RealValue 11
+
+setfield Palette[679].Setters[7].Type Real
+setfield Palette[679].Setters[7].Target Light_FieldOfView
+setfield Palette[679].Setters[7].RealValue 1.047198
+
+setfield Palette[679].Setters[8].Type Real
+setfield Palette[679].Setters[8].Target Light_NearWidth
+setfield Palette[679].Setters[8].RealValue 1
+SaveTagChanges
+Exit
+
+#FF_LIGHT_BLUE
+edittag multiplayer\forge_globals.forge_globals_definition
+addblockelements Palette[680].Setters 8
+setfield Palette[680].Setters[1].Target Light_Type
+setfield Palette[680].Setters[1].IntegerValue 0
+
+setfield Palette[680].Setters[2].Type Real
+setfield Palette[680].Setters[2].Target Light_ColorR
+setfield Palette[680].Setters[2].RealValue 0.05882352941
+
+setfield Palette[680].Setters[3].Type Real
+setfield Palette[680].Setters[3].Target Light_ColorG
+setfield Palette[680].Setters[3].RealValue 0.43529411764
+
+setfield Palette[680].Setters[4].Type Real
+setfield Palette[680].Setters[4].Target Light_ColorB
+setfield Palette[680].Setters[4].RealValue 1
+
+setfield Palette[680].Setters[5].Type Real
+setfield Palette[680].Setters[5].Target Light_Intensity
+setfield Palette[680].Setters[5].RealValue 0.01960784313
+
+setfield Palette[680].Setters[6].Type Real
+setfield Palette[680].Setters[6].Target Light_Radius
+setfield Palette[680].Setters[6].RealValue 11
+
+setfield Palette[680].Setters[7].Type Real
+setfield Palette[680].Setters[7].Target Light_FieldOfView
+setfield Palette[680].Setters[7].RealValue 1.047198
+
+setfield Palette[680].Setters[8].Type Real
+setfield Palette[680].Setters[8].Target Light_NearWidth
+setfield Palette[680].Setters[8].RealValue 1
+SaveTagChanges
+Exit
+
+#FF_LIGHT_PURPLE
+edittag multiplayer\forge_globals.forge_globals_definition
+addblockelements Palette[681].Setters 8
+setfield Palette[681].Setters[1].Target Light_Type
+setfield Palette[681].Setters[1].IntegerValue 0
+
+setfield Palette[681].Setters[2].Type Real
+setfield Palette[681].Setters[2].Target Light_ColorR
+setfield Palette[681].Setters[2].RealValue 0.70196078431
+
+setfield Palette[681].Setters[3].Type Real
+setfield Palette[681].Setters[3].Target Light_ColorG
+setfield Palette[681].Setters[3].RealValue 0.18039215686
+
+setfield Palette[681].Setters[4].Type Real
+setfield Palette[681].Setters[4].Target Light_ColorB
+setfield Palette[681].Setters[4].RealValue 0.71372549019
+
+setfield Palette[681].Setters[5].Type Real
+setfield Palette[681].Setters[5].Target Light_Intensity
+setfield Palette[681].Setters[5].RealValue 0.01960784313
+
+setfield Palette[681].Setters[6].Type Real
+setfield Palette[681].Setters[6].Target Light_Radius
+setfield Palette[681].Setters[6].RealValue 11
+
+setfield Palette[681].Setters[7].Type Real
+setfield Palette[681].Setters[7].Target Light_FieldOfView
+setfield Palette[681].Setters[7].RealValue 1.047198
+
+setfield Palette[681].Setters[8].Type Real
+setfield Palette[681].Setters[8].Target Light_NearWidth
+setfield Palette[681].Setters[8].RealValue 1
+SaveTagChanges
+Exit

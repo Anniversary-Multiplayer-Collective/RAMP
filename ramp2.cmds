@@ -2058,6 +2058,9 @@ RunCommands "workingdir\cmds\forge_dlc_block_glass.cmds"
 # echo ==Fix FX Orbs ==
 RunCommands "workingdir\cmds\screenfxorb.cmds"
 
+# echo ==Make it so reach lights can be modified ==
+RunCommands "workingdir\cmds\RampLights.cmds"
+
 
 # echo ==Fix Armor Lights ==
 opencachefile "reachmaps\forge_halo.map"
