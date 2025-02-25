@@ -20,23 +20,29 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 * Just Alex (Revenant Tags)
 
 ## v0.4 Changelog
+* Added Reach glass shader support
+* Added Reach EMP effect to all vehicles
+* Added more customization options
+* Added Forge screen FX
+* Fixed medals clipping into kill feed 
+* Fixed missing objective arming meter
+* Fixed respawn points having collision in multiplayer
+* Fixed armor lights
+* Fixed shield meter alignment issues
+* Fixed Falcon boarding
+* Fixed default offsets for DMR variants
+* Fixed Automag sprint animations 
+* Fixed Automag custom offsets
+* Fixed voice broadcast element on radar
+* Fixed MOPPs on the Covenant sucker plant
+* Fixed Missile Pod tracking
+* Fixed Falcon speed and turning rate
+* Replaced all medals with Halo Reach variants
+* Replaced Halo 3 ranks with Reach ranks
+* Replaced Silenced SMG 3p model
 * Reverted delayed health pack recharge
 * Restored Revenge medal
-* Fixed medals clipping into kill feed 
-* Fixed Missing Objective Arming Meter
-* Replaced all medals with Halo Reach variants
-* Added Reach Glass Shader Support
-* Fixed respawn points having collision in multiplayer
-* Fixed Armor Lights
-* Fixed shield meter alignment issues
-* Added Reach EMP effect to all vehicles
-* Replaced Halo 3 ranks with Reach ranks
-* Added more customization options
-* Fixed Falcon boarding
-* Replaced Silenced SMG 3p model
 * The properties of Reach lights can now be modified
-* Fixed Forge Screen FX
-* Fixed default offsets for DMR variants
 
 ## RAMP 1 -> RAMP 2 v0.3 Changelog
 * Added Firefight maps from Reach as multiplayer maps
