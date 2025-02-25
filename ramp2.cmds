@@ -469,6 +469,8 @@ setstring english mp_ce "Combat Evolved"
 setstring english mp_ce_description "Worn by John 117."
 setstring english mp_eodc "EOD (C)"
 setstring english mp_eodc_description "EOD helmets were designed to significantly reduce the likelihood of decapitation."
+setstring english mp_anton "UA/Multi-Threat"
+setstring english mp_anton_description "A trade-off between increased protection and additional mass."
 
 savetagchanges
 exit 
