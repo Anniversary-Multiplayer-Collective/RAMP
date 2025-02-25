@@ -14,7 +14,6 @@ No sprint animation for gold SMG and incorrect ammo count.
 Needle Rifle doesn't detonate grenades
 Bomb,flag hud image misplaced, https://s.zekken.rocks/NoJ8vVCk.png https://s.zekken.rocks/GfmomkVL.png
 No hud icon for skull, https://s.zekken.rocks/1X1p6cyr.jpg
-Fix tracking reticle for missile pod, https://s.zekken.rocks/3CikSsSY.jpg
 
 
 Look into extra medals from reach
