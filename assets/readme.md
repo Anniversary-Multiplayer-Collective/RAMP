@@ -36,6 +36,7 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 * Replaced Silenced SMG 3p model
 * The properties of Reach lights can now be modified
 * Fixed Forge Screen FX
+* Fixed default offsets for DMR variants
 
 ## RAMP 1 -> RAMP 2 v0.3 Changelog
 * Added Firefight maps from Reach as multiplayer maps
