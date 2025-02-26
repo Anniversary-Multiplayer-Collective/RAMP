@@ -2118,6 +2118,14 @@ RunCommands "workingdir\cmds\EMP Effects.cmds"
 foreach weap contains: objects\weapons\rifle\dmr SetField FirstPersonWeaponOffset 0 0 -0.002
 foreach weap contains: objects\weapons\rifle\dmr SetField CenteredFirstPersonWeaponOffset -0.01 0 -0.0028
 
+# echo ==Nerf Magnum accuracy==
+edittag objects\weapons\pistol\magnum\magnum.weapon
+setfield Barrels[0].ProjectileErrorAngle 0.15 4
+setfield Barrels[0].ErrorDecelerationRate 1.538462
+setfield Barrels[0].ErrorAccelerationRate 30
+savetagchanges
+exit
+
 AddModFiles workingdir\assets
 SaveModPackage "modsfolder\RAMP_2.pak"
 
