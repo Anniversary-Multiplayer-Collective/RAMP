@@ -23,6 +23,7 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 * Added Reach glass shader support
 * Added Reach EMP effect to all vehicles
 * Added more customization options
+* Added all missing customization previews
 * Added Forge screen FX
 * Fixed medals clipping into kill feed 
 * Fixed missing objective arming meter
@@ -43,6 +44,7 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 * Reverted delayed health pack recharge
 * Restored Revenge medal
 * The properties of Reach lights can now be modified
+* Nerfed Magnum accuracy
 
 ## RAMP 1 -> RAMP 2 v0.3 Changelog
 * Added Firefight maps from Reach as multiplayer maps
