@@ -465,6 +465,9 @@ setstring english fem_fullcamo "FEMALE FULL CAMO"
 setstring english fullcamo_description "Full Camouflage pattern"
 setstring english fem_fullcamo_description "Full Camouflage pattern"
 
+setstring english spartan_thigh_right_romeo "ROMEO"
+setstring english spartan_thigh_right_mickey "MICKEY"
+
 setstring english mp_ce "Combat Evolved"
 setstring english mp_ce_description "Worn by John 117."
 setstring english mp_eodc "EOD (C)"
