@@ -40,7 +40,7 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 * Fixed Falcon speed and turning rate
 * Fixed incorrect biped rotations when customizing armor
 * Fixed broken customization strings
-* Fix graphical issues with variant weapons
+* Fixed graphical issues with variant weapons
 * Replaced all medals with Halo Reach variants
 * Replaced Halo 3 ranks with Reach ranks
 * Replaced Silenced SMG 3p model
