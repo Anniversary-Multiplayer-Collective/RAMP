@@ -2126,6 +2126,20 @@ setfield Barrels[0].ErrorAccelerationRate 30
 savetagchanges
 exit
 
+# echo ==Fixed biped rotating in customization screen and added rotation when selecting backpacks==
+edittag multiplayer\mod_globals.mod_globals
+setfield PlayerCharacterCustomizations[0].RegionCameraScripts[5].BipedRotation 0
+savetagchanges
+exit
+
+edittag multiplayer\mod_globals.mod_globals
+copyblockelements PlayerCharacterCustomizations[0].RegionCameraScripts 0 1
+pasteblockelements PlayerCharacterCustomizations[0].RegionCameraScripts
+setfield PlayerCharacterCustomizations[0].RegionCameraScripts[7].RegionName "backpack"
+setfield PlayerCharacterCustomizations[0].RegionCameraScripts[7].BipedRotation 345
+savetagchanges
+exit
+
 AddModFiles workingdir\assets
 SaveModPackage "modsfolder\RAMP_2.pak"
 
