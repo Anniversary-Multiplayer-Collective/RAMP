@@ -19,6 +19,11 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 * Rejected Shotgun (Falcon Tags)
 * Just Alex (Revenant Tags)
 
+
+
+## v0.5 Changelog
+
+
 ## v0.4 Changelog
 * Added Reach glass shader support
 * Added Reach EMP effect to all vehicles
