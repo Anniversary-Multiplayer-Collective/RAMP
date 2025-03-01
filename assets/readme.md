@@ -22,7 +22,7 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 
 
 ## v0.5 Changelog
-* Fix weapons not picking up the ammo equipments
+* Fixed weapons not picking up the ammo equipments
 
 
 ## v0.4 Changelog
