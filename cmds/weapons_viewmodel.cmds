@@ -16,11 +16,9 @@ setfield CenteredFirstPersonWeaponOffset 0 0 -0.01
 savetagchanges
 exit
 
-edittag objects\weapons\pistol\magnum\magnum.weapon
-setfield WeaponTypeName offset_magnum
-setfield CenteredFirstPersonWeaponOffset 0 0 -0.04
-savetagchanges
-exit
+foreach weap contains: objects\weapons\pistol\magnum SetField WeaponTypeName offset_magnum
+foreach weap contains: objects\weapons\pistol\magnum SetField FirstPersonWeaponOffset 0 0 0
+foreach weap contains: objects\weapons\pistol\magnum SetField CenteredFirstPersonWeaponOffset 0 0 -0.04
 
 edittag objects\weapons\pistol\needler\needler.weapon
 setfield WeaponTypeName offset_needler
@@ -28,11 +26,9 @@ setfield CenteredFirstPersonWeaponOffset 0 0 -0.01
 savetagchanges
 exit
 
-edittag objects\weapons\pistol\plasma_pistol\plasma_pistol.weapon
-setfield WeaponTypeName offset_plasma_pistol
-setfield CenteredFirstPersonWeaponOffset 0 0 -0.02
-savetagchanges
-exit
+foreach weap contains: objects\weapons\pistol\plasma_pistol SetField WeaponTypeName offset_plasma_pistol
+foreach weap contains: objects\weapons\pistol\plasma_pistol SetField FirstPersonWeaponOffset 0 0 0
+foreach weap contains: objects\weapons\pistol\plasma_pistol SetField CenteredFirstPersonWeaponOffset 0 0 -0.02
 
 stringid add offset_target_laser
 edittag objects\weapons\pistol\target_laser\target_laser.weapon
@@ -47,25 +43,20 @@ setfield CenteredFirstPersonWeaponOffset 0 0 -0.015
 savetagchanges
 exit
 
-edittag objects\weapons\rifle\battle_rifle\battle_rifle.weapon
-setfield WeaponTypeName offset_battle_rife
-setfield FirstPersonWeaponOffset 0.025 0 0
-setfield CenteredFirstPersonWeaponOffset 0.025 0 -0.01
-savetagchanges
-exit
+foreach weap contains: objects\weapons\rifle\battle_rifle SetField WeaponTypeName offset_battle_rife
+foreach weap contains: objects\weapons\rifle\battle_rifle SetField FirstPersonWeaponOffset 0.025 0 0
+foreach weap contains: objects\weapons\rifle\battle_rifle SetField CenteredFirstPersonWeaponOffset 0.025 0 -0.01
 
 stringid add offset_concussion_rifle
 edittag objects\weapons\rifle\concussion_rifle\concussion_rifle.weapon
 setfield WeaponTypeName offset_concussion_rifle
-setfield CenteredFirstPersonWeaponOffset -0.01 0 -0.005
+setfield CenteredFirstPersonWeaponOffset -0.01 0 -0.01
 savetagchanges
 exit
 
-edittag objects\weapons\rifle\dmr\dmr.weapon
-setfield WeaponTypeName offset_dmr
-setfield CenteredFirstPersonWeaponOffset -0.01 0 -0.0028
-savetagchanges
-exit
+foreach weap contains: objects\weapons\rifle\dmr SetField WeaponTypeName offset_dmr
+foreach weap contains: objects\weapons\rifle\dmr SetField FirstPersonWeaponOffset 0 0 -0.002
+foreach weap contains: objects\weapons\rifle\dmr SetField CenteredFirstPersonWeaponOffset -0.01 0 -0.0028
 
 stringid add offset_focus_rifle
 edittag objects\weapons\rifle\focus_rifle\focus_rifle.weapon
@@ -95,11 +86,9 @@ setfield CenteredFirstPersonWeaponOffset 0 -0.005 -0.01
 savetagchanges
 exit
 
-edittag objects\weapons\rifle\plasma_rifle\plasma_rifle.weapon
-setfield WeaponTypeName offset_plasma_rife
-setfield CenteredFirstPersonWeaponOffset 0.015 0 -0.025
-savetagchanges
-exit
+foreach weap contains: objects\weapons\rifle\plasma_rifle SetField WeaponTypeName offset_plasma_rife
+foreach weap contains: objects\weapons\rifle\plasma_rifle SetField FirstPersonWeaponOffset 0 0 0
+foreach weap contains: objects\weapons\rifle\plasma_rifle SetField CenteredFirstPersonWeaponOffset 0.015 0 -0.025
 
 edittag objects\weapons\rifle\shotgun\shotgun.weapon
 setfield WeaponTypeName offset_shotgun

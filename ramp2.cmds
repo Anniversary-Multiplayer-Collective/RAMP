@@ -2113,10 +2113,6 @@ RunCommands workingdir\cmds\ApplyModPackage.cmds
 # echo ==Added Reach EMP effect to all vehicles ==
 RunCommands "workingdir\cmds\EMP Effects.cmds"
 
-# echo ==Fix DMR variant offsets==
-foreach weap contains: objects\weapons\rifle\dmr SetField FirstPersonWeaponOffset 0 0 -0.002
-foreach weap contains: objects\weapons\rifle\dmr SetField CenteredFirstPersonWeaponOffset -0.01 0 -0.0028
-
 # echo ==Nerf Magnum accuracy==
 edittag objects\weapons\pistol\magnum\magnum.weapon
 setfield Barrels[0].ProjectileErrorAngle 0.15 4
