@@ -1,0 +1,136 @@
+echo -------------------------------------------
+echo |                 MAGNUM                  |
+echo -------------------------------------------
+
+edittag objects\weapons\pistol\automag\automag.weapon
+addblockelements Magazines[0].MagazineEquipment 1
+setfield Magazines[0].MagazineEquipment[*].Rounds 48
+setfield Magazines[0].MagazineEquipment[*].Equipment objects\powerups\unsc_ammo_large\unsc_ammo_large.equipment
+
+addblockelements Magazines[0].MagazineEquipment 1
+setfield Magazines[0].MagazineEquipment[*].Rounds 24
+setfield Magazines[0].MagazineEquipment[*].Equipment objects\powerups\unsc_ammo_small\unsc_ammo_small.equipment
+savetagchanges
+exit
+
+edittag objects\weapons\pistol\magnum\magnum.weapon
+setfield Magazines[0].MagazineEquipment[0].Rounds 40
+
+addblockelements Magazines[0].MagazineEquipment 1
+setfield Magazines[0].MagazineEquipment[*].Rounds 32
+setfield Magazines[0].MagazineEquipment[*].Equipment objects\powerups\unsc_ammo_large\unsc_ammo_large.equipment
+
+addblockelements Magazines[0].MagazineEquipment 1
+setfield Magazines[0].MagazineEquipment[*].Rounds 16
+setfield Magazines[0].MagazineEquipment[*].Equipment objects\powerups\unsc_ammo_small\unsc_ammo_small.equipment
+savetagchanges
+exit
+
+edittag objects\weapons\pistol\magnum\magnum_damage.weapon
+addblockelements Magazines[0].MagazineEquipment 1
+setfield Magazines[0].MagazineEquipment[*].Rounds 18
+setfield Magazines[0].MagazineEquipment[*].Equipment objects\powerups\pistol_ammo\pistol_ammo.equipment
+savetagchanges
+exit
+
+edittag objects\weapons\pistol\magnum\magnum_power.weapon
+addblockelements Magazines[0].MagazineEquipment 1
+setfield Magazines[0].MagazineEquipment[*].Rounds 40
+setfield Magazines[0].MagazineEquipment[*].Equipment objects\powerups\pistol_ammo\pistol_ammo.equipment
+savetagchanges
+exit
+
+echo -------------------------------------------
+echo |                   AR                    |
+echo -------------------------------------------
+
+edittag objects\weapons\rifle\assault_rifle\assault_rifle.weapon
+addblockelements Magazines[0].MagazineEquipment 1
+setfield Magazines[0].MagazineEquipment[*].Rounds 96
+setfield Magazines[0].MagazineEquipment[*].Equipment objects\powerups\unsc_ammo_large\unsc_ammo_large.equipment
+
+addblockelements Magazines[0].MagazineEquipment 1
+setfield Magazines[0].MagazineEquipment[*].Rounds 48
+setfield Magazines[0].MagazineEquipment[*].Equipment objects\powerups\unsc_ammo_small\unsc_ammo_small.equipment
+savetagchanges
+exit
+
+echo -------------------------------------------
+echo |                   BR                    |
+echo -------------------------------------------
+
+edittag objects\weapons\rifle\battle_rifle\battle_rifle.weapon
+addblockelements Magazines[0].MagazineEquipment 1
+setfield Magazines[0].MagazineEquipment[*].Rounds 108
+setfield Magazines[0].MagazineEquipment[*].Equipment objects\powerups\unsc_ammo_large\unsc_ammo_large.equipment
+
+addblockelements Magazines[0].MagazineEquipment 1
+setfield Magazines[0].MagazineEquipment[*].Rounds 54
+setfield Magazines[0].MagazineEquipment[*].Equipment objects\powerups\unsc_ammo_small\unsc_ammo_small.equipment
+savetagchanges
+exit
+
+echo -------------------------------------------
+echo |                  DMR                    |
+echo -------------------------------------------
+
+edittag objects\weapons\rifle\dmr\dmr.weapon
+addblockelements Magazines[0].MagazineEquipment 1
+setfield Magazines[0].MagazineEquipment[*].Rounds 45
+setfield Magazines[0].MagazineEquipment[*].Equipment objects\powerups\unsc_ammo_large\unsc_ammo_large.equipment
+
+addblockelements Magazines[0].MagazineEquipment 1
+setfield Magazines[0].MagazineEquipment[*].Rounds 20
+setfield Magazines[0].MagazineEquipment[*].Equipment objects\powerups\unsc_ammo_small\unsc_ammo_small.equipment
+savetagchanges
+exit
+
+echo -------------------------------------------
+echo |                  SMG                    |
+echo -------------------------------------------
+
+edittag objects\weapons\rifle\smg\smg.weapon
+addblockelements Magazines[0].MagazineEquipment 1
+setfield Magazines[0].MagazineEquipment[*].Rounds 148
+setfield Magazines[0].MagazineEquipment[*].Equipment objects\powerups\smg_ammo\smg_ammo.equipment
+savetagchanges
+exit
+
+edittag objects\weapons\rifle\smg\smg_accuracy.weapon
+addblockelements Magazines[0].MagazineEquipment 1
+setfield Magazines[0].MagazineEquipment[*].Rounds 148
+setfield Magazines[0].MagazineEquipment[*].Equipment objects\powerups\smg_ammo\smg_ammo.equipment
+savetagchanges
+exit
+
+edittag objects\weapons\rifle\smg\smg_damage.weapon
+addblockelements Magazines[0].MagazineEquipment 1
+setfield Magazines[0].MagazineEquipment[*].Rounds 118
+setfield Magazines[0].MagazineEquipment[*].Equipment objects\powerups\smg_ammo\smg_ammo.equipment
+savetagchanges
+exit
+
+edittag objects\weapons\rifle\smg\smg_power.weapon
+addblockelements Magazines[0].MagazineEquipment 1
+setfield Magazines[0].MagazineEquipment[*].Rounds 148
+setfield Magazines[0].MagazineEquipment[*].Equipment objects\powerups\smg_ammo\smg_ammo.equipment
+savetagchanges
+exit
+
+edittag objects\weapons\rifle\smg\smg_rof.weapon
+addblockelements Magazines[0].MagazineEquipment 1
+setfield Magazines[0].MagazineEquipment[*].Rounds 128
+setfield Magazines[0].MagazineEquipment[*].Equipment objects\powerups\smg_ammo\smg_ammo.equipment
+savetagchanges
+exit
+
+edittag objects\weapons\rifle\smg_silenced\smg_silenced.weapon
+addblockelements Magazines[0].MagazineEquipment 1
+setfield Magazines[0].MagazineEquipment[*].Rounds 192
+setfield Magazines[0].MagazineEquipment[*].Equipment objects\powerups\unsc_ammo_large\unsc_ammo_large.equipment
+
+addblockelements Magazines[0].MagazineEquipment 1
+setfield Magazines[0].MagazineEquipment[*].Rounds 96
+setfield Magazines[0].MagazineEquipment[*].Equipment objects\powerups\unsc_ammo_small\unsc_ammo_small.equipment
+savetagchanges
+exit
