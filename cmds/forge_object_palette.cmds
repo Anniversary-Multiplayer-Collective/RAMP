@@ -23,7 +23,7 @@ AddForgeCategory "CRATES" 84
 # INDEX 90
 AddForgeCategory "EXPLOSIVES" 84
 # INDEX 91
-AddForgeCategory "SPECIAL FX [BROKEN]" 84
+AddForgeCategory "SPECIAL FX" 84
 # INDEX 92
 AddForgeCategory "LIGHTS" 84
 # INDEX 93
@@ -614,92 +614,853 @@ AddForgeItem "FUEL CANISTER" 90 objects\props\human\pioneer\furniture\fuel_canis
 AddForgeItem "WELDING STATION" 90 objects\props\human\pioneer\garage\welding_station\welding_station.crate
 
 # SPECIAL FX [91] -------------------------------------------------------------------------------------------------------------
-AddForgeItem "COLORBLIND [REACH]" 91 objects\levels\shared\screen_fx_orb\fx\colorblind.bloc
-AddForgeItem "NEXT GEN [REACH]" 91 objects\levels\shared\screen_fx_orb\fx\gloomy.bloc
-AddForgeItem "JUICY [REACH]" 91 objects\levels\shared\screen_fx_orb\fx\juicy.bloc
-AddForgeItem "NOVA [REACH]" 91 objects\levels\shared\screen_fx_orb\fx\nova.bloc
-AddForgeItem "OLDE TIMEY [REACH]" 91 objects\levels\shared\screen_fx_orb\fx\olde_timey.bloc
-AddForgeItem "PEN AND INK [REACH]" 91 objects\levels\shared\screen_fx_orb\fx\pen_and_ink.bloc
-AddForgeItem "PURPLE [REACH]" 91 objects\levels\shared\screen_fx_orb\fx\dusk.bloc
-AddForgeItem "GREEN [REACH]" 91 objects\levels\shared\screen_fx_orb\fx\eerie.bloc
-AddForgeItem "ORANGE [REACH]" 91 objects\levels\shared\screen_fx_orb\fx\golden_hour.bloc
+Foreach crate startingwith: objects\levels\shared\screen_fx_orb\fx setfield Attachments[0].Marker fx_01
+
+edittag objects\levels\shared\screen_effects\eerie.shader_screen
+setargument tint_color 0.1 0.4 0.1 0.8
+setargument add_color 0 0 0 0.2
+savetagchanges
+exit
+
+edittag multiplayer\forge_globals.forge_globals_definition
+
+addblockelements Palette
+setfield Palette[*].Name "COLORBLIND [REACH]"
+setfield Palette[*].Type Prop
+setfield Palette[*].CategoryIndex 91
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\levels\shared\screen_fx_orb\fx\colorblind.bloc
+
+addblockelements Palette[*].Setters 15
+setfield Palette[*].Setters[0].Target Fx_Range
+setfield Palette[*].Setters[0].Type Real
+setfield Palette[*].Setters[0].RealValue 225
+
+setfield Palette[*].Setters[1].Target Fx_LightIntensity
+setfield Palette[*].Setters[1].Type Real
+
+setfield Palette[*].Setters[2].Target Fx_Hue
+setfield Palette[*].Setters[2].Type Real
+
+setfield Palette[*].Setters[3].Target Fx_Saturation
+setfield Palette[*].Setters[3].Type Real
+
+setfield Palette[*].Setters[4].Target Fx_Desaturation
+setfield Palette[*].Setters[4].Type Real
+setfield Palette[*].Setters[4].RealValue 1
+
+setfield Palette[*].Setters[5].Target Fx_GammaIncrease
+setfield Palette[*].Setters[5].Type Real
+
+setfield Palette[*].Setters[6].Target Fx_GammaDecrease
+setfield Palette[*].Setters[6].Type Real
+
+setfield Palette[*].Setters[7].Target Fx_ColorFilterR
+setfield Palette[*].Setters[7].Type Real
+setfield Palette[*].Setters[7].RealValue 1
+
+setfield Palette[*].Setters[8].Target Fx_ColorFilterG
+setfield Palette[*].Setters[8].Type Real
+setfield Palette[*].Setters[8].RealValue 1
+
+setfield Palette[*].Setters[9].Target Fx_ColorFilterB
+setfield Palette[*].Setters[9].Type Real
+setfield Palette[*].Setters[9].RealValue 1
+
+setfield Palette[*].Setters[10].Target Fx_ColorFloorR
+setfield Palette[*].Setters[10].Type Real
+
+setfield Palette[*].Setters[11].Target Fx_ColorFloorG
+setfield Palette[*].Setters[11].Type Real
+
+setfield Palette[*].Setters[12].Target Fx_ColorFloorB
+setfield Palette[*].Setters[12].Type Real
+
+setfield Palette[*].Setters[13].Target Fx_Tracing
+setfield Palette[*].Setters[13].Type Real
+
+setfield Palette[*].Setters[14].Target General_Physics
+setfield Palette[*].Setters[14].IntegerValue 1
+
+addblockelements Palette
+setfield Palette[*].Name "NEXT GEN [REACH]"
+setfield Palette[*].Type Prop
+setfield Palette[*].CategoryIndex 91
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\levels\shared\screen_fx_orb\fx\gloomy.bloc
+
+addblockelements Palette[*].Setters 15
+setfield Palette[*].Setters[0].Target Fx_Range
+setfield Palette[*].Setters[0].Type Real
+setfield Palette[*].Setters[0].RealValue 225
+
+setfield Palette[*].Setters[1].Target Fx_LightIntensity
+setfield Palette[*].Setters[1].Type Real
+
+setfield Palette[*].Setters[2].Target Fx_Hue
+setfield Palette[*].Setters[2].Type Real
+
+setfield Palette[*].Setters[3].Target Fx_Saturation
+setfield Palette[*].Setters[3].Type Real
+
+setfield Palette[*].Setters[4].Target Fx_Desaturation
+setfield Palette[*].Setters[4].Type Real
+setfield Palette[*].Setters[4].RealValue 0.7
+
+setfield Palette[*].Setters[5].Target Fx_GammaIncrease
+setfield Palette[*].Setters[5].Type Real
+
+setfield Palette[*].Setters[6].Target Fx_GammaDecrease
+setfield Palette[*].Setters[6].Type Real
+setfield Palette[*].Setters[6].RealValue 0.3
+
+setfield Palette[*].Setters[7].Target Fx_ColorFilterR
+setfield Palette[*].Setters[7].Type Real
+setfield Palette[*].Setters[7].RealValue 0.8367059
+
+setfield Palette[*].Setters[8].Target Fx_ColorFilterG
+setfield Palette[*].Setters[8].Type Real
+setfield Palette[*].Setters[8].RealValue 0.7666505
+
+setfield Palette[*].Setters[9].Target Fx_ColorFilterB
+setfield Palette[*].Setters[9].Type Real
+setfield Palette[*].Setters[9].RealValue 0.7087391
+
+setfield Palette[*].Setters[10].Target Fx_ColorFloorR
+setfield Palette[*].Setters[10].Type Real
+setfield Palette[*].Setters[10].RealValue 0.01317647
+
+setfield Palette[*].Setters[11].Target Fx_ColorFloorG
+setfield Palette[*].Setters[11].Type Real
+setfield Palette[*].Setters[11].RealValue 0.01285345
+
+setfield Palette[*].Setters[12].Target Fx_ColorFloorB
+setfield Palette[*].Setters[12].Type Real
+setfield Palette[*].Setters[12].RealValue 0.0125564
+
+setfield Palette[*].Setters[13].Target Fx_Tracing
+setfield Palette[*].Setters[13].Type Real
+
+setfield Palette[*].Setters[14].Target General_Physics
+setfield Palette[*].Setters[14].IntegerValue 1
+
+addblockelements Palette
+setfield Palette[*].Name "JUICY [REACH]"
+setfield Palette[*].Type Prop
+setfield Palette[*].CategoryIndex 91
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\levels\shared\screen_fx_orb\fx\juicy.bloc
+
+addblockelements Palette[*].Setters 15
+setfield Palette[*].Setters[0].Target Fx_Range
+setfield Palette[*].Setters[0].Type Real
+setfield Palette[*].Setters[0].RealValue 225
+
+setfield Palette[*].Setters[1].Target Fx_LightIntensity
+setfield Palette[*].Setters[1].Type Real
+
+setfield Palette[*].Setters[2].Target Fx_Hue
+setfield Palette[*].Setters[2].Type Real
+
+setfield Palette[*].Setters[3].Target Fx_Saturation
+setfield Palette[*].Setters[3].Type Real
+setfield Palette[*].Setters[3].RealValue 1
+
+setfield Palette[*].Setters[4].Target Fx_Desaturation
+setfield Palette[*].Setters[4].Type Real
+
+setfield Palette[*].Setters[5].Target Fx_GammaIncrease
+setfield Palette[*].Setters[5].Type Real
+
+setfield Palette[*].Setters[6].Target Fx_GammaDecrease
+setfield Palette[*].Setters[6].Type Real
+
+setfield Palette[*].Setters[7].Target Fx_ColorFilterR
+setfield Palette[*].Setters[7].Type Real
+setfield Palette[*].Setters[7].RealValue 1
+
+setfield Palette[*].Setters[8].Target Fx_ColorFilterG
+setfield Palette[*].Setters[8].Type Real
+setfield Palette[*].Setters[8].RealValue 0.921569
+
+setfield Palette[*].Setters[9].Target Fx_ColorFilterB
+setfield Palette[*].Setters[9].Type Real
+setfield Palette[*].Setters[9].RealValue 0.831373
+
+setfield Palette[*].Setters[10].Target Fx_ColorFloorR
+setfield Palette[*].Setters[10].Type Real
+
+setfield Palette[*].Setters[11].Target Fx_ColorFloorG
+setfield Palette[*].Setters[11].Type Real
+
+setfield Palette[*].Setters[12].Target Fx_ColorFloorB
+setfield Palette[*].Setters[12].Type Real
+
+setfield Palette[*].Setters[13].Target Fx_Tracing
+setfield Palette[*].Setters[13].Type Real
+
+setfield Palette[*].Setters[14].Target General_Physics
+setfield Palette[*].Setters[14].IntegerValue 1
+
+addblockelements Palette
+setfield Palette[*].Name "NOVA [REACH]"
+setfield Palette[*].Type Prop
+setfield Palette[*].CategoryIndex 91
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\levels\shared\screen_fx_orb\fx\nova.bloc
+
+addblockelements Palette[*].Setters 15
+setfield Palette[*].Setters[0].Target Fx_Range
+setfield Palette[*].Setters[0].Type Real
+setfield Palette[*].Setters[0].RealValue 225
+
+setfield Palette[*].Setters[1].Target Fx_LightIntensity
+setfield Palette[*].Setters[1].Type Real
+setfield Palette[*].Setters[1].RealValue 0.72
+
+setfield Palette[*].Setters[2].Target Fx_Hue
+setfield Palette[*].Setters[2].Type Real
+
+setfield Palette[*].Setters[3].Target Fx_Saturation
+setfield Palette[*].Setters[3].Type Real
+
+setfield Palette[*].Setters[4].Target Fx_Desaturation
+setfield Palette[*].Setters[4].Type Real
+
+setfield Palette[*].Setters[5].Target Fx_GammaIncrease
+setfield Palette[*].Setters[5].Type Real
+setfield Palette[*].Setters[5].RealValue 0.3
+
+setfield Palette[*].Setters[6].Target Fx_GammaDecrease
+setfield Palette[*].Setters[6].Type Real
+
+setfield Palette[*].Setters[7].Target Fx_ColorFilterR
+setfield Palette[*].Setters[7].Type Real
+setfield Palette[*].Setters[7].RealValue 1
+
+setfield Palette[*].Setters[8].Target Fx_ColorFilterG
+setfield Palette[*].Setters[8].Type Real
+setfield Palette[*].Setters[8].RealValue 1
+
+setfield Palette[*].Setters[9].Target Fx_ColorFilterB
+setfield Palette[*].Setters[9].Type Real
+setfield Palette[*].Setters[9].RealValue 1
+
+setfield Palette[*].Setters[10].Target Fx_ColorFloorR
+setfield Palette[*].Setters[10].Type Real
+
+setfield Palette[*].Setters[11].Target Fx_ColorFloorG
+setfield Palette[*].Setters[11].Type Real
+
+setfield Palette[*].Setters[12].Target Fx_ColorFloorB
+setfield Palette[*].Setters[12].Type Real
+
+setfield Palette[*].Setters[13].Target Fx_Tracing
+setfield Palette[*].Setters[13].Type Real
+
+setfield Palette[*].Setters[14].Target General_Physics
+setfield Palette[*].Setters[14].IntegerValue 1
+
+addblockelements Palette
+setfield Palette[*].Name "OLDE TIMEY [REACH]"
+setfield Palette[*].Type Prop
+setfield Palette[*].CategoryIndex 91
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\levels\shared\screen_fx_orb\fx\olde_timey.bloc
+
+addblockelements Palette[*].Setters 15
+setfield Palette[*].Setters[0].Target Fx_Range
+setfield Palette[*].Setters[0].Type Real
+setfield Palette[*].Setters[0].RealValue 225
+
+setfield Palette[*].Setters[1].Target Fx_LightIntensity
+setfield Palette[*].Setters[1].Type Real
+
+setfield Palette[*].Setters[2].Target Fx_Hue
+setfield Palette[*].Setters[2].Type Real
+
+setfield Palette[*].Setters[3].Target Fx_Saturation
+setfield Palette[*].Setters[3].Type Real
+
+setfield Palette[*].Setters[4].Target Fx_Desaturation
+setfield Palette[*].Setters[4].Type Real
+setfield Palette[*].Setters[4].RealValue 0.7
+
+setfield Palette[*].Setters[5].Target Fx_GammaIncrease
+setfield Palette[*].Setters[5].Type Real
+
+setfield Palette[*].Setters[6].Target Fx_GammaDecrease
+setfield Palette[*].Setters[6].Type Real
+
+setfield Palette[*].Setters[7].Target Fx_ColorFilterR
+setfield Palette[*].Setters[7].Type Real
+setfield Palette[*].Setters[7].RealValue 1
+
+setfield Palette[*].Setters[8].Target Fx_ColorFilterG
+setfield Palette[*].Setters[8].Type Real
+setfield Palette[*].Setters[8].RealValue 0.7294117
+
+setfield Palette[*].Setters[9].Target Fx_ColorFilterB
+setfield Palette[*].Setters[9].Type Real
+setfield Palette[*].Setters[9].RealValue 0.7294117
+
+setfield Palette[*].Setters[10].Target Fx_ColorFloorR
+setfield Palette[*].Setters[10].Type Real
+
+setfield Palette[*].Setters[11].Target Fx_ColorFloorG
+setfield Palette[*].Setters[11].Type Real
+
+setfield Palette[*].Setters[12].Target Fx_ColorFloorB
+setfield Palette[*].Setters[12].Type Real
+
+setfield Palette[*].Setters[13].Target Fx_Tracing
+setfield Palette[*].Setters[13].Type Real
+
+setfield Palette[*].Setters[14].Target General_Physics
+setfield Palette[*].Setters[14].IntegerValue 1
+
+addblockelements Palette
+setfield Palette[*].Name "PEN AND INK [REACH]"
+setfield Palette[*].Type Prop
+setfield Palette[*].CategoryIndex 91
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\levels\shared\screen_fx_orb\fx\pen_and_ink.bloc
+
+addblockelements Palette[*].Setters 15
+setfield Palette[*].Setters[0].Target Fx_Range
+setfield Palette[*].Setters[0].Type Real
+setfield Palette[*].Setters[0].RealValue 225
+
+setfield Palette[*].Setters[1].Target Fx_LightIntensity
+setfield Palette[*].Setters[1].Type Real
+setfield Palette[*].Setters[1].RealValue 0.90
+
+setfield Palette[*].Setters[2].Target Fx_Hue
+setfield Palette[*].Setters[2].Type Real
+
+setfield Palette[*].Setters[3].Target Fx_Saturation
+setfield Palette[*].Setters[3].Type Real
+
+setfield Palette[*].Setters[4].Target Fx_Desaturation
+setfield Palette[*].Setters[4].Type Real
+setfield Palette[*].Setters[4].RealValue 1
+
+setfield Palette[*].Setters[5].Target Fx_GammaIncrease
+setfield Palette[*].Setters[5].Type Real
+setfield Palette[*].Setters[5].RealValue 0.41
+
+setfield Palette[*].Setters[6].Target Fx_GammaDecrease
+setfield Palette[*].Setters[6].Type Real
+
+setfield Palette[*].Setters[7].Target Fx_ColorFilterR
+setfield Palette[*].Setters[7].Type Real
+setfield Palette[*].Setters[7].RealValue 70
+
+setfield Palette[*].Setters[8].Target Fx_ColorFilterG
+setfield Palette[*].Setters[8].Type Real
+setfield Palette[*].Setters[8].RealValue 70
+
+setfield Palette[*].Setters[9].Target Fx_ColorFilterB
+setfield Palette[*].Setters[9].Type Real
+setfield Palette[*].Setters[9].RealValue 70
+
+setfield Palette[*].Setters[10].Target Fx_ColorFloorR
+setfield Palette[*].Setters[10].Type Real
+setfield Palette[*].Setters[10].RealValue 68
+
+setfield Palette[*].Setters[11].Target Fx_ColorFloorG
+setfield Palette[*].Setters[11].Type Real
+setfield Palette[*].Setters[11].RealValue 68
+
+setfield Palette[*].Setters[12].Target Fx_ColorFloorB
+setfield Palette[*].Setters[12].Type Real
+setfield Palette[*].Setters[12].RealValue 68
+
+setfield Palette[*].Setters[13].Target Fx_Tracing
+setfield Palette[*].Setters[13].Type Real
+
+setfield Palette[*].Setters[14].Target General_Physics
+setfield Palette[*].Setters[14].IntegerValue 1
+
+addblockelements Palette
+setfield Palette[*].Name "PURPLE [REACH]"
+setfield Palette[*].Type Prop
+setfield Palette[*].CategoryIndex 91
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\levels\shared\screen_fx_orb\fx\dusk.bloc
+
+addblockelements Palette[*].Setters 15
+setfield Palette[*].Setters[0].Target Fx_Range
+setfield Palette[*].Setters[0].Type Real
+setfield Palette[*].Setters[0].RealValue 225
+
+setfield Palette[*].Setters[1].Target Fx_LightIntensity
+setfield Palette[*].Setters[1].Type Real
+
+setfield Palette[*].Setters[2].Target Fx_Hue
+setfield Palette[*].Setters[2].Type Real
+
+setfield Palette[*].Setters[3].Target Fx_Saturation
+setfield Palette[*].Setters[3].Type Real
+
+setfield Palette[*].Setters[4].Target Fx_Desaturation
+setfield Palette[*].Setters[4].Type Real
+setfield Palette[*].Setters[4].RealValue 0.4
+
+setfield Palette[*].Setters[5].Target Fx_GammaIncrease
+setfield Palette[*].Setters[5].Type Real
+
+setfield Palette[*].Setters[6].Target Fx_GammaDecrease
+setfield Palette[*].Setters[6].Type Real
+setfield Palette[*].Setters[6].RealValue 0.1
+
+setfield Palette[*].Setters[7].Target Fx_ColorFilterR
+setfield Palette[*].Setters[7].Type Real
+
+setfield Palette[*].Setters[8].Target Fx_ColorFilterG
+setfield Palette[*].Setters[8].Type Real
+setfield Palette[*].Setters[8].RealValue 0.0862745098
+
+setfield Palette[*].Setters[9].Target Fx_ColorFilterB
+setfield Palette[*].Setters[9].Type Real
+setfield Palette[*].Setters[9].RealValue 0.47058823529
+
+setfield Palette[*].Setters[10].Target Fx_ColorFloorR
+setfield Palette[*].Setters[10].Type Real
+
+setfield Palette[*].Setters[11].Target Fx_ColorFloorG
+setfield Palette[*].Setters[11].Type Real
+
+setfield Palette[*].Setters[12].Target Fx_ColorFloorB
+setfield Palette[*].Setters[12].Type Real
+
+setfield Palette[*].Setters[13].Target Fx_Tracing
+setfield Palette[*].Setters[13].Type Real
+
+setfield Palette[*].Setters[14].Target General_Physics
+setfield Palette[*].Setters[14].IntegerValue 1
+
+addblockelements Palette
+setfield Palette[*].Name "GREEN [REACH]"
+setfield Palette[*].Type Prop
+setfield Palette[*].CategoryIndex 91
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\levels\shared\screen_fx_orb\fx\eerie.bloc
+
+addblockelements Palette[*].Setters 15
+
+setfield Palette[*].Setters[0].Target Fx_Range
+setfield Palette[*].Setters[0].Type Real
+setfield Palette[*].Setters[0].RealValue 100
+
+setfield Palette[*].Setters[1].Target Fx_LightIntensity
+setfield Palette[*].Setters[1].Type Real
+setfield Palette[*].Setters[1].RealValue 0.69
+
+setfield Palette[*].Setters[2].Target Fx_Hue
+setfield Palette[*].Setters[2].Type Real
+
+setfield Palette[*].Setters[3].Target Fx_Saturation
+setfield Palette[*].Setters[3].Type Real
+
+setfield Palette[*].Setters[4].Target Fx_Desaturation
+setfield Palette[*].Setters[4].Type Real
+setfield Palette[*].Setters[4].RealValue 0.8
+
+setfield Palette[*].Setters[5].Target Fx_GammaIncrease
+setfield Palette[*].Setters[5].Type Real
+
+setfield Palette[*].Setters[6].Target Fx_GammaDecrease
+setfield Palette[*].Setters[6].Type Real
+setfield Palette[*].Setters[6].RealValue 0.2
+
+setfield Palette[*].Setters[7].Target Fx_ColorFilterR
+setfield Palette[*].Setters[7].Type Real
+setfield Palette[*].Setters[7].RealValue 0.17647058823
+
+setfield Palette[*].Setters[8].Target Fx_ColorFilterG
+setfield Palette[*].Setters[8].Type Real
+setfield Palette[*].Setters[8].RealValue 0.17647058823
+
+setfield Palette[*].Setters[9].Target Fx_ColorFilterB
+setfield Palette[*].Setters[9].Type Real
+setfield Palette[*].Setters[9].RealValue 0.17647058823
+
+setfield Palette[*].Setters[10].Target Fx_ColorFloorR
+setfield Palette[*].Setters[10].Type Real
+
+setfield Palette[*].Setters[11].Target Fx_ColorFloorG
+setfield Palette[*].Setters[11].Type Real
+
+setfield Palette[*].Setters[12].Target Fx_ColorFloorB
+setfield Palette[*].Setters[12].Type Real
+
+setfield Palette[*].Setters[13].Target Fx_Tracing
+setfield Palette[*].Setters[13].Type Real
+
+setfield Palette[*].Setters[14].Target General_Physics
+setfield Palette[*].Setters[14].IntegerValue 1
+
+addblockelements Palette
+setfield Palette[*].Name "ORANGE [REACH]"
+setfield Palette[*].Type Prop
+setfield Palette[*].CategoryIndex 91
+setfield Palette[*].DescriptionIndex -1
+setfield Palette[*].Object objects\levels\shared\screen_fx_orb\fx\golden_hour.bloc
+
+addblockelements Palette[*].Setters 15
+setfield Palette[*].Setters[0].Target Fx_Range
+setfield Palette[*].Setters[0].Type Real
+setfield Palette[*].Setters[0].RealValue 100
+
+setfield Palette[*].Setters[1].Target Fx_LightIntensity
+setfield Palette[*].Setters[1].Type Real
+
+setfield Palette[*].Setters[2].Target Fx_Hue
+setfield Palette[*].Setters[2].Type Real
+
+setfield Palette[*].Setters[3].Target Fx_Saturation
+setfield Palette[*].Setters[3].Type Real
+setfield Palette[*].Setters[3].RealValue 0.8
+
+setfield Palette[*].Setters[4].Target Fx_Desaturation
+setfield Palette[*].Setters[4].Type Real
+setfield Palette[*].Setters[4].RealValue 0.8
+
+setfield Palette[*].Setters[5].Target Fx_GammaIncrease
+setfield Palette[*].Setters[5].Type Real
+
+setfield Palette[*].Setters[6].Target Fx_GammaDecrease
+setfield Palette[*].Setters[6].Type Real
+setfield Palette[*].Setters[6].RealValue 0.4
+
+setfield Palette[*].Setters[7].Target Fx_ColorFilterR
+setfield Palette[*].Setters[7].Type Real
+setfield Palette[*].Setters[7].RealValue 0.4131765
+
+setfield Palette[*].Setters[8].Target Fx_ColorFilterG
+setfield Palette[*].Setters[8].Type Real
+setfield Palette[*].Setters[8].RealValue 0.3550239
+
+setfield Palette[*].Setters[9].Target Fx_ColorFilterB
+setfield Palette[*].Setters[9].Type Real
+setfield Palette[*].Setters[9].RealValue 0.3499848
+
+setfield Palette[*].Setters[10].Target Fx_ColorFloorR
+setfield Palette[*].Setters[10].Type Real
+
+setfield Palette[*].Setters[11].Target Fx_ColorFloorG
+setfield Palette[*].Setters[11].Type Real
+setfield Palette[*].Setters[11].RealValue 0.08768628
+
+setfield Palette[*].Setters[12].Target Fx_ColorFloorB
+setfield Palette[*].Setters[12].Type Real
+setfield Palette[*].Setters[12].RealValue 0.08072244
+
+setfield Palette[*].Setters[13].Target Fx_Tracing
+setfield Palette[*].Setters[13].Type Real
+
+setfield Palette[*].Setters[14].Target General_Physics
+setfield Palette[*].Setters[14].IntegerValue 1
+savetagchanges
+exit
 
 # LIGHTS [92] -------------------------------------------------------------------------------------------------------------
+Foreach light startingwith: objects\levels\forge\ff_light_ setfield Flags ElDewritoForgeLight
+Foreach light startingwith: objects\levels\forge\ff_light_flash setfield Flags None
+
 edittag multiplayer\forge_globals.forge_globals_definition
 
 addblockelements Palette
 setfield Palette[*].Name "LIGHT, WHITE"
-setfield Palette[*].Type Prop
+setfield Palette[*].Type Light
 setfield Palette[*].CategoryIndex 92
 setfield Palette[*].DescriptionIndex -1
 setfield Palette[*].Object objects\levels\forge\ff_light_white\ff_light_white.bloc
-addblockelements Palette[*].Setters 1
-setfield Palette[*].Setters[*].Target General_Physics
-setfield Palette[*].Setters[*].IntegerValue 1
+addblockelements Palette[*].Setters 9
+setfield Palette[*].Setters[0].Target General_Physics
+setfield Palette[*].Setters[0].IntegerValue 1
+
+setfield Palette[*].Setters[1].Target Light_Type
+setfield Palette[*].Setters[1].IntegerValue 0
+
+setfield Palette[*].Setters[2].Type Real
+setfield Palette[*].Setters[2].Target Light_ColorR
+setfield Palette[*].Setters[2].RealValue 0.7294117647
+
+setfield Palette[*].Setters[3].Type Real
+setfield Palette[*].Setters[3].Target Light_ColorG
+setfield Palette[*].Setters[3].RealValue 0.85882352941
+
+setfield Palette[*].Setters[4].Type Real
+setfield Palette[*].Setters[4].Target Light_ColorB
+setfield Palette[*].Setters[4].RealValue 0.92549019607
+
+setfield Palette[*].Setters[5].Type Real
+setfield Palette[*].Setters[5].Target Light_Intensity
+setfield Palette[*].Setters[5].RealValue 0.03
+
+setfield Palette[*].Setters[6].Type Real
+setfield Palette[*].Setters[6].Target Light_Radius
+setfield Palette[*].Setters[6].RealValue 11
+
+setfield Palette[*].Setters[7].Type Real
+setfield Palette[*].Setters[7].Target Light_FieldOfView
+setfield Palette[*].Setters[7].RealValue 1.047198
+
+setfield Palette[*].Setters[8].Type Real
+setfield Palette[*].Setters[8].Target Light_NearWidth
+setfield Palette[*].Setters[8].RealValue 1
 
 addblockelements Palette
 setfield Palette[*].Name "LIGHT, RED"
-setfield Palette[*].Type Prop
+setfield Palette[*].Type Light
 setfield Palette[*].CategoryIndex 92
 setfield Palette[*].DescriptionIndex -1
 setfield Palette[*].Object objects\levels\forge\ff_light_red\ff_light_red.bloc
-addblockelements Palette[*].Setters 1
-setfield Palette[*].Setters[*].Target General_Physics
-setfield Palette[*].Setters[*].IntegerValue 1
+addblockelements Palette[*].Setters 9
+setfield Palette[*].Setters[0].Target General_Physics
+setfield Palette[*].Setters[0].IntegerValue 1
+
+setfield Palette[*].Setters[1].Target Light_Type
+setfield Palette[*].Setters[1].IntegerValue 0
+
+setfield Palette[*].Setters[2].Type Real
+setfield Palette[*].Setters[2].Target Light_ColorR
+setfield Palette[*].Setters[2].RealValue 1
+
+setfield Palette[*].Setters[3].Type Real
+setfield Palette[*].Setters[3].Target Light_ColorG
+setfield Palette[*].Setters[3].RealValue 0.15294117647
+
+setfield Palette[*].Setters[4].Type Real
+setfield Palette[*].Setters[4].Target Light_ColorB
+setfield Palette[*].Setters[4].RealValue 0.0431372549
+
+setfield Palette[*].Setters[5].Type Real
+setfield Palette[*].Setters[5].Target Light_Intensity
+setfield Palette[*].Setters[5].RealValue 0.03
+
+setfield Palette[*].Setters[6].Type Real
+setfield Palette[*].Setters[6].Target Light_Radius
+setfield Palette[*].Setters[6].RealValue 11
+
+setfield Palette[*].Setters[7].Type Real
+setfield Palette[*].Setters[7].Target Light_FieldOfView
+setfield Palette[*].Setters[7].RealValue 1.047198
+
+setfield Palette[*].Setters[8].Type Real
+setfield Palette[*].Setters[8].Target Light_NearWidth
+setfield Palette[*].Setters[8].RealValue 1
 
 addblockelements Palette
 setfield Palette[*].Name "LIGHT, YELLOW"
-setfield Palette[*].Type Prop
+setfield Palette[*].Type Light
 setfield Palette[*].CategoryIndex 92
 setfield Palette[*].DescriptionIndex -1
 setfield Palette[*].Object objects\levels\forge\ff_light_yellow\ff_light_yellow.bloc
-addblockelements Palette[*].Setters 1
-setfield Palette[*].Setters[*].Target General_Physics
-setfield Palette[*].Setters[*].IntegerValue 1
+addblockelements Palette[*].Setters 9
+setfield Palette[*].Setters[0].Target General_Physics
+setfield Palette[*].Setters[0].IntegerValue 1
+
+setfield Palette[*].Setters[1].Target Light_Type
+setfield Palette[*].Setters[1].IntegerValue 0
+
+setfield Palette[*].Setters[2].Type Real
+setfield Palette[*].Setters[2].Target Light_ColorR
+setfield Palette[*].Setters[2].RealValue 1
+
+setfield Palette[*].Setters[3].Type Real
+setfield Palette[*].Setters[3].Target Light_ColorG
+setfield Palette[*].Setters[3].RealValue 0.90588235294
+
+setfield Palette[*].Setters[4].Type Real
+setfield Palette[*].Setters[4].Target Light_ColorB
+setfield Palette[*].Setters[4].RealValue 0.0431372549
+
+setfield Palette[*].Setters[5].Type Real
+setfield Palette[*].Setters[5].Target Light_Intensity
+setfield Palette[*].Setters[5].RealValue 0.03
+
+setfield Palette[*].Setters[6].Type Real
+setfield Palette[*].Setters[6].Target Light_Radius
+setfield Palette[*].Setters[6].RealValue 11
+
+setfield Palette[*].Setters[7].Type Real
+setfield Palette[*].Setters[7].Target Light_FieldOfView
+setfield Palette[*].Setters[7].RealValue 1.047198
+
+setfield Palette[*].Setters[8].Type Real
+setfield Palette[*].Setters[8].Target Light_NearWidth
+setfield Palette[*].Setters[8].RealValue 1
 
 addblockelements Palette
 setfield Palette[*].Name "LIGHT, ORANGE"
-setfield Palette[*].Type Prop
+setfield Palette[*].Type Light
 setfield Palette[*].CategoryIndex 92
 setfield Palette[*].DescriptionIndex -1
 setfield Palette[*].Object objects\levels\forge\ff_light_orange\ff_light_orange.bloc
-addblockelements Palette[*].Setters 1
-setfield Palette[*].Setters[*].Target General_Physics
-setfield Palette[*].Setters[*].IntegerValue 1
+addblockelements Palette[*].Setters 9
+setfield Palette[*].Setters[0].Target General_Physics
+setfield Palette[*].Setters[0].IntegerValue 1
+
+setfield Palette[*].Setters[1].Target Light_Type
+setfield Palette[*].Setters[1].IntegerValue 0
+
+setfield Palette[*].Setters[2].Type Real
+setfield Palette[*].Setters[2].Target Light_ColorR
+setfield Palette[*].Setters[2].RealValue 0.99607843137
+
+setfield Palette[*].Setters[3].Type Real
+setfield Palette[*].Setters[3].Target Light_ColorG
+setfield Palette[*].Setters[3].RealValue 0.33333333333
+
+setfield Palette[*].Setters[4].Type Real
+setfield Palette[*].Setters[4].Target Light_ColorB
+setfield Palette[*].Setters[4].RealValue 0
+
+setfield Palette[*].Setters[5].Type Real
+setfield Palette[*].Setters[5].Target Light_Intensity
+setfield Palette[*].Setters[5].RealValue 0.03
+
+setfield Palette[*].Setters[6].Type Real
+setfield Palette[*].Setters[6].Target Light_Radius
+setfield Palette[*].Setters[6].RealValue 11
+
+setfield Palette[*].Setters[7].Type Real
+setfield Palette[*].Setters[7].Target Light_FieldOfView
+setfield Palette[*].Setters[7].RealValue 1.047198
+
+setfield Palette[*].Setters[8].Type Real
+setfield Palette[*].Setters[8].Target Light_NearWidth
+setfield Palette[*].Setters[8].RealValue 1
 
 addblockelements Palette
 setfield Palette[*].Name "LIGHT, GREEN"
-setfield Palette[*].Type Prop
+setfield Palette[*].Type Light
 setfield Palette[*].CategoryIndex 92
 setfield Palette[*].DescriptionIndex -1
 setfield Palette[*].Object objects\levels\forge\ff_light_green\ff_light_green.bloc
-addblockelements Palette[*].Setters 1
-setfield Palette[*].Setters[*].Target General_Physics
-setfield Palette[*].Setters[*].IntegerValue 1
+addblockelements Palette[*].Setters 9
+setfield Palette[*].Setters[0].Target General_Physics
+setfield Palette[*].Setters[0].IntegerValue 1
+
+setfield Palette[*].Setters[1].Target Light_Type
+setfield Palette[*].Setters[1].IntegerValue 0
+
+setfield Palette[*].Setters[2].Type Real
+setfield Palette[*].Setters[2].Target Light_ColorR
+setfield Palette[*].Setters[2].RealValue 0.4
+
+setfield Palette[*].Setters[3].Type Real
+setfield Palette[*].Setters[3].Target Light_ColorG
+setfield Palette[*].Setters[3].RealValue 0.98039215686
+
+setfield Palette[*].Setters[4].Type Real
+setfield Palette[*].Setters[4].Target Light_ColorB
+setfield Palette[*].Setters[4].RealValue 0.37647058823
+
+setfield Palette[*].Setters[5].Type Real
+setfield Palette[*].Setters[5].Target Light_Intensity
+setfield Palette[*].Setters[5].RealValue 0.03
+
+setfield Palette[*].Setters[6].Type Real
+setfield Palette[*].Setters[6].Target Light_Radius
+setfield Palette[*].Setters[6].RealValue 11
+
+setfield Palette[*].Setters[7].Type Real
+setfield Palette[*].Setters[7].Target Light_FieldOfView
+setfield Palette[*].Setters[7].RealValue 1.047198
+
+setfield Palette[*].Setters[8].Type Real
+setfield Palette[*].Setters[8].Target Light_NearWidth
+setfield Palette[*].Setters[8].RealValue 1
 
 addblockelements Palette
 setfield Palette[*].Name "LIGHT, BLUE"
-setfield Palette[*].Type Prop
+setfield Palette[*].Type Light
 setfield Palette[*].CategoryIndex 92
 setfield Palette[*].DescriptionIndex -1
 setfield Palette[*].Object objects\levels\forge\ff_light_blue\ff_light_blue.bloc
-addblockelements Palette[*].Setters 1
-setfield Palette[*].Setters[*].Target General_Physics
-setfield Palette[*].Setters[*].IntegerValue 1
+addblockelements Palette[*].Setters 9
+setfield Palette[*].Setters[0].Target General_Physics
+setfield Palette[*].Setters[0].IntegerValue 1
+
+setfield Palette[*].Setters[1].Target Light_Type
+setfield Palette[*].Setters[1].IntegerValue 0
+
+setfield Palette[*].Setters[2].Type Real
+setfield Palette[*].Setters[2].Target Light_ColorR
+setfield Palette[*].Setters[2].RealValue 0.05882352941
+
+setfield Palette[*].Setters[3].Type Real
+setfield Palette[*].Setters[3].Target Light_ColorG
+setfield Palette[*].Setters[3].RealValue 0.43529411764
+
+setfield Palette[*].Setters[4].Type Real
+setfield Palette[*].Setters[4].Target Light_ColorB
+setfield Palette[*].Setters[4].RealValue 1
+
+setfield Palette[*].Setters[5].Type Real
+setfield Palette[*].Setters[5].Target Light_Intensity
+setfield Palette[*].Setters[5].RealValue 0.03
+
+setfield Palette[*].Setters[6].Type Real
+setfield Palette[*].Setters[6].Target Light_Radius
+setfield Palette[*].Setters[6].RealValue 11
+
+setfield Palette[*].Setters[7].Type Real
+setfield Palette[*].Setters[7].Target Light_FieldOfView
+setfield Palette[*].Setters[7].RealValue 1.047198
+
+setfield Palette[*].Setters[8].Type Real
+setfield Palette[*].Setters[8].Target Light_NearWidth
+setfield Palette[*].Setters[8].RealValue 1
 
 addblockelements Palette
 setfield Palette[*].Name "LIGHT, PURPLE"
-setfield Palette[*].Type Prop
+setfield Palette[*].Type Light
 setfield Palette[*].CategoryIndex 92
 setfield Palette[*].DescriptionIndex -1
 setfield Palette[*].Object objects\levels\forge\ff_light_purple\ff_light_purple.bloc
-addblockelements Palette[*].Setters 1
-setfield Palette[*].Setters[*].Target General_Physics
-setfield Palette[*].Setters[*].IntegerValue 1
+addblockelements Palette[*].Setters 9
+setfield Palette[*].Setters[0].Target General_Physics
+setfield Palette[*].Setters[0].IntegerValue 1
+
+setfield Palette[*].Setters[1].Target Light_Type
+setfield Palette[*].Setters[1].IntegerValue 0
+
+setfield Palette[*].Setters[2].Type Real
+setfield Palette[*].Setters[2].Target Light_ColorR
+setfield Palette[*].Setters[2].RealValue 0.70196078431
+
+setfield Palette[*].Setters[3].Type Real
+setfield Palette[*].Setters[3].Target Light_ColorG
+setfield Palette[*].Setters[3].RealValue 0.18039215686
+
+setfield Palette[*].Setters[4].Type Real
+setfield Palette[*].Setters[4].Target Light_ColorB
+setfield Palette[*].Setters[4].RealValue 0.71372549019
+
+setfield Palette[*].Setters[5].Type Real
+setfield Palette[*].Setters[5].Target Light_Intensity
+setfield Palette[*].Setters[5].RealValue 0.03
+
+setfield Palette[*].Setters[6].Type Real
+setfield Palette[*].Setters[6].Target Light_Radius
+setfield Palette[*].Setters[6].RealValue 11
+
+setfield Palette[*].Setters[7].Type Real
+setfield Palette[*].Setters[7].Target Light_FieldOfView
+setfield Palette[*].Setters[7].RealValue 1.047198
+
+setfield Palette[*].Setters[8].Type Real
+setfield Palette[*].Setters[8].Target Light_NearWidth
+setfield Palette[*].Setters[8].RealValue 1
 
 addblockelements Palette
 setfield Palette[*].Name "LIGHT, FLASH, RED"
-setfield Palette[*].Type Prop
+setfield Palette[*].Type Light
 setfield Palette[*].CategoryIndex 92
 setfield Palette[*].DescriptionIndex -1
 setfield Palette[*].Object objects\levels\forge\ff_light_flash_red\ff_light_flash_red.bloc
@@ -709,7 +1470,7 @@ setfield Palette[*].Setters[*].IntegerValue 1
 
 addblockelements Palette
 setfield Palette[*].Name "LIGHT, FLASH, YELLOW"
-setfield Palette[*].Type Prop
+setfield Palette[*].Type Light
 setfield Palette[*].CategoryIndex 92
 setfield Palette[*].DescriptionIndex -1
 setfield Palette[*].Object objects\levels\forge\ff_light_flash_yellow\ff_light_flash_yellow.bloc
