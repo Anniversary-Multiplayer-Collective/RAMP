@@ -2135,6 +2135,30 @@ setfield PlayerCharacterCustomizations[0].RegionCameraScripts[7].BipedRotation 3
 savetagchanges
 exit
 
+# echo ==Fixed Chest names and descriptions==
+
+edittag ui\halox\start_menu\panes\settings_appearance_model\strings.unic
+setstring english spartan_body_default "Mark V [B]"
+setstring english spartan_body_default_description "Entered service in 2551; UNICOM/ SPECWAR/ GroupTHREE has been the sole adopter."
+setstring english spartan_body_cobra "UA/Base Security"
+setstring english spartan_body_cobra_description "Keep it simple; leave everything you don't absolutely need at the CP."
+setstring english spartan_body_intruder "Assault/Sapper"
+setstring english spartan_body_intruder_description "Broadly speaking, sappers are equally at home building things as they are blowing them up."
+setstring english spartan_body_ninja "UA/Multi-Threat"
+setstring english spartan_body_ninja_description "Supplemental Armor, Torso, MJOLNIR Mk. V."
+setstring english spartan_body_ryu "Tactical/Recon"
+setstring english spartan_body_ryu_description "Everything you need to find everything you need to find out."
+setstring english spartan_body_regulator "Collar/Breacher"
+setstring english spartan_body_regulator_description "Kick it in; section it off; lay them out."
+setstring english spartan_body_scout "Tactical/Patrol"
+setstring english spartan_body_scout_description "Don't take anything you don't need; you're going to want to stay light on your feet."
+setstring english spartan_body_katana "UA/ODST"
+setstring english spartan_body_katana_description "Many technologies initially developed for MJOLNIR have seen widespread adoption."
+setstring english spartan_body_bungie "Collar/Grenadier [UA]"
+setstring english spartan_body_bungie_description "The [G] prototype was the test bed for incorporating shield technology with MJOLNIR PAA."
+savetagchanges
+exit
+
 AddModFiles workingdir\assets
 SaveModPackage "modsfolder\RAMP_2.pak"
 
