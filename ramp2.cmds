@@ -2135,7 +2135,7 @@ setfield PlayerCharacterCustomizations[0].RegionCameraScripts[7].BipedRotation 3
 savetagchanges
 exit
 
-# echo ==Fixed Chest names and descriptions==
+# echo ==Fixed Chest and Shoulder names and descriptions==
 
 edittag ui\halox\start_menu\panes\settings_appearance_model\strings.unic
 setstring english spartan_body_default "Mark V [B]"
@@ -2156,6 +2156,30 @@ setstring english spartan_body_katana "UA/ODST"
 setstring english spartan_body_katana_description "Many technologies initially developed for MJOLNIR have seen widespread adoption."
 setstring english spartan_body_bungie "Collar/Grenadier [UA]"
 setstring english spartan_body_bungie_description "The [G] prototype was the test bed for incorporating shield technology with MJOLNIR PAA."
+setstring english spartan_leftshoulder_default "Mark V [B]"
+setstring spartan_leftshoulder_default_description "Entered service in 2551; UNICOM/ SPECWAR/ GroupTHREE has been the sole adopter" 
+setstring english spartan_leftshoulder_cobra "JFO"
+setstring english spartan_leftshoulder_cobra_description "Designed and tested at Beweglichrüstungsysteme of Essen, Deutschland." 
+setstring english spartan_leftshoulder_intruder "FJ/PARA"
+setstring english spartan_leftshoulder_intruder_description "Designed specifically for airborne units; maximum protection, minimum weight." 
+setstring english spartan_leftshoulder_ninja "Recon"
+setstring english spartan_leftshoulder_ninja_description "The MJOLNIR[R] prototype reduces armor silhouette without decreasing survivability." 
+setstring english spartan_leftshoulder_regulator "SECURITY"
+setstring english spartan_leftshoulder_regulator_description "The Supplemental Armor, Pauldron, MJOLNIR(M) variant was originally manufactured in 2528." 
+setstring english spartan_leftshoulder_ryu "Commando"
+setstring english spartan_leftshoulder_ryu_description "The MJOLNIR Mk. V/K variant was developed at the UNSC's Special Warfare Center." 
+setstring english spartan_rightshoulder "Mark V [B]"
+setstring english spartan_rightshoulder_default_description "Entered service in 2551; UNICOM/ SPECWAR/ GroupTHREE has been the sole adopter" 
+setstring english spartan_rightshoulder_cobra "JFO"
+setstring english spartan_rightshoulder_cobra_description "Designed and tested at Beweglichrüstungsysteme of Essen, Deutschland." 
+setstring english spartan_rightshoulder_intruder "FJ/PARA"
+setstring english spartan_rightshoulder_intruder_description "Designed specifically for airborne units; maximum protection, minimum weight." 
+setstring english spartan_rightshoulder_ninja "Recon"
+setstring english spartan_rightshoulder_ninja_description "The MJOLNIR[R] prototype reduces armor silhouette without decreasing survivability." 
+setstring english spartan_rightshoulder_regulator "SECURITY"
+setstring english spartan_rightshoulder_regulator_description "The Supplemental Armor, Pauldron, MJOLNIR(M) variant was originally manufactured in 2528." 
+setstring english spartan_rightshoulder_ryu "Commando"
+setstring english spartan_rightshoulder_ryu_description "The MJOLNIR Mk. V/K variant was developed at the UNSC's Special Warfare Center."
 savetagchanges
 exit
 
