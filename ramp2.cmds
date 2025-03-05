@@ -447,39 +447,8 @@ SetField TextWidgets[1].Definition.GuiRenderBlock.AnimationCollection ui\halox\g
 SaveTagChanges
 Exit
 
-edittag ui\halox\start_menu\panes\settings_appearance_model\strings.multilingual_unicode_string_list
-
-setstring english spartan_techsuit_base "MALE"
-setstring english spartan_techsuit_black "BLACK"
-setstring english spartan_techsuit_colored "COLOR PRIMARY"
-setstring english spartan_techsuit_secondary "COLOR SECONDARY"
-setstring english spartan_techsuit_camo "CAMO TECHSUIT"
-setstring english spartan_techsuit_armorcamo "CAMO ARMOR"
-setstring english fullcamo "FULL CAMO"
-
-setstring english female_techsuit_base "FEMALE"
-setstring english female_techsuit_black "FEMALE BLACK"
-setstring english female_techsuit_colored "FEMALE COLOR PRIMARY"
-setstring english female_techsuit_secondary "FEMALE COLOR SECONDARY"
-setstring english female_techsuit_camo "FEMALE CAMO TECHSUIT"
-setstring english female_techsuit_armorcamo "FEMALE CAMO ARMOR"
-setstring english fem_fullcamo "FEMALE FULL CAMO"
-
-setstring english fullcamo_description "Full Camouflage pattern"
-setstring english fem_fullcamo_description "Full Camouflage pattern"
-
-setstring english spartan_thigh_right_romeo "ROMEO"
-setstring english spartan_thigh_right_mickey "MICKEY"
-
-setstring english mp_ce "Combat Evolved"
-setstring english mp_ce_description "Worn by John 117."
-setstring english mp_eodc "EOD (C)"
-setstring english mp_eodc_description "EOD helmets were designed to significantly reduce the likelihood of decapitation."
-setstring english mp_anton "UA/Multi-Threat"
-setstring english mp_anton_description "A trade-off between increased protection and additional mass."
-
-savetagchanges
-exit 
+# echo ==Fixed all Armor names and descriptions in Customization==
+RunCommands "workingdir\cmds\CustomizationStrings.cmds"
 
 # echo ==Porting...==
 EditTag objects\gear\human\military\crate_packing_giant\crate_packing_giant.render_model
