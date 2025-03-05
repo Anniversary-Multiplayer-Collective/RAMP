@@ -2261,6 +2261,15 @@ setstring english backpack_mp_mickey_description "Worn by Corporal Taylor H. "Mi
 savetagchanges
 exit
 
+# echo ==Renamed Body to Chest and Techsuit to Body==
+
+edittag multiplayer\multiplayer_globals.multiplayer_globals
+setfield Universal[0].CustomizableCharacters[0].Regions[3].Name chest
+setfield Universal[0].CustomizableCharacters[0].Regions[15].Name body
+savetagchanges
+exit
+
+
 AddModFiles workingdir\assets
 SaveModPackage "modsfolder\RAMP_2.pak"
 
