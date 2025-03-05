@@ -22,8 +22,12 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 
 
 ## v0.5 Changelog
+* Added more armor preview images
+* Added missing Grenadier chest attachment
 * Fixed weapons not picking up the ammo equipments
-
+* Fixed Beam Rifle using Halo 4 icon
+* Fixed all armor names and descriptions
+* Adjust default weapon viewmodels
 
 ## v0.4 Changelog
 * Added Reach glass shader support
