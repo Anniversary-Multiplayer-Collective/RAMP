@@ -27,7 +27,9 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 * Fixed weapons not picking up the ammo equipments
 * Fixed Beam Rifle using Halo 4 icon
 * Fixed all armor names and descriptions
+* Fixed concussion rifle "Out of ammo switch to" string
 * Adjust default weapon viewmodels
+* Minor animations fixup
 
 ## v0.4 Changelog
 * Added Reach glass shader support

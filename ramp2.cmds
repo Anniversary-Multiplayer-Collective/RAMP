@@ -2082,6 +2082,9 @@ RunCommands workingdir\cmds\ApplyModPackage.cmds
 # echo ==Added Reach EMP effect to all vehicles ==
 RunCommands "workingdir\cmds\EMP Effects.cmds"
 
+# echo == H2A Beam rifle animaton ==
+RunCommands "workingdir\cmds\enashh2abeamrifleanimation.cmds"
+
 # echo ==Nerf Magnum accuracy==
 edittag objects\weapons\pistol\magnum\magnum.weapon
 setfield Barrels[0].ProjectileErrorAngle 0.15 4

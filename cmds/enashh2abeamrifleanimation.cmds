@@ -1,0 +1,282 @@
+echo ----------------------------------------------
+echo |                RENDER MODEL                |
+echo ----------------------------------------------
+
+edittag objects\weapons\rifle\beam_rifle\fp_beam_rifle\fp_beam_rifle.render_model
+# Fx overheat vent
+setfield MarkerGroups[1].Markers[0].Translation 0.185 -0.0003434857 -0.001923705
+# Spartan
+setfield MarkerGroups[3].Markers[0].Translation 0.1314 -0.0009 -0.0431
+setfield MarkerGroups[3].Markers[0].Rotation -0.559 0.118 -0.28 0.61
+# Elite
+setfield MarkerGroups[4].Name left_hand_elite
+setfield MarkerGroups[4].Markers[0].Translation 0.1393 -0.00518 -0.044
+setfield MarkerGroups[4].Markers[0].Rotation -0.575 0.094 -0.35 0.7
+savetagchanges
+exit
+
+echo ----------------------------------------------
+echo |                 ANIMATIONS                 |
+echo ----------------------------------------------
+
+echo ----------------------------------------------
+echo |                  SPARTAN                   |
+echo ----------------------------------------------
+# THAT WAS BEFORE, BUT NOT ANYMORE
+# JUST HOLD ON TIGHT, IT CAN BE ALL RIGHT
+# WE'LL TAKE IT BACK, NOT HERE TO COMMIT SUICIDE!
+
+edittag objects\characters\masterchief\fp\weapons\rifle\fp_beam_rifle\fp_beam_rifle.model_animation_graph
+addblockelements modes[0].weaponclass[0].weaponik 1
+setfield modes[0].weaponclass[0].weaponik[0].marker left_hand
+setfield modes[0].weaponclass[0].weaponik[0].attachtomarker left_hand
+
+addanimation workingdir\animations\spartan_fp\enashh2a_beamrifle
+
+# Fire 1
+setfield Animations[1].Weight 0.3333333
+setfield Animations[1].AnimationData.NextAnimation 2
+setfield Animations[1].AnimationData.ProductionFlags VerifySoundEvents
+setfield Animations[1].AnimationData.InternalFlags ValidProductionChecksum
+# setfield Animations[1].AnimationData.NodeListChecksum 288679712
+# setfield Animations[1].AnimationData.ProductionChecksum 1054607630
+addblockelements Animations[1].AnimationData.SoundEvents
+
+setfield Animations[2].Weight 0.6666667
+setfield Animations[2].AnimationData.ParentAnimation 1
+setfield Animations[2].AnimationData.NextAnimation 3
+setfield Animations[2].AnimationData.ProductionFlags VerifySoundEvents
+setfield Animations[2].AnimationData.InternalFlags ValidProductionChecksum
+# setfield Animations[2].AnimationData.NodeListChecksum 288679712
+# setfield Animations[2].AnimationData.ProductionChecksum 1546712053
+addblockelements Animations[2].AnimationData.SoundEvents
+
+setfield Animations[3].Weight 1
+setfield Animations[3].AnimationData.ParentAnimation 1
+setfield Animations[3].AnimationData.ProductionFlags VerifySoundEvents
+setfield Animations[3].AnimationData.InternalFlags ValidProductionChecksum
+# setfield Animations[3].AnimationData.NodeListChecksum 288679712
+# setfield Animations[3].AnimationData.ProductionChecksum 1714903333
+addblockelements Animations[3].AnimationData.SoundEvents
+
+setfield Modes[0].WeaponClass[0].WeaponType[0].Set.Actions[0].Animation 1
+
+# Melee strike 1
+setfield animations[8].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield Animations[8].AnimationData.ProductionFlags VerifySoundEvents
+setfield Animations[8].AnimationData.InternalFlags ValidProductionChecksum
+# setfield Animations[8].AnimationData.NodeListChecksum 288679712
+# setfield Animations[8].AnimationData.ProductionChecksum -342046372
+
+addblockelements Animations[8].AnimationData.FrameEvents 3
+setfield Animations[8].AnimationData.FrameEvents[0].Frame 4
+
+setfield Animations[8].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+setfield Animations[8].AnimationData.FrameEvents[1].Frame 14
+
+setfield Animations[8].AnimationData.FrameEvents[2].TypeED AllowInterruption
+setfield Animations[8].AnimationData.FrameEvents[2].Frame 23
+
+addblockelements Animations[8].AnimationData.SoundEvents
+setfield Animations[8].AnimationData.SoundEvents[0].Sound 1
+
+# Melee strike 2
+setfield Animations[9].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield Animations[9].AnimationData.ProductionFlags VerifySoundEvents
+setfield Animations[9].AnimationData.InternalFlags ValidProductionChecksum
+# setfield Animations[9].AnimationData.NodeListChecksum 288679712
+# setfield Animations[9].AnimationData.ProductionChecksum -1741766471
+
+addblockelements Animations[9].AnimationData.FrameEvents 3
+setfield Animations[9].AnimationData.FrameEvents[0].Frame 4
+
+setfield Animations[9].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+setfield Animations[9].AnimationData.FrameEvents[1].Frame 14
+
+setfield Animations[9].AnimationData.FrameEvents[2].TypeED AllowInterruption
+setfield Animations[9].AnimationData.FrameEvents[2].Frame 23
+
+addblockelements Animations[9].AnimationData.SoundEvents
+setfield Animations[9].AnimationData.SoundEvents[0].Sound 2
+
+# Overheat
+setfield animations[11].PlaybackFlags DisableWeaponIk
+setfield animations[12].PlaybackFlags DisableWeaponIk
+setfield animations[13].PlaybackFlags DisableWeaponIk
+
+# Posing
+setfield Animations[16].Weight 0.5
+setfield Animations[16].AnimationData.NextAnimation 17
+
+setfield animations[16].PlaybackFlags DisableWeaponIk
+setfield Animations[16].AnimationData.ProductionFlags VerifySoundEvents
+setfield Animations[16].AnimationData.InternalFlags ValidProductionChecksum
+# setfield Animations[16].AnimationData.NodeListChecksum 288679712
+# setfield Animations[16].AnimationData.ProductionChecksum -1957249235
+
+addblockelements Animations[16].AnimationData.SoundEvents
+setfield Animations[16].AnimationData.SoundEvents[0].Sound 3
+
+setfield Animations[17].Weight 1
+setfield Animations[17].AnimationData.ParentAnimation 16
+
+setfield animations[17].PlaybackFlags DisableWeaponIk
+setfield Animations[17].AnimationData.ProductionFlags VerifySoundEvents
+setfield Animations[17].AnimationData.InternalFlags ValidProductionChecksum
+# setfield Animations[17].AnimationData.NodeListChecksum 288679712
+# setfield Animations[17].AnimationData.ProductionChecksum 519739952
+
+addblockelements Animations[17].AnimationData.SoundEvents
+setfield Animations[17].AnimationData.SoundEvents[0].Sound 4
+
+setfield Modes[0].WeaponClass[0].WeaponType[0].Set.Actions[6].Animation 16
+
+# Ready
+addblockelements Animations[19].AnimationData.SoundEvents
+setfield Animations[19].AnimationData.SoundEvents[0].Sound 5
+
+# Sprint
+setfield animations[20].PlaybackFlags ForceWeaponIkOn
+setfield animations[21].PlaybackFlags DisableWeaponAim1stPerson,ForceWeaponIkOn
+setfield animations[22].PlaybackFlags ForceWeaponIkOn
+
+# THrow equipment, grenade, overheated
+addblockelements Animations[24].AnimationData.FrameEvents
+setfield Animations[24].AnimationData.FrameEvents[0].Frame 12
+
+addblockelements Animations[25].AnimationData.FrameEvents
+setfield Animations[25].AnimationData.FrameEvents[0].Frame 10
+
+setfield animations[26].PlaybackFlags DisableWeaponIk
+addblockelements Animations[26].AnimationData.FrameEvents
+setfield Animations[26].AnimationData.FrameEvents[0].Frame 10
+savetagchanges
+exit
+
+echo ----------------------------------------------
+echo |                   ELITE                    |
+echo ----------------------------------------------
+# BUT SUDDENLY
+# I'M BREAKING DOWN THE PACT
+# IT'S SOMETHING I SHOULD KNOW
+# THE HARDEST ALWAYS STAY FOR THE LULLABY
+# THROUGH TO THE PAIN, I GO
+# SAY I'M AT THE END
+# BUT SUDDENLY
+
+edittag objects\characters\dervish\fp\weapons\rifle\fp_beam_rifle\fp_beam_rifle.model_animation_graph
+setfield SoundReferences[3].Reference sound\weapons\beam_rifle\fp_beam_rifle\fp_beam_posing_var1.sound
+
+addanimation workingdir\animations\elite_fp\enashh2a_beamrifle
+
+# Fire 1
+setfield Animations[1].Weight 0.3333333
+setfield Animations[1].AnimationData.NextAnimation 2
+setfield Animations[1].AnimationData.ProductionFlags VerifySoundEvents
+setfield Animations[1].AnimationData.InternalFlags ValidProductionChecksum
+addblockelements Animations[1].AnimationData.SoundEvents
+setfield Animations[1].AnimationData.SoundEvents[0].Frame 1
+
+setfield Animations[2].Weight 0.6666667
+setfield Animations[2].AnimationData.ParentAnimation 1
+setfield Animations[2].AnimationData.NextAnimation 3
+setfield Animations[2].AnimationData.ProductionFlags VerifySoundEvents
+setfield Animations[2].AnimationData.InternalFlags ValidProductionChecksum
+addblockelements Animations[2].AnimationData.SoundEvents
+setfield Animations[2].AnimationData.SoundEvents[0].Frame 1
+
+setfield Animations[3].Weight 1
+setfield Animations[3].AnimationData.ParentAnimation 1
+setfield Animations[3].AnimationData.ProductionFlags VerifySoundEvents
+setfield Animations[3].AnimationData.InternalFlags ValidProductionChecksum
+addblockelements Animations[3].AnimationData.SoundEvents
+setfield Animations[3].AnimationData.SoundEvents[0].Frame 1
+
+setfield Modes[0].WeaponClass[0].WeaponType[0].Set.Actions[0].Animation 1
+
+# Melee strike 1
+setfield animations[8].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield Animations[8].AnimationData.ProductionFlags VerifySoundEvents
+setfield Animations[8].AnimationData.InternalFlags ValidProductionChecksum
+
+addblockelements Animations[8].AnimationData.FrameEvents 3
+setfield Animations[8].AnimationData.FrameEvents[0].Frame 4
+
+setfield Animations[8].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+setfield Animations[8].AnimationData.FrameEvents[1].Frame 14
+
+setfield Animations[8].AnimationData.FrameEvents[2].TypeED AllowInterruption
+setfield Animations[8].AnimationData.FrameEvents[2].Frame 23
+
+addblockelements Animations[8].AnimationData.SoundEvents
+setfield Animations[8].AnimationData.SoundEvents[0].Sound 2
+
+# Melee strike 2
+setfield Animations[9].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield Animations[9].AnimationData.ProductionFlags VerifySoundEvents
+setfield Animations[9].AnimationData.InternalFlags ValidProductionChecksum
+
+addblockelements Animations[9].AnimationData.FrameEvents 3
+setfield Animations[9].AnimationData.FrameEvents[0].Frame 4
+
+setfield Animations[9].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+setfield Animations[9].AnimationData.FrameEvents[1].Frame 14
+
+setfield Animations[9].AnimationData.FrameEvents[2].TypeED AllowInterruption
+setfield Animations[9].AnimationData.FrameEvents[2].Frame 23
+
+addblockelements Animations[9].AnimationData.SoundEvents
+setfield Animations[9].AnimationData.SoundEvents[0].Sound 5
+
+# Overheat
+setfield animations[11].PlaybackFlags DisableWeaponIk
+setfield animations[12].PlaybackFlags DisableWeaponIk
+setfield animations[13].PlaybackFlags DisableWeaponIk
+
+# Posing
+setfield Animations[16].Weight 0.5
+setfield Animations[16].AnimationData.NextAnimation 26
+
+setfield animations[16].PlaybackFlags DisableWeaponIk
+setfield Animations[16].AnimationData.ProductionFlags VerifySoundEvents
+setfield Animations[16].AnimationData.InternalFlags ValidProductionChecksum
+
+addblockelements Animations[16].AnimationData.SoundEvents
+setfield Animations[16].AnimationData.SoundEvents[0].Sound 4
+setfield Animations[16].AnimationData.SoundEvents[0].Frame 1
+
+setfield Animations[26].Weight 1
+setfield Animations[26].AnimationData.ParentAnimation 16
+
+setfield animations[26].PlaybackFlags DisableWeaponIk
+setfield Animations[26].AnimationData.ProductionFlags VerifySoundEvents
+setfield Animations[26].AnimationData.InternalFlags ValidProductionChecksum
+
+addblockelements Animations[26].AnimationData.SoundEvents
+setfield Animations[26].AnimationData.SoundEvents[0].Sound 3
+
+setfield Modes[0].WeaponClass[0].WeaponType[0].Set.Actions[6].Animation 16
+
+# Ready
+addblockelements Animations[18].AnimationData.SoundEvents
+setfield Animations[18].AnimationData.SoundEvents[0].Sound 1
+setfield Animations[18].AnimationData.SoundEvents[0].Frame 1
+
+# Sprint
+setfield Animations[19].PlaybackFlags ForceWeaponIkOn
+setfield Animations[20].PlaybackFlags ForceWeaponIkOn
+setfield animations[21].PlaybackFlags DisableWeaponAim1stPerson,ForceWeaponIkOn
+setfield animations[22].PlaybackFlags ForceWeaponIkOn
+
+# THrow equipment, grenade, overheated
+addblockelements Animations[23].AnimationData.FrameEvents
+setfield Animations[23].AnimationData.FrameEvents[0].Frame 12
+
+addblockelements Animations[24].AnimationData.FrameEvents
+setfield Animations[24].AnimationData.FrameEvents[0].Frame 10
+
+setfield animations[25].PlaybackFlags DisableWeaponIk
+addblockelements Animations[25].AnimationData.FrameEvents
+setfield Animations[25].AnimationData.FrameEvents[0].Frame 10
+savetagchanges
+exit
