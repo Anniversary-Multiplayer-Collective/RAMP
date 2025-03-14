@@ -147,6 +147,10 @@ setstring english spartan_helmet_mp_collar "Collar/Grenadier [UA]"
 setstring english spartan_helmet_mp_collar_description "Up-armored variant of the MJOLNIR [G] prototype."
 setstring english chest "Chest"
 setstring english body "Body Type"
+setstring english left_helmet_flair "Left HeadGear" 
+setstring english right_helmet_flair "Right HeadGear"
+setstring english top_helmet_flair "Top HeadGear"
+setstring english bottom_helmet_flair "Bottom HeadGear
 savetagchanges
 exit
 
