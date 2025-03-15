@@ -2112,6 +2112,11 @@ edittag ui\halox\main_menu\bungielogo.bitmap
 importbitmap 0 workingdir\bitmaps\amp-sig.dds
 exit
 
+# echo =Fixed up customization background (Was very pixelated and had bad banding) Also fits screens on both 16:9 and 21:9.
+edittag levels\ui\mainmenu\bitmaps\campaign_act3_background.bitmap
+importbitmap 0 workingdir\bitmaps\AuntieDot.dds
+exit
+
 AddModFiles workingdir\assets
 SaveModPackage "modsfolder\RAMP_2.pak"
 
