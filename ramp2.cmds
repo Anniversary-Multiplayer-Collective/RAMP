@@ -2107,6 +2107,11 @@ setfield PlayerCharacterCustomizations[0].RegionCameraScripts[7].BipedRotation 3
 savetagchanges
 exit
 
+# echo =Add AMP signature 
+edittag ui\halox\main_menu\bungielogo.bitmap
+importbitmap 0 workingdir\bitmaps\amp-sig.dds
+exit
+
 AddModFiles workingdir\assets
 SaveModPackage "modsfolder\RAMP_2.pak"
 
