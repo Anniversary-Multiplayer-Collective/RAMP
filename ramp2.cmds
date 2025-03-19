@@ -2085,11 +2085,17 @@ RunCommands "workingdir\cmds\EMP Effects.cmds"
 # echo == H2A Beam rifle animaton ==
 RunCommands "workingdir\cmds\enashh2abeamrifleanimation.cmds"
 
-# echo ==Nerf Magnum accuracy==
+# echo ==Nerf Magnum accuracy and firing penalties==
 edittag objects\weapons\pistol\magnum\magnum.weapon
 setfield Barrels[0].ProjectileErrorAngle 0.15 4
 setfield Barrels[0].ErrorDecelerationRate 1.538462
 setfield Barrels[0].ErrorAccelerationRate 30
+
+addblockelements Barrels[0].AccuracyPenalties.SingleWieldPenalties.FiringPenaltyFunction
+setfield Barrels[0].AccuracyPenalties.SingleWieldPenalties.FiringPenaltyFunction[0].Function.Data 08340000000000000000803F00000000000000006F12833A6F12033B3400000003000000040000CD295C8F3D704189409A99193F040000009A99993E00ACDB3D808A643F04000000FFFF7F7FE76C85BFBF6A9E3F
+addblockelements Barrels[0].AccuracyPenalties.SingleWieldPenalties.FiringCrouchedPenaltyFunction
+setfield Barrels[0].AccuracyPenalties.SingleWieldPenalties.FiringCrouchedPenaltyFunction[0].Function.Data 08340000000000000000803F00000000000000006F12833A6F12033B3400000003000000040000CD295C8F3D354D13401111113F04000000EC51983E560996BDBA9F3B3F04000000FFFF7F7FD4FC3BBF84F86D3F
+
 savetagchanges
 exit
 
