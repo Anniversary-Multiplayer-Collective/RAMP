@@ -68,8 +68,3 @@ SetField Modes[14].ModeIk[3].Marker left_foot
 SortModes
 SaveTagChanges
 Exit
-
-Echo == Ballistic Texture from ODST ==
-openmodpackage "workingdir\paks\odstballisticmetertexture.pak"
-applymodpackage
-exitmodpackage
