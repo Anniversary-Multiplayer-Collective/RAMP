@@ -1101,49 +1101,6 @@ setfield HudWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 0.6 0.6
 savetagchanges
 exit
 
-# Dual
-edittag ui\chud\spike_rifle.chud_definition
-copyblockelements HudWidgets 3 1
-exit
-
-edittag ui\chud\needler.chud_definition
-pasteblockelements HudWidgets
-
-setfield HudWidgets[6].PlacementData[0].Offset -18 0
-
-setfield HudWidgets[6].BitmapWidgets[0].PlacementData[0].Offset 45 90
-setfield HudWidgets[6].BitmapWidgets[0].PlacementData[0].Scale -0.9 0.9
-setfield HudWidgets[6].BitmapWidgets[0].PlacementData[0].Origin 1 0
-setfield HudWidgets[6].BitmapWidgets[0].Bitmap ui\chud\bitmaps\ballistic_meters_hr.bitmap
-setfield HudWidgets[6].BitmapWidgets[0].BitmapSequenceIndex 0
-
-setfield HudWidgets[6].BitmapWidgets[1].PlacementData[0].Offset 21 35
-setfield HudWidgets[6].BitmapWidgets[1].PlacementData[0].Scale -0.36 0.36
-setfield HudWidgets[6].BitmapWidgets[1].BitmapSequenceIndex 6
-
-setfield HudWidgets[6].TextWidgets[0].PlacementData[0].Scale 0.48 0.45
-setfield HudWidgets[6].TextWidgets[0].PlacementData[0].Offset 81 57
-setfield HudWidgets[6].TextWidgets[0].RenderData[0].LocalColorA 0 255 255 255
-setfield HudWidgets[6].TextWidgets[0].RenderData[0].ShaderType Simple
-setfield HudWidgets[6].TextWidgets[0].RenderData[0].OutputColorA LocalA
-setfield HudWidgets[6].TextWidgets[0].RenderData[0].OutputColorB LocalA
-setfield HudWidgets[6].TextWidgets[0].Font SplitscreenHudMessage
-
-setfield HudWidgets[6].TextWidgets[1].PlacementData[0].Offset 81 57
-setfield HudWidgets[6].TextWidgets[1].PlacementData[0].Scale 0.48 0.45
-setfield HudWidgets[6].TextWidgets[1].RenderData[0].ShaderType Simple
-setfield HudWidgets[6].TextWidgets[1].Font SplitscreenHudMessage
-
-setfield HudWidgets[6].BitmapWidgets[0].RuntimeWidgetIndex 10
-setfield HudWidgets[6].BitmapWidgets[1].RuntimeWidgetIndex 11
-setfield HudWidgets[6].BitmapWidgets[2].RuntimeWidgetIndex 12
-setfield HudWidgets[4].TextWidgets[0].WidgetIndex 13
-setfield HudWidgets[4].TextWidgets[1].WidgetIndex 14
-
-setfield HudWidgets[2].BitmapWidgets[0].StateData[0].WeaponArmedStateHO RightHand,LeftHand
-savetagchanges
-exit
-
 # ----------------------------------------------------------------
 # I                        NEEDLE RIFLE                          I
 # ----------------------------------------------------------------
@@ -1691,6 +1648,53 @@ setfield HudWidgets[3].TextWidgets[1].RenderData[0].ShaderType Simple
 setfield HudWidgets[3].TextWidgets[1].RenderData[0].LocalColorA 0 219 219 219
 setfield HudWidgets[3].TextWidgets[1].Font SplitscreenHudMessage
 
+savetagchanges
+exit
+
+# ----------------------------------------------------------------
+# I                     NEEDLER DUAL WIELD                       I
+# ----------------------------------------------------------------
+
+# Dual
+edittag ui\chud\spike_rifle.chud_definition
+copyblockelements HudWidgets 3 1
+exit
+
+edittag ui\chud\needler.chud_definition
+pasteblockelements HudWidgets
+
+setfield HudWidgets[6].PlacementData[0].Offset -18 0
+
+setfield HudWidgets[6].BitmapWidgets[0].PlacementData[0].Offset 45 90
+setfield HudWidgets[6].BitmapWidgets[0].PlacementData[0].Scale -0.9 0.9
+setfield HudWidgets[6].BitmapWidgets[0].PlacementData[0].Origin 1 0
+setfield HudWidgets[6].BitmapWidgets[0].Bitmap ui\chud\bitmaps\ballistic_meters_hr.bitmap
+setfield HudWidgets[6].BitmapWidgets[0].BitmapSequenceIndex 0
+
+setfield HudWidgets[6].BitmapWidgets[1].PlacementData[0].Offset 21 35
+setfield HudWidgets[6].BitmapWidgets[1].PlacementData[0].Scale -0.36 0.36
+setfield HudWidgets[6].BitmapWidgets[1].BitmapSequenceIndex 6
+
+setfield HudWidgets[6].TextWidgets[0].PlacementData[0].Scale 0.48 0.45
+setfield HudWidgets[6].TextWidgets[0].PlacementData[0].Offset 81 57
+setfield HudWidgets[6].TextWidgets[0].RenderData[0].LocalColorA 0 255 255 255
+setfield HudWidgets[6].TextWidgets[0].RenderData[0].ShaderType Simple
+setfield HudWidgets[6].TextWidgets[0].RenderData[0].OutputColorA LocalA
+setfield HudWidgets[6].TextWidgets[0].RenderData[0].OutputColorB LocalA
+setfield HudWidgets[6].TextWidgets[0].Font SplitscreenHudMessage
+
+setfield HudWidgets[6].TextWidgets[1].PlacementData[0].Offset 81 57
+setfield HudWidgets[6].TextWidgets[1].PlacementData[0].Scale 0.48 0.45
+setfield HudWidgets[6].TextWidgets[1].RenderData[0].ShaderType Simple
+setfield HudWidgets[6].TextWidgets[1].Font SplitscreenHudMessage
+
+setfield HudWidgets[6].BitmapWidgets[0].RuntimeWidgetIndex 10
+setfield HudWidgets[6].BitmapWidgets[1].RuntimeWidgetIndex 11
+setfield HudWidgets[6].BitmapWidgets[2].RuntimeWidgetIndex 12
+setfield HudWidgets[4].TextWidgets[0].WidgetIndex 13
+setfield HudWidgets[4].TextWidgets[1].WidgetIndex 14
+
+setfield HudWidgets[2].BitmapWidgets[0].StateData[0].WeaponArmedStateHO RightHand,LeftHand
 savetagchanges
 exit
 
