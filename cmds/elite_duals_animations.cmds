@@ -1,0 +1,703 @@
+# For me this is the whole world
+
+# -----------------------------------------------------------------------------------
+# |                                      MAGNUM                                     |
+# -----------------------------------------------------------------------------------
+
+edittag dw3\r3ach\objects\weapons\pistol\magnum\animations\fp_elite\fp_elite.model_animation_graph
+addblockelements SoundReferences 8
+setfield SoundReferences[8].Reference sound\weapons\magnum\magnum_fp\magnum_dual_ready.sound
+setfield SoundReferences[8].Flags LeftArmOnly
+
+setfield SoundReferences[9].Reference sound\weapons\magnum\magnum_fp\magnum_dual_ready_right.sound
+setfield SoundReferences[9].Flags RightArmOnly
+
+setfield SoundReferences[10].Reference sound\weapons\magnum\magnum_fp\magnum_dual_reload_left.sound
+setfield SoundReferences[10].Flags LeftArmOnly
+
+setfield SoundReferences[11].Reference sound\weapons\magnum\magnum_fp\magnum_dual_reload_right.sound
+setfield SoundReferences[11].Flags RightArmOnly
+
+setfield SoundReferences[12].Reference sound\weapons\magnum\magnum_fp\magnum_dual_pose2_left.sound
+setfield SoundReferences[12].Flags LeftArmOnly,FirstPersonOnly
+
+setfield SoundReferences[13].Reference sound\weapons\magnum\magnum_fp\magnum_dual_pose2_left.sound
+setfield SoundReferences[13].Flags RightArmOnly,FirstPersonOnly
+
+setfield SoundReferences[14].Reference sound\weapons\magnum\magnum_fp\magnum_dual_pose_left.sound
+setfield SoundReferences[14].Flags LeftArmOnly,FirstPersonOnly
+
+setfield SoundReferences[15].Reference sound\weapons\magnum\magnum_fp\magnum_dual_pose_left.sound
+setfield SoundReferences[15].Flags RightArmOnly,FirstPersonOnly
+
+addanimation workingdir\animations\elite_fp\_duals\magnum
+savetagchanges
+exit
+
+edittag dw3\r3ach\objects\weapons\pistol\magnum\animations\fp_elite\fp_elite.model_animation_graph
+sortmodes
+
+# FIRE_1
+setfield Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[0].Animation 29
+
+setfield Animations[29].Weight 0.25
+setfield Animations[29].AnimationData.NextAnimation 30
+setfield Animations[29].AnimationData.ParentAnimation -1
+
+setfield Animations[30].Weight 0.5
+setfield Animations[30].AnimationData.NextAnimation 31
+setfield Animations[30].AnimationData.ParentAnimation 29
+
+setfield Animations[31].Weight 0.75
+setfield Animations[31].AnimationData.NextAnimation 32
+setfield Animations[31].AnimationData.ParentAnimation 29
+
+setfield Animations[32].Weight 1
+setfield Animations[32].AnimationData.NextAnimation -1
+setfield Animations[32].AnimationData.ParentAnimation 29
+
+# IDLE
+setfield Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[1].Animation 33
+
+setfield Animations[33].Weight 0.3846154
+setfield Animations[33].AnimationData.NextAnimation 34
+
+setfield Animations[34].Weight 0.6923077
+setfield Animations[34].AnimationData.NextAnimation 35
+setfield Animations[34].AnimationData.ParentAnimation 33
+
+setfield Animations[35].Weight 1
+setfield Animations[35].AnimationData.ParentAnimation 33
+
+# PITCH AND TURN
+setfield Animations[41].AnimationData.BlendScreen 0
+
+# POSING
+setfield Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[4].Animation 42
+
+setfield Animations[42].Weight 0.5
+addblockelements Animations[42].AnimationData.SoundEvents 2
+setfield Animations[42].AnimationData.SoundEvents[1].Sound 14
+setfield Animations[42].AnimationData.SoundEvents[0].Sound 15
+setfield Animations[42].AnimationData.NextAnimation 43
+
+setfield Animations[43].Weight 1
+addblockelements Animations[43].AnimationData.SoundEvents 2
+setfield Animations[43].AnimationData.SoundEvents[1].Sound 12
+setfield Animations[43].AnimationData.SoundEvents[0].Sound 13
+setfield Animations[43].AnimationData.ParentAnimation 42
+
+# READY
+setfield Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[2].Animation 45
+
+setfield Animations[45].Weight 0.3846154
+setfield Animations[45].AnimationData.NextAnimation 46
+addblockelements Animations[45].AnimationData.SoundEvents 2
+setfield Animations[45].AnimationData.SoundEvents[0].Sound 8
+setfield Animations[45].AnimationData.SoundEvents[0].Frame 1
+setfield Animations[45].AnimationData.SoundEvents[1].Sound 9
+setfield Animations[45].AnimationData.SoundEvents[1].Frame 1
+
+setfield Animations[46].Weight 0.6923077
+setfield Animations[46].AnimationData.NextAnimation 47
+setfield Animations[46].AnimationData.ParentAnimation 45
+addblockelements Animations[46].AnimationData.SoundEvents 2
+setfield Animations[46].AnimationData.SoundEvents[0].Sound 8
+setfield Animations[46].AnimationData.SoundEvents[0].Frame 1
+setfield Animations[46].AnimationData.SoundEvents[1].Sound 9
+setfield Animations[46].AnimationData.SoundEvents[1].Frame 1
+
+setfield Animations[47].Weight 1
+setfield Animations[47].AnimationData.ParentAnimation 45
+addblockelements Animations[47].AnimationData.SoundEvents 2
+setfield Animations[47].AnimationData.SoundEvents[0].Sound 8
+setfield Animations[47].AnimationData.SoundEvents[0].Frame 1
+setfield Animations[47].AnimationData.SoundEvents[1].Sound 9
+setfield Animations[47].AnimationData.SoundEvents[1].Frame 1
+
+# RELOAD
+setfield Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[5].Animation 48
+setfield Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[6].Animation 52
+
+setfield Animations[48].Weight 0.25
+setfield Animations[48].AnimationData.NextAnimation 49
+addblockelements Animations[48].AnimationData.FrameEvents 2
+setfield Animations[48].AnimationData.FrameEvents[0].Frame 45
+setfield Animations[48].AnimationData.FrameEvents[1].TypeED AllowInterruption
+setfield Animations[48].AnimationData.FrameEvents[1].Frame 100
+addblockelements Animations[48].AnimationData.SoundEvents 2
+setfield Animations[48].AnimationData.SoundEvents[0].Sound 10
+setfield Animations[48].AnimationData.SoundEvents[0].Frame 1
+setfield Animations[48].AnimationData.SoundEvents[1].Sound 11
+setfield Animations[48].AnimationData.SoundEvents[1].Frame 1
+
+setfield Animations[49].Weight 0.5
+setfield Animations[49].AnimationData.NextAnimation 50
+setfield Animations[49].AnimationData.ParentAnimation 48
+addblockelements Animations[49].AnimationData.FrameEvents 2
+setfield Animations[49].AnimationData.FrameEvents[0].Frame 45
+setfield Animations[49].AnimationData.FrameEvents[1].TypeED AllowInterruption
+setfield Animations[49].AnimationData.FrameEvents[1].Frame 100
+addblockelements Animations[49].AnimationData.SoundEvents 2
+setfield Animations[49].AnimationData.SoundEvents[0].Sound 10
+setfield Animations[49].AnimationData.SoundEvents[0].Frame 1
+setfield Animations[49].AnimationData.SoundEvents[1].Sound 11
+setfield Animations[49].AnimationData.SoundEvents[1].Frame 1
+
+setfield Animations[50].Weight 0.75
+setfield Animations[50].AnimationData.NextAnimation 51
+setfield Animations[50].AnimationData.ParentAnimation 48
+addblockelements Animations[50].AnimationData.FrameEvents 2
+setfield Animations[50].AnimationData.FrameEvents[0].Frame 45
+setfield Animations[50].AnimationData.FrameEvents[1].TypeED AllowInterruption
+setfield Animations[50].AnimationData.FrameEvents[1].Frame 100
+addblockelements Animations[50].AnimationData.SoundEvents 2
+setfield Animations[50].AnimationData.SoundEvents[0].Sound 10
+setfield Animations[50].AnimationData.SoundEvents[0].Frame 1
+setfield Animations[50].AnimationData.SoundEvents[1].Sound 11
+setfield Animations[50].AnimationData.SoundEvents[1].Frame 1
+
+setfield Animations[51].Weight 1
+setfield Animations[51].AnimationData.ParentAnimation 48
+addblockelements Animations[51].AnimationData.FrameEvents 2
+setfield Animations[51].AnimationData.FrameEvents[0].Frame 45
+setfield Animations[51].AnimationData.FrameEvents[1].TypeED AllowInterruption
+setfield Animations[51].AnimationData.FrameEvents[1].Frame 100
+addblockelements Animations[51].AnimationData.SoundEvents 2
+setfield Animations[51].AnimationData.SoundEvents[0].Sound 10
+setfield Animations[51].AnimationData.SoundEvents[0].Frame 1
+setfield Animations[51].AnimationData.SoundEvents[1].Sound 11
+setfield Animations[51].AnimationData.SoundEvents[1].Frame 1
+
+setfield Animations[52].Weight 0.25
+setfield Animations[52].AnimationData.NextAnimation 53
+addblockelements Animations[52].AnimationData.FrameEvents 2
+setfield Animations[52].AnimationData.FrameEvents[0].Frame 45
+setfield Animations[52].AnimationData.FrameEvents[1].TypeED AllowInterruption
+setfield Animations[52].AnimationData.FrameEvents[1].Frame 100
+addblockelements Animations[52].AnimationData.SoundEvents 2
+setfield Animations[52].AnimationData.SoundEvents[0].Sound 10
+setfield Animations[52].AnimationData.SoundEvents[0].Frame 1
+setfield Animations[52].AnimationData.SoundEvents[1].Sound 11
+setfield Animations[52].AnimationData.SoundEvents[1].Frame 1
+
+setfield Animations[53].Weight 0.5
+setfield Animations[53].AnimationData.NextAnimation 54
+setfield Animations[53].AnimationData.ParentAnimation 52
+addblockelements Animations[53].AnimationData.FrameEvents 2
+setfield Animations[53].AnimationData.FrameEvents[0].Frame 45
+setfield Animations[53].AnimationData.FrameEvents[1].TypeED AllowInterruption
+setfield Animations[53].AnimationData.FrameEvents[1].Frame 100
+addblockelements Animations[53].AnimationData.SoundEvents 2
+setfield Animations[53].AnimationData.SoundEvents[0].Sound 10
+setfield Animations[53].AnimationData.SoundEvents[0].Frame 1
+setfield Animations[53].AnimationData.SoundEvents[1].Sound 11
+setfield Animations[53].AnimationData.SoundEvents[1].Frame 1
+
+setfield Animations[54].Weight 0.75
+setfield Animations[54].AnimationData.NextAnimation 55
+setfield Animations[54].AnimationData.ParentAnimation 52
+addblockelements Animations[54].AnimationData.FrameEvents 2
+setfield Animations[54].AnimationData.FrameEvents[0].Frame 45
+setfield Animations[54].AnimationData.FrameEvents[1].TypeED AllowInterruption
+setfield Animations[54].AnimationData.FrameEvents[1].Frame 100
+addblockelements Animations[54].AnimationData.SoundEvents 2
+setfield Animations[54].AnimationData.SoundEvents[0].Sound 10
+setfield Animations[54].AnimationData.SoundEvents[0].Frame 1
+setfield Animations[54].AnimationData.SoundEvents[1].Sound 11
+setfield Animations[54].AnimationData.SoundEvents[1].Frame 1
+
+setfield Animations[55].Weight 1
+setfield Animations[55].AnimationData.ParentAnimation 52
+addblockelements Animations[55].AnimationData.FrameEvents 2
+setfield Animations[55].AnimationData.FrameEvents[0].Frame 45
+setfield Animations[55].AnimationData.FrameEvents[1].TypeED AllowInterruption
+setfield Animations[55].AnimationData.FrameEvents[1].Frame 100
+addblockelements Animations[55].AnimationData.SoundEvents 2
+setfield Animations[55].AnimationData.SoundEvents[0].Sound 10
+setfield Animations[55].AnimationData.SoundEvents[0].Frame 1
+setfield Animations[55].AnimationData.SoundEvents[1].Sound 11
+setfield Animations[55].AnimationData.SoundEvents[1].Frame 1
+savetagchanges
+exit
+
+
+# -----------------------------------------------------------------------------------
+# |                                  PLASMA PISTOL                                  |
+# -----------------------------------------------------------------------------------
+
+edittag dw3\r3ach\objects\weapons\pistol\plasma_pistol\animations\fp_elite\fp_elite.model_animation_graph
+addanimation workingdir\animations\elite_fp\_duals\plasmapistol
+savetagchanges
+exit
+
+edittag dw3\r3ach\objects\weapons\pistol\plasma_pistol\animations\fp_elite\fp_elite.model_animation_graph
+sortmodes
+
+addblockelements SoundReferences 10
+setfield SoundReferences[9].Reference dw3\r3ach\sound\weapons\plasma_pistol\plaspistol_fp\plaspistol_dual_overheat_exit_l.sound
+setfield SoundReferences[9].Flags LeftArmOnly
+
+setfield SoundReferences[10].Reference dw3\r3ach\sound\weapons\plasma_pistol\plaspistol_fp\plaspistol_dual_overheat_exit_r.sound
+setfield SoundReferences[10].Flags RightArmOnly
+
+setfield SoundReferences[11].Reference dw3\r3ach\sound\weapons\plasma_pistol\plaspistol_fp\plaspistol_dual_overheat_l.sound
+setfield SoundReferences[11].Flags LeftArmOnly
+
+setfield SoundReferences[12].Reference dw3\r3ach\sound\weapons\plasma_pistol\plaspistol_fp\plaspistol_dual_overheat_r.sound
+setfield SoundReferences[12].Flags RightArmOnly
+
+setfield SoundReferences[13].Reference sound\weapons\plasma_pistol\plaspistol_fp\plasma_pistol_dual_pose0_left.sound
+setfield SoundReferences[13].Flags LeftArmOnly,FirstPersonOnly
+
+setfield SoundReferences[14].Reference sound\weapons\plasma_pistol\plaspistol_fp\plasma_pistol_dual_pose0_right.sound
+setfield SoundReferences[14].Flags RightArmOnly,FirstPersonOnly
+
+setfield SoundReferences[15].Reference sound\weapons\plasma_pistol\plaspistol_fp\plasma_pistol_dual_pose1_left.sound
+setfield SoundReferences[15].Flags LeftArmOnly,FirstPersonOnly
+
+setfield SoundReferences[16].Reference sound\weapons\plasma_pistol\plaspistol_fp\plasma_pistol_dual_pose1_right.sound
+setfield SoundReferences[16].Flags RightArmOnly,ForwardOnly
+
+setfield SoundReferences[17].Reference sound\weapons\plasma_pistol\plaspistol_fp\plasma_pistol_dual_ready0_left.sound
+setfield SoundReferences[17].Flags LeftArmOnly
+
+setfield SoundReferences[18].Reference sound\weapons\plasma_pistol\plaspistol_fp\plasma_pistol_dual_ready0_right.sound
+setfield SoundReferences[18].Flags RightArmOnly
+
+
+# FIRE
+setfield Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[0].Animation 34
+
+setfield Animations[34].Weight 0.4861111
+setfield Animations[34].AnimationData.NextAnimation 35
+
+setfield Animations[35].Weight 0.7638889
+setfield Animations[35].AnimationData.NextAnimation 36
+setfield Animations[35].AnimationData.ParentAnimation 34
+
+setfield Animations[36].Weight 1
+setfield Animations[36].AnimationData.ParentAnimation 34
+
+# FIRE 2
+addblockelements Animations[37].AnimationData.SoundEvents 2
+setfield Animations[37].AnimationData.SoundEvents[0].Sound 11
+setfield Animations[37].AnimationData.SoundEvents[1].Sound 12
+
+# IDLE
+setfield Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[2].Animation 38
+
+setfield Animations[38].Weight 0.3333333
+setfield Animations[38].AnimationData.NextAnimation 39
+
+setfield Animations[39].Weight 0.6666667
+setfield Animations[39].AnimationData.ParentAnimation 38
+setfield Animations[39].AnimationData.NextAnimation 40
+
+setfield Animations[40].Weight 1
+setfield Animations[40].AnimationData.ParentAnimation 38
+
+# OVERCHARGED
+setfield Animations[45].LoopFrameIndex 16
+
+# OVERHEATING
+addblockelements Animations[47].AnimationData.SoundEvents 2
+setfield Animations[47].AnimationData.SoundEvents[0].Sound 11
+setfield Animations[47].AnimationData.SoundEvents[1].Sound 12
+
+# OVERHEAT EXIT
+addblockelements Animations[49].AnimationData.SoundEvents 2
+setfield Animations[49].AnimationData.SoundEvents[0].Sound 9
+setfield Animations[49].AnimationData.SoundEvents[1].Sound 10
+
+# PITCH AND TURN
+setfield Animations[50].AnimationData.BlendScreen 0
+
+# POSING
+addblockelements Animations[51].AnimationData.SoundEvents 2
+setfield Animations[51].AnimationData.SoundEvents[0].Sound 13
+setfield Animations[51].AnimationData.SoundEvents[1].Sound 14
+
+# READY
+addblockelements Animations[53].AnimationData.SoundEvents 2
+setfield Animations[53].AnimationData.SoundEvents[0].Sound 17
+setfield Animations[53].AnimationData.SoundEvents[1].Sound 18
+savetagchanges
+exit
+
+# -----------------------------------------------------------------------------------
+# |                                   PLASMA RIFLE                                  |
+# -----------------------------------------------------------------------------------
+
+edittag dw3\r3ach\objects\weapons\rifle\plasma_rifle\animations\fp_elite\fp_elite.model_animation_graph
+addanimation workingdir\animations\elite_fp\_duals\plasmarifle
+savetagchanges
+exit
+
+edittag dw3\r3ach\objects\weapons\rifle\plasma_rifle\animations\fp_elite\fp_elite.model_animation_graph
+sortmodes
+
+addblockelements SoundReferences 12
+
+setfield SoundReferences[9].Reference dw3\r3ach\sound\weapons\plasma_rifle\plasrifle\plasmarifle_dual_ohexit_l.sound
+setfield SoundReferences[9].Flags LeftArmOnly
+
+setfield SoundReferences[10].Reference dw3\r3ach\sound\weapons\plasma_rifle\plasrifle\plasmarifle_dual_ohexit_r.sound
+setfield SoundReferences[10].Flags RightArmOnly
+
+setfield SoundReferences[11].Reference dw3\r3ach\sound\weapons\plasma_rifle\plasrifle\plasmarifle_dual_oh_l.sound
+setfield SoundReferences[11].Flags LeftArmOnly
+
+setfield SoundReferences[12].Reference dw3\r3ach\sound\weapons\plasma_rifle\plasrifle\plasmarifle_dual_oh_r.sound
+setfield SoundReferences[12].Flags RightArmOnly
+
+setfield SoundReferences[13].Reference sound\weapons\plasma_rifle\plasrifle_dual_pose0_l.sound
+setfield SoundReferences[13].Flags LeftArmOnly,FirstPersonOnly
+
+setfield SoundReferences[14].Reference sound\weapons\plasma_rifle\plasrifle_dual_pose0_r.sound
+setfield SoundReferences[14].Flags RightArmOnly,FirstPersonOnly
+
+setfield SoundReferences[15].Reference sound\weapons\plasma_rifle\plasrifle_dual_pose1_l.sound
+setfield SoundReferences[15].Flags LeftArmOnly,FirstPersonOnly
+
+setfield SoundReferences[16].Reference sound\weapons\plasma_rifle\plasrifle_dual_pose1_r.sound
+setfield SoundReferences[16].Flags RightArmOnly,FirstPersonOnly
+
+setfield SoundReferences[17].Reference sound\weapons\plasma_rifle\plasrifle_dual_pose2_l.sound
+setfield SoundReferences[17].Flags LeftArmOnly,FirstPersonOnly
+
+setfield SoundReferences[18].Reference sound\weapons\plasma_rifle\plasrifle_dual_pose2_r.sound
+setfield SoundReferences[18].Flags AllowOnPlayer,RightArmOnly,FirstPersonOnly
+
+setfield SoundReferences[19].Reference dw3\r3ach\sound\weapons\plasma_rifle\plasrifle\plasmarifle_dual_ready_l.sound
+setfield SoundReferences[19].Flags LeftArmOnly
+
+# I'm stupid
+setfield SoundReferences[8].Reference dw3\r3ach\sound\weapons\plasma_rifle\plasrifle\plasmarifle_dual_ready_r.sound
+setfield SoundReferences[8].Flags RightArmOnly
+
+# FIRE
+setfield Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[0].Animation 31
+
+setfield Animations[31].Weight 0.34
+setfield Animations[31].AnimationData.NextAnimation 32
+
+setfield Animations[32].Weight 0.67
+setfield Animations[32].AnimationData.NextAnimation 33
+setfield Animations[32].AnimationData.ParentAnimation 31
+
+setfield Animations[33].Weight 1
+setfield Animations[33].AnimationData.ParentAnimation 31
+
+# OVERHEATING
+addblockelements Animations[40].AnimationData.SoundEvents 2
+setfield Animations[40].AnimationData.SoundEvents[0].Sound 11
+setfield Animations[40].AnimationData.SoundEvents[1].Sound 12
+
+# OVERHEAT EXIT
+addblockelements Animations[42].AnimationData.SoundEvents 2
+setfield Animations[42].AnimationData.SoundEvents[0].Sound 9
+setfield Animations[42].AnimationData.SoundEvents[1].Sound 10
+
+# PITCH AND TURN
+setfield Animations[43].AnimationData.BlendScreen 0
+
+# POSING
+setfield Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[4].Animation 44
+
+setfield Animations[44].Weight 0.1666533
+setfield Animations[44].AnimationData.NextAnimation 45
+addblockelements Animations[44].AnimationData.SoundEvents 2
+setfield Animations[44].AnimationData.SoundEvents[0].Sound 13
+setfield Animations[44].AnimationData.SoundEvents[0].Frame 1
+setfield Animations[44].AnimationData.SoundEvents[1].Sound 14
+setfield Animations[44].AnimationData.SoundEvents[1].Frame 1
+
+setfield Animations[45].Weight 0.49999
+setfield Animations[45].AnimationData.NextAnimation 46
+setfield Animations[45].AnimationData.ParentAnimation 44
+addblockelements Animations[45].AnimationData.SoundEvents 2
+setfield Animations[45].AnimationData.SoundEvents[0].Sound 15
+setfield Animations[45].AnimationData.SoundEvents[0].Frame 1
+setfield Animations[45].AnimationData.SoundEvents[1].Sound 16
+setfield Animations[45].AnimationData.SoundEvents[1].Frame 1
+
+setfield Animations[46].Weight 1
+setfield Animations[46].AnimationData.ParentAnimation 44
+addblockelements Animations[46].AnimationData.SoundEvents 2
+setfield Animations[46].AnimationData.SoundEvents[0].Sound 17
+setfield Animations[46].AnimationData.SoundEvents[0].Frame 1
+setfield Animations[46].AnimationData.SoundEvents[1].Sound 18
+setfield Animations[46].AnimationData.SoundEvents[1].Frame 1
+
+# READY
+addblockelements Animations[48].AnimationData.SoundEvents 2
+setfield Animations[48].AnimationData.SoundEvents[0].Sound 19
+setfield Animations[48].AnimationData.SoundEvents[1].Sound 8
+savetagchanges
+exit
+
+# -----------------------------------------------------------------------------------
+# |                                      SPIKER                                     |
+# -----------------------------------------------------------------------------------
+
+edittag dw3\r3ach\objects\weapons\rifle\spike_rifle\animations\fp_elite\fp_elite.model_animation_graph
+addanimation workingdir\animations\elite_fp\_duals\spiker
+savetagchanges
+exit
+
+edittag dw3\r3ach\objects\weapons\rifle\spike_rifle\animations\fp_elite\fp_elite.model_animation_graph
+sortmodes
+
+addblockelements SoundReferences 8
+
+setfield SoundReferences[4].Reference sound\weapons\spike_rifle\fp_spike_rifle\fp_spike_rifle_dual_ready_left.sound
+setfield SoundReferences[4].Flags LeftArmOnly
+
+setfield SoundReferences[5].Reference sound\weapons\spike_rifle\fp_spike_rifle\fp_spike_rifle_dual_ready_right.sound
+setfield SoundReferences[5].Flags RightArmOnly
+
+setfield SoundReferences[6].Reference sound\weapons\spike_rifle\fp_spike_rifle\fp_spike_rifle_dual_reload_full_left.sound
+setfield SoundReferences[6].Flags LeftArmOnly
+
+setfield SoundReferences[7].Reference sound\weapons\spike_rifle\fp_spike_rifle\fp_spike_rifle_dual_reload_full_right.sound
+setfield SoundReferences[7].Flags RightArmOnly
+
+setfield SoundReferences[8].Reference sound\weapons\spike_rifle\fp_spike_rifle\fp_spike_rifle_posing_dual_var1\fp_spike_rifle_posing_dual_var1_left.sound
+setfield SoundReferences[8].Flags LeftArmOnly,FirstPersonOnly
+
+setfield SoundReferences[9].Reference sound\weapons\spike_rifle\fp_spike_rifle\fp_spike_rifle_posing_dual_var1\fp_spike_rifle_posing_dual_var1_right.sound
+setfield SoundReferences[9].Flags RightArmOnly,FirstPersonOnly
+
+setfield SoundReferences[10].Reference sound\weapons\spike_rifle\fp_spike_rifle\fp_spike_rifle_posing_dual_var2\fp_spike_rifle_posing_dual_var2_left.sound
+setfield SoundReferences[10].Flags LeftArmOnly,FirstPersonOnly
+
+setfield SoundReferences[11].Reference sound\weapons\spike_rifle\fp_spike_rifle\fp_spike_rifle_posing_dual_var2\fp_spike_rifle_posing_dual_var2_right.sound
+setfield SoundReferences[11].Flags RightArmOnly,FirstPersonOnly
+
+# FIRE
+setfield Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[0].Animation 22
+
+setfield Animations[22].Weight 0.5
+setfield Animations[22].AnimationData.NextAnimation 23
+setfield Animations[23].Weight 1
+setfield Animations[23].AnimationData.ParentAnimation 22
+
+# IDLE
+setfield Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[1].Animation 24
+
+setfield Animations[24].Weight 0.5
+setfield Animations[24].AnimationData.NextAnimation 25
+
+setfield Animations[25].Weight 0.75
+setfield Animations[25].AnimationData.ParentAnimation 24
+setfield Animations[25].AnimationData.NextAnimation 26
+
+setfield Animations[26].Weight 1
+setfield Animations[26].AnimationData.ParentAnimation 24
+
+# PITCH AND TURN
+setfield Animations[32].AnimationData.BlendScreen 0
+
+# POSING
+setfield Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[4].Animation 33
+
+setfield Animations[33].Weight 0.5
+setfield Animations[33].AnimationData.NextAnimation 34
+addblockelements Animations[33].AnimationData.SoundEvents 2
+setfield Animations[33].AnimationData.SoundEvents[0].Sound 8
+setfield Animations[33].AnimationData.SoundEvents[1].Sound 9
+
+setfield Animations[34].Weight 1
+setfield Animations[34].AnimationData.ParentAnimation 33
+addblockelements Animations[34].AnimationData.SoundEvents 2
+setfield Animations[34].AnimationData.SoundEvents[0].Sound 10
+setfield Animations[34].AnimationData.SoundEvents[1].Sound 11
+
+# READY
+addblockelements Animations[36].AnimationData.SoundEvents 2
+setfield Animations[36].AnimationData.SoundEvents[0].Sound 4
+setfield Animations[36].AnimationData.SoundEvents[1].Sound 5
+
+# RELOAD
+setfield Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[5].Animation 37
+setfield Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[6].Animation 41
+
+setfield Animations[37].Weight 0.25
+setfield Animations[37].AnimationData.NextAnimation 38
+addblockelements Animations[37].AnimationData.FrameEvents 2
+setfield Animations[37].AnimationData.FrameEvents[0].Frame 60
+setfield Animations[37].AnimationData.FrameEvents[1].TypeED AllowInterruption
+setfield Animations[37].AnimationData.FrameEvents[1].Frame 100
+addblockelements Animations[37].AnimationData.SoundEvents 2
+setfield Animations[37].AnimationData.SoundEvents[0].Sound 6
+setfield Animations[37].AnimationData.SoundEvents[1].Sound 7
+
+setfield Animations[38].Weight 0.5
+setfield Animations[38].AnimationData.ParentAnimation 37
+setfield Animations[38].AnimationData.NextAnimation 39
+addblockelements Animations[38].AnimationData.FrameEvents 2
+setfield Animations[38].AnimationData.FrameEvents[0].Frame 60
+setfield Animations[38].AnimationData.FrameEvents[1].TypeED AllowInterruption
+setfield Animations[38].AnimationData.FrameEvents[1].Frame 100
+addblockelements Animations[38].AnimationData.SoundEvents 2
+setfield Animations[38].AnimationData.SoundEvents[0].Sound 6
+setfield Animations[38].AnimationData.SoundEvents[1].Sound 7
+
+setfield Animations[39].Weight 0.75
+setfield Animations[39].AnimationData.ParentAnimation 37
+setfield Animations[39].AnimationData.NextAnimation 40
+addblockelements Animations[39].AnimationData.FrameEvents 2
+setfield Animations[39].AnimationData.FrameEvents[0].Frame 60
+setfield Animations[39].AnimationData.FrameEvents[1].TypeED AllowInterruption
+setfield Animations[39].AnimationData.FrameEvents[1].Frame 100
+addblockelements Animations[39].AnimationData.SoundEvents 2
+setfield Animations[39].AnimationData.SoundEvents[0].Sound 6
+setfield Animations[39].AnimationData.SoundEvents[1].Sound 7
+
+setfield Animations[40].Weight 1
+setfield Animations[40].AnimationData.ParentAnimation 37
+addblockelements Animations[40].AnimationData.FrameEvents 2
+setfield Animations[40].AnimationData.FrameEvents[0].Frame 60
+setfield Animations[40].AnimationData.FrameEvents[1].TypeED AllowInterruption
+setfield Animations[40].AnimationData.FrameEvents[1].Frame 100
+addblockelements Animations[40].AnimationData.SoundEvents 2
+setfield Animations[40].AnimationData.SoundEvents[0].Sound 6
+setfield Animations[40].AnimationData.SoundEvents[1].Sound 7
+
+setfield Animations[41].Weight 0.25
+setfield Animations[41].AnimationData.NextAnimation 42
+addblockelements Animations[41].AnimationData.FrameEvents 2
+setfield Animations[41].AnimationData.FrameEvents[0].Frame 60
+setfield Animations[41].AnimationData.FrameEvents[1].TypeED AllowInterruption
+setfield Animations[41].AnimationData.FrameEvents[1].Frame 100
+addblockelements Animations[41].AnimationData.SoundEvents 2
+setfield Animations[41].AnimationData.SoundEvents[0].Sound 6
+setfield Animations[41].AnimationData.SoundEvents[1].Sound 7
+
+setfield Animations[42].Weight 0.5
+setfield Animations[42].AnimationData.ParentAnimation 41
+setfield Animations[42].AnimationData.NextAnimation 43
+addblockelements Animations[42].AnimationData.FrameEvents 2
+setfield Animations[42].AnimationData.FrameEvents[0].Frame 60
+setfield Animations[42].AnimationData.FrameEvents[1].TypeED AllowInterruption
+setfield Animations[42].AnimationData.FrameEvents[1].Frame 100
+addblockelements Animations[42].AnimationData.SoundEvents 2
+setfield Animations[42].AnimationData.SoundEvents[0].Sound 6
+setfield Animations[42].AnimationData.SoundEvents[1].Sound 7
+
+setfield Animations[43].Weight 0.75
+setfield Animations[43].AnimationData.ParentAnimation 41
+setfield Animations[43].AnimationData.NextAnimation 44
+addblockelements Animations[43].AnimationData.FrameEvents 2
+setfield Animations[43].AnimationData.FrameEvents[0].Frame 60
+setfield Animations[43].AnimationData.FrameEvents[1].TypeED AllowInterruption
+setfield Animations[43].AnimationData.FrameEvents[1].Frame 100
+addblockelements Animations[43].AnimationData.SoundEvents 2
+setfield Animations[43].AnimationData.SoundEvents[0].Sound 6
+setfield Animations[43].AnimationData.SoundEvents[1].Sound 7
+
+setfield Animations[44].Weight 1
+setfield Animations[44].AnimationData.ParentAnimation 41
+addblockelements Animations[44].AnimationData.FrameEvents 2
+setfield Animations[44].AnimationData.FrameEvents[0].Frame 60
+setfield Animations[44].AnimationData.FrameEvents[1].TypeED AllowInterruption
+setfield Animations[44].AnimationData.FrameEvents[1].Frame 100
+addblockelements Animations[44].AnimationData.SoundEvents 2
+setfield Animations[44].AnimationData.SoundEvents[0].Sound 6
+setfield Animations[44].AnimationData.SoundEvents[1].Sound 7
+savetagchanges
+exit
+
+# -----------------------------------------------------------------------------------
+# |                                     NEEDLER                                     |
+# -----------------------------------------------------------------------------------
+
+edittag dw3\r3ach\objects\weapons\pistol\needler\animations\fp_elite\fp_elite.model_animation_graph
+addanimation workingdir\animations\elite_fp\_duals\needler
+savetagchanges
+exit
+
+edittag dw3\r3ach\objects\weapons\pistol\needler\animations\fp_elite\fp_elite.model_animation_graph
+sortmodes
+
+addblockelements SoundReferences 8
+
+setfield SoundReferences[8].Reference dw3\r3ach\sound\weapons\needler\needler_fp\needler_dual_ready_l.sound
+setfield SoundReferences[8].Flags LeftArmOnly
+
+setfield SoundReferences[9].Reference dw3\r3ach\sound\weapons\needler\needler_fp\needler_dual_ready_r.sound
+setfield SoundReferences[9].Flags RightArmOnly
+
+setfield SoundReferences[10].Reference dw3\r3ach\sound\weapons\needler\needler_fp\needler_dual_reload_l.sound
+setfield SoundReferences[10].Flags LeftArmOnly
+
+setfield SoundReferences[11].Reference dw3\r3ach\sound\weapons\needler\needler_fp\needler_dual_reload_r.sound
+setfield SoundReferences[11].Flags RightArmOnly
+
+setfield SoundReferences[12].Reference sound\weapons\plasma_rifle\plasrifle_dual_pose0_l.sound
+setfield SoundReferences[12].Flags LeftArmOnly,FirstPersonOnly
+
+setfield SoundReferences[13].Reference sound\weapons\plasma_rifle\plasrifle_dual_pose0_r.sound
+setfield SoundReferences[13].Flags RightArmOnly,FirstPersonOnly
+
+setfield SoundReferences[14].Reference sound\weapons\plasma_rifle\plasrifle_dual_pose1_l.sound
+setfield SoundReferences[14].Flags LeftArmOnly,FirstPersonOnly
+
+setfield SoundReferences[15].Reference sound\weapons\plasma_rifle\plasrifle_dual_pose1_r.sound
+setfield SoundReferences[15].Flags RightArmOnly,FirstPersonOnly
+
+# FIRE
+setfield Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[0].Animation 28
+
+setfield Animations[28].Weight 0.34
+setfield Animations[28].AnimationData.NextAnimation 29
+
+setfield Animations[29].Weight 0.67
+setfield Animations[29].AnimationData.NextAnimation 30
+setfield Animations[29].AnimationData.ParentAnimation 28
+
+setfield Animations[30].Weight 1
+setfield Animations[30].AnimationData.ParentAnimation 28
+
+# PITCH AND TURN
+setfield Animations[37].AnimationData.BlendScreen 0
+
+# POSING
+setfield Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[4].Animation 38
+
+setfield Animations[38].Weight 0.5
+setfield Animations[38].AnimationData.NextAnimation 39
+addblockelements Animations[38].AnimationData.SoundEvents 2
+setfield Animations[38].AnimationData.SoundEvents[0].Sound 12
+setfield Animations[38].AnimationData.SoundEvents[1].Sound 13
+
+setfield Animations[39].Weight 1
+setfield Animations[39].AnimationData.ParentAnimation 38
+addblockelements Animations[39].AnimationData.SoundEvents 2
+setfield Animations[39].AnimationData.SoundEvents[0].Sound 14
+setfield Animations[39].AnimationData.SoundEvents[1].Sound 15
+
+# READY
+addblockelements Animations[41].AnimationData.SoundEvents 2
+setfield Animations[41].AnimationData.SoundEvents[0].Sound 8
+setfield Animations[41].AnimationData.SoundEvents[1].Sound 9
+
+# RELOAD
+addblockelements Animations[42].AnimationData.FrameEvents 2
+setfield Animations[42].AnimationData.FrameEvents[0].Frame 41
+setfield Animations[42].AnimationData.FrameEvents[1].TypeED AllowInterruption
+setfield Animations[42].AnimationData.FrameEvents[1].Frame 58
+addblockelements Animations[42].AnimationData.SoundEvents 2
+setfield Animations[42].AnimationData.SoundEvents[0].Sound 10
+setfield Animations[42].AnimationData.SoundEvents[1].Sound 11
+
+addblockelements Animations[43].AnimationData.FrameEvents 2
+setfield Animations[43].AnimationData.FrameEvents[0].Frame 41
+setfield Animations[43].AnimationData.FrameEvents[1].TypeED AllowInterruption
+setfield Animations[43].AnimationData.FrameEvents[1].Frame 58
+addblockelements Animations[43].AnimationData.SoundEvents 2
+setfield Animations[43].AnimationData.SoundEvents[0].Sound 10
+setfield Animations[43].AnimationData.SoundEvents[1].Sound 11
+savetagchanges
+exit

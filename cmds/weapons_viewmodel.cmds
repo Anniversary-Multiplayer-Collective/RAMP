@@ -23,6 +23,7 @@ foreach weap contains: objects\weapons\pistol\magnum SetField CenteredFirstPerso
 edittag objects\weapons\pistol\needler\needler.weapon
 setfield WeaponTypeName offset_needler
 setfield CenteredFirstPersonWeaponOffset 0 0 -0.01
+setfield FirstPersonWeaponOffset 0.01 0 0
 savetagchanges
 exit
 

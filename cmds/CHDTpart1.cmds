@@ -13,6 +13,11 @@ importbitmap 0 workingdir\bitmaps\weapon_scematics_ramp.dds
 savetagchanges
 exit
 
+edittag dw3\r3ach\ui\chud\bitmaps\weapon_icons.bitmap
+importbitmap 18 workingdir\bitmaps\target_locator_scematic.dds
+savetagchanges
+exit
+
 edittag ui\chud\bitmaps\hud_reticles.bitmap
 importbitmap 1 workingdir\bitmaps\spartanlaserunzoomed.dds
 importbitmap 2 workingdir\bitmaps\spartanlaserzoomed.dds
@@ -28,6 +33,25 @@ addblockelements Sequences[*].Sprites
 setfield Sequences[*].Sprites[0].BitmapIndex 2
 setfield Sequences[*].Sprites[0].Right 1
 setfield Sequences[*].Sprites[0].Bottom 1
+savetagchanges
+exit
+
+edittag ui\chud\bitmaps\hud_reticles_reach.bitm
+importbitmap 0 workingdir\bitmaps\HUD_Reticles_Reach\0.dds
+# importbitmap 1 workingdir\bitmaps\HUD_Reticles_Reach\1.dds
+importbitmap 2 workingdir\bitmaps\HUD_Reticles_Reach\2.dds
+setfield Sequences[2].Sprites[0].Left 1
+setfield Sequences[2].Sprites[0].Right 0
+setfield Sequences[2].Sprites[0].Top 1
+setfield Sequences[2].Sprites[0].Bottom 0
+savetagchanges
+exit
+
+edittag ms30\ui\chud\bitmaps\hud_reticles.bitm
+importbitmap 8 workingdir\bitmaps\HUD_Reticles\8.dds
+importbitmap 9 workingdir\bitmaps\HUD_Reticles\9.dds
+importbitmap 16 workingdir\bitmaps\HUD_Reticles\16.dds
+importbitmap 19 workingdir\bitmaps\HUD_Reticles\19.dds
 savetagchanges
 exit
 
@@ -385,6 +409,9 @@ setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
 setfield HudWidgets[4].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
 setfield HudWidgets[4].TextWidgets[1].StateData[0].HiddenState Zoomed
 
+setfield HudWidgets[2].BitmapWidgets[0].Bitmap ms30\ui\chud\bitmaps\hud_reticles.bitmap
+setfield HudWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 0.65 0.65
+
 savetagchanges
 exit
 
@@ -417,6 +444,9 @@ setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponFlash BatteryLow
 setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
 setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
 setfield HudWidgets[4].TextWidgets[0].StateData[0].HiddenState Zoomed
+
+setfield HudWidgets[2].BitmapWidgets[0].Bitmap ms30\ui\chud\bitmaps\hud_reticles.bitmap
+setfield HudWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 0.885 0.885
 
 savetagchanges
 exit
@@ -463,6 +493,9 @@ setfield HudWidgets[3].TextWidgets[1].StateData[0].WeaponFlash AmmoLoadedLow
 setfield HudWidgets[3].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
 setfield HudWidgets[3].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
 setfield HudWidgets[3].TextWidgets[1].StateData[0].HiddenState Zoomed
+
+setfield HudWidgets[2].BitmapWidgets[0].Bitmap ms30\ui\chud\bitmaps\hud_reticles.bitmap
+setfield HudWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 0.885 0.885
 
 savetagchanges
 exit
@@ -560,6 +593,11 @@ setfield HudWidgets[3].TextWidgets[1].StateData[0].WeaponFlash AmmoLoadedLow
 setfield HudWidgets[3].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
 setfield HudWidgets[3].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
 setfield HudWidgets[3].TextWidgets[1].StateData[0].HiddenState Zoomed
+
+setfield HudWidgets[2].BitmapWidgets[0].Bitmap dw3\r3ach\ui\chud\bitmaps\weapon_reticles.bitmap
+setfield HudWidgets[2].BitmapWidgets[0].BitmapSequenceIndex 17
+setfield HudWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+
 savetagchanges
 exit
 
@@ -660,6 +698,9 @@ setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
 setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
 setfield HudWidgets[4].TextWidgets[0].StateData[0].HiddenState Zoomed
 
+setfield HudWidgets[3].BitmapWidgets[0].Bitmap ms30\ui\chud\bitmaps\hud_reticles.bitmap
+setfield HudWidgets[3].BitmapWidgets[0].PlacementData[0].Scale 0.6 0.6
+
 savetagchanges
 exit
 
@@ -705,6 +746,9 @@ setfield HudWidgets[5].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
 setfield HudWidgets[5].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
 setfield HudWidgets[5].TextWidgets[1].StateData[0].HiddenState Zoomed
 
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap ms30\ui\chud\bitmaps\hud_reticles.bitmap
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.6 0.6
+
 savetagchanges
 exit
 
@@ -735,6 +779,11 @@ setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponFlash BatteryLow
 setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
 setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
 setfield HudWidgets[4].TextWidgets[0].StateData[0].HiddenState Zoomed
+
+# Crosshair look like ass
+# setfield HudWidgets[2].BitmapWidgets[0].Bitmap dw3\r3ach\ui\chud\bitmaps\weapon_reticles.bitmap
+# setfield HudWidgets[2].BitmapWidgets[0].BitmapSequenceIndex 2
+# setfield HudWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 0.9 0.9
 
 savetagchanges
 exit
@@ -775,6 +824,9 @@ setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponFlash BatteryLow
 setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
 setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
 setfield HudWidgets[4].TextWidgets[0].StateData[0].HiddenState Zoomed
+
+setfield HudWidgets[3].BitmapWidgets[0].Bitmap ms30\ui\chud\bitmaps\hud_reticles.bitmap
+setfield HudWidgets[3].BitmapWidgets[0].PlacementData[0].Scale 0.6 0.6
 
 savetagchanges
 exit
@@ -913,6 +965,13 @@ setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
 setfield HudWidgets[4].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
 setfield HudWidgets[4].TextWidgets[1].StateData[0].HiddenState Zoomed
 
+# Dual
+setfield HudWidgets[2].BitmapWidgets[0].StateData[0].WeaponArmedStateHO RightHand,LeftHand
+setfield HudWidgets[2].BitmapWidgets[1].StateData[0].WeaponArmedStateHO RightHand,LeftHand
+setfield HudWidgets[2].BitmapWidgets[2].StateData[0].WeaponArmedStateHO RightHand,LeftHand
+setfield HudWidgets[2].BitmapWidgets[3].StateData[0].WeaponArmedStateHO RightHand,LeftHand
+setfield HudWidgets[2].BitmapWidgets[4].StateData[0].WeaponArmedStateHO RightHand,LeftHand
+
 savetagchanges
 exit
 
@@ -1036,6 +1095,52 @@ setfield HudWidgets[3].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
 setfield HudWidgets[3].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
 setfield HudWidgets[3].TextWidgets[1].StateData[0].HiddenState Zoomed
 
+setfield HudWidgets[2].BitmapWidgets[0].Bitmap ms30\ui\chud\bitmaps\hud_reticles.bitmap
+setfield HudWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 0.6 0.6
+
+savetagchanges
+exit
+
+# Dual
+edittag ui\chud\spike_rifle.chud_definition
+copyblockelements HudWidgets 3 1
+exit
+
+edittag ui\chud\needler.chud_definition
+pasteblockelements HudWidgets
+
+setfield HudWidgets[6].PlacementData[0].Offset -18 0
+
+setfield HudWidgets[6].BitmapWidgets[0].PlacementData[0].Offset 45 90
+setfield HudWidgets[6].BitmapWidgets[0].PlacementData[0].Scale -0.9 0.9
+setfield HudWidgets[6].BitmapWidgets[0].PlacementData[0].Origin 1 0
+setfield HudWidgets[6].BitmapWidgets[0].Bitmap ui\chud\bitmaps\ballistic_meters_hr.bitmap
+setfield HudWidgets[6].BitmapWidgets[0].BitmapSequenceIndex 0
+
+setfield HudWidgets[6].BitmapWidgets[1].PlacementData[0].Offset 21 35
+setfield HudWidgets[6].BitmapWidgets[1].PlacementData[0].Scale -0.36 0.36
+setfield HudWidgets[6].BitmapWidgets[1].BitmapSequenceIndex 6
+
+setfield HudWidgets[6].TextWidgets[0].PlacementData[0].Scale 0.48 0.45
+setfield HudWidgets[6].TextWidgets[0].PlacementData[0].Offset 81 57
+setfield HudWidgets[6].TextWidgets[0].RenderData[0].LocalColorA 0 255 255 255
+setfield HudWidgets[6].TextWidgets[0].RenderData[0].ShaderType Simple
+setfield HudWidgets[6].TextWidgets[0].RenderData[0].OutputColorA LocalA
+setfield HudWidgets[6].TextWidgets[0].RenderData[0].OutputColorB LocalA
+setfield HudWidgets[6].TextWidgets[0].Font SplitscreenHudMessage
+
+setfield HudWidgets[6].TextWidgets[1].PlacementData[0].Offset 81 57
+setfield HudWidgets[6].TextWidgets[1].PlacementData[0].Scale 0.48 0.45
+setfield HudWidgets[6].TextWidgets[1].RenderData[0].ShaderType Simple
+setfield HudWidgets[6].TextWidgets[1].Font SplitscreenHudMessage
+
+setfield HudWidgets[6].BitmapWidgets[0].RuntimeWidgetIndex 10
+setfield HudWidgets[6].BitmapWidgets[1].RuntimeWidgetIndex 11
+setfield HudWidgets[6].BitmapWidgets[2].RuntimeWidgetIndex 12
+setfield HudWidgets[4].TextWidgets[0].WidgetIndex 13
+setfield HudWidgets[4].TextWidgets[1].WidgetIndex 14
+
+setfield HudWidgets[2].BitmapWidgets[0].StateData[0].WeaponArmedStateHO RightHand,LeftHand
 savetagchanges
 exit
 
@@ -1144,6 +1249,10 @@ setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponFlash BatteryLow
 setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
 setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
 setfield HudWidgets[4].TextWidgets[0].StateData[0].HiddenState Zoomed
+
+setfield HudWidgets[2].BitmapWidgets[0].Bitmap ms30\ui\chud\bitmaps\hud_reticles.bitmap
+setfield HudWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 0.885 0.885
+
 savetagchanges
 exit
 
@@ -1198,6 +1307,10 @@ setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponFlash BatteryLow
 setfield HudWidgets[4].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
 setfield HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
 setfield HudWidgets[4].TextWidgets[0].StateData[0].HiddenState Zoomed
+
+setfield HudWidgets[2].BitmapWidgets[0].Bitmap ms30\ui\chud\bitmaps\hud_reticles.bitmap
+setfield HudWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 0.8 0.8
+
 savetagchanges
 exit
 
@@ -1448,6 +1561,9 @@ setfield HudWidgets[3].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
 setfield HudWidgets[3].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
 setfield HudWidgets[3].TextWidgets[1].StateData[0].HiddenState Zoomed
 
+setfield HudWidgets[2].BitmapWidgets[0].Bitmap ms30\ui\chud\bitmaps\hud_reticles.bitmap
+setfield HudWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 0.6 0.6
+
 savetagchanges
 exit
 
@@ -1494,6 +1610,9 @@ setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
 setfield HudWidgets[4].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
 setfield HudWidgets[4].TextWidgets[1].StateData[0].HiddenState Zoomed
 
+setfield HudWidgets[2].BitmapWidgets[0].Bitmap ms30\ui\chud\bitmaps\hud_reticles.bitmap
+setfield HudWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 0.885 0.885
+
 savetagchanges
 exit
 
@@ -1538,6 +1657,39 @@ setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponFlash AmmoLoadedLow
 setfield HudWidgets[4].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
 setfield HudWidgets[4].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
 setfield HudWidgets[4].TextWidgets[1].StateData[0].HiddenState Zoomed
+
+# Dual wield
+setfield HudWidgets[3].BitmapWidgets[0].PlacementData[0].Offset 50 100
+setfield HudWidgets[3].BitmapWidgets[0].PlacementData[0].Scale -0.9 0.9
+setfield HudWidgets[3].BitmapWidgets[0].Bitmap ui\chud\bitmaps\ballistic_meters_2_rows.bitmap
+setfield HudWidgets[3].BitmapWidgets[0].BitmapSequenceIndex 9
+
+setfield HudWidgets[3].BitmapWidgets[1].PlacementData[0].Offset 35 47
+setfield HudWidgets[3].BitmapWidgets[1].PlacementData[0].Scale -0.36 0.36
+setfield HudWidgets[3].BitmapWidgets[1].BitmapSequenceIndex 15
+setfield HudWidgets[3].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_ramp.bitmap
+
+setfield HudWidgets[3].BitmapWidgets[2].PlacementData[0].Scale 0 0
+setfield HudWidgets[3].BitmapWidgets[2].PlacementData[0].Offset 6969 6969
+
+setfield HudWidgets[3].TextWidgets[0].PlacementData[0].Offset 81 57
+setfield HudWidgets[3].TextWidgets[0].PlacementData[0].Scale 0.48 0.45
+
+setfield HudWidgets[3].TextWidgets[0].RenderData[0].ShaderType Simple
+setfield HudWidgets[3].TextWidgets[0].RenderData[0].BlendModeHO AlphaBlend
+setfield HudWidgets[3].TextWidgets[0].RenderData[0].ExternalInput WeaponAmmoReserve
+setfield HudWidgets[3].TextWidgets[0].RenderData[0].RangeInput Zero
+setfield HudWidgets[3].TextWidgets[0].Font SplitscreenHudMessage
+
+setfield HudWidgets[3].TextWidgets[0].RenderData[0].OutputColorA LocalA
+setfield HudWidgets[3].TextWidgets[0].RenderData[0].OutputColorB LocalA
+setfield HudWidgets[3].TextWidgets[0].RenderData[0].LocalColorA 0 255 255 255
+
+setfield HudWidgets[3].TextWidgets[1].PlacementData[0].Offset 81 57
+setfield HudWidgets[3].TextWidgets[1].PlacementData[0].Scale 0.48 0.45
+setfield HudWidgets[3].TextWidgets[1].RenderData[0].ShaderType Simple
+setfield HudWidgets[3].TextWidgets[1].RenderData[0].LocalColorA 0 219 219 219
+setfield HudWidgets[3].TextWidgets[1].Font SplitscreenHudMessage
 
 savetagchanges
 exit
@@ -1609,6 +1761,10 @@ setfield HudWidgets[3].TextWidgets[0].StateData[0].WeaponFlash BatteryLow
 setfield HudWidgets[3].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
 setfield HudWidgets[3].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
 setfield HudWidgets[3].TextWidgets[0].StateData[0].HiddenState Zoomed
+
+setfield HudWidgets[2].BitmapWidgets[0].Bitmap ms30\ui\chud\bitmaps\hud_reticles.bitmap
+setfield HudWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 0.885 0.885
+
 savetagchanges
 exit
 
@@ -1641,6 +1797,16 @@ setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 0.9 0.9
 setfield HudWidgets[5].TextWidgets[0].RenderData[0].ExternalInput WeaponAmmoLoaded
 setfield HudWidgets[5].TextWidgets[0].PlacementData[0].Offset -70 75
 setfield HudWidgets[2].ParallaxData ui\chud\parallax\vehicles.chud_widget_parallax_data
+
+setfield HudWidgets[2].BitmapWidgets[0].PlacementData[0].Origin 0 0.05
+setfield HudWidgets[2].BitmapWidgets[1].PlacementData[0].Origin 0 0.05
+
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.26 0.26
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -50 4
+
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 0.55 0.55
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -75 45
+
 savetagchanges
 exit
 
@@ -1652,6 +1818,10 @@ setfield HudWidgets[1].ParallaxData ui\chud\parallax\vehicles.chud_widget_parall
 setfield HudWidgets[2].TextWidgets[0].RenderData[0].ShaderType Simple
 setfield HudWidgets[2].TextWidgets[0].RenderData[0].LocalColorA 0 255 255 255
 setfield HudWidgets[2].BitmapWidgets[5].PlacementData[0].Offset 6969 6969
+
+setfield HudWidgets[1].BitmapWidgets[0].Bitmap ms30\ui\chud\bitmaps\hud_reticles.bitmap
+setfield HudWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 0.885 0.885
+
 savetagchanges
 exit
 
@@ -1663,6 +1833,15 @@ setfield HudWidgets[1].ParallaxData ui\chud\parallax\vehicles.chud_widget_parall
 setfield HudWidgets[0].TextWidgets[0].RenderData[0].ShaderType Simple
 setfield HudWidgets[0].TextWidgets[0].RenderData[0].LocalColorA 0 255 255 255
 setfield HudWidgets[0].BitmapWidgets[4].PlacementData[0].Offset 6969 6969
+
+setfield HudWidgets[1].BitmapWidgets[0].Bitmap ms30\ui\chud\bitmaps\hud_vehicle_reticles.bitmap
+setfield HudWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 0.75 0.75
+
+savetagchanges
+exit
+
+edittag ui\chud\t_machinegun.chud_definition
+setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.55 0.55
 savetagchanges
 exit
 
@@ -1674,6 +1853,15 @@ edittag ui\chud\plasma_turret.chud_definition
 setfield HudWidgets[1].ParallaxData ui\chud\parallax\vehicles.chud_widget_parallax_data
 setfield HudWidgets[0].TextWidgets[0].RenderData[0].ShaderType Simple
 setfield HudWidgets[0].TextWidgets[0].RenderData[0].LocalColorA 0 255 255 255
+
+setfield HudWidgets[1].BitmapWidgets[0].Bitmap ms30\ui\chud\bitmaps\hud_vehicle_reticles.bitmap
+setfield HudWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 0.75 0.75
+
+savetagchanges
+exit
+
+edittag ui\chud\t_plasmaturret.chud_definition
+setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.55 0.55
 savetagchanges
 exit
 
@@ -1705,5 +1893,117 @@ setfield HudWidgets[1].BitmapWidgets[0].RuntimeWidgetIndex 7
 setfield HudWidgets[1].BitmapWidgets[1].RuntimeWidgetIndex 8
 setfield HudWidgets[1].BitmapWidgets[2].RuntimeWidgetIndex 9
 
+savetagchanges
+exit
+
+# ----------------------------------------------------------------
+# I                          CHAIN GUN                           I
+# ----------------------------------------------------------------
+edittag ui\chud\plasma_rifle.chud_definition
+copyblockelements HudWidgets 5 1
+exit
+
+edittag ui\chud\v_chaingun.chud_definition
+pasteblockelements HudWidgets
+removeblockelements HudWidgets[1].TextWidgets 0 *
+setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.7 0.7
+setfield HudWidgets[1].BitmapWidgets[1].BitmapSequenceIndex 23
+
+setfield HudWidgets[1].BitmapWidgets[0].RuntimeWidgetIndex 1
+setfield HudWidgets[1].BitmapWidgets[1].RuntimeWidgetIndex 2
+setfield HudWidgets[1].BitmapWidgets[2].RuntimeWidgetIndex 3
+setfield HudWidgets[1].BitmapWidgets[3].RuntimeWidgetIndex 4
+setfield HudWidgets[1].BitmapWidgets[4].RuntimeWidgetIndex 5
+setfield HudWidgets[1].BitmapWidgets[5].RuntimeWidgetIndex 6
+
+savetagchanges
+exit
+
+# ----------------------------------------------------------------
+# I                        GAUSS CANNON                          I
+# ----------------------------------------------------------------
+edittag ui\chud\v_gaussturret.chud_definition
+setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.53 0.53
+savetagchanges
+exit
+
+# ----------------------------------------------------------------
+# I                            DRIVER                            I
+# ----------------------------------------------------------------
+edittag ui\chud\v_driver.chdt
+setfield HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.56 0.56
+savetagchanges
+exit
+
+# ----------------------------------------------------------------
+# I                           BANSHEE                            I
+# ----------------------------------------------------------------
+edittag ui\chud\v_banshee.chdt
+setfield HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.54 0.54
+savetagchanges
+exit
+
+
+# ----------------------------------------------------------------
+# I                       THE FUCKING REST                       I
+# ----------------------------------------------------------------
+edittag ui\chud\v_chopper.chdt
+setfield HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.697 0.694
+savetagchanges
+exit
+
+edittag ui\chud\v_ghost.chdt
+setfield HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.7 0.7
+savetagchanges
+exit
+
+edittag ui\chud\v_grinderdriver.chdt
+setfield HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.56 0.56
+setfield HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Offset 0 -50
+savetagchanges
+exit
+
+edittag ui\chud\v_grinderturret.chdt
+setfield HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.64 0.64
+savetagchanges
+exit
+
+edittag ui\chud\v_hornet.chdt
+setfield HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.82 0.82
+savetagchanges
+exit
+
+edittag ui\chud\v_mongoose.chdt
+setfield HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.56 0.56
+savetagchanges
+exit
+
+edittag ui\chud\v_scorpion.chdt
+setfield HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.705 0.705
+savetagchanges
+exit
+
+edittag ui\chud\v_scorpionturret.chdt
+setfield HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.7 0.7
+savetagchanges
+exit
+
+edittag ui\chud\v_shade.chdt
+setfield HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.7 0.7
+savetagchanges
+exit
+
+edittag ui\chud\v_wraith.chdt
+setfield HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.7 0.7
+savetagchanges
+exit
+
+edittag ui\chud\v_wraithturret.chdt
+setfield HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.7 0.7
+savetagchanges
+exit
+
+edittag ui\chud\v_wraith_anti_air.chdt
+setfield HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.7 0.7
 savetagchanges
 exit

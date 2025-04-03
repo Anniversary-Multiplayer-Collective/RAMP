@@ -20,21 +20,6 @@ savetagchanges
 exit
 
 # -----------------------------------------------
-# I                   MAULER                    I
-# -----------------------------------------------
-# Removing dual wield option
-
-edittag objects\weapons\pistol\excavator\excavator.weapon
-setfield WeaponFlags.NewFlags None
-savetagchanges
-exit
-
-edittag objects\weapons\pistol\excavator_power\excavator_power.weapon
-setfield WeaponFlags.NewFlags None
-savetagchanges
-exit
-
-# -----------------------------------------------
 # I                   MAGNUM                    I
 # -----------------------------------------------
 # Faster Rate of Fire

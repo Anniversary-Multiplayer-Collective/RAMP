@@ -1,0 +1,60 @@
+# Why do I get a sense of deja vu?
+# That's the way I like it
+# generatebitmap dw3\r3ach\objects\weapons\pistol\needler\bitmaps\ramp_needler_purple_diffuse workingdir\bitmaps\needler_diffuse.dds
+
+duplicatetag dw3\r3ach\objects\weapons\pistol\needler\shaders\needler_shell.shader dw3\r3ach\objects\weapons\pistol\needler\shaders\ramp_needler_purple_shell
+edittag dw3\r3ach\objects\weapons\pistol\needler\shaders\ramp_needler_purple_shell.shader
+# setfield ShaderProperties[0].TextureConstants[0].Bitmap dw3\r3ach\objects\weapons\pistol\needler\bitmaps\ramp_needler_purple_diffuse.bitmap
+# setargument fresnel_color 0.3372549 0.2156863 0.5764706 1
+# setargument specular_tint 0.4941177 0.3333333 0.4039216 1
+# setargument env_tint_color 0.7254902 0.9058824 1.1 1
+
+setargument env_tint_color 1.622549 2.105882 4 1
+setargument specular_tint 0.5941177 0.3333333 0.4039216 1
+setargument fresnel_color 0.3872549 0.256863 0.3364706 1
+savetagchanges
+exit
+
+duplicatetag dw3\r3ach\objects\weapons\pistol\needler\shaders\needler_metal.shader dw3\r3ach\objects\weapons\pistol\needler\shaders\ramp_needler_purple_metal
+edittag dw3\r3ach\objects\weapons\pistol\needler\shaders\ramp_needler_purple_metal.shader
+# setfield ShaderProperties[0].TextureConstants[0].Bitmap dw3\r3ach\objects\weapons\pistol\needler\bitmaps\ramp_needler_purple_diffuse.bitmap
+setargument fresnel_color 0.454902 0.427451 0.5607843 1
+savetagchanges
+exit
+
+duplicatetag dw3\r3ach\objects\weapons\pistol\needler\needler.render_model dw3\r3ach\objects\weapons\pistol\needler\ramp_needler_purple
+edittag dw3\r3ach\objects\weapons\pistol\needler\ramp_needler_purple.render_model
+setfield Materials[1].RenderMethod dw3\r3ach\objects\weapons\pistol\needler\shaders\ramp_needler_purple_metal.shader
+setfield Materials[2].RenderMethod dw3\r3ach\objects\weapons\pistol\needler\shaders\ramp_needler_purple_shell.shader
+savetagchanges
+exit
+
+duplicatetag dw3\r3ach\objects\weapons\pistol\needler\needler.model dw3\r3ach\objects\weapons\pistol\needler\ramp_needler_purple
+edittag dw3\r3ach\objects\weapons\pistol\needler\ramp_needler_purple.model
+setfield RenderModel dw3\r3ach\objects\weapons\pistol\needler\ramp_needler_purple.render_model
+savetagchanges
+exit
+
+# OK THERES LORE AS FOR WHY SPARTAN AND ELITE CAN ONLY DUAL WIELD PURPLE NEEDLER, IT MAKE SENSE GUYS
+# [REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED]
+# [REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED]
+duplicatetag objects\weapons\pistol\needler\needler.weapon objects\weapons\pistol\needler\ramp_needler_purple
+edittag objects\weapons\pistol\needler\ramp_needler_purple.weapon
+setfield Model dw3\r3ach\objects\weapons\pistol\needler\ramp_needler_purple.model
+setfield FirstPerson[0].FirstPersonModel dw3\r3ach\objects\weapons\pistol\needler\ramp_needler_purple.render_model
+setfield FirstPerson[1].FirstPersonModel dw3\r3ach\objects\weapons\pistol\needler\ramp_needler_purple.render_model
+setfield WeaponFlags.NewFlags CanBeDualWielded
+setfield PickupOrDualWieldMessage nd_dual
+setfield SwapOrDualWieldMessage nd_dual_swap
+savetagchanges
+exit
+
+AddForgeItem "NEEDLER [DUAL WIELDABLE]" "POWER WEAPONS" objects\weapons\pistol\needler\ramp_needler_purple.weapon
+
+ForEach weap contains: objects\weapons\pistol\magnum setfield WeaponFlags.NewFlags CanBeDualWielded
+ForEach weap contains: objects\weapons\pistol\automag setfield WeaponFlags.NewFlags CanBeDualWielded
+ForEach weap contains: objects\weapons\pistol\plasma_pistol setfield WeaponFlags.NewFlags CannotFireAtMaximumAge,CanBeDualWielded
+ForEach weap contains: objects\weapons\rifle\plasma_rifle\plasma_rifle setfield WeaponFlags.NewFlags CannotFireAtMaximumAge,LoopFPFiringAnimation,CanBeDualWielded
+ForEach weap contains: objects\weapons\rifle\spike_rifle setfield WeaponFlags.NewFlags LoopFPFiringAnimation,CanBeDualWielded
+ForEach weap contains: objects\weapons\rifle\smg setfield WeaponFlags.NewFlags CanBeDualWielded
+ForEach weap contains: objects\weapons\rifle\smg_silenced setfield WeaponFlags.NewFlags LoopFPFiringAnimation,CanBeDualWielded

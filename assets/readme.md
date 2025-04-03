@@ -22,13 +22,18 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 
 
 ## v0.5 Changelog
+* Added dual wielding! (Including the needler)
+  -Sidenote : Needler has been split into two weapons in the forge menu, one where it can dual wielded and one where it can't
 * Added more armor preview images
 * Added missing Grenadier chest attachment
+* Added sharper crosshair for most weapons
 * Fixed weapons not picking up the ammo equipments
 * Fixed Beam Rifle using Halo 4 icon
 * Fixed all armor names and descriptions
 * Fixed concussion rifle "Out of ammo switch to" string
-* Adjust default weapon viewmodels
+* Fixed ammo counter inaccuracies on battle rifle power and smg damage
+* Fixed plasma pistol and plasma rifle using the wrong weapons icon
+* Adjusted default weapon viewmodels
 * Minor animations fixup
 
 ## v0.4 Changelog

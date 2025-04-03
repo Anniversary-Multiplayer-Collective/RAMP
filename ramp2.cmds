@@ -2123,6 +2123,60 @@ edittag levels\ui\mainmenu\bitmaps\campaign_act3_background.bitmap
 importbitmap 0 workingdir\bitmaps\AuntieDot.dds
 exit
 
+echo ==Duals Weapons Animation==
+RunCommands "workingdir\cmds\duals_sound.cmds"
+RunCommands "workingdir\cmds\elite_duals_animations.cmds"
+RunCommands "workingdir\cmds\spartan_duals_animations.cmds"
+
+echo ==Duals Weapons Implementation==
+RunCommands "workingdir\cmds\dual_weaps_implementation.cmds"
+
+echo == Fix battle rifle power ammo counter ==
+edittag ui\chud\battle_rifle_power.chud_definition
+setfield HudWidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\ballistic_meters_odst.bitmap
+setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 10
+setfield HudWidgets[5].BitmapWidgets[0].PlacementData[0].Offset -40 110
+savetagchanges
+exit
+
+echo == Battle rifle firing animation ==
+duplicatetag dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_elite\fp_elite.model_animation_graph dw3\r3ach\objects\weapons\rifle\battle_rifle\animations\fp_elite\fp_elite
+edittag dw3\r3ach\objects\weapons\rifle\battle_rifle\animations\fp_elite\fp_elite.model_animation_graph
+addanimation workingdir\animations\elite_fp\battlerifle
+
+setfield Animations[0].Weight 0.34
+setfield Animations[0].AnimationData.NextAnimation 1
+
+setfield Animations[1].Weight 0.67
+setfield Animations[1].AnimationData.NextAnimation 2
+setfield Animations[1].AnimationData.ParentAnimation 0
+
+setfield Animations[2].Weight 1
+setfield Animations[2].AnimationData.ParentAnimation 0
+setfield Modes[0].WeaponClass[0].WeaponType[0].Set.Actions[0].Animation 0
+savetagchanges
+exit
+
+duplicatetag dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_spartan\fp_spartan.model_animation_graph dw3\r3ach\objects\weapons\rifle\battle_rifle\animations\fp_spartan\fp_spartan
+edittag dw3\r3ach\objects\weapons\rifle\battle_rifle\animations\fp_spartan\fp_spartan.model_animation_graph
+addanimation workingdir\animations\spartan_fp\battlerifle
+
+setfield Animations[0].Weight 0.34
+setfield Animations[0].AnimationData.NextAnimation 1
+
+setfield Animations[1].Weight 0.67
+setfield Animations[1].AnimationData.NextAnimation 2
+setfield Animations[1].AnimationData.ParentAnimation 0
+
+setfield Animations[2].Weight 1
+setfield Animations[2].AnimationData.ParentAnimation 0
+setfield Modes[0].WeaponClass[0].WeaponType[0].Set.Actions[0].Animation 0
+savetagchanges
+exit
+
+ForEach weap contains: objects\weapons\rifle\battle_rifle setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\battle_rifle\animations\fp_spartan\fp_spartan.model_animation_graph
+ForEach weap contains: objects\weapons\rifle\battle_rifle setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\battle_rifle\animations\fp_elite\fp_elite.model_animation_graph
+
 AddModFiles workingdir\assets
 SaveModPackage "modsfolder\RAMP_2.pak"
 

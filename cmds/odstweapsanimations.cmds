@@ -41,6 +41,15 @@ setfield InheritanceList[0].NodeMap[40].LocalNode -1
 setfield InheritanceList[0].NodeMap[41].LocalNode -1
 sortmodes
 
+setfield Animations[17].AnimationData.FrameEvents[1].TypeED AllowInterruption
+setfield Animations[18].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+setfield Animations[23].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+setfield Animations[23].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+setfield Animations[30].AnimationData.FrameEvents[1].TypeED AllowInterruption
+setfield Animations[31].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
 savetagchanges
 exit
 
@@ -50,32 +59,32 @@ Importanimation "workingdir\animations\elite_fp\automag\first_person dual fire_1
 edittag objects\characters\dervish\fp\weapons\pistol\fp_automag\fp_automag.model_animation_graph
 
 AddBlockElements SoundReferences 13
-SetField SoundReferences[0].Reference sound\weapons\magnum\magnum_fp\magnum_dual_pose_left.sound
-SetField SoundReferences[0].Flags LeftArmOnly,FirstPersonOnly
-SetField SoundReferences[1].Reference sound\weapons\magnum\magnum_fp\magnum_dual_ready.sound
-SetField SoundReferences[1].Flags LeftArmOnly
-SetField SoundReferences[2].Reference sound\weapons\magnum\magnum_fp\magnum_dual_reload_left.sound
-SetField SoundReferences[2].Flags LeftArmOnly
-SetField SoundReferences[3].Reference sound\weapons\magnum\magnum_fp\magnum_dual_reload_right.sound
-SetField SoundReferences[3].Flags RightArmOnly
-SetField SoundReferences[4].Reference sound\weapons\magnum\magnum_fp\magnum_melee.sound
-SetField SoundReferences[4].Flags None
-SetField SoundReferences[5].Reference null
-SetField SoundReferences[5].Flags FirstPersonOnly
-SetField SoundReferences[6].Reference sound\weapons\magnum\magnum_fp\magnum_pose2.sound
-SetField SoundReferences[6].Flags FirstPersonOnly
-SetField SoundReferences[7].Reference sound\weapons\magnum\magnum_fp\magnum_ready.sound
-SetField SoundReferences[7].Flags None
-SetField SoundReferences[8].Reference sound\weapons\magnum\magnum_fp\magnum_reload.sound
-SetField SoundReferences[8].Flags None
-SetField SoundReferences[9].Reference sound\weapons\magnum\magnum_fp\magnum_dual_pose_right.sound
-SetField SoundReferences[9].Flags RightArmOnly,FirstPersonOnly
-SetField SoundReferences[10].Reference sound\weapons\magnum\magnum_fp\magnum_dual_ready_right.sound
-SetField SoundReferences[10].Flags RightArmOnly
-SetField SoundReferences[11].Reference sound\weapons\magnum\magnum_fp\magnum_dual_pose2_left.sound
-SetField SoundReferences[11].Flags LeftArmOnly,FirstPersonOnly
-SetField SoundReferences[12].Reference sound\weapons\magnum\magnum_fp\magnum_dual_pose2_right.sound
-SetField SoundReferences[12].Flags RightArmOnly,FirstPersonOnly
+setfield SoundReferences[0].Reference sound\weapons\magnum\magnum_fp\magnum_dual_pose_left.sound
+setfield SoundReferences[0].Flags LeftArmOnly,FirstPersonOnly
+setfield SoundReferences[1].Reference sound\weapons\magnum\magnum_fp\magnum_dual_ready.sound
+setfield SoundReferences[1].Flags LeftArmOnly
+setfield SoundReferences[2].Reference sound\weapons\magnum\magnum_fp\magnum_dual_reload_left.sound
+setfield SoundReferences[2].Flags LeftArmOnly
+setfield SoundReferences[3].Reference sound\weapons\magnum\magnum_fp\magnum_dual_reload_right.sound
+setfield SoundReferences[3].Flags RightArmOnly
+setfield SoundReferences[4].Reference sound\weapons\magnum\magnum_fp\magnum_melee.sound
+setfield SoundReferences[4].Flags None
+setfield SoundReferences[5].Reference null
+setfield SoundReferences[5].Flags FirstPersonOnly
+setfield SoundReferences[6].Reference sound\weapons\magnum\magnum_fp\magnum_pose2.sound
+setfield SoundReferences[6].Flags FirstPersonOnly
+setfield SoundReferences[7].Reference sound\weapons\magnum\magnum_fp\magnum_ready.sound
+setfield SoundReferences[7].Flags None
+setfield SoundReferences[8].Reference sound\weapons\magnum\magnum_fp\magnum_reload.sound
+setfield SoundReferences[8].Flags None
+setfield SoundReferences[9].Reference sound\weapons\magnum\magnum_fp\magnum_dual_pose_right.sound
+setfield SoundReferences[9].Flags RightArmOnly,FirstPersonOnly
+setfield SoundReferences[10].Reference sound\weapons\magnum\magnum_fp\magnum_dual_ready_right.sound
+setfield SoundReferences[10].Flags RightArmOnly
+setfield SoundReferences[11].Reference sound\weapons\magnum\magnum_fp\magnum_dual_pose2_left.sound
+setfield SoundReferences[11].Flags LeftArmOnly,FirstPersonOnly
+setfield SoundReferences[12].Reference sound\weapons\magnum\magnum_fp\magnum_dual_pose2_right.sound
+setfield SoundReferences[12].Flags RightArmOnly,FirstPersonOnly
 
 addblockelements BlendScreens
 setfield BlendScreens[0].Label blend_screen_#0
@@ -171,6 +180,7 @@ setfield Animations[17].AnimationData.SoundEvents[0].Sound 2
 setfield Animations[17].AnimationData.SoundEvents[1].Sound 3
 setfield Animations[17].AnimationData.FrameEvents[0].Frame 45
 setfield Animations[17].AnimationData.FrameEvents[1].Frame 100
+setfield Animations[17].AnimationData.FrameEvents[1].TypeED AllowInterruption
 
 setfield Animations[18].Weight 0.50
 setfield Animations[18].AnimationData.ParentAnimation 17
@@ -184,6 +194,7 @@ setfield Animations[18].AnimationData.SoundEvents[1].Sound 3
 setfield Animations[18].AnimationData.SoundEvents[1].Frame 1
 setfield Animations[18].AnimationData.FrameEvents[0].Frame 45
 setfield Animations[18].AnimationData.FrameEvents[1].Frame 100
+setfield Animations[18].AnimationData.FrameEvents[1].TypeED AllowInterruption
 
 setfield Animations[19].Weight 0.75
 setfield Animations[19].AnimationData.ParentAnimation 17
@@ -197,6 +208,7 @@ setfield Animations[19].AnimationData.SoundEvents[1].Sound 3
 setfield Animations[19].AnimationData.SoundEvents[1].Frame 1
 setfield Animations[19].AnimationData.FrameEvents[0].Frame 45
 setfield Animations[19].AnimationData.FrameEvents[1].Frame 100
+setfield Animations[19].AnimationData.FrameEvents[1].TypeED AllowInterruption
 
 setfield Animations[20].Weight 1
 setfield Animations[20].AnimationData.ParentAnimation 17
@@ -209,6 +221,7 @@ setfield Animations[20].AnimationData.SoundEvents[1].Sound 3
 setfield Animations[20].AnimationData.SoundEvents[1].Frame 1
 setfield Animations[20].AnimationData.FrameEvents[0].Frame 45
 setfield Animations[20].AnimationData.FrameEvents[1].Frame 100
+setfield Animations[20].AnimationData.FrameEvents[1].TypeED AllowInterruption
 setfield Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[5].Animation 17
 
 # [DUAL RELOAD FULL]
@@ -221,6 +234,7 @@ setfield Animations[21].AnimationData.SoundEvents[0].Sound 2
 setfield Animations[21].AnimationData.SoundEvents[1].Sound 3
 setfield Animations[21].AnimationData.FrameEvents[0].Frame 45
 setfield Animations[21].AnimationData.FrameEvents[1].Frame 100
+setfield Animations[21].AnimationData.FrameEvents[1].TypeED AllowInterruption
 
 setfield Animations[22].Weight 0.50
 setfield Animations[22].AnimationData.ParentAnimation 21
@@ -234,6 +248,7 @@ setfield Animations[22].AnimationData.SoundEvents[1].Sound 3
 setfield Animations[22].AnimationData.SoundEvents[1].Frame 1
 setfield Animations[22].AnimationData.FrameEvents[0].Frame 45
 setfield Animations[22].AnimationData.FrameEvents[1].Frame 100
+setfield Animations[22].AnimationData.FrameEvents[1].TypeED AllowInterruption
 
 setfield Animations[23].Weight 0.75
 setfield Animations[23].AnimationData.ParentAnimation 21
@@ -247,6 +262,7 @@ setfield Animations[23].AnimationData.SoundEvents[1].Sound 3
 setfield Animations[23].AnimationData.SoundEvents[1].Frame 1
 setfield Animations[23].AnimationData.FrameEvents[0].Frame 45
 setfield Animations[23].AnimationData.FrameEvents[1].Frame 100
+setfield Animations[23].AnimationData.FrameEvents[1].TypeED AllowInterruption
 
 setfield Animations[24].Weight 1
 setfield Animations[24].AnimationData.ParentAnimation 21
@@ -259,6 +275,7 @@ setfield Animations[24].AnimationData.SoundEvents[1].Sound 3
 setfield Animations[24].AnimationData.SoundEvents[1].Frame 1
 setfield Animations[24].AnimationData.FrameEvents[0].Frame 45
 setfield Animations[24].AnimationData.FrameEvents[1].Frame 100
+setfield Animations[24].AnimationData.FrameEvents[1].TypeED AllowInterruption
 setfield Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[6].Animation 21
 
 # [MELEE STRIKE 1]
@@ -266,9 +283,9 @@ addblockelements Animations[31].AnimationData.FrameEvents 3
 addblockelements Animations[31].AnimationData.SoundEvents 1
 setfield Animations[31].AnimationData.SoundEvents[0].Sound 4
 setfield Animations[31].AnimationData.FrameEvents[0].Frame 3
-setfield Animations[31].AnimationData.FrameEvents[1].TypeED PrimaryKeyframe
+setfield Animations[31].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
 setfield Animations[31].AnimationData.FrameEvents[1].Frame 15
-setfield Animations[31].AnimationData.FrameEvents[2].TypeED PrimaryKeyframe
+setfield Animations[31].AnimationData.FrameEvents[2].TypeED AllowInterruption
 setfield Animations[31].AnimationData.FrameEvents[2].Frame 23
 setfield Animations[31].PlaybackFlags DisableWeaponAim1stPerson
 
@@ -277,9 +294,9 @@ addblockelements Animations[32].AnimationData.FrameEvents 3
 addblockelements Animations[32].AnimationData.SoundEvents 1
 setfield Animations[32].AnimationData.SoundEvents[0].Sound 4
 setfield Animations[32].AnimationData.FrameEvents[0].Frame 3
-setfield Animations[32].AnimationData.FrameEvents[1].TypeED PrimaryKeyframe
+setfield Animations[32].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
 setfield Animations[32].AnimationData.FrameEvents[1].Frame 15
-setfield Animations[32].AnimationData.FrameEvents[2].TypeED PrimaryKeyframe
+setfield Animations[32].AnimationData.FrameEvents[2].TypeED AllowInterruption
 setfield Animations[32].AnimationData.FrameEvents[2].Frame 23
 setfield Animations[32].PlaybackFlags DisableWeaponAim1stPerson
 
@@ -308,6 +325,7 @@ addblockelements Animations[40].AnimationData.SoundEvents 1
 setfield Animations[40].AnimationData.SoundEvents[0].Sound 8
 setfield Animations[40].AnimationData.FrameEvents[0].Frame 34
 setfield Animations[40].AnimationData.FrameEvents[1].Frame 47
+setfield Animations[40].AnimationData.FrameEvents[1].TypeED AllowInterruption
 setfield Animations[40].PlaybackFlags DisableWeaponAim1stPerson
 setfield Animations[40].AnimationData.ProductionFlags VerifySoundEvents
 
@@ -317,6 +335,7 @@ addblockelements Animations[41].AnimationData.SoundEvents 1
 setfield Animations[41].AnimationData.SoundEvents[0].Sound 8
 setfield Animations[41].AnimationData.FrameEvents[0].Frame 34
 setfield Animations[41].AnimationData.FrameEvents[1].Frame 47
+setfield Animations[41].AnimationData.FrameEvents[1].TypeED AllowInterruption
 setfield Animations[41].PlaybackFlags DisableWeaponAim1stPerson
 setfield Animations[41].AnimationData.ProductionFlags VerifySoundEvents
 
@@ -338,13 +357,94 @@ StringId add offset_automag
 edittag objects\weapons\pistol\automag\automag.weapon
 setfield FirstPerson[1].FirstPersonAnimations objects\characters\dervish\fp\weapons\pistol\fp_automag\fp_automag.model_animation_graph
 setfield CenteredFirstPersonWeaponOffset 0 0 -0.005
+setfield HudInterface ui\chud\automag.chud_definition
 setfield WeaponTypeName offset_automag
 savetagchanges
 exit
 
 edittag objects\weapons\rifle\smg_silenced\smg_silenced.weapon
 setfield FirstPerson[1].FirstPersonAnimations objects\characters\dervish\fp\weapons\rifle\fp_smg\fp_smg.model_animation_graph
+setfield HudInterface ui\chud\smg_silenced.chud_definition
 setfield WeaponTypeName offset_smg
 setfield CenteredFirstPersonWeaponOffset 0 0 -0.01
+setfield FirstPersonWeaponOffset 0 0 -0.005
+savetagchanges
+exit
+
+# ALRIGHT, THIS IS HUD OKAY?
+# How do we.... get out of here?
+# Don't wanna escape this loop
+# Don't wanna escape the past
+
+# GenerateBitmap ui\chud\bitmaps\ballistic_meters_odst workingdir\bitmaps\ballistic_meters.dds
+# edittag ui\chud\bitmaps\ballistic_meters_odst.bitm
+# addblockelements Sequences
+# setfield Sequences[*].FirstBitmapIndex 0
+# setfield Sequences[*].BitmapCount 1
+# addblockelements Sequences[*].Sprites 1
+# setfield Sequences[*].Sprites[0].BitmapIndex 0
+# setfield Sequences[*].Sprites[0].Left 0.3671875
+# setfield Sequences[*].Sprites[0].Right 0.67578125
+# setfield Sequences[*].Sprites[0].Top 0
+# setfield Sequences[*].Sprites[0].Bottom 0.17578125
+# setfield Sequences[*].Sprites[0].RegistrationPoint 0.15429688 0.087890625
+# savetagchanges
+# exit
+
+edittag ui\chud\smg_power.chud_definition
+copyblockelements HudWidgets 0 8
+exit
+
+edittag ui\chud\smg_silenced.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+
+setfield HudWidgets[6].BitmapWidgets[0].Bitmap ui\chud\bitmaps\ballistic_meters_odst.bitm
+setfield HudWidgets[6].BitmapWidgets[0].BitmapSequenceIndex 10
+setfield HudWidgets[6].BitmapWidgets[1].BitmapSequenceIndex 5
+setfield HudWidgets[6].BitmapWidgets[1].RenderData[0].OutputColorA HighlightForeground
+setfield HudWidgets[6].BitmapWidgets[1].PlacementData[0].Offset -60 43
+
+setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 5
+setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].OutputColorA HighlightForeground
+setfield HudWidgets[5].BitmapWidgets[0].PlacementData[0].Offset -40 4
+
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\ballistic_meters_odst.bitm
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 10
+setfield HudWidgets[4].BitmapWidgets[1].BitmapSequenceIndex 5
+setfield HudWidgets[4].BitmapWidgets[1].RenderData[0].OutputColorA HighlightForeground
+setfield HudWidgets[4].BitmapWidgets[1].PlacementData[0].Offset 60 43
+savetagchanges
+exit
+
+edittag ui\chud\magnum_power.chud_definition
+copyblockelements HudWidgets 0 7
+exit
+
+edittag ui\chud\automag.chud_definition
+removeblockelements HudWidgets 0 *
+pasteblockelements HudWidgets
+
+setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 6
+
+setfield HudWidgets[5].BitmapWidgets[1].BitmapSequenceIndex 1
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA HighlightForeground
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -40 50
+
+setfield HudWidgets[5].TextWidgets[0].PlacementData[0].Offset -56 52
+setfield HudWidgets[5].TextWidgets[1].PlacementData[0].Offset -56 52
+
+setfield HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 1
+setfield HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA HighlightForeground
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -55 4
+
+setfield HudWidgets[3].BitmapWidgets[0].BitmapSequenceIndex 6
+
+setfield HudWidgets[3].BitmapWidgets[1].BitmapSequenceIndex 1
+setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].OutputColorA HighlightForeground
+setfield HudWidgets[3].BitmapWidgets[1].PlacementData[0].Offset 40 50
+
+setfield HudWidgets[3].TextWidgets[0].PlacementData[0].Offset 56 52
+setfield HudWidgets[3].TextWidgets[1].PlacementData[0].Offset 56 52
 savetagchanges
 exit
