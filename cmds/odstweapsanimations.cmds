@@ -376,6 +376,11 @@ exit
 # Don't wanna escape this loop
 # Don't wanna escape the past
 
+Echo == Ballistic Texture from ODST ==
+openmodpackage "workingdir\paks\odstballisticmetertexture.pak"
+applymodpackage
+exitmodpackage
+
 # GenerateBitmap ui\chud\bitmaps\ballistic_meters_odst workingdir\bitmaps\ballistic_meters.dds
 # edittag ui\chud\bitmaps\ballistic_meters_odst.bitm
 # addblockelements Sequences
