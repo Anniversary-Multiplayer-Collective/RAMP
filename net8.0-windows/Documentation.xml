@@ -1499,6 +1499,12 @@
             Command for managing tag dependencies.
             </summary>
         </member>
+        <member name="M:TagTool.Commands.Mod.RemoveMipMapsModCommand.IsBitmapTag(TagTool.Cache.CachedTag)">
+            <summary>
+            Determines if the specified tag is a bitmap tag.
+            Assumes that bitmap tags use the group identifier "bitmap".
+            </summary>
+        </member>
         <member name="T:TagTool.Commands.Command">
             <summary>
             Base class for a tag manipulation command.
