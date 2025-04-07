@@ -44,6 +44,325 @@ setfield Attachments[6].Type objects\vehicles\warthog\fx\running\headlight_beam.
 savetagchanges
 exit
 
+# echo ==Fix reach vehicles sound and misc stuff==
+# Was it me that you called a friend?
+edittag sound\vehicles\pickup\pickup_l\pickup_l.sound_looping
+setfield DistanceBounds 7 40
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain -8
+setfield Tracks[0].Flags FadeInAtStart,FadeOutAtStop
+setfield Tracks[0].FadeOutDuration 1
+setfield Tracks[0].FadeInDuration 1
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+edittag sound\vehicles\pickup\pickup_r\pickup_r.sound_looping
+setfield DistanceBounds 7 40
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain -8
+setfield Tracks[0].Flags FadeInAtStart,FadeOutAtStop
+setfield Tracks[0].FadeOutDuration 1
+setfield Tracks[0].FadeInDuration 1
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+edittag sound\vehicles\pickup\pickup_horn\pickup_horn.sound_looping
+setfield Flags FakeSpatializationWithDistance
+setfield DistanceBounds 5 20
+setfield Tracks[0].Gain -4
+setfield Tracks[0].FadeInDuration 0.15
+setfield Tracks[0].FadeInMode None
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+edittag objects\vehicles\human\civilian\pickup\pickup.vehicle
+setfield RuntimeFlags 2
+setfield ConstantSoundVolume Loud
+setfield Functions[0].DefaultFunction.Data 08340000000000000000803F000000000000000048E1FA3E0000003F28000000010000000A0000CDFFFF7F7F400D523DD4208DBF3548034000000000000000000000803F80F6D23F
+# setfield Functions[3].DefaultFunction.Data 08340000000000000000803F000000000000000048E1FA3E0000003F1400000001000000040000CDFFFF7F7F0000803F00000000
+# setfield Functions[4].DefaultFunction.Data 08340000000000000000803F000000000000000048E1FA3E0000003F1400000001000000040000CDFFFF7F7F0000803F00000000
+# setfield Functions[5].DefaultFunction.Data 083400000000803E0000803F000000000000000000000000000000001400000001000000040000CDFFFF7F7F0000803F00000000
+# setfield Functions[6].DefaultFunction.Data 0334000000000000CDCC8C3F0000000000000000000000000000000014000000060000000000803E00000000000000000000803F
+
+setfield HavokVehiclePhysics.FrictionPoints[2].Flags Powered,AttachedToEBrake,CanBeDestroyed
+setfield HavokVehiclePhysics.FrictionPoints[2].FrictionType Forward
+setfield HavokVehiclePhysics.FrictionPoints[2].EBrakeMovingFriction 0.0075
+setfield HavokVehiclePhysics.FrictionPoints[2].EBrakeFriction 0.7
+setfield HavokVehiclePhysics.FrictionPoints[2].EBrakeMovingFrictionVelocityDiff 2.7
+
+setfield HavokVehiclePhysics.FrictionPoints[3].Flags Powered,AttachedToEBrake,CanBeDestroyed
+setfield HavokVehiclePhysics.FrictionPoints[3].FrictionType Forward
+setfield HavokVehiclePhysics.FrictionPoints[3].EBrakeMovingFriction 0.0075
+setfield HavokVehiclePhysics.FrictionPoints[3].EBrakeFriction 0.7
+setfield HavokVehiclePhysics.FrictionPoints[3].EBrakeMovingFrictionVelocityDiff 2.7
+
+setfield Seats[0].Flags Driver,ThirdPersonCamera,InvalidForNonPlayer,ForwardFromAttachment,GunnerPlayerOnly
+savetagchanges
+exit
+
+# Did you mean to leave us at half a heart to be bare
+edittag objects\vehicles\human\civilian\pickup\weapons\pickup_horn.weapon
+setfield Attachments[0].PrimaryScale primary_rate_of_fire
+setfield WeaponFlags.NewFlags SecondaryTriggerOverridesGrenades,PreventsBinoculars
+setfield HeatRecoveryThreshold 0.05
+setfield HeatLossPerSecond 0.3
+setfield OverheatedHeatLossPerSecond 0.05
+setfield GroundedDamping.Angular 5
+setfield GroundedDamping.Linear 2
+setfield WeaponClass fixed
+setfield WeaponName gun
+setfield Triggers[0].PrimaryBarrel 0
+setfield Triggers[0].Prediction Spew
+setfield Triggers[0].Autofire.AutofireTime 0
+setfield Triggers[0].Autofire.AutofireThrow 0.1
+setfield Triggers[0].Charging.OverchargedAction Discharge
+setfield Barrels[0].Flags.HaloOnline DontClearFireBitAfterRecovering
+setfield Barrels[0].PredictionType Continuous
+setfield Barrels[0].HeatGeneratedPerRound 0.02
+addblockelements Functions
+setfield Functions[0].ImportName primary_charged
+setfield Functions[0].ExportName test_primary_charged
+setfield Functions[0].DefaultFunction.Data 08340000000000000000803F000000000000000048E1FA3E0000003F3400000003000000040000CD0AD7233B0000C8430000000004000000ABAA2A3F000000000000803F0400803FFFFF7F7F000000000000803F
+savetagchanges
+exit
+
+# JIKUN RESSHA
+edittag sound\vehicles\oni_van\oni_van_l\oni_van_l.sound_looping
+setfield DistanceBounds 7 40
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain -7
+setfield Tracks[0].Flags FadeInAtStart,FadeOutAtStop
+setfield Tracks[0].FadeOutDuration 1
+setfield Tracks[0].FadeInDuration 1
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+edittag sound\vehicles\oni_van\oni_van_r\oni_van_r.sound_looping
+setfield DistanceBounds 7 40
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain -7
+setfield Tracks[0].Flags FadeInAtStart,FadeOutAtStop
+setfield Tracks[0].FadeOutDuration 1
+setfield Tracks[0].FadeInDuration 1
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+edittag objects\vehicles\human\civilian\military_truck\military_truck.vehicle
+setfield Seats[0].Flags Driver,ThirdPersonCamera,InvalidForNonPlayer,GunnerPlayerOnly,AllowsExitAndDetach,ForwardFromAttachment
+setfield Functions[4].DefaultFunction.Data 08340000000000000000803F000000000000000048E1FA3E0000003F28000000010000000A0000CDFFFF7F7F400D523DD4208DBF3548034000000000000000000000803F80F6D23F
+savetagchanges
+exit
+
+
+# He was inspired by the walls that he can never climb
+edittag objects\vehicles\human\civilian\truck_cab_large\truck_cab_large.vehicle
+setfield Seats[0].Flags Driver,ThirdPersonCamera,InvalidForNonPlayer,GunnerPlayerOnly,ForwardFromAttachment
+setfield Functions[2].DefaultFunction.Data 08340000000000000000803F000000000000000048E1FA3E0000003F28000000010000000A0000CDFFFF7F7F400D523DD4208DBF3548034000000000000000000000803F80F6D23F
+savetagchanges
+exit
+
+edittag sound\vehicles\truck_cab\truck_cab_l\truck_cab_l.sound_looping
+setfield DistanceBounds 7 40
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain -4
+setfield Tracks[0].Flags FadeInAtStart,FadeOutAtStop
+setfield Tracks[0].FadeOutDuration 1
+setfield Tracks[0].FadeInDuration 1
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+edittag sound\vehicles\truck_cab\truck_cab_r\truck_cab_r.sound_looping
+setfield DistanceBounds 7 40
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain -4
+setfield Tracks[0].Flags FadeInAtStart,FadeOutAtStop
+setfield Tracks[0].FadeOutDuration 1
+setfield Tracks[0].FadeInDuration 1
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+edittag sound\vehicles\truck_cab\truck_cab_horn\truck_cab_horn.sound_looping
+setfield Flags FakeSpatializationWithDistance
+setfield DistanceBounds 5 20
+setfield Tracks[0].Gain -4
+setfield Tracks[0].FadeInDuration 0.15
+setfield Tracks[0].FadeInMode None
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+edittag objects\vehicles\human\civilian\truck_cab_large\weapons\truck_cab_horn.weapon
+setfield Attachments[0].PrimaryScale primary_rate_of_fire
+setfield WeaponFlags.NewFlags SecondaryTriggerOverridesGrenades,PreventsBinoculars
+setfield HeatRecoveryThreshold 0.05
+setfield HeatLossPerSecond 0.3
+setfield OverheatedHeatLossPerSecond 0.05
+setfield GroundedDamping.Angular 5
+setfield GroundedDamping.Linear 2
+setfield WeaponClass fixed
+setfield WeaponName gun
+setfield Triggers[0].PrimaryBarrel 0
+setfield Triggers[0].Prediction Spew
+setfield Triggers[0].Autofire.AutofireTime 0
+setfield Triggers[0].Autofire.AutofireThrow 0.1
+setfield Triggers[0].Charging.OverchargedAction Discharge
+setfield Barrels[0].Flags.HaloOnline DontClearFireBitAfterRecovering
+setfield Barrels[0].PredictionType Continuous
+setfield Barrels[0].HeatGeneratedPerRound 0.02
+addblockelements Functions
+setfield Functions[0].ImportName primary_charged
+setfield Functions[0].ExportName test_primary_charged
+setfield Functions[0].DefaultFunction.Data 08340000000000000000803F000000000000000048E1FA3E0000003F3400000003000000040000CD0AD7233B0000C8430000000004000000ABAA2A3F000000000000803F0400803FFFFF7F7F000000000000803F
+savetagchanges
+exit
+
+# BURIED DEEP IN THE CLUMBERSOME PRISM OF NOISE
+edittag objects\vehicles\human\civilian\cargo_truck\cargo_truck.vehicle
+setfield Seats[0].Flags Driver,ThirdPersonCamera,InvalidForNonPlayer,GunnerPlayerOnly,AllowsExitAndDetach,ForwardFromAttachment
+setfield Functions[4].DefaultFunction.Data 08340000000000000000803F000000000000000048E1FA3E0000003F28000000010000000A0000CDFFFF7F7F400D523DD4208DBF3548034000000000000000000000803F80F6D23F
+savetagchanges
+exit
+
+edittag sound\vehicles\cargo_truck\cargo_truck_l\cargo_truck_l.sound_looping
+setfield DistanceBounds 7 40
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain -7
+setfield Tracks[0].Flags FadeInAtStart,FadeOutAtStop
+setfield Tracks[0].FadeOutDuration 1
+setfield Tracks[0].FadeInDuration 1
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+edittag sound\vehicles\cargo_truck\cargo_truck_r\cargo_truck_r.sound_looping
+setfield DistanceBounds 7 40
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain -7
+setfield Tracks[0].Flags FadeInAtStart,FadeOutAtStop
+setfield Tracks[0].FadeOutDuration 1
+setfield Tracks[0].FadeInDuration 1
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+edittag sound\vehicles\cargo_truck\cargo_truck_horn\cargo_truck_horn.sound_looping
+setfield Flags FakeSpatializationWithDistance
+setfield DistanceBounds 5 20
+setfield Tracks[0].Gain -4
+setfield Tracks[0].FadeInDuration 0.15
+setfield Tracks[0].FadeInMode None
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+edittag objects\vehicles\human\civilian\cargo_truck\weapons\cargo_truck_horn\cargo_truck_horn.weapon
+setfield Attachments[0].PrimaryScale primary_rate_of_fire
+setfield WeaponFlags.NewFlags SecondaryTriggerOverridesGrenades,PreventsBinoculars
+setfield HeatRecoveryThreshold 0.05
+setfield HeatLossPerSecond 0.3
+setfield OverheatedHeatLossPerSecond 0.05
+setfield GroundedDamping.Angular 5
+setfield GroundedDamping.Linear 2
+setfield WeaponClass fixed
+setfield WeaponName gun
+setfield Triggers[0].PrimaryBarrel 0
+setfield Triggers[0].Prediction Spew
+setfield Triggers[0].Autofire.AutofireTime 0
+setfield Triggers[0].Autofire.AutofireThrow 0.1
+setfield Triggers[0].Charging.OverchargedAction Discharge
+setfield Barrels[0].Flags.HaloOnline DontClearFireBitAfterRecovering
+setfield Barrels[0].PredictionType Continuous
+setfield Barrels[0].HeatGeneratedPerRound 0.02
+addblockelements Functions
+setfield Functions[0].ImportName primary_charged
+setfield Functions[0].ExportName test_primary_charged
+setfield Functions[0].DefaultFunction.Data 08340000000000000000803F000000000000000048E1FA3E0000003F3400000003000000040000CD0AD7233B0000C8430000000004000000ABAA2A3F000000000000803F0400803FFFFF7F7F000000000000803F
+savetagchanges
+exit
+
+# Is it me that you became a slave?
+edittag sound\vehicles\cart_electric\cart_electric_l\cart_electric_l.sound_looping
+setfield DistanceBounds 7 40
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain 4
+setfield Tracks[0].Flags FadeInAtStart,FadeOutAtStop
+setfield Tracks[0].FadeOutDuration 1
+setfield Tracks[0].FadeInDuration 1
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+edittag sound\vehicles\cart_electric\cart_electric_r\cart_electric_r.sound_looping
+setfield DistanceBounds 7 40
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain 4
+setfield Tracks[0].Flags FadeInAtStart,FadeOutAtStop
+setfield Tracks[0].FadeOutDuration 1
+setfield Tracks[0].FadeInDuration 1
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+edittag objects\vehicles\human\civilian\cart_electric\cart_electric.vehicle
+setfield Functions[0].DefaultFunction.Data 08340000000000000000803F000000000000000048E1FA3E0000003F28000000010000000A0000CDFFFF7F7F400D523DD4208DBF3548034000000000000000000000803F80F6D23F
+savetagchanges
+exit
+
+edittag camera\cart_electric_camera.camera_track
+setfield ControlPoints[0].Position 0.9982947 -0.0225 1.740321
+setfield ControlPoints[1].Position 0.4536537 -0.0225 2.171799
+setfield ControlPoints[2].Position -0.1803351 -0.0225 2.387055
+setfield ControlPoints[3].Position -0.8290243 -0.0225 2.382149
+setfield ControlPoints[4].Position -1.42406 -0.0225 2.175935
+setfield ControlPoints[5].Position -1.909676 -0.0225 1.806219
+setfield ControlPoints[6].Position -2.247385 -0.0225 1.324319
+setfield ControlPoints[7].Position -2.418727 -0.0225 0.7886122
+setfield ControlPoints[8].Position -2.423799 -0.0225 0.303202
+setfield ControlPoints[9].Position -2.312232 -0.0225 -0.058293
+setfield ControlPoints[10].Position -2.142671 -0.0225 -0.2994455
+setfield ControlPoints[11].Position -1.953536 -0.0225 -0.4367393
+setfield ControlPoints[12].Position -1.76405 -0.0225 -0.4872502
+setfield ControlPoints[13].Position -1.580492 -0.0225 -0.4588809
+setfield ControlPoints[14].Position -1.40611 -0.0225 -0.344986
+savetagchanges
+exit
+
+# I see those addled eyes in middle of the forte
+edittag objects\vehicles\human\civilian\forklift\forklift.vehicle
+setfield Functions[0].DefaultFunction.Data 08340000000000000000803F000000000000000048E1FA3E0000003F28000000010000000A0000CDFFFF7F7F400D523DD4208DBF3548034000000000000000000000803F80F6D23F
+savetagchanges
+exit
+
+edittag sound\vehicles\forklift\forklift_l\forklift_l.sound_looping
+setfield DistanceBounds 7 40
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain -2
+setfield Tracks[0].Flags FadeInAtStart,FadeOutAtStop
+setfield Tracks[0].FadeOutDuration 1
+setfield Tracks[0].FadeInDuration 1
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+edittag sound\vehicles\forklift\forklift_r\forklift_r.sound_looping
+setfield DistanceBounds 7 40
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain -2
+setfield Tracks[0].Flags FadeInAtStart,FadeOutAtStop
+setfield Tracks[0].FadeOutDuration 1
+setfield Tracks[0].FadeInDuration 1
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+
 echo ==H2AMP Beam Rifle==
 
 OpenModPackage "workingdir\paks\h2amp_beam_rifle.pak"
