@@ -22,11 +22,16 @@ exit
 # -----------------------------------------------
 # I                   MAGNUM                    I
 # -----------------------------------------------
-# Faster Rate of Fire
+# Faster Rate of Fire on dmg and pwr variant
 # Nerf the damage on dw3 magnum
+# Nerf base damage magnum when dual wielding
 
 edittag objects\weapons\pistol\magnum\magnum.weapon
 setfield Barrels[0].FiringEffects[0].FiringDamage globals\damage_responses\trigger_semiauto3.damage_response_definition
+# 0.5 1
+setfield Barrels[0].DualWeaponError.ErrorAngle 0.8 2.8
+# 0.7
+setfield Barrels[0].DualWeaponError.DualWieldDamageScale 0.55
 savetagchanges
 exit
 
@@ -37,5 +42,34 @@ exit
 
 edittag objects\weapons\pistol\magnum\magnum_power.weapon
 setfield Barrels[0].Firing.FireRecoveryTime 0.25
+savetagchanges
+exit
+
+# -----------------------------------------------
+# I                  AUTOMAG                    I
+# -----------------------------------------------
+# Dual wield actually do damage now
+# Not sure if this balanced or not
+edittag objects\weapons\pistol\automag\automag.weapon
+setfield Barrels[0].DualWeaponError.ErrorAngle 0.5 1
+setfield Barrels[0].DualWeaponError.RuntimeDecelerationRate 1000
+setfield Barrels[0].DualWeaponError.RuntimeAccelerationRate 1000
+setfield Barrels[0].DualWeaponError.DualWieldDamageScale 0.6
+savetagchanges
+exit
+
+# -----------------------------------------------
+# I                SILENCED SMG                 I
+# -----------------------------------------------
+# Dual wield actually do damage now
+# Not sure if this balanced or not
+edittag objects\weapons\rifle\smg_silenced\smg_silenced.weapon
+setfield Barrels[0].DualWeaponError.DualWieldDamageScale 0.9
+setfield Barrels[0].DualWeaponError.ErrorAngle 1.5 3
+setfield Barrels[0].DualWeaponError.AccelerationTime 1
+setfield Barrels[0].DualWeaponError.DecelerationTime 0.2
+setfield Barrels[0].DualWeaponError.MinimumError 0.5
+setfield Barrels[0].DualWeaponError.RuntimeAccelerationRate 1
+setfield Barrels[0].DualWeaponError.RuntimeDecelerationRate 5
 savetagchanges
 exit

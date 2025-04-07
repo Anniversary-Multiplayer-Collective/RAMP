@@ -367,7 +367,7 @@ setfield FirstPerson[1].FirstPersonAnimations objects\characters\dervish\fp\weap
 setfield HudInterface ui\chud\smg_silenced.chud_definition
 setfield WeaponTypeName offset_smg
 setfield CenteredFirstPersonWeaponOffset 0 0 -0.01
-setfield FirstPersonWeaponOffset 0 0 -0.005
+setfield FirstPersonWeaponOffset 0 0 0
 savetagchanges
 exit
 

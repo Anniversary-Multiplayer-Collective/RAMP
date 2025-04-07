@@ -2123,6 +2123,9 @@ edittag levels\ui\mainmenu\bitmaps\campaign_act3_background.bitmap
 importbitmap 0 workingdir\bitmaps\AuntieDot.dds
 exit
 
+# echo Add Concept LMG
+RunCommands "workingdir\cmds\lmg.cmds"
+
 echo ==Duals Weapons Animation==
 RunCommands "workingdir\cmds\duals_sound.cmds"
 RunCommands "workingdir\cmds\elite_duals_animations.cmds"
@@ -2176,9 +2179,6 @@ exit
 
 ForEach weap contains: objects\weapons\rifle\battle_rifle setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\battle_rifle\animations\fp_spartan\fp_spartan.model_animation_graph
 ForEach weap contains: objects\weapons\rifle\battle_rifle setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\battle_rifle\animations\fp_elite\fp_elite.model_animation_graph
-
-# echo Add Concept LMG
-RunCommands "workingdir\cmds\lmg.cmds"
 
 AddModFiles workingdir\assets
 SaveModPackage "modsfolder\RAMP_2.pak"

@@ -40,6 +40,7 @@ exit
 # [REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED][REDACTED]
 duplicatetag objects\weapons\pistol\needler\needler.weapon objects\weapons\pistol\needler\ramp_needler_purple
 edittag objects\weapons\pistol\needler\ramp_needler_purple.weapon
+setfield WeaponAimAssist.AutoaimRange 14
 setfield Model dw3\r3ach\objects\weapons\pistol\needler\ramp_needler_purple.model
 setfield FirstPerson[0].FirstPersonModel dw3\r3ach\objects\weapons\pistol\needler\ramp_needler_purple.render_model
 setfield FirstPerson[1].FirstPersonModel dw3\r3ach\objects\weapons\pistol\needler\ramp_needler_purple.render_model

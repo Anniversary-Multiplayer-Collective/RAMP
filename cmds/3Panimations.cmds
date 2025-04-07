@@ -1,5 +1,19 @@
 edittag objects\characters\dervish\dervish.jmad
 addanimation workingdir\animations\dervish
+
+addblockelements Animations[62].AnimationData.EffectEvents
+setfield Animations[62].AnimationData.EffectEvents[0].Frame 9
+setfield Animations[62].AnimationData.EffectEvents[0].MarkerName hammer_detonation
+setfield Animations[62].AnimationData.EffectEvents[0].DamageEffectReportingType.HaloOnline Guardians
+addblockelements Animations[62].AnimationData.ObjectSpaceParentNodes
+setfield Animations[62].AnimationData.ObjectSpaceParentNodes[0].Flags Rotation
+setfield Animations[62].AnimationData.ObjectSpaceParentNodes[0].RotationX -20842
+setfield Animations[62].AnimationData.ObjectSpaceParentNodes[0].RotationY -10233
+setfield Animations[62].AnimationData.ObjectSpaceParentNodes[0].RotationZ -17661
+setfield Animations[62].AnimationData.ObjectSpaceParentNodes[0].RotationW 14920
+setfield Animations[62].AnimationData.ObjectSpaceParentNodes[0].DefaultTranslation 0.0001265796 1.153E-08 0.4048014
+setfield Animations[62].AnimationData.ObjectSpaceParentNodes[0].DefaultScale 1
+
 addblockelements Animations[172].AnimationData.FrameEvents 2
 setfield Animations[172].AnimationData.FrameEvents[0].TypeED LeftFoot
 setfield Animations[172].AnimationData.FrameEvents[0].Frame 1
@@ -74,6 +88,20 @@ exit
 
 edittag objects\characters\masterchief\masterchief.jmad
 addanimation workingdir\animations\masterchief
+
+addblockelements Animations[220].AnimationData.EffectEvents
+setfield Animations[220].AnimationData.EffectEvents[0].Frame 9
+setfield Animations[220].AnimationData.EffectEvents[0].MarkerName hammer_detonation
+setfield Animations[220].AnimationData.EffectEvents[0].DamageEffectReportingType.HaloOnline Guardians
+addblockelements Animations[220].AnimationData.ObjectSpaceParentNodes
+setfield Animations[220].AnimationData.ObjectSpaceParentNodes[0].Flags Rotation
+setfield Animations[220].AnimationData.ObjectSpaceParentNodes[0].RotationX -22365
+setfield Animations[220].AnimationData.ObjectSpaceParentNodes[0].RotationY -8095
+setfield Animations[220].AnimationData.ObjectSpaceParentNodes[0].RotationZ -20136
+setfield Animations[220].AnimationData.ObjectSpaceParentNodes[0].RotationW 10121
+setfield Animations[220].AnimationData.ObjectSpaceParentNodes[0].DefaultTranslation -0.00821 -1.6748E-08 0.3684624
+setfield Animations[220].AnimationData.ObjectSpaceParentNodes[0].DefaultScale 1
+
 addblockelements Animations[1241].AnimationData.FrameEvents 2
 setfield Animations[1241].AnimationData.FrameEvents[0].TypeED LeftFoot
 setfield Animations[1241].AnimationData.FrameEvents[0].Frame 1
