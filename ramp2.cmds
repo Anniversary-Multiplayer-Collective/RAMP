@@ -2180,6 +2180,12 @@ exit
 ForEach weap contains: objects\weapons\rifle\battle_rifle setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\battle_rifle\animations\fp_spartan\fp_spartan.model_animation_graph
 ForEach weap contains: objects\weapons\rifle\battle_rifle setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\battle_rifle\animations\fp_elite\fp_elite.model_animation_graph
 
+# echo Remove Color Change block from compost bag pile
+EditTag objects\props\human\pioneer\farm\bags_compost_pile_a\bags_compost_pile_a.scenery
+RemoveBlockElements ChangeColors 0 *
+SaveTagChanges
+Exit
+
 AddModFiles workingdir\assets
 SaveModPackage "modsfolder\RAMP_2.pak"
 
