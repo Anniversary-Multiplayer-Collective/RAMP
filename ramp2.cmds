@@ -2188,17 +2188,17 @@ Exit
 
 ## echo Brighten up Frigate
 
-objects\vehicles\human\unsc_fleet\unsc_stalwart_class_frigate\shaders\frigate_test_gameplay.shader
+edittag objects\vehicles\human\unsc_fleet\unsc_stalwart_class_frigate\shaders\frigate_test_gameplay.shader
 setargument diffuse_coefficient 5
 savetagchanges
 exit
 
-objects\vehicles\human\unsc_fleet\unsc_stalwart_class_frigate\shaders\frigate_test_gameplay2.shader
+edittag objects\vehicles\human\unsc_fleet\unsc_stalwart_class_frigate\shaders\frigate_test_gameplay2.shader
 setargument diffuse_coefficient 5
 savetagchanges
 exit
 
-objects\vehicles\human\unsc_fleet\unsc_stalwart_class_frigate\shaders\frigate_test_gameplay3.shader
+edittag objects\vehicles\human\unsc_fleet\unsc_stalwart_class_frigate\shaders\frigate_test_gameplay3.shader
 setargument diffuse_coefficient 5
 savetagchanges
 exit
