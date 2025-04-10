@@ -12,9 +12,15 @@ duplicatetag dw3\r3ach\objects\weapons\rifle\assault_rifle\animations\fp_spartan
 nametag * dw3\r3ach\objects\weapons\rifle\light_machine_gun\animations\fp_spartan\fp_spartan
 savetagnames
 
+edittag ui\weapon_type_names.multilingual_unicode_string_list
+setstring english offset_lmg "Light Machine Gun"
+SaveTagChanges
+Exit
+
 edittag potterhalo\objects\weapons\rifle\light_machine_gun\light_machine_gun.weapon
 setfield FirstPerson[0].FirstPersonModel dw3\r3ach\objects\weapons\rifle\lmg\lmg.render_model
 setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\light_machine_gun\animations\fp_spartan\fp_spartan.model_animation_graph
+setfield WeaponTypeName offset_lmg
 savetagchanges
 exit
 
