@@ -5,6 +5,12 @@ stringid add amag_swap
 stringid add amag_swap_ai
 stringid add amag_switch_to
 
+stringid add lmg_pickup
+stringid add lmg_picked_up
+stringid add lmg_swap
+stringid add lmg_swap_ai
+stringid add lmg_switch_to
+
 setstring english ssmg_pickup "\uE461\uE45F to pick up|n|r\uFB03"
 setstring english ssmg_swap "\uE461\uE45F to swap for|n|r\uFB03"
 setstring english ssmg_swap_ai "\uE461\uE45F to take ally's|n|r\uFB03"
@@ -19,6 +25,12 @@ setstring english amag_swap_ai "\uE461\uE45F to take ally's|n|r\uFB04"
 setstring english amag_switch_to  "Out of ammo|nPress \uE446 to switch to|n|r\uFB04"
 setstring english amag_dual "\uE461\uE45E to dual wield|n|r\uFB06"
 setstring english amag_dual_swap "\uE461\uE45E to swap for|n|r\uFB06"
+
+setstring english lmg_pickup "\uE461\uE45F to pick up|n|r\uFB08"
+setstring english lmg_picked_up "Picked up a Light Machine Gun"
+setstring english lmg_swap "\uE461\uE45F to swap for|n|r\uFB08"
+setstring english lmg_swap_ai "\uE461\uE45F to take ally's|n|r\uFB08"
+setstring english lmg_switch_to  "Out of ammo|nPress \uE446 to switch to|n|r\uFB08"
 SaveTagChanges
 Exit
 

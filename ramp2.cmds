@@ -1846,7 +1846,7 @@ setfield Barrels[0].Projectile objects\vehicles\scorpion\turrets\cannon\weapon\t
 savetagchanges
 exit
 
-# echo ==Fix Silenced SMG and Automag font icons and strings==
+# echo ==Fix weapon icons and strings==
 runcommands workingdir\cmds\weapon_strings.cmds
 
 # == Automag and Silenced SMG Animations==

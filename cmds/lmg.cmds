@@ -21,6 +21,13 @@ edittag potterhalo\objects\weapons\rifle\light_machine_gun\light_machine_gun.wea
 setfield FirstPerson[0].FirstPersonModel dw3\r3ach\objects\weapons\rifle\lmg\lmg.render_model
 setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\light_machine_gun\animations\fp_spartan\fp_spartan.model_animation_graph
 setfield WeaponTypeName offset_lmg
+setfield PickupMessage lmg_pickup
+setfield SwapMessage lmg_swap
+setfield PickedUpMessage lmg_picked_up
+setfield SwitchToMessage lmg_switch_to
+setfield SwitchToFromAiMessage lmg_swap_ai
+setfield PickupOrDualWieldMessage lmg_dual
+setfield SwapOrDualWieldMessage lmg_dual_swap
 savetagchanges
 exit
 
