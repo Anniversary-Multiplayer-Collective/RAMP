@@ -26,8 +26,6 @@ setfield SwapMessage lmg_swap
 setfield PickedUpMessage lmg_picked_up
 setfield SwitchToMessage lmg_switch_to
 setfield SwitchToFromAiMessage lmg_swap_ai
-setfield PickupOrDualWieldMessage lmg_dual
-setfield SwapOrDualWieldMessage lmg_dual_swap
 savetagchanges
 exit
 
