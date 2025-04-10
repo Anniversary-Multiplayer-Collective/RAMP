@@ -29,6 +29,8 @@ Increase the projectile speed for certain hitscan weapons (To combat ED buggy ne
 
 Tweak Reach Screen FX to match better
 
+Replace flashlight with night vision from reach (wait for mtn to commit his shader shit)
+
 Fixed:
 OLDE TIMEY
 JUICY
