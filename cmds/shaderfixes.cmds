@@ -108,30 +108,30 @@ SaveTagChanges
 Exit
 
 # echo ==Shader fixes for Boardwalk, Beachhead, Reflection City SkyBox==
-edittag levels\solo\m50\shaders\paneling\metal_bldg_white_a.shader
-setargument specular_coefficient 0.2
-savetagchanges
-exit
+EditTag levels\solo\m50\shaders\paneling\metal_bldg_white_a.shader
+SetArgument specular_coefficient 0.2
+SaveTagChanges
+Exit
 
-edittag levels\solo\m50\shaders\paneling\metal_bldg_white_b.shader
-setargument specular_coefficient 0.2
-savetagchanges
-exit
+EditTag levels\solo\m50\shaders\paneling\metal_bldg_white_b.shader
+SetArgument specular_coefficient 0.2
+SaveTagChanges
+Exit
 
-edittag levels\solo\m50\shaders\paneling\metal_bldg_white_e.shader
-setargument specular_coefficient 0.2
-savetagchanges
-exit
+EditTag levels\solo\m50\shaders\paneling\metal_bldg_white_e.shader
+SetArgument specular_coefficient 0.2
+SaveTagChanges
+Exit
 
-edittag levels\solo\m50\shaders\paneling\metal_bldg_grey_a.shader
-setargument specular_coefficient 0.2
-savetagchanges
-exit
+EditTag levels\solo\m50\shaders\paneling\metal_bldg_grey_a.shader
+SetArgument specular_coefficient 0.2
+SaveTagChanges
+Exit
 
-edittag levels\solo\m52\shaders\exterior_buildings\metal_skyscraper_white_a.shader
-setargument specular_coefficient 0.2
-savetagchanges
-exit
+EditTag levels\solo\m52\shaders\exterior_buildings\metal_skyscraper_white_a.shader
+SetArgument specular_coefficient 0.2
+SaveTagChanges
+Exit
 
 # levels\solo\m52\shaders\exterior_buildings\metal_skyscraper_white_b.shader
 # levels\solo\m52\shaders\exterior_buildings\metal_skyscraper_white_e.shader
@@ -548,23 +548,23 @@ SaveTagChanges
 Exit
 
 # echo ==Shader fixes for Overlook...==
-edittag levels\solo\m10\shaders\m10_coorigated_sheet_wall_rust.shader
-setargument specular_coefficient 0.01
+EditTag levels\solo\m10\shaders\m10_coorigated_sheet_wall_rust.shader
+SetArgument specular_coefficient 0.01
 SaveTagChanges
 Exit
 
-edittag levels\solo\m10\shaders\040_welded_metal.shader
-setargument specular_coefficient 0
+EditTag levels\solo\m10\shaders\040_welded_metal.shader
+SetArgument specular_coefficient 0
 SaveTagChanges
 Exit
 
-edittag levels\solo\m10\shaders\040_kive_beam.shader
-setargument specular_coefficient 0.01
+EditTag levels\solo\m10\shaders\040_kive_beam.shader
+SetArgument specular_coefficient 0.01
 SaveTagChanges
 Exit
 
-edittag levels\solo\m10\shaders\m10_metal_plate_welded.shader
-setargument specular_coefficient 0.01
+EditTag levels\solo\m10\shaders\m10_metal_plate_welded.shader
+SetArgument specular_coefficient 0.01
 SaveTagChanges
 Exit
 

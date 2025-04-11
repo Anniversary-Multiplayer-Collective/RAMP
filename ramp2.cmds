@@ -18,59 +18,59 @@ AMP Collective
 MainMenu Multiplayer Character
 
 editmodmetadata
-setfield metadata.URL https://github.com/Zekken01/Ramp-2
+SetField metadata.URL https://github.com/Zekken01/Ramp-2
 savemodmetadata
-exit
+Exit
 
 # Update the version at the bottom of the pak
 
 ## NO VALID RESOURCE DEFINITION IN ANY REACH CACHE
 ## rasterizer\water\static_wave\static_wave_slope_water.bitmap
-opencachefile "reachmaps\70_boneyard.map"
-porttag rasterizer\rain\rain_noise_boundary.bitmap
-exit
-opencachefile "reachmaps\forge_halo.map"
-porttag shaders\shader_options\bump_detail_blend.render_method_option
-porttag shaders\shader_options\bump_three_detail_blend.render_method_option
-porttag shaders\shader_options\bump_default_wrinkle.render_method_option
-porttag shaders\shader_options\bump_detail_wrinkle.render_method_option
-porttag shaders\glass_options\glass_specular_option.render_method_option
-porttag shaders\wetness_options\wetness_simple.render_method_option
-porttag shaders\wetness_options\wetness_flood.render_method_option
-porttag shaders\shader_options\blend_source_from_albedo_alpha.render_method_option
-porttag shaders\shader_options\blend_source_from_opacity_map.render_method_option
-exit
+OpenCacheFile "reachmaps\70_boneyard.map"
+PortTag rasterizer\rain\rain_noise_boundary.bitmap
+Exit
+OpenCacheFile "reachmaps\forge_halo.map"
+PortTag shaders\shader_options\bump_detail_blend.render_method_option
+PortTag shaders\shader_options\bump_three_detail_blend.render_method_option
+PortTag shaders\shader_options\bump_default_wrinkle.render_method_option
+PortTag shaders\shader_options\bump_detail_wrinkle.render_method_option
+PortTag shaders\glass_options\glass_specular_option.render_method_option
+PortTag shaders\wetness_options\wetness_simple.render_method_option
+PortTag shaders\wetness_options\wetness_flood.render_method_option
+PortTag shaders\shader_options\blend_source_from_albedo_alpha.render_method_option
+PortTag shaders\shader_options\blend_source_from_opacity_map.render_method_option
+Exit
 
-createtag glvs shaders\glass_shared_vertex_shaders
-createtag glps shaders\glass_shared_pixel_shaders
-createtag rmdf shaders\glass
+CreateTag glvs shaders\glass_shared_vertex_shaders
+CreateTag glps shaders\glass_shared_pixel_shaders
+CreateTag rmdf shaders\glass
 
-edittag shaders\glass.rmdf
-stringid add calc_bumpmap_detail_blend_vs
-stringid add calc_bumpmap_detail_blend_ps
-stringid add calc_bumpmap_three_detail_blend_vs
-stringid add calc_bumpmap_three_detail_blend_ps
-stringid add standard_wrinkle
-stringid add calc_bumpmap_default_wrinkle_vs
-stringid add calc_bumpmap_default_wrinkle_ps
-stringid add detail_wrinkle
-stringid add calc_bumpmap_detail_wrinkle_vs
-stringid add calc_bumpmap_detail_wrinkle_ps
-stringid add wetness
-stringid add calc_wetness_simple_ps
-stringid add flood
-stringid add calc_wetness_flood_ps
-stringid add calc_wetness_ps
-stringid add alpha_blend_source
-stringid add from_albedo_alpha_without_fresnel
-stringid add albedo_alpha_without_fresnel
-stringid add albedo_alpha
-stringid add from_opacity_map_alpha
-stringid add opacity_map_alpha
-stringid add from_opacity_map_rgb
-stringid add opacity_map_rgb
-stringid add from_opacity_map_alpha_and_albedo_alpha
-stringid add opacity_map_alpha_and_albedo_alpha
+EditTag shaders\glass.rmdf
+StringId add calc_bumpmap_detail_blend_vs
+StringId add calc_bumpmap_detail_blend_ps
+StringId add calc_bumpmap_three_detail_blend_vs
+StringId add calc_bumpmap_three_detail_blend_ps
+StringId add standard_wrinkle
+StringId add calc_bumpmap_default_wrinkle_vs
+StringId add calc_bumpmap_default_wrinkle_ps
+StringId add detail_wrinkle
+StringId add calc_bumpmap_detail_wrinkle_vs
+StringId add calc_bumpmap_detail_wrinkle_ps
+StringId add wetness
+StringId add calc_wetness_simple_ps
+StringId add flood
+StringId add calc_wetness_flood_ps
+StringId add calc_wetness_ps
+StringId add alpha_blend_source
+StringId add from_albedo_alpha_without_fresnel
+StringId add albedo_alpha_without_fresnel
+StringId add albedo_alpha
+StringId add from_opacity_map_alpha
+StringId add opacity_map_alpha
+StringId add from_opacity_map_rgb
+StringId add opacity_map_rgb
+StringId add from_opacity_map_alpha_and_albedo_alpha
+StringId add opacity_map_alpha_and_albedo_alpha
 
 SetField GlobalOptions shaders\shader_options\global_shader_options.render_method_option
 AddBlockElements Categories 6
@@ -193,52 +193,52 @@ SetField GlobalPixelShader shaders\glass_shared_pixel_shaders.glps
 SetField GlobalVertexShader shaders\glass_shared_vertex_shaders.glvs
 SetField Flags None
 SetField Version 0
-savetagchanges
-exit
-generateshader glvs glass
-generateshader glps glass
-savetagnames
+SaveTagChanges
+Exit
+GenerateShader glvs glass
+GenerateShader glps glass
+SaveTagNames
 
 # Thanks to NoShotz for helping out :), really appreciate it
 # echo ==Add default bitmap + parameter for reach diffuse power...==
-opencachefile "reachmaps\dlc_slayer.map"
-porttag rasterizer\diffuse_power_specular\diffuse_power.bitmap
-exit
-edittag *.rasg
-addblockelements defaultbitmaps
+OpenCacheFile "reachmaps\dlc_slayer.map"
+PortTag rasterizer\diffuse_power_specular\diffuse_power.bitmap
+Exit
+EditTag *.rasg
+AddBlockElements defaultbitmaps
 SetField defaultbitmaps[*].bitmap rasterizer\diffuse_power_specular\diffuse_power.bitmap
-savetagchanges
-exit
-stringid add g_diffuse_power_specular
-edittag shaders\shader_options\material_cook_torrance_option_reach.render_method_option
-addblockelements parameters
+SaveTagChanges
+Exit
+StringId add g_diffuse_power_specular
+EditTag shaders\shader_options\material_cook_torrance_option_reach.render_method_option
+AddBlockElements parameters
 SetField parameters[*].name g_diffuse_power_specular
 SetField parameters[*].RenderMethodExtern material_diffuse_power
-savetagchanges
-exit
-edittag shaders\shader_options\material_two_lobe_phong_option_reach.render_method_option
-addblockelements parameters
+SaveTagChanges
+Exit
+EditTag shaders\shader_options\material_two_lobe_phong_option_reach.render_method_option
+AddBlockElements parameters
 SetField parameters[*].name g_diffuse_power_specular
 SetField parameters[*].RenderMethodExtern material_diffuse_power
-savetagchanges
-exit
+SaveTagChanges
+Exit
 
 # echo ==Fix missing parameters in reach cook torrance...==
-edittag shaders\shader_options\material_cook_torrance_option_reach.render_method_option
-addblockelements parameters
+EditTag shaders\shader_options\material_cook_torrance_option_reach.render_method_option
+AddBlockElements parameters
 SetField parameters[*].Name g_sampler_cc0236
 SetField parameters[*].rendermethodextern texture_cook_torrance_cc0236
-addblockelements parameters
+AddBlockElements parameters
 SetField parameters[*].Name g_sampler_dd0236
 SetField parameters[*].rendermethodextern texture_cook_torrance_dd0236
-addblockelements parameters
+AddBlockElements parameters
 SetField parameters[*].Name g_sampler_c78d78
 SetField parameters[*].rendermethodextern texture_cook_torrance_c78d78
-savetagchanges
-exit
+SaveTagChanges
+Exit
 
 # echo ==Reach water vertex shader...==
-##generateshader glvs water
+##GenerateShader glvs water
 
 # echo ==Bitmap Fixes...==
 RunCommands "workingdir\cmds\bitmap_fixes.cmds"
@@ -324,8 +324,8 @@ EditTag objects\vehicles\human\falcon\falcon.vehicle
 SetField PhysicsTypes.Vtol[0].LiftAnglesAcceleration 360
 SetField PhysicsTypes.Vtol[0].RenderLiftAnglesAcceleration 360
 SetField PhysicsTypes.Vtol[0].PropellerRotationSpeed 2 4
-setfield PhysicsTypes.Vtol[0].SpeedParameters.MaximumForwardAcceleration 6
-setfield PhysicsTypes.Vtol[0].SpeedParameters.MaximumLeftAcceleration 6
+SetField PhysicsTypes.Vtol[0].SpeedParameters.MaximumForwardAcceleration 6
+SetField PhysicsTypes.Vtol[0].SpeedParameters.MaximumLeftAcceleration 6
 SetField PhysicsTypes.Vtol[0].SpeedParameters.RotorDamping 6
 SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccExp 1
 SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccScale 10
@@ -340,8 +340,8 @@ EditTag objects\vehicles\human\falcon\falcon_nose_gun.vehicle
 SetField PhysicsTypes.Vtol[0].LiftAnglesAcceleration 360
 SetField PhysicsTypes.Vtol[0].RenderLiftAnglesAcceleration 360
 SetField PhysicsTypes.Vtol[0].PropellerRotationSpeed 2 4
-setfield PhysicsTypes.Vtol[0].SpeedParameters.MaximumForwardAcceleration 6
-setfield PhysicsTypes.Vtol[0].SpeedParameters.MaximumLeftAcceleration 6
+SetField PhysicsTypes.Vtol[0].SpeedParameters.MaximumForwardAcceleration 6
+SetField PhysicsTypes.Vtol[0].SpeedParameters.MaximumLeftAcceleration 6
 SetField PhysicsTypes.Vtol[0].SpeedParameters.RotorDamping 6
 SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccExp 1
 SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccScale 10
@@ -356,8 +356,8 @@ EditTag objects\vehicles\human\falcon\falcon_transport.vehicle
 SetField PhysicsTypes.Vtol[0].LiftAnglesAcceleration 360
 SetField PhysicsTypes.Vtol[0].RenderLiftAnglesAcceleration 360
 SetField PhysicsTypes.Vtol[0].PropellerRotationSpeed 2 4
-setfield PhysicsTypes.Vtol[0].SpeedParameters.MaximumForwardAcceleration 6
-setfield PhysicsTypes.Vtol[0].SpeedParameters.MaximumLeftAcceleration 6
+SetField PhysicsTypes.Vtol[0].SpeedParameters.MaximumForwardAcceleration 6
+SetField PhysicsTypes.Vtol[0].SpeedParameters.MaximumLeftAcceleration 6
 SetField PhysicsTypes.Vtol[0].SpeedParameters.RotorDamping 6
 SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccExp 1
 SetField PhysicsTypes.Vtol[0].SpeedParameters.MagicAngularAccScale 10
@@ -805,12 +805,12 @@ SetField Animations[0].AnimationData.SoundEvents[1].MarkerName entry_audio
 # OPEN TOP
 SetField Animations[0].AnimationData.SoundEvents[2].Sound 0
 SetField Animations[0].AnimationData.SoundEvents[2].Frame 13
-SetField Animations[0].AnimationData.SoundEvents[2].MarkerName exit_audio
+SetField Animations[0].AnimationData.SoundEvents[2].MarkerName Exit_audio
 
 # CLOSE TOP
 SetField Animations[0].AnimationData.SoundEvents[3].Sound 3
 SetField Animations[0].AnimationData.SoundEvents[3].Frame 15
-SetField Animations[0].AnimationData.SoundEvents[3].MarkerName exit_audio
+SetField Animations[0].AnimationData.SoundEvents[3].MarkerName Exit_audio
 SaveTagChanges
 Exit
 
@@ -1503,8 +1503,8 @@ SetField Barrels[0].ErrorDecelerationRate 2.5
 SetField Barrels[0].VerticalRecoil.AngleChangePerShot 0 0
 SetField Barrels[0].DualWeaponError.RuntimeDecelerationRate 1000
 SetField Barrels[0].DualWeaponError.RuntimeAccelerationRate 1000
-savetagchanges
-exit
+SaveTagChanges
+Exit
 
 echo ==DMR Crosshair fix==
 EditTag objects\weapons\rifle\dmr\dmr.weapon
@@ -1526,73 +1526,73 @@ SetField Barrels[0].ErrorAccelerationRate 2
 SetField Barrels[0].ErrorDecelerationRate 1.538462
 SetField Barrels[0].VerticalRecoil.AngleChangePerShot 0 0
 SetField Barrels[0].DamageReportingType.HaloOnline Carbine
-addblockelements Barrels[0].AccuracyPenalties.SingleWieldPenalties.FiringPenaltyFunction
+AddBlockElements Barrels[0].AccuracyPenalties.SingleWieldPenalties.FiringPenaltyFunction
 SetField Barrels[0].AccuracyPenalties.SingleWieldPenalties.FiringPenaltyFunction[0].Function.Data 08340000000000000000803F00000000000000006F12833A6F12033B2400000002000000040000CD0AD7233EB9DE9F3F3333333F04000000FFFF7F7F881069BF0AD3853F
-addblockelements Barrels[0].AccuracyPenalties.SingleWieldPenalties.FiringCrouchedPenaltyFunction
+AddBlockElements Barrels[0].AccuracyPenalties.SingleWieldPenalties.FiringCrouchedPenaltyFunction
 SetField Barrels[0].AccuracyPenalties.SingleWieldPenalties.FiringCrouchedPenaltyFunction[0].Function.Data 08340000000000000000803F00000000000000006F12833A6F12033B2400000002000000040000CDC3F5283ECC261B3F4444043F04000000FFFF7F7FCCA413BF573A363F
-savetagchanges
-exit
+SaveTagChanges
+Exit
 
 
 echo ==Revenant projectile swap==
-edittag objects\vehicles\covenant\revenant\turrets\revenant_plasma_mortar\revenant_plasma_mortar.weapon
+EditTag objects\vehicles\covenant\revenant\turrets\revenant_plasma_mortar\revenant_plasma_mortar.weapon
 SetField Barrels[0].Projectile objects\vehicles\covenant\revenant\turrets\revenant_plasma_turret\weapon\revenant_plasma_turret.projectile
-savetagchanges
+SaveTagChanges
 Exit
 
-edittag objects\vehicles\covenant\revenant\turrets\revenant_plasma_mortar\revenant_plasma_mortar.weapon
+EditTag objects\vehicles\covenant\revenant\turrets\revenant_plasma_mortar\revenant_plasma_mortar.weapon
 SetField WeaponFlags.NewFlags SecondaryTriggerOverridesGrenades,CannotFireWhileBoosting
-savetagchanges
+SaveTagChanges
 Exit
 
 echo ==Revenant HUD==
-edittag objects\vehicles\covenant\revenant\revenant.vehicle
-setfield HudInterfaces[0].UnitHudInterface ui\chud\v_revenant.chud_definition
-savetagchanges
-exit
+EditTag objects\vehicles\covenant\revenant\revenant.vehicle
+SetField HudInterfaces[0].UnitHudInterface ui\chud\v_revenant.chud_definition
+SaveTagChanges
+Exit
 
-edittag ui\chud\v_revenant.chud_definition
-setfield HudWidgets[0].BitmapWidgets[0].Bitmap ms30\ui\chud\bitmaps\hud_revenant_reticle.bitmap
-savetagchanges
-exit
+EditTag ui\chud\v_revenant.chud_definition
+SetField HudWidgets[0].BitmapWidgets[0].Bitmap ms30\ui\chud\bitmaps\hud_revenant_reticle.bitmap
+SaveTagChanges
+Exit
 
 echo ==Revenant engine low sound==
 # Up the gain by 10, so -10 become 0 and -14 become -4
-edittag sound\vehicles\spectre\spectre_boost_l\spectre_boost_l.sound_looping
-setfield Tracks[0].Gain 0
-savetagchanges
-exit
+EditTag sound\vehicles\spectre\spectre_boost_l\spectre_boost_l.sound_looping
+SetField Tracks[0].Gain 0
+SaveTagChanges
+Exit
 
-edittag sound\vehicles\spectre\spectre_boost_r\spectre_boost_r.sound_looping
-setfield Tracks[0].Gain 0
-savetagchanges
-exit
+EditTag sound\vehicles\spectre\spectre_boost_r\spectre_boost_r.sound_looping
+SetField Tracks[0].Gain 0
+SaveTagChanges
+Exit
 
-edittag sound\vehicles\revenant\revenant_engine_left\revenant_engine_left.sound_looping
-setfield Tracks[0].Gain -4
-savetagchanges
-exit
+EditTag sound\vehicles\revenant\revenant_engine_left\revenant_engine_left.sound_looping
+SetField Tracks[0].Gain -4
+SaveTagChanges
+Exit
 
-edittag sound\vehicles\revenant\revenant_engine_right\revenant_engine_right.sound_looping
-setfield Tracks[0].Gain -4
-savetagchanges
-exit
+EditTag sound\vehicles\revenant\revenant_engine_right\revenant_engine_right.sound_looping
+SetField Tracks[0].Gain -4
+SaveTagChanges
+Exit
 
-edittag sound\vehicles\revenant\revenant_lod\revenant_lod.sound_looping
-setfield Tracks[0].Gain -7
-savetagchanges
-exit
+EditTag sound\vehicles\revenant\revenant_lod\revenant_lod.sound_looping
+SetField Tracks[0].Gain -7
+SaveTagChanges
+Exit
 
 echo ==Grenade launcher explosion sound fix==
-edittag dw3\r3ach\objects\weapons\rifle\grenade_launcher\projectiles\primary\detonation.effect
-setfield Events[0].Parts[0].Type dw3\r3ach\sound\weapons\grenade_launcher\grenade_launcher_expl.sound
-savetagchanges
-exit
+EditTag dw3\r3ach\objects\weapons\rifle\grenade_launcher\projectiles\primary\detonation.effect
+SetField Events[0].Parts[0].Type dw3\r3ach\sound\weapons\grenade_launcher\grenade_launcher_expl.sound
+SaveTagChanges
+Exit
 
-edittag dw3\r3ach\objects\weapons\rifle\grenade_launcher\projectiles\secondary\detonation.effect
-setfield Events[0].Parts[0].Type dw3\r3ach\sound\weapons\grenade_launcher\grenade_launcher_expl.sound
-savetagchanges
-exit
+EditTag dw3\r3ach\objects\weapons\rifle\grenade_launcher\projectiles\secondary\detonation.effect
+SetField Events[0].Parts[0].Type dw3\r3ach\sound\weapons\grenade_launcher\grenade_launcher_expl.sound
+SaveTagChanges
+Exit
 
 echo ==Make weapons not float like in reach==
 ForEach weap contains: objects\weapons SetField WaterDensity None
@@ -1739,200 +1739,200 @@ Exit
 
 # echo ==Weapons Multiplayer Globals==
 # Fiesta now should work
-edittag multiplayer\multiplayer_globals.multiplayer_globals
+EditTag multiplayer\multiplayer_globals.multiplayer_globals
 # Add 10
-removeblockelements Universal[0].GameVariantWeapons 71 *
+RemoveBlockElements Universal[0].GameVariantWeapons 71 *
 
-addblockelements Universal[0].GameVariantWeapons 1
-setfield Universal[0].GameVariantWeapons[*].Name mgt_jorge
-setfield Universal[0].GameVariantWeapons[*].RandomChance 0
-setfield Universal[0].GameVariantWeapons[*].Weapon objects\weapons\turret\machinegun_turret_jorge\machinegun_turret_jorge.weapon
+AddBlockElements Universal[0].GameVariantWeapons 1
+SetField Universal[0].GameVariantWeapons[*].Name mgt_jorge
+SetField Universal[0].GameVariantWeapons[*].RandomChance 0
+SetField Universal[0].GameVariantWeapons[*].Weapon objects\weapons\turret\machinegun_turret_jorge\machinegun_turret_jorge.weapon
 
-addblockelements Universal[0].GameVariantWeapons 1
-setfield Universal[0].GameVariantWeapons[*].Name automag
-setfield Universal[0].GameVariantWeapons[*].RandomChance 0.1
-setfield Universal[0].GameVariantWeapons[*].Weapon objects\weapons\pistol\automag\automag.weapon
+AddBlockElements Universal[0].GameVariantWeapons 1
+SetField Universal[0].GameVariantWeapons[*].Name automag
+SetField Universal[0].GameVariantWeapons[*].RandomChance 0.1
+SetField Universal[0].GameVariantWeapons[*].Weapon objects\weapons\pistol\automag\automag.weapon
 
-addblockelements Universal[0].GameVariantWeapons 1
-setfield Universal[0].GameVariantWeapons[*].Name smg_silenced
-setfield Universal[0].GameVariantWeapons[*].RandomChance 0.1
-setfield Universal[0].GameVariantWeapons[*].Weapon objects\weapons\rifle\smg_silenced\smg_silenced.weapon
+AddBlockElements Universal[0].GameVariantWeapons 1
+SetField Universal[0].GameVariantWeapons[*].Name smg_silenced
+SetField Universal[0].GameVariantWeapons[*].RandomChance 0.1
+SetField Universal[0].GameVariantWeapons[*].Weapon objects\weapons\rifle\smg_silenced\smg_silenced.weapon
 
-addblockelements Universal[0].GameVariantWeapons 1
-setfield Universal[0].GameVariantWeapons[*].Name concussion_rifle
-setfield Universal[0].GameVariantWeapons[*].RandomChance 0.1
-setfield Universal[0].GameVariantWeapons[*].Weapon objects\weapons\rifle\concussion_rifle\concussion_rifle.weapon
+AddBlockElements Universal[0].GameVariantWeapons 1
+SetField Universal[0].GameVariantWeapons[*].Name concussion_rifle
+SetField Universal[0].GameVariantWeapons[*].RandomChance 0.1
+SetField Universal[0].GameVariantWeapons[*].Weapon objects\weapons\rifle\concussion_rifle\concussion_rifle.weapon
 
-addblockelements Universal[0].GameVariantWeapons 1
-setfield Universal[0].GameVariantWeapons[*].Name focus_rifle
-setfield Universal[0].GameVariantWeapons[*].RandomChance 0.1
-setfield Universal[0].GameVariantWeapons[*].Weapon objects\weapons\rifle\focus_rifle\focus_rifle.weapon
+AddBlockElements Universal[0].GameVariantWeapons 1
+SetField Universal[0].GameVariantWeapons[*].Name focus_rifle
+SetField Universal[0].GameVariantWeapons[*].RandomChance 0.1
+SetField Universal[0].GameVariantWeapons[*].Weapon objects\weapons\rifle\focus_rifle\focus_rifle.weapon
 
-addblockelements Universal[0].GameVariantWeapons 1
-setfield Universal[0].GameVariantWeapons[*].Name grenade_launcher
-setfield Universal[0].GameVariantWeapons[*].RandomChance 0.1
-setfield Universal[0].GameVariantWeapons[*].Weapon objects\weapons\rifle\grenade_launcher\grenade_launcher.weapon
+AddBlockElements Universal[0].GameVariantWeapons 1
+SetField Universal[0].GameVariantWeapons[*].Name grenade_launcher
+SetField Universal[0].GameVariantWeapons[*].RandomChance 0.1
+SetField Universal[0].GameVariantWeapons[*].Weapon objects\weapons\rifle\grenade_launcher\grenade_launcher.weapon
 
-addblockelements Universal[0].GameVariantWeapons 1
-setfield Universal[0].GameVariantWeapons[*].Name needle_rifle
-setfield Universal[0].GameVariantWeapons[*].RandomChance 0.1
-setfield Universal[0].GameVariantWeapons[*].Weapon objects\weapons\rifle\needle_rifle\needle_rifle.weapon
+AddBlockElements Universal[0].GameVariantWeapons 1
+SetField Universal[0].GameVariantWeapons[*].Name needle_rifle
+SetField Universal[0].GameVariantWeapons[*].RandomChance 0.1
+SetField Universal[0].GameVariantWeapons[*].Weapon objects\weapons\rifle\needle_rifle\needle_rifle.weapon
 
-addblockelements Universal[0].GameVariantWeapons 1
-setfield Universal[0].GameVariantWeapons[*].Name plasma_repeater
-setfield Universal[0].GameVariantWeapons[*].RandomChance 0.1
-setfield Universal[0].GameVariantWeapons[*].Weapon objects\weapons\rifle\plasma_repeater\plasma_repeater.weapon
+AddBlockElements Universal[0].GameVariantWeapons 1
+SetField Universal[0].GameVariantWeapons[*].Name plasma_repeater
+SetField Universal[0].GameVariantWeapons[*].RandomChance 0.1
+SetField Universal[0].GameVariantWeapons[*].Weapon objects\weapons\rifle\plasma_repeater\plasma_repeater.weapon
 
-addblockelements Universal[0].GameVariantWeapons 1
-setfield Universal[0].GameVariantWeapons[*].Name plasma_launcher
-setfield Universal[0].GameVariantWeapons[*].RandomChance 0.1
-setfield Universal[0].GameVariantWeapons[*].Weapon objects\weapons\support_high\plasma_launcher\plasma_launcher.weapon
+AddBlockElements Universal[0].GameVariantWeapons 1
+SetField Universal[0].GameVariantWeapons[*].Name plasma_launcher
+SetField Universal[0].GameVariantWeapons[*].RandomChance 0.1
+SetField Universal[0].GameVariantWeapons[*].Weapon objects\weapons\support_high\plasma_launcher\plasma_launcher.weapon
 
-addblockelements Universal[0].GameVariantWeapons 1
-setfield Universal[0].GameVariantWeapons[*].Name target_laser
-setfield Universal[0].GameVariantWeapons[*].RandomChance 0.1
-setfield Universal[0].GameVariantWeapons[*].Weapon objects\weapons\pistol\target_laser\target_laser.weapon
-savetagchanges
-exit
+AddBlockElements Universal[0].GameVariantWeapons 1
+SetField Universal[0].GameVariantWeapons[*].Name target_laser
+SetField Universal[0].GameVariantWeapons[*].RandomChance 0.1
+SetField Universal[0].GameVariantWeapons[*].Weapon objects\weapons\pistol\target_laser\target_laser.weapon
+SaveTagChanges
+Exit
 
 # echo ==Make grenades not have a mind of their own==
-edittag objects\weapons\grenade\frag_grenade\frag_grenade.physics_model
-setfield RigidBodies[0].LinearDampening 1
-setfield RigidBodies[0].AngularDampening 1
-savetagchanges
-exit
-edittag objects\weapons\grenade\plasma_grenade\plasma_grenade.physics_model
-setfield RigidBodies[0].LinearDampening 1
-setfield RigidBodies[0].AngularDampening 0.5
-savetagchanges
-exit
+EditTag objects\weapons\grenade\frag_grenade\frag_grenade.physics_model
+SetField RigidBodies[0].LinearDampening 1
+SetField RigidBodies[0].AngularDampening 1
+SaveTagChanges
+Exit
+EditTag objects\weapons\grenade\plasma_grenade\plasma_grenade.physics_model
+SetField RigidBodies[0].LinearDampening 1
+SetField RigidBodies[0].AngularDampening 0.5
+SaveTagChanges
+Exit
 
 # echo ==Make player movement & sprint more accurate to reach==
-edittag globals\globals.globals
-setfield PlayerControl[0].SprintFullSpeedMultiplier 0.623
-setfield PlayerControl[0].SprintPeggedMagnitude 0.85
-setfield PlayerControl[0].SprintPeggedAngularThreshold 60
-setfield PlayerInformation[0].RunForward 2.2
-setfield PlayerInformation[0].RunBackward 1.98
-setfield PlayerInformation[0].RunSideways 1.98
-setfield PlayerInformation[0].RunAcceleration 8.5
-setfield PlayerInformation[0].SneakBackward 0.81
-setfield PlayerInformation[0].SneakSideways 0.81
-setfield PlayerInformation[0].SneakAcceleration 6.1
+EditTag globals\globals.globals
+SetField PlayerControl[0].SprintFullSpeedMultiplier 0.623
+SetField PlayerControl[0].SprintPeggedMagnitude 0.85
+SetField PlayerControl[0].SprintPeggedAngularThreshold 60
+SetField PlayerInformation[0].RunForward 2.2
+SetField PlayerInformation[0].RunBackward 1.98
+SetField PlayerInformation[0].RunSideways 1.98
+SetField PlayerInformation[0].RunAcceleration 8.5
+SetField PlayerInformation[0].SneakBackward 0.81
+SetField PlayerInformation[0].SneakSideways 0.81
+SetField PlayerInformation[0].SneakAcceleration 6.1
 
-setfield PlayerControl[1].SprintFullSpeedMultiplier 0.623
-setfield PlayerControl[1].SprintPeggedMagnitude 0.85
-setfield PlayerControl[1].SprintPeggedAngularThreshold 60
-setfield PlayerInformation[1].RunForward 2.2
-setfield PlayerInformation[1].RunBackward 1.98
-setfield PlayerInformation[1].RunSideways 1.98
-setfield PlayerInformation[1].RunAcceleration 8.5
-setfield PlayerInformation[1].SneakBackward 0.81
-setfield PlayerInformation[1].SneakSideways 0.81
-setfield PlayerInformation[1].SneakAcceleration 6.1
-savetagchanges
-exit
+SetField PlayerControl[1].SprintFullSpeedMultiplier 0.623
+SetField PlayerControl[1].SprintPeggedMagnitude 0.85
+SetField PlayerControl[1].SprintPeggedAngularThreshold 60
+SetField PlayerInformation[1].RunForward 2.2
+SetField PlayerInformation[1].RunBackward 1.98
+SetField PlayerInformation[1].RunSideways 1.98
+SetField PlayerInformation[1].RunAcceleration 8.5
+SetField PlayerInformation[1].SneakBackward 0.81
+SetField PlayerInformation[1].SneakSideways 0.81
+SetField PlayerInformation[1].SneakAcceleration 6.1
+SaveTagChanges
+Exit
 
 # echo == Fix needle rifle supercombine effect==
-edittag dw3\r3ach\objects\weapons\rifle\needle_rifle\projectiles\needle_rifle_shard.projectile
-setfield AirborneDetonationEffect objects\weapons\pistol\needler\fx\airborne_detonation.effect
-setfield GroundDetonationEffect objects\weapons\pistol\needler\fx\detonation.effect
-savetagchanges
-exit
+EditTag dw3\r3ach\objects\weapons\rifle\needle_rifle\projectiles\needle_rifle_shard.projectile
+SetField AirborneDetonationEffect objects\weapons\pistol\needler\fx\airborne_detonation.effect
+SetField GroundDetonationEffect objects\weapons\pistol\needler\fx\detonation.effect
+SaveTagChanges
+Exit
 
 # echo == Set scorpion projectile to base ED==
-edittag objects\vehicles\scorpion\turrets\cannon\weapon\cannon_turret.weapon
-setfield Barrels[0].Projectile objects\vehicles\scorpion\turrets\cannon\weapon\tank_shell.projectile
-savetagchanges
-exit
+EditTag objects\vehicles\scorpion\turrets\cannon\weapon\cannon_turret.weapon
+SetField Barrels[0].Projectile objects\vehicles\scorpion\turrets\cannon\weapon\tank_shell.projectile
+SaveTagChanges
+Exit
 
 # echo ==Fix weapon icons and strings==
-runcommands workingdir\cmds\weapon_strings.cmds
+RunCommands workingdir\cmds\weapon_strings.cmds
 
 # == Automag and Silenced SMG Animations==
-runcommands "workingdir\cmds\odstweapsanimations.cmds"
+RunCommands "workingdir\cmds\odstweapsanimations.cmds"
 
 # echo ==Add shield break sfx==
-edittag objects\characters\masterchief\fx\shield\shield_collapse.effect
-addblockelements Events[0].Parts
-setfield Events[0].Parts[3].SecondaryLocation -1
-setfield Events[0].Parts[3].RuntimeBaseGroupTag snd!
-setfield Events[0].Parts[3].Type sound\characters\spartan\shield_pop_spartan.sound
-savetagchanges
-exit
+EditTag objects\characters\masterchief\fx\shield\shield_collapse.effect
+AddBlockElements Events[0].Parts
+SetField Events[0].Parts[3].SecondaryLocation -1
+SetField Events[0].Parts[3].RuntimeBaseGroupTag snd!
+SetField Events[0].Parts[3].Type sound\characters\spartan\shield_pop_spartan.sound
+SaveTagChanges
+Exit
 
-edittag objects\characters\elite\fx\shield\shield_collapse.effect
-addblockelements Events[0].Parts
-setfield Events[0].Parts[3].SecondaryLocation -1
-setfield Events[0].Parts[3].RuntimeBaseGroupTag snd!
-setfield Events[0].Parts[3].Type sound\characters\elite\shield_pop_elite.sound
-savetagchanges
-exit
+EditTag objects\characters\elite\fx\shield\shield_collapse.effect
+AddBlockElements Events[0].Parts
+SetField Events[0].Parts[3].SecondaryLocation -1
+SetField Events[0].Parts[3].RuntimeBaseGroupTag snd!
+SetField Events[0].Parts[3].Type sound\characters\elite\shield_pop_elite.sound
+SaveTagChanges
+Exit
 
 # echo ==Add warning text when spartan shields are down==
-edittag ui\hud\hud_messages.multilingual_unicode_string_list
-setstring english shield_warning "WARNING"
+EditTag ui\hud\hud_messages.multilingual_unicode_string_list
+SetString english shield_warning "WARNING"
 SaveTagChanges
-exit
+Exit
 
-duplicatetag ui\chud\animations\warning_flash.chud_animation_definition ui\chud\animations\warning_flash_ramp
-edittag ui\chud\animations\warning_flash_ramp.chud_animation_definition
-setfield RuntimePeriodMsec 150
-removeblockelements Alpha[0].Keyframes 0 3
-removeblockelements Flash[0].Keyframes 0 3
-setfield Alpha[0].Keyframes[0].TimeOffset 0
-setfield Alpha[0].Keyframes[0].ScalarValue 0
-setfield Alpha[0].Keyframes[1].TimeOffset 150
-setfield Alpha[0].Keyframes[1].ScalarValue 1
-setfield Flash[0].Keyframes[0].TimeOffset 0
-setfield Flash[0].Keyframes[0].ScalarValue 0
-setfield Flash[0].Keyframes[1].TimeOffset 150
-setfield Flash[0].Keyframes[1].ScalarValue 1
-savetagchanges
-exit
-
-edittag ui\chud\spartan.chud_definition
-addblockelements HudWidgets[0].TextWidgets
-addblockelements HudWidgets[0].TextWidgets[0].RenderData
-addblockelements HudWidgets[0].TextWidgets[0].PlacementData
-addblockelements HudWidgets[0].TextWidgets[0].RenderData
-addblockelements HudWidgets[0].TextWidgets[0].AnimationData
-addblockelements HudWidgets[0].TextWidgets[0].StateData
-setfield HudWidgets[0].TextWidgets[0].InputString shield_warning
-setfield HudWidgets[0].TextWidgets[0].Name shield_warning
-setfield HudWidgets[0].TextWidgets[0].Font MainMenuFont
-setfield HudWidgets[0].TextWidgets[0].PlacementData[0].Anchor Parent
-setfield HudWidgets[0].TextWidgets[0].PlacementData[0].Scale 1 0.8
-setfield HudWidgets[0].TextWidgets[0].PlacementData[0].Origin 0 0.8
-setfield HudWidgets[0].TextWidgets[0].StateData[0].UnitMiscState ShieldAvailable
-setfield HudWidgets[0].TextWidgets[0].StateData[0].NonWeaponFlashHO ShieldCritical
-setfield HudWidgets[0].TextWidgets[0].AnimationData[0].Active.Animation ui\chud\animations\invisible.chud_animation_definition
-setfield HudWidgets[0].TextWidgets[0].AnimationData[0].Flashing.Animation ui\chud\animations\warning_flash_ramp.chud_animation_definition
-setfield HudWidgets[0].TextWidgets[0].RenderData[0].LocalColorA 0 255 94 94
+DuplicateTag ui\chud\animations\warning_flash.chud_animation_definition ui\chud\animations\warning_flash_ramp
+EditTag ui\chud\animations\warning_flash_ramp.chud_animation_definition
+SetField RuntimePeriodMsec 150
+RemoveBlockElements Alpha[0].Keyframes 0 3
+RemoveBlockElements Flash[0].Keyframes 0 3
+SetField Alpha[0].Keyframes[0].TimeOffset 0
+SetField Alpha[0].Keyframes[0].ScalarValue 0
+SetField Alpha[0].Keyframes[1].TimeOffset 150
+SetField Alpha[0].Keyframes[1].ScalarValue 1
+SetField Flash[0].Keyframes[0].TimeOffset 0
+SetField Flash[0].Keyframes[0].ScalarValue 0
+SetField Flash[0].Keyframes[1].TimeOffset 150
+SetField Flash[0].Keyframes[1].ScalarValue 1
 SaveTagChanges
-exit
+Exit
+
+EditTag ui\chud\spartan.chud_definition
+AddBlockElements HudWidgets[0].TextWidgets
+AddBlockElements HudWidgets[0].TextWidgets[0].RenderData
+AddBlockElements HudWidgets[0].TextWidgets[0].PlacementData
+AddBlockElements HudWidgets[0].TextWidgets[0].RenderData
+AddBlockElements HudWidgets[0].TextWidgets[0].AnimationData
+AddBlockElements HudWidgets[0].TextWidgets[0].StateData
+SetField HudWidgets[0].TextWidgets[0].InputString shield_warning
+SetField HudWidgets[0].TextWidgets[0].Name shield_warning
+SetField HudWidgets[0].TextWidgets[0].Font MainMenuFont
+SetField HudWidgets[0].TextWidgets[0].PlacementData[0].Anchor Parent
+SetField HudWidgets[0].TextWidgets[0].PlacementData[0].Scale 1 0.8
+SetField HudWidgets[0].TextWidgets[0].PlacementData[0].Origin 0 0.8
+SetField HudWidgets[0].TextWidgets[0].StateData[0].UnitMiscState ShieldAvailable
+SetField HudWidgets[0].TextWidgets[0].StateData[0].NonWeaponFlashHO ShieldCritical
+SetField HudWidgets[0].TextWidgets[0].AnimationData[0].Active.Animation ui\chud\animations\invisible.chud_animation_definition
+SetField HudWidgets[0].TextWidgets[0].AnimationData[0].Flashing.Animation ui\chud\animations\warning_flash_ramp.chud_animation_definition
+SetField HudWidgets[0].TextWidgets[0].RenderData[0].LocalColorA 0 255 94 94
+SaveTagChanges
+Exit
 
 # echo ==Improve shield bar color accuracy==
-edittag ui\chud\spartan.chud_definition
-setfield HudWidgets[0].BitmapWidgets[2].RenderData[0].OutputColorA HighlightForeground
-setfield HudWidgets[26].BitmapWidgets[0].RenderData[0].OutputColorA HighlightForeground
-setfield HudWidgets[0].BitmapWidgets[1].RenderData[0].ShaderType MeterGradient
-setfield HudWidgets[0].BitmapWidgets[1].RenderData[0].LocalColorC 255 137 253 255
-setfield HudWidgets[0].BitmapWidgets[1].RenderData[0].OutputColorA LocalC
-savetagchanges
-exit
+EditTag ui\chud\spartan.chud_definition
+SetField HudWidgets[0].BitmapWidgets[2].RenderData[0].OutputColorA HighlightForeground
+SetField HudWidgets[26].BitmapWidgets[0].RenderData[0].OutputColorA HighlightForeground
+SetField HudWidgets[0].BitmapWidgets[1].RenderData[0].ShaderType MeterGradient
+SetField HudWidgets[0].BitmapWidgets[1].RenderData[0].LocalColorC 255 137 253 255
+SetField HudWidgets[0].BitmapWidgets[1].RenderData[0].OutputColorA LocalC
+SaveTagChanges
+Exit
 
 # echo ==Fix hud message/sprint overlap==
-edittag ui\chud\globals.chud_globals_definition
-setfield HudGlobals[0].HudAttributes[0].MessageOffset 0 0.68
-setfield HudGlobals[0].HudAttributes[0].SurvivalMedalsOffset 0 0.62
-savetagchanges
-exit
-edittag objects\characters\elite\mp_elite\chud\globals.chud_globals_definition
-setfield HudGlobals[0].HudAttributes[0].MessageOffset 0 0.68
-setfield HudGlobals[0].HudAttributes[0].SurvivalMedalsOffset 0 0.62
-savetagchanges
-exit
+EditTag ui\chud\globals.chud_globals_definition
+SetField HudGlobals[0].HudAttributes[0].MessageOffset 0 0.68
+SetField HudGlobals[0].HudAttributes[0].SurvivalMedalsOffset 0 0.62
+SaveTagChanges
+Exit
+EditTag objects\characters\elite\mp_elite\chud\globals.chud_globals_definition
+SetField HudGlobals[0].HudAttributes[0].MessageOffset 0 0.68
+SetField HudGlobals[0].HudAttributes[0].SurvivalMedalsOffset 0 0.62
+SaveTagChanges
+Exit
 
 #echo ==Fix Objective Arming Meter==
 
@@ -1985,7 +1985,7 @@ Exit
 # echo ==Fix Covenant Sucker Plant Mopps...==
 DuplicateTag objects\ui\editor_gizmo\editor_gizmo.collision_model levels\dlc\cex_damnation\scenery\cex_damnation_plant\cex_damnation_plant
 
-edittag levels\dlc\cex_damnation\scenery\cex_damnation_plant\cex_damnation_plant.model
+EditTag levels\dlc\cex_damnation\scenery\cex_damnation_plant\cex_damnation_plant.model
 SetField CollisionModel levels\dlc\cex_damnation\scenery\cex_damnation_plant\cex_damnation_plant.collision_model
 AddBlockElements Materials
 SetField Materials[0].DamageSectionIndex -1
@@ -2033,16 +2033,16 @@ RunCommands "workingdir\cmds\reachify_medals_lg_ui.cmds"
 RunCommands "workingdir\cmds\forge_dlc_block_glass.cmds"
 
 # echo ==Fix Armor Lights ==
-opencachefile "reachmaps\forge_halo.map"
-porttag replace single objects\characters\spartans\shaders\spartan_shield_display.shader
-exit
+OpenCacheFile "reachmaps\forge_halo.map"
+PortTag replace single objects\characters\spartans\shaders\spartan_shield_display.shader
+Exit
 
-edittag objects\characters\spartans\shaders\spartan_shield_display.rmsh
-setargument self_illum_intensity 7
-setfield shaderproperties[0].RoutingInfo[5].RegisterIndex 1
-setfield shaderproperties[0].Functions[0].Type ChangeColorQuaternary
-savetagchanges
-exit
+EditTag objects\characters\spartans\shaders\spartan_shield_display.rmsh
+SetArgument self_illum_intensity 7
+SetField shaderproperties[0].RoutingInfo[5].RegisterIndex 1
+SetField shaderproperties[0].Functions[0].Type ChangeColorQuaternary
+SaveTagChanges
+Exit
 
 ImportFonts workingdir\fonts_new.bin
 
@@ -2086,42 +2086,42 @@ RunCommands "workingdir\cmds\EMP Effects.cmds"
 RunCommands "workingdir\cmds\enashh2abeamrifleanimation.cmds"
 
 # echo ==Nerf Magnum accuracy and firing penalties==
-edittag objects\weapons\pistol\magnum\magnum.weapon
-setfield Barrels[0].ProjectileErrorAngle 0.15 4
-setfield Barrels[0].ErrorDecelerationRate 1.538462
-setfield Barrels[0].ErrorAccelerationRate 30
+EditTag objects\weapons\pistol\magnum\magnum.weapon
+SetField Barrels[0].ProjectileErrorAngle 0.15 4
+SetField Barrels[0].ErrorDecelerationRate 1.538462
+SetField Barrels[0].ErrorAccelerationRate 30
 
-addblockelements Barrels[0].AccuracyPenalties.SingleWieldPenalties.FiringPenaltyFunction
-setfield Barrels[0].AccuracyPenalties.SingleWieldPenalties.FiringPenaltyFunction[0].Function.Data 08340000000000000000803F00000000000000006F12833A6F12033B3400000003000000040000CD295C8F3D704189409A99193F040000009A99993E00ACDB3D808A643F04000000FFFF7F7FE76C85BFBF6A9E3F
-addblockelements Barrels[0].AccuracyPenalties.SingleWieldPenalties.FiringCrouchedPenaltyFunction
-setfield Barrels[0].AccuracyPenalties.SingleWieldPenalties.FiringCrouchedPenaltyFunction[0].Function.Data 08340000000000000000803F00000000000000006F12833A6F12033B3400000003000000040000CD295C8F3D354D13401111113F04000000EC51983E560996BDBA9F3B3F04000000FFFF7F7FD4FC3BBF84F86D3F
+AddBlockElements Barrels[0].AccuracyPenalties.SingleWieldPenalties.FiringPenaltyFunction
+SetField Barrels[0].AccuracyPenalties.SingleWieldPenalties.FiringPenaltyFunction[0].Function.Data 08340000000000000000803F00000000000000006F12833A6F12033B3400000003000000040000CD295C8F3D704189409A99193F040000009A99993E00ACDB3D808A643F04000000FFFF7F7FE76C85BFBF6A9E3F
+AddBlockElements Barrels[0].AccuracyPenalties.SingleWieldPenalties.FiringCrouchedPenaltyFunction
+SetField Barrels[0].AccuracyPenalties.SingleWieldPenalties.FiringCrouchedPenaltyFunction[0].Function.Data 08340000000000000000803F00000000000000006F12833A6F12033B3400000003000000040000CD295C8F3D354D13401111113F04000000EC51983E560996BDBA9F3B3F04000000FFFF7F7FD4FC3BBF84F86D3F
 
-savetagchanges
-exit
+SaveTagChanges
+Exit
 
 # echo ==Fixed biped rotating in customization screen and added rotation when selecting backpacks==
-edittag multiplayer\mod_globals.mod_globals
-setfield PlayerCharacterCustomizations[0].RegionCameraScripts[5].BipedRotation 0
-savetagchanges
-exit
+EditTag multiplayer\mod_globals.mod_globals
+SetField PlayerCharacterCustomizations[0].RegionCameraScripts[5].BipedRotation 0
+SaveTagChanges
+Exit
 
-edittag multiplayer\mod_globals.mod_globals
-copyblockelements PlayerCharacterCustomizations[0].RegionCameraScripts 0 1
-pasteblockelements PlayerCharacterCustomizations[0].RegionCameraScripts
-setfield PlayerCharacterCustomizations[0].RegionCameraScripts[7].RegionName "backpack"
-setfield PlayerCharacterCustomizations[0].RegionCameraScripts[7].BipedRotation 345
-savetagchanges
-exit
+EditTag multiplayer\mod_globals.mod_globals
+CopyBlockElements PlayerCharacterCustomizations[0].RegionCameraScripts 0 1
+PasteBlockElements PlayerCharacterCustomizations[0].RegionCameraScripts
+SetField PlayerCharacterCustomizations[0].RegionCameraScripts[7].RegionName "backpack"
+SetField PlayerCharacterCustomizations[0].RegionCameraScripts[7].BipedRotation 345
+SaveTagChanges
+Exit
 
 # echo =Add AMP signature 
-edittag ui\halox\main_menu\bungielogo.bitmap
-importbitmap 0 workingdir\bitmaps\amp-sig.dds
-exit
+EditTag ui\halox\main_menu\bungielogo.bitmap
+ImportBitmap 0 workingdir\bitmaps\amp-sig.dds
+Exit
 
 # echo =Fixed up customization background (Was very pixelated and had bad banding) Also fits screens on both 16:9 and 21:9.
-edittag levels\ui\mainmenu\bitmaps\campaign_act3_background.bitmap
-importbitmap 0 workingdir\bitmaps\AuntieDot.dds
-exit
+EditTag levels\ui\mainmenu\bitmaps\campaign_act3_background.bitmap
+ImportBitmap 0 workingdir\bitmaps\AuntieDot.dds
+Exit
 
 # echo Add Concept LMG
 RunCommands "workingdir\cmds\lmg.cmds"
@@ -2135,50 +2135,50 @@ echo ==Duals Weapons Implementation==
 RunCommands "workingdir\cmds\dual_weaps_implementation.cmds"
 
 echo == Fix battle rifle power ammo counter ==
-edittag ui\chud\battle_rifle_power.chud_definition
-setfield HudWidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\ballistic_meters_odst.bitmap
-setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 10
-setfield HudWidgets[5].BitmapWidgets[0].PlacementData[0].Offset -40 110
-savetagchanges
-exit
+EditTag ui\chud\battle_rifle_power.chud_definition
+SetField HudWidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\ballistic_meters_odst.bitmap
+SetField HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 10
+SetField HudWidgets[5].BitmapWidgets[0].PlacementData[0].Offset -40 110
+SaveTagChanges
+Exit
 
 echo == Battle rifle firing animation ==
-duplicatetag dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_elite\fp_elite.model_animation_graph dw3\r3ach\objects\weapons\rifle\battle_rifle\animations\fp_elite\fp_elite
-edittag dw3\r3ach\objects\weapons\rifle\battle_rifle\animations\fp_elite\fp_elite.model_animation_graph
-addanimation workingdir\animations\elite_fp\battlerifle
+DuplicateTag dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_elite\fp_elite.model_animation_graph dw3\r3ach\objects\weapons\rifle\battle_rifle\animations\fp_elite\fp_elite
+EditTag dw3\r3ach\objects\weapons\rifle\battle_rifle\animations\fp_elite\fp_elite.model_animation_graph
+AddAnimation workingdir\animations\elite_fp\battlerifle
 
-setfield Animations[0].Weight 0.34
-setfield Animations[0].AnimationData.NextAnimation 1
+SetField Animations[0].Weight 0.34
+SetField Animations[0].AnimationData.NextAnimation 1
 
-setfield Animations[1].Weight 0.67
-setfield Animations[1].AnimationData.NextAnimation 2
-setfield Animations[1].AnimationData.ParentAnimation 0
+SetField Animations[1].Weight 0.67
+SetField Animations[1].AnimationData.NextAnimation 2
+SetField Animations[1].AnimationData.ParentAnimation 0
 
-setfield Animations[2].Weight 1
-setfield Animations[2].AnimationData.ParentAnimation 0
-setfield Modes[0].WeaponClass[0].WeaponType[0].Set.Actions[0].Animation 0
-savetagchanges
-exit
+SetField Animations[2].Weight 1
+SetField Animations[2].AnimationData.ParentAnimation 0
+SetField Modes[0].WeaponClass[0].WeaponType[0].Set.Actions[0].Animation 0
+SaveTagChanges
+Exit
 
-duplicatetag dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_spartan\fp_spartan.model_animation_graph dw3\r3ach\objects\weapons\rifle\battle_rifle\animations\fp_spartan\fp_spartan
-edittag dw3\r3ach\objects\weapons\rifle\battle_rifle\animations\fp_spartan\fp_spartan.model_animation_graph
-addanimation workingdir\animations\spartan_fp\battlerifle
+DuplicateTag dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_spartan\fp_spartan.model_animation_graph dw3\r3ach\objects\weapons\rifle\battle_rifle\animations\fp_spartan\fp_spartan
+EditTag dw3\r3ach\objects\weapons\rifle\battle_rifle\animations\fp_spartan\fp_spartan.model_animation_graph
+AddAnimation workingdir\animations\spartan_fp\battlerifle
 
-setfield Animations[0].Weight 0.34
-setfield Animations[0].AnimationData.NextAnimation 1
+SetField Animations[0].Weight 0.34
+SetField Animations[0].AnimationData.NextAnimation 1
 
-setfield Animations[1].Weight 0.67
-setfield Animations[1].AnimationData.NextAnimation 2
-setfield Animations[1].AnimationData.ParentAnimation 0
+SetField Animations[1].Weight 0.67
+SetField Animations[1].AnimationData.NextAnimation 2
+SetField Animations[1].AnimationData.ParentAnimation 0
 
-setfield Animations[2].Weight 1
-setfield Animations[2].AnimationData.ParentAnimation 0
-setfield Modes[0].WeaponClass[0].WeaponType[0].Set.Actions[0].Animation 0
-savetagchanges
-exit
+SetField Animations[2].Weight 1
+SetField Animations[2].AnimationData.ParentAnimation 0
+SetField Modes[0].WeaponClass[0].WeaponType[0].Set.Actions[0].Animation 0
+SaveTagChanges
+Exit
 
-ForEach weap contains: objects\weapons\rifle\battle_rifle setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\battle_rifle\animations\fp_spartan\fp_spartan.model_animation_graph
-ForEach weap contains: objects\weapons\rifle\battle_rifle setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\battle_rifle\animations\fp_elite\fp_elite.model_animation_graph
+ForEach weap contains: objects\weapons\rifle\battle_rifle SetField FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\battle_rifle\animations\fp_spartan\fp_spartan.model_animation_graph
+ForEach weap contains: objects\weapons\rifle\battle_rifle SetField FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\battle_rifle\animations\fp_elite\fp_elite.model_animation_graph
 
 # echo Remove Color Change block from compost bag pile
 EditTag objects\props\human\pioneer\farm\bags_compost_pile_a\bags_compost_pile_a.scenery
@@ -2188,20 +2188,20 @@ Exit
 
 ## echo Brighten up Frigate
 
-edittag objects\vehicles\human\unsc_fleet\unsc_stalwart_class_frigate\shaders\frigate_test_gameplay.shader
-setargument diffuse_coefficient 5
-savetagchanges
-exit
+EditTag objects\vehicles\human\unsc_fleet\unsc_stalwart_class_frigate\shaders\frigate_test_gameplay.shader
+SetArgument diffuse_coefficient 5
+SaveTagChanges
+Exit
 
-edittag objects\vehicles\human\unsc_fleet\unsc_stalwart_class_frigate\shaders\frigate_test_gameplay2.shader
-setargument diffuse_coefficient 5
-savetagchanges
-exit
+EditTag objects\vehicles\human\unsc_fleet\unsc_stalwart_class_frigate\shaders\frigate_test_gameplay2.shader
+SetArgument diffuse_coefficient 5
+SaveTagChanges
+Exit
 
-edittag objects\vehicles\human\unsc_fleet\unsc_stalwart_class_frigate\shaders\frigate_test_gameplay3.shader
-setargument diffuse_coefficient 5
-savetagchanges
-exit
+EditTag objects\vehicles\human\unsc_fleet\unsc_stalwart_class_frigate\shaders\frigate_test_gameplay3.shader
+SetArgument diffuse_coefficient 5
+SaveTagChanges
+Exit
 
 AddModFiles workingdir\assets
 SaveModPackage "modsfolder\RAMP_2.pak"

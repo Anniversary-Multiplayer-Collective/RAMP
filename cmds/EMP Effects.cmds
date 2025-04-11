@@ -70,22 +70,22 @@ SetField EmpEffect objects\vehicles\covenant\revenant\fx\destruction\emp_drain.e
 SaveTagChanges
 Exit
 
-edittag objects\levels\dlc\sidewinder\hornet_lite\hornet_lite.vehicle
-setfield EmpEffect objects\vehicles\covenant\banshee\fx\destruction\emp_drain.effect
+EditTag objects\levels\dlc\sidewinder\hornet_lite\hornet_lite.vehicle
+SetField EmpEffect objects\vehicles\covenant\banshee\fx\destruction\emp_drain.effect
 SaveTagChanges
 Exit
 
-edittag objects\vehicles\hornet\hornet.vehicle
-setfield EmpEffect objects\vehicles\covenant\banshee\fx\destruction\emp_drain.effect
+EditTag objects\vehicles\hornet\hornet.vehicle
+SetField EmpEffect objects\vehicles\covenant\banshee\fx\destruction\emp_drain.effect
 SaveTagChanges
 Exit
 
-edittag objects\vehicles\brute_chopper\brute_chopper.vehicle
-setfield EmpEffect objects\vehicles\covenant\revenant\fx\destruction\emp_drain.effect
+EditTag objects\vehicles\brute_chopper\brute_chopper.vehicle
+SetField EmpEffect objects\vehicles\covenant\revenant\fx\destruction\emp_drain.effect
 SaveTagChanges
 Exit
 
-edittag objects\vehicles\mauler\mauler.vehicle
-setfield EmpEffect objects\vehicles\covenant\revenant\fx\destruction\emp_drain.effect
+EditTag objects\vehicles\mauler\mauler.vehicle
+SetField EmpEffect objects\vehicles\covenant\revenant\fx\destruction\emp_drain.effect
 SaveTagChanges
 Exit

@@ -1,135 +1,135 @@
-edittag objects\weapons\melee\energy_blade\energy_blade.weapon
-setfield WeaponTypeName offset_energy_sword
-setfield CenteredFirstPersonWeaponOffset 0 0 -0.01
-savetagchanges
-exit
+EditTag objects\weapons\melee\energy_blade\energy_blade.weapon
+SetField WeaponTypeName offset_energy_sword
+SetField CenteredFirstPersonWeaponOffset 0 0 -0.01
+SaveTagChanges
+Exit
 
-edittag objects\weapons\melee\energy_blade\energy_blade_useless.weapon
-setfield WeaponTypeName offset_energy_sword
-setfield CenteredFirstPersonWeaponOffset 0 0 -0.01
-savetagchanges
-exit
+EditTag objects\weapons\melee\energy_blade\energy_blade_useless.weapon
+SetField WeaponTypeName offset_energy_sword
+SetField CenteredFirstPersonWeaponOffset 0 0 -0.01
+SaveTagChanges
+Exit
 
-edittag objects\weapons\melee\gravity_hammer\gravity_hammer.weapon
-setfield WeaponTypeName offset_gravity_hammer
-setfield CenteredFirstPersonWeaponOffset 0 0 -0.01
-savetagchanges
-exit
+EditTag objects\weapons\melee\gravity_hammer\gravity_hammer.weapon
+SetField WeaponTypeName offset_gravity_hammer
+SetField CenteredFirstPersonWeaponOffset 0 0 -0.01
+SaveTagChanges
+Exit
 
-foreach weap contains: objects\weapons\pistol\magnum SetField WeaponTypeName offset_magnum
-foreach weap contains: objects\weapons\pistol\magnum SetField FirstPersonWeaponOffset 0 0 0
-foreach weap contains: objects\weapons\pistol\magnum SetField CenteredFirstPersonWeaponOffset 0 0 -0.04
+ForEach weap contains: objects\weapons\pistol\magnum SetField WeaponTypeName offset_magnum
+ForEach weap contains: objects\weapons\pistol\magnum SetField FirstPersonWeaponOffset 0 0 0
+ForEach weap contains: objects\weapons\pistol\magnum SetField CenteredFirstPersonWeaponOffset 0 0 -0.04
 
-edittag objects\weapons\pistol\needler\needler.weapon
-setfield WeaponTypeName offset_needler
-setfield CenteredFirstPersonWeaponOffset 0 0 -0.01
-setfield FirstPersonWeaponOffset 0.01 0 0
-savetagchanges
-exit
+EditTag objects\weapons\pistol\needler\needler.weapon
+SetField WeaponTypeName offset_needler
+SetField CenteredFirstPersonWeaponOffset 0 0 -0.01
+SetField FirstPersonWeaponOffset 0.01 0 0
+SaveTagChanges
+Exit
 
-foreach weap contains: objects\weapons\pistol\plasma_pistol SetField WeaponTypeName offset_plasma_pistol
-foreach weap contains: objects\weapons\pistol\plasma_pistol SetField FirstPersonWeaponOffset 0 0 0
-foreach weap contains: objects\weapons\pistol\plasma_pistol SetField CenteredFirstPersonWeaponOffset 0 0 -0.02
+ForEach weap contains: objects\weapons\pistol\plasma_pistol SetField WeaponTypeName offset_plasma_pistol
+ForEach weap contains: objects\weapons\pistol\plasma_pistol SetField FirstPersonWeaponOffset 0 0 0
+ForEach weap contains: objects\weapons\pistol\plasma_pistol SetField CenteredFirstPersonWeaponOffset 0 0 -0.02
 
-stringid add offset_target_laser
-edittag objects\weapons\pistol\target_laser\target_laser.weapon
-setfield WeaponTypeName offset_target_laser
-setfield CenteredFirstPersonWeaponOffset 0 0 -0.02
-savetagchanges
-exit
+StringId add offset_target_laser
+EditTag objects\weapons\pistol\target_laser\target_laser.weapon
+SetField WeaponTypeName offset_target_laser
+SetField CenteredFirstPersonWeaponOffset 0 0 -0.02
+SaveTagChanges
+Exit
 
-edittag objects\weapons\rifle\assault_rifle\assault_rifle.weapon
-setfield WeaponTypeName offset_assault_rife
-setfield CenteredFirstPersonWeaponOffset 0 0 -0.015
-savetagchanges
-exit
+EditTag objects\weapons\rifle\assault_rifle\assault_rifle.weapon
+SetField WeaponTypeName offset_assault_rife
+SetField CenteredFirstPersonWeaponOffset 0 0 -0.015
+SaveTagChanges
+Exit
 
-foreach weap contains: objects\weapons\rifle\battle_rifle SetField WeaponTypeName offset_battle_rife
-foreach weap contains: objects\weapons\rifle\battle_rifle SetField FirstPersonWeaponOffset 0.025 0 0
-foreach weap contains: objects\weapons\rifle\battle_rifle SetField CenteredFirstPersonWeaponOffset 0.025 0 -0.01
+ForEach weap contains: objects\weapons\rifle\battle_rifle SetField WeaponTypeName offset_battle_rife
+ForEach weap contains: objects\weapons\rifle\battle_rifle SetField FirstPersonWeaponOffset 0.025 0 0
+ForEach weap contains: objects\weapons\rifle\battle_rifle SetField CenteredFirstPersonWeaponOffset 0.025 0 -0.01
 
-stringid add offset_concussion_rifle
-edittag objects\weapons\rifle\concussion_rifle\concussion_rifle.weapon
-setfield WeaponTypeName offset_concussion_rifle
-setfield CenteredFirstPersonWeaponOffset -0.01 0 -0.01
-savetagchanges
-exit
+StringId add offset_concussion_rifle
+EditTag objects\weapons\rifle\concussion_rifle\concussion_rifle.weapon
+SetField WeaponTypeName offset_concussion_rifle
+SetField CenteredFirstPersonWeaponOffset -0.01 0 -0.01
+SaveTagChanges
+Exit
 
-foreach weap contains: objects\weapons\rifle\dmr SetField WeaponTypeName offset_dmr
-foreach weap contains: objects\weapons\rifle\dmr SetField FirstPersonWeaponOffset 0 0 -0.002
-foreach weap contains: objects\weapons\rifle\dmr SetField CenteredFirstPersonWeaponOffset -0.01 0 -0.0028
+ForEach weap contains: objects\weapons\rifle\dmr SetField WeaponTypeName offset_dmr
+ForEach weap contains: objects\weapons\rifle\dmr SetField FirstPersonWeaponOffset 0 0 -0.002
+ForEach weap contains: objects\weapons\rifle\dmr SetField CenteredFirstPersonWeaponOffset -0.01 0 -0.0028
 
-stringid add offset_focus_rifle
-edittag objects\weapons\rifle\focus_rifle\focus_rifle.weapon
-setfield WeaponTypeName offset_focus_rifle
-setfield CenteredFirstPersonWeaponOffset -0.02 0 -0.01
-savetagchanges
-exit
+StringId add offset_focus_rifle
+EditTag objects\weapons\rifle\focus_rifle\focus_rifle.weapon
+SetField WeaponTypeName offset_focus_rifle
+SetField CenteredFirstPersonWeaponOffset -0.02 0 -0.01
+SaveTagChanges
+Exit
 
-stringid add offset_grenade_launcher
-edittag objects\weapons\rifle\grenade_launcher\grenade_launcher.weapon
-setfield WeaponTypeName offset_grenade_launcher
-setfield CenteredFirstPersonWeaponOffset -0.01 0 -0.01
-savetagchanges
-exit
+StringId add offset_grenade_launcher
+EditTag objects\weapons\rifle\grenade_launcher\grenade_launcher.weapon
+SetField WeaponTypeName offset_grenade_launcher
+SetField CenteredFirstPersonWeaponOffset -0.01 0 -0.01
+SaveTagChanges
+Exit
 
-stringid add offset_needle_rifle
-edittag objects\weapons\rifle\needle_rifle\needle_rifle.weapon
-setfield WeaponTypeName offset_needle_rifle
-setfield CenteredFirstPersonWeaponOffset -0.015 -0.003 -0.01
-savetagchanges
-exit
+StringId add offset_needle_rifle
+EditTag objects\weapons\rifle\needle_rifle\needle_rifle.weapon
+SetField WeaponTypeName offset_needle_rifle
+SetField CenteredFirstPersonWeaponOffset -0.015 -0.003 -0.01
+SaveTagChanges
+Exit
 
-stringid add offset_plasma_repeater
-edittag objects\weapons\rifle\plasma_repeater\plasma_repeater.weapon
-setfield WeaponTypeName offset_plasma_repeater
-setfield CenteredFirstPersonWeaponOffset 0 -0.005 -0.01
-savetagchanges
-exit
+StringId add offset_plasma_repeater
+EditTag objects\weapons\rifle\plasma_repeater\plasma_repeater.weapon
+SetField WeaponTypeName offset_plasma_repeater
+SetField CenteredFirstPersonWeaponOffset 0 -0.005 -0.01
+SaveTagChanges
+Exit
 
-foreach weap contains: objects\weapons\rifle\plasma_rifle SetField WeaponTypeName offset_plasma_rife
-foreach weap contains: objects\weapons\rifle\plasma_rifle SetField FirstPersonWeaponOffset 0 0 0
-foreach weap contains: objects\weapons\rifle\plasma_rifle SetField CenteredFirstPersonWeaponOffset 0.015 0 -0.025
+ForEach weap contains: objects\weapons\rifle\plasma_rifle SetField WeaponTypeName offset_plasma_rife
+ForEach weap contains: objects\weapons\rifle\plasma_rifle SetField FirstPersonWeaponOffset 0 0 0
+ForEach weap contains: objects\weapons\rifle\plasma_rifle SetField CenteredFirstPersonWeaponOffset 0.015 0 -0.025
 
-edittag objects\weapons\rifle\shotgun\shotgun.weapon
-setfield WeaponTypeName offset_shotgun
-setfield CenteredFirstPersonWeaponOffset 0 0 -0.01
-savetagchanges
-exit
+EditTag objects\weapons\rifle\shotgun\shotgun.weapon
+SetField WeaponTypeName offset_shotgun
+SetField CenteredFirstPersonWeaponOffset 0 0 -0.01
+SaveTagChanges
+Exit
 
-edittag objects\weapons\rifle\sniper_rifle\sniper_rifle.weapon
-setfield WeaponTypeName offset_sniper_rife
-setfield CenteredFirstPersonWeaponOffset 0.025 0 -0.02
-savetagchanges
-exit
+EditTag objects\weapons\rifle\sniper_rifle\sniper_rifle.weapon
+SetField WeaponTypeName offset_sniper_rife
+SetField CenteredFirstPersonWeaponOffset 0.025 0 -0.02
+SaveTagChanges
+Exit
 
-edittag objects\weapons\rifle\spike_rifle\spike_rifle.weapon
-setfield WeaponTypeName offset_spiker
-setfield CenteredFirstPersonWeaponOffset 0 0 -0.01
-savetagchanges
-exit
+EditTag objects\weapons\rifle\spike_rifle\spike_rifle.weapon
+SetField WeaponTypeName offset_spiker
+SetField CenteredFirstPersonWeaponOffset 0 0 -0.01
+SaveTagChanges
+Exit
 
-edittag objects\weapons\support_high\flak_cannon\flak_cannon.weapon
-setfield WeaponTypeName offset_fuel_rod
-setfield CenteredFirstPersonWeaponOffset 0 0 -0.01
-savetagchanges
-exit
+EditTag objects\weapons\support_high\flak_cannon\flak_cannon.weapon
+SetField WeaponTypeName offset_fuel_rod
+SetField CenteredFirstPersonWeaponOffset 0 0 -0.01
+SaveTagChanges
+Exit
 
-stringid add offset_plasma_launcher
-edittag objects\weapons\support_high\plasma_launcher\plasma_launcher.weapon
-setfield WeaponTypeName offset_plasma_launcher
-setfield CenteredFirstPersonWeaponOffset 0 0 -0.005
-savetagchanges
-exit
+StringId add offset_plasma_launcher
+EditTag objects\weapons\support_high\plasma_launcher\plasma_launcher.weapon
+SetField WeaponTypeName offset_plasma_launcher
+SetField CenteredFirstPersonWeaponOffset 0 0 -0.005
+SaveTagChanges
+Exit
 
-edittag objects\weapons\support_high\rocket_launcher\rocket_launcher.weapon
-setfield WeaponTypeName offset_rocket_launcher
-setfield CenteredFirstPersonWeaponOffset 0.02 0 -0.01
-savetagchanges
-exit
+EditTag objects\weapons\support_high\rocket_launcher\rocket_launcher.weapon
+SetField WeaponTypeName offset_rocket_launcher
+SetField CenteredFirstPersonWeaponOffset 0.02 0 -0.01
+SaveTagChanges
+Exit
 
-edittag objects\weapons\support_high\spartan_laser\spartan_laser.weapon
-setfield WeaponTypeName offset_spartan_laser
-setfield CenteredFirstPersonWeaponOffset 0 0 -0.01
-savetagchanges
-exit
+EditTag objects\weapons\support_high\spartan_laser\spartan_laser.weapon
+SetField WeaponTypeName offset_spartan_laser
+SetField CenteredFirstPersonWeaponOffset 0 0 -0.01
+SaveTagChanges
+Exit

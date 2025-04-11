@@ -1,113 +1,113 @@
-edittag objects\characters\dervish\dervish.jmad
-addanimation workingdir\animations\dervish
+EditTag objects\characters\dervish\dervish.jmad
+AddAnimation workingdir\animations\dervish
 
-addblockelements Animations[62].AnimationData.EffectEvents
-setfield Animations[62].AnimationData.EffectEvents[0].Frame 9
-setfield Animations[62].AnimationData.EffectEvents[0].MarkerName hammer_detonation
-setfield Animations[62].AnimationData.EffectEvents[0].DamageEffectReportingType.HaloOnline Guardians
-addblockelements Animations[62].AnimationData.ObjectSpaceParentNodes
-setfield Animations[62].AnimationData.ObjectSpaceParentNodes[0].Flags Rotation
-setfield Animations[62].AnimationData.ObjectSpaceParentNodes[0].RotationX -20842
-setfield Animations[62].AnimationData.ObjectSpaceParentNodes[0].RotationY -10233
-setfield Animations[62].AnimationData.ObjectSpaceParentNodes[0].RotationZ -17661
-setfield Animations[62].AnimationData.ObjectSpaceParentNodes[0].RotationW 14920
-setfield Animations[62].AnimationData.ObjectSpaceParentNodes[0].DefaultTranslation 0.0001265796 1.153E-08 0.4048014
-setfield Animations[62].AnimationData.ObjectSpaceParentNodes[0].DefaultScale 1
+AddBlockElements Animations[62].AnimationData.EffectEvents
+SetField Animations[62].AnimationData.EffectEvents[0].Frame 9
+SetField Animations[62].AnimationData.EffectEvents[0].MarkerName hammer_detonation
+SetField Animations[62].AnimationData.EffectEvents[0].DamageEffectReportingType.HaloOnline Guardians
+AddBlockElements Animations[62].AnimationData.ObjectSpaceParentNodes
+SetField Animations[62].AnimationData.ObjectSpaceParentNodes[0].Flags Rotation
+SetField Animations[62].AnimationData.ObjectSpaceParentNodes[0].RotationX -20842
+SetField Animations[62].AnimationData.ObjectSpaceParentNodes[0].RotationY -10233
+SetField Animations[62].AnimationData.ObjectSpaceParentNodes[0].RotationZ -17661
+SetField Animations[62].AnimationData.ObjectSpaceParentNodes[0].RotationW 14920
+SetField Animations[62].AnimationData.ObjectSpaceParentNodes[0].DefaultTranslation 0.0001265796 1.153E-08 0.4048014
+SetField Animations[62].AnimationData.ObjectSpaceParentNodes[0].DefaultScale 1
 
-addblockelements Animations[172].AnimationData.FrameEvents 2
-setfield Animations[172].AnimationData.FrameEvents[0].TypeED LeftFoot
-setfield Animations[172].AnimationData.FrameEvents[0].Frame 1
-setfield Animations[172].AnimationData.FrameEvents[1].TypeED RightFoot
-setfield Animations[172].AnimationData.FrameEvents[1].Frame 8
-setfield Animations[172].AnimationData.Heading 0.9999923 -0.003928625 0
-setfield Animations[172].AnimationData.AverageTranslationMagnitude 0.1199984
-setfield Animations[172].PlaybackFlags DisableWeaponIK
+AddBlockElements Animations[172].AnimationData.FrameEvents 2
+SetField Animations[172].AnimationData.FrameEvents[0].TypeED LeftFoot
+SetField Animations[172].AnimationData.FrameEvents[0].Frame 1
+SetField Animations[172].AnimationData.FrameEvents[1].TypeED RightFoot
+SetField Animations[172].AnimationData.FrameEvents[1].Frame 8
+SetField Animations[172].AnimationData.Heading 0.9999923 -0.003928625 0
+SetField Animations[172].AnimationData.AverageTranslationMagnitude 0.1199984
+SetField Animations[172].PlaybackFlags DisableWeaponIK
 
-addblockelements Animations[173].AnimationData.FrameEvents 2
-setfield Animations[173].AnimationData.FrameEvents[0].TypeED LeftFoot
-setfield Animations[173].AnimationData.FrameEvents[0].Frame 1
-setfield Animations[173].AnimationData.FrameEvents[1].TypeED RightFoot
-setfield Animations[173].AnimationData.FrameEvents[1].Frame 8
-setfield Animations[173].AnimationData.Heading 0.9999923 -0.003928625 0
-setfield Animations[173].AnimationData.AverageTranslationMagnitude 0.1199984
+AddBlockElements Animations[173].AnimationData.FrameEvents 2
+SetField Animations[173].AnimationData.FrameEvents[0].TypeED LeftFoot
+SetField Animations[173].AnimationData.FrameEvents[0].Frame 1
+SetField Animations[173].AnimationData.FrameEvents[1].TypeED RightFoot
+SetField Animations[173].AnimationData.FrameEvents[1].Frame 8
+SetField Animations[173].AnimationData.Heading 0.9999923 -0.003928625 0
+SetField Animations[173].AnimationData.AverageTranslationMagnitude 0.1199984
 
-addblockelements Animations[174].AnimationData.FrameEvents 2
-setfield Animations[174].AnimationData.FrameEvents[0].TypeED LeftFoot
-setfield Animations[174].AnimationData.FrameEvents[0].Frame 1
-setfield Animations[174].AnimationData.FrameEvents[1].TypeED RightFoot
-setfield Animations[174].AnimationData.FrameEvents[1].Frame 8
-setfield Animations[174].AnimationData.Heading 0.9999923 -0.003928625 0
-setfield Animations[174].AnimationData.AverageTranslationMagnitude 0.1199984
+AddBlockElements Animations[174].AnimationData.FrameEvents 2
+SetField Animations[174].AnimationData.FrameEvents[0].TypeED LeftFoot
+SetField Animations[174].AnimationData.FrameEvents[0].Frame 1
+SetField Animations[174].AnimationData.FrameEvents[1].TypeED RightFoot
+SetField Animations[174].AnimationData.FrameEvents[1].Frame 8
+SetField Animations[174].AnimationData.Heading 0.9999923 -0.003928625 0
+SetField Animations[174].AnimationData.AverageTranslationMagnitude 0.1199984
 
-addblockelements Animations[175].AnimationData.FrameEvents 2
-setfield Animations[175].AnimationData.FrameEvents[0].TypeED LeftFoot
-setfield Animations[175].AnimationData.FrameEvents[0].Frame 1
-setfield Animations[175].AnimationData.FrameEvents[1].TypeED RightFoot
-setfield Animations[175].AnimationData.FrameEvents[1].Frame 8
-setfield Animations[175].AnimationData.Heading 0.9999923 -0.003928625 0
-setfield Animations[175].AnimationData.AverageTranslationMagnitude 0.1199984
-setfield Animations[175].PlaybackFlags DisableWeaponIK
+AddBlockElements Animations[175].AnimationData.FrameEvents 2
+SetField Animations[175].AnimationData.FrameEvents[0].TypeED LeftFoot
+SetField Animations[175].AnimationData.FrameEvents[0].Frame 1
+SetField Animations[175].AnimationData.FrameEvents[1].TypeED RightFoot
+SetField Animations[175].AnimationData.FrameEvents[1].Frame 8
+SetField Animations[175].AnimationData.Heading 0.9999923 -0.003928625 0
+SetField Animations[175].AnimationData.AverageTranslationMagnitude 0.1199984
+SetField Animations[175].PlaybackFlags DisableWeaponIK
 
-addblockelements Animations[176].AnimationData.FrameEvents 2
-setfield Animations[176].AnimationData.FrameEvents[0].TypeED LeftFoot
-setfield Animations[176].AnimationData.FrameEvents[0].Frame 1
-setfield Animations[176].AnimationData.FrameEvents[1].TypeED RightFoot
-setfield Animations[176].AnimationData.FrameEvents[1].Frame 8
-setfield Animations[176].AnimationData.Heading 0.9999923 -0.003928625 0
-setfield Animations[176].AnimationData.AverageTranslationMagnitude 0.1199984
+AddBlockElements Animations[176].AnimationData.FrameEvents 2
+SetField Animations[176].AnimationData.FrameEvents[0].TypeED LeftFoot
+SetField Animations[176].AnimationData.FrameEvents[0].Frame 1
+SetField Animations[176].AnimationData.FrameEvents[1].TypeED RightFoot
+SetField Animations[176].AnimationData.FrameEvents[1].Frame 8
+SetField Animations[176].AnimationData.Heading 0.9999923 -0.003928625 0
+SetField Animations[176].AnimationData.AverageTranslationMagnitude 0.1199984
 
-addblockelements Animations[179].AnimationData.FrameEvents 2
-setfield Animations[179].AnimationData.FrameEvents[0].TypeED LeftFoot
-setfield Animations[179].AnimationData.FrameEvents[0].Frame 1
-setfield Animations[179].AnimationData.FrameEvents[1].TypeED RightFoot
-setfield Animations[179].AnimationData.FrameEvents[1].Frame 8
-setfield Animations[179].AnimationData.Heading 0.9999923 -0.003928625 0
-setfield Animations[179].AnimationData.AverageTranslationMagnitude 0.1199984
+AddBlockElements Animations[179].AnimationData.FrameEvents 2
+SetField Animations[179].AnimationData.FrameEvents[0].TypeED LeftFoot
+SetField Animations[179].AnimationData.FrameEvents[0].Frame 1
+SetField Animations[179].AnimationData.FrameEvents[1].TypeED RightFoot
+SetField Animations[179].AnimationData.FrameEvents[1].Frame 8
+SetField Animations[179].AnimationData.Heading 0.9999923 -0.003928625 0
+SetField Animations[179].AnimationData.AverageTranslationMagnitude 0.1199984
 
-addblockelements Animations[180].AnimationData.FrameEvents 2
-setfield Animations[180].AnimationData.FrameEvents[0].TypeED LeftFoot
-setfield Animations[180].AnimationData.FrameEvents[0].Frame 1
-setfield Animations[180].AnimationData.FrameEvents[1].TypeED RightFoot
-setfield Animations[180].AnimationData.FrameEvents[1].Frame 8
-setfield Animations[180].AnimationData.Heading 0.9999923 -0.003928625 0
-setfield Animations[180].AnimationData.AverageTranslationMagnitude 0.1199984
-setfield Animations[180].PlaybackFlags DisableWeaponIK
-sortmodes
-savetagchanges
-exit
+AddBlockElements Animations[180].AnimationData.FrameEvents 2
+SetField Animations[180].AnimationData.FrameEvents[0].TypeED LeftFoot
+SetField Animations[180].AnimationData.FrameEvents[0].Frame 1
+SetField Animations[180].AnimationData.FrameEvents[1].TypeED RightFoot
+SetField Animations[180].AnimationData.FrameEvents[1].Frame 8
+SetField Animations[180].AnimationData.Heading 0.9999923 -0.003928625 0
+SetField Animations[180].AnimationData.AverageTranslationMagnitude 0.1199984
+SetField Animations[180].PlaybackFlags DisableWeaponIK
+SortModes
+SaveTagChanges
+Exit
 
-edittag objects\characters\elite\elite.jmad
-addanimation workingdir\animations\elite
-addblockelements Animations[1597].AnimationData.EffectEvents 1
-setfield Animations[1597].AnimationData.EffectEvents[0].Effect 8
-setfield Animations[1597].AnimationData.EffectEvents[0].Frame 16
-setfield Animations[1597].AnimationData.EffectEvents[0].MarkerName shield_recharge
-setfield Animations[1597].AnimationData.EffectEvents[0].DamageEffectReportingType.HaloOnline Guardians
-savetagchanges
-exit
+EditTag objects\characters\elite\elite.jmad
+AddAnimation workingdir\animations\elite
+AddBlockElements Animations[1597].AnimationData.EffectEvents 1
+SetField Animations[1597].AnimationData.EffectEvents[0].Effect 8
+SetField Animations[1597].AnimationData.EffectEvents[0].Frame 16
+SetField Animations[1597].AnimationData.EffectEvents[0].MarkerName shield_recharge
+SetField Animations[1597].AnimationData.EffectEvents[0].DamageEffectReportingType.HaloOnline Guardians
+SaveTagChanges
+Exit
 
-edittag objects\characters\masterchief\masterchief.jmad
-addanimation workingdir\animations\masterchief
+EditTag objects\characters\masterchief\masterchief.jmad
+AddAnimation workingdir\animations\masterchief
 
-addblockelements Animations[220].AnimationData.EffectEvents
-setfield Animations[220].AnimationData.EffectEvents[0].Frame 9
-setfield Animations[220].AnimationData.EffectEvents[0].MarkerName hammer_detonation
-setfield Animations[220].AnimationData.EffectEvents[0].DamageEffectReportingType.HaloOnline Guardians
-addblockelements Animations[220].AnimationData.ObjectSpaceParentNodes
-setfield Animations[220].AnimationData.ObjectSpaceParentNodes[0].Flags Rotation
-setfield Animations[220].AnimationData.ObjectSpaceParentNodes[0].RotationX -22365
-setfield Animations[220].AnimationData.ObjectSpaceParentNodes[0].RotationY -8095
-setfield Animations[220].AnimationData.ObjectSpaceParentNodes[0].RotationZ -20136
-setfield Animations[220].AnimationData.ObjectSpaceParentNodes[0].RotationW 10121
-setfield Animations[220].AnimationData.ObjectSpaceParentNodes[0].DefaultTranslation -0.00821 -1.6748E-08 0.3684624
-setfield Animations[220].AnimationData.ObjectSpaceParentNodes[0].DefaultScale 1
+AddBlockElements Animations[220].AnimationData.EffectEvents
+SetField Animations[220].AnimationData.EffectEvents[0].Frame 9
+SetField Animations[220].AnimationData.EffectEvents[0].MarkerName hammer_detonation
+SetField Animations[220].AnimationData.EffectEvents[0].DamageEffectReportingType.HaloOnline Guardians
+AddBlockElements Animations[220].AnimationData.ObjectSpaceParentNodes
+SetField Animations[220].AnimationData.ObjectSpaceParentNodes[0].Flags Rotation
+SetField Animations[220].AnimationData.ObjectSpaceParentNodes[0].RotationX -22365
+SetField Animations[220].AnimationData.ObjectSpaceParentNodes[0].RotationY -8095
+SetField Animations[220].AnimationData.ObjectSpaceParentNodes[0].RotationZ -20136
+SetField Animations[220].AnimationData.ObjectSpaceParentNodes[0].RotationW 10121
+SetField Animations[220].AnimationData.ObjectSpaceParentNodes[0].DefaultTranslation -0.00821 -1.6748E-08 0.3684624
+SetField Animations[220].AnimationData.ObjectSpaceParentNodes[0].DefaultScale 1
 
-addblockelements Animations[1241].AnimationData.FrameEvents 2
-setfield Animations[1241].AnimationData.FrameEvents[0].TypeED LeftFoot
-setfield Animations[1241].AnimationData.FrameEvents[0].Frame 1
-setfield Animations[1241].AnimationData.FrameEvents[1].TypeED RightFoot
-setfield Animations[1241].AnimationData.FrameEvents[1].Frame 8
-setfield Animations[1241].AnimationData.Heading 0.9999995 -0.0009953227 0
-setfield Animations[1241].AnimationData.AverageTranslationMagnitude 0.1199909
-savetagchanges
-exit
+AddBlockElements Animations[1241].AnimationData.FrameEvents 2
+SetField Animations[1241].AnimationData.FrameEvents[0].TypeED LeftFoot
+SetField Animations[1241].AnimationData.FrameEvents[0].Frame 1
+SetField Animations[1241].AnimationData.FrameEvents[1].TypeED RightFoot
+SetField Animations[1241].AnimationData.FrameEvents[1].Frame 8
+SetField Animations[1241].AnimationData.Heading 0.9999995 -0.0009953227 0
+SetField Animations[1241].AnimationData.AverageTranslationMagnitude 0.1199909
+SaveTagChanges
+Exit

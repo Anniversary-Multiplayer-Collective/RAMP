@@ -1,71 +1,71 @@
 # -----------------------------------------------
 # I                  BREAKNECK                  I
 # -----------------------------------------------
-edittag levels\dlc\cex_headlong\cex_headlong.scenario
+EditTag levels\dlc\cex_headlong\cex_headlong.scenario
 # CA_FLUORESCENT LIGHT
-removeblockelements SoundScenery 36 112
-removeblockelements SoundScenery 4 5
+RemoveBlockElements SoundScenery 36 112
+RemoveBlockElements SoundScenery 4 5
 
 # CA_PIPE_HIGH
-removeblockelements SoundScenery 31 37
+RemoveBlockElements SoundScenery 31 37
 
 # CA_PIPE_MED
-removeblockelements SoundScenery 31 20
-savetagchanges
-exit
+RemoveBlockElements SoundScenery 31 20
+SaveTagChanges
+Exit
 
 
 # -----------------------------------------------
 # I                   HIGHNOON                  I
 # -----------------------------------------------
-edittag levels\dlc\cex_hangemhigh\cex_hangemhigh.scenario
+EditTag levels\dlc\cex_hangemhigh\cex_hangemhigh.scenario
 # TOMBSTONE
-removeblockelements SoundScenery 23 59
+RemoveBlockElements SoundScenery 23 59
 
 # LIGHT
-removeblockelements SoundScenery 23 24
-savetagchanges
-exit
+RemoveBlockElements SoundScenery 23 24
+SaveTagChanges
+Exit
 
 # -----------------------------------------------
 # I                  HIGHLANDS                  I
 # -----------------------------------------------
-edittag levels\dlc\trainingpreserve\trainingpreserve.scenario
+EditTag levels\dlc\trainingpreserve\trainingpreserve.scenario
 # LIGHT
-removeblockelements SoundScenery 147 103
-savetagchanges
-exit
+RemoveBlockElements SoundScenery 147 103
+SaveTagChanges
+Exit
 
 # -----------------------------------------------
 # I                   PENANCE                   I
 # -----------------------------------------------
-edittag levels\dlc\cex_damnation\cex_damnation.scenario
+EditTag levels\dlc\cex_damnation\cex_damnation.scenario
 # PIPE_MED
-removeblockelements SoundScenery 101 3
-removeblockelements SoundScenery 68 40
-removeblockelements SoundScenery 25 10
-removeblockelements SoundScenery 110 1
-removeblockelements SoundScenery 58 2
-savetagchanges
-exit
+RemoveBlockElements SoundScenery 101 3
+RemoveBlockElements SoundScenery 68 40
+RemoveBlockElements SoundScenery 25 10
+RemoveBlockElements SoundScenery 110 1
+RemoveBlockElements SoundScenery 58 2
+SaveTagChanges
+Exit
 
 # -----------------------------------------------
 # I                  RIDGELINE                  I
 # -----------------------------------------------
-edittag levels\dlc\cex_timberland\cex_timberland.scenario
+EditTag levels\dlc\cex_timberland\cex_timberland.scenario
 # WATER LIGHT TAP
-removeblockelements SoundScenery 36 33
+RemoveBlockElements SoundScenery 36 33
 
 # CA COMPUTER INT
-removeblockelements SoundScenery 209 12
-savetagchanges
-exit
+RemoveBlockElements SoundScenery 209 12
+SaveTagChanges
+Exit
 
 # -----------------------------------------------
 # I                  UNEARTHED                  I
 # -----------------------------------------------
-edittag levels\dlc\ff_unearthed\ff_unearthed.scenario
+EditTag levels\dlc\ff_unearthed\ff_unearthed.scenario
 # CA_FLUORESCENT LIGHT
-removeblockelements SoundScenery 43 124
-savetagchanges
-exit
+RemoveBlockElements SoundScenery 43 124
+SaveTagChanges
+Exit

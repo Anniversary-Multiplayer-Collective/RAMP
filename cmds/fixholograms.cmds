@@ -1,31 +1,31 @@
-edittag objects\equipment\hologram\bipeds\masterchief_hologram.biped
-setfield Model objects\equipment\hologram\bipeds\masterchief_hologram.model
-savetagchanges
-exit
+EditTag objects\equipment\hologram\bipeds\masterchief_hologram.biped
+SetField Model objects\equipment\hologram\bipeds\masterchief_hologram.model
+SaveTagChanges
+Exit
 
-edittag objects\equipment\hologram\bipeds\mp_elite_hologram.biped
-setfield Model objects\equipment\hologram\bipeds\mp_elite_hologram.model
-savetagchanges
-exit
+EditTag objects\equipment\hologram\bipeds\mp_elite_hologram.biped
+SetField Model objects\equipment\hologram\bipeds\mp_elite_hologram.model
+SaveTagChanges
+Exit
 
 
-edittag objects\equipment\hologram\bipeds\masterchief_hologram.model
-setfield RenderModel objects\characters\masterchief\mp_masterchief\mp_masterchief.render_model
-savetagchanges
-exit
+EditTag objects\equipment\hologram\bipeds\masterchief_hologram.model
+SetField RenderModel objects\characters\masterchief\mp_masterchief\mp_masterchief.render_model
+SaveTagChanges
+Exit
 
-edittag objects\equipment\hologram\bipeds\mp_elite_hologram.model
-removeblockelements Variants[0].Objects 0 *
-setfield RenderModel objects\characters\elite\mp_elite\mp_elite.render_model
-savetagchanges
-exit
+EditTag objects\equipment\hologram\bipeds\mp_elite_hologram.model
+RemoveBlockElements Variants[0].Objects 0 *
+SetField RenderModel objects\characters\elite\mp_elite\mp_elite.render_model
+SaveTagChanges
+Exit
 
 # echo ==AAAAAAAAAAAAAAAAAAAAHHHHHHHHH...==
 
 
 EditTag objects\equipment\hologram\bipeds\masterchief_hologram.model
 
-removeblockelements Variants 0 *
+RemoveBlockElements Variants 0 *
 AddBlockElements Variants 9
 SetField Variants[0].Name default
 SetField Variants[0].Voice null
@@ -3178,7 +3178,7 @@ SetField Variants[8].Regions[7].SortOrder NoSorting
 SetField Variants[8].InstanceGroupIndex -1
 
 
-removeblockelements CollisionRegions 0 *
+RemoveBlockElements CollisionRegions 0 *
 AddBlockElements CollisionRegions 16
 SetField CollisionRegions[0].Name body
 SetField CollisionRegions[0].CollisionRegionIndex 1
@@ -4137,7 +4137,7 @@ Exit
 
 EditTag objects\equipment\hologram\bipeds\mp_elite_hologram.model
 
-removeblockelements Variants 0 *
+RemoveBlockElements Variants 0 *
 AddBlockElements Variants 1
 SetField Variants[0].Name default
 SetField Variants[0].Voice null
@@ -4596,7 +4596,7 @@ SetField Variants[0].Objects[1].ChildObject objects\characters\elite\mp_elite\as
 SetField Variants[0].InstanceGroupIndex -1
 
 
-removeblockelements CollisionRegions 0 *
+RemoveBlockElements CollisionRegions 0 *
 AddBlockElements CollisionRegions 9
 SetField CollisionRegions[0].Name body
 SetField CollisionRegions[0].CollisionRegionIndex 0

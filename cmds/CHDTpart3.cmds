@@ -1,703 +1,703 @@
-edittag ui\hud\hud_messages.unic
-
-setstring english adrenaline_picked_up "Picked up an Adrenaline"
-setstring english adrenaline_swap "\uE461\uE45F to swap for Adrenaline"
-
-setstring english ammopack_picked_up "Picked up an Ammo Pack"
-setstring english ammopack_swap "\uE461\uE45F to swap for Ammo Pack"
-
-setstring english armorlockup_picked_up "Picked up an Armor Lock"
-setstring english armorlockup_swap "\uE461\uE45F to swap for Armor Lock"
-
-setstring english armorlock_picked_up "Picked up a Road Block"
-setstring english armorlock_swap "\uE461\uE45F to swap for Road Block"
-
-setstring english ar_acc_pickup "\uE461\uE45F to pick up|n|r\uE139"
-setstring english ar_acc_swap "\uE461\uE45F to swap for|n|r\uE139"
-setstring english ar_acc_swap_ai "\uE461\uE45F to take ally's|n|r\uE139"
-setstring english ar_acc_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE139"
-
-setstring english ar_dmg_pickup "\uE461\uE45F to pick up|n|r\uE13A"
-setstring english ar_dmg_swap "\uE461\uE45F to swap for|n|r\uE13A"
-setstring english ar_dmg_swap_ai "\uE461\uE45F to take ally's|n|r\uE13A"
-setstring english ar_dmg_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE13A"
-
-setstring english ar_pickup "\uE461\uE45F to pick up|n|r\uE112"
-setstring english ar_swap "\uE461\uE45F to swap for|n|r\uE112"
-setstring english ar_swap_ai "\uE461\uE45F to take ally's|n|r\uE112"
-setstring english ar_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE112"
-
-setstring english ar_pwr_pickup "\uE461\uE45F to pick up|n|r\uE13B"
-setstring english ar_pwr_swap "\uE461\uE45F to swap for|n|r\uE13B"
-setstring english ar_pwr_swap_ai "\uE461\uE45F to take ally's|n|r\uE13B"
-setstring english ar_pwr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE13B"
-
-setstring english ar_rof_pickup "\uE461\uE45F to pick up|n|r\uE13C"
-setstring english ar_rof_swap "\uE461\uE45F to swap for|n|r\uE13C"
-setstring english ar_rof_swap_ai "\uE461\uE45F to take ally's|n|r\uE13C"
-setstring english ar_rof_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE13C"
-
-setstring english assault_defusal "\uE461\uE45F to defuse the bomb"
-setstring english autoturret_swap "\uE461\uE45F to swap for Auto-Turret"
-
-setstring english banshee_board "\uE461\uE45F to board enemy Banshee"
-setstring english banshee_enter "\uE461\uE45F to pilot Banshee"
-setstring english banshee_flip "\uE461\uE45F to flip Banshee"
-
-setstring english be_pickup "\uE461\uE45F to pick up|n|r\uE126"
-setstring english be_swap "\uE461\uE45F to swap for|n|r\uE126"
-setstring english be_swap_ai "\uE461\uE45F to take ally's|n|r\uE126"
-setstring english be_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE126"
-
-setstring english behemoth_enter_driver "\uE461\uE45F to drive Elephant"
-setstring english behemoth_enter_gunner "\uE461\uE45F to operate Elephant turret"
-setstring english behemoth_flip "\uE461\uE45F to flip... wait, what? How did you do that?"
-
-setstring english bo_pickup "\uE461\uE45F to pick up|n|r\uE115"
-setstring english bombrun_picked_up "Picked up a Bomb Run"
-setstring english bombrun_swap "\uE461\uE45F to swap for Bomb Run"
-setstring english boot_griefer "\uE455 betrayed you.|nHold \uE45F to eject this betrayer from the game."
-
-setstring english br_pickup "\uE461\uE45F to pick up|n|r\uE114"
-setstring english br_swap "\uE461\uE45F to swap for|n|r\uE114"
-setstring english br_swap_ai "\uE461\uE45F to take ally's|n|r\uE114"
-setstring english br_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE114"
-
-setstring english br_acc_pickup "\uE461\uE45F to pick up|n|r\uE13D"
-setstring english br_acc_swap "\uE461\uE45F to swap for|n|r\uE13D"
-setstring english br_acc_swap_ai "\uE461\uE45F to take ally's|n|r\uE13D"
-setstring english br_acc_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE13D"
-
-setstring english br_dmg_pickup "\uE461\uE45F to pick up|n|r\uE13E"
-setstring english br_dmg_swap "\uE461\uE45F to swap for|n|r\uE13E"
-setstring english br_dmg_swap_ai "\uE461\uE45F to take ally's|n|r\uE13E"
-setstring english br_dmg_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE13E"
-
-setstring english br_mag_pickup "\uE461\uE45F to pick up|n|r\uE13F"
-setstring english br_mag_swap "\uE461\uE45F to swap for|n|r\uE13F"
-setstring english br_mag_swap_ai "\uE461\uE45F to take ally's|n|r\uE13F"
-setstring english br_mag_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE13F"
-
-setstring english br_pwr_pickup "\uE461\uE45F to pick up|n|r\uE140"
-setstring english br_pwr_swap "\uE461\uE45F to swap for|n|r\uE140"
-setstring english br_pwr_swap_ai "\uE461\uE45F to take ally's|n|r\uE140"
-setstring english br_pwr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE140"
-
-setstring english br_rng_pickup "\uE461\uE45F to pick up|n|r\uE141"
-setstring english br_rng_swap "\uE461\uE45F to swap for|n|r\uE141"
-setstring english br_rng_swap_ai "\uE461\uE45F to take ally's|n|r\uE141"
-setstring english br_rng_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE141"
-
-setstring english br_rof_pickup "\uE461\uE45F to pick up|n|r\uE142"
-setstring english br_rof_swap "\uE461\uE45F to swap for|n|r\uE142"
-setstring english br_rof_swap_ai "\uE461\uE45F to take ally's|n|r\uE142"
-setstring english br_rof_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE142"
-
-setstring english bs_pickup "\uE461\uE45F to pick up|n|r\uE116"
-setstring english bs_swap "\uE461\uE45F to swap for|n|r\uE116"
-setstring english bs_swap_ai "\uE461\uE45F to take ally's|n|r\uE116"
-setstring english bs_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE116"
-
-setstring english bubbleshield_swap "\uE461\uE45F to swap for Bubble Shield"
-setstring english c_tower_enter "\uE461\uE45F to use Covenant gun tower"
-
-setstring english cr_pickup "\uE461\uE45F to pick up|n|r\uE173"
-setstring english cr_swap "\uE461\uE45F to swap for|n|r\uE173"
-setstring english cr_swap_ai "\uE461\uE45F to take ally's|n|r\uE173"
-setstring english cr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE173"
-
-setstring english cc_pickup "\uE461\uE45F to pick up|n|r\uE117"
-setstring english cc_swap "\uE461\uE45F to swap for|n|r\uE117"
-setstring english cc_swap_ai "\uE461\uE45F to take ally's|n|r\uE117"
-setstring english cc_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE117"
-
-setstring english cc_acc_pickup "\uE461\uE45F to pick up|n|r\uE143"
-setstring english cc_acc_swap "\uE461\uE45F to swap for|n|r\uE143"
-setstring english cc_acc_swap_ai "\uE461\uE45F to take ally's|n|r\uE143"
-setstring english cc_acc_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE143"
-
-setstring english cc_dmg_pickup "\uE461\uE45F to pick up|n|r\uE144"
-setstring english cc_dmg_swap "\uE461\uE45F to swap for|n|r\uE144"
-setstring english cc_dmg_swap_ai "\uE461\uE45F to take ally's|n|r\uE144"
-setstring english cc_dmg_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE144"
-
-setstring english cc_mag_pickup "\uE461\uE45F to pick up|n|r\uE145"
-setstring english cc_mag_swap "\uE461\uE45F to swap for|n|r\uE145"
-setstring english cc_mag_swap_ai "\uE461\uE45F to take ally's|n|r\uE145"
-setstring english cc_mag_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE145"
-
-setstring english cc_pwr_pickup "\uE461\uE45F to pick up|n|r\uE146"
-setstring english cc_pwr_swap "\uE461\uE45F to swap for|n|r\uE146"
-setstring english cc_pwr_swap_ai "\uE461\uE45F to take ally's|n|r\uE146"
-setstring english cc_pwr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE146"
-
-setstring english cc_rng_pickup "\uE461\uE45F to pick up|n|r\uE147"
-setstring english cc_rng_swap "\uE461\uE45F to swap for|n|r\uE147"
-setstring english cc_rng_swap_ai "\uE461\uE45F to take ally's|n|r\uE147"
-setstring english cc_rng_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE147"
-
-setstring english cc_rof_pickup "\uE461\uE45F to pick up|n|r\uE148"
-setstring english cc_rof_swap "\uE461\uE45F to swap for|n|r\uE148"
-setstring english cc_rof_swap_ai "\uE461\uE45F to take ally's|n|r\uE148"
-setstring english cc_rof_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE148"
-
-setstring english chopper_board "\uE461\uE45F to board enemy Chopper"
-setstring english chopper_enter "\uE461\uE45F to drive Chopper"
-setstring english chopper_flip "\uE461\uE45F to flip Chopper"
-
-setstring english concussiveblast_picked_up "Picked up a Concussive Blast"
-setstring english concussiveblast_swap "\uE461\uE45F to swap for Concussive Blast"
-setstring english device_activate "\uE461\uE45F to power up terminal"
-setstring english device_bomb "\uE461\uE45F to arm bomb"
-setstring english device_bridge "\uE461\uE45F to extend bridge"
-setstring english device_cartographer "\uE461\uE45F to activate cartographer"
-setstring english device_door "\uE461\uE45F to open door"
-setstring english device_elevator "\uE461\uE45F to activate elevator"
-setstring english device_fakeout "\uE461\uE45F to retrieve Cortana"
-setstring english device_generator "\uE461\uE45F to deactivate shield generator"
-setstring english device_gondola "\uE461\uE45F to start gondola"
-setstring english device_hangar "\uE461\uE45F to open hangar doors"
-setstring english device_lower_shield "\uE461\uE45F to deactivate plasma shield"
-setstring english device_pelican "\uE461\uE45F to enter Pelican"
-setstring english device_piston "\uE461\uE45F to activate piston"
-setstring english device_plug "\uE461\uE45F to power down containment shield"
-setstring english device_plug_lock "\uE461\uE45F to deactivate plug lock"
-setstring english device_pylons "\uE461\uE45F to expose reactor pylons"
-setstring english device_terminal "\uE461\uE45F to access terminal"
-setstring english docks_gate_action "\uE461\uE45F to extend bridge"
-
-setstring english dropshield_picked_up "Picked up a Drop Shield"
-setstring english dropshield_swap "\uE461\uE445 to swap for Drop Shield"
-
-setstring english ex_dual "\uE461\uE45E to dual wield|n|r\uE070"
-setstring english ex_dual_swap "\uE461\uE45E to swap for|n|r\uE070"
-setstring english ex_pickup "\uE461\uE45F to pick up|n|r\uE11A"
-setstring english ex_swap "\uE461\uE45F to swap for|n|r\uE11A"
-setstring english ex_swap_ai "\uE461\uE45F to take ally's|n|r\uE11A"
-setstring english ex_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE11A"
-
-setstring english ex_pwr_dual "\uE461\uE45E to dual wield|n|r\uE159"
-setstring english ex_pwr_dual_swap "\uE461\uE45E to swap for|n|r\uE159"
-setstring english ex_pwr_pickup "\uE461\uE45F to pick up|n|r\uE160"
-setstring english ex_pwr_swap "\uE461\uE45F to swap for|n|r\uE160"
-setstring english ex_pwr_swap_ai "\uE461\uE45F to take ally's|n|r\uE160"
-setstring english ex_pwr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE160"
-
-setstring english forcedreload_picked_up "Picked up an Instant Reload"
-setstring english forcedreload_swap "\uE461\uE45F to swap for Instant Reload"
-
-setstring english fc_pickup "\uE461\uE45F to pick up|n|r\uE11F"
-setstring english fc_swap "\uE461\uE45F to swap for|n|r\uE11F"
-setstring english fc_swap_ai "\uE461\uE45F to take ally's|n|r\uE11F"
-setstring english fc_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE11F"
-
-setstring english fr_pickup "\uE461\uE45F to pick up|n|r\uE175"
-setstring english fr_swap "\uE461\uE45F to swap for|n|r\uE175"
-setstring english fr_swap_ai "\uE461\uE45F to take ally's|n|r\uE175"
-setstring english fr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE175"
-
-setstring english fl_pickup "\uE461\uE45F to pick up|n|r\uE11C"
-
-setstring english flamethrower_pickup "\uE461\uE45F to pick up|n|r\uE11D"
-setstring english flamethrower_swap "\uE461\uE45F to swap for|n|r\uE11D"
-setstring english flamethrower_swap_ai "\uE461\uE45F to take ally's|n|r\uE11D"
-
-setstring english gc_pickup "\uE461\uE45F to pick up|n|r7-Wood"
-setstring english gc_swap "\uE461\uE45F to swap for|n|r7-Wood"
-setstring english gc_switch_to "Out of ammo|nPress \uE446 to switch to|n|r7-Wood"
-
-setstring english gl_pickup "\uE461\uE45F to pick up|n|r\uE171"
-setstring english gl_swap "\uE461\uE45F to swap for|n|r\uE171"
-setstring english gl_swap_ai "\uE461\uE45F to take ally's|n|r\uE171"
-setstring english gl_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE171"
-
-setstring english ghost_board "\uE461\uE45F to board enemy Ghost"
-setstring english ghost_enter "\uE461\uE45F to drive Ghost"
-setstring english ghost_flip "\uE461\uE45F to flip Ghost"
-
-setstring english gravlift_swap "\uE461\uE45F to swap for Grav Lift"
-
-setstring english ham_pickup "\uE461\uE45F to pick up|n|r\uE120"
-setstring english ham_swap "\uE461\uE45F to swap for|n|r\uE120"
-setstring english ham_swap_ai "\uE461\uE45F to take ally's|n|r\uE120"
-setstring english ham_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE120"
-
-setstring english hologram_picked_up "Picked up a Hologram"
-setstring english hologram_swap "\uE461\uE45F to swap for Hologram"
-
-setstring english hornet_board "\uE461\uE45F to board enemy Hornet"
-setstring english hornet_d_enter "\uE461\uE45F to pilot Hornet"
-setstring english hornet_p_enter "\uE461\uE45F to ride in Hornet"
-setstring english hornet_enter_gunner "\uE461\uE45F to operate Hornet turret"
-setstring english hornet_flip "\uE461\uE45F to flip Hornet"
-
-setstring english instantcover_swap "\uE461\uE45F to swap for Deployable Cover"
-setstring english invincibility_picked_up "Picked up an Invincibility"
-setstring english invincibility_swap "\uE461\uE45F to swap for Invincibility"
-setstring english invisibility_picked_up "Picked up a Cloaking"
-setstring english invisibility_swap "\uE461\uE45F to swap for Cloaking"
-setstring english invisibility_vehicle_picked_up "Picked up a Vehicle Cloaking"
-setstring english invisibility_vehicle_swap "\uE461\uE45F to swap for Vehicle Cloaking"
-setstring english jammer_swap "\uE461\uE45F to swap for Radar Jammer"
-setstring english lightningstrike_picked_up "Picked up a Lightning Strike"
-setstring english lightningstrike_swap "\uE461\uE45F to swap for Lightning Strike"
-
-setstring english laz_pickup "\uE461\uE45F to pick up|n|r\uE12C"
-setstring english laz_swap "\uE461\uE45F to swap for|n|r\uE12C"
-setstring english laz_swap_ai "\uE461\uE45F to take ally's|n|r\uE12C"
-setstring english laz_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE12C"
-
-setstring english mauler_board "\uE461\uE45F to board enemy Prowler"
-setstring english mauler_enter_driver "\uE461\uE45F to drive Prowler"
-setstring english mauler_enter_passenger "\uE461\uE45F to ride in Prowler"
-setstring english mauler_enter_gunner "\uE461\uE45F to operate Prowler turret"
-setstring english mauler_flip "\uE461\uE45F to flip Prowler"
-
-setstring english mgturret_pickup "\uE461\uE45F to pick up|n|r\uE122"
-setstring english mgturret_swap "\uE461\uE45F to swap for|n|r\uE122"
-setstring english ml_pickup "\uE461\uE45F to pick up|n|r\uE124"
-setstring english ml_swap "\uE461\uE45F to swap for|n|r\uE124"
-setstring english ml_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE124"
-
-setstring english mongoose_board "\uE461\uE45F to board enemy Mongoose"
-setstring english mongoose_enter_driver "\uE461\uE45F to drive Mongoose"
-setstring english mongoose_enter_passenger "\uE461\uE45F to ride in Mongoose"
-setstring english mongoose_flip "\uE461\uE45F to flip Mongoose"
-
-setstring english mp_dual "\uE461\uE45E to dual wield|n|r\uE071"
-setstring english mp_dual_swap "\uE461\uE45E to swap for|n|r\uE071"
-setstring english mp_pickup "\uE461\uE45F to pick up|n|r\uE123"
-setstring english mp_swap "\uE461\uE45F to swap for|n|r\uE123"
-setstring english mp_swap_ai "\uE461\uE45F to take ally's|n|r\uE123"
-setstring english mp_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE123"
-
-setstring english mp_dmg_dual "\uE461\uE45E to dual wield|n|r\uE155"
-setstring english mp_dmg_dual_swap "\uE461\uE45E to swap for|n|r\uE155"
-setstring english mp_dmg_pickup "\uE461\uE45F to pick up|n|r\uE156"
-setstring english mp_dmg_swap "\uE461\uE45F to swap for|n|r\uE156"
-setstring english mp_dmg_swap_ai "\uE461\uE45F to take ally's|n|r\uE156"
-setstring english mp_dmg_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE156"
-
-setstring english mp_pwr_dual "\uE461\uE45E to dual wield|n|r\uE157"
-setstring english mp_pwr_dual_swap "\uE461\uE45E to swap for|n|r\uE157"
-setstring english mp_pwr_pickup "\uE461\uE45F to pick up|n|r\uE158"
-setstring english mp_pwr_swap "\uE461\uE45F to swap for|n|r\uE158"
-setstring english mp_pwr_swap_ai "\uE461\uE45F to take ally's|n|r\uE158"
-setstring english mp_pwr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE158"
-
-setstring english mr_pickup "\uE461\uE45F to pick up|n|r\uE170"
-setstring english mr_swap "\uE461\uE45F to swap for|n|r\uE170"
-setstring english mr_swap_ai "\uE461\uE45F to take ally's|n|r\uE170"
-setstring english mr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE170"
-
-setstring english mr_acc_pickup "\uE461\uE45F to pick up|n|r\uE149"
-setstring english mr_acc_swap "\uE461\uE45F to swap for|n|r\uE149"
-setstring english mr_acc_swap_ai "\uE461\uE45F to take ally's|n|r\uE149"
-setstring english mr_acc_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE149"
-
-setstring english mr_dmg_pickup "\uE461\uE45F to pick up|n|r\uE150"
-setstring english mr_dmg_swap "\uE461\uE45F to swap for|n|r\uE150"
-setstring english mr_dmg_swap_ai "\uE461\uE45F to take ally's|n|r\uE150"
-setstring english mr_dmg_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE150"
-
-setstring english mr_mag_pickup "\uE461\uE45F to pick up|n|r\uE151"
-setstring english mr_mag_swap "\uE461\uE45F to swap for|n|r\uE151"
-setstring english mr_mag_swap_ai "\uE461\uE45F to take ally's|n|r\uE151"
-setstring english mr_mag_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE151"
-
-setstring english mr_pwr_pickup "\uE461\uE45F to pick up|n|r\uE152"
-setstring english mr_pwr_swap "\uE461\uE45F to swap for|n|r\uE152"
-setstring english mr_pwr_swap_ai "\uE461\uE45F to take ally's|n|r\uE152"
-setstring english mr_pwr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE152"
-
-setstring english mr_rng_pickup "\uE461\uE45F to pick up|n|r\uE153"
-setstring english mr_rng_swap "\uE461\uE45F to swap for|n|r\uE153"
-setstring english mr_rng_swap_ai "\uE461\uE45F to take ally's|n|r\uE153"
-setstring english mr_rng_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE153"
-
-setstring english mr_rof_pickup "\uE461\uE45F to pick up|n|r\uE154"
-setstring english mr_rof_swap "\uE461\uE45F to swap for|n|r\uE154"
-setstring english mr_rof_swap_ai "\uE461\uE45F to take ally's|n|r\uE154"
-setstring english mr_rof_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE154"
-
-setstring english nd_dual "\uE461\uE45E to dual wield|n|r\uFB07"
-setstring english nd_dual_swap "\uE461\uE45E to swap for|n|r\uFB07"
-setstring english nd_pickup "\uE461\uE45F to pick up|n|r\uE125"
-setstring english nd_swap "\uE461\uE45F to swap for|n|r\uE125"
-setstring english nd_swap_ai "\uE461\uE45F to take ally's|n|r\uE125"
-setstring english nd_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE125"
-
-setstring english nr_pickup "\uE461\uE45F to pick up|n|r\uE172"
-setstring english nr_swap "\uE461\uE45F to swap for|n|r\uE172"
-setstring english nr_swap_ai "\uE461\uE45F to take ally's|n|r\uE172"
-setstring english nr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE172"
-
-setstring english ob_pickup "\uE461\uE45F to pick up|n|r\uE113"
-setstring english pcannon_enter "\uE461\uE45F to operate Plasma Cannon"
-setstring english pod_enter "\uE461\uE45F to operate Missile Pod"
-
-setstring english phantom_enter_passenger "\uE461\uE45F to ride in Phantom"
-setstring english pelican_enter_passenger "\uE461\uE45F to ride in Pelican"
-setstring english pelican_enter_gunner "\uE461\uE45F to operate Pelican turret"
-
-setstring english powerdrain_swap "\uE461\uE45F to swap for Power Drain"
-setstring english powerup_pickup_yellow "Picked up a Custom Powerup"
-
-setstring english pp_dual "\uE461\uE45E to dual wield|n|r\uE072"
-setstring english pp_dual_swap "\uE461\uE45E to swap for|n|r\uE072"
-setstring english pp_pickup "\uE461\uE45F to pick up|n|r\uE129"
-setstring english pp_swap "\uE461\uE45F to swap for|n|r\uE129"
-setstring english pp_swap_ai "\uE461\uE45F to take ally's|n|r\uE129"
-setstring english pp_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE129"
-
-setstring english pp_pwr_dual "\uE461\uE45E to dual wield|n|r\uE161"
-setstring english pp_pwr_dual_swap "\uE461\uE45E to swap for|n|r\uE161"
-setstring english pp_pwr_pickup "\uE461\uE45F to pick up|n|r\uE162"
-setstring english pp_pwr_swap "\uE461\uE45F to swap for|n|r\uE162"
-setstring english pp_pwr_swap_ai "\uE461\uE45F to take ally's|n|r\uE162"
-setstring english pp_pwr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE162"
-
-setstring english pr_dual "\uE461\uE45E to dual wield|n|r\uE073"
-setstring english pr_dual_swap "\uE461\uE45E to swap for|n|r\uE073"
-setstring english pr_pickup "\uE461\uE45F to pick up|n|r\uE12A"
-setstring english pr_swap "\uE461\uE45F to swap for|n|r\uE12A"
-setstring english pr_swap_ai "\uE461\uE45F to take ally's|n|r\uE12A"
-setstring english pr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE12A"
-
-setstring english pr_pwr_dual "\uE461\uE45E to dual wield|n|r\uE163"
-setstring english pr_pwr_dual_swap "\uE461\uE45E to swap for|n|r\uE163"
-setstring english pr_pwr_pickup "\uE461\uE45F to pick up|n|r\uE164"
-setstring english pr_pwr_swap "\uE461\uE45F to swap for|n|r\uE164"
-setstring english pr_pwr_swap_ai "\uE461\uE45F to take ally's|n|r\uE164"
-setstring english pr_pwr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE164"
-
-setstring english ps_pickup "\uE461\uE45F to pick up|n|r\uE119"
-setstring english ps_swap "\uE461\uE45F to swap for|n|r\uE119"
-setstring english ps_swap_ai "\uE461\uE45F to take ally's|n|r\uE119"
-setstring english ps_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE119"
-
-setstring english pl_pickup "\uE461\uE45F to pick up|n|r\uE176"
-setstring english pl_swap "\uE461\uE45F to swap for|n|r\uE176"
-setstring english pl_swap_ai "\uE461\uE45F to take ally's|n|r\uE176"
-setstring english pl_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE176"
-
-setstring english prp_pickup "\uE461\uE45F to pick up|n|r\uE174"
-setstring english prp_swap "\uE461\uE45F to swap for|n|r\uE174"
-setstring english prp_swap_ai "\uE461\uE45F to take ally's|n|r\uE174"
-setstring english prp_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE174"
-
-setstring english pturret_picked_up "Picked up a Plasma Cannon"
-setstring english pturret_pickup "\uE461\uE45F to pick up|n|r\uE12B"
-setstring english pturret_swap "\uE461\uE45F to pick up|n|r\uE12B"
-
-setstring english reactive_armor_picked_up "Picked up a Reflective Shield"
-setstring english reactive_armor_swap "\uE461\uE45F to swap for Reflective Shield"
-setstring english regenerator_swap  "\uE461\uE45F to swap for Regenerator"
-
-setstring english remove_turret_melee "Press \uE447 to detach Turret"
-
-setstring english rl_pickup "\uE461\uE45F to pick up|n|r\uE12D"
-setstring english rl_swap "\uE461\uE45F to swap for|n|r\uE12D"
-setstring english rl_swap_ai "\uE461\uE45F to take ally's|n|r\uE12D"
-setstring english rl_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE12D"
-setstring english rocket_lock_available "Hold \uE44A to lock on"
-
-setstring english scorpion_board "\uE461\uE45F to board enemy Scorpion"
-setstring english scorpion_enter_driver "\uE461\uE45F to drive Scorpion"
-setstring english scorpion_enter_passenger "\uE461\uE45F to operate Scorpion turret"
-setstring english scorpion_flip "\uE461\uE45F to flip Scorpion"
-
-setstring english sen_b_pickup "\uE461\uE45F to pick up|n|r\uE12E"
-setstring english sen_b_swap "\uE461\uE45F to swap for|n|r\uE12E"
-setstring english sen_b_swap_ai "\uE461\uE45F to take ally's|n|r\uE12E"
-setstring english sen_b_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE12E"
-
-setstring english sg_pickup "\uE461\uE45F to pick up|n|r\uE12F"
-setstring english sg_swap "\uE461\uE45F to swap for|n|r\uE12F"
-setstring english sg_swap_ai "\uE461\uE45F to take ally's|n|r\uE12F"
-setstring english sg_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE12F"
-
-setstring english shade_enter "\uE461\uE45F to operate Shade Turret"
-
-setstring english smg_dual "\uE461\uE45E to dual wield|n|r\uE068"
-setstring english smg_dual_swap "\uE461\uE45E to swap for|n|r\uE068"
-setstring english smg_pickup "\uE461\uE45F to pick up|n|r\uE130"
-setstring english smg_swap "\uE461\uE45F to swap for|n|r\uE130"
-setstring english smg_swap_ai "\uE461\uE45F to take ally's|n|r\uE130"
-setstring english smg_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE130"
-
-setstring english smg_acc_dual "\uE461\uE45E to dual wield|n|r\uE165"
-setstring english smg_acc_dual_swap "\uE461\uE45E to swap for|n|r\uE165"
-setstring english smg_acc_pickup "\uE461\uE45F to pick up|n|r\uE166"
-setstring english smg_acc_swap "\uE461\uE45F to swap for|n|r\uE166"
-setstring english smg_acc_swap_ai "\uE461\uE45F to take ally's|n|r\uE166"
-setstring english smg_acc_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE166"
-
-setstring english smg_dmg_dual "\uE461\uE45E to dual wield|n|r\uE168"
-setstring english smg_dmg_dual_swap "\uE461\uE45E to swap for|n|r\uE168"
-setstring english smg_dmg_pickup "\uE461\uE45F to pick up|n|r\uE169"
-setstring english smg_dmg_swap "\uE461\uE45F to swap for|n|r\uE169"
-setstring english smg_dmg_swap_ai "\uE461\uE45F to take ally's|n|r\uE169"
-setstring english smg_dmg_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE169"
-
-setstring english smg_pwr_dual "\uE461\uE45E to dual wield|n|r\uE15A"
-setstring english smg_pwr_dual_swap "\uE461\uE45E to swap for|n|r\uE15A"
-setstring english smg_pwr_pickup "\uE461\uE45F to pick up|n|r\uE15B"
-setstring english smg_pwr_swap "\uE461\uE45F to swap for|n|r\uE15B"
-setstring english smg_pwr_swap_ai "\uE461\uE45F to take ally's|n|r\uE15B"
-setstring english smg_pwr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE15B"
-
-setstring english smg_rof_dual "\uE461\uE45E to dual wield|n|r\uE15C"
-setstring english smg_rof_dual_swap "\uE461\uE45E to swap for|n|r\uE15C"
-setstring english smg_rof_pickup "\uE461\uE45F to pick up|n|r\uE15D"
-setstring english smg_rof_swap "\uE461\uE45F to swap for|n|r\uE15D"
-setstring english smg_rof_swap_ai "\uE461\uE45F to take ally's|n|r\uE15D"
-setstring english smg_rof_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE15D"
-
-setstring english sn_pickup "\uE461\uE45F to pick up|n|r\uE131"
-setstring english sn_swap "\uE461\uE45F to swap for|n|r\uE131"
-setstring english sn_swap_ai "\uE461\uE45F to take ally's|n|r\uE131"
-setstring english sn_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE131"
-
-setstring english sr_pickup_dual "\uE461\uE45E to dual wield|n|r\uE069"
-setstring english sr_swap_dual "\uE461\uE45E to swap for|n|r\uE069"
-setstring english sr_pickup "\uE461\uE45F to pick up|n|r\uE132"
-setstring english sr_swap "\uE461\uE45F to swap for|n|r\uE132"
-setstring english sr_swap_ai "\uE461\uE45F to take ally's|n|r\uE132"
-setstring english sr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE132"
-
-setstring english tripmine_swap "\uE461\uE45F to swap for Trip Mine"
-setstring english turret_enter "\uE461\uE45F to operate Turret"
-
-setstring english tankmode_picked_up "Picked up a Tank Mode"
-setstring english tankmode_swap "\uE461\uE445 to swap for Tank Mode"
-setstring english vision_picked_up "Picked up a V.I.S.R."
-setstring english vision_swap "\uE461\uE45F to swap for V.I.S.R"
-
-setstring english tl_picked_up "Picked up a Target Locator"
-setstring english tl_pickup "\uE461\uE45F to pick up|n|r\uE177"
-setstring english tl_swap "\uE461\uE45F to swap for|n|r\uE177"
-setstring english tl_swap_ai "\uE461\uE45F to take ally's|n|r\uE177"
-setstring english tl_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE177"
-
-setstring english vortex_swap "\uE461\uE45F to swap for Vortex"
-
-setstring english warthog_board "\uE461\uE45F to board enemy Warthog"
-setstring english warthog_enter_driver "\uE461\uE45F to drive Warthog"
-setstring english warthog_enter_passenger "\uE461\uE45F to ride in Warthog"
-setstring english warthog_enter_gunner "\uE461\uE45F to operate Warthog turret"
-setstring english warthog_flip "\uE461\uE45F to flip Warthog"
-
-setstring english wp_pickup "\uE461\uE45F to pick up|n|r"
-
-setstring english wraith_board "\uE461\uE45F to board enemy wraith"
-setstring english wraith_enter_driver "\uE461\uE45F to drive wraith"
-setstring english wraith_enter_gunner "\uE461\uE45F to operate wraith turret"
-setstring english wraith_flip "\uE461\uE45F to flip Wraith"
-setstring english zanzibar_gate_action "\uE461\uE45F to open the gate"
-savetagchanges
-exit
-
-edittag objects\weapons\rifle\concussion_rifle\concussion_rifle.weapon
-setfield PickupMessage cr_pickup
-setfield SwapMessage cr_swap
-setfield PickedUpMessage cr_picked_up
-setfield SwitchToMessage cr_switch_to
-setfield SwitchToFromAiMessage cr_swap_ai
-savetagchanges
-exit
-
-edittag objects\weapons\rifle\focus_rifle\focus_rifle.weapon
-setfield PickupMessage fr_pickup
-setfield SwapMessage fr_swap
-setfield PickedUpMessage fr_picked_up
-setfield SwitchToMessage fr_switch_to
-setfield SwitchToFromAiMessage fr_swap_ai
-savetagchanges
-exit
-
-edittag objects\weapons\rifle\grenade_launcher\grenade_launcher.weapon
-setfield PickupMessage gl_pickup
-setfield SwapMessage gl_swap
-setfield PickedUpMessage gl_picked_up
-setfield SwitchToMessage gl_switch_to
-setfield SwitchToFromAiMessage gl_swap_ai
-savetagchanges
-exit
-
-edittag objects\weapons\rifle\needle_rifle\needle_rifle.weapon
-setfield PickupMessage nr_pickup
-setfield SwapMessage nr_swap
-setfield PickedUpMessage nr_picked_up
-setfield SwitchToMessage nr_switch_to
-setfield SwitchToFromAiMessage nr_swap_ai
-savetagchanges
-exit
-
-edittag objects\weapons\support_high\plasma_launcher\plasma_launcher.weapon
-setfield PickupMessage pl_pickup
-setfield SwapMessage pl_swap
-setfield PickedUpMessage pl_picked_up
-setfield SwitchToMessage pl_switch_to
-setfield SwitchToFromAiMessage pl_swap_ai
-savetagchanges
-exit
-
-edittag objects\weapons\rifle\plasma_repeater\plasma_repeater.weapon
-setfield PickupMessage prp_pickup
-setfield SwapMessage prp_swap
-setfield PickedUpMessage prp_picked_up
-setfield SwitchToMessage prp_switch_to
-setfield SwitchToFromAiMessage prp_swap_ai
-savetagchanges
-exit
-
-edittag objects\weapons\pistol\target_laser\target_laser.weapon
-setfield PickupMessage tl_pickup
-setfield SwapMessage tl_swap
-setfield PickedUpMessage tl_picked_up
-setfield SwitchToMessage tl_switch_to
-setfield SwitchToFromAiMessage tl_swap_ai
-savetagchanges
-exit
-
-edittag objects\weapons\rifle\dmr\dmr.weapon
-setfield PickupMessage mr_pickup
-setfield SwapMessage mr_swap
-setfield PickedUpMessage mr_picked_up
-setfield SwitchToMessage mr_switch_to
-setfield SwitchToFromAiMessage mr_swap_ai
-savetagchanges
-exit
-
-edittag ui\chud\bitmaps\sensor_blips.bitmap
-removeblockelements Sequences 6 *
-setfield Sequences[1].Name " "
-setfield Sequences[2].Name " "
-importbitmap 0 workingdir\bitmaps\sensor_blips.dds 
-savetagchanges
-exit
-
-edittag ui\chud\bitmaps\shield_meter.bitmap
-addblockelements Sequences
-addblockelements Sequences[*].Sprites
-setfield Sequences[*].Sprites[*].Right 1
-setfield Sequences[*].Sprites[*].Top 1
-savetagchanges
-exit
-
-edittag ui\chud\spartan.chud_definition
-setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 4.05 4.05
-setfield HudWidgets[0].BitmapWidgets[0].RenderData[0].LocalScalarA 0.8
-setfield HudWidgets[0].BitmapWidgets[2].PlacementData[0].Offset 0.1 0
-setfield HudWidgets[0].BitmapWidgets[2].PlacementData[0].Scale 0.811 0.7
-setfield HudWidgets[0].BitmapWidgets[3].PlacementData[0].Offset 0.1 0
-setfield HudWidgets[0].BitmapWidgets[3].PlacementData[0].Scale 0.811 0.7
-setfield HudWidgets[0].BitmapWidgets[4].PlacementData[0].Offset 0.1 0
-setfield HudWidgets[0].BitmapWidgets[4].PlacementData[0].Scale 0.811 0.7
-setfield HudWidgets[0].BitmapWidgets[5].PlacementData[0].Offset 0.1 0
-setfield HudWidgets[0].BitmapWidgets[5].PlacementData[0].Scale 0.811 0.7
-setfield HudWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 0.405 0.405
-setfield HudWidgets[1].BitmapWidgets[1].PlacementData[0].Scale 0.4 0.4
-setfield HudWidgets[1].BitmapWidgets[1].PlacementData[0].Offset 12 -14
-setfield HudWidgets[1].BitmapWidgets[2].PlacementData[0].Offset 12 -11.5
-setfield HudWidgets[1].BitmapWidgets[3].PlacementData[0].Offset 12 -11.5
-setfield HUDWidgets[2].PlacementData[0].Offset -25 35
-setfield HUDWidgets[2].PlacementData[0].Scale 1.3 1.3
-setfield HUDWidgets[3].PlacementData[0].Offset -25 35
-setfield HUDWidgets[3].PlacementData[0].Scale 1.3 1.3
-setfield HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Offset 26 3.5
-setfield HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Scale 0.5 0.5
-setfield HUDWidgets[3].BitmapWidgets[0].BitmapSequenceIndex 6
-setfield HUDWidgets[4].PlacementData[0].Offset -24 35
-setfield HUDWidgets[4].PlacementData[0].Scale 1.3 1.3
-setfield HUDWidgets[5].PlacementData[0].Offset -23 35
-setfield HUDWidgets[5].PlacementData[0].Scale 1.3 1.3
-setfield HudWidgets[9].PlacementData[0].Anchor Center
-setfield HudWidgets[9].PlacementData[0].Offset 0 0
-setfield HudWidgets[9].TextWidgets[0].PlacementData[0].Anchor Parent
-setfield HudWidgets[9].TextWidgets[0].PlacementData[0].Offset 0 -200
-setfield HudWidgets[9].BitmapWidgets[1].PlacementData[0].Scale 0.3 0.3
-setfield HudWidgets[10].PlacementData[0].Offset 0 -50
-setfield HudWidgets[10].TextWidgets[0].PlacementData[0].Anchor Parent
-setfield HudWidgets[10].TextWidgets[0].PlacementData[0].Offset 0 -206
-setfield HudWidgets[10].TextWidgets[0].PlacementData[0].Scale 1.6 1.6
-setfield HudWidgets[10].TextWidgets[0].TextFlags StringIsANumber,Force3DigitNumber,Decimal5Digits,WrapWithBrackets
-setfield HudWidgets[10].BitmapWidgets[0].RenderData[0].OutputColorA PrimaryBackground
-setfield HudWidgets[10].BitmapWidgets[0].RenderData[0].OutputColorB PrimaryBackground
-setfield HudWidgets[10].BitmapWidgets[0].RenderData[0].OutputColorC PrimaryBackground
-setfield HudWidgets[10].BitmapWidgets[0].RenderData[0].OutputColorD PrimaryBackground
-setfield HudWidgets[10].BitmapWidgets[0].RenderData[0].OutputColorE PrimaryBackground
-setfield HudWidgets[10].BitmapWidgets[0].RenderData[0].OutputColorF PrimaryBackground
-
-setfield HudWidgets[28].BitmapWidgets[0].RenderData[0].OutputColorA PrimaryBackground
-setfield HudWidgets[28].BitmapWidgets[0].RenderData[0].OutputColorB PrimaryBackground
-setfield HudWidgets[28].BitmapWidgets[0].RenderData[0].OutputColorC PrimaryBackground
-setfield HudWidgets[28].BitmapWidgets[0].RenderData[0].OutputColorD PrimaryBackground
-setfield HudWidgets[28].BitmapWidgets[0].RenderData[0].OutputColorE PrimaryBackground
-setfield HudWidgets[28].BitmapWidgets[0].RenderData[0].OutputColorF PrimaryBackground
-removeblockelements HudWidgets[28].BitmapWidgets 1 *
-savetagchanges
-exit
-
-edittag ui\chud\globals.chud_globals_definition
-setfield Hudglobals[0].GrenadeAnchorOffset 69
-setfield HudGlobals[0].EquipmentVerticalOffsetDual 70
-savetagchanges
-exit
-
-edittag ui\chud\bitmaps\elite_shield_border.bitmap
-importbitmap 0 workingdir\bitmaps\elite_shield_border.dds
-savetagchanges
-exit
-
-edittag ui\chud\elite.chud_definition
-setfield HudWidgets[1].BitmapWidgets[0].PlacementData[0].Offset 0 10
-setfield HudWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 2.95 2.25
-setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].LocalScalarA 0.8
-setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].OutputColorA CrosshairEnemy
-setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].OutputColorB CrosshairEnemy
-setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].OutputColorC CrosshairEnemy
-setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].OutputColorD CrosshairEnemy
-setfield HudWidgets[1].BitmapWidgets[1].PlacementData[0].Origin -0.97 -1
+EditTag ui\hud\hud_messages.unic
+
+SetString english adrenaline_picked_up "Picked up an Adrenaline"
+SetString english adrenaline_swap "\uE461\uE45F to swap for Adrenaline"
+
+SetString english ammopack_picked_up "Picked up an Ammo Pack"
+SetString english ammopack_swap "\uE461\uE45F to swap for Ammo Pack"
+
+SetString english armorlockup_picked_up "Picked up an Armor Lock"
+SetString english armorlockup_swap "\uE461\uE45F to swap for Armor Lock"
+
+SetString english armorlock_picked_up "Picked up a Road Block"
+SetString english armorlock_swap "\uE461\uE45F to swap for Road Block"
+
+SetString english ar_acc_pickup "\uE461\uE45F to pick up|n|r\uE139"
+SetString english ar_acc_swap "\uE461\uE45F to swap for|n|r\uE139"
+SetString english ar_acc_swap_ai "\uE461\uE45F to take ally's|n|r\uE139"
+SetString english ar_acc_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE139"
+
+SetString english ar_dmg_pickup "\uE461\uE45F to pick up|n|r\uE13A"
+SetString english ar_dmg_swap "\uE461\uE45F to swap for|n|r\uE13A"
+SetString english ar_dmg_swap_ai "\uE461\uE45F to take ally's|n|r\uE13A"
+SetString english ar_dmg_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE13A"
+
+SetString english ar_pickup "\uE461\uE45F to pick up|n|r\uE112"
+SetString english ar_swap "\uE461\uE45F to swap for|n|r\uE112"
+SetString english ar_swap_ai "\uE461\uE45F to take ally's|n|r\uE112"
+SetString english ar_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE112"
+
+SetString english ar_pwr_pickup "\uE461\uE45F to pick up|n|r\uE13B"
+SetString english ar_pwr_swap "\uE461\uE45F to swap for|n|r\uE13B"
+SetString english ar_pwr_swap_ai "\uE461\uE45F to take ally's|n|r\uE13B"
+SetString english ar_pwr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE13B"
+
+SetString english ar_rof_pickup "\uE461\uE45F to pick up|n|r\uE13C"
+SetString english ar_rof_swap "\uE461\uE45F to swap for|n|r\uE13C"
+SetString english ar_rof_swap_ai "\uE461\uE45F to take ally's|n|r\uE13C"
+SetString english ar_rof_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE13C"
+
+SetString english assault_defusal "\uE461\uE45F to defuse the bomb"
+SetString english autoturret_swap "\uE461\uE45F to swap for Auto-Turret"
+
+SetString english banshee_board "\uE461\uE45F to board enemy Banshee"
+SetString english banshee_enter "\uE461\uE45F to pilot Banshee"
+SetString english banshee_flip "\uE461\uE45F to flip Banshee"
+
+SetString english be_pickup "\uE461\uE45F to pick up|n|r\uE126"
+SetString english be_swap "\uE461\uE45F to swap for|n|r\uE126"
+SetString english be_swap_ai "\uE461\uE45F to take ally's|n|r\uE126"
+SetString english be_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE126"
+
+SetString english behemoth_enter_driver "\uE461\uE45F to drive Elephant"
+SetString english behemoth_enter_gunner "\uE461\uE45F to operate Elephant turret"
+SetString english behemoth_flip "\uE461\uE45F to flip... wait, what? How did you do that?"
+
+SetString english bo_pickup "\uE461\uE45F to pick up|n|r\uE115"
+SetString english bombrun_picked_up "Picked up a Bomb Run"
+SetString english bombrun_swap "\uE461\uE45F to swap for Bomb Run"
+SetString english boot_griefer "\uE455 betrayed you.|nHold \uE45F to eject this betrayer from the game."
+
+SetString english br_pickup "\uE461\uE45F to pick up|n|r\uE114"
+SetString english br_swap "\uE461\uE45F to swap for|n|r\uE114"
+SetString english br_swap_ai "\uE461\uE45F to take ally's|n|r\uE114"
+SetString english br_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE114"
+
+SetString english br_acc_pickup "\uE461\uE45F to pick up|n|r\uE13D"
+SetString english br_acc_swap "\uE461\uE45F to swap for|n|r\uE13D"
+SetString english br_acc_swap_ai "\uE461\uE45F to take ally's|n|r\uE13D"
+SetString english br_acc_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE13D"
+
+SetString english br_dmg_pickup "\uE461\uE45F to pick up|n|r\uE13E"
+SetString english br_dmg_swap "\uE461\uE45F to swap for|n|r\uE13E"
+SetString english br_dmg_swap_ai "\uE461\uE45F to take ally's|n|r\uE13E"
+SetString english br_dmg_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE13E"
+
+SetString english br_mag_pickup "\uE461\uE45F to pick up|n|r\uE13F"
+SetString english br_mag_swap "\uE461\uE45F to swap for|n|r\uE13F"
+SetString english br_mag_swap_ai "\uE461\uE45F to take ally's|n|r\uE13F"
+SetString english br_mag_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE13F"
+
+SetString english br_pwr_pickup "\uE461\uE45F to pick up|n|r\uE140"
+SetString english br_pwr_swap "\uE461\uE45F to swap for|n|r\uE140"
+SetString english br_pwr_swap_ai "\uE461\uE45F to take ally's|n|r\uE140"
+SetString english br_pwr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE140"
+
+SetString english br_rng_pickup "\uE461\uE45F to pick up|n|r\uE141"
+SetString english br_rng_swap "\uE461\uE45F to swap for|n|r\uE141"
+SetString english br_rng_swap_ai "\uE461\uE45F to take ally's|n|r\uE141"
+SetString english br_rng_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE141"
+
+SetString english br_rof_pickup "\uE461\uE45F to pick up|n|r\uE142"
+SetString english br_rof_swap "\uE461\uE45F to swap for|n|r\uE142"
+SetString english br_rof_swap_ai "\uE461\uE45F to take ally's|n|r\uE142"
+SetString english br_rof_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE142"
+
+SetString english bs_pickup "\uE461\uE45F to pick up|n|r\uE116"
+SetString english bs_swap "\uE461\uE45F to swap for|n|r\uE116"
+SetString english bs_swap_ai "\uE461\uE45F to take ally's|n|r\uE116"
+SetString english bs_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE116"
+
+SetString english bubbleshield_swap "\uE461\uE45F to swap for Bubble Shield"
+SetString english c_tower_enter "\uE461\uE45F to use Covenant gun tower"
+
+SetString english cr_pickup "\uE461\uE45F to pick up|n|r\uE173"
+SetString english cr_swap "\uE461\uE45F to swap for|n|r\uE173"
+SetString english cr_swap_ai "\uE461\uE45F to take ally's|n|r\uE173"
+SetString english cr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE173"
+
+SetString english cc_pickup "\uE461\uE45F to pick up|n|r\uE117"
+SetString english cc_swap "\uE461\uE45F to swap for|n|r\uE117"
+SetString english cc_swap_ai "\uE461\uE45F to take ally's|n|r\uE117"
+SetString english cc_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE117"
+
+SetString english cc_acc_pickup "\uE461\uE45F to pick up|n|r\uE143"
+SetString english cc_acc_swap "\uE461\uE45F to swap for|n|r\uE143"
+SetString english cc_acc_swap_ai "\uE461\uE45F to take ally's|n|r\uE143"
+SetString english cc_acc_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE143"
+
+SetString english cc_dmg_pickup "\uE461\uE45F to pick up|n|r\uE144"
+SetString english cc_dmg_swap "\uE461\uE45F to swap for|n|r\uE144"
+SetString english cc_dmg_swap_ai "\uE461\uE45F to take ally's|n|r\uE144"
+SetString english cc_dmg_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE144"
+
+SetString english cc_mag_pickup "\uE461\uE45F to pick up|n|r\uE145"
+SetString english cc_mag_swap "\uE461\uE45F to swap for|n|r\uE145"
+SetString english cc_mag_swap_ai "\uE461\uE45F to take ally's|n|r\uE145"
+SetString english cc_mag_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE145"
+
+SetString english cc_pwr_pickup "\uE461\uE45F to pick up|n|r\uE146"
+SetString english cc_pwr_swap "\uE461\uE45F to swap for|n|r\uE146"
+SetString english cc_pwr_swap_ai "\uE461\uE45F to take ally's|n|r\uE146"
+SetString english cc_pwr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE146"
+
+SetString english cc_rng_pickup "\uE461\uE45F to pick up|n|r\uE147"
+SetString english cc_rng_swap "\uE461\uE45F to swap for|n|r\uE147"
+SetString english cc_rng_swap_ai "\uE461\uE45F to take ally's|n|r\uE147"
+SetString english cc_rng_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE147"
+
+SetString english cc_rof_pickup "\uE461\uE45F to pick up|n|r\uE148"
+SetString english cc_rof_swap "\uE461\uE45F to swap for|n|r\uE148"
+SetString english cc_rof_swap_ai "\uE461\uE45F to take ally's|n|r\uE148"
+SetString english cc_rof_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE148"
+
+SetString english chopper_board "\uE461\uE45F to board enemy Chopper"
+SetString english chopper_enter "\uE461\uE45F to drive Chopper"
+SetString english chopper_flip "\uE461\uE45F to flip Chopper"
+
+SetString english concussiveblast_picked_up "Picked up a Concussive Blast"
+SetString english concussiveblast_swap "\uE461\uE45F to swap for Concussive Blast"
+SetString english device_activate "\uE461\uE45F to power up terminal"
+SetString english device_bomb "\uE461\uE45F to arm bomb"
+SetString english device_bridge "\uE461\uE45F to extend bridge"
+SetString english device_cartographer "\uE461\uE45F to activate cartographer"
+SetString english device_door "\uE461\uE45F to open door"
+SetString english device_elevator "\uE461\uE45F to activate elevator"
+SetString english device_fakeout "\uE461\uE45F to retrieve Cortana"
+SetString english device_generator "\uE461\uE45F to deactivate shield generator"
+SetString english device_gondola "\uE461\uE45F to start gondola"
+SetString english device_hangar "\uE461\uE45F to open hangar doors"
+SetString english device_lower_shield "\uE461\uE45F to deactivate plasma shield"
+SetString english device_pelican "\uE461\uE45F to enter Pelican"
+SetString english device_piston "\uE461\uE45F to activate piston"
+SetString english device_plug "\uE461\uE45F to power down containment shield"
+SetString english device_plug_lock "\uE461\uE45F to deactivate plug lock"
+SetString english device_pylons "\uE461\uE45F to expose reactor pylons"
+SetString english device_terminal "\uE461\uE45F to access terminal"
+SetString english docks_gate_action "\uE461\uE45F to extend bridge"
+
+SetString english dropshield_picked_up "Picked up a Drop Shield"
+SetString english dropshield_swap "\uE461\uE445 to swap for Drop Shield"
+
+SetString english ex_dual "\uE461\uE45E to dual wield|n|r\uE070"
+SetString english ex_dual_swap "\uE461\uE45E to swap for|n|r\uE070"
+SetString english ex_pickup "\uE461\uE45F to pick up|n|r\uE11A"
+SetString english ex_swap "\uE461\uE45F to swap for|n|r\uE11A"
+SetString english ex_swap_ai "\uE461\uE45F to take ally's|n|r\uE11A"
+SetString english ex_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE11A"
+
+SetString english ex_pwr_dual "\uE461\uE45E to dual wield|n|r\uE159"
+SetString english ex_pwr_dual_swap "\uE461\uE45E to swap for|n|r\uE159"
+SetString english ex_pwr_pickup "\uE461\uE45F to pick up|n|r\uE160"
+SetString english ex_pwr_swap "\uE461\uE45F to swap for|n|r\uE160"
+SetString english ex_pwr_swap_ai "\uE461\uE45F to take ally's|n|r\uE160"
+SetString english ex_pwr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE160"
+
+SetString english forcedreload_picked_up "Picked up an Instant Reload"
+SetString english forcedreload_swap "\uE461\uE45F to swap for Instant Reload"
+
+SetString english fc_pickup "\uE461\uE45F to pick up|n|r\uE11F"
+SetString english fc_swap "\uE461\uE45F to swap for|n|r\uE11F"
+SetString english fc_swap_ai "\uE461\uE45F to take ally's|n|r\uE11F"
+SetString english fc_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE11F"
+
+SetString english fr_pickup "\uE461\uE45F to pick up|n|r\uE175"
+SetString english fr_swap "\uE461\uE45F to swap for|n|r\uE175"
+SetString english fr_swap_ai "\uE461\uE45F to take ally's|n|r\uE175"
+SetString english fr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE175"
+
+SetString english fl_pickup "\uE461\uE45F to pick up|n|r\uE11C"
+
+SetString english flamethrower_pickup "\uE461\uE45F to pick up|n|r\uE11D"
+SetString english flamethrower_swap "\uE461\uE45F to swap for|n|r\uE11D"
+SetString english flamethrower_swap_ai "\uE461\uE45F to take ally's|n|r\uE11D"
+
+SetString english gc_pickup "\uE461\uE45F to pick up|n|r7-Wood"
+SetString english gc_swap "\uE461\uE45F to swap for|n|r7-Wood"
+SetString english gc_switch_to "Out of ammo|nPress \uE446 to switch to|n|r7-Wood"
+
+SetString english gl_pickup "\uE461\uE45F to pick up|n|r\uE171"
+SetString english gl_swap "\uE461\uE45F to swap for|n|r\uE171"
+SetString english gl_swap_ai "\uE461\uE45F to take ally's|n|r\uE171"
+SetString english gl_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE171"
+
+SetString english ghost_board "\uE461\uE45F to board enemy Ghost"
+SetString english ghost_enter "\uE461\uE45F to drive Ghost"
+SetString english ghost_flip "\uE461\uE45F to flip Ghost"
+
+SetString english gravlift_swap "\uE461\uE45F to swap for Grav Lift"
+
+SetString english ham_pickup "\uE461\uE45F to pick up|n|r\uE120"
+SetString english ham_swap "\uE461\uE45F to swap for|n|r\uE120"
+SetString english ham_swap_ai "\uE461\uE45F to take ally's|n|r\uE120"
+SetString english ham_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE120"
+
+SetString english hologram_picked_up "Picked up a Hologram"
+SetString english hologram_swap "\uE461\uE45F to swap for Hologram"
+
+SetString english hornet_board "\uE461\uE45F to board enemy Hornet"
+SetString english hornet_d_enter "\uE461\uE45F to pilot Hornet"
+SetString english hornet_p_enter "\uE461\uE45F to ride in Hornet"
+SetString english hornet_enter_gunner "\uE461\uE45F to operate Hornet turret"
+SetString english hornet_flip "\uE461\uE45F to flip Hornet"
+
+SetString english instantcover_swap "\uE461\uE45F to swap for Deployable Cover"
+SetString english invincibility_picked_up "Picked up an Invincibility"
+SetString english invincibility_swap "\uE461\uE45F to swap for Invincibility"
+SetString english invisibility_picked_up "Picked up a Cloaking"
+SetString english invisibility_swap "\uE461\uE45F to swap for Cloaking"
+SetString english invisibility_vehicle_picked_up "Picked up a Vehicle Cloaking"
+SetString english invisibility_vehicle_swap "\uE461\uE45F to swap for Vehicle Cloaking"
+SetString english jammer_swap "\uE461\uE45F to swap for Radar Jammer"
+SetString english lightningstrike_picked_up "Picked up a Lightning Strike"
+SetString english lightningstrike_swap "\uE461\uE45F to swap for Lightning Strike"
+
+SetString english laz_pickup "\uE461\uE45F to pick up|n|r\uE12C"
+SetString english laz_swap "\uE461\uE45F to swap for|n|r\uE12C"
+SetString english laz_swap_ai "\uE461\uE45F to take ally's|n|r\uE12C"
+SetString english laz_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE12C"
+
+SetString english mauler_board "\uE461\uE45F to board enemy Prowler"
+SetString english mauler_enter_driver "\uE461\uE45F to drive Prowler"
+SetString english mauler_enter_passenger "\uE461\uE45F to ride in Prowler"
+SetString english mauler_enter_gunner "\uE461\uE45F to operate Prowler turret"
+SetString english mauler_flip "\uE461\uE45F to flip Prowler"
+
+SetString english mgturret_pickup "\uE461\uE45F to pick up|n|r\uE122"
+SetString english mgturret_swap "\uE461\uE45F to swap for|n|r\uE122"
+SetString english ml_pickup "\uE461\uE45F to pick up|n|r\uE124"
+SetString english ml_swap "\uE461\uE45F to swap for|n|r\uE124"
+SetString english ml_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE124"
+
+SetString english mongoose_board "\uE461\uE45F to board enemy Mongoose"
+SetString english mongoose_enter_driver "\uE461\uE45F to drive Mongoose"
+SetString english mongoose_enter_passenger "\uE461\uE45F to ride in Mongoose"
+SetString english mongoose_flip "\uE461\uE45F to flip Mongoose"
+
+SetString english mp_dual "\uE461\uE45E to dual wield|n|r\uE071"
+SetString english mp_dual_swap "\uE461\uE45E to swap for|n|r\uE071"
+SetString english mp_pickup "\uE461\uE45F to pick up|n|r\uE123"
+SetString english mp_swap "\uE461\uE45F to swap for|n|r\uE123"
+SetString english mp_swap_ai "\uE461\uE45F to take ally's|n|r\uE123"
+SetString english mp_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE123"
+
+SetString english mp_dmg_dual "\uE461\uE45E to dual wield|n|r\uE155"
+SetString english mp_dmg_dual_swap "\uE461\uE45E to swap for|n|r\uE155"
+SetString english mp_dmg_pickup "\uE461\uE45F to pick up|n|r\uE156"
+SetString english mp_dmg_swap "\uE461\uE45F to swap for|n|r\uE156"
+SetString english mp_dmg_swap_ai "\uE461\uE45F to take ally's|n|r\uE156"
+SetString english mp_dmg_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE156"
+
+SetString english mp_pwr_dual "\uE461\uE45E to dual wield|n|r\uE157"
+SetString english mp_pwr_dual_swap "\uE461\uE45E to swap for|n|r\uE157"
+SetString english mp_pwr_pickup "\uE461\uE45F to pick up|n|r\uE158"
+SetString english mp_pwr_swap "\uE461\uE45F to swap for|n|r\uE158"
+SetString english mp_pwr_swap_ai "\uE461\uE45F to take ally's|n|r\uE158"
+SetString english mp_pwr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE158"
+
+SetString english mr_pickup "\uE461\uE45F to pick up|n|r\uE170"
+SetString english mr_swap "\uE461\uE45F to swap for|n|r\uE170"
+SetString english mr_swap_ai "\uE461\uE45F to take ally's|n|r\uE170"
+SetString english mr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE170"
+
+SetString english mr_acc_pickup "\uE461\uE45F to pick up|n|r\uE149"
+SetString english mr_acc_swap "\uE461\uE45F to swap for|n|r\uE149"
+SetString english mr_acc_swap_ai "\uE461\uE45F to take ally's|n|r\uE149"
+SetString english mr_acc_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE149"
+
+SetString english mr_dmg_pickup "\uE461\uE45F to pick up|n|r\uE150"
+SetString english mr_dmg_swap "\uE461\uE45F to swap for|n|r\uE150"
+SetString english mr_dmg_swap_ai "\uE461\uE45F to take ally's|n|r\uE150"
+SetString english mr_dmg_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE150"
+
+SetString english mr_mag_pickup "\uE461\uE45F to pick up|n|r\uE151"
+SetString english mr_mag_swap "\uE461\uE45F to swap for|n|r\uE151"
+SetString english mr_mag_swap_ai "\uE461\uE45F to take ally's|n|r\uE151"
+SetString english mr_mag_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE151"
+
+SetString english mr_pwr_pickup "\uE461\uE45F to pick up|n|r\uE152"
+SetString english mr_pwr_swap "\uE461\uE45F to swap for|n|r\uE152"
+SetString english mr_pwr_swap_ai "\uE461\uE45F to take ally's|n|r\uE152"
+SetString english mr_pwr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE152"
+
+SetString english mr_rng_pickup "\uE461\uE45F to pick up|n|r\uE153"
+SetString english mr_rng_swap "\uE461\uE45F to swap for|n|r\uE153"
+SetString english mr_rng_swap_ai "\uE461\uE45F to take ally's|n|r\uE153"
+SetString english mr_rng_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE153"
+
+SetString english mr_rof_pickup "\uE461\uE45F to pick up|n|r\uE154"
+SetString english mr_rof_swap "\uE461\uE45F to swap for|n|r\uE154"
+SetString english mr_rof_swap_ai "\uE461\uE45F to take ally's|n|r\uE154"
+SetString english mr_rof_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE154"
+
+SetString english nd_dual "\uE461\uE45E to dual wield|n|r\uFB07"
+SetString english nd_dual_swap "\uE461\uE45E to swap for|n|r\uFB07"
+SetString english nd_pickup "\uE461\uE45F to pick up|n|r\uE125"
+SetString english nd_swap "\uE461\uE45F to swap for|n|r\uE125"
+SetString english nd_swap_ai "\uE461\uE45F to take ally's|n|r\uE125"
+SetString english nd_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE125"
+
+SetString english nr_pickup "\uE461\uE45F to pick up|n|r\uE172"
+SetString english nr_swap "\uE461\uE45F to swap for|n|r\uE172"
+SetString english nr_swap_ai "\uE461\uE45F to take ally's|n|r\uE172"
+SetString english nr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE172"
+
+SetString english ob_pickup "\uE461\uE45F to pick up|n|r\uE113"
+SetString english pcannon_enter "\uE461\uE45F to operate Plasma Cannon"
+SetString english pod_enter "\uE461\uE45F to operate Missile Pod"
+
+SetString english phantom_enter_passenger "\uE461\uE45F to ride in Phantom"
+SetString english pelican_enter_passenger "\uE461\uE45F to ride in Pelican"
+SetString english pelican_enter_gunner "\uE461\uE45F to operate Pelican turret"
+
+SetString english powerdrain_swap "\uE461\uE45F to swap for Power Drain"
+SetString english powerup_pickup_yellow "Picked up a Custom Powerup"
+
+SetString english pp_dual "\uE461\uE45E to dual wield|n|r\uE072"
+SetString english pp_dual_swap "\uE461\uE45E to swap for|n|r\uE072"
+SetString english pp_pickup "\uE461\uE45F to pick up|n|r\uE129"
+SetString english pp_swap "\uE461\uE45F to swap for|n|r\uE129"
+SetString english pp_swap_ai "\uE461\uE45F to take ally's|n|r\uE129"
+SetString english pp_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE129"
+
+SetString english pp_pwr_dual "\uE461\uE45E to dual wield|n|r\uE161"
+SetString english pp_pwr_dual_swap "\uE461\uE45E to swap for|n|r\uE161"
+SetString english pp_pwr_pickup "\uE461\uE45F to pick up|n|r\uE162"
+SetString english pp_pwr_swap "\uE461\uE45F to swap for|n|r\uE162"
+SetString english pp_pwr_swap_ai "\uE461\uE45F to take ally's|n|r\uE162"
+SetString english pp_pwr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE162"
+
+SetString english pr_dual "\uE461\uE45E to dual wield|n|r\uE073"
+SetString english pr_dual_swap "\uE461\uE45E to swap for|n|r\uE073"
+SetString english pr_pickup "\uE461\uE45F to pick up|n|r\uE12A"
+SetString english pr_swap "\uE461\uE45F to swap for|n|r\uE12A"
+SetString english pr_swap_ai "\uE461\uE45F to take ally's|n|r\uE12A"
+SetString english pr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE12A"
+
+SetString english pr_pwr_dual "\uE461\uE45E to dual wield|n|r\uE163"
+SetString english pr_pwr_dual_swap "\uE461\uE45E to swap for|n|r\uE163"
+SetString english pr_pwr_pickup "\uE461\uE45F to pick up|n|r\uE164"
+SetString english pr_pwr_swap "\uE461\uE45F to swap for|n|r\uE164"
+SetString english pr_pwr_swap_ai "\uE461\uE45F to take ally's|n|r\uE164"
+SetString english pr_pwr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE164"
+
+SetString english ps_pickup "\uE461\uE45F to pick up|n|r\uE119"
+SetString english ps_swap "\uE461\uE45F to swap for|n|r\uE119"
+SetString english ps_swap_ai "\uE461\uE45F to take ally's|n|r\uE119"
+SetString english ps_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE119"
+
+SetString english pl_pickup "\uE461\uE45F to pick up|n|r\uE176"
+SetString english pl_swap "\uE461\uE45F to swap for|n|r\uE176"
+SetString english pl_swap_ai "\uE461\uE45F to take ally's|n|r\uE176"
+SetString english pl_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE176"
+
+SetString english prp_pickup "\uE461\uE45F to pick up|n|r\uE174"
+SetString english prp_swap "\uE461\uE45F to swap for|n|r\uE174"
+SetString english prp_swap_ai "\uE461\uE45F to take ally's|n|r\uE174"
+SetString english prp_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE174"
+
+SetString english pturret_picked_up "Picked up a Plasma Cannon"
+SetString english pturret_pickup "\uE461\uE45F to pick up|n|r\uE12B"
+SetString english pturret_swap "\uE461\uE45F to pick up|n|r\uE12B"
+
+SetString english reactive_armor_picked_up "Picked up a Reflective Shield"
+SetString english reactive_armor_swap "\uE461\uE45F to swap for Reflective Shield"
+SetString english regenerator_swap  "\uE461\uE45F to swap for Regenerator"
+
+SetString english remove_turret_melee "Press \uE447 to detach Turret"
+
+SetString english rl_pickup "\uE461\uE45F to pick up|n|r\uE12D"
+SetString english rl_swap "\uE461\uE45F to swap for|n|r\uE12D"
+SetString english rl_swap_ai "\uE461\uE45F to take ally's|n|r\uE12D"
+SetString english rl_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE12D"
+SetString english rocket_lock_available "Hold \uE44A to lock on"
+
+SetString english scorpion_board "\uE461\uE45F to board enemy Scorpion"
+SetString english scorpion_enter_driver "\uE461\uE45F to drive Scorpion"
+SetString english scorpion_enter_passenger "\uE461\uE45F to operate Scorpion turret"
+SetString english scorpion_flip "\uE461\uE45F to flip Scorpion"
+
+SetString english sen_b_pickup "\uE461\uE45F to pick up|n|r\uE12E"
+SetString english sen_b_swap "\uE461\uE45F to swap for|n|r\uE12E"
+SetString english sen_b_swap_ai "\uE461\uE45F to take ally's|n|r\uE12E"
+SetString english sen_b_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE12E"
+
+SetString english sg_pickup "\uE461\uE45F to pick up|n|r\uE12F"
+SetString english sg_swap "\uE461\uE45F to swap for|n|r\uE12F"
+SetString english sg_swap_ai "\uE461\uE45F to take ally's|n|r\uE12F"
+SetString english sg_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE12F"
+
+SetString english shade_enter "\uE461\uE45F to operate Shade Turret"
+
+SetString english smg_dual "\uE461\uE45E to dual wield|n|r\uE068"
+SetString english smg_dual_swap "\uE461\uE45E to swap for|n|r\uE068"
+SetString english smg_pickup "\uE461\uE45F to pick up|n|r\uE130"
+SetString english smg_swap "\uE461\uE45F to swap for|n|r\uE130"
+SetString english smg_swap_ai "\uE461\uE45F to take ally's|n|r\uE130"
+SetString english smg_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE130"
+
+SetString english smg_acc_dual "\uE461\uE45E to dual wield|n|r\uE165"
+SetString english smg_acc_dual_swap "\uE461\uE45E to swap for|n|r\uE165"
+SetString english smg_acc_pickup "\uE461\uE45F to pick up|n|r\uE166"
+SetString english smg_acc_swap "\uE461\uE45F to swap for|n|r\uE166"
+SetString english smg_acc_swap_ai "\uE461\uE45F to take ally's|n|r\uE166"
+SetString english smg_acc_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE166"
+
+SetString english smg_dmg_dual "\uE461\uE45E to dual wield|n|r\uE168"
+SetString english smg_dmg_dual_swap "\uE461\uE45E to swap for|n|r\uE168"
+SetString english smg_dmg_pickup "\uE461\uE45F to pick up|n|r\uE169"
+SetString english smg_dmg_swap "\uE461\uE45F to swap for|n|r\uE169"
+SetString english smg_dmg_swap_ai "\uE461\uE45F to take ally's|n|r\uE169"
+SetString english smg_dmg_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE169"
+
+SetString english smg_pwr_dual "\uE461\uE45E to dual wield|n|r\uE15A"
+SetString english smg_pwr_dual_swap "\uE461\uE45E to swap for|n|r\uE15A"
+SetString english smg_pwr_pickup "\uE461\uE45F to pick up|n|r\uE15B"
+SetString english smg_pwr_swap "\uE461\uE45F to swap for|n|r\uE15B"
+SetString english smg_pwr_swap_ai "\uE461\uE45F to take ally's|n|r\uE15B"
+SetString english smg_pwr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE15B"
+
+SetString english smg_rof_dual "\uE461\uE45E to dual wield|n|r\uE15C"
+SetString english smg_rof_dual_swap "\uE461\uE45E to swap for|n|r\uE15C"
+SetString english smg_rof_pickup "\uE461\uE45F to pick up|n|r\uE15D"
+SetString english smg_rof_swap "\uE461\uE45F to swap for|n|r\uE15D"
+SetString english smg_rof_swap_ai "\uE461\uE45F to take ally's|n|r\uE15D"
+SetString english smg_rof_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE15D"
+
+SetString english sn_pickup "\uE461\uE45F to pick up|n|r\uE131"
+SetString english sn_swap "\uE461\uE45F to swap for|n|r\uE131"
+SetString english sn_swap_ai "\uE461\uE45F to take ally's|n|r\uE131"
+SetString english sn_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE131"
+
+SetString english sr_pickup_dual "\uE461\uE45E to dual wield|n|r\uE069"
+SetString english sr_swap_dual "\uE461\uE45E to swap for|n|r\uE069"
+SetString english sr_pickup "\uE461\uE45F to pick up|n|r\uE132"
+SetString english sr_swap "\uE461\uE45F to swap for|n|r\uE132"
+SetString english sr_swap_ai "\uE461\uE45F to take ally's|n|r\uE132"
+SetString english sr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE132"
+
+SetString english tripmine_swap "\uE461\uE45F to swap for Trip Mine"
+SetString english turret_enter "\uE461\uE45F to operate Turret"
+
+SetString english tankmode_picked_up "Picked up a Tank Mode"
+SetString english tankmode_swap "\uE461\uE445 to swap for Tank Mode"
+SetString english vision_picked_up "Picked up a V.I.S.R."
+SetString english vision_swap "\uE461\uE45F to swap for V.I.S.R"
+
+SetString english tl_picked_up "Picked up a Target Locator"
+SetString english tl_pickup "\uE461\uE45F to pick up|n|r\uE177"
+SetString english tl_swap "\uE461\uE45F to swap for|n|r\uE177"
+SetString english tl_swap_ai "\uE461\uE45F to take ally's|n|r\uE177"
+SetString english tl_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE177"
+
+SetString english vortex_swap "\uE461\uE45F to swap for Vortex"
+
+SetString english warthog_board "\uE461\uE45F to board enemy Warthog"
+SetString english warthog_enter_driver "\uE461\uE45F to drive Warthog"
+SetString english warthog_enter_passenger "\uE461\uE45F to ride in Warthog"
+SetString english warthog_enter_gunner "\uE461\uE45F to operate Warthog turret"
+SetString english warthog_flip "\uE461\uE45F to flip Warthog"
+
+SetString english wp_pickup "\uE461\uE45F to pick up|n|r"
+
+SetString english wraith_board "\uE461\uE45F to board enemy wraith"
+SetString english wraith_enter_driver "\uE461\uE45F to drive wraith"
+SetString english wraith_enter_gunner "\uE461\uE45F to operate wraith turret"
+SetString english wraith_flip "\uE461\uE45F to flip Wraith"
+SetString english zanzibar_gate_action "\uE461\uE45F to open the gate"
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\rifle\concussion_rifle\concussion_rifle.weapon
+SetField PickupMessage cr_pickup
+SetField SwapMessage cr_swap
+SetField PickedUpMessage cr_picked_up
+SetField SwitchToMessage cr_switch_to
+SetField SwitchToFromAiMessage cr_swap_ai
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\rifle\focus_rifle\focus_rifle.weapon
+SetField PickupMessage fr_pickup
+SetField SwapMessage fr_swap
+SetField PickedUpMessage fr_picked_up
+SetField SwitchToMessage fr_switch_to
+SetField SwitchToFromAiMessage fr_swap_ai
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\rifle\grenade_launcher\grenade_launcher.weapon
+SetField PickupMessage gl_pickup
+SetField SwapMessage gl_swap
+SetField PickedUpMessage gl_picked_up
+SetField SwitchToMessage gl_switch_to
+SetField SwitchToFromAiMessage gl_swap_ai
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\rifle\needle_rifle\needle_rifle.weapon
+SetField PickupMessage nr_pickup
+SetField SwapMessage nr_swap
+SetField PickedUpMessage nr_picked_up
+SetField SwitchToMessage nr_switch_to
+SetField SwitchToFromAiMessage nr_swap_ai
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\support_high\plasma_launcher\plasma_launcher.weapon
+SetField PickupMessage pl_pickup
+SetField SwapMessage pl_swap
+SetField PickedUpMessage pl_picked_up
+SetField SwitchToMessage pl_switch_to
+SetField SwitchToFromAiMessage pl_swap_ai
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\rifle\plasma_repeater\plasma_repeater.weapon
+SetField PickupMessage prp_pickup
+SetField SwapMessage prp_swap
+SetField PickedUpMessage prp_picked_up
+SetField SwitchToMessage prp_switch_to
+SetField SwitchToFromAiMessage prp_swap_ai
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\pistol\target_laser\target_laser.weapon
+SetField PickupMessage tl_pickup
+SetField SwapMessage tl_swap
+SetField PickedUpMessage tl_picked_up
+SetField SwitchToMessage tl_switch_to
+SetField SwitchToFromAiMessage tl_swap_ai
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\rifle\dmr\dmr.weapon
+SetField PickupMessage mr_pickup
+SetField SwapMessage mr_swap
+SetField PickedUpMessage mr_picked_up
+SetField SwitchToMessage mr_switch_to
+SetField SwitchToFromAiMessage mr_swap_ai
+SaveTagChanges
+Exit
+
+EditTag ui\chud\bitmaps\sensor_blips.bitmap
+RemoveBlockElements Sequences 6 *
+SetField Sequences[1].Name " "
+SetField Sequences[2].Name " "
+ImportBitmap 0 workingdir\bitmaps\sensor_blips.dds 
+SaveTagChanges
+Exit
+
+EditTag ui\chud\bitmaps\shield_meter.bitmap
+AddBlockElements Sequences
+AddBlockElements Sequences[*].Sprites
+SetField Sequences[*].Sprites[*].Right 1
+SetField Sequences[*].Sprites[*].Top 1
+SaveTagChanges
+Exit
+
+EditTag ui\chud\spartan.chud_definition
+SetField HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 4.05 4.05
+SetField HudWidgets[0].BitmapWidgets[0].RenderData[0].LocalScalarA 0.8
+SetField HudWidgets[0].BitmapWidgets[2].PlacementData[0].Offset 0.1 0
+SetField HudWidgets[0].BitmapWidgets[2].PlacementData[0].Scale 0.811 0.7
+SetField HudWidgets[0].BitmapWidgets[3].PlacementData[0].Offset 0.1 0
+SetField HudWidgets[0].BitmapWidgets[3].PlacementData[0].Scale 0.811 0.7
+SetField HudWidgets[0].BitmapWidgets[4].PlacementData[0].Offset 0.1 0
+SetField HudWidgets[0].BitmapWidgets[4].PlacementData[0].Scale 0.811 0.7
+SetField HudWidgets[0].BitmapWidgets[5].PlacementData[0].Offset 0.1 0
+SetField HudWidgets[0].BitmapWidgets[5].PlacementData[0].Scale 0.811 0.7
+SetField HudWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 0.405 0.405
+SetField HudWidgets[1].BitmapWidgets[1].PlacementData[0].Scale 0.4 0.4
+SetField HudWidgets[1].BitmapWidgets[1].PlacementData[0].Offset 12 -14
+SetField HudWidgets[1].BitmapWidgets[2].PlacementData[0].Offset 12 -11.5
+SetField HudWidgets[1].BitmapWidgets[3].PlacementData[0].Offset 12 -11.5
+SetField HUDWidgets[2].PlacementData[0].Offset -25 35
+SetField HUDWidgets[2].PlacementData[0].Scale 1.3 1.3
+SetField HUDWidgets[3].PlacementData[0].Offset -25 35
+SetField HUDWidgets[3].PlacementData[0].Scale 1.3 1.3
+SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Offset 26 3.5
+SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Scale 0.5 0.5
+SetField HUDWidgets[3].BitmapWidgets[0].BitmapSequenceIndex 6
+SetField HUDWidgets[4].PlacementData[0].Offset -24 35
+SetField HUDWidgets[4].PlacementData[0].Scale 1.3 1.3
+SetField HUDWidgets[5].PlacementData[0].Offset -23 35
+SetField HUDWidgets[5].PlacementData[0].Scale 1.3 1.3
+SetField HudWidgets[9].PlacementData[0].Anchor Center
+SetField HudWidgets[9].PlacementData[0].Offset 0 0
+SetField HudWidgets[9].TextWidgets[0].PlacementData[0].Anchor Parent
+SetField HudWidgets[9].TextWidgets[0].PlacementData[0].Offset 0 -200
+SetField HudWidgets[9].BitmapWidgets[1].PlacementData[0].Scale 0.3 0.3
+SetField HudWidgets[10].PlacementData[0].Offset 0 -50
+SetField HudWidgets[10].TextWidgets[0].PlacementData[0].Anchor Parent
+SetField HudWidgets[10].TextWidgets[0].PlacementData[0].Offset 0 -206
+SetField HudWidgets[10].TextWidgets[0].PlacementData[0].Scale 1.6 1.6
+SetField HudWidgets[10].TextWidgets[0].TextFlags StringIsANumber,Force3DigitNumber,Decimal5Digits,WrapWithBrackets
+SetField HudWidgets[10].BitmapWidgets[0].RenderData[0].OutputColorA PrimaryBackground
+SetField HudWidgets[10].BitmapWidgets[0].RenderData[0].OutputColorB PrimaryBackground
+SetField HudWidgets[10].BitmapWidgets[0].RenderData[0].OutputColorC PrimaryBackground
+SetField HudWidgets[10].BitmapWidgets[0].RenderData[0].OutputColorD PrimaryBackground
+SetField HudWidgets[10].BitmapWidgets[0].RenderData[0].OutputColorE PrimaryBackground
+SetField HudWidgets[10].BitmapWidgets[0].RenderData[0].OutputColorF PrimaryBackground
+
+SetField HudWidgets[28].BitmapWidgets[0].RenderData[0].OutputColorA PrimaryBackground
+SetField HudWidgets[28].BitmapWidgets[0].RenderData[0].OutputColorB PrimaryBackground
+SetField HudWidgets[28].BitmapWidgets[0].RenderData[0].OutputColorC PrimaryBackground
+SetField HudWidgets[28].BitmapWidgets[0].RenderData[0].OutputColorD PrimaryBackground
+SetField HudWidgets[28].BitmapWidgets[0].RenderData[0].OutputColorE PrimaryBackground
+SetField HudWidgets[28].BitmapWidgets[0].RenderData[0].OutputColorF PrimaryBackground
+RemoveBlockElements HudWidgets[28].BitmapWidgets 1 *
+SaveTagChanges
+Exit
+
+EditTag ui\chud\globals.chud_globals_definition
+SetField Hudglobals[0].GrenadeAnchorOffset 69
+SetField HudGlobals[0].EquipmentVerticalOffsetDual 70
+SaveTagChanges
+Exit
+
+EditTag ui\chud\bitmaps\elite_shield_border.bitmap
+ImportBitmap 0 workingdir\bitmaps\elite_shield_border.dds
+SaveTagChanges
+Exit
+
+EditTag ui\chud\elite.chud_definition
+SetField HudWidgets[1].BitmapWidgets[0].PlacementData[0].Offset 0 10
+SetField HudWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 2.95 2.25
+SetField HudWidgets[1].BitmapWidgets[0].RenderData[0].LocalScalarA 0.8
+SetField HudWidgets[1].BitmapWidgets[0].RenderData[0].OutputColorA CrosshairEnemy
+SetField HudWidgets[1].BitmapWidgets[0].RenderData[0].OutputColorB CrosshairEnemy
+SetField HudWidgets[1].BitmapWidgets[0].RenderData[0].OutputColorC CrosshairEnemy
+SetField HudWidgets[1].BitmapWidgets[0].RenderData[0].OutputColorD CrosshairEnemy
+SetField HudWidgets[1].BitmapWidgets[1].PlacementData[0].Origin -0.97 -1
 # what is this
-# setfield HudWidgets[1].BitmapWidgets[2].PlacementData[0].Offset 12 -11.5
-setfield HudWidgets[1].BitmapWidgets[2].AnimationData[0].Flashing.Animation null
-# setfield HudWidgets[1].BitmapWidgets[3].StateData[0].UnitMiscState MotionSensorEnabled
-# setfield HudWidgets[1].BitmapWidgets[3].PlacementData[0].Offset 12 -11.5
-setfield HudWidgets[2].PlacementData[0].Offset 38 29
-setfield HudWidgets[2].BitmapWidgets[0].PlacementData[0].Offset -5 -24
-setfield HudWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 0.49 0.49
-setfield HudWidgets[2].BitmapWidgets[1].PlacementData[0].Offset 95 -128
-setfield HudWidgets[2].BitmapWidgets[1].PlacementData[0].Scale 0.475 0.475
-setfield HudWidgets[2].BitmapWidgets[2].PlacementData[0].Offset 95 -124
-setfield HudWidgets[2].BitmapWidgets[3].PlacementData[0].Offset 95 -124
-setfield HUDWidgets[3].PlacementData[0].Offset -24 32
-setfield HUDWidgets[3].PlacementData[0].Scale 1.3 1.3
-setfield HUDWidgets[4].PlacementData[0].Offset -24 32
-setfield HUDWidgets[4].PlacementData[0].Scale 1.3 1.3
-setfield HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Offset 26 3.5
-setfield HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.5 0.5
-setfield HUDWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 6
-setfield HUDWidgets[5].PlacementData[0].Offset -23 32
-setfield HUDWidgets[5].PlacementData[0].Scale 1.3 1.3
-setfield HUDWidgets[6].PlacementData[0].Offset -22 32
-setfield HUDWidgets[6].PlacementData[0].Scale 1.3 1.3
+# SetField HudWidgets[1].BitmapWidgets[2].PlacementData[0].Offset 12 -11.5
+SetField HudWidgets[1].BitmapWidgets[2].AnimationData[0].Flashing.Animation null
+# SetField HudWidgets[1].BitmapWidgets[3].StateData[0].UnitMiscState MotionSensorEnabled
+# SetField HudWidgets[1].BitmapWidgets[3].PlacementData[0].Offset 12 -11.5
+SetField HudWidgets[2].PlacementData[0].Offset 38 29
+SetField HudWidgets[2].BitmapWidgets[0].PlacementData[0].Offset -5 -24
+SetField HudWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 0.49 0.49
+SetField HudWidgets[2].BitmapWidgets[1].PlacementData[0].Offset 95 -128
+SetField HudWidgets[2].BitmapWidgets[1].PlacementData[0].Scale 0.475 0.475
+SetField HudWidgets[2].BitmapWidgets[2].PlacementData[0].Offset 95 -124
+SetField HudWidgets[2].BitmapWidgets[3].PlacementData[0].Offset 95 -124
+SetField HUDWidgets[3].PlacementData[0].Offset -24 32
+SetField HUDWidgets[3].PlacementData[0].Scale 1.3 1.3
+SetField HUDWidgets[4].PlacementData[0].Offset -24 32
+SetField HUDWidgets[4].PlacementData[0].Scale 1.3 1.3
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Offset 26 3.5
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.5 0.5
+SetField HUDWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 6
+SetField HUDWidgets[5].PlacementData[0].Offset -23 32
+SetField HUDWidgets[5].PlacementData[0].Scale 1.3 1.3
+SetField HUDWidgets[6].PlacementData[0].Offset -22 32
+SetField HUDWidgets[6].PlacementData[0].Scale 1.3 1.3
 
-setfield HudWidgets[21].BitmapWidgets[0].RenderData[0].OutputColorB PrimaryBackground
-setfield HudWidgets[21].BitmapWidgets[0].RenderData[0].OutputColorC SecondaryBackground
-setfield HudWidgets[21].BitmapWidgets[1].RenderData[0].OutputColorB HighlightForeground
-setfield HudWidgets[21].BitmapWidgets[2].RenderData[0].OutputColorB HighlightForeground
-setfield HudWidgets[21].BitmapWidgets[2].RenderData[0].OutputColorC PrimaryBackground
-setfield HudWidgets[21].BitmapWidgets[1].Bitmap ui\chud\bitmaps\equipment_meter_border.bitmap
+SetField HudWidgets[21].BitmapWidgets[0].RenderData[0].OutputColorB PrimaryBackground
+SetField HudWidgets[21].BitmapWidgets[0].RenderData[0].OutputColorC SecondaryBackground
+SetField HudWidgets[21].BitmapWidgets[1].RenderData[0].OutputColorB HighlightForeground
+SetField HudWidgets[21].BitmapWidgets[2].RenderData[0].OutputColorB HighlightForeground
+SetField HudWidgets[21].BitmapWidgets[2].RenderData[0].OutputColorC PrimaryBackground
+SetField HudWidgets[21].BitmapWidgets[1].Bitmap ui\chud\bitmaps\equipment_meter_border.bitmap
 
-setfield HudWidgets[23].StateData[0].UnitZoomState Unzoomed
-removeblockelements HudWidgets[24].BitmapWidgets 1 *
-savetagchanges
-exit
+SetField HudWidgets[23].StateData[0].UnitZoomState Unzoomed
+RemoveBlockElements HudWidgets[24].BitmapWidgets 1 *
+SaveTagChanges
+Exit
 
-edittag objects\characters\elite\mp_elite\chud\globals.chud_globals_definition
-setfield Hudglobals[0].GrenadeAnchorOffset 74
-setfield HudGlobals[0].EquipmentVerticalOffsetDual 70
-savetagchanges
-exit
+EditTag objects\characters\elite\mp_elite\chud\globals.chud_globals_definition
+SetField Hudglobals[0].GrenadeAnchorOffset 74
+SetField HudGlobals[0].EquipmentVerticalOffsetDual 70
+SaveTagChanges
+Exit

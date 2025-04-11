@@ -2,367 +2,367 @@
 OpenCacheFile "reachmaps\forge_halo.map"
 
 # BLOCK, 1X1, FLAT
-Porttag objects\levels\forge\ff_plat_1x1_flat\ff_plat_1x1_flat.bloc
+PortTag objects\levels\forge\ff_plat_1x1_flat\ff_plat_1x1_flat.bloc
 
 # BLOCK, 1X1, SHORT
-Porttag objects\levels\forge\ff_plat_1x1_short\ff_plat_1x1_short.bloc
+PortTag objects\levels\forge\ff_plat_1x1_short\ff_plat_1x1_short.bloc
 
 # BLOCK, 1X1, TALL AND THIN
-Porttag objects\levels\forge\ff_plat_1x1_tall_thin\ff_plat_1x1_tall_thin.bloc
+PortTag objects\levels\forge\ff_plat_1x1_tall_thin\ff_plat_1x1_tall_thin.bloc
 
 # BLOCK, 1X1, TALL
-Porttag objects\levels\forge\ff_plat_1x1_tall\ff_plat_1x1_tall.bloc
+PortTag objects\levels\forge\ff_plat_1x1_tall\ff_plat_1x1_tall.bloc
 
 # BLOCK, 1X1
-Porttag objects\levels\forge\ff_plat_1x1\ff_plat_1x1.bloc
+PortTag objects\levels\forge\ff_plat_1x1\ff_plat_1x1.bloc
 
 # BLOCK, 1X2
-Porttag objects\levels\forge\ff_plat_1x2\ff_plat_1x2.bloc
+PortTag objects\levels\forge\ff_plat_1x2\ff_plat_1x2.bloc
 
 # BLOCK, 1X4
-Porttag objects\levels\forge\ff_plat_1x4\ff_plat_1x4.bloc
+PortTag objects\levels\forge\ff_plat_1x4\ff_plat_1x4.bloc
 
 # BLOCK, 2X1, FLAT
-Porttag objects\levels\forge\ff_plat_2x1_flat\ff_plat_2x1_flat.bloc
+PortTag objects\levels\forge\ff_plat_2x1_flat\ff_plat_2x1_flat.bloc
 
 # CORNER, 45 DEGREES
-Porttag objects\levels\forge\ff_plat_2x2_45\ff_plat_2x2_45.bloc
+PortTag objects\levels\forge\ff_plat_2x2_45\ff_plat_2x2_45.bloc
 
 # CORNER, 2X2
-Porttag objects\levels\forge\ff_plat_2x2_corner\ff_plat_2x2_corner.bloc
+PortTag objects\levels\forge\ff_plat_2x2_corner\ff_plat_2x2_corner.bloc
 
 # BLOCK, 2X2, FLAT
-Porttag objects\levels\forge\ff_plat_2x2_flat\ff_plat_2x2_flat.bloc
+PortTag objects\levels\forge\ff_plat_2x2_flat\ff_plat_2x2_flat.bloc
 
 # BLOCK, 2X2, SHORT
-Porttag objects\levels\forge\ff_plat_2x2_short\ff_plat_2x2_short.bloc
+PortTag objects\levels\forge\ff_plat_2x2_short\ff_plat_2x2_short.bloc
 
 # BLOCK, 2X2, TALL
-Porttag objects\levels\forge\ff_plat_2x2_tall\ff_plat_2x2_tall.bloc
+PortTag objects\levels\forge\ff_plat_2x2_tall\ff_plat_2x2_tall.bloc
 
 # BLOCK, 2X2
-Porttag objects\levels\forge\ff_plat_2x2\ff_plat_2x2.bloc
+PortTag objects\levels\forge\ff_plat_2x2\ff_plat_2x2.bloc
 
 # BLOCK, 2X3
-Porttag objects\levels\forge\ff_plat_2x3\ff_plat_2x3.bloc
+PortTag objects\levels\forge\ff_plat_2x3\ff_plat_2x3.bloc
 
 # BLOCK, 2X4
-Porttag objects\levels\forge\ff_plat_2x4\ff_plat_2x4.bloc
+PortTag objects\levels\forge\ff_plat_2x4\ff_plat_2x4.bloc
 
 # BLOCK, 3X1, FLAT
-Porttag objects\levels\forge\ff_plat_3x1_flat\ff_plat_3x1_flat.bloc
+PortTag objects\levels\forge\ff_plat_3x1_flat\ff_plat_3x1_flat.bloc
 
 # BLOCK, 3X3, FLAT
-Porttag objects\levels\forge\ff_plat_3x3_flat\ff_plat_3x3_flat.bloc
+PortTag objects\levels\forge\ff_plat_3x3_flat\ff_plat_3x3_flat.bloc
 
 # BLOCK, 3X3, SHORT
-Porttag objects\levels\forge\ff_plat_3x3_short\ff_plat_3x3_short.bloc
+PortTag objects\levels\forge\ff_plat_3x3_short\ff_plat_3x3_short.bloc
 
 # BLOCK, 3X3, TALL
-Porttag objects\levels\forge\ff_plat_3x3_tall\ff_plat_3x3_tall.bloc
+PortTag objects\levels\forge\ff_plat_3x3_tall\ff_plat_3x3_tall.bloc
 
 # BLOCK, 3X3
-Porttag objects\levels\forge\ff_plat_3x3\ff_plat_3x3.bloc
+PortTag objects\levels\forge\ff_plat_3x3\ff_plat_3x3.bloc
 
 # BLOCK, 3X4
-Porttag objects\levels\forge\ff_plat_3x4\ff_plat_3x4.bloc
+PortTag objects\levels\forge\ff_plat_3x4\ff_plat_3x4.bloc
 
 # CORNER, 4X4
-Porttag objects\levels\forge\ff_plat_4x4_corner\ff_plat_4x4_corner.bloc
+PortTag objects\levels\forge\ff_plat_4x4_corner\ff_plat_4x4_corner.bloc
 
 # BLOCK, 4X4, FLAT
-Porttag objects\levels\forge\ff_plat_4x4_flat\ff_plat_4x4_flat.bloc
+PortTag objects\levels\forge\ff_plat_4x4_flat\ff_plat_4x4_flat.bloc
 
 # BLOCK, 4X4, SHORT
-Porttag objects\levels\forge\ff_plat_4x4_short\ff_plat_4x4_short.bloc
+PortTag objects\levels\forge\ff_plat_4x4_short\ff_plat_4x4_short.bloc
 
 # BLOCK, 4X4, TALL
-Porttag objects\levels\forge\ff_plat_4x4_tall\ff_plat_4x4_tall.bloc
+PortTag objects\levels\forge\ff_plat_4x4_tall\ff_plat_4x4_tall.bloc
 
 # BLOCK, 4X4
-Porttag objects\levels\forge\ff_plat_4x4\ff_plat_4x4.bloc
+PortTag objects\levels\forge\ff_plat_4x4\ff_plat_4x4.bloc
 
 # LANDING PAD
-Porttag objects\levels\forge\ff_plat_4x6\ff_plat_4x6.bloc
+PortTag objects\levels\forge\ff_plat_4x6\ff_plat_4x6.bloc
 
 # BLOCK, 5X1, FLAT
-Porttag objects\levels\forge\ff_plat_5x1_flat\ff_plat_5x1_flat.bloc
+PortTag objects\levels\forge\ff_plat_5x1_flat\ff_plat_5x1_flat.bloc
 
 # BLOCK, 5X5, FLAT
-Porttag objects\levels\forge\ff_plat_5x5_flat\ff_plat_5x5_flat.bloc
+PortTag objects\levels\forge\ff_plat_5x5_flat\ff_plat_5x5_flat.bloc
 
 # PLATFORM, LARGE
-Porttag objects\levels\forge\ff_plat_tower_4x4\ff_plat_tower_4x4.bloc
+PortTag objects\levels\forge\ff_plat_tower_4x4\ff_plat_tower_4x4.bloc
 
 # PLATFORM, Y, LARGE
-Porttag objects\levels\forge\ff_plat_y_cross_large\ff_plat_y_cross_large.bloc
+PortTag objects\levels\forge\ff_plat_y_cross_large\ff_plat_y_cross_large.bloc
 
 # PLATFORM, Y
-Porttag objects\levels\forge\ff_plat_y_cross\ff_plat_y_cross.bloc
+PortTag objects\levels\forge\ff_plat_y_cross\ff_plat_y_cross.bloc
 
 # ANTENNA, SMALL
-Porttag objects\levels\forge\ff_antenna\ff_antenna.bloc
+PortTag objects\levels\forge\ff_antenna\ff_antenna.bloc
 
 # BRACE, TUNNEL
-Porttag objects\levels\forge\ff_arch_brace\ff_arch_brace.bloc
+PortTag objects\levels\forge\ff_arch_brace\ff_arch_brace.bloc
 
 # WALL, COLISEUM
-Porttag objects\levels\forge\ff_arena_wall\ff_arena_wall.bloc
+PortTag objects\levels\forge\ff_arena_wall\ff_arena_wall.bloc
 
 # WINDOW, COLISEUM
-Porttag objects\levels\forge\ff_arena_window\ff_arena_window.bloc
+PortTag objects\levels\forge\ff_arena_window\ff_arena_window.bloc
 
 # BANK, 1X1
-Porttag objects\levels\forge\ff_bank_1x1\ff_bank_1x1.bloc
+PortTag objects\levels\forge\ff_bank_1x1\ff_bank_1x1.bloc
 
 # BANK, 1X2
-Porttag objects\levels\forge\ff_bank_1x2\ff_bank_1x2.bloc
+PortTag objects\levels\forge\ff_bank_1x2\ff_bank_1x2.bloc
 
 # BANK, 2X1
-Porttag objects\levels\forge\ff_bank_2x1\ff_bank_2x1.bloc
+PortTag objects\levels\forge\ff_bank_2x1\ff_bank_2x1.bloc
 
 # BANK, 2X2
-Porttag objects\levels\forge\ff_bank_2x2\ff_bank_2x2.bloc
+PortTag objects\levels\forge\ff_bank_2x2\ff_bank_2x2.bloc
 
 # BUNKER, ROUND
-Porttag objects\levels\forge\ff_base_round\ff_base_round.bloc
+PortTag objects\levels\forge\ff_base_round\ff_base_round.bloc
 
 # STRUT
-Porttag objects\levels\forge\ff_base_strut\ff_base_strut.bloc
+PortTag objects\levels\forge\ff_base_strut\ff_base_strut.bloc
 
 # BRACE
-Porttag objects\levels\forge\ff_brace\ff_brace.bloc
+PortTag objects\levels\forge\ff_brace\ff_brace.bloc
 
 # BRIDGE, SMALL
-Porttag objects\levels\forge\ff_bridge_2x1\ff_bridge_2x1.bloc
+PortTag objects\levels\forge\ff_bridge_2x1\ff_bridge_2x1.bloc
 
 # BRIDGE, MEDIUM
-Porttag objects\levels\forge\ff_bridge_2x2\ff_bridge_2x2.bloc
+PortTag objects\levels\forge\ff_bridge_2x2\ff_bridge_2x2.bloc
 
 # BRIDGE, LARGE
-Porttag objects\levels\forge\ff_bridge_2x3\ff_bridge_2x3.bloc
+PortTag objects\levels\forge\ff_bridge_2x3\ff_bridge_2x3.bloc
 
 # BRIDGE, XLARGE
-Porttag objects\levels\forge\ff_bridge_2x5\ff_bridge_2x5.bloc
+PortTag objects\levels\forge\ff_bridge_2x5\ff_bridge_2x5.bloc
 
 # BRIDGE, DIAG, SMALL
-Porttag objects\levels\forge\ff_bridge_diag_short\ff_bridge_diag_short.bloc
+PortTag objects\levels\forge\ff_bridge_diag_short\ff_bridge_diag_short.bloc
 
 # BRIDGE, DIAGONAL
-Porttag objects\levels\forge\ff_bridge_diag\ff_bridge_diag.bloc
+PortTag objects\levels\forge\ff_bridge_diag\ff_bridge_diag.bloc
 
 # BUNKER, SMALL, COVERED
-Porttag objects\levels\forge\ff_bunker_covered\ff_bunker_covered.bloc
+PortTag objects\levels\forge\ff_bunker_covered\ff_bunker_covered.bloc
 
 # BUNKER, BOX
-Porttag objects\levels\forge\ff_bunker_full\ff_bunker_full.bloc
+PortTag objects\levels\forge\ff_bunker_full\ff_bunker_full.bloc
 
 # BUNKER, SMALL
-Porttag objects\levels\forge\ff_bunker_low\ff_bunker_low.bloc
+PortTag objects\levels\forge\ff_bunker_low\ff_bunker_low.bloc
 
 # BUNKER, RAMP
-Porttag objects\levels\forge\ff_bunker_stair\ff_bunker_stair.bloc
+PortTag objects\levels\forge\ff_bunker_stair\ff_bunker_stair.bloc
 
 # COLUMM
-Porttag objects\levels\forge\ff_column\ff_column.bloc
+PortTag objects\levels\forge\ff_column\ff_column.bloc
 
 # COVER, GLASS
-Porttag objects\levels\forge\ff_cover_2\ff_cover_2.bloc
+PortTag objects\levels\forge\ff_cover_2\ff_cover_2.bloc
 
 # COVER
-Porttag objects\levels\forge\ff_crenel_full\ff_crenel_full.bloc
+PortTag objects\levels\forge\ff_crenel_full\ff_crenel_full.bloc
 
 # COVER, CRENELLATION
-Porttag objects\levels\forge\ff_crenel_notch\ff_crenel_notch.bloc
+PortTag objects\levels\forge\ff_crenel_notch\ff_crenel_notch.bloc
 
 # PLATFORM, XXL
-Porttag objects\levels\forge\ff_cylinder_big\ff_cylinder_big.bloc
+PortTag objects\levels\forge\ff_cylinder_big\ff_cylinder_big.bloc
 
 # PLATFORM, XL
-Porttag objects\levels\forge\ff_cylinder_small\ff_cylinder_small.bloc
+PortTag objects\levels\forge\ff_cylinder_small\ff_cylinder_small.bloc
 
 # ANTENNA, SATELLITE
-Porttag objects\levels\forge\ff_dish_antenna\ff_dish_antenna.bloc
+PortTag objects\levels\forge\ff_dish_antenna\ff_dish_antenna.bloc
 
 # DISH, OPEN
-Porttag objects\levels\forge\ff_dish_door\ff_dish_door.bloc
+PortTag objects\levels\forge\ff_dish_door\ff_dish_door.bloc
 
 # DISH
-Porttag objects\levels\forge\ff_dish\ff_dish.bloc
+PortTag objects\levels\forge\ff_dish\ff_dish.bloc
 
 # DOOR
-Porttag objects\levels\forge\ff_door_2\ff_door_2.bloc
+PortTag objects\levels\forge\ff_door_2\ff_door_2.bloc
 
 # BRACE, LARGE
-Porttag objects\levels\forge\ff_large_brace\ff_large_brace.bloc
+PortTag objects\levels\forge\ff_large_brace\ff_large_brace.bloc
 
 # PYRAMID
-Porttag objects\levels\forge\ff_pyramid\ff_pyramid.bloc
+PortTag objects\levels\forge\ff_pyramid\ff_pyramid.bloc
 
 # RAMP, STUNT
-Porttag objects\levels\forge\ff_race_stunt_ramp\ff_race_stunt_ramp.bloc
+PortTag objects\levels\forge\ff_race_stunt_ramp\ff_race_stunt_ramp.bloc
 
 # RAILING, SMALL
-Porttag objects\levels\forge\ff_railing_1\ff_railing_1.bloc
+PortTag objects\levels\forge\ff_railing_1\ff_railing_1.bloc
 
 # RAILING, MEDIUM
-Porttag objects\levels\forge\ff_railing_2\ff_railing_2.bloc
+PortTag objects\levels\forge\ff_railing_2\ff_railing_2.bloc
 
 # RAILING, LARGE
-Porttag objects\levels\forge\ff_railing_3\ff_railing_3.bloc
+PortTag objects\levels\forge\ff_railing_3\ff_railing_3.bloc
 
 # RAMP. 1X2. SHALLOW
-Porttag objects\levels\forge\ff_ramp_1x2_shallow\ff_ramp_1x2_shallow.bloc
+PortTag objects\levels\forge\ff_ramp_1x2_shallow\ff_ramp_1x2_shallow.bloc
 
 # RAMP, 1X2
-Porttag objects\levels\forge\ff_ramp_1x2\ff_ramp_1x2.bloc
+PortTag objects\levels\forge\ff_ramp_1x2\ff_ramp_1x2.bloc
 
 # RAMP, 2X2, STEEP
-Porttag objects\levels\forge\ff_ramp_2x2_steep\ff_ramp_2x2_steep.bloc
+PortTag objects\levels\forge\ff_ramp_2x2_steep\ff_ramp_2x2_steep.bloc
 
 # RAMP, 2X2
-Porttag objects\levels\forge\ff_ramp_2x2\ff_ramp_2x2.bloc
+PortTag objects\levels\forge\ff_ramp_2x2\ff_ramp_2x2.bloc
 
 # RAMP, BRIDGE, SMALL
-Porttag objects\levels\forge\ff_ramp_3\ff_ramp_3.bloc
+PortTag objects\levels\forge\ff_ramp_3\ff_ramp_3.bloc
 
 # RAMP, BRIDGE, MEDIUM
-Porttag objects\levels\forge\ff_ramp_4\ff_ramp_4.bloc
+PortTag objects\levels\forge\ff_ramp_4\ff_ramp_4.bloc
 
 # RAMP, XL
-Porttag objects\levels\forge\ff_ramp_4x2\ff_ramp_4x2.bloc
+PortTag objects\levels\forge\ff_ramp_4x2\ff_ramp_4x2.bloc
 
 # RAMP, BRIDGE, LARGE
-Porttag objects\levels\forge\ff_ramp_5\ff_ramp_5.bloc
+PortTag objects\levels\forge\ff_ramp_5\ff_ramp_5.bloc
 
 # RAMP, CIRCULAR, LARGE
-Porttag objects\levels\forge\ff_ramp_circle_large\ff_ramp_circle_large.bloc
+PortTag objects\levels\forge\ff_ramp_circle_large\ff_ramp_circle_large.bloc
 
 # RAMP, CIRCULAR, SMALL
-Porttag objects\levels\forge\ff_ramp_circle_small\ff_ramp_circle_small.bloc
+PortTag objects\levels\forge\ff_ramp_circle_small\ff_ramp_circle_small.bloc
 
 # SNIPER NEST
-Porttag objects\levels\forge\ff_ramp_enclosed\ff_ramp_enclosed.bloc
+PortTag objects\levels\forge\ff_ramp_enclosed\ff_ramp_enclosed.bloc
 
 # PLATFORM, RAMPED
-Porttag objects\levels\forge\ff_ramp_plat\ff_ramp_plat.bloc
+PortTag objects\levels\forge\ff_ramp_plat\ff_ramp_plat.bloc
 
 # GLASS SAIL
-Porttag objects\levels\forge\ff_ramp_wall_2x1\ff_ramp_wall_2x1.bloc
+PortTag objects\levels\forge\ff_ramp_wall_2x1\ff_ramp_wall_2x1.bloc
 
 # ROOM, DOUBLE
-Porttag objects\levels\forge\ff_room_double\ff_room_double.bloc
+PortTag objects\levels\forge\ff_room_double\ff_room_double.bloc
 
 # ROOM, TRIPLE
-Porttag objects\levels\forge\ff_room_triple\ff_room_triple.bloc
+PortTag objects\levels\forge\ff_room_triple\ff_room_triple.bloc
 
 # STAIRCASE
-Porttag objects\levels\forge\ff_stair_case\ff_stair_case.bloc
+PortTag objects\levels\forge\ff_stair_case\ff_stair_case.bloc
 
 # TELEPORTER FRAME
-Porttag objects\levels\forge\ff_teleport_frame\ff_teleport_frame.bloc
+PortTag objects\levels\forge\ff_teleport_frame\ff_teleport_frame.bloc
 
 # TOWER, 3 STORY
-Porttag objects\levels\forge\ff_tower_3_story\ff_tower_3_story.bloc
+PortTag objects\levels\forge\ff_tower_3_story\ff_tower_3_story.bloc
 
 # TOWER, TALL
-Porttag objects\levels\forge\ff_tower_tall\ff_tower_tall.bloc
+PortTag objects\levels\forge\ff_tower_tall\ff_tower_tall.bloc
 
 # TOWER, 2 STORY
-Porttag objects\levels\forge\ff_tower\ff_tower.bloc
+PortTag objects\levels\forge\ff_tower\ff_tower.bloc
 
 # TUNNEL, SHORT
-Porttag objects\levels\forge\ff_tunnel_2x1\ff_tunnel_2x1.bloc
+PortTag objects\levels\forge\ff_tunnel_2x1\ff_tunnel_2x1.bloc
 
 # TUNNEL, LONG
-Porttag objects\levels\forge\ff_tunnel_3x3\ff_tunnel_3x3.bloc
+PortTag objects\levels\forge\ff_tunnel_3x3\ff_tunnel_3x3.bloc
 
 # LARGE WALKWAY COVER
-Porttag objects\levels\forge\ff_walkway_small_cover\ff_walkway_small_cover.bloc
+PortTag objects\levels\forge\ff_walkway_small_cover\ff_walkway_small_cover.bloc
 
 # WALKWAY, LARGE
-Porttag objects\levels\forge\ff_walkway_small\ff_walkway_small.bloc
+PortTag objects\levels\forge\ff_walkway_small\ff_walkway_small.bloc
 
 # WALL, CORNER
-Porttag objects\levels\forge\ff_wall_2x1_corner\ff_wall_2x1_corner.bloc
+PortTag objects\levels\forge\ff_wall_2x1_corner\ff_wall_2x1_corner.bloc
 
 # DOOR, DOUBLE
-Porttag objects\levels\forge\ff_wall_2x1_door\ff_wall_2x1_door.bloc
+PortTag objects\levels\forge\ff_wall_2x1_door\ff_wall_2x1_door.bloc
 
 # WINDOW
-Porttag objects\levels\forge\ff_wall_2x1_window\ff_wall_2x1_window.bloc
+PortTag objects\levels\forge\ff_wall_2x1_window\ff_wall_2x1_window.bloc
 
 # WINDOW, DOUBLE
-Porttag objects\levels\forge\ff_wall_2x2_window\ff_wall_2x2_window.bloc
+PortTag objects\levels\forge\ff_wall_2x2_window\ff_wall_2x2_window.bloc
 
 # WALL
-Porttag objects\levels\forge\ff_wall_2x2\ff_wall_2x2.bloc
+PortTag objects\levels\forge\ff_wall_2x2\ff_wall_2x2.bloc
 
 # WALL, DOUBLE
-Porttag objects\levels\forge\ff_wall_2x4\ff_wall_2x4.bloc
+PortTag objects\levels\forge\ff_wall_2x4\ff_wall_2x4.bloc
 
 # WALL, CURVED
-Porttag objects\levels\forge\ff_wall_curve_short\ff_wall_curve_short.bloc
+PortTag objects\levels\forge\ff_wall_curve_short\ff_wall_curve_short.bloc
 
 # ROCK, ARCH
-Porttag objects\levels\forge\ff_rock_arch\ff_rock_arch.bloc
+PortTag objects\levels\forge\ff_rock_arch\ff_rock_arch.bloc
 
 # ROCK, FLAT
-Porttag objects\levels\forge\ff_rock_flat\ff_rock_flat.bloc
+PortTag objects\levels\forge\ff_rock_flat\ff_rock_flat.bloc
 
 # ROCK, MEDIUM 1
-Porttag objects\levels\forge\ff_rock_med_a\ff_rock_med_a.bloc
+PortTag objects\levels\forge\ff_rock_med_a\ff_rock_med_a.bloc
 
 # ROCK, MEDIUM 2
-Porttag objects\levels\forge\ff_rock_med_b\ff_rock_med_b.bloc
+PortTag objects\levels\forge\ff_rock_med_b\ff_rock_med_b.bloc
 
 # ROCK, SEASTACK
-Porttag objects\levels\forge\ff_rock_sea_stack\ff_rock_sea_stack.bloc
+PortTag objects\levels\forge\ff_rock_sea_stack\ff_rock_sea_stack.bloc
 
 # ROCK, SMALL
-Porttag objects\levels\forge\ff_rock_small\ff_rock_small.bloc
+PortTag objects\levels\forge\ff_rock_small\ff_rock_small.bloc
 
 # ROCK, SPIRE 1
-Porttag objects\levels\forge\ff_rock_spire_a\ff_rock_spire_a.bloc
+PortTag objects\levels\forge\ff_rock_spire_a\ff_rock_spire_a.bloc
 
 # ROCK, SPIRE 2
-Porttag objects\levels\forge\ff_rock_spire_b\ff_rock_spire_b.bloc
+PortTag objects\levels\forge\ff_rock_spire_b\ff_rock_spire_b.bloc
 
 # GRID
-Porttag objects\levels\forge\ff_grid_object\ff_grid_object.bloc
+PortTag objects\levels\forge\ff_grid_object\ff_grid_object.bloc
 
 # CANNON, VEHICLE
-Porttag objects\levels\forge\ff_veh_man_cannon\ff_veh_man_cannon.bloc
+PortTag objects\levels\forge\ff_veh_man_cannon\ff_veh_man_cannon.bloc
 
 # GRAVITY LIFT
-Porttag objects\levels\forge\ff_grav_lift\ff_grav_lift.bloc
+PortTag objects\levels\forge\ff_grav_lift\ff_grav_lift.bloc
 
 # CANNON, MAN, HEAVY
-Porttag objects\levels\forge\ff_man_cannon_forge_heavy\ff_man_cannon_forge_heavy.bloc
+PortTag objects\levels\forge\ff_man_cannon_forge_heavy\ff_man_cannon_forge_heavy.bloc
 
 # CANNON, MAN, LIGHT
-Porttag objects\levels\forge\ff_man_cannon_forge_light\ff_man_cannon_forge_light.bloc
+PortTag objects\levels\forge\ff_man_cannon_forge_light\ff_man_cannon_forge_light.bloc
 
 # CANNON, MAN
-Porttag objects\levels\forge\ff_man_cannon_forge\ff_man_cannon_forge.bloc
+PortTag objects\levels\forge\ff_man_cannon_forge\ff_man_cannon_forge.bloc
 
 # ONE WAY SHIELD, LARGE
-Porttag objects\levels\forge\ff_one_way_door_large\ff_one_way_door_large.bloc
+PortTag objects\levels\forge\ff_one_way_door_large\ff_one_way_door_large.bloc
 
 # ONE WAY SHIELD, MEDIUM
-Porttag objects\levels\forge\ff_one_way_door_medium\ff_one_way_door_medium.bloc
+PortTag objects\levels\forge\ff_one_way_door_medium\ff_one_way_door_medium.bloc
 
 # ONE WAY SHIELD, SMALL
-Porttag objects\levels\forge\ff_one_way_door_small\ff_one_way_door_small.bloc
+PortTag objects\levels\forge\ff_one_way_door_small\ff_one_way_door_small.bloc
 
 # SHIELD DOOR, LARGE
-Porttag objects\levels\forge\ff_two_way_door_large\ff_two_way_door_large.bloc
+PortTag objects\levels\forge\ff_two_way_door_large\ff_two_way_door_large.bloc
 
 # SHIELD DOOR, MEDIUM
-Porttag objects\levels\forge\ff_two_way_door_medium\ff_two_way_door_medium.bloc
+PortTag objects\levels\forge\ff_two_way_door_medium\ff_two_way_door_medium.bloc
 
 # SHIELD DOOR, SMALL
-Porttag objects\levels\forge\ff_two_way_door_small\ff_two_way_door_small.bloc
+PortTag objects\levels\forge\ff_two_way_door_small\ff_two_way_door_small.bloc
 PortTag objects\multi\dice\dice.crate
 PortTag objects\levels\shared\golf_cup\golf_cup.crate
 PortTag objects\levels\shared\soccer_ball\soccer_ball.crate

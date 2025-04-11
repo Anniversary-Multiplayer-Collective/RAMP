@@ -1,187 +1,187 @@
 
-opencachefile "workingdir\maps\halo3\010_jungle.map"
-porttag potterhalo\objects\weapons\rifle\light_machine_gun\light_machine_gun.weapon
-exit
+OpenCacheFile "workingdir\maps\halo3\010_jungle.map"
+PortTag potterhalo\objects\weapons\rifle\light_machine_gun\light_machine_gun.weapon
+Exit
 
 AddForgeItem "LMG" 78 potterhalo\objects\weapons\rifle\light_machine_gun\light_machine_gun.weapon
 
-duplicatetag dw3\r3ach\objects\weapons\rifle\assault_rifle\assault_rifle.render_model
-nametag * dw3\r3ach\objects\weapons\rifle\lmg\lmg
+DuplicateTag dw3\r3ach\objects\weapons\rifle\assault_rifle\assault_rifle.render_model
+NameTag * dw3\r3ach\objects\weapons\rifle\lmg\lmg
 
-duplicatetag dw3\r3ach\objects\weapons\rifle\assault_rifle\animations\fp_spartan\fp_spartan.model_animation_graph
-nametag * dw3\r3ach\objects\weapons\rifle\light_machine_gun\animations\fp_spartan\fp_spartan
-savetagnames
+DuplicateTag dw3\r3ach\objects\weapons\rifle\assault_rifle\animations\fp_spartan\fp_spartan.model_animation_graph
+NameTag * dw3\r3ach\objects\weapons\rifle\light_machine_gun\animations\fp_spartan\fp_spartan
+SaveTagNames
 
-edittag ui\weapon_type_names.multilingual_unicode_string_list
-setstring english offset_lmg "Light Machine Gun"
+EditTag ui\weapon_type_names.multilingual_unicode_string_list
+SetString english offset_lmg "Light Machine Gun"
 SaveTagChanges
 Exit
 
-edittag potterhalo\objects\weapons\rifle\light_machine_gun\light_machine_gun.weapon
-setfield FirstPerson[0].FirstPersonModel dw3\r3ach\objects\weapons\rifle\lmg\lmg.render_model
-setfield FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\light_machine_gun\animations\fp_spartan\fp_spartan.model_animation_graph
-setfield WeaponTypeName offset_lmg
-setfield PickupMessage lmg_pickup
-setfield SwapMessage lmg_swap
-setfield PickedUpMessage lmg_picked_up
-setfield SwitchToMessage lmg_switch_to
-setfield SwitchToFromAiMessage lmg_swap_ai
-savetagchanges
-exit
+EditTag potterhalo\objects\weapons\rifle\light_machine_gun\light_machine_gun.weapon
+SetField FirstPerson[0].FirstPersonModel dw3\r3ach\objects\weapons\rifle\lmg\lmg.render_model
+SetField FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\light_machine_gun\animations\fp_spartan\fp_spartan.model_animation_graph
+SetField WeaponTypeName offset_lmg
+SetField PickupMessage lmg_pickup
+SetField SwapMessage lmg_swap
+SetField PickedUpMessage lmg_picked_up
+SetField SwitchToMessage lmg_switch_to
+SetField SwitchToFromAiMessage lmg_swap_ai
+SaveTagChanges
+Exit
 
-edittag dw3\r3ach\objects\weapons\rifle\lmg\lmg.render_model
-replacerendergeometry "workingdir\models\light_machine_gun.fbx" TriangleStrip updatenodes
-setfield Materials[0].RenderMethod potterhalo\objects\weapons\rifle\light_machine_gun\shaders\light_machine_gun_metal.shader
-setfield Materials[1].RenderMethod potterhalo\objects\weapons\rifle\light_machine_gun\shaders\light_machine_gun_compass.shader
-setfield Materials[2].RenderMethod potterhalo\objects\weapons\rifle\light_machine_gun\shaders\light_machine_gun_item.shader
-setfield Materials[3].RenderMethod potterhalo\objects\weapons\rifle\light_machine_gun\shaders\light_machine_gun_ones.shader
-setfield Materials[4].RenderMethod potterhalo\objects\weapons\rifle\light_machine_gun\shaders\light_machine_gun_tens.shader
-setfield Materials[5].RenderMethod potterhalo\objects\weapons\rifle\light_machine_gun\shaders\light_machine_gun_display.shader
-setfield Materials[6].RenderMethod potterhalo\objects\weapons\rifle\light_machine_gun\shaders\unsc_decals_fp.shader_decal
-savetagchanges
-exit
+EditTag dw3\r3ach\objects\weapons\rifle\lmg\lmg.render_model
+ReplaceRenderGeometry "workingdir\models\light_machine_gun.fbx" TriangleStrip updatenodes
+SetField Materials[0].RenderMethod potterhalo\objects\weapons\rifle\light_machine_gun\shaders\light_machine_gun_metal.shader
+SetField Materials[1].RenderMethod potterhalo\objects\weapons\rifle\light_machine_gun\shaders\light_machine_gun_compass.shader
+SetField Materials[2].RenderMethod potterhalo\objects\weapons\rifle\light_machine_gun\shaders\light_machine_gun_item.shader
+SetField Materials[3].RenderMethod potterhalo\objects\weapons\rifle\light_machine_gun\shaders\light_machine_gun_ones.shader
+SetField Materials[4].RenderMethod potterhalo\objects\weapons\rifle\light_machine_gun\shaders\light_machine_gun_tens.shader
+SetField Materials[5].RenderMethod potterhalo\objects\weapons\rifle\light_machine_gun\shaders\light_machine_gun_display.shader
+SetField Materials[6].RenderMethod potterhalo\objects\weapons\rifle\light_machine_gun\shaders\unsc_decals_fp.shader_decal
+SaveTagChanges
+Exit
 
 ## echo animations
 
-edittag dw3\r3ach\objects\weapons\rifle\light_machine_gun\animations\fp_spartan\fp_spartan.model_animation_graph
-addanimation basefix keep "workingdir\animations\lmg"
-exit
+EditTag dw3\r3ach\objects\weapons\rifle\light_machine_gun\animations\fp_spartan\fp_spartan.model_animation_graph
+AddAnimation basefix keep "workingdir\animations\lmg"
+Exit
 
-edittag dw3\r3ach\objects\weapons\rifle\light_machine_gun\animations\fp_spartan\fp_spartan.model_animation_graph
-setfield Animations[14].PlaybackFlags DisableWeaponIk
-setfield Animations[14].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
-setfield Animations[15].PlaybackFlags DisableWeaponIk
-setfield Animations[15].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
-savetagchanges
-exit
+EditTag dw3\r3ach\objects\weapons\rifle\light_machine_gun\animations\fp_spartan\fp_spartan.model_animation_graph
+SetField Animations[14].PlaybackFlags DisableWeaponIk
+SetField Animations[14].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+SetField Animations[15].PlaybackFlags DisableWeaponIk
+SetField Animations[15].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+SaveTagChanges
+Exit
 
-edittag dw3\r3ach\objects\weapons\rifle\light_machine_gun\animations\fp_spartan\fp_spartan.model_animation_graph
-addblockelements Animations[4].AnimationData.FrameEvents
-setfield Animations[4].AnimationData.FrameEvents[0].Frame 5
-addblockelements Animations[5].AnimationData.FrameEvents
-setfield Animations[5].AnimationData.FrameEvents[0].Frame 5
-savetagchanges
-exit
+EditTag dw3\r3ach\objects\weapons\rifle\light_machine_gun\animations\fp_spartan\fp_spartan.model_animation_graph
+AddBlockElements Animations[4].AnimationData.FrameEvents
+SetField Animations[4].AnimationData.FrameEvents[0].Frame 5
+AddBlockElements Animations[5].AnimationData.FrameEvents
+SetField Animations[5].AnimationData.FrameEvents[0].Frame 5
+SaveTagChanges
+Exit
 
 ## echo sound
 
-duplicatetag dw3\r3ach\sound\weapons\assault_rifle\ar_reload_empty.sound
-nametag * dw3\r3ach\sound\weapons\lmg\lmg_reload_empty
+DuplicateTag dw3\r3ach\sound\weapons\assault_rifle\ar_reload_empty.sound
+NameTag * dw3\r3ach\sound\weapons\lmg\lmg_reload_empty
 
-duplicatetag dw3\r3ach\sound\weapons\assault_rifle\ar_reload_full.sound
-nametag * dw3\r3ach\sound\weapons\lmg\lmg_reload_full
+DuplicateTag dw3\r3ach\sound\weapons\assault_rifle\ar_reload_full.sound
+NameTag * dw3\r3ach\sound\weapons\lmg\lmg_reload_full
 
-duplicatetag dw3\r3ach\sound\weapons\assault_rifle\ar_reload_full.sound
-nametag * dw3\r3ach\sound\weapons\lmg\lmg_reload_full
-savetagnames
+DuplicateTag dw3\r3ach\sound\weapons\assault_rifle\ar_reload_full.sound
+NameTag * dw3\r3ach\sound\weapons\lmg\lmg_reload_full
+SaveTagNames
 
-edittag dw3\r3ach\sound\weapons\lmg\lmg_reload_empty.sound
-importsound "workingdir\sounds\lmg\lmg_reload_empty.wav"
-savetagchanges
-exit
+EditTag dw3\r3ach\sound\weapons\lmg\lmg_reload_empty.sound
+ImportSound "workingdir\sounds\lmg\lmg_reload_empty.wav"
+SaveTagChanges
+Exit
 
-edittag dw3\r3ach\sound\weapons\lmg\lmg_reload_full.sound
-importsound "workingdir\sounds\lmg\lmg_reload_full.wav"
-savetagchanges
-exit
+EditTag dw3\r3ach\sound\weapons\lmg\lmg_reload_full.sound
+ImportSound "workingdir\sounds\lmg\lmg_reload_full.wav"
+SaveTagChanges
+Exit
 
-edittag dw3\r3ach\objects\weapons\rifle\light_machine_gun\animations\fp_spartan\fp_spartan.model_animation_graph
-setfield SoundReferences[6].Reference dw3\r3ach\sound\weapons\lmg\lmg_reload_empty.sound
-setfield SoundReferences[7].Reference dw3\r3ach\sound\weapons\lmg\lmg_reload_full.sound
-addblockelements Animations[14].AnimationData.SoundEvents
-setfield Animations[14].AnimationData.SoundEvents[0].Sound 6
-addblockelements Animations[15].AnimationData.SoundEvents
-setfield Animations[15].AnimationData.SoundEvents[0].Sound 7
-savetagchanges
-exit
+EditTag dw3\r3ach\objects\weapons\rifle\light_machine_gun\animations\fp_spartan\fp_spartan.model_animation_graph
+SetField SoundReferences[6].Reference dw3\r3ach\sound\weapons\lmg\lmg_reload_empty.sound
+SetField SoundReferences[7].Reference dw3\r3ach\sound\weapons\lmg\lmg_reload_full.sound
+AddBlockElements Animations[14].AnimationData.SoundEvents
+SetField Animations[14].AnimationData.SoundEvents[0].Sound 6
+AddBlockElements Animations[15].AnimationData.SoundEvents
+SetField Animations[15].AnimationData.SoundEvents[0].Sound 7
+SaveTagChanges
+Exit
 
-edittag potterhalo\objects\weapons\rifle\light_machine_gun\light_machine_gun.weapon
-setfield FirstPerson[1].FirstPersonModel dw3\r3ach\objects\weapons\rifle\lmg\lmg.render_model
-setfield FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\light_machine_gun\animations\fp_spartan\fp_spartan.model_animation_graph
-savetagchanges
-exit
+EditTag potterhalo\objects\weapons\rifle\light_machine_gun\light_machine_gun.weapon
+SetField FirstPerson[1].FirstPersonModel dw3\r3ach\objects\weapons\rifle\lmg\lmg.render_model
+SetField FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\light_machine_gun\animations\fp_spartan\fp_spartan.model_animation_graph
+SaveTagChanges
+Exit
 
 ##echo hud
 
-edittag potterhalo\ui\chud\combat_lmg.chud_definition
-setfield HudWidgets[2].PlacementData[0].Offset -75 -1130
-setfield HudWidgets[2].PlacementData[0].Scale 0.8 0.8
-setfield HudWidgets[3].PlacementData[0].Offset -65 -1033
-setfield HudWidgets[3].PlacementData[0].Scale 1.2 1.2
-setfield HudWidgets[3].TextWidgets[0].PlacementData[0].Offset -85 1
-setfield HudWidgets[3].TextWidgets[0].PlacementData[0].Scale 0.7 0.7
-setfield HudWidgets[3].TextWidgets[2].PlacementData[0].Offset -45 83
-setfield HudWidgets[3].BitmapWidgets[1].PlacementData[0].Offset -32 11111
-setfield HudWidgets[3].BitmapWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
-setfield HudWidgets[3].TextWidgets[0].Font LargeBodyText
-setfield HudWidgets[0].BitmapWidgets[0].Bitmap dw3\r3ach\ui\chud\bitmaps\weapon_reticles.bitmap
-setfield HudWidgets[0].BitmapWidgets[0].BitmapSequenceIndex 12
-setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.3 1.3
-savetagchanges
-exit
+EditTag potterhalo\ui\chud\combat_lmg.chud_definition
+SetField HudWidgets[2].PlacementData[0].Offset -75 -1130
+SetField HudWidgets[2].PlacementData[0].Scale 0.8 0.8
+SetField HudWidgets[3].PlacementData[0].Offset -65 -1033
+SetField HudWidgets[3].PlacementData[0].Scale 1.2 1.2
+SetField HudWidgets[3].TextWidgets[0].PlacementData[0].Offset -85 1
+SetField HudWidgets[3].TextWidgets[0].PlacementData[0].Scale 0.7 0.7
+SetField HudWidgets[3].TextWidgets[2].PlacementData[0].Offset -45 83
+SetField HudWidgets[3].BitmapWidgets[1].PlacementData[0].Offset -32 11111
+SetField HudWidgets[3].BitmapWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
+SetField HudWidgets[3].TextWidgets[0].Font LargeBodyText
+SetField HudWidgets[0].BitmapWidgets[0].Bitmap dw3\r3ach\ui\chud\bitmaps\weapon_reticles.bitmap
+SetField HudWidgets[0].BitmapWidgets[0].BitmapSequenceIndex 12
+SetField HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.3 1.3
+SaveTagChanges
+Exit
 
-edittag ui\chud\smg.chud_definition
-copyblockelements HudWidgets[5].BitmapWidgets 0 1
-exit
+EditTag ui\chud\smg.chud_definition
+CopyBlockElements HudWidgets[5].BitmapWidgets 0 1
+Exit
 
-edittag potterhalo\ui\chud\combat_lmg.chud_definition
-removeblockelements HudWidgets[3].TextWidgets 2 1
-pasteblockelements HudWidgets[3].BitmapWidgets
-setfield HudWidgets[3].BitmapWidgets[2].PlacementData[0].Offset 12 80
-setfield HudWidgets[3].BitmapWidgets[2].PlacementData[0].Scale 1.1 1.1
-savetagchanges
-exit
+EditTag potterhalo\ui\chud\combat_lmg.chud_definition
+RemoveBlockElements HudWidgets[3].TextWidgets 2 1
+PasteBlockElements HudWidgets[3].BitmapWidgets
+SetField HudWidgets[3].BitmapWidgets[2].PlacementData[0].Offset 12 80
+SetField HudWidgets[3].BitmapWidgets[2].PlacementData[0].Scale 1.1 1.1
+SaveTagChanges
+Exit
 
 ##echo balance
 
-edittag potterhalo\objects\weapons\rifle\combat_lmg\damage_effects\lmg_bullet.damage_effect
-setfield DamageUpperBound 6 6
-savetagchanges
-exit
+EditTag potterhalo\objects\weapons\rifle\combat_lmg\damage_effects\lmg_bullet.damage_effect
+SetField DamageUpperBound 6 6
+SaveTagChanges
+Exit
 
 ##Echo viewmodel
-edittag potterhalo\objects\weapons\rifle\light_machine_gun\light_machine_gun.weapon
-setfield CenteredFirstPersonWeaponOffset 0.04 0 -0.01
-savetagchanges
-exit
+EditTag potterhalo\objects\weapons\rifle\light_machine_gun\light_machine_gun.weapon
+SetField CenteredFirstPersonWeaponOffset 0.04 0 -0.01
+SaveTagChanges
+Exit
 
 #echo shaders
-edittag potterhalo\objects\weapons\rifle\light_machine_gun\shaders\light_machine_gun_compass.shader
-setargument self_illum_color 0 1 0 1
-savetagchanges
-exit
+EditTag potterhalo\objects\weapons\rifle\light_machine_gun\shaders\light_machine_gun_compass.shader
+SetArgument self_illum_color 0 1 0 1
+SaveTagChanges
+Exit
 
-edittag potterhalo\objects\weapons\rifle\light_machine_gun\shaders\light_machine_gun_item.shader
-setargument self_illum_color 0 1 0 1
-savetagchanges
-exit
+EditTag potterhalo\objects\weapons\rifle\light_machine_gun\shaders\light_machine_gun_item.shader
+SetArgument self_illum_color 0 1 0 1
+SaveTagChanges
+Exit
 
-edittag potterhalo\objects\weapons\rifle\light_machine_gun\shaders\light_machine_gun_ones.shader
-setargument self_illum_color 0 1 0 1
-savetagchanges
-exit
+EditTag potterhalo\objects\weapons\rifle\light_machine_gun\shaders\light_machine_gun_ones.shader
+SetArgument self_illum_color 0 1 0 1
+SaveTagChanges
+Exit
 
-edittag potterhalo\objects\weapons\rifle\light_machine_gun\shaders\light_machine_gun_tens.shader
-setargument self_illum_color 0 1 0 1
-savetagchanges
-exit
+EditTag potterhalo\objects\weapons\rifle\light_machine_gun\shaders\light_machine_gun_tens.shader
+SetArgument self_illum_color 0 1 0 1
+SaveTagChanges
+Exit
 
-edittag potterhalo\objects\weapons\rifle\light_machine_gun\shaders\light_machine_gun_display.shader
-setargument self_illum_color 0 1 0 1
-savetagchanges
-exit
+EditTag potterhalo\objects\weapons\rifle\light_machine_gun\shaders\light_machine_gun_display.shader
+SetArgument self_illum_color 0 1 0 1
+SaveTagChanges
+Exit
 
-edittag potterhalo\objects\weapons\rifle\light_machine_gun\shaders\light_machine_gun_metal.shader
-setargument diffuse_coefficient 1.5
-savetagchanges
-exit
+EditTag potterhalo\objects\weapons\rifle\light_machine_gun\shaders\light_machine_gun_metal.shader
+SetArgument diffuse_coefficient 1.5
+SaveTagChanges
+Exit
 
 #echo Add LMG to fiesta
 
-edittag multiplayer\multiplayer_globals.multiplayer_globals
-addblockelements Universal[0].GameVariantWeapons 1
-setfield Universal[0].GameVariantWeapons[*].Name lmg
-setfield Universal[0].GameVariantWeapons[*].RandomChance 0.1
-setfield Universal[0].GameVariantWeapons[*].Weapon potterhalo\objects\weapons\rifle\light_machine_gun\light_machine_gun.weapon
-savetagchanges
-exit
+EditTag multiplayer\multiplayer_globals.multiplayer_globals
+AddBlockElements Universal[0].GameVariantWeapons 1
+SetField Universal[0].GameVariantWeapons[*].Name lmg
+SetField Universal[0].GameVariantWeapons[*].RandomChance 0.1
+SetField Universal[0].GameVariantWeapons[*].Weapon potterhalo\objects\weapons\rifle\light_machine_gun\light_machine_gun.weapon
+SaveTagChanges
+Exit

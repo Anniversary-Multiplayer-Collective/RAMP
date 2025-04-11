@@ -2,9 +2,9 @@ OpenCacheFile "reachmaps\ff50_park.map"
 PortTag objects\props\covenant\cov_portable_shield\fx\shield_recharge.effect
 Exit
 
-edittag objects\props\covenant\cov_portable_shield\cov_portable_shield.model
-setfield Variants[0].Regions[1].Permutations[0].States[1].State2 MinorDamage
-setfield Variants[0].Regions[1].Permutations[0].States[0].State2 MinorDamage
+EditTag objects\props\covenant\cov_portable_shield\cov_portable_shield.model
+SetField Variants[0].Regions[1].Permutations[0].States[1].State2 MinorDamage
+SetField Variants[0].Regions[1].Permutations[0].States[0].State2 MinorDamage
 
 RemoveBlockElements NewDamageInfo 0 *
 AddBlockElements NewDamageInfo 1

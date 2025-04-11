@@ -2,146 +2,146 @@
 # May all beauty be blessed
 # Tried to have it all but now I'm stuck in the middle
 
-edittag dw3\r3ach\objects\weapons\melee\gravity_hammer\gravity_hammer.render_model
-addblockelements MarkerGroups
-addblockelements MarkerGroups[*].Markers
-setfield MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
-setfield MarkerGroups[*].Markers[*].RegionIndex -1
-setfield MarkerGroups[*].Markers[*].PermutationIndex -1
-setfield MarkerGroups[*].Markers[*].Translation -0.0075 0.0075 -0.1118
-setfield MarkerGroups[*].Markers[*].Rotation 0.05 0.08 0.38 -0.91
-savetagchanges
-exit
+EditTag dw3\r3ach\objects\weapons\melee\gravity_hammer\gravity_hammer.render_model
+AddBlockElements MarkerGroups
+AddBlockElements MarkerGroups[*].Markers
+SetField MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
+SetField MarkerGroups[*].Markers[*].RegionIndex -1
+SetField MarkerGroups[*].Markers[*].PermutationIndex -1
+SetField MarkerGroups[*].Markers[*].Translation -0.0075 0.0075 -0.1118
+SetField MarkerGroups[*].Markers[*].Rotation 0.05 0.08 0.38 -0.91
+SaveTagChanges
+Exit
 
-edittag dw3\r3ach\objects\weapons\rifle\assault_rifle\assault_rifle.render_model
-addblockelements MarkerGroups
-addblockelements MarkerGroups[*].Markers
-setfield MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
-setfield MarkerGroups[*].Markers[*].RegionIndex -1
-setfield MarkerGroups[*].Markers[*].PermutationIndex -1
-setfield MarkerGroups[*].Markers[*].Translation 0.106 0 0.0125
-setfield MarkerGroups[*].Markers[*].Rotation -0.67 0.208 -0.48 0.6
-savetagchanges
-exit
+EditTag dw3\r3ach\objects\weapons\rifle\assault_rifle\assault_rifle.render_model
+AddBlockElements MarkerGroups
+AddBlockElements MarkerGroups[*].Markers
+SetField MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
+SetField MarkerGroups[*].Markers[*].RegionIndex -1
+SetField MarkerGroups[*].Markers[*].PermutationIndex -1
+SetField MarkerGroups[*].Markers[*].Translation 0.106 0 0.0125
+SetField MarkerGroups[*].Markers[*].Rotation -0.67 0.208 -0.48 0.6
+SaveTagChanges
+Exit
 
-edittag dw3\r3ach\objects\weapons\rifle\battle_rifle\battle_rifle.render_model
-addblockelements MarkerGroups
-addblockelements MarkerGroups[*].Markers
-setfield MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
-setfield MarkerGroups[*].Markers[*].RegionIndex -1
-setfield MarkerGroups[*].Markers[*].PermutationIndex -1
-setfield MarkerGroups[*].Markers[*].Translation 0.079 -0.0001 0.0182
-setfield MarkerGroups[*].Markers[*].Rotation -0.598 0.1255 -0.49 0.6
-savetagchanges
-exit
+EditTag dw3\r3ach\objects\weapons\rifle\battle_rifle\battle_rifle.render_model
+AddBlockElements MarkerGroups
+AddBlockElements MarkerGroups[*].Markers
+SetField MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
+SetField MarkerGroups[*].Markers[*].RegionIndex -1
+SetField MarkerGroups[*].Markers[*].PermutationIndex -1
+SetField MarkerGroups[*].Markers[*].Translation 0.079 -0.0001 0.0182
+SetField MarkerGroups[*].Markers[*].Rotation -0.598 0.1255 -0.49 0.6
+SaveTagChanges
+Exit
 
-edittag dw3\r3ach\objects\weapons\rifle\concussion_rifle\concussion_rifle.render_model
-addblockelements MarkerGroups
-addblockelements MarkerGroups[*].Markers
-setfield MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
-setfield MarkerGroups[*].Markers[*].RegionIndex -1
-setfield MarkerGroups[*].Markers[*].PermutationIndex -1
-setfield MarkerGroups[*].Markers[*].Translation 0.112 0.00375 -0.0111
-setfield MarkerGroups[*].Markers[*].Rotation -0.45 0.17 -0.37 0.655
-savetagchanges
-exit
+EditTag dw3\r3ach\objects\weapons\rifle\concussion_rifle\concussion_rifle.render_model
+AddBlockElements MarkerGroups
+AddBlockElements MarkerGroups[*].Markers
+SetField MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
+SetField MarkerGroups[*].Markers[*].RegionIndex -1
+SetField MarkerGroups[*].Markers[*].PermutationIndex -1
+SetField MarkerGroups[*].Markers[*].Translation 0.112 0.00375 -0.0111
+SetField MarkerGroups[*].Markers[*].Rotation -0.45 0.17 -0.37 0.655
+SaveTagChanges
+Exit
 
-edittag dw3\r3ach\objects\weapons\rifle\dmr\dmr.render_model
-addblockelements MarkerGroups
-addblockelements MarkerGroups[*].Markers
-setfield MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
-setfield MarkerGroups[*].Markers[*].RegionIndex -1
-setfield MarkerGroups[*].Markers[*].PermutationIndex -1
-setfield MarkerGroups[*].Markers[*].Translation 0.079 -0.0001 0.0182
-setfield MarkerGroups[*].Markers[*].Rotation -0.598 0.1255 -0.49 0.6
-savetagchanges
-exit
+EditTag dw3\r3ach\objects\weapons\rifle\dmr\dmr.render_model
+AddBlockElements MarkerGroups
+AddBlockElements MarkerGroups[*].Markers
+SetField MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
+SetField MarkerGroups[*].Markers[*].RegionIndex -1
+SetField MarkerGroups[*].Markers[*].PermutationIndex -1
+SetField MarkerGroups[*].Markers[*].Translation 0.079 -0.0001 0.0182
+SetField MarkerGroups[*].Markers[*].Rotation -0.598 0.1255 -0.49 0.6
+SaveTagChanges
+Exit
 
-edittag dw3\r3ach\objects\weapons\rifle\focus_rifle\focus_rifle.render_model
-addblockelements MarkerGroups
-addblockelements MarkerGroups[*].Markers
-setfield MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
-setfield MarkerGroups[*].Markers[*].RegionIndex -1
-setfield MarkerGroups[*].Markers[*].PermutationIndex -1
-setfield MarkerGroups[*].Markers[*].Translation 0.1015 0.0041 0.0016
-setfield MarkerGroups[*].Markers[*].Rotation -0.426 0.14 -0.4 0.58
-savetagchanges
-exit
+EditTag dw3\r3ach\objects\weapons\rifle\focus_rifle\focus_rifle.render_model
+AddBlockElements MarkerGroups
+AddBlockElements MarkerGroups[*].Markers
+SetField MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
+SetField MarkerGroups[*].Markers[*].RegionIndex -1
+SetField MarkerGroups[*].Markers[*].PermutationIndex -1
+SetField MarkerGroups[*].Markers[*].Translation 0.1015 0.0041 0.0016
+SetField MarkerGroups[*].Markers[*].Rotation -0.426 0.14 -0.4 0.58
+SaveTagChanges
+Exit
 
-edittag dw3\r3ach\objects\weapons\rifle\grenade_launcher\grenade_launcher.render_model
-addblockelements MarkerGroups
-addblockelements MarkerGroups[*].Markers
-setfield MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
-setfield MarkerGroups[*].Markers[*].RegionIndex -1
-setfield MarkerGroups[*].Markers[*].PermutationIndex -1
-setfield MarkerGroups[*].Markers[*].Translation 0.129 0.0044 0.0341
-setfield MarkerGroups[*].Markers[*].Rotation -0.65 0.305 -0.37 0.57
-savetagchanges
-exit
+EditTag dw3\r3ach\objects\weapons\rifle\grenade_launcher\grenade_launcher.render_model
+AddBlockElements MarkerGroups
+AddBlockElements MarkerGroups[*].Markers
+SetField MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
+SetField MarkerGroups[*].Markers[*].RegionIndex -1
+SetField MarkerGroups[*].Markers[*].PermutationIndex -1
+SetField MarkerGroups[*].Markers[*].Translation 0.129 0.0044 0.0341
+SetField MarkerGroups[*].Markers[*].Rotation -0.65 0.305 -0.37 0.57
+SaveTagChanges
+Exit
 
-edittag dw3\r3ach\objects\weapons\rifle\needle_rifle\needle_rifle.render_model
-addblockelements MarkerGroups
-addblockelements MarkerGroups[*].Markers
-setfield MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
-setfield MarkerGroups[*].Markers[*].RegionIndex -1
-setfield MarkerGroups[*].Markers[*].PermutationIndex -1
-setfield MarkerGroups[*].Markers[*].Translation 0.16 0.0095 0.0075
-setfield MarkerGroups[*].Markers[*].Rotation -0.742 0.1 -0.6 0.8
-savetagchanges
-exit
+EditTag dw3\r3ach\objects\weapons\rifle\needle_rifle\needle_rifle.render_model
+AddBlockElements MarkerGroups
+AddBlockElements MarkerGroups[*].Markers
+SetField MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
+SetField MarkerGroups[*].Markers[*].RegionIndex -1
+SetField MarkerGroups[*].Markers[*].PermutationIndex -1
+SetField MarkerGroups[*].Markers[*].Translation 0.16 0.0095 0.0075
+SetField MarkerGroups[*].Markers[*].Rotation -0.742 0.1 -0.6 0.8
+SaveTagChanges
+Exit
 
-edittag dw3\r3ach\objects\weapons\rifle\plasma_repeater\plasma_repeater.render_model
-addblockelements MarkerGroups
-addblockelements MarkerGroups[*].Markers
-setfield MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
-setfield MarkerGroups[*].Markers[*].RegionIndex -1
-setfield MarkerGroups[*].Markers[*].PermutationIndex -1
-setfield MarkerGroups[*].Markers[*].Translation 0.1055 0.0066 -0.019
-setfield MarkerGroups[*].Markers[*].Rotation -0.365 0.205 -0.48 0.57
-savetagchanges
-exit
+EditTag dw3\r3ach\objects\weapons\rifle\plasma_repeater\plasma_repeater.render_model
+AddBlockElements MarkerGroups
+AddBlockElements MarkerGroups[*].Markers
+SetField MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
+SetField MarkerGroups[*].Markers[*].RegionIndex -1
+SetField MarkerGroups[*].Markers[*].PermutationIndex -1
+SetField MarkerGroups[*].Markers[*].Translation 0.1055 0.0066 -0.019
+SetField MarkerGroups[*].Markers[*].Rotation -0.365 0.205 -0.48 0.57
+SaveTagChanges
+Exit
 
-edittag dw3\r3ach\objects\weapons\rifle\shotgun\shotgun.render_model
-addblockelements MarkerGroups
-addblockelements MarkerGroups[*].Markers
-setfield MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
-setfield MarkerGroups[*].Markers[*].RegionIndex -1
-setfield MarkerGroups[*].Markers[*].PermutationIndex -1
-setfield MarkerGroups[*].Markers[*].NodeIndex 4
-setfield MarkerGroups[*].Markers[*].Translation -0.002 0.00115 -0.0164
-setfield MarkerGroups[*].Markers[*].Rotation -0.514 0.14 -0.278 0.5
-savetagchanges
-exit
+EditTag dw3\r3ach\objects\weapons\rifle\shotgun\shotgun.render_model
+AddBlockElements MarkerGroups
+AddBlockElements MarkerGroups[*].Markers
+SetField MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
+SetField MarkerGroups[*].Markers[*].RegionIndex -1
+SetField MarkerGroups[*].Markers[*].PermutationIndex -1
+SetField MarkerGroups[*].Markers[*].NodeIndex 4
+SetField MarkerGroups[*].Markers[*].Translation -0.002 0.00115 -0.0164
+SetField MarkerGroups[*].Markers[*].Rotation -0.514 0.14 -0.278 0.5
+SaveTagChanges
+Exit
 
-edittag dw3\r3ach\objects\weapons\rifle\sniper_rifle\sniper_rifle.render_model
-addblockelements MarkerGroups
-addblockelements MarkerGroups[*].Markers
-setfield MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
-setfield MarkerGroups[*].Markers[*].RegionIndex -1
-setfield MarkerGroups[*].Markers[*].PermutationIndex -1
-setfield MarkerGroups[*].Markers[*].Translation 0.138 -0.002 0.0112
-setfield MarkerGroups[*].Markers[*].Rotation -0.438 0.135 -0.337 0.4
-savetagchanges
-exit
+EditTag dw3\r3ach\objects\weapons\rifle\sniper_rifle\sniper_rifle.render_model
+AddBlockElements MarkerGroups
+AddBlockElements MarkerGroups[*].Markers
+SetField MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
+SetField MarkerGroups[*].Markers[*].RegionIndex -1
+SetField MarkerGroups[*].Markers[*].PermutationIndex -1
+SetField MarkerGroups[*].Markers[*].Translation 0.138 -0.002 0.0112
+SetField MarkerGroups[*].Markers[*].Rotation -0.438 0.135 -0.337 0.4
+SaveTagChanges
+Exit
 
-edittag dw3\r3ach\objects\weapons\support_high\rocket_launcher\rocket_launcher.render_model
-addblockelements MarkerGroups
-addblockelements MarkerGroups[*].Markers
-setfield MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
-setfield MarkerGroups[*].Markers[*].RegionIndex -1
-setfield MarkerGroups[*].Markers[*].PermutationIndex -1
-setfield MarkerGroups[*].Markers[*].Translation 0.0795 0.0202 -0.0016
-setfield MarkerGroups[*].Markers[*].Rotation 0.41 -0.136 0.2 1
-savetagchanges
-exit
+EditTag dw3\r3ach\objects\weapons\support_high\rocket_launcher\rocket_launcher.render_model
+AddBlockElements MarkerGroups
+AddBlockElements MarkerGroups[*].Markers
+SetField MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
+SetField MarkerGroups[*].Markers[*].RegionIndex -1
+SetField MarkerGroups[*].Markers[*].PermutationIndex -1
+SetField MarkerGroups[*].Markers[*].Translation 0.0795 0.0202 -0.0016
+SetField MarkerGroups[*].Markers[*].Rotation 0.41 -0.136 0.2 1
+SaveTagChanges
+Exit
 
-edittag dw3\r3ach\objects\weapons\support_high\spartan_laser\spartan_laser.render_model
-addblockelements MarkerGroups
-addblockelements MarkerGroups[*].Markers
-setfield MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
-setfield MarkerGroups[*].Markers[*].RegionIndex -1
-setfield MarkerGroups[*].Markers[*].PermutationIndex -1
-setfield MarkerGroups[*].Markers[*].Translation 0.064 0.00505 -0.0006
-setfield MarkerGroups[*].Markers[*].Rotation -0.078 -0.055 -0.285 1
-savetagchanges
-exit
+EditTag dw3\r3ach\objects\weapons\support_high\spartan_laser\spartan_laser.render_model
+AddBlockElements MarkerGroups
+AddBlockElements MarkerGroups[*].Markers
+SetField MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
+SetField MarkerGroups[*].Markers[*].RegionIndex -1
+SetField MarkerGroups[*].Markers[*].PermutationIndex -1
+SetField MarkerGroups[*].Markers[*].Translation 0.064 0.00505 -0.0006
+SetField MarkerGroups[*].Markers[*].Rotation -0.078 -0.055 -0.285 1
+SaveTagChanges
+Exit

@@ -3,21 +3,21 @@
 # -----------------------------------------------
 # Aiming the charged bolt at the ground now deals damage to nearby players
 
-edittag objects\weapons\pistol\plasma_pistol_power\projectiles\plasma_pistol_charged_bolt.projectile
+EditTag objects\weapons\pistol\plasma_pistol_power\projectiles\plasma_pistol_charged_bolt.projectile
 
-setfield AirborneDetonationEffect dw3\r3ach\objects\weapons\pistol\plasma_pistol\projectiles\detonation.effect
-setfield GroundDetonationEffect dw3\r3ach\objects\weapons\pistol\plasma_pistol\projectiles\detonation.effect
-setfield DetonationDamage dw3\r3ach\objects\weapons\pistol\plasma_pistol\projectiles\detonation.damage_effect
+SetField AirborneDetonationEffect dw3\r3ach\objects\weapons\pistol\plasma_pistol\projectiles\detonation.effect
+SetField GroundDetonationEffect dw3\r3ach\objects\weapons\pistol\plasma_pistol\projectiles\detonation.effect
+SetField DetonationDamage dw3\r3ach\objects\weapons\pistol\plasma_pistol\projectiles\detonation.damage_effect
 
-setfield MaterialResponses[0].DefaultResponse ImpactDetonate
+SetField MaterialResponses[0].DefaultResponse ImpactDetonate
 
-savetagchanges
-exit
+SaveTagChanges
+Exit
 
-edittag objects\weapons\pistol\plasma_pistol_power\damage_effects\plasma_pistol_charged_bolt.damage_effect
-setfield CustomResponseLabel emp_damage
-savetagchanges
-exit
+EditTag objects\weapons\pistol\plasma_pistol_power\damage_effects\plasma_pistol_charged_bolt.damage_effect
+SetField CustomResponseLabel emp_damage
+SaveTagChanges
+Exit
 
 # -----------------------------------------------
 # I                   MAGNUM                    I
@@ -26,50 +26,50 @@ exit
 # Nerf the damage on dw3 magnum
 # Nerf base damage magnum when dual wielding
 
-edittag objects\weapons\pistol\magnum\magnum.weapon
-setfield Barrels[0].FiringEffects[0].FiringDamage globals\damage_responses\trigger_semiauto3.damage_response_definition
+EditTag objects\weapons\pistol\magnum\magnum.weapon
+SetField Barrels[0].FiringEffects[0].FiringDamage globals\damage_responses\trigger_semiauto3.damage_response_definition
 # 0.5 1
-setfield Barrels[0].DualWeaponError.ErrorAngle 0.8 2.8
+SetField Barrels[0].DualWeaponError.ErrorAngle 0.8 2.8
 # 0.7
-setfield Barrels[0].DualWeaponError.DualWieldDamageScale 0.55
-savetagchanges
-exit
+SetField Barrels[0].DualWeaponError.DualWieldDamageScale 0.55
+SaveTagChanges
+Exit
 
-edittag objects\weapons\pistol\magnum\magnum_damage.weapon
-setfield Barrels[0].Firing.FireRecoveryTime 0.33
-savetagchanges
-exit
+EditTag objects\weapons\pistol\magnum\magnum_damage.weapon
+SetField Barrels[0].Firing.FireRecoveryTime 0.33
+SaveTagChanges
+Exit
 
-edittag objects\weapons\pistol\magnum\magnum_power.weapon
-setfield Barrels[0].Firing.FireRecoveryTime 0.25
-savetagchanges
-exit
+EditTag objects\weapons\pistol\magnum\magnum_power.weapon
+SetField Barrels[0].Firing.FireRecoveryTime 0.25
+SaveTagChanges
+Exit
 
 # -----------------------------------------------
 # I                  AUTOMAG                    I
 # -----------------------------------------------
 # Dual wield actually do damage now
 # Not sure if this balanced or not
-edittag objects\weapons\pistol\automag\automag.weapon
-setfield Barrels[0].DualWeaponError.ErrorAngle 0.5 1
-setfield Barrels[0].DualWeaponError.RuntimeDecelerationRate 1000
-setfield Barrels[0].DualWeaponError.RuntimeAccelerationRate 1000
-setfield Barrels[0].DualWeaponError.DualWieldDamageScale 0.6
-savetagchanges
-exit
+EditTag objects\weapons\pistol\automag\automag.weapon
+SetField Barrels[0].DualWeaponError.ErrorAngle 0.5 1
+SetField Barrels[0].DualWeaponError.RuntimeDecelerationRate 1000
+SetField Barrels[0].DualWeaponError.RuntimeAccelerationRate 1000
+SetField Barrels[0].DualWeaponError.DualWieldDamageScale 0.6
+SaveTagChanges
+Exit
 
 # -----------------------------------------------
 # I                SILENCED SMG                 I
 # -----------------------------------------------
 # Dual wield actually do damage now
 # Not sure if this balanced or not
-edittag objects\weapons\rifle\smg_silenced\smg_silenced.weapon
-setfield Barrels[0].DualWeaponError.DualWieldDamageScale 0.9
-setfield Barrels[0].DualWeaponError.ErrorAngle 1.5 3
-setfield Barrels[0].DualWeaponError.AccelerationTime 1
-setfield Barrels[0].DualWeaponError.DecelerationTime 0.2
-setfield Barrels[0].DualWeaponError.MinimumError 0.5
-setfield Barrels[0].DualWeaponError.RuntimeAccelerationRate 1
-setfield Barrels[0].DualWeaponError.RuntimeDecelerationRate 5
-savetagchanges
-exit
+EditTag objects\weapons\rifle\smg_silenced\smg_silenced.weapon
+SetField Barrels[0].DualWeaponError.DualWieldDamageScale 0.9
+SetField Barrels[0].DualWeaponError.ErrorAngle 1.5 3
+SetField Barrels[0].DualWeaponError.AccelerationTime 1
+SetField Barrels[0].DualWeaponError.DecelerationTime 0.2
+SetField Barrels[0].DualWeaponError.MinimumError 0.5
+SetField Barrels[0].DualWeaponError.RuntimeAccelerationRate 1
+SetField Barrels[0].DualWeaponError.RuntimeDecelerationRate 5
+SaveTagChanges
+Exit
