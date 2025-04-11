@@ -2186,7 +2186,7 @@ RemoveBlockElements ChangeColors 0 *
 SaveTagChanges
 Exit
 
-## echo Brighten up Frigate
+## echo Brighten up Frigate and Corvette
 
 EditTag objects\vehicles\human\unsc_fleet\unsc_stalwart_class_frigate\shaders\frigate_test_gameplay.shader
 SetArgument diffuse_coefficient 5
@@ -2202,6 +2202,12 @@ EditTag objects\vehicles\human\unsc_fleet\unsc_stalwart_class_frigate\shaders\fr
 SetArgument diffuse_coefficient 5
 SaveTagChanges
 Exit
+
+EditTag objects\vehicles\covenant\covenant_fleet\corvette\shaders\corvette_purp.shader
+SetArgument diffuse_coefficient 5
+SaveTagChanges
+Exit
+
 
 AddModFiles workingdir\assets
 SaveModPackage "modsfolder\RAMP_2.pak"
