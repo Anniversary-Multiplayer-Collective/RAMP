@@ -1,0 +1,13 @@
+
+opencachefile reachmaps\m45.map
+porttag objects\vehicles\covenant\covenant_fleet\super_carrier\super_carrier.scenery
+exit
+
+AddForgeItem "Super Carrier" 0 objects\vehicles\covenant\covenant_fleet\super_carrier\super_carrier.scenery
+
+ImportCollisionGeometry mopp overwrite "workingdir\models\SuperCarrierFixed.dae" objects\vehicles\covenant\covenant_fleet\super_carrier\super_carrier_new
+
+edittag objects\vehicles\covenant\covenant_fleet\super_carrier\super_carrier.model
+setfield CollisionModel objects\vehicles\covenant\covenant_fleet\super_carrier\super_carrier_new.collision_model
+savetagchanges
+exit

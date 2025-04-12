@@ -2208,6 +2208,9 @@ SetArgument diffuse_coefficient 5
 SaveTagChanges
 Exit
 
+echo ==Super Carrier==
+RunCommands "workingdir\cmds\SuperCarrier.cmds"
+
 
 AddModFiles workingdir\assets
 SaveModPackage "modsfolder\RAMP_2.pak"
