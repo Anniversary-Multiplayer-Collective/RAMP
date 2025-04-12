@@ -631,6 +631,8 @@ Exit
 
 OpenCacheFile "reachmaps\m45.map"
 PortTag objects\props\human\pioneer\pioneer_weapons_stash\pioneer_weapons_stash.device_machine
+porttag objects\levels\shared\device_controls\switches\cov_touchscreen_03\cov_touchscreen_03.device_control
+porttag objects\levels\shared\device_controls\cov_touchscreen_m45\cov_touchscreen_m45.device_control
 Exit
 
 OpenCacheFile "reachmaps\m30.map"
