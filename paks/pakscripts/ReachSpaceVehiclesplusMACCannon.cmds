@@ -1,0 +1,1479 @@
+# EXPECTED 14 ERRORS AT MAXIMUM WHEN SAVING MODPACKAGE, IF THERE ARE MORE THEN SOMETHING IS WRONG
+createmodpackage
+ReachSpaceVehicles
+Me, Flog, Wankers
+Me
+1.0
+Multiplayer
+
+# echo ==Add default bitmap + parameter for reach diffuse power...==
+OpenCacheFile "F:\reachmaps\dlc_slayer.map"
+PortTag rasterizer\diffuse_power_specular\diffuse_power.bitmap
+Exit
+
+EditTag *.rasg
+AddBlockElements defaultbitmaps
+SetField defaultbitmaps[*].bitmap rasterizer\diffuse_power_specular\diffuse_power.bitmap
+SaveTagChanges
+Exit
+
+StringId add g_diffuse_power_specular
+EditTag shaders\shader_options\material_cook_torrance_option_reach.render_method_option
+AddBlockElements parameters
+SetField parameters[*].name g_diffuse_power_specular
+SetField parameters[*].RenderMethodExtern material_diffuse_power
+SaveTagChanges
+Exit
+
+EditTag shaders\shader_options\material_two_lobe_phong_option_reach.render_method_option
+AddBlockElements parameters
+SetField parameters[*].name g_diffuse_power_specular
+SetField parameters[*].RenderMethodExtern material_diffuse_power
+SaveTagChanges
+Exit
+
+# echo ==Fix missing parameters in reach cook torrance...==
+EditTag shaders\shader_options\material_cook_torrance_option_reach.render_method_option
+AddBlockElements parameters
+SetField parameters[*].Name g_sampler_cc0236
+SetField parameters[*].rendermethodextern texture_cook_torrance_cc0236
+AddBlockElements parameters
+SetField parameters[*].Name g_sampler_dd0236
+SetField parameters[*].rendermethodextern texture_cook_torrance_dd0236
+AddBlockElements parameters
+SetField parameters[*].Name g_sampler_c78d78
+SetField parameters[*].rendermethodextern texture_cook_torrance_c78d78
+SaveTagChanges
+Exit
+
+opencachefile F:\reachmaps\m45.map
+nameblamtag objects\vehicles\human\falcon\fx\weapon\grenade_launcher\detonation.effect objects\vehicles\human\sabre\fx\weapon\sabre_gun\detonation
+nameblamtag objects\vehicles\human\falcon\turrets\falcon_side_gun_left\weapons\projectiles\damage_effect\grenade_launcher_tethered_grenade_explosion.damage_effect objects\vehicles\human\sabre\weapon\sabre_gatling_gun\projectiles\damage_effects\sabre_gatling_gun_bullet_explosion
+nameblamtag ui\chud\bitmaps\hud_vehicle_reticles.bitmap ui\chud\bitmaps\hud_vehicle_reticles_reach
+porttag objects\vehicles\human\sabre\sabre.vehicle
+porttag objects\vehicles\human\sabre\attachments\cockpit\cockpit.scenery
+porttag objects\vehicles\human\sabre\fx\weapon\sabre_gun\detonation.effect
+porttag objects\vehicles\human\sabre\fx\shield\shield_recharge.effect
+porttag objects\vehicles\human\sabre\fx\shield\shield_collapse.effect
+porttag objects\vehicles\human\sabre\weapon\sabre_gatling_gun\projectiles\damage_effects\sabre_gatling_gun_bullet_explosion.damage_effect
+porttag fx\shield_impacts\sabre.shit
+porttag ui\chud\bitmaps\hud_vehicle_reticles_reach.bitmap
+exit
+
+# edittag ui\hud\hud_messages.multilingual_unicode_string_list
+# setstring english shields_at "SHIELDS:"
+# setstring english hull_acceptable "HULL INTERGRITY:"
+# setstring english thruster_heat "THRUSTER HEAT"
+# setstring english gun_enabled "MACHINEGUN ENABLED|nSYSTEM ONLINE"
+# setstring english sabre_enter "\uE461\uE45F to pilot Sabre"
+# setstring english sabre_flip "\uE461\uE45F to flip Sabre"
+# setstring english sabre_gunner_enter "\uE461\uE45F to ride in Sabre"
+
+# setstring english mac_capacitors "CAPACITORS"
+# setstring english mac_online "ONLINE"
+# setstring english mac_abbreviations "ENUM:|n ELEV:|n ROTN:"
+# setstring english mac_charge "CHARGE"
+# setstring english mac_reload "RELOAD PROG."
+# setstring english mac_enter_driver "\uE461\uE45F to enter MAC Cannon"
+
+# setstring english seraph_drive "\uE461\uE45F to pilot Seraph"
+# setstring english seraph_flip "\uE461\uE45F to flip Seraph"
+# savetagchanges
+# exit
+
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-SABRE->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-VEHICLE
+# ------------------------------------------------------------------------------------------------
+duplicatetag camera\longsword_d_camera.camera_track camera\sabre_d_camera
+edittag objects\vehicles\human\sabre\sabre.vehicle
+setfield VehicleFlags NoFrictionWithDriver,AiDoesNotRequireDriver,AiDriverEnable
+setfield UnitFlags.Flags ImpactMeleeDiesOnShields,UnitHasBoost
+
+addblockelements MultiplayerObject
+setfield MultiplayerObject[0].Type FlyingVehicle
+setfield MultiplayerObject[0].DefaultSpawnTime 30
+setfield MultiplayerObject[0].DefaultAbandonTime 60
+
+setfield Boost.BoostDeadTime 0
+setfield Boost.BoostPeakTime 30000
+setfield Boost.BoostFallPower 0.005
+
+addblockelements PhysicsTypes.AlienFighter
+setfield PhysicsTypes.AlienFighter[0].Steering.OverdampenCuspAngle 0.5
+setfield PhysicsTypes.AlienFighter[0].Steering.OverdampenExponent 1.2
+
+setfield PhysicsTypes.AlienFighter[0].Turning.MaximumLeftTurn 1.534464
+setfield PhysicsTypes.AlienFighter[0].Turning.MaximumRightTurn -1.534464
+setfield PhysicsTypes.AlienFighter[0].Turning.TurnRate 6.424778
+
+setfield PhysicsTypes.AlienFighter[0].VelocityControl.MaximumForwardSpeed 30
+setfield PhysicsTypes.AlienFighter[0].VelocityControl.SpeedAcceleration 40
+setfield PhysicsTypes.AlienFighter[0].VelocityControl.SpeedDeceleration 60
+setfield PhysicsTypes.AlienFighter[0].VelocityControl.MaximumLeftSlide 6
+setfield PhysicsTypes.AlienFighter[0].VelocityControl.MaximumRightSlide 6
+setfield PhysicsTypes.AlienFighter[0].VelocityControl.SlideAcceleration 17
+setfield PhysicsTypes.AlienFighter[0].VelocityControl.SlideDeceleration 15
+
+setfield PhysicsTypes.AlienFighter[0].FlyingTorqueScale 1
+setfield PhysicsTypes.AlienFighter[0].FixedGunOffset 0 10
+setfield PhysicsTypes.AlienFighter[0].MaximumTrickFrequency 2.2
+setfield PhysicsTypes.AlienFighter[0].LoopTrickDuration 1.8
+setfield PhysicsTypes.AlienFighter[0].RollTrickDuration 1.8
+setfield PhysicsTypes.AlienFighter[0].ZeroGravitySpeed 4
+setfield PhysicsTypes.AlienFighter[0].FullGravitySpeed 3.7
+setfield PhysicsTypes.AlienFighter[0].StrafeBoostScale 7.5
+setfield PhysicsTypes.AlienFighter[0].OffStickDecelerationScale 0.1
+
+setfield HavokVehiclePhysics.GroundFriction 1
+setfield HavokVehiclePhysics.GroundDampFactor 1
+setfield HavokVehiclePhysics.GroundMovingFriction 0.5
+setfield HavokVehiclePhysics.GravityScale 0.5
+
+setfield Seats[0].Flags Driver,Gunner,ThirdPersonCamera,ControlsOpenAndClose,AllowsExitAndDetach,ForwardFromAttachment
+setfield Seats[0].Label warthog_d
+
+setfield Seats[1].Flags ThirdPersonCamera,AllowsWeapons,BoardingNeedAnyPassenger,AllowsExitAndDetach,ForwardFromAttachment
+setfield Seats[1].Label warthog_p
+setfield Seats[1].AiSeatType Passenger
+
+addblockelements Seats[0].UnitCamera.CameraTracks
+setfield Seats[0].UnitCamera.CameraTracks[0].Track camera\sabre_d_camera.camera_track
+
+# removeblockelements Seats[0].UnitCamera.CameraAcceleration 0 *
+savetagchanges
+exit
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-MODEL
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\human\sabre\sabre.model
+setfield AnimationDistance 100
+setfield Variants[0].Objects[0].ChildObject objects\vehicles\human\sabre\attachments\cockpit\cockpit.scenery
+setfield Targets[0].Flags ShowsTrackingReticle
+setfield Targets[0].LockOnData.TrackingType flying_vehicles
+setfield Targets[0].LockOnData.LockOnDistance 65
+
+setfield NewDamageInfo[0].MaximumVitality 1500
+setfield NewDamageInfo[0].ShieldDepletedEffect objects\vehicles\human\sabre\fx\shield\shield_collapse.effect
+setfield NewDamageInfo[0].ShieldRechargingEffect objects\vehicles\human\sabre\fx\shield\shield_recharge.effect
+setfield NewDamageInfo[0].RechargeTime 5
+setfield NewDamageInfo[0].RechargeFraction 0.5
+setfield NewDamageInfo[0].MaxShieldVitality 2000
+setfield NewDamageInfo[0].ShieldRechargeTime 2
+setfield NewDamageInfo[0].ShieldStunTime 5
+setfield NewDamageInfo[0].GlobalShieldMaterialName energy_shield_solid
+setfield NewDamageInfo[0].GlobalShieldMaterialIndex 190
+setfield NewDamageInfo[0].RuntimeShieldRechargeVelocity 0.5
+setfield NewDamageInfo[0].RuntimeHealthRechargeVelocity 0.2
+setfield ShieldImpactThirdPerson fx\shield_impacts\sabre.shit
+savetagchanges
+exit
+
+edittag objects\vehicles\human\sabre\sabre.render_model
+setfield Materials[11].RenderMethod null
+setfield Materials[15].RenderMethod null
+
+setfield Geometry.Meshes[2].Parts[0].FlagsNew PreventBackfaceCulling
+setfield Geometry.Meshes[2].Parts[1].FlagsNew PreventBackfaceCulling
+setfield Geometry.Meshes[3].Parts[0].FlagsNew PreventBackfaceCulling
+setfield Geometry.Meshes[3].Parts[1].FlagsNew PreventBackfaceCulling
+setfield Geometry.Meshes[3].Parts[2].FlagsNew PreventBackfaceCulling
+setfield Geometry.Meshes[3].Parts[3].FlagsNew PreventBackfaceCulling
+setfield Geometry.Meshes[3].Parts[4].FlagsNew PreventBackfaceCulling
+setfield Geometry.Meshes[3].Parts[5].FlagsNew PreventBackfaceCulling
+setfield Geometry.Meshes[3].Parts[6].FlagsNew PreventBackfaceCulling
+setfield Geometry.Meshes[3].Parts[7].FlagsNew PreventBackfaceCulling
+setfield Geometry.Meshes[3].Parts[8].FlagsNew PreventBackfaceCulling
+setfield Geometry.Meshes[3].Parts[9].FlagsNew PreventBackfaceCulling
+setfield Geometry.Meshes[3].Parts[10].FlagsNew DrawCullRenderingShields,PreventBackfaceCulling
+setfield Geometry.Meshes[3].Parts[11].FlagsNew DrawCullRenderingShields,PreventBackfaceCulling
+setfield Geometry.Meshes[3].Parts[12].FlagsNew PreventBackfaceCulling
+setfield Geometry.Meshes[3].Parts[13].FlagsNew PreventBackfaceCulling
+setfield Geometry.Meshes[3].Parts[14].FlagsNew PreventBackfaceCulling
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-ANIMATION
+# ------------------------------------------------------------------------------------------------
+
+edittag objects\vehicles\human\sabre\sabre.model_animation_graph
+addanimation F:\Github\Ramp-2\Animations\Sabre
+savetagchanges
+exit
+
+edittag objects\vehicles\human\sabre\sabre.model_animation_graph
+sortmodes
+addblockelements BlendScreens
+setfield BlendScreens[0].Label blend_screen_#0
+setfield BlendScreens[0].RightYawPerFrame 30
+setfield BlendScreens[0].LeftYawPerFrame 30
+setfield BlendScreens[0].RightFrameCount 1
+setfield BlendScreens[0].LeftFrameCount 1
+setfield Animations[9].AnimationData.BlendScreen 0
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-WEAPONS
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\human\sabre\weapon\sabre_gatling_gun\sabre_gatling_gun.weapon
+setfield WeaponFlags.NewFlags SecondaryTriggerOverridesGrenades,SupportWeapon,CannotFireWhileBoosting
+removeblockelements TargetTracking 0 *
+addblockelements TargetTracking
+addblockelements TargetTracking[0].TrackingTypes 2
+setfield TargetTracking[0].TrackingTypes[0].TrackingType2 flying_vehicles
+setfield TargetTracking[0].TrackingTypes[1].TrackingType2 ground_vehicles
+setfield TargetTracking[0].GraceTime 0.1
+
+# setfield HudInterface ui\chud\v_chaingun.chud_definition
+
+setfield WeaponAimAssist.AutoaimAngle 7
+setfield WeaponAimAssist.AutoaimRange 500
+setfield WeaponAimAssist.AutoaimFalloffRange 250
+setfield WeaponAimAssist.MagnetismAngle 13
+setfield WeaponAimAssist.MagnetismRange 500
+setfield WeaponAimAssist.MagnetismFalloffRange 150
+
+setfield Barrels[0].Flags.HaloOnline ProjectilesUseWeaponOrigin,StaggerFireAcrossMultipleMarkers,ProjectileFiresInMarkerDirection
+setfield Triggers[0].LockonHoldTime 15
+setfield Triggers[0].LockonGraceTime 0.5
+setfield Tracking HumanTracking
+setfield Triggers[1].LockonHoldTime 1.5
+setfield Triggers[1].LockonGraceTime 0.5
+setfield Barrels[0].Flags.HaloOnline TracksFiredProjectile,ProjectilesUseWeaponOrigin,StaggerFireAcrossMultipleMarkers,ProjectileFiresInMarkerDirection
+setfield Barrels[1].Flags.HaloOnline TracksFiredProjectile,ProjectilesUseWeaponOrigin,ProjectilesFireParallel,StaggerFireAcrossMultipleMarkers
+setfield Barrels[1].Firing.FireRecoveryTime 4
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->CAMERA
+# ------------------------------------------------------------------------------------------------
+
+edittag globals\damage_responses\vehicle_sabre_boost.damage_response_definition
+setfield Classes[0].CameraShake.CameraImpulse.FadeFunction VeryEarly
+setfield Classes[0].CameraShake.CameraImpulse.ImpulseDuration 0.55
+setfield Classes[0].CameraShake.CameraShakeData.RandomRotation 0.13
+savetagchanges
+exit
+
+edittag globals\damage_responses\explosion_space_lowpass.damage_response_definition
+setfield Classes[0].CameraShake.CameraImpulse.ImpulseDuration 0.4
+setfield Classes[0].CameraShake.CameraImpulse.Rotation 1.1
+setfield Classes[0].CameraShake.CameraImpulse.Pushback 0.18
+
+setfield Classes[0].CameraShake.CameraShakeData.ShakeDuration 1.25
+setfield Classes[0].CameraShake.CameraShakeData.RandomTranslation 0.1
+setfield Classes[0].CameraShake.CameraShakeData.RandomRotation 0
+setfield Classes[0].CameraShake.CameraShakeData.WobbleFunctionPeriod 1
+setfield Classes[0].CameraShake.CameraShakeData.WobbleWeight 0
+savetagchanges
+exit
+
+edittag globals\damage_responses\explosion_small_lowpass.damage_response_definition
+setfield Classes[0].CameraShake.CameraImpulse.ImpulseDuration 0.5
+setfield Classes[0].CameraShake.CameraImpulse.Rotation 0.35
+setfield Classes[0].CameraShake.CameraImpulse.Pushback 0.05
+setfield Classes[0].CameraShake.CameraShakeData.ShakeDuration 1
+setfield Classes[0].CameraShake.CameraShakeData.RandomTranslation 0.01
+setfield Classes[0].CameraShake.CameraShakeData.RandomRotation 0
+setfield Classes[0].CameraShake.CameraShakeData.WobbleFunctionPeriod 0.5
+setfield Classes[0].CameraShake.CameraShakeData.WobbleWeight 0
+
+setfield Classes[1].CameraShake.CameraImpulse.ImpulseDuration 0.5
+setfield Classes[1].CameraShake.CameraImpulse.Rotation 0.35
+setfield Classes[1].CameraShake.CameraImpulse.Pushback 0.058
+setfield Classes[1].CameraShake.CameraShakeData.ShakeDuration 1
+setfield Classes[1].CameraShake.CameraShakeData.RandomTranslation 0.02
+setfield Classes[1].CameraShake.CameraShakeData.RandomRotation 0
+setfield Classes[1].CameraShake.CameraShakeData.WobbleFunctionPeriod 0.5
+setfield Classes[1].CameraShake.CameraShakeData.WobbleWeight 0
+savetagchanges
+exit
+
+# Hopefully 0.7.2.0 adds a 360 view pitch, inshallah. keke
+edittag camera\sabre_d_camera.camera_track
+removeblockelements ControlPoints 0 *
+AddBlockElements ControlPoints 25
+SetField ControlPoints[0].Position -0.3838196 -2.4134E-07 9.910317
+SetField ControlPoints[0].Orientation -3.9000003E-09 -0.7071068 3.9000003E-09 -0.7071068
+SetField ControlPoints[1].Position -3.6435485 -6.8405996E-08 8.95217
+SetField ControlPoints[1].Orientation -2E-09 -0.49999994 -8E-10 -0.86602545
+SetField ControlPoints[2].Position -5.279507 -4.74E-10 8.10234
+SetField ControlPoints[2].Orientation -1.1E-09 -0.3826834 -4.8E-09 -0.92387956
+SetField ControlPoints[3].Position -6.707014 5.9726E-08 7.0114684
+SetField ControlPoints[3].Orientation 5.6700006E-08 -0.25881904 8.000001E-10 -0.96592593
+SetField ControlPoints[4].Position -7.852331 -6.8699E-08 5.700298
+SetField ControlPoints[4].Orientation 7.47E-08 -0.17364804 -1.04E-08 -0.9848078
+SetField ControlPoints[5].Position -8.884406 -1.41927E-07 4.126571
+SetField ControlPoints[5].Orientation 8.81E-08 -0.08715566 -2.2E-08 -0.9961947
+SetField ControlPoints[6].Position -9.587788 -1.1088E-08 2.4935205
+SetField ControlPoints[6].Orientation 4.402E-07 4.45E-08 9E-09 -1
+SetField ControlPoints[7].Position -9.813882 1.01224E-07 0.68321484
+SetField ControlPoints[7].Orientation 4.164E-07 0.087155394 -7.1E-09 -0.9961947
+SetField ControlPoints[8].Position -9.549855 -1.176621E-06 -1.4695092
+SetField ControlPoints[8].Orientation -1.2180001E-07 0.17364822 -4.7310004E-07 -0.98480785
+SetField ControlPoints[9].Position -8.899433 -1.7994439E-06 -3.2952588
+SetField ControlPoints[9].Orientation 1.15E-08 0.25881907 -9.291E-07 -0.9659258
+SetField ControlPoints[10].Position -7.399509 8.961082E-06 -5.3759284
+SetField ControlPoints[10].Orientation 2.8710006E-06 0.3826835 1.1717001E-06 -0.9238796
+SetField ControlPoints[11].Position -4.966384 1.0235593E-05 -6.761233
+SetField ControlPoints[11].Orientation 2.6935E-06 0.50000006 1.5364E-06 -0.8660254
+SetField ControlPoints[12].Position -1.280485 3.73721E-07 -7.316159
+SetField ControlPoints[12].Orientation 1.2600002E-08 0.70710677 -1.0300001E-08 -0.7071069
+SetField ControlPoints[13].Position 2.4054141 -1.0235593E-05 -6.761233
+SetField ControlPoints[13].Orientation -2.6935E-06 0.8660254 -1.5364E-06 -0.50000006
+SetField ControlPoints[14].Position 4.83853817 -8.961082E-06 -5.3759284
+SetField ControlPoints[14].Orientation -2.8710006E-06 0.9238796 -1.1717001E-06 -0.3826835
+SetField ControlPoints[15].Position 6.3384619 1.7994439E-06 -3.2952588
+SetField ControlPoints[15].Orientation -1.15E-08 0.9659258 9.291E-07 -0.25881907
+SetField ControlPoints[16].Position 6.9888844 1.176621E-06 -1.4695092
+SetField ControlPoints[16].Orientation 1.2180001E-07 0.98480785 4.7310004E-07 -0.17364822
+SetField ControlPoints[17].Position 7.2529116 -1.01224E-07 0.68321484
+SetField ControlPoints[17].Orientation -4.164E-07 0.9961947 7.1E-09 -0.087155394
+SetField ControlPoints[18].Position 7.0268176 1.1088E-08 2.4935205
+SetField ControlPoints[18].Orientation -4.402E-07 1 -9E-09 -4.45E-08
+SetField ControlPoints[19].Position 6.3234355 1.41927E-07 4.126571
+SetField ControlPoints[19].Orientation -8.81E-08 0.9961947 2.2E-08 0.08715566
+SetField ControlPoints[20].Position 5.2913609 6.8699E-08 5.700298
+SetField ControlPoints[20].Orientation -7.47E-08 0.9848078 1.04E-08 0.17364804
+SetField ControlPoints[21].Position 4.14604378 -5.9726E-08 7.0114684
+SetField ControlPoints[21].Orientation -5.6700006E-08 0.96592593 -8.000001E-10 0.25881904
+SetField ControlPoints[22].Position 2.7185364 4.74E-10 8.10234
+SetField ControlPoints[22].Orientation 1.1E-09 0.92387956 4.8E-09 0.3826834
+SetField ControlPoints[23].Position 1.0825777 6.8405996E-08 8.95217
+SetField ControlPoints[23].Orientation 2E-09 0.86602545 8E-10 0.49999994
+SetField ControlPoints[24].Position -0.3838196 2.4134E-07 9.910317
+SetField ControlPoints[24].Orientation 3.9000003E-09 0.7071068 -3.9000003E-09 0.7071068
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->SOUNDS
+# ------------------------------------------------------------------------------------------------
+
+edittag sound\vehicles\sabre\sabre_engine_left\sabre_engine_left.sound_looping
+setfield SoundClass VehicleEngine
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain -11
+savetagchanges
+exit
+
+edittag sound\vehicles\sabre\sabre_engine_right\sabre_engine_right.sound_looping
+setfield SoundClass VehicleEngine
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain -11
+savetagchanges
+exit
+
+edittag sound\vehicles\sabre\sabre_boost_left\sabre_boost_left.sound_looping
+setfield SoundClass VehicleEngine
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain 1
+savetagchanges
+exit
+
+edittag sound\vehicles\sabre\sabre_boost_right\sabre_boost_right.sound_looping
+setfield SoundClass VehicleEngine
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain 1
+savetagchanges
+exit
+
+edittag sound\vehicles\sabre\sabre_missile_expl.sound
+setfield PitchRanges[0].Permutations[0].Gain 6
+setfield PitchRanges[0].Permutations[1].Gain 6
+setfield PitchRanges[0].Permutations[2].Gain 6
+setfield PitchRanges[0].Permutations[3].Gain 6
+setfield PitchRanges[0].Permutations[4].Gain 6
+savetagchanges
+exit
+
+edittag sound\vehicles\sabre\sabre_missile_burst.sound
+setfield PitchRanges[0].Permutations[0].Gain 6
+setfield PitchRanges[0].Permutations[1].Gain 6
+setfield PitchRanges[0].Permutations[2].Gain 6
+setfield PitchRanges[0].Permutations[3].Gain 6
+savetagchanges
+exit
+
+edittag sound\vehicles\sabre\sabre_missile_fire.sound
+setfield PitchRanges[0].Permutations[0].Gain 2
+setfield PitchRanges[0].Permutations[1].Gain 2
+setfield PitchRanges[0].Permutations[2].Gain 2
+setfield PitchRanges[0].Permutations[3].Gain 2
+savetagchanges
+exit
+
+edittag sound\vehicles\sabre\sabre_destroyed.sound
+setfield PitchRanges[0].Permutations[0].Gain 4
+setfield PitchRanges[0].Permutations[1].Gain 4
+setfield PitchRanges[0].Permutations[2].Gain 4
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-HUD
+# ------------------------------------------------------------------------------------------------
+# SPITTING GAS ON THE FIRE, THAT'S BURNING THIS TOWN
+# PIECES REALLY CONSPIRE, WE SHUT EM ALL DOWN
+# THEN SUDDENLY-
+# THOSE WHO ENDURED THE HARDEST ARE BOUND TO STAY FOR THE LULLABY
+
+edittag ui\chud\animations\sabre_pitch_slide.chud_animation_definition
+setfield Texture[0].Keyframes[1].TimeOffset 1000
+setfield RuntimePeriodMsec 1000
+savetagchanges
+exit
+
+edittag ui\chud\animations\locking_on.chud_animation_definition
+setfield Rotation[0].Keyframes[1].FrameNumber 1600
+setfield RuntimePeriodMsec 1600
+savetagchanges
+exit
+
+edittag ui\chud\animations\sabre_health.chud_animation_definition
+setfield Color[0].Keyframes[0].TimeOffset 256000
+setfield Color[0].Keyframes[1].TimeOffset 256010
+setfield RuntimePeriodMsec 256010
+savetagchanges
+exit
+
+edittag ui\chud\animations\sabre_shields.chud_animation_definition
+setfield Color[0].Keyframes[0].TimeOffset 250000
+setfield Color[0].Keyframes[1].TimeOffset 250010
+setfield Alpha[0].Keyframes[2].TimeOffset 250010
+setfield Alpha[0].Keyframes[1].TimeOffset 250000
+
+setfield Alpha[0].Keyframes[0].ScalarValue 0.1
+setfield Alpha[0].Keyframes[1].ScalarValue 0.5
+setfield Alpha[0].Keyframes[2].ScalarValue 0.5
+setfield RuntimePeriodMsec 250010
+savetagchanges
+exit
+
+# It's inhumane to be not perfect
+edittag ui\chud\v_sabre_turret.chud_definition
+setfield HudWidgets[0].BitmapWidgets[1].RuntimeWidgetIndex 1
+setfield HudWidgets[0].TextWidgets[0].WidgetIndex 2
+setfield HudWidgets[1].BitmapWidgets[0].RuntimeWidgetIndex 3
+setfield HudWidgets[1].BitmapWidgets[1].RuntimeWidgetIndex 4
+setfield HudWidgets[1].BitmapWidgets[2].RuntimeWidgetIndex 5
+
+setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Anchor Parent
+setfield HudWidgets[0].BitmapWidgets[1].PlacementData[0].Anchor Parent
+setfield HudWidgets[0].TextWidgets[0].PlacementData[0].Anchor Parent
+setfield HudWidgets[0].PlacementData[0].Anchor Crosshair
+setfield HudWidgets[0].PlacementData[0].Scale 1.5 1.5
+
+setfield HudWidgets[1].BitmapWidgets[0].PlacementData[0].Anchor Crosshair
+setfield HudWidgets[1].BitmapWidgets[1].PlacementData[0].Anchor WeaponTarget
+setfield HudWidgets[1].BitmapWidgets[2].PlacementData[0].Anchor Crosshair
+
+setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Origin 13.5 0
+setfield HudWidgets[0].BitmapWidgets[0].RenderData[0].ExternalInput CameraPitch
+setfield HudWidgets[0].BitmapWidgets[0].RenderData[0].OutputColorC HighlightForeground
+setfield HudWidgets[0].BitmapWidgets[0].RenderData[0].LocalScalarA 0.5
+setfield HudWidgets[0].BitmapWidgets[0].RenderData[0].LocalScalarB 0.5
+setfield HudWidgets[0].BitmapWidgets[0].RenderData[0].LocalScalarC 0.5
+setfield HudWidgets[0].BitmapWidgets[0].RenderData[0].LocalScalarD 0.5
+setfield HudWidgets[0].BitmapWidgets[0].RenderData[0].OutputScalarB RangeInput
+setfield HudWidgets[0].BitmapWidgets[0].RenderData[0].OutputScalarD RangeInput
+setfield HudWidgets[0].BitmapWidgets[0].RenderData[0].OutputScalarE LocalC
+setfield HudWidgets[0].BitmapWidgets[0].RenderData[0].ScissorRect 275 450 495 780
+setfield HudWidgets[0].BitmapWidgets[0].AnimationData[0].Active.InputType Extern1
+setfield HudWidgets[0].BitmapWidgets[0].Flags MirrorHorizontally
+
+setfield HudWidgets[0].BitmapWidgets[1].PlacementData[0].Offset -255 -142
+setfield HudWidgets[0].BitmapWidgets[1].RenderData[0].OutputColorC HighlightForeground
+
+setfield HudWidgets[0].TextWidgets[0].PlacementData[0].Offset -162 -142
+setfield HudWidgets[0].TextWidgets[0].PlacementData[0].Scale 0.5 0.5
+setfield HudWidgets[0].TextWidgets[0].RenderData[0].ShaderType TextSimple
+setfield HudWidgets[0].TextWidgets[0].Font FullscreenHudMessage
+setfield HudWidgets[0].TextWidgets[0].RenderData[0].OutputColorA HighlightForeground
+
+setfield HudWidgets[1].ParallaxData ui\chud\parallax\vehicles.chud_widget_parallax_data
+setfield HudWidgets[1].BitmapWidgets[0].Bitmap ui\chud\bitmaps\hud_vehicle_reticles_reach.bitmap
+setfield HudWidgets[1].BitmapWidgets[1].Bitmap ui\chud\bitmaps\hud_vehicle_reticles_reach.bitmap
+setfield HudWidgets[1].BitmapWidgets[2].Bitmap ui\chud\bitmaps\hud_vehicle_reticles_reach.bitmap
+
+setfield HudWidgets[1].BitmapWidgets[0].PlacementData[0].Origin 0 0
+setfield HudWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 1.3 1.3
+setfield HudWidgets[1].BitmapWidgets[0].StateData[0].WeaponArmedStateHO RightHand
+setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].ShaderType Crosshair
+setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].ExternalInput Autoaim
+setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].OutputColorA CrosshairNormal
+setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].OutputColorB CrosshairEnemy
+setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].OutputColorC CrosshairFriendly
+
+setfield HudWidgets[1].BitmapWidgets[1].PlacementData[0].Origin 0 0
+setfield HudWidgets[1].BitmapWidgets[1].PlacementData[0].Scale -0.75 0.75
+setfield HudWidgets[1].BitmapWidgets[1].StateData[0].WeaponMiscState LockedOnAvailable
+setfield HudWidgets[1].BitmapWidgets[1].StateData[0].WeaponArmedStateHO RightHand
+setfield HudWidgets[1].BitmapWidgets[1].RenderData[0].ShaderType Crosshair
+setfield HudWidgets[1].BitmapWidgets[1].RenderData[0].ExternalInput Autoaim
+setfield HudWidgets[1].BitmapWidgets[1].RenderData[0].OutputColorA CrosshairEnemy
+setfield HudWidgets[1].BitmapWidgets[1].RenderData[0].OutputColorB CrosshairEnemy
+setfield HudWidgets[1].BitmapWidgets[1].RenderData[0].OutputColorC CrosshairEnemy
+
+setfield HudWidgets[1].BitmapWidgets[2].PlacementData[0].Origin 0 0
+setfield HudWidgets[1].BitmapWidgets[2].PlacementData[0].Scale -0.75 0.75
+setfield HudWidgets[1].BitmapWidgets[2].StateData[0].WeaponMiscState LockedOnUnavailable
+setfield HudWidgets[1].BitmapWidgets[2].StateData[0].WeaponArmedStateHO RightHand
+setfield HudWidgets[1].BitmapWidgets[2].RenderData[0].ShaderType Crosshair
+setfield HudWidgets[1].BitmapWidgets[2].RenderData[0].ExternalInput Autoaim
+setfield HudWidgets[1].BitmapWidgets[2].RenderData[0].OutputColorA CrosshairNormal
+setfield HudWidgets[1].BitmapWidgets[2].RenderData[0].OutputColorB CrosshairEnemy
+setfield HudWidgets[1].BitmapWidgets[2].RenderData[0].OutputColorC CrosshairFriendly
+
+savetagchanges
+exit
+
+edittag ui\chud\v_sabre.chud_definition
+
+# SORTWIDETINDEX COMMAND WHNE
+setfield HudWidgets[0].BitmapWidgets[1].RuntimeWidgetIndex 1
+setfield HudWidgets[0].BitmapWidgets[2].RuntimeWidgetIndex 2
+setfield HudWidgets[0].BitmapWidgets[3].RuntimeWidgetIndex 3
+setfield HudWidgets[0].BitmapWidgets[4].RuntimeWidgetIndex 4
+setfield HudWidgets[0].TextWidgets[0].WidgetIndex 5
+setfield HudWidgets[0].TextWidgets[1].WidgetIndex 6
+setfield HudWidgets[0].TextWidgets[2].WidgetIndex 7
+setfield HudWidgets[0].TextWidgets[3].WidgetIndex 8
+setfield HudWidgets[0].TextWidgets[4].WidgetIndex 9
+setfield HudWidgets[0].TextWidgets[5].WidgetIndex 10
+setfield HudWidgets[0].TextWidgets[6].WidgetIndex 11
+setfield HudWidgets[1].BitmapWidgets[0].RuntimeWidgetIndex 12
+setfield HudWidgets[1].BitmapWidgets[1].RuntimeWidgetIndex 13
+setfield HudWidgets[1].TextWidgets[0].WidgetIndex 14
+setfield HudWidgets[1].TextWidgets[1].WidgetIndex 15
+setfield HudWidgets[1].TextWidgets[2].WidgetIndex 16
+setfield HudWidgets[2].BitmapWidgets[0].RuntimeWidgetIndex 17
+setfield HudWidgets[2].TextWidgets[0].WidgetIndex 18
+setfield HudWidgets[2].TextWidgets[1].WidgetIndex 19
+setfield HudWidgets[2].TextWidgets[2].WidgetIndex 20
+setfield HudWidgets[3].BitmapWidgets[0].RuntimeWidgetIndex 21
+setfield HudWidgets[3].TextWidgets[0].WidgetIndex 22
+
+# HUDWIDGETS 0
+setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Anchor Parent
+setfield HudWidgets[0].BitmapWidgets[1].PlacementData[0].Anchor Parent
+setfield HudWidgets[0].BitmapWidgets[2].PlacementData[0].Anchor Parent
+setfield HudWidgets[0].BitmapWidgets[3].PlacementData[0].Anchor Parent
+setfield HudWidgets[0].BitmapWidgets[4].PlacementData[0].Anchor Parent
+setfield HudWidgets[0].TextWidgets[0].PlacementData[0].Anchor Parent
+setfield HudWidgets[0].TextWidgets[1].PlacementData[0].Anchor Parent
+setfield HudWidgets[0].TextWidgets[2].PlacementData[0].Anchor Parent
+setfield HudWidgets[0].TextWidgets[3].PlacementData[0].Anchor Parent
+setfield HudWidgets[0].TextWidgets[4].PlacementData[0].Anchor Parent
+setfield HudWidgets[0].TextWidgets[5].PlacementData[0].Anchor Parent
+setfield HudWidgets[0].TextWidgets[6].PlacementData[0].Anchor Parent
+setfield HudWidgets[0].PlacementData[0].Anchor Crosshair
+setfield HudWidgets[0].PlacementData[0].Scale 1.5 1.5
+
+setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Origin 2.2 12
+setfield HudWidgets[0].BitmapWidgets[0].Flags MirrorHorizontally,MirrorVertically
+setfield HudWidgets[0].BitmapWidgets[0].RenderData[0].OutputColorC HighlightForeground
+
+setfield HudWidgets[0].BitmapWidgets[1].PlacementData[0].Offset 273.5 -144.5
+setfield HudWidgets[0].BitmapWidgets[1].PlacementData[0].Scale 0.98 0.98
+setfield HudWidgets[0].BitmapWidgets[1].AnimationData[0].Active.InputType Extern1
+
+setfield HudWidgets[0].BitmapWidgets[1].RenderData[0].ShaderType MeterGradient
+setfield HudWidgets[0].BitmapWidgets[1].RenderData[0].ExternalInput BodyVitality
+setfield HudWidgets[0].BitmapWidgets[1].RenderData[0].LocalScalarA 20
+setfield HudWidgets[0].BitmapWidgets[1].RenderData[0].LocalScalarB 5
+setfield HudWidgets[0].BitmapWidgets[1].RenderData[0].LocalScalarC 1
+setfield HudWidgets[0].BitmapWidgets[1].RenderData[0].LocalScalarD 270
+setfield HudWidgets[0].BitmapWidgets[1].RenderData[0].OutputColorA HighlightForeground
+setfield HudWidgets[0].BitmapWidgets[1].RenderData[0].OutputColorB HighlightForeground
+setfield HudWidgets[0].BitmapWidgets[1].RenderData[0].OutputColorD WarningFlash
+setfield HudWidgets[0].BitmapWidgets[1].RenderData[0].OutputScalarB LocalA
+setfield HudWidgets[0].BitmapWidgets[1].RenderData[0].OutputScalarC LocalB
+setfield HudWidgets[0].BitmapWidgets[1].RenderData[0].OutputScalarD LocalC
+setfield HudWidgets[0].BitmapWidgets[1].RenderData[0].OutputScalarE LocalD
+
+setfield HudWidgets[0].BitmapWidgets[2].AnimationData[0].Active.InputType Extern1
+setfield HudWidgets[0].BitmapWidgets[2].RenderData[0].ShaderType Meter
+setfield HudWidgets[0].BitmapWidgets[2].RenderData[0].ExternalInput ShieldAmount
+
+setfield HudWidgets[0].BitmapWidgets[2].RenderData[0].LocalScalarA 0.8
+setfield HudWidgets[0].BitmapWidgets[2].RenderData[0].LocalScalarB 0.8
+setfield HudWidgets[0].BitmapWidgets[2].RenderData[0].OutputColorA HighlightForeground
+setfield HudWidgets[0].BitmapWidgets[2].RenderData[0].OutputColorB HighlightForeground
+setfield HudWidgets[0].BitmapWidgets[2].RenderData[0].OutputColorD WarningFlash
+
+setfield HudWidgets[0].BitmapWidgets[2].RenderData[0].OutputScalarB LocalA
+setfield HudWidgets[0].BitmapWidgets[2].RenderData[0].OutputScalarC LocalB
+setfield HudWidgets[0].BitmapWidgets[2].RenderData[0].OutputScalarD LocalC
+setfield HudWidgets[0].BitmapWidgets[2].RenderData[0].OutputScalarE LocalD
+
+setfield HudWidgets[0].BitmapWidgets[3].PlacementData[0].Origin -0.5 -3
+setfield HudWidgets[0].BitmapWidgets[3].RenderData[0].OutputColorA SecondaryBackground
+setfield HudWidgets[0].BitmapWidgets[3].RenderData[0].OutputColorB HighlightForeground
+setfield HudWidgets[0].BitmapWidgets[3].RenderData[0].OutputColorC HighlightForeground
+setfield HudWidgets[0].BitmapWidgets[3].RenderData[0].OutputColorD HighlightForeground
+
+setfield HudWidgets[0].BitmapWidgets[4].PlacementData[0].Origin -0.5 -3
+setfield HudWidgets[0].BitmapWidgets[4].RenderData[0].OutputColorA HighlightForeground
+setfield HudWidgets[0].BitmapWidgets[4].RenderData[0].OutputColorB HighlightForeground
+setfield HudWidgets[0].BitmapWidgets[4].RenderData[0].OutputColorC HighlightForeground
+setfield HudWidgets[0].BitmapWidgets[4].RenderData[0].OutputColorD HighlightForeground
+
+# TEXT WIDGETS 0
+setfield HudWidgets[0].TextWidgets[0].PlacementData[0].Scale 0.5 0.5
+setfield HudWidgets[0].TextWidgets[0].PlacementData[0].Offset 205 -154
+setfield HudWidgets[0].TextWidgets[0].Font FullscreenHudMessage
+setfield HudWidgets[0].TextWidgets[0].RenderData[0].ShaderType TextSimple
+setfield HudWidgets[0].TextWidgets[0].RenderData[0].OutputColorA HighlightForeground
+
+setfield HudWidgets[0].TextWidgets[1].PlacementData[0].Scale 0.5 0.5
+setfield HudWidgets[0].TextWidgets[1].PlacementData[0].Offset 205 -138
+setfield HudWidgets[0].TextWidgets[1].Font FullscreenHudMessage
+setfield HudWidgets[0].TextWidgets[1].RenderData[0].ShaderType TextSimple
+setfield HudWidgets[0].TextWidgets[1].RenderData[0].OutputColorA HighlightForeground
+
+setfield HudWidgets[0].TextWidgets[2].PlacementData[0].Offset 229 -154
+setfield HudWidgets[0].TextWidgets[2].PlacementData[0].Scale 0.27 0.27
+setfield HudWidgets[0].TextWidgets[2].RenderData[0].ShaderType TextSimple
+setfield HudWidgets[0].TextWidgets[2].RenderData[0].ExternalInput ShieldAmount
+setfield HudWidgets[0].TextWidgets[2].TextFlags StringIsANumber
+setfield HudWidgets[0].TextWidgets[2].Font SplitscreenHudMessage
+setfield HudWidgets[0].TextWidgets[2].RenderData[0].OutputColorA HighlightForeground
+setfield HudWidgets[0].TextWidgets[2].RenderData[0].OutputColorB HighlightForeground
+
+setfield HudWidgets[0].TextWidgets[4].PlacementData[0].Offset 229 -138
+setfield HudWidgets[0].TextWidgets[4].PlacementData[0].Scale 0.27 0.27
+setfield HudWidgets[0].TextWidgets[4].RenderData[0].ShaderType TextSimple
+setfield HudWidgets[0].TextWidgets[4].RenderData[0].ExternalInput BodyVitality
+setfield HudWidgets[0].TextWidgets[4].TextFlags StringIsANumber
+setfield HudWidgets[0].TextWidgets[4].Font SplitscreenHudMessage
+setfield HudWidgets[0].TextWidgets[4].RenderData[0].OutputColorA HighlightForeground
+setfield HudWidgets[0].TextWidgets[4].RenderData[0].OutputColorB HighlightForeground
+
+setfield HudWidgets[0].TextWidgets[5].PlacementData[0].Origin 1.3 0.5
+setfield HudWidgets[0].TextWidgets[5].PlacementData[0].Offset 243 147
+setfield HudWidgets[0].TextWidgets[5].PlacementData[0].Scale 0.5 0.5
+setfield HudWidgets[0].TextWidgets[5].Font FullscreenHudMessage
+setfield HudWidgets[0].TextWidgets[5].RenderData[0].ShaderType TextSimple
+setfield HudWidgets[0].TextWidgets[5].RenderData[0].OutputColorA HighlightForeground
+
+removeblockelements HudWidgets 1 *
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-EFFECTS
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\human\sabre\fx\destruction\sabre_explosion.effect
+setfield Events[0].ParticleSystems[0].InverseLodFeatherIn 1
+setfield Events[0].ParticleSystems[0].LodOutDistance 2000
+setfield Events[0].ParticleSystems[1].InverseLodFeatherIn 1
+setfield Events[0].ParticleSystems[1].LodOutDistance 2000
+setfield Events[0].ParticleSystems[2].InverseLodFeatherIn 1
+setfield Events[0].ParticleSystems[2].LodOutDistance 2000
+
+setfield Events[1].ParticleSystems[0].InverseLodFeatherIn 1
+setfield Events[1].ParticleSystems[0].LodOutDistance 2000
+setfield Events[1].ParticleSystems[1].InverseLodFeatherIn 1
+setfield Events[1].ParticleSystems[1].LodOutDistance 2000
+setfield Events[1].ParticleSystems[2].InverseLodFeatherIn 1
+setfield Events[1].ParticleSystems[2].LodOutDistance 2000
+savetagchanges
+exit
+
+edittag objects\vehicles\human\sabre\fx\weapon\sabre_gun\impact.effect
+setfield Events[0].ParticleSystems[0].InverseLodFeatherIn 1
+setfield Events[0].ParticleSystems[0].LodOutDistance 2000
+setfield Events[0].ParticleSystems[1].InverseLodFeatherIn 1
+setfield Events[0].ParticleSystems[1].LodOutDistance 2000
+savetagchanges
+exit
+
+edittag objects\vehicles\human\sabre\fx\weapon\sabre_gun\impact_shield.effect
+setfield Events[0].ParticleSystems[0].InverseLodFeatherIn 1
+setfield Events[0].ParticleSystems[0].LodOutDistance 600
+setfield Events[0].ParticleSystems[1].InverseLodFeatherIn 1
+setfield Events[0].ParticleSystems[1].LodOutDistance 600
+savetagchanges
+exit
+
+edittag objects\vehicles\human\sabre\fx\weapon\sabre_missile\impact.effect
+setfield Events[0].ParticleSystems[0].InverseLodFeatherIn 1
+setfield Events[0].ParticleSystems[0].LodOutDistance 2000
+savetagchanges
+exit
+
+edittag objects\vehicles\human\sabre\fx\weapon\sabre_missile\impact_shield.effect
+setfield Events[0].ParticleSystems[0].InverseLodFeatherIn 1
+setfield Events[0].ParticleSystems[0].LodOutDistance 2000
+setfield Events[0].ParticleSystems[1].InverseLodFeatherIn 1
+setfield Events[0].ParticleSystems[1].LodOutDistance 2000
+savetagchanges
+exit
+
+edittag objects\vehicles\human\sabre\fx\weapon\sabre_missile\projectile.effect
+setfield Events[1].ParticleSystems[0].InverseLodFeatherIn 1
+setfield Events[1].ParticleSystems[0].LodOutDistance 2000
+setfield Events[1].ParticleSystems[1].InverseLodFeatherIn 1
+setfield Events[1].ParticleSystems[1].LodOutDistance 2000
+savetagchanges
+exit
+
+edittag objects\vehicles\human\sabre\fx\weapon\sabre_missile\detonation.effect
+setfield Events[0].ParticleSystems[0].InverseLodFeatherIn 1
+setfield Events[0].ParticleSystems[0].LodOutDistance 2000
+setfield Events[1].ParticleSystems[0].InverseLodFeatherIn 1
+setfield Events[1].ParticleSystems[0].LodOutDistance 2000
+setfield Events[1].ParticleSystems[1].InverseLodFeatherIn 1
+setfield Events[1].ParticleSystems[1].LodOutDistance 2000
+savetagchanges
+exit
+
+# Deversus with his 150 IQ on war thunder knowledge has provided with good intel on how fighter jets gattling round effect look on ground impact
+edittag objects\vehicles\human\sabre\fx\weapon\sabre_gun\detonation.effect
+removeblockelements Events[0].Parts 0 *
+setfield Events[1].ParticleSystems[0].LodOutDistance 0
+setfield Events[1].ParticleSystems[0].InverseLodFeatherIn 0
+setfield Events[1].ParticleSystems[1].InverseLodFeatherIn 1
+setfield Events[1].ParticleSystems[1].LodOutDistance 2000
+setfield Events[1].ParticleSystems[2].InverseLodFeatherIn 1
+setfield Events[1].ParticleSystems[2].LodOutDistance 2000
+
+setfield Events[4].ParticleSystems[0].InverseLodFeatherIn 1
+setfield Events[4].ParticleSystems[0].LodOutDistance 2000
+setfield Events[4].ParticleSystems[1].InverseLodFeatherIn 0
+setfield Events[4].ParticleSystems[1].LodOutDistance 0
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->DAMAGE EFFECTS
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\human\sabre\weapon\sabre_gatling_gun\projectiles\damage_effects\sabre_gatling_gun_bullet_explosion.damage_effect
+setfield Radius 0.5 1
+setfield Category Bullet
+setfield Flags DetonatesExplosives,TransferDamageAlwaysUsesMinimum
+setfield AreaOfEffectCoreRadius 0.6
+setfield DamageLowerBound 45
+setfield DamageUpperBound 60 60
+setfield InstantaneousAcceleration 1.5
+setfield CustomResponseLabel invalid
+savetagchanges
+exit
+
+edittag objects\vehicles\human\sabre\weapon\sabre_missile\projectile\damage_effects\sabre_missile_detonation.damage_effect
+setfield Radius 2.5 5
+setfield ShakeRadius 16
+setfield DamageLowerBound 250
+setfield DamageUpperBound 350 350
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-PROJECTILES
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\human\sabre\weapon\sabre_gatling_gun\projectiles\sabre_gatling_gun_bullet.projectile
+addblockelements Attachments
+setfield Attachments[2].Type objects\vehicles\hornet\fx\weapon\chain_gun\projectile.effect
+setfield AirborneDetonationEffect objects\vehicles\human\sabre\fx\weapon\sabre_gun\detonation.effect
+setfield GroundDetonationEffect objects\vehicles\human\sabre\fx\weapon\sabre_gun\detonation.effect
+setfield DetonationDamage objects\vehicles\human\sabre\weapon\sabre_gatling_gun\projectiles\damage_effects\sabre_gatling_gun_bullet_explosion.damage_effect
+savetagchanges
+exit
+
+edittag objects\vehicles\human\sabre\weapon\sabre_missile\projectile\sabre_missile.projectile
+setfield MaterialResponses[0].DefaultResponse Bounce
+setfield MaterialResponses[0].PotentialResponse Bounce
+setfield MaterialResponses[2].DefaultResponse Bounce
+setfield MaterialResponses[2].PotentialResponse Bounce
+savetagchanges
+exit
+
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->MAC CANNON->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
+opencachefile F:\reachmaps\m70.map
+porttag objects\vehicles\human\turrets\mac_15cm_mark_2488\mac_15cm_mark_2488.vehicle
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-VEHICLE
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\human\turrets\mac_15cm_mark_2488\mac_15cm_mark_2488.vehicle
+addblockelements MultiplayerObject
+setfield MultiplayerObject[0].Type HeavyLandVehicle
+setfield MultiplayerObject[0].DefaultSpawnTime 30
+setfield MultiplayerObject[0].DefaultAbandonTime 60
+
+setfield Seats[0].Label warthog_d
+setfield Seats[0].YawMinimum -179
+setfield Seats[0].YawMaximum 179
+setfield Seats[0].UnitCamera.PitchRange -25 45
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->PHYSIC MODEL
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\human\turrets\mac_15cm_mark_2488\mac_15cm_mark_2488.physics_model
+setfield RigidBodies[0].MotionType Keyframed
+setfield RigidBodies[1].MotionType Keyframed
+setfield RigidBodies[2].MotionType Keyframed
+setfield RigidBodies[3].MotionType Keyframed
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-ANIMATION
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\human\turrets\mac_15cm_mark_2488\mac_15cm_mark_2488.model_animation_graph
+addanimation F:\Github\Ramp-2\Animations\mac_cannon
+savetagchanges
+exit
+
+edittag objects\vehicles\human\turrets\mac_15cm_mark_2488\mac_15cm_mark_2488.model_animation_graph
+sortmodes
+addblockelements BlendScreens
+setfield BlendScreens[0].Label aiming
+setfield BlendScreens[0].LeftYawPerFrame 45
+setfield BlendScreens[0].RightYawPerFrame 45
+setfield BlendScreens[0].RightFrameCount 4
+setfield BlendScreens[0].LeftFrameCount 4
+setfield BlendScreens[0].DownPitchPerFrame 90
+setfield BlendScreens[0].UpPitchPerFrame 90
+setfield BlendScreens[0].DownPitchFrameCount 1
+setfield BlendScreens[0].UpPitchFrameCount 1
+setfield Animations[4].AnimationData.BlendScreen 0
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->WEAPON
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\human\turrets\mac_15cm_mark_2488\weapon\mac_15cm.weapon
+setfield HeatRecoveryThreshold 0.1
+setfield OverheatedThreshold 1
+setfield HeatLossPerSecond 0.6
+setfield HeatIllumination 1
+setfield OverheatedHeatLossPerSecond 0.45
+
+setfield WeaponFlags.NewFlags SecondaryTriggerOverridesGrenades,StrictDeviationAngle
+setfield Triggers[0].Behavior Charge
+setfield Triggers[0].Prediction Charge
+setfield Triggers[0].Charging.OverchargedAction Discharge
+setfield Triggers[0].PrimaryBarrel -1
+setfield Barrels[0].HeatGeneratedPerRound 1
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-SOUND
+# ------------------------------------------------------------------------------------------------
+edittag sound\weapons\mac_gun\mac_gun_charge\mac_gun_charge.sound_looping
+setfield Tracks[0].Flags FadeOutAtStop
+savetagchanges
+exit
+
+edittag sound\weapons\mac_gun\mac_gun_traverse\mac_gun_traverse.sound_looping
+setfield Tracks[0].Gain -16
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-EFFECTS
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\human\turrets\mac_15cm_mark_2488\fx\main_cannon\charging_jacobs_ladder.effect
+setfield Events[0].ParticleSystems[0].InverseLodFeatherIn 1
+setfield Events[0].ParticleSystems[0].LodOutDistance 2000
+savetagchanges
+exit
+
+edittag objects\vehicles\human\turrets\mac_15cm_mark_2488\fx\main_cannon\charging_main.effect
+setfield Events[0].ParticleSystems[0].InverseLodFeatherIn 1
+setfield Events[0].ParticleSystems[0].LodOutDistance 2000
+savetagchanges
+exit
+
+edittag objects\vehicles\human\turrets\mac_15cm_mark_2488\fx\main_cannon\firing.effect
+setfield Events[0].ParticleSystems[0].InverseLodFeatherIn 1
+setfield Events[0].ParticleSystems[0].LodOutDistance 2000
+
+setfield Events[2].ParticleSystems[0].InverseLodFeatherIn 1
+setfield Events[2].ParticleSystems[0].LodOutDistance 2000
+savetagchanges
+exit
+
+edittag objects\vehicles\human\turrets\mac_15cm_mark_2488\fx\main_cannon\cool_down.effect
+setfield Events[0].ParticleSystems[0].InverseLodFeatherIn 1
+setfield Events[0].ParticleSystems[0].LodOutDistance 2000
+savetagchanges
+exit
+
+edittag objects\vehicles\human\turrets\mac_15cm_mark_2488\fx\main_cannon\impact.effect
+setfield Events[0].ParticleSystems[0].InverseLodFeatherIn 1
+setfield Events[0].ParticleSystems[0].LodOutDistance 2000
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->DAMAGE EFFECTS
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\human\turrets\mac_15cm_mark_2488\weapon\mac_15cm_projectile.damage_effect
+setfield Radius 2 4
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->CAMERA
+# ------------------------------------------------------------------------------------------------
+edittag camera\mac_15cm_d_camera.camera_track
+removeblockelements ControlPoints 0 *
+AddBlockElements ControlPoints 15
+SetField ControlPoints[0].Position 1.8678E-08 0 4.3
+SetField ControlPoints[0].Orientation -0 -0.7071069 -0 -0.70710677
+SetField ControlPoints[1].Position -0.20828392 0 5.700963
+SetField ControlPoints[1].Orientation -0 -0.62348986 -0 -0.7818315
+SetField ControlPoints[2].Position -1.0071876 0 6.784744
+SetField ControlPoints[2].Orientation -0 -0.53203213 -0 -0.84672415
+SetField ControlPoints[3].Position -2.204214 0 7.384239
+SetField ControlPoints[3].Orientation -0 -0.4338837 -0 -0.9009689
+SetField ControlPoints[4].Position -3.5717187 0 7.414532
+SetField ControlPoints[4].Orientation -0 -0.33027905 -0 -0.94388336
+SetField ControlPoints[5].Position -4.8761477 0 6.877196
+SetField ControlPoints[5].Orientation -0 -0.22252098 -0 -0.9749279
+SetField ControlPoints[6].Position -5.9065995 0 5.855319
+SetField ControlPoints[6].Orientation -0 -0.11196452 -0 -0.9937123
+SetField ControlPoints[7].Position -6.5 0 4.500001
+SetField ControlPoints[7].Orientation -0 -5.96E-08 -0 -1
+SetField ControlPoints[8].Position -6.075325 0 3
+SetField ControlPoints[8].Orientation -0 0.11196449 -0 -0.9937123
+SetField ControlPoints[9].Position -4.245191 0 2.2904365
+SetField ControlPoints[9].Orientation -0 0.22252083 -0 -0.97492796
+SetField ControlPoints[10].Position -1.4845943 0 4.979524
+SetField ControlPoints[10].Orientation -0 0.330279 -0 -0.94388336
+SetField ControlPoints[11].Position 1.3898077 0 5.689656
+SetField ControlPoints[11].Orientation -0 0.43388358 -0 -0.90096897
+SetField ControlPoints[12].Position 3.3315392 0 7.60339
+SetField ControlPoints[12].Orientation -0 0.53203195 -0 -0.8467243
+SetField ControlPoints[13].Position 3.2136693 0 14.45339
+SetField ControlPoints[13].Orientation -0 0.6234898 -0 -0.7818316
+SetField ControlPoints[14].Position 4.380912E-06 0 22.5
+SetField ControlPoints[14].Orientation -0 0.7071067 -0 -0.7071069
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-HUD
+# ------------------------------------------------------------------------------------------------
+edittag ui\chud\animations\mac\charge_heat.chud_animation_definition
+setfield Alpha[0].Keyframes[1].TimeOffset 1000
+setfield RuntimePeriodMsec 1000
+savetagchanges
+exit
+
+edittag ui\chud\mac_cannon.chud_definition
+setfield HudWidgets[1].BitmapWidgets[0].RuntimeWidgetIndex 1
+setfield HudWidgets[1].BitmapWidgets[1].RuntimeWidgetIndex 2
+setfield HudWidgets[1].BitmapWidgets[2].RuntimeWidgetIndex 3
+setfield HudWidgets[1].BitmapWidgets[3].RuntimeWidgetIndex 4
+setfield HudWidgets[2].BitmapWidgets[0].RuntimeWidgetIndex 5
+setfield HudWidgets[2].BitmapWidgets[1].RuntimeWidgetIndex 6
+setfield HudWidgets[3].BitmapWidgets[0].RuntimeWidgetIndex 7
+setfield HudWidgets[3].BitmapWidgets[1].RuntimeWidgetIndex 8
+setfield HudWidgets[4].BitmapWidgets[0].RuntimeWidgetIndex 9
+setfield HudWidgets[4].BitmapWidgets[1].RuntimeWidgetIndex 10
+setfield HudWidgets[4].BitmapWidgets[2].RuntimeWidgetIndex 11
+setfield HudWidgets[5].BitmapWidgets[0].RuntimeWidgetIndex 12
+setfield HudWidgets[5].BitmapWidgets[1].RuntimeWidgetIndex 13
+setfield HudWidgets[5].BitmapWidgets[2].RuntimeWidgetIndex 14
+setfield HudWidgets[5].BitmapWidgets[3].RuntimeWidgetIndex 15
+setfield HudWidgets[5].BitmapWidgets[4].RuntimeWidgetIndex 16
+setfield HudWidgets[5].BitmapWidgets[5].RuntimeWidgetIndex 17
+setfield HudWidgets[5].BitmapWidgets[6].RuntimeWidgetIndex 18
+setfield HudWidgets[5].BitmapWidgets[7].RuntimeWidgetIndex 19
+setfield HudWidgets[5].BitmapWidgets[8].RuntimeWidgetIndex 20
+setfield HudWidgets[5].TextWidgets[0].WidgetIndex 21
+setfield HudWidgets[5].TextWidgets[1].WidgetIndex 22
+setfield HudWidgets[5].TextWidgets[2].WidgetIndex 23
+setfield HudWidgets[5].TextWidgets[3].WidgetIndex 24
+setfield HudWidgets[5].TextWidgets[4].WidgetIndex 25
+setfield HudWidgets[5].TextWidgets[5].WidgetIndex 26
+setfield HudWidgets[5].TextWidgets[6].WidgetIndex 27
+setfield HudWidgets[5].TextWidgets[7].WidgetIndex 28
+setfield HudWidgets[5].TextWidgets[8].WidgetIndex 29
+setfield HudWidgets[5].TextWidgets[9].WidgetIndex 30
+setfield HudWidgets[5].TextWidgets[10].WidgetIndex 31
+setfield HudWidgets[5].TextWidgets[11].WidgetIndex 32
+
+setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Anchor Crosshair
+setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Origin -1 2.8
+setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.75 -0.7
+setfield HudWidgets[0].BitmapWidgets[0].RenderData[0].OutputColorB CrosshairNormal
+setfield HudWidgets[0].BitmapWidgets[0].Flags MirrorHorizontally
+
+setfield HudWidgets[1].PlacementData[0].Anchor Crosshair
+setfield HudWidgets[1].BitmapWidgets[0].PlacementData[0].Anchor Parent
+setfield HudWidgets[1].BitmapWidgets[1].PlacementData[0].Anchor Parent
+setfield HudWidgets[1].BitmapWidgets[2].PlacementData[0].Anchor Parent
+setfield HudWidgets[1].BitmapWidgets[3].PlacementData[0].Anchor Parent
+
+setfield HudWidgets[1].PlacementData[0].Scale 1.5 1.5
+# METER CHARGING
+setfield HudWidgets[1].BitmapWidgets[3].PlacementData[0].Origin 0 0.5
+setfield HudWidgets[1].BitmapWidgets[3].PlacementData[0].Offset 0 -75
+setfield HudWidgets[1].BitmapWidgets[0].PlacementData[0].Origin 0 0.5
+setfield HudWidgets[1].BitmapWidgets[0].PlacementData[0].Offset 0 -75
+
+setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].ExternalInput WeaponChargeFraction
+setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].ShaderType MeterGradient
+setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].OutputColorA SecondaryBackground
+setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].OutputColorB HighlightForeground
+setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].OutputColorC SecondaryBackground
+setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].OutputScalarB LocalA
+setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].OutputScalarC LocalB
+setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].OutputScalarD LocalC
+setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].OutputScalarE LocalD
+setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].LocalScalarA 20
+setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].LocalScalarB 5
+setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].LocalScalarC 0.1
+setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].LocalScalarD 1
+
+# CIRCLE CORSSHAIR
+setfield HudWidgets[1].BitmapWidgets[1].Flags None
+setfield HudWidgets[1].BitmapWidgets[1].RenderData[0].ShaderType Crosshair
+setfield HudWidgets[1].BitmapWidgets[1].RenderData[0].ExternalInput Autoaim
+setfield HudWidgets[1].BitmapWidgets[1].RenderData[0].OutputColorA CrosshairNormal
+setfield HudWidgets[1].BitmapWidgets[1].RenderData[0].OutputColorB CrosshairEnemy
+setfield HudWidgets[1].BitmapWidgets[1].RenderData[0].OutputColorC CrosshairFriendly
+setfield HudWidgets[1].BitmapWidgets[1].Bitmap ui\chud\bitmaps\hud_reticles_reach.bitmap
+setfield HudWidgets[1].BitmapWidgets[1].BitmapSequenceIndex 2
+setfield HudWidgets[1].BitmapWidgets[1].PlacementData[0].Origin 0 1
+setfield HudWidgets[1].BitmapWidgets[1].PlacementData[0].Offset 0 0
+setfield HudWidgets[1].BitmapWidgets[1].PlacementData[0].Scale 0.28 0.28
+
+setfield HudWidgets[1].BitmapWidgets[2].Flags MirrorHorizontally
+setfield HudWidgets[1].BitmapWidgets[2].RenderData[0].ShaderType Crosshair
+setfield HudWidgets[1].BitmapWidgets[2].RenderData[0].ExternalInput Autoaim
+setfield HudWidgets[1].BitmapWidgets[2].RenderData[0].OutputColorA CrosshairNormal
+setfield HudWidgets[1].BitmapWidgets[2].RenderData[0].OutputColorB CrosshairEnemy
+setfield HudWidgets[1].BitmapWidgets[2].RenderData[0].OutputColorC CrosshairFriendly
+
+setfield HudWidgets[1].BitmapWidgets[3].RenderData[0].ShaderType Crosshair
+setfield HudWidgets[1].BitmapWidgets[3].RenderData[0].ExternalInput Autoaim
+setfield HudWidgets[1].BitmapWidgets[3].RenderData[0].OutputColorA CrosshairNormal
+setfield HudWidgets[1].BitmapWidgets[3].RenderData[0].OutputColorB CrosshairEnemy
+setfield HudWidgets[1].BitmapWidgets[3].RenderData[0].OutputColorC CrosshairFriendly
+
+setfield HudWidgets[2].PlacementData[0].Anchor Crosshair
+setfield HudWidgets[2].BitmapWidgets[0].PlacementData[0].Anchor Parent
+setfield HudWidgets[2].BitmapWidgets[1].PlacementData[0].Anchor Parent
+
+setfield HudWidgets[2].BitmapWidgets[0].PlacementData[0].Origin -1 2.8
+setfield HudWidgets[2].BitmapWidgets[0].PlacementData[0].Offset -18 40
+setfield HudWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 0.7 -0.7
+setfield HudWidgets[2].BitmapWidgets[0].RenderData[0].OutputColorB CrosshairNormal
+setfield HudWidgets[2].BitmapWidgets[0].Flags MirrorHorizontally
+
+setfield HudWidgets[2].BitmapWidgets[1].PlacementData[0].Origin 0.5 1
+setfield HudWidgets[2].BitmapWidgets[1].PlacementData[0].Offset -18 1315
+setfield HudWidgets[2].BitmapWidgets[1].PlacementData[0].Scale 0.2 18
+
+setfield HudWidgets[2].BitmapWidgets[1].RenderData[0].ShaderType Meter
+setfield HudWidgets[2].BitmapWidgets[1].RenderData[0].LocalScalarA 0.4
+setfield HudWidgets[2].BitmapWidgets[1].RenderData[0].OutputColorB CrosshairNormal
+setfield HudWidgets[2].BitmapWidgets[1].RenderData[0].OutputScalarC LocalA
+setfield HudWidgets[2].BitmapWidgets[1].Flags MirrorVertically
+
+setfield HudWidgets[3].PlacementData[0].Anchor Crosshair
+setfield HudWidgets[3].BitmapWidgets[0].PlacementData[0].Anchor Parent
+setfield HudWidgets[3].BitmapWidgets[1].PlacementData[0].Anchor Parent
+
+setfield HudWidgets[3].BitmapWidgets[0].PlacementData[0].Origin -1 2.8
+setfield HudWidgets[3].BitmapWidgets[0].PlacementData[0].Offset 18 40
+setfield HudWidgets[3].BitmapWidgets[0].PlacementData[0].Scale 0.7 -0.7
+setfield HudWidgets[3].BitmapWidgets[0].RenderData[0].OutputColorB CrosshairNormal
+setfield HudWidgets[3].BitmapWidgets[0].Flags MirrorHorizontally
+
+setfield HudWidgets[3].BitmapWidgets[1].PlacementData[0].Origin 0.5 1
+setfield HudWidgets[3].BitmapWidgets[1].PlacementData[0].Offset 18 1315
+setfield HudWidgets[3].BitmapWidgets[1].PlacementData[0].Scale 0.2 18
+
+setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].ShaderType Meter
+setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].LocalScalarA 0.4
+setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].OutputColorB CrosshairNormal
+setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].OutputScalarC LocalA
+setfield HudWidgets[3].BitmapWidgets[1].Flags MirrorVertically
+
+setfield HudWidgets[4].StateData[0].WeaponArmedStateHO RightHand
+
+setfield HudWidgets[5].PlacementData[0].Anchor BottomRight
+setfield HudWidgets[5].BitmapWidgets[8].PlacementData[0].Anchor Parent
+setfield HudWidgets[5].BitmapWidgets[0].PlacementData[0].Anchor Parent
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Anchor Parent
+setfield HudWidgets[5].BitmapWidgets[2].PlacementData[0].Anchor Parent
+setfield HudWidgets[5].BitmapWidgets[3].PlacementData[0].Anchor Parent
+setfield HudWidgets[5].BitmapWidgets[4].PlacementData[0].Anchor Parent
+setfield HudWidgets[5].BitmapWidgets[5].PlacementData[0].Anchor Parent
+setfield HudWidgets[5].BitmapWidgets[6].PlacementData[0].Anchor Parent
+setfield HudWidgets[5].BitmapWidgets[7].PlacementData[0].Anchor Parent
+setfield HudWidgets[5].TextWidgets[0].PlacementData[0].Anchor Parent
+setfield HudWidgets[5].TextWidgets[1].PlacementData[0].Anchor Parent
+setfield HudWidgets[5].TextWidgets[2].PlacementData[0].Anchor Parent
+setfield HudWidgets[5].TextWidgets[3].PlacementData[0].Anchor Parent
+setfield HudWidgets[5].TextWidgets[4].PlacementData[0].Anchor Parent
+setfield HudWidgets[5].TextWidgets[5].PlacementData[0].Anchor Parent
+setfield HudWidgets[5].TextWidgets[6].PlacementData[0].Anchor Parent
+setfield HudWidgets[5].TextWidgets[7].PlacementData[0].Anchor Parent
+setfield HudWidgets[5].TextWidgets[8].PlacementData[0].Anchor Parent
+setfield HudWidgets[5].TextWidgets[9].PlacementData[0].Anchor Parent
+setfield HudWidgets[5].TextWidgets[10].PlacementData[0].Anchor Parent
+setfield HudWidgets[5].TextWidgets[11].PlacementData[0].Anchor Parent
+
+setfield HudWidgets[5].PlacementData[0].Offset 90 -90
+setfield HudWidgets[5].PlacementData[0].Scale 1.5 1.5
+
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -205.5964 -352.7069
+setfield HudWidgets[5].BitmapWidgets[4].PlacementData[0].Offset -205.5964 -154.7069
+setfield HudWidgets[5].BitmapWidgets[5].PlacementData[0].Offset -121.1852 -154.5
+setfield HudWidgets[5].BitmapWidgets[6].PlacementData[0].Offset -126.2337 -92.8276
+setfield HudWidgets[5].BitmapWidgets[8].PlacementData[0].Offset -127.55 -94
+
+# TEXT, Mou 
+setfield HudWidgets[5].TextWidgets[0].PlacementData[0].Offset -186 -434
+# ONLINE
+setfield HudWidgets[5].TextWidgets[1].PlacementData[0].Offset -176.8072 -407.504
+setfield HudWidgets[5].TextWidgets[2].PlacementData[0].Offset -176.8072 -388.761
+setfield HudWidgets[5].TextWidgets[3].PlacementData[0].Offset -176.8072 -370.0182
+setfield HudWidgets[5].TextWidgets[4].PlacementData[0].Offset -176.8072 -352.3778
+setfield HudWidgets[5].TextWidgets[5].PlacementData[0].Offset -176.8072 -334.7374
+
+# ENUM, PITCH, ROTN
+# setfield HudWidgets[5].TextWidgets[6].PlacementData[0].Offset -201 -288
+setfield HudWidgets[5].TextWidgets[6].PlacementData[0].Offset -201 -284
+setfield HudWidgets[5].TextWidgets[6].PlacementData[0].Scale 0.58 0.7
+setfield HudWidgets[5].TextWidgets[7].PlacementData[0].Offset -148.8072 -296.7374
+setfield HudWidgets[5].TextWidgets[8].PlacementData[0].Offset -148.8072 -279.7374
+setfield HudWidgets[5].TextWidgets[9].PlacementData[0].Offset -148.8072 -262.7374
+setfield HudWidgets[5].TextWidgets[10].PlacementData[0].Offset -196 -235
+setfield HudWidgets[5].TextWidgets[11].PlacementData[0].Offset -176 -113
+
+setfield HudWidgets[5].BitmapWidgets[8].RenderData[0].ShaderType MeterGradient
+setfield HudWidgets[5].BitmapWidgets[8].RenderData[0].ExternalInput WeaponHeatFraction
+setfield HudWidgets[5].BitmapWidgets[8].RenderData[0].LocalScalarA 20
+setfield HudWidgets[5].BitmapWidgets[8].RenderData[0].LocalScalarC 0.1
+setfield HudWidgets[5].BitmapWidgets[8].RenderData[0].LocalScalarB 5
+setfield HudWidgets[5].BitmapWidgets[8].RenderData[0].LocalScalarD 255
+setfield HudWidgets[5].BitmapWidgets[8].RenderData[0].OutputColorA SecondaryBackground
+setfield HudWidgets[5].BitmapWidgets[8].RenderData[0].OutputColorB WarningFlash
+setfield HudWidgets[5].BitmapWidgets[8].RenderData[0].OutputColorD SecondaryBackground
+setfield HudWidgets[5].BitmapWidgets[8].RenderData[0].OutputScalarB LocalA
+setfield HudWidgets[5].BitmapWidgets[8].RenderData[0].OutputScalarC LocalB
+setfield HudWidgets[5].BitmapWidgets[8].RenderData[0].OutputScalarD LocalC
+setfield HudWidgets[5].BitmapWidgets[8].RenderData[0].OutputScalarE LocalD
+setfield HudWidgets[5].BitmapWidgets[8].RenderData[0].OutputScalarF Input
+setfield HudWidgets[5].BitmapWidgets[8].PlacementData[0].Scale 1 1
+setfield HudWidgets[5].BitmapWidgets[8].RenderData[0].RangeInput Zero
+setfield HudWidgets[5].BitmapWidgets[8].RenderData[0].OutputColorC LocalA
+setfield HudWidgets[5].BitmapWidgets[8].BitmapSequenceIndex 0
+
+setfield HudWidgets[5].BitmapWidgets[0].RenderData[0].OutputColorB HighlightForeground
+setfield HudWidgets[5].BitmapWidgets[1].RenderData[0].OutputColorB HighlightForeground
+setfield HudWidgets[5].BitmapWidgets[2].RenderData[0].OutputColorB HighlightForeground
+setfield HudWidgets[5].BitmapWidgets[3].RenderData[0].OutputColorB HighlightForeground
+setfield HudWidgets[5].BitmapWidgets[4].RenderData[0].OutputColorB HighlightForeground
+
+# CHARGE
+setfield HudWidgets[5].BitmapWidgets[5].AnimationData[0].Active.InputType Extern1
+setfield HudWidgets[5].BitmapWidgets[5].RenderData[0].ShaderType MeterGradient
+setfield HudWidgets[5].BitmapWidgets[5].RenderData[0].ExternalInput WeaponChargeFraction
+setfield HudWidgets[5].BitmapWidgets[5].RenderData[0].OutputColorA SecondaryBackground
+setfield HudWidgets[5].BitmapWidgets[5].RenderData[0].OutputColorB WarningFlash
+setfield HudWidgets[5].BitmapWidgets[5].RenderData[0].OutputColorD SecondaryBackground
+setfield HudWidgets[5].BitmapWidgets[5].RenderData[0].OutputScalarB LocalA
+setfield HudWidgets[5].BitmapWidgets[5].RenderData[0].OutputScalarC LocalB
+setfield HudWidgets[5].BitmapWidgets[5].RenderData[0].OutputScalarD LocalC
+setfield HudWidgets[5].BitmapWidgets[5].RenderData[0].OutputScalarE LocalD
+setfield HudWidgets[5].BitmapWidgets[5].RenderData[0].LocalScalarA 20
+setfield HudWidgets[5].BitmapWidgets[5].RenderData[0].LocalScalarB 5
+setfield HudWidgets[5].BitmapWidgets[5].RenderData[0].LocalScalarD 1
+setfield HudWidgets[5].BitmapWidgets[5].RenderData[0].LocalScalarC 0.1
+
+setfield HudWidgets[5].BitmapWidgets[6].RenderData[0].OutputColorB HighlightForeground
+setfield HudWidgets[5].BitmapWidgets[7].RenderData[0].OutputColorB HighlightForeground
+
+setfield HudWidgets[5].TextWidgets[0].RenderData[0].OutputColorA HighlightForeground
+setfield HudWidgets[5].TextWidgets[1].RenderData[0].OutputColorA HighlightForeground
+setfield HudWidgets[5].TextWidgets[2].RenderData[0].OutputColorA HighlightForeground
+setfield HudWidgets[5].TextWidgets[3].RenderData[0].OutputColorA HighlightForeground
+setfield HudWidgets[5].TextWidgets[4].RenderData[0].OutputColorA HighlightForeground
+setfield HudWidgets[5].TextWidgets[5].RenderData[0].OutputColorA HighlightForeground
+setfield HudWidgets[5].TextWidgets[6].RenderData[0].OutputColorA HighlightForeground
+setfield HudWidgets[5].TextWidgets[7].RenderData[0].OutputColorA HighlightForeground
+setfield HudWidgets[5].TextWidgets[8].RenderData[0].OutputColorA HighlightForeground
+setfield HudWidgets[5].TextWidgets[9].RenderData[0].OutputColorA HighlightForeground
+setfield HudWidgets[5].TextWidgets[10].RenderData[0].OutputColorA HighlightForeground
+setfield HudWidgets[5].TextWidgets[11].RenderData[0].OutputColorA HighlightForeground
+
+# ENUM
+setfield HudWidgets[5].TextWidgets[7].RenderData[0].ExternalInput WeaponHeatFraction
+setfield HudWidgets[5].TextWidgets[7].RenderData[0].ShaderType TextSimple
+setfield HudWidgets[5].TextWidgets[7].TextFlags StringIsANumber,Decimal5Digits,WrapWithBrackets
+setfield HudWidgets[5].TextWidgets[7].Font HudNumberText
+setfield HudWidgets[5].TextWidgets[7].RenderData[0].OutputColorB HighlightForeground
+setfield HudWidgets[5].TextWidgets[7].RenderData[0].OutputColorC HighlightForeground
+setfield HudWidgets[5].TextWidgets[7].RenderData[0].OutputColorD HighlightForeground
+setfield HudWidgets[5].TextWidgets[7].RenderData[0].OutputColorE HighlightForeground
+setfield HudWidgets[5].TextWidgets[7].RenderData[0].OutputColorF HighlightForeground
+
+# ELEV
+setfield HudWidgets[5].TextWidgets[8].RenderData[0].ShaderType TextSimple
+setfield HudWidgets[5].TextWidgets[8].TextFlags StringIsANumber,Decimal5Digits,WrapWithBrackets
+setfield HudWidgets[5].TextWidgets[8].RenderData[0].ExternalInput CameraPitch
+setfield HudWidgets[5].TextWidgets[8].Font HudNumberText
+setfield HudWidgets[5].TextWidgets[8].RenderData[0].OutputColorB HighlightForeground
+setfield HudWidgets[5].TextWidgets[8].RenderData[0].OutputColorC HighlightForeground
+setfield HudWidgets[5].TextWidgets[8].RenderData[0].OutputColorD HighlightForeground
+setfield HudWidgets[5].TextWidgets[8].RenderData[0].OutputColorE HighlightForeground
+setfield HudWidgets[5].TextWidgets[8].RenderData[0].OutputColorF HighlightForeground
+
+# ROTN
+setfield HudWidgets[5].TextWidgets[9].RenderData[0].ShaderType TextSimple
+setfield HudWidgets[5].TextWidgets[9].RenderData[0].ExternalInput CameraYaw
+setfield HudWidgets[5].TextWidgets[9].TextFlags StringIsANumber,Decimal5Digits,WrapWithBrackets
+setfield HudWidgets[5].TextWidgets[9].Font HudNumberText
+setfield HudWidgets[5].TextWidgets[9].RenderData[0].OutputColorB HighlightForeground
+setfield HudWidgets[5].TextWidgets[9].RenderData[0].OutputColorC HighlightForeground
+setfield HudWidgets[5].TextWidgets[9].RenderData[0].OutputColorD HighlightForeground
+setfield HudWidgets[5].TextWidgets[9].RenderData[0].OutputColorE HighlightForeground
+setfield HudWidgets[5].TextWidgets[9].RenderData[0].OutputColorF HighlightForeground
+savetagchanges
+exit
+
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->SPACE BANSHEE->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-
+opencachefile F:\reachmaps\m45.map
+porttag objects\vehicles\covenant\space_banshee\space_banshee.vehicle
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->VEHICLES
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\covenant\space_banshee\space_banshee.vehicle
+setfield ObjectFlags null
+setfield UnitFlags.Flags UnitHasBoost
+setfield HudInterfaces[0].UnitHudInterface ui\chud\v_banshee.chud_definition
+setfield Functions[3].DefaultFunction.Data 08340000000000000000803F000000000000000048E1FA3E0000003F1400000001000000040000CDFFFF7F7F0000803F00000000
+setfield Functions[5].DefaultFunction.Data 08340000000000000000803F000000000000000048E1FA3E0000003F1400000001000000040000CDFFFF7F7F0000803F00000000
+setfield Functions[7].DefaultFunction.Data 08340000000000000000803F000000000000000048E1FA3E0000003F1400000001000000040000CDFFFF7F7F0000803F00000000
+
+setfield Attachments[1].PrimaryScale boost
+
+setfield Seats[0].Flags Driver,Gunner,ThirdPersonCamera,ControlsOpenAndClose,AllowsExitAndDetach,ForwardFromAttachment
+setfield Seats[0].Acceleration.Range 0.05 0.05 0.03571429
+setfield Seats[0].Acceleration.ActionScale 1
+setfield Seats[0].YawRateBounds 60 10
+setfield Seats[0].PitchRateBounds 60 10
+removeblockelements Seats[0].UnitHudInterface 0 *
+
+setfield Seats[1].Flags ThirdPersonCamera,BoardingSeat,BoardingEntersSeat
+
+setfield PhysicsTypes.AlienFighter[0].CruisingThrottle 0.25
+setfield PhysicsTypes.AlienFighter[0].VelocityControl.MaximumLeftSlide 3
+setfield PhysicsTypes.AlienFighter[0].VelocityControl.MaximumRightSlide 3
+setfield PhysicsTypes.AlienFighter[0].VelocityControl.SpeedAcceleration 25
+setfield PhysicsTypes.AlienFighter[0].VelocityControl.SpeedDeceleration 35
+setfield PhysicsTypes.AlienFighter[0].FixedGunOffset 0 14.32395
+setfield HavokVehiclePhysics.GravityScale 0.75
+
+setfield Boost.BoostRisePower 0.1
+setfield Boost.BoostPeakTime 30000
+setfield Boost.BoostFallPower 0.2
+setfield Boost.BoostDeadTime 0.1
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-MODEL
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\covenant\space_banshee\space_banshee.model
+setfield NewDamageInfo[0].Flags PassesAttachedDamageToRiders
+setfield NewDamageInfo[0].MaximumVitality 350
+setfield NewDamageInfo[0].StunTime 2
+setfield NewDamageInfo[0].RechargeTime 10
+setfield NewDamageInfo[0].RechargeFraction 0.45
+setfield Targets[0].LockOnData.LockOnDistance 65
+setfield Targets[0].LockOnData.TrackingType flying_vehicles
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-ANIMATION
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\covenant\space_banshee\space_banshee.model_animation_graph
+addanimation F:\Github\Ramp-2\animations\banshee_space
+savetagchanges
+exit
+
+edittag objects\vehicles\covenant\space_banshee\space_banshee.model_animation_graph
+sortmodes
+addblockelements BlendScreens
+setfield BlendScreens[0].Label blend_screen_#0
+setfield BlendScreens[0].RightYawPerFrame 30
+setfield BlendScreens[0].LeftYawPerFrame 30
+setfield BlendScreens[0].RightFrameCount 1
+setfield BlendScreens[0].LeftFrameCount 1
+setfield Animations[5].AnimationData.BlendScreen 0
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->PROJECTILE
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\covenant\space_banshee\weapons\space_banshee_dual_cannon\projectiles\space_banshee_dual_cannon_bolt.projectile
+addblockelements Attachments
+setfield Attachments[3].Type objects\vehicles\banshee\fx\weapon\plasma_cannon\projectile.effect
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-WEAPONS
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\covenant\space_banshee\weapons\space_banshee_dual_cannon\space_banshee_dual_cannon.weapon
+setfield WeaponFlags.NewFlags CannotFireWhileBoosting
+addblockelements Triggers
+setfield Triggers[1].Input MeleeAttack
+setfield Triggers[1].Behavior Latch
+setfield Triggers[1].SecondaryBarrel -1
+setfield Triggers[1].PrimaryBarrel 1
+setfield Barrels[0].Flags.HaloOnline ProjectilesUseWeaponOrigin,DontClearFireBitAfterRecovering
+addblockelements Barrels
+setfield Barrels[1].Flags.HaloOnline ProjectilesUseWeaponOrigin,DontClearFireBitAfterRecovering
+setfield Barrels[1].Firing.ShotsPerFire 1 1
+setfield Barrels[1].Firing.FireRecoveryTime 4
+setfield Barrels[1].MagazineIndex -1
+setfield Barrels[1].FiringNoise Loud
+setfield Barrels[1].DualWeaponError.RuntimeAccelerationRate 1000
+setfield Barrels[1].DualWeaponError.RuntimeDecelerationRate 1000
+setfield Barrels[1].ProjectilesPerShot 1
+setfield Barrels[1].Projectile objects\vehicles\banshee\weapon\banshee_bomb.projectile
+setfield Barrels[1].VerticalRecoil.AngleChangeAccelerationRate 1000
+setfield Barrels[1].VerticalRecoil.AngleChangeDecelerationRate 1000
+setfield Barrels[1].IlluminationRecoveryRate 1000
+setfield Barrels[1].EjectionPortRecoveryRate 1000
+setfield Barrels[1].RateOfFireAccelerationTime 1000
+setfield Barrels[1].RateOfFireDecelerationTime 1000
+setfield Barrels[1].ErrorAccelerationRate 1000
+setfield Barrels[1].ErrorDecelerationRate 1000
+addblockelements Barrels[1].FiringEffects
+setfield Barrels[1].FiringEffects[0].FiringEffect objects\vehicles\banshee\fx\weapon\banshee_bomb\firing.effect
+setfield Barrels[1].FiringEffects[0].FiringDamage globals\damage_responses\trigger_vehicle_semiauto.damage_response_definition
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-EFFECTS
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\covenant\space_banshee\fx\weapon\plasma_cannon\firing.effect
+setfield Events[0].ParticleSystems[0].InverseLodFeatherIn 1
+setfield Events[0].ParticleSystems[0].LodOutDistance 2000
+setfield Events[0].ParticleSystems[1].InverseLodFeatherIn 1
+setfield Events[0].ParticleSystems[1].LodOutDistance 2000
+setfield Events[0].ParticleSystems[2].InverseLodFeatherIn 1
+setfield Events[0].ParticleSystems[2].LodOutDistance 2000
+setfield Events[0].ParticleSystems[3].InverseLodFeatherIn 1
+setfield Events[0].ParticleSystems[3].LodOutDistance 2000
+savetagchanges
+exit
+
+edittag objects\vehicles\covenant\space_banshee\fx\destruction\main_explosion.effect
+setfield Events[0].ParticleSystems[0].InverseLodFeatherIn 1
+setfield Events[0].ParticleSystems[0].LodOutDistance 2000
+setfield Events[1].ParticleSystems[0].InverseLodFeatherIn 1
+setfield Events[1].ParticleSystems[0].LodOutDistance 2000
+setfield Events[1].ParticleSystems[1].InverseLodFeatherIn 1
+setfield Events[1].ParticleSystems[1].LodOutDistance 2000
+setfield Events[1].ParticleSystems[2].InverseLodFeatherIn 1
+setfield Events[1].ParticleSystems[2].LodOutDistance 2000
+setfield Events[1].ParticleSystems[3].InverseLodFeatherIn 1
+setfield Events[1].ParticleSystems[3].LodOutDistance 2000
+setfield Events[1].ParticleSystems[4].InverseLodFeatherIn 1
+setfield Events[1].ParticleSystems[4].LodOutDistance 15000
+setfield Events[1].ParticleSystems[5].InverseLodFeatherIn 1
+setfield Events[1].ParticleSystems[5].LodOutDistance 2000
+setfield Events[1].ParticleSystems[6].InverseLodFeatherIn 1
+setfield Events[1].ParticleSystems[6].LodOutDistance 2000
+savetagchanges
+exit
+
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->SERAPH->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
+# https://steamcommunity.com/sharedfiles/filedetails/?id=2984061723&searchtext=
+opencachefile F:\SteamLibrary\steamapps\workshop\content\976730\2984061723\maps\hugeass_remastered_mcc.map
+porttag objects\vehicles\seraph_reach\seraph_reach.vehicle
+exit
+
+opencachefile F:\reachmaps\m45.map
+porttag fx\shield_impacts\seraph.shield_impact
+exit
+
+edittag objects\vehicles\seraph_reach\seraph_reach.model
+setfield NewDamageInfo[0].Flags PassesAreaDamageToChildren
+setfield NewDamageInfo[0].ResponseDamageReportingType.HaloOnline GenericExplosion
+setfield NewDamageInfo[0].CollisionDamageReportingType.HaloOnline GenericCollision
+setfield NewDamageInfo[0].MaximumVitality 1500
+setfield NewDamageInfo[0].RechargeTime 5
+setfield NewDamageInfo[0].RechargeFraction 0.5
+setfield NewDamageInfo[0].MaxShieldVitality 2000
+setfield NewDamageInfo[0].ShieldRechargeTime 2
+setfield NewDamageInfo[0].ShieldStunTime 5
+setfield NewDamageInfo[0].GlobalShieldMaterialName energy_shield_thick
+setfield NewDamageInfo[0].GlobalShieldMaterialIndex 152
+setfield NewDamageInfo[0].RuntimeShieldRechargeVelocity 0.5
+setfield NewDamageInfo[0].RuntimeHealthRechargeVelocity 0.2
+setfield ShieldImpactThirdPerson fx\shield_impacts\seraph.shield_impact
+setfield NewDamageInfo[0].GlobalIndirectMaterialIndex -1
+savetagchanges
+exit
+
+edittag objects\vehicles\seraph_reach\seraph_reach.vehicle
+setfield PhysicsTypes.AlienFighter[0].Turning.MaximumLeftTurn 1.534464
+setfield PhysicsTypes.AlienFighter[0].Turning.MaximumRightTurn -1.534464
+setfield PhysicsTypes.AlienFighter[0].Turning.TurnRate 6.424778
+setfield PhysicsTypes.AlienFighter[0].VelocityControl.MaximumForwardSpeed 30
+setfield PhysicsTypes.AlienFighter[0].VelocityControl.SpeedAcceleration 40
+setfield PhysicsTypes.AlienFighter[0].VelocityControl.SpeedDeceleration 60
+setfield PhysicsTypes.AlienFighter[0].VelocityControl.MaximumLeftSlide 6
+setfield PhysicsTypes.AlienFighter[0].VelocityControl.MaximumRightSlide 6
+setfield PhysicsTypes.AlienFighter[0].VelocityControl.SlideAcceleration 17
+setfield PhysicsTypes.AlienFighter[0].LoopTrickDuration 1.8
+setfield PhysicsTypes.AlienFighter[0].ZeroGravitySpeed 4
+setfield PhysicsTypes.AlienFighter[0].FullGravitySpeed 3.7
+setfield PhysicsTypes.AlienFighter[0].OffStickDecelerationScale 0.1
+setfield PhysicsTypes.AlienFighter[0].CruisingThrottle 0
+savetagchanges
+exit
+
+edittag objects\vehicles\seraph_h3\damage_effects\seraph_turret_bolt.damage_effect
+setfield DamageUpperBound 70 70
+savetagchanges
+exit
+
+edittag objects\vehicles\seraph_h3\damage_effects\seraph_beam.damage_effect
+setfield DamageUpperBound 600 600
+savetagchanges
+exit
+
+edittag objects\vehicles\seraph_h3\weapons\seraph_gun.weapon
+setfield WeaponFlags.NewFlags SecondaryTriggerOverridesGrenades,SupportWeapon,CannotFireWhileBoosting
+setfield TargetTracking[0].AcquireTime 0
+setfield TargetTracking[0].DecayTime 0
+savetagchanges
+exit
+
+# AddForgeItem "SABRE" "VEHICLES" objects\vehicles\human\sabre\sabre.vehicle
+# AddForgeItem "SERAPH" "VEHICLES" objects\vehicles\seraph_reach\seraph_reach.vehicle
+# AddForgeItem "BANSHEE, SPACE" "VEHICLES" objects\vehicles\covenant\space_banshee\space_banshee.vehicle
+# AddForgeItem "MAC CANNON" "VEHICLES" objects\vehicles\human\turrets\mac_15cm_mark_2488\mac_15cm_mark_2488.vehicle
+
+# [TIME DURATION] elapsed with 14 errors and 8 warnings
+# THIS IS FINE
