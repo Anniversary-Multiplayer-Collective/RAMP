@@ -142,14 +142,14 @@ AddForgeItem "ELEVATOR BUTTON, TOGGLE" 86 objects\levels\shared\m20_elevator_sm_
 AddForgeItem "KEYPAD, TOGGLE" 86 objects\levels\shared\device_controls\switches\hum_single_button_1\hum_single_button_1.device_control
 AddForgeItem "KEYPAD UNSC, TOGGLE" 86 objects\levels\shared\device_controls\switches\hum_keypad_02\hum_keypad_02.device_control
 
-duplicatetag objects\levels\shared\device_machines\m45_hall_door_small01\m45_hall_door_small01.device_machine
-nametag * objects\levels\shared\device_machines\m45_hall_door_small01\m45_hall_door_small01_forge.device_machine
-savetagnames
-AddForgeItem "Covenant Hallway Door" 86 objects\levels\shared\device_machines\m45_hall_door_small01\m45_hall_door_small01_forge.device_machine
+DuplicateTag objects\levels\shared\device_machines\m45_hall_door_small01\m45_hall_door_small01.device_machine
+NameTag * objects\levels\shared\device_machines\m45_hall_door_small01\m45_hall_door_small01_forge.device_machine
+SaveTagNames
+AddForgeItem "HALLWAY DOOR, COVENANT" 86 objects\levels\shared\device_machines\m45_hall_door_small01\m45_hall_door_small01_forge.device_machine
 
 
-AddForgeItem "Covenant Touchscreen 1" 86 objects\levels\shared\device_controls\switches\cov_touchscreen_03\cov_touchscreen_03.device_control
-AddForgeItem "Covenant Touchscreen 2" 86 objects\levels\shared\device_controls\cov_touchscreen_m45\cov_touchscreen_m45.device_control
+AddForgeItem "COVENANT TOUCHSCREEN 1, TOGGLE" 86 objects\levels\shared\device_controls\switches\cov_touchscreen_03\cov_touchscreen_03.device_control
+AddForgeItem "COVENANT TOUCHSCREEN 2, TOGGLE" 86 objects\levels\shared\device_controls\cov_touchscreen_m45\cov_touchscreen_m45.device_control
 
 
 
