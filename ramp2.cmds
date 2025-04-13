@@ -2242,10 +2242,10 @@ AddForgeItem "MAC CANNON" "VEHICLES" objects\vehicles\human\turrets\mac_15cm_mar
 
 # FIXUP for RAMP 2 only
 # Watashi totte wa mikanzen
-# edittag ui\chud\mac_cannon.chud_definition
-# setfield HudWidgets[1].BitmapWidgets[1].PlacementData[0].Origin 0 -0.9
-# savetagchanges
-# exit
+edittag ui\chud\mac_cannon.chud_definition
+setfield HudWidgets[1].BitmapWidgets[1].PlacementData[0].Origin 0 -0.9
+savetagchanges
+exit
 # I DONT GET IT
 
 AddModFiles workingdir\assets
