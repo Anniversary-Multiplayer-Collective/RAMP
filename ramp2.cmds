@@ -2240,6 +2240,10 @@ AddForgeItem "SERAPH" "VEHICLES" objects\vehicles\seraph_reach\seraph_reach.vehi
 AddForgeItem "BANSHEE, SPACE" "VEHICLES" objects\vehicles\covenant\space_banshee\space_banshee.vehicle
 AddForgeItem "MAC CANNON" "VEHICLES" objects\vehicles\human\turrets\mac_15cm_mark_2488\mac_15cm_mark_2488.vehicle
 
+echo ==Add Void Canvas Map==
+
+RunCommands "workingdir\cmds\Void.cmds"
+
 # FIXUP for RAMP 2 only
 # Watashi totte wa mikanzen
 edittag ui\chud\mac_cannon.chud_definition

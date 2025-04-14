@@ -1,0 +1,96 @@
+
+
+GenerateCanvas
+levels\eldewrito\canvas\void
+Void
+Fill the void with your deepest desires.
+dank
+65534
+
+
+duplicatetag levels\multi\45_aftship\sky_45_aftship\sky_45_aftship.scenery
+nametag * levels\multi\void\sky_void\sky_void\sky_void
+
+duplicatetag levels\multi\45_aftship\sky_45_aftship\sky_45_aftship.model
+nametag * levels\multi\void\void\sky_void\sky_void
+
+duplicatetag levels\multi\45_aftship\sky_45_aftship\sky_45_aftship.render_model
+nametag * levels\multi\void\void\void\sky_void
+
+duplicatetag levels\solo\m45\sky_corvette\shaders\space.shader
+nametag * levels\solo\void\void\shaders\space_void
+savetagnames
+
+edittag levels\eldewrito\canvas\void.scenario
+setfield StructureBsps[0].Cubemap rasterizer\invalid.bitmap
+setfield StructureBsps[0].Wind null
+addblockelements SkyReferences 5 1
+setfield SkyReferences[0].SkyObject levels\multi\void\sky_void\sky_void\sky_void.scenery
+setfield SkyReferences[0].ActiveBsps Bsp1
+setfield SkyReferences[0].NameIndex -1
+setfield SkyReferences[1].SkyObject levels\multi\void\sky_void\sky_void\sky_void.scenery
+setfield SkyReferences[1].ActiveBsps None
+setfield SkyReferences[0].NameIndex -1
+setfield SkyReferences[2].SkyObject levels\multi\void\sky_void\sky_void\sky_void.scenery
+setfield SkyReferences[2].ActiveBsps None
+setfield SkyReferences[0].NameIndex -1
+setfield SkyReferences[3].SkyObject levels\multi\void\sky_void\sky_void\sky_void.scenery
+setfield SkyReferences[3].ActiveBsps None
+setfield SkyReferences[0].NameIndex -1
+setfield SkyReferences[4].SkyObject levels\multi\void\sky_void\sky_void\sky_void.scenery
+setfield SkyReferences[4].ActiveBsps None
+setfield SkyReferences[0].NameIndex -1
+setfield SkyReferences[5].SkyObject levels\multi\void\sky_void\sky_void\sky_void.scenery
+setfield SkyReferences[5].ActiveBsps Bsp0
+setfield SkyReferences[0].NameIndex -1
+setfield ZoneSetPvs[0].StructureBspPvs[0].AttachedSkyIndices[0].SkyIndex 5
+setfield ZoneSetPvs[0].StructureBspPvs[0].VisibleSkyIndices[0].SkyIndex 5
+setfield SkyParameters levels\multi\45_aftship\45_aftship.sky_atm_parameters
+savetagchanges
+exit
+
+EditTag levels\eldewrito\canvas\void_bsp_0.scenario_structure_bsp
+SetField WorldBoundsX -1000 1000
+SetField WorldBoundsY -1000 1000
+SetField WorldBoundsZ -1000 1000
+SetField Clusters[0].BoundsX -1000 1000
+SetField Clusters[0].BoundsY -1000 1000
+SetField Clusters[0].BoundsZ -1000 1000
+SetField Physics.MoppBoundsMin -1000 -1000 -1000
+SetField Physics.MoppBoundsMax 1000 1000 1000
+SaveTagChanges
+Exit
+
+edittag levels\multi\void\sky_void\sky_void\sky_void.scenery
+setfield Model levels\multi\void\void\sky_void\sky_void.model
+savetagchanges
+exit
+
+edittag levels\multi\void\void\sky_void\sky_void.model
+setfield RenderModel levels\multi\void\void\void\sky_void.render_model
+savetagchanges
+exit
+
+edittag levels\multi\void\void\void\sky_void.render_model
+setfield Materials[1].RenderMethod levels\solo\void\void\shaders\space_void.shader
+savetagchanges
+exit
+
+edittag levels\solo\void\void\shaders\space_void.shader
+setargument albedo_color 0 0 0 1
+savetagchanges
+exit
+
+edittag levels\eldewrito\canvas\void.camera_fx_settings
+setfield Exposure.Strength 3.5
+savetagchanges
+exit
+
+
+
+
+
+
+
+
+
