@@ -1470,10 +1470,179 @@ setfield TargetTracking[0].DecayTime 0
 savetagchanges
 exit
 
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->Pelican->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
+
+# https://steamcommunity.com/sharedfiles/filedetails/?id=2984061723&searchtext=
+opencachefile F:\SteamLibrary\steamapps\workshop\content\976730\2984061723\maps\hugeass_remastered_mcc.map
+porttag objects\vehicles\pelican_multiplayer\pelican_multiplayer.vehicle
+exit
+
+edittag objects\vehicles\pelican_multiplayer\pelican_multiplayer.vehicle
+setfield Seats[0].Label warthog_d
+savetagchanges
+exit
+
+
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->Phantom->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
+
+opencachefile F:\SteamLibrary\steamapps\workshop\content\976730\2984061723\maps\hugeass_remastered_mcc.map
+porttag objects\vehicles\pelican_multiplayer\pelican_multiplayer.vehicle
+exit
+
+edittag objects\vehicles\phantom_test\phantom_test.vehicle
+setfield Seats[0].Label warthog_d
+savetagchanges
+exit
+
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->Wombat->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
+
+opencachefile F:\SteamLibrary\steamapps\workshop\content\976730\2984061723\maps\hugeass_remastered_mcc.map
+porttag objects\vehicles\drone_alpha\drone_alpha.vehicle
+exit
+
+edittag objects\vehicles\drone_alpha\drone_alpha.vehicle
+setfield Seats[0].Label warthog_d
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-BALANCE
+# ------------------------------------------------------------------------------------------------
+
+echo ==Sabre==
+
+edittag objects\vehicles\human\sabre\sabre.model
+setfield NewDamageInfo[0].MaximumVitality 500
+setfield NewDamageInfo[0].MaxShieldVitality 500
+setfield NewDamageInfo[0].GlobalShieldMaterialName energy_shield_thick
+setfield NewDamageInfo[0].GlobalShieldMaterialIndex 152
+savetagchanges
+exit
+
+edittag objects\vehicles\human\sabre\weapon\sabre_gatling_gun\projectiles\damage_effects\sabre_gatling_gun_bullet.damage_effect
+setfield DamageUpperBound 15 15
+savetagchanges
+exit
+
+edittag objects\vehicles\human\sabre\weapon\sabre_gatling_gun\projectiles\damage_effects\sabre_gatling_gun_bullet_explosion.damage_effect
+setfield DamageUpperBound 20 20
+savetagchanges
+exit
+
+echo ==Seraph==
+
+edittag objects\vehicles\seraph_reach\seraph_reach.model
+setfield NewDamageInfo[0].MaximumVitality 750
+setfield NewDamageInfo[0].MaxShieldVitality 500
+setfield NewDamageInfo[0].GlobalShieldMaterialName energy_shield_thick
+setfield NewDamageInfo[0].GlobalShieldMaterialIndex 152
+savetagchanges
+exit
+
+edittag objects\vehicles\seraph_h3\damage_effects\seraph_turret_bolt.damage_effect
+setfield DamageUpperBound 15 15
+savetagchanges
+exit
+
+edittag objects\vehicles\seraph_h3\damage_effects\seraph_beam.damage_effect
+setfield DamageUpperBound 250 250
+savetagchanges
+exit
+
+echo ==Pelican==
+
+edittag objects\vehicles\pelican_multiplayer\pelican_multiplayer.vehicle
+setfield PhysicsTypes.HumanPlane[0].VelocityControl.MaximumForwardSpeed 20
+setfield PhysicsTypes.HumanPlane[0].VelocityControl.SpeedDeceleration 20
+setfield PhysicsTypes.HumanPlane[0].VelocityControl.MaximumReverseSpeed 10
+setfield PhysicsTypes.HumanPlane[0].MaximumUpRise 20
+setfield PhysicsTypes.HumanPlane[0].RiseAcceleration 20
+setfield PhysicsTypes.HumanPlane[0].RiseDeceleration 20
+setfield PhysicsTypes.HumanPlane[0].MaximumDownRise 20
+savetagchanges
+exit
+
+edittag objects\vehicles\pelican\turrets\chaingun\damage_effects\pelican_turret_bullet.damage_effect
+setfield DamageUpperBound 35 35
+savetagchanges
+exit
+
+edittag objects\vehicles\pelican_multiplayer\weapons\damage_effects\pelican_missile_explosion.damage_effect
+setfield DamageUpperBound 35 35
+savetagchanges
+exit
+
+echo ==Phantom==
+
+edittag objects\vehicles\phantom_test\phantom_test.vehicle
+setfield PhysicsTypes.HumanPlane[0].VelocityControl.MaximumForwardSpeed 20
+setfield PhysicsTypes.HumanPlane[0].VelocityControl.SpeedDeceleration 20
+setfield PhysicsTypes.HumanPlane[0].VelocityControl.MaximumReverseSpeed 10
+setfield PhysicsTypes.HumanPlane[0].MaximumUpRise 20
+setfield PhysicsTypes.HumanPlane[0].RiseAcceleration 20
+setfield PhysicsTypes.HumanPlane[0].RiseDeceleration 20
+setfield PhysicsTypes.HumanPlane[0].MaximumDownRise 20
+savetagchanges
+exit
+
+edittag objects\vehicles\phantom_flyable\turrets\phantom_turret_bolt.damage_effect
+setfield DamageUpperBound 50 50
+savetagchanges
+exit
+
+echo ==Space Banshee
+
+edittag objects\vehicles\human\sabre\sabre.vehicle
+copyblockelements TargetTracking 0 1
+exit
+
+edittag objects\vehicles\covenant\space_banshee\space_banshee.vehicle
+pasteblockelements TargetTracking
+setfield VehicleFlags NoFrictionWithDriver,AiDoesNotRequireDriver,AiDriverEnable
+setfield PhysicsTypes.AlienFighter[0].VelocityControl.SpeedDeceleration 100
+setfield PhysicsTypes.AlienFighter[0].VelocityControl.MaximumForwardSpeed 40
+setfield PhysicsTypes.AlienFighter[0].CruisingThrottle 0
+setfield PhysicsTypes.AlienFighter[0].FixedGunOffset 0 10
+savetagchanges
+exit
+
+edittag objects\vehicles\covenant\space_banshee\weapons\space_banshee_dual_cannon\projectiles\damage_effects\space_banshee_dual_cannon_bolt.damage_effect
+setfield DamageUpperBound 12 12
+savetagchanges
+exit
+
+echo ==Wombat==
+
+edittag objects\vehicles\drone_alpha\drone_alpha.model
+setfield NewDamageInfo[0].MaximumVitality 350
+savetagchanges
+exit
+
+edittag objects\vehicles\drone_alpha\drone_alpha.vehicle
+pasteblockelements TargetTracking
+setfield VehicleFlags NoFrictionWithDriver,AiDoesNotRequireDriver,AiDriverEnable
+setfield PhysicsTypes.AlienFighter[0].VelocityControl.MaximumForwardSpeed 40
+setfield PhysicsTypes.AlienFighter[0].VelocityControl.SpeedAcceleration 40
+setfield PhysicsTypes.AlienFighter[0].VelocityControl.SpeedDeceleration 100
+setfield PhysicsTypes.AlienFighter[0].VelocityControl.MaximumLeftSlide 3
+setfield PhysicsTypes.AlienFighter[0].VelocityControl.MaximumRightSlide 3
+setfield PhysicsTypes.AlienFighter[0].LoopTrickDuration 2
+setfield PhysicsTypes.AlienFighter[0].RollTrickDuration 2
+setfield PhysicsTypes.AlienFighter[0].ZeroGravitySpeed 4
+setfield PhysicsTypes.AlienFighter[0].FullGravitySpeed 3.7
+setfield PhysicsTypes.AlienFighter[0].CruisingThrottle 0
+setfield HavokVehiclePhysics.GroundFriction 1
+setfield HavokVehiclePhysics.GroundMovingFriction 0.5
+savetagchanges
+exit
+
 # AddForgeItem "SABRE" "VEHICLES" objects\vehicles\human\sabre\sabre.vehicle
 # AddForgeItem "SERAPH" "VEHICLES" objects\vehicles\seraph_reach\seraph_reach.vehicle
 # AddForgeItem "BANSHEE, SPACE" "VEHICLES" objects\vehicles\covenant\space_banshee\space_banshee.vehicle
 # AddForgeItem "MAC CANNON" "VEHICLES" objects\vehicles\human\turrets\mac_15cm_mark_2488\mac_15cm_mark_2488.vehicle
+# AddForgeItem "Pelican" 79 objects\vehicles\pelican_multiplayer\pelican_multiplayer.vehicle
+# AddForgeItem "Phantom" 79 objects\vehicles\phantom_test\phantom_test.vehicle
+# AddForgeItem "Wombat" 79 objects\vehicles\drone_alpha\drone_alpha.vehicle
 
 # [TIME DURATION] elapsed with 14 errors and 8 warnings
 # THIS IS FINE
