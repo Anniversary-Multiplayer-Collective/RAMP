@@ -2069,6 +2069,10 @@ AddForgeItem "UNSC NODE, BLUE" 99 objects\props\human\unsc\unsc_node_blue\unsc_n
 AddForgeItem "WEAPON BOX [SP]" 99 objects\gear\human\military\weapon_box\weapon_box.scenery
 AddForgeItem "WEAPON BOX [MP]" 99 objects\gear\human\military\weapon_box_mp\weapon_box_mp.scenery
 
+AddForgeItem "SPACE DEBRIS" 99 objects\levels\solo\m45\space_debris_a\space_debris_a.scenery
+AddForgeItem "SLIPSPACE DRIVE" 99 objects\props\human\unsc\slipspace_drive\slipspace_drive.scenery
+AddForgeItem "SPACE SATELLITE" 99 objects\levels\solo\m45\space_beacon\space_beacon.scenery
+
 # BUILDING BLOCKS [100] -------------------------------------------------------------------------------------------------------------
 
 EditTag multiplayer\forge_globals.forge_globals_definition

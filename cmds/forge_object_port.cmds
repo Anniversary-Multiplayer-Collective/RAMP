@@ -631,8 +631,11 @@ Exit
 
 OpenCacheFile "reachmaps\m45.map"
 PortTag objects\props\human\pioneer\pioneer_weapons_stash\pioneer_weapons_stash.device_machine
-porttag objects\levels\shared\device_controls\switches\cov_touchscreen_03\cov_touchscreen_03.device_control
-porttag objects\levels\shared\device_controls\cov_touchscreen_m45\cov_touchscreen_m45.device_control
+PortTag objects\levels\shared\device_controls\switches\cov_touchscreen_03\cov_touchscreen_03.device_control
+PortTag objects\levels\shared\device_controls\cov_touchscreen_m45\cov_touchscreen_m45.device_control
+PortTag objects\levels\solo\m45\space_debris_a\space_debris_a.scenery
+PortTag objects\props\human\unsc\slipspace_drive\slipspace_drive.scenery
+PortTag objects\levels\solo\m45\space_beacon\space_beacon.scenery
 Exit
 
 OpenCacheFile "reachmaps\m30.map"
