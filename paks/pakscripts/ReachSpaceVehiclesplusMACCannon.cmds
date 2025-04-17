@@ -1408,7 +1408,7 @@ exit
 
 # ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->SERAPH->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
 # https://steamcommunity.com/sharedfiles/filedetails/?id=2984061723&searchtext=
-opencachefile "workingdir\maps\halo3\hugeass_remastered_mcc.map"
+opencachefile "D:\Games\steamapps\workshop\content\976730\2984061723\maps\hugeass_remastered_mcc.map"
 porttag objects\vehicles\seraph_reach\seraph_reach.vehicle
 exit
 
@@ -1473,7 +1473,7 @@ exit
 # ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->Pelican->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
 
 # https://steamcommunity.com/sharedfiles/filedetails/?id=2984061723&searchtext=
-opencachefile "workingdir\maps\halo3\hugeass_remastered_mcc.map"
+opencachefile "D:\Games\steamapps\workshop\content\976730\2984061723\maps\hugeass_remastered_mcc.map"
 porttag objects\vehicles\pelican_multiplayer\pelican_multiplayer.vehicle
 exit
 
@@ -1485,7 +1485,7 @@ exit
 
 # ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->Phantom->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
 
-opencachefile "workingdir\maps\halo3\hugeass_remastered_mcc.map"
+opencachefile "D:\Games\steamapps\workshop\content\976730\2984061723\maps\hugeass_remastered_mcc.map"
 porttag objects\vehicles\phantom_test\phantom_test.vehicle
 exit
 
@@ -1496,7 +1496,7 @@ exit
 
 # ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->Wombat->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
 
-opencachefile "workingdir\maps\halo3\hugeass_remastered_mcc.map"
+opencachefile "D:\Games\steamapps\workshop\content\976730\2984061723\maps\hugeass_remastered_mcc.map"
 porttag objects\vehicles\drone_alpha\drone_alpha.vehicle
 exit
 
@@ -1636,13 +1636,15 @@ setfield HavokVehiclePhysics.GroundMovingFriction 0.5
 savetagchanges
 exit
 
-AddForgeItem "SABRE" "VEHICLES" objects\vehicles\human\sabre\sabre.vehicle
-AddForgeItem "SERAPH" "VEHICLES" objects\vehicles\seraph_reach\seraph_reach.vehicle
-AddForgeItem "BANSHEE, SPACE" "VEHICLES" objects\vehicles\covenant\space_banshee\space_banshee.vehicle
-AddForgeItem "MAC CANNON" "VEHICLES" objects\vehicles\human\turrets\mac_15cm_mark_2488\mac_15cm_mark_2488.vehicle
-AddForgeItem "Pelican" 79 objects\vehicles\pelican_multiplayer\pelican_multiplayer.vehicle
-AddForgeItem "Phantom" 79 objects\vehicles\phantom_test\phantom_test.vehicle
-AddForgeItem "Wombat" 79 objects\vehicles\drone_alpha\drone_alpha.vehicle
+# AddForgeItem "SABRE" "VEHICLES" objects\vehicles\human\sabre\sabre.vehicle
+# AddForgeItem "SERAPH" "VEHICLES" objects\vehicles\seraph_reach\seraph_reach.vehicle
+# AddForgeItem "BANSHEE, SPACE" "VEHICLES" objects\vehicles\covenant\space_banshee\space_banshee.vehicle
+# AddForgeItem "MAC CANNON" "VEHICLES" objects\vehicles\human\turrets\mac_15cm_mark_2488\mac_15cm_mark_2488.vehicle
+# AddForgeItem "PELICAN" 79 objects\vehicles\pelican_multiplayer\pelican_multiplayer.vehicle
+# AddForgeItem "PHANTOM" 79 objects\vehicles\phantom_test\phantom_test.vehicle
+# AddForgeItem "WOMBAT" 79 objects\vehicles\drone_alpha\drone_alpha.vehicle
+
+savemodpackage
 
 # [TIME DURATION] elapsed with 14 errors and 8 warnings
 # THIS IS FINE
