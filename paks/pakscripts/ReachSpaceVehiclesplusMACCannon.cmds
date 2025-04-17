@@ -7,7 +7,7 @@ Me
 Multiplayer
 
 # echo ==Add default bitmap + parameter for reach diffuse power...==
-OpenCacheFile "F:\reachmaps\dlc_slayer.map"
+OpenCacheFile "reachmaps\dlc_slayer.map"
 PortTag rasterizer\diffuse_power_specular\diffuse_power.bitmap
 Exit
 
@@ -46,7 +46,7 @@ SetField parameters[*].rendermethodextern texture_cook_torrance_c78d78
 SaveTagChanges
 Exit
 
-opencachefile F:\reachmaps\m45.map
+opencachefile "reachmaps\m45.map"
 nameblamtag objects\vehicles\human\falcon\fx\weapon\grenade_launcher\detonation.effect objects\vehicles\human\sabre\fx\weapon\sabre_gun\detonation
 nameblamtag objects\vehicles\human\falcon\turrets\falcon_side_gun_left\weapons\projectiles\damage_effect\grenade_launcher_tethered_grenade_explosion.damage_effect objects\vehicles\human\sabre\weapon\sabre_gatling_gun\projectiles\damage_effects\sabre_gatling_gun_bullet_explosion
 nameblamtag ui\chud\bitmaps\hud_vehicle_reticles.bitmap ui\chud\bitmaps\hud_vehicle_reticles_reach
@@ -199,7 +199,7 @@ exit
 # ------------------------------------------------------------------------------------------------
 
 edittag objects\vehicles\human\sabre\sabre.model_animation_graph
-addanimation F:\Github\Ramp-2\Animations\Sabre
+addanimation "workingdir\Animations\Sabre"
 savetagchanges
 exit
 
@@ -794,7 +794,7 @@ savetagchanges
 exit
 
 # ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->MAC CANNON->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
-opencachefile F:\reachmaps\m70.map
+opencachefile "reachmaps\m70.map"
 porttag objects\vehicles\human\turrets\mac_15cm_mark_2488\mac_15cm_mark_2488.vehicle
 exit
 
@@ -829,7 +829,7 @@ exit
 # ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-ANIMATION
 # ------------------------------------------------------------------------------------------------
 edittag objects\vehicles\human\turrets\mac_15cm_mark_2488\mac_15cm_mark_2488.model_animation_graph
-addanimation F:\Github\Ramp-2\Animations\mac_cannon
+addanimation "workingdir\Animations\mac_cannon"
 savetagchanges
 exit
 
@@ -1252,7 +1252,7 @@ savetagchanges
 exit
 
 # ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->SPACE BANSHEE->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-
-opencachefile F:\reachmaps\m45.map
+opencachefile "reachmaps\m45.map"
 porttag objects\vehicles\covenant\space_banshee\space_banshee.vehicle
 exit
 
@@ -1311,7 +1311,7 @@ exit
 # ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-ANIMATION
 # ------------------------------------------------------------------------------------------------
 edittag objects\vehicles\covenant\space_banshee\space_banshee.model_animation_graph
-addanimation F:\Github\Ramp-2\animations\banshee_space
+addanimation "workingdir\animations\banshee_space"
 savetagchanges
 exit
 
@@ -1408,11 +1408,11 @@ exit
 
 # ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->SERAPH->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
 # https://steamcommunity.com/sharedfiles/filedetails/?id=2984061723&searchtext=
-opencachefile F:\SteamLibrary\steamapps\workshop\content\976730\2984061723\maps\hugeass_remastered_mcc.map
+opencachefile "workingdir\maps\halo3\hugeass_remastered_mcc.map"
 porttag objects\vehicles\seraph_reach\seraph_reach.vehicle
 exit
 
-opencachefile F:\reachmaps\m45.map
+opencachefile "reachmaps\m45.map"
 porttag fx\shield_impacts\seraph.shield_impact
 exit
 
@@ -1473,7 +1473,7 @@ exit
 # ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->Pelican->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
 
 # https://steamcommunity.com/sharedfiles/filedetails/?id=2984061723&searchtext=
-opencachefile F:\SteamLibrary\steamapps\workshop\content\976730\2984061723\maps\hugeass_remastered_mcc.map
+opencachefile "workingdir\maps\halo3\hugeass_remastered_mcc.map"
 porttag objects\vehicles\pelican_multiplayer\pelican_multiplayer.vehicle
 exit
 
@@ -1485,8 +1485,8 @@ exit
 
 # ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->Phantom->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
 
-opencachefile F:\SteamLibrary\steamapps\workshop\content\976730\2984061723\maps\hugeass_remastered_mcc.map
-porttag objects\vehicles\pelican_multiplayer\pelican_multiplayer.vehicle
+opencachefile "workingdir\maps\halo3\hugeass_remastered_mcc.map"
+porttag objects\vehicles\phantom_test\phantom_test.vehicle
 exit
 
 edittag objects\vehicles\phantom_test\phantom_test.vehicle
@@ -1496,7 +1496,7 @@ exit
 
 # ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->Wombat->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
 
-opencachefile F:\SteamLibrary\steamapps\workshop\content\976730\2984061723\maps\hugeass_remastered_mcc.map
+opencachefile "workingdir\maps\halo3\hugeass_remastered_mcc.map"
 porttag objects\vehicles\drone_alpha\drone_alpha.vehicle
 exit
 
@@ -1636,13 +1636,13 @@ setfield HavokVehiclePhysics.GroundMovingFriction 0.5
 savetagchanges
 exit
 
-# AddForgeItem "SABRE" "VEHICLES" objects\vehicles\human\sabre\sabre.vehicle
-# AddForgeItem "SERAPH" "VEHICLES" objects\vehicles\seraph_reach\seraph_reach.vehicle
-# AddForgeItem "BANSHEE, SPACE" "VEHICLES" objects\vehicles\covenant\space_banshee\space_banshee.vehicle
-# AddForgeItem "MAC CANNON" "VEHICLES" objects\vehicles\human\turrets\mac_15cm_mark_2488\mac_15cm_mark_2488.vehicle
-# AddForgeItem "Pelican" 79 objects\vehicles\pelican_multiplayer\pelican_multiplayer.vehicle
-# AddForgeItem "Phantom" 79 objects\vehicles\phantom_test\phantom_test.vehicle
-# AddForgeItem "Wombat" 79 objects\vehicles\drone_alpha\drone_alpha.vehicle
+AddForgeItem "SABRE" "VEHICLES" objects\vehicles\human\sabre\sabre.vehicle
+AddForgeItem "SERAPH" "VEHICLES" objects\vehicles\seraph_reach\seraph_reach.vehicle
+AddForgeItem "BANSHEE, SPACE" "VEHICLES" objects\vehicles\covenant\space_banshee\space_banshee.vehicle
+AddForgeItem "MAC CANNON" "VEHICLES" objects\vehicles\human\turrets\mac_15cm_mark_2488\mac_15cm_mark_2488.vehicle
+AddForgeItem "Pelican" 79 objects\vehicles\pelican_multiplayer\pelican_multiplayer.vehicle
+AddForgeItem "Phantom" 79 objects\vehicles\phantom_test\phantom_test.vehicle
+AddForgeItem "Wombat" 79 objects\vehicles\drone_alpha\drone_alpha.vehicle
 
 # [TIME DURATION] elapsed with 14 errors and 8 warnings
 # THIS IS FINE

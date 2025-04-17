@@ -1,9 +1,9 @@
-E:\ElDewrito 0.7 Official\maps
+D:\eldewrito\eldewrito 0.7\ElDewrito\maps
 
 # echo ==Set Variables...==
-SetVariable workingdir "C:\AMPProjects\Ramp-2"
-SetVariable modsfolder "E:\ElDewrito 0.7 Official\mods"
-SetVariable reachmaps "Z:\Halo Stuff\retail maps for porting and ed caches\Halo Reach maps"
+SetVariable workingdir ""
+SetVariable modsfolder ""
+SetVariable reachmaps ""
 
 # echo ==Set Caches...==
 UseAudioCache workingdir\caches\audiocache
@@ -2212,36 +2212,9 @@ echo ==Super Carrier==
 RunCommands "workingdir\cmds\SuperCarrier.cmds"
 
 echo ==Space Vehicles + MAC Cannon==
-OpenModPackage "workingdir\paks\ReachSpaceVehiclesplusMACCannon.pak"
-ApplyModPackage
-ExitModPackage
-
-edittag ui\hud\hud_messages.multilingual_unicode_string_list
-setstring english shields_at "SHIELDS:"
-setstring english hull_acceptable "HULL INTERGRITY:"
-setstring english thruster_heat "THRUSTER HEAT"
-setstring english gun_enabled "MACHINEGUN ENABLED|nSYSTEM ONLINE"
-setstring english sabre_enter "\uE461\uE45F to pilot Sabre"
-setstring english sabre_flip "\uE461\uE45F to flip Sabre"
-setstring english sabre_gunner_enter "\uE461\uE45F to ride in Sabre"
-setstring english mac_capacitors "CAPACITORS"
-setstring english mac_online "ONLINE"
-setstring english mac_abbreviations "ENUM:|n ELEV:|n ROTN:"
-setstring english mac_charge "CHARGE"
-setstring english mac_reload "RELOAD PROG."
-setstring english mac_enter_driver "\uE461\uE45F to enter MAC Cannon"
-setstring english seraph_drive "\uE461\uE45F to pilot Seraph"
-setstring english seraph_flip "\uE461\uE45F to flip Seraph"
-savetagchanges
-exit
-
-AddForgeItem "SABRE" "VEHICLES" objects\vehicles\human\sabre\sabre.vehicle
-AddForgeItem "SERAPH" "VEHICLES" objects\vehicles\seraph_reach\seraph_reach.vehicle
-AddForgeItem "BANSHEE, SPACE" "VEHICLES" objects\vehicles\covenant\space_banshee\space_banshee.vehicle
-AddForgeItem "MAC CANNON" "VEHICLES" objects\vehicles\human\turrets\mac_15cm_mark_2488\mac_15cm_mark_2488.vehicle
+RunCommands "workingdir\cmds\SpaceVehicles.cmds"
 
 echo ==Add Void Canvas Map==
-
 GenerateCanvas
 levels\eldewrito\canvas\void
 Void
