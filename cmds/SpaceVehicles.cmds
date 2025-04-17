@@ -1,24 +1,3 @@
-edittag ui\hud\hud_messages.multilingual_unicode_string_list
-setstring english shields_at "SHIELDS:"
-setstring english hull_acceptable "HULL INTERGRITY:"
-setstring english thruster_heat "THRUSTER HEAT"
-setstring english gun_enabled "MACHINEGUN ENABLED|nSYSTEM ONLINE"
-setstring english sabre_enter "\uE461\uE45F to pilot Sabre"
-setstring english sabre_flip "\uE461\uE45F to flip Sabre"
-setstring english sabre_gunner_enter "\uE461\uE45F to ride in Sabre"
-
-setstring english mac_capacitors "CAPACITORS"
-setstring english mac_online "ONLINE"
-setstring english mac_abbreviations "ENUM:|n ELEV:|n ROTN:"
-setstring english mac_charge "CHARGE"
-setstring english mac_reload "RELOAD PROG."
-setstring english mac_enter_driver "\uE461\uE45F to enter MAC Cannon"
-
-setstring english seraph_drive "\uE461\uE45F to pilot Seraph"
-setstring english seraph_flip "\uE461\uE45F to flip Seraph"
-savetagchanges
-exit
-
 # ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-SABRE->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
 opencachefile "reachmaps\m45.map"
 nameblamtag objects\vehicles\human\falcon\fx\weapon\grenade_launcher\detonation.effect objects\vehicles\human\sabre\fx\weapon\sabre_gun\detonation
@@ -33,10 +12,6 @@ porttag objects\vehicles\human\sabre\weapon\sabre_gatling_gun\projectiles\damage
 porttag fx\shield_impacts\sabre.shit
 porttag ui\chud\bitmaps\hud_vehicle_reticles_reach.bitmap
 exit
-
-
-
-
 
 # ------------------------------------------------------------------------------------------------
 # ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-VEHICLE
