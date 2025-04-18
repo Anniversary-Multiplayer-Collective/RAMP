@@ -1,0 +1,37 @@
+
+opencachefile "workingdir\maps\\HugeGrass\maps\hugeass_remastered_mcc.map"
+porttag objects\weapons\support_high\stanchion\stanchion.weapon
+exit
+
+EditTag objects\weapons\support_high\stanchion\fp_stanchion\fp_stanchion.model_animation_graph
+setinheritance any:any:any:sprint_enter objects\characters\masterchief\fp\weapons\rifle\fp_sniper_rifle\fp_sniper_rifle.model_animation_graph
+setinheritance any:any:any:sprint_loop objects\characters\masterchief\fp\weapons\rifle\fp_sniper_rifle\fp_sniper_rifle.model_animation_graph
+setinheritance any:any:any:sprint_loop_airborne objects\characters\masterchief\fp\weapons\rifle\fp_sniper_rifle\fp_sniper_rifle.model_animation_graph
+savetagchanges
+exit
+
+edittag objects\weapons\support_high\stanchion\stanchion.weapon
+setfield CenteredFirstPersonWeaponOffset -0.035 0 -0.01
+savetagchanges
+exit
+
+EditTag objects\weapons\support_high\stanchion\stanchion.chud_definition
+setfield HudWidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\ballistic_meters_hr.bitmap
+setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 11
+setfield HudWidgets[5].BitmapWidgets[0].PlacementData[0].Offset -50 93
+setfield HudWidgets[5].BitmapWidgets[0].PlacementData[0].Scale 1 1
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -45 30
+setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 0.13 0.13
+setfield HudWidgets[5].BitmapWidgets[2].PlacementData[0].Offset 55555 7
+setfield HudWidgets[5].TextWidgets[0].PlacementData[0].Offset -70 50
+setfield HudWidgets[5].TextWidgets[1].PlacementData[0].Offset -70 50
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -25 0
+setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.08 0.08
+setfield HudWidgets[5].TextWidgets[0].RenderData[0].ShaderType Medal
+savetagchanges
+exit
+
+
+
+AddForgeItem "STANCHION" 78 objects\weapons\support_high\stanchion\stanchion.weap
+

@@ -2214,7 +2214,7 @@ RunCommands "workingdir\cmds\SuperCarrier.cmds"
 echo ==Space Vehicles + MAC Cannon==
 OpenModPackage "workingdir\paks\ReachSpaceVehicles.pak"
 applymodpackage
-exit
+exitmodpackage
 
 AddForgeItem "SABRE" VEHICLES objects\vehicles\human\sabre\sabre.vehicle
 AddForgeItem "SERAPH" VEHICLES objects\vehicles\seraph_reach\seraph_reach.vehicle
@@ -2242,6 +2242,9 @@ setstring english seraph_drive "\uE461\uE45F to pilot Seraph"
 setstring english seraph_flip "\uE461\uE45F to flip Seraph"
 savetagchanges
 exit
+
+echo ==Add Stanchion==
+RunCommands "workingdir\cmds\Stanchion.cmds"
 
 echo ==Add Void Canvas Map==
 GenerateCanvas
