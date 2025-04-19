@@ -1,5 +1,5 @@
 
-opencachefile "workingdir\maps\\HugeGrass\maps\hugeass_remastered_mcc.map"
+opencachefile "workingdir\maps\HugeGrass\maps\hugeass_remastered_mcc.map"
 porttag objects\weapons\support_high\stanchion\stanchion.weapon
 exit
 
