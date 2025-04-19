@@ -146,13 +146,34 @@ DuplicateTag objects\levels\shared\device_machines\m45_hall_door_small01\m45_hal
 NameTag * objects\levels\shared\device_machines\m45_hall_door_small01\m45_hall_door_small01_forge.device_machine
 SaveTagNames
 AddForgeItem "HALLWAY DOOR, COVENANT" 86 objects\levels\shared\device_machines\m45_hall_door_small01\m45_hall_door_small01_forge.device_machine
-
-
 AddForgeItem "COVENANT TOUCHSCREEN 1, TOGGLE" 86 objects\levels\shared\device_controls\switches\cov_touchscreen_03\cov_touchscreen_03.device_control
 AddForgeItem "COVENANT TOUCHSCREEN 2, TOGGLE" 86 objects\levels\shared\device_controls\cov_touchscreen_m45\cov_touchscreen_m45.device_control
 
+DuplicateTag objects\levels\shared\m60_unsc_door_a\m60_unsc_door_a.device_machine
+NameTag * objects\levels\shared\m60_unsc_door_a\m60_unsc_door_a_mp
+SaveTagNames
+AddForgeItem "UNSC DOOR A" 86 objects\levels\shared\m60_unsc_door_a\m60_unsc_door_a_mp.device_machine
 
+DuplicateTag objects\levels\solo\m20\door_interior_large\door_interior_large.device_machine
+NameTag * objects\levels\solo\m20\door_interior_large\door_interior_large_mp
+SaveTagNames
+AddForgeItem "DOOR INTERIOR LARGE" 86 objects\levels\solo\m20\door_interior_large\door_interior_large_mp.device_machine
 
+Opencachefile "reachmaps\M50.map"
+porttag objects\levels\solo\m50\door_urban_corp_medium_a\door_urban_corp_medium_a.device_machine
+porttag objects\levels\solo\m50\door_urban_gen_small_b\door_urban_gen_small_b.device_machine
+porttag objects\levels\solo\m50\door_urban_large_a\door_urban_large_a.device_machine
+exit
+
+DuplicateTag objects\levels\solo\m50\door_urban_gen_small_b\door_urban_gen_small_b.device_machine
+NameTag * objects\levels\solo\m50\door_urban_gen_small_b\door_urban_gen_small_b_mp
+
+DuplicateTag objects\levels\solo\m50\door_urban_large_a\door_urban_large_a.device_machine
+NameTag * objects\levels\solo\m50\door_urban_large_a\door_urban_large_a_mp
+
+AddForgeItem "DOOR URBAN MEDIUM" 86 objects\levels\solo\m50\door_urban_corp_medium_a\door_urban_corp_medium_a.device_machine
+AddForgeItem "DOOR URBAN SMALL" 86 objects\levels\solo\m50\door_urban_gen_small_b\door_urban_gen_small_b_mp.device_machine
+AddForgeItem "DOOR URBAN LARGE" 86 objects\levels\solo\m50\door_urban_large_a\door_urban_large_a_mp.device_machine
 
 # NATURALS [87] -------------------------------------------------------------------------------------------------------------
 ForEach scenery startingwith: objects\levels\solo\m10\030_rock_blocker AddBlockElements MultiplayerObject 1
