@@ -2334,6 +2334,12 @@ savetagchanges
 exit
 echo ==END Add Void Canvas Map==
 
+echo ==Boulder_Scale Render distance==
+
+edittag objects\characters\masterchief\mp_masterchief\mp_masterchief.model
+setfield DisappearDistance 80
+savetagchanges
+exit
 
 # FIXUP for RAMP 2 only
 # Watashi totte wa mikanzen
