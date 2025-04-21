@@ -2114,7 +2114,7 @@ AddForgeItem "HOLO GLOBE" 99 objects\levels\solo\m45\m45_corvette_holo_globe\m45
 AddForgeItem "CORVETTE HOLOGRAM" 99 objects\props\covenant\corvette_hologram\corvette.scenery
 AddForgeItem "DOCKING BAY LEFT" 99 objects\levels\solo\m45\m45_docking_bay_left\m45_docking_bay_left.scenery
 AddForgeItem "DOCKING BAY RIGHT" 99 objects\levels\solo\m45\m45_docking_bay_right\m45_docking_bay_right.scenery
-AddForgeItem "PANEL DEBRIS" 99 objects\levels\solo\m45\panel_debris\panel_debris.crate|
+AddForgeItem "PANEL DEBRIS" 99 objects\levels\solo\m45\panel_debris\panel_debris.crate
 AddForgeItem "BED BED BED BED BED" 99 objects\props\human\pioneer\furniture\bedroom_bed\bedroom_bed.scenery
 
 
