@@ -465,6 +465,9 @@ SaveTagChanges
 Exit
 NameTag shaders\invalid.shader shaders\invalid_h3
 
+NameTag objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big.model objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_h3
+NameTag objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big.render_model objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_h3
+
 OpenCacheFile "reachmaps\20_sword_slayer.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 DoNotReplaceGroups bitm
@@ -2336,8 +2339,55 @@ SetArgument self_illum_map 0.6 0.6 0.07 0.31
 SaveTagChanges
 Exit
 
-EditTag objects\weapons\support_high\stanchion\shaders\stanchion_illum.shader_halogram
-SetArgument self_illum_map transform 0.6 0.6 0.2 0.2
+# echo ==Increase LOD of explosions==
+
+EditTag fx\fx_library\explosions\covenant_explosion_large\covenant_explosion_large.effect
+ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
+SaveTagChanges
+Exit
+
+EditTag fx\fx_library\explosions\human_explosion_medium\human_explosion_medium.effect
+ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\rifle\concussion_rifle\projectiles\attachments\projectile.effect
+ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\rifle\concussion_rifle\projectiles\detonation.effect
+ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\grenade\frag_grenade\fx\projectile.effect
+ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\support_high\plasma_launcher\projectiles\attachments\attached.effect
+ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\grenade\plasma_grenade\fx\projectile.effect
+ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\covenant\revenant\fx\weapon\mortar\impact.effect
+ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\covenant\wraith\fx\weapon\mortar\detonation.effect
+ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\human\warthog\fx\weapon\rocket\detonation.effect
+ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
 SaveTagChanges
 Exit
 

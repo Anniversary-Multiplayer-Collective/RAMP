@@ -31,7 +31,10 @@ setfield HudWidgets[5].TextWidgets[0].RenderData[0].ShaderType Medal
 savetagchanges
 exit
 
-
+EditTag objects\weapons\support_high\stanchion\shaders\stanchion_illum.shader_halogram
+SetArgument self_illum_map transform 0.6 0.6 0.2 0.2
+SaveTagChanges
+Exit
 
 AddForgeItem "STANCHION" 78 objects\weapons\support_high\stanchion\stanchion.weap
 
