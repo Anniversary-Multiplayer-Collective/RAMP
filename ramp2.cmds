@@ -2393,10 +2393,10 @@ Exit
 
 echo ==Boulder_Scale Render distance==
 
-edittag objects\characters\masterchief\mp_masterchief\mp_masterchief.model
-setfield DisappearDistance 80
-savetagchanges
-exit
+EditTag objects\scenery\nature\boulder_scale\boulder_scale.model
+SetField DisappearDistance 80
+SaveTagChanges
+Exit
 
 echo ==Fix Splazer meter==
 
