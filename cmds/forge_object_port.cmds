@@ -616,6 +616,10 @@ PortTag objects\props\human\pioneer\farm\wind_turbine_small\wind_turbine_small.d
 PortTag objects\props\human\pioneer\tech\com_a\com_a.scenery
 PortTag objects\props\human\pioneer\farm\com_antennae\com_antennae.scenery
 PortTag objects\levels\shared\device_controls\switches\hum_keypad_02\hum_keypad_02.device_control
+PortTag objects\props\human\pioneer\furniture\bedroom_bed\bedroom_bed.scenery
+##PortTag objects\levels\solo\m10\sorvad_corpse\sorvad_corpse.scenery
+##PortTag objects\cinematics\tac_pad\tac_pad.scenery
+##PortTag objects\cinematics\data_module\data_module.scenery
 Exit
 
 OpenCacheFile "reachmaps\m05.map"
@@ -636,10 +640,23 @@ PortTag objects\levels\shared\device_controls\cov_touchscreen_m45\cov_touchscree
 PortTag objects\levels\solo\m45\space_debris_a\space_debris_a.scenery
 PortTag objects\props\human\unsc\slipspace_drive\slipspace_drive.scenery
 PortTag objects\levels\solo\m45\space_beacon\space_beacon.scenery
+PortTag objects\levels\solo\m45\m45_corvette_holo_globe\m45_corvette_holo_globe.scenery
+PortTag objects\levels\solo\m45\m45_docking_bay_left\m45_docking_bay_left.scenery
+PortTag objects\levels\solo\m45\m45_docking_bay_right\m45_docking_bay_right.scenery
+PortTag objects\levels\solo\m45\panel_debris\panel_debris.crate
+PortTag objects\props\covenant\corvette_hologram\corvette.scenery
 Exit
 
 OpenCacheFile "reachmaps\m30.map"
 PortTag objects\levels\shared\device_machines\metal_gate\metal_gate.device_machine
+PortTag objects\props\covenant\cov_portable_light\cov_portable_light.device_machine
+Exit
+
+OpenCacheFile "reachmaps\M50.map"
+PortTag objects\levels\solo\m50\door_urban_corp_medium_a\door_urban_corp_medium_a.device_machine
+PortTag objects\levels\solo\m50\door_urban_gen_small_b\door_urban_gen_small_b.device_machine
+PortTag objects\levels\solo\m50\door_urban_large_a\door_urban_large_a.device_machine
+##PortTag objects\cinematics\smoke_flare\smoke_flare.scenery
 Exit
 
 OpenCacheFile "reachmaps\m52.map"
@@ -649,8 +666,14 @@ PortTag objects\levels\solo\m52\m52_door_hospital_glass\m52_door_hospital_glass.
 PortTag objects\levels\solo\m52\m52_elevator_ivory_tower\m52_elevator_ivory_tower.device_machine
 PortTag objects\levels\shared\lights\y_m52_club_stage_a\y_m52_club_stage_a.scenery
 PortTag objects\levels\solo\m52\m52_club_hologram\m52_club_hologram.scenery
-
+##PortTag objects\levels\solo\m52\collapsing_building\collapsing_building.device_machine
 Exit
+
+OpenCacheFile "reachmaps\m60.map"
+PortTag objects\props\covenant\cov_watchtower\cov_watchtower_base\cov_watchtower_base.device_machine
+PortTag objects\props\covenant\cov_watchtower\cov_watchtower_pod\cov_watchtower_pod.crate
+Exit
+
 
 OpenCacheFile "reachmaps\cex_headlong.map"
 PortTag objects\cex\cex_headlong\forge\ff_door\ff_door.crate
@@ -659,6 +682,16 @@ Exit
 OpenCacheFile "reachmaps\cex_prisoner.map"
 PortTag objects\cex\cex_prisoner\forge\ff_prisoner_doorblocker_b\ff_prisoner_doorblocker_b.crate
 PortTag objects\cex\cex_prisoner\forge\ff_prisoner_doorblocker_a\ff_prisoner_doorblocker_a.crate
+Exit
+
+OpenCacheFile "reachmaps\m70.map"
+##PortTag objects\levels\solo\m70\poa_gantry\poa_gantry.scenery
+##PortTag objects\levels\solo\m70\large_mill_a\large_mill_a.scenery
+##PortTag objects\props\covenant\cov_methane_refueling\cov_methane_refueling.scenery
+Exit
+
+OpenCacheFile "reachmaps\m70_a.map"
+PortTag objects\cinematics\halo\halo.scenery
 Exit
 
 echo ==Remove damage from forge items from applied pak...==

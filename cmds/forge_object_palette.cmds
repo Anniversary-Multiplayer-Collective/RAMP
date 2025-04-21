@@ -159,12 +159,6 @@ NameTag * objects\levels\solo\m20\door_interior_large\door_interior_large_mp
 SaveTagNames
 AddForgeItem "DOOR INTERIOR LARGE" 86 objects\levels\solo\m20\door_interior_large\door_interior_large_mp.device_machine
 
-Opencachefile "reachmaps\M50.map"
-porttag objects\levels\solo\m50\door_urban_corp_medium_a\door_urban_corp_medium_a.device_machine
-porttag objects\levels\solo\m50\door_urban_gen_small_b\door_urban_gen_small_b.device_machine
-porttag objects\levels\solo\m50\door_urban_large_a\door_urban_large_a.device_machine
-exit
-
 DuplicateTag objects\levels\solo\m50\door_urban_gen_small_b\door_urban_gen_small_b.device_machine
 NameTag * objects\levels\solo\m50\door_urban_gen_small_b\door_urban_gen_small_b_mp
 
@@ -174,6 +168,11 @@ NameTag * objects\levels\solo\m50\door_urban_large_a\door_urban_large_a_mp
 AddForgeItem "DOOR URBAN MEDIUM" 86 objects\levels\solo\m50\door_urban_corp_medium_a\door_urban_corp_medium_a.device_machine
 AddForgeItem "DOOR URBAN SMALL" 86 objects\levels\solo\m50\door_urban_gen_small_b\door_urban_gen_small_b_mp.device_machine
 AddForgeItem "DOOR URBAN LARGE" 86 objects\levels\solo\m50\door_urban_large_a\door_urban_large_a_mp.device_machine
+
+##AddForgeItem "COLLAPSIBLE BUILDING" 86 objects\levels\solo\m52\collapsing_building\collapsing_building.device_machine
+##AddForgeItem "WATCHTOWER BASE, COVENANT" 86 objects\props\covenant\cov_watchtower\cov_watchtower_base\cov_watchtower_base.device_machine
+AddForgeItem "PORTABLE LIGHT, COVENANT" 86 objects\props\covenant\cov_portable_light\cov_portable_light.device_machine
+
 
 # NATURALS [87] -------------------------------------------------------------------------------------------------------------
 ForEach scenery startingwith: objects\levels\solo\m10\030_rock_blocker AddBlockElements MultiplayerObject 1
@@ -561,6 +560,7 @@ AddForgeItem "DRIFTWOOD 2" 87 objects\levels\solo\m20\driftwood_b\driftwood_b.cr
 AddForgeItem "DRIFTWOOD 3" 87 objects\levels\solo\m20\driftwood_c\driftwood_c.crate
 AddForgeItem "LOG, SMALL 1" 87 objects\props\human\pioneer\farm\logs\log_a\log_a.crate
 AddForgeItem "LOG, SMALL 2" 87 objects\props\human\pioneer\farm\logs\log_b\log_b.crate
+
 
 # COVER [88] -------------------------------------------------------------------------------------------------------------
 AddForgeItem "ONI BARRIER, STANDARD" 88 objects\props\human\oni\security_wall_short_b\security_wall_short_b.scenery
@@ -2098,17 +2098,6 @@ DuplicateTag objects\gear\human\military\weapon_rack\weapon_rack.scenery
 NameTag * objects\gear\human\military\weapon_rack\weapon_rack_mp
 AddForgeItem "WEAPON RACK" 99 objects\gear\human\military\weapon_rack\weapon_rack_mp.scenery
 
-OpenCacheFile "reachmaps\m45.map"
-porttag objects\levels\solo\m45\m45_corvette_holo_globe\m45_corvette_holo_globe.scenery
-porttag objects\levels\solo\m45\m45_docking_bay_left\m45_docking_bay_left.scenery
-porttag objects\levels\solo\m45\m45_docking_bay_right\m45_docking_bay_right.scenery
-porttag objects\levels\solo\m45\panel_debris\panel_debris.crate
-porttag objects\props\covenant\corvette_hologram\corvette.scenery
-exit
-
-OpenCacheFile "reachmaps\m10.map"
-porttag objects\props\human\pioneer\furniture\bedroom_bed\bedroom_bed.scenery
-exit
 
 AddForgeItem "HOLO GLOBE" 99 objects\levels\solo\m45\m45_corvette_holo_globe\m45_corvette_holo_globe.scenery
 AddForgeItem "CORVETTE HOLOGRAM" 99 objects\props\covenant\corvette_hologram\corvette.scenery
@@ -2116,6 +2105,16 @@ AddForgeItem "DOCKING BAY LEFT" 99 objects\levels\solo\m45\m45_docking_bay_left\
 AddForgeItem "DOCKING BAY RIGHT" 99 objects\levels\solo\m45\m45_docking_bay_right\m45_docking_bay_right.scenery
 AddForgeItem "PANEL DEBRIS" 99 objects\levels\solo\m45\panel_debris\panel_debris.crate
 AddForgeItem "BED BED BED BED BED" 99 objects\props\human\pioneer\furniture\bedroom_bed\bedroom_bed.scenery
+AddForgeItem "HALO RING" 99 objects\cinematics\halo\halo.scenery
+##AddForgeItem "POA GANTRY" 99 objects\levels\solo\m70\poa_gantry\poa_gantry.scenery
+##AddForgeItem "LARGE MILL" 99 objects\levels\solo\m70\large_mill_a\large_mill_a.scenery
+##AddForgeItem "SORVADS CORPSE" 99 objects\levels\solo\m10\sorvad_corpse\sorvad_corpse.scenery
+##AddForgeItem "SMOKE FLARE" 99 objects\cinematics\smoke_flare\smoke_flare.scenery
+##AddForgeItem "TAC PAD" 99 objects\cinematics\tac_pad\tac_pad.scenery
+##AddForgeItem "DATA MODULE" 99 objects\cinematics\data_module\data_module.scenery
+##AddForgeItem "WATCHTOWER POD, COVENANT" 99 objects\props\covenant\cov_watchtower\cov_watchtower_pod\cov_watchtower_pod.crate
+##AddForgeItem "METHANE REFUELING, COVENANT" 99 objects\props\covenant\cov_methane_refueling\cov_methane_refueling.scenery
+
 
 
 # BUILDING BLOCKS [100] -------------------------------------------------------------------------------------------------------------

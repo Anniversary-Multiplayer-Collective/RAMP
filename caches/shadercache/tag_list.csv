@@ -289,3 +289,15 @@
 0x00000120,shaders\particle_templates\_5_2_0_0_0_0_1_1_0_1
 0x00000121,shaders\particle_templates\_5_2_0_0_0_0_1_1_0_1
 0x00000122,shaders\particle_templates\_5_2_0_0_0_0_1_1_0_1
+0x00000123,shaders\light_volume_templates\_0_8_1_1
+0x00000124,shaders\light_volume_templates\_0_8_1_1
+0x00000125,shaders\light_volume_templates\_0_8_1_1
+0x00000126,shaders\particle_templates\_3_10_0_0_0_1_1_1_1_0
+0x00000127,shaders\particle_templates\_3_10_0_0_0_1_1_1_1_0
+0x00000128,shaders\particle_templates\_3_10_0_0_0_1_1_1_1_0
+0x00000129,shaders\screen_templates\_2_0_0_0_0
+0x0000012A,shaders\screen_templates\_2_0_0_0_0
+0x0000012B,shaders\screen_templates\_2_0_0_0_0
+0x0000012C,shaders\particle_templates\_9_8_0_0_0_0_0_0_0_0
+0x0000012D,shaders\particle_templates\_9_8_0_0_0_0_0_0_0_0
+0x0000012E,shaders\particle_templates\_9_8_0_0_0_0_0_0_0_0
