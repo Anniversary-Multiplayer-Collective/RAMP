@@ -465,6 +465,9 @@ SaveTagChanges
 Exit
 NameTag shaders\invalid.shader shaders\invalid_h3
 
+NameTag objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big.model objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_h3
+NameTag objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big.render_model objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_h3
+
 OpenCacheFile "reachmaps\20_sword_slayer.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 DoNotReplaceGroups bitm
