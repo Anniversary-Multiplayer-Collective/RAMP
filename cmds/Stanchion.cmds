@@ -32,7 +32,7 @@ savetagchanges
 exit
 
 EditTag objects\weapons\support_high\stanchion\shaders\stanchion_illum.shader_halogram
-SetArgument self_illum_map transform 0.6 0.6 0.2 0.2
+SetArgument self_illum_map 0.6 0.6 0.2 0.2
 SaveTagChanges
 Exit
 
