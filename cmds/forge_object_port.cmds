@@ -670,8 +670,8 @@ PortTag objects\levels\solo\m52\m52_club_hologram\m52_club_hologram.scenery
 Exit
 
 OpenCacheFile "reachmaps\m60.map"
-PortTag objects\props\covenant\cov_watchtower\cov_watchtower_base\cov_watchtower_base.device_machine
-PortTag objects\props\covenant\cov_watchtower\cov_watchtower_pod\cov_watchtower_pod.crate
+##PortTag objects\props\covenant\cov_watchtower\cov_watchtower_base\cov_watchtower_base.device_machine
+##PortTag objects\props\covenant\cov_watchtower\cov_watchtower_pod\cov_watchtower_pod.crate
 Exit
 
 
