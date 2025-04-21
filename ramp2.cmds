@@ -1298,25 +1298,6 @@ SetField Barrels[0].Projectile objects\weapons\pistol\needler\projectiles\needle
 SaveTagChanges
 Exit
 
-EditTag dw3\r3ach\objects\weapons\rifle\sniper_rifle\shaders\scope_alpha.shader_halogram
-SetArgument self_illum_map 0.6 0.6 0.19 0.16
-SaveTagChanges
-Exit
-
-EditTag dw3\r3ach\objects\weapons\support_high\spartan_laser\shaders\spartan_laser_scope_alpha.shader_halogram
-SetArgument self_illum_map 0.6 0.6 0.2 0.2
-SaveTagChanges
-Exit
-
-EditTag dw3\r3ach\objects\weapons\support_high\flak_cannon\shaders\fuel_rod_scope_alpha.shader_halogram
-SetArgument self_illum_map 0.6 0.6 0.19 0.17
-SaveTagChanges
-Exit
-
-EditTag dw3\r3ach\objects\weapons\rifle\focus_rifle\shaders\focus_rifle_scope_alpha.shader_halogram
-SetArgument self_illum_map 0.6 0.6 0.07 0.31
-SaveTagChanges
-Exit
 
 RunCommands "workingdir\cmds\worldbounds.cmds"
 
@@ -2333,6 +2314,32 @@ setfield Exposure.Strength 3.5
 savetagchanges
 exit
 echo ==END Add Void Canvas Map==
+
+echo ==Fix Screens on Weapons==
+EditTag dw3\r3ach\objects\weapons\rifle\sniper_rifle\shaders\scope_alpha.shader_halogram
+SetArgument self_illum_map 0.6 0.6 0.19 0.16
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\support_high\spartan_laser\shaders\spartan_laser_scope_alpha.shader_halogram
+SetArgument self_illum_map 0.6 0.6 0.2 0.2
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\support_high\flak_cannon\shaders\fuel_rod_scope_alpha.shader_halogram
+SetArgument self_illum_map 0.6 0.6 0.19 0.17
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\rifle\focus_rifle\shaders\focus_rifle_scope_alpha.shader_halogram
+SetArgument self_illum_map 0.6 0.6 0.07 0.31
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\support_high\stanchion\shaders\stanchion_illum.shader_halogram
+SetArgument self_illum_map transform 0.6 0.6 0.2 0.2
+SaveTagChanges
+Exit
 
 echo ==Boulder_Scale Render distance==
 
