@@ -2348,6 +2348,15 @@ setfield DisappearDistance 80
 savetagchanges
 exit
 
+echo ==Fix Splazer meter==
+
+edittag ui\chud\spartan_laser.chud_definition
+setfield HudWidgets[4].BitmapWidgets[3].PlacementData[0].Scale 0.45 0.45
+setfield HudWidgets[4].BitmapWidgets[4].PlacementData[0].Scale 0.45 0.45
+setfield HudWidgets[4].BitmapWidgets[5].PlacementData[0].Scale 0.45 0.45
+savetagchanges
+exit
+
 # FIXUP for RAMP 2 only
 # Watashi totte wa mikanzen
 edittag ui\chud\mac_cannon.chud_definition
