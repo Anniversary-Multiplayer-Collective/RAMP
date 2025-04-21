@@ -2339,11 +2339,6 @@ SetArgument self_illum_map 0.6 0.6 0.07 0.31
 SaveTagChanges
 Exit
 
-EditTag objects\weapons\support_high\stanchion\shaders\stanchion_illum.shader_halogram
-SetArgument self_illum_map transform 0.6 0.6 0.2 0.2
-SaveTagChanges
-Exit
-
 # echo ==Increase LOD of explosions==
 
 EditTag fx\fx_library\explosions\covenant_explosion_large\covenant_explosion_large.effect
