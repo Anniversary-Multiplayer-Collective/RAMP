@@ -1,0 +1,845 @@
+opencachefile reachmaps\m10.map
+porttag objects\vehicles\human\civilian\pickup\pickup.vehicle
+porttag objects\vehicles\human\civilian\military_truck\military_truck.vehicle
+porttag objects\vehicles\human\civilian\forklift\forklift.vehicle
+exit
+
+opencachefile reachmaps\m20.map
+porttag objects\vehicles\human\civilian\cart_electric\cart_electric.vehicle
+exit
+
+opencachefile reachmaps\m70.map
+porttag objects\vehicles\human\civilian\cargo_truck\cargo_truck.vehicle
+porttag objects\vehicles\human\civilian\truck_cab_large\truck_cab_large.vehicle
+exit
+
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-PICKUP->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-VEHICLE
+# ------------------------------------------------------------------------------------------------
+# I can't pretend to listen, sorry if it puts you into an imposition
+edittag objects\vehicles\warthog\warthog.vehicle
+copyblockelements PhysicsTypes.HumanJeep 0 1
+exit
+edittag objects\vehicles\human\civilian\pickup\pickup.vehicle
+removeblockelements PhysicsTypes.HumanJeep 0 *
+pasteblockelements PhysicsTypes.HumanJeep
+setfield PhysicsTypes.HumanJeep[0].Engine.EngineMomentum 3000
+setfield PhysicsTypes.HumanJeep[0].Engine.GearShiftSound sound\vehicles\pickup\pickup_shift.sound
+savetagchanges
+exit
+
+edittag objects\vehicles\warthog\warthog.vehicle
+copyblockelements HavokVehiclePhysics.PhantomShapes 0 1
+exit
+edittag objects\vehicles\human\civilian\pickup\pickup.vehicle
+removeblockelements HavokVehiclePhysics.PhantomShapes 0 *
+pasteblockelements HavokVehiclePhysics.PhantomShapes
+savetagchanges
+exit
+
+edittag objects\vehicles\human\civilian\pickup\pickup.vehicle
+setfield HavokVehiclePhysics.GroundMovingFriction 0.0395
+setfield HavokVehiclePhysics.Radius 1.047814
+setfield HavokVehiclePhysics.MaximumUpdateDistance 100
+setfield HavokVehiclePhysics.MaximumRemoteUpdatePeriod 0.0666667
+
+setfield RuntimeFlags 2
+setfield ConstantSoundVolume Loud
+setfield Functions[0].DefaultFunction.Data 08340000000000000000803F000000000000000048E1FA3E0000003F28000000010000000A0000CDFFFF7F7F400D523DD4208DBF3548034000000000000000000000803F80F6D23F
+
+# DRIFT!!!!
+setfield HavokVehiclePhysics.FrictionPoints[0].FrictionType Forward
+setfield HavokVehiclePhysics.FrictionPoints[1].FrictionType Forward
+
+setfield HavokVehiclePhysics.FrictionPoints[2].Flags Powered,AttachedToEBrake,CanBeDestroyed
+setfield HavokVehiclePhysics.FrictionPoints[2].FrictionType Forward
+setfield HavokVehiclePhysics.FrictionPoints[2].EBrakeMovingFriction 0.0075
+setfield HavokVehiclePhysics.FrictionPoints[2].EBrakeFriction 0.7
+setfield HavokVehiclePhysics.FrictionPoints[2].EBrakeMovingFrictionVelocityDiff 2.7
+
+setfield HavokVehiclePhysics.FrictionPoints[3].Flags Powered,AttachedToEBrake,CanBeDestroyed
+setfield HavokVehiclePhysics.FrictionPoints[3].FrictionType Forward
+setfield HavokVehiclePhysics.FrictionPoints[3].EBrakeMovingFriction 0.0075
+setfield HavokVehiclePhysics.FrictionPoints[3].EBrakeFriction 0.7
+setfield HavokVehiclePhysics.FrictionPoints[3].EBrakeMovingFrictionVelocityDiff 2.7
+
+setfield Seats[0].Flags Driver,ThirdPersonCamera,InvalidForNonPlayer,ForwardFromAttachment,GunnerPlayerOnly
+setfield Seats[1].Flags ThirdPersonCamera,AllowsWeapons,ThirdPersonOnEnter
+setfield EmpRadius 4
+
+# Making it a bit more OP
+setfield HavokVehiclePhysics.GroundFriction 3.35
+setfield HavokVehiclePhysics.GroundDepth 0.125
+setfield HavokVehiclePhysics.GroundDampFactor 1.15
+setfield HavokVehiclePhysics.GroundMaximumSlope0 0.6160444
+setfield HavokVehiclePhysics.GroundMaximumSlope1 0.4927876
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-ANIMATION
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\human\civilian\pickup\pickup.model_animation_graph
+addanimation workingdir\animations\reachcivilianvehicles\pickup
+addblockelements BlendScreens
+setfield BlendScreens[0].Label steering
+setfield BlendScreens[0].RightYawPerFrame 35
+setfield BlendScreens[0].LeftYawPerFrame 35
+setfield BlendScreens[0].RightFrameCount 1
+setfield BlendScreens[0].LeftFrameCount 1
+setfield Animations[8].AnimationData.BlendScreen 0
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-WEAPONS
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\human\civilian\pickup\weapons\pickup_horn.weapon
+setfield Attachments[0].PrimaryScale primary_rate_of_fire
+setfield WeaponFlags.NewFlags SecondaryTriggerOverridesGrenades,PreventsBinoculars
+setfield HeatRecoveryThreshold 0.05
+setfield HeatLossPerSecond 0.3
+setfield OverheatedHeatLossPerSecond 0.05
+setfield GroundedDamping.Angular 5
+setfield GroundedDamping.Linear 2
+setfield WeaponClass fixed
+setfield WeaponName gun
+setfield Triggers[0].PrimaryBarrel 0
+setfield Triggers[0].Prediction Spew
+setfield Triggers[0].Autofire.AutofireTime 0
+setfield Triggers[0].Autofire.AutofireThrow 0.1
+setfield Triggers[0].Charging.OverchargedAction Discharge
+setfield Barrels[0].Flags.HaloOnline DontClearFireBitAfterRecovering
+setfield Barrels[0].PredictionType Continuous
+setfield Barrels[0].HeatGeneratedPerRound 0.02
+addblockelements Functions
+setfield Functions[0].ImportName primary_charged
+setfield Functions[0].ExportName test_primary_charged
+setfield Functions[0].DefaultFunction.Data 08340000000000000000803F000000000000000048E1FA3E0000003F3400000003000000040000CD0AD7233B0000C8430000000004000000ABAA2A3F000000000000803F0400803FFFFF7F7F000000000000803F
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-LIGHT
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\human\civilian\pickup\fx\headlight_beam.light
+setfield Intensity.Function.Data 013400000000C041000020410000000000000000000000000000000000000000
+setfield Flags AllowShadowsAndGels,ShadowCasting
+setfield DistanceDiffusion 0.05
+setfield AngularSmoothness 3
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->SOUNDS
+# ------------------------------------------------------------------------------------------------
+edittag sound\vehicles\pickup\pickup_l\pickup_l.sound_looping
+setfield DistanceBounds 7 40
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain -8
+setfield Tracks[0].Flags FadeInAtStart,FadeOutAtStop
+setfield Tracks[0].FadeOutDuration 1
+setfield Tracks[0].FadeInDuration 1
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+edittag sound\vehicles\pickup\pickup_r\pickup_r.sound_looping
+setfield DistanceBounds 7 40
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain -8
+setfield Tracks[0].Flags FadeInAtStart,FadeOutAtStop
+setfield Tracks[0].FadeOutDuration 1
+setfield Tracks[0].FadeInDuration 1
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+edittag sound\vehicles\pickup\pickup_horn\pickup_horn.sound_looping
+setfield Flags FakeSpatializationWithDistance
+setfield DistanceBounds 5 20
+setfield Tracks[0].Gain -4
+setfield Tracks[0].FadeInDuration 0.15
+setfield Tracks[0].FadeInMode None
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-MILITARY TRUCK->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-VEHICLE
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\warthog\warthog.vehicle
+copyblockelements PhysicsTypes.HumanJeep 0 1
+exit
+edittag objects\vehicles\human\civilian\military_truck\military_truck.vehicle
+removeblockelements PhysicsTypes.HumanJeep 0 *
+pasteblockelements PhysicsTypes.HumanJeep
+setfield PhysicsTypes.HumanJeep[0].Turning.MaximumLeftTurn 0.6981317
+setfield PhysicsTypes.HumanJeep[0].Turning.MaximumRightTurn -0.6981317
+setfield PhysicsTypes.HumanJeep[0].Turning.TurnRate 2.530727
+setfield PhysicsTypes.HumanJeep[0].Engine.EngineMomentum 10000
+setfield PhysicsTypes.HumanJeep[0].Engine.EngineMaximumAngularVelocity 5.5
+setfield PhysicsTypes.HumanJeep[0].Engine.GearShiftSound sound\vehicles\pickup\pickup_shift.sound
+setfield PhysicsTypes.HumanJeep[0].WheelCircumference 1.727876
+setfield PhysicsTypes.HumanJeep[0].GravityAdjust 0.75
+savetagchanges
+exit
+
+edittag objects\vehicles\warthog\warthog.vehicle
+copyblockelements HavokVehiclePhysics.PhantomShapes 0 1
+exit
+edittag objects\vehicles\human\civilian\military_truck\military_truck.vehicle
+removeblockelements HavokVehiclePhysics.PhantomShapes 0 *
+pasteblockelements HavokVehiclePhysics.PhantomShapes
+savetagchanges
+exit
+
+edittag objects\vehicles\human\civilian\military_truck\military_truck.vehicle
+setfield Functions[4].DefaultFunction.Data 08340000000000000000803F000000000000000048E1FA3E0000003F28000000010000000A0000CDFFFF7F7F400D523DD4208DBF3548034000000000000000000000803F80F6D23F
+setfield Seats[0].Flags Driver,Gunner,ThirdPersonCamera,ControlsOpenAndClose,InvalidForNonPlayer,ForwardFromAttachment
+setfield Seats[0].Label warthog_d
+setfield Seats[1].Flags ThirdPersonCamera,InvalidForNonPlayer,ForwardFromAttachment
+setfield Seats[1].Label warthog_p
+setfield HavokVehiclePhysics.GroundMovingFriction 0.0395
+setfield EmpRadius 4
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-ANIMATION
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\human\civilian\military_truck\military_truck.model_animation_graph
+addanimation workingdir\animations\reachcivilianvehicles\military_truck
+addblockelements BlendScreens
+setfield BlendScreens[0].Label steering
+setfield BlendScreens[0].RightYawPerFrame 35
+setfield BlendScreens[0].LeftYawPerFrame 35
+setfield BlendScreens[0].RightFrameCount 1
+setfield BlendScreens[0].LeftFrameCount 1
+setfield Animations[12].AnimationData.BlendScreen 0
+savetagchanges
+exit
+
+edittag objects\vehicles\human\civilian\military_truck\military_truck.model_animation_graph
+sortmodes
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-LIGHT
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\human\civilian\oni_van\fx\headlight_beam.light
+setfield Flags AllowShadowsAndGels,ShadowCasting
+setfield MaximumDistance 5
+setfield Intensity.Function.Data 013400000000F041000020410000000000000000000000000000000000000000
+setfield DistanceDiffusion 0.1
+setfield AngularSmoothness 3
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->SOUNDS
+# ------------------------------------------------------------------------------------------------
+edittag sound\vehicles\oni_van\oni_van_l\oni_van_l.sound_looping
+setfield DistanceBounds 7 40
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain -7
+setfield Tracks[0].Flags FadeInAtStart,FadeOutAtStop
+setfield Tracks[0].FadeOutDuration 1
+setfield Tracks[0].FadeInDuration 1
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+edittag sound\vehicles\oni_van\oni_van_r\oni_van_r.sound_looping
+setfield DistanceBounds 7 40
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain -7
+setfield Tracks[0].Flags FadeInAtStart,FadeOutAtStop
+setfield Tracks[0].FadeOutDuration 1
+setfield Tracks[0].FadeInDuration 1
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-MILITARY VAN->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
+duplicatetag objects\vehicles\human\civilian\military_truck\military_truck.vehicle objects\vehicles\human\civilian\military_van\military_van
+duplicatetag objects\vehicles\human\civilian\military_truck\military_truck.model objects\vehicles\human\civilian\military_van\military_van
+
+edittag objects\vehicles\human\civilian\military_van\military_van.model
+setfield Variants[0].Regions[2].Permutations[0].RenderModelPermutationIndex 0
+setfield Variants[0].Regions[2].Permutations[0].States[0].ModelPermutationIndex 3
+savetagchanges
+exit
+
+edittag objects\vehicles\human\civilian\military_van\military_van.vehicle
+setfield Model objects\vehicles\human\civilian\military_van\military_van.model
+savetagchanges
+exit
+
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->TRUCK CAB->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-VEHICLE
+# ------------------------------------------------------------------------------------------------
+# We won't fade out
+edittag objects\vehicles\warthog\warthog.vehicle
+copyblockelements PhysicsTypes.HumanJeep 0 1
+exit
+edittag objects\vehicles\human\civilian\truck_cab_large\truck_cab_large.vehicle
+removeblockelements PhysicsTypes.HumanJeep 0 *
+pasteblockelements PhysicsTypes.HumanJeep
+setfield PhysicsTypes.HumanJeep[0].Turning.MaximumLeftTurn 0.7853982
+setfield PhysicsTypes.HumanJeep[0].Turning.MaximumRightTurn -0.7853982
+setfield PhysicsTypes.HumanJeep[0].Turning.TurnRate 3.054326
+setfield PhysicsTypes.HumanJeep[0].Engine.EngineMomentum 10000
+setfield PhysicsTypes.HumanJeep[0].Engine.EngineMaximumAngularVelocity 5.35
+setfield PhysicsTypes.HumanJeep[0].Engine.GearShiftSound sound\vehicles\truck_cab\truck_cab_gears.sound
+setfield PhysicsTypes.HumanJeep[0].WheelCircumference 1.2489
+setfield PhysicsTypes.HumanJeep[0].GravityAdjust 0.75
+savetagchanges
+exit
+
+edittag objects\vehicles\warthog\warthog.vehicle
+copyblockelements HavokVehiclePhysics.PhantomShapes 0 1
+exit
+edittag objects\vehicles\human\civilian\truck_cab_large\truck_cab_large.vehicle
+removeblockelements HavokVehiclePhysics.PhantomShapes 0 *
+pasteblockelements HavokVehiclePhysics.PhantomShapes
+savetagchanges
+exit
+
+edittag objects\vehicles\human\civilian\truck_cab_large\truck_cab_large.vehicle
+setfield Functions[2].DefaultFunction.Data 08340000000000000000803F000000000000000048E1FA3E0000003F28000000010000000A0000CDFFFF7F7F400D523DD4208DBF3548034000000000000000000000803F80F6D23F
+setfield Seats[0].Label warthog_d
+setfield Seats[0].Flags Driver,Gunner,ThirdPersonCamera,ControlsOpenAndClose,InvalidForNonPlayer,ForwardFromAttachment
+setfield Seats[1].Label warthog_p
+
+setfield HavokVehiclePhysics.GroundMovingFriction 0.0395
+setfield EmpRadius 4
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-MODEL
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\human\civilian\truck_cab_large\truck_cab_large.model
+setfield AnimationDistance 100
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-ANIMATION
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\human\civilian\truck_cab_large\truck_cab_large.model_animation_graph
+addanimation workingdir\animations\reachcivilianvehicles\truck_cab
+savetagchanges
+exit
+
+edittag objects\vehicles\human\civilian\truck_cab_large\truck_cab_large.model_animation_graph
+sortmodes
+removeblockelements Modes[1].WeaponClass[0].WeaponType[0].Set.Overlays 0 1
+setfield Modes[1].WeaponClass[0].WeaponType[0].Set.Overlays[0].Animation -1
+
+addblockelements Animations[13].AnimationData.SoundEvents
+setfield Animations[13].AnimationData.SoundEvents[0].Sound 1
+addblockelements Animations[14].AnimationData.SoundEvents
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-LIGHT
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\human\civilian\truck_cab_large\fx\headlight_beam.light
+setfield Flags AllowShadowsAndGels,ShadowCasting
+setfield MaximumDistance 5
+setfield Intensity.Function.Data 013400000000F041000020410000000000000000000000000000000000000000
+setfield DistanceDiffusion 0.1
+setfield AngularSmoothness 3
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->SOUNDS
+# ------------------------------------------------------------------------------------------------
+edittag sound\vehicles\truck_cab\truck_cab_l\truck_cab_l.sound_looping
+setfield DistanceBounds 7 40
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain -4
+setfield Tracks[0].Flags FadeInAtStart,FadeOutAtStop
+setfield Tracks[0].FadeOutDuration 1
+setfield Tracks[0].FadeInDuration 1
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+edittag sound\vehicles\truck_cab\truck_cab_r\truck_cab_r.sound_looping
+setfield DistanceBounds 7 40
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain -4
+setfield Tracks[0].Flags FadeInAtStart,FadeOutAtStop
+setfield Tracks[0].FadeOutDuration 1
+setfield Tracks[0].FadeInDuration 1
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+edittag sound\vehicles\truck_cab\truck_cab_horn\truck_cab_horn.sound_looping
+setfield Flags FakeSpatializationWithDistance
+setfield DistanceBounds 5 20
+setfield Tracks[0].Gain -4
+setfield Tracks[0].FadeInDuration 0.15
+setfield Tracks[0].FadeInMode None
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-WEAPONS
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\human\civilian\truck_cab_large\weapons\truck_cab_horn.weapon
+setfield Attachments[0].PrimaryScale primary_rate_of_fire
+setfield WeaponFlags.NewFlags SecondaryTriggerOverridesGrenades,PreventsBinoculars
+setfield HeatRecoveryThreshold 0.05
+setfield HeatLossPerSecond 0.3
+setfield OverheatedHeatLossPerSecond 0.05
+setfield GroundedDamping.Angular 5
+setfield GroundedDamping.Linear 2
+setfield WeaponClass fixed
+setfield WeaponName gun
+setfield Triggers[0].PrimaryBarrel 0
+setfield Triggers[0].Prediction Spew
+setfield Triggers[0].Autofire.AutofireTime 0
+setfield Triggers[0].Autofire.AutofireThrow 0.1
+setfield Triggers[0].Charging.OverchargedAction Discharge
+setfield Barrels[0].Flags.HaloOnline DontClearFireBitAfterRecovering
+setfield Barrels[0].PredictionType Continuous
+setfield Barrels[0].HeatGeneratedPerRound 0.02
+addblockelements Functions
+setfield Functions[0].ImportName primary_charged
+setfield Functions[0].ExportName test_primary_charged
+setfield Functions[0].DefaultFunction.Data 08340000000000000000803F000000000000000048E1FA3E0000003F3400000003000000040000CD0AD7233B0000C8430000000004000000ABAA2A3F000000000000803F0400803FFFFF7F7F000000000000803F
+savetagchanges
+exit
+
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->TRUCK CARGO->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-VEHICLE
+# ------------------------------------------------------------------------------------------------
+# Everyone is giving their all, but it's all flashback and miscommunication y'know
+edittag objects\vehicles\warthog\warthog.vehicle
+copyblockelements PhysicsTypes.HumanJeep 0 1
+exit
+edittag objects\vehicles\human\civilian\cargo_truck\cargo_truck.vehicle
+removeblockelements PhysicsTypes.HumanJeep 0 *
+pasteblockelements PhysicsTypes.HumanJeep
+setfield PhysicsTypes.HumanJeep[0].Turning.MaximumLeftTurn 0.6981317
+setfield PhysicsTypes.HumanJeep[0].Turning.MaximumRightTurn -0.6981317
+setfield PhysicsTypes.HumanJeep[0].Turning.TurnRate 6.108652
+setfield PhysicsTypes.HumanJeep[0].Engine.EngineMomentum 3200
+setfield PhysicsTypes.HumanJeep[0].Engine.EngineMaximumAngularVelocity 5.2
+setfield PhysicsTypes.HumanJeep[0].Engine.GearShiftSound sound\vehicles\cargo_truck\gear_shift.sound
+setfield PhysicsTypes.HumanJeep[0].WheelCircumference 1.207
+setfield PhysicsTypes.HumanJeep[0].GravityAdjust 0.75
+savetagchanges
+exit
+
+edittag objects\vehicles\warthog\warthog.vehicle
+copyblockelements HavokVehiclePhysics.PhantomShapes 0 1
+exit
+edittag objects\vehicles\human\civilian\cargo_truck\cargo_truck.vehicle
+removeblockelements HavokVehiclePhysics.PhantomShapes 0 *
+pasteblockelements HavokVehiclePhysics.PhantomShapes
+savetagchanges
+exit
+
+edittag objects\vehicles\human\civilian\cargo_truck\cargo_truck.vehicle
+setfield Functions[4].DefaultFunction.Data 08340000000000000000803F000000000000000048E1FA3E0000003F28000000010000000A0000CDFFFF7F7F400D523DD4208DBF3548034000000000000000000000803F80F6D23F
+setfield Seats[0].Flags Driver,Gunner,ThirdPersonCamera,ControlsOpenAndClose,InvalidForNonPlayer,AllowsexitAndDetach,ForwardFromAttachment
+setfield Seats[0].Label warthog_d
+setfield Seats[1].Flags ThirdPersonCamera,ForwardFromAttachment
+setfield Seats[1].Label warthog_p
+
+setfield HavokVehiclePhysics.GroundMovingFriction 0.0395
+setfield EmpRadius 4
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-ANIMATION
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\human\civilian\cargo_truck\cargo_truck.model_animation_graph
+addanimation workingdir\animations\reachcivilianvehicles\cargo_truck
+addblockelements BlendScreens
+setfield BlendScreens[0].Label steering
+setfield BlendScreens[0].RightYawPerFrame 60
+setfield BlendScreens[0].LeftYawPerFrame 60
+setfield BlendScreens[0].RightFrameCount 1
+setfield BlendScreens[0].LeftFrameCount 1
+setfield Animations[10].AnimationData.BlendScreen 0
+savetagchanges
+exit
+
+edittag objects\vehicles\human\civilian\cargo_truck\cargo_truck.model_animation_graph
+sortmodes
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-LIGHT
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\human\civilian\cargo_truck\fx\headlight_beam.light
+setfield Flags AllowShadowsAndGels,ShadowCasting
+setfield MaximumDistance 5
+setfield Intensity.Function.Data 013400000000F041000020410000000000000000000000000000000000000000
+setfield DistanceDiffusion 0.1
+setfield AngularSmoothness 3
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->SOUNDS
+# ------------------------------------------------------------------------------------------------
+edittag sound\vehicles\cargo_truck\cargo_truck_l\cargo_truck_l.sound_looping
+setfield DistanceBounds 7 40
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain -7
+setfield Tracks[0].Flags FadeInAtStart,FadeOutAtStop
+setfield Tracks[0].FadeOutDuration 1
+setfield Tracks[0].FadeInDuration 1
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+edittag sound\vehicles\cargo_truck\cargo_truck_r\cargo_truck_r.sound_looping
+setfield DistanceBounds 7 40
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain -7
+setfield Tracks[0].Flags FadeInAtStart,FadeOutAtStop
+setfield Tracks[0].FadeOutDuration 1
+setfield Tracks[0].FadeInDuration 1
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+edittag sound\vehicles\cargo_truck\cargo_truck_horn\cargo_truck_horn.sound_looping
+setfield Flags FakeSpatializationWithDistance
+setfield DistanceBounds 5 20
+setfield Tracks[0].Gain -4
+setfield Tracks[0].FadeInDuration 0.15
+setfield Tracks[0].FadeInMode None
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-WEAPONS
+# ------------------------------------------------------------------------------------------------
+# No, no that's wrong, in order to protect this love you must become a superhero
+edittag objects\vehicles\human\civilian\cargo_truck\weapons\cargo_truck_horn\cargo_truck_horn.weapon
+setfield Attachments[0].PrimaryScale primary_rate_of_fire
+setfield WeaponFlags.NewFlags SecondaryTriggerOverridesGrenades,PreventsBinoculars
+setfield HeatRecoveryThreshold 0.05
+setfield HeatLossPerSecond 0.3
+setfield OverheatedHeatLossPerSecond 0.05
+setfield GroundedDamping.Angular 5
+setfield GroundedDamping.Linear 2
+setfield WeaponClass fixed
+setfield WeaponName gun
+setfield Triggers[0].PrimaryBarrel 0
+setfield Triggers[0].Prediction Spew
+setfield Triggers[0].Autofire.AutofireTime 0
+setfield Triggers[0].Autofire.AutofireThrow 0.1
+setfield Triggers[0].Charging.OverchargedAction Discharge
+setfield Barrels[0].Flags.HaloOnline DontClearFireBitAfterRecovering
+setfield Barrels[0].PredictionType Continuous
+setfield Barrels[0].HeatGeneratedPerRound 0.02
+addblockelements Functions
+setfield Functions[0].ImportName primary_charged
+setfield Functions[0].ExportName test_primary_charged
+setfield Functions[0].DefaultFunction.Data 08340000000000000000803F000000000000000048E1FA3E0000003F3400000003000000040000CD0AD7233B0000C8430000000004000000ABAA2A3F000000000000803F0400803FFFFF7F7F000000000000803F
+savetagchanges
+exit
+
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->CART ELECTRIC->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-VEHICLE
+# ------------------------------------------------------------------------------------------------
+# More to the left and more to the right
+edittag objects\vehicles\warthog\warthog.vehicle
+copyblockelements PhysicsTypes.HumanJeep 0 1
+exit
+edittag objects\vehicles\human\civilian\cart_electric\cart_electric.vehicle
+removeblockelements PhysicsTypes.HumanJeep 0 *
+pasteblockelements PhysicsTypes.HumanJeep
+setfield PhysicsTypes.HumanJeep[0].Steering.OverdampenCuspAngle 5
+setfield PhysicsTypes.HumanJeep[0].Steering.OverdampenExponent 1
+setfield PhysicsTypes.HumanJeep[0].Turning.MaximumLeftTurn 0.6981317
+setfield PhysicsTypes.HumanJeep[0].Turning.MaximumRightTurn -0.6981317
+setfield PhysicsTypes.HumanJeep[0].Turning.TurnRate 8.726646
+setfield PhysicsTypes.HumanJeep[0].Engine.EngineMomentum 6500
+setfield PhysicsTypes.HumanJeep[0].Engine.EngineMaximumAngularVelocity 3.2
+setfield PhysicsTypes.HumanJeep[0].Engine.GearShiftSound sound\vehicles\pickup\pickup_shift.sound
+setfield PhysicsTypes.HumanJeep[0].WheelCircumference 0.944
+setfield PhysicsTypes.HumanJeep[0].GravityAdjust 0.75
+savetagchanges
+exit
+
+edittag objects\vehicles\warthog\warthog.vehicle
+copyblockelements HavokVehiclePhysics.PhantomShapes 0 1
+exit
+edittag objects\vehicles\human\civilian\cart_electric\cart_electric.vehicle
+removeblockelements HavokVehiclePhysics.PhantomShapes 0 *
+pasteblockelements HavokVehiclePhysics.PhantomShapes
+savetagchanges
+exit
+
+edittag objects\vehicles\human\civilian\cart_electric\cart_electric.vehicle
+setfield Functions[0].DefaultFunction.Data 08340000000000000000803F000000000000000048E1FA3E0000003F28000000010000000A0000CDFFFF7F7F400D523DD4208DBF3548034000000000000000000000803F80F6D23F
+setfield Seats[0].Flags Driver,Gunner,ThirdPersonCamera,InvalidForNonPlayer,ForwardFromAttachment
+setfield Seats[0].Label warthog_d
+
+setfield HavokVehiclePhysics.GroundMovingFriction 0.0395
+setfield EmpRadius 4
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-ANIMATION
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\human\civilian\cart_electric\cart_electric.model_animation_graph
+addanimation workingdir\animations\reachcivilianvehicles\cart_electric
+addblockelements BlendScreens
+setfield BlendScreens[0].Label steering
+setfield BlendScreens[0].RightYawPerFrame 35
+setfield BlendScreens[0].LeftYawPerFrame 35
+setfield BlendScreens[0].RightFrameCount 1
+setfield BlendScreens[0].LeftFrameCount 1
+setfield Animations[8].AnimationData.BlendScreen 0
+savetagchanges
+exit
+
+edittag objects\vehicles\human\civilian\cart_electric\cart_electric.model_animation_graph
+sortmodes
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->SOUNDS
+# ------------------------------------------------------------------------------------------------
+# The more I know the less I understand it
+edittag sound\vehicles\cart_electric\cart_electric_l\cart_electric_l.sound_looping
+setfield DistanceBounds 7 40
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain 4
+setfield Tracks[0].Flags FadeOutAtStop
+setfield Tracks[0].FadeOutDuration 0
+setfield Tracks[0].FadeInDuration 0.1
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+edittag sound\vehicles\cart_electric\cart_electric_r\cart_electric_r.sound_looping
+setfield DistanceBounds 7 40
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain 4
+setfield Tracks[0].Flags FadeOutAtStop
+setfield Tracks[0].FadeOutDuration 0
+setfield Tracks[0].FadeInDuration 0.1
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-LIGHT
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\human\civilian\cart_electric\fx\headlight_beam.light
+setfield MaximumDistance 6
+setfield FrustumFieldOfView 0.8363323
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->CAMERA
+# ------------------------------------------------------------------------------------------------
+edittag camera\cart_electric_camera.camera_track
+setfield ControlPoints[0].Position 0.9982947 -0.0225 1.740321
+setfield ControlPoints[1].Position 0.4536537 -0.0225 2.171799
+setfield ControlPoints[2].Position -0.1803351 -0.0225 2.387055
+setfield ControlPoints[3].Position -0.8290243 -0.0225 2.382149
+setfield ControlPoints[4].Position -1.42406 -0.0225 2.175935
+setfield ControlPoints[5].Position -1.909676 -0.0225 1.806219
+setfield ControlPoints[6].Position -2.247385 -0.0225 1.324319
+setfield ControlPoints[7].Position -2.418727 -0.0225 0.7886122
+setfield ControlPoints[8].Position -2.423799 -0.0225 0.303202
+setfield ControlPoints[9].Position -2.312232 -0.0225 -0.058293
+setfield ControlPoints[10].Position -2.142671 -0.0225 -0.2994455
+setfield ControlPoints[11].Position -1.953536 -0.0225 -0.4367393
+setfield ControlPoints[12].Position -1.76405 -0.0225 -0.4872502
+setfield ControlPoints[13].Position -1.580492 -0.0225 -0.4588809
+setfield ControlPoints[14].Position -1.40611 -0.0225 -0.344986
+savetagchanges
+exit
+
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->FORKLIFT->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-VEHICLE
+# ------------------------------------------------------------------------------------------------
+# I'll surround your whole life with "keep out" tape
+edittag objects\vehicles\warthog\warthog.vehicle
+copyblockelements PhysicsTypes.HumanJeep 0 1
+exit
+edittag objects\vehicles\human\civilian\forklift\forklift.vehicle
+removeblockelements PhysicsTypes.HumanJeep 0 *
+pasteblockelements PhysicsTypes.HumanJeep
+setfield PhysicsTypes.HumanJeep[0].Steering.OverdampenCuspAngle 5
+setfield PhysicsTypes.HumanJeep[0].Steering.OverdampenExponent 1.75
+setfield PhysicsTypes.HumanJeep[0].Turning.MaximumLeftTurn 1.308997
+setfield PhysicsTypes.HumanJeep[0].Turning.MaximumRightTurn -1.308997
+setfield PhysicsTypes.HumanJeep[0].Turning.TurnRate 6.981317
+setfield PhysicsTypes.HumanJeep[0].Engine.EngineMomentum 4500
+setfield PhysicsTypes.HumanJeep[0].Engine.EngineMaximumAngularVelocity 2.5
+setfield PhysicsTypes.HumanJeep[0].Engine.GearShiftSound sound\vehicles\pickup\pickup_shift.sound
+setfield PhysicsTypes.HumanJeep[0].WheelCircumference 0.995
+setfield PhysicsTypes.HumanJeep[0].GravityAdjust 0.75
+
+removeblockelements PhysicsTypes.HumanJeep[0].Engine.Gears 2 *
+setfield PhysicsTypes.HumanJeep[0].Engine.Gears[1].GearRatio 1.05
+setfield PhysicsTypes.HumanJeep[0].Engine.Gears[1].MinTimeToUpshift 0
+setfield PhysicsTypes.HumanJeep[0].Engine.Gears[1].EngineUpshiftScale 0
+savetagchanges
+exit
+
+edittag objects\vehicles\warthog\warthog.vehicle
+copyblockelements HavokVehiclePhysics.PhantomShapes 0 1
+exit
+edittag objects\vehicles\human\civilian\forklift\forklift.vehicle
+removeblockelements HavokVehiclePhysics.PhantomShapes 0 *
+pasteblockelements HavokVehiclePhysics.PhantomShapes
+savetagchanges
+exit
+
+edittag objects\vehicles\human\civilian\forklift\forklift.vehicle
+setfield Functions[0].DefaultFunction.Data 08340000000000000000803F000000000000000048E1FA3E0000003F28000000010000000A0000CDFFFF7F7F400D523DD4208DBF3548034000000000000000000000803F80F6D23F
+setfield Seats[0].Flags Driver,Gunner,ThirdPersonCamera,InvalidForNonPlayer,ForwardFromAttachment
+setfield Seats[0].Label warthog_d
+
+setfield HavokVehiclePhysics.GroundDepth 0.006
+setfield HavokVehiclePhysics.GroundFriction 3.35
+setfield HavokVehiclePhysics.GroundMovingFriction 0.0395
+
+setfield EmpRadius 4
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-ANIMATION
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\human\civilian\forklift\forklift.model_animation_graph
+addanimation workingdir\animations\reachcivilianvehicles\forklift
+addblockelements BlendScreens
+setfield BlendScreens[0].Label steering
+setfield BlendScreens[0].RightYawPerFrame 35
+setfield BlendScreens[0].LeftYawPerFrame 35
+setfield BlendScreens[0].RightFrameCount 1
+setfield BlendScreens[0].LeftFrameCount 1
+setfield Animations[3].AnimationData.BlendScreen 0
+savetagchanges
+exit
+
+edittag objects\vehicles\human\civilian\forklift\forklift.model_animation_graph
+sortmodes
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->SOUNDS
+# ------------------------------------------------------------------------------------------------
+edittag sound\vehicles\forklift\forklift_l\forklift_l.sound_looping
+setfield DistanceBounds 7 40
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain -2
+setfield Tracks[0].Flags FadeOutAtStop
+setfield Tracks[0].FadeOutDuration 0.3
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+edittag sound\vehicles\forklift\forklift_r\forklift_r.sound_looping
+setfield DistanceBounds 7 40
+setfield LoopTypeHO 1
+setfield Tracks[0].Gain -2
+setfield Tracks[0].Flags FadeInAtStart,FadeOutAtStop
+setfield Tracks[0].FadeOutDuration 1
+setfield Tracks[0].FadeInDuration 1
+setfield Tracks[0].FadeOutMode None
+savetagchanges
+exit
+
+edittag sound\vehicles\forklift\forklift_l\track1\loop.sound
+setfield PitchRanges[1].Permutations[0].Gain 10
+savetagchanges
+exit
+
+edittag sound\vehicles\forklift\forklift_l\track1\out.sound
+setfield PitchRanges[0].Permutations[0].Gain 10
+savetagchanges
+exit
+
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->CAMERA
+# ------------------------------------------------------------------------------------------------
+edittag camera\forklift_d_camera.camera_track
+setfield ControlPoints[0].Position -0.83076376 0 2.4006593
+setfield ControlPoints[0].Orientation -0 -0.7071069 -0 -0.70710677
+setfield ControlPoints[1].Position -0.9148567 0 2.4559255
+setfield ControlPoints[1].Orientation -0 -0.62348986 -0 -0.7818315
+setfield ControlPoints[2].Position -1.1686112 0 2.50597
+setfield ControlPoints[2].Orientation -0 -0.53203213 -0 -0.84672415
+setfield ControlPoints[3].Position -1.5513934 0 2.473849
+setfield ControlPoints[3].Orientation -0 -0.4338837 -0 -0.9009689
+setfield ControlPoints[4].Position -2.0019765 0 2.3134673
+setfield ControlPoints[4].Orientation -0 -0.33027905 -0 -0.94388336
+setfield ControlPoints[5].Position -2.4534814 0 2.0120423
+setfield ControlPoints[5].Orientation -0 -0.22252098 -0 -0.9749279
+setfield ControlPoints[6].Position -2.8473198 0 1.5867909
+setfield ControlPoints[6].Orientation -0 -0.11196452 -0 -0.9937123
+setfield ControlPoints[7].Position -3.1442 0 1.0767314
+setfield ControlPoints[7].Orientation -0 -5.96E-08 -0 -1
+setfield ControlPoints[8].Position -3.3183959 0 0.5008926
+setfield ControlPoints[8].Orientation -0 0.11196449 -0 -0.9937123
+setfield ControlPoints[9].Position -3.3410175 0 -0.12030623
+setfield ControlPoints[9].Orientation -0 0.22252083 -0 -0.97492796
+setfield ControlPoints[10].Position -3.2025363 0 -0.73168457
+setfield ControlPoints[10].Orientation -0 0.330279 -0 -0.94388336
+setfield ControlPoints[11].Position -2.9147 0 -1.2784358
+setfield ControlPoints[11].Orientation -0 0.43388358 -0 -0.90096897
+setfield ControlPoints[12].Position -2.5088663 0 -1.7138134
+setfield ControlPoints[12].Orientation -0 0.53203195 -0 -0.8467243
+setfield ControlPoints[13].Position -2.0318048 0 -2.0057352
+setfield ControlPoints[13].Orientation -0 0.6234898 -0 -0.7818316
+setfield ControlPoints[14].Position -1.5394455 0 -2.14156
+setfield ControlPoints[14].Orientation -0 0.7071067 -0 -0.7071069
+savetagchanges
+exit
+
+
+AddForgeItem "TRUCK, PICKUP" "VEHICLES" objects\vehicles\human\civilian\pickup\pickup.vehicle
+AddForgeItem "TRUCK, MILITARY" "VEHICLES" objects\vehicles\human\civilian\military_truck\military_truck.vehicle
+AddForgeItem "TRUCK, CAB" "VEHICLES" objects\vehicles\human\civilian\truck_cab_large\truck_cab_large.vehicle
+AddForgeItem "TRUCK, CARGO" "VEHICLES" objects\vehicles\human\civilian\cargo_truck\cargo_truck.vehicle
+# AddForgeItem "CAB, SMALL" "VEHICLES" objects\vehicles\human\civilian\truck_cab_large\attachments\bed_small\bed_small.vehicle
+# AddForgeItem "CAB, LONG" "VEHICLES" objects\vehicles\human\civilian\truck_cab_large\attachments\bed_long\bed_long.vehicle
+AddForgeItem "VAN, MILITARY" "VEHICLES" objects\vehicles\human\civilian\military_van\military_van.vehicle
+AddForgeItem "CART, ELECTRIC" "VEHICLES" objects\vehicles\human\civilian\cart_electric\cart_electric.vehicle
+AddForgeItem "FORKLIFT" "VEHICLES" objects\vehicles\human\civilian\forklift\forklift.vehicle
+
+edittag ui\hud\hud_messages.multilingual_unicode_string_list
+setstring english truck_enter_driver "\uE461\uE45F to drive Truck"
+setstring english truck_enter_passenger "\uE461\uE45F to ride in Truck"
+setstring english cart_enter_driver "\uE461\uE45F to drive Cart"
+setstring english forklift_enter_driver "\uE461\uE45F to drive Forklift"
+savetagchanges
+exit
