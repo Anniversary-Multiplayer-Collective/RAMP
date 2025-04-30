@@ -2194,28 +2194,6 @@ RemoveBlockElements ChangeColors 0 *
 SaveTagChanges
 Exit
 
-## echo Brighten up Frigate and Corvette
-
-EditTag objects\vehicles\human\unsc_fleet\unsc_stalwart_class_frigate\shaders\frigate_test_gameplay.shader
-SetArgument diffuse_coefficient 5
-SaveTagChanges
-Exit
-
-EditTag objects\vehicles\human\unsc_fleet\unsc_stalwart_class_frigate\shaders\frigate_test_gameplay2.shader
-SetArgument diffuse_coefficient 5
-SaveTagChanges
-Exit
-
-EditTag objects\vehicles\human\unsc_fleet\unsc_stalwart_class_frigate\shaders\frigate_test_gameplay3.shader
-SetArgument diffuse_coefficient 5
-SaveTagChanges
-Exit
-
-EditTag objects\vehicles\covenant\covenant_fleet\corvette\shaders\corvette_purp.shader
-SetArgument diffuse_coefficient 5
-SaveTagChanges
-Exit
-
 echo ==Super Carrier==
 RunCommands "workingdir\cmds\SuperCarrier.cmds"
 
@@ -2223,14 +2201,6 @@ echo ==Space Vehicles + MAC Cannon==
 OpenModPackage "workingdir\paks\ReachSpaceVehicles.pak"
 applymodpackage
 exitmodpackage
-
-AddForgeItem "SABRE" VEHICLES objects\vehicles\human\sabre\sabre.vehicle
-AddForgeItem "SERAPH" VEHICLES objects\vehicles\seraph_reach\seraph_reach.vehicle
-AddForgeItem "BANSHEE, SPACE" VEHICLES objects\vehicles\covenant\space_banshee\space_banshee.vehicle
-AddForgeItem "MAC CANNON" VEHICLES objects\vehicles\human\turrets\mac_15cm_mark_2488\mac_15cm_mark_2488.vehicle
-AddForgeItem "PELICAN" VEHICLES objects\vehicles\pelican_multiplayer\pelican_multiplayer.vehicle
-AddForgeItem "PHANTOM" VEHICLES objects\vehicles\phantom_test\phantom_test.vehicle
-AddForgeItem "WOMBAT" VEHICLES objects\vehicles\drone_alpha\drone_alpha.vehicle
 
 edittag ui\hud\hud_messages.multilingual_unicode_string_list
 setstring english shields_at "SHIELDS:"
