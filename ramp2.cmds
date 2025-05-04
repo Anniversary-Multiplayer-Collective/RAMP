@@ -2198,9 +2198,17 @@ echo ==Super Carrier==
 RunCommands "workingdir\cmds\SuperCarrier.cmds"
 
 echo ==Space Vehicles + MAC Cannon==
-OpenModPackage "workingdir\paks\ReachSpaceVehicles.pak"
+OpenModPackage "workingdir\paks\ReachSpaceVehiclesNoBloatWare.pak"
 applymodpackage
 exitmodpackage
+
+AddForgeItem "SABRE" "VEHICLES" objects\vehicles\human\sabre\sabre.vehicle
+AddForgeItem "SERAPH" "VEHICLES" objects\vehicles\seraph_reach\seraph_reach.vehicle
+AddForgeItem "BANSHEE, SPACE" "VEHICLES" objects\vehicles\covenant\space_banshee\space_banshee.vehicle
+AddForgeItem "MAC CANNON" "VEHICLES" objects\vehicles\human\turrets\mac_15cm_mark_2488\mac_15cm_mark_2488.vehicle
+AddForgeItem "PELICAN" 79 objects\vehicles\pelican_multiplayer\pelican_multiplayer.vehicle
+AddForgeItem "PHANTOM" 79 objects\vehicles\phantom_test\phantom_test.vehicle
+AddForgeItem "WOMBAT" 79 objects\vehicles\drone_alpha\drone_alpha.vehicle
 
 edittag ui\hud\hud_messages.multilingual_unicode_string_list
 setstring english shields_at "SHIELDS:"
@@ -2218,6 +2226,13 @@ setstring english mac_reload "RELOAD PROG."
 setstring english mac_enter_driver "\uE461\uE45F to enter MAC Cannon"
 setstring english seraph_drive "\uE461\uE45F to pilot Seraph"
 setstring english seraph_flip "\uE461\uE45F to flip Seraph"
+setstring english phantom_drive "\uE461\uE45F to pilot Phantom"
+setstring english phantom_flip "\uE461\uE45F to flip Phantom"
+setstring english pelican_drive "\uE461\uE45F to pilot Pelican"
+setstring english pelican_flip "\uE461\uE45F to flip Pelican"
+setstring english wombat_enter_driver "\uE461\uE45F to pilot Wombat"
+setstring english wombat_flip "\uE461\uE45F to flip Wombat"
+setstring english wombat_board "\uE461\uE45F to board enemy Wombat"
 savetagchanges
 exit
 
