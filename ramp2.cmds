@@ -2423,7 +2423,7 @@ porttag replace globals\collision_damage\biped_player.collision_damage
 exit
 
 edittag globals\collision_damage\biped_player.collision_damage
-setfield AbsoluteDamageAccelerationBounds 10 15
+setfield AbsoluteDamageAccelerationBounds 7.5 15
 savetagchanges
 exit
 
