@@ -2401,6 +2401,17 @@ setfield HudWidgets[4].BitmapWidgets[5].PlacementData[0].Scale 0.45 0.45
 savetagchanges
 exit
 
+echo ==Fall Damage??==
+
+opencachefile odstmaps\sc100.map
+porttag replace globals\collision_damage\biped_player.collision_damage
+exit
+
+edittag globals\collision_damage\biped_player.collision_damage
+setfield AbsoluteDamageAccelerationBounds 10 15
+savetagchanges
+exit
+
 # FIXUP for RAMP 2 only
 # Watashi totte wa mikanzen
 edittag ui\chud\mac_cannon.chud_definition
