@@ -4,6 +4,7 @@ D:\eldewrito\eldewrito 0.7\ElDewrito\maps
 SetVariable workingdir ""
 SetVariable modsfolder ""
 SetVariable reachmaps ""
+SetVariable odstmaps ""
 
 # echo ==Set Caches...==
 UseAudioCache workingdir\caches\audiocache
