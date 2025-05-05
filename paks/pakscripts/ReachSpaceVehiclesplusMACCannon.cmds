@@ -86,6 +86,9 @@ exit
 # ------------------------------------------------------------------------------------------------
 # ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-VEHICLE
 # ------------------------------------------------------------------------------------------------
+stringid add fx_main_engine_light_right
+stringid add fx_wing_engine_light_right
+
 duplicatetag camera\longsword_d_camera.camera_track camera\sabre_d_camera
 edittag objects\vehicles\human\sabre\sabre.vehicle
 setfield VehicleFlags NoFrictionWithDriver,AiDoesNotRequireDriver,AiDriverEnable
@@ -117,7 +120,7 @@ setfield PhysicsTypes.AlienFighter[0].VelocityControl.SlideAcceleration 17
 setfield PhysicsTypes.AlienFighter[0].VelocityControl.SlideDeceleration 15
 
 setfield PhysicsTypes.AlienFighter[0].FlyingTorqueScale 1
-setfield PhysicsTypes.AlienFighter[0].FixedGunOffset 0 10
+setfield PhysicsTypes.AlienFighter[0].FixedGunOffset 0 0
 setfield PhysicsTypes.AlienFighter[0].MaximumTrickFrequency 2.2
 setfield PhysicsTypes.AlienFighter[0].LoopTrickDuration 1.8
 setfield PhysicsTypes.AlienFighter[0].RollTrickDuration 1.8
@@ -131,10 +134,10 @@ setfield HavokVehiclePhysics.GroundDampFactor 1
 setfield HavokVehiclePhysics.GroundMovingFriction 0.5
 setfield HavokVehiclePhysics.GravityScale 0.5
 
-setfield Seats[0].Flags Driver,Gunner,ThirdPersonCamera,ControlsOpenAndClose,AllowsExitAndDetach,ForwardFromAttachment
+setfield Seats[0].Flags Driver,Gunner,ThirdPersonCamera,ControlsOpenAndClose,ForwardFromAttachment
 setfield Seats[0].Label warthog_d
 
-setfield Seats[1].Flags ThirdPersonCamera,AllowsWeapons,BoardingNeedAnyPassenger,AllowsExitAndDetach,ForwardFromAttachment
+setfield Seats[1].Flags ThirdPersonCamera,AllowsWeapons,BoardingNeedAnyPassenger,ForwardFromAttachment
 setfield Seats[1].Label warthog_p
 setfield Seats[1].AiSeatType Passenger
 
@@ -142,6 +145,15 @@ addblockelements Seats[0].UnitCamera.CameraTracks
 setfield Seats[0].UnitCamera.CameraTracks[0].Track camera\sabre_d_camera.camera_track
 
 # removeblockelements Seats[0].UnitCamera.CameraAcceleration 0 *
+addblockelements Attachments
+setfield Attachments[*].Type objects\vehicles\human\sabre\fx\running\main_engine.light
+setfield Attachments[*].Marker fx_main_engine_light_right
+setfield Attachments[*].PrimaryScale main_engine_fx
+
+addblockelements Attachments
+setfield Attachments[*].Type objects\vehicles\human\sabre\fx\running\wing_engine.light
+setfield Attachments[*].Marker fx_wing_engine_light_right
+setfield Attachments[*].PrimaryScale boost_fx
 savetagchanges
 exit
 # ------------------------------------------------------------------------------------------------
@@ -191,6 +203,28 @@ setfield Geometry.Meshes[3].Parts[11].FlagsNew DrawCullRenderingShields,PreventB
 setfield Geometry.Meshes[3].Parts[12].FlagsNew PreventBackfaceCulling
 setfield Geometry.Meshes[3].Parts[13].FlagsNew PreventBackfaceCulling
 setfield Geometry.Meshes[3].Parts[14].FlagsNew PreventBackfaceCulling
+
+addblockelements MarkerGroups
+setfield MarkerGroups[*].Name fx_main_engine_light_right
+addblockelements MarkerGroups[*].Markers
+setfield MarkerGroups[*].Markers[*].RegionIndex -1
+setfield MarkerGroups[*].Markers[*].PermutationIndex -1
+setfield MarkerGroups[*].Markers[*].NodeIndex 4
+setfield MarkerGroups[*].Markers[*].Flags HasNodeRelativeDirection
+setfield MarkerGroups[*].Markers[*].Translation -4.585308 -0.8355177 0.8768046
+setfield MarkerGroups[*].Markers[*].Rotation 1.831851E-06 -1.410484E-07 -1 8.865198E-06
+setfield MarkerGroups[*].Markers[*].Scale 0.01
+
+addblockelements MarkerGroups
+setfield MarkerGroups[*].Name fx_wing_engine_light_right
+addblockelements MarkerGroups[*].Markers
+setfield MarkerGroups[*].Markers[*].RegionIndex -1
+setfield MarkerGroups[*].Markers[*].PermutationIndex -1
+setfield MarkerGroups[*].Markers[*].NodeIndex 4
+setfield MarkerGroups[*].Markers[*].Flags HasNodeRelativeDirection
+setfield MarkerGroups[*].Markers[*].Translation -3.718178 -2.400001 0.7800004
+setfield MarkerGroups[*].Markers[*].Rotation 1.831851E-06 -1.410484E-07 -1 8.865198E-06
+setfield MarkerGroups[*].Markers[*].Scale 0.01
 savetagchanges
 exit
 
@@ -466,6 +500,7 @@ setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Anchor Parent
 setfield HudWidgets[0].BitmapWidgets[1].PlacementData[0].Anchor Parent
 setfield HudWidgets[0].TextWidgets[0].PlacementData[0].Anchor Parent
 setfield HudWidgets[0].PlacementData[0].Anchor Crosshair
+setfield HudWidgets[0].PlacementData[0].Offset 0 -45
 setfield HudWidgets[0].PlacementData[0].Scale 1.5 1.5
 
 setfield HudWidgets[1].BitmapWidgets[0].PlacementData[0].Anchor Crosshair
@@ -482,7 +517,7 @@ setfield HudWidgets[0].BitmapWidgets[0].RenderData[0].LocalScalarD 0.5
 setfield HudWidgets[0].BitmapWidgets[0].RenderData[0].OutputScalarB RangeInput
 setfield HudWidgets[0].BitmapWidgets[0].RenderData[0].OutputScalarD RangeInput
 setfield HudWidgets[0].BitmapWidgets[0].RenderData[0].OutputScalarE LocalC
-setfield HudWidgets[0].BitmapWidgets[0].RenderData[0].ScissorRect 275 450 495 780
+setfield HudWidgets[0].BitmapWidgets[0].RenderData[0].ScissorRect 245 450 466 780
 setfield HudWidgets[0].BitmapWidgets[0].AnimationData[0].Active.InputType Extern1
 setfield HudWidgets[0].BitmapWidgets[0].Flags MirrorHorizontally
 
@@ -501,6 +536,7 @@ setfield HudWidgets[1].BitmapWidgets[1].Bitmap ui\chud\bitmaps\hud_vehicle_retic
 setfield HudWidgets[1].BitmapWidgets[2].Bitmap ui\chud\bitmaps\hud_vehicle_reticles_reach.bitmap
 
 setfield HudWidgets[1].BitmapWidgets[0].PlacementData[0].Origin 0 0
+setfield HudWidgets[1].BitmapWidgets[0].PlacementData[0].Offset 0 -45
 setfield HudWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 1.3 1.3
 setfield HudWidgets[1].BitmapWidgets[0].StateData[0].WeaponArmedStateHO RightHand
 setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].ShaderType Crosshair
@@ -510,6 +546,7 @@ setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].OutputColorB CrosshairEnem
 setfield HudWidgets[1].BitmapWidgets[0].RenderData[0].OutputColorC CrosshairFriendly
 
 setfield HudWidgets[1].BitmapWidgets[1].PlacementData[0].Origin 0 0
+setfield HudWidgets[1].BitmapWidgets[1].PlacementData[0].Offset 0 -45
 setfield HudWidgets[1].BitmapWidgets[1].PlacementData[0].Scale -0.75 0.75
 setfield HudWidgets[1].BitmapWidgets[1].StateData[0].WeaponMiscState LockedOnAvailable
 setfield HudWidgets[1].BitmapWidgets[1].StateData[0].WeaponArmedStateHO RightHand
@@ -520,6 +557,7 @@ setfield HudWidgets[1].BitmapWidgets[1].RenderData[0].OutputColorB CrosshairEnem
 setfield HudWidgets[1].BitmapWidgets[1].RenderData[0].OutputColorC CrosshairEnemy
 
 setfield HudWidgets[1].BitmapWidgets[2].PlacementData[0].Origin 0 0
+setfield HudWidgets[1].BitmapWidgets[2].PlacementData[0].Offset 0 -45
 setfield HudWidgets[1].BitmapWidgets[2].PlacementData[0].Scale -0.75 0.75
 setfield HudWidgets[1].BitmapWidgets[2].StateData[0].WeaponMiscState LockedOnUnavailable
 setfield HudWidgets[1].BitmapWidgets[2].StateData[0].WeaponArmedStateHO RightHand
@@ -572,6 +610,7 @@ setfield HudWidgets[0].TextWidgets[4].PlacementData[0].Anchor Parent
 setfield HudWidgets[0].TextWidgets[5].PlacementData[0].Anchor Parent
 setfield HudWidgets[0].TextWidgets[6].PlacementData[0].Anchor Parent
 setfield HudWidgets[0].PlacementData[0].Anchor Crosshair
+setfield HudWidgets[0].PlacementData[0].Offset 0 -45
 setfield HudWidgets[0].PlacementData[0].Scale 1.5 1.5
 
 setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Origin 2.2 12
@@ -1106,7 +1145,7 @@ setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].OutputColorB CrosshairNorm
 setfield HudWidgets[3].BitmapWidgets[1].RenderData[0].OutputScalarC LocalA
 setfield HudWidgets[3].BitmapWidgets[1].Flags MirrorVertically
 
-setfield HudWidgets[4].StateData[0].WeaponArmedStateHO RightHand
+setfield HudWidgets[4].StateData[0].WeaponArmedStateHO Hidden
 
 setfield HudWidgets[5].PlacementData[0].Anchor BottomRight
 setfield HudWidgets[5].BitmapWidgets[8].PlacementData[0].Anchor Parent
@@ -1248,6 +1287,12 @@ setfield HudWidgets[5].TextWidgets[9].RenderData[0].OutputColorC HighlightForegr
 setfield HudWidgets[5].TextWidgets[9].RenderData[0].OutputColorD HighlightForeground
 setfield HudWidgets[5].TextWidgets[9].RenderData[0].OutputColorE HighlightForeground
 setfield HudWidgets[5].TextWidgets[9].RenderData[0].OutputColorF HighlightForeground
+
+# HUD SHAKE
+setfield HudWidgets[0].ParallaxData ui\chud\parallax\vehicles.chud_widget_parallax_data
+setfield HudWidgets[1].ParallaxData ui\chud\parallax\vehicles.chud_widget_parallax_data
+setfield HudWidgets[2].ParallaxData ui\chud\parallax\vehicles.chud_widget_parallax_data
+setfield HudWidgets[3].ParallaxData ui\chud\parallax\vehicles.chud_widget_parallax_data
 savetagchanges
 exit
 
@@ -1408,7 +1453,7 @@ exit
 
 # ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->SERAPH->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
 # https://steamcommunity.com/sharedfiles/filedetails/?id=2984061723&searchtext=
-opencachefile "D:\Games\steamapps\workshop\content\976730\2984061723\maps\hugeass_remastered_mcc.map"
+opencachefile "F:\SteamLibrary\steamapps\workshop\content\976730\2984061723\maps\hugeass_remastered_mcc.map"
 porttag objects\vehicles\seraph_reach\seraph_reach.vehicle
 exit
 
@@ -1470,10 +1515,15 @@ setfield TargetTracking[0].DecayTime 0
 savetagchanges
 exit
 
+edittag objects\vehicles\seraph_h3\chud\v_seraph.chud_definition
+setfield HudWidgets[0].ParallaxData ui\chud\parallax\vehicles.chud_widget_parallax_data
+savetagchanges
+exit
+
 # ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->Pelican->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
 
 # https://steamcommunity.com/sharedfiles/filedetails/?id=2984061723&searchtext=
-opencachefile "D:\Games\steamapps\workshop\content\976730\2984061723\maps\hugeass_remastered_mcc.map"
+opencachefile "F:\SteamLibrary\steamapps\workshop\content\976730\2984061723\maps\hugeass_remastered_mcc.map"
 porttag objects\vehicles\pelican_multiplayer\pelican_multiplayer.vehicle
 exit
 
@@ -1485,7 +1535,7 @@ exit
 
 # ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->Phantom->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
 
-opencachefile "D:\Games\steamapps\workshop\content\976730\2984061723\maps\hugeass_remastered_mcc.map"
+opencachefile "F:\SteamLibrary\steamapps\workshop\content\976730\2984061723\maps\hugeass_remastered_mcc.map"
 porttag objects\vehicles\phantom_test\phantom_test.vehicle
 exit
 
@@ -1496,7 +1546,7 @@ exit
 
 # ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->Wombat->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
 
-opencachefile "D:\Games\steamapps\workshop\content\976730\2984061723\maps\hugeass_remastered_mcc.map"
+opencachefile "F:\SteamLibrary\steamapps\workshop\content\976730\2984061723\maps\hugeass_remastered_mcc.map"
 porttag objects\vehicles\drone_alpha\drone_alpha.vehicle
 exit
 
@@ -1648,3 +1698,32 @@ savemodpackage
 
 # [TIME DURATION] elapsed with 14 errors and 8 warnings
 # THIS IS FINE
+
+# OPTIONAL [REMOVING BLOATWARE]
+# THIS IS ASSUMING YOU'RE USING THE MTNDEWIT FORK WITH THE APPLYMODPACKAGETAGS COMMAND
+# exitmodpackage
+# createmodpackage ReachSpaceVehiclesNoChar
+# openmodpackage [ReachSpaceVehicles.pak] <--- ORIGINAL FILE
+# applymodpackagetags
+# ai\generic.character
+# ai\generic_turret.character
+# Done
+# exitmodpackage
+# savemodpackage
+# exitmodpackage
+# createmodpackage ReachSpaceVehiclesNoBloatWare
+# openmodpackage ReachSpaceVehiclesNoChar.pak
+# applymodpackagetags
+# \
+# /
+# .
+# +objects\vehicles\human\sabre\sabre.vehicle
+# +objects\vehicles\seraph_reach\seraph_reach.vehicle
+# +objects\vehicles\covenant\space_banshee\space_banshee.vehicle
+# +objects\vehicles\human\turrets\mac_15cm_mark_2488\mac_15cm_mark_2488.vehicle
+# +objects\vehicles\pelican_multiplayer\pelican_multiplayer.vehicle
+# +objects\vehicles\phantom_test\phantom_test.vehicle
+# +objects\vehicles\drone_alpha\drone_alpha.vehicle
+# Done
+# exitmodpackage
+# savemodpackage
