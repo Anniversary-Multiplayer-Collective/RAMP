@@ -7,13 +7,13 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 * Zekken (Team Lead)
 * MtnDewIt (Tagtool Maintainer & Bug Fixer)
 * Minelelol (Core Contributor & Animator)
+* Dank (Core Contributor & Original RAMP Creator)
 * TwistedFlog (Modeler, Animator & Tagtool Maintainer)
-* Dirkkane (Minor Contributor & Server Host)
 * Newbie (Engine Knowledge)
 * Twister (Engine Knowledge)
+* Dirkkane (Minor Contributor)
 * IlikeMyName (Minor Contributor)
 * NoShotz (Original RAMP Creator)
-* Dank (Original RAMP Creator)
 * Fyzure (Noble 6 Voice Lines & Macworld 1999 Emotes)
 * VKMT (R3ACH Weapon Pack)
 * Rejected Shotgun (Falcon Tags)
@@ -53,7 +53,7 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 * Brightened Frigate & Corvette for space use
 * Adjusted default weapon viewmodels
 * Minor animations fixup
-* Added setup for fall damage (coming in ED 0.7.2)
+* Setup for fall damage (coming in ED 0.7.2)
 * Misc weapon rebalancing
 
 ## v0.4 Changelog
