@@ -27,14 +27,34 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 * Added more armor preview images
 * Added missing Grenadier chest attachment
 * Added sharper crosshair for most weapons
+* Added cut Reach LMG
+* Added Seraph and Saber vehicles
+* Added MAC cannon
+* Added Void map for space battles
+* Added Stanchion
+* Added new loading screen and AMP signature
+* Added Super Carrier forge object
+* Added Halo Ring forge object
+* Added Covenant door and buttons
+* Fixed render distance issue with Boulder_Scale model
+* Fixed Magnum crosshair penalites
+* Fixed up Reach vehicle sounds
+* Fixed Silenced SMG and Automag swap to strings
+* Fixed up customization background
 * Fixed weapons not picking up the ammo equipments
 * Fixed Beam Rifle using Halo 4 icon
 * Fixed all armor names and descriptions
 * Fixed concussion rifle "Out of ammo switch to" string
-* Fixed ammo counter inaccuracies on battle rifle power and smg damage
-* Fixed plasma pistol and plasma rifle using the wrong weapons icon
+* Fixed ammo counter inaccuracies on Battle Rifle power and SMG damage
+* Fixed Plasma Pistol and Plasma Rifle using the wrong weapons icon
+* Increased explosion LOD
+* Renamed some forge objects
+* Removed color change block from compost bag pile 
+* Brightened Frigate & Corvette for space use
 * Adjusted default weapon viewmodels
 * Minor animations fixup
+* Added setup for fall damage (coming in ED 0.7.2)
+* Misc weapon rebalancing
 
 ## v0.4 Changelog
 * Added Reach glass shader support
