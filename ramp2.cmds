@@ -2428,6 +2428,14 @@ setfield AbsoluteDamageAccelerationBounds 7.5 15
 savetagchanges
 exit
 
+echo == Fix Relfection coll projectile issue ==
+
+EditTag levels\multi\52_ivory_tower\52_ivory_tower_030.scenario_structure_bsp
+setfield InstancedGeometryInstances[1128].DefinitionIndex 163
+setfield InstancedGeometryInstances[1128].Matrix -3.576279E-07 -1 01.22 -3.576279E-07 00 0 1-20.64334 -184.3 250.2079
+savetagchanges
+exit
+
 # FIXUP for RAMP 2 only
 # Watashi totte wa mikanzen
 edittag ui\chud\mac_cannon.chud_definition
