@@ -235,6 +235,18 @@ SetArgument area_specular_contribution_m_2 0
 SaveTagChanges
 Exit
 
+edittag levels\solo\m60\shaders\organic\m60_070_ice_wall.shader
+setargument specular_coefficient 0.5
+setargument diffuse_coefficient 1
+savetagchanges
+exit
+
+edittag levels\solo\m60\shaders\organic\m60_iceberg.shader
+setargument specular_coefficient 0
+setargument diffuse_coefficient 0.5
+savetagchanges
+exit
+
 EditTag objects\props\human\unsc\generator_x_large\shaders\generator_xlarge_plasma.shader
 SetField SortLayer PrePass
 SaveTagChanges
@@ -568,4 +580,19 @@ SetArgument specular_coefficient 0.01
 SaveTagChanges
 Exit
 
+# echo ==Shader fixes for Spire...==
+edittag levels\solo\m35\shaders\m35_large_rock_custom.shader
+setargument diffuse_coefficient 0.5
+savetagchanges
+exit
+
+edittag levels\solo\m35\shaders\m35_med_rock_custom.shader
+setargument diffuse_coefficient 0.5
+savetagchanges
+exit
+
+edittag levels\solo\m35\shaders\m35_small_rock_custom.shader
+setargument diffuse_coefficient 0.5
+savetagchanges
+exit
 

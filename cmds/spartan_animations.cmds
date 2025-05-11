@@ -168,6 +168,7 @@ SetField Animations[3].PlaybackFlags DisableWeaponIk
 SetField Animations[6].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 SetField Animations[7].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 SetField Animations[10].PlaybackFlags DisableWeaponIk
+setfield Animations[11].PlaybackFlags ForceWeaponIkOn
 SetField Animations[12].PlaybackFlags DisableWeaponIk
 SetField Animations[13].PlaybackFlags DisableWeaponIk
 SetField Animations[16].PlaybackFlags DisableWeaponIk

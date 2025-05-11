@@ -2,6 +2,7 @@
 # Noone want anyone else to be better them
 # The reason is simple as it's just normal
 
+# DITTO
 # PLEASE FOR FUCK SAKE SOMEONE FIX THE DAMN ADDFORGEITEM COMMANDS
 # I CAN'T WITH THE AMOUNT OF AddBlockElements TO SET SHIT TO PHASED
 
@@ -1967,8 +1968,8 @@ AddForgeItem "TELEPORTER SHELL, HUMAN" 99 objects\ca_dev\ca_scenery\teleporter_s
 
 AddForgeItem "SABRE" 99 objects\props\human\unsc\sabre_mp\sabre_mp.scenery
 AddForgeItem "HALCYON, CRUISER" 99 objects\vehicles\human\unsc_fleet\unsc_halcyon_class_cruiser_poa\unsc_halcyon_class_cruiser_poa.scenery
-AddForgeItem "FRIGATE" 99 objects\levels\ca_dev\dlc_condemned\frigate_battle\frigate_battle.scenery
-AddForgeItem "FRIGATE, NO MACHINE TURRET" 99 levels\multi\dlc\objects\dlc_frigate\dlc_frigate.scenery
+AddForgeItem "FRIGATE" 99 levels\multi\dlc\objects\dlc_frigate\dlc_frigate.scenery
+AddForgeItem "FRIGATE, NO MACHINE TURRET" 99 objects\levels\ca_dev\dlc_condemned\frigate_battle\frigate_battle.scenery
 AddForgeItem "CORVETTE, GREEN" 99 objects\levels\ca_dev\dlc_condemned\corvette_battle\corvette_battle.scenery
 
 AddForgeItem "CLUB DISCO BALL" 99 objects\levels\solo\m52\m52_club_hologram\m52_club_hologram.scenery

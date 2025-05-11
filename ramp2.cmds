@@ -280,6 +280,7 @@ SetField NewDamageInfo[0].DamageSections[0].RechargeTime 10
 SetField NewDamageInfo[0].DamageSections[0].RuntimeRechargeVelocity 0.1
 SetField NewDamageInfo[0].DamageSections[0].InstantResponses[0].Flags None
 SetField NewDamageInfo[0].DamageSections[0].InstantResponses[4].Flags KillsObject,KillsVariantObjects
+setfield AnimationDistance 250
 SaveTagChanges
 Exit
 
@@ -299,6 +300,7 @@ SetField NewDamageInfo[0].DamageSections[0].RechargeTime 10
 SetField NewDamageInfo[0].DamageSections[0].RuntimeRechargeVelocity 0.1
 SetField NewDamageInfo[0].DamageSections[0].InstantResponses[0].Flags None
 SetField NewDamageInfo[0].DamageSections[0].InstantResponses[4].Flags KillsObject,KillsVariantObjects
+setfield AnimationDistance 250
 SaveTagChanges
 Exit
 
@@ -318,6 +320,7 @@ SetField NewDamageInfo[0].DamageSections[0].RechargeTime 10
 SetField NewDamageInfo[0].DamageSections[0].RuntimeRechargeVelocity 0.1
 SetField NewDamageInfo[0].DamageSections[0].InstantResponses[0].Flags None
 SetField NewDamageInfo[0].DamageSections[0].InstantResponses[4].Flags KillsObject,KillsVariantObjects
+setfield AnimationDistance 250
 SaveTagChanges
 Exit
 
@@ -1415,11 +1418,20 @@ echo ==Overlook fog fix==
 # at least it's no longer blue, still inaccurate tho
 
 EditTag levels\firefight\ff10_prototype\ff10_prototype.sky_atm_parameters
-SetField AtmosphereSettings[0].Flags EnableAtmosphere,PatchyFog
-SetField AtmosphereSettings[0].SeaLevel -15
-SetField AtmosphereSettings[0].MaxFogThickness 1000
+setfield AtmosphereSettings[0].Flags EnableAtmosphere,PatchyFog
+setfield AtmosphereSettings[0].SeaLevel 5000
+SetField AtmosphereSettings[0].MaxFogThickness 150
+setfield AtmosphereSettings[0].Color 0.5775805 0.838799 0.8879231
+setfield AtmosphereSettings[0].Intensity 0.1
+setfield AtmosphereSettings[0].DistanceBias -10
 SaveTagChanges
 Exit
+
+echo --Spire fog fixup--
+edittag levels\multi\35_island\35_island.sky_atm_parameters
+setfield AtmosphereSettings[0].Color 0.4862745 0.7974836 1
+savetagchanges
+exit
 
 echo --Spire mountain fog fix==
 EditTag levels\solo\m35\sky_daytime\shaders\mountains_cutout.shader
@@ -1433,12 +1445,22 @@ Exit
 
 echo ==Outpost fog fix==
 # at least it's no longer blue, still inaccurate tho
+# fix vertex explosion
 
 EditTag levels\firefight\ff60_airview\ff60_airview.sky_atm_parameters
 SetField AtmosphereSettings[0].Color 0.1 0.059 0.036
 SetField AtmosphereSettings[0].MaxFogThickness 100
+setfield TransparentSortLayer PrePass
+setfield TransparentSortDistance 100
 SaveTagChanges
 Exit
+
+echo ==Glacier vertex explosion fix==
+edittag levels\firefight\ff60_icecave\ff60_icecave.sky_atm_parameters
+setfield TransparentSortLayer PrePass
+setfield TransparentSortDistance 100
+savetagchanges
+exit
 
 echo ==Make frag and plasma grenades explode with precision weapons==
 EditTag objects\weapons\grenade\frag_grenade\frag_grenade_equipment.model
@@ -2203,6 +2225,14 @@ OpenModPackage "workingdir\paks\ReachSpaceVehiclesNoBloatWare.pak"
 applymodpackage
 exitmodpackage
 
+# FIXUP for RAMP 2 only
+# Watashi totte wa mikanzen
+edittag ui\chud\mac_cannon.chud_definition
+setfield HudWidgets[1].BitmapWidgets[1].PlacementData[0].Origin 0 -0.9
+savetagchanges
+exit
+# I DONT GET IT
+
 AddForgeItem "SABRE" "VEHICLES" objects\vehicles\human\sabre\sabre.vehicle
 AddForgeItem "SERAPH" "VEHICLES" objects\vehicles\seraph_reach\seraph_reach.vehicle
 AddForgeItem "BANSHEE, SPACE" "VEHICLES" objects\vehicles\covenant\space_banshee\space_banshee.vehicle
@@ -2234,6 +2264,23 @@ setstring english pelican_flip "\uE461\uE45F to flip Pelican"
 setstring english wombat_enter_driver "\uE461\uE45F to pilot Wombat"
 setstring english wombat_flip "\uE461\uE45F to flip Wombat"
 setstring english wombat_board "\uE461\uE45F to board enemy Wombat"
+savetagchanges
+exit
+
+echo == EMP Fixup for Space vehicles pak ==
+edittag objects\vehicles\drone_alpha\drone_alpha.vehicle
+setfield EmpEffect objects\vehicles\covenant\banshee\fx\destruction\emp_drain.effect
+savetagchanges
+exit
+
+edittag objects\vehicles\seraph_reach\seraph_reach.vehicle
+setfield EmpEffect objects\vehicles\covenant\banshee\fx\destruction\emp_drain.effect
+savetagchanges
+exit
+
+edittag objects\vehicles\human\sabre\sabre.vehicle
+setfield EmpRadius 4
+setfield EmpEffect objects\vehicles\covenant\banshee\fx\destruction\emp_drain.effect
 savetagchanges
 exit
 
@@ -2408,15 +2455,6 @@ SetField DisappearDistance 80
 SaveTagChanges
 Exit
 
-echo ==Fix Splazer meter==
-
-edittag ui\chud\spartan_laser.chud_definition
-setfield HudWidgets[4].BitmapWidgets[3].PlacementData[0].Scale 0.45 0.45
-setfield HudWidgets[4].BitmapWidgets[4].PlacementData[0].Scale 0.45 0.45
-setfield HudWidgets[4].BitmapWidgets[5].PlacementData[0].Scale 0.45 0.45
-savetagchanges
-exit
-
 echo ==Fall Damage??==
 
 opencachefile odstmaps\sc100.map
@@ -2442,14 +2480,6 @@ edittag levels\dlc\condemned\condemned.scenario_structure_bsp
 setfield InstancedGeometryInstances[983].Flags RenderOnly,MiscoloredBsp
 savetagchanges
 exit
-
-# FIXUP for RAMP 2 only
-# Watashi totte wa mikanzen
-edittag ui\chud\mac_cannon.chud_definition
-setfield HudWidgets[1].BitmapWidgets[1].PlacementData[0].Origin 0 -0.9
-savetagchanges
-exit
-# I DONT GET IT
 
 AddModFiles workingdir\assets
 SaveModPackage "modsfolder\RAMP_2.pak"

@@ -630,6 +630,8 @@ SetField HudWidgets[10].BitmapWidgets[0].RenderData[0].OutputColorD PrimaryBackg
 SetField HudWidgets[10].BitmapWidgets[0].RenderData[0].OutputColorE PrimaryBackground
 SetField HudWidgets[10].BitmapWidgets[0].RenderData[0].OutputColorF PrimaryBackground
 
+setfield HudWidgets[25].BitmapWidgets[0].PlacementData[0].Origin 0 0
+
 SetField HudWidgets[28].BitmapWidgets[0].RenderData[0].OutputColorA PrimaryBackground
 SetField HudWidgets[28].BitmapWidgets[0].RenderData[0].OutputColorB PrimaryBackground
 SetField HudWidgets[28].BitmapWidgets[0].RenderData[0].OutputColorC PrimaryBackground
@@ -690,6 +692,8 @@ SetField HudWidgets[21].BitmapWidgets[1].RenderData[0].OutputColorB HighlightFor
 SetField HudWidgets[21].BitmapWidgets[2].RenderData[0].OutputColorB HighlightForeground
 SetField HudWidgets[21].BitmapWidgets[2].RenderData[0].OutputColorC PrimaryBackground
 SetField HudWidgets[21].BitmapWidgets[1].Bitmap ui\chud\bitmaps\equipment_meter_border.bitmap
+
+SetField HudWidgets[22].BitmapWidgets[0].PlacementData[0].Origin 0 -0.2
 
 SetField HudWidgets[23].StateData[0].UnitZoomState Unzoomed
 RemoveBlockElements HudWidgets[24].BitmapWidgets 1 *

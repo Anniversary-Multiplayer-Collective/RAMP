@@ -447,6 +447,7 @@ SetField HudWidgets[4].TextWidgets[0].StateData[0].HiddenState Zoomed
 
 SetField HudWidgets[2].BitmapWidgets[0].Bitmap ms30\ui\chud\bitmaps\hud_reticles.bitmap
 SetField HudWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 0.885 0.885
+SetField HudWidgets[6].BitmapWidgets[1].PlacementData[0].Offset -30 55
 
 SaveTagChanges
 Exit
