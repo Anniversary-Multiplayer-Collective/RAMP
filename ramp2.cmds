@@ -2481,6 +2481,30 @@ setfield InstancedGeometryInstances[983].Flags RenderOnly,MiscoloredBsp
 savetagchanges
 exit
 
+echo == Increase LOD effects on Corvette Projectile (make it purple) ==
+
+edittag objects\levels\ca_dev\dlc_condemned\corvette_battle\fx\covenant_explosion_artillery_huge.effect
+setfield Events[1].ParticleSystems[0].InverseLodFeatherIn 1
+setfield Events[1].ParticleSystems[0].LodOutDistance 2000
+setfield Events[1].ParticleSystems[0].LodInDistance 0
+setfield Events[2].ParticleSystems[0].InverseLodFeatherIn 1
+setfield Events[2].ParticleSystems[0].LodOutDistance 2000
+setfield Events[2].ParticleSystems[1].InverseLodFeatherIn 1
+setfield Events[2].ParticleSystems[1].LodOutDistance 2000
+setfield Events[2].ParticleSystems[2].InverseLodFeatherIn 1
+setfield Events[2].ParticleSystems[2].LodOutDistance 2000
+setfield Events[3].ParticleSystems[0].InverseLodFeatherIn 1
+setfield Events[3].ParticleSystems[0].LodOutDistance 2000
+setfield Events[4].ParticleSystems[0].InverseLodFeatherIn 1
+setfield Events[4].ParticleSystems[0].LodOutDistance 2000
+savetagchanges
+Exit
+
+edittag objects\vehicles\covenant\covenant_fleet\corvette\shaders\corvette_purp.shader
+argument specular_tint 0.4 0.2 0.4 1
+savetagchanges
+exit
+
 AddModFiles workingdir\assets
 SaveModPackage "modsfolder\RAMP_2.pak"
 
