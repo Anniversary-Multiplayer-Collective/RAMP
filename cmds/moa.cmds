@@ -93,6 +93,7 @@ exit
 
 edittag objects\characters\ambient_life\reach_moa\reach_moa.model
 setfield NewDamageInfo[0].MaximumVitality 100
+setfield NewDamageInfo[0].Flags TakesShieldDamageForChildren,CannotDieFromDamage
 savetagchanges
 exit
 
