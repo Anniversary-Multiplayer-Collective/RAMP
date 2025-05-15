@@ -2505,6 +2505,10 @@ setargument specular_tint 0.4 0.2 0.4 1
 savetagchanges
 exit
 
+echo == MOA JOCKEY ==
+
+RunCommands "workingdir\cmds\Moa.cmds"
+
 AddModFiles workingdir\assets
 SaveModPackage "modsfolder\RAMP_2.pak"
 
