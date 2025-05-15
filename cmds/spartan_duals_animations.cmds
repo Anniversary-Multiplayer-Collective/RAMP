@@ -176,10 +176,10 @@ EditTag dw3\r3ach\objects\weapons\pistol\plasma_pistol\animations\fp_spartan\fp_
 SortModes
 
 AddBlockElements SoundReferences 10
-SetField SoundReferences[9].Reference dw3\r3ach\sound\weapons\plasma_pistol\plaspistol_fp\plaspistol_dual_overheat_Exit_l.sound
+SetField SoundReferences[9].Reference dw3\r3ach\sound\weapons\plasma_pistol\plaspistol_fp\plaspistol_dual_overheat_exit_l.sound
 SetField SoundReferences[9].Flags LeftArmOnly
 
-SetField SoundReferences[10].Reference dw3\r3ach\sound\weapons\plasma_pistol\plaspistol_fp\plaspistol_dual_overheat_Exit_r.sound
+SetField SoundReferences[10].Reference dw3\r3ach\sound\weapons\plasma_pistol\plaspistol_fp\plaspistol_dual_overheat_exit_r.sound
 SetField SoundReferences[10].Flags RightArmOnly
 
 SetField SoundReferences[11].Reference dw3\r3ach\sound\weapons\plasma_pistol\plaspistol_fp\plaspistol_dual_overheat_l.sound
