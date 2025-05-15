@@ -2506,8 +2506,10 @@ savetagchanges
 exit
 
 echo == MOA JOCKEY ==
-
 RunCommands "workingdir\cmds\Moa.cmds"
+
+echo == FF Map Variants ==
+RunCommands "workingdir\cmds\FFMapVariants.cmds"
 
 AddModFiles workingdir\assets
 SaveModPackage "modsfolder\RAMP_2.pak"
