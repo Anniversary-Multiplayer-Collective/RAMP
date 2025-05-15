@@ -12,8 +12,8 @@ UseShaderCache workingdir\caches\shadercache
 
 # echo ==Creating Mod Package...==
 CreateModPackage 1 large
-Reach Anniversary Multiplayer 2
-Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even better. Featuring extensive bug fixes, quality of life improvements, and plenty of new content to play with. We hope you enjoy this labor of love, we'll see you starside.
+Reach Anniversary Multiplayer
+Welcome to RAMP, a community effort to make one of ElDewrito's best mods even better. Featuring extensive bug fixes, quality of life improvements, and plenty of new content to play with. We hope you enjoy this labor of love, we'll see you starside.
 AMP Collective
 0.5
 MainMenu Multiplayer Character
