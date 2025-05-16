@@ -96,3 +96,28 @@ setfield NewDamageInfo[0].MaximumVitality 100
 setfield NewDamageInfo[0].Flags TakesShieldDamageForChildren,CannotDieFromDamage
 savetagchanges
 exit
+
+edittag objects\characters\ambient_life\reach_moa\reach_moa.collision_model
+removeblockelements Regions[0].Permutations[0].Bsps 5 1
+removeblockelements Regions[0].Permutations[0].Bsps 8 1
+removeblockelements Regions[0].Permutations[0].Bsps 11 1
+removeblockelements Regions[0].Permutations[0].Bsps 11 1
+removeblockelements Regions[0].Permutations[0].Bsps 11 1
+removeblockelements Regions[0].Permutations[0].Bsps 10 1
+savetagchanges
+exit
+
+edittag objects\characters\ambient_life\reach_moa\reach_moa.model_animation_graph
+addanimation workingdir\animations\moa
+addblockelements Modes[1].WeaponClass[0].WeaponType[0].Set.Actions
+addblockelements Modes[1].WeaponClass[0].WeaponType[0].Set.Actions
+addblockelements Modes[1].WeaponClass[0].WeaponType[0].Set.Actions
+setfield Modes[1].WeaponClass[0].WeaponType[0].Set.Actions[8].Animation 37
+setfield Modes[1].WeaponClass[0].WeaponType[0].Set.Actions[8].GraphIndex -1
+setfield Modes[1].WeaponClass[0].WeaponType[0].Set.Actions[9].Animation 38
+setfield Modes[1].WeaponClass[0].WeaponType[0].Set.Actions[9].GraphIndex -1
+setfield Modes[1].WeaponClass[0].WeaponType[0].Set.Actions[10].Animation 39
+setfield Modes[1].WeaponClass[0].WeaponType[0].Set.Actions[10].GraphIndex -1
+sortmodes
+savetagchanges
+exit
