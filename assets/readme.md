@@ -8,7 +8,7 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 * MtnDewIt (Tagtool Maintainer & Bug Fixer)
 * Minelelol (Core Contributor & Animator)
 * Dank (Core Contributor & Original RAMP Creator)
-* TwistedFlog (Modeler, Animator & Tagtool Maintainer)
+* TwistedFlog (Core Contributor, Modeler, Animator & Tagtool Maintainer)
 * Newbie (Engine Knowledge)
 * Twister (Engine Knowledge)
 * Dirkkane (Minor Contributor)
