@@ -2505,9 +2505,6 @@ setargument specular_tint 0.4 0.2 0.4 1
 savetagchanges
 exit
 
-echo == MOA JOCKEY ==
-RunCommands "workingdir\cmds\Moa.cmds"
-
 echo == FF Map Variants ==
 RunCommands "workingdir\cmds\FFMapVariants.cmds"
 
