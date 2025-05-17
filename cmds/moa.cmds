@@ -6,6 +6,7 @@ opencachefile "odstmaps\sc110.map"
 porttag levels\atlas\sc110\shaders\zebra_carcass.shader
 exit
 
+
 AddForgeItem "MOA" "VEHICLES" objects\characters\ambient_life\reach_moa\reach_moa.biped
 
 stringid add moa_seat
@@ -92,8 +93,13 @@ savetagchanges
 exit
 
 edittag objects\characters\ambient_life\reach_moa\reach_moa.model
-setfield NewDamageInfo[0].MaximumVitality 500
-setfield NewDamageInfo[0].Flags TakesShieldDamageForChildren
+setfield NewDamageInfo[0].MaximumVitality 200
+setfield NewDamageInfo[0].Flags TakesShieldDamageForChildren,TakesBodyDamageForChildren
+setfield NewDamageInfo[0].DamageSections[0].Flags TakesFullDamageWhenObjectDies,TakesFullDamageWhenObjectDestroyed
+setfield NewDamageInfo[0].DamageSections[1].Flags TakesFullDamageWhenObjectDies,TakesFullDamageWhenObjectDestroyed
+
+setfield CollisionModel objects\gear\human\industrial\garbage_can\garbage_can.collision_model
+echo Temp ^^
 savetagchanges
 exit
 
@@ -124,3 +130,4 @@ setfield Modes[1].WeaponClass[0].WeaponType[0].Set.Actions[10].Label move_right
 sortmodes
 savetagchanges
 exit
+
