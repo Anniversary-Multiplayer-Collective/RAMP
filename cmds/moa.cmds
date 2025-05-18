@@ -13,7 +13,7 @@ stringid add moa_seat
 stringid add moa_enter_rider
 savetagnames
 EditTag ui\hud\hud_messages.unic
-SetString english moa_enter_rider "\uE461 \uE45F to tame Moa"
+SetString english moa_enter_rider "\uE461\uE45F to tame Moa"
 savetagchanges
 exit
 
