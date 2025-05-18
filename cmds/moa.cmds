@@ -10,6 +10,12 @@ exit
 AddForgeItem "MOA" "VEHICLES" objects\characters\ambient_life\reach_moa\reach_moa.biped
 
 stringid add moa_seat
+stringid add moa_enter_rider
+savetagnames
+EditTag ui\hud\hud_messages.unic
+SetString english moa_enter_rider "\uE461 \uE45F to tame Moa"
+savetagchanges
+exit
 
 edittag objects\characters\ambient_life\reach_moa\reach_moa.render_model
 addblockelements MarkerGroups
@@ -35,6 +41,7 @@ setfield Seats[0].EntryMarkerConeAngle 180
 setfield Seats[0].EntryMarkerFacingAngle 180
 setfield Seats[0].MaximumRelativeVelocity 3
 setfield Seats[0].RuntimeInvisibleSeatRegionIndex -1
+setfield Seats[0].EnterSeatString moa_enter_rider
 setfield MultiplayerObject[0].DefaultSpawnTime 30
 setfield MultiplayerObject[0].DefaultAbandonTime 9999
 setfield BipedFlags TurnsWithoutAnimating
