@@ -87,12 +87,13 @@ void calc_material_glass_ps(
 	float3 specular_analytical= 0;
 	float3 simple_light_diffuse_light= 0.0f;
 	float3 simple_light_specular_light= 0.0f;
+	float4 misc = 0.0f;
 
 	float4 spatially_varying_material_parameters;
 	float3 normal_specular_blend_albedo_color;
 	float3 additional_diffuse_radiance;
 
-	float3 final_specular_tint_color= calc_material_analytic_specular_two_lobe_phong_ps(
+	float4 final_specular_tint_color= calc_material_analytic_specular_two_lobe_phong_ps(
 		view_dir,
 		surface_normal,
 		view_reflect_dir_world,
@@ -102,6 +103,7 @@ void calc_material_glass_ps(
 		texcoord,
 		prt_ravi_diff.w,
 		tangent_frame,
+		misc,
 		spatially_varying_material_parameters,
 		normal_specular_blend_albedo_color,
 		specular_analytical,
@@ -118,14 +120,14 @@ void calc_material_glass_ps(
 			normal_specular_power,
 			simple_light_diffuse_light,
 			simple_light_specular_light);
-		simple_light_specular_light*=final_specular_tint_color;
+		simple_light_specular_light*=final_specular_tint_color.rgb;
 	}
 
 	//scaling and masking
 	specular_radiance.xyz= specular_mask * (simple_light_specular_light + specular_analytical) * analytical_specular_contribution ;
 
 	//envmap_area_specular_only.xyz= envmap_area_specular_only*final_specular_tint_color + 0.25*(lighting_coefficients[1].rgb+lighting_coefficients[3].rgb);
-    envmap_area_specular_only = sh_lighting_coefficients[0].xyz * final_specular_tint_color;
+    envmap_area_specular_only = sh_lighting_coefficients[0].xyz * final_specular_tint_color.rgb;
 	
 	specular_radiance.w= 0.0f;
 

@@ -375,6 +375,20 @@
             <param name="format"></param>
             <returns></returns>
         </member>
+        <member name="M:TagTool.Bitmaps.BitmapFormatUtils.GetCompressionFactor(TagTool.Bitmaps.BitmapFormat)">
+            <summary>
+            Get the compression factor of a bitmap format.
+            </summary>
+            <param name="format"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TagTool.Bitmaps.BitmapFormatUtils.GetMinimalVirtualSize(TagTool.Bitmaps.BitmapFormat)">
+            <summary>
+            Get the minimal virtual size of an Xbox 360 Bitmap
+            </summary>
+            <param name="format"></param>
+            <returns></returns>
+        </member>
         <member name="T:TagTool.Bitmaps.BitmapType">
             <summary>
             Bitmap types.
@@ -460,6 +474,14 @@
             <param name="indices"></param>
             <param name="c0"></param>
             <param name="c1"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TagTool.Bitmaps.BitmapUtils.GetVirtualSize(System.Int32,System.Int32)">
+            <summary>
+            Get the virtual size of an Xbox 360 bitmap.
+            </summary>
+            <param name="size"></param>
+            <param name="minimalSize"></param>
             <returns></returns>
         </member>
         <member name="M:TagTool.Bitmaps.BitmapUtils.GetEquivalentBitmapFormat(TagTool.Bitmaps.BitmapFormat)">
@@ -2031,6 +2053,19 @@
             <param name="cacheVersion">The game to convert tag fields for.</param>
             <param name="cachePlatform"></param>
             <param name="pluginsDirectory">The path to save the plugin files to.</param>
+        </member>
+        <member name="T:TagTool.Commands.ModelAnimationGraphs.FixGraphForInheritanceCommand">
+            <summary>
+            Removes all ObjectSpaceParentNodes from every animation’s animation data.
+            Doing so prevents inherited animations from twisting to odd angles if the inherited graphs don't have the exact nodes.
+            </summary>
+        </member>
+        <member name="T:TagTool.Commands.ModelAnimationGraphs.RemoveInheritanceCommand">
+            <summary>
+            Removes all blocks from modes sub blocks that have GraphIndex above -1.
+            Additionally, if a main block (WeaponType, WeaponClass, or Mode) becomes empty,
+            it is removed. Also clears the InheritanceList and sets ParentAnimationGraph to null.
+            </summary>
         </member>
         <member name="T:TagTool.Commands.ParseResult">
             <summary>
@@ -3646,7 +3681,7 @@
             <summary>
             Export geometry to 3D model file.
             </summary>
-            <param name="exportFileFormat">AMF, DAE or OBJ</param>
+            <param name="exportFileFormat">AMF, DAE, FBX or OBJ</param>
             <param name="exportFilePath">File to write 3D model to.</param>
             <param name="exportBitmapsFolder">If set, used diffuse bitmaps will be exported as DDS to this folder.</param>
             <param name="filterVariant">If set, only this variant will be exported.</param>
@@ -4130,7 +4165,7 @@
             <param name="vertexCount">The vertex count.</param>
             <exception cref="T:System.InvalidOperationException">Cannot define a part if no mesh is active</exception>
         </member>
-        <member name="M:TagTool.Geometry.RenderModelBuilder.DefineSubPart(System.UInt16,System.UInt16,System.UInt16)">
+        <member name="M:TagTool.Geometry.RenderModelBuilder.DefineSubPart(System.Int32,System.UInt16,System.UInt16)">
             <summary>
             Defines a subpart in the current mesh part.
             </summary>

@@ -8,9 +8,9 @@
     ".NETCoreApp,Version=v8.0": {
       "TagTool/1.0.0": {
         "dependencies": {
-          "AssimpNet": "4.1.0",
+          "AssimpNet": "5.0.0-beta1",
           "HaloShaderGenerator": "1.0.0",
-          "Microsoft.CodeAnalysis.CSharp.Scripting": "4.11.0",
+          "Microsoft.CodeAnalysis.CSharp.Scripting": "4.12.0",
           "Newtonsoft.Json": "13.0.3",
           "PluralizeService.Core": "1.2.21147.2",
           "Poly2Tri.NetStandard": "1.0.2",
@@ -23,14 +23,14 @@
           "TagTool.dll": {}
         }
       },
-      "AssimpNet/4.1.0": {
+      "AssimpNet/5.0.0-beta1": {
         "dependencies": {
           "NETStandard.Library": "1.6.1"
         },
         "runtime": {
           "lib/netstandard1.3/AssimpNet.dll": {
-            "assemblyVersion": "4.1.0.0",
-            "fileVersion": "4.1.0.0"
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
           }
         },
         "runtimeTargets": {
@@ -47,12 +47,12 @@
           "runtimes/win-x64/native/assimp.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "5.0.0.0"
           },
           "runtimes/win-x86/native/assimp.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "5.0.0.0"
           }
         }
       },
@@ -80,7 +80,7 @@
         }
       },
       "Microsoft.CodeAnalysis.Analyzers/3.3.4": {},
-      "Microsoft.CodeAnalysis.Common/4.11.0": {
+      "Microsoft.CodeAnalysis.Common/4.12.0": {
         "dependencies": {
           "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
           "System.Collections.Immutable": "8.0.0",
@@ -88,53 +88,53 @@
         },
         "runtime": {
           "lib/net8.0/Microsoft.CodeAnalysis.dll": {
-            "assemblyVersion": "4.11.0.0",
-            "fileVersion": "4.1100.24.37604"
+            "assemblyVersion": "4.12.0.0",
+            "fileVersion": "4.1200.24.57207"
           }
         }
       },
-      "Microsoft.CodeAnalysis.CSharp/4.11.0": {
+      "Microsoft.CodeAnalysis.CSharp/4.12.0": {
         "dependencies": {
           "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
-          "Microsoft.CodeAnalysis.Common": "4.11.0",
+          "Microsoft.CodeAnalysis.Common": "4.12.0",
           "System.Collections.Immutable": "8.0.0",
           "System.Reflection.Metadata": "8.0.0"
         },
         "runtime": {
           "lib/net8.0/Microsoft.CodeAnalysis.CSharp.dll": {
-            "assemblyVersion": "4.11.0.0",
-            "fileVersion": "4.1100.24.37604"
+            "assemblyVersion": "4.12.0.0",
+            "fileVersion": "4.1200.24.57207"
           }
         }
       },
-      "Microsoft.CodeAnalysis.CSharp.Scripting/4.11.0": {
+      "Microsoft.CodeAnalysis.CSharp.Scripting/4.12.0": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
           "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
-          "Microsoft.CodeAnalysis.CSharp": "4.11.0",
-          "Microsoft.CodeAnalysis.Common": "4.11.0",
-          "Microsoft.CodeAnalysis.Scripting.Common": "4.11.0",
+          "Microsoft.CodeAnalysis.CSharp": "4.12.0",
+          "Microsoft.CodeAnalysis.Common": "4.12.0",
+          "Microsoft.CodeAnalysis.Scripting.Common": "4.12.0",
           "System.Collections.Immutable": "8.0.0",
           "System.Reflection.Metadata": "8.0.0"
         },
         "runtime": {
           "lib/net8.0/Microsoft.CodeAnalysis.CSharp.Scripting.dll": {
-            "assemblyVersion": "4.11.0.0",
-            "fileVersion": "4.1100.24.37604"
+            "assemblyVersion": "4.12.0.0",
+            "fileVersion": "4.1200.24.57207"
           }
         }
       },
-      "Microsoft.CodeAnalysis.Scripting.Common/4.11.0": {
+      "Microsoft.CodeAnalysis.Scripting.Common/4.12.0": {
         "dependencies": {
           "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
-          "Microsoft.CodeAnalysis.Common": "4.11.0",
+          "Microsoft.CodeAnalysis.Common": "4.12.0",
           "System.Collections.Immutable": "8.0.0",
           "System.Reflection.Metadata": "8.0.0"
         },
         "runtime": {
           "lib/net8.0/Microsoft.CodeAnalysis.Scripting.dll": {
-            "assemblyVersion": "4.11.0.0",
-            "fileVersion": "4.1100.24.37604"
+            "assemblyVersion": "4.12.0.0",
+            "fileVersion": "4.1200.24.57207"
           }
         }
       },
@@ -852,12 +852,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AssimpNet/4.1.0": {
+    "AssimpNet/5.0.0-beta1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-z/4Tmf3Q2r1+vN6o/szArEZvPsdYNRYiS0L/yArybQd7n7KCiS9L4lRZhwwlHJb/edECM+Jky0XisVspr5aQWQ==",
-      "path": "assimpnet/4.1.0",
-      "hashPath": "assimpnet.4.1.0.nupkg.sha512"
+      "sha512": "sha512-oiUmn2KNaLThdbr6oT461uyCwclsqfZ0UB36vqkAUm8ttBWjKOCBmtp9V+X6xDGZmQaJe9YknW5eoyATTikUNQ==",
+      "path": "assimpnet/5.0.0-beta1",
+      "hashPath": "assimpnet.5.0.0-beta1.nupkg.sha512"
     },
     "lz4net/1.0.15.93": {
       "type": "package",
@@ -880,33 +880,33 @@
       "path": "microsoft.codeanalysis.analyzers/3.3.4",
       "hashPath": "microsoft.codeanalysis.analyzers.3.3.4.nupkg.sha512"
     },
-    "Microsoft.CodeAnalysis.Common/4.11.0": {
+    "Microsoft.CodeAnalysis.Common/4.12.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-djf8ujmqYImFgB04UGtcsEhHrzVqzHowS+EEl/Yunc5LdrYrZhGBWUTXoCF0NzYXJxtfuD+UVQarWpvrNc94Qg==",
-      "path": "microsoft.codeanalysis.common/4.11.0",
-      "hashPath": "microsoft.codeanalysis.common.4.11.0.nupkg.sha512"
+      "sha512": "sha512-c1kNYihL2gdcuU1dqm8R8YeA4YkB43TpU3pa2r66Uooh6AAhRtENzj9A4Kj0a+H8JDDyuTjNZql9XlVUzV+UjA==",
+      "path": "microsoft.codeanalysis.common/4.12.0",
+      "hashPath": "microsoft.codeanalysis.common.4.12.0.nupkg.sha512"
     },
-    "Microsoft.CodeAnalysis.CSharp/4.11.0": {
+    "Microsoft.CodeAnalysis.CSharp/4.12.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6XYi2EusI8JT4y2l/F3VVVS+ISoIX9nqHsZRaG6W5aFeJ5BEuBosHfT/ABb73FN0RZ1Z3cj2j7cL28SToJPXOw==",
-      "path": "microsoft.codeanalysis.csharp/4.11.0",
-      "hashPath": "microsoft.codeanalysis.csharp.4.11.0.nupkg.sha512"
+      "sha512": "sha512-30vVQ1MizeC22iEdEvI2w0eTIYG43/L20yBzuQH01xKzJgHAoWehzI2F8u07o4mXh4DGMOjQF7aEm0zzvsG3Mg==",
+      "path": "microsoft.codeanalysis.csharp/4.12.0",
+      "hashPath": "microsoft.codeanalysis.csharp.4.12.0.nupkg.sha512"
     },
-    "Microsoft.CodeAnalysis.CSharp.Scripting/4.11.0": {
+    "Microsoft.CodeAnalysis.CSharp.Scripting/4.12.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-sNeVeHfGHEPtxYGQIP+0BSTSBuv+dkWP5HEc1FstJpyYlibqKOmFm3y2j1AwEx9sKoRTs01092yrTH9BwZsxFQ==",
-      "path": "microsoft.codeanalysis.csharp.scripting/4.11.0",
-      "hashPath": "microsoft.codeanalysis.csharp.scripting.4.11.0.nupkg.sha512"
+      "sha512": "sha512-w2b47HQD/2bnFL+yKaaLTo/fNdx6mviHWl2YEqBHaFE08mTLAZPsLNiUuJzlx7oED0LnKZiC8cGPt2ImWWyJyg==",
+      "path": "microsoft.codeanalysis.csharp.scripting/4.12.0",
+      "hashPath": "microsoft.codeanalysis.csharp.scripting.4.12.0.nupkg.sha512"
     },
-    "Microsoft.CodeAnalysis.Scripting.Common/4.11.0": {
+    "Microsoft.CodeAnalysis.Scripting.Common/4.12.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UHZIAKQcLB00N7AvMoyEYLw8qvFmGcKffEm/M2dEqYz2TWUtQW2j0+nGglbt9VwOId6TrDZGQlGjX90VNFak/w==",
-      "path": "microsoft.codeanalysis.scripting.common/4.11.0",
-      "hashPath": "microsoft.codeanalysis.scripting.common.4.11.0.nupkg.sha512"
+      "sha512": "sha512-HS0nh9K+cSKLf04oDMExJKyZLzBv4tM2MNq6kmJCPuP7gf1chC7Iu6N1PYn7cw0PT9a3JuJf6Y1X7PXDpPJNrg==",
+      "path": "microsoft.codeanalysis.scripting.common/4.12.0",
+      "hashPath": "microsoft.codeanalysis.scripting.common.4.12.0.nupkg.sha512"
     },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",
