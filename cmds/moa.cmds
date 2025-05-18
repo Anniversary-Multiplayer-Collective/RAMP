@@ -94,9 +94,9 @@ exit
 
 edittag objects\characters\ambient_life\reach_moa\reach_moa.model
 setfield NewDamageInfo[0].MaximumVitality 200
-setfield NewDamageInfo[0].Flags TakesShieldDamageForChildren,TakesBodyDamageForChildren
-setfield NewDamageInfo[0].DamageSections[0].Flags TakesFullDamageWhenObjectDies,TakesFullDamageWhenObjectDestroyed
-setfield NewDamageInfo[0].DamageSections[1].Flags TakesFullDamageWhenObjectDies,TakesFullDamageWhenObjectDestroyed
+setfield NewDamageInfo[0].Flags None
+setfield NewDamageInfo[0].DamageSections[0].Flags none
+setfield NewDamageInfo[0].DamageSections[1].Flags none
 
 setfield CollisionModel objects\gear\human\industrial\garbage_can\garbage_can.collision_model
 echo Temp ^^
