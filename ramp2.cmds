@@ -12,8 +12,8 @@ UseShaderCache workingdir\caches\shadercache
 
 # echo ==Creating Mod Package...==
 CreateModPackage 1 large
-Reach Anniversary Multiplayer 2
-Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even better. Featuring extensive bug fixes, quality of life improvements, and plenty of new content to play with. We hope you enjoy this labor of love, we'll see you starside.
+Reach Anniversary Multiplayer
+Welcome to RAMP, a community effort to make one of ElDewrito's best mods even better. Featuring extensive bug fixes, quality of life improvements, and plenty of new content to play with. We hope you enjoy this labor of love, we'll see you starside.
 AMP Collective
 0.5
 MainMenu Multiplayer Character
@@ -2498,7 +2498,7 @@ echo == Fix Relfection coll projectile issue ==
 
 EditTag levels\multi\52_ivory_tower\52_ivory_tower_030.scenario_structure_bsp
 setfield InstancedGeometryInstances[1128].DefinitionIndex 163
-setfield InstancedGeometryInstances[1128].Matrix -3.576279E-07 -1 01.22 -3.576279E-07 00 0 1-20.64334 -184.3 250.2079
+setfield InstancedGeometryInstances[1128].Matrix -3.576279E-07 -2 0 1.22 -3.576279E-07 0 0 0 1 -20.64334 -184.1017 250.2079
 savetagchanges
 exit
 
@@ -2508,6 +2508,36 @@ edittag levels\dlc\condemned\condemned.scenario_structure_bsp
 setfield InstancedGeometryInstances[983].Flags RenderOnly,MiscoloredBsp
 savetagchanges
 exit
+
+echo == Increase LOD effects on Corvette Projectile (make it purple) ==
+
+edittag objects\levels\ca_dev\dlc_condemned\corvette_battle\fx\covenant_explosion_artillery_huge.effect
+setfield Events[1].ParticleSystems[0].InverseLodFeatherIn 1
+setfield Events[1].ParticleSystems[0].LodOutDistance 2000
+setfield Events[1].ParticleSystems[0].LodInDistance 0
+setfield Events[2].ParticleSystems[0].InverseLodFeatherIn 1
+setfield Events[2].ParticleSystems[0].LodOutDistance 2000
+setfield Events[2].ParticleSystems[1].InverseLodFeatherIn 1
+setfield Events[2].ParticleSystems[1].LodOutDistance 2000
+setfield Events[2].ParticleSystems[2].InverseLodFeatherIn 1
+setfield Events[2].ParticleSystems[2].LodOutDistance 2000
+setfield Events[3].ParticleSystems[0].InverseLodFeatherIn 1
+setfield Events[3].ParticleSystems[0].LodOutDistance 2000
+setfield Events[4].ParticleSystems[0].InverseLodFeatherIn 1
+setfield Events[4].ParticleSystems[0].LodOutDistance 2000
+savetagchanges
+Exit
+
+edittag objects\vehicles\covenant\covenant_fleet\corvette\shaders\corvette_purp.shader
+setargument specular_tint 0.4 0.2 0.4 1
+savetagchanges
+exit
+
+echo == MOA JOCKEY ==
+RunCommands "workingdir\cmds\Moa.cmds"
+
+echo == FF Map Variants ==
+RunCommands "workingdir\cmds\FFMapVariants.cmds"
 
 AddModFiles workingdir\assets
 SaveModPackage "modsfolder\RAMP_2.pak"
