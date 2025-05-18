@@ -537,6 +537,8 @@ PortTag Replace objects\gear\human\military\camping_stool_mp\camping_stool_mp.cr
 PortTag Replace objects\weapons\grenade\frag_grenade\frag_grenade.equipment
 PortTag Replace objects\weapons\grenade\plasma_grenade\plasma_grenade.equipment
 PortTag Replace objects\weapons\grenade\frag_grenade\fx\projectile.effect
+PortTag Replace fx\particles\models\mesh_fx\blast_radius\blast_radius.particle
+PortTag Replace fx\particles\models\mesh_fx\shield_sphere_glow.particle
 DoNotReplaceGroups remove bitm,prt3
 PortTag objects\multi\boundaries\safe_volume.scen
 PortTag sound\dialog\combat\elite2\default\14_1st_person\sprint.sound
@@ -2400,10 +2402,65 @@ Exit
 
 EditTag fx\fx_library\explosions\covenant_explosion_large\covenant_explosion_large.effect
 ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
+ForEach Events ForEach ParticleSystems setfield LodFeatherInDelta 1
 SaveTagChanges
 Exit
 
 EditTag fx\fx_library\explosions\human_explosion_medium\human_explosion_medium.effect
+ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
+ForEach Events ForEach ParticleSystems setfield LodFeatherInDelta 1
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\grenade\frag_grenade\fx\projectile.effect
+ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
+ForEach Events ForEach ParticleSystems setfield LodFeatherInDelta 1
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\grenade\frag_grenade\fx\airborne_detonation.effect
+ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
+ForEach Events ForEach ParticleSystems setfield LodFeatherInDelta 1
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\grenade\frag_grenade\fx\projectile.effect
+ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
+ForEach Events ForEach ParticleSystems setfield LodFeatherInDelta 1
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\grenade\plasma_grenade\fx\projectile.effect
+ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
+ForEach Events ForEach ParticleSystems setfield LodFeatherInDelta 1
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\grenade\plasma_grenade\fx\airborne_detonation.effect
+ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
+ForEach Events ForEach ParticleSystems setfield LodFeatherInDelta 1
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\covenant\revenant\fx\weapon\mortar\impact.effect
+ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
+ForEach Events ForEach ParticleSystems setfield LodFeatherInDelta 1
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\covenant\wraith\fx\weapon\mortar\detonation.effect
+ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
+ForEach Events ForEach ParticleSystems setfield LodFeatherInDelta 1
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\human\warthog\fx\weapon\rocket\detonation.effect
+ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
+ForEach Events ForEach ParticleSystems setfield LodFeatherInDelta 1
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\support_high\plasma_launcher\projectiles\attachments\attached.effect
 ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
 SaveTagChanges
 Exit
@@ -2418,35 +2475,6 @@ ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
 SaveTagChanges
 Exit
 
-EditTag objects\weapons\grenade\frag_grenade\fx\projectile.effect
-ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
-SaveTagChanges
-Exit
-
-EditTag dw3\r3ach\objects\weapons\support_high\plasma_launcher\projectiles\attachments\attached.effect
-ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
-SaveTagChanges
-Exit
-
-EditTag objects\weapons\grenade\plasma_grenade\fx\projectile.effect
-ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
-SaveTagChanges
-Exit
-
-EditTag objects\vehicles\covenant\revenant\fx\weapon\mortar\impact.effect
-ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
-SaveTagChanges
-Exit
-
-EditTag objects\vehicles\covenant\wraith\fx\weapon\mortar\detonation.effect
-ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
-SaveTagChanges
-Exit
-
-EditTag objects\vehicles\human\warthog\fx\weapon\rocket\detonation.effect
-ForEach Events ForEach ParticleSystems setfield LodOutDistance 100
-SaveTagChanges
-Exit
 
 echo ==Boulder_Scale Render distance==
 
