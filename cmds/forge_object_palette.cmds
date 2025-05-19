@@ -631,7 +631,7 @@ AddForgeItem "MEDICAL BARREL" 89 objects\gear\human\medical\barrel\barrel.crate
 AddForgeItem "WATER BARREL, PALLETTE" 89 objects\props\human\pioneer\water\water_barrel_pallette\water_barrel_pallette.crate
 AddForgeItem "WATER BARREL, SINGLE" 89 objects\props\human\pioneer\water\water_barrel\water_barrel.crate
 AddForgeItem "WOOD BARREL" 89 objects\props\human\pioneer\farm\wood_barrel\wood_barrel.crate
-AddForgeItem "WOOD BARREL, SMALL" 89 levels\dlc\cex_damnation\scenery\cex_damnation_grunt_crate\cex_damnation_grunt_crate.crate
+AddForgeItem "WOOD BARREL, GRUNT" 89 levels\dlc\cex_damnation\scenery\cex_damnation_grunt_crate\cex_damnation_grunt_crate.crate
 
 AddForgeItem "PLASTIC CONTAINER, SMALL" 89 objects\props\human\pioneer\kitchenware\storage_containers\domestic_storage_medium\domestic_storage_medium.crate
 AddForgeItem "PLASTIC CONTAINER, MEDIUM" 89 objects\props\human\pioneer\kitchenware\storage_containers\domestic_storage_xlarge\domestic_storage_xlarge.crate
@@ -1520,13 +1520,13 @@ AddForgeItem "ENGINE CART" 93 levels\multi\dlc\objects\dlc_slayer_cart_a\dlc_sla
 AddForgeItem "MISSILE CART" 93 levels\multi\dlc\objects\dlc_slayer_cart_b\dlc_slayer_cart_b.scenery
 AddForgeItem "MISSILE, SINGLE" 93 objects\gear\human\military\missle\missle.crate
 AddForgeItem "ELECTRICAL GENERATOR" 93 objects\props\human\pioneer\farm\electrical_generator\electrical_generator.scenery
+AddForgeItem "SLIPSPACE DRIVE" 93 objects\props\human\unsc\slipspace_drive\slipspace_drive.scenery
 AddForgeItem "SEARCHLIGHT" 93 objects\scenery\human\searchlight\searchlight.scenery
 AddForgeItem "SEARCHLIGHT, BROKEN" 93 objects\scenery\human\searchlight_broken\searchlight_broken.scenery
 AddForgeItem "WIND TURBINE 1" 93 objects\props\human\pioneer\farm\wind_turbine\wind_turbine.scenery
 AddForgeItem "WIND TURBINE 2" 93 objects\props\human\pioneer\farm\large_wind_turbine\large_wind_turbine.scenery
 AddForgeItem "WIND GAUGE" 93 objects\props\human\unsc\wind_gauge\wind_gauge.scenery
 
-AddForgeItem "UNSC RADIO SET" 93 objects\cex\cex_ff_halo\crates\halo_ff_radio\halo_ff_radio\halo_ff_radio.crate
 AddForgeItem "TECH CONSOLE" 93 objects\props\human\unsc\tech_console_stationary\tech_console_stationary.scenery
 AddForgeItem "TECH CONSOLE, DESK MOUNT" 93 objects\props\human\unsc\tech_console_stationary_b\tech_console_stationary_b.scenery
 AddForgeItem "TECH CONSOLE, WALL MOUNT" 93 objects\props\human\unsc\tech_console_wall\tech_console_wall.scenery
@@ -1549,6 +1549,8 @@ AddForgeItem "MONITOR BANK 3" 93 objects\levels\solo\m30\central_monitor_bank_03
 AddForgeItem "SCREEN HOLOGRAM, DESKMOUNT" 93 objects\levels\solo\m20\screen_halogram_deskmount_a\screen_halogram_deskmount_a.crate
 AddForgeItem "SCREEN HOLOGRAM, WALLMOUNT" 93 objects\levels\solo\m20\screen_halogram_wallmount_a\screen_halogram_wallmount_a.scenery
 AddForgeItem "SCREEN HOLOGRAM, COMM PANELS" 93 objects\levels\solo\m20\screen_halogram_comm_panels\screen_halogram_comm_panels\screen_halogram_comm_panels.scenery
+AddForgeItem "REACH GLOBE HOLOGRAM" 93 objects\levels\solo\m45\m45_corvette_holo_globe\m45_corvette_holo_globe.scenery
+AddForgeItem "CORVETTE HOLOGRAM" 93 objects\props\covenant\corvette_hologram\corvette.scenery
 AddForgeItem "SECURITY CAMERA, WALL MOUNT" 93 objects\levels\solo\m20\oni_ext_security_camera\oni_ext_security_camera.scenery
 AddForgeItem "SECURITY CAMERA, ROOF MOUNT" 93 objects\props\human\oni\security_camera_interior\security_camera_interior.scenery
 
@@ -1656,6 +1658,8 @@ AddForgeItem "KITCHEN DISHWASHER, DOOR" 95 objects\props\human\pioneer\furniture
 AddForgeItem "KITCHEN SINK, CLEAN" 95 objects\props\human\pioneer\furniture\kitchen_sink\kitchen_sink.scenery
 AddForgeItem "KITCHEN STOVE" 95 objects\props\human\pioneer\furniture\kitchen_stove\stove\stove.scenery
 AddForgeItem "KITCHEN OVEN, INSET" 95 objects\props\human\pioneer\kitchenware\oven\oven.scenery
+
+AddForgeItem "BED" 95 objects\props\human\pioneer\furniture\bedroom_bed\bedroom_bed.scenery
 
 AddForgeItem "VENDING MACHINE" 95 objects\props\human\urban\vending_machine\vending_machine.crate
 
@@ -1943,6 +1947,7 @@ SaveTagChanges
 Exit
 
 # RADIO SET [98] -------------------------------------------------------------------------------------------------------------
+AddForgeItem "RADIO SET, UNSC (MORSE CODE)" 98 objects\cex\cex_ff_halo\crates\halo_ff_radio\halo_ff_radio\halo_ff_radio.crate
 AddForgeItem "RADIO SET (CHARLIE ALPHA-ALPHA)" 98 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_dlc1.crate
 AddForgeItem "RADIO SET (CHARLIE X-RAY)" 98 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_f20.crate
 AddForgeItem "RADIO SET (CHATTER BOX)" 98 objects\gear\human\military\hu_mil_radio_big\hu_mil_radio_big_sound_m70.crate
@@ -1966,11 +1971,17 @@ AddForgeItem "HEALTH PACK CABINET" 99 objects\cex\shared\cex_health_cabinet\cex_
 AddForgeItem "HEALTH PACK CABINET [SCALEABLE]" 99 objects\props\human\unsc\health_cabinet\health_cabinet.scenery
 AddForgeItem "TELEPORTER SHELL, HUMAN" 99 objects\ca_dev\ca_scenery\teleporter_shell\teleporter_shell.scenery
 
-AddForgeItem "SABRE" 99 objects\props\human\unsc\sabre_mp\sabre_mp.scenery
+AddForgeItem "SABRE, DISPLAY" 99 objects\props\human\unsc\sabre_mp\sabre_mp.scenery
 AddForgeItem "HALCYON, CRUISER" 99 objects\vehicles\human\unsc_fleet\unsc_halcyon_class_cruiser_poa\unsc_halcyon_class_cruiser_poa.scenery
 AddForgeItem "FRIGATE" 99 levels\multi\dlc\objects\dlc_frigate\dlc_frigate.scenery
 AddForgeItem "FRIGATE, NO MACHINE TURRET" 99 objects\levels\ca_dev\dlc_condemned\frigate_battle\frigate_battle.scenery
-AddForgeItem "CORVETTE, GREEN" 99 objects\levels\ca_dev\dlc_condemned\corvette_battle\corvette_battle.scenery
+AddForgeItem "CORVETTE" 99 objects\levels\ca_dev\dlc_condemned\corvette_battle\corvette_battle.scenery
+AddForgeItem "SPACE DEBRIS, FLYBY" 99 objects\levels\solo\m45\space_debris_a\space_debris_a.scenery
+AddForgeItem "SPACE BEACON SATELLITE" 99 objects\levels\solo\m45\space_beacon\space_beacon.scenery
+AddForgeItem "DOCKING BAY, LEFT" 99 objects\levels\solo\m45\m45_docking_bay_left\m45_docking_bay_left.scenery
+AddForgeItem "DOCKING BAY, RIGHT" 99 objects\levels\solo\m45\m45_docking_bay_right\m45_docking_bay_right.scenery
+AddForgeItem "FRIGATE PANEL DEBRIS" 99 objects\levels\solo\m45\panel_debris\panel_debris.crate
+AddForgeItem "HALO RING" 99 objects\cinematics\halo\halo.scenery
 
 AddForgeItem "CLUB DISCO BALL" 99 objects\levels\solo\m52\m52_club_hologram\m52_club_hologram.scenery
 AddForgeItem "CLUB STAGE LIGHT" 99 objects\levels\shared\lights\y_m52_club_stage_a\y_m52_club_stage_a.scenery
@@ -2088,25 +2099,13 @@ AddForgeItem "BOOK 4" 99 objects\props\human\pioneer\housewares\various_books\va
 AddForgeItem "UNSC NODE, RED" 99 objects\props\human\unsc\unsc_node_red\unsc_node_red.scenery
 AddForgeItem "UNSC NODE, BLUE" 99 objects\props\human\unsc\unsc_node_blue\unsc_node_blue.scenery
 
-AddForgeItem "WEAPON BOX [SP]" 99 objects\gear\human\military\weapon_box\weapon_box.scenery
-AddForgeItem "WEAPON BOX [MP]" 99 objects\gear\human\military\weapon_box_mp\weapon_box_mp.scenery
-
-AddForgeItem "SPACE DEBRIS" 99 objects\levels\solo\m45\space_debris_a\space_debris_a.scenery
-AddForgeItem "SLIPSPACE DRIVE" 99 objects\props\human\unsc\slipspace_drive\slipspace_drive.scenery
-AddForgeItem "SPACE SATELLITE" 99 objects\levels\solo\m45\space_beacon\space_beacon.scenery
-
 DuplicateTag objects\gear\human\military\weapon_rack\weapon_rack.scenery
 NameTag * objects\gear\human\military\weapon_rack\weapon_rack_mp
 AddForgeItem "WEAPON RACK" 99 objects\gear\human\military\weapon_rack\weapon_rack_mp.scenery
 
+AddForgeItem "WEAPON BOX [SP]" 99 objects\gear\human\military\weapon_box\weapon_box.scenery
+AddForgeItem "WEAPON BOX [MP]" 99 objects\gear\human\military\weapon_box_mp\weapon_box_mp.scenery
 
-AddForgeItem "HOLO GLOBE" 99 objects\levels\solo\m45\m45_corvette_holo_globe\m45_corvette_holo_globe.scenery
-AddForgeItem "CORVETTE HOLOGRAM" 99 objects\props\covenant\corvette_hologram\corvette.scenery
-AddForgeItem "DOCKING BAY LEFT" 99 objects\levels\solo\m45\m45_docking_bay_left\m45_docking_bay_left.scenery
-AddForgeItem "DOCKING BAY RIGHT" 99 objects\levels\solo\m45\m45_docking_bay_right\m45_docking_bay_right.scenery
-AddForgeItem "PANEL DEBRIS" 99 objects\levels\solo\m45\panel_debris\panel_debris.crate
-AddForgeItem "BED BED BED BED BED" 99 objects\props\human\pioneer\furniture\bedroom_bed\bedroom_bed.scenery
-AddForgeItem "HALO RING" 99 objects\cinematics\halo\halo.scenery
 ##AddForgeItem "POA GANTRY" 99 objects\levels\solo\m70\poa_gantry\poa_gantry.scenery
 ##AddForgeItem "LARGE MILL" 99 objects\levels\solo\m70\large_mill_a\large_mill_a.scenery
 ##AddForgeItem "SORVADS CORPSE" 99 objects\levels\solo\m10\sorvad_corpse\sorvad_corpse.scenery
