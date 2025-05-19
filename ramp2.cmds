@@ -454,6 +454,20 @@ Exit
 # echo ==Fixed all Armor names and descriptions in Customization==
 RunCommands "workingdir\cmds\CustomizationStrings.cmds"
 
+# echo ==Fix Shiny elite skin and teeth
+
+edittag objects\characters\elite\shaders\elite_base\head.shader
+setargument rim_coefficient 0
+setargument transparence_coefficient 0
+savetagchanges
+exit
+
+objects\characters\elite\shaders\elite_base\teeth.shader
+setargument rim_coefficient 0
+setargument transparence_coefficient 0
+savetagchanges
+exit
+
 # echo ==Porting...==
 EditTag objects\gear\human\military\crate_packing_giant\crate_packing_giant.render_model
 SaveTagChanges
