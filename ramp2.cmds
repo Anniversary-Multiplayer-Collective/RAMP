@@ -468,6 +468,18 @@ setargument transparence_coefficient 0
 savetagchanges
 exit
 
+edittag objects\characters\elite\bitmaps\elite_helmet\elite_arby_cc.bitmap
+importbitmap 0 workingdir\bitmaps\arby_cc\elite_arby_cc.dds
+exit
+
+edittag objects\characters\elite\bitmaps\elite_helmet\elite_arby_arms_cc.bitmap
+importbitmap 0 workingdir\bitmaps\arby_cc\elite_arby_arms_cc.dds
+exit
+
+edittag objects\characters\elite\bitmaps\elite_helmet\elite_arby_thighs_cc.bitmap
+importbitmap 0 workingdir\bitmaps\arby_cc\elite_arby_thighs_cc.dds
+exit
+
 # echo ==Porting...==
 EditTag objects\gear\human\military\crate_packing_giant\crate_packing_giant.render_model
 SaveTagChanges
