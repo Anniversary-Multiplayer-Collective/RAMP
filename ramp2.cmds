@@ -462,7 +462,7 @@ setargument transparence_coefficient 0
 savetagchanges
 exit
 
-objects\characters\elite\shaders\elite_base\teeth.shader
+edittag objects\characters\elite\shaders\elite_base\teeth.shader
 setargument rim_coefficient 0
 setargument transparence_coefficient 0
 savetagchanges
