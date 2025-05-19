@@ -608,11 +608,6 @@ Exit
 OpenCacheFile "reachmaps\cex_damnation.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag !Scripts !UpdateMapFiles *.scnr
-PortTag Replace levels\dlc\cex_damnation\shaders\ca_damn_barrel.shader
-PortTag Replace objects\characters\grunt\shaders\grunt_armor.shader
-PortTag Replace objects\characters\grunt\shaders\grunt_armor_metal.shader
-PortTag Replace objects\characters\grunt\shaders\grunt_eyes.shader
-PortTag Replace objects\characters\grunt\shaders\grunt_skin.shader
 Exit
 
 OpenCacheFile "reachmaps\cex_hangemhigh.map"

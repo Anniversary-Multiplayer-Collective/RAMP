@@ -631,7 +631,7 @@ AddForgeItem "MEDICAL BARREL" 89 objects\gear\human\medical\barrel\barrel.crate
 AddForgeItem "WATER BARREL, PALLETTE" 89 objects\props\human\pioneer\water\water_barrel_pallette\water_barrel_pallette.crate
 AddForgeItem "WATER BARREL, SINGLE" 89 objects\props\human\pioneer\water\water_barrel\water_barrel.crate
 AddForgeItem "WOOD BARREL" 89 objects\props\human\pioneer\farm\wood_barrel\wood_barrel.crate
-AddForgeItem "WOOD BARREL, GRUNT" 89 levels\dlc\cex_damnation\scenery\cex_damnation_grunt_crate\cex_damnation_grunt_crate.crate
+AddForgeItem "WOOD BARREL, SMALL" 89 levels\dlc\cex_damnation\scenery\cex_damnation_grunt_crate\cex_damnation_grunt_crate.crate
 
 AddForgeItem "PLASTIC CONTAINER, SMALL" 89 objects\props\human\pioneer\kitchenware\storage_containers\domestic_storage_medium\domestic_storage_medium.crate
 AddForgeItem "PLASTIC CONTAINER, MEDIUM" 89 objects\props\human\pioneer\kitchenware\storage_containers\domestic_storage_xlarge\domestic_storage_xlarge.crate
