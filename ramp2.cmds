@@ -454,7 +454,7 @@ Exit
 # echo ==Fixed all Armor names and descriptions in Customization==
 RunCommands "workingdir\cmds\CustomizationStrings.cmds"
 
-# echo ==Fix Shiny elite skin and teeth
+# echo ==Fix Shiny elite skin and teeth, arby cc, and Ranger visor
 
 edittag objects\characters\elite\shaders\elite_base\head.shader
 setargument rim_coefficient 0
@@ -478,6 +478,12 @@ exit
 
 edittag objects\characters\elite\bitmaps\elite_helmet\elite_arby_thighs_cc.bitmap
 importbitmap 0 workingdir\bitmaps\arby_cc\elite_arby_thighs_cc.dds
+exit
+
+edittag objects\characters\elite\shaders\elite_helmet\elite_space_helmet_visor.shader
+setargument specular_tint 0.09 0.04 0.9 1
+setargument albedo_color 0.2 0.2 0.9 1
+savetagchanges
 exit
 
 # echo ==Porting...==
