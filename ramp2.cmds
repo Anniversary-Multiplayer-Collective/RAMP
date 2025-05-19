@@ -2533,7 +2533,7 @@ setfield AbsoluteDamageAccelerationBounds 7.5 15
 savetagchanges
 exit
 
-echo == Fix Relfection coll projectile issue ==
+echo == Fix Reflection coll projectile issue ==
 
 EditTag levels\multi\52_ivory_tower\52_ivory_tower_030.scenario_structure_bsp
 setfield InstancedGeometryInstances[1128].DefinitionIndex 163
@@ -2545,6 +2545,13 @@ echo == Fix Condemned coll issue ==
 
 edittag levels\dlc\condemned\condemned.scenario_structure_bsp
 setfield InstancedGeometryInstances[983].Flags RenderOnly,MiscoloredBsp
+savetagchanges
+exit
+
+echo == Fix Countdown sliding issue ==
+edittag levels\multi\45_launch_station\45_launch_station.scenario_structure_bsp
+setfield InstancedGeometryInstances[1282].Matrix 0.7071068 -0.7071067 8.742276E-08 0.7071067 0.7071068 8.7422784E-08 -1.2363446E-07 -2.842171E-14 -1 -144.45734 2.4000063 6.085458
+setfield InstancedGeometryInstances[1284].Matrix 0.7071068 -0.7071067 8.742276E-08 0.7071067 0.7071068 8.7422784E-08 -1.2363446E-07 -2.842171E-14 -1 -146.27193 4.2146044 6.2802134
 savetagchanges
 exit
 
