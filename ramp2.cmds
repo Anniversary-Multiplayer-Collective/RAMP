@@ -2198,6 +2198,9 @@ Exit
 # echo Add Concept LMG
 RunCommands "workingdir\cmds\lmg.cmds"
 
+echo ==Add Stanchion==
+RunCommands "workingdir\cmds\Stanchion.cmds"
+
 echo ==Duals Weapons Animation==
 RunCommands "workingdir\cmds\duals_sound.cmds"
 RunCommands "workingdir\cmds\elite_duals_animations.cmds"
@@ -2324,9 +2327,6 @@ setfield EmpRadius 4
 setfield EmpEffect objects\vehicles\covenant\banshee\fx\destruction\emp_drain.effect
 savetagchanges
 exit
-
-echo ==Add Stanchion==
-RunCommands "workingdir\cmds\Stanchion.cmds"
 
 echo ==Add Void Canvas Map==
 GenerateCanvas
