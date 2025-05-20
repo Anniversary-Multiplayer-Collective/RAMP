@@ -4,6 +4,7 @@
 
 EditTag dw3\r3ach\objects\weapons\melee\energy_sword\animations\fp_elite\fp_elite.model_animation_graph
 AddAnimation workingdir\animations\elite_fp\sword
+SortModes
 
 SetField Animations[14].Weight 0.6
 SetField Animations[14].AnimationData.NextAnimation 15
@@ -41,7 +42,44 @@ SetField Animations[16].AnimationData.FrameEvents[2].TypeED AllowInterruption
 SetField Animations[17].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
 SetField Animations[17].AnimationData.FrameEvents[2].TypeED AllowInterruption
 
+#Faster Melee Swing Rate
+AddAnimation workingdir\animations\elite_fp\_swordfastmelee\sword
+setfield Animations[7].AnimationData.FrameCount 24
+setfield Animations[7].AnimationData.NextAnimation 26
+
+setfield Animations[26].Weight 1
+setfield Animations[26].AnimationData.ParentAnimation 7
+addblockelements Animations[26].AnimationData.SoundEvents
+addblockelements Animations[26].AnimationData.FrameEvents 3
+setfield Animations[26].AnimationData.FrameEvents[0].Frame 5
+setfield Animations[26].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+setfield Animations[26].AnimationData.FrameEvents[1].Frame 16
+setfield Animations[26].AnimationData.FrameEvents[2].TypeED AllowInterruption
+setfield Animations[26].AnimationData.FrameEvents[2].Frame 21
+setfield Animations[26].AnimationData.SoundEvents[0].Sound 8
+setfield Animations[26].PlaybackFlags DisableWeaponAim1stPerson
+setfield Animations[26].AnimationData.ProductionFlags VerifySoundEvents
+setfield Animations[26].AnimationData.InternalFlags CompressionDisabled
+
+setfield Animations[8].AnimationData.FrameCount 24
+setfield Animations[8].AnimationData.NextAnimation 27
+
+setfield Animations[27].Weight 1
+setfield Animations[27].AnimationData.ParentAnimation 7
+addblockelements Animations[27].AnimationData.SoundEvents
+addblockelements Animations[27].AnimationData.FrameEvents 3
+setfield Animations[27].AnimationData.FrameEvents[0].Frame 5
+setfield Animations[27].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+setfield Animations[27].AnimationData.FrameEvents[1].Frame 16
+setfield Animations[27].AnimationData.FrameEvents[2].TypeED AllowInterruption
+setfield Animations[27].AnimationData.FrameEvents[2].Frame 21
+setfield Animations[27].AnimationData.SoundEvents[0].Sound 9
+setfield Animations[27].PlaybackFlags DisableWeaponAim1stPerson
+setfield Animations[27].AnimationData.ProductionFlags VerifySoundEvents
+setfield Animations[27].AnimationData.InternalFlags CompressionDisabled
 SortModes
+removeblockelements Modes[0].WeaponClass[0].Weapontype[0].Set.Actions 19 *
+
 SaveTagChanges
 Exit
 
