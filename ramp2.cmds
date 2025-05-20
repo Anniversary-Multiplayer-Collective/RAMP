@@ -2585,6 +2585,11 @@ RunCommands "workingdir\cmds\Moa.cmds"
 echo == FF Map Variants ==
 RunCommands "workingdir\cmds\FFMapVariants.cmds"
 
+echo == Fix Edge edging Eldorito into a coma==
+OpenModPackage workingdir\paks\FixStupidEdgeCrash.pak
+ApplyModPackage
+ExitModPackage
+
 AddModFiles workingdir\assets
 SaveModPackage "modsfolder\RAMP_2.pak"
 
