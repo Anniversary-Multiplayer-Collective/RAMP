@@ -884,6 +884,7 @@ SetField HudWidgets[3].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
 SetField HudWidgets[3].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
 SetField HudWidgets[3].TextWidgets[1].StateData[0].HiddenState Zoomed
 SetField HudWidgets[2].ParallaxData ui\chud\parallax\vehicles.chud_widget_parallax_data
+SetField HudWidgets[2].BitmapWidgets[1].RenderData[0].ScissorRect 295 450 423 780
 SaveTagChanges
 Exit
 
