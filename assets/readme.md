@@ -1,13 +1,13 @@
-# Reach Anniversary Multiplayer 2
+# Reach Anniversary Multiplayer
 Reach Anniversary Multiplayer (RAMP) is a re-imagining of Halo: Reach's multiplayer with new content.
 
-Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even better. Featuring extensive bug fixes, quality of life improvements, and plenty of new content to play with. We hope you enjoy this labor of love, we'll see you starside.
+Welcome to RAMP, a community effort to make transform Eldewrito into Halo Reach while keeping ED main features and adding new ones. Featuring extensive bug fixes, quality of life improvements, and plenty of new content to play with. We hope you enjoy this labor of love, we'll see you starside.
 
-## Contributors & Credits
+## Contributors & Credits:
 * Zekken (Team Lead)
+* Dank (Core Contributor & Original RAMP Creator)
 * MtnDewIt (Tagtool Maintainer & Bug Fixer)
 * Minelelol (Core Contributor & Animator)
-* Dank (Core Contributor & Original RAMP Creator)
 * TwistedFlog (Core Contributor, Modeler, Animator & Tagtool Maintainer)
 * Newbie (Engine Knowledge)
 * Twister (Engine Knowledge)
@@ -28,7 +28,7 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 * Added missing Grenadier chest attachment
 * Added sharper crosshair for most weapons
 * Added cut Reach LMG
-* Added Seraph and Saber vehicles
+* Added Seraph, Saber, Space Banshee, Wombat, Pelican, and Phantom vehicles
 * Added MAC cannon
 * Added Void map for space battles
 * Added Stanchion
@@ -36,6 +36,10 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 * Added Super Carrier forge object
 * Added Halo Ring forge object
 * Added Covenant door and buttons
+* Added Ridable Moa
+* Added Firefight default map variants (Geometry pop in\out still exsits, Will be fixed in ED 0.7.2)
+* Added Better grenades and drop shield effects
+* Added a bunch of misc forge objects
 * Fixed render distance issue with Boulder_Scale model
 * Fixed Magnum crosshair penalites
 * Fixed up Reach vehicle sounds
@@ -47,6 +51,9 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 * Fixed concussion rifle "Out of ammo switch to" string
 * Fixed ammo counter inaccuracies on Battle Rifle power and SMG damage
 * Fixed Plasma Pistol and Plasma Rifle using the wrong weapons icon
+* Fixed hologram shader issue
+* Fix Relfection coll projectile issue
+* Fix Condemned coll projectile issue
 * Increased explosion LOD
 * Renamed some forge objects
 * Removed color change block from compost bag pile 
@@ -124,3 +131,11 @@ Welcome to RAMP 2, a community effort to make one of ElDewrito's best mods even 
 * Improved map shaders
 * So, so, SO many more bug fixes that we can't even remember!
 * Removed Herobrine
+
+Known Issues:
+* Reach maps are known to be a little more performance heavy. (Firefight maps even more so.)
+* Firefight maps have a issue where geometry pops in and out, As noted in the change log, This will be fixed in ED 0.7.2
+* Spire has a mopps issue where if you melee the top of the spire it crashes the game. It will not be included in voting due to this issue.
+
+
+
