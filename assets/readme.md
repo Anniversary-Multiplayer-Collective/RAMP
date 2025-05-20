@@ -136,6 +136,6 @@ Known Issues:
 * Reach maps are known to be a little more performance heavy. (Firefight maps even more so.)
 * Firefight maps have a issue where geometry pops in and out, As noted in the change log, This will be fixed in ED 0.7.2
 * Spire has a mopps issue where if you melee the top of the spire it crashes the game. It will not be included in voting due to this issue.
-
+* Armor abilities are in the pak, But Armor Lock and Drop shield has issues on Dedicated servers
 
 
