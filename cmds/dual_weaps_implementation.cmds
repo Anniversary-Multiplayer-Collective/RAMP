@@ -59,3 +59,10 @@ ForEach weap contains: objects\weapons\rifle\plasma_rifle\plasma_rifle SetField 
 ForEach weap contains: objects\weapons\rifle\spike_rifle SetField WeaponFlags.NewFlags LoopFPFiringAnimation,CanBeDualWielded
 ForEach weap contains: objects\weapons\rifle\smg SetField WeaponFlags.NewFlags CanBeDualWielded
 ForEach weap contains: objects\weapons\rifle\smg_silenced SetField WeaponFlags.NewFlags LoopFPFiringAnimation,CanBeDualWielded
+
+StringId Add needler_dual
+edittag multiplayer\multiplayer_globals.multiplayer_globals
+addblockelements Universal[0].GameVariantWeapons
+setfield Universal[0].GameVariantWeapons[*].Name needler_dual
+setfield Universal[0].GameVariantWeapons[*].RandomChance 0.1
+setfield Universal[0].GameVariantWeapons[*].Weapon objects\weapons\pistol\needler\ramp_needler_purple.weapon

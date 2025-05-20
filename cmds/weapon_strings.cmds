@@ -27,7 +27,7 @@ SetString english amag_dual "\uE461\uE45E to dual wield|n|r\uFB06"
 SetString english amag_dual_swap "\uE461\uE45E to swap for|n|r\uFB06"
 
 SetString english lmg_pickup "\uE461\uE45F to pick up|n|r\uFB08"
-SetString english lmg_picked_up "Picked up a Light Machine Gun"
+SetString english lmg_picked_up "Picked up a LMG"
 SetString english lmg_swap "\uE461\uE45F to swap for|n|r\uFB08"
 SetString english lmg_swap_ai "\uE461\uE45F to take ally's|n|r\uFB08"
 SetString english lmg_switch_to  "Out of ammo|nPress \uE446 to switch to|n|r\uFB08"

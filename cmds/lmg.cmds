@@ -13,7 +13,7 @@ NameTag * dw3\r3ach\objects\weapons\rifle\light_machine_gun\animations\fp_sparta
 SaveTagNames
 
 EditTag ui\weapon_type_names.multilingual_unicode_string_list
-SetString english offset_lmg "Light Machine Gun"
+SetString english offset_lmg "LMG"
 SaveTagChanges
 Exit
 
@@ -178,10 +178,10 @@ SaveTagChanges
 Exit
 
 #echo Add LMG to fiesta
-
+StringId add LMG
 EditTag multiplayer\multiplayer_globals.multiplayer_globals
 AddBlockElements Universal[0].GameVariantWeapons 1
-SetField Universal[0].GameVariantWeapons[*].Name lmg
+SetField Universal[0].GameVariantWeapons[*].Name LMG
 SetField Universal[0].GameVariantWeapons[*].RandomChance 0.1
 SetField Universal[0].GameVariantWeapons[*].Weapon potterhalo\objects\weapons\rifle\light_machine_gun\light_machine_gun.weapon
 SaveTagChanges
