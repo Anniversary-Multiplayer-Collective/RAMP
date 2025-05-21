@@ -536,6 +536,8 @@ Exit
 OpenCacheFile "reachmaps\45_aftship.map"
 SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
 PortTag !Scripts !UpdateMapFiles *.scnr
+PortTag Replace fx\particles\models\mesh_fx\blast_radius\blast_radius.particle
+PortTag Replace fx\particles\models\mesh_fx\shield_sphere_glow.particle
 Exit
 
 OpenCacheFile "reachmaps\45_launch_station.map"
@@ -569,8 +571,6 @@ PortTag Replace objects\gear\human\military\camping_stool_mp\camping_stool_mp.cr
 PortTag Replace objects\weapons\grenade\frag_grenade\frag_grenade.equipment
 PortTag Replace objects\weapons\grenade\plasma_grenade\plasma_grenade.equipment
 PortTag Replace objects\weapons\grenade\frag_grenade\fx\projectile.effect
-PortTag Replace fx\particles\models\mesh_fx\blast_radius\blast_radius.particle
-PortTag Replace fx\particles\models\mesh_fx\shield_sphere_glow.particle
 DoNotReplaceGroups remove bitm,prt3
 PortTag objects\multi\boundaries\safe_volume.scen
 PortTag sound\dialog\combat\elite2\default\14_1st_person\sprint.sound
