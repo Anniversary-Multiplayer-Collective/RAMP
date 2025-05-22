@@ -2590,6 +2590,15 @@ OpenModPackage workingdir\paks\FixStupidEdgeCrash.pak
 ApplyModPackage
 ExitModPackage
 
+echo == Fix Revenant taking less damage from AOE/explosions ==
+edittag objects\vehicles\covenant\revenant\revenant.model
+setfield NewDamageInfo[0].Flags PassesAreaDamageToChildren
+setfield NewDamageInfo[0].DamageSections[0].Flags TakesFullDamageWhenObjectDies,AllowDamageResponseOverflow
+setfield NewDamageInfo[0].DamageSections[0].InstantResponses[0].Flags TriggersSpecialDeath,BucklesGiants
+savetagchanges
+exit
+
+
 AddModFiles workingdir\assets
 SaveModPackage "modsfolder\RAMP_2.pak"
 
