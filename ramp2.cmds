@@ -2631,6 +2631,6 @@ exit
 
 
 AddModFiles workingdir\assets
-SaveModPackage "modsfolder\RAMP_2.pak"
+SaveModPackage "modsfolder\RAMP.pak"
 
 DumpLog workingdir\logs
