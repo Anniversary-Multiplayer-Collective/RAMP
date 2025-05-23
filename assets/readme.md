@@ -1,7 +1,7 @@
 # Reach Anniversary Multiplayer
 Reach Anniversary Multiplayer (RAMP) is a re-imagining of Halo: Reach's multiplayer with new content.
 
-Welcome to RAMP, a community effort to make transform Eldewrito into Halo Reach while keeping ED main features and adding new ones. Featuring extensive bug fixes, quality of life improvements, and plenty of new content to play with. We hope you enjoy this labor of love, we'll see you starside.
+Welcome to RAMP, a community effort to transform Eldewrito into Halo Reach while keeping ED main features and adding new ones. Featuring extensive bug fixes, quality of life improvements, and plenty of new content to play with. We hope you enjoy this labor of love, we'll see you starside.
 
 ## Contributors & Credits:
 * Zekken (Team Lead)
