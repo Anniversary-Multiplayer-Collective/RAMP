@@ -2598,6 +2598,37 @@ setfield NewDamageInfo[0].DamageSections[0].InstantResponses[0].Flags TriggersSp
 savetagchanges
 exit
 
+echo ==Add passenger seat to Seraph and buff==
+
+stringid add seraph_passenger
+savetagnames
+EditTag ui\hud\hud_messages.unic
+SetString english seraph_passenger "\uE461\uE45F to ride in Seraph"
+savetagchanges
+exit
+
+edittag objects\vehicles\seraph_reach\seraph_reach.vehicle
+setfield Seats[0].UnitCamera.PitchRange -90 90
+setfield Seats[1].Flags ThirdPersonCamera,AllowsWeapons,ThirdPersonOnEnter
+setfield Seats[1].Label warthog_p
+setfield Seats[1].MarkerName target_hull_center
+setfield Seats[1].BoardingSeat -1
+setfield Seats[1].EntryMarkerName fx_boost
+setfield Seats[1].UnitCamera.CameraTracks[0].Track camera\wraith_d_camera.camera_track
+setfield Seats[1].EnterSeatString seraph_passenger
+savetagchanges
+exit
+
+edittag objects\vehicles\seraph_h3\weapons\seraph_beam.projectile
+setfield MaximumRange 200
+savetagchanges
+exit
+
+edittag objects\vehicles\seraph_h3\damage_effects\seraph_beam.damage_effect
+setfield Radius 0.75 2
+savetagchanges
+exit
+
 
 AddModFiles workingdir\assets
 SaveModPackage "modsfolder\RAMP_2.pak"

@@ -68,6 +68,8 @@ setfield Seats[1].Flags ThirdPersonCamera,AllowsWeapons,BoardingNeedAnyPassenger
 setfield Seats[1].Label warthog_p
 setfield Seats[1].AiSeatType Passenger
 
+setfield HavokVehiclePhysics.GravityScale 0.01
+
 addblockelements Seats[0].UnitCamera.CameraTracks
 setfield Seats[0].UnitCamera.CameraTracks[0].Track camera\sabre_d_camera.camera_track
 
@@ -1380,6 +1382,14 @@ setfield PhysicsTypes.AlienFighter[0].ZeroGravitySpeed 4
 setfield PhysicsTypes.AlienFighter[0].FullGravitySpeed 3.7
 setfield PhysicsTypes.AlienFighter[0].OffStickDecelerationScale 0.1
 setfield PhysicsTypes.AlienFighter[0].CruisingThrottle 0
+setfield Seats[0].UnitCamera.PitchRange -90 90
+setfield Seats[1].Flags ThirdPersonCamera,AllowsWeapons,ThirdPersonOnEnter
+setfield Seats[1].Label warthog_p
+setfield Seats[1].MarkerName target_hull_center
+setfield Seats[1].BoardingSeat -1
+setfield Seats[1].EntryMarkerName fx_boost
+setfield Seats[1].UnitCamera.CameraTracks[0].Track camera\wraith_d_camera.camera_track
+setfield HavokVehiclePhysics.GravityScale 0.01
 savetagchanges
 exit
 
