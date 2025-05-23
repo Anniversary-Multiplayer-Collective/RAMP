@@ -855,6 +855,12 @@ SetField Animations[0].AnimationData.SoundEvents[3].MarkerName Exit_audio
 SaveTagChanges
 Exit
 
+# Waterfront pumpjack animation fixup
+EditTag objects\levels\solo\m30\pumpjack\pumpjack.model_animation_graph
+setfield Animations[0].AnimationData.AnimationType Overlay
+savetagchanges
+exit
+
 echo ==Remove damage from ported models==
 EditTag objects\gear\human\military\camping_stool_mp\camping_stool_mp.model
 RemoveBlockElements NewDamageInfo 0 1
