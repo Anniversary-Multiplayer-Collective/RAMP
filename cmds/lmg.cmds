@@ -1,5 +1,3 @@
-# Remove setvariable once it's done
-setvariable workingdir F:\github\ramp-2
 OpenCacheFile "workingdir\maps\halo3\010_jungle.map"
 IgnoreBlamTag potterhalo\ui\chud\combat_lmg.chud_definition
 IgnoreBlamTag potterhalo\objects\weapons\rifle\light_machine_gun\fp\fp.render_model
