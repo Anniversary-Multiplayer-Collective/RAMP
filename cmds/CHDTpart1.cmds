@@ -1895,9 +1895,31 @@ SetField HudWidgets[1].BitmapWidgets[1].BitmapSequenceIndex 22
 
 RemoveBlockElements HudWidgets[1].BitmapWidgets 0 1
 RemoveBlockElements HudWidgets[1].BitmapWidgets 3 1
-SetField HudWidgets[1].BitmapWidgets[0].RuntimeWidgetIndex 7
-SetField HudWidgets[1].BitmapWidgets[1].RuntimeWidgetIndex 8
-SetField HudWidgets[1].BitmapWidgets[2].RuntimeWidgetIndex 9
+setfield HudWidgets[1].BitmapWidgets[0].RuntimeWidgetIndex 1
+setfield HudWidgets[1].BitmapWidgets[1].RuntimeWidgetIndex 2
+setfield HudWidgets[1].BitmapWidgets[2].RuntimeWidgetIndex 3
+setfield HudWidgets[1].TextWidgets[0].WidgetIndex 4
+setfield HudWidgets[2].BitmapWidgets[0].RuntimeWidgetIndex 5
+setfield HudWidgets[2].BitmapWidgets[1].RuntimeWidgetIndex 6
+setfield HudWidgets[2].TextWidgets[0].WidgetIndex 7
+setfield HudWidgets[2].TextWidgets[1].WidgetIndex 8
+setfield HudWidgets[3].BitmapWidgets[0].RuntimeWidgetIndex 9
+setfield HudWidgets[3].BitmapWidgets[1].RuntimeWidgetIndex 10
+setfield HudWidgets[3].BitmapWidgets[2].RuntimeWidgetIndex 12
+setfield HudWidgets[3].BitmapWidgets[3].RuntimeWidgetIndex 13
+setfield HudWidgets[3].BitmapWidgets[4].RuntimeWidgetIndex 14
+setfield HudWidgets[3].BitmapWidgets[5].RuntimeWidgetIndex 15
+
+SetField HudWidgets[3].BitmapWidgets[0].StateData[0].WeaponCrosshairState None
+SetField HudWidgets[3].BitmapWidgets[1].StateData[0].WeaponCrosshairState None
+SetField HudWidgets[3].BitmapWidgets[1].StateData[0].WeaponMiscState LockedOnAvailable
+SetField HudWidgets[3].BitmapWidgets[2].StateData[0].WeaponCrosshairState None
+SetField HudWidgets[3].BitmapWidgets[2].StateData[0].WeaponMiscState LockedOnAvailable
+SetField HudWidgets[3].BitmapWidgets[3].StateData[0].WeaponCrosshairState None
+SetField HudWidgets[3].BitmapWidgets[3].StateData[0].WeaponMiscState LockedOnAvailable
+SetField HudWidgets[3].BitmapWidgets[4].StateData[0].WeaponArmedStateHO Hidden
+SetField HudWidgets[3].BitmapWidgets[5].StateData[0].WeaponCrosshairState None
+SetField HudWidgets[3].BitmapWidgets[5].StateData[0].WeaponMiscState LockedOnUnavailable
 
 SaveTagChanges
 Exit
