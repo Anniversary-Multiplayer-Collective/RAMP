@@ -596,3 +596,109 @@ setargument diffuse_coefficient 0.5
 savetagchanges
 exit
 
+
+echo BoardWalk
+
+edittag levels\solo\m50\shaders\paneling\wall_panel_h_grimey.shader
+setargument specular_coefficient 0
+savetagchanges
+exit
+
+edittag levels\solo\m50\shaders\paneling\wall_panel_c.shader
+setargument specular_coefficient 0
+savetagchanges
+exit
+
+edittag levels\solo\m50\shaders\paneling\wall_trims_a_grimey.shader
+setargument specular_coefficient 0
+savetagchanges
+exit
+
+edittag levels\solo\m50\shaders\paneling\wall_panel_b.shader
+setargument specular_coefficient 0
+savetagchanges
+exit
+
+edittag levels\solo\m50\shaders\paneling\wall_panel_h.shader
+setargument specular_coefficient 0
+savetagchanges
+exit
+
+edittag levels\solo\m50\shaders\paneling\wall_panel_h_dark.shader
+setargument specular_coefficient 0
+savetagchanges
+exit
+
+edittag levels\solo\m50\shaders\paneling\wall_panel_h_grimey_test.shader
+setargument specular_coefficient 0
+savetagchanges
+exit
+
+edittag levels\solo\m50\shaders\paneling\wall_panel_d.shader
+setargument specular_coefficient 0
+savetagchanges
+exit
+
+edittag levels\solo\m50\shaders\paneling\wall_panel_f.shader
+setargument specular_coefficient 0
+savetagchanges
+exit
+
+edittag levels\solo\m50\shaders\paneling\wall_trims_a.shader
+setargument specular_coefficient 0
+savetagchanges
+exit
+
+edittag levels\solo\m50\shaders\paneling\wall_flat_grimey.shader
+setargument specular_coefficient 0
+savetagchanges
+exit
+
+echo BeachHead
+
+edittag levels\solo\m50\shaders\paneling\wall_panel_g.shader
+setargument specular_coefficient 0
+savetagchanges
+exit
+
+edittag levels\solo\m50\shaders\paneling\wall_panel_g.shader
+setargument specular_coefficient 0
+savetagchanges
+exit
+
+echo condemned
+
+edittag levels\dlc\condemned\shaders\ca_condemned_metal_roof_metal_trim.shader
+setargument specular_coefficient 0
+savetagchanges
+exit
+
+edittag levels\solo\m50\shaders\paneling\wall_panel_t_dark.shader
+setargument specular_coefficient 0
+savetagchanges
+exit
+
+edittag levels\dlc\condemned\shaders\ca_condemned_metal_trim_a.shader
+setargument specular_coefficient 0.05
+savetagchanges
+exit
+
+edittag levels\dlc\condemned\shaders\ca_condemned_wall_panel_t_dark.shader
+setargument specular_coefficient 0
+savetagchanges
+exit
+
+edittag levels\shared\shaders\oni\metal_oni_int_trim_a.shader
+setargument specular_coefficient 0
+savetagchanges
+exit
+
+edittag levels\solo\m50\shaders\metal_mc_roof_metal_floor_trim.shader
+setargument specular_coefficient 0
+savetagchanges
+exit
+
+edittag levels\solo\m50\shaders\metal_mc_roof_metal_floor_trim.shader
+setargument specular_coefficient 0
+savetagchanges
+exit
