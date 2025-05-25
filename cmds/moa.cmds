@@ -46,7 +46,7 @@ setfield MultiplayerObject[0].DefaultSpawnTime 30
 setfield MultiplayerObject[0].DefaultAbandonTime 9999
 setfield BipedFlags TurnsWithoutAnimating
 setfield MovingTurningSpeed 1000
-setfield UnitFlags MeleeAttackersCannotAttach,NotInstantlyKilledByMelee,ShieldSapping
+setfield UnitFlags.Flags MeleeAttackersCannotAttach,NotInstantlyKilledByMelee,FlashlightPowerDoesntTransferToWeapon
 savetagchanges
 exit
 

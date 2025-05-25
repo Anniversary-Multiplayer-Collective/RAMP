@@ -109,17 +109,17 @@ Exit
 
 # echo ==Shader fixes for Boardwalk, Beachhead, Reflection City SkyBox==
 EditTag levels\solo\m50\shaders\paneling\metal_bldg_white_a.shader
-SetArgument specular_coefficient 0.2
+SetArgument specular_coefficient 0
 SaveTagChanges
 Exit
 
 EditTag levels\solo\m50\shaders\paneling\metal_bldg_white_b.shader
-SetArgument specular_coefficient 0.2
+SetArgument specular_coefficient 0
 SaveTagChanges
 Exit
 
 EditTag levels\solo\m50\shaders\paneling\metal_bldg_white_e.shader
-SetArgument specular_coefficient 0.2
+SetArgument specular_coefficient 0
 SaveTagChanges
 Exit
 
@@ -646,6 +646,7 @@ exit
 
 edittag levels\solo\m50\shaders\paneling\wall_trims_a.shader
 setargument specular_coefficient 0
+SetArgument diffuse_coefficient 1
 savetagchanges
 exit
 

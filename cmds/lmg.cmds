@@ -286,7 +286,7 @@ Exit
 # |             DAMAGE EFFECT             |
 # -----------------------------------------
 EditTag potterhalo\objects\weapons\rifle\combat_lmg\damage_effects\lmg_bullet.damage_effect
-SetField DamageUpperBound 6 6
+SetField DamageUpperBound 7 7
 SaveTagChanges
 Exit
 
