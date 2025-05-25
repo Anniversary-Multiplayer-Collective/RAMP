@@ -407,11 +407,27 @@ AddBlockElements TargetTracking[0].TrackingTypes 3
 SetField TargetTracking[0].TrackingTypes[0].TrackingType2 bipeds
 SetField TargetTracking[0].TrackingTypes[1].TrackingType2 flying_vehicles
 SetField TargetTracking[0].TrackingTypes[2].TrackingType2 ground_vehicles
-SetField TargetTracking[0].AcquireTime 0.5
-SetField TargetTracking[0].GraceTime 0.5
-SetField TargetTracking[0].DecayTime 0.5
+SetField TargetTracking[0].AcquireTime 0.35
+SetField TargetTracking[0].GraceTime 0.6
+SetField TargetTracking[0].DecayTime 0.6
 SaveTagChanges
 Exit
+
+EditTag objects\weapons\support_high\rocket_launcher\rocket_launcher.weapon
+removeblockelements TargetTracking[0].TrackingTypes 0 1
+setfield TargetTracking[0].TrackingTypes[0].TrackingType2 flying_vehicles
+setfield TargetTracking[0].AcquireTime 1.25
+setfield TargetTracking[0].GraceTime 0.25
+setfield TargetTracking[0].DecayTime 0.25
+SetField WeaponAimAssist.MagnetismNearFalloffRange 1
+savetagchanges
+exit
+
+EditTag objects\characters\masterchief\mp_masterchief\mp_masterchief.model
+SetField Targets[0].LockOnData.LockOnDistance 20
+SetField Targets[1].LockOnData.LockOnDistance 20
+savetagchanges
+exit
 
 # Fix not able to melee while crouching if you're holding the Target Locator
 EditTag objects\weapons\pistol\target_laser\target_laser.weapon
