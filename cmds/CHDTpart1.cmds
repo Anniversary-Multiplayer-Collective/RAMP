@@ -1872,6 +1872,23 @@ SaveTagChanges
 Exit
 
 # ----------------------------------------------------------------
+# I                        SO WE SAY WE WANT CHANGE BUT WE WERE EXACTLY THE SAME                         I
+# ----------------------------------------------------------------
+Edittag ui\chud\unarmed_flag.chud_definition
+SetField HudWidgets[2].PlacementData[0].Offset 0 60
+SetField HudWidgets[2].PlacementData[0].Scale 1.8 1.8
+SetField HudWidgets[2].ParallaxData null
+savetagchanges
+exit
+
+Edittag ui\chud\unarmed_bomb.chud_definition
+SetField HudWidgets[2].PlacementData[0].Offset 0 60
+SetField HudWidgets[2].PlacementData[0].Scale 1.8 1.8
+SetField HudWidgets[2].ParallaxData null
+savetagchanges
+exit
+
+# ----------------------------------------------------------------
 # I                         MISSILE POD                          I
 # ----------------------------------------------------------------
 EditTag ui\chud\plasma_turret.chud_definition

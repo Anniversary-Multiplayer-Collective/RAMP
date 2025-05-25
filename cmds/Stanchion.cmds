@@ -1,36 +1,128 @@
-
 opencachefile "workingdir\maps\HugeGrass\maps\hugeass_remastered_mcc.map"
+ignoreblamtag objects\weapons\support_high\stanchion\stanchion.chud_definition
+ignoreblamtag objects\weapons\support_high\stanchion\fp_stanchion\fp_stanchion.model_animation_graph
+ignoreblamtag objects\weapons\support_high\stanchion\fp_stanchion\fp_stanchion_elite.model_animation_graph
 porttag objects\weapons\support_high\stanchion\stanchion.weapon
+porttag objects\weapons\support_high\stanchion\bitmaps\chud\hud_reticle_stanchion.bitmap
+porttag objects\weapons\support_high\stanchion\bitmaps\chud\weapon_icon.bitmap
 exit
 
-EditTag objects\weapons\support_high\stanchion\fp_stanchion\fp_stanchion.model_animation_graph
-setinheritance any:any:any:sprint_enter objects\characters\masterchief\fp\weapons\rifle\fp_sniper_rifle\fp_sniper_rifle.model_animation_graph
-setinheritance any:any:any:sprint_loop objects\characters\masterchief\fp\weapons\rifle\fp_sniper_rifle\fp_sniper_rifle.model_animation_graph
-setinheritance any:any:any:sprint_loop_airborne objects\characters\masterchief\fp\weapons\rifle\fp_sniper_rifle\fp_sniper_rifle.model_animation_graph
+# ------------------------------------
+# I             ANIMATION            I
+# ------------------------------------
+DuplicateTag dw3\r3ach\objects\weapons\rifle\sniper_rifle\animations\fp_spartan\fp_spartan.model_animation_graph dw3\r3ach\objects\weapons\rifle\stanchion\animations\fp_spartan\fp_spartan
+edittag dw3\r3ach\objects\weapons\rifle\stanchion\animations\fp_spartan\fp_spartan.model_animation_graph
+addanimation keep workingdir\animations\spartan_fp\stanchion
 savetagchanges
 exit
 
-edittag objects\weapons\support_high\stanchion\stanchion.weapon
-setfield CenteredFirstPersonWeaponOffset -0.035 0 -0.01
+edittag dw3\r3ach\objects\weapons\rifle\stanchion\animations\fp_spartan\fp_spartan.model_animation_graph
+SetField Modes[0].WeaponClass[0].WeaponType[0].Set.Actions[0].Label fire_2
+SetField Modes[0].WeaponClass[0].WeaponType[0].Set.Actions[0].Animation 0
+
+SetField Animations[0].AnimationData.NextAnimation 1
+SetField Animations[1].AnimationData.ParentAnimation 0
+SetField Animations[1].AnimationData.NextAnimation 2
+SetField Animations[2].AnimationData.ParentAnimation 0
+
+SetField Modes[0].WeaponClass[0].WeaponType[0].Set.Actions[6].Animation 8
+SetField Animations[8].AnimationData.NextAnimation 9
+SetField Animations[9].AnimationData.ParentAnimation 8
+
+SetField Animations[11].AnimationData.NextAnimation 12
+SetField Animations[12].AnimationData.ParentAnimation 11
+sortmodes
 savetagchanges
 exit
 
+DuplicateTag dw3\r3ach\objects\weapons\rifle\sniper_rifle\animations\fp_elite\fp_elite.model_animation_graph dw3\r3ach\objects\weapons\rifle\stanchion\animations\fp_elite\fp_elite
+edittag dw3\r3ach\objects\weapons\rifle\stanchion\animations\fp_elite\fp_elite.model_animation_graph
+addanimation keep workingdir\animations\elite_fp\stanchion
+savetagchanges
+exit
+
+edittag dw3\r3ach\objects\weapons\rifle\stanchion\animations\fp_elite\fp_elite.model_animation_graph
+SetField Modes[0].WeaponClass[0].WeaponType[0].Set.Actions[0].Label fire_2
+SetField Modes[0].WeaponClass[0].WeaponType[0].Set.Actions[0].Animation 0
+
+SetField Animations[0].AnimationData.NextAnimation 1
+SetField Animations[1].AnimationData.ParentAnimation 0
+SetField Animations[1].AnimationData.NextAnimation 2
+SetField Animations[2].AnimationData.ParentAnimation 0
+
+SetField Modes[0].WeaponClass[0].WeaponType[0].Set.Actions[6].Animation 9
+SetField Animations[9].AnimationData.NextAnimation 10
+SetField Animations[10].AnimationData.ParentAnimation 9
+
+SetField Animations[12].AnimationData.NextAnimation 13
+SetField Animations[13].AnimationData.ParentAnimation 12
+sortmodes
+savetagchanges
+exit
+
+# ------------------------------------
+# I               HUD                I
+# ------------------------------------
+duplicatetag ui\chud\sniper_rifle.chud_definition objects\weapons\support_high\stanchion\stanchion
 EditTag objects\weapons\support_high\stanchion\stanchion.chud_definition
-setfield HudWidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\ballistic_meters_hr.bitmap
-setfield HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 11
-setfield HudWidgets[5].BitmapWidgets[0].PlacementData[0].Offset -50 93
-setfield HudWidgets[5].BitmapWidgets[0].PlacementData[0].Scale 1 1
-setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -45 30
-setfield HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 0.13 0.13
-setfield HudWidgets[5].BitmapWidgets[2].PlacementData[0].Offset 55555 7
-setfield HudWidgets[5].TextWidgets[0].PlacementData[0].Offset -70 50
-setfield HudWidgets[5].TextWidgets[1].PlacementData[0].Offset -70 50
-setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -25 0
-setfield HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.08 0.08
-setfield HudWidgets[5].TextWidgets[0].RenderData[0].ShaderType Medal
+SetField HudWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 0.885 0.885
+SetField HudWidgets[2].BitmapWidgets[0].Bitmap objects\weapons\support_high\stanchion\bitmaps\chud\hud_reticle_stanchion.bitmap
+SetField HudWidgets[2].BitmapWidgets[0].BitmapSequenceIndex 0
+
+SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -32 -4
+SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.072 0.072
+SetField HudWidgets[4].BitmapWidgets[0].Bitmap objects\weapons\support_high\stanchion\bitmaps\chud\weapon_icon.bitmap
+SetField HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 0
+
+SetField HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -43 32
+SetField HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 0.144 0.144
+SetField HudWidgets[5].BitmapWidgets[1].Bitmap objects\weapons\support_high\stanchion\bitmaps\chud\weapon_icon.bitmap
+SetField HudWidgets[5].BitmapWidgets[1].BitmapSequenceIndex 0
+
+SetField HudWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 0.915 0.915
+SetField HudWidgets[6].BitmapWidgets[0].Bitmap objects\weapons\support_high\stanchion\bitmaps\chud\hud_reticle_stanchion.bitmap
+SetField HudWidgets[6].BitmapWidgets[0].BitmapSequenceIndex 0
 savetagchanges
 exit
 
+# ------------------------------------
+# I              WEAPON              I
+# ------------------------------------
+StringId Add offset_stanchion
+edittag objects\weapons\support_high\stanchion\stanchion.weapon
+setfield CenteredFirstPersonWeaponOffset 0.015 0 -0.030
+SetField WeaponTypeName offset_stanchion
+SetField HudInterface objects\weapons\support_high\stanchion\stanchion.chud_definition
+SetField FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\stanchion\animations\fp_spartan\fp_spartan.model_animation_graph
+SetField FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\stanchion\animations\fp_elite\fp_elite.model_animation_graph
+savetagchanges
+exit
+
+# ------------------------------------
+# I           RENDER MODEL           I
+# ------------------------------------
+edittag objects\weapons\support_high\stanchion\fp_stanchion\fp_stanchion.render_model
+AddBlockElements MarkerGroups
+AddBlockElements MarkerGroups[*].Markers
+SetField MarkerGroups[*].Name mineleloldabest_left_hand_spartan_fp
+SetField MarkerGroups[*].Markers[*].RegionIndex -1
+SetField MarkerGroups[*].Markers[*].PermutationIndex -1
+SetField MarkerGroups[*].Markers[*].Translation 0.0719 -0.0031 -0.0397
+SetField MarkerGroups[*].Markers[*].Rotation -0.6945 0.1509 -0.337 0.6174
+
+AddBlockElements MarkerGroups
+AddBlockElements MarkerGroups[*].Markers
+SetField MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
+SetField MarkerGroups[*].Markers[*].RegionIndex -1
+SetField MarkerGroups[*].Markers[*].PermutationIndex -1
+SetField MarkerGroups[*].Markers[*].Translation 0.0714 -0.0022 -0.0444
+SetField MarkerGroups[*].Markers[*].Rotation -0.438 0.135 -0.337 0.4
+SaveTagChanges
+Exit
+
+# ------------------------------------
+# I              SHADER              I
+# ------------------------------------
 EditTag objects\weapons\support_high\stanchion\shaders\stanchion_illum.shader_halogram
 SetArgument self_illum_map 0.6 0.6 0.2 0.2
 SaveTagChanges

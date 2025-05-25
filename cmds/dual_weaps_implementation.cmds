@@ -66,3 +66,5 @@ addblockelements Universal[0].GameVariantWeapons
 setfield Universal[0].GameVariantWeapons[*].Name needler_dual
 setfield Universal[0].GameVariantWeapons[*].RandomChance 0.1
 setfield Universal[0].GameVariantWeapons[*].Weapon objects\weapons\pistol\needler\ramp_needler_purple.weapon
+savetagchanges
+exit

@@ -356,7 +356,7 @@ SortModes
 
 SetField Animations[4].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 SetField Animations[5].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
-SetField Animations[14].PlaybackFlags DisableWeaponAim1stPerson
+SetField Animations[14].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 SetField Animations[15].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 
 SetField Animations[12].Weight 0.6
@@ -567,8 +567,13 @@ SetField Animations[14].AnimationData.FrameEvents[1].TypeED AllowInterruption
 
 SetField Animations[15].AnimationData.FrameEvents[1].TypeED AllowInterruption
 
+SetField Animations[16].PlaybackFlags DisableWeaponAim1stPerson
+AddBlockElements Animations[16].AnimationData.FrameEvents 3
+SetField Animations[16].AnimationData.FrameEvents[0].Frame 8
 SetField Animations[16].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[16].AnimationData.FrameEvents[1].Frame 35
 SetField Animations[16].AnimationData.FrameEvents[2].TypeED AllowInterruption
+SetField Animations[16].AnimationData.FrameEvents[2].Frame 38
 
 SetField Animations[17].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
 SetField Animations[17].AnimationData.FrameEvents[2].TypeED AllowInterruption

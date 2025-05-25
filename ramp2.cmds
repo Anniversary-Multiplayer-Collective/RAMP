@@ -1702,9 +1702,6 @@ Exit
 ##SaveTagChanges
 ##Exit
 
-# echo ==Make WaterGravityScale and WaterDamageRange the same as the AirGravityScale and AirDamageRange for every projectile to combat a BUG Fixes weapon drop and more...==
-cs < "workingdir\WeaponWaterFix.cs"
-
 # echo ==Fix Covenant Portable Shield==
 RunCommands "workingdir\cmds\portableshieldfix.cmds"
 
@@ -2651,6 +2648,17 @@ setfield Radius 0.75 2
 savetagchanges
 exit
 
+echo ==Objective weapons animations==
+RunCommands "workingdir\cmds\RAMPObjectiveWeapsAnims.cmds"
+
+
+
+
+# WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARRRRRRRRRRRRNNNNNNNNNNNNNNNIIIIIIIIIIIIIIIIIIIIIIIIIIIIINNNNNNNNNGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+# MAKE SURE THIS SCRIPT IS AT THE VERY LAST LINE OTHERWISE THE WEAPONS WILL BREAK
+# LOOKING MY EYES ON YOU DANK!!!!!!
+# echo ==Make WaterGravityScale and WaterDamageRange the same as the AirGravityScale and AirDamageRange for every projectile to combat a BUG Fixes weapon drop and more...==
+cs < "workingdir\WeaponWaterFix.cs"
 
 AddModFiles workingdir\assets
 SaveModPackage "modsfolder\RAMP.pak"

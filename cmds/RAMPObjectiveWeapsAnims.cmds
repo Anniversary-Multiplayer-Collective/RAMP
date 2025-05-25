@@ -1,0 +1,114 @@
+# Koe ni naranai koe ga tashika ni kikoete ita nda
+# Ima hitsuyona no wa sonna iiwake janai ze
+# Best thing we can do is rocknroll
+
+#   RENDER MODEL
+# RENDER MODEL
+#   RENDER MODEL
+
+EditTag objects\weapons\multiplayer\assault_bomb\assault_bomb_fp.render_model
+SetField MarkerGroups[2].Markers[0].Translation 0.0125 -0.0028 0.033
+SetField MarkerGroups[2].Markers[0].Rotation 0.508 0.66503066 0.45142913 0.31047672
+
+SetField MarkerGroups[3].Markers[0].Translation 0.0128 -0.0118 0.032
+SetField MarkerGroups[3].Markers[0].Rotation 0.395 0.585 0.46 0.39
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\multiplayer\skull\skull_fp.render_model
+SetField MarkerGroups[4].Markers[0].Translation -0.0228 0.0135 -0.0057
+SetField MarkerGroups[4].Markers[0].Rotation 0.29957065 -0.27687797 0.48012617 0.77657896
+
+SetField MarkerGroups[5].Markers[0].Translation -0.0228 0.0072 -0.0078
+SetField MarkerGroups[5].Markers[0].Rotation 0.34 -0.311 0.38 0.79
+SaveTagChanges
+Exit
+
+#   SPARTANS
+# SPARTANS
+#   SPARTANS
+
+EditTag objects\characters\masterchief\fp\weapons\multiplayer\fp_ball\fp_ball.model_animation_graph
+Addanimation keep "workingdir\animations\spartan_fp\_rampmultiplayer\fp_ball"
+AddBlockElements Modes[0].WeaponClass[0].WeaponIk
+SetField Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand
+SetField Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker left_hand_spartan_fp
+
+SetField Animations[1].PlaybackFlags ForceWeaponIkOn
+SaveTagChanges
+Exit
+
+EditTag objects\characters\masterchief\fp\weapons\multiplayer\fp_assault_bomb\fp_assault_bomb.model_animation_graph
+Addanimation keep "workingdir\animations\spartan_fp\_rampmultiplayer\fp_assault_bomb"
+AddBlockElements Modes[0].WeaponClass[0].WeaponIk
+SetField Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand
+SetField Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker left_hand_spartan_fp
+
+SetField Animations[1].PlaybackFlags ForceWeaponIkOn
+SetField Animations[9].AnimationData.NextAnimation 10
+SetField Animations[10].AnimationData.ParentAnimation 9
+SetField Modes[0].WeaponClass[0].WeaponType[0].Set.Actions[5].Animation 9
+SaveTagChanges
+Exit
+
+#   ELITES
+# ELITES
+#   ELITES
+
+EditTag objects\characters\dervish\fp\weapons\multiplayer\fp_ball\fp_ball.model_animation_graph
+SetField SkeletonNodes[31].Name b_skull
+SaveTagChanges
+Exit
+
+EditTag objects\characters\dervish\fp\weapons\multiplayer\fp_ball\fp_ball.model_animation_graph
+Addanimation keep "workingdir\animations\elite_fp\_rampmultiplayer\fp_ball"
+AddBlockElements Modes[0].WeaponClass[0].WeaponIk
+SetField Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+SetField Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker left_hand_elite_fp
+
+SetField Animations[1].PlaybackFlags ForceWeaponIkOn
+
+SetField Animations[6].AnimationData.SoundEvents[0].Sound 2
+
+SetField Animations[11].AnimationData.NextAnimation 12
+SetField Animations[12].AnimationData.ParentAnimation 11
+SetField Modes[0].WeaponClass[0].WeaponType[0].Set.Actions[4].Animation 11
+
+SetField Animations[14].PlaybackFlags DisableWeaponIk
+SetField Animations[15].PlaybackFlags DisableWeaponIk
+SaveTagChanges
+Exit
+
+EditTag objects\characters\dervish\fp\weapons\multiplayer\fp_assault_bomb\fp_assault_bomb.model_animation_graph
+SetField SkeletonNodes[31].Name b_skull
+SaveTagChanges
+Exit
+
+EditTag objects\characters\dervish\fp\weapons\multiplayer\fp_assault_bomb\fp_assault_bomb.model_animation_graph
+Addanimation keep "workingdir\animations\elite_fp\_rampmultiplayer\fp_assault_bomb"
+AddBlockElements Modes[0].WeaponClass[0].WeaponIk
+SetField Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+SetField Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker left_hand_elite_fp
+
+SetField Animations[0].PlaybackFlags ForceWeaponIkOn
+
+SetField Animations[2].AnimationData.SoundEvents[0].Sound 3
+
+SetField Animations[5].AnimationData.NextAnimation 6
+SetField Animations[6].AnimationData.ParentAnimation 5
+SetField Modes[0].WeaponClass[0].WeaponType[0].Set.Actions[5].Animation 5
+
+SetField Animations[8].PlaybackFlags ForceWeaponIkOn
+
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\multiplayer\ball\ball.weapon
+SetField FirstPerson[1].FirstPersonAnimations objects\characters\dervish\fp\weapons\multiplayer\fp_ball\fp_ball.model_animation_graph
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\multiplayer\assault_bomb\assault_bomb.weapon
+SetField FirstPerson[1].FirstPersonAnimations objects\characters\dervish\fp\weapons\multiplayer\fp_assault_bomb\fp_assault_bomb.model_animation_graph
+SaveTagChanges
+Exit
