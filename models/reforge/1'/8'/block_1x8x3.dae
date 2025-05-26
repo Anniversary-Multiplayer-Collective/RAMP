@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.0.2 commit date:2023-12-05, commit time:07:41, hash:9be62e85b727</authoring_tool>
+    </contributor>
+    <created>2024-12-22T19:40:41</created>
+    <modified>2024-12-22T19:40:41</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_geometries>
+    <geometry id="default_default" name="default:default">
+      <mesh>
+        <source id="default_default-positions">
+          <float_array id="default_default-positions-array" count="72">45.0027 -360 135 45.0027 -360 -135 45.0027 360 -135 45.0027 360 135 -45.0027 -360 135 -45.0027 -360 -135 45.0027 -360 -135 45.0027 -360 135 45.0027 -360 135 45.0027 360 135 -45.0027 360 135 -45.0027 -360 135 -45.0027 360 135 -45.0027 360 -135 -45.0027 -360 -135 -45.0027 -360 135 -45.0027 360 -135 45.0027 360 -135 45.0027 -360 -135 -45.0027 -360 -135 45.0027 360 135 45.0027 360 -135 -45.0027 360 -135 -45.0027 360 135</float_array>
+          <technique_common>
+            <accessor source="#default_default-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="default_default-normals">
+          <float_array id="default_default-normals-array" count="18">1 0 0 0 -1 0 0 0 1 -1 0 0 0 0 -1 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#default_default-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="default_default-map-0">
+          <float_array id="default_default-map-0-array" count="72">0.5 -0.7500001 0.5 -2.25 4.5 -2.25 0.5000001 -0.75 4.5 -2.25 4.5 -0.7499998 0.2500005 -0.7500001 0.2500005 -2.25 0.75 -2.25 0.2500005 -0.75 0.75 -2.25 0.75 -0.7499998 0.75 1.5 0.75 5.5 0.2500005 5.500001 0.75 1.5 0.2500005 5.5 0.2500005 1.5 -4 -0.7500001 -4 -2.25 -2.38419e-7 -2.25 -4 -0.75 0 -2.25 0 -0.7499998 -4.75 0.5000001 -5.25 0.5 -5.25 -3.5 -4.75 0.4999999 -5.25 -3.5 -4.75 -3.5 -5.25 -0.7500001 -5.25 -2.25 -4.75 -2.25 -5.25 -0.75 -4.75 -2.25 -4.75 -0.7499998</float_array>
+          <technique_common>
+            <accessor source="#default_default-map-0-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="default_default-vertices">
+          <input semantic="POSITION" source="#default_default-positions"/>
+        </vertices>
+        <triangles count="12">
+          <input semantic="VERTEX" source="#default_default-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#default_default-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#default_default-map-0" offset="2" set="0"/>
+          <p>0 0 0 1 0 1 2 0 2 0 0 3 2 0 4 3 0 5 4 1 6 5 1 7 6 1 8 4 1 9 6 1 10 7 1 11 8 2 12 9 2 13 10 2 14 8 2 15 10 2 16 11 2 17 12 3 18 13 3 19 14 3 20 12 3 21 14 3 22 15 3 23 16 4 24 17 4 25 18 4 26 16 4 27 18 4 28 19 4 29 20 5 30 21 5 31 22 5 32 20 5 33 22 5 34 23 5 35</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="default_default" name="default:default" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#default_default" name="default:default"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

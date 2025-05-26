@@ -900,7 +900,7 @@ Exit
 
 # Waterfront pumpjack animation fixup
 EditTag objects\levels\solo\m30\pumpjack\pumpjack.model_animation_graph
-setfield Animations[0].AnimationData.AnimationType Overlay
+SetField Animations[0].AnimationData.AnimationType Replacement
 savetagchanges
 exit
 
@@ -2583,7 +2583,7 @@ echo == Fix Reflection coll projectile issue ==
 
 EditTag levels\multi\52_ivory_tower\52_ivory_tower_030.scenario_structure_bsp
 setfield InstancedGeometryInstances[1128].DefinitionIndex 163
-setfield InstancedGeometryInstances[1128].Matrix -3.576279E-07 -2 0 1.22 -3.576279E-07 0 0 0 1 -20.64334 -184.1017 250.2079
+SetField InstancedGeometryInstances[1128].Matrix -3.576279E-07 -2 0 1.22 -3.576279E-07 0 0 0 1 -20.18834 -184.5017 250.2079
 savetagchanges
 exit
 
@@ -2678,8 +2678,21 @@ exit
 echo ==Objective weapons animations==
 RunCommands "workingdir\cmds\RAMPObjectiveWeapsAnims.cmds"
 
+echo ==MORE REFORGE BLOCK==
+RunCommands "workingdir\cmds\extra_reforge_0.1.cmds"
+RunCommands "workingdir\cmds\extra_reforge_0.5.cmds"
+RunCommands "workingdir\cmds\extra_reforge_1.cmds"
 
+echo ==FIXUP DOOR BUTTON==
+edittag objects\levels\shared\device_controls\switches\hum_keypad_02\hum_keypad_02.device_control
+SetField ActionString device_door
+savetagchanges
+exit
 
+edittag objects\levels\shared\device_controls\cov_touchscreen_m45\cov_touchscreen_m45.device_control
+SetField ActionString device_door
+savetagchanges
+exit
 
 # WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARRRRRRRRRRRRNNNNNNNNNNNNNNNIIIIIIIIIIIIIIIIIIIIIIIIIIIIINNNNNNNNNGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
 # MAKE SURE THIS SCRIPT IS AT THE VERY LAST LINE OTHERWISE THE WEAPONS WILL BREAK

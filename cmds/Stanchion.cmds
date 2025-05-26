@@ -128,5 +128,18 @@ SetArgument self_illum_map 0.6 0.6 0.2 0.2
 SaveTagChanges
 Exit
 
+# -----------------------------------------
+# |             MULTI GLOBALS             |
+# -----------------------------------------
+#echo Add STANCHION to fiesta
+# StringId add stanchion
+EditTag multiplayer\multiplayer_globals.multiplayer_globals
+AddBlockElements Universal[0].GameVariantWeapons 1
+SetField Universal[0].GameVariantWeapons[*].Name stanchion
+SetField Universal[0].GameVariantWeapons[*].RandomChance 0.1
+SetField Universal[0].GameVariantWeapons[*].Weapon objects\weapons\support_high\stanchion\stanchion.weapon
+SaveTagChanges
+Exit
+
 AddForgeItem "STANCHION" 78 objects\weapons\support_high\stanchion\stanchion.weap
 

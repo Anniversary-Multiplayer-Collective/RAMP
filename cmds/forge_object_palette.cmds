@@ -32,7 +32,7 @@ AddForgeCategory "TECH" 84
 # INDEX 94
 AddForgeCategory "GADGETS" 84
 # INDEX 95
-AddForgeCategory "OFFICE" 84
+AddForgeCategory "FURNITURE AND DECORATIONS" 84
 # INDEX 96
 AddForgeCategory "MAN CANNON" 84
 # INDEX 97
@@ -101,6 +101,30 @@ AddForgeItem "ELEVATOR, ONI" 86 objects\levels\shared\m20_elevator_sm\m20_elevat
 DuplicateTag objects\levels\multi\s3d_reactor\rod\rod.device_machine objects\levels\multi\s3d_reactor\rod\rod_ramp
 AddForgeItem "HEXAGON PILLAR" 86 objects\levels\multi\s3d_reactor\rod\rod_ramp.device_machine
 
+DuplicateTag objects\levels\multi\cyberdyne\brute_target\brute_target.device_machine objects\levels\multi\cyberdyne\brute_target_ramp\brute_target_ramp
+AddForgeItem "TARGET, BRUTE" 86 objects\levels\multi\cyberdyne\brute_target_ramp\brute_target_ramp.device_machine
+
+DuplicateTag objects\levels\multi\cyberdyne\jackal_target\jackal_target.device_machine objects\levels\multi\cyberdyne\jackal_target\jackal_target_ramp
+AddForgeItem "TARGET, JACKAL" 86 objects\levels\multi\cyberdyne\jackal_target\jackal_target_ramp.device_machine
+
+# FIXUP
+edittag objects\levels\multi\cyberdyne\brute_target\brute_target.physics_model
+SetField RigidBodies[0].Node 1
+savetagchanges
+exit
+
+DuplicateTag objects\levels\multi\cyberdyne\brute_target\brute_target.physics_model objects\levels\multi\cyberdyne\jackal_target\jackal_target
+EditTag objects\levels\multi\cyberdyne\jackal_target\jackal_target.physics_model
+SetField Boxes[0].HalfExtents 0.4 0.025 0.35
+SetField Boxes[0].Translation 0 2.784E-09 0.35
+SaveTagChanges
+Exit
+
+EditTag objects\levels\multi\cyberdyne\jackal_target\jackal_target.model
+SetField PhysicsModel objects\levels\multi\cyberdyne\jackal_target\jackal_target.physics_model
+savetagchanges
+exit
+
 AddForgeItem "FENCE GATE" 86 levels\multi\dlc\objects\dlc_invasion_fence_gate\dlc_invasion_fence_gate.device_machine
 AddForgeItem "FENCE GATE, WIDE" 86 objects\props\human\unsc\base_gate_big\base_gate_big.device_machine
 AddForgeItem "METAL GATE" 86 objects\levels\shared\device_machines\metal_gate\metal_gate.device_machine
@@ -111,8 +135,13 @@ AddForgeItem "GATEHOUSE DOOR" 86 objects\levels\solo\m20\gatehouse_door\gatehous
 AddForgeItem "CLUB DOOR, SMALL" 86 objects\levels\solo\m50\club_door_single\club_door_single.device_machine
 AddForgeItem "CLUB DOOR, LARGE" 86 objects\levels\solo\m50\door_urban_club_medium_a\door_urban_club_medium_a.device_machine
 AddForgeItem "GLASS DOOR" 86 objects\levels\solo\m52\m52_door_hospital_glass\m52_door_hospital_glass.device_machine
-AddForgeItem "INDUSTRIAL DOOR, SMALL" 86 objects\levels\shared\device_machines\m70_door_small\m70_door_small.device_machine
-AddForgeItem "INDUSTRIAL DOOR, LARGE" 86 objects\levels\shared\device_machines\m70_door_ff\m70_door_ff.device_machine
+
+DuplicateTag objects\levels\shared\device_machines\m70_door_small\m70_door_small.device_machine objects\levels\shared\device_machines\m70_door_small\m70_door_small_ramp
+AddForgeItem "INDUSTRIAL DOOR, SMALL" 86 objects\levels\shared\device_machines\m70_door_small\m70_door_small_ramp.device_machine
+
+DuplicateTag objects\levels\shared\device_machines\m70_door_ff\m70_door_ff.device_machine objects\levels\shared\device_machines\m70_door_ff\m70_door_ff_ramp
+AddForgeItem "INDUSTRIAL DOOR, LARGE" 86 objects\levels\shared\device_machines\m70_door_ff\m70_door_ff_ramp.device_machine
+
 AddForgeItem "INTERIOR DOOR" 86 objects\levels\solo\m20\door_interior_standard_glass\door_interior_standard_glass.device_machine
 
 DuplicateTag objects\levels\solo\m20\door_interior_large_logo\door_interior_large_logo.device_machine objects\levels\solo\m20\door_interior_large_logo\door_interior_large_logo_ramp
@@ -125,6 +154,23 @@ AddForgeItem "UNSC DOOR, SMALL" 86 objects\levels\shared\device_machines\unsc_do
 AddForgeItem "UNSC DOOR, LARGE" 86 objects\levels\shared\device_machines\unsc_door_large\unsc_door_large.device_machine
 AddForgeItem "BLAST DOOR" 86 objects\levels\shared\device_machines\blast_door\blast_door.device_machine
 AddForgeItem "UTILITY SLIDER DOOR" 86 objects\props\human\pioneer\doors\door_slider_utility\door_slider_utility.device_machine
+
+DuplicateTag objects\levels\shared\device_machines\m45_hall_door_small01\m45_hall_door_small01.device_machine objects\levels\shared\device_machines\m45_hall_door_small01\m45_hall_door_small01_forge.device_machine
+AddForgeItem "HALLWAY DOOR, COVENANT" 86 objects\levels\shared\device_machines\m45_hall_door_small01\m45_hall_door_small01_forge.device_machine
+
+DuplicateTag objects\levels\shared\m60_unsc_door_a\m60_unsc_door_a.device_machine objects\levels\shared\m60_unsc_door_a\m60_unsc_door_a_mp
+AddForgeItem "UNSC DOOR A" 86 objects\levels\shared\m60_unsc_door_a\m60_unsc_door_a_mp.device_machine
+
+DuplicateTag objects\levels\solo\m20\door_interior_large\door_interior_large.device_machine objects\levels\solo\m20\door_interior_large\door_interior_large_mp
+AddForgeItem "DOOR INTERIOR LARGE" 86 objects\levels\solo\m20\door_interior_large\door_interior_large_mp.device_machine
+
+AddForgeItem "DOOR URBAN MEDIUM" 86 objects\levels\solo\m50\door_urban_corp_medium_a\door_urban_corp_medium_a.device_machine
+
+DuplicateTag objects\levels\solo\m50\door_urban_gen_small_b\door_urban_gen_small_b.device_machine objects\levels\solo\m50\door_urban_gen_small_b\door_urban_gen_small_b_mp
+AddForgeItem "DOOR URBAN SMALL" 86 objects\levels\solo\m50\door_urban_gen_small_b\door_urban_gen_small_b_mp.device_machine
+
+DuplicateTag objects\levels\solo\m50\door_urban_large_a\door_urban_large_a.device_machine objects\levels\solo\m50\door_urban_large_a\door_urban_large_a_mp
+AddForgeItem "DOOR URBAN LARGE" 86 objects\levels\solo\m50\door_urban_large_a\door_urban_large_a_mp.device_machine
 
 AddForgeItem "ALPHA RELAY" 86 levels\multi\dlc\objects\dlc_invasion_alpha_relay\dlc_invasion_alpha_relay.device_machine
 AddForgeItem "BRAVO VENT" 86 levels\multi\dlc\objects\dlc_invasion_bravo_vent\dlc_invasion_bravo_vent.device_machine
@@ -139,41 +185,16 @@ AddForgeItem "PELICAN" 86 objects\vehicles\human\pelican\pelican.device_machine
 AddForgeItem "PHANTOM" 86 objects\vehicles\covenant\phantom\phantom.device_machine
 AddForgeItem "LONGSWORD" 86 objects\vehicles\human\longsword\longsword.device_machine
 
-AddForgeItem "ELEVATOR BUTTON, TOGGLE" 86 objects\levels\shared\m20_elevator_sm_button\m20_elevator_sm_button.device_control
-AddForgeItem "KEYPAD, TOGGLE" 86 objects\levels\shared\device_controls\switches\hum_single_button_1\hum_single_button_1.device_control
-AddForgeItem "KEYPAD UNSC, TOGGLE" 86 objects\levels\shared\device_controls\switches\hum_keypad_02\hum_keypad_02.device_control
-
-DuplicateTag objects\levels\shared\device_machines\m45_hall_door_small01\m45_hall_door_small01.device_machine
-NameTag * objects\levels\shared\device_machines\m45_hall_door_small01\m45_hall_door_small01_forge.device_machine
-SaveTagNames
-AddForgeItem "HALLWAY DOOR, COVENANT" 86 objects\levels\shared\device_machines\m45_hall_door_small01\m45_hall_door_small01_forge.device_machine
-AddForgeItem "COVENANT TOUCHSCREEN 1, TOGGLE" 86 objects\levels\shared\device_controls\switches\cov_touchscreen_03\cov_touchscreen_03.device_control
-AddForgeItem "COVENANT TOUCHSCREEN 2, TOGGLE" 86 objects\levels\shared\device_controls\cov_touchscreen_m45\cov_touchscreen_m45.device_control
-
-DuplicateTag objects\levels\shared\m60_unsc_door_a\m60_unsc_door_a.device_machine
-NameTag * objects\levels\shared\m60_unsc_door_a\m60_unsc_door_a_mp
-SaveTagNames
-AddForgeItem "UNSC DOOR A" 86 objects\levels\shared\m60_unsc_door_a\m60_unsc_door_a_mp.device_machine
-
-DuplicateTag objects\levels\solo\m20\door_interior_large\door_interior_large.device_machine
-NameTag * objects\levels\solo\m20\door_interior_large\door_interior_large_mp
-SaveTagNames
-AddForgeItem "DOOR INTERIOR LARGE" 86 objects\levels\solo\m20\door_interior_large\door_interior_large_mp.device_machine
-
-DuplicateTag objects\levels\solo\m50\door_urban_gen_small_b\door_urban_gen_small_b.device_machine
-NameTag * objects\levels\solo\m50\door_urban_gen_small_b\door_urban_gen_small_b_mp
-
-DuplicateTag objects\levels\solo\m50\door_urban_large_a\door_urban_large_a.device_machine
-NameTag * objects\levels\solo\m50\door_urban_large_a\door_urban_large_a_mp
-
-AddForgeItem "DOOR URBAN MEDIUM" 86 objects\levels\solo\m50\door_urban_corp_medium_a\door_urban_corp_medium_a.device_machine
-AddForgeItem "DOOR URBAN SMALL" 86 objects\levels\solo\m50\door_urban_gen_small_b\door_urban_gen_small_b_mp.device_machine
-AddForgeItem "DOOR URBAN LARGE" 86 objects\levels\solo\m50\door_urban_large_a\door_urban_large_a_mp.device_machine
-
 ##AddForgeItem "COLLAPSIBLE BUILDING" 86 objects\levels\solo\m52\collapsing_building\collapsing_building.device_machine
 ##AddForgeItem "WATCHTOWER BASE, COVENANT" 86 objects\props\covenant\cov_watchtower\cov_watchtower_base\cov_watchtower_base.device_machine
 AddForgeItem "PORTABLE LIGHT, COVENANT" 86 objects\props\covenant\cov_portable_light\cov_portable_light.device_machine
 
+AddForgeItem "ELEVATOR BUTTON, TOGGLE" 86 objects\levels\shared\m20_elevator_sm_button\m20_elevator_sm_button.device_control
+AddForgeItem "KEYPAD, TOGGLE" 86 objects\levels\shared\device_controls\switches\hum_single_button_1\hum_single_button_1.device_control
+AddForgeItem "KEYPAD UNSC, TOGGLE" 86 objects\levels\shared\device_controls\switches\hum_keypad_02\hum_keypad_02.device_control
+
+AddForgeItem "COVENANT TOUCHSCREEN 1, TOGGLE" 86 objects\levels\shared\device_controls\switches\cov_touchscreen_03\cov_touchscreen_03.device_control
+AddForgeItem "COVENANT TOUCHSCREEN 2, TOGGLE" 86 objects\levels\shared\device_controls\cov_touchscreen_m45\cov_touchscreen_m45.device_control
 
 # NATURALS [87] -------------------------------------------------------------------------------------------------------------
 ForEach scenery startingwith: objects\levels\solo\m10\030_rock_blocker AddBlockElements MultiplayerObject 1
@@ -556,11 +577,21 @@ SetField Palette[*].Setters[*].IntegerValue 1
 SaveTagChanges
 Exit
 
+AddForgeItem "PLANT BED, LARGE" 87 objects\ramp\shared\plant_bed_large\plant_bed_large.scenery
+AddForgeItem "PLANT BED, MEDIUM" 87 objects\ramp\shared\plant_bed_medium\plant_bed_medium.scenery
+AddForgeItem "TREE, BIRCH" 87 objects\ramp\shared\birch_tree\birch_tree.scenery
+AddForgeItem "TREE, CANOPY" 87 objects\ramp\shared\canopy_tree\canopy_tree.scenery
+AddForgeItem "TREE, COLUMNAR" 87 objects\ramp\shared\columnar_tree\columnar_tree.scenery
+AddForgeItem "TREE, SPRUCE" 87 objects\ramp\shared\spruce_tree\spruce_tree.scenery
+
 AddForgeItem "DRIFTWOOD 1" 87 objects\levels\solo\m20\driftwood_a\driftwood_a.crate
 AddForgeItem "DRIFTWOOD 2" 87 objects\levels\solo\m20\driftwood_b\driftwood_b.crate
 AddForgeItem "DRIFTWOOD 3" 87 objects\levels\solo\m20\driftwood_c\driftwood_c.crate
 AddForgeItem "LOG, SMALL 1" 87 objects\props\human\pioneer\farm\logs\log_a\log_a.crate
 AddForgeItem "LOG, SMALL 2" 87 objects\props\human\pioneer\farm\logs\log_b\log_b.crate
+
+AddForgeItem "TREE POT" 87 objects\ramp\shared\tree_pot\tree_pot.scenery
+AddForgeItem "TREE POT, DESTROYED" 87 objects\ramp\shared\tree_pot_destroyed\tree_pot_destroyed.scenery
 
 
 # COVER [88] -------------------------------------------------------------------------------------------------------------
@@ -1596,11 +1627,16 @@ AddForgeItem "BENCH, METAL" 95 objects\props\human\pioneer\furniture\work_bench_
 AddForgeItem "BENCH, METAL, SHORT" 95 objects\props\human\pioneer\furniture\work_bench_2_short\work_bench_2_short.crate
 AddForgeItem "COFFEE TABLE" 95 objects\props\human\pioneer\furniture\coffee_table\coffee_table.crate
 AddForgeItem "DESK COUNTER" 95 objects\props\human\pioneer\furniture\kitchen_counter_02\kitchen_counter_02.scenery
+AddForgeItem "FRONT COUNTER" 95 objects\ramp\shared\front_counter\front_counter.scenery
+AddForgeItem "FRONT SHELF" 95 objects\ramp\shared\front_shelf\front_shelf.scenery
 AddForgeItem "TABLE, WOOD" 95 objects\props\human\pioneer\furniture\central_work_table_1\central_work_table_1.crate
 AddForgeItem "TABLE, METAL" 95 objects\props\human\pioneer\furniture\central_work_table_2\central_work_table_2.crate
 AddForgeItem "TABLE, WORKSTATION" 95 objects\props\human\oni\furniture\workstation_long\workstation_long.crate
 AddForgeItem "PLANNING TABLE" 95 objects\props\human\unsc\planning_table\planning_table.scenery
 AddForgeItem "READING DESK" 95 objects\props\human\pioneer\furniture\reading_desk\reading_desk.crate
+AddForgeItem "DINING SET" 95 objects\ramp\shared\dining_set\dining_set.scenery
+AddForgeItem "DINING SET, GLASS" 95 objects\ramp\shared\dining_set_glass\dining_set_glass.scenery
+AddForgeItem "DINING SET, GLASS, SMALL" 95 objects\ramp\shared\dining_set_glass_small\dining_set_glass_small.scenery
 
 AddForgeItem "ONI, CONFERENCE TABLE" 95 objects\props\human\oni\furniture\conference_table\conference_table.scenery
 AddForgeItem "ONI, TABLE, SHORT" 95 objects\props\human\oni\table_short\table_short.scenery
@@ -1635,13 +1671,15 @@ AddForgeItem "LOUNGE TABLE 1" 95 objects\props\human\oni\furniture\lounge_table_
 AddForgeItem "LOUNGE TABLE 2" 95 objects\props\human\oni\furniture\lounge_table_b\lounge_table_b.scenery
 AddForgeItem "LOUNGE TABLE 3" 95 objects\props\human\oni\furniture\lounge_table_c\lounge_table_c.scenery
 
+AddForgeItem "TOWER VIEWER" 95 objects\ramp\shared\tower_viewer\tower_viewer.scenery
+
 AddForgeItem "CLIP BOARD" 95 objects\props\human\oni\small_desk_objects\oni_office_clipboard\oni_office_clipboard.crate
 AddForgeItem "COATRACK" 95 objects\props\human\pioneer\furniture\coatrack_01\coatrack_01.crate
 AddForgeItem "FIRE EXTINGUISHER, WALL" 95 objects\props\human\pioneer\locker_room\fire_extinguisher_wall\fire_extinguisher_wall.scenery
 AddForgeItem "GLOBE, REACH" 95 objects\props\human\pioneer\furniture\reach_globe\reach_globe.crate
 AddForgeItem "STAINLESS PEN" 95 objects\props\human\oni\small_desk_objects\pen_stainless\pen_stainless.crate
 AddForgeItem "STEP LADDER" 95 objects\props\human\pioneer\garage\ladder_closed\ladder_closed.crate
-AddForgeItem "UNLABELED BUCKET" 95 objects\props\human\pioneer\kitchenware\steel\container_large\container_large.crate
+AddForgeItem "CONTAINER BUCKET" 95 objects\props\human\pioneer\kitchenware\steel\container_large\container_large.crate
 
 AddForgeItem "BOWL LARGE" 95 objects\props\human\pioneer\kitchenware\stoneware_bowl_large\stoneware_bowl_large.crate
 AddForgeItem "COFFEE CUP, WHITE" 95 objects\props\human\oni\small_desk_objects\coffee_cup\coffee_cup.crate
@@ -1654,9 +1692,11 @@ AddForgeItem "CHEF'S KNIFE" 95 objects\props\human\pioneer\kitchenware\utensils\
 AddForgeItem "BEER BOTTLE" 95 objects\props\human\urban\bottle_beer\bottle_beer.crate
 AddForgeItem "BOTTLE LIQUOR" 95 objects\props\human\urban\bottle_hum_liquor\bottle_hum_liquor.crate
 AddForgeItem "GLASS BAR, TALL" 95 objects\props\human\urban\glass_bar_tall\glass_bar_tall.crate
+AddForgeItem "MODERN SINK" 95 objects\ramp\shared\modern_sink\modern_sink.scenery
 AddForgeItem "KITCHEN DISHWASHER, DOOR" 95 objects\props\human\pioneer\furniture\kitchen_dishwasher\kitchen_dishwasher.scenery
 AddForgeItem "KITCHEN SINK, CLEAN" 95 objects\props\human\pioneer\furniture\kitchen_sink\kitchen_sink.scenery
 AddForgeItem "KITCHEN STOVE" 95 objects\props\human\pioneer\furniture\kitchen_stove\stove\stove.scenery
+AddForgeItem "KITCHEN FRIDGE" 95 objects\ramp\shared\fridge\fridge.scenery
 AddForgeItem "KITCHEN OVEN, INSET" 95 objects\props\human\pioneer\kitchenware\oven\oven.scenery
 
 AddForgeItem "BED" 95 objects\props\human\pioneer\furniture\bedroom_bed\bedroom_bed.scenery
@@ -1972,6 +2012,7 @@ AddForgeItem "HEALTH PACK CABINET [SCALEABLE]" 99 objects\props\human\unsc\healt
 AddForgeItem "TELEPORTER SHELL, HUMAN" 99 objects\ca_dev\ca_scenery\teleporter_shell\teleporter_shell.scenery
 
 AddForgeItem "SABRE, DISPLAY" 99 objects\props\human\unsc\sabre_mp\sabre_mp.scenery
+AddForgeItem "SABRE, DISMANTLED" 99 objects\ramp\shared\sabre_dismantle\sabre_dismantle.scenery
 AddForgeItem "HALCYON, CRUISER" 99 objects\vehicles\human\unsc_fleet\unsc_halcyon_class_cruiser_poa\unsc_halcyon_class_cruiser_poa.scenery
 AddForgeItem "FRIGATE" 99 levels\multi\dlc\objects\dlc_frigate\dlc_frigate.scenery
 AddForgeItem "FRIGATE, NO MACHINE TURRET" 99 objects\levels\ca_dev\dlc_condemned\frigate_battle\frigate_battle.scenery
@@ -2039,6 +2080,18 @@ AddForgeItem "BLUE BEACON" 99 objects\cex\cex_timberland\props\blue_beacon\blue_
 AddForgeItem "GLOW STICK, GREEN" 99 objects\props\human\unsc\unsc_glow_stick\unsc_glow_stick.crate
 AddForgeItem "RESUPPLY CAPSULE" 99 objects\gear\human\military\resupply_capsule\resupply_capsule.crate
 
+AddForgeItem "SIGNAGE BLUE TILLING" 99 objects\ramp\shared\signage_blue_tilling\signage_blue_tilling.scenery
+AddForgeItem "SIGNAGE BLUE TILLING, CUT" 99 objects\ramp\shared\signage_blue_tilling_cut\signage_blue_tilling_cut.scenery
+AddForgeItem "SIGNAGE TEAL TILLING" 99 objects\ramp\shared\signage_teal_tilling\signage_teal_tilling.scenery
+AddForgeItem "SIGNAGE GREEN TILLING" 99 objects\ramp\shared\signage_green_tilling\signage_green_tilling.scenery
+
+AddForgeItem "SUPERINTENDANT EVACUATE SIGN" 99 objects\ramp\shared\superintendant_evacuate_sign\superintendant_evacuate_sign.scenery
+AddForgeItem "BANNER, GOLDEN HOG" 99 objects\ramp\shared\stakugoldenwarthog\stakugoldenwarthog.scenery
+
+AddForgeItem "STREET" 99 objects\ramp\shared\street\street.scenery
+AddForgeItem "STREET, RAMP" 99 objects\ramp\shared\street_ramp\street_ramp.scenery
+AddForgeItem "STREET, OVERPASS" 99 objects\ramp\shared\overpass\overpass.scenery
+AddForgeItem "ROAD" 99 objects\ramp\shared\road\road.senery
 AddForgeItem "ROAD BRIDGE, DESTROYED" 99 objects\levels\solo\m35\m35_bridge_intro\m35_bridge_intro.scenery
 AddForgeItem "BRIDGE, RUINED" 99 objects\levels\solo\m35\bridge_slab_1\bridge_slab_1.crate
 AddForgeItem "BRIDGE, RUINED, SUPPORT 1" 99 objects\levels\solo\m35\bridge_slab_2\bridge_slab_2.crate
@@ -2057,6 +2110,7 @@ AddForgeItem "BARN VENT" 99 objects\props\human\pioneer\farm\m10_barn_vent\m10_b
 AddForgeItem "BUCKET" 99 objects\props\human\pioneer\farm\feed_bucket\feed_bucket.crate
 AddForgeItem "COMPOST BAG, PALETTE" 99 objects\props\human\pioneer\farm\bags_compost_pile_a\bags_compost_pile_a.scenery
 AddForgeItem "WHEELBARROW" 99 objects\props\human\pioneer\farm\wheelbarrow\wheelbarrow.crate
+AddForgeItem "WOODCHIPPER" 99 objects\ramp\shared\woodchipper\woodchipper.scenery
 AddForgeItem "HANDTRUCK" 99 objects\props\human\pioneer\farm\handtruck\handtruck.crate
 AddForgeItem "HAY BALE" 99 objects\props\human\pioneer\farm\hay_bale\hay_bale.scenery
 AddForgeItem "HAY BALE STACK" 99 objects\props\human\pioneer\farm\hay_bale_stack\hay_bale_stack.scenery
@@ -3388,6 +3442,9 @@ Exit
 
 AddForgeItem "[ANCHOR 9] WALL, CAUTION" 107 levels\multi\dlc\objects\slayer_door_forge\slayer_door_forge.crate
 
+AddForgeItem "[BATTLE CANYON] DOOR PANEL 1" 107 objects\cex\cex_beaver_creek\forge\ff_forerunner_wall\ff_forerunner_wall.crate
+AddForgeItem "[BATTLE CANYON] DOOR PANEL 2" 107 objects\cex\cex_beaver_creek\forge\ff_bluebase_rocks02\ff_bluebase_rocks02.crate
+
 AddForgeItem "[BREAKNECK] PLATFORM CLIFF" 107 objects\cex\cex_headlong\forge\ff_skill_jump\ff_skill_jump.crate
 AddForgeItem "[BREAKNECK] BEAM, PHYSICS" 107 objects\cex\cex_headlong\crates\physics_beam\physics_beam.crate
 AddForgeItem "[BREAKNECK] DOOR WALL" 107 objects\cex\cex_headlong\forge\ff_door\ff_door.crate
@@ -3404,6 +3461,8 @@ AddForgeItem "[CONDEMMED] DOORWAY WALL BLUE" 107 objects\ca_dev\dlc_condemned\cr
 AddForgeItem "[CONDEMMED] GLASS FLOOR" 107 objects\ca_dev\dlc_condemned\crates\ff_glass_floor\ff_glass_floor.crate
 
 AddForgeItem "[CORVETTE] HANGAR WALL" 107 objects\levels\solo\m45\hanger_cover01\hanger_cover01.scenery
+
+AddForgeItem "[FORGE WORLD] ISLAND" 107 objects\ramp\shared\forge_island\forge_island.scenery
 
 AddForgeItem "[HIGH NOON] BLOCK" 107 objects\cex\cex_hangemhigh\forge\heh_bigblock\heh_bigblock\heh_bigblock.crate
 AddForgeItem "[HIGH NOON] BLOCK, LONG" 107 objects\cex\cex_hangemhigh\forge\heh_large_hallway_blocker\heh_large_hallway_blocker.crate
@@ -3422,9 +3481,20 @@ AddForgeItem "[HIGH NOON] DOOR PANEL, SAND" 107 objects\cex\cex_hangemhigh\forge
 AddForgeItem "[HIGH NOON] DOOR PANEL, LARGE" 107 objects\cex\cex_hangemhigh\forge\heh_redbase_door_big\heh_redbase_door_big.crate
 AddForgeItem "[HIGH NOON] DOOR PANEL, SMALL" 107 objects\cex\cex_hangemhigh\forge\heh_redbase_door_small\heh_redbase_door_small.crate
 
+AddForgeItem "[REFLECTION] DRAGON, FOUNTAIN" 107 objects\ramp\shared\chinese_dragon_fountain\chinese_dragon_fountain.scenery
+AddForgeItem "[REFLECTION] DRAGON, MONUMENT" 107 objects\ramp\shared\chinese_dragon_carving_monument\chinese_dragon_carving_monument.scenery
+AddForgeItem "[REFLECTION] MEANDER, FOUNTAIN" 107 objects\ramp\shared\chinese_meander_fountain\chinese_meander_fountain.scenery
+AddForgeItem "[REFLECTION] MEANDER, MONUMENT" 107 objects\ramp\shared\chinese_meander_carving_tower\chinese_meander_carving_tower.scenery
+AddForgeItem "[REFLECTION] SIGN, NORTH" 107 objects\ramp\shared\chinese_north_sign\chinese_north_sign.scenery
+AddForgeItem "[REFLECTION] SIGN, EAST" 107 objects\ramp\shared\chinese_east_sign\chinese_east_sign.scenery
+AddForgeItem "[REFLECTION] SIGN, SOUTH" 107 objects\ramp\shared\chinese_south_sign\chinese_south_sign.scenery
+AddForgeItem "[REFLECTION] SIGN, WEST" 107 objects\ramp\shared\chinese_west_sign\chinese_west_sign.scenery
+
+AddForgeItem "[RIDGELINE] BUNKER" 107 objects\cex\cex_timberland\ca_timberland_bunker\ca_timberland_bunker\ca_timberland_bunker.crate
 AddForgeItem "[RIDGELINE] TOOF" 107 objects\cex\cex_timberland\ca_timberland_toof\ca_timberland_toof.crate
 AddForgeItem "[RIDGELINE] TURRET BASE" 107 objects\cex\cex_timberland\ca_timberland_turret\ca_timberland_turret_base\ca_timberland_turret_base.crate
-AddForgeItem "[RIDGELINE] BUNKER" 107 objects\cex\cex_timberland\ca_timberland_bunker\ca_timberland_bunker\ca_timberland_bunker.crate
+AddForgeItem "[RIDGELINE] TOWER, BLUE BASE" 107 objects\ramp\shared\blue_base_tower\blue_base_tower.scenery
+AddForgeItem "[RIDGELINE] TOWER, RED BASE" 107 objects\ramp\shared\red_base_tower\red_base_tower.scenery
 
 AddForgeItem "[SOLITARY] BRIDGE LEFT" 107 objects\cex\cex_prisoner\forge\ff_prisoner_bridge_l\ff_prisoner_bridge_l.crate
 AddForgeItem "[SOLITARY] BRIDGE RIGHT" 107 objects\cex\cex_prisoner\forge\ff_prisoner_bridge_r\ff_prisoner_bridge_r.crate
@@ -3439,8 +3509,15 @@ AddForgeItem "[SWORD BASE] VENT COVER OPEN 1" 107 objects\levels\multi\20_sword_
 AddForgeItem "[SWORD BASE] VENT COVER OPEN 2" 107 objects\levels\multi\20_sword_slayer\sword_vent_cover_open_out_a\sword_vent_cover_open_out_a.crate
 AddForgeItem "[SWORD BASE] VENT COVER OPEN 3" 107 objects\levels\multi\20_sword_slayer\sword_vent_cover_open_out_b\sword_vent_cover_open_out_b.crate
 
-AddForgeItem "[BATTLE CANYON] DOOR PANEL 1" 107 objects\cex\cex_beaver_creek\forge\ff_forerunner_wall\ff_forerunner_wall.crate
-AddForgeItem "[BATTLE CANYON] DOOR PANEL 2" 107 objects\cex\cex_beaver_creek\forge\ff_bluebase_rocks02\ff_bluebase_rocks02.crate
+AddForgeItem "[UNEARTHED] CONVEYOR BELT" 107 objects\ramp\shared\conveyor_belt\conveyor_belt.scenery
+AddForgeItem "[UNEARTHED] METAL SCAFFOLDING" 107 objects\ramp\shared\metal_scaffolding\metal_scaffolding.scenery
+AddForgeItem "[UNEARTHED] PLATFORM D" 107 objects\ramp\shared\platform_d\platform_d.scenery
+AddForgeItem "[UNEARTHED] TITANIUM SHARD" 107 objects\ramp\shared\titanium_shard\titanium_shard.scenery
+AddForgeItem "[UNEARTHED] WAREHOUSE" 107 objects\ramp\shared\unearthed_warehouse\unearthed_warehouse.scenery
+AddForgeItem "[UNEARTHED] WAREHOUSE ROOF" 107 objects\ramp\shared\unearthed_warehouse_roof\unearthed_warehouse_roof.scenery
+AddForgeItem "[UNEARTHED] WAREHOUSE ROOF TRUSS" 107 objects\ramp\shared\unearthed_warehouse_roof_truss\unearthed_warehouse_roof_truss.scenery
+AddForgeItem "[UNEARTHED] STREET LIGHT" 107 objects\ramp\shared\street_light\street_light.scenery
+
 
 # NULL [-1]
 # AddForgeItem "SANDBAGS [REACH]" -1 objects\gear\human\military\sandbag_wall\sandbag_wall.crate
@@ -3936,3 +4013,10 @@ EditTag levels\dlc\cex_headlong\cex_headlong.scenario
 RemoveBlockElements Crates 49 1
 SaveTagChanges
 Exit
+
+EditTag levels\firefight\ff70_holdout\ff70_holdout.scenario
+AddBlockElements MachinePalette
+SetField Machines[14].PaletteIndex 6
+SetField MachinePalette[6].Object objects\levels\shared\device_machines\m70_door_ff\m70_door_ff_ramp.device_machine
+savetagchanges
+exit

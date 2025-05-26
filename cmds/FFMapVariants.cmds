@@ -34,10 +34,12 @@ ImportMapVariant mapfile workingdir\DefaultVariants\Outpost
 savetagchanges
 exit
 
-Edittag levels\firefight\ff70_holdout\ff70_holdout.scenario
-ImportMapVariant mapfile workingdir\DefaultVariants\Holdout
-savetagchanges
-exit
+# TEMP, I UPDATED THE FORGE PALETTE, Need to rebuild this whole map again
+# - Minelelol
+# Edittag levels\firefight\ff70_holdout\ff70_holdout.scenario
+# ImportMapVariant mapfile workingdir\DefaultVariants\Holdout
+# savetagchanges
+# exit
 
 Edittag levels\dlc\cex_ff_halo\cex_ff_halo.scenario
 ImportMapVariant mapfile workingdir\DefaultVariants\INSTLATION

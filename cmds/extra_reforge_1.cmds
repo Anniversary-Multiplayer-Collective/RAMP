@@ -1,0 +1,771 @@
+# ------------------------------------------------------------------------------
+# I                               1' (WIDTH)                                   I
+# ------------------------------------------------------------------------------
+
+# 1x8x1 ----------------------------------------------------------------------------------------------
+ImportCollisionGeometry "workingdir\models\Reforge\1'\8'\block_1x8x1.dae" objects\eldewrito\reforge\block_1x8x1
+
+edittag objects\eldewrito\reforge\block_1x1x1.render_model
+copyblockelements materials 0 *
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.render_model objects\eldewrito\reforge\block_1x8x1
+edittag objects\eldewrito\reforge\block_1x8x1.render_model
+ReplaceRenderGeometry "workingdir\models\Reforge\1'\8'\block_1x8x1.dae"
+removeblockelements MarkerGroups 0 *
+removeblockelements materials 0 *
+pasteblockelements materials 0
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_01x01x01.physics_model objects\eldewrito\reforge\block_1x8x1
+edittag objects\eldewrito\reforge\block_1x8x1.physics_model
+SetField Boxes[0].HalfExtents 0.45 3.6 0.45
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.model objects\eldewrito\reforge\block_1x8x1
+edittag objects\eldewrito\reforge\block_1x8x1.model
+setfield RenderModel objects\eldewrito\reforge\block_1x8x1.render_model
+setfield CollisionModel objects\eldewrito\reforge\block_1x8x1.collision_model
+setfield PhysicsModel objects\eldewrito\reforge\block_1x8x1.physics_model
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.crate objects\eldewrito\reforge\block_1x8x1
+edittag objects\eldewrito\reforge\block_1x8x1.crate
+setfield BoundingRadius 10.09
+setfield Model objects\eldewrito\reforge\block_1x8x1.model
+savetagchanges
+exit
+
+# 1x8x2 ----------------------------------------------------------------------------------------------
+ImportCollisionGeometry "workingdir\models\Reforge\1'\8'\block_1x8x2.dae" objects\eldewrito\reforge\block_1x8x2
+
+edittag objects\eldewrito\reforge\block_1x1x1.render_model
+copyblockelements materials 0 *
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.render_model objects\eldewrito\reforge\block_1x8x2
+edittag objects\eldewrito\reforge\block_1x8x2.render_model
+ReplaceRenderGeometry "workingdir\models\Reforge\1'\8'\block_1x8x2.dae"
+removeblockelements MarkerGroups 0 *
+removeblockelements materials 0 *
+pasteblockelements materials 0
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_01x01x01.physics_model objects\eldewrito\reforge\block_1x8x2
+edittag objects\eldewrito\reforge\block_1x8x2.physics_model
+SetField Boxes[0].HalfExtents 0.45 3.6 0.9
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.model objects\eldewrito\reforge\block_1x8x2
+edittag objects\eldewrito\reforge\block_1x8x2.model
+setfield RenderModel objects\eldewrito\reforge\block_1x8x2.render_model
+setfield CollisionModel objects\eldewrito\reforge\block_1x8x2.collision_model
+setfield PhysicsModel objects\eldewrito\reforge\block_1x8x2.physics_model
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.crate objects\eldewrito\reforge\block_1x8x2
+edittag objects\eldewrito\reforge\block_1x8x2.crate
+setfield BoundingRadius 10.09
+setfield Model objects\eldewrito\reforge\block_1x8x2.model
+savetagchanges
+exit
+
+# 1x8x3 ----------------------------------------------------------------------------------------------
+ImportCollisionGeometry "workingdir\models\Reforge\1'\8'\block_1x8x3.dae" objects\eldewrito\reforge\block_1x8x3
+
+edittag objects\eldewrito\reforge\block_1x1x1.render_model
+copyblockelements materials 0 *
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.render_model objects\eldewrito\reforge\block_1x8x3
+edittag objects\eldewrito\reforge\block_1x8x3.render_model
+ReplaceRenderGeometry "workingdir\models\Reforge\1'\8'\block_1x8x3.dae"
+removeblockelements MarkerGroups 0 *
+removeblockelements materials 0 *
+pasteblockelements materials 0
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_01x01x01.physics_model objects\eldewrito\reforge\block_1x8x3
+edittag objects\eldewrito\reforge\block_1x8x3.physics_model
+SetField Boxes[0].HalfExtents 0.45 3.6 1.35
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.model objects\eldewrito\reforge\block_1x8x3
+edittag objects\eldewrito\reforge\block_1x8x3.model
+setfield RenderModel objects\eldewrito\reforge\block_1x8x3.render_model
+setfield CollisionModel objects\eldewrito\reforge\block_1x8x3.collision_model
+setfield PhysicsModel objects\eldewrito\reforge\block_1x8x3.physics_model
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.crate objects\eldewrito\reforge\block_1x8x3
+edittag objects\eldewrito\reforge\block_1x8x3.crate
+setfield BoundingRadius 10.09
+setfield Model objects\eldewrito\reforge\block_1x8x3.model
+savetagchanges
+exit
+
+# 1x8x4 ----------------------------------------------------------------------------------------------
+ImportCollisionGeometry "workingdir\models\Reforge\1'\8'\block_1x8x4.dae" objects\eldewrito\reforge\block_1x8x4
+
+edittag objects\eldewrito\reforge\block_1x1x1.render_model
+copyblockelements materials 0 *
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.render_model objects\eldewrito\reforge\block_1x8x4
+edittag objects\eldewrito\reforge\block_1x8x4.render_model
+ReplaceRenderGeometry "workingdir\models\Reforge\1'\8'\block_1x8x4.dae"
+removeblockelements MarkerGroups 0 *
+removeblockelements materials 0 *
+pasteblockelements materials 0
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_01x01x01.physics_model objects\eldewrito\reforge\block_1x8x4
+edittag objects\eldewrito\reforge\block_1x8x4.physics_model
+SetField Boxes[0].HalfExtents 0.45 3.6 1.8
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.model objects\eldewrito\reforge\block_1x8x4
+edittag objects\eldewrito\reforge\block_1x8x4.model
+setfield RenderModel objects\eldewrito\reforge\block_1x8x4.render_model
+setfield CollisionModel objects\eldewrito\reforge\block_1x8x4.collision_model
+setfield PhysicsModel objects\eldewrito\reforge\block_1x8x4.physics_model
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.crate objects\eldewrito\reforge\block_1x8x4
+edittag objects\eldewrito\reforge\block_1x8x4.crate
+setfield BoundingRadius 10.09
+setfield Model objects\eldewrito\reforge\block_1x8x4.model
+savetagchanges
+exit
+
+# 1x8x5 ----------------------------------------------------------------------------------------------
+ImportCollisionGeometry "workingdir\models\Reforge\1'\8'\block_1x8x5.dae" objects\eldewrito\reforge\block_1x8x5
+
+edittag objects\eldewrito\reforge\block_1x1x1.render_model
+copyblockelements materials 0 *
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.render_model objects\eldewrito\reforge\block_1x8x5
+edittag objects\eldewrito\reforge\block_1x8x5.render_model
+ReplaceRenderGeometry "workingdir\models\Reforge\1'\8'\block_1x8x5.dae"
+removeblockelements MarkerGroups 0 *
+removeblockelements materials 0 *
+pasteblockelements materials 0
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_01x01x01.physics_model objects\eldewrito\reforge\block_1x8x5
+edittag objects\eldewrito\reforge\block_1x8x5.physics_model
+SetField Boxes[0].HalfExtents 0.45 3.6 2.25
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.model objects\eldewrito\reforge\block_1x8x5
+edittag objects\eldewrito\reforge\block_1x8x5.model
+setfield RenderModel objects\eldewrito\reforge\block_1x8x5.render_model
+setfield CollisionModel objects\eldewrito\reforge\block_1x8x5.collision_model
+setfield PhysicsModel objects\eldewrito\reforge\block_1x8x5.physics_model
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.crate objects\eldewrito\reforge\block_1x8x5
+edittag objects\eldewrito\reforge\block_1x8x5.crate
+setfield BoundingRadius 10.09
+setfield Model objects\eldewrito\reforge\block_1x8x5.model
+savetagchanges
+exit
+
+# 1x8x6 ----------------------------------------------------------------------------------------------
+ImportCollisionGeometry "workingdir\models\Reforge\1'\8'\block_1x8x6.dae" objects\eldewrito\reforge\block_1x8x6
+
+edittag objects\eldewrito\reforge\block_1x1x1.render_model
+copyblockelements materials 0 *
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.render_model objects\eldewrito\reforge\block_1x8x6
+edittag objects\eldewrito\reforge\block_1x8x6.render_model
+ReplaceRenderGeometry "workingdir\models\Reforge\1'\8'\block_1x8x6.dae"
+removeblockelements MarkerGroups 0 *
+removeblockelements materials 0 *
+pasteblockelements materials 0
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_01x01x01.physics_model objects\eldewrito\reforge\block_1x8x6
+edittag objects\eldewrito\reforge\block_1x8x6.physics_model
+SetField Boxes[0].HalfExtents 0.45 3.6 2.7
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.model objects\eldewrito\reforge\block_1x8x6
+edittag objects\eldewrito\reforge\block_1x8x6.model
+setfield RenderModel objects\eldewrito\reforge\block_1x8x6.render_model
+setfield CollisionModel objects\eldewrito\reforge\block_1x8x6.collision_model
+setfield PhysicsModel objects\eldewrito\reforge\block_1x8x6.physics_model
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.crate objects\eldewrito\reforge\block_1x8x6
+edittag objects\eldewrito\reforge\block_1x8x6.crate
+setfield BoundingRadius 10.09
+setfield Model objects\eldewrito\reforge\block_1x8x6.model
+savetagchanges
+exit
+
+# 1x8x7 ----------------------------------------------------------------------------------------------
+ImportCollisionGeometry "workingdir\models\Reforge\1'\8'\block_1x8x7.dae" objects\eldewrito\reforge\block_1x8x7
+
+edittag objects\eldewrito\reforge\block_1x1x1.render_model
+copyblockelements materials 0 *
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.render_model objects\eldewrito\reforge\block_1x8x7
+edittag objects\eldewrito\reforge\block_1x8x7.render_model
+ReplaceRenderGeometry "workingdir\models\Reforge\1'\8'\block_1x8x7.dae"
+removeblockelements MarkerGroups 0 *
+removeblockelements materials 0 *
+pasteblockelements materials 0
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_01x01x01.physics_model objects\eldewrito\reforge\block_1x8x7
+edittag objects\eldewrito\reforge\block_1x8x7.physics_model
+SetField Boxes[0].HalfExtents 0.45 3.6 3.15
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.model objects\eldewrito\reforge\block_1x8x7
+edittag objects\eldewrito\reforge\block_1x8x7.model
+setfield RenderModel objects\eldewrito\reforge\block_1x8x7.render_model
+setfield CollisionModel objects\eldewrito\reforge\block_1x8x7.collision_model
+setfield PhysicsModel objects\eldewrito\reforge\block_1x8x7.physics_model
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.crate objects\eldewrito\reforge\block_1x8x7
+edittag objects\eldewrito\reforge\block_1x8x7.crate
+setfield BoundingRadius 10.09
+setfield Model objects\eldewrito\reforge\block_1x8x7.model
+savetagchanges
+exit
+
+# 1x8x8 ----------------------------------------------------------------------------------------------
+ImportCollisionGeometry "workingdir\models\Reforge\1'\8'\block_1x8x8.dae" objects\eldewrito\reforge\block_1x8x8
+
+edittag objects\eldewrito\reforge\block_1x1x1.render_model
+copyblockelements materials 0 *
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.render_model objects\eldewrito\reforge\block_1x8x8
+edittag objects\eldewrito\reforge\block_1x8x8.render_model
+ReplaceRenderGeometry "workingdir\models\Reforge\1'\8'\block_1x8x8.dae"
+removeblockelements MarkerGroups 0 *
+removeblockelements materials 0 *
+pasteblockelements materials 0
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_01x01x01.physics_model objects\eldewrito\reforge\block_1x8x8
+edittag objects\eldewrito\reforge\block_1x8x8.physics_model
+SetField Boxes[0].HalfExtents 0.45 3.6 3.6
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.model objects\eldewrito\reforge\block_1x8x8
+edittag objects\eldewrito\reforge\block_1x8x8.model
+setfield RenderModel objects\eldewrito\reforge\block_1x8x8.render_model
+setfield CollisionModel objects\eldewrito\reforge\block_1x8x8.collision_model
+setfield PhysicsModel objects\eldewrito\reforge\block_1x8x8.physics_model
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.crate objects\eldewrito\reforge\block_1x8x8
+edittag objects\eldewrito\reforge\block_1x8x8.crate
+setfield BoundingRadius 10.09
+setfield Model objects\eldewrito\reforge\block_1x8x8.model
+savetagchanges
+exit
+
+# Adding the 8' (HEIGHT) object to the pallet
+edittag multiplayer\forge_globals.forge_globals_definition
+addblockelements ReForgeObjects 1
+setfield ReForgeObjects[*].Instance objects\eldewrito\reforge\block_1x8x1.crate
+addblockelements ReForgeObjects 1
+setfield ReForgeObjects[*].Instance objects\eldewrito\reforge\block_1x8x2.crate
+addblockelements ReForgeObjects 1
+setfield ReForgeObjects[*].Instance objects\eldewrito\reforge\block_1x8x3.crate
+addblockelements ReForgeObjects 1
+setfield ReForgeObjects[*].Instance objects\eldewrito\reforge\block_1x8x4.crate
+addblockelements ReForgeObjects 1
+setfield ReForgeObjects[*].Instance objects\eldewrito\reforge\block_1x8x5.crate
+addblockelements ReForgeObjects 1
+setfield ReForgeObjects[*].Instance objects\eldewrito\reforge\block_1x8x6.crate
+addblockelements ReForgeObjects 1
+setfield ReForgeObjects[*].Instance objects\eldewrito\reforge\block_1x8x7.crate
+addblockelements ReForgeObjects 1
+setfield ReForgeObjects[*].Instance objects\eldewrito\reforge\block_1x8x8.crate
+savetagchanges
+exit
+
+# 183
+AddForgeCategory "8' (DEPTH)" "1' (WIDTH)"
+
+AddForgeItem "BLOCK [1 x 8 x 1]" "*" objects\eldewrito\reforge\block_1x8x1.crate
+AddForgeItem "BLOCK [1 x 8 x 2]" "*" objects\eldewrito\reforge\block_1x8x2.crate
+AddForgeItem "BLOCK [1 x 8 x 3]" "*" objects\eldewrito\reforge\block_1x8x3.crate
+AddForgeItem "BLOCK [1 x 8 x 4]" "*" objects\eldewrito\reforge\block_1x8x4.crate
+AddForgeItem "BLOCK [1 x 8 x 5]" "*" objects\eldewrito\reforge\block_1x8x5.crate
+AddForgeItem "BLOCK [1 x 8 x 6]" "*" objects\eldewrito\reforge\block_1x8x6.crate
+AddForgeItem "BLOCK [1 x 8 x 7]" "*" objects\eldewrito\reforge\block_1x8x7.crate
+AddForgeItem "BLOCK [1 x 8 x 8]" "*" objects\eldewrito\reforge\block_1x8x8.crate
+
+# 10' (Y) ----------------------------------------------------------------------
+
+# 1x10x6 ----------------------------------------------------------------------------------------------
+ImportCollisionGeometry "workingdir\models\Reforge\1'\10'\block_1x10x6.dae" objects\eldewrito\reforge\block_1x10x6
+
+edittag objects\eldewrito\reforge\block_1x1x1.render_model
+copyblockelements materials 0 *
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.render_model objects\eldewrito\reforge\block_1x10x6
+edittag objects\eldewrito\reforge\block_1x10x6.render_model
+ReplaceRenderGeometry "workingdir\models\Reforge\1'\10'\block_1x10x6.dae"
+removeblockelements MarkerGroups 0 *
+removeblockelements materials 0 *
+pasteblockelements materials 0
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_01x01x01.physics_model objects\eldewrito\reforge\block_1x10x6
+edittag objects\eldewrito\reforge\block_1x10x6.physics_model
+SetField Boxes[0].HalfExtents 0.45 4.5 2.7
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.model objects\eldewrito\reforge\block_1x10x6
+edittag objects\eldewrito\reforge\block_1x10x6.model
+setfield RenderModel objects\eldewrito\reforge\block_1x10x6.render_model
+setfield CollisionModel objects\eldewrito\reforge\block_1x10x6.collision_model
+setfield PhysicsModel objects\eldewrito\reforge\block_1x10x6.physics_model
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.crate objects\eldewrito\reforge\block_1x10x6
+edittag objects\eldewrito\reforge\block_1x10x6.crate
+setfield BoundingRadius 10.09
+setfield Model objects\eldewrito\reforge\block_1x10x6.model
+savetagchanges
+exit
+
+# 1x10x7 ----------------------------------------------------------------------------------------------
+ImportCollisionGeometry "workingdir\models\Reforge\1'\10'\block_1x10x7.dae" objects\eldewrito\reforge\block_1x10x7
+
+edittag objects\eldewrito\reforge\block_1x1x1.render_model
+copyblockelements materials 0 *
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.render_model objects\eldewrito\reforge\block_1x10x7
+edittag objects\eldewrito\reforge\block_1x10x7.render_model
+ReplaceRenderGeometry "workingdir\models\Reforge\1'\10'\block_1x10x7.dae"
+removeblockelements MarkerGroups 0 *
+removeblockelements materials 0 *
+pasteblockelements materials 0
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_01x01x01.physics_model objects\eldewrito\reforge\block_1x10x7
+edittag objects\eldewrito\reforge\block_1x10x7.physics_model
+SetField Boxes[0].HalfExtents 0.45 4.5 3.15
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.model objects\eldewrito\reforge\block_1x10x7
+edittag objects\eldewrito\reforge\block_1x10x7.model
+setfield RenderModel objects\eldewrito\reforge\block_1x10x7.render_model
+setfield CollisionModel objects\eldewrito\reforge\block_1x10x7.collision_model
+setfield PhysicsModel objects\eldewrito\reforge\block_1x10x7.physics_model
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.crate objects\eldewrito\reforge\block_1x10x7
+edittag objects\eldewrito\reforge\block_1x10x7.crate
+setfield BoundingRadius 10.09
+setfield Model objects\eldewrito\reforge\block_1x10x7.model
+savetagchanges
+exit
+
+# 1x10x8 ----------------------------------------------------------------------------------------------
+ImportCollisionGeometry "workingdir\models\Reforge\1'\10'\block_1x10x8.dae" objects\eldewrito\reforge\block_1x10x8
+
+edittag objects\eldewrito\reforge\block_1x1x1.render_model
+copyblockelements materials 0 *
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.render_model objects\eldewrito\reforge\block_1x10x8
+edittag objects\eldewrito\reforge\block_1x10x8.render_model
+ReplaceRenderGeometry "workingdir\models\Reforge\1'\10'\block_1x10x8.dae"
+removeblockelements MarkerGroups 0 *
+removeblockelements materials 0 *
+pasteblockelements materials 0
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_01x01x01.physics_model objects\eldewrito\reforge\block_1x10x8
+edittag objects\eldewrito\reforge\block_1x10x8.physics_model
+SetField Boxes[0].HalfExtents 0.45 4.5 3.6
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.model objects\eldewrito\reforge\block_1x10x8
+edittag objects\eldewrito\reforge\block_1x10x8.model
+setfield RenderModel objects\eldewrito\reforge\block_1x10x8.render_model
+setfield CollisionModel objects\eldewrito\reforge\block_1x10x8.collision_model
+setfield PhysicsModel objects\eldewrito\reforge\block_1x10x8.physics_model
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.crate objects\eldewrito\reforge\block_1x10x8
+edittag objects\eldewrito\reforge\block_1x10x8.crate
+setfield BoundingRadius 10.09
+setfield Model objects\eldewrito\reforge\block_1x10x8.model
+savetagchanges
+exit
+
+# 1x10x9 ----------------------------------------------------------------------------------------------
+ImportCollisionGeometry "workingdir\models\Reforge\1'\10'\block_1x10x9.dae" objects\eldewrito\reforge\block_1x10x9
+
+edittag objects\eldewrito\reforge\block_1x1x1.render_model
+copyblockelements materials 0 *
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.render_model objects\eldewrito\reforge\block_1x10x9
+edittag objects\eldewrito\reforge\block_1x10x9.render_model
+ReplaceRenderGeometry "workingdir\models\Reforge\1'\10'\block_1x10x9.dae"
+removeblockelements MarkerGroups 0 *
+removeblockelements materials 0 *
+pasteblockelements materials 0
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_01x01x01.physics_model objects\eldewrito\reforge\block_1x10x9
+edittag objects\eldewrito\reforge\block_1x10x9.physics_model
+SetField Boxes[0].HalfExtents 0.45 4.5 4.05
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.model objects\eldewrito\reforge\block_1x10x9
+edittag objects\eldewrito\reforge\block_1x10x9.model
+setfield RenderModel objects\eldewrito\reforge\block_1x10x9.render_model
+setfield CollisionModel objects\eldewrito\reforge\block_1x10x9.collision_model
+setfield PhysicsModel objects\eldewrito\reforge\block_1x10x9.physics_model
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.crate objects\eldewrito\reforge\block_1x10x9
+edittag objects\eldewrito\reforge\block_1x10x9.crate
+setfield BoundingRadius 10.09
+setfield Model objects\eldewrito\reforge\block_1x10x9.model
+savetagchanges
+exit
+
+# Adding the 10' (HEIGHT) object to the pallet
+edittag multiplayer\forge_globals.forge_globals_definition
+addblockelements ReForgeObjects 1
+setfield ReForgeObjects[*].Instance objects\eldewrito\reforge\block_1x10x6.crate
+addblockelements ReForgeObjects 1
+setfield ReForgeObjects[*].Instance objects\eldewrito\reforge\block_1x10x7.crate
+addblockelements ReForgeObjects 1
+setfield ReForgeObjects[*].Instance objects\eldewrito\reforge\block_1x10x8.crate
+addblockelements ReForgeObjects 1
+setfield ReForgeObjects[*].Instance objects\eldewrito\reforge\block_1x10x9.crate
+savetagchanges
+exit
+
+# 184
+AddForgeCategory "10' (DEPTH)" "1' (WIDTH)"
+
+AddForgeItem "BLOCK [1 x 10 x 6]" "*" objects\eldewrito\reforge\block_1x10x6.crate
+AddForgeItem "BLOCK [1 x 10 x 7]" "*" objects\eldewrito\reforge\block_1x10x7.crate
+AddForgeItem "BLOCK [1 x 10 x 8]" "*" objects\eldewrito\reforge\block_1x10x8.crate
+AddForgeItem "BLOCK [1 x 10 x 9]" "*" objects\eldewrito\reforge\block_1x10x9.crate
+
+# 20' (Y) ----------------------------------------------------------------------
+
+# 1x20x1 ----------------------------------------------------------------------------------------------
+ImportCollisionGeometry "workingdir\models\Reforge\1'\20'\block_1x20x1.dae" objects\eldewrito\reforge\block_1x20x1
+
+edittag objects\eldewrito\reforge\block_1x1x1.render_model
+copyblockelements materials 0 *
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.render_model objects\eldewrito\reforge\block_1x20x1
+edittag objects\eldewrito\reforge\block_1x20x1.render_model
+ReplaceRenderGeometry "workingdir\models\Reforge\1'\20'\block_1x20x1.dae"
+removeblockelements MarkerGroups 0 *
+removeblockelements materials 0 *
+pasteblockelements materials 0
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_01x01x01.physics_model objects\eldewrito\reforge\block_1x20x1
+edittag objects\eldewrito\reforge\block_1x20x1.physics_model
+SetField Boxes[0].HalfExtents 0.45 9 0.45
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.model objects\eldewrito\reforge\block_1x20x1
+edittag objects\eldewrito\reforge\block_1x20x1.model
+setfield RenderModel objects\eldewrito\reforge\block_1x20x1.render_model
+setfield CollisionModel objects\eldewrito\reforge\block_1x20x1.collision_model
+setfield PhysicsModel objects\eldewrito\reforge\block_1x20x1.physics_model
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.crate objects\eldewrito\reforge\block_1x20x1
+edittag objects\eldewrito\reforge\block_1x20x1.crate
+setfield BoundingRadius 14.14
+setfield Model objects\eldewrito\reforge\block_1x20x1.model
+savetagchanges
+exit
+
+# 1x20x5 ----------------------------------------------------------------------------------------------
+ImportCollisionGeometry "workingdir\models\Reforge\1'\20'\block_1x20x5.dae" objects\eldewrito\reforge\block_1x20x5
+
+edittag objects\eldewrito\reforge\block_1x1x1.render_model
+copyblockelements materials 0 *
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.render_model objects\eldewrito\reforge\block_1x20x5
+edittag objects\eldewrito\reforge\block_1x20x5.render_model
+ReplaceRenderGeometry "workingdir\models\Reforge\1'\20'\block_1x20x5.dae"
+removeblockelements MarkerGroups 0 *
+removeblockelements materials 0 *
+pasteblockelements materials 0
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_01x01x01.physics_model objects\eldewrito\reforge\block_1x20x5
+edittag objects\eldewrito\reforge\block_1x20x5.physics_model
+SetField Boxes[0].HalfExtents 0.45 9 2.25
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.model objects\eldewrito\reforge\block_1x20x5
+edittag objects\eldewrito\reforge\block_1x20x5.model
+setfield RenderModel objects\eldewrito\reforge\block_1x20x5.render_model
+setfield CollisionModel objects\eldewrito\reforge\block_1x20x5.collision_model
+setfield PhysicsModel objects\eldewrito\reforge\block_1x20x5.physics_model
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.crate objects\eldewrito\reforge\block_1x20x5
+edittag objects\eldewrito\reforge\block_1x20x5.crate
+setfield BoundingRadius 14.14
+setfield Model objects\eldewrito\reforge\block_1x20x5.model
+savetagchanges
+exit
+
+# 1x20x10 ----------------------------------------------------------------------------------------------
+ImportCollisionGeometry "workingdir\models\Reforge\1'\20'\block_1x20x10.dae" objects\eldewrito\reforge\block_1x20x10
+
+edittag objects\eldewrito\reforge\block_1x1x1.render_model
+copyblockelements materials 0 *
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.render_model objects\eldewrito\reforge\block_1x20x10
+edittag objects\eldewrito\reforge\block_1x20x10.render_model
+ReplaceRenderGeometry "workingdir\models\Reforge\1'\20'\block_1x20x10.dae"
+removeblockelements MarkerGroups 0 *
+removeblockelements materials 0 *
+pasteblockelements materials 0
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_01x01x01.physics_model objects\eldewrito\reforge\block_1x20x10
+edittag objects\eldewrito\reforge\block_1x20x10.physics_model
+SetField Boxes[0].HalfExtents 0.45 9 4.5
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.model objects\eldewrito\reforge\block_1x20x10
+edittag objects\eldewrito\reforge\block_1x20x10.model
+setfield RenderModel objects\eldewrito\reforge\block_1x20x10.render_model
+setfield CollisionModel objects\eldewrito\reforge\block_1x20x10.collision_model
+setfield PhysicsModel objects\eldewrito\reforge\block_1x20x10.physics_model
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.crate objects\eldewrito\reforge\block_1x20x10
+edittag objects\eldewrito\reforge\block_1x20x10.crate
+setfield BoundingRadius 14.14
+setfield Model objects\eldewrito\reforge\block_1x20x10.model
+savetagchanges
+exit
+
+# Adding the 20' (HEIGHT) object to the pallet
+edittag multiplayer\forge_globals.forge_globals_definition
+addblockelements ReForgeObjects 1
+setfield ReForgeObjects[*].Instance objects\eldewrito\reforge\block_1x20x1.crate
+addblockelements ReForgeObjects 1
+setfield ReForgeObjects[*].Instance objects\eldewrito\reforge\block_1x20x5.crate
+addblockelements ReForgeObjects 1
+setfield ReForgeObjects[*].Instance objects\eldewrito\reforge\block_1x20x10.crate
+savetagchanges
+exit
+
+# 185
+AddForgeCategory "20' (DEPTH)" "1' (WIDTH)"
+
+AddForgeItem "BLOCK [1 x 20 x 1]" "*" objects\eldewrito\reforge\block_1x20x1.crate
+AddForgeItem "BLOCK [1 x 20 x 5]" "*" objects\eldewrito\reforge\block_1x20x5.crate
+AddForgeItem "BLOCK [1 x 20 x 10]" "*" objects\eldewrito\reforge\block_1x20x10.crate
+
+# 50' (Y) ----------------------------------------------------------------------
+
+# 1x50x10 ----------------------------------------------------------------------------------------------
+ImportCollisionGeometry "workingdir\models\Reforge\1'\50'\block_1x50x10.dae" objects\eldewrito\reforge\block_1x50x10
+
+edittag objects\eldewrito\reforge\block_1x1x1.render_model
+copyblockelements materials 0 *
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.render_model objects\eldewrito\reforge\block_1x50x10
+edittag objects\eldewrito\reforge\block_1x50x10.render_model
+ReplaceRenderGeometry "workingdir\models\Reforge\1'\50'\block_1x50x10.dae"
+removeblockelements MarkerGroups 0 *
+removeblockelements materials 0 *
+pasteblockelements materials 0
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_01x01x01.physics_model objects\eldewrito\reforge\block_1x50x10
+edittag objects\eldewrito\reforge\block_1x50x10.physics_model
+SetField Boxes[0].HalfExtents 0.45 22.5 4.5
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.model objects\eldewrito\reforge\block_1x50x10
+edittag objects\eldewrito\reforge\block_1x50x10.model
+setfield RenderModel objects\eldewrito\reforge\block_1x50x10.render_model
+setfield CollisionModel objects\eldewrito\reforge\block_1x50x10.collision_model
+setfield PhysicsModel objects\eldewrito\reforge\block_1x50x10.physics_model
+setfield DisappearDistance 300
+setfield BeginFadeDistance 290
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.crate objects\eldewrito\reforge\block_1x50x10
+edittag objects\eldewrito\reforge\block_1x50x10.crate
+setfield BoundingRadius 42.42
+setfield Model objects\eldewrito\reforge\block_1x50x10.model
+savetagchanges
+exit
+
+# 1x50x20 ----------------------------------------------------------------------------------------------
+ImportCollisionGeometry "workingdir\models\Reforge\1'\50'\block_1x50x20.dae" objects\eldewrito\reforge\block_1x50x20
+
+edittag objects\eldewrito\reforge\block_1x1x1.render_model
+copyblockelements materials 0 *
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.render_model objects\eldewrito\reforge\block_1x50x20
+edittag objects\eldewrito\reforge\block_1x50x20.render_model
+ReplaceRenderGeometry "workingdir\models\Reforge\1'\50'\block_1x50x20.dae"
+removeblockelements MarkerGroups 0 *
+removeblockelements materials 0 *
+pasteblockelements materials 0
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_01x01x01.physics_model objects\eldewrito\reforge\block_1x50x20
+edittag objects\eldewrito\reforge\block_1x50x20.physics_model
+SetField Boxes[0].HalfExtents 0.45 22.5 9
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.model objects\eldewrito\reforge\block_1x50x20
+edittag objects\eldewrito\reforge\block_1x50x20.model
+setfield RenderModel objects\eldewrito\reforge\block_1x50x20.render_model
+setfield CollisionModel objects\eldewrito\reforge\block_1x50x20.collision_model
+setfield PhysicsModel objects\eldewrito\reforge\block_1x50x20.physics_model
+setfield DisappearDistance 300
+setfield BeginFadeDistance 290
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.crate objects\eldewrito\reforge\block_1x50x20
+edittag objects\eldewrito\reforge\block_1x50x20.crate
+setfield BoundingRadius 42.42
+setfield Model objects\eldewrito\reforge\block_1x50x20.model
+savetagchanges
+exit
+
+# 1x50x50 ----------------------------------------------------------------------------------------------
+ImportCollisionGeometry "workingdir\models\Reforge\1'\50'\block_1x50x50.dae" objects\eldewrito\reforge\block_1x50x50
+
+edittag objects\eldewrito\reforge\block_1x1x1.render_model
+copyblockelements materials 0 *
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.render_model objects\eldewrito\reforge\block_1x50x50
+edittag objects\eldewrito\reforge\block_1x50x50.render_model
+ReplaceRenderGeometry "workingdir\models\Reforge\1'\50'\block_1x50x50.dae"
+removeblockelements MarkerGroups 0 *
+removeblockelements materials 0 *
+pasteblockelements materials 0
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_01x01x01.physics_model objects\eldewrito\reforge\block_1x50x50
+edittag objects\eldewrito\reforge\block_1x50x50.physics_model
+SetField Boxes[0].HalfExtents 0.45 22.5 22.5
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.model objects\eldewrito\reforge\block_1x50x50
+edittag objects\eldewrito\reforge\block_1x50x50.model
+setfield RenderModel objects\eldewrito\reforge\block_1x50x50.render_model
+setfield CollisionModel objects\eldewrito\reforge\block_1x50x50.collision_model
+setfield PhysicsModel objects\eldewrito\reforge\block_1x50x50.physics_model
+setfield DisappearDistance 300
+setfield BeginFadeDistance 290
+savetagchanges
+exit
+
+duplicatetag objects\eldewrito\reforge\block_1x1x1.crate objects\eldewrito\reforge\block_1x50x50
+edittag objects\eldewrito\reforge\block_1x50x50.crate
+setfield BoundingRadius 42.42
+setfield Model objects\eldewrito\reforge\block_1x50x50.model
+savetagchanges
+exit
+
+# Adding the 50' (HEIGHT) object to the pallet
+edittag multiplayer\forge_globals.forge_globals_definition
+addblockelements ReForgeObjects 1
+setfield ReForgeObjects[*].Instance objects\eldewrito\reforge\block_1x50x10.crate
+addblockelements ReForgeObjects 1
+setfield ReForgeObjects[*].Instance objects\eldewrito\reforge\block_1x50x20.crate
+addblockelements ReForgeObjects 1
+setfield ReForgeObjects[*].Instance objects\eldewrito\reforge\block_1x50x50.crate
+savetagchanges
+exit
+
+# 186
+AddForgeCategory "50' (DEPTH)" "1' (WIDTH)"
+
+AddForgeItem "BLOCK [1 x 50 x 10]" "*" objects\eldewrito\reforge\block_1x50x10.crate
+AddForgeItem "BLOCK [1 x 50 x 20]" "*" objects\eldewrito\reforge\block_1x50x20.crate
+AddForgeItem "BLOCK [1 x 50 x 50]" "*" objects\eldewrito\reforge\block_1x50x50.crate

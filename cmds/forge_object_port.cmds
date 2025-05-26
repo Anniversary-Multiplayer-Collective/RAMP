@@ -390,7 +390,14 @@ PortTag objects\levels\forge\ff_light_orange\ff_light_orange.bloc
 PortTag objects\levels\forge\ff_light_purple\ff_light_purple.bloc
 PortTag objects\levels\forge\ff_light_blue\ff_light_blue.bloc
 
+PortInstancedGeometryObject 0 1475 objects\ramp\shared\forge_island\forge_island
 Exit
+
+EditTag objects\ramp\shared\forge_island\forge_island.model
+SetField DisappearDistance 1165
+SetField BeginFadeDistance 9319
+savetagchanges
+exit
 
 # echo ==Fix Shield Doors...==
 EditTag objects\levels\forge\ff_one_way_door_garage\ff_one_way_door_garage.physics_model
@@ -572,7 +579,29 @@ PortTag objects\cex\cex_timberland\ff_timberland_rock_small\ff_timberland_rock_s
 PortTag objects\cex\cex_timberland\ff_timberland_rock_spire_a\ff_timberland_rock_spire_a.crate
 PortTag objects\cex\cex_timberland\ff_timberland_rock_spire_b\ff_timberland_rock_spire_b.crate
 PortTag objects\cex\cex_timberland\crate_packing_easter\crate_packing_easter.crate
-Exit
+
+PortInstancedGeometryObject 0 796 objects\ramp\shared\blue_base_tower\blue_base_tower
+PortInstancedGeometryObject 0 603 objects\ramp\shared\red_base_tower\red_base_tower
+PortInstancedGeometryObject 0 74 objects\ramp\shared\birch_tree\birch_tree
+PortInstancedGeometryObject 0 132 objects\ramp\shared\spruce_tree\spruce_tree
+exit
+
+ForEach model contains: objects\ramp\shared\blue_base_tower\blue_base_tower SetField Materials[0].GlobalMaterialIndex 69
+ForEach model contains: objects\ramp\shared\red_base_tower\red_base_tower SetField Materials[0].GlobalMaterialIndex 69
+ForEach model contains: objects\ramp\shared\birch_tree\birch_tree SetField Materials[0].GlobalMaterialIndex 46
+ForEach model contains: objects\ramp\shared\spruce_tree\spruce_tree SetField Materials[0].GlobalMaterialIndex 46
+
+# TREE
+edittag objects\ramp\shared\birch_tree\birch_tree.render_model
+SetField Geometry.Meshes[0].Parts[0].FlagsNew PreventBackfaceCulling
+savetagchanges
+exit
+
+edittag objects\ramp\shared\spruce_tree\spruce_tree.render_model
+SetField Geometry.Meshes[0].Parts[1].FlagsNew PreventBackfaceCulling
+savetagchanges
+exit
+
 
 
 OpenCacheFile "reachmaps\cex_hangemhigh.map"
@@ -677,7 +706,41 @@ Exit
 
 OpenCacheFile "reachmaps\cex_headlong.map"
 PortTag objects\cex\cex_headlong\forge\ff_door\ff_door.crate
-Exit
+
+PortInstancedGeometryObject 0 2383 objects\ramp\shared\superintendant_evacuate_sign\superintendant_evacuate_sign
+PortInstancedGeometryObject 0 173 objects\ramp\shared\overpass\overpass
+PortInstancedGeometryObject 0 1813 objects\ramp\shared\street\street
+PortInstancedGeometryObject 0 1907 objects\ramp\shared\street_ramp\street_ramp
+PortInstancedGeometryObject 0 1888 objects\ramp\shared\tree_pot_destroyed\tree_pot_destroyed
+PortInstancedGeometryObject 0 454 objects\ramp\shared\tree_pot\tree_pot
+PortInstancedGeometryObject 0 90 objects\ramp\shared\stakugoldenwarthog\stakugoldenwarthog
+exit
+
+ForEach model contains: objects\ramp\shared\superintendant_evacuate_sign\superintendant_evacuate_sign SetField Materials[0].GlobalMaterialIndex 70
+ForEach model contains: objects\ramp\shared\overpass\overpass SetField Materials[0].GlobalMaterialIndex 104
+ForEach model contains: objects\ramp\shared\street\street SetField Materials[0].GlobalMaterialIndex 104
+ForEach model contains: objects\ramp\shared\street_ramp\street_ramp SetField Materials[0].GlobalMaterialIndex 104
+ForEach model contains: objects\ramp\shared\tree_pot_destroyed\tree_pot_destroyed SetField Materials[0].GlobalMaterialIndex 141
+# ForEach model contains: objects\ramp\shared\stakugoldenwarthog\stakugoldenwarthog SetField Materials[0].GlobalMaterialIndex 55
+
+# GOLD WARTHOG BANNER
+ImportCollisionGeometry mopp "workingdir\models\golden_warthog.dae" objects\ramp\shared\stakugoldenwarthog_fixup\stakugoldenwarthog_fixup
+edittag objects\ramp\shared\stakugoldenwarthog_fixup\stakugoldenwarthog_fixup.collision_model
+setfield Regions[0].Permutations[0].BspPhysics[0].GeometryShape.Model objects\ramp\shared\stakugoldenwarthog\stakugoldenwarthog.model
+# MoppData import "workingdir\empty_mopp_data.txt"
+savetagchanges
+exit
+
+edittag objects\ramp\shared\stakugoldenwarthog\stakugoldenwarthog.model
+setfield CollisionModel objects\ramp\shared\stakugoldenwarthog_fixup\stakugoldenwarthog_fixup.collision_model
+setfield CollisionRegions[0].Permutations[0].CollisionPermutationIndex 0
+setfield CollisionRegions[0].CollisionRegionIndex 0
+addblockelements Materials
+setfield Materials[0].DamageSectionIndex -1
+setfield Materials[0].RuntimeDamagerMaterialIndex -1
+setfield Materials[0].GlobalMaterialIndex 54
+savetagchanges
+exit
 
 OpenCacheFile "reachmaps\cex_prisoner.map"
 PortTag objects\cex\cex_prisoner\forge\ff_prisoner_doorblocker_b\ff_prisoner_doorblocker_b.crate
@@ -693,6 +756,167 @@ Exit
 OpenCacheFile "reachmaps\m70_a.map"
 PortTag objects\cinematics\halo\halo.scenery
 Exit
+
+# HALO RING
+ImportCollisionGeometry mopp "workingdir\models\halo_ring.dae" objects\cinematics\halo\halo
+edittag objects\cinematics\halo\halo.collision_model
+setfield Regions[0].Permutations[0].BspPhysics[0].GeometryShape.Model objects\cinematics\halo\halo.model
+# MoppData import "workingdir\empty_mopp_data.txt"
+savetagchanges
+exit
+
+edittag objects\cinematics\halo\halo.model
+setfield CollisionModel objects\cinematics\halo\halo.collision_model
+setfield CollisionRegions[0].Permutations[0].CollisionPermutationIndex 0
+setfield CollisionRegions[0].CollisionRegionIndex 0
+addblockelements Materials
+setfield Materials[0].DamageSectionIndex -1
+setfield Materials[0].RuntimeDamagerMaterialIndex -1
+setfield Materials[0].GlobalMaterialIndex 54
+savetagchanges
+exit
+
+# -----------------------------------------------
+# |                   ANCHOR 9                  |
+# -----------------------------------------------
+opencachefile "reachmaps\dlc_slayer.map"
+PortInstancedGeometryObject 0 1475 objects\ramp\shared\sabre_dismantle\sabre_dismantle
+exit
+ForEach model contains: objects\ramp\shared\sabre_dismantle\sabre_dismantle SetField Materials[0].GlobalMaterialIndex 75
+
+# -----------------------------------------------
+# |                  BOARDWALK                  |
+# -----------------------------------------------
+opencachefile "reachmaps\50_panopticon.map"
+PortInstancedGeometryObject 0 2132 objects\ramp\shared\front_counter\front_counter
+PortInstancedGeometryObject 0 2479 objects\ramp\shared\front_shelf\front_shelf
+PortInstancedGeometryObject 0 2208 objects\ramp\shared\dining_set\dining_set
+PortInstancedGeometryObject 0 1887 objects\ramp\shared\dining_set_glass\dining_set_glass
+PortInstancedGeometryObject 0 1103 objects\ramp\shared\dining_set_glass_small\dining_set_glass_small
+PortInstancedGeometryObject 0 1890 objects\ramp\shared\modern_sink\modern_sink
+PortInstancedGeometryObject 0 934 objects\ramp\shared\signage_blue_tilling_cut\signage_blue_tilling_cut
+PortInstancedGeometryObject 0 1053 objects\ramp\shared\signage_blue_tilling\signage_blue_tilling
+PortInstancedGeometryObject 0 1159 objects\ramp\shared\signage_teal_tilling\signage_teal_tilling
+PortInstancedGeometryObject 0 2285 objects\ramp\shared\signage_green_tilling\signage_green_tilling
+PortInstancedGeometryObject 0 549 objects\ramp\shared\plant_bed_large\plant_bed_large
+PortInstancedGeometryObject 0 184 objects\ramp\shared\plant_bed_medium\plant_bed_medium
+PortInstancedGeometryObject 0 2305 objects\ramp\shared\canopy_tree\canopy_tree
+PortInstancedGeometryObject 0 895 objects\ramp\shared\columnar_tree\columnar_tree
+exit
+
+ForEach model contains: objects\ramp\shared\front_shelf\front_shelf SetField Materials[0].GlobalMaterialIndex 142
+ForEach model contains: objects\ramp\shared\dining_set\dining_set SetField Materials[0].GlobalMaterialIndex 142
+ForEach model contains: objects\ramp\shared\dining_set_glass\dining_set_glass SetField Materials[0].GlobalMaterialIndex 73
+ForEach model contains: objects\ramp\shared\modern_sink\modern_sink SetField Materials[0].GlobalMaterialIndex 54
+ForEach model contains: objects\ramp\shared\signage_blue_tilling_cut\signage_blue_tilling_cut SetField Materials[0].GlobalMaterialIndex 223
+ForEach model contains: objects\ramp\shared\signage_blue_tilling\signage_blue_tilling SetField Materials[0].GlobalMaterialIndex 223
+ForEach model contains: objects\ramp\shared\signage_green_tilling\signage_green_tilling SetField Materials[0].GlobalMaterialIndex 223
+ForEach model contains: objects\ramp\shared\signage_teal_tilling\signage_teal_tilling SetField Materials[0].GlobalMaterialIndex 223
+ForEach model contains: objects\ramp\shared\plant_bed_large\plant_bed_large SetField Materials[0].GlobalMaterialIndex 141
+ForEach model contains: objects\ramp\shared\canopy_tree\canopy_tree SetField Materials[0].GlobalMaterialIndex 46
+ForEach model contains: objects\ramp\shared\columnar_tree\columnar_tree SetField Materials[0].GlobalMaterialIndex 46
+
+# TREE
+EditTag objects\ramp\shared\columnar_tree\columnar_tree.render_model
+SetField Geometry.Meshes[0].Parts[0].FlagsNew PreventBackfaceCulling
+savetagchanges
+exit
+
+edittag objects\ramp\shared\canopy_tree\canopy_tree.render_model
+SetField Geometry.Meshes[0].Parts[0].FlagsNew PreventBackfaceCulling
+SetField Geometry.Meshes[0].Parts[1].FlagsNew PreventBackfaceCulling
+savetagchanges
+exit
+
+# PLANT BED GRASS
+DuplicateTag levels\solo\m50\shaders\natural\mulch_a.shader levels\solo\m50\shaders\natural\mulch_a_ramp
+edittag levels\solo\m50\shaders\natural\mulch_a_ramp.shader
+SetField ShaderProperties[0].TextureConstants[0].Bitmap levels\multi\s3d_reactor\materials\s3d_reactor_collision_material_55\base_map_m_3.bitmap
+SetArgument base_map 0.3 0.3 0 0
+savetagchanges
+exit
+
+edittag objects\ramp\shared\plant_bed_large\plant_bed_large.render_model
+SetField Materials[0].RenderMethod levels\solo\m50\shaders\natural\mulch_a_ramp.shader
+savetagchanges
+exit
+
+edittag objects\ramp\shared\plant_bed_medium\plant_bed_medium.render_model
+SetField Materials[2].RenderMethod levels\solo\m50\shaders\natural\mulch_a_ramp.shader
+savetagchanges
+exit
+
+# -----------------------------------------------
+# |                 POWERHOUSE                  |
+# -----------------------------------------------
+opencachefile "reachmaps\30_settlement.map"
+PortInstancedGeometryObject 0 1224 objects\ramp\shared\fridge\fridge
+exit
+
+ForEach model contains: objects\ramp\shared\fridge\fridge SetField Materials[0].GlobalMaterialIndex  54
+
+# -----------------------------------------------
+# |                 REFLECTION                  |
+# -----------------------------------------------
+opencachefile "reachmaps\52_ivory_tower.map"
+PortInstancedGeometryObject 1 746 objects\ramp\shared\tower_viewer\tower_viewer
+PortInstancedGeometryObject 1 429 objects\ramp\shared\chinese_dragon_fountain\chinese_dragon_fountain
+PortInstancedGeometryObject 1 992 objects\ramp\shared\chinese_dragon_carving_monument\chinese_dragon_carving_monument
+PortInstancedGeometryObject 1 741 objects\ramp\shared\chinese_meander_carving_tower\chinese_meander_carving_tower
+PortInstancedGeometryObject 1 1055 objects\ramp\shared\chinese_meander_fountain\chinese_meander_fountain
+PortInstancedGeometryObject 1 1060 objects\ramp\shared\chinese_north_sign\chinese_north_sign
+PortInstancedGeometryObject 1 1058 objects\ramp\shared\chinese_east_sign\chinese_east_sign
+PortInstancedGeometryObject 1 1033 objects\ramp\shared\chinese_south_sign\chinese_south_sign
+PortInstancedGeometryObject 1 491 objects\ramp\shared\chinese_west_sign\chinese_west_sign
+exit
+
+ForEach model contains: objects\ramp\shared\tower_viewer\tower_viewer SetField Materials[0].GlobalMaterialIndex 54
+ForEach model contains: objects\ramp\shared\chinese_dragon_fountain\chinese_dragon_fountain SetField Materials[0].GlobalMaterialIndex 239
+ForEach model contains: objects\ramp\shared\chinese_dragon_carving_monument\chinese_dragon_carving_monument SetField Materials[0].GlobalMaterialIndex 239
+ForEach model contains: objects\ramp\shared\chinese_meander_carving_tower\chinese_meander_carving_tower SetField Materials[0].GlobalMaterialIndex 102
+ForEach model contains: objects\ramp\shared\chinese_meander_fountain\chinese_meander_fountain SetField Materials[0].GlobalMaterialIndex 239
+
+ForEach model contains: objects\ramp\shared\chinese_north_sign\chinese_north_sign SetField Materials[0].GlobalMaterialIndex 55
+ForEach model contains: objects\ramp\shared\chinese_east_sign\chinese_east_sign SetField Materials[0].GlobalMaterialIndex 55
+ForEach model contains: objects\ramp\shared\chinese_south_sign\chinese_south_sign SetField Materials[0].GlobalMaterialIndex 55
+ForEach model contains: objects\ramp\shared\chinese_west_sign\chinese_west_sign SetField Materials[0].GlobalMaterialIndex 55
+
+# -----------------------------------------------
+# |                  OVERLOOK                   |
+# -----------------------------------------------
+opencachefile "reachmaps\ff10_prototype.map"
+PortInstancedGeometryObject 1 1321 objects\ramp\shared\road\road
+PortInstancedGeometryObject 1 2964 objects\ramp\shared\woodchipper\woodchipper
+exit
+
+ForEach model contains: objects\ramp\shared\road\road SetField Materials[0].GlobalMaterialIndex 104
+ForEach model contains: objects\ramp\shared\woodchipper\woodchipper SetField Materials[0].GlobalMaterialIndex 221
+
+# -----------------------------------------------
+# |                 UNEARTHED                   |
+# -----------------------------------------------
+opencachefile "reachmaps\ff_unearthed.map"
+# PortInstancedGeometryObject 0 1616 objects\ramp\shared\military_antenna\military_antenna
+# PortInstancedGeometryObject 0 1780 objects\ramp\shared\pillar\pillar
+# PortInstancedGeometryObject 0 1642 objects\ramp\shared\huge_watertank\huge_watertank
+PortInstancedGeometryObject 0 465 objects\ramp\shared\unearthed_warehouse\unearthed_warehouse
+PortInstancedGeometryObject 0 26 objects\ramp\shared\unearthed_warehouse_roof\unearthed_warehouse_roof
+PortInstancedGeometryObject 0 240 objects\ramp\shared\unearthed_warehouse_roof_truss\unearthed_warehouse_roof_truss
+PortInstancedGeometryObject 0 1618 objects\ramp\shared\street_light\street_light
+PortInstancedGeometryObject 0 452 objects\ramp\shared\metal_scaffolding\metal_scaffolding
+PortInstancedGeometryObject 0 1308 objects\ramp\shared\conveyor_belt\conveyor_belt
+PortInstancedGeometryObject 0 926 objects\ramp\shared\platform_d\platform_d
+PortInstancedGeometryObject 0 1275 objects\ramp\shared\titanium_shard\titanium_shard
+exit
+
+ForEach model contains:objects\ramp\shared\unearthed_warehouse\unearthed_warehouse SetField Materials[0].GlobalMaterialIndex 104
+ForEach model contains:objects\ramp\shared\unearthed_warehouse_roof\unearthed_warehouse_roof SetField Materials[0].GlobalMaterialIndex 55
+ForEach model contains:objects\ramp\shared\unearthed_warehouse_roof_truss\unearthed_warehouse_roof_truss SetField Materials[0].GlobalMaterialIndex 54
+ForEach model contains:objects\ramp\shared\street_light\street_light SetField Materials[0].GlobalMaterialIndex 54
+ForEach model contains:objects\ramp\shared\metal_scaffolding\metal_scaffolding SetField Materials[0].GlobalMaterialIndex 89
+ForEach model contains:objects\ramp\shared\conveyor_belt\conveyor_belt SetField Materials[0].GlobalMaterialIndex 36
+ForEach model contains:objects\ramp\shared\platform_d\platform_d SetField Materials[0].GlobalMaterialIndex 69
+ForEach model contains:objects\ramp\shared\titanium_shard\titanium_shard SetField Materials[0].GlobalMaterialIndex 103
 
 echo ==Remove damage from forge items from applied pak...==
 ForEach hlmt contains: objects\levels\forge RemoveBlockElements NewDamageInfo 0 *
