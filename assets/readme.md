@@ -40,6 +40,7 @@ Welcome to RAMP, a community effort to transform Eldewrito into Halo Reach while
 * Added Firefight default map variants (Geometry pop in\out still exsits, Will be fixed in ED 0.7.2)
 * Added Better grenades and drop shield effects
 * Added a bunch of misc forge objects
+* Added tracking to Rocket Launcher for Air Vehicles
 * Fixed render distance issue with Boulder_Scale model
 * Fixed Magnum crosshair penalites
 * Fixed up Reach vehicle sounds
@@ -52,6 +53,8 @@ Welcome to RAMP, a community effort to transform Eldewrito into Halo Reach while
 * Fixed ammo counter inaccuracies on Battle Rifle power and SMG damage
 * Fixed Plasma Pistol and Plasma Rifle using the wrong weapons icon
 * Fixed hologram shader issue
+* Fixed Oddball FP animations
+* Fixed SPI armor shader
 * Fix Relfection coll projectile issue
 * Fix Condemned coll projectile issue
 * Increased explosion LOD
