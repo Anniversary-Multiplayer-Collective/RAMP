@@ -461,6 +461,13 @@ OpenModPackage "workingdir\paks\ramphud.pak"
 ApplyModPackage
 ExitModPackage
 
+echo ==SPI SHADER FIX==
+
+edittag objects\characters\masterchief\shaders\spartan_helmet_s9_spi.shader
+setargument booleans order3_area_specular
+savetagchanges
+exit
+
 EditTag ui\halox\game_options\game_options.gui_skin_definition
 SetField TextWidgets[0].Definition.GuiRenderBlock.AnimationCollection ui\halox\game_options\animations\options_list_item.gui_widget_animation_collection_definition
 SetField TextWidgets[1].Definition.GuiRenderBlock.AnimationCollection ui\halox\game_options\animations\options_value.gui_widget_animation_collection_definition
