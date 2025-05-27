@@ -391,18 +391,3 @@ SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
 CompilePodiumScripts
 SaveTagChanges
 Exit
-
-EditTag levels\eldewrito\canvas\void.scenario
-AddBlockElements CutsceneCameraPoints
-SetField CutsceneCameraPoints[0].Name "prematch_camera"
-SetField CutsceneCameraPoints[0].Flags PrematchCameraHack
-SetField CutsceneCameraPoints[0].Position 0 0 0
-SetField CutsceneCameraPoints[0].Orientation 0 0 0
-AddBlockElements CutsceneCameraPoints
-SetField CutsceneCameraPoints[1].Name "podium_camera"
-SetField CutsceneCameraPoints[1].Position 0 0 0
-SetField CutsceneCameraPoints[1].Orientation 0 0 0
-SetField CutsceneCameraPoints[1].Flags PodiumCameraHack
-CompilePodiumScripts
-SaveTagChanges
-Exit
