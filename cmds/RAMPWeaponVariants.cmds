@@ -606,13 +606,6 @@ ReplaceRenderGeometry workingdir\models\automag.dae TriangleStrip
 SaveTagChanges
 Exit
 
-EditTag objects\weapons\pistol\plasma_pistol\plasma_pistol_gold_fp.render_model
-SetField Materials[5].RenderMethod dw3\r3ach\objects\weapons\pistol\plasma_pistol\shaders\plasma_pistol_pilot.shader
-ReplaceRenderGeometry workingdir\models\pp_power.dae TriangleStrip
-SaveTagChanges
-Exit
-
-
 # Shader fix
 EditTag objects\weapons\rifle\assault_rifle\assault_rifle_red_fp.render_model
 SetField Materials[9].RenderMethod objects\weapons\rifle\assault_rifle\shaders\item_red.shader
@@ -710,3 +703,134 @@ SetField Materials[1].RenderMethod objects\weapons\rifle\smg\shaders\reach_smg_r
 SetField Materials[2].RenderMethod objects\weapons\rifle\smg\shaders\reach_smg_rubber_gold.shader
 SaveTagChanges
 Exit
+
+# TEXTURE FIXUP
+# DMR NORMALS
+foreach shader startingwith: objects\weapons\rifle\dmr\shaders\dmr_composite SetField ShaderProperties[0].TextureConstants[2].Bitmap dw3\r3ach\objects\weapons\rifle\dmr\bitmaps\dmr_normal.bitmap
+
+foreach shader startingwith: objects\weapons\rifle\br\shaders\br_rubber_base SetField ShaderProperties[0].TextureConstants[2].Bitmap dw3\r3ach\objects\weapons\rifle\dmr\bitmaps\dmr_normal.bitmap
+
+foreach shader startingwith: objects\weapons\rifle\dmr\shaders\dmr_metal SetField ShaderProperties[0].TextureConstants[2].Bitmap dw3\r3ach\objects\weapons\rifle\dmr\bitmaps\dmr_normal.bitmap
+
+foreach shader startingwith: objects\weapons\rifle\dmr\shaders\dmr_rubber SetField ShaderProperties[0].TextureConstants[2].Bitmap dw3\r3ach\objects\weapons\rifle\dmr\bitmaps\dmr_normal.bitmap
+
+# DMR DIFFUSE
+edittag objects\weapons\rifle\dmr\shaders\dmr_composite.shader
+SetField ShaderProperties[0].TextureConstants[0].Bitmap dw3\r3ach\objects\weapons\rifle\dmr\bitmaps\dmr_diffuse.bitmap
+savetagchanges
+exit
+
+foreach shader startingwith: objects\weapons\rifle\dmr\shaders\dmr_metal_shiny SetField ShaderProperties[0].TextureConstants[0].Bitmap dw3\r3ach\objects\weapons\rifle\dmr\bitmaps\dmr_diffuse.bitmap
+foreach shader startingwith: objects\weapons\rifle\dmr\shaders\dmr_rubber SetField ShaderProperties[0].TextureConstants[0].Bitmap dw3\r3ach\objects\weapons\rifle\dmr\bitmaps\dmr_diffuse.bitmap
+
+
+# AR NORMALS
+foreach shader startingwith: objects\weapons\rifle\assault_rifle\shaders\assault_rifle_composite_red SetField ShaderProperties[0].TextureConstants[2].Bitmap dw3\r3ach\objects\weapons\rifle\assault_rifle\bitmaps\assault_rifle_normal.bitmap
+foreach shader startingwith: objects\weapons\rifle\assault_rifle\shaders\assault_rifle_composite_green SetField ShaderProperties[0].TextureConstants[2].Bitmap dw3\r3ach\objects\weapons\rifle\assault_rifle\bitmaps\assault_rifle_normal.bitmap
+foreach shader startingwith: objects\weapons\rifle\assault_rifle\shaders\assault_rifle_composite_orange SetField ShaderProperties[0].TextureConstants[2].Bitmap dw3\r3ach\objects\weapons\rifle\assault_rifle\bitmaps\assault_rifle_normal.bitmap
+foreach shader startingwith: objects\weapons\rifle\assault_rifle\shaders\assault_rifle_composite_gold SetField ShaderProperties[0].TextureConstants[2].Bitmap dw3\r3ach\objects\weapons\rifle\assault_rifle\bitmaps\assault_rifle_normal.bitmap
+foreach shader startingwith: objects\weapons\rifle\assault_rifle\shaders\assault_rifle_metal_shiny_gold SetField ShaderProperties[0].TextureConstants[2].Bitmap dw3\r3ach\objects\weapons\rifle\assault_rifle\bitmaps\assault_rifle_normal.bitmap
+
+# MAGNUM DIFFUSE
+foreach shader startingwith: objects\weapons\pistol\magnum\shaders\magnum_composite SetField ShaderProperties[0].TextureConstants[0].Bitmap dw3\r3ach\objects\weapons\pistol\magnum\bitmaps\magnum_diffuse.bitmap
+foreach shader startingwith: objects\weapons\pistol\magnum\shaders\magnum_metal SetField ShaderProperties[0].TextureConstants[0].Bitmap dw3\r3ach\objects\weapons\pistol\magnum\bitmaps\magnum_diffuse.bitmap
+foreach shader startingwith: objects\weapons\pistol\magnum\shaders\magnum_engraving SetField ShaderProperties[0].TextureConstants[0].Bitmap dw3\r3ach\objects\weapons\pistol\magnum\bitmaps\magnum_diffuse.bitmap
+
+# MAGNUM ZBUMP
+foreach shader startingwith: objects\weapons\pistol\magnum\shaders\magnum SetField ShaderProperties[0].TextureConstants[2].Bitmap dw3\r3ach\objects\weapons\pistol\magnum\bitmaps\magnum_zbump.bitmap
+
+foreach shader startingwith: objects\weapons\pistol\magnum\shaders\magnum_illum SetField ShaderProperties[0].TextureConstants[2].Bitmap objects\weapons\pistol\magnum\bitmaps\magnum_illum.bitmap
+
+
+# -----------------------------------------
+# |           THE GOLDEN SHOWER           |
+# -----------------------------------------
+
+# PLASMA RIFLE
+# ---------------------------------------------------------------------------------
+DuplicateTag dw3\r3ach\objects\weapons\rifle\plasma_rifle\shaders\plasma_rifle_shell.shader dw3\r3ach\objects\weapons\rifle\plasma_rifle\shaders\plasma_rifle_shell_gold
+EditTag dw3\r3ach\objects\weapons\rifle\plasma_rifle\shaders\plasma_rifle_shell_gold.shader
+setargument albedo_color 2.5 1 0 1
+setargument specular_tint 0.6070588 0.4872549 0.3588235 1
+setargument fresnel_color 1 0.4 0 1
+setargument env_tint_color 1.088235 0.966667 0 1
+SaveTagchanges
+exit
+
+DuplicateTag dw3\r3ach\objects\weapons\rifle\plasma_rifle\plasma_rifle.render_model dw3\r3ach\objects\weapons\rifle\plasma_rifle_gold\plasma_rifle_gold
+EditTag dw3\r3ach\objects\weapons\rifle\plasma_rifle_gold\plasma_rifle_gold.render_model
+SetField Materials[2].RenderMethod dw3\r3ach\objects\weapons\rifle\plasma_rifle\shaders\plasma_rifle_shell_gold.shader
+SaveTagChanges
+Exit
+
+DuplicateTag dw3\r3ach\objects\weapons\rifle\plasma_rifle\plasma_rifle.model dw3\r3ach\objects\weapons\rifle\plasma_rifle_gold\plasma_rifle_gold
+EditTag dw3\r3ach\objects\weapons\rifle\plasma_rifle_gold\plasma_rifle_gold.model
+SetField RenderModel dw3\r3ach\objects\weapons\rifle\plasma_rifle_gold\plasma_rifle_gold.render_model
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\rifle\plasma_rifle\plasma_rifle.weapon
+CopyBlockElements Functions 0 *
+Exit
+
+EditTag objects\weapons\rifle\plasma_rifle\plasma_rifle_power.weapon
+RemoveBlockElements Functions 0 *
+PasteBlockElements Functions
+
+AddBlockElements Attachments
+SetField Attachments[1].Type dw3\r3ach\sound\weapons\plasma_rifle\prifle_heat_loop\prifle_heat_loop.sound_looping
+SetField Attachments[1].Marker primary_trigger
+SetField Attachments[1].PrimaryScale heat_warning
+
+SetField Model dw3\r3ach\objects\weapons\rifle\plasma_rifle_gold\plasma_rifle_gold.model
+
+SetField FirstPerson[0].FirstPersonModel dw3\r3ach\objects\weapons\rifle\plasma_rifle_gold\plasma_rifle_gold.render_model
+SetField FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\plasma_rifle\animations\fp_spartan\fp_spartan.model_animation_graph
+
+SetField FirstPerson[1].FirstPersonModel dw3\r3ach\objects\weapons\rifle\plasma_rifle_gold\plasma_rifle_gold.render_model
+SetField FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\plasma_rifle\animations\fp_elite\fp_elite.model_animation_graph
+SaveTagChanges
+Exit
+
+# PLASMA PISTOL
+# ---------------------------------------------------------------------------------
+DuplicateTag dw3\r3ach\objects\weapons\pistol\plasma_pistol\shaders\plasma_pistol_shell.shader dw3\r3ach\objects\weapons\pistol\plasma_pistol\shaders\plasma_pistol_shell_gold
+EditTag dw3\r3ach\objects\weapons\pistol\plasma_pistol\shaders\plasma_pistol_shell_gold.shader
+setargument fresnel_color 2 0.4 0 1
+setargument specular_tint 0.2070588 0.2872549 0.2588235 1
+setargument env_tint_color 0.7254902 0.9058824 0 1
+setargument albedo_color 1 0.5 0 1
+SaveTagChanges
+Exit
+
+DuplicateTag dw3\r3ach\objects\weapons\pistol\plasma_pistol\plasma_pistol.render_model dw3\r3ach\objects\weapons\pistol\plasma_pistol_gold\plasma_pistol_gold
+EditTag dw3\r3ach\objects\weapons\pistol\plasma_pistol_gold\plasma_pistol_gold.render_model
+SetField Materials[3].RenderMethod dw3\r3ach\objects\weapons\pistol\plasma_pistol\shaders\plasma_pistol_shell_gold.shader
+SaveTagChanges
+Exit
+
+DuplicateTag dw3\r3ach\objects\weapons\pistol\plasma_pistol\plasma_pistol.model dw3\r3ach\objects\weapons\pistol\plasma_pistol_gold\plasma_pistol_gold
+EditTag dw3\r3ach\objects\weapons\pistol\plasma_pistol_gold\plasma_pistol_gold.model
+SetField RenderModel dw3\r3ach\objects\weapons\pistol\plasma_pistol_gold\plasma_pistol_gold.render_model
+SetField LodModel null
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\pistol\plasma_pistol\plasma_pistol.weapon
+CopyBlockElements Functions 0 *
+Exit
+
+EditTag objects\weapons\pistol\plasma_pistol\plasma_pistol_power.weapon
+RemoveBlockElements Functions 0 *
+PasteBlockElements Functions
+
+SetField Model dw3\r3ach\objects\weapons\pistol\plasma_pistol_gold\plasma_pistol_gold.model
+
+SetField FirstPerson[0].FirstPersonModel dw3\r3ach\objects\weapons\pistol\plasma_pistol_gold\plasma_pistol_gold.render_model
+SetField FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\pistol\plasma_pistol\animations\fp_spartan\fp_spartan.model_animation_graph
+
+SetField FirstPerson[1].FirstPersonModel dw3\r3ach\objects\weapons\pistol\plasma_pistol_gold\plasma_pistol_gold.render_model
+SetField FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\pistol\plasma_pistol\animations\fp_elite\fp_elite.model_animation_graph
+savetagchanges
+exit
+
