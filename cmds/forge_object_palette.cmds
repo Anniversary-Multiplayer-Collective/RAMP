@@ -125,6 +125,9 @@ SetField PhysicsModel objects\levels\multi\cyberdyne\jackal_target\jackal_target
 savetagchanges
 exit
 
+DuplicateTag objects\levels\solo\m45\m45_silo_int_shutter\m45_silo_int_shutter.device_machine objects\levels\solo\m45\m45_silo_int_shutter\m45_silo_int_shutter_ramp
+AddForgeItem "SILO HANGAR" 86 objects\levels\solo\m45\m45_silo_int_shutter\m45_silo_int_shutter_ramp.device_machine
+
 AddForgeItem "FENCE GATE" 86 levels\multi\dlc\objects\dlc_invasion_fence_gate\dlc_invasion_fence_gate.device_machine
 AddForgeItem "FENCE GATE, WIDE" 86 objects\props\human\unsc\base_gate_big\base_gate_big.device_machine
 AddForgeItem "METAL GATE" 86 objects\levels\shared\device_machines\metal_gate\metal_gate.device_machine

@@ -26,6 +26,13 @@ SetField Materials[3].RenderMethod potterhalo\objects\weapons\rifle\light_machin
 SetField Materials[4].RenderMethod potterhalo\objects\weapons\rifle\light_machine_gun\shaders\light_machine_gun_tens.shader
 SetField Materials[5].RenderMethod potterhalo\objects\weapons\rifle\light_machine_gun\shaders\light_machine_gun_display.shader
 SetField Materials[6].RenderMethod potterhalo\objects\weapons\rifle\light_machine_gun\shaders\unsc_decals_fp.shader_decal
+
+SetField MarkerGroups[3].Markers[0].Translation 0.29783565 -0.0019027138 0.04985857
+SetField MarkerGroups[3].Markers[1].Translation 0.29783565 -0.0030607223 0.046185832
+SetField MarkerGroups[3].Markers[2].Translation 0.29783565 0.0019026947 0.04985857
+SetField MarkerGroups[3].Markers[3].Translation 0.29783565 0 0.04400264
+SetField MarkerGroups[3].Markers[4].Translation 0.29783565 0.0030786323 0.04623941
+SetField MarkerGroups[5].Markers[0].Translation 0.30342695 1.9073486E-08 0.047285505
 SaveTagChanges
 Exit
 

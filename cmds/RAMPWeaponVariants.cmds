@@ -434,6 +434,14 @@ SetField MarkerGroups[*].Markers[*].RegionIndex -1
 SetField MarkerGroups[*].Markers[*].PermutationIndex -1
 SetField MarkerGroups[*].Markers[*].Translation 0.106 0 0.0125
 SetField MarkerGroups[*].Markers[*].Rotation -0.67 0.208 -0.48 0.6
+
+SetField MarkerGroups[8].Markers[0].Translation 0.25783566 0 0.04800264
+SetField MarkerGroups[8].Markers[1].Translation 0.25783566 0.0030786323 0.05023941
+SetField MarkerGroups[8].Markers[2].Translation 0.25783566 -0.0019027138 0.05385857
+SetField MarkerGroups[8].Markers[3].Translation 0.25783566 -0.0030607223 0.050185833
+SetField MarkerGroups[8].Markers[4].Translation 0.25783566 0.0019026947 0.05385857
+SetField MarkerGroups[10].Markers[0].Translation 0.26342693 1.9073486E-08 0.051285505
+
 SaveTagChanges
 Exit
 

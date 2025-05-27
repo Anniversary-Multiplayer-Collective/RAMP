@@ -379,8 +379,8 @@ ApplyModPackage
 ExitModPackage
 
 EditTag objects\vehicles\warthog\warthog.render_model
-SetField MarkerGroups[7].Markers[0].Translation -0.9197317 -0.2197281 0.095
-SetField MarkerGroups[7].Markers[1].Translation -0.9197317 0.2204493 0.095
+SetField MarkerGroups[7].Markers[0].Translation -0.9237317 -0.2197281 0.095
+SetField MarkerGroups[7].Markers[1].Translation -0.9237317 0.2204493 0.095
 SetField MarkerGroups[19].Markers[0].Translation -0.9167317 0.22 0.09
 SetField MarkerGroups[25].Markers[0].Translation -0.9167317 -0.22 0.09
 SetField Geometry.Meshes[3].Parts[3].FlagsNew PreventBackfaceCulling
