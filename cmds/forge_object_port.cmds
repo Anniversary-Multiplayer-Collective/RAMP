@@ -909,14 +909,14 @@ PortInstancedGeometryObject 0 926 objects\ramp\shared\platform_d\platform_d
 PortInstancedGeometryObject 0 1275 objects\ramp\shared\titanium_shard\titanium_shard
 exit
 
-ForEach model contains:objects\ramp\shared\unearthed_warehouse\unearthed_warehouse SetField Materials[0].GlobalMaterialIndex 104
-ForEach model contains:objects\ramp\shared\unearthed_warehouse_roof\unearthed_warehouse_roof SetField Materials[0].GlobalMaterialIndex 55
-ForEach model contains:objects\ramp\shared\unearthed_warehouse_roof_truss\unearthed_warehouse_roof_truss SetField Materials[0].GlobalMaterialIndex 54
-ForEach model contains:objects\ramp\shared\street_light\street_light SetField Materials[0].GlobalMaterialIndex 54
-ForEach model contains:objects\ramp\shared\metal_scaffolding\metal_scaffolding SetField Materials[0].GlobalMaterialIndex 89
-ForEach model contains:objects\ramp\shared\conveyor_belt\conveyor_belt SetField Materials[0].GlobalMaterialIndex 36
-ForEach model contains:objects\ramp\shared\platform_d\platform_d SetField Materials[0].GlobalMaterialIndex 69
-ForEach model contains:objects\ramp\shared\titanium_shard\titanium_shard SetField Materials[0].GlobalMaterialIndex 103
+ForEach model contains: objects\ramp\shared\unearthed_warehouse\unearthed_warehouse SetField Materials[0].GlobalMaterialIndex 104
+ForEach model contains: objects\ramp\shared\unearthed_warehouse_roof\unearthed_warehouse_roof SetField Materials[0].GlobalMaterialIndex 55
+ForEach model contains: objects\ramp\shared\unearthed_warehouse_roof_truss\unearthed_warehouse_roof_truss SetField Materials[0].GlobalMaterialIndex 54
+ForEach model contains: objects\ramp\shared\street_light\street_light SetField Materials[0].GlobalMaterialIndex 54
+ForEach model contains: objects\ramp\shared\metal_scaffolding\metal_scaffolding SetField Materials[0].GlobalMaterialIndex 89
+ForEach model contains: objects\ramp\shared\conveyor_belt\conveyor_belt SetField Materials[0].GlobalMaterialIndex 36
+ForEach model contains: objects\ramp\shared\platform_d\platform_d SetField Materials[0].GlobalMaterialIndex 69
+ForEach model contains: objects\ramp\shared\titanium_shard\titanium_shard SetField Materials[0].GlobalMaterialIndex 103
 
 echo ==Remove damage from forge items from applied pak...==
 ForEach hlmt contains: objects\levels\forge RemoveBlockElements NewDamageInfo 0 *

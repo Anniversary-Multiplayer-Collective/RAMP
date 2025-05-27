@@ -14,10 +14,6 @@ EditTag objects\weapons\pistol\magnum\magnum_gold.model
 RemoveBlockElements NewDamageInfo 0 *
 SaveTagChanges
 Exit
-EditTag objects\weapons\pistol\plasma_pistol\plasma_pistol_gold.model
-RemoveBlockElements NewDamageInfo 0 *
-SaveTagChanges
-Exit
 EditTag objects\weapons\rifle\assault_rifle\assault_rifle_green.model
 RemoveBlockElements NewDamageInfo 0 *
 SaveTagChanges
@@ -51,10 +47,6 @@ RemoveBlockElements NewDamageInfo 0 *
 SaveTagChanges
 Exit
 EditTag objects\weapons\rifle\dmr\dmr_orange.model
-RemoveBlockElements NewDamageInfo 0 *
-SaveTagChanges
-Exit
-EditTag objects\weapons\rifle\plasma_rifle\plasma_rifle_gold.model
 RemoveBlockElements NewDamageInfo 0 *
 SaveTagChanges
 Exit

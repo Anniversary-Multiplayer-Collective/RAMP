@@ -2165,7 +2165,7 @@ SetField metadata.URL https://github.com/Zekken01/Ramp-2
 SaveModMetaData
 Exit
 
-OpenModPackage "modsfolder\RAMP_2.pak"
+OpenModPackage "modsfolder\RAMP.pak"
 DeleteModFiles
 ApplyModPackage
 ExitModPackage
