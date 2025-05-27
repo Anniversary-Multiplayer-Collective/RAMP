@@ -2149,7 +2149,7 @@ MaximizeBudget All
 SaveTagChanges
 Exit
 
-SaveModPackage "modsfolder\RAMP_2.pak"
+SaveModPackage "modsfolder\RAMP.pak"
 ExitModPackage
 
 # echo ==Make Pak Smaller ==
