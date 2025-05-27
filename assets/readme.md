@@ -4,6 +4,7 @@ Reach Anniversary Multiplayer (RAMP) is a re-imagining of Halo: Reach's multipla
 Welcome to RAMP, a community effort to transform Eldewrito into Halo Reach while keeping ED main features and adding new ones. Featuring extensive bug fixes, quality of life improvements, and plenty of new content to play with. We hope you enjoy this labor of love, we'll see you starside.
 
 ## Contributors & Credits:
+*
 * Zekken (Team Lead)
 * Dank (Core Contributor & Original RAMP Creator)
 * MtnDewIt (Tagtool Maintainer & Bug Fixer)
@@ -16,15 +17,17 @@ Welcome to RAMP, a community effort to transform Eldewrito into Halo Reach while
 * NoShotz (Original RAMP Creator)
 * Fyzure (Noble 6 Voice Lines & Macworld 1999 Emotes)
 * VKMT (R3ACH Weapon Pack)
-* Rejected Shotgun (Falcon Tags)
+* Rejected Shotgun (Falcon, Stanchion, Pelican, Phantom from hugegrass Tags)
 * Just Alex (Revenant Tags)
 
 
 
-## v0.5 Changelog
+## v0.94 Changelog
+* We're no longer called "RAMP 2" now, Just good ol' RAMP
 * Added dual wielding! (Including the needler)
   -Sidenote : Needler has been split into two weapons in the forge menu, one where it can dual wielded and one where it can't
 * Added more armor preview images
+* Added more forge object!
 * Added missing Grenadier chest attachment
 * Added sharper crosshair for most weapons
 * Added cut Reach LMG
