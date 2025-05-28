@@ -858,6 +858,12 @@ echo == FORGE ==
 RunCommands "workingdir\cmds\forge_object_port.cmds"
 RunCommands "workingdir\cmds\forge_object_palette.cmds"
 
+echo == DUMPSTER HINGE FIX ==
+EditTag objects\props\human\urban\dumpster\dumpster.physics_model
+SetField LimitedHingeConstraints[0].LimitAngleBounds 0 -90
+SaveTagChanges
+Exit
+
 echo == M20 ELEVATOR FIX ==
 EditTag objects\levels\shared\m20_elevator_sm\m20_elevator_sm.device_machine
 SetField ObjectFlags.Flags DoesNotCastShadow
@@ -2374,6 +2380,25 @@ setfield EmpEffect objects\vehicles\covenant\banshee\fx\destruction\emp_drain.ef
 savetagchanges
 exit
 
+echo == Sabre lens flare fix ==
+EditTag objects\vehicles\human\sabre\fx\running\main_engine_glow.lens_flare
+SetField Reflections[0].ScaleCurveXFunction.Data 0834000000000000CDCCCC3E000000000000000000000000000000001400000001000000040000CDFFFF7F7F0000803F00000000
+SetField Reflections[0].ScaleCurveYFunction.Data 0834000000000000CDCCCC3E000000000000000000000000000000001400000001000000040000CDFFFF7F7F0000803F00000000
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\human\sabre\fx\running\wing_engine_glow.lens_flare
+SetField Reflections[0].ScaleCurveXFunction.Data 0834000000000000CDCCCC3E000000000000000000000000000000001400000001000000040000CDFFFF7F7F0000803F00000000
+SetField Reflections[0].ScaleCurveYFunction.Data 0834000000000000CDCCCC3E000000000000000000000000000000001400000001000000040000CDFFFF7F7F0000803F00000000
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\human\sabre\fx\running\wing_engine_anamorphic.lens_flare
+SetField Reflections[0].ScaleCurveXFunction.Data 083400000000000000000000000000000000000000000000000000001400000001000000040000CDFFFF7F7F0000803F00000000
+SetField Reflections[0].ScaleCurveYFunction.Data 083400000000000000000000000000000000000000000000000000001400000001000000040000CDFFFF7F7F0000803F00000000
+SaveTagChanges
+Exit
+
 echo ==Add Void Canvas Map==
 
 GenerateCanvas
@@ -2707,6 +2732,208 @@ exit
 
 edittag objects\levels\shared\device_controls\cov_touchscreen_m45\cov_touchscreen_m45.device_control
 SetField ActionString device_door
+savetagchanges
+exit
+
+echo ==REGENERATOR SHIELD FX==
+createtag shit objects\equipment\regenerator\fx\shield_effect_3p
+edittag objects\equipment\regenerator\fx\shield_effect_3p.shield_impact
+SetField Flags AlwaysRender
+SetField Version 4
+SetField ShieldIntensity.RecentDamageIntensity 0.5
+SetField ShieldIntensity.CurrentDamageIntensity 1
+SetField ShieldEdge.OvershieldScale 0
+SetField ShieldEdge.DepthFadeRange 0.9
+SetField ShieldEdge.OuterFadeRadius 0.35000002
+SetField ShieldEdge.CenterRadius 0.5
+SetField ShieldEdge.InnerFadeRadius 1
+SetField ShieldEdge.EdgeGlowColor.InputVariable invalid
+SetField ShieldEdge.EdgeGlowColor.RangeVariable invalid
+SetField ShieldEdge.EdgeGlowColor.Function.Data 0134010014F01A000000803F0000000056E51C006F12833A6F12033B00000000
+SetField ShieldEdge.EdgeGlowIntensity.InputVariable event_time
+SetField ShieldEdge.EdgeGlowIntensity.RangeVariable invalid
+SetField ShieldEdge.EdgeGlowIntensity.Function.Data 01340000000000400000004000000000000000006F12833A6F12033B00000000
+SetField Plasma.PlasmaDepthFadeRange 0.9
+setfield Plasma.PlasmaNoiseBitmap1 fx\bitmaps\plasma\plasma_clouds_512_a.bitm
+setfield Plasma.PlasmaNoiseBitmap2 fx\bitmaps\plasma\plasma_clouds_512_b.bitm
+SetField Plasma.TilingScale 4
+SetField Plasma.ScrollSpeed 1
+SetField Plasma.EdgeSharpness 5
+SetField Plasma.CenterSharpness 50
+SetField Plasma.PlasmaOuterFadeRadius 0.35000002
+SetField Plasma.PlasmaCenterRadius 0.75
+SetField Plasma.PlasmaInnerFadeRadius 1
+SetField Plasma.PlasmaCenterColor.InputVariable event_time
+SetField Plasma.PlasmaCenterColor.RangeVariable invalid
+SetField Plasma.PlasmaCenterColor.Function.Data 013401002CF81E001739FFFF0000000035B441006F12833A6F12033B00000000
+SetField Plasma.PlasmaCenterIntensity.InputVariable event_time
+SetField Plasma.PlasmaCenterIntensity.RangeVariable invalid
+SetField Plasma.PlasmaCenterIntensity.Function.Data 01340000CDCC4C3ECDCC4C3E00000000000000006F12833A6F12033B00000000
+SetField Plasma.PlasmaEdgeColor.InputVariable event_time
+SetField Plasma.PlasmaEdgeColor.RangeVariable invalid
+SetField Plasma.PlasmaEdgeColor.Function.Data 0134010023E936000000803F0000000046FF3E006F12833A6F12033B00000000
+SetField Plasma.PlasmaEdgeIntensity.InputVariable invalid
+SetField Plasma.PlasmaEdgeIntensity.RangeVariable invalid
+SetField Plasma.PlasmaEdgeIntensity.Function.Data 013400000000803F0000803F0000000000000000000000000000000000000000
+setfield ExtrusionOscillation.OscillationBitmap1 fx\bitmaps\plasma\plasma_clouds_256_a.bitm
+setfield ExtrusionOscillation.OscillationBitmap2 fx\bitmaps\plasma\plasma_clouds_256_b.bitm
+SetField ExtrusionOscillation.OscillationTilingScale 2
+SetField ExtrusionOscillation.OscillationScrollSpeed 0.15
+SetField ExtrusionOscillation.ExtrusionAmount.InputVariable invalid
+SetField ExtrusionOscillation.ExtrusionAmount.RangeVariable invalid
+SetField ExtrusionOscillation.ExtrusionAmount.Function.Data 033400000AD7233CCDCCCC3C0000000000000000000000000000000014000000020000000000803F0000003F000080BF0000803F
+SetField ExtrusionOscillation.OscillationAmplitude.InputVariable shield_vitality
+SetField ExtrusionOscillation.OscillationAmplitude.RangeVariable invalid
+SetField ExtrusionOscillation.OscillationAmplitude.Function.Data 01340000000000000000000000000000000000006F12833A6F12033B00000000
+SetField HitResponse.HitTime 0.33333334
+SetField HitResponse.HitColor.InputVariable event_time
+SetField HitResponse.HitColor.RangeVariable shield_vitality
+SetField HitResponse.HitColor.Function.Data 0134010008A72E00B42A280000000000000000FF6F12833A6F12033B00000000
+SetField HitResponse.HitIntensity.InputVariable event_time
+SetField HitResponse.HitIntensity.RangeVariable shield_vitality
+SetField HitResponse.HitIntensity.Function.Data 01340000CDCCCC3DCDCCCC3D00000000000000006F12833A6F12033B00000000
+SetField EdgeScales 6.666668 -2 2.5000002 -4
+SetField EdgeOffsets -2.333334 2 -0.8750001 4
+SetField PlasmaScales 4 4 -46 50
+SetField DepthFadeParameters 1.1111112 1.1111112 0 0
+savetagchanges
+exit
+
+createtag shit objects\equipment\regenerator\fx\shield_effect_1p
+edittag objects\equipment\regenerator\fx\shield_effect_1p.shield_impact
+SetField Flags Unused,DontRenderAsEffect
+SetField Version 4
+SetField ShieldIntensity.RecentDamageIntensity 0.5
+SetField ShieldIntensity.CurrentDamageIntensity 1
+SetField ShieldEdge.OvershieldScale 0
+SetField ShieldEdge.DepthFadeRange 0.9
+SetField ShieldEdge.OuterFadeRadius 0.5
+SetField ShieldEdge.CenterRadius 0.5
+SetField ShieldEdge.InnerFadeRadius 1
+SetField ShieldEdge.EdgeGlowColor.InputVariable invalid
+SetField ShieldEdge.EdgeGlowColor.RangeVariable invalid
+SetField ShieldEdge.EdgeGlowColor.Function.Data 0134010014F01A000000803F0000000056E51C006F12833A6F12033B00000000
+SetField ShieldEdge.EdgeGlowIntensity.InputVariable event_time
+SetField ShieldEdge.EdgeGlowIntensity.RangeVariable invalid
+SetField ShieldEdge.EdgeGlowIntensity.Function.Data 013400000000803F0000803F00000000000000006F12833A6F12033B00000000
+SetField Plasma.PlasmaDepthFadeRange 0.9
+setfield Plasma.PlasmaNoiseBitmap1 fx\bitmaps\plasma\plasma_clouds_512_a.bitm
+setfield Plasma.PlasmaNoiseBitmap2 fx\bitmaps\plasma\plasma_clouds_512_b.bitm
+SetField Plasma.TilingScale 4
+SetField Plasma.ScrollSpeed 0.5
+SetField Plasma.EdgeSharpness 5
+SetField Plasma.CenterSharpness 50
+SetField Plasma.PlasmaOuterFadeRadius 1
+SetField Plasma.PlasmaCenterRadius 0.5
+SetField Plasma.PlasmaInnerFadeRadius 1
+SetField Plasma.PlasmaCenterColor.InputVariable event_time
+SetField Plasma.PlasmaCenterColor.RangeVariable invalid
+SetField Plasma.PlasmaCenterColor.Function.Data 013401002CF81E001739FFFF0000000035B441006F12833A6F12033B00000000
+SetField Plasma.PlasmaCenterIntensity.InputVariable event_time
+SetField Plasma.PlasmaCenterIntensity.RangeVariable invalid
+SetField Plasma.PlasmaCenterIntensity.Function.Data 01340000CDCC4C3ECDCC4C3E00000000000000006F12833A6F12033B00000000
+SetField Plasma.PlasmaEdgeColor.InputVariable event_time
+SetField Plasma.PlasmaEdgeColor.RangeVariable invalid
+SetField Plasma.PlasmaEdgeColor.Function.Data 0134010023E936000000803F0000000046FF3E006F12833A6F12033B00000000
+SetField Plasma.PlasmaEdgeIntensity.InputVariable invalid
+SetField Plasma.PlasmaEdgeIntensity.RangeVariable invalid
+SetField Plasma.PlasmaEdgeIntensity.Function.Data 013400000000803F0000803F0000000000000000000000000000000000000000
+setfield ExtrusionOscillation.OscillationBitmap1 fx\bitmaps\plasma\plasma_clouds_256_a.bitm
+setfield ExtrusionOscillation.OscillationBitmap2 fx\bitmaps\plasma\plasma_clouds_256_b.bitm
+SetField ExtrusionOscillation.OscillationTilingScale 2
+SetField ExtrusionOscillation.OscillationScrollSpeed 0.15
+SetField ExtrusionOscillation.ExtrusionAmount.InputVariable invalid
+SetField ExtrusionOscillation.ExtrusionAmount.RangeVariable invalid
+SetField ExtrusionOscillation.ExtrusionAmount.Function.Data 033400006F12033B6F12833B0000000000000000000000000000000014000000020000000000803F0000003F000080BF0000803F
+SetField ExtrusionOscillation.OscillationAmplitude.InputVariable shield_vitality
+SetField ExtrusionOscillation.OscillationAmplitude.RangeVariable invalid
+SetField ExtrusionOscillation.OscillationAmplitude.Function.Data 01340000000000000000000000000000000000006F12833A6F12033B00000000
+SetField HitResponse.HitTime 0.33333334
+SetField HitResponse.HitColor.InputVariable event_time
+SetField HitResponse.HitColor.RangeVariable shield_vitality
+SetField HitResponse.HitColor.Function.Data 0134010008A72E00B42A280000000000000000FF6F12833A6F12033B00000000
+SetField HitResponse.HitIntensity.InputVariable event_time
+SetField HitResponse.HitIntensity.RangeVariable shield_vitality
+SetField HitResponse.HitIntensity.Function.Data 01340000CDCCCC3DCDCCCC3D00000000000000006F12833A6F12033B00000000
+SetField EdgeScales ∞ -4.5 -2 -2
+SetField EdgeOffsets -∞ 3 2 2
+SetField PlasmaScales 4 4 -45 50
+SetField DepthFadeParameters 1.1111112 1.1111112 1 1
+savetagchanges
+exit
+
+createtag effe objects\equipment\regenerator\fx\shield_effect
+edittag objects\equipment\regenerator\fx\shield_effect.effect
+SetField Flags ForceLooping
+SetField FixedRandomSeed 0
+SetField RestartIfWithin 0
+SetField ContinueIfWithin 0
+SetField DeathDelay 0.1
+SetField Priority Normal
+SetField LoopStartEvent -1
+SetField LocalLocation0 0
+SetField RuntimeDangerRadius 0
+AddBlockElements Locations 1
+SetField Locations[0].MarkerName body
+SetField Locations[0].Flags 0
+SetField Locations[0].Priority Normal
+AddBlockElements Events 1
+SetField Events[0].Name active
+SetField Events[0].Flags None
+SetField Events[0].Priority Normal
+SetField Events[0].SkipFraction 0
+SetField Events[0].DelayBounds 0 0
+SetField Events[0].DurationBounds 0.033333335 0.033333335
+AddBlockElements Events[0].Parts 2
+SetField Events[0].Parts[0].CreateInEnvironment AnyEnvironment
+SetField Events[0].Parts[0].CreateInDisposition EitherMode
+SetField Events[0].Parts[0].PrimaryLocation 0
+SetField Events[0].Parts[0].SecondaryLocation -1
+SetField Events[0].Parts[0].Flags None
+SetField Events[0].Parts[0].Priority Low
+SetField Events[0].Parts[0].CameraMode ThirdPersonOnly
+SetField Events[0].Parts[0].RuntimeBaseGroupTag shit
+SetField Events[0].Parts[0].Type objects\equipment\regenerator\fx\shield_effect_3p.shield_impact
+SetField Events[0].Parts[0].VelocityBounds 0 0
+SetField Events[0].Parts[0].VelocityOrientation 0 0
+SetField Events[0].Parts[0].VelocityConeAngle 0
+SetField Events[0].Parts[0].AngularVelocityBounds 0 0
+SetField Events[0].Parts[0].RadiusModifierBounds 0 0
+SetField Events[0].Parts[0].RelativeOffset 0 0 0
+SetField Events[0].Parts[0].RelativeOrientation 0 0
+SetField Events[0].Parts[0].AScalesValues 0
+SetField Events[0].Parts[0].BScalesValues 0
+SetField Events[0].Parts[1].CreateInEnvironment AnyEnvironment
+SetField Events[0].Parts[1].CreateInDisposition EitherMode
+SetField Events[0].Parts[1].PrimaryLocation 0
+SetField Events[0].Parts[1].SecondaryLocation -1
+SetField Events[0].Parts[1].Flags None
+SetField Events[0].Parts[1].Priority Low
+SetField Events[0].Parts[1].CameraMode IndependentOfCameraMode
+SetField Events[0].Parts[1].RuntimeBaseGroupTag shit
+setfield Events[0].Parts[1].Type objects\equipment\regenerator\fx\shield_effect_1p.shield_impact
+SetField Events[0].Parts[1].VelocityBounds 0 0
+SetField Events[0].Parts[1].VelocityOrientation 0 0
+SetField Events[0].Parts[1].VelocityConeAngle 0
+SetField Events[0].Parts[1].AngularVelocityBounds 0 0
+SetField Events[0].Parts[1].RadiusModifierBounds 0 0
+SetField Events[0].Parts[1].RelativeOffset 0 0 0
+SetField Events[0].Parts[1].RelativeOrientation 0 0
+SetField Events[0].Parts[1].AScalesValues 0
+SetField Events[0].Parts[1].BScalesValues 0
+SetField LoopingSound null
+SetField LocationIndex 0
+SetField BindScaleToEvent -1
+SetField LocalLocation1 0
+SetField AlwaysPlayDistance 0
+SetField NeverPlayDistance 0
+SetField RuntimeLightprobeDeathDelay 0
+SetField RuntimeLocalSpaceDeathDelay 0.1
+savetagchanges
+exit
+
+edittag objects\equipment\regenerator\regenerator.equipment
+setfield Regenerator[0].RegeneratingEffect objects\equipment\regenerator\fx\shield_effect.effect
 savetagchanges
 exit
 

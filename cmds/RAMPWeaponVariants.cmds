@@ -768,6 +768,13 @@ exit
 DuplicateTag dw3\r3ach\objects\weapons\rifle\plasma_rifle\plasma_rifle.render_model dw3\r3ach\objects\weapons\rifle\plasma_rifle_gold\plasma_rifle_gold
 EditTag dw3\r3ach\objects\weapons\rifle\plasma_rifle_gold\plasma_rifle_gold.render_model
 SetField Materials[2].RenderMethod dw3\r3ach\objects\weapons\rifle\plasma_rifle\shaders\plasma_rifle_shell_gold.shader
+AddBlockElements MarkerGroups
+AddBlockElements MarkerGroups[*].Markers
+SetField MarkerGroups[*].Name mineleloldabest_left_hand_spartan_fp
+SetField MarkerGroups[*].Markers[*].RegionIndex -1
+SetField MarkerGroups[*].Markers[*].PermutationIndex -1
+SetField MarkerGroups[*].Markers[*].Translation 0.021 0.0068 -0.047
+SetField MarkerGroups[*].Markers[*].Rotation -0.6 0.205 -0.47 0.6
 SaveTagChanges
 Exit
 
@@ -814,6 +821,13 @@ Exit
 DuplicateTag dw3\r3ach\objects\weapons\pistol\plasma_pistol\plasma_pistol.render_model dw3\r3ach\objects\weapons\pistol\plasma_pistol_gold\plasma_pistol_gold
 EditTag dw3\r3ach\objects\weapons\pistol\plasma_pistol_gold\plasma_pistol_gold.render_model
 SetField Materials[3].RenderMethod dw3\r3ach\objects\weapons\pistol\plasma_pistol\shaders\plasma_pistol_shell_gold.shader
+AddBlockElements MarkerGroups
+AddBlockElements MarkerGroups[*].Markers
+SetField MarkerGroups[*].Name mineleloldabest_left_hand_spartan_fp
+SetField MarkerGroups[*].Markers[*].RegionIndex -1
+SetField MarkerGroups[*].Markers[*].PermutationIndex -1
+SetField MarkerGroups[*].Markers[*].Translation 0.0475 0.0046 -0.0282
+SetField MarkerGroups[*].Markers[*].Rotation -0.4714 0.07865 -0.5158 0.7109
 SaveTagChanges
 Exit
 

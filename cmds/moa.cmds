@@ -121,7 +121,7 @@ savetagchanges
 exit
 
 edittag objects\characters\ambient_life\reach_moa\reach_moa.model_animation_graph
-addanimation workingdir\animations\moa
+addanimation workingdir\animations\moa\walk
 addblockelements Modes[1].WeaponClass[0].WeaponType[0].Set.Actions
 addblockelements Modes[1].WeaponClass[0].WeaponType[0].Set.Actions
 addblockelements Modes[1].WeaponClass[0].WeaponType[0].Set.Actions
@@ -134,6 +134,8 @@ setfield Modes[1].WeaponClass[0].WeaponType[0].Set.Actions[9].Label move_left
 setfield Modes[1].WeaponClass[0].WeaponType[0].Set.Actions[10].Animation 39
 setfield Modes[1].WeaponClass[0].WeaponType[0].Set.Actions[10].GraphIndex -1
 setfield Modes[1].WeaponClass[0].WeaponType[0].Set.Actions[10].Label move_right
+
+addanimation workingdir\animations\moa\jump
 sortmodes
 savetagchanges
 exit

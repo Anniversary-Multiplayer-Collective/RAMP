@@ -167,13 +167,13 @@ AddForgeItem "UNSC DOOR A" 86 objects\levels\shared\m60_unsc_door_a\m60_unsc_doo
 DuplicateTag objects\levels\solo\m20\door_interior_large\door_interior_large.device_machine objects\levels\solo\m20\door_interior_large\door_interior_large_mp
 AddForgeItem "DOOR INTERIOR LARGE" 86 objects\levels\solo\m20\door_interior_large\door_interior_large_mp.device_machine
 
-AddForgeItem "DOOR URBAN MEDIUM" 86 objects\levels\solo\m50\door_urban_corp_medium_a\door_urban_corp_medium_a.device_machine
-
 DuplicateTag objects\levels\solo\m50\door_urban_gen_small_b\door_urban_gen_small_b.device_machine objects\levels\solo\m50\door_urban_gen_small_b\door_urban_gen_small_b_mp
-AddForgeItem "DOOR URBAN SMALL" 86 objects\levels\solo\m50\door_urban_gen_small_b\door_urban_gen_small_b_mp.device_machine
+AddForgeItem "DOOR URBAN, SMALL" 86 objects\levels\solo\m50\door_urban_gen_small_b\door_urban_gen_small_b_mp.device_machine
+
+AddForgeItem "DOOR URBAN, MEDIUM" 86 objects\levels\solo\m50\door_urban_corp_medium_a\door_urban_corp_medium_a.device_machine
 
 DuplicateTag objects\levels\solo\m50\door_urban_large_a\door_urban_large_a.device_machine objects\levels\solo\m50\door_urban_large_a\door_urban_large_a_mp
-AddForgeItem "DOOR URBAN LARGE" 86 objects\levels\solo\m50\door_urban_large_a\door_urban_large_a_mp.device_machine
+AddForgeItem "DOOR URBAN, LARGE" 86 objects\levels\solo\m50\door_urban_large_a\door_urban_large_a_mp.device_machine
 
 AddForgeItem "ALPHA RELAY" 86 levels\multi\dlc\objects\dlc_invasion_alpha_relay\dlc_invasion_alpha_relay.device_machine
 AddForgeItem "BRAVO VENT" 86 levels\multi\dlc\objects\dlc_invasion_bravo_vent\dlc_invasion_bravo_vent.device_machine
@@ -1612,7 +1612,7 @@ AddForgeItem "TIN CUP" 94 objects\levels\shared\golf_cup\golf_cup.crate
 AddForgeItem "SOCCER BALL [REACH]" 94 objects\levels\shared\soccer_ball\soccer_ball.crate
 AddForgeItem "WEAPONS HOLDER [REACH]" 94 objects\props\covenant\cov_sword_holder\cov_sword_holder.crate
 AddForgeItem "GOLF BALL" 94 objects\levels\shared\golf_ball\golf_ball.crate
-AddForgeItem "SPARTAN PLUSHIES" 94 objects\props\fifthspartan\5thspartan\5thspartan.crate
+AddForgeItem "SPARTAN PLUSHIE" 94 objects\props\fifthspartan\5thspartan\5thspartan.crate
 AddForgeItem "KILL BALL [REACH]" 94 objects\levels\shared\damage_sphere\damage_sphere.crate
 
 # OFFICE [95] -------------------------------------------------------------------------------------------------------------
