@@ -2937,6 +2937,57 @@ setfield Regenerator[0].RegeneratingEffect objects\equipment\regenerator\fx\shie
 savetagchanges
 exit
 
+# echo == AMMO PACK ==
+edittag objects\equipment\ammo_pack\ammo_pack.equipment
+AddBlockElements AmmoPack[0].Weapons
+SetField AmmoPack[0].Weapons[*].WeaponObject objects\weapons\rifle\concussion_rifle\concussion_rifle.weapon
+SetField AmmoPack[0].Weapons[*].ClipSize 6
+
+AddBlockElements AmmoPack[0].Weapons
+SetField AmmoPack[0].Weapons[*].WeaponObject objects\weapons\rifle\grenade_launcher\grenade_launcher.weapon
+SetField AmmoPack[0].Weapons[*].ClipSize 1
+
+AddBlockElements AmmoPack[0].Weapons
+SetField AmmoPack[0].Weapons[*].WeaponObject objects\weapons\rifle\needle_rifle\needle_rifle.weapon
+SetField AmmoPack[0].Weapons[*].ClipSize 21
+
+AddBlockElements AmmoPack[0].Weapons
+SetField AmmoPack[0].Weapons[*].WeaponObject potterhalo\objects\weapons\rifle\light_machine_gun\light_machine_gun.weapon
+SetField AmmoPack[0].Weapons[*].ClipSize 60
+
+AddBlockElements AmmoPack[0].Weapons
+SetField AmmoPack[0].Weapons[*].WeaponObject objects\weapons\support_high\stanchion\stanchion.weapon
+SetField AmmoPack[0].Weapons[*].ClipSize 4
+
+AddBlockElements AmmoPack[0].Weapons
+SetField AmmoPack[0].Weapons[*].WeaponObject objects\weapons\pistol\needler\ramp_needler_purple.weapon
+SetField AmmoPack[0].Weapons[*].ClipSize 24
+savetagchanges
+exit
+
+# echo == TANK MODE HACKY FIXUP ==
+generatebitmap objects\equipment\tankmode_equipment\tankmodehackyfix workingdir\bitmaps\tankmodeborder.dds
+edittag ui\chud\tankmode.chud_definition
+setfield HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Anchor Crosshair
+setfield HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Offset 0 -1416
+setfield HUDWidgets[0].BitmapWidgets[1].PlacementData[0].Anchor Crosshair
+setfield HUDWidgets[0].BitmapWidgets[1].PlacementData[0].Offset 0 1135
+copyblockelements HUDWidgets[0].BitmapWidgets 0 2
+pasteblockelements HUDWidgets[0].BitmapWidgets
+setfield HUDWidgets[0].BitmapWidgets[2].Bitmap objects\equipment\tankmode_equipment\tankmodehackyfix.bitmap
+setfield HUDWidgets[0].BitmapWidgets[2].PlacementData[0].Offset 0 -1750
+setfield HUDWidgets[0].BitmapWidgets[2].PlacementData[0].Scale 4.8 4.8
+setfield HUDWidgets[0].BitmapWidgets[3].Bitmap objects\equipment\tankmode_equipment\tankmodehackyfix.bitmap
+setfield HUDWidgets[0].BitmapWidgets[3].PlacementData[0].Offset 0 1800
+setfield HUDWidgets[0].BitmapWidgets[3].PlacementData[0].Scale 4.8 4.8
+
+SetField HudWidgets[0].BitmapWidgets[0].SortLayer SavedFilm
+SetField HudWidgets[0].BitmapWidgets[1].SortLayer SavedFilm
+SetField HudWidgets[0].BitmapWidgets[2].SortLayer SavedFilm
+SetField HudWidgets[0].BitmapWidgets[3].SortLayer SavedFilm
+savetagchanges
+exit
+
 # WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARRRRRRRRRRRRNNNNNNNNNNNNNNNIIIIIIIIIIIIIIIIIIIIIIIIIIIIINNNNNNNNNGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
 # MAKE SURE THIS SCRIPT IS AT THE VERY LAST LINE OTHERWISE THE WEAPONS WILL BREAK
 # LOOKING MY EYES ON YOU DANK!!!!!!

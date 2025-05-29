@@ -133,3 +133,14 @@ SetField WeaponTypeName offset_spartan_laser
 SetField CenteredFirstPersonWeaponOffset 0 0 -0.01
 SaveTagChanges
 Exit
+
+EditTag ui\weapon_type_names.multilingual_unicode_string_list
+SetString english offset_target_laser "TARGET LOCATOR"
+SetString english offset_concussion_rifle "CONCUSSION RIFLE"
+SetString english offset_focus_rifle "FOCUS RIFLE"
+SetString english offset_grenade_launcher "GRENADE LAUNCHER"
+SetString english offset_needle_rifle "NEEDLE RIFLE"
+SetString english offset_plasma_repeater "PLASMA REPEATER"
+SetString english offset_plasma_launcher "PLASMA LAUNCHER"
+SaveTagChanges
+Exit

@@ -679,7 +679,6 @@ AddForgeItem "COVENANT FUELCELL 2" 90 objects\props\covenant\cov_fuel_cell_b\cov
 AddForgeItem "COVENANT FUELCELL 3" 90 objects\props\covenant\cov_fuel_cell_c\cov_fuel_cell_c.crate
 AddForgeItem "PROPANE TANK, SMALL" 90 objects\props\human\pioneer\garage\propane_tank_small\propane_tank_small.crate
 AddForgeItem "FUEL CANISTER" 90 objects\props\human\pioneer\furniture\fuel_canister\fuel_canister\fuel_canister.crate
-AddForgeItem "WELDING STATION" 90 objects\props\human\pioneer\garage\welding_station\welding_station.crate
 
 # SPECIAL FX [91] -------------------------------------------------------------------------------------------------------------
 ForEach crate startingwith: objects\levels\shared\screen_fx_orb\fx SetField Attachments[0].Marker fx_01
@@ -1691,19 +1690,40 @@ AddForgeItem "STONEWARE MUG" 95 objects\props\human\pioneer\kitchenware\stonewar
 AddForgeItem "STEEL MUG" 95 objects\props\human\pioneer\kitchenware\steel\mug\mug.crate
 AddForgeItem "WATER PITCHER" 95 objects\props\human\pioneer\kitchenware\stoneware__water_pitcher\stoneware__water_pitcher.crate
 
-AddForgeItem "CHEF'S KNIFE" 95 objects\props\human\pioneer\kitchenware\utensils\chefs_knife\chefs_knife.crate
 AddForgeItem "BEER BOTTLE" 95 objects\props\human\urban\bottle_beer\bottle_beer.crate
 AddForgeItem "BOTTLE LIQUOR" 95 objects\props\human\urban\bottle_hum_liquor\bottle_hum_liquor.crate
+AddForgeItem "CHEF'S KNIFE" 95 objects\props\human\pioneer\kitchenware\utensils\chefs_knife\chefs_knife.crate
 AddForgeItem "GLASS BAR, TALL" 95 objects\props\human\urban\glass_bar_tall\glass_bar_tall.crate
-AddForgeItem "MODERN SINK" 95 objects\ramp\shared\modern_sink\modern_sink.scenery
 AddForgeItem "KITCHEN DISHWASHER, DOOR" 95 objects\props\human\pioneer\furniture\kitchen_dishwasher\kitchen_dishwasher.scenery
 AddForgeItem "KITCHEN SINK, CLEAN" 95 objects\props\human\pioneer\furniture\kitchen_sink\kitchen_sink.scenery
 AddForgeItem "KITCHEN STOVE" 95 objects\props\human\pioneer\furniture\kitchen_stove\stove\stove.scenery
 AddForgeItem "KITCHEN FRIDGE" 95 objects\ramp\shared\fridge\fridge.scenery
 AddForgeItem "KITCHEN OVEN, INSET" 95 objects\props\human\pioneer\kitchenware\oven\oven.scenery
+AddForgeItem "MODERN SINK" 95 objects\ramp\shared\modern_sink\modern_sink.scenery
+AddForgeItem "MODERN TOILET " 95 objects\props\human\pioneer\bathrooms\toilet_01\toilet_01.scenery
+AddForgeItem "SHOWER STALL" 95 objects\props\human\pioneer\bathrooms\pioneer_shower_stall\pioneer_shower_stall.scenery
+
+AddForgeItem "CHEMICAL SHOWER" 95 objects\props\human\pioneer\locker_room\chemical_shower\chemical_shower.scenery
+AddForgeItem "EYE WASHER" 95 objects\props\human\pioneer\locker_room\eye_wash\eye_wash.scenery
 
 AddForgeItem "BED" 95 objects\props\human\pioneer\furniture\bedroom_bed\bedroom_bed.scenery
 
+AddForgeItem "BOOK 1" 95 objects\props\human\pioneer\housewares\various_books\various_books_a\various_books_a.scenery
+AddForgeItem "BOOK 2" 95 objects\props\human\pioneer\housewares\various_books\various_books_b\various_books_b.scenery
+AddForgeItem "BOOK 3" 95 objects\props\human\pioneer\housewares\various_books\various_books_c\various_books_c.scenery
+AddForgeItem "BOOK 4" 95 objects\props\human\pioneer\housewares\various_books\various_books_d\various_books_d.scenery
+AddForgeItem "CLOTHES PILE" 95 objects\props\human\pioneer\garage\clothes_pile\clothes_pile.scenery
+
+AddForgeItem "FISHING FLOATS, HANGING" 95 objects\props\human\pioneer\water\fishing_floats_hanging\fishing_floats_hanging.scenery
+AddForgeItem "BUOY" 95 objects\props\human\pioneer\water\buoy\buoy.scenery
+AddForgeItem "NET, FOLDED" 95 objects\props\human\pioneer\water\large_folded_net\large_folded_net.scenery
+AddForgeItem "NET, HANGING, RUINED 1" 95 objects\props\human\pioneer\water\large_hanging_nets_ruined\large_hanging_nets_ruined.scenery
+AddForgeItem "NET, HANGING, RUINED 2" 95 objects\props\human\pioneer\water\large_hanging_nets_ruined_1\large_hanging_nets_ruined_1.scenery
+AddForgeItem "NET, PILED, RUINED 1" 95 objects\props\human\pioneer\water\large_piled_nets_1\large_piled_nets_1.scenery
+AddForgeItem "NET, PILED, RUINED 2" 95 objects\props\human\pioneer\water\large_piled_nets_ruined\large_piled_nets_ruined.scenery
+AddForgeItem "NET, PILED, RUINED 3" 95 objects\props\human\pioneer\water\large_piled_nets_ruined_1\large_piled_nets_ruined_1.scenery
+
+AddForgeItem "TRASH BAGS, PILE LARGE" 95 objects\props\human\urban\streets\trash_pile_large\trash_pile_large.scenery
 AddForgeItem "VENDING MACHINE" 95 objects\props\human\urban\vending_machine\vending_machine.crate
 
 # MAN CANNON [96] -------------------------------------------------------------------------------------------------------------
@@ -2043,6 +2063,7 @@ AddForgeItem "BREAKPOINT BRIDGE DOWN" 99 levels\multi\dlc\objects\dlc_invasion_b
 AddForgeItem "CRANE" 99 objects\levels\solo\m30\crane\crane.scenery
 AddForgeItem "FUELING STATION" 99 objects\props\human\unsc\diagnostic_fueling_station\diagnostic_fueling_station.scenery
 AddForgeItem "VEHICLE MAINTENANCE STATION" 99 objects\props\human\unsc\vehicle_maintenance_station\vehicle_maintenance_station.scenery
+AddForgeItem "WELDING STATION" 99 objects\props\human\pioneer\garage\welding_station\welding_station.crate
 
 AddForgeItem "COVENANT BFG" 99 objects\vehicles\covenant\turrets\bfg\bfg.scenery
 AddForgeItem "COVENANT DISPLAY" 99 objects\props\covenant\comm_display\comm_display.scenery
@@ -2105,7 +2126,6 @@ AddForgeItem "CHAINS HANGING, KNOT" 99 objects\props\human\pioneer\garage\chains
 AddForgeItem "CHAINS HANGING" 99 objects\props\human\pioneer\garage\chains_hanging_2\chains_hanging_2.scenery
 AddForgeItem "CHAINS PILE" 99 objects\props\human\pioneer\garage\chains_pile\chains_pile.scenery
 
-AddForgeItem "CLOTHES PILE" 99 objects\props\human\pioneer\garage\clothes_pile\clothes_pile.scenery
 AddForgeItem "HOSE RACK" 99 objects\props\human\pioneer\water\hose_rack\hose_rack.scenery
 AddForgeItem "ROPE HANGING" 99 objects\props\human\pioneer\garage\rope_hanging\rope_hanging.scenery
 
@@ -2121,19 +2141,10 @@ AddForgeItem "WOOD STACKED, OAK, LARGE" 99 objects\props\human\pioneer\farm\wood
 AddForgeItem "WOOD STACKED, OAK, SMALL" 99 objects\props\human\pioneer\farm\wooden_boards\wooden_boards_stacked_d\wooden_boards_stacked_d.scenery
 AddForgeItem "WOOD STACKED, DARK OAK, LARGE" 99 objects\props\human\pioneer\farm\wooden_boards\wooden_boards_stacked_b\wooden_boards_stacked_b.scenery
 AddForgeItem "WOOD STACKED, DARK OAK, SMALL" 99 objects\props\human\pioneer\farm\wooden_boards\wooden_boards_stacked_c\wooden_boards_stacked_c.scenery
-AddForgeItem "TRASH BAGS, PILE LARGE" 99 objects\props\human\urban\streets\trash_pile_large\trash_pile_large.scenery
 AddForgeItem "POTTERY" 99 objects\props\human\pioneer\pottery\august\august.crate
 
 # NOT SURE WHY WE NEED THE DAMN FISH, BUT HERE WE ARE
 AddForgeItem "FISH TILAPIA" 99 levels\multi\dlc\objects\dlc_fish_tilapia\dlc_fish_tilapia.crate
-AddForgeItem "FISHING FLOATS, HANGING" 99 objects\props\human\pioneer\water\fishing_floats_hanging\fishing_floats_hanging.scenery
-AddForgeItem "BUOY" 99 objects\props\human\pioneer\water\buoy\buoy.scenery
-AddForgeItem "NET, FOLDED" 99 objects\props\human\pioneer\water\large_folded_net\large_folded_net.scenery
-AddForgeItem "NET, HANGING, RUINED 1" 99 objects\props\human\pioneer\water\large_hanging_nets_ruined\large_hanging_nets_ruined.scenery
-AddForgeItem "NET, HANGING, RUINED 2" 99 objects\props\human\pioneer\water\large_hanging_nets_ruined_1\large_hanging_nets_ruined_1.scenery
-AddForgeItem "NET, PILED, RUINED 1" 99 objects\props\human\pioneer\water\large_piled_nets_1\large_piled_nets_1.scenery
-AddForgeItem "NET, PILED, RUINED 2" 99 objects\props\human\pioneer\water\large_piled_nets_ruined\large_piled_nets_ruined.scenery
-AddForgeItem "NET, PILED, RUINED 3" 99 objects\props\human\pioneer\water\large_piled_nets_ruined_1\large_piled_nets_ruined_1.scenery
 
 AddForgeItem "WARTHOG DESTROYED" 99 objects\props\human\unsc\destroyed_vehicles\warthog_destroyed\warthog_destroyed.crate
 AddForgeItem "REVENANT DESTROYED" 99 objects\props\covenant\destroyed_vehicles\revanent_destroyed\revanent_destroyed.crate
@@ -2142,16 +2153,6 @@ AddForgeItem "WRAITH DESTROYED" 99 objects\props\covenant\destroyed_vehicles\wra
 AddForgeItem "TRUCK CAB DESTROYED" 99 objects\props\human\unsc\destroyed_vehicles\truck_cab_large_destroyed\truck_cab_large_destroyed.scenery
 AddForgeItem "TRUCK BED, LONG" 99 objects\vehicles\human\civilian\truck_cab_large\attachments\bed_long\bed_long.scenery
 AddForgeItem "TRUCK BED, SMALL" 99 objects\vehicles\human\civilian\truck_cab_large\attachments\bed_small\bed_small.scenery
-
-AddForgeItem "CHEMICAL SHOWER" 99 objects\props\human\pioneer\locker_room\chemical_shower\chemical_shower.scenery
-AddForgeItem "EYE WASH STATION" 99 objects\props\human\pioneer\locker_room\eye_wash\eye_wash.scenery
-AddForgeItem "TOILET " 99 objects\props\human\pioneer\bathrooms\toilet_01\toilet_01.scenery
-AddForgeItem "SHOWER STALL" 99 objects\props\human\pioneer\bathrooms\pioneer_shower_stall\pioneer_shower_stall.scenery
-
-AddForgeItem "BOOK 1" 99 objects\props\human\pioneer\housewares\various_books\various_books_a\various_books_a.scenery
-AddForgeItem "BOOK 2" 99 objects\props\human\pioneer\housewares\various_books\various_books_b\various_books_b.scenery
-AddForgeItem "BOOK 3" 99 objects\props\human\pioneer\housewares\various_books\various_books_c\various_books_c.scenery
-AddForgeItem "BOOK 4" 99 objects\props\human\pioneer\housewares\various_books\various_books_d\various_books_d.scenery
 
 AddForgeItem "UNSC NODE, RED" 99 objects\props\human\unsc\unsc_node_red\unsc_node_red.scenery
 AddForgeItem "UNSC NODE, BLUE" 99 objects\props\human\unsc\unsc_node_blue\unsc_node_blue.scenery
@@ -3466,6 +3467,7 @@ AddForgeItem "[CONDEMMED] GLASS FLOOR" 107 objects\ca_dev\dlc_condemned\crates\f
 AddForgeItem "[CORVETTE] HANGAR WALL" 107 objects\levels\solo\m45\hanger_cover01\hanger_cover01.scenery
 
 AddForgeItem "[FORGE WORLD] ISLAND" 107 objects\ramp\shared\forge_island\forge_island.scenery
+AddForgeItem "[FORGE WORLD] ISLAND, CAVERN" 107 objects\ramp\shared\twistedflog_island_inside\twistedflog_island_inside.scenery
 
 AddForgeItem "[HIGH NOON] BLOCK" 107 objects\cex\cex_hangemhigh\forge\heh_bigblock\heh_bigblock\heh_bigblock.crate
 AddForgeItem "[HIGH NOON] BLOCK, LONG" 107 objects\cex\cex_hangemhigh\forge\heh_large_hallway_blocker\heh_large_hallway_blocker.crate

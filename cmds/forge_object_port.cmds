@@ -396,6 +396,33 @@ Exit
 EditTag objects\ramp\shared\forge_island\forge_island.model
 SetField DisappearDistance 1165
 SetField BeginFadeDistance 9319
+SetField Materials[0].GlobalMaterialIndex 102
+savetagchanges
+exit
+
+duplicatetag objects\ramp\shared\forge_island\forge_island.render_model objects\ramp\shared\forge_island_inside\forge_island_inside
+edittag objects\ramp\shared\forge_island_inside\forge_island_inside.render_model
+replacerendergeometry workingdir\models\forge_island_inside_render.fbx
+savetagchanges
+exit
+
+duplicatetag objects\ramp\shared\forge_island\forge_island.model objects\ramp\shared\forge_island_inside\forge_island_inside
+
+importcollisiongeometry mopp workingdir\models\forge_island_inside_collision.dae objects\ramp\shared\forge_island_inside\forge_island_inside
+edittag objects\ramp\shared\forge_island_inside\forge_island_inside.collision_model
+setfield Regions[0].Permutations[0].BspPhysics[0].GeometryShape.Model objects\ramp\shared\forge_island_inside\forge_island_inside.model
+savetagchanges
+exit
+
+edittag objects\ramp\shared\forge_island_inside\forge_island_inside.model
+setfield collisionmodel objects\ramp\shared\forge_island_inside\forge_island_inside.collision_model
+setfield rendermodel objects\ramp\shared\forge_island_inside\forge_island_inside.render_model
+savetagchanges
+exit
+
+duplicatetag objects\ramp\shared\forge_island\forge_island.scenery objects\ramp\shared\twistedflog_island_inside\twistedflog_island_inside
+edittag objects\ramp\shared\twistedflog_island_inside\twistedflog_island_inside.scenery
+setfield model objects\ramp\shared\forge_island_inside\forge_island_inside.model
 savetagchanges
 exit
 

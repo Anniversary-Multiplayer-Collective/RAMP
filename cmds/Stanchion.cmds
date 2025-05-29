@@ -95,6 +95,12 @@ SetField WeaponTypeName offset_stanchion
 SetField HudInterface objects\weapons\support_high\stanchion\stanchion.chud_definition
 SetField FirstPerson[0].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\stanchion\animations\fp_spartan\fp_spartan.model_animation_graph
 SetField FirstPerson[1].FirstPersonAnimations dw3\r3ach\objects\weapons\rifle\stanchion\animations\fp_elite\fp_elite.model_animation_graph
+
+SetField PickupMessage stnc_pickup
+SetField SwapMessage stnc_swap
+SetField PickedUpMessage stnc_picked_up
+SetField SwitchToMessage stnc_switch_to
+SetField SwitchToFromAiMessage stnc_swap_ai
 savetagchanges
 exit
 
@@ -138,6 +144,14 @@ AddBlockElements Universal[0].GameVariantWeapons 1
 SetField Universal[0].GameVariantWeapons[*].Name stanchion
 SetField Universal[0].GameVariantWeapons[*].RandomChance 0.1
 SetField Universal[0].GameVariantWeapons[*].Weapon objects\weapons\support_high\stanchion\stanchion.weapon
+SaveTagChanges
+Exit
+
+# -----------------------------------------
+# |            VIEWMODEL STRING           |
+# -----------------------------------------
+EditTag ui\weapon_type_names.multilingual_unicode_string_list
+SetString english offset_stanchion "STANCHION"
 SaveTagChanges
 Exit
 

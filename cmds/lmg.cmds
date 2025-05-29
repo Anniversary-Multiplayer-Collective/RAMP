@@ -301,10 +301,10 @@ Exit
 # |             MULTI GLOBALS             |
 # -----------------------------------------
 #echo Add LMG to fiesta
-StringId add LMG
+StringId add lmg
 EditTag multiplayer\multiplayer_globals.multiplayer_globals
 AddBlockElements Universal[0].GameVariantWeapons 1
-SetField Universal[0].GameVariantWeapons[*].Name LMG
+SetField Universal[0].GameVariantWeapons[*].Name lmg
 SetField Universal[0].GameVariantWeapons[*].RandomChance 0.1
 SetField Universal[0].GameVariantWeapons[*].Weapon potterhalo\objects\weapons\rifle\light_machine_gun\light_machine_gun.weapon
 SaveTagChanges
