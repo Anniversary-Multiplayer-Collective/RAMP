@@ -44,6 +44,7 @@ Welcome to RAMP, a community effort to transform Eldewrito into Halo Reach while
 * Added Better grenades and drop shield effects
 * Added a bunch of misc forge objects
 * Added tracking to Rocket Launcher for Air Vehicles
+* Added Golf Club
 * Fixed render distance issue with Boulder_Scale model
 * Fixed Magnum crosshair penalites
 * Fixed up Reach vehicle sounds
