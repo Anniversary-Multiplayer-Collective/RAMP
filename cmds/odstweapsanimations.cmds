@@ -371,6 +371,9 @@ SetField FirstPersonWeaponOffset 0 0 0
 SaveTagChanges
 Exit
 
+EditTag EditTag ui\weapon_type_names.multilingual_unicode_string_list
+SetString english offset_automag "AUTOMAG"
+
 # ALRIGHT, THIS IS HUD OKAY?
 # How do we.... get out of here?
 # Don't wanna escape this loop

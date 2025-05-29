@@ -204,6 +204,8 @@ setfield Geometry.Meshes[3].Parts[12].FlagsNew PreventBackfaceCulling
 setfield Geometry.Meshes[3].Parts[13].FlagsNew PreventBackfaceCulling
 setfield Geometry.Meshes[3].Parts[14].FlagsNew PreventBackfaceCulling
 
+SetField MarkerGroups[46].Markers[0].Translation 2.2990158 2.2888182E-06 -1.5443493
+
 addblockelements MarkerGroups
 setfield MarkerGroups[*].Name fx_main_engine_light_right
 addblockelements MarkerGroups[*].Markers

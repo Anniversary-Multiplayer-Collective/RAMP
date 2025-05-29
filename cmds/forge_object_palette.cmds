@@ -58,7 +58,55 @@ AddForgeCategory "INCLINES" 85
 AddForgeCategory "DLC DUPLICATES" 85
 # INDEX 107
 AddForgeCategory "H:R MULTIPLAYER MAP BLOCKS" 85
+# INDEX 108
+AddForgeCategory "OBJECTIVE WEAPONS" "WEAPONS"
 
+AddForgeItem "ASSAULT BOMB" "OBJECTIVE WEAPONS" objects\weapons\multiplayer\assault_bomb\assault_bomb.weapon
+AddForgeItem "FLAG" "OBJECTIVE WEAPONS" objects\weapons\multiplayer\flag\flag.weapon
+AddForgeItem "ODDBALL" "OBJECTIVE WEAPONS" objects\weapons\multiplayer\ball\ball.weapon
+
+duplicatetag objects\powerups\rocket_launcher_ammo\rocket_launcher_ammo.physics_model objects\powerups\shotgun_ammo\shotgun_ammo
+edittag objects\powerups\shotgun_ammo\shotgun_ammo.physics_model
+SetField Boxes[0].HalfExtents 0.06490061 0.02838534 0.046450395
+SetField Boxes[0].Translation 0 0 0.01343384
+savetagchanges
+exit
+
+edittag objects\powerups\shotgun_ammo\shotgun_ammo.model
+SetField PhysicsModel objects\powerups\shotgun_ammo\shotgun_ammo.physics_model
+savetagchanges
+exit
+
+
+duplicatetag objects\powerups\shotgun_ammo\shotgun_ammo.physics_model objects\powerups\sniper_rifle_ammo\sniper_rifle_ammo
+edittag objects\powerups\sniper_rifle_ammo\sniper_rifle_ammo.physics_model
+SetField Boxes[0].HalfExtents 0.03490061 0.0138534 0.0384504
+SetField Boxes[0].Translation 0 0 0.00243384
+savetagchanges
+exit
+
+edittag objects\powerups\sniper_rifle_ammo\sniper_rifle_ammo.model
+SetField PhysicsModel objects\powerups\sniper_rifle_ammo\sniper_rifle_ammo.physics_model
+savetagchanges
+exit
+
+
+duplicatetag objects\powerups\shotgun_ammo\shotgun_ammo.physics_model objects\powerups\pistol_ammo\pistol_ammo
+edittag objects\powerups\pistol_ammo\pistol_ammo.physics_model
+SetField Boxes[0].HalfExtents 0.06990061 0.02838534 0.010450394
+SetField Boxes[0].Translation -0.03 0 0.0008
+savetagchanges
+exit
+
+edittag objects\powerups\pistol_ammo\pistol_ammo.model
+SetField PhysicsModel objects\powerups\pistol_ammo\pistol_ammo.physics_model
+savetagchanges
+exit
+
+edittag objects\powerups\smg_ammo\smg_ammo.model
+SetField PhysicsModel objects\powerups\pistol_ammo\pistol_ammo.physics_model
+savetagchanges
+exit
 
 # EQUIPMENTS
 AddForgeItem "HEALTH PACK" 66 objects\powerups\health_pack\health_pack_large.equipment
@@ -1608,10 +1656,11 @@ AddForgeItem "ROOF FAN, SMALL" 93 objects\levels\shared\lights\y_set_fan_small_a
 # GADGETS [94] -------------------------------------------------------------------------------------------------------------
 AddForgeItem "DIE" 94 objects\multi\dice\dice.crate
 AddForgeItem "TIN CUP" 94 objects\levels\shared\golf_cup\golf_cup.crate
+AddForgeItem "GOLF BALL" 94 objects\levels\shared\golf_ball\golf_ball.crate
+AddForgeItem "GOLF CLUB" 94 objects\levels\shared\golf_club\golf_club.weapon
+AddForgeItem "SPARTAN PLUSHIE" 94 objects\props\fifthspartan\5thspartan\5thspartan.crate
 AddForgeItem "SOCCER BALL [REACH]" 94 objects\levels\shared\soccer_ball\soccer_ball.crate
 AddForgeItem "WEAPONS HOLDER [REACH]" 94 objects\props\covenant\cov_sword_holder\cov_sword_holder.crate
-AddForgeItem "GOLF BALL" 94 objects\levels\shared\golf_ball\golf_ball.crate
-AddForgeItem "SPARTAN PLUSHIE" 94 objects\props\fifthspartan\5thspartan\5thspartan.crate
 AddForgeItem "KILL BALL [REACH]" 94 objects\levels\shared\damage_sphere\damage_sphere.crate
 
 # OFFICE [95] -------------------------------------------------------------------------------------------------------------

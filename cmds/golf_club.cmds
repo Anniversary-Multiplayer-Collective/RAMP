@@ -1,33 +1,18 @@
-
-opencachefile reachmaps\forge_halo.map
+opencachefile "reachmaps\forge_halo.map"
 porttag objects\levels\shared\golf_club\shaders\golf_club_leather.shader
 porttag objects\levels\shared\golf_club\shaders\golf_club_metal.shader
 porttag objects\levels\shared\shaders\decal.shader
+porttag objects\levels\shared\golf_club\golf_club.physics_model
+porttag objects\levels\shared\golf_club\golf_club.collision_model
 exit
 
-Duplicatetag objects\weapons\melee\gravity_hammer\gravity_hammer.weapon
-nametag * objects\levels\shared\golf_club\golf_club
-Duplicatetag dw3\r3ach\objects\weapons\melee\gravity_hammer\gravity_hammer.model
-nametag * objects\levels\shared\golf_club\golf_club
-Duplicatetag dw3\r3ach\objects\weapons\melee\gravity_hammer\gravity_hammer.render_model
-nametag * objects\levels\shared\golf_club\golf_club
-Duplicatetag ui\chud\hammer.chud_definition
-nametag * ui\chud\golf_club
-savetagnames
-
-edittag objects\levels\shared\golf_club\golf_club.weapon
-setfield Model objects\levels\shared\golf_club\golf_club.model
-setfield FirstPerson[0].FirstPersonModel objects\levels\shared\golf_club\golf_club.render_model
-setfield FirstPerson[1].FirstPersonModel objects\levels\shared\golf_club\golf_club.render_model
-setfield HudInterface ui\chud\golf_club.chud_definition
+edittag ui\chud\bitmaps\club_art.bitmap
+importbitmap 0 workingdir\bitmaps\club_art.dds
+removeblockelements Sequences 0 *
 savetagchanges
 exit
 
-edittag objects\levels\shared\golf_club\golf_club.model
-setfield RenderModel objects\levels\shared\golf_club\golf_club.render_model
-savetagchanges
-exit
-
+Duplicatetag dw3\r3ach\objects\weapons\melee\gravity_hammer\gravity_hammer.render_model objects\levels\shared\golf_club\golf_club
 edittag objects\levels\shared\golf_club\golf_club.render_model
 replacerendergeometry workingdir\models\golf_club.dae
 setfield Materials[0].RenderMethod objects\levels\shared\shaders\decal.shader
@@ -35,19 +20,96 @@ setfield Materials[1].RenderMethod objects\levels\shared\golf_club\shaders\golf_
 setfield Materials[2].RenderMethod objects\levels\shared\golf_club\shaders\golf_club_metal.shader
 setfield MarkerGroups[2].Name invalid
 setfield MarkerGroups[3].Name invalid
+
+AddBlockElements MarkerGroups
+AddBlockElements MarkerGroups[*].Markers
+SetField MarkerGroups[*].Name mineleloldabest_left_hand_spartan_fp
+SetField MarkerGroups[*].Markers[*].RegionIndex -1
+SetField MarkerGroups[*].Markers[*].PermutationIndex -1
+SetField MarkerGroups[*].Markers[*].Translation -0.005 0.003 -0.10795
+SetField MarkerGroups[*].Markers[*].Rotation 0.085 0.1152 0.4 -0.763
+
+AddBlockElements MarkerGroups
+AddBlockElements MarkerGroups[*].Markers
+SetField MarkerGroups[*].Name mineleloldabest_left_hand_elite_fp
+SetField MarkerGroups[*].Markers[*].RegionIndex -1
+SetField MarkerGroups[*].Markers[*].PermutationIndex -1
+SetField MarkerGroups[*].Markers[*].Translation -0.0075 0.0075 -0.1118
+SetField MarkerGroups[*].Markers[*].Rotation 0.05 0.08 0.38 -0.91
+savetagchanges
+exit
+
+Duplicatetag dw3\r3ach\objects\weapons\melee\gravity_hammer\gravity_hammer.model objects\levels\shared\golf_club\golf_club
+edittag objects\levels\shared\golf_club\golf_club.model
+setfield RenderModel objects\levels\shared\golf_club\golf_club.render_model
+setfield CollisionModel objects\levels\shared\golf_club\golf_club.collision_model
+SetField PhysicsModel objects\levels\shared\golf_club\golf_club.physics_model
 savetagchanges
 exit
 
 generatebitmap ui\chud\bitmaps\golf_club_scematic workingdir\bitmaps\golf_club.dds
-
+Duplicatetag ui\chud\hammer.chud_definition ui\chud\golf_club
 edittag ui\chud\golf_club.chud_definition
-setfield HudWidgets[3].BitmapWidgets[0].BitmapSequenceIndex 18
-setfield HudWidgets[3].BitmapWidgets[0].PlacementData[0].Scale 0.8 0.8
+
+SetField HudWidgets[3].ParallaxData ui\chud\parallax\vehicles.chud_widget_parallax_data
+SetField HudWidgets[2].BitmapWidgets[1].RuntimeWidgetIndex 2
+
+SetField HudWidgets[2].BitmapWidgets[4].PlacementData[0].Offset -15 112
+SetField HudWidgets[2].BitmapWidgets[4].Bitmap ui\chud\bitmaps\energy_meters.bitmap
+
+SetField HudWidgets[2].TextWidgets[0].RenderData[0].ShaderType Simple
+AddBlockElements HudWidgets[2].TextWidgets[0].AnimationData
+SetField HudWidgets[2].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
+
+SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.216 0.216
+SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -30 9
+
+CopyBlockElements HudWidgets[2].TextWidgets 0 1
+PasteBlockElements HudWidgets[4].Textwidgets
+
+SetField HudWidgets[4].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\backpack_test.chud_animation_definition
+SetField HudWidgets[4].TextWidgets[0].AnimationData[0].Unreadying.Animation ui\chud\animations\backpack_unready.chud_animation_definition
+
+SetField HudWidgets[4].TextWidgets[0].PlacementData[0].Offset -42 10
+SetField HudWidgets[4].TextWidgets[0].PlacementData[0].Scale 0.26 0.26
+
+# EXTREMELY IMPORTANT
+SetField HudWidgets[4].TextWidgets[0].WidgetIndex 3
+
+AddBlockElements HudWidgets[4].TextWidgets[0].StateData
+SetField HudWidgets[4].TextWidgets[0].StateData[0].WeaponFlash BatteryLow
+SetField HudWidgets[4].TextWidgets[0].StateData[0].WeaponArmedStateHO Backpack
+SetField HudWidgets[4].TextWidgets[0].StateData[0].UnitZoomState Unzoomed
+SetField HudWidgets[4].TextWidgets[0].StateData[0].HiddenState Zoomed
+
+SetField HudWidgets[2].TextWidgets[0].PlacementData[0].Offset -67 65
+
+SetField HudWidgets[3].BitmapWidgets[0].PlacementData[0].Origin 1 1
+SetField HudWidgets[3].BitmapWidgets[0].PlacementData[0].Scale 0.885 0.885
+SetField HudWidgets[3].BitmapWidgets[0].Flags MirrorHorizontally,MirrorVertically
+SetField HudWidgets[3].BitmapWidgets[0].Bitmap ui\chud\bitmaps\club_art.bitmap
+setfield HudWidgets[3].BitmapWidgets[0].BitmapSequenceIndex 0
+
 setfield HudWidgets[2].BitmapWidgets[0].Bitmap ui\chud\bitmaps\golf_club_scematic.bitmap
-setfield HudWidgets[2].BitmapWidgets[0].PlacementData[0].Offset -25 65
+SetField HudWidgets[2].BitmapWidgets[0].PlacementData[0].Offset -16 60
+SetField HudWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 0.55 0.55
+
+SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -30 12
+
 setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\golf_club_scematic.bitmap
 savetagchanges
 exit
 
-AddForgeItem "Golf Club" 78 objects\levels\shared\golf_club\golf_club.weapon
+Duplicatetag objects\weapons\melee\gravity_hammer\gravity_hammer.weapon objects\levels\shared\golf_club\golf_club
+edittag objects\levels\shared\golf_club\golf_club.weapon
+setfield Model objects\levels\shared\golf_club\golf_club.model
+setfield FirstPerson[0].FirstPersonModel objects\levels\shared\golf_club\golf_club.render_model
+setfield FirstPerson[1].FirstPersonModel objects\levels\shared\golf_club\golf_club.render_model
+setfield HudInterface ui\chud\golf_club.chud_definition
 
+SetField PickupMessage gc_pickup
+SetField SwitchToMessage gc_switch_to
+SetField SwapMessage gc_swap
+SetField PickedUpMessage gc_picked_up
+savetagchanges
+exit

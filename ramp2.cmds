@@ -853,6 +853,9 @@ SetField CampaignId -1
 SaveTagChanges
 Exit
 
+echo == GOLF CLUB ==
+RunCommands "workingdir\cmds\golf_club.cmds"
+
 echo == FORGE ==
 # RunCommands "workingdir\cmds\forge.cmds"
 RunCommands "workingdir\cmds\forge_object_port.cmds"
@@ -2022,10 +2025,11 @@ SetField HudWidgets[0].BitmapWidgets[1].RenderData[0].OutputColorA LocalC
 SaveTagChanges
 Exit
 
-# echo ==Fix hud message/sprint overlap==
+# echo ==Fix hud message/sprint overlap, and forge hud on non 16:9 aspect ratio==
 EditTag ui\chud\globals.chud_globals_definition
 SetField HudGlobals[0].HudAttributes[0].MessageOffset 0 0.68
 SetField HudGlobals[0].HudAttributes[0].SurvivalMedalsOffset 0 0.62
+SetField HudGlobals[2].HudAttributes[0].ResolutionFlags _720pFullscreen,_480iFullscreen
 SaveTagChanges
 Exit
 EditTag objects\characters\elite\mp_elite\chud\globals.chud_globals_definition
@@ -2040,9 +2044,79 @@ OpenCacheFile "reachmaps\forge_halo.map"
 PortTag Replace Single ui\chud\bitmaps\arming_meter.bitmap
 Exit
 
+EditTag ui\chud\bitmaps\scoreboard_meter.bitmap
+Importbitmap 1 workingdir\bitmaps\scoreboard_meter.dds
+SetField Sequences[2].Sprites[0].BitmapIndex 1
+SetField Sequences[2].Sprites[0].RegistrationPoint 0 0
+SetField Sequences[2].Sprites[0].Left -0.5
+SetField Sequences[2].Sprites[0].Right 1.05
+SetField Sequences[2].Sprites[0].Bottom 1.18
+SaveTagChanges
+Exit
+
 EditTag ui\chud\scoreboard.chud_definition
+SetField HudWidgets[1].BitmapWidgets[1].RenderData[0].ShaderType MeterGradient
+SetField HudWidgets[1].BitmapWidgets[1].RenderData[0].ExternalInput FriendlyScore
+
+SetField HudWidgets[1].BitmapWidgets[1].RenderData[0].LocalScalarA 100
+SetField HudWidgets[1].BitmapWidgets[1].RenderData[0].LocalScalarB 2
+SetField HudWidgets[1].BitmapWidgets[1].RenderData[0].LocalScalarC 0.3
+SetField HudWidgets[1].BitmapWidgets[1].RenderData[0].LocalScalarD 1
+
+SetField HudWidgets[1].BitmapWidgets[1].RenderData[0].OutputColorA SecondaryBackground
+SetField HudWidgets[1].BitmapWidgets[1].RenderData[0].OutputColorC LocalB
+SetField HudWidgets[1].BitmapWidgets[1].RenderData[0].OutputColorD SecondaryBackground
+SetField HudWidgets[1].BitmapWidgets[1].RenderData[0].OutputColorE LocalD
+
+SetField HudWidgets[1].BitmapWidgets[1].RenderData[0].OutputScalarB LocalA
+SetField HudWidgets[1].BitmapWidgets[1].RenderData[0].OutputScalarC LocalB
+SetField HudWidgets[1].BitmapWidgets[1].RenderData[0].OutputScalarD LocalC
+SetField HudWidgets[1].BitmapWidgets[1].RenderData[0].OutputScalarE RangeInput
+SetField HudWidgets[1].BitmapWidgets[1].RenderData[0].OutputScalarF Input
+
+SetField HudWidgets[1].TextWidgets[0].PlacementData[0].Offset -78 3
+SetField HudWidgets[1].TextWidgets[0].PlacementData[0].Origin 0 1
+# SetField HudWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 1.2 1.2
+
+# SetField HudWidgets[2].BitmapWidgets[1].StateData[0].GameEngineStateHO VariantCustomB
+# SetField HudWidgets[2].BitmapWidgets[1].PlacementData[0].Offset -200 -2
+# SetField HudWidgets[2].BitmapWidgets[1].PlacementData[0].Scale 1.25 1.25
+# SetField HudWidgets[2].BitmapWidgets[1].BitmapSequenceIndex 2
+
+# SetField HudWidgets[2].BitmapWidgets[2].StateData[0].GameState MPKing
+# SetField HudWidgets[2].BitmapWidgets[2].PlacementData[0].Offset -200 -2
+# SetField HudWidgets[2].BitmapWidgets[2].PlacementData[0].Scale 1.25 1.25
+# SetField HudWidgets[2].BitmapWidgets[2].BitmapSequenceIndex 4
+
+# SetField HudWidgets[2].BitmapWidgets[3].PlacementData[0].Offset -200 -2
+# SetField HudWidgets[2].BitmapWidgets[3].PlacementData[0].Scale 1.25 1.25
+# SetField HudWidgets[2].BitmapWidgets[3].BitmapSequenceIndex 3
+
+SetField HudWidgets[2].BitmapWidgets[4].RenderData[0].ShaderType MeterGradient
+SetField HudWidgets[2].BitmapWidgets[4].RenderData[0].ExternalInput EnemyScore
+
+SetField HudWidgets[2].BitmapWidgets[4].RenderData[0].LocalScalarA 100
+SetField HudWidgets[2].BitmapWidgets[4].RenderData[0].LocalScalarB 2
+SetField HudWidgets[2].BitmapWidgets[4].RenderData[0].LocalScalarC 0.3
+SetField HudWidgets[2].BitmapWidgets[4].RenderData[0].LocalScalarD 1
+
+SetField HudWidgets[2].BitmapWidgets[4].RenderData[0].OutputColorA SecondaryBackground
+SetField HudWidgets[2].BitmapWidgets[4].RenderData[0].OutputColorC LocalB
+SetField HudWidgets[2].BitmapWidgets[4].RenderData[0].OutputColorD SecondaryBackground
+SetField HudWidgets[2].BitmapWidgets[4].RenderData[0].OutputColorE LocalD
+
+SetField HudWidgets[2].BitmapWidgets[4].RenderData[0].OutputScalarB LocalA
+SetField HudWidgets[2].BitmapWidgets[4].RenderData[0].OutputScalarC LocalB
+SetField HudWidgets[2].BitmapWidgets[4].RenderData[0].OutputScalarD LocalC
+SetField HudWidgets[2].BitmapWidgets[4].RenderData[0].OutputScalarE RangeInput
+SetField HudWidgets[2].BitmapWidgets[4].RenderData[0].OutputScalarF Input
+
+SetField HudWidgets[2].TextWidgets[0].PlacementData[0].Origin 0 1
+SetField HudWidgets[2].TextWidgets[0].PlacementData[0].Offset -78 3
+
 SetField HudWidgets[4].BitmapWidgets[0].Name arming_meter
 SetField HudWidgets[4].BitmapWidgets[0].ScriptingClass UseParent
+SetField HudWidgets[4].BitmapWidgets[0].StateData[0].UnitMiscState FirstPerson,ThirdPerson
 SetField HudWidgets[4].BitmapWidgets[0].BaseFlags None
 SetField HudWidgets[4].BitmapWidgets[0].SortLayer Inherited
 SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Anchor BottomCenter
@@ -2054,7 +2128,7 @@ SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].ShaderType MeterSingleColo
 SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].BlendModeHO AlphaBlend
 SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].ExternalInput ArmingFraction
 SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].RangeInput One
-SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalColorA 0 255 0 0
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalColorA 0 0 0 0
 SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalColorB 0 0 0 0
 SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalColorC 0 0 0 0
 SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalColorD 0 0 0 0
@@ -2062,7 +2136,7 @@ SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalScalarA 0
 SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalScalarB 0.2
 SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalScalarC 0.4
 SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalScalarD 30
-SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA LocalA
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA ScoreboardFriendly
 SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorB LocalB
 SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorC LocalB
 SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].OutputColorD LocalB
@@ -2079,6 +2153,70 @@ SetField HudWidgets[4].BitmapWidgets[0].RuntimeWidgetIndex 9
 SetField HudWidgets[4].BitmapWidgets[0].Flags None
 SetField HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\arming_meter.bitmap
 SetField HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 0
+
+SetField HudWidgets[4].TextWidgets[0].PlacementData[0].Offset 0 -29
+SetField HudWidgets[4].TextWidgets[1].PlacementData[0].Offset 0 -28.5
+
+SetField HudWidgets[5].BitmapWidgets[0].PlacementData[0].Anchor ScoreboardFriendly
+SetField HudWidgets[5].BitmapWidgets[0].PlacementData[0].Offset -200 -2
+SetField HudWidgets[5].BitmapWidgets[0].PlacementData[0].Scale 1.25 1.25
+
+SetField HudWidgets[5].BitmapWidgets[1].PlacementData[0].Anchor ScoreboardEnemy
+SetField HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -200 -2
+SetField HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 1.25 1.25
+
+SetField HudWidgets[5].BitmapWidgets[2].PlacementData[0].Anchor ScoreboardFriendly
+SetField HudWidgets[5].BitmapWidgets[2].PlacementData[0].Offset -200 -2
+SetField HudWidgets[5].BitmapWidgets[2].PlacementData[0].Scale 1.25 1.25
+RemoveBlockElements HudWidgets[5].BitmapWidgets[2].AnimationData 0 1
+
+SetField HudWidgets[5].BitmapWidgets[3].PlacementData[0].Anchor ScoreboardEnemy
+SetField HudWidgets[5].BitmapWidgets[3].PlacementData[0].Offset -200 -2
+SetField HudWidgets[5].BitmapWidgets[3].PlacementData[0].Scale 1.25 1.25
+RemoveBlockElements HudWidgets[5].BitmapWidgets[3].AnimationData 0 1
+
+# Assault icons is broken on 0.7.1.0
+# SetField HudWidgets[5].BitmapWidgets[4].PlacementData[0].Anchor ScoreboardFriendly
+# SetField HudWidgets[5].BitmapWidgets[4].PlacementData[0].Offset -200 -2
+# SetField HudWidgets[5].BitmapWidgets[4].PlacementData[0].Scale 1.25 1.25
+
+# SetField HudWidgets[5].BitmapWidgets[5].PlacementData[0].Anchor ScoreboardEnemy
+# SetField HudWidgets[5].BitmapWidgets[5].PlacementData[0].Offset -200 -2
+# SetField HudWidgets[5].BitmapWidgets[5].PlacementData[0].Scale 1.25 1.25
+
+SetField HudWidgets[5].BitmapWidgets[6].PlacementData[0].Anchor ScoreboardFriendly
+SetField HudWidgets[5].BitmapWidgets[6].PlacementData[0].Offset -200 -2
+SetField HudWidgets[5].BitmapWidgets[6].PlacementData[0].Scale 1.25 1.25
+
+SetField HudWidgets[5].BitmapWidgets[7].PlacementData[0].Anchor ScoreboardEnemy
+SetField HudWidgets[5].BitmapWidgets[7].PlacementData[0].Offset -200 -2
+SetField HudWidgets[5].BitmapWidgets[7].PlacementData[0].Scale 1.25 1.25
+
+SetField HudWidgets[5].BitmapWidgets[8].PlacementData[0].Scale 1.1 1.1
+SetField HudWidgets[5].BitmapWidgets[8].PlacementData[0].Anchor ScoreboardFriendly
+SetField HudWidgets[5].BitmapWidgets[8].RenderData[0].LocalColorA 0 200 200 200
+SetField HudWidgets[5].BitmapWidgets[8].PlacementData[0].Origin 0 0
+SetField HudWidgets[5].BitmapWidgets[8].PlacementData[0].Offset -175 -17
+
+SetField HudWidgets[5].BitmapWidgets[10].PlacementData[0].Offset 0 110
+SetField HudWidgets[5].BitmapWidgets[11].PlacementData[0].Offset 0 220
+SetField HudWidgets[5].BitmapWidgets[12].PlacementData[0].Offset 0 220
+
+SetField HudWidgets[5].TextWidgets[0].PlacementData[0].Offset 0 168
+SetField HudWidgets[5].TextWidgets[1].PlacementData[0].Offset 0 277.5
+SetField HudWidgets[5].TextWidgets[2].PlacementData[0].Offset 0 277.5
+SaveTagChanges
+Exit
+
+EditTag ui\chud\sandbox.chud_definition
+SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset 2 -2
+SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 1.25 1
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].ShaderType MeterGradient
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalScalarA 2
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalScalarB 0.5
+SetField HudWidgets[4].BitmapWidgets[0].RenderData[0].LocalScalarC 1
+SetField HudWidgets[4].BitmapWidgets[0].BitmapSequenceIndex 2
+SetField HudWidgets[4].TextWidgets[1].PlacementData[0].Offset -130 4.5
 SaveTagChanges
 Exit
 
@@ -2398,6 +2536,33 @@ SetField Reflections[0].ScaleCurveXFunction.Data 0834000000000000000000000000000
 SetField Reflections[0].ScaleCurveYFunction.Data 083400000000000000000000000000000000000000000000000000001400000001000000040000CDFFFF7F7F0000803F00000000
 SaveTagChanges
 Exit
+
+echo == Sabre Lock On Location ==
+edittag objects\vehicles\human\sabre\sabre.render_model
+SetField MarkerGroups[46].Markers[0].Translation 2.2990158 2.2888182E-06 -1.5443493
+SaveTagChanges
+Exit
+
+echo == Seraph Lock On Crosshair ==
+EditTag ui\chud\v_sabre_turret.chud_definition
+CopyBlockElements HudWidgets[1].BitmapWidgets 1 1
+Exit
+
+EditTag objects\vehicles\seraph_h3\chud\v_seraph.chud_definition
+PasteBlockElements HudWidgets[0].BitmapWidgets 1
+PasteBlockElements HudWidgets[0].BitmapWidgets 1
+
+SetField HudWidgets[0].BitmapWidgets[1].RuntimeWidgetIndex 1
+SetField HudWidgets[0].BitmapWidgets[1].PlacementData[0].Scale 0.15 0.15
+SetField HudWidgets[0].BitmapWidgets[1].Bitmap dw3\r3ach\ui\chud\bitmaps\scope_plasma_launcher\scope_bits.bitmap
+
+SetField HudWidgets[0].BitmapWidgets[2].RuntimeWidgetIndex 2
+SetField HudWidgets[0].BitmapWidgets[2].PlacementData[0].Scale -0.1 -0.1
+SetField HudWidgets[0].BitmapWidgets[2].AnimationData[0].Active.Flags PlayReverse
+SetField HudWidgets[0].BitmapWidgets[2].Bitmap dw3\r3ach\ui\chud\bitmaps\scope_plasma_launcher\scope_bits.bitmap
+SaveTagChanges
+Exit
+
 
 echo ==Add Void Canvas Map==
 
@@ -2724,9 +2889,6 @@ RunCommands "workingdir\cmds\extra_reforge_0.1.cmds"
 RunCommands "workingdir\cmds\extra_reforge_0.5.cmds"
 RunCommands "workingdir\cmds\extra_reforge_1.cmds"
 
-echo ==MORE REFORGE BLOCK==
-RunCommands "workingdir\cmds\golf_club.cmds"
-
 echo ==FIXUP DOOR BUTTON==
 edittag objects\levels\shared\device_controls\switches\hum_keypad_02\hum_keypad_02.device_control
 SetField ActionString device_door
@@ -2965,6 +3127,14 @@ SetField AmmoPack[0].Weapons[*].ClipSize 4
 AddBlockElements AmmoPack[0].Weapons
 SetField AmmoPack[0].Weapons[*].WeaponObject objects\weapons\pistol\needler\ramp_needler_purple.weapon
 SetField AmmoPack[0].Weapons[*].ClipSize 24
+
+AddBlockElements AmmoPack[0].Weapons
+SetField AmmoPack[0].Weapons[*].WeaponObject objects\weapons\pistol\automag\automag.weapon
+SetField AmmoPack[0].Weapons[*].ClipSize 12
+
+AddBlockElements AmmoPack[0].Weapons
+SetField AmmoPack[0].Weapons[*].WeaponObject objects\weapons\rifle\smg_silenced\smg_silenced.weapon
+SetField AmmoPack[0].Weapons[*].ClipSize 48
 savetagchanges
 exit
 
@@ -2988,6 +3158,12 @@ SetField HudWidgets[0].BitmapWidgets[0].SortLayer SavedFilm
 SetField HudWidgets[0].BitmapWidgets[1].SortLayer SavedFilm
 SetField HudWidgets[0].BitmapWidgets[2].SortLayer SavedFilm
 SetField HudWidgets[0].BitmapWidgets[3].SortLayer SavedFilm
+savetagchanges
+exit
+
+# echo == FIX ODDBALL FIRE EFFECT ==
+edittag objects\weapons\multiplayer\skull\fx\skull_fire_ground.effect
+SetField Events[0].ParticleSystems[0].CameraMode ThirdPersonOnly
 savetagchanges
 exit
 

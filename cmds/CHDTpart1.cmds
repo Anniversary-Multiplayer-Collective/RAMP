@@ -758,6 +758,10 @@ Exit
 # ----------------------------------------------------------------
 EditTag ui\chud\focus_rifle.chud_definition
 SetField HudWidgets[2].ParallaxData ui\chud\parallax\vehicles.chud_widget_parallax_data
+SetField HudWidgets[2].BitmapWidgets[0].PlacementData[0].Offset 1 -5
+SetField HudWidgets[2].BitmapWidgets[1].PlacementData[0].Scale 0.6 0.6
+SetField HudWidgets[2].BitmapWidgets[1].Bitmap ms30\ui\chud\bitmaps\hud_reticles.bitmap
+SetField HudWidgets[2].BitmapWidgets[1].StateData[0].WeaponArmedStateHO Hidden
 SetField HudWidgets[6].TextWidgets[0].RenderData[0].ShaderType Simple
 AddBlockElements HudWidgets[6].TextWidgets[0].AnimationData
 SetField HudWidgets[6].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
@@ -974,6 +978,27 @@ SetField HudWidgets[2].BitmapWidgets[2].StateData[0].WeaponArmedStateHO RightHan
 SetField HudWidgets[2].BitmapWidgets[3].StateData[0].WeaponArmedStateHO RightHand,LeftHand
 SetField HudWidgets[2].BitmapWidgets[4].StateData[0].WeaponArmedStateHO RightHand,LeftHand
 
+AddBlockElements HudWidgets[2].BitmapWidgets
+SetField HudWidgets[2].BitmapWidgets[*].Name headshot
+SetField HudWidgets[2].BitmapWidgets[*].ScriptingClass UseParent
+SetField HudWidgets[2].BitmapWidgets[*].SortLayer Inherited
+AddBlockElements HudWidgets[2].BitmapWidgets[*].StateData 1
+SetField HudWidgets[2].BitmapWidgets[*].StateData[0].WeaponArmedStateHO RightHand
+SetField HudWidgets[2].BitmapWidgets[*].StateData[0].WeaponCrosshairState EnemyHeadshot
+AddBlockElements HudWidgets[2].BitmapWidgets[*].PlacementData 1
+SetField HudWidgets[2].BitmapWidgets[*].PlacementData[0].Anchor Crosshair
+SetField HudWidgets[2].BitmapWidgets[*].PlacementData[0].Scale 0.6 0.6
+AddBlockElements HudWidgets[2].BitmapWidgets[*].RenderData 1
+SetField HudWidgets[2].BitmapWidgets[*].RenderData[0].ShaderType Crosshair
+SetField HudWidgets[2].BitmapWidgets[*].RenderData[0].BlendModeHO AlphaBlend
+SetField HudWidgets[2].BitmapWidgets[*].RenderData[0].ExternalInput Autoaim
+SetField HudWidgets[2].BitmapWidgets[*].RenderData[0].RangeInput Zero
+SetField HudWidgets[2].BitmapWidgets[*].RenderData[0].OutputColorA CrosshairNormal
+SetField HudWidgets[2].BitmapWidgets[*].RenderData[0].OutputColorB CrosshairEnemy
+SetField HudWidgets[2].BitmapWidgets[*].RenderData[0].OutputColorC CrosshairFriendly
+SetField HudWidgets[2].BitmapWidgets[*].RuntimeWidgetIndex 18
+SetField HudWidgets[2].BitmapWidgets[*].Bitmap ms30\ui\chud\bitmaps\hud_reticles.bitmap
+SetField HudWidgets[2].BitmapWidgets[*].BitmapSequenceIndex 24
 SaveTagChanges
 Exit
 
@@ -1155,6 +1180,8 @@ SetField HudWidgets[4].TextWidgets[1].StateData[0].WeaponArmedStateHO Backpack
 SetField HudWidgets[4].TextWidgets[1].StateData[0].UnitZoomState Unzoomed
 SetField HudWidgets[4].TextWidgets[1].StateData[0].HiddenState Zoomed
 
+SetField HudWidgets[2].BitmapWidgets[1].PlacementData[0].Scale 0.6 0.6
+SetField HudWidgets[2].BitmapWidgets[1].Bitmap ms30\ui\chud\bitmaps\hud_reticles.bitmap
 SaveTagChanges
 Exit
 
@@ -1531,6 +1558,8 @@ Exit
 # ----------------------------------------------------------------
 EditTag ui\chud\sniper_rifle.chud_definition
 SetField HudWidgets[2].ParallaxData ui\chud\parallax\vehicles.chud_widget_parallax_data
+SetField HudWidgets[2].BitmapWidgets[1].PlacementData[0].Scale 0.6 0.6
+SetField HudWidgets[2].BitmapWidgets[1].Bitmap ms30\ui\chud\bitmaps\hud_reticles.bitmap
 SetField HudAmmunitionInfo.LowAmmoLoadedThreshold 1
 SetField HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 11
 SetField HudWidgets[5].BitmapWidgets[0].RenderData[0].LocalScalarB 0.1
@@ -1741,6 +1770,8 @@ Exit
 # ----------------------------------------------------------------
 EditTag ui\chud\sentinel_beam.chud_definition
 SetField HudWidgets[2].ParallaxData ui\chud\parallax\vehicles.chud_widget_parallax_data
+SetField HudWidgets[2].BitmapWidgets[1].PlacementData[0].Scale 0.6 0.6
+SetField HudWidgets[2].BitmapWidgets[1].Bitmap ms30\ui\chud\bitmaps\hud_reticles.bitmap
 SetField HudWidgets[4].TextWidgets[0].RenderData[0].ShaderType Simple
 AddBlockElements HudWidgets[4].TextWidgets[0].AnimationData
 SetField HudWidgets[4].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
