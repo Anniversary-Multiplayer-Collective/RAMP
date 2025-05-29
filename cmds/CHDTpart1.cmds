@@ -420,6 +420,8 @@ Exit
 # ----------------------------------------------------------------
 EditTag ui\chud\beam_rifle.chud_definition
 SetField HudWidgets[2].ParallaxData ui\chud\parallax\vehicles.chud_widget_parallax_data
+SetField HudWidgets[2].BitmapWidgets[1].PlacementData[0].Scale 0.6 0.6
+SetField HudWidgets[2].BitmapWidgets[1].Bitmap ms30\ui\chud\bitmaps\hud_reticles.bitmap
 SetField HudWidgets[6].TextWidgets[0].RenderData[0].OutputColorB LocalA
 SetField HudWidgets[6].TextWidgets[0].RenderData[0].LocalColorA 0 255 255 255
 SetField HudWidgets[6].TextWidgets[0].RenderData[0].ShaderType Simple
@@ -1770,8 +1772,6 @@ Exit
 # ----------------------------------------------------------------
 EditTag ui\chud\sentinel_beam.chud_definition
 SetField HudWidgets[2].ParallaxData ui\chud\parallax\vehicles.chud_widget_parallax_data
-SetField HudWidgets[2].BitmapWidgets[1].PlacementData[0].Scale 0.6 0.6
-SetField HudWidgets[2].BitmapWidgets[1].Bitmap ms30\ui\chud\bitmaps\hud_reticles.bitmap
 SetField HudWidgets[4].TextWidgets[0].RenderData[0].ShaderType Simple
 AddBlockElements HudWidgets[4].TextWidgets[0].AnimationData
 SetField HudWidgets[4].TextWidgets[0].AnimationData[0].Readying.Animation ui\chud\animations\fade_in.chud_animation_definition
