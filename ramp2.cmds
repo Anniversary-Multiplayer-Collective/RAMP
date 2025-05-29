@@ -2724,6 +2724,9 @@ RunCommands "workingdir\cmds\extra_reforge_0.1.cmds"
 RunCommands "workingdir\cmds\extra_reforge_0.5.cmds"
 RunCommands "workingdir\cmds\extra_reforge_1.cmds"
 
+echo ==MORE REFORGE BLOCK==
+RunCommands "workingdir\cmds\golf_club.cmds"
+
 echo ==FIXUP DOOR BUTTON==
 edittag objects\levels\shared\device_controls\switches\hum_keypad_02\hum_keypad_02.device_control
 SetField ActionString device_door

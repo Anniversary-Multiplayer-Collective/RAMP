@@ -1,0 +1,53 @@
+
+opencachefile reachmaps\forge_halo.map
+porttag objects\levels\shared\golf_club\shaders\golf_club_leather.shader
+porttag objects\levels\shared\golf_club\shaders\golf_club_metal.shader
+porttag objects\levels\shared\shaders\decal.shader
+exit
+
+Duplicatetag objects\weapons\melee\gravity_hammer\gravity_hammer.weapon
+nametag * objects\levels\shared\golf_club\golf_club
+Duplicatetag dw3\r3ach\objects\weapons\melee\gravity_hammer\gravity_hammer.model
+nametag * objects\levels\shared\golf_club\golf_club
+Duplicatetag dw3\r3ach\objects\weapons\melee\gravity_hammer\gravity_hammer.render_model
+nametag * objects\levels\shared\golf_club\golf_club
+Duplicatetag ui\chud\hammer.chud_definition
+nametag * ui\chud\golf_club
+savetagnames
+
+edittag objects\levels\shared\golf_club\golf_club.weapon
+setfield Model objects\levels\shared\golf_club\golf_club.model
+setfield FirstPerson[0].FirstPersonModel objects\levels\shared\golf_club\golf_club.render_model
+setfield FirstPerson[1].FirstPersonModel objects\levels\shared\golf_club\golf_club.render_model
+setfield HudInterface ui\chud\golf_club.chud_definition
+savetagchanges
+exit
+
+edittag objects\levels\shared\golf_club\golf_club.model
+setfield RenderModel objects\levels\shared\golf_club\golf_club.render_model
+savetagchanges
+exit
+
+edittag objects\levels\shared\golf_club\golf_club.render_model
+replacerendergeometry workingdir\models\golf_club.dae
+setfield Materials[0].RenderMethod objects\levels\shared\shaders\decal.shader
+setfield Materials[1].RenderMethod objects\levels\shared\golf_club\shaders\golf_club_leather.shader
+setfield Materials[2].RenderMethod objects\levels\shared\golf_club\shaders\golf_club_metal.shader
+setfield MarkerGroups[2].Name invalid
+setfield MarkerGroups[3].Name invalid
+savetagchanges
+exit
+
+generatebitmap ui\chud\bitmaps\golf_club_scematic workingdir\bitmaps\golf_club.dds
+
+edittag ui\chud\golf_club.chud_definition
+setfield HudWidgets[3].BitmapWidgets[0].BitmapSequenceIndex 18
+setfield HudWidgets[3].BitmapWidgets[0].PlacementData[0].Scale 0.8 0.8
+setfield HudWidgets[2].BitmapWidgets[0].Bitmap ui\chud\bitmaps\golf_club_scematic.bitmap
+setfield HudWidgets[2].BitmapWidgets[0].PlacementData[0].Offset -25 65
+setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\golf_club_scematic.bitmap
+savetagchanges
+exit
+
+AddForgeItem "Golf Club" 78 objects\levels\shared\golf_club\golf_club.weapon
+
