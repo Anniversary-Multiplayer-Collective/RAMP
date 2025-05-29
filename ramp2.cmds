@@ -2667,6 +2667,13 @@ CompilePodiumScripts
 SaveTagChanges
 Exit
 
+# echo ==Set Description for VOID...==
+
+EditMap void.map
+SetField Blf.Scenario.Names[0].Name "Void"
+SetField Blf.Scenario.Descriptions[0].Name "Fill the void with your deepest desires."
+SaveMapChanges
+Exit
 
 echo ==Fix Screens on Weapons==
 EditTag dw3\r3ach\objects\weapons\rifle\sniper_rifle\shaders\scope_alpha.shader_halogram
