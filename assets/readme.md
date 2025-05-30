@@ -10,15 +10,19 @@ Welcome to RAMP, a community effort to transform Eldewrito into Halo Reach while
 * MtnDewIt (Tagtool Maintainer & Bug Fixer)
 * Minelelol (Core Contributor & Animator)
 * TwistedFlog (Core Contributor, Modeler, Animator & Tagtool Maintainer)
-* Newbie (Engine Knowledge)
-* Twister (Engine Knowledge)
 * Dirkkane (Minor Contributor)
-* IlikeMyName (Minor Contributor)
 * NoShotz (Original RAMP Creator)
+* IlikeMyName (Minor Contributor)
+* Newbie (Engine Knowledge & Emotional support)
+* Twister (Engine Knowledge)
 * Fyzure (Noble 6 Voice Lines & Macworld 1999 Emotes)
 * VKMT (R3ACH Weapon Pack)
 * Rejected Shotgun (Falcon, Stanchion, Pelican, Phantom from hugegrass Tags)
 * Just Alex (Revenant Tags)
+* Glitch 5970 (Regenerator FX)
+* Skaboodlydoodle (Reach LMG Tags)
+* Potterhalo (Downporting LMG Tags to H3 Engine)
+
 
 
 
@@ -59,7 +63,7 @@ Welcome to RAMP, a community effort to transform Eldewrito into Halo Reach while
 * Fixed hologram shader issue
 * Fixed Oddball FP animations
 * Fixed SPI armor shader
-* Fix Relfection coll projectile issue
+* Fix Reflection coll projectile issue
 * Fix Condemned coll projectile issue
 * Increased explosion LOD
 * Renamed some forge objects
