@@ -2890,6 +2890,12 @@ OpenModPackage workingdir\paks\FixStupidEdgeCrash.pak
 ApplyModPackage
 ExitModPackage
 
+EditTag levels\multi\s3d_reactor\s3d_reactor.scenario_lightmap_bsp_data
+SetField LightmapSHCoefficientsBitmap levels\multi\s3d_edge\s3d_edge_lightmap_s3d_edge_16f_lp_array_dxt5.bitmap
+SetField LightmapDominantLightDirectionBitmap levels\multi\s3d_edge\s3d_edge_lightmap_s3d_edge_16f_lp_array_intensity_dxt5.bitmap
+SaveTagChanges
+Exit
+
 echo == Fix Revenant taking less damage from AOE/explosions ==
 edittag objects\vehicles\covenant\revenant\revenant.model
 setfield NewDamageInfo[0].Flags PassesAreaDamageToChildren
