@@ -2326,6 +2326,27 @@ RunCommands "workingdir\cmds\reachcivilianvehicles.cmds"
 # echo ==Added Reach EMP effect to all vehicles ==
 RunCommands "workingdir\cmds\EMP Effects.cmds"
 
+EditTag objects\vehicles\human\civilian\truck_cab_large\shaders\military_container_tiled.shader
+SetArgument specular_coefficient 0.2
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\human\civilian\truck_cab_large\shaders\military_container_tiled_destroyed.shader
+SetArgument specular_coefficient 0.2
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\human\civilian\truck_cab_large\shaders\military_container.shader
+SetArgument specular_coefficient 0.2
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\human\civilian\truck_cab_large\shaders\military_container_crate.shader
+SetArgument specular_coefficient 0.2
+SaveTagChanges
+Exit
+
+
 echo ==H2AMP Beam Rifle==
 OpenModPackage "workingdir\paks\h2amp_beam_rifle.pak"
 ApplyModPackage
@@ -2790,26 +2811,6 @@ ForEach Events ForEach ParticleSystems setfield LodOutDistance 200
 SaveTagChanges
 Exit
 
-EditTag objects\vehicles\human\civilian\truck_cab_large\shaders\military_container_tiled.shader
-SetArgument specular_coefficient 0.2
-SaveTagChanges
-Exit
-
-EditTag objects\vehicles\human\civilian\truck_cab_large\shaders\military_container_tiled_destroyed.shader
-SetArgument specular_coefficient 0.2
-SaveTagChanges
-Exit
-
-EditTag objects\vehicles\human\civilian\truck_cab_large\shaders\military_container.shader
-SetArgument specular_coefficient 0.2
-SaveTagChanges
-Exit
-
-EditTag objects\vehicles\human\civilian\truck_cab_large\shaders\military_container_crate.shader
-SetArgument specular_coefficient 0.2
-SaveTagChanges
-Exit
-
 echo ==Boulder_Scale Render distance==
 
 EditTag objects\scenery\nature\boulder_scale\boulder_scale.model
@@ -2881,7 +2882,7 @@ echo == FF Map Variants ==
 RunCommands "workingdir\cmds\FFMapVariants.cmds"
 
 EditTag multiplayer\forge_globals.forge_globals_definition
-RemoveBlockElements Palette 502 13
+RemoveBlockElements Palette 502 12
 SaveTagChanges
 Exit
 

@@ -264,6 +264,14 @@ setfield Tracks[0].FadeOutMode None
 savetagchanges
 exit
 
+# ------------------------------------------------------------------------------------------------
+# ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->SHADER
+# ------------------------------------------------------------------------------------------------
+edittag objects\vehicles\human\civilian\military_truck\shaders\military_truck.shader
+SetArgument specular_coefficient 0.2
+savetagchanges
+exit
+
 # ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-MILITARY VAN->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->
 duplicatetag objects\vehicles\human\civilian\military_truck\military_truck.vehicle objects\vehicles\human\civilian\military_van\military_van
 duplicatetag objects\vehicles\human\civilian\military_truck\military_truck.model objects\vehicles\human\civilian\military_van\military_van
@@ -835,6 +843,8 @@ AddForgeItem "TRUCK, CARGO" "VEHICLES" objects\vehicles\human\civilian\cargo_tru
 AddForgeItem "VAN, MILITARY" "VEHICLES" objects\vehicles\human\civilian\military_van\military_van.vehicle
 AddForgeItem "CART, ELECTRIC" "VEHICLES" objects\vehicles\human\civilian\cart_electric\cart_electric.vehicle
 AddForgeItem "FORKLIFT" "VEHICLES" objects\vehicles\human\civilian\forklift\forklift.vehicle
+
+Foreach Vehicle Contains: objects\vehicles\human\civilian SetField MultiplayerObject[0].Type LightLandVehicle
 
 edittag ui\hud\hud_messages.multilingual_unicode_string_list
 setstring english truck_enter_driver "\uE461\uE45F to drive Truck"

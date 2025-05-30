@@ -60,6 +60,102 @@ AddForgeCategory "DLC DUPLICATES" 85
 AddForgeCategory "H:R MULTIPLAYER MAP BLOCKS" 85
 # INDEX 108
 AddForgeCategory "OBJECTIVE WEAPONS" "WEAPONS"
+# INDEX 109
+AddForgeCategory "EFFECTS" "H:REACH"
+
+DuplicateTag levels\solo\m50\fx\ambient\falling_leaves.effect_scenery ramp\levels\solo\m50\fx\ambient\falling_leaves
+DuplicateTag fx\fx_library\ambient\nature\bug_swarm\fly_swarm.effect_scenery ramp\fx\fx_library\ambient\nature\bug_swarm\fly_swarm
+DuplicateTag levels\solo\m50\fx\blowing_paper.effect_scenery ramp\levels\solo\m50\fx\blowing_paper
+DuplicateTag levels\dlc\cex_headlong\fx\headlong_garbage_curved.effect_scenery ramp\levels\dlc\cex_headlong\fx\headlong_garbage_curved
+DuplicateTag fx\fx_library\ambient\fire\fire_small\fire_small.effect_scenery ramp\fx\fx_library\ambient\fire\fire_small\fire_small
+DuplicateTag fx\fx_library\ambient\fire\fire_medium\fire_medium.effect_scenery ramp\fx\fx_library\ambient\fire\fire_medium\fire_medium
+DuplicateTag levels\solo\m10\fx\kiva_fire\kiva_fire.effect_scenery ramp\levels\solo\m10\fx\kiva_fire\kiva_fire
+DuplicateTag levels\solo\m50\fx\building_celing_fire.effect_scenery ramp\levels\solo\m50\fx\building_celing_fire
+DuplicateTag levels\solo\m50\fx\building_column_fire.effect_scenery ramp\levels\solo\m50\fx\building_column_fire
+DuplicateTag levels\dlc\cex_ff_halo\fx\blueflame.effect_scenery ramp\levels\dlc\cex_ff_halo\fx\blueflame
+DuplicateTag levels\dlc\cex_prisoner\effects\ca_prisoner_snow.effect_scenery ramp\levels\dlc\cex_prisoner\effects\ca_prisoner_snow
+DuplicateTag levels\solo\m45\fx\space_junk_corvette_huge.effect_scenery ramp\levels\solo\m45\fx\space_junk_corvette_huge
+DuplicateTag objects\ca_dev\ca_effects\dlc_condemned\antigrav_debris\antigrav_debris.effect_scenery ramp\objects\ca_dev\ca_effects\dlc_condemned\antigrav_debris\antigrav_debris
+
+EditTag levels\solo\m50\fx\ambient\falling_leaves.effect
+ForEach Events ForEach ParticleSystems setfield LodFeatherInDelta 1
+SaveTagChanges
+Exit
+
+EditTag fx\fx_library\ambient\nature\bug_swarm\fly_swarm.effect
+ForEach Events ForEach ParticleSystems setfield LodFeatherInDelta 1
+SaveTagChanges
+Exit
+
+EditTag levels\solo\m50\fx\blowing_paper.effect
+ForEach Events ForEach ParticleSystems setfield LodFeatherInDelta 1
+SaveTagChanges
+Exit
+
+EditTag levels\dlc\cex_headlong\fx\headlong_garbage_curved.effect
+ForEach Events ForEach ParticleSystems setfield LodFeatherInDelta 1
+SaveTagChanges
+Exit
+
+EditTag fx\fx_library\ambient\fire\fire_small\fire_small.effect
+ForEach Events ForEach ParticleSystems setfield LodFeatherInDelta 1
+SaveTagChanges
+Exit
+
+EditTag fx\fx_library\ambient\fire\fire_medium\fire_medium.effect
+ForEach Events ForEach ParticleSystems setfield LodFeatherInDelta 1
+SaveTagChanges
+Exit
+
+EditTag levels\solo\m10\fx\kiva_fire\kiva_fire.effect
+ForEach Events ForEach ParticleSystems setfield LodFeatherInDelta 1
+SaveTagChanges
+Exit
+
+EditTag levels\solo\m50\fx\building_ceiling_fire.effect
+ForEach Events ForEach ParticleSystems setfield LodFeatherInDelta 1
+SaveTagChanges
+Exit
+
+EditTag levels\solo\m50\fx\building_column_fire.effect
+ForEach Events ForEach ParticleSystems setfield LodFeatherInDelta 1
+SaveTagChanges
+Exit
+
+EditTag levels\dlc\cex_ff_halo\fx\blueflame.effect
+ForEach Events ForEach ParticleSystems setfield LodFeatherInDelta 1
+SaveTagChanges
+Exit
+
+EditTag levels\dlc\cex_prisoner\effects\ca_prisoner_snow.effect
+ForEach Events ForEach ParticleSystems setfield LodFeatherInDelta 1
+SaveTagChanges
+Exit
+
+EditTag levels\solo\m45\fx\space_junk_corvette_huge.effect
+ForEach Events ForEach ParticleSystems setfield LodFeatherInDelta 1
+SaveTagChanges
+Exit
+
+EditTag objects\ca_dev\ca_effects\dlc_condemned\antigrav_debris\antigrav_debris.effect
+ForEach Events ForEach ParticleSystems setfield LodFeatherInDelta 1
+SaveTagChanges
+Exit
+
+AddForgeItem "FALLING MAPLE LEAVES" "EFFECTS" ramp\levels\solo\m50\fx\ambient\falling_leaves.effect_scenery
+AddForgeItem "SWARM FLY" "EFFECTS" ramp\fx\fx_library\ambient\nature\bug_swarm\fly_swarm.effect_scenery
+AddForgeItem "BLOWING PAPER" "EFFECTS" ramp\levels\solo\m50\fx\blowing_paper.effect_scenery
+AddForgeItem "DUST, GARBAGE" "EFFECTS" ramp\levels\dlc\cex_headlong\fx\headlong_garbage_curved.effect_scenery
+AddForgeItem "FIRE, SMALL" "EFFECTS" ramp\fx\fx_library\ambient\fire\fire_small\fire_small.effect_scenery
+AddForgeItem "FIRE, MEDIUM" "EFFECTS" ramp\fx\fx_library\ambient\fire\fire_medium\fire_medium.effect_scenery
+AddForgeItem "FIRE, LARGE" "EFFECTS" ramp\levels\solo\m10\fx\kiva_fire\kiva_fire.effect_scenery
+AddForgeItem "FIRE, IMMENSE A" "EFFECTS" ramp\levels\solo\m50\fx\building_celing_fire.effect_scenery
+AddForgeItem "FIRE, IMMENSE B" "EFFECTS" ramp\levels\solo\m50\fx\building_column_fire.effect_scenery
+AddForgeItem "FLAME, DISTORT" "EFFECTS" ramp\levels\dlc\cex_ff_halo\fx\blueflame.effect_scenery
+AddForgeItem "SNOW DEBRIS" "EFFECTS" ramp\levels\dlc\cex_prisoner\effects\ca_prisoner_snow.effect_scenery
+AddForgeItem "SPACE DEBRIS" "EFFECTS" ramp\levels\solo\m45\fx\space_junk_corvette_huge.effect_scenery
+AddForgeItem "SPACE JUNK DEBRIS" "EFFECTS" ramp\objects\ca_dev\ca_effects\dlc_condemned\antigrav_debris\antigrav_debris.effect_scenery
+
 
 AddForgeItem "ASSAULT BOMB" "OBJECTIVE WEAPONS" objects\weapons\multiplayer\assault_bomb\assault_bomb.weapon
 AddForgeItem "FLAG" "OBJECTIVE WEAPONS" objects\weapons\multiplayer\flag\flag.weapon
@@ -238,13 +334,13 @@ AddForgeItem "LONGSWORD" 86 objects\vehicles\human\longsword\longsword.device_ma
 
 ##AddForgeItem "COLLAPSIBLE BUILDING" 86 objects\levels\solo\m52\collapsing_building\collapsing_building.device_machine
 ##AddForgeItem "WATCHTOWER BASE, COVENANT" 86 objects\props\covenant\cov_watchtower\cov_watchtower_base\cov_watchtower_base.device_machine
-# AddForgeItem "PORTABLE LIGHT, COVENANT" 86 objects\props\covenant\cov_portable_light\cov_portable_light.device_machine
+AddForgeItem "PORTABLE LIGHT, COVENANT" 86 objects\props\covenant\cov_portable_light\cov_portable_light.device_machine
 
 AddForgeItem "ELEVATOR BUTTON, TOGGLE" 86 objects\levels\shared\m20_elevator_sm_button\m20_elevator_sm_button.device_control
 AddForgeItem "KEYPAD, TOGGLE" 86 objects\levels\shared\device_controls\switches\hum_single_button_1\hum_single_button_1.device_control
 AddForgeItem "KEYPAD UNSC, TOGGLE" 86 objects\levels\shared\device_controls\switches\hum_keypad_02\hum_keypad_02.device_control
 
-AddForgeItem "COVENANT TOUCHSCREEN 1, TOGGLE" 86 objects\levels\shared\device_controls\switches\cov_touchscreen_03\cov_touchscreen_03.device_control
+AddForgeItem "COVENANT TOUCHSCREEN, TOGGLE" 86 objects\levels\shared\device_controls\switches\cov_touchscreen_03\cov_touchscreen_03.device_control
 # AddForgeItem "COVENANT TOUCHSCREEN 2, TOGGLE" 86 objects\levels\shared\device_controls\cov_touchscreen_m45\cov_touchscreen_m45.device_control
 
 # NATURALS [87] -------------------------------------------------------------------------------------------------------------
@@ -3945,14 +4041,30 @@ SaveTagChanges
 Exit
 
 # Post cleaning (removing object from the scnr that wasn't meant to be placed in the first place)
+# Removing ball of fog and unnecessary hiderance
 EditTag levels\dlc\cex_headlong\cex_headlong.scenario
 RemoveBlockElements Crates 49 1
 SaveTagChanges
 Exit
 
 EditTag levels\firefight\ff70_holdout\ff70_holdout.scenario
+Removeblockelements Machines 21 1
+Removeblockelements Machines 20 1
+Removeblockelements Machines 17 1
+Removeblockelements Machines 16 1
+Removeblockelements Machines 15 1
 AddBlockElements MachinePalette
 SetField Machines[14].PaletteIndex 6
 SetField MachinePalette[6].Object objects\levels\shared\device_machines\m70_door_ff\m70_door_ff_ramp.device_machine
 savetagchanges
 exit
+
+EditTag levels\multi\50_panopticon\50_panopticon.scenario
+RemoveBlockElements EffectScenery 0 1
+SaveTagChanges
+Exit
+
+EditTag levels\dlc\cex_beaver_creek\cex_beaver_creek.scenario
+RemoveBlockElements EffectScenery 11 2
+SaveTagChanges
+Exit

@@ -716,7 +716,7 @@ Exit
 
 OpenCacheFile "reachmaps\m30.map"
 PortTag objects\levels\shared\device_machines\metal_gate\metal_gate.device_machine
-# PortTag objects\props\covenant\cov_portable_light\cov_portable_light.device_machine
+PortTag objects\props\covenant\cov_portable_light\cov_portable_light.device_machine
 Exit
 
 OpenCacheFile "reachmaps\M50.map"
