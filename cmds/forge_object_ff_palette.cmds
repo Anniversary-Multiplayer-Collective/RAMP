@@ -1,0 +1,121 @@
+EditTag multiplayer\forge_globals.forge_globals_definition
+
+AddBlockElements Palette
+SetField Palette[*].Name "PATHFINDING HELPER RAILING" 
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex -1 
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\levels\shared\pathfinding_helper_railing\pathfinding_helper_railing.scenery
+AddBlockElements Palette[*].Setters 1
+SetField Palette[*].Setters[*].Target General_Physics
+SetField Palette[*].Setters[*].IntegerValue 1
+
+AddBlockElements Palette
+SetField Palette[*].Name "INVIS COV RESUPPLY CAPSULE" 
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex -1 
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\levels\shared\device_machines\invis_cov_resupply_capsule\invis_cov_resupply_capsule.device_machine
+AddBlockElements Palette[*].Setters 1
+SetField Palette[*].Setters[*].Target General_Physics
+SetField Palette[*].Setters[*].IntegerValue 1
+
+AddBlockElements Palette
+SetField Palette[*].Name "INVIS COV SQUAD DROP POD" 
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex -1 
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\levels\shared\device_machines\invis_cov_squad_drop_pod\invis_cov_squad_drop_pod.device_machine
+AddBlockElements Palette[*].Setters 1
+SetField Palette[*].Setters[*].Target General_Physics
+SetField Palette[*].Setters[*].IntegerValue 1
+
+AddBlockElements Palette
+SetField Palette[*].Name "INVIS COV SQUAD DROP WATER" 
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex -1 
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\levels\shared\device_machines\invis_cov_squad_drop_water\invis_cov_squad_drop_water.device_machine
+AddBlockElements Palette[*].Setters 1
+SetField Palette[*].Setters[*].Target General_Physics
+SetField Palette[*].Setters[*].IntegerValue 1
+
+AddBlockElements Palette
+SetField Palette[*].Name "INVIS RESUPPLY CAPSULE" 
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex -1 
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\levels\shared\device_machines\invis_resupply_capsule\invis_resupply_capsule.device_machine
+AddBlockElements Palette[*].Setters 1
+SetField Palette[*].Setters[*].Target General_Physics
+SetField Palette[*].Setters[*].IntegerValue 1
+
+AddBlockElements Palette
+SetField Palette[*].Name "INVIS RESUPPLY WATER" 
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex -1 
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\levels\shared\device_machines\invis_resupply_water\invis_resupply_water.device_machine
+AddBlockElements Palette[*].Setters 1
+SetField Palette[*].Setters[*].Target General_Physics
+SetField Palette[*].Setters[*].IntegerValue 1
+
+AddBlockElements Palette
+SetField Palette[*].Name "INVISIBLE SWITCH GEN" 
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex -1 
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\levels\firefight\invisible_switch_gen\invisible_switch_gen.device_control
+AddBlockElements Palette[*].Setters 1
+SetField Palette[*].Setters[*].Target General_Physics
+SetField Palette[*].Setters[*].IntegerValue 1
+
+AddBlockElements Palette
+SetField Palette[*].Name "INVISIBLE SWITCH GEN COOL" 
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex -1 
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\levels\firefight\invisible_switch_gen\invisible_switch_gen_cool.device_control
+AddBlockElements Palette[*].Setters 1
+SetField Palette[*].Setters[*].Target General_Physics
+SetField Palette[*].Setters[*].IntegerValue 1
+
+AddBlockElements Palette
+SetField Palette[*].Name "INVISIBLE SWITCH GEN DISABLED" 
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex -1 
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\levels\firefight\invisible_switch_gen\invisible_switch_gen_disabled.device_control
+AddBlockElements Palette[*].Setters 1
+SetField Palette[*].Setters[*].Target General_Physics
+SetField Palette[*].Setters[*].IntegerValue 1
+
+AddBlockElements Palette
+SetField Palette[*].Name "FIREFIGHT RESPAWN ZONE"
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex -1 
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\multi\firefight\firefight_respawn_zone.scenery
+AddBlockElements Palette[*].Setters 1
+SetField Palette[*].Setters[*].Target General_Physics
+SetField Palette[*].Setters[*].IntegerValue 1
+
+AddBlockElements Palette
+SetField Palette[*].Name "Pathfinding Vehicle" 
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex -1 
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\levels\shared\pathfinding\pathfinding_vehicle\pathfinding_vehicle.scenery
+AddBlockElements Palette[*].Setters 1
+SetField Palette[*].Setters[*].Target General_Physics
+SetField Palette[*].Setters[*].IntegerValue 1
+
+AddBlockElements Palette
+SetField Palette[*].Name "FF30 Pathfinding Helper" 
+SetField Palette[*].Type Prop
+SetField Palette[*].CategoryIndex -1 
+SetField Palette[*].DescriptionIndex -1
+SetField Palette[*].Object objects\levels\firefight\ff30_waterfront\ff30_pathfinding_helper\ff30_pathfinding_helper.scenery
+AddBlockElements Palette[*].Setters 1
+SetField Palette[*].Setters[*].Target General_Physics
+SetField Palette[*].Setters[*].IntegerValue 1

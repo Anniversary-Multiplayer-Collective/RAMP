@@ -391,7 +391,18 @@ PortTag objects\levels\forge\ff_light_purple\ff_light_purple.bloc
 PortTag objects\levels\forge\ff_light_blue\ff_light_blue.bloc
 
 PortInstancedGeometryObject 0 1475 objects\ramp\shared\forge_island\forge_island
+PortInstancedGeometryObject 0 1403 objects\ramp\shared\forge_halo_pine_tree\forge_halo_pine_tree
 Exit
+
+EditTag objects\ramp\shared\forge_halo_pine_tree\forge_halo_pine_tree.model
+SetField Materials[0].GlobalMaterialIndex 46
+savetagchanges
+exit
+
+EditTag objects\ramp\shared\forge_halo_pine_tree\forge_halo_pine_tree.render_model
+SetField Geometry.Meshes[0].Parts[0].FlagsNew PreventBackfaceCulling
+savetagchanges
+exit
 
 EditTag objects\ramp\shared\forge_island\forge_island.model
 SetField DisappearDistance 1165
@@ -692,8 +703,8 @@ Exit
 OpenCacheFile "reachmaps\m45.map"
 PortTag objects\props\human\pioneer\pioneer_weapons_stash\pioneer_weapons_stash.device_machine
 PortTag objects\levels\shared\device_controls\switches\cov_touchscreen_03\cov_touchscreen_03.device_control
-PortTag objects\levels\shared\device_controls\cov_touchscreen_m45\cov_touchscreen_m45.device_control
-PortTag objects\levels\solo\m45\space_debris_a\space_debris_a.scenery
+# PortTag objects\levels\shared\device_controls\cov_touchscreen_m45\cov_touchscreen_m45.device_control
+# PortTag objects\levels\solo\m45\space_debris_a\space_debris_a.scenery
 PortTag objects\props\human\unsc\slipspace_drive\slipspace_drive.scenery
 PortTag objects\levels\solo\m45\space_beacon\space_beacon.scenery
 PortTag objects\levels\solo\m45\m45_corvette_holo_globe\m45_corvette_holo_globe.scenery
@@ -705,7 +716,7 @@ Exit
 
 OpenCacheFile "reachmaps\m30.map"
 PortTag objects\levels\shared\device_machines\metal_gate\metal_gate.device_machine
-PortTag objects\props\covenant\cov_portable_light\cov_portable_light.device_machine
+# PortTag objects\props\covenant\cov_portable_light\cov_portable_light.device_machine
 Exit
 
 OpenCacheFile "reachmaps\M50.map"
@@ -737,6 +748,7 @@ PortTag objects\cex\cex_headlong\forge\ff_door\ff_door.crate
 PortInstancedGeometryObject 0 2383 objects\ramp\shared\superintendant_evacuate_sign\superintendant_evacuate_sign
 PortInstancedGeometryObject 0 173 objects\ramp\shared\overpass\overpass
 PortInstancedGeometryObject 0 1813 objects\ramp\shared\street\street
+PortInstancedGeometryObject 0 1672 objects\ramp\shared\street_light_a\street_light_a
 PortInstancedGeometryObject 0 1907 objects\ramp\shared\street_ramp\street_ramp
 PortInstancedGeometryObject 0 1888 objects\ramp\shared\tree_pot_destroyed\tree_pot_destroyed
 PortInstancedGeometryObject 0 454 objects\ramp\shared\tree_pot\tree_pot
@@ -748,6 +760,7 @@ ForEach model contains: objects\ramp\shared\overpass\overpass SetField Materials
 ForEach model contains: objects\ramp\shared\street\street SetField Materials[0].GlobalMaterialIndex 104
 ForEach model contains: objects\ramp\shared\street_ramp\street_ramp SetField Materials[0].GlobalMaterialIndex 104
 ForEach model contains: objects\ramp\shared\tree_pot_destroyed\tree_pot_destroyed SetField Materials[0].GlobalMaterialIndex 141
+ForEach model contains: objects\ramp\shared\street_light_a\street_light_a SetField Materials[0].GlobalMaterialIndex 55
 # ForEach model contains: objects\ramp\shared\stakugoldenwarthog\stakugoldenwarthog SetField Materials[0].GlobalMaterialIndex 55
 
 # GOLD WARTHOG BANNER
@@ -920,6 +933,15 @@ ForEach model contains: objects\ramp\shared\road\road SetField Materials[0].Glob
 ForEach model contains: objects\ramp\shared\woodchipper\woodchipper SetField Materials[0].GlobalMaterialIndex 221
 
 # -----------------------------------------------
+# |               INSTALLATION 04               |
+# -----------------------------------------------
+opencachefile "reachmaps\cex_ff_halo.map"
+PortInstancedGeometryObject 0 171 objects\ramp\shared\tree_dead\tree_dead
+exit
+
+ForEach model contains: objects\ramp\shared\tree_dead\tree_dead SetField Materials[0].GlobalMaterialIndex 46
+
+# -----------------------------------------------
 # |                 UNEARTHED                   |
 # -----------------------------------------------
 opencachefile "reachmaps\ff_unearthed.map"
@@ -929,7 +951,7 @@ opencachefile "reachmaps\ff_unearthed.map"
 PortInstancedGeometryObject 0 465 objects\ramp\shared\unearthed_warehouse\unearthed_warehouse
 PortInstancedGeometryObject 0 26 objects\ramp\shared\unearthed_warehouse_roof\unearthed_warehouse_roof
 PortInstancedGeometryObject 0 240 objects\ramp\shared\unearthed_warehouse_roof_truss\unearthed_warehouse_roof_truss
-PortInstancedGeometryObject 0 1618 objects\ramp\shared\street_light\street_light
+PortInstancedGeometryObject 0 1618 objects\ramp\shared\street_light_b\street_light_b
 PortInstancedGeometryObject 0 452 objects\ramp\shared\metal_scaffolding\metal_scaffolding
 PortInstancedGeometryObject 0 1308 objects\ramp\shared\conveyor_belt\conveyor_belt
 PortInstancedGeometryObject 0 926 objects\ramp\shared\platform_d\platform_d
@@ -939,7 +961,7 @@ exit
 ForEach model contains: objects\ramp\shared\unearthed_warehouse\unearthed_warehouse SetField Materials[0].GlobalMaterialIndex 104
 ForEach model contains: objects\ramp\shared\unearthed_warehouse_roof\unearthed_warehouse_roof SetField Materials[0].GlobalMaterialIndex 55
 ForEach model contains: objects\ramp\shared\unearthed_warehouse_roof_truss\unearthed_warehouse_roof_truss SetField Materials[0].GlobalMaterialIndex 54
-ForEach model contains: objects\ramp\shared\street_light\street_light SetField Materials[0].GlobalMaterialIndex 54
+ForEach model contains: objects\ramp\shared\street_light_b\street_light_b SetField Materials[0].GlobalMaterialIndex 54
 ForEach model contains: objects\ramp\shared\metal_scaffolding\metal_scaffolding SetField Materials[0].GlobalMaterialIndex 89
 ForEach model contains: objects\ramp\shared\conveyor_belt\conveyor_belt SetField Materials[0].GlobalMaterialIndex 36
 ForEach model contains: objects\ramp\shared\platform_d\platform_d SetField Materials[0].GlobalMaterialIndex 69

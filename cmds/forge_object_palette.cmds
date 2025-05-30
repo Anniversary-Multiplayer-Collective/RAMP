@@ -238,14 +238,14 @@ AddForgeItem "LONGSWORD" 86 objects\vehicles\human\longsword\longsword.device_ma
 
 ##AddForgeItem "COLLAPSIBLE BUILDING" 86 objects\levels\solo\m52\collapsing_building\collapsing_building.device_machine
 ##AddForgeItem "WATCHTOWER BASE, COVENANT" 86 objects\props\covenant\cov_watchtower\cov_watchtower_base\cov_watchtower_base.device_machine
-AddForgeItem "PORTABLE LIGHT, COVENANT" 86 objects\props\covenant\cov_portable_light\cov_portable_light.device_machine
+# AddForgeItem "PORTABLE LIGHT, COVENANT" 86 objects\props\covenant\cov_portable_light\cov_portable_light.device_machine
 
 AddForgeItem "ELEVATOR BUTTON, TOGGLE" 86 objects\levels\shared\m20_elevator_sm_button\m20_elevator_sm_button.device_control
 AddForgeItem "KEYPAD, TOGGLE" 86 objects\levels\shared\device_controls\switches\hum_single_button_1\hum_single_button_1.device_control
 AddForgeItem "KEYPAD UNSC, TOGGLE" 86 objects\levels\shared\device_controls\switches\hum_keypad_02\hum_keypad_02.device_control
 
 AddForgeItem "COVENANT TOUCHSCREEN 1, TOGGLE" 86 objects\levels\shared\device_controls\switches\cov_touchscreen_03\cov_touchscreen_03.device_control
-AddForgeItem "COVENANT TOUCHSCREEN 2, TOGGLE" 86 objects\levels\shared\device_controls\cov_touchscreen_m45\cov_touchscreen_m45.device_control
+# AddForgeItem "COVENANT TOUCHSCREEN 2, TOGGLE" 86 objects\levels\shared\device_controls\cov_touchscreen_m45\cov_touchscreen_m45.device_control
 
 # NATURALS [87] -------------------------------------------------------------------------------------------------------------
 ForEach scenery startingwith: objects\levels\solo\m10\030_rock_blocker AddBlockElements MultiplayerObject 1
@@ -630,9 +630,11 @@ Exit
 
 AddForgeItem "PLANT BED, LARGE" 87 objects\ramp\shared\plant_bed_large\plant_bed_large.scenery
 AddForgeItem "PLANT BED, MEDIUM" 87 objects\ramp\shared\plant_bed_medium\plant_bed_medium.scenery
+AddForgeItem "TREE, BARK" 87 objects\ramp\shared\tree_dead\tree_dead.scenery
 AddForgeItem "TREE, BIRCH" 87 objects\ramp\shared\birch_tree\birch_tree.scenery
 AddForgeItem "TREE, CANOPY" 87 objects\ramp\shared\canopy_tree\canopy_tree.scenery
 AddForgeItem "TREE, COLUMNAR" 87 objects\ramp\shared\columnar_tree\columnar_tree.scenery
+AddForgeItem "TREE, PINE FORGEWORLD" 87 objects\ramp\shared\forge_halo_pine_tree\forge_halo_pine_tree.scenery
 AddForgeItem "TREE, SPRUCE" 87 objects\ramp\shared\spruce_tree\spruce_tree.scenery
 
 AddForgeItem "DRIFTWOOD 1" 87 objects\levels\solo\m20\driftwood_a\driftwood_a.crate
@@ -2089,7 +2091,7 @@ AddForgeItem "HALCYON, CRUISER" 99 objects\vehicles\human\unsc_fleet\unsc_halcyo
 AddForgeItem "FRIGATE" 99 levels\multi\dlc\objects\dlc_frigate\dlc_frigate.scenery
 AddForgeItem "FRIGATE, NO MACHINE TURRET" 99 objects\levels\ca_dev\dlc_condemned\frigate_battle\frigate_battle.scenery
 AddForgeItem "CORVETTE" 99 objects\levels\ca_dev\dlc_condemned\corvette_battle\corvette_battle.scenery
-AddForgeItem "SPACE DEBRIS, FLYBY" 99 objects\levels\solo\m45\space_debris_a\space_debris_a.scenery
+# AddForgeItem "SPACE DEBRIS, FLYBY" 99 objects\levels\solo\m45\space_debris_a\space_debris_a.scenery
 AddForgeItem "SPACE BEACON SATELLITE" 99 objects\levels\solo\m45\space_beacon\space_beacon.scenery
 AddForgeItem "DOCKING BAY, LEFT" 99 objects\levels\solo\m45\m45_docking_bay_left\m45_docking_bay_left.scenery
 AddForgeItem "DOCKING BAY, RIGHT" 99 objects\levels\solo\m45\m45_docking_bay_right\m45_docking_bay_right.scenery
@@ -2164,6 +2166,8 @@ AddForgeItem "BANNER, GOLDEN HOG" 99 objects\ramp\shared\stakugoldenwarthog\stak
 AddForgeItem "STREET" 99 objects\ramp\shared\street\street.scenery
 AddForgeItem "STREET, RAMP" 99 objects\ramp\shared\street_ramp\street_ramp.scenery
 AddForgeItem "STREET, OVERPASS" 99 objects\ramp\shared\overpass\overpass.scenery
+AddForgeItem "STREET LIGHT, TALL" 99 objects\ramp\shared\street_light_a\street_light_a.scenery
+AddForgeItem "STREET LIGHT, SLIM" 99 objects\ramp\shared\street_light_b\street_light_b.scenery
 AddForgeItem "ROAD" 99 objects\ramp\shared\road\road.scenery
 AddForgeItem "ROAD BRIDGE, DESTROYED" 99 objects\levels\solo\m35\m35_bridge_intro\m35_bridge_intro.scenery
 AddForgeItem "BRIDGE, RUINED" 99 objects\levels\solo\m35\bridge_slab_1\bridge_slab_1.crate
@@ -3570,8 +3574,6 @@ AddForgeItem "[UNEARTHED] TITANIUM SHARD" 107 objects\ramp\shared\titanium_shard
 AddForgeItem "[UNEARTHED] WAREHOUSE" 107 objects\ramp\shared\unearthed_warehouse\unearthed_warehouse.scenery
 AddForgeItem "[UNEARTHED] WAREHOUSE ROOF" 107 objects\ramp\shared\unearthed_warehouse_roof\unearthed_warehouse_roof.scenery
 AddForgeItem "[UNEARTHED] WAREHOUSE ROOF TRUSS" 107 objects\ramp\shared\unearthed_warehouse_roof_truss\unearthed_warehouse_roof_truss.scenery
-AddForgeItem "[UNEARTHED] STREET LIGHT" 107 objects\ramp\shared\street_light\street_light.scenery
-
 
 # NULL [-1]
 # AddForgeItem "SANDBAGS [REACH]" -1 objects\gear\human\military\sandbag_wall\sandbag_wall.crate
@@ -3700,7 +3702,7 @@ SetField Palette[*].Setters[*].Target General_Physics
 SetField Palette[*].Setters[*].IntegerValue 1
 
 AddBlockElements Palette
-SetField Palette[*].Name "SANDBAG 9-1 CORNER [REACH]"
+SetField Palette[*].Name "SANDBAG 90 CORNER [REACH]"
 SetField Palette[*].Type Prop
 SetField Palette[*].CategoryIndex -1 
 SetField Palette[*].DescriptionIndex -1
@@ -3745,16 +3747,6 @@ SetField Palette[*].Type Prop
 SetField Palette[*].CategoryIndex -1 
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\multi\spawning\weak_anti_respawn_zone.scenery
-AddBlockElements Palette[*].Setters 1
-SetField Palette[*].Setters[*].Target General_Physics
-SetField Palette[*].Setters[*].IntegerValue 1
-
-AddBlockElements Palette
-SetField Palette[*].Name "FIREFIGHT RESPAWN ZONE"
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex -1 
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\multi\firefight\firefight_respawn_zone.scenery
 AddBlockElements Palette[*].Setters 1
 SetField Palette[*].Setters[*].Target General_Physics
 SetField Palette[*].Setters[*].IntegerValue 1
@@ -3920,121 +3912,11 @@ SetField Palette[*].Setters[*].Target General_Physics
 SetField Palette[*].Setters[*].IntegerValue 1
 
 AddBlockElements Palette
-SetField Palette[*].Name "PATHFINDING HELPER RAILING" 
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex -1 
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\levels\shared\pathfinding_helper_railing\pathfinding_helper_railing.scenery
-AddBlockElements Palette[*].Setters 1
-SetField Palette[*].Setters[*].Target General_Physics
-SetField Palette[*].Setters[*].IntegerValue 1
-
-AddBlockElements Palette
-SetField Palette[*].Name "INVIS COV RESUPPLY CAPSULE" 
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex -1 
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\levels\shared\device_machines\invis_cov_resupply_capsule\invis_cov_resupply_capsule.device_machine
-AddBlockElements Palette[*].Setters 1
-SetField Palette[*].Setters[*].Target General_Physics
-SetField Palette[*].Setters[*].IntegerValue 1
-
-AddBlockElements Palette
-SetField Palette[*].Name "INVIS COV SQUAD DROP POD" 
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex -1 
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\levels\shared\device_machines\invis_cov_squad_drop_pod\invis_cov_squad_drop_pod.device_machine
-AddBlockElements Palette[*].Setters 1
-SetField Palette[*].Setters[*].Target General_Physics
-SetField Palette[*].Setters[*].IntegerValue 1
-
-AddBlockElements Palette
-SetField Palette[*].Name "INVIS COV SQUAD DROP WATER" 
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex -1 
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\levels\shared\device_machines\invis_cov_squad_drop_water\invis_cov_squad_drop_water.device_machine
-AddBlockElements Palette[*].Setters 1
-SetField Palette[*].Setters[*].Target General_Physics
-SetField Palette[*].Setters[*].IntegerValue 1
-
-AddBlockElements Palette
-SetField Palette[*].Name "INVIS RESUPPLY CAPSULE" 
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex -1 
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\levels\shared\device_machines\invis_resupply_capsule\invis_resupply_capsule.device_machine
-AddBlockElements Palette[*].Setters 1
-SetField Palette[*].Setters[*].Target General_Physics
-SetField Palette[*].Setters[*].IntegerValue 1
-
-AddBlockElements Palette
-SetField Palette[*].Name "INVIS RESUPPLY WATER" 
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex -1 
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\levels\shared\device_machines\invis_resupply_water\invis_resupply_water.device_machine
-AddBlockElements Palette[*].Setters 1
-SetField Palette[*].Setters[*].Target General_Physics
-SetField Palette[*].Setters[*].IntegerValue 1
-
-AddBlockElements Palette
-SetField Palette[*].Name "INVISIBLE SWITCH GEN" 
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex -1 
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\levels\firefight\invisible_switch_gen\invisible_switch_gen.device_control
-AddBlockElements Palette[*].Setters 1
-SetField Palette[*].Setters[*].Target General_Physics
-SetField Palette[*].Setters[*].IntegerValue 1
-
-AddBlockElements Palette
-SetField Palette[*].Name "INVISIBLE SWITCH GEN COOL" 
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex -1 
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\levels\firefight\invisible_switch_gen\invisible_switch_gen_cool.device_control
-AddBlockElements Palette[*].Setters 1
-SetField Palette[*].Setters[*].Target General_Physics
-SetField Palette[*].Setters[*].IntegerValue 1
-
-AddBlockElements Palette
-SetField Palette[*].Name "INVISIBLE SWITCH GEN DISABLED" 
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex -1 
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\levels\firefight\invisible_switch_gen\invisible_switch_gen_disabled.device_control
-AddBlockElements Palette[*].Setters 1
-SetField Palette[*].Setters[*].Target General_Physics
-SetField Palette[*].Setters[*].IntegerValue 1
-
-AddBlockElements Palette
 SetField Palette[*].Name "JERSEY BARRIER [REACH]" 
 SetField Palette[*].Type Prop
 SetField Palette[*].CategoryIndex -1 
 SetField Palette[*].DescriptionIndex -1
 SetField Palette[*].Object objects\gear\human\industrial\jersey_barrier\mp_jersey_barrier.crate
-AddBlockElements Palette[*].Setters 1
-SetField Palette[*].Setters[*].Target General_Physics
-SetField Palette[*].Setters[*].IntegerValue 1
-
-AddBlockElements Palette
-SetField Palette[*].Name "Pathfinding Vehicle" 
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex -1 
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\levels\shared\pathfinding\pathfinding_vehicle\pathfinding_vehicle.scenery
-AddBlockElements Palette[*].Setters 1
-SetField Palette[*].Setters[*].Target General_Physics
-SetField Palette[*].Setters[*].IntegerValue 1
-
-AddBlockElements Palette
-SetField Palette[*].Name "FF30 Pathfinding Helper" 
-SetField Palette[*].Type Prop
-SetField Palette[*].CategoryIndex -1 
-SetField Palette[*].DescriptionIndex -1
-SetField Palette[*].Object objects\levels\firefight\ff30_waterfront\ff30_pathfinding_helper\ff30_pathfinding_helper.scenery
 AddBlockElements Palette[*].Setters 1
 SetField Palette[*].Setters[*].Target General_Physics
 SetField Palette[*].Setters[*].IntegerValue 1
