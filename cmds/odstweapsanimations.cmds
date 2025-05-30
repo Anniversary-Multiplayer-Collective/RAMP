@@ -371,7 +371,7 @@ SetField FirstPersonWeaponOffset 0 0 0
 SaveTagChanges
 Exit
 
-EditTag EditTag ui\weapon_type_names.multilingual_unicode_string_list
+EditTag ui\weapon_type_names.multilingual_unicode_string_list
 SetString english offset_automag "AUTOMAG"
 SaveTagChanges
 Exit
