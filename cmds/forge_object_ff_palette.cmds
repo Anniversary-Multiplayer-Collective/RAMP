@@ -119,3 +119,5 @@ SetField Palette[*].Object objects\levels\firefight\ff30_waterfront\ff30_pathfin
 AddBlockElements Palette[*].Setters 1
 SetField Palette[*].Setters[*].Target General_Physics
 SetField Palette[*].Setters[*].IntegerValue 1
+savetagchanges
+exit
