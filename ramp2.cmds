@@ -2943,10 +2943,10 @@ SetField ActionString device_door
 savetagchanges
 exit
 
-edittag objects\levels\shared\device_controls\cov_touchscreen_m45\cov_touchscreen_m45.device_control
-SetField ActionString device_door
-savetagchanges
-exit
+# edittag objects\levels\shared\device_controls\cov_touchscreen_m45\cov_touchscreen_m45.device_control
+# SetField ActionString device_door
+# savetagchanges
+# exit
 
 echo ==REGENERATOR SHIELD FX==
 createtag shit objects\equipment\regenerator\fx\shield_effect_3p
