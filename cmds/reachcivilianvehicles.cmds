@@ -844,7 +844,7 @@ AddForgeItem "VAN, MILITARY" "VEHICLES" objects\vehicles\human\civilian\military
 AddForgeItem "CART, ELECTRIC" "VEHICLES" objects\vehicles\human\civilian\cart_electric\cart_electric.vehicle
 AddForgeItem "FORKLIFT" "VEHICLES" objects\vehicles\human\civilian\forklift\forklift.vehicle
 
-Foreach Vehicle Contains: objects\vehicles\human\civilian SetField MultiplayerObject[0].Type LightLandVehicle
+Foreach vehicle Contains: objects\vehicles\human\civilian SetField MultiplayerObject[0].Type LightLandVehicle
 
 edittag ui\hud\hud_messages.multilingual_unicode_string_list
 setstring english truck_enter_driver "\uE461\uE45F to drive Truck"
