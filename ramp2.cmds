@@ -3027,8 +3027,8 @@ SetField HitResponse.HitColor.Function.Data 0134010008A72E00B42A2800000000000000
 SetField HitResponse.HitIntensity.InputVariable event_time
 SetField HitResponse.HitIntensity.RangeVariable shield_vitality
 SetField HitResponse.HitIntensity.Function.Data 01340000CDCCCC3DCDCCCC3D00000000000000006F12833A6F12033B00000000
-SetField EdgeScales ∞ -4.5 -2 -2
-SetField EdgeOffsets -∞ 3 2 2
+SetField EdgeScales 3.333334 -4.5 -2 -2
+SetField EdgeOffsets -1.166667 3 2 2
 SetField PlasmaScales 4 4 -45 50
 SetField DepthFadeParameters 1.1111112 1.1111112 1 1
 savetagchanges
