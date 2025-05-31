@@ -2598,6 +2598,7 @@ SaveTagChanges
 Exit
 
 echo == Replace Pelican render model ==
+echo == Replace Pelican and Phantom render models ==
 EditTag objects\vehicles\pelican_multiplayer\pelican_multiplayer.render_model
 CopyBlockElements Materials 17 1
 Exit
@@ -2633,6 +2634,16 @@ PasteBlockElements Variants[0].Objects
 SaveTagChanges
 Exit
 
+EditTag objects\vehicles\covenant\phantom\phantom.render_model
+CopyBlockElements Materials 0 *
+Exit
+
+EditTag objects\vehicles\phantom_test\phantom_test.render_model
+RemoveBlockElements Materials 7 1
+PasteBlockElements Materials
+ReplaceRenderGeometry workingdir\models\phantom.dae
+SaveTagChanges
+Exit
 
 echo ==Add Void Canvas Map==
 
