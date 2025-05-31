@@ -2597,6 +2597,42 @@ SetField HudWidgets[0].BitmapWidgets[2].Bitmap dw3\r3ach\ui\chud\bitmaps\scope_p
 SaveTagChanges
 Exit
 
+echo == Replace Pelican render model ==
+EditTag objects\vehicles\pelican_multiplayer\pelican_multiplayer.render_model
+CopyBlockElements Materials 17 1
+Exit
+
+EditTag objects\vehicles\human\pelican\pelican.render_model
+PasteBlockElements Materials
+SaveTagChanges
+CopyBlockElements Materials 0 *
+Exit
+
+EditTag objects\vehicles\pelican_multiplayer\pelican_multiplayer.render_model
+RemoveBlockElements Materials 0 *
+PasteBlockElements Materials
+ReplaceRenderGeometry workingdir\models\PelicanHR.fbx markers
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\human\pelican\pelican.device_machine
+CopyBlockElements ChangeColors 0 *
+Exit
+
+EditTag objects\vehicles\pelican_multiplayer\pelican_multiplayer.vehicle
+PasteBlockElements ChangeColors
+SaveTagChanges
+exit
+
+EditTag objects\vehicles\human\pelican\pelican.model
+CopyBlockElements Variants[0].Objects 0 1
+Exit
+
+EditTag objects\vehicles\pelican_multiplayer\pelican_multiplayer.model
+PasteBlockElements Variants[0].Objects
+SaveTagChanges
+Exit
+
 
 echo ==Add Void Canvas Map==
 
