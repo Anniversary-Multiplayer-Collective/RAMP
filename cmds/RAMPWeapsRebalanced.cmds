@@ -19,6 +19,12 @@ SetField CustomResponseLabel emp_damage
 SaveTagChanges
 Exit
 
+EditTag objects\weapons\pistol\plasma_pistol\damage_effects\plasma_pistol_bolt.damage_effect
+SetField DamageLowerBound 18
+SetField DamageUpperBound 18 18
+SaveTagChanges
+Exit
+
 # -----------------------------------------------
 # I                   MAGNUM                    I
 # -----------------------------------------------

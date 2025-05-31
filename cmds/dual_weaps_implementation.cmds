@@ -9,7 +9,8 @@ EditTag dw3\r3ach\objects\weapons\pistol\needler\shaders\ramp_needler_purple_she
 # SetArgument specular_tint 0.4941177 0.3333333 0.4039216 1
 # SetArgument env_tint_color 0.7254902 0.9058824 1.1 1
 
-SetArgument env_tint_color 1.622549 2.105882 4 1
+SetArgument albedo_color 0.8 1 1 1
+SetArgument env_tint_color 1.522549 2.105882 4 1
 SetArgument specular_tint 0.5941177 0.3333333 0.4039216 1
 SetArgument fresnel_color 0.3872549 0.256863 0.3364706 1
 SaveTagChanges
