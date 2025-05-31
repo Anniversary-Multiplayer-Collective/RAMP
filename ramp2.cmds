@@ -3247,6 +3247,22 @@ SetField AmmoPack[0].Weapons[*].ClipSize 48
 savetagchanges
 exit
 
+edittag objects\characters\masterchief\masterchief.model_animation_graph
+addblockelements Modes[14].ModeIk
+addblockelements Modes[14].ModeIk
+setfield Modes[14].ModeIk[4].AttachToMarker right_hand_d_spartan
+setfield Modes[14].ModeIk[5].AttachToMarker left_hand_d_spartan
+setfield Modes[14].ModeIk[5].Marker left_hand
+setfield Modes[14].ModeIk[4].Marker right_hand
+addblockelements Modes[14].ModeIk
+addblockelements Modes[14].ModeIk
+setfield Modes[14].ModeIk[6].AttachToMarker left_hand_spartan
+setfield Modes[14].ModeIk[6].Marker left_hand
+setfield Modes[14].ModeIk[7].Marker right_hand
+setfield Modes[14].ModeIk[7].AttachToMarker right_hand_spartan
+savetagchanges
+exit
+
 # echo == TANK MODE HACKY FIXUP ==
 generatebitmap objects\equipment\tankmode_equipment\tankmodehackyfix workingdir\bitmaps\tankmodeborder.dds
 edittag ui\chud\tankmode.chud_definition
