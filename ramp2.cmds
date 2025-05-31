@@ -919,6 +919,13 @@ SetField Animations[0].AnimationData.AnimationType Replacement
 savetagchanges
 exit
 
+# Communication tower animation fixup
+EditTag objects\props\human\pioneer\tech\com_a\com_a.model_animation_graph
+SetField Animations[0].AnimationData.AnimationType Replacement
+savetagchanges
+exit
+
+
 echo ==Remove damage from ported models==
 EditTag objects\gear\human\military\camping_stool_mp\camping_stool_mp.model
 RemoveBlockElements NewDamageInfo 0 1
