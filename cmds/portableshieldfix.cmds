@@ -141,7 +141,7 @@ SetField NewDamageInfo[0].Nodes[3].RuntimeDamagePart -1
 SetField NewDamageInfo[0].Nodes[4].RuntimeDamagePart -1
 SetField NewDamageInfo[0].Nodes[5].RuntimeDamagePart -1
 SetField NewDamageInfo[0].Nodes[6].RuntimeDamagePart -1
-SetField NewDamageInfo[0].GlobalShieldMaterialIndex 229
+SetField NewDamageInfo[0].GlobalShieldMaterialIndex 147
 SetField NewDamageInfo[0].GlobalIndirectMaterialIndex 222
 SetField NewDamageInfo[0].RuntimeShieldRechargeVelocity 0.2
 SetField NewDamageInfo[0].RuntimeHealthRechargeVelocity 0
