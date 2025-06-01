@@ -2795,6 +2795,130 @@ setfield ChangeColors[0].InitialPermutations[0].Weight 0.1
 savetagchanges
 exit
 
+#Military Truck
+edittag objects\vehicles\human\civilian\military_truck\shaders\military_truck.shader
+setfield ShaderProperties[0].Template shaders\shader_templates\_3_1_0_1_13_2_0_0_0_4_0_0.render_method_template
+setfield Options[0].OptionIndex 3
+copyblockelements ShaderProperties[0].TextureConstants 0 1
+pasteblockelements ShaderProperties[0].TextureConstants
+swapblockelements ShaderProperties[0].TextureConstants 4 2
+setfield ShaderProperties[0].TextureConstants[2].Bitmap shaders\default_bitmaps\bitmaps\color_red.bitmap
+setargument diffuse_coefficient 10
+savetagchanges
+exit
+
+edittag objects\vehicles\human\civilian\military_truck\shaders\military_truck_destroyed.shader
+setfield ShaderProperties[0].Template shaders\shader_templates\_3_1_0_1_13_2_0_0_0_4_0_0.render_method_template
+setfield Options[0].OptionIndex 3
+copyblockelements ShaderProperties[0].TextureConstants 0 1
+pasteblockelements ShaderProperties[0].TextureConstants
+swapblockelements ShaderProperties[0].TextureConstants 4 2
+setfield ShaderProperties[0].TextureConstants[2].Bitmap shaders\default_bitmaps\bitmaps\color_red.bitmap
+setargument diffuse_coefficient 10
+savetagchanges
+exit
+
+edittag objects\vehicles\human\civilian\truck_cab_large\shaders\military_container.shader
+setfield ShaderProperties[0].Template shaders\shader_templates\_3_1_0_1_13_2_0_0_0_4_0_0.render_method_template
+setfield Options[0].OptionIndex 3
+copyblockelements ShaderProperties[0].TextureConstants 0 1
+pasteblockelements ShaderProperties[0].TextureConstants
+swapblockelements ShaderProperties[0].TextureConstants 4 2
+setfield ShaderProperties[0].TextureConstants[2].Bitmap shaders\default_bitmaps\bitmaps\color_red.bitmap
+setargument diffuse_coefficient 10
+savetagchanges
+exit
+
+edittag objects\vehicles\human\civilian\truck_cab_large\shaders\military_container_tiled.shader
+setfield ShaderProperties[0].Template shaders\shader_templates\_3_1_0_1_13_2_0_0_0_4_0_0.render_method_template
+setfield Options[0].OptionIndex 3
+setfield ShaderProperties[0].TextureConstants[2].Bitmap shaders\default_bitmaps\bitmaps\color_red.bitmap
+setargument diffuse_coefficient 10
+savetagchanges
+exit
+
+edittag objects\vehicles\human\civilian\truck_cab_large\shaders\military_container_tiled_destroyed.shader
+setfield ShaderProperties[0].Template shaders\shader_templates\_3_1_0_1_13_2_0_0_0_4_0_0.render_method_template
+setfield Options[0].OptionIndex 3
+setfield ShaderProperties[0].TextureConstants[2].Bitmap shaders\default_bitmaps\bitmaps\color_red.bitmap
+setargument diffuse_coefficient 10
+savetagchanges
+exit
+
+edittag objects\vehicles\human\civilian\military_truck\military_truck.vehicle
+removeblockelements ChangeColors 0 *
+addblockelements ChangeColors
+addblockelements ChangeColors[0].InitialPermutations
+setfield ChangeColors[0].InitialPermutations[0].ColorLowerBound 0.12156863 0.12156863 0.12156863
+setfield ChangeColors[0].InitialPermutations[0].ColorUpperBound 0.12156863 0.12156863 0.12156863
+setfield ChangeColors[0].InitialPermutations[0].Weight 0.1
+savetagchanges
+exit
+
+edittag objects\vehicles\human\civilian\military_van\military_van.vehicle
+removeblockelements ChangeColors 0 *
+addblockelements ChangeColors
+addblockelements ChangeColors[0].InitialPermutations
+setfield ChangeColors[0].InitialPermutations[0].ColorLowerBound 0.12156863 0.12156863 0.12156863
+setfield ChangeColors[0].InitialPermutations[0].ColorUpperBound 0.12156863 0.12156863 0.12156863
+setfield ChangeColors[0].InitialPermutations[0].Weight 0.1
+savetagchanges
+exit
+
+#Falcon change color, Thanks Pedro!
+edittag objects\vehicles\human\falcon\falcon.vehicle
+setfield ChangeColors[0].InitialPermutations[0].ColorLowerBound 0.12941177 0.12941177 0.12941177
+setfield ChangeColors[0].InitialPermutations[0].ColorUpperBound 0.12941177 0.12941177 0.12941177
+savetagchanges
+exit
+
+edittag objects\vehicles\human\falcon\falcon_nose_gun.vehicle
+setfield ChangeColors[0].InitialPermutations[0].ColorLowerBound 0.12941177 0.12941177 0.12941177
+setfield ChangeColors[0].InitialPermutations[0].ColorUpperBound 0.12941177 0.12941177 0.12941177
+savetagchanges
+exit
+
+edittag objects\vehicles\human\falcon\falcon_transport.vehicle
+setfield ChangeColors[0].InitialPermutations[0].ColorLowerBound 0.12941177 0.12941177 0.12941177
+setfield ChangeColors[0].InitialPermutations[0].ColorUpperBound 0.12941177 0.12941177 0.12941177
+savetagchanges
+exit
+
+edittag objects\vehicles\falcon\shaders\falcon_hull_1.shader
+addblockelements ShaderProperties[0].Functions
+setfield ShaderProperties[0].Functions[0].Function.Data 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+setfield ShaderProperties[0].Functions[0].Type ChangeColorPrimary
+setargument diffuse_coefficient 10
+AddFunction albedo_color Real 0
+savetagchanges
+exit
+
+edittag objects\vehicles\falcon\shaders\falcon_hull_2.shader
+addblockelements ShaderProperties[0].Functions
+setfield ShaderProperties[0].Functions[0].Function.Data 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+setfield ShaderProperties[0].Functions[0].Type ChangeColorPrimary
+setargument diffuse_coefficient 10
+AddFunction albedo_color Real 0
+savetagchanges
+exit
+
+edittag objects\vehicles\falcon\shaders\falcon_hull_1_damaged.shader
+addblockelements ShaderProperties[0].Functions
+setfield ShaderProperties[0].Functions[0].Function.Data 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+setfield ShaderProperties[0].Functions[0].Type ChangeColorPrimary
+setargument diffuse_coefficient 10
+AddFunction albedo_color Real 0
+savetagchanges
+exit
+
+edittag objects\vehicles\falcon\shaders\falcon_hull_2_damaged.shader
+addblockelements ShaderProperties[0].Functions
+setfield ShaderProperties[0].Functions[0].Function.Data 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+setfield ShaderProperties[0].Functions[0].Type ChangeColorPrimary
+setargument diffuse_coefficient 10
+AddFunction albedo_color Real 0
+savetagchanges
+exit
 
 echo ==Add Void Canvas Map==
 
