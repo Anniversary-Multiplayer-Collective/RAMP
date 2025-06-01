@@ -2920,6 +2920,37 @@ AddFunction albedo_color Real 0
 savetagchanges
 exit
 
+#Scorpion
+edittag objects\vehicles\human\scorpion\shaders\scorpion.shader
+setfield ShaderProperties[0].Template shaders\shader_templates\_3_2_0_1_13_2_0_0_0_4_0_0.render_method_template
+setfield Options[0].OptionIndex 3
+copyblockelements ShaderProperties[0].TextureConstants 0 1
+pasteblockelements ShaderProperties[0].TextureConstants
+swapblockelements ShaderProperties[0].TextureConstants 5 2
+setfield ShaderProperties[0].TextureConstants[2].Bitmap shaders\default_bitmaps\bitmaps\color_red.bitmap
+savetagchanges
+exit
+
+edittag objects\vehicles\human\scorpion\shaders\scorpion_turrets.shader
+setfield ShaderProperties[0].Template shaders\shader_templates\_3_2_0_1_13_2_0_0_0_4_0_0.render_method_template
+setfield Options[0].OptionIndex 3
+copyblockelements ShaderProperties[0].TextureConstants 0 1
+pasteblockelements ShaderProperties[0].TextureConstants
+swapblockelements ShaderProperties[0].TextureConstants 5 2
+setfield ShaderProperties[0].TextureConstants[2].Bitmap shaders\default_bitmaps\bitmaps\color_red.bitmap
+savetagchanges
+exit
+
+EditTag objects\vehicles\scorpion\scorpion.vehicle
+addblockelements ChangeColors
+addblockelements ChangeColors[0].InitialPermutations
+setfield ChangeColors[0].InitialPermutations[0].VariantName default
+setfield ChangeColors[0].InitialPermutations[0].ColorLowerBound 1 1 1
+setfield ChangeColors[0].InitialPermutations[0].ColorUpperBound 1 1 1
+setfield ChangeColors[0].InitialPermutations[0].Weight 0.1
+savetagchanges
+exit
+
 echo ==Add Void Canvas Map==
 
 GenerateCanvas
