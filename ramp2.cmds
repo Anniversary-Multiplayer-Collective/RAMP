@@ -2662,6 +2662,41 @@ SetArgument albedo_blend 1
 SaveTagChanges
 Exit
 
+#Sabre
+GenerateShader shader 3 2 0 1 13 1 0 0 0 4 0 0
+
+EditTag objects\vehicles\human\sabre\shaders\sabre_frame_metal.shader
+SetField Options[0].OptionIndex 3
+SetField ShaderProperties[0].Template shaders\shader_templates\_3_2_0_1_13_1_0_0_0_4_0_0.render_method_template
+CopyBlockElements ShaderProperties[0].TextureConstants 0 1
+PasteBlockElements ShaderProperties[0].TextureConstants
+SwapBlockElements ShaderProperties[0].TextureConstants 6 2
+SetField ShaderProperties[0].TextureConstants[2].Bitmap shaders\default_bitmaps\bitmaps\color_red.bitmap
+SetArgument albedo_blend 1
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\human\sabre\shaders\sabre_frame_metal_damage.shader
+SetField Options[0].OptionIndex 3
+SetField ShaderProperties[0].Template shaders\shader_templates\_3_2_0_1_13_1_0_0_0_4_0_0.render_method_template
+CopyBlockElements ShaderProperties[0].TextureConstants 0 1
+PasteBlockElements ShaderProperties[0].TextureConstants
+SwapBlockElements ShaderProperties[0].TextureConstants 6 2
+SetField ShaderProperties[0].TextureConstants[2].Bitmap shaders\default_bitmaps\bitmaps\color_red.bitmap
+SetArgument albedo_blend 1
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\human\sabre\sabre.vehicle
+addblockelements ChangeColors
+addblockelements ChangeColors[0].InitialPermutations
+setfield ChangeColors[0].InitialPermutations[0].VariantName default
+setfield ChangeColors[0].InitialPermutations[0].ColorLowerBound 1 1 1
+setfield ChangeColors[0].InitialPermutations[0].ColorUpperBound 1 1 1
+setfield ChangeColors[0].InitialPermutations[0].Weight 0.1
+savetagchanges
+exit
+
 echo ==Add Void Canvas Map==
 
 GenerateCanvas
