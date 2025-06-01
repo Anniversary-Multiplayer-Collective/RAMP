@@ -2662,6 +2662,42 @@ SetArgument albedo_blend 1
 SaveTagChanges
 Exit
 
+#Seraph templates
+GenerateShader shader 3 2 0 1 2 1 1 0 0 1 0 0
+GenerateShader shader 3 2 0 1 2 1 0 0 0 1 0 0
+
+EditTag objects\vehicles\seraph_reach\shaders\seraph_shell.shader
+SetField Options[0].OptionIndex 3
+SetField ShaderProperties[0].Template shaders\shader_templates\_3_2_0_1_2_1_1_0_0_1_0_0.render_method_template
+CopyBlockElements ShaderProperties[0].TextureConstants 0 1
+PasteBlockElements ShaderProperties[0].TextureConstants
+SwapBlockElements ShaderProperties[0].TextureConstants 6 2
+SetField ShaderProperties[0].TextureConstants[2].Bitmap shaders\default_bitmaps\bitmaps\color_red.bitmap
+SetArgument diffuse_coefficient 30
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\seraph_reach\shaders\seraph_shell_damaged.shader
+SetField Options[0].OptionIndex 3
+SetField ShaderProperties[0].Template shaders\shader_templates\_3_2_0_1_2_1_0_0_0_1_0_0.render_method_template
+CopyBlockElements ShaderProperties[0].TextureConstants 0 1
+PasteBlockElements ShaderProperties[0].TextureConstants
+SwapBlockElements ShaderProperties[0].TextureConstants 5 2
+SetField ShaderProperties[0].TextureConstants[2].Bitmap shaders\default_bitmaps\bitmaps\color_red.bitmap
+SetArgument diffuse_coefficient 30
+SaveTagChanges
+Exit
+
+EditTag objects\vehicles\seraph_reach\seraph_reach.vehicle
+addblockelements ChangeColors
+addblockelements ChangeColors[0].InitialPermutations
+setfield ChangeColors[0].InitialPermutations[0].VariantName default
+setfield ChangeColors[0].InitialPermutations[0].ColorLowerBound 0.05 0.05 0.05
+setfield ChangeColors[0].InitialPermutations[0].ColorUpperBound 0.05 0.05 0.05
+setfield ChangeColors[0].InitialPermutations[0].Weight 0.1
+savetagchanges
+exit
+
 #Sabre
 GenerateShader shader 3 2 0 1 13 1 0 0 0 4 0 0
 
