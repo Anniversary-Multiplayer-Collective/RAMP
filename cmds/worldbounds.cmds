@@ -144,3 +144,15 @@ SetField Physics.MoppBoundsMin -1000 -1000 -1000
 SetField Physics.MoppBoundsMax 1000 1000 1000
 SaveTagChanges
 Exit
+
+EditTag levels\dlc\cex_beaver_creek\cex_beaver_creek.scenario_structure_bsp
+SetField WorldBoundsX -250 250
+SetField WorldBoundsY -250 250
+SetField WorldBoundsZ -250 250
+SetField Clusters[0].BoundsX -250 250
+SetField Clusters[0].BoundsY -250 250
+SetField Clusters[0].BoundsZ -250 250
+SetField Physics.MoppBoundsMin -250 -250 -250
+SetField Physics.MoppBoundsMax 250 250 250
+SaveTagChanges
+Exit

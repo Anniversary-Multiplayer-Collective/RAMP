@@ -1404,6 +1404,13 @@ SetField ShaderProperties[0].Template shaders\shader_templates\_0_2_0_1_10_0_0_0
 SaveTagChanges
 Exit
 
+EditTag objects\powerups\health_pack\health_pack_large.equipment
+SetField MultiplayerObject[0].SpawnTimerType StartsOnDisturbance
+SetField MultiplayerObject[0].DefaultSpawnTime 15
+SetField MultiplayerObject[0].DefaultAbandonTime 60
+SaveTagChanges
+Exit
+
 echo ==Switch needler projectile==
 EditTag objects\weapons\pistol\needler\needler.weapon
 SetField Barrels[0].Projectile objects\weapons\pistol\needler\projectiles\needler_shard\needler_shard.projectile
