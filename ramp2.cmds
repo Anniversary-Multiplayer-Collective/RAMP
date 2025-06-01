@@ -2958,6 +2958,31 @@ setfield ChangeColors[0].InitialPermutations[0].Weight 0.1
 savetagchanges
 exit
 
+edittag objects\vehicles\covenant\revenant\revenant.vehicle
+addblockelements ChangeColors
+addblockelements ChangeColors[0].InitialPermutations
+setfield ChangeColors[0].InitialPermutations[0].ColorLowerBound 0.12941177 0.12941177 0.12941177
+setfield ChangeColors[0].InitialPermutations[0].ColorUpperBound 0.12941177 0.12941177 0.12941177
+savetagchanges
+exit
+
+edittag objects\vehicles\covenant\revenant\turrets\revenant_plasma_mortar\revenant_plasma_mortar.vehicle
+addblockelements ChangeColors
+addblockelements ChangeColors[0].InitialPermutations
+setfield ChangeColors[0].InitialPermutations[0].ColorLowerBound 0.12941177 0.12941177 0.12941177
+setfield ChangeColors[0].InitialPermutations[0].ColorUpperBound 0.12941177 0.12941177 0.12941177
+savetagchanges
+exit
+
+edittag objects\vehicles\covenant\revenant\shaders\revenant_shell.shader
+addblockelements ShaderProperties[0].Functions
+setfield ShaderProperties[0].Functions[0].Function.Data 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+setfield ShaderProperties[0].Functions[0].Type ChangeColorPrimary
+setargument diffuse_coefficient 10
+AddFunction albedo_color Real 0
+savetagchanges
+exit
+
 echo ==Add Void Canvas Map==
 
 GenerateCanvas
