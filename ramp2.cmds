@@ -2516,7 +2516,7 @@ exit
 
 edittag objects\vehicles\covenant\banshee\shaders\space_banshee_wings.shader
 setargument albedo_color 1 0.3490196 0.3490196 1
-setargument env_tint_color 0 0 0 1
+setargument env_tint_color 0.15 0 0.1 1
 setargument specular_tint 0.5 0.5 0.5 1
 savetagchanges
 exit
