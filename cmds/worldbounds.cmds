@@ -19,38 +19,38 @@ Exit
 EditTag levels\solo\m50\m50_000.scenario_structure_bsp
 SetField WorldBoundsX -500 500
 SetField WorldBoundsY -500 500
-SetField WorldBoundsZ -100 500
+SetField WorldBoundsZ -100 250
 SetField Clusters[0].BoundsX -500 500
 SetField Clusters[0].BoundsY -500 500
-SetField Clusters[0].BoundsZ -100 500
+SetField Clusters[0].BoundsZ -100 250
 SetField Physics.MoppBoundsMin -500 -500 -100
-SetField Physics.MoppBoundsMax 500 500 500
+SetField Physics.MoppBoundsMax 500 500 250
 SaveTagChanges
 Exit
 
 # BOARDWALK
 EditTag levels\multi\50_panopticon\bsp01.scenario_structure_bsp
-SetField WorldBoundsX -50 500
+SetField WorldBoundsX -100 500
 SetField WorldBoundsY -500 300
 SetField WorldBoundsZ -100 200
-SetField Clusters[0].BoundsX -50 500
+SetField Clusters[0].BoundsX -100 500
 SetField Clusters[0].BoundsY -500 300
 SetField Clusters[0].BoundsZ -100 200
-SetField Physics.MoppBoundsMin -50 -500 -100
+SetField Physics.MoppBoundsMin -100 -500 -100
 SetField Physics.MoppBoundsMax 500 300 200
 SaveTagChanges
 Exit
 
 # BONEYARD
 EditTag levels\multi\70_boneyard\70_boneyard.scenario_structure_bsp
-SetField WorldBoundsX -500 170
-SetField WorldBoundsY -200 500
-SetField WorldBoundsZ -100 250
-SetField Clusters[0].BoundsX -500 170
-SetField Clusters[0].BoundsY -200 500
-SetField Clusters[0].BoundsZ -100 250
-SetField Physics.MoppBoundsMin -500 -200 -100
-SetField Physics.MoppBoundsMax 170 500 250
+SetField WorldBoundsX 150 500
+SetField WorldBoundsY -180 500
+SetField WorldBoundsZ -150 200
+SetField Clusters[0].BoundsX 150 500
+SetField Clusters[0].BoundsY -180 500
+SetField Clusters[0].BoundsZ -150 200
+SetField Physics.MoppBoundsMin 150 -180 -150
+SetField Physics.MoppBoundsMax 500 500 200
 SaveTagChanges
 Exit
 
@@ -69,14 +69,14 @@ Exit
 
 # BREAKPOINT
 EditTag levels\multi\dlc\dlc_invasion\dlc_invasion_main.scenario_structure_bsp
-SetField WorldBoundsX -500 500
-SetField WorldBoundsY -500 250
-SetField WorldBoundsZ -100 250
-SetField Clusters[0].BoundsX -500 500
-SetField Clusters[0].BoundsY -500 250
-SetField Clusters[0].BoundsZ -100 250
-SetField Physics.MoppBoundsMin -500 -500 -100
-SetField Physics.MoppBoundsMax 500 250 250
+SetField WorldBoundsX -400 260
+SetField WorldBoundsY -250 250
+SetField WorldBoundsZ -100 200
+SetField Clusters[0].BoundsX -400 260
+SetField Clusters[0].BoundsY -250 250
+SetField Clusters[0].BoundsZ -100 200
+SetField Physics.MoppBoundsMin -400 -250 -100
+SetField Physics.MoppBoundsMax 260 250 200
 SaveTagChanges
 Exit
 
@@ -95,14 +95,14 @@ Exit
 
 # HIGH NOON
 EditTag levels\dlc\cex_hangemhigh\cex_hangemhigh_000.scenario_structure_bsp
-SetField WorldBoundsX -250 250
+SetField WorldBoundsX -250 100
 SetField WorldBoundsY -250 250
 SetField WorldBoundsZ -250 250
-SetField Clusters[0].BoundsX -250 250
+SetField Clusters[0].BoundsX -250 100
 SetField Clusters[0].BoundsY -250 250
 SetField Clusters[0].BoundsZ -250 250
 SetField Physics.MoppBoundsMin -250 -250 -250
-SetField Physics.MoppBoundsMax 250 250 250
+SetField Physics.MoppBoundsMax 100 250 250
 SaveTagChanges
 Exit
 
@@ -121,13 +121,13 @@ Exit
 
 # COURTYARD
 EditTag levels\solo\m20\m20_000.scenario_structure_bsp
-SetField WorldBoundsX -750 250
+SetField WorldBoundsX -450 250
 SetField WorldBoundsY -250 500
 SetField WorldBoundsZ -100 150
-SetField Clusters[0].BoundsX -750 250
+SetField Clusters[0].BoundsX -450 250
 SetField Clusters[0].BoundsY -250 500
 SetField Clusters[0].BoundsZ -100 150
-SetField Physics.MoppBoundsMin -750 -250 -100
+SetField Physics.MoppBoundsMin -450 -250 -100
 SetField Physics.MoppBoundsMax 250 500 150
 SaveTagChanges
 Exit
@@ -183,27 +183,27 @@ Exit
 
 # POWERHOUSE
 EditTag levels\multi\30_settlement\30_settlement.scenario_structure_bsp
-SetField WorldBoundsX -200 500
+SetField WorldBoundsX -30 500
 SetField WorldBoundsY 0 500
-SetField WorldBoundsZ -100 250
-SetField Clusters[0].BoundsX -200 500
+SetField WorldBoundsZ -50 250
+SetField Clusters[0].BoundsX -30 500
 SetField Clusters[0].BoundsY 0 500
-SetField Clusters[0].BoundsZ -100 250
-SetField Physics.MoppBoundsMin -200 0 -100
+SetField Clusters[0].BoundsZ -50 250
+SetField Physics.MoppBoundsMin -30 0 -50
 SetField Physics.MoppBoundsMax 500 500 250
 SaveTagChanges
 Exit
 
 # SPIRE
 EditTag levels\multi\35_island\35_island.scenario_structure_bsp
-SetField WorldBoundsX -700 300
-SetField WorldBoundsY -800 100
+SetField WorldBoundsX -360 300
+SetField WorldBoundsY -800 -180
 SetField WorldBoundsZ -100 500
-SetField Clusters[0].BoundsX -700 300
-SetField Clusters[0].BoundsY -800 100
+SetField Clusters[0].BoundsX -360 300
+SetField Clusters[0].BoundsY -800 -180
 SetField Clusters[0].BoundsZ -100 500
-SetField Physics.MoppBoundsMin -700 -800 -100
-SetField Physics.MoppBoundsMax 300 100 500
+SetField Physics.MoppBoundsMin -360 -800 -100
+SetField Physics.MoppBoundsMax 300 -180 500
 SaveTagChanges
 Exit
 
@@ -223,63 +223,63 @@ Exit
 # HOLDOUT
 EditTag levels\solo\m70\m70_000.scenario_structure_bsp
 SetField WorldBoundsX -450 1000
-SetField WorldBoundsY -250 1000
+SetField WorldBoundsY -250 500
 SetField WorldBoundsZ -150 300
 SetField Clusters[0].BoundsX -450 1000
-SetField Clusters[0].BoundsY -250 1000
+SetField Clusters[0].BoundsY -250 500
 SetField Clusters[0].BoundsZ -150 300
 SetField Physics.MoppBoundsMin -450 -250 -150
-SetField Physics.MoppBoundsMax 1000 1000 300
+SetField Physics.MoppBoundsMax 1000 500 300
 SaveTagChanges
 Exit
 
 # INSTALLATION 04
 EditTag levels\dlc\cex_ff_halo\cex_ff_halo.scenario_structure_bsp
-SetField WorldBoundsX -500 700
+SetField WorldBoundsX -500 622
 SetField WorldBoundsY -1050 430
 SetField WorldBoundsZ -100 250
-SetField Clusters[0].BoundsX -500 700
+SetField Clusters[0].BoundsX -500 622
 SetField Clusters[0].BoundsY -1050 430
 SetField Clusters[0].BoundsZ -100 300
 SetField Physics.MoppBoundsMin -500 -1050 -100
-SetField Physics.MoppBoundsMax 700 430 250
+SetField Physics.MoppBoundsMax 622 430 250
 SaveTagChanges
 Exit
 
 # OUTPOST
 EditTag levels\solo\m60\m20_000.scenario_structure_bsp
-SetField WorldBoundsX -720 400
+SetField WorldBoundsX -200 400
 SetField WorldBoundsY -250 250
-SetField WorldBoundsZ -20 100
-SetField Clusters[0].BoundsX -720 400
+SetField WorldBoundsZ -20 150
+SetField Clusters[0].BoundsX -200 400
 SetField Clusters[0].BoundsY -250 250
-SetField Clusters[0].BoundsZ -20 100
-SetField Physics.MoppBoundsMin -720 -250 -20
-SetField Physics.MoppBoundsMax 400 250 100
+SetField Clusters[0].BoundsZ -20 150
+SetField Physics.MoppBoundsMin -200 -250 -20
+SetField Physics.MoppBoundsMax 400 250 150
 SaveTagChanges
 Exit
 
 EditTag levels\solo\m60\m20_020.scenario_structure_bsp
-SetField WorldBoundsX -720 400
+SetField WorldBoundsX -200 400
 SetField WorldBoundsY -250 250
-SetField WorldBoundsZ -20 100
-SetField Clusters[0].BoundsX -720 400
+SetField WorldBoundsZ -20 150
+SetField Clusters[0].BoundsX -200 400
 SetField Clusters[0].BoundsY -250 250
-SetField Clusters[0].BoundsZ -20 100
-SetField Physics.MoppBoundsMin -720 -250 -20
-SetField Physics.MoppBoundsMax 400 250 100
+SetField Clusters[0].BoundsZ -20 150
+SetField Physics.MoppBoundsMin -200 -250 -20
+SetField Physics.MoppBoundsMax 400 250 150
 SaveTagChanges
 Exit
 
 EditTag levels\solo\m60\m20_030.scenario_structure_bsp
-SetField WorldBoundsX -720 400
+SetField WorldBoundsX -200 400
 SetField WorldBoundsY -250 250
-SetField WorldBoundsZ -20 100
-SetField Clusters[0].BoundsX -720 400
+SetField WorldBoundsZ -20 150
+SetField Clusters[0].BoundsX -200 400
 SetField Clusters[0].BoundsY -250 250
-SetField Clusters[0].BoundsZ -20 100
-SetField Physics.MoppBoundsMin -720 -250 -20
-SetField Physics.MoppBoundsMax 400 250 100
+SetField Clusters[0].BoundsZ -20 150
+SetField Physics.MoppBoundsMin -200 -250 -20
+SetField Physics.MoppBoundsMax 400 250 150
 SaveTagChanges
 Exit
 
@@ -298,14 +298,14 @@ Exit
 
 # SWORDBASE
 EditTag levels\multi\20_sword_slayer\20_sword_slayer.scenario_structure_bsp
-SetField WorldBoundsX -500 0
+SetField WorldBoundsX -500 -90
 SetField WorldBoundsY -250 250
-SetField WorldBoundsZ -100 250
-SetField Clusters[0].BoundsX -500 0
+SetField WorldBoundsZ -100 150
+SetField Clusters[0].BoundsX -500 -90
 SetField Clusters[0].BoundsY -250 250
-SetField Clusters[0].BoundsZ -100 250
+SetField Clusters[0].BoundsZ -100 150
 SetField Physics.MoppBoundsMin -500 -250 -100
-SetField Physics.MoppBoundsMax 0 250 250
+SetField Physics.MoppBoundsMax -90 250 150
 SaveTagChanges
 Exit
 
@@ -349,15 +349,27 @@ SaveTagChanges
 Exit
 
 # OVERLOOK
-EditTag levels\solo\m10\m10_030.scenario_structure_bsp
-SetField WorldBoundsX -620 420
-SetField WorldBoundsY -180 300
+EditTag levels\solo\m10\m10_000.scenario_structure_bsp
+SetField WorldBoundsX -330 420
+SetField WorldBoundsY -180 400
 SetField WorldBoundsZ -250 200
-SetField Clusters[0].BoundsX -620 420
-SetField Clusters[0].BoundsY -180 300
+SetField Clusters[0].BoundsX -330 420
+SetField Clusters[0].BoundsY -180 400
 SetField Clusters[0].BoundsZ -250 200
-SetField Physics.MoppBoundsMin -620 -180 -250
-SetField Physics.MoppBoundsMax 420 300 200
+SetField Physics.MoppBoundsMin -330 -180 -250
+SetField Physics.MoppBoundsMax 420 400 200
+SaveTagChanges
+Exit
+
+EditTag levels\solo\m10\m10_030.scenario_structure_bsp
+SetField WorldBoundsX -330 420
+SetField WorldBoundsY -180 400
+SetField WorldBoundsZ -250 200
+SetField Clusters[0].BoundsX -330 420
+SetField Clusters[0].BoundsY -180 400
+SetField Clusters[0].BoundsZ -250 200
+SetField Physics.MoppBoundsMin -330 -180 -250
+SetField Physics.MoppBoundsMax 420 400 200
 SaveTagChanges
 Exit
 
@@ -376,26 +388,26 @@ Exit
 
 # UNEARTHED
 EditTag levels\dlc\ff_unearthed\ff_unearthed_000.scenario_structure_bsp
-SetField WorldBoundsX -400 350
-SetField WorldBoundsY -300 500
-SetField WorldBoundsZ -70 250
-SetField Clusters[0].BoundsX -400 350
-SetField Clusters[0].BoundsY -300 500
-SetField Clusters[0].BoundsZ -70 250
-SetField Physics.MoppBoundsMin -400 -300 -70
-SetField Physics.MoppBoundsMax 350 500 250
+SetField WorldBoundsX -300 350
+SetField WorldBoundsY -300 400
+SetField WorldBoundsZ -70 200
+SetField Clusters[0].BoundsX -300 350
+SetField Clusters[0].BoundsY -300 400
+SetField Clusters[0].BoundsZ -70 200
+SetField Physics.MoppBoundsMin -300 -300 -70
+SetField Physics.MoppBoundsMax 350 400 200
 SaveTagChanges
 Exit
 
 # WATERFRONT
 EditTag levels\solo\m30\m30_000.scenario_structure_bsp
-SetField WorldBoundsX -300 500
+SetField WorldBoundsX -250 400
 SetField WorldBoundsY -100 500
-SetField WorldBoundsZ -20 300
-SetField Clusters[0].BoundsX -300 500
+SetField WorldBoundsZ -20 250
+SetField Clusters[0].BoundsX -250 400
 SetField Clusters[0].BoundsY -100 500
-SetField Clusters[0].BoundsZ -20 300
-SetField Physics.MoppBoundsMin -300 -100 -20
-SetField Physics.MoppBoundsMax 500 500 300
+SetField Clusters[0].BoundsZ -20 250
+SetField Physics.MoppBoundsMin -250 -100 -20
+SetField Physics.MoppBoundsMax 400 500 250
 SaveTagChanges
 Exit
