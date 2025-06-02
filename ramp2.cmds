@@ -3059,6 +3059,34 @@ AddFunction albedo_color Real 0
 savetagchanges
 exit
 
+#Mac Canon
+edittag objects\vehicles\human\turrets\mac_15cm_mark_2488\mac_15cm_mark_2488.vehicle
+addblockelements ChangeColors
+addblockelements ChangeColors[0].InitialPermutations
+setfield ChangeColors[0].InitialPermutations[0].ColorLowerBound 0.12941177 0.12941177 0.12941177
+setfield ChangeColors[0].InitialPermutations[0].ColorUpperBound 0.12941177 0.12941177 0.12941177
+savetagchanges
+exit
+
+edittag objects\vehicles\human\turrets\mac_15cm_mark_2488\shaders\mac_metal.shader
+addblockelements ShaderProperties[0].Functions
+setfield ShaderProperties[0].Functions[0].Function.Data 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+setfield ShaderProperties[0].Functions[0].Type ChangeColorPrimary
+setargument diffuse_coefficient 1
+AddFunction albedo_color Real 0
+savetagchanges
+exit
+
+edittag objects\vehicles\human\turrets\mac_15cm_mark_2488\shaders\mac_metal_panel_tiling.shader
+addblockelements ShaderProperties[0].Functions
+setfield ShaderProperties[0].Functions[0].Function.Data 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+setfield ShaderProperties[0].Functions[0].Type ChangeColorPrimary
+setargument diffuse_coefficient 1
+AddFunction albedo_color Real 0
+savetagchanges
+exit
+
+
 echo ==Add Void Canvas Map==
 
 GenerateCanvas
