@@ -523,18 +523,6 @@ setargument transparence_coefficient 0
 savetagchanges
 exit
 
-edittag objects\characters\elite\bitmaps\elite_helmet\elite_arby_cc.bitmap
-importbitmap 0 workingdir\bitmaps\arby_cc\elite_arby_cc.dds
-exit
-
-edittag objects\characters\elite\bitmaps\elite_helmet\elite_arby_arms_cc.bitmap
-importbitmap 0 workingdir\bitmaps\arby_cc\elite_arby_arms_cc.dds
-exit
-
-edittag objects\characters\elite\bitmaps\elite_helmet\elite_arby_thighs_cc.bitmap
-importbitmap 0 workingdir\bitmaps\arby_cc\elite_arby_thighs_cc.dds
-exit
-
 edittag objects\characters\elite\shaders\elite_helmet\elite_space_helmet_visor.shader
 setargument specular_tint 0.09 0.04 0.9 1
 setargument albedo_color 0.2 0.2 0.9 1
@@ -2301,6 +2289,10 @@ OpenCacheFile "reachmaps\forge_halo.map"
 PortTag replace single objects\characters\spartans\shaders\spartan_shield_display.shader
 Exit
 
+# echo ==Import Vehicle CC maps ==
+duplicatetag objects\vehicles\warthog\bitmaps\warthog.bitmap objects\vehicles\human\civilian\forklift\bitmaps\forklift_cc
+duplicatetag objects\vehicles\warthog\bitmaps\warthog.bitmap objects\vehicles\human\civilian\military_truck\bitmaps\military_truck_cc
+
 EditTag objects\characters\spartans\shaders\spartan_shield_display.rmsh
 SetArgument self_illum_intensity 7
 SetField shaderproperties[0].RoutingInfo[5].RegisterIndex 1
@@ -2631,7 +2623,6 @@ SetField HudWidgets[0].BitmapWidgets[2].Bitmap dw3\r3ach\ui\chud\bitmaps\scope_p
 SaveTagChanges
 Exit
 
-echo == Replace Pelican render model ==
 echo == Replace Pelican and Phantom render models ==
 EditTag objects\vehicles\pelican_multiplayer\pelican_multiplayer.render_model
 CopyBlockElements Materials 17 1
@@ -2684,6 +2675,19 @@ PasteBlockElements Materials
 ReplaceRenderGeometry workingdir\models\phantom.dae
 SaveTagChanges
 Exit
+
+edittag objects\vehicles\human\civilian\forklift\bitmaps\forklift_cc.bitmap
+importbitmap 0 workingdir\bitmaps\vehicles_cc\forklift_cc.dds
+savetagchanges
+exit
+edittag objects\vehicles\human\civilian\cart_electric\bitmaps\cart_and_trailer_cc.bitmap
+importbitmap 0 workingdir\bitmaps\vehicles_cc\cart_and_trailer_cc.dds
+savetagchanges
+exit
+edittag objects\vehicles\human\civilian\military_truck\bitmaps\military_truck_cc.bitmap
+importbitmap 0 workingdir\bitmaps\vehicles_cc\military_truck_cc.dds
+savetagchanges
+exit
 
 EditTag objects\vehicles\covenant\phantom\shaders\phantom_exterior_shell.shader
 CopyBlockElements ShaderProperties[0].TextureConstants 0 1
@@ -2805,7 +2809,7 @@ setfield Options[0].OptionIndex 3
 copyblockelements ShaderProperties[0].TextureConstants 0 1
 pasteblockelements ShaderProperties[0].TextureConstants
 swapblockelements ShaderProperties[0].TextureConstants 5 2
-setfield ShaderProperties[0].TextureConstants[2].Bitmap shaders\default_bitmaps\bitmaps\color_red.bitmap
+setfield ShaderProperties[0].TextureConstants[2].Bitmap objects\vehicles\human\civilian\forklift\bitmaps\forklift_cc.bitmap
 savetagchanges
 exit
 
@@ -2815,7 +2819,7 @@ setfield Options[0].OptionIndex 3
 copyblockelements ShaderProperties[0].TextureConstants 0 1
 pasteblockelements ShaderProperties[0].TextureConstants
 swapblockelements ShaderProperties[0].TextureConstants 5 2
-setfield ShaderProperties[0].TextureConstants[2].Bitmap shaders\default_bitmaps\bitmaps\color_red.bitmap
+setfield ShaderProperties[0].TextureConstants[2].Bitmap objects\vehicles\human\civilian\forklift\bitmaps\forklift_cc.bitmap
 savetagchanges
 exit
 
@@ -2836,7 +2840,7 @@ setfield Options[0].OptionIndex 3
 copyblockelements ShaderProperties[0].TextureConstants 0 1
 pasteblockelements ShaderProperties[0].TextureConstants
 swapblockelements ShaderProperties[0].TextureConstants 4 2
-setfield ShaderProperties[0].TextureConstants[2].Bitmap shaders\default_bitmaps\bitmaps\color_red.bitmap
+setfield ShaderProperties[0].TextureConstants[2].Bitmap objects\vehicles\human\civilian\military_truck\bitmaps\military_truck_cc.bitmap
 setargument diffuse_coefficient 10
 savetagchanges
 exit
@@ -2847,7 +2851,7 @@ setfield Options[0].OptionIndex 3
 copyblockelements ShaderProperties[0].TextureConstants 0 1
 pasteblockelements ShaderProperties[0].TextureConstants
 swapblockelements ShaderProperties[0].TextureConstants 4 2
-setfield ShaderProperties[0].TextureConstants[2].Bitmap shaders\default_bitmaps\bitmaps\color_red.bitmap
+setfield ShaderProperties[0].TextureConstants[2].Bitmap objects\vehicles\human\civilian\military_truck\bitmaps\military_truck_cc.bitmap
 setargument diffuse_coefficient 10
 savetagchanges
 exit
@@ -2883,8 +2887,8 @@ edittag objects\vehicles\human\civilian\military_truck\military_truck.vehicle
 removeblockelements ChangeColors 0 *
 addblockelements ChangeColors
 addblockelements ChangeColors[0].InitialPermutations
-setfield ChangeColors[0].InitialPermutations[0].ColorLowerBound 0.12156863 0.12156863 0.12156863
-setfield ChangeColors[0].InitialPermutations[0].ColorUpperBound 0.12156863 0.12156863 0.12156863
+setfield ChangeColors[0].InitialPermutations[0].ColorLowerBound 1 1 1
+setfield ChangeColors[0].InitialPermutations[0].ColorUpperBound 1 1 1
 setfield ChangeColors[0].InitialPermutations[0].Weight 0.1
 savetagchanges
 exit
@@ -2893,8 +2897,8 @@ edittag objects\vehicles\human\civilian\military_van\military_van.vehicle
 removeblockelements ChangeColors 0 *
 addblockelements ChangeColors
 addblockelements ChangeColors[0].InitialPermutations
-setfield ChangeColors[0].InitialPermutations[0].ColorLowerBound 0.12156863 0.12156863 0.12156863
-setfield ChangeColors[0].InitialPermutations[0].ColorUpperBound 0.12156863 0.12156863 0.12156863
+setfield ChangeColors[0].InitialPermutations[0].ColorLowerBound 1 1 1
+setfield ChangeColors[0].InitialPermutations[0].ColorUpperBound 1 1 1
 setfield ChangeColors[0].InitialPermutations[0].Weight 0.1
 savetagchanges
 exit
