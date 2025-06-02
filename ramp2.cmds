@@ -2500,6 +2500,27 @@ OpenModPackage "workingdir\paks\ReachSpaceVehiclesNoBloatWare.pak"
 applymodpackage
 exitmodpackage
 
+#Fix Space Banshee Shader, Rebuild pak with this pls.
+
+edittag objects\vehicles\covenant\banshee\shaders\space_banshee.shader
+setargument env_tint_color 0 0 0 1
+setargument specular_tint 0.5 0.5 0.5 1
+savetagchanges
+exit
+
+edittag objects\vehicles\covenant\banshee\shaders\space_banshee_glass.shader
+setargument env_tint_color 0 0 0 1
+setargument specular_tint 0.5 0.5 0.5 1
+savetagchanges
+exit
+
+edittag objects\vehicles\covenant\banshee\shaders\space_banshee_wings.shader
+setargument albedo_color 1 0.3490196 0.3490196 1
+setargument env_tint_color 0 0 0 1
+setargument specular_tint 0.5 0.5 0.5 1
+savetagchanges
+exit
+
 # FIXUP for RAMP 2 only
 # Watashi totte wa mikanzen
 edittag ui\chud\mac_cannon.chud_definition
