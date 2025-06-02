@@ -1395,6 +1395,9 @@ EditTag ui\chud\rocket.chud_definition
 SetField HudWidgets[2].ParallaxData ui\chud\parallax\vehicles.chud_widget_parallax_data
 SetField HudWidgets[2].BitmapWidgets[0].Bitmap ms30\ui\chud\bitmaps\hud_reticles.bitmap
 SetField HudWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 0.89 0.89
+
+SetField HudWidgets[3].BitmapWidgets[3].PlacementData[0].Scale 1.5 -1.5
+
 SetField HudAmmunitionInfo.LowAmmoLoadedThreshold 1
 SetField HudWidgets[5].BitmapWidgets[0].BitmapSequenceIndex 12
 SetField HudWidgets[5].BitmapWidgets[0].RenderData[0].LocalScalarB 0.1
@@ -1471,6 +1474,8 @@ SetField HudWidgets[3].TextWidgets[1].Font SplitscreenHudMessage
 
 # SetField HudWidgets[4].PlacementData[0].Offset 60 10
 # SetField HudWidgets[4].PlacementData[0].Scale 1.8 1.8
+
+SetField HudWidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\ballistic_meters.bitmap
 
 SetField HudWidgets[5].TextWidgets[0].RenderData[0].ShaderType Simple
 SetField HudWidgets[5].TextWidgets[0].RenderData[0].LocalColorA 0 255 255 255
