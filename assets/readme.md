@@ -4,7 +4,6 @@ Reach Anniversary Multiplayer (RAMP) is a re-imagining of Halo: Reach's multipla
 Welcome to RAMP, a community effort to transform Eldewrito into Halo Reach while keeping ED main features and adding new ones. Featuring extensive bug fixes, quality of life improvements, and plenty of new content to play with. We hope you enjoy this labor of love, we'll see you starside.
 
 ## Contributors & Credits:
-*
 * Zekken (Team Lead)
 * Dank (Core Contributor & Original RAMP Creator)
 * MtnDewIt (Tagtool Maintainer & Bug Fixer)
@@ -63,8 +62,8 @@ Welcome to RAMP, a community effort to transform Eldewrito into Halo Reach while
 * Fixed hologram shader issue
 * Fixed Oddball FP animations
 * Fixed SPI armor shader
-* Fix Reflection coll projectile issue
-* Fix Condemned coll projectile issue
+* Fixed Reflection coll projectile issue
+* Fixed Condemned coll projectile issue
 * Increased explosion LOD
 * Renamed some forge objects
 * Removed color change block from compost bag pile 
