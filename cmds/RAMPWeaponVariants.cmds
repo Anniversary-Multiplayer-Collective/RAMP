@@ -712,6 +712,36 @@ SetField Materials[2].RenderMethod objects\weapons\rifle\smg\shaders\reach_smg_r
 SaveTagChanges
 Exit
 
+edittag objects\weapons\rifle\assault_rifle\shaders\item_red.shader
+SetArgument self_illum_color 20 0.05 0.05 1
+savetagchanges
+exit
+
+edittag objects\weapons\rifle\assault_rifle\shaders\item_orange.shader
+SetArgument self_illum_color 20 0.5 0.05 1
+savetagchanges
+exit
+
+edittag objects\weapons\rifle\battle_rifle\shaders\display_blue.shader
+SetArgument self_illum_color 1 0.5 1 1
+savetagchanges
+exit
+
+edittag objects\weapons\rifle\assault_rifle\shaders\item_green.shader
+SetArgument self_illum_color 1 1 0 1
+savetagchanges
+exit
+
+edittag objects\weapons\rifle\battle_rifle\shaders\display_purple.shader
+SetArgument self_illum_color 5 0 0.5 1
+savetagchanges
+exit
+
+edittag objects\weapons\rifle\battle_rifle\shaders\display_red.shader
+SetArgument self_illum_color 10 0 0.025 1
+savetagchanges
+exit
+
 # TEXTURE FIXUP
 # DMR NORMALS
 foreach shader startingwith: objects\weapons\rifle\dmr\shaders\dmr_composite SetField ShaderProperties[0].TextureConstants[2].Bitmap dw3\r3ach\objects\weapons\rifle\dmr\bitmaps\dmr_normal.bitmap
