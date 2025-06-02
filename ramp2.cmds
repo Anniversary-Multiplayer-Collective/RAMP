@@ -3086,6 +3086,33 @@ AddFunction albedo_color Real 0
 savetagchanges
 exit
 
+#Shade Turret
+edittag objects\vehicles\shade\shade.vehicle
+addblockelements ChangeColors
+addblockelements ChangeColors[0].InitialPermutations
+setfield ChangeColors[0].InitialPermutations[0].ColorLowerBound 0.12941177 0.12941177 0.12941177
+setfield ChangeColors[0].InitialPermutations[0].ColorUpperBound 0.12941177 0.12941177 0.12941177
+savetagchanges
+exit
+
+edittag objects\vehicles\shade\shaders\shade.shader
+addblockelements ShaderProperties[0].Functions
+setfield ShaderProperties[0].Functions[0].Function.Data 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+setfield ShaderProperties[0].Functions[0].Type ChangeColorPrimary
+setargument diffuse_coefficient 10
+AddFunction albedo_color Real 0
+savetagchanges
+exit
+
+edittag objects\vehicles\shade\shaders\shade_metal.shader
+addblockelements ShaderProperties[0].Functions
+setfield ShaderProperties[0].Functions[0].Function.Data 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+setfield ShaderProperties[0].Functions[0].Type ChangeColorPrimary
+setargument diffuse_coefficient 10
+AddFunction albedo_color Real 0
+savetagchanges
+exit
+
 
 echo ==Add Void Canvas Map==
 
