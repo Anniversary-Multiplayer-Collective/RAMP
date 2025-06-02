@@ -2844,7 +2844,7 @@ copyblockelements ShaderProperties[0].TextureConstants 0 1
 pasteblockelements ShaderProperties[0].TextureConstants
 swapblockelements ShaderProperties[0].TextureConstants 4 2
 setfield ShaderProperties[0].TextureConstants[2].Bitmap objects\vehicles\human\civilian\military_truck\bitmaps\military_truck_cc.bitmap
-setargument diffuse_coefficient 10
+setargument diffuse_coefficient 1
 savetagchanges
 exit
 
@@ -2855,7 +2855,7 @@ copyblockelements ShaderProperties[0].TextureConstants 0 1
 pasteblockelements ShaderProperties[0].TextureConstants
 swapblockelements ShaderProperties[0].TextureConstants 4 2
 setfield ShaderProperties[0].TextureConstants[2].Bitmap objects\vehicles\human\civilian\military_truck\bitmaps\military_truck_cc.bitmap
-setargument diffuse_coefficient 10
+setargument diffuse_coefficient 1
 savetagchanges
 exit
 
@@ -2866,7 +2866,7 @@ copyblockelements ShaderProperties[0].TextureConstants 0 1
 pasteblockelements ShaderProperties[0].TextureConstants
 swapblockelements ShaderProperties[0].TextureConstants 4 2
 setfield ShaderProperties[0].TextureConstants[2].Bitmap shaders\default_bitmaps\bitmaps\color_red.bitmap
-setargument diffuse_coefficient 10
+setargument diffuse_coefficient 1
 savetagchanges
 exit
 
@@ -2874,7 +2874,7 @@ edittag objects\vehicles\human\civilian\truck_cab_large\shaders\military_contain
 setfield ShaderProperties[0].Template shaders\shader_templates\_3_1_0_1_13_2_0_0_0_4_0_0.render_method_template
 setfield Options[0].OptionIndex 3
 setfield ShaderProperties[0].TextureConstants[2].Bitmap shaders\default_bitmaps\bitmaps\color_red.bitmap
-setargument diffuse_coefficient 10
+setargument diffuse_coefficient 1
 savetagchanges
 exit
 
@@ -2882,7 +2882,7 @@ edittag objects\vehicles\human\civilian\truck_cab_large\shaders\military_contain
 setfield ShaderProperties[0].Template shaders\shader_templates\_3_1_0_1_13_2_0_0_0_4_0_0.render_method_template
 setfield Options[0].OptionIndex 3
 setfield ShaderProperties[0].TextureConstants[2].Bitmap shaders\default_bitmaps\bitmaps\color_red.bitmap
-setargument diffuse_coefficient 10
+setargument diffuse_coefficient 1
 savetagchanges
 exit
 
