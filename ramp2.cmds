@@ -2750,6 +2750,7 @@ PasteBlockElements ShaderProperties[0].TextureConstants
 SwapBlockElements ShaderProperties[0].TextureConstants 6 2
 SetField ShaderProperties[0].TextureConstants[2].Bitmap shaders\default_bitmaps\bitmaps\color_red.bitmap
 SetArgument albedo_blend 1
+SetArgument fresnel_color 0.09137256 0.07882354 0.06313726 1
 SaveTagChanges
 Exit
 
@@ -2761,6 +2762,7 @@ PasteBlockElements ShaderProperties[0].TextureConstants
 SwapBlockElements ShaderProperties[0].TextureConstants 6 2
 SetField ShaderProperties[0].TextureConstants[2].Bitmap shaders\default_bitmaps\bitmaps\color_red.bitmap
 SetArgument albedo_blend 1
+SetArgument fresnel_color 0.09137256 0.07882354 0.06313726 1
 SaveTagChanges
 Exit
 
