@@ -2778,25 +2778,89 @@ savetagchanges
 exit
 
 #Cart
-edittag objects\vehicles\human\civilian\cart_electric\shaders\electric_cart_and_trailer_destroyed.shader
-setfield ShaderProperties[0].Template shaders\shader_templates\_3_1_0_1_13_2_0_0_0_4_0_0.render_method_template
-setfield Options[0].OptionIndex 3
-copyblockelements ShaderProperties[0].TextureConstants 0 1
-pasteblockelements ShaderProperties[0].TextureConstants
-swapblockelements ShaderProperties[0].TextureConstants 4 2
-setfield ShaderProperties[0].TextureConstants[2].Bitmap shaders\default_bitmaps\bitmaps\color_red.bitmap
-savetagchanges
-exit
+EditTag objects\vehicles\human\civilian\cart_electric\shaders\electric_cart_and_trailer_destroyed.shader
+SetField ShaderProperties[0].Template shaders\shader_templates\_3_1_0_1_13_2_0_0_0_4_0_0.render_method_template
+RemoveBlockElements ShaderProperties[0].TextureConstants 0 *
+AddBlockElements ShaderProperties[0].TextureConstants 5
+SetBitmap base_map objects\vehicles\human\civilian\cart_electric\bitmaps\cart_and_trailer_diffuse.bitmap
+SetField ShaderProperties[0].TextureConstants[0].BitmapIndex 0
+SetField ShaderProperties[0].TextureConstants[0].SamplerAddressMode.SamplerAddressUV 0
+SetField ShaderProperties[0].TextureConstants[0].FilterMode Anisotropic2Expensive
+SetField ShaderProperties[0].TextureConstants[0].ExternTextureMode UseBitmapAsNormal
+SetField ShaderProperties[0].TextureConstants[0].TextureTransformConstantIndex 0
+SetField ShaderProperties[0].TextureConstants[0].TextureTransformOverlayIndices.Integer 0
+SetBitmap detail_map shaders\default_bitmaps\bitmaps\default_detail.bitmap
+SetField ShaderProperties[0].TextureConstants[1].BitmapIndex 0
+SetField ShaderProperties[0].TextureConstants[1].SamplerAddressMode.SamplerAddressUV 0
+SetField ShaderProperties[0].TextureConstants[1].FilterMode Trilinear
+SetField ShaderProperties[0].TextureConstants[1].ExternTextureMode UseBitmapAsNormal
+SetField ShaderProperties[0].TextureConstants[1].TextureTransformConstantIndex 1
+SetField ShaderProperties[0].TextureConstants[1].TextureTransformOverlayIndices.Integer 0
+SetBitmap change_color_map shaders\default_bitmaps\bitmaps\color_red.bitmap
+SetField ShaderProperties[0].TextureConstants[2].BitmapIndex 0
+SetField ShaderProperties[0].TextureConstants[2].SamplerAddressMode.SamplerAddressUV 0
+SetField ShaderProperties[0].TextureConstants[2].FilterMode Anisotropic2Expensive
+SetField ShaderProperties[0].TextureConstants[2].ExternTextureMode UseBitmapAsNormal
+SetField ShaderProperties[0].TextureConstants[2].TextureTransformConstantIndex 0
+SetField ShaderProperties[0].TextureConstants[2].TextureTransformOverlayIndices.Integer 0
+SetBitmap bump_map objects\vehicles\human\civilian\cart_electric\bitmaps\cart_and_trailer_zbump.bitmap
+SetField ShaderProperties[0].TextureConstants[3].BitmapIndex 0
+SetField ShaderProperties[0].TextureConstants[3].SamplerAddressMode.SamplerAddressUV 0
+SetField ShaderProperties[0].TextureConstants[3].FilterMode Anisotropic2Expensive
+SetField ShaderProperties[0].TextureConstants[3].ExternTextureMode UseBitmapAsNormal
+SetField ShaderProperties[0].TextureConstants[3].TextureTransformConstantIndex 3
+SetField ShaderProperties[0].TextureConstants[3].TextureTransformOverlayIndices.Integer 0
+SetBitmap material_texture shaders\default_bitmaps\bitmaps\gray_50_percent.bitmap
+SetField ShaderProperties[0].TextureConstants[4].BitmapIndex 0
+SetField ShaderProperties[0].TextureConstants[4].SamplerAddressMode.SamplerAddressUV 0
+SetField ShaderProperties[0].TextureConstants[4].FilterMode Trilinear
+SetField ShaderProperties[0].TextureConstants[4].ExternTextureMode UseBitmapAsNormal
+SetField ShaderProperties[0].TextureConstants[4].TextureTransformConstantIndex 15
+SetField ShaderProperties[0].TextureConstants[4].TextureTransformOverlayIndices.Integer 0
+SaveTagChanges
+Exit
 
-edittag objects\vehicles\human\civilian\cart_electric\shaders\electric_cart_and_trailer.shader
-setfield ShaderProperties[0].Template shaders\shader_templates\_3_1_0_1_13_2_0_0_0_4_0_0.render_method_template
-setfield Options[0].OptionIndex 3
-copyblockelements ShaderProperties[0].TextureConstants 0 1
-pasteblockelements ShaderProperties[0].TextureConstants
-swapblockelements ShaderProperties[0].TextureConstants 4 2
-setfield ShaderProperties[0].TextureConstants[2].Bitmap shaders\default_bitmaps\bitmaps\color_red.bitmap
-savetagchanges
-exit
+EditTag objects\vehicles\human\civilian\cart_electric\shaders\electric_cart_and_trailer.shader
+SetField ShaderProperties[0].Template shaders\shader_templates\_3_1_0_1_13_2_0_0_0_4_0_0.render_method_template
+RemoveBlockElements ShaderProperties[0].TextureConstants 0 *
+AddBlockElements ShaderProperties[0].TextureConstants 5
+SetBitmap base_map objects\vehicles\human\civilian\cart_electric\bitmaps\cart_and_trailer_diffuse.bitmap
+SetField ShaderProperties[0].TextureConstants[0].BitmapIndex 0
+SetField ShaderProperties[0].TextureConstants[0].SamplerAddressMode.SamplerAddressUV 0
+SetField ShaderProperties[0].TextureConstants[0].FilterMode Anisotropic2Expensive
+SetField ShaderProperties[0].TextureConstants[0].ExternTextureMode UseBitmapAsNormal
+SetField ShaderProperties[0].TextureConstants[0].TextureTransformConstantIndex 0
+SetField ShaderProperties[0].TextureConstants[0].TextureTransformOverlayIndices.Integer 0
+SetBitmap detail_map objects\props\human\pioneer\bitmaps\metal_rand_scratches_detail.bitmap
+SetField ShaderProperties[0].TextureConstants[1].BitmapIndex 0
+SetField ShaderProperties[0].TextureConstants[1].SamplerAddressMode.SamplerAddressUV 0
+SetField ShaderProperties[0].TextureConstants[1].FilterMode Anisotropic2Expensive
+SetField ShaderProperties[0].TextureConstants[1].ExternTextureMode UseBitmapAsNormal
+SetField ShaderProperties[0].TextureConstants[1].TextureTransformConstantIndex 1
+SetField ShaderProperties[0].TextureConstants[1].TextureTransformOverlayIndices.Integer 0
+SetBitmap change_color_map shaders\default_bitmaps\bitmaps\color_red.bitmap
+SetField ShaderProperties[0].TextureConstants[2].BitmapIndex 0
+SetField ShaderProperties[0].TextureConstants[2].SamplerAddressMode.SamplerAddressUV 0
+SetField ShaderProperties[0].TextureConstants[2].FilterMode Anisotropic2Expensive
+SetField ShaderProperties[0].TextureConstants[2].ExternTextureMode UseBitmapAsNormal
+SetField ShaderProperties[0].TextureConstants[2].TextureTransformConstantIndex 0
+SetField ShaderProperties[0].TextureConstants[2].TextureTransformOverlayIndices.Integer 0
+SetBitmap bump_map objects\vehicles\human\civilian\cart_electric\bitmaps\cart_and_trailer_zbump.bitmap
+SetField ShaderProperties[0].TextureConstants[3].BitmapIndex 0
+SetField ShaderProperties[0].TextureConstants[3].SamplerAddressMode.SamplerAddressUV 0
+SetField ShaderProperties[0].TextureConstants[3].FilterMode Anisotropic2Expensive
+SetField ShaderProperties[0].TextureConstants[3].ExternTextureMode UseBitmapAsNormal
+SetField ShaderProperties[0].TextureConstants[3].TextureTransformConstantIndex 3
+SetField ShaderProperties[0].TextureConstants[3].TextureTransformOverlayIndices.Integer 0
+SetBitmap material_texture shaders\default_bitmaps\bitmaps\gray_50_percent.bitmap
+SetField ShaderProperties[0].TextureConstants[4].BitmapIndex 0
+SetField ShaderProperties[0].TextureConstants[4].SamplerAddressMode.SamplerAddressUV 0
+SetField ShaderProperties[0].TextureConstants[4].FilterMode Trilinear
+SetField ShaderProperties[0].TextureConstants[4].ExternTextureMode UseBitmapAsNormal
+SetField ShaderProperties[0].TextureConstants[4].TextureTransformConstantIndex 15
+SetField ShaderProperties[0].TextureConstants[4].TextureTransformOverlayIndices.Integer 0
+SaveTagChanges
+Exit
 
 EditTag objects\vehicles\human\civilian\cart_electric\cart_electric.vehicle
 addblockelements ChangeColors
@@ -2809,23 +2873,101 @@ savetagchanges
 exit
 
 #Forklift
-edittag objects\vehicles\human\civilian\forklift\shaders\forklift_nwo.shader
-setfield ShaderProperties[0].Template shaders\shader_templates\_3_2_0_1_13_2_0_0_0_4_0_0.render_method_template
-setfield Options[0].OptionIndex 3
-copyblockelements ShaderProperties[0].TextureConstants 0 1
-pasteblockelements ShaderProperties[0].TextureConstants
-swapblockelements ShaderProperties[0].TextureConstants 5 2
-setfield ShaderProperties[0].TextureConstants[2].Bitmap objects\vehicles\human\civilian\forklift\bitmaps\forklift_cc.bitmap
-savetagchanges
-exit
+EditTag objects\vehicles\human\civilian\forklift\shaders\forklift_nwo.shader
+SetField ShaderProperties[0].Template shaders\shader_templates\_3_2_0_1_13_2_0_0_0_4_0_0.render_method_template
+RemoveBlockElements ShaderProperties[0].TextureConstants 0 *
+AddBlockElements ShaderProperties[0].TextureConstants 6
+SetBitmap base_map objects\vehicles\human\civilian\forklift\bitmaps\forklift_diffuse.bitmap
+SetField ShaderProperties[0].TextureConstants[0].BitmapIndex 0
+SetField ShaderProperties[0].TextureConstants[0].SamplerAddressMode.SamplerAddressUV 0
+SetField ShaderProperties[0].TextureConstants[0].FilterMode Trilinear
+SetField ShaderProperties[0].TextureConstants[0].ExternTextureMode UseBitmapAsNormal
+SetField ShaderProperties[0].TextureConstants[0].TextureTransformConstantIndex 0
+SetField ShaderProperties[0].TextureConstants[0].TextureTransformOverlayIndices.Integer 0
+SetBitmap detail_map objects\vehicles\human\civilian\pickup\bitmaps\pioneer_truck_paint_detail_diffuse.bitmap
+SetField ShaderProperties[0].TextureConstants[1].BitmapIndex 0
+SetField ShaderProperties[0].TextureConstants[1].SamplerAddressMode.SamplerAddressUV 0
+SetField ShaderProperties[0].TextureConstants[1].FilterMode Trilinear
+SetField ShaderProperties[0].TextureConstants[1].ExternTextureMode UseBitmapAsNormal
+SetField ShaderProperties[0].TextureConstants[1].TextureTransformConstantIndex 1
+SetField ShaderProperties[0].TextureConstants[1].TextureTransformOverlayIndices.Integer 0
+SetBitmap change_color_map objects\vehicles\human\civilian\forklift\bitmaps\forklift_cc.bitmap
+SetField ShaderProperties[0].TextureConstants[2].BitmapIndex 0
+SetField ShaderProperties[0].TextureConstants[2].SamplerAddressMode.SamplerAddressUV 0
+SetField ShaderProperties[0].TextureConstants[2].FilterMode Trilinear
+SetField ShaderProperties[0].TextureConstants[2].ExternTextureMode UseBitmapAsNormal
+SetField ShaderProperties[0].TextureConstants[2].TextureTransformConstantIndex 0
+SetField ShaderProperties[0].TextureConstants[2].TextureTransformOverlayIndices.Integer 0
+SetBitmap bump_map objects\vehicles\human\civilian\forklift\bitmaps\forklift_zbump.bitmap
+SetField ShaderProperties[0].TextureConstants[3].BitmapIndex 0
+SetField ShaderProperties[0].TextureConstants[3].SamplerAddressMode.SamplerAddressUV 0
+SetField ShaderProperties[0].TextureConstants[3].FilterMode Trilinear
+SetField ShaderProperties[0].TextureConstants[3].ExternTextureMode UseBitmapAsNormal
+SetField ShaderProperties[0].TextureConstants[3].TextureTransformConstantIndex 3
+SetField ShaderProperties[0].TextureConstants[3].TextureTransformOverlayIndices.Integer 0
+SetBitmap bump_detail_map objects\weapons\rifle\assault_rifle\bitmaps\gun_microbump.bitmap
+SetField ShaderProperties[0].TextureConstants[4].BitmapIndex 0
+SetField ShaderProperties[0].TextureConstants[4].SamplerAddressMode.SamplerAddressUV 0
+SetField ShaderProperties[0].TextureConstants[4].FilterMode Anisotropic4EXPENSIVE
+SetField ShaderProperties[0].TextureConstants[4].ExternTextureMode UseBitmapAsNormal
+SetField ShaderProperties[0].TextureConstants[4].TextureTransformConstantIndex 4
+SetField ShaderProperties[0].TextureConstants[4].TextureTransformOverlayIndices.Integer 0
+SetBitmap material_texture shaders\default_bitmaps\bitmaps\gray_50_percent.bitmap
+SetField ShaderProperties[0].TextureConstants[5].BitmapIndex 0
+SetField ShaderProperties[0].TextureConstants[5].SamplerAddressMode.SamplerAddressUV 0
+SetField ShaderProperties[0].TextureConstants[5].FilterMode Trilinear
+SetField ShaderProperties[0].TextureConstants[5].ExternTextureMode UseBitmapAsNormal
+SetField ShaderProperties[0].TextureConstants[5].TextureTransformConstantIndex 16
+SetField ShaderProperties[0].TextureConstants[5].TextureTransformOverlayIndices.Integer 0
+SaveTagChanges
+Exit
 
-edittag objects\vehicles\human\civilian\forklift\shaders\forklift_nwo_destroyed.shader
-setfield ShaderProperties[0].Template shaders\shader_templates\_3_2_0_1_13_2_0_0_0_4_0_0.render_method_template
-setfield Options[0].OptionIndex 3
-copyblockelements ShaderProperties[0].TextureConstants 0 1
-pasteblockelements ShaderProperties[0].TextureConstants
-swapblockelements ShaderProperties[0].TextureConstants 5 2
-setfield ShaderProperties[0].TextureConstants[2].Bitmap objects\vehicles\human\civilian\forklift\bitmaps\forklift_cc.bitmap
+EditTag objects\vehicles\human\civilian\forklift\shaders\forklift_nwo_destroyed.shader
+SetField ShaderProperties[0].Template shaders\shader_templates\_3_2_0_1_13_2_0_0_0_4_0_0.render_method_template
+RemoveBlockElements ShaderProperties[0].TextureConstants 0 *
+AddBlockElements ShaderProperties[0].TextureConstants 6
+SetBitmap base_map objects\vehicles\human\civilian\forklift\bitmaps\forklift_diffuse.bitmap
+SetField ShaderProperties[0].TextureConstants[0].BitmapIndex 0
+SetField ShaderProperties[0].TextureConstants[0].SamplerAddressMode.SamplerAddressUV 0
+SetField ShaderProperties[0].TextureConstants[0].FilterMode Trilinear
+SetField ShaderProperties[0].TextureConstants[0].ExternTextureMode UseBitmapAsNormal
+SetField ShaderProperties[0].TextureConstants[0].TextureTransformConstantIndex 0
+SetField ShaderProperties[0].TextureConstants[0].TextureTransformOverlayIndices.Integer 0
+SetBitmap detail_map objects\props\human\pioneer\bitmaps\damage_detail_a.bitmap
+SetField ShaderProperties[0].TextureConstants[1].BitmapIndex 0
+SetField ShaderProperties[0].TextureConstants[1].SamplerAddressMode.SamplerAddressUV 0
+SetField ShaderProperties[0].TextureConstants[1].FilterMode Trilinear
+SetField ShaderProperties[0].TextureConstants[1].ExternTextureMode UseBitmapAsNormal
+SetField ShaderProperties[0].TextureConstants[1].TextureTransformConstantIndex 1
+SetField ShaderProperties[0].TextureConstants[1].TextureTransformOverlayIndices.Integer 0
+SetBitmap change_color_map objects\vehicles\human\civilian\forklift\bitmaps\forklift_cc.bitmap
+SetField ShaderProperties[0].TextureConstants[2].BitmapIndex 0
+SetField ShaderProperties[0].TextureConstants[2].SamplerAddressMode.SamplerAddressUV 0
+SetField ShaderProperties[0].TextureConstants[2].FilterMode Trilinear
+SetField ShaderProperties[0].TextureConstants[2].ExternTextureMode UseBitmapAsNormal
+SetField ShaderProperties[0].TextureConstants[2].TextureTransformConstantIndex 0
+SetField ShaderProperties[0].TextureConstants[2].TextureTransformOverlayIndices.Integer 0
+SetBitmap bump_map objects\vehicles\human\civilian\forklift\bitmaps\forklift_zbump.bitmap
+SetField ShaderProperties[0].TextureConstants[3].BitmapIndex 0
+SetField ShaderProperties[0].TextureConstants[3].SamplerAddressMode.SamplerAddressUV 0
+SetField ShaderProperties[0].TextureConstants[3].FilterMode Trilinear
+SetField ShaderProperties[0].TextureConstants[3].ExternTextureMode UseBitmapAsNormal
+SetField ShaderProperties[0].TextureConstants[3].TextureTransformConstantIndex 3
+SetField ShaderProperties[0].TextureConstants[3].TextureTransformOverlayIndices.Integer 0
+SetBitmap bump_detail_map objects\weapons\rifle\assault_rifle\bitmaps\gun_microbump.bitmap
+SetField ShaderProperties[0].TextureConstants[4].BitmapIndex 0
+SetField ShaderProperties[0].TextureConstants[4].SamplerAddressMode.SamplerAddressUV 0
+SetField ShaderProperties[0].TextureConstants[4].FilterMode Anisotropic4EXPENSIVE
+SetField ShaderProperties[0].TextureConstants[4].ExternTextureMode UseBitmapAsNormal
+SetField ShaderProperties[0].TextureConstants[4].TextureTransformConstantIndex 4
+SetField ShaderProperties[0].TextureConstants[4].TextureTransformOverlayIndices.Integer 0
+SetBitmap material_texture shaders\default_bitmaps\bitmaps\gray_50_percent.bitmap
+SetField ShaderProperties[0].TextureConstants[5].BitmapIndex 0
+SetField ShaderProperties[0].TextureConstants[5].SamplerAddressMode.SamplerAddressUV 0
+SetField ShaderProperties[0].TextureConstants[5].FilterMode Trilinear
+SetField ShaderProperties[0].TextureConstants[5].ExternTextureMode UseBitmapAsNormal
+SetField ShaderProperties[0].TextureConstants[5].TextureTransformConstantIndex 16
+SetField ShaderProperties[0].TextureConstants[5].TextureTransformOverlayIndices.Integer 0
 savetagchanges
 exit
 
