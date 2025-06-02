@@ -461,6 +461,12 @@ OpenModPackage "workingdir\paks\ramphud.pak"
 ApplyModPackage
 ExitModPackage
 
+# Weapon backpack fix
+edittag objects\characters\masterchief\mp_masterchief\mp_masterchief.render_model
+setfield MarkerGroups[24].Markers[0].Translation 0.07424942 -0.09 -4.2322E-08
+savetagchanges
+exit
+
 echo == Fix main menu logo in 4:3 aspect ratio ==
 EditTag ui\halox\main_menu\main_menu.gui_screen_widget_definition
 SetField GroupWidgets[1].Definition.BitmapWidgets[0].Definition.GuiRenderBlock.Bounds480i 323 253 367 646
