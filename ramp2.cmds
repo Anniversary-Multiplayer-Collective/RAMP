@@ -435,6 +435,13 @@ SetField WeaponName hp
 SaveTagChanges
 Exit
 
+#Fix Sniper projectile
+
+edittag objects\weapons\rifle\sniper_rifle\sniper_rifle.weapon
+setfield Barrels[0].Projectile objects\weapons\rifle\sniper_rifle\projectiles\sniper_bullet.projectile
+savetagchanges
+exit
+
 echo ==Apply RAMP Weapon Variants==
 OpenModPackage "workingdir\paks\RAMPWeaponVariants.pak"
 ApplyModPackage
