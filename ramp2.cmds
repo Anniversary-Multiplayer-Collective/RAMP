@@ -4059,6 +4059,14 @@ SetField Events[0].ParticleSystems[0].CameraMode ThirdPersonOnly
 savetagchanges
 exit
 
+# echo == Shotgun firing light fixup ==
+# Could also just use the reach value but I like the h3 value better
+edittag objects\weapons\rifle\shotgun\shotgun.weapon
+SetField Barrels[0].IlluminationRecoveryTime 0.1
+SetField Barrels[0].IlluminationRecoveryRate 10
+savetagchanges
+exit
+
 # WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARRRRRRRRRRRRNNNNNNNNNNNNNNNIIIIIIIIIIIIIIIIIIIIIIIIIIIIINNNNNNNNNGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
 # MAKE SURE THIS SCRIPT IS AT THE VERY LAST LINE OTHERWISE THE WEAPONS WILL BREAK
 # LOOKING MY EYES ON YOU DANK!!!!!!
