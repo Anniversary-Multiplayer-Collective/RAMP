@@ -3965,6 +3965,12 @@ setfield Modes[14].ModeIk[6].AttachToMarker left_hand_spartan
 setfield Modes[14].ModeIk[6].Marker left_hand
 setfield Modes[14].ModeIk[7].Marker right_hand
 setfield Modes[14].ModeIk[7].AttachToMarker right_hand_spartan
+addblockelements Modes[14].ModeIk
+addblockelements Modes[14].ModeIk
+setfield Modes[14].ModeIk[8].AttachToMarker d_left_hand_spartan
+setfield Modes[14].ModeIk[8].Marker left_hand
+setfield Modes[14].ModeIk[9].Marker right_hand
+setfield Modes[14].ModeIk[9].AttachToMarker d_right_hand_spartan
 savetagchanges
 exit
 
