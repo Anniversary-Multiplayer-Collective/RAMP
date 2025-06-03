@@ -3063,20 +3063,16 @@ SaveTagChanges
 Exit
 
 EditTag objects\vehicles\human\civilian\truck_cab_large\shaders\military_container_tiled.shader
-AddBlockElements ShaderProperties[0].Functions
-SetField ShaderProperties[0].Functions[1].Function.Data 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-SetField ShaderProperties[0].Functions[1].Type ChangeColorPrimary
-AddFunction albedo_color Real 1
-SetArgument diffuse_coefficient 1
+SetField ShaderProperties[0].Template shaders\shader_templates\_3_1_0_1_13_2_0_0_0_4_0_0.render_method_template
+SetField Options[0].OptionIndex 3
+SetField ShaderProperties[0].TextureConstants[2].Bitmap shaders\default_bitmaps\bitmaps\color_red.bitmap
 SaveTagChanges
 Exit
 
 EditTag objects\vehicles\human\civilian\truck_cab_large\shaders\military_container_tiled_destroyed.shader
-AddBlockElements ShaderProperties[0].Functions
-SetField ShaderProperties[0].Functions[1].Function.Data 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-SetField ShaderProperties[0].Functions[1].Type ChangeColorPrimary
-AddFunction albedo_color Real 1
-SetArgument diffuse_coefficient 1
+SetField ShaderProperties[0].Template shaders\shader_templates\_3_1_0_1_13_2_0_0_0_4_0_0.render_method_template
+SetField Options[0].OptionIndex 3
+SetField ShaderProperties[0].TextureConstants[2].Bitmap shaders\default_bitmaps\bitmaps\color_red.bitmap
 SaveTagChanges
 Exit
 
