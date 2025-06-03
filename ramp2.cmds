@@ -2801,7 +2801,7 @@ SetField ShaderProperties[0].TextureConstants[4].FilterMode Trilinear
 SetField ShaderProperties[0].TextureConstants[4].ExternTextureMode UseBitmapAsNormal
 SetField ShaderProperties[0].TextureConstants[4].TextureTransformConstantIndex 15
 SetField ShaderProperties[0].TextureConstants[4].TextureTransformOverlayIndices.Integer 0
-SetArgument change_color_map transform 1 1 0 0
+SetArgument change_color_map 1 1 0 0
 SaveTagChanges
 Exit
 
@@ -2844,7 +2844,7 @@ SetField ShaderProperties[0].TextureConstants[4].FilterMode Trilinear
 SetField ShaderProperties[0].TextureConstants[4].ExternTextureMode UseBitmapAsNormal
 SetField ShaderProperties[0].TextureConstants[4].TextureTransformConstantIndex 15
 SetField ShaderProperties[0].TextureConstants[4].TextureTransformOverlayIndices.Integer 0
-SetArgument change_color_map transform 1 1 0 0
+SetArgument change_color_map 1 1 0 0
 SaveTagChanges
 Exit
 
