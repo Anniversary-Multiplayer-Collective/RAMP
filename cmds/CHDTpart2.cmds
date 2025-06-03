@@ -15,16 +15,16 @@ Exit
 EditTag ui\chud\bitmaps\ballistic_meters_h3.bitmap
 # 20
 # INDEX 18
-AddBlockElements Sequences
-SetField Sequences[*].BitmapCount 1
-AddBlockElements Sequences[*].Sprites
-SetField Sequences[*].Sprites[*].Left 0.3671875
-SetField Sequences[*].Sprites[*].Right 0.6757813
-SetField Sequences[*].Sprites[*].Top 0.06
-SetField Sequences[*].Sprites[*].Bottom 0.1757813
-SetField Sequences[*].Sprites[*].RegistrationPoint 0.1542969 0.08789063
-SaveTagChanges
-Exit
+#AddBlockElements Sequences
+#SetField Sequences[*].BitmapCount 1
+#AddBlockElements Sequences[*].Sprites
+#SetField Sequences[*].Sprites[*].Left 0.3671875
+#SetField Sequences[*].Sprites[*].Right 0.6757813
+#SetField Sequences[*].Sprites[*].Top 0.06
+#SetField Sequences[*].Sprites[*].Bottom 0.1757813
+#SetField Sequences[*].Sprites[*].RegistrationPoint 0.1542969 0.08789063
+#SaveTagChanges
+#Exit
 
 # JUST A RANT, WHY THE FUCK THE SMG USE BOTH OF THEM WHEN ONE CAN SUFFICE????
 # THIS SHIT IS JUST RIDICULOUS
