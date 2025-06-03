@@ -2966,6 +2966,8 @@ exit
 
 #Military Truck
 EditTag objects\vehicles\human\civilian\military_truck\shaders\military_truck.shader
+SetField ShaderProperties[0].Template shaders\shader_templates\_3_1_0_1_13_2_0_0_0_4_0_0.render_method_template
+SetField Options[0].OptionIndex 3
 RemoveBlockElements ShaderProperties[0].TextureConstants 0 *
 AddBlockElements ShaderProperties[0].TextureConstants 5
 SetBitmap base_map objects\vehicles\human\civilian\military_truck\bitmaps\military_truck_diffuse.bitmap
@@ -3008,6 +3010,8 @@ SaveTagChanges
 Exit
 
 EditTag objects\vehicles\human\civilian\military_truck\shaders\military_truck_destroyed.shader
+SetField ShaderProperties[0].Template shaders\shader_templates\_3_1_0_1_13_2_0_0_0_4_0_0.render_method_template
+SetField Options[0].OptionIndex 3
 RemoveBlockElements ShaderProperties[0].TextureConstants 0 *
 AddBlockElements ShaderProperties[0].TextureConstants 5
 SetBitmap base_map objects\vehicles\human\civilian\military_truck\bitmaps\military_truck_diffuse.bitmap
