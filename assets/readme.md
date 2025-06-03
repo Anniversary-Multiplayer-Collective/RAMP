@@ -15,6 +15,7 @@ Welcome to RAMP, a community effort to transform Eldewrito into Halo Reach while
 * Newbie (Engine Knowledge & Emotional support)
 * Twister (Engine Knowledge)
 * Fyzure (Noble 6 Voice Lines & Macworld 1999 Emotes)
+* Enash (H2A Beam Rifle)
 * VKMT (R3ACH Weapon Pack)
 * Rejected Shotgun (Falcon, Stanchion, Pelican, Phantom from hugegrass Tags)
 * Just Alex (Revenant Tags)
@@ -27,51 +28,60 @@ Welcome to RAMP, a community effort to transform Eldewrito into Halo Reach while
 
 ## v0.94 Changelog
 * We're no longer called "RAMP 2" now, Just good ol' RAMP
-* Added dual wielding! (Including the needler)
-  -Sidenote : Needler has been split into two weapons in the forge menu, one where it can dual wielded and one where it can't
+* Added dual-wielding! (Including the needler)
+  -Sidenote: Needler has been split into two weapons in the forge menu, one where it can be dual wielded and one where it can't
 * Added more armor preview images
-* Added more forge object!
+* Added more forge objects! (Around 50-150 new forge objects!)
+  -Sidenote: For this to work Edge and Reactor lighting has to be downgraded so the game won't crash upon loading in forge mode
 * Added missing Grenadier chest attachment
-* Added sharper crosshair for most weapons
 * Added cut Reach LMG
+* Added Stanchion
 * Added Seraph, Saber, Space Banshee, Wombat, Pelican, and Phantom vehicles
 * Added MAC cannon
 * Added Void map for space battles
-* Added Stanchion
 * Added new loading screen and AMP signature
-* Added Super Carrier forge object
-* Added Halo Ring forge object
-* Added Covenant door and buttons
-* Added Ridable Moa
+* Added Rideable Moa
 * Added Firefight default map variants (Geometry pop in\out still exsits, Will be fixed in ED 0.7.2)
-* Added Better grenades and drop shield effects
-* Added a bunch of misc forge objects
+* Added better grenades and drop shield effects
 * Added tracking to Rocket Launcher for Air Vehicles
 * Added Golf Club
+* Added Regenerator FX
+* Fixed RAMP weapon variant using terrible maps and texture
+* Fixed H2A Beam Rifle using terrible shaders
 * Fixed render distance issue with Boulder_Scale model
-* Fixed Magnum crosshair penalites
+* Fixed Magnum crosshair penalties
 * Fixed up Reach vehicle sounds
 * Fixed Silenced SMG and Automag swap to strings
 * Fixed up customization background
-* Fixed weapons not picking up the ammo equipments
-* Fixed Beam Rifle using Halo 4 icon
+* Fixed weapons not picking up the ammo equipment
+* Fixed Ammo Pack not giving ammo to the new weapons
+* Fixed weapons backpack location when playing as spartan
+* Fixed Beam Rifle using the Halo 4 icon
 * Fixed all armor names and descriptions
 * Fixed concussion rifle "Out of ammo switch to" string
 * Fixed ammo counter inaccuracies on Battle Rifle power and SMG damage
 * Fixed Plasma Pistol and Plasma Rifle using the wrong weapons icon
 * Fixed hologram shader issue
-* Fixed Oddball FP animations
+* Fixed Assault Bomb, Flag, and Oddball FP animations
+* Fixed Oddball fire effect
+* Fixed Assault Bomb, Flag HUD
+* Fixed Shotgun firing light duration
 * Fixed SPI armor shader
 * Fixed Reflection coll projectile issue
 * Fixed Condemned coll projectile issue
+* Fixed Tank Mode HUD overlapping
+* Fixed broken title screen on 4:3 aspect ratio
+* Minor change to the scoreboard HUD, it now has a meter and objective indication!
+* Sharper crosshair for most weapons
 * Increased explosion LOD
 * Renamed some forge objects
-* Removed color change block from compost bag pile 
 * Brightened Frigate & Corvette for space use
-* Adjusted default weapon viewmodels
+* Adjusted default weapon view models
 * Minor animations fixup
 * Setup for fall damage (coming in ED 0.7.2)
 * Misc weapon rebalancing
+* Removed color change from compost bag pile object
+* Removed Herobrine
 
 ## v0.4 Changelog
 * Added Reach glass shader support
