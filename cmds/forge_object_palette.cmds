@@ -780,10 +780,10 @@ AddForgeItem "CONTAINER MILITARY, LONG" 89 objects\vehicles\human\civilian\truck
 AddForgeItem "CONTAINER MILITARY, SHORT" 89 objects\vehicles\human\civilian\truck_cab_large\attachments\container_small_military\container_small_military.scenery
 AddForgeItem "CONTAINER [REACH]" 89 objects\gear\human\industrial\crate_tech_semi_short_closed\crate_tech_semi_short_closed.scenery
 AddForgeItem "CONTAINER, SMALL" 89 levels\dlc\cex_headlong\crates\headlong_dbl_crate\headlong_dbl_crate.crate
-AddForgeItem "CONTAINER CARGO, LONG, RUSTED" 89 objects\props\human\pioneer\garage\container_long_rusted\container_long_rusted.crate
+AddForgeItem "CONTAINER CARGO, LONG" 89 objects\vehicles\human\civilian\truck_cab_large\attachments\container_long\container_long.crate
 AddForgeItem "CONTAINER CARGO, SMALL" 89 objects\vehicles\human\civilian\truck_cab_large\attachments\container_small\container_small.crate
+AddForgeItem "CONTAINER CARGO, LONG, RUSTED" 89 objects\props\human\pioneer\garage\container_long_rusted\container_long_rusted.crate
 AddForgeItem "CONTAINER CARGO, SMALL, RUSTED" 89 objects\props\human\pioneer\garage\container_small_rusted\container_small_rusted.crate
-AddForgeItem "CONTAINER, LONG" 89 objects\gear\human\industrial\crate_tech_giant\crate_tech_giant.crate
 AddForgeItem "CONTAINER, FUEL DEPOT" 89 objects\levels\solo\m20\fuel_depot_container\fuel_depot_container.scenery
 AddForgeItem "CONTAINER, FUEL TANK" 89 objects\props\human\pioneer\garage\fuel_tank\fuel_tank.scenery
 AddForgeItem "CONTAINER, PROPANE TANK" 89 objects\props\human\pioneer\garage\propane_tank\propane_tank.scenery
@@ -791,6 +791,7 @@ AddForgeItem "CONTAINER, WATER FILTRATION" 89 objects\props\human\pioneer\farm\w
 AddForgeItem "CONTAINER, WATERTANK" 89 objects\props\human\pioneer\farm\water_tank_horizontal\water_tank_horizontal.scenery
 AddForgeItem "CONTAINER, WASTE RECYCLING" 89 objects\props\human\pioneer\farm\waste_recycling\waste_recycling.scenery
 
+AddForgeItem "CRATE, TECH" 89 objects\gear\human\industrial\crate_tech_giant\crate_tech_giant.crate
 AddForgeItem "CRATE, ONI, LARGE [SP]" 89 objects\props\human\oni\oni_crate_giant\oni_crate_giant.crate
 AddForgeItem "CRATE, ONI, LARGE [MP]" 89 objects\ca_dev\dlc_preserve\crates\oni_crate_giant\mp_oni_crate_giant.crate
 AddForgeItem "CRATE, ONI, SMALL [SP]" 89 objects\props\human\oni\oni_crate_small\oni_crate_small.crate

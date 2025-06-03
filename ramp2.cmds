@@ -1466,6 +1466,26 @@ SetField MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shad
 SaveTagChanges
 Exit
 
+EditTag objects\levels\forge\ff_teleporter_2_way\ff_teleporter_2_way.physics_model
+SetField RigidBodies[0].MotionType Keyframed
+SaveTagChanges
+Exit
+
+EditTag objects\levels\forge\ff_teleporter_receiver\ff_teleporter_receiver.physics_model
+SetField RigidBodies[0].MotionType Keyframed
+SaveTagChanges
+Exit
+
+EditTag objects\ca_dev\dlc_preserve\crates\teleporter_sender\teleporter_sender.physics_model
+SetField RigidBodies[0].MotionType Keyframed
+SaveTagChanges
+Exit
+
+EditTag objects\ca_dev\dlc_preserve\crates\teleporter_receiver\teleporter_receiver.physics_model
+SetField RigidBodies[0].MotionType Keyframed
+SaveTagChanges
+Exit
+
 echo ==Weapons Viewmodel Support==
 RunCommands "workingdir\cmds\weapons_viewmodel.cmds"
 
@@ -1611,6 +1631,14 @@ SetField Variants[5].Objects[0].ChildObject objects\weapons\grenade\plasma_grena
 SetField Variants[5].Objects[1].ChildObject objects\weapons\grenade\plasma_grenade\plasma_grenade.equipment
 SetField Variants[5].Objects[2].ChildObject objects\weapons\grenade\plasma_grenade\plasma_grenade.equipment
 SetField Variants[5].Objects[3].ChildObject objects\weapons\grenade\plasma_grenade\plasma_grenade.equipment
+SaveTagChanges
+Exit
+
+EditTag objects\gear\human\military\h_grenade_crate\h_grenade_crate.render_model
+SetField MarkerGroups[0].Markers[0].Translation 0.10253315 -0.050892994 0.047883064
+SetField MarkerGroups[1].Markers[0].Translation 0.034779035 -0.050892994 0.047883064
+SetField MarkerGroups[2].Markers[0].Translation -0.033184297 -0.050892994 0.047883064
+SetField MarkerGroups[3].Markers[0].Translation -0.10105807 -0.050892994 0.047883064
 SaveTagChanges
 Exit
 
@@ -1935,7 +1963,7 @@ Exit
 EditTag globals\globals.globals
 SetField PlayerControl[0].SprintFullSpeedMultiplier 0.623
 SetField PlayerControl[0].SprintPeggedMagnitude 0.85
-SetField PlayerControl[0].SprintPeggedAngularThreshold 60
+SetField PlayerControl[0].SprintPeggedAngularThreshold 10
 SetField PlayerInformation[0].RunForward 2.2
 SetField PlayerInformation[0].RunBackward 1.98
 SetField PlayerInformation[0].RunSideways 1.98
@@ -1946,7 +1974,7 @@ SetField PlayerInformation[0].SneakAcceleration 6.1
 
 SetField PlayerControl[1].SprintFullSpeedMultiplier 0.623
 SetField PlayerControl[1].SprintPeggedMagnitude 0.85
-SetField PlayerControl[1].SprintPeggedAngularThreshold 60
+SetField PlayerControl[1].SprintPeggedAngularThreshold 10
 SetField PlayerInformation[1].RunForward 2.2
 SetField PlayerInformation[1].RunBackward 1.98
 SetField PlayerInformation[1].RunSideways 1.98
@@ -2571,6 +2599,27 @@ exit
 echo == EMP Fixup for Space vehicles pak ==
 edittag objects\vehicles\drone_alpha\drone_alpha.vehicle
 setfield EmpEffect objects\vehicles\covenant\banshee\fx\destruction\emp_drain.effect
+savetagchanges
+exit
+
+edittag objects\vehicles\drone_alpha\drone_alpha.render_model
+AddBlockElements MarkerGroups
+AddBlockElements MarkerGroups[*].Markers
+SetField MarkerGroups[*].Name fx_emp_drain
+SetField MarkerGroups[*].Markers[0].RegionIndex -1
+SetField MarkerGroups[*].Markers[0].PermutationIndex -1
+SetField MarkerGroups[*].Markers[0].NodeIndex 1
+SetField MarkerGroups[*].Markers[0].Translation -1.0646089 -1.144409E-06 -0.2662506
+SetField MarkerGroups[*].Markers[0].Rotation -0 -0 -1 5.146E-07
+
+AddBlockElements MarkerGroups
+AddBlockElements MarkerGroups[*].Markers
+SetField MarkerGroups[*].Name fx_emp_drain_canopy
+SetField MarkerGroups[*].Markers[0].RegionIndex -1
+SetField MarkerGroups[*].Markers[0].PermutationIndex -1
+SetField MarkerGroups[*].Markers[0].NodeIndex 1
+SetField MarkerGroups[*].Markers[0].Translation -1.0646089 -1.144409E-06 -0.2662506
+SetField MarkerGroups[*].Markers[0].Rotation -0 -0 -1 5.146E-07
 savetagchanges
 exit
 
@@ -3261,6 +3310,8 @@ setfield ShaderProperties[0].Functions[0].Function.Data 000000000000000000000000
 setfield ShaderProperties[0].Functions[0].Type ChangeColorPrimary
 setargument diffuse_coefficient 10
 AddFunction albedo_color Real 0
+SetArgument fresnel_color 0.05019608 0.05019608 0.05019608 1
+SetArgument specular_tint 0.07098039 0.0764706 0.07921569 1
 savetagchanges
 exit
 

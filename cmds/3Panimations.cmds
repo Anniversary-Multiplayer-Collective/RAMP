@@ -72,7 +72,14 @@ SetField Animations[180].AnimationData.FrameEvents[1].Frame 8
 SetField Animations[180].AnimationData.Heading 0.9999923 -0.003928625 0
 SetField Animations[180].AnimationData.AverageTranslationMagnitude 0.1199984
 SetField Animations[180].PlaybackFlags DisableWeaponIK
+
+SetAnimation crouch:dual:ne:reload_1 0 addoverlay
+SetAnimation crouch:dual:ne:reload_1_left 0 addoverlay
 SortModes
+SetField Modes[4].WeaponClass[2].WeaponType[4].Set.Overlays[0].GraphIndex 0
+SetField Modes[4].WeaponClass[2].WeaponType[4].Set.Overlays[0].Animation 181
+SetField Modes[4].WeaponClass[2].WeaponType[4].Set.Overlays[1].GraphIndex 0
+SetField Modes[4].WeaponClass[2].WeaponType[4].Set.Overlays[1].Animation 182
 SaveTagChanges
 Exit
 
