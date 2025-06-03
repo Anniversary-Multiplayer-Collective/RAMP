@@ -2761,6 +2761,7 @@ savetagchanges
 exit
 
 #Cart
+GenerateBitmap objects\vehicles\human\civilian\cart_electric\bitmaps\cart_and_trailer_cc "workingdir\bitmaps\vehicles_cc\cart_and_trailer_cc.dds"
 EditTag objects\vehicles\human\civilian\cart_electric\shaders\electric_cart_and_trailer_destroyed.shader
 SetField ShaderProperties[0].Template shaders\shader_templates\_3_1_0_1_13_2_0_0_0_4_0_0.render_method_template
 RemoveBlockElements ShaderProperties[0].TextureConstants 0 *
@@ -2779,7 +2780,7 @@ SetField ShaderProperties[0].TextureConstants[1].FilterMode Trilinear
 SetField ShaderProperties[0].TextureConstants[1].ExternTextureMode UseBitmapAsNormal
 SetField ShaderProperties[0].TextureConstants[1].TextureTransformConstantIndex 1
 SetField ShaderProperties[0].TextureConstants[1].TextureTransformOverlayIndices.Integer 0
-SetBitmap change_color_map shaders\default_bitmaps\bitmaps\color_red.bitmap
+SetBitmap change_color_map objects\vehicles\human\civilian\cart_electric\bitmaps\cart_and_trailer_cc.bitmap
 SetField ShaderProperties[0].TextureConstants[2].BitmapIndex 0
 SetField ShaderProperties[0].TextureConstants[2].SamplerAddressMode.SamplerAddressUV 0
 SetField ShaderProperties[0].TextureConstants[2].FilterMode Anisotropic2Expensive
@@ -2800,6 +2801,7 @@ SetField ShaderProperties[0].TextureConstants[4].FilterMode Trilinear
 SetField ShaderProperties[0].TextureConstants[4].ExternTextureMode UseBitmapAsNormal
 SetField ShaderProperties[0].TextureConstants[4].TextureTransformConstantIndex 15
 SetField ShaderProperties[0].TextureConstants[4].TextureTransformOverlayIndices.Integer 0
+SetArgument change_color_map transform 1 1 0 0
 SaveTagChanges
 Exit
 
@@ -2821,7 +2823,7 @@ SetField ShaderProperties[0].TextureConstants[1].FilterMode Anisotropic2Expensiv
 SetField ShaderProperties[0].TextureConstants[1].ExternTextureMode UseBitmapAsNormal
 SetField ShaderProperties[0].TextureConstants[1].TextureTransformConstantIndex 1
 SetField ShaderProperties[0].TextureConstants[1].TextureTransformOverlayIndices.Integer 0
-SetBitmap change_color_map shaders\default_bitmaps\bitmaps\color_red.bitmap
+SetBitmap change_color_map objects\vehicles\human\civilian\cart_electric\bitmaps\cart_and_trailer_cc.bitmap
 SetField ShaderProperties[0].TextureConstants[2].BitmapIndex 0
 SetField ShaderProperties[0].TextureConstants[2].SamplerAddressMode.SamplerAddressUV 0
 SetField ShaderProperties[0].TextureConstants[2].FilterMode Anisotropic2Expensive
@@ -2842,6 +2844,7 @@ SetField ShaderProperties[0].TextureConstants[4].FilterMode Trilinear
 SetField ShaderProperties[0].TextureConstants[4].ExternTextureMode UseBitmapAsNormal
 SetField ShaderProperties[0].TextureConstants[4].TextureTransformConstantIndex 15
 SetField ShaderProperties[0].TextureConstants[4].TextureTransformOverlayIndices.Integer 0
+SetArgument change_color_map transform 1 1 0 0
 SaveTagChanges
 Exit
 
