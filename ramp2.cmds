@@ -1963,7 +1963,7 @@ Exit
 EditTag globals\globals.globals
 SetField PlayerControl[0].SprintFullSpeedMultiplier 0.623
 SetField PlayerControl[0].SprintPeggedMagnitude 0.85
-SetField PlayerControl[0].SprintPeggedAngularThreshold 10
+SetField PlayerControl[0].SprintPeggedAngularThreshold 60
 SetField PlayerInformation[0].RunForward 2.2
 SetField PlayerInformation[0].RunBackward 1.98
 SetField PlayerInformation[0].RunSideways 1.98
@@ -1974,7 +1974,7 @@ SetField PlayerInformation[0].SneakAcceleration 6.1
 
 SetField PlayerControl[1].SprintFullSpeedMultiplier 0.623
 SetField PlayerControl[1].SprintPeggedMagnitude 0.85
-SetField PlayerControl[1].SprintPeggedAngularThreshold 10
+SetField PlayerControl[1].SprintPeggedAngularThreshold 60
 SetField PlayerInformation[1].RunForward 2.2
 SetField PlayerInformation[1].RunBackward 1.98
 SetField PlayerInformation[1].RunSideways 1.98
