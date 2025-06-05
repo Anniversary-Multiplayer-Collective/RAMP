@@ -2708,25 +2708,25 @@ SaveTagChanges
 Exit
 
 EditTag objects\props\fifthspartan\flog.shader
-SetField Materials[1].RenderMethod objects\props\fifthspartan\rampegg.bitmap
+SetField ShaderProperties[0].TextureConstants[0].Bitmap objects\props\fifthspartan\rampegg.bitmap
 SaveTagChanges
 Exit
 
 EditTag objects\props\fifthspartan\dank.shader
-SetField Materials[1].RenderMethod objects\props\fifthspartan\dank.bitmap
+SetField ShaderProperties[0].TextureConstants[0].Bitmap objects\props\fifthspartan\dank.bitmap
 SaveTagChanges
 Exit
 
 EditTag objects\props\fifthspartan\mtndewit.shader
-SetField Materials[1].RenderMethod objects\props\fifthspartan\mtndewit.bitmap
+SetField ShaderProperties[0].TextureConstants[0].Bitmap objects\props\fifthspartan\mtndewit.bitmap
 SaveTagChanges
 Exit
 
 EditTag objects\props\fifthspartan\minelelol.shader
-SetField Materials[1].RenderMethod objects\props\fifthspartan\minelelol.bitmap
+SetField ShaderProperties[0].TextureConstants[0].Bitmap objects\props\fifthspartan\minelelol.bitmap
 SaveTagChanges
 Exit
-Exit
+
 EditTag objects\props\fifthspartan\5thspartan\5thspartan.model
 UpdateModelRegions 0 random
 SaveTagChanges
