@@ -1,0 +1,111 @@
+
+Edittag levels\multi\dlc\dlc_slayer\dlc_slayer.scenario
+ImportMapVariant mapfile workingdir\DefaultVariants\Anchor9NEW
+savetagchanges
+exit
+
+Edittag levels\dlc\cex_beaver_creek\cex_beaver_creek.scenario
+ImportMapVariant mapfile workingdir\DefaultVariants\BattleCanyonNEW
+savetagchanges
+exit
+
+Edittag levels\firefight\ff50_park\ff50_park.scenario
+ImportMapVariant mapfile workingdir\DefaultVariants\BeachheadNEW
+savetagchanges
+exit
+
+Edittag levels\multi\50_panopticon\50_panopticon.scenario
+ImportMapVariant mapfile workingdir\DefaultVariants\BoardwalkNEW
+savetagchanges
+exit
+
+Edittag levels\dlc\cex_headlong\cex_headlong.scenario
+ImportMapVariant mapfile workingdir\DefaultVariants\BreakneckNEW
+savetagchanges
+exit
+
+Edittag levels\multi\dlc\dlc_invasion\dlc_invasion.scenario
+ImportMapVariant mapfile workingdir\DefaultVariants\BreakpointNEW
+savetagchanges
+exit
+
+Edittag levels\dlc\condemned\condemned.scenario
+ImportMapVariant mapfile workingdir\DefaultVariants\CondemnedNEW
+savetagchanges
+exit
+
+Edittag levels\firefight\ff45_corvette\ff45_corvette.scenario
+ImportMapVariant mapfile workingdir\DefaultVariants\Corvette
+savetagchanges
+exit
+
+Edittag levels\multi\45_launch_station\45_launch_station.scenario
+ImportMapVariant mapfile workingdir\DefaultVariants\CountdownNEW
+savetagchanges
+exit
+
+Edittag levels\firefight\ff20_courtyard\ff20_courtyard.scenario
+ImportMapVariant mapfile workingdir\DefaultVariants\Courtyard
+savetagchanges
+exit
+
+Edittag levels\firefight\ff60_icecave\ff60_icecave.scenario
+ImportMapVariant mapfile workingdir\DefaultVariants\Glacier
+savetagchanges
+exit
+
+Edittag levels\dlc\cex_hangemhigh\cex_hangemhigh.scenario
+ImportMapVariant mapfile workingdir\DefaultVariants\HighNoonNEW
+savetagchanges
+exit
+
+
+Edittag levels\firefight\ff70_holdout\ff70_holdout.scenario
+ImportMapVariant mapfile workingdir\DefaultVariants\Holdout
+savetagchanges
+exit
+
+Edittag levels\dlc\cex_ff_halo\cex_ff_halo.scenario
+ImportMapVariant mapfile workingdir\DefaultVariants\InstallationNEW
+savetagchanges
+exit
+
+Edittag levels\firefight\ff60_airview\ff60_airview.scenario
+ImportMapVariant mapfile workingdir\DefaultVariants\Outpost
+savetagchanges
+exit
+
+Edittag levels\firefight\ff10_prototype\ff10_prototype.scenario
+ImportMapVariant mapfile workingdir\DefaultVariants\Overlook
+savetagchanges
+exit
+
+Edittag levels\multi\30_settlement\30_settlement.scenario
+ImportMapVariant mapfile workingdir\DefaultVariants\PowerhouseNEW
+savetagchanges
+exit
+
+Edittag levels\multi\52_ivory_tower\52_ivory_tower.scenario
+ImportMapVariant mapfile workingdir\DefaultVariants\ReflectionNEW
+savetagchanges
+exit
+
+Edittag levels\multi\20_sword_slayer\20_sword_slayer.scenario
+ImportMapVariant mapfile workingdir\DefaultVariants\SwordBaseNEW
+savetagchanges
+exit
+
+Edittag levels\multi\dlc\dlc_medium\dlc_medium.scenario
+ImportMapVariant mapfile workingdir\DefaultVariants\TempestNEW
+savetagchanges
+exit
+
+Edittag levels\dlc\ff_unearthed\ff_unearthed.scenario
+ImportMapVariant mapfile workingdir\DefaultVariants\UnearthedNEW
+savetagchanges
+exit
+
+Edittag levels\firefight\ff30_waterfront\ff30_waterfront.scenario
+ImportMapVariant mapfile workingdir\DefaultVariants\WaterfrontNEW
+savetagchanges
+exit

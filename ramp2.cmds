@@ -3746,8 +3746,8 @@ exit
 echo == MOA JOCKEY ==
 RunCommands "workingdir\cmds\Moa.cmds"
 
-echo == FF Map Variants ==
-RunCommands "workingdir\cmds\FFMapVariants.cmds"
+echo == Map Variants ==
+RunCommands "workingdir\cmds\MapVariants.cmds"
 
 EditTag multiplayer\forge_globals.forge_globals_definition
 RemoveBlockElements Palette 502 12
