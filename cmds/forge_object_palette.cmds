@@ -208,7 +208,7 @@ exit
 AddForgeItem "HEALTH PACK" 66 objects\powerups\health_pack\health_pack_large.equipment
 
 AddForgeItem "MAGNUM AMMO" 69 objects\powerups\pistol_ammo\pistol_ammo.equipment
-AddForgeItem "SPNKR AMMO" 69 objects\powerups\rocket_launcher_ammo\rocket_launcher_ammo.equipment
+AddForgeItem "ROCKET LAUNCHER AMMO" 69 objects\powerups\rocket_launcher_ammo\rocket_launcher_ammo.equipment
 AddForgeItem "SHOTGUN AMMO" 69 objects\powerups\shotgun_ammo\shotgun_ammo.equipment
 AddForgeItem "SMG AMMO" 69 objects\powerups\smg_ammo\smg_ammo.equipment
 AddForgeItem "SNIPER AMMO" 69 objects\powerups\sniper_rifle_ammo\sniper_rifle_ammo.equipment
