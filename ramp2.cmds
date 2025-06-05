@@ -2688,21 +2688,21 @@ EditTag objects\props\fifthspartan\5thspartan\5thspartan.render_model
 AddBlockElements Materials
 SetField Materials[1].RenderMethod objects\props\fifthspartan\flog.shader
 AddBlockElements Materials
-SetField Materials[1].RenderMethod objects\props\fifthspartan\dank.shader
+SetField Materials[2].RenderMethod objects\props\fifthspartan\dank.shader
 AddBlockElements Materials
-SetField Materials[1].RenderMethod objects\props\fifthspartan\mtndewit.shader
+SetField Materials[3].RenderMethod objects\props\fifthspartan\mtndewit.shader
 AddBlockElements Materials
-SetField Materials[1].RenderMethod objects\props\fifthspartan\minelelol.shader
+SetField Materials[4].RenderMethod objects\props\fifthspartan\minelelol.shader
 AddBlockElements Materials
-SetField Materials[1].RenderMethod objects\characters\masterchief\shaders\visor.shader
+SetField Materials[5].RenderMethod objects\characters\masterchief\shaders\visor.shader
 AddBlockElements Materials
-SetField Materials[1].RenderMethod objects\characters\masterchief\shaders\masterchief_rubber.shader
+SetField Materials[6].RenderMethod objects\characters\masterchief\shaders\masterchief_rubber.shader
 AddBlockElements Materials
-SetField Materials[1].RenderMethod objects\characters\masterchief\shaders\masterchief.shader
+SetField Materials[7].RenderMethod objects\characters\masterchief\shaders\masterchief.shader
 AddBlockElements Materials
-SetField Materials[1].RenderMethod objects\characters\masterchief\shaders\lights_sp.shader
+SetField Materials[8].RenderMethod objects\characters\masterchief\shaders\lights_sp.shader
 AddBlockElements Materials
-SetField Materials[1].RenderMethod objects\characters\masterchief\shaders\masterchief_black.shader
+SetField Materials[9].RenderMethod objects\characters\masterchief\shaders\masterchief_black.shader
 ReplaceRenderGeometry workingdir\models\rampegg.dae
 SaveTagChanges
 Exit
