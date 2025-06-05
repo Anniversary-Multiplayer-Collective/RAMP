@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 4.4.3 commit date:2025-04-29, commit time:14:09, hash:802179c51ccc</authoring_tool>
     </contributor>
-    <created>2025-06-04T23:42:45</created>
-    <modified>2025-06-04T23:42:45</modified>
+    <created>2025-06-05T00:20:20</created>
+    <modified>2025-06-05T00:20:20</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -254,7 +254,7 @@
         </technique>
       </profile_COMMON>
     </effect>
-    <effect id="rampegg-effect">
+    <effect id="flog-effect">
       <profile_COMMON>
         <newparam sid="Pii_TEERUNAA_body_png-surface">
           <surface type="2D">
@@ -356,8 +356,8 @@
     <material id="dank-material" name="dank">
       <instance_effect url="#dank-effect"/>
     </material>
-    <material id="rampegg-material" name="rampegg">
-      <instance_effect url="#rampegg-effect"/>
+    <material id="flog-material" name="flog">
+      <instance_effect url="#flog-effect"/>
     </material>
     <material id="fifthspartan-material" name="fifthspartan">
       <instance_effect url="#fifthspartan-effect"/>
@@ -560,7 +560,7 @@
         <vertices id="default_flog-mesh-vertices">
           <input semantic="POSITION" source="#default_flog-mesh-positions"/>
         </vertices>
-        <triangles material="rampegg-material" count="315">
+        <triangles material="flog-material" count="315">
           <input semantic="VERTEX" source="#default_flog-mesh-vertices" offset="0"/>
           <input semantic="NORMAL" source="#default_flog-mesh-normals" offset="1"/>
           <input semantic="TEXCOORD" source="#default_flog-mesh-map-0" offset="2" set="0"/>
@@ -841,7 +841,7 @@
             <skeleton>#Armature_implied_root_node</skeleton>
             <bind_material>
               <technique_common>
-                <instance_material symbol="rampegg-material" target="#rampegg-material">
+                <instance_material symbol="flog-material" target="#flog-material">
                   <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
                 </instance_material>
               </technique_common>
