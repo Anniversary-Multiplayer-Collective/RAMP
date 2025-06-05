@@ -944,7 +944,10 @@ EditTag objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift_grate.shad
 SetArgument specular_coefficient 0.3
 SaveTagChanges
 Exit
-DuplicateTag objects\props\fifthspartan\fifthspartan.shader objects\props\fifthspartan\rampegg
+DuplicateTag objects\props\fifthspartan\fifthspartan.shader objects\props\fifthspartan\flog
+DuplicateTag objects\props\fifthspartan\fifthspartan.shader objects\props\fifthspartan\dank
+DuplicateTag objects\props\fifthspartan\fifthspartan.shader objects\props\fifthspartan\mtndewit
+DuplicateTag objects\props\fifthspartan\fifthspartan.shader objects\props\fifthspartan\minelelol
 
 EditTag objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift.render_model
 SetField Materials[0].RenderMethod objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift_grate.shader
@@ -2683,16 +2686,47 @@ Exit
 echo == Easter Egg ==
 EditTag objects\props\fifthspartan\5thspartan\5thspartan.render_model
 AddBlockElements Materials
-SetField Materials[1].RenderMethod objects\props\fifthspartan\rampegg.shader
+SetField Materials[1].RenderMethod objects\props\fifthspartan\flog.shader
+AddBlockElements Materials
+SetField Materials[1].RenderMethod objects\props\fifthspartan\dank.shader
+AddBlockElements Materials
+SetField Materials[1].RenderMethod objects\props\fifthspartan\mtndewit.shader
+AddBlockElements Materials
+SetField Materials[1].RenderMethod objects\props\fifthspartan\minelelol.shader
+AddBlockElements Materials
+SetField Materials[1].RenderMethod objects\characters\masterchief\shaders\visor.shader
+AddBlockElements Materials
+SetField Materials[1].RenderMethod objects\characters\masterchief\shaders\masterchief_rubber.shader
+AddBlockElements Materials
+SetField Materials[1].RenderMethod objects\characters\masterchief\shaders\masterchief.shader
+AddBlockElements Materials
+SetField Materials[1].RenderMethod objects\characters\masterchief\shaders\lights_sp.shader
+AddBlockElements Materials
+SetField Materials[1].RenderMethod objects\characters\masterchief\shaders\masterchief_black.shader
 ReplaceRenderGeometry workingdir\models\rampegg.dae
 SaveTagChanges
 Exit
 
-EditTag objects\props\fifthspartan\rampegg.shader
+EditTag objects\props\fifthspartan\flog.shader
 SetField Materials[1].RenderMethod objects\props\fifthspartan\rampegg.bitmap
 SaveTagChanges
 Exit
 
+EditTag objects\props\fifthspartan\dank.shader
+SetField Materials[1].RenderMethod objects\props\fifthspartan\dank.bitmap
+SaveTagChanges
+Exit
+
+EditTag objects\props\fifthspartan\mtndewit.shader
+SetField Materials[1].RenderMethod objects\props\fifthspartan\mtndewit.bitmap
+SaveTagChanges
+Exit
+
+EditTag objects\props\fifthspartan\minelelol.shader
+SetField Materials[1].RenderMethod objects\props\fifthspartan\minelelol.bitmap
+SaveTagChanges
+Exit
+Exit
 EditTag objects\props\fifthspartan\5thspartan\5thspartan.model
 UpdateModelRegions 0 random
 SaveTagChanges
