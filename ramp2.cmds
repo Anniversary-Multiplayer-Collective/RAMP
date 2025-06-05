@@ -944,6 +944,7 @@ EditTag objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift_grate.shad
 SetArgument specular_coefficient 0.3
 SaveTagChanges
 Exit
+DuplicateTag objects\props\fifthspartan\fifthspartan.shader objects\props\fifthspartan\rampegg
 
 EditTag objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift.render_model
 SetField Materials[0].RenderMethod objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift_grate.shader
@@ -2676,6 +2677,24 @@ SetField HudWidgets[0].BitmapWidgets[2].RuntimeWidgetIndex 2
 SetField HudWidgets[0].BitmapWidgets[2].PlacementData[0].Scale -0.1 -0.1
 SetField HudWidgets[0].BitmapWidgets[2].AnimationData[0].Active.Flags PlayReverse
 SetField HudWidgets[0].BitmapWidgets[2].Bitmap dw3\r3ach\ui\chud\bitmaps\scope_plasma_launcher\scope_bits.bitmap
+SaveTagChanges
+Exit
+
+echo == Easter Egg ==
+EditTag objects\props\fifthspartan\5thspartan\5thspartan.render_model
+AddBlockElements Materials
+SetField Materials[1].RenderMethod objects\props\fifthspartan\rampegg.shader
+ReplaceRenderGeometry workingdir\models\rampegg.dae
+SaveTagChanges
+Exit
+
+EditTag objects\props\fifthspartan\rampegg.shader
+SetField Materials[1].RenderMethod objects\props\fifthspartan\rampegg.bitmap
+SaveTagChanges
+Exit
+
+EditTag objects\props\fifthspartan\5thspartan\5thspartan.model
+UpdateModelRegions 0 random
 SaveTagChanges
 Exit
 
