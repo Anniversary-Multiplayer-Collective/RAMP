@@ -748,6 +748,7 @@ PortTag objects\cex\cex_headlong\forge\ff_door\ff_door.crate
 PortInstancedGeometryObject 0 2383 objects\ramp\shared\superintendant_evacuate_sign\superintendant_evacuate_sign
 PortInstancedGeometryObject 0 173 objects\ramp\shared\overpass\overpass
 PortInstancedGeometryObject 0 1813 objects\ramp\shared\street\street
+PortInstancedGeometryObject 0 897 objects\ramp\shared\street_wide_half\street_wide_half
 PortInstancedGeometryObject 0 1672 objects\ramp\shared\street_light_a\street_light_a
 PortInstancedGeometryObject 0 1907 objects\ramp\shared\street_ramp\street_ramp
 PortInstancedGeometryObject 0 1888 objects\ramp\shared\tree_pot_destroyed\tree_pot_destroyed

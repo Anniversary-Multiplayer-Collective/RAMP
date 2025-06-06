@@ -2262,6 +2262,7 @@ AddForgeItem "BANNER, GOLDEN HOG" 99 objects\ramp\shared\stakugoldenwarthog\stak
 
 AddForgeItem "STREET" 99 objects\ramp\shared\street\street.scenery
 AddForgeItem "STREET, RAMP" 99 objects\ramp\shared\street_ramp\street_ramp.scenery
+AddForgeItem "STREET WIDE, HALF" 99 objects\ramp\shared\street_wide_half\street_wide_half.scenery
 AddForgeItem "STREET, OVERPASS" 99 objects\ramp\shared\overpass\overpass.scenery
 AddForgeItem "STREET LIGHT, TALL" 99 objects\ramp\shared\street_light_a\street_light_a.scenery
 AddForgeItem "STREET LIGHT, SLIM" 99 objects\ramp\shared\street_light_b\street_light_b.scenery

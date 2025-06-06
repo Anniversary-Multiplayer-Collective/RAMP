@@ -3749,6 +3749,56 @@ RunCommands "workingdir\cmds\Moa.cmds"
 echo == Map Variants ==
 RunCommands "workingdir\cmds\MapVariants.cmds"
 
+EditMap ff50_park.map
+SetField Blf.Scenario.Descriptions[0].Name "Fight for prime real estate on the shores of New Alexandria. 6-16 players"
+SaveMapChanges
+Exit
+
+EditMap ff45_corvette.map
+SetField Blf.Scenario.Descriptions[0].Name "Fight for air superiority inside the belly of the beast. 4-8 players"
+SaveMapChanges
+Exit
+
+EditMap ff20_courtyard.map
+SetField Blf.Scenario.Descriptions[0].Name "Fight to secure the fortified ONI plaza. 2-8 players"
+SaveMapChanges
+Exit
+
+EditMap ff60_icecave.map
+SetField Blf.Scenario.Descriptions[0].Name "Fight for salvation deep down in the underground caves. 4-12 players"
+SaveMapChanges
+Exit
+
+EditMap ff70_holdout.map
+SetField Blf.Scenario.Descriptions[0].Name "Fight for your life in the UNSC ship graveyard. 2-8 players"
+SaveMapChanges
+Exit
+
+EditMap cex_ff_halo.map
+SetField Blf.Scenario.Descriptions[0].Name "Fight for survival around mysterious Forerunner structures on Installation 04. 2-8 players"
+SaveMapChanges
+Exit
+
+EditMap ff60_airview.map
+SetField Blf.Scenario.Descriptions[0].Name "Fight for survival amidst the smoldering ruins. 2-8 players"
+SaveMapChanges
+Exit
+
+EditMap ff10_prototype.map
+SetField Blf.Scenario.Descriptions[0].Name "Fight for fertile ground on a deserted farmyard. 2-8 players"
+SaveMapChanges
+Exit
+
+EditMap ff_unearthed.map
+SetField Blf.Scenario.Descriptions[0].Name "Fight for survival amongst the remains of a deserted mining facility. 4-12 players"
+SaveMapChanges
+Exit
+
+EditMap ff30_waterfront.map
+SetField Blf.Scenario.Descriptions[0].Name "Fight for vital infrastructure that fuels the war effort. 2-8 players"
+SaveMapChanges
+Exit
+
 EditTag multiplayer\forge_globals.forge_globals_definition
 RemoveBlockElements Palette 502 12
 SaveTagChanges
