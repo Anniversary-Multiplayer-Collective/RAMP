@@ -4204,7 +4204,7 @@ savetagchanges
 exit
 
 # echo ==Rebalance BR ROF==
-edittag
+edittag objects\weapons\rifle\battle_rifle_rof\battle_rifle_rof.weapon
 SetField Barrels[0].AccuracyPenalties.JumpPenalty 0
 savetagchanges
 exit
