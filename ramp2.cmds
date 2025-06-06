@@ -948,6 +948,7 @@ DuplicateTag objects\props\fifthspartan\fifthspartan.shader objects\props\fifths
 DuplicateTag objects\props\fifthspartan\fifthspartan.shader objects\props\fifthspartan\dank
 DuplicateTag objects\props\fifthspartan\fifthspartan.shader objects\props\fifthspartan\mtndewit
 DuplicateTag objects\props\fifthspartan\fifthspartan.shader objects\props\fifthspartan\minelelol
+DuplicateTag objects\props\fifthspartan\fifthspartan.shader objects\props\fifthspartan\zekken
 
 EditTag objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift.render_model
 SetField Materials[0].RenderMethod objects\cex\cex_beaver_creek\crates\gravity_lift\gravity_lift_grate.shader
@@ -2703,6 +2704,8 @@ AddBlockElements Materials
 SetField Materials[8].RenderMethod objects\characters\masterchief\shaders\lights_sp.shader
 AddBlockElements Materials
 SetField Materials[9].RenderMethod objects\characters\masterchief\shaders\masterchief_black.shader
+AddBlockElements Materials
+SetField Materials[10].RenderMethod objects\props\fifthspartan\zekken.shader
 ReplaceRenderGeometry workingdir\models\rampegg.dae
 SaveTagChanges
 Exit
@@ -2724,6 +2727,11 @@ Exit
 
 EditTag objects\props\fifthspartan\minelelol.shader
 SetField ShaderProperties[0].TextureConstants[0].Bitmap objects\props\fifthspartan\minelelol.bitmap
+SaveTagChanges
+Exit
+
+EditTag objects\props\fifthspartan\zekken.shader
+SetField ShaderProperties[0].TextureConstants[0].Bitmap objects\props\fifthspartan\zekken.bitmap
 SaveTagChanges
 Exit
 
