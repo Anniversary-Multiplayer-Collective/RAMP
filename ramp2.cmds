@@ -4137,6 +4137,15 @@ setfield ReactiveArmor[0].ActivationEffect objects\equipment\armor_lockup\fx\act
 savetagchanges
 exit
 
+# echo ==hologram balance==
+
+edittag objects\equipment\hologram_equipment\hologram_equipment.equipment
+setfield UseDuration 3
+setfield NumberOfUses 3
+savetagchanges
+exit
+
+
 # WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARRRRRRRRRRRRNNNNNNNNNNNNNNNIIIIIIIIIIIIIIIIIIIIIIIIIIIIINNNNNNNNNGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
 # MAKE SURE THIS SCRIPT IS AT THE VERY LAST LINE OTHERWISE THE WEAPONS WILL BREAK
 # LOOKING MY EYES ON YOU DANK!!!!!!
