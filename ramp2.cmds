@@ -1320,11 +1320,11 @@ SetField MultiplayerObject[0].BoundaryShaders[0].OpaqueShader objects\multi\shad
 SaveTagChanges
 Exit
 
-echo ==Apply noble six voice pak==
+echo ==Apply noble six voice pak==  -Note Removing until fixed
 
-OpenModPackage "workingdir\paks\Noble_Six_Voice_Pack.pak"
-ApplyModPackage
-ExitModPackage
+#OpenModPackage "workingdir\paks\Noble_Six_Voice_Pack.pak"
+#ApplyModPackage
+#ExitModPackage
 
 echo ==Apply 1999 emotes pak==
 OpenModPackage "workingdir\paks\1999_Emotes v1_5 CUSTOM.pak"
