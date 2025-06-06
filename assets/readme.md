@@ -1,14 +1,31 @@
 # Reach Anniversary Multiplayer
-Reach Anniversary Multiplayer (RAMP) is a re-imagining of Halo: Reach's multiplayer with new content.
 
-Welcome to RAMP, a community effort to transform Eldewrito into Halo Reach while keeping ED main features and adding new ones. Featuring extensive bug fixes, quality of life improvements, and plenty of new content to play with. We hope you enjoy this labor of love, we'll see you starside.
+Reach Anniversary Multiplayer (RAMP) is a community-driven project that reimagines ElDewrito as a full Halo: Reach multiplayer experience—preserving core ED features while introducing a wide array of enhancements and new content.
+
+- Key features include:
+
+- Extensive bug fixes and quality-of-life improvements
+
+- Every multiplayer map from Halo: Reach
+
+- Every weapon faithfully recreated
+
+- Complete Reach-era customization, including new armor pieces
+
+- Over 1,000 new Forge objects
+
+- New vehicles and weapons
+
+- Firefight maps adapted for multiplayer gameplay
+
+This is a true labor of love, built by dedicated fans for the community. We hope you enjoy the experience.
 
 ## Contributors & Credits:
-* Zekken (Team Lead)
-* Dank (Core Contributor & Original RAMP Creator)
+* Dank (Team Lead & Original RAMP Creator)
+* Zekken (Team Lead 2 & Revivalist)
 * MtnDewIt (Tagtool Maintainer & Bug Fixer)
-* Minelelol (Core Contributor & Animator)
 * TwistedFlog (Core Contributor, Modeler, Animator & Tagtool Maintainer)
+* Minelelol (Core Contributor & Animator)
 * Dirkkane (Minor Contributor)
 * NoShotz (Original RAMP Creator)
 * IlikeMyName (Minor Contributor)
@@ -155,7 +172,7 @@ Welcome to RAMP, a community effort to transform Eldewrito into Halo Reach while
 Known Issues:
 * Reach maps are known to be a little more performance heavy. (Firefight maps even more so.)
 * Firefight maps have a issue where geometry pops in and out, As noted in the change log, This will be fixed in ED 0.7.2
-* Spire has a mopps issue where if you melee the top of the spire it crashes the game. It will not be included in voting due to this issue.
-* Armor abilities are in the pak, But Armor Lock and Drop shield has issues on Dedicated servers
+* Spire has a mopps issue where if you melee the top of the spire it crashes the game. It will not be included in the RAMP CORE server due to this issue.
+* Reach Drop Shield exists in RAMP but have issues syncing over a dedicated server.
 
 
