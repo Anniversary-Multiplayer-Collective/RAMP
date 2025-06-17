@@ -23,7 +23,7 @@ Look into changing starting magnum clip count (scenario player starting profile)
 Look into increasing announcer sound volume
 
 Set objects to phased by default to prevent lag from spawning big items
-Add dual wield animations?
+Add boarding animations for mongoose
 Several objects need to be set to phased such as kill volumes, Camera, Respawn Zone, ect.
 Increase the projectile speed for certain hitscan weapons (To combat ED buggy network)
 
