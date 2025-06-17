@@ -41,6 +41,8 @@ This is a true labor of love, built by dedicated fans for the community. We hope
 - Potterhalo (Downporting LMG Tags to H3 Engine)
 
 
+## v0.95 Changelog
+
 
 
 ## v0.94 Changelog
