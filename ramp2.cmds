@@ -926,6 +926,16 @@ SetField Animations[0].AnimationData.AnimationType Replacement
 savetagchanges
 exit
 
+# Forerunner wheel animation fixup
+EditTag levels\dlc\cex_ff_halo\scenery\cannonengine2\cannonengine2.model_animation_graph
+SetField Animations[0].AnimationData.AnimationType Replacement
+SaveTagChanges
+Exit
+
+EditTag levels\dlc\cex_beaver_creek\scenery\frunner_wheel\frunner_wheel.model_animation_graph
+SetField Animations[0].AnimationData.AnimationType Replacement
+SaveTagChanges
+Exit
 
 echo ==Remove damage from ported models==
 EditTag objects\gear\human\military\camping_stool_mp\camping_stool_mp.model
