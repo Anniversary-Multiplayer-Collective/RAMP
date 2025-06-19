@@ -764,6 +764,11 @@ ForEach model contains: objects\ramp\shared\tree_pot_destroyed\tree_pot_destroye
 ForEach model contains: objects\ramp\shared\street_light_a\street_light_a SetField Materials[0].GlobalMaterialIndex 55
 # ForEach model contains: objects\ramp\shared\stakugoldenwarthog\stakugoldenwarthog SetField Materials[0].GlobalMaterialIndex 55
 
+EditTag objects\ramp\shared\tree_pot_destroyed\tree_pot_destroyed.render_model
+SetField Geometry.Meshes[0].Parts[2].FlagsNew PreventBackfaceCulling
+SaveTagChanges
+Exit
+
 # GOLD WARTHOG BANNER
 ImportCollisionGeometry mopp "workingdir\models\golden_warthog.dae" objects\ramp\shared\stakugoldenwarthog_fixup\stakugoldenwarthog_fixup
 edittag objects\ramp\shared\stakugoldenwarthog_fixup\stakugoldenwarthog_fixup.collision_model

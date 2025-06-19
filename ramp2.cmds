@@ -1417,11 +1417,11 @@ SetField MultiplayerObject[0].DefaultAbandonTime 60
 SaveTagChanges
 Exit
 
-echo ==Switch needler projectile==
-EditTag objects\weapons\pistol\needler\needler.weapon
-SetField Barrels[0].Projectile objects\weapons\pistol\needler\projectiles\needler_shard\needler_shard.projectile
-SaveTagChanges
-Exit
+# echo ==Switch needler projectile==
+# EditTag objects\weapons\pistol\needler\needler.weapon
+# SetField Barrels[0].Projectile objects\weapons\pistol\needler\projectiles\needler_shard\needler_shard.projectile
+# SaveTagChanges
+# Exit
 
 
 RunCommands "workingdir\cmds\worldbounds.cmds"
@@ -2844,7 +2844,8 @@ setfield ChangeColors[0].InitialPermutations[0].Weight 0.1
 savetagchanges
 exit
 
-#Sabre
+# Sabre
+DuplicateTag objects\vehicles\human\sabre\shaders\sabre_frame_metal.shader objects\vehicles\human\sabre\shaders\sabre_frame_metal_mp
 EditTag objects\vehicles\human\sabre\shaders\sabre_frame_metal.shader
 AddBlockElements ShaderProperties[0].Functions
 setfield ShaderProperties[0].Functions[1].Function.Data 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -2855,6 +2856,7 @@ SetArgument fresnel_color 0.09137256 0.07882354 0.06313726 1
 SaveTagChanges
 Exit
 
+DuplicateTag objects\vehicles\human\sabre\shaders\sabre_frame_metal_damage.shader objects\vehicles\human\sabre\shaders\sabre_frame_metal_damage_mp
 EditTag objects\vehicles\human\sabre\shaders\sabre_frame_metal_damage.shader
 AddBlockElements ShaderProperties[0].Functions
 setfield ShaderProperties[0].Functions[1].Function.Data 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -2862,6 +2864,12 @@ setfield ShaderProperties[0].Functions[1].Type ChangeColorPrimary
 AddFunction albedo_color Real 1
 SetArgument albedo_blend 1
 SetArgument fresnel_color 0.09137256 0.07882354 0.06313726 1
+SaveTagChanges
+Exit
+
+EditTag objects\props\human\unsc\sabre_mp\sabre_mp.render_model
+SetField Materials[9].RenderMethod objects\vehicles\human\sabre\shaders\sabre_frame_metal_mp.shader
+SetField Materials[10].RenderMethod objects\vehicles\human\sabre\shaders\sabre_frame_metal_damage_mp.shader
 SaveTagChanges
 Exit
 
@@ -3720,12 +3728,12 @@ setfield InstancedGeometryInstances[983].Flags RenderOnly,MiscoloredBsp
 savetagchanges
 exit
 
-echo == Fix Countdown sliding issue ==
-edittag levels\multi\45_launch_station\45_launch_station.scenario_structure_bsp
-setfield InstancedGeometryInstances[1282].Matrix 0.7071068 -0.7071067 8.742276E-08 0.7071067 0.7071068 8.7422784E-08 -1.2363446E-07 -2.842171E-14 -1 -144.45734 2.4000063 6.085458
-setfield InstancedGeometryInstances[1284].Matrix 0.7071068 -0.7071067 8.742276E-08 0.7071067 0.7071068 8.7422784E-08 -1.2363446E-07 -2.842171E-14 -1 -146.27193 4.2146044 6.2802134
-savetagchanges
-exit
+# echo == Fix Countdown sliding issue ==
+# edittag levels\multi\45_launch_station\45_launch_station.scenario_structure_bsp
+# setfield InstancedGeometryInstances[1282].Matrix 0.7071068 -0.7071067 8.742276E-08 0.7071067 0.7071068 8.7422784E-08 -1.2363446E-07 -2.842171E-14 -1 -144.45734 2.4000063 6.085458
+# setfield InstancedGeometryInstances[1284].Matrix 0.7071068 -0.7071067 8.742276E-08 0.7071067 0.7071068 8.7422784E-08 -1.2363446E-07 -2.842171E-14 -1 -146.27193 4.2146044 6.2802134
+# savetagchanges
+# exit
 
 echo == Increase LOD effects on Corvette Projectile (make it purple) ==
 

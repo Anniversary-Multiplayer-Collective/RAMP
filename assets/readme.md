@@ -42,8 +42,13 @@ This is a true labor of love, built by dedicated fans for the community. We hope
 
 
 ## v0.95 Changelog
-
-
+- Fixed Countdown Sabre being black
+- Fixed Ridgeline easter egg not spawning
+- Fixed Needler projectile causing major FPS drop for everyone when you shoot it at water
+- Needler supercombine now only takes 5 needles shard
+- Buffed LMG damage
+- Adjusted specular tints for certain forge objects
+- Adjusted maps default variant
 
 ## v0.94 Changelog
 - We're no longer called "RAMP 2" now, Just good ol' RAMP

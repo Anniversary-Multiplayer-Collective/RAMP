@@ -107,6 +107,11 @@ SetArgument albedo_color 30 30 30 30
 SaveTagChanges
 Exit
 
+EditTag levels\solo\m50\shaders\glass\glass_horizontal_bar_a.shader
+SetField ShaderProperties[0].BlendMode Additive
+SaveTagChanges
+Exit
+
 # echo ==Shader fixes for Boardwalk, Beachhead, Reflection City SkyBox==
 EditTag levels\solo\m50\shaders\paneling\metal_bldg_white_a.shader
 SetArgument specular_coefficient 0

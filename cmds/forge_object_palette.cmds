@@ -799,7 +799,11 @@ AddForgeItem "CRATE, ONI, SMALL [MP]" 89 objects\ca_dev\dlc_preserve\crates\oni_
 AddForgeItem "CRATE, SPACE, SMALL" 89 objects\ca_dev\dlc_condemned\crates\ca_condemned_crate_physic\ca_condemned_crate_physic.crate
 AddForgeItem "CRATE, FORERUNNER, LARGE" 89 objects\cex\cex_prisoner\forge\ff_prisoner_forecrate_big\ff_prisoner_forecrate_big.crate
 AddForgeItem "CRATE, FORERUNNER, SMALL" 89 objects\cex\cex_prisoner\forge\ff_prisoner_forecrate_small\ff_prisoner_forecrate_small.crate
-AddForgeItem "CRATE, SINGLE [REACH]" 89 objects\cex\cex_timberland\crate_packing_easter\crate_packing_easter.crate
+EditTag objects\cex\cex_timberland\crate_packing_easter\crate_packing_easter.model
+SetField NewDamageInfo[0].DamageSections[0].InstantResponses[1].Flags None
+SaveTagChanges
+Exit
+AddForgeItem "CRATE, SINGLE, EASTER EGG" 89 objects\cex\cex_timberland\crate_packing_easter\crate_packing_easter.crate
 AddForgeItem "CRATE, SINGLE, LID" 89 objects\gear\human\military\crate_packing_lid\crate_packing_lid.crate
 AddForgeItem "INDUSTRIAL CRATE" 89 objects\gear\human\industrial\crate_tech_semi_closed\crate_tech_semi_closed.crate
 
@@ -1762,7 +1766,32 @@ AddForgeItem "SOCCER BALL [REACH]" 94 objects\levels\shared\soccer_ball\soccer_b
 AddForgeItem "WEAPONS HOLDER [REACH]" 94 objects\props\covenant\cov_sword_holder\cov_sword_holder.crate
 AddForgeItem "KILL BALL [REACH]" 94 objects\levels\shared\damage_sphere\damage_sphere.crate
 
-# OFFICE [95] -------------------------------------------------------------------------------------------------------------
+# FURNITURE AND DECORATION [95] -------------------------------------------------------------------------------------------------------------
+EditTag objects\props\human\oni\shaders\white_plastic_oni.shader
+SetArgument specular_coefficient 0
+SaveTagChanges
+Exit
+
+EditTag objects\props\human\oni\shaders\white_plastic_seam_oni.shader
+SetArgument specular_coefficient 0
+SaveTagChanges
+Exit
+
+EditTag objects\props\human\pioneer\furniture\shaders\clean_stainless_steel.shader
+SetArgument specular_coefficient 0.5
+SaveTagChanges
+Exit
+
+EditTag levels\solo\m50\shaders\natural\wood_floor_light.shader
+SetArgument specular_coefficient 0.5
+SaveTagChanges
+Exit
+
+EditTag objects\props\human\oni\furniture\workstation_short\shaders\oni_glass_tinted_blue.shader
+SetField ShaderProperties[0].BlendMode Additive
+SaveTagChanges
+Exit
+
 AddForgeItem "CHAIR, FOLDING" 95 objects\props\human\urban\chair_folding\h_chair_folding.crate
 AddForgeItem "STEP STOOL" 95 objects\props\human\pioneer\furniture\step_stool\step_stool.crate
 AddForgeItem "STOOL" 95 objects\props\human\pioneer\furniture\tall_stool\tall_stool.crate
@@ -1853,6 +1882,21 @@ AddForgeItem "SHOWER STALL" 95 objects\props\human\pioneer\bathrooms\pioneer_sho
 
 AddForgeItem "CHEMICAL SHOWER" 95 objects\props\human\pioneer\locker_room\chemical_shower\chemical_shower.scenery
 AddForgeItem "EYE WASHER" 95 objects\props\human\pioneer\locker_room\eye_wash\eye_wash.scenery
+
+EditTag objects\props\human\pioneer\furniture\bedroom_bed\bedroom_bed.render_model
+SetField Geometry.Meshes[0].Parts[1].FlagsNew PreventBackfaceCulling
+SetField Geometry.Meshes[0].Parts[2].FlagsNew PreventBackfaceCulling
+SetField Geometry.Meshes[0].Parts[3].FlagsNew PreventBackfaceCulling
+SaveTagChanges
+Exit
+
+EditTag objects\props\human\pioneer\furniture\bedroom_bed\shaders\blanket.shader
+SetArgument specular_coefficient 0
+SaveTagChanges
+Exit
+
+ForEach shader startingwith: objects\props\human\pioneer\furniture\shaders\wood_fine_grain SetArgument specular_coefficient 0
+ForEach shader startingwith: objects\props\human\pioneer\furniture\shaders\wood_fine_grain_destroyed SetArgument specular_coefficient 1
 
 AddForgeItem "BED" 95 objects\props\human\pioneer\furniture\bedroom_bed\bedroom_bed.scenery
 
