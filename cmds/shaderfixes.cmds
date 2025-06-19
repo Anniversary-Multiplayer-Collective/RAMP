@@ -699,12 +699,28 @@ setargument specular_coefficient 0
 savetagchanges
 exit
 
+edittag levels\shared\shaders\oni\metal_oni_int_panel_c.shader
+setargument specular_coefficient 0
+savetagchanges
+exit
+
+edittag levels\shared\shaders\oni\metal_oni_int_trim_simple_a.shader
+setargument specular_coefficient 0
+savetagchanges
+exit
+
 edittag levels\solo\m50\shaders\metal_mc_roof_metal_floor_trim.shader
 setargument specular_coefficient 0
 savetagchanges
 exit
 
 edittag levels\solo\m50\shaders\metal_mc_roof_metal_floor_trim.shader
+setargument specular_coefficient 0
+savetagchanges
+exit
+
+# courtyard
+edittag levels\solo\m20\shaders\m20_red_danger_light_a.shader
 setargument specular_coefficient 0
 savetagchanges
 exit
