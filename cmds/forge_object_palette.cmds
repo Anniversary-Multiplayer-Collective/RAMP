@@ -744,6 +744,21 @@ AddForgeItem "TREE POT, DESTROYED" 87 objects\ramp\shared\tree_pot_destroyed\tre
 
 
 # COVER [88] -------------------------------------------------------------------------------------------------------------
+EditTag levels\shared\shaders\oni\metal_oni_ext_panel_a.shader
+SetArgument specular_coefficient 0.5
+SaveTagChanges
+Exit
+
+EditTag objects\levels\solo\m20\shaders\oni_ext_metal_a.shader
+SetArgument specular_coefficient 0.5
+SaveTagChanges
+Exit
+
+EditTag objects\props\human\oni\shaders\dark_paneling_seam_oni.shader
+SetArgument specular_coefficient 0.5
+SaveTagChanges
+Exit
+
 AddForgeItem "ONI BARRIER, STANDARD" 88 objects\props\human\oni\security_wall_short_b\security_wall_short_b.scenery
 AddForgeItem "ONI BARRIER, WALL, SHORT" 88 objects\props\human\oni\security_wall_short\security_wall_short.scenery
 AddForgeItem "ONI BARRIER, WALL, TALL" 88 objects\props\human\oni\security_wall\security_wall.scenery
