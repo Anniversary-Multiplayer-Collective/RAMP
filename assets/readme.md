@@ -45,6 +45,7 @@ This is a true labor of love, built by dedicated fans for the community. We hope
 - Fixed Countdown Sabre being black
 - Fixed Ridgeline easter egg not spawning
 - Fixed Needler projectile causing major FPS drop for everyone when you shoot it at water
+- Fixed Corvette, Penance, Zealot covenant wall shaders
 - Needler supercombine now only takes 5 needles shard
 - Buffed LMG damage
 - Adjusted specular tints for certain forge objects
