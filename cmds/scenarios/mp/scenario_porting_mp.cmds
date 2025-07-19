@@ -1,0 +1,99 @@
+OpenCacheFile "reachmaps\20_sword_slayer.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag !Scripts !UpdateMapFiles *.scnr
+Exit
+
+OpenCacheFile "reachmaps\30_settlement.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag !Scripts !UpdateMapFiles *.scnr
+Exit
+
+OpenCacheFile "reachmaps\35_island.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag !Scripts !UpdateMapFiles *.scnr
+Exit
+
+OpenCacheFile "reachmaps\45_aftship.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag !Scripts !UpdateMapFiles *.scnr
+Exit
+
+OpenCacheFile "reachmaps\45_launch_station.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag !Scripts !UpdateMapFiles *.scnr
+Exit
+
+OpenCacheFile "reachmaps\50_panopticon.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag !Scripts !UpdateMapFiles *.scnr
+Exit
+
+OpenCacheFile "reachmaps\52_ivory_tower.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag !Scripts !UpdateMapFiles *.scnr
+Exit
+
+OpenCacheFile "reachmaps\70_boneyard.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag !Scripts !UpdateMapFiles *.scnr
+Exit
+
+OpenCacheFile "reachmaps\forge_halo.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag !Scripts !UpdateMapFiles *.scnr
+Exit
+
+OpenCacheFile "reachmaps\cex_beaver_creek.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag !Scripts !UpdateMapFiles *.scnr
+Exit
+
+OpenCacheFile "reachmaps\cex_damnation.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag !Scripts !UpdateMapFiles *.scnr
+Exit
+
+OpenCacheFile "reachmaps\cex_hangemhigh.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag !Scripts !UpdateMapFiles *.scnr
+Exit
+
+OpenCacheFile "reachmaps\cex_headlong.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag !Scripts !UpdateMapFiles *.scnr
+Exit
+
+OpenCacheFile "reachmaps\cex_prisoner.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag !Scripts !UpdateMapFiles *.scnr
+Exit
+
+OpenCacheFile "reachmaps\cex_timberland.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag !Scripts !UpdateMapFiles *.scnr
+Exit
+
+OpenCacheFile "reachmaps\condemned.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag !Scripts !UpdateMapFiles *.scnr
+Exit
+
+OpenCacheFile "reachmaps\dlc_invasion.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag !Scripts !UpdateMapFiles *.scnr
+Exit
+
+OpenCacheFile "reachmaps\dlc_medium.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag !Scripts !UpdateMapFiles *.scnr
+Exit
+
+OpenCacheFile "reachmaps\dlc_slayer.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag !Scripts !UpdateMapFiles *.scnr
+Exit
+
+OpenCacheFile "reachmaps\trainingpreserve.map"
+SetPortingOption ReachLightmapCache "workingdir\caches\lightmapcache"
+PortTag !Scripts !UpdateMapFiles *.scnr
+Exit

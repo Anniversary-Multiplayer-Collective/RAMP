@@ -1,0 +1,5 @@
+EditMap void.map
+SetField Blf.Scenario.Names[0].Name "Void"
+SetField Blf.Scenario.Descriptions[0].Name "Fill the void with your deepest desires."
+SaveMapChanges
+Exit

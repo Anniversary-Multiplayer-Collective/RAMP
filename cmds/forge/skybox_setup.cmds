@@ -1,0 +1,33 @@
+# echo ==Add MP Skyboxes To Pallette...==
+
+// TODO: These placements need to be created manually, instead of using the AddSkyBox command, as the command is tied to the scenario
+// which in our cases doesn't exists in certain instances.
+AddSkyBox "Anchor 9" levels\multi\dlc\dlc_slayer\dlc_slayer
+AddSkyBox "Battle Canyon" levels\dlc\cex_beaver_creek\cex_beaver_creek
+AddSkyBox "Beachhead" levels\firefight\ff50_park\ff50_park
+AddSkyBox "Boardwalk" levels\multi\50_panopticon\50_panopticon
+AddSkyBox "Boneyard" levels\multi\70_boneyard\70_boneyard
+AddSkyBox "Breakneck" levels\dlc\cex_headlong\cex_headlong
+AddSkyBox "Breakpoint" levels\multi\dlc\dlc_invasion\dlc_invasion
+AddSkyBox "Condemned" levels\dlc\condemned\condemned
+AddSkyBox "Corvette" levels\firefight\ff45_corvette\ff45_corvette
+AddSkyBox "Countdown" levels\multi\45_launch_station\45_launch_station
+AddSkyBox "Courtyard" levels\firefight\ff20_courtyard\ff20_courtyard
+AddSkyBox "Forge World" levels\multi\forge_halo\forge_halo
+AddSkyBox "High Noon" levels\dlc\cex_hangemhigh\cex_hangemhigh
+AddSkyBox "Highlands" levels\dlc\trainingpreserve\trainingpreserve
+AddSkyBox "Holdout" levels\firefight\ff70_holdout\ff70_holdout
+AddSkyBox "Installation 04" levels\dlc\cex_ff_halo\cex_ff_halo
+AddSkyBox "Outpost" levels\firefight\ff60_airview\ff60_airview
+AddSkyBox "Overlook" levels\firefight\ff10_prototype\ff10_prototype
+AddSkyBox "Penance" levels\dlc\cex_damnation\cex_damnation
+AddSkyBox "Power House" levels\multi\30_settlement\30_settlement
+AddSkyBox "Reflection" levels\multi\52_ivory_tower\52_ivory_tower
+AddSkyBox "Ridgeline" levels\dlc\cex_timberland\cex_timberland
+AddSkyBox "Solitary" levels\dlc\cex_prisoner\cex_prisoner
+AddSkyBox "Spire" levels\multi\35_island\35_island
+AddSkyBox "Sword Base" levels\multi\20_sword_slayer\20_sword_slayer
+AddSkyBox "Tempest" levels\multi\dlc\dlc_medium\dlc_medium
+AddSkyBox "Unearthed" levels\dlc\ff_unearthed\ff_unearthed
+AddSkyBox "Waterfront" levels\firefight\ff30_waterfront\ff30_waterfront
+AddSkyBox "Zealot" levels\multi\45_aftship\45_aftship
