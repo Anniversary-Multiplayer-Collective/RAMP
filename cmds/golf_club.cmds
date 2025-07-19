@@ -74,7 +74,7 @@ SetField HudWidgets[4].TextWidgets[0].PlacementData[0].Offset -42 10
 SetField HudWidgets[4].TextWidgets[0].PlacementData[0].Scale 0.26 0.26
 
 # EXTREMELY IMPORTANT
-SetField HudWidgets[4].TextWidgets[0].WidgetIndex 3
+SetField HudWidgets[4].TextWidgets[0].RuntimeWidgetIndex 3
 
 AddBlockElements HudWidgets[4].TextWidgets[0].StateData
 SetField HudWidgets[4].TextWidgets[0].StateData[0].WeaponFlash BatteryLow
