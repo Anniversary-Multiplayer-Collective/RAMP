@@ -389,7 +389,7 @@ exit
 # It's inhumane to be not perfect
 edittag ui\chud\v_sabre_turret.chud_definition
 setfield HudWidgets[0].BitmapWidgets[1].RuntimeWidgetIndex 1
-setfield HudWidgets[0].TextWidgets[0].WidgetIndex 2
+setfield HudWidgets[0].TextWidgets[0].RuntimeWidgetIndex 2
 setfield HudWidgets[1].BitmapWidgets[0].RuntimeWidgetIndex 3
 setfield HudWidgets[1].BitmapWidgets[1].RuntimeWidgetIndex 4
 setfield HudWidgets[1].BitmapWidgets[2].RuntimeWidgetIndex 5
@@ -471,24 +471,24 @@ setfield HudWidgets[0].BitmapWidgets[1].RuntimeWidgetIndex 1
 setfield HudWidgets[0].BitmapWidgets[2].RuntimeWidgetIndex 2
 setfield HudWidgets[0].BitmapWidgets[3].RuntimeWidgetIndex 3
 setfield HudWidgets[0].BitmapWidgets[4].RuntimeWidgetIndex 4
-setfield HudWidgets[0].TextWidgets[0].WidgetIndex 5
-setfield HudWidgets[0].TextWidgets[1].WidgetIndex 6
-setfield HudWidgets[0].TextWidgets[2].WidgetIndex 7
-setfield HudWidgets[0].TextWidgets[3].WidgetIndex 8
-setfield HudWidgets[0].TextWidgets[4].WidgetIndex 9
-setfield HudWidgets[0].TextWidgets[5].WidgetIndex 10
-setfield HudWidgets[0].TextWidgets[6].WidgetIndex 11
+setfield HudWidgets[0].TextWidgets[0].RuntimeWidgetIndex 5
+setfield HudWidgets[0].TextWidgets[1].RuntimeWidgetIndex 6
+setfield HudWidgets[0].TextWidgets[2].RuntimeWidgetIndex 7
+setfield HudWidgets[0].TextWidgets[3].RuntimeWidgetIndex 8
+setfield HudWidgets[0].TextWidgets[4].RuntimeWidgetIndex 9
+setfield HudWidgets[0].TextWidgets[5].RuntimeWidgetIndex 10
+setfield HudWidgets[0].TextWidgets[6].RuntimeWidgetIndex 11
 setfield HudWidgets[1].BitmapWidgets[0].RuntimeWidgetIndex 12
 setfield HudWidgets[1].BitmapWidgets[1].RuntimeWidgetIndex 13
-setfield HudWidgets[1].TextWidgets[0].WidgetIndex 14
-setfield HudWidgets[1].TextWidgets[1].WidgetIndex 15
-setfield HudWidgets[1].TextWidgets[2].WidgetIndex 16
+setfield HudWidgets[1].TextWidgets[0].RuntimeWidgetIndex 14
+setfield HudWidgets[1].TextWidgets[1].RuntimeWidgetIndex 15
+setfield HudWidgets[1].TextWidgets[2].RuntimeWidgetIndex 16
 setfield HudWidgets[2].BitmapWidgets[0].RuntimeWidgetIndex 17
-setfield HudWidgets[2].TextWidgets[0].WidgetIndex 18
-setfield HudWidgets[2].TextWidgets[1].WidgetIndex 19
-setfield HudWidgets[2].TextWidgets[2].WidgetIndex 20
+setfield HudWidgets[2].TextWidgets[0].RuntimeWidgetIndex 18
+setfield HudWidgets[2].TextWidgets[1].RuntimeWidgetIndex 19
+setfield HudWidgets[2].TextWidgets[2].RuntimeWidgetIndex 20
 setfield HudWidgets[3].BitmapWidgets[0].RuntimeWidgetIndex 21
-setfield HudWidgets[3].TextWidgets[0].WidgetIndex 22
+setfield HudWidgets[3].TextWidgets[0].RuntimeWidgetIndex 22
 
 # HUDWIDGETS 0
 setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Anchor Parent
@@ -926,18 +926,18 @@ setfield HudWidgets[5].BitmapWidgets[5].RuntimeWidgetIndex 17
 setfield HudWidgets[5].BitmapWidgets[6].RuntimeWidgetIndex 18
 setfield HudWidgets[5].BitmapWidgets[7].RuntimeWidgetIndex 19
 setfield HudWidgets[5].BitmapWidgets[8].RuntimeWidgetIndex 20
-setfield HudWidgets[5].TextWidgets[0].WidgetIndex 21
-setfield HudWidgets[5].TextWidgets[1].WidgetIndex 22
-setfield HudWidgets[5].TextWidgets[2].WidgetIndex 23
-setfield HudWidgets[5].TextWidgets[3].WidgetIndex 24
-setfield HudWidgets[5].TextWidgets[4].WidgetIndex 25
-setfield HudWidgets[5].TextWidgets[5].WidgetIndex 26
-setfield HudWidgets[5].TextWidgets[6].WidgetIndex 27
-setfield HudWidgets[5].TextWidgets[7].WidgetIndex 28
-setfield HudWidgets[5].TextWidgets[8].WidgetIndex 29
-setfield HudWidgets[5].TextWidgets[9].WidgetIndex 30
-setfield HudWidgets[5].TextWidgets[10].WidgetIndex 31
-setfield HudWidgets[5].TextWidgets[11].WidgetIndex 32
+setfield HudWidgets[5].TextWidgets[0].RuntimeWidgetIndex 21
+setfield HudWidgets[5].TextWidgets[1].RuntimeWidgetIndex 22
+setfield HudWidgets[5].TextWidgets[2].RuntimeWidgetIndex 23
+setfield HudWidgets[5].TextWidgets[3].RuntimeWidgetIndex 24
+setfield HudWidgets[5].TextWidgets[4].RuntimeWidgetIndex 25
+setfield HudWidgets[5].TextWidgets[5].RuntimeWidgetIndex 26
+setfield HudWidgets[5].TextWidgets[6].RuntimeWidgetIndex 27
+setfield HudWidgets[5].TextWidgets[7].RuntimeWidgetIndex 28
+setfield HudWidgets[5].TextWidgets[8].RuntimeWidgetIndex 29
+setfield HudWidgets[5].TextWidgets[9].RuntimeWidgetIndex 30
+setfield HudWidgets[5].TextWidgets[10].RuntimeWidgetIndex 31
+setfield HudWidgets[5].TextWidgets[11].RuntimeWidgetIndex 32
 
 setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Anchor Crosshair
 setfield HudWidgets[0].BitmapWidgets[0].PlacementData[0].Origin -1 2.8
