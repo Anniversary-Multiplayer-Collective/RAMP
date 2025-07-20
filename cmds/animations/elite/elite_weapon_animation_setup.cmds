@@ -1,0 +1,1228 @@
+# WEAPONS THAT DON'T NEED IK
+# SWORD, MAGNUM, NEEDLER, PLASMA PISTOL, PLASMA RIFLE, SPIKER, TARGET LOCATOR, FUEL ROD, PLASMA LAUNCHER
+# StringId add mineleloldabest_left_hand_elite_fp
+
+EditTag dw3\r3ach\objects\weapons\melee\energy_sword\animations\fp_elite\fp_elite.model_animation_graph
+AddAnimation workingdir\animations\elite_fp\sword
+SortModes
+
+SetField Animations[14].Weight 0.6
+SetField Animations[14].AnimationData.NextAnimation 15
+SetField Animations[15].Weight 1
+SetField Animations[15].AnimationData.ParentAnimation 14
+
+# Faster swing rate
+SetField Animations[7].AnimationData.FrameEvents[1].Frame 16
+SetField Animations[7].AnimationData.FrameEvents[2].Frame 21
+
+SetField Animations[8].AnimationData.FrameEvents[1].Frame 16
+SetField Animations[8].AnimationData.FrameEvents[2].Frame 21
+
+SetField Animations[3].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[3].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[4].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[4].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[5].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[5].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[6].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[6].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[7].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[7].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[8].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[8].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[16].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[16].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[17].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[17].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+#Faster Melee Swing Rate
+AddAnimation workingdir\animations\elite_fp\_swordfastmelee\sword
+setfield Animations[7].AnimationData.FrameCount 24
+setfield Animations[7].AnimationData.NextAnimation 26
+
+setfield Animations[26].Weight 1
+setfield Animations[26].AnimationData.ParentAnimation 7
+addblockelements Animations[26].AnimationData.SoundEvents
+addblockelements Animations[26].AnimationData.FrameEvents 3
+setfield Animations[26].AnimationData.FrameEvents[0].Frame 5
+setfield Animations[26].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+setfield Animations[26].AnimationData.FrameEvents[1].Frame 16
+setfield Animations[26].AnimationData.FrameEvents[2].TypeED AllowInterruption
+setfield Animations[26].AnimationData.FrameEvents[2].Frame 21
+setfield Animations[26].AnimationData.SoundEvents[0].Sound 8
+setfield Animations[26].PlaybackFlags DisableWeaponAim1stPerson
+setfield Animations[26].AnimationData.ProductionFlags VerifySoundEvents
+setfield Animations[26].AnimationData.InternalFlags CompressionDisabled
+
+setfield Animations[8].AnimationData.FrameCount 24
+setfield Animations[8].AnimationData.NextAnimation 27
+
+setfield Animations[27].Weight 1
+setfield Animations[27].AnimationData.ParentAnimation 7
+addblockelements Animations[27].AnimationData.SoundEvents
+addblockelements Animations[27].AnimationData.FrameEvents 3
+setfield Animations[27].AnimationData.FrameEvents[0].Frame 5
+setfield Animations[27].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+setfield Animations[27].AnimationData.FrameEvents[1].Frame 16
+setfield Animations[27].AnimationData.FrameEvents[2].TypeED AllowInterruption
+setfield Animations[27].AnimationData.FrameEvents[2].Frame 21
+setfield Animations[27].AnimationData.SoundEvents[0].Sound 9
+setfield Animations[27].PlaybackFlags DisableWeaponAim1stPerson
+setfield Animations[27].AnimationData.ProductionFlags VerifySoundEvents
+setfield Animations[27].AnimationData.InternalFlags CompressionDisabled
+SortModes
+removeblockelements Modes[0].WeaponClass[0].Weapontype[0].Set.Actions 19 *
+
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\melee\gravity_hammer\animations\fp_elite\fp_elite.model_animation_graph
+AddAnimation workingdir\animations\elite_fp\hammer
+SortModes
+
+SetField Animations[14].PlaybackFlags DisableWeaponIk
+
+SetField Animations[3].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[3].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[4].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[4].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[5].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[5].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[6].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[6].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[7].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[7].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[8].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[8].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[15].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[15].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[16].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[16].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+AddBlockElements Modes[0].WeaponClass[0].WeaponIk
+SetField Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+SetField Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker mineleloldabest_left_hand_elite_fp
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\pistol\magnum\animations\fp_elite\fp_elite.model_animation_graph
+AddAnimation workingdir\animations\elite_fp\magnum
+
+# SetField Animations[14].Weight 0.6
+# SetField Animations[14].AnimationData.NextAnimation 15
+# SetField Animations[15].Weight 1
+# SetField Animations[15].AnimationData.ParentAnimation 14
+
+SetField Animations[6].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[6].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[7].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[7].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[16].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[17].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[18].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[18].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[19].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[19].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SortModes
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\pistol\needler\animations\fp_elite\fp_elite.model_animation_graph
+AddAnimation workingdir\animations\elite_fp\needler
+
+SetField Animations[13].Weight 0.6
+SetField Animations[13].AnimationData.NextAnimation 14
+SetField Animations[14].Weight 1
+SetField Animations[14].AnimationData.ParentAnimation 13
+SetField Animations[14].PlaybackFlags DisableWeaponAim1stPerson
+
+SetField Animations[5].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[5].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[6].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[6].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[15].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[16].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[17].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[17].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[18].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[18].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SortModes
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\pistol\plasma_pistol\animations\fp_elite\fp_elite.model_animation_graph
+AddAnimation workingdir\animations\elite_fp\plasmapistol
+
+SetField Animations[19].Weight 0.6
+SetField Animations[19].AnimationData.NextAnimation 20
+SetField Animations[20].Weight 1
+SetField Animations[20].AnimationData.ParentAnimation 19
+
+SetField Animations[6].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[6].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[7].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[7].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[22].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[22].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[23].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[23].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[24].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[24].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SortModes
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\rifle\assault_rifle\animations\fp_elite\fp_elite.model_animation_graph
+AddAnimation workingdir\animations\elite_fp\assaultrifle
+SortModes
+
+SetField Animations[6].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+SetField Animations[15].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+SetField Animations[16].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+SetField Animations[24].PlaybackFlags DisableWeaponIk
+
+SetField Animations[13].Weight 0.6
+SetField Animations[13].AnimationData.NextAnimation 14
+SetField Animations[14].Weight 1
+SetField Animations[14].AnimationData.ParentAnimation 13
+SetField Animations[14].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+
+SetField Animations[5].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[5].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[6].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[6].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[15].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[16].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[17].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[17].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[18].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[18].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+AddBlockElements Modes[0].WeaponClass[0].WeaponIk
+SetField Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+SetField Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker mineleloldabest_left_hand_elite_fp
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\rifle\concussion_rifle\animations\fp_elite\fp_elite.model_animation_graph
+AddAnimation workingdir\animations\elite_fp\concussionrifle
+SortModes
+
+SetField Animations[15].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+SetField Animations[16].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+
+SetField Animations[13].Weight 0.6
+SetField Animations[13].AnimationData.NextAnimation 14
+SetField Animations[14].Weight 1
+SetField Animations[14].AnimationData.ParentAnimation 13
+SetField Animations[14].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+
+SetField Animations[5].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[5].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[6].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[6].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[15].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[16].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[17].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[17].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[18].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[18].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+AddBlockElements Modes[0].WeaponClass[0].WeaponIk
+SetField Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+SetField Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker mineleloldabest_left_hand_elite_fp
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\rifle\dmr\animations\fp_elite\fp_elite.model_animation_graph
+AddAnimation workingdir\animations\elite_fp\dmr
+SortModes
+
+SetField Animations[5].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+SetField Animations[14].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+SetField Animations[15].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+SetField Animations[23].PlaybackFlags DisableWeaponIk
+
+SetField Animations[12].Weight 0.6
+SetField Animations[12].AnimationData.NextAnimation 13
+SetField Animations[13].Weight 1
+SetField Animations[13].AnimationData.ParentAnimation 12
+SetField Animations[13].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+
+SetField Animations[4].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[4].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[5].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[5].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[14].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[15].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[16].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[16].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[17].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[17].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+AddBlockElements Modes[0].WeaponClass[0].WeaponIk
+SetField Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+SetField Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker mineleloldabest_left_hand_elite_fp
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\rifle\focus_rifle\animations\fp_elite\fp_elite.model_animation_graph
+AddAnimation workingdir\animations\elite_fp\focusrifle
+SortModes
+
+SetField Animations[7].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+SetField Animations[10].PlaybackFlags DisableWeaponIk
+SetField Animations[11].PlaybackFlags DisableWeaponIk
+SetField Animations[12].PlaybackFlags DisableWeaponIk
+SetField Animations[16].PlaybackFlags DisableWeaponIk
+SetField Animations[23].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+
+SetField Animations[18].Weight 0.6
+SetField Animations[18].AnimationData.NextAnimation 19
+SetField Animations[19].Weight 1
+SetField Animations[19].AnimationData.ParentAnimation 18
+SetField Animations[19].PlaybackFlags DisableWeaponAim1stPerson,ForceWeaponIkOn
+
+SetField Animations[7].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[7].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[8].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[8].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[21].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[21].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[22].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[22].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[23].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[23].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+AddBlockElements Modes[0].WeaponClass[0].WeaponIk
+SetField Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+SetField Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker mineleloldabest_left_hand_elite_fp
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\rifle\grenade_launcher\animations\fp_elite\fp_elite.model_animation_graph
+AddAnimation workingdir\animations\elite_fp\grenadelauncher
+SortModes
+
+SetField Animations[4].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+SetField Animations[5].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+SetField Animations[14].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+SetField Animations[15].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+
+SetField Animations[12].Weight 0.6
+SetField Animations[12].AnimationData.NextAnimation 13
+SetField Animations[13].Weight 1
+SetField Animations[13].AnimationData.ParentAnimation 12
+SetField Animations[13].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+
+SetField Animations[4].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[4].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[5].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[5].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[14].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[15].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[16].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[16].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[17].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[17].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+AddBlockElements Modes[0].WeaponClass[0].WeaponIk
+SetField Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+SetField Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker mineleloldabest_left_hand_elite_fp
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\rifle\needle_rifle\animations\fp_elite\fp_elite.model_animation_graph
+AddAnimation workingdir\animations\elite_fp\needlerifle
+SortModes
+
+SetField Animations[6].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+SetField Animations[15].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+SetField Animations[16].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+
+SetField Animations[13].Weight 0.6
+SetField Animations[13].AnimationData.NextAnimation 14
+SetField Animations[14].Weight 1
+SetField Animations[14].AnimationData.ParentAnimation 13
+SetField Animations[14].PlaybackFlags DisableWeaponAim1stPerson,ForceWeaponIkOn
+
+SetField Animations[5].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[5].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[6].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[6].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[15].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[16].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[17].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[17].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[18].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[18].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+AddBlockElements Modes[0].WeaponClass[0].WeaponIk
+SetField Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+SetField Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker mineleloldabest_left_hand_elite_fp
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\rifle\plasma_repeater\animations\fp_elite\fp_elite.model_animation_graph
+AddAnimation workingdir\animations\elite_fp\plasmarepeater
+SortModes
+
+SetField Animations[1].Weight 0.34
+SetField Animations[1].AnimationData.InternalFlags CompressionDisabled,ValidProductionChecksum
+SetField Animations[1].AnimationData.NodeListChecksum -1921826387
+SetField Animations[1].AnimationData.ProductionChecksum 592694830
+SetField Animations[1].AnimationData.NextAnimation 2
+
+SetField Animations[6].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+SetField Animations[18].PlaybackFlags DisableWeaponIk
+SetField Animations[23].PlaybackFlags ForceWeaponIkOn
+SetField Animations[24].PlaybackFlags ForceWeaponIkOn
+SetField Animations[25].PlaybackFlags ForceWeaponIkOn
+SetField Animations[31].PlaybackFlags DisableWeaponIk
+
+SetField Animations[14].Weight 0.6
+SetField Animations[14].AnimationData.NextAnimation 15
+SetField Animations[15].Weight 1
+SetField Animations[15].AnimationData.ParentAnimation 14
+SetField Animations[15].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+
+SetField Animations[5].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[5].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[6].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[6].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[16].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[16].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[17].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[17].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+AddBlockElements Modes[0].WeaponClass[0].WeaponIk
+SetField Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+SetField Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker mineleloldabest_left_hand_elite_fp
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\rifle\plasma_rifle\animations\fp_elite\fp_elite.model_animation_graph
+SetField SoundReferences[2].Reference dw3\r3ach\sound\weapons\plasma_rifle\plasrifle_overheat.sound
+AddAnimation workingdir\animations\elite_fp\plasmarifle
+
+SetField Animations[16].Weight 0.6
+SetField Animations[16].AnimationData.NextAnimation 17
+SetField Animations[17].Weight 1
+SetField Animations[17].AnimationData.ParentAnimation 16
+
+SetField Animations[4].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[4].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[5].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[5].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[6].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[6].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[19].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[19].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[20].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[20].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[21].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[21].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SortModes
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\rifle\shotgun\animations\fp_elite\fp_elite.model_animation_graph
+AddAnimation workingdir\animations\elite_fp\shotgun
+SortModes
+
+SetField Animations[0].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+SetField Animations[7].PlaybackFlags DisableInterpolationIn,DisableInterpolationOut,DisableWeaponIk,DisableWeaponAim1stPerson
+SetField Animations[14].AnimationData.SoundEvents[0].Sound 8
+SetField Animations[14].PlaybackFlags ForceWeaponIkOn
+SetField Animations[16].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+SetField Animations[17].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+SetField Animations[25].PlaybackFlags DisableWeaponIk
+
+SetField Animations[7].AnimationData.ProductionFlags VerifySoundEvents
+SetField Animations[7].AnimationData.InternalFlags CompressionDisabled,ValidProductionChecksum
+SetField Animations[7].AnimationData.NodeListChecksum 359218412
+SetField Animations[7].AnimationData.ProductionChecksum 2123036949
+
+AddBlockElements Animations[7].AnimationData.FrameEvents 3
+SetField Animations[7].AnimationData.FrameEvents[0].Frame 5
+SetField Animations[7].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[7].AnimationData.FrameEvents[1].Frame 30
+SetField Animations[7].AnimationData.FrameEvents[2].TypeED AllowInterruption
+SetField Animations[7].AnimationData.FrameEvents[2].Frame 35
+AddBlockElements Animations[7].AnimationData.SoundEvents 1
+SetField Animations[7].AnimationData.SoundEvents[0].Sound 4
+
+SetField Animations[14].Weight 0.6
+SetField Animations[14].AnimationData.NextAnimation 15
+SetField Animations[15].Weight 1
+SetField Animations[15].AnimationData.ParentAnimation 14
+SetField Animations[15].PlaybackFlags DisableWeaponAim1stPerson,ForceWeaponIkOn
+
+SetField Animations[6].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[6].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[16].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[18].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[18].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[19].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[19].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+AddBlockElements Modes[0].WeaponClass[0].WeaponIk
+SetField Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+SetField Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker mineleloldabest_left_hand_elite_fp
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\rifle\sniper_rifle\animations\fp_elite\fp_elite.model_animation_graph
+AddAnimation workingdir\animations\elite_fp\sniperrifle
+SortModes
+
+SetField Animations[5].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+SetField Animations[9].PlaybackFlags DisableWeaponIk
+SetField Animations[12].PlaybackFlags DisableWeaponIk
+SetField Animations[14].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+SetField Animations[15].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+
+SetField Animations[12].Weight 0.6
+SetField Animations[12].AnimationData.NextAnimation 13
+SetField Animations[13].Weight 1
+SetField Animations[13].AnimationData.ParentAnimation 12
+SetField Animations[13].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+
+SetField Animations[5].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[5].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[14].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[15].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[16].PlaybackFlags DisableWeaponAim1stPerson
+AddBlockElements Animations[16].AnimationData.FrameEvents 3
+SetField Animations[16].AnimationData.FrameEvents[0].Frame 8
+SetField Animations[16].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[16].AnimationData.FrameEvents[1].Frame 35
+SetField Animations[16].AnimationData.FrameEvents[2].TypeED AllowInterruption
+SetField Animations[16].AnimationData.FrameEvents[2].Frame 38
+
+SetField Animations[17].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[17].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+
+AddBlockElements Modes[0].WeaponClass[0].WeaponIk
+SetField Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+SetField Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker mineleloldabest_left_hand_elite_fp
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\rifle\spike_rifle\animations\fp_elite\fp_elite.model_animation_graph
+AddAnimation workingdir\animations\elite_fp\spiker
+SortModes
+
+SetField Animations[2].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[2].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[9].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[10].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[11].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[11].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[12].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[12].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\support_high\flak_cannon\animations\fp_elite\fp_elite.model_animation_graph
+AddAnimation workingdir\animations\elite_fp\flakcannon
+SortModes
+
+SetField Animations[4].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[4].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[5].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[5].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[12].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[13].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[14].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[14].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[15].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[15].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\support_high\plasma_launcher\animations\fp_elite\fp_elite.model_animation_graph
+AddAnimation workingdir\animations\elite_fp\plasmalauncher
+
+SetField Animations[22].Weight 0.6
+SetField Animations[22].AnimationData.NextAnimation 23
+SetField Animations[23].Weight 1
+SetField Animations[23].AnimationData.ParentAnimation 22
+SetField Animations[23].PlaybackFlags DisableWeaponAim1stPerson
+
+SetField Animations[13].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[13].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[14].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[14].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[26].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[26].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[27].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[27].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SortModes
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\support_high\rocket_launcher\animations\fp_elite\fp_elite.model_animation_graph
+AddAnimation workingdir\animations\elite_fp\rocketlauncher
+SortModes
+
+SetField Animations[0].AnimationData.NextAnimation -1
+SetField Animations[1].Weight 0
+SetField Animations[1].AnimationData.ParentAnimation -1
+SetField Animations[1].AnimationData.NextAnimation -1
+SetField Animations[2].Weight 0
+SetField Animations[2].AnimationData.ParentAnimation -1
+
+SetField Animations[0].PlaybackFlags ForceWeaponIkOn
+SetField Animations[1].PlaybackFlags ForceWeaponIkOn
+SetField Animations[2].PlaybackFlags ForceWeaponIkOn
+SetField Animations[3].PlaybackFlags ForceWeaponIkOn
+SetField Animations[4].PlaybackFlags DisableWeaponAim1stPerson,ForceWeaponIkOn
+SetField Animations[9].PlaybackFlags ForceWeaponIkOn
+SetField Animations[10].PlaybackFlags ForceWeaponIkOn
+SetField Animations[11].PlaybackFlags ForceWeaponIkOn
+SetField Animations[13].PlaybackFlags DisableWeaponIk
+SetField Animations[25].PlaybackFlags ForceWeaponIkOn
+SetField Animations[26].PlaybackFlags ForceWeaponIkOn
+SetField Animations[27].PlaybackFlags ForceWeaponIkOn
+SetField Animations[24].PlaybackFlags ForceWeaponIkOn
+
+SetField Animations[13].Weight 0.6
+SetField Animations[13].AnimationData.NextAnimation 14
+SetField Animations[14].Weight 1
+SetField Animations[14].AnimationData.ParentAnimation 13
+SetField Animations[14].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+
+SetField Animations[4].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[4].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[5].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[5].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[15].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[16].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[17].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[17].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[18].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[18].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+AddBlockElements Modes[0].WeaponClass[0].WeaponIk
+SetField Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+SetField Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker mineleloldabest_left_hand_elite_fp
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\support_high\spartan_laser\animations\fp_elite\fp_elite.model_animation_graph
+AddAnimation workingdir\animations\elite_fp\spartanlaser
+SortModes
+
+SetField Animations[1].PlaybackFlags ForceWeaponIkOn
+SetField Animations[2].PlaybackFlags ForceWeaponIkOn
+SetField Animations[3].PlaybackFlags ForceWeaponIkOn
+SetField Animations[4].PlaybackFlags ForceWeaponIkOn
+SetField Animations[5].PlaybackFlags ForceWeaponIkOn
+SetField Animations[6].PlaybackFlags ForceWeaponIkOn
+SetField Animations[8].PlaybackFlags DisableWeaponAim1stPerson,ForceWeaponIkOn
+SetField Animations[12].PlaybackFlags ForceWeaponIkOn
+SetField Animations[13].PlaybackFlags ForceWeaponIkOn
+SetField Animations[16].PlaybackFlags ForceWeaponIkOn
+SetField Animations[17].PlaybackFlags ForceWeaponIkOn
+SetField Animations[18].PlaybackFlags ForceWeaponIkOn
+SetField Animations[20].PlaybackFlags DisableWeaponIk
+SetField Animations[31].PlaybackFlags ForceWeaponIkOn
+SetField Animations[32].PlaybackFlags ForceWeaponIkOn
+SetField Animations[33].PlaybackFlags ForceWeaponIkOn
+SetField Animations[34].PlaybackFlags ForceWeaponIkOn
+
+SetField Animations[8].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[8].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[9].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[9].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[10].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[10].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[22].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[22].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[23].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[23].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[24].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[24].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+AddBlockElements Modes[0].WeaponClass[0].WeaponIk
+SetField Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+SetField Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker mineleloldabest_left_hand_elite_fp
+SaveTagChanges
+Exit
+
+EditTag dw3\r3ach\objects\weapons\pistol\target_laser\animations\fp_elite\fp_elite.model_animation_graph
+AddAnimation workingdir\animations\elite_fp\targetlaser
+SortModes
+
+SetField Animations[3].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[3].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[15].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[15].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SetField Animations[16].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[16].AnimationData.FrameEvents[2].TypeED AllowInterruption
+
+SaveTagChanges
+Exit
+
+EditTag objects\characters\dervish\fp\weapons\rifle\fp_beam_rifle\fp_beam_rifle.model_animation_graph
+SetField SoundReferences[3].Reference sound\weapons\beam_rifle\fp_beam_rifle\fp_beam_posing_var1.sound
+
+AddAnimation workingdir\animations\elite_fp\enashh2a_beamrifle
+
+# Fire 1
+SetField Animations[1].Weight 0.3333333
+SetField Animations[1].AnimationData.NextAnimation 2
+SetField Animations[1].AnimationData.ProductionFlags VerifySoundEvents
+SetField Animations[1].AnimationData.InternalFlags ValidProductionChecksum
+AddBlockElements Animations[1].AnimationData.SoundEvents
+SetField Animations[1].AnimationData.SoundEvents[0].Frame 1
+
+SetField Animations[2].Weight 0.6666667
+SetField Animations[2].AnimationData.ParentAnimation 1
+SetField Animations[2].AnimationData.NextAnimation 3
+SetField Animations[2].AnimationData.ProductionFlags VerifySoundEvents
+SetField Animations[2].AnimationData.InternalFlags ValidProductionChecksum
+AddBlockElements Animations[2].AnimationData.SoundEvents
+SetField Animations[2].AnimationData.SoundEvents[0].Frame 1
+
+SetField Animations[3].Weight 1
+SetField Animations[3].AnimationData.ParentAnimation 1
+SetField Animations[3].AnimationData.ProductionFlags VerifySoundEvents
+SetField Animations[3].AnimationData.InternalFlags ValidProductionChecksum
+AddBlockElements Animations[3].AnimationData.SoundEvents
+SetField Animations[3].AnimationData.SoundEvents[0].Frame 1
+
+SetField Modes[0].WeaponClass[0].WeaponType[0].Set.Actions[0].Animation 1
+
+# Melee strike 1
+SetField animations[8].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+SetField Animations[8].AnimationData.ProductionFlags VerifySoundEvents
+SetField Animations[8].AnimationData.InternalFlags ValidProductionChecksum
+
+AddBlockElements Animations[8].AnimationData.FrameEvents 3
+SetField Animations[8].AnimationData.FrameEvents[0].Frame 4
+
+SetField Animations[8].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[8].AnimationData.FrameEvents[1].Frame 14
+
+SetField Animations[8].AnimationData.FrameEvents[2].TypeED AllowInterruption
+SetField Animations[8].AnimationData.FrameEvents[2].Frame 23
+
+AddBlockElements Animations[8].AnimationData.SoundEvents
+SetField Animations[8].AnimationData.SoundEvents[0].Sound 2
+
+# Melee strike 2
+SetField Animations[9].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+SetField Animations[9].AnimationData.ProductionFlags VerifySoundEvents
+SetField Animations[9].AnimationData.InternalFlags ValidProductionChecksum
+
+AddBlockElements Animations[9].AnimationData.FrameEvents 3
+SetField Animations[9].AnimationData.FrameEvents[0].Frame 4
+
+SetField Animations[9].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[9].AnimationData.FrameEvents[1].Frame 14
+
+SetField Animations[9].AnimationData.FrameEvents[2].TypeED AllowInterruption
+SetField Animations[9].AnimationData.FrameEvents[2].Frame 23
+
+AddBlockElements Animations[9].AnimationData.SoundEvents
+SetField Animations[9].AnimationData.SoundEvents[0].Sound 5
+
+# Overheat
+SetField animations[11].PlaybackFlags DisableWeaponIk
+SetField animations[12].PlaybackFlags DisableWeaponIk
+SetField animations[13].PlaybackFlags DisableWeaponIk
+
+# Posing
+SetField Animations[16].Weight 0.5
+SetField Animations[16].AnimationData.NextAnimation 26
+
+SetField animations[16].PlaybackFlags DisableWeaponIk
+SetField Animations[16].AnimationData.ProductionFlags VerifySoundEvents
+SetField Animations[16].AnimationData.InternalFlags ValidProductionChecksum
+
+AddBlockElements Animations[16].AnimationData.SoundEvents
+SetField Animations[16].AnimationData.SoundEvents[0].Sound 4
+SetField Animations[16].AnimationData.SoundEvents[0].Frame 1
+
+SetField Animations[26].Weight 1
+SetField Animations[26].AnimationData.ParentAnimation 16
+
+SetField animations[26].PlaybackFlags DisableWeaponIk
+SetField Animations[26].AnimationData.ProductionFlags VerifySoundEvents
+SetField Animations[26].AnimationData.InternalFlags ValidProductionChecksum
+
+AddBlockElements Animations[26].AnimationData.SoundEvents
+SetField Animations[26].AnimationData.SoundEvents[0].Sound 3
+
+SetField Modes[0].WeaponClass[0].WeaponType[0].Set.Actions[6].Animation 16
+
+# Ready
+AddBlockElements Animations[18].AnimationData.SoundEvents
+SetField Animations[18].AnimationData.SoundEvents[0].Sound 1
+SetField Animations[18].AnimationData.SoundEvents[0].Frame 1
+
+# Sprint
+SetField Animations[19].PlaybackFlags ForceWeaponIkOn
+SetField Animations[20].PlaybackFlags ForceWeaponIkOn
+SetField animations[21].PlaybackFlags DisableWeaponAim1stPerson,ForceWeaponIkOn
+SetField animations[22].PlaybackFlags ForceWeaponIkOn
+
+# THrow equipment, grenade, overheated
+AddBlockElements Animations[23].AnimationData.FrameEvents
+SetField Animations[23].AnimationData.FrameEvents[0].Frame 12
+
+AddBlockElements Animations[24].AnimationData.FrameEvents
+SetField Animations[24].AnimationData.FrameEvents[0].Frame 10
+
+SetField animations[25].PlaybackFlags DisableWeaponIk
+AddBlockElements Animations[25].AnimationData.FrameEvents
+SetField Animations[25].AnimationData.FrameEvents[0].Frame 10
+SaveTagChanges
+Exit
+
+EditTag objects\characters\dervish\fp\weapons\multiplayer\fp_ball\fp_ball.model_animation_graph
+SetField SkeletonNodes[31].Name b_skull
+SaveTagChanges
+Exit
+
+EditTag objects\characters\dervish\fp\weapons\multiplayer\fp_ball\fp_ball.model_animation_graph
+Addanimation keep "workingdir\animations\elite_fp\_rampmultiplayer\fp_ball"
+AddBlockElements Modes[0].WeaponClass[0].WeaponIk
+SetField Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+SetField Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker left_hand_elite_fp
+
+SetField Animations[1].PlaybackFlags ForceWeaponIkOn
+
+SetField Animations[6].AnimationData.SoundEvents[0].Sound 2
+
+SetField Animations[11].AnimationData.NextAnimation 12
+SetField Animations[12].AnimationData.ParentAnimation 11
+SetField Modes[0].WeaponClass[0].WeaponType[0].Set.Actions[4].Animation 11
+
+SetField Animations[14].PlaybackFlags DisableWeaponIk
+SetField Animations[15].PlaybackFlags DisableWeaponIk
+SaveTagChanges
+Exit
+
+EditTag objects\characters\dervish\fp\weapons\multiplayer\fp_assault_bomb\fp_assault_bomb.model_animation_graph
+SetField SkeletonNodes[31].Name b_skull
+SaveTagChanges
+Exit
+
+EditTag objects\characters\dervish\fp\weapons\multiplayer\fp_assault_bomb\fp_assault_bomb.model_animation_graph
+Addanimation keep "workingdir\animations\elite_fp\_rampmultiplayer\fp_assault_bomb"
+AddBlockElements Modes[0].WeaponClass[0].WeaponIk
+SetField Modes[0].WeaponClass[0].WeaponIk[0].Marker left_hand_elite
+SetField Modes[0].WeaponClass[0].WeaponIk[0].AttachToMarker left_hand_elite_fp
+
+SetField Animations[0].PlaybackFlags ForceWeaponIkOn
+
+SetField Animations[2].AnimationData.SoundEvents[0].Sound 3
+
+SetField Animations[5].AnimationData.NextAnimation 6
+SetField Animations[6].AnimationData.ParentAnimation 5
+SetField Modes[0].WeaponClass[0].WeaponType[0].Set.Actions[5].Animation 5
+
+SetField Animations[8].PlaybackFlags ForceWeaponIkOn
+
+SaveTagChanges
+Exit
+
+Importanimation "workingdir\animations\elite_fp\automag\first_person dual fire_1.JMM" objects\characters\dervish\fp\weapons\pistol\fp_automag\fp_automag
+EditTag objects\characters\dervish\fp\weapons\pistol\fp_automag\fp_automag.model_animation_graph
+
+AddBlockElements SoundReferences 13
+SetField SoundReferences[0].Reference sound\weapons\magnum\magnum_fp\magnum_dual_pose_left.sound
+SetField SoundReferences[0].Flags LeftArmOnly,FirstPersonOnly
+SetField SoundReferences[1].Reference sound\weapons\magnum\magnum_fp\magnum_dual_ready.sound
+SetField SoundReferences[1].Flags LeftArmOnly
+SetField SoundReferences[2].Reference sound\weapons\magnum\magnum_fp\magnum_dual_reload_left.sound
+SetField SoundReferences[2].Flags LeftArmOnly
+SetField SoundReferences[3].Reference sound\weapons\magnum\magnum_fp\magnum_dual_reload_right.sound
+SetField SoundReferences[3].Flags RightArmOnly
+SetField SoundReferences[4].Reference sound\weapons\magnum\magnum_fp\magnum_melee.sound
+SetField SoundReferences[4].Flags None
+SetField SoundReferences[5].Reference null
+SetField SoundReferences[5].Flags FirstPersonOnly
+SetField SoundReferences[6].Reference sound\weapons\magnum\magnum_fp\magnum_pose2.sound
+SetField SoundReferences[6].Flags FirstPersonOnly
+SetField SoundReferences[7].Reference sound\weapons\magnum\magnum_fp\magnum_ready.sound
+SetField SoundReferences[7].Flags None
+SetField SoundReferences[8].Reference sound\weapons\magnum\magnum_fp\magnum_reload.sound
+SetField SoundReferences[8].Flags None
+SetField SoundReferences[9].Reference sound\weapons\magnum\magnum_fp\magnum_dual_pose_right.sound
+SetField SoundReferences[9].Flags RightArmOnly,FirstPersonOnly
+SetField SoundReferences[10].Reference sound\weapons\magnum\magnum_fp\magnum_dual_ready_right.sound
+SetField SoundReferences[10].Flags RightArmOnly
+SetField SoundReferences[11].Reference sound\weapons\magnum\magnum_fp\magnum_dual_pose2_left.sound
+SetField SoundReferences[11].Flags LeftArmOnly,FirstPersonOnly
+SetField SoundReferences[12].Reference sound\weapons\magnum\magnum_fp\magnum_dual_pose2_right.sound
+SetField SoundReferences[12].Flags RightArmOnly,FirstPersonOnly
+
+AddBlockElements BlendScreens
+SetField BlendScreens[0].Label blend_screen_#0
+SetField BlendScreens[0].RightYawPerFrame 57
+SetField BlendScreens[0].LeftYawPerFrame 57
+SetField BlendScreens[0].RightFrameCount 1
+SetField BlendScreens[0].LeftFrameCount 1
+SetField BlendScreens[0].DownPitchPerFrame 80
+SetField BlendScreens[0].UpPitchPerFrame 90
+SetField BlendScreens[0].DownPitchFrameCount 1
+SetField BlendScreens[0].UpPitchFrameCount 1
+
+
+AddBlockElements Modes
+SetField Modes[0].Name any
+
+AddBlockElements Modes[0].WeaponClass 2
+SetField Modes[0].WeaponClass[0].Label any
+SetField Modes[0].WeaponClass[1].Label dual
+
+AddBlockElements Modes[0].WeaponClass[0].WeaponType
+AddBlockElements Modes[0].WeaponClass[1].WeaponType
+
+SetField Modes[0].WeaponClass[0].WeaponType[0].Label any
+SetField Modes[0].WeaponClass[1].WeaponType[0].Label any
+
+AddBlockElements Modes[0].WeaponClass[1].WeaponType[0].Set.Actions
+SetField Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[0].Label fire_1
+SetField Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[0].GraphIndex -1
+
+AddAnimation workingdir\animations\elite_fp\automag
+SortModes
+
+
+# PAIN
+
+# [DUAL IDLE]
+SetField Animations[2].Weight 0.5
+SetField Animations[2].AnimationData.NextAnimation 3
+SetField Animations[3].Weight 0.75
+SetField Animations[3].AnimationData.ParentAnimation 2
+SetField Animations[3].AnimationData.NextAnimation 4
+SetField Animations[4].Weight 1
+SetField Animations[4].AnimationData.ParentAnimation 2
+SetField Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[1].Animation 2
+
+# [DUAL PITCH AND TURN]
+SetField Animations[10].AnimationData.BlendScreen 0
+
+# [DUAL POSING]
+SetField Animations[11].Weight 0.5
+SetField Animations[11].AnimationData.NextAnimation 12
+SetField Animations[11].AnimationData.ProductionFlags VerifySoundEvents
+AddBlockElements Animations[11].AnimationData.SoundEvents 2
+SetField Animations[11].AnimationData.SoundEvents[1].Sound 9
+
+SetField Animations[12].Weight 1
+SetField Animations[12].AnimationData.ParentAnimation 11
+SetField Animations[12].AnimationData.ProductionFlags VerifySoundEvents
+AddBlockElements Animations[12].AnimationData.SoundEvents 2
+SetField Animations[12].AnimationData.SoundEvents[0].Sound 11
+SetField Animations[12].AnimationData.SoundEvents[1].Sound 12
+SetField Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[4].Animation 11
+
+# [DUAL READY]
+SetField Animations[14].Weight 0.3846154
+SetField Animations[14].AnimationData.NextAnimation 15
+AddBlockElements Animations[14].AnimationData.SoundEvents 2
+SetField Animations[14].AnimationData.SoundEvents[0].Sound 1
+SetField Animations[14].AnimationData.SoundEvents[1].Sound 10
+
+SetField Animations[15].Weight 0.6923077
+SetField Animations[15].AnimationData.ParentAnimation 14
+SetField Animations[15].AnimationData.NextAnimation 16
+AddBlockElements Animations[15].AnimationData.SoundEvents 2
+SetField Animations[15].AnimationData.SoundEvents[0].Sound 1
+SetField Animations[15].AnimationData.SoundEvents[1].Sound 10
+
+SetField Animations[16].Weight 0.6923077
+SetField Animations[16].AnimationData.ParentAnimation 14
+AddBlockElements Animations[16].AnimationData.SoundEvents 2
+SetField Animations[16].AnimationData.SoundEvents[0].Sound 1
+SetField Animations[16].AnimationData.SoundEvents[1].Sound 10
+SetField Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[2].Animation 14
+
+# [DUAL RELOAD EMPTY]
+SetField Animations[17].Weight 0.25
+SetField Animations[17].AnimationData.NextAnimation 18
+SetField Animations[17].AnimationData.ProductionFlags VerifySoundEvents
+AddBlockElements Animations[17].AnimationData.FrameEvents 2
+AddBlockElements Animations[17].AnimationData.SoundEvents 2
+SetField Animations[17].AnimationData.SoundEvents[0].Sound 2
+SetField Animations[17].AnimationData.SoundEvents[1].Sound 3
+SetField Animations[17].AnimationData.FrameEvents[0].Frame 45
+SetField Animations[17].AnimationData.FrameEvents[1].Frame 100
+SetField Animations[17].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[18].Weight 0.50
+SetField Animations[18].AnimationData.ParentAnimation 17
+SetField Animations[18].AnimationData.NextAnimation 19
+SetField Animations[18].AnimationData.ProductionFlags VerifySoundEvents
+AddBlockElements Animations[18].AnimationData.FrameEvents 2
+AddBlockElements Animations[18].AnimationData.SoundEvents 2
+SetField Animations[18].AnimationData.SoundEvents[0].Sound 2
+SetField Animations[18].AnimationData.SoundEvents[0].Frame 1
+SetField Animations[18].AnimationData.SoundEvents[1].Sound 3
+SetField Animations[18].AnimationData.SoundEvents[1].Frame 1
+SetField Animations[18].AnimationData.FrameEvents[0].Frame 45
+SetField Animations[18].AnimationData.FrameEvents[1].Frame 100
+SetField Animations[18].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[19].Weight 0.75
+SetField Animations[19].AnimationData.ParentAnimation 17
+SetField Animations[19].AnimationData.NextAnimation 20
+SetField Animations[19].AnimationData.ProductionFlags VerifySoundEvents
+AddBlockElements Animations[19].AnimationData.FrameEvents 2
+AddBlockElements Animations[19].AnimationData.SoundEvents 2
+SetField Animations[19].AnimationData.SoundEvents[0].Sound 2
+SetField Animations[19].AnimationData.SoundEvents[0].Frame 1
+SetField Animations[19].AnimationData.SoundEvents[1].Sound 3
+SetField Animations[19].AnimationData.SoundEvents[1].Frame 1
+SetField Animations[19].AnimationData.FrameEvents[0].Frame 45
+SetField Animations[19].AnimationData.FrameEvents[1].Frame 100
+SetField Animations[19].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[20].Weight 1
+SetField Animations[20].AnimationData.ParentAnimation 17
+SetField Animations[20].AnimationData.ProductionFlags VerifySoundEvents
+AddBlockElements Animations[20].AnimationData.FrameEvents 2
+AddBlockElements Animations[20].AnimationData.SoundEvents 2
+SetField Animations[20].AnimationData.SoundEvents[0].Sound 2
+SetField Animations[20].AnimationData.SoundEvents[0].Frame 1
+SetField Animations[20].AnimationData.SoundEvents[1].Sound 3
+SetField Animations[20].AnimationData.SoundEvents[1].Frame 1
+SetField Animations[20].AnimationData.FrameEvents[0].Frame 45
+SetField Animations[20].AnimationData.FrameEvents[1].Frame 100
+SetField Animations[20].AnimationData.FrameEvents[1].TypeED AllowInterruption
+SetField Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[5].Animation 17
+
+# [DUAL RELOAD FULL]
+SetField Animations[21].Weight 0.25
+SetField Animations[21].AnimationData.NextAnimation 22
+SetField Animations[21].AnimationData.ProductionFlags VerifySoundEvents
+AddBlockElements Animations[21].AnimationData.FrameEvents 2
+AddBlockElements Animations[21].AnimationData.SoundEvents 2
+SetField Animations[21].AnimationData.SoundEvents[0].Sound 2
+SetField Animations[21].AnimationData.SoundEvents[1].Sound 3
+SetField Animations[21].AnimationData.FrameEvents[0].Frame 45
+SetField Animations[21].AnimationData.FrameEvents[1].Frame 100
+SetField Animations[21].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[22].Weight 0.50
+SetField Animations[22].AnimationData.ParentAnimation 21
+SetField Animations[22].AnimationData.NextAnimation 23
+SetField Animations[22].AnimationData.ProductionFlags VerifySoundEvents
+AddBlockElements Animations[22].AnimationData.FrameEvents 2
+AddBlockElements Animations[22].AnimationData.SoundEvents 2
+SetField Animations[22].AnimationData.SoundEvents[0].Sound 2
+SetField Animations[22].AnimationData.SoundEvents[0].Frame 1
+SetField Animations[22].AnimationData.SoundEvents[1].Sound 3
+SetField Animations[22].AnimationData.SoundEvents[1].Frame 1
+SetField Animations[22].AnimationData.FrameEvents[0].Frame 45
+SetField Animations[22].AnimationData.FrameEvents[1].Frame 100
+SetField Animations[22].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[23].Weight 0.75
+SetField Animations[23].AnimationData.ParentAnimation 21
+SetField Animations[23].AnimationData.NextAnimation 24
+SetField Animations[23].AnimationData.ProductionFlags VerifySoundEvents
+AddBlockElements Animations[23].AnimationData.FrameEvents 2
+AddBlockElements Animations[23].AnimationData.SoundEvents 2
+SetField Animations[23].AnimationData.SoundEvents[0].Sound 2
+SetField Animations[23].AnimationData.SoundEvents[0].Frame 1
+SetField Animations[23].AnimationData.SoundEvents[1].Sound 3
+SetField Animations[23].AnimationData.SoundEvents[1].Frame 1
+SetField Animations[23].AnimationData.FrameEvents[0].Frame 45
+SetField Animations[23].AnimationData.FrameEvents[1].Frame 100
+SetField Animations[23].AnimationData.FrameEvents[1].TypeED AllowInterruption
+
+SetField Animations[24].Weight 1
+SetField Animations[24].AnimationData.ParentAnimation 21
+SetField Animations[24].AnimationData.ProductionFlags VerifySoundEvents
+AddBlockElements Animations[24].AnimationData.FrameEvents 2
+AddBlockElements Animations[24].AnimationData.SoundEvents 2
+SetField Animations[24].AnimationData.SoundEvents[0].Sound 2
+SetField Animations[24].AnimationData.SoundEvents[0].Frame 1
+SetField Animations[24].AnimationData.SoundEvents[1].Sound 3
+SetField Animations[24].AnimationData.SoundEvents[1].Frame 1
+SetField Animations[24].AnimationData.FrameEvents[0].Frame 45
+SetField Animations[24].AnimationData.FrameEvents[1].Frame 100
+SetField Animations[24].AnimationData.FrameEvents[1].TypeED AllowInterruption
+SetField Modes[0].WeaponClass[1].WeaponType[0].Set.Actions[6].Animation 21
+
+# [MELEE STRIKE 1]
+AddBlockElements Animations[31].AnimationData.FrameEvents 3
+AddBlockElements Animations[31].AnimationData.SoundEvents 1
+SetField Animations[31].AnimationData.SoundEvents[0].Sound 4
+SetField Animations[31].AnimationData.FrameEvents[0].Frame 3
+SetField Animations[31].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[31].AnimationData.FrameEvents[1].Frame 15
+SetField Animations[31].AnimationData.FrameEvents[2].TypeED AllowInterruption
+SetField Animations[31].AnimationData.FrameEvents[2].Frame 23
+SetField Animations[31].PlaybackFlags DisableWeaponAim1stPerson
+
+# [MELEE STRIKE 2]
+AddBlockElements Animations[32].AnimationData.FrameEvents 3
+AddBlockElements Animations[32].AnimationData.SoundEvents 1
+SetField Animations[32].AnimationData.SoundEvents[0].Sound 4
+SetField Animations[32].AnimationData.FrameEvents[0].Frame 3
+SetField Animations[32].AnimationData.FrameEvents[1].TypeED SecondaryKeyframe
+SetField Animations[32].AnimationData.FrameEvents[1].Frame 15
+SetField Animations[32].AnimationData.FrameEvents[2].TypeED AllowInterruption
+SetField Animations[32].AnimationData.FrameEvents[2].Frame 23
+SetField Animations[32].PlaybackFlags DisableWeaponAim1stPerson
+
+# [PITCH AND TURN]
+SetField Animations[35].AnimationData.BlendScreen 0
+
+# [POSING]
+SetField Animations[36].Weight 0.5
+SetField Animations[36].AnimationData.NextAnimation 37
+
+SetField Animations[37].Weight 1
+SetField Animations[37].AnimationData.ParentAnimation 36
+AddBlockElements Animations[37].AnimationData.SoundEvents 1
+SetField Animations[37].AnimationData.SoundEvents[0].Sound 6
+SetField Animations[37].AnimationData.ProductionFlags VerifySoundEvents
+SetField Modes[0].WeaponClass[0].WeaponType[0].Set.Actions[6].Animation 36
+
+# [READY]
+AddBlockElements Animations[39].AnimationData.SoundEvents 1
+SetField Animations[39].AnimationData.SoundEvents[0].Sound 7
+SetField Animations[39].PlaybackFlags DisableWeaponAim1stPerson
+
+# [RELOAD EMPTY]
+AddBlockElements Animations[40].AnimationData.FrameEvents 2
+AddBlockElements Animations[40].AnimationData.SoundEvents 1
+SetField Animations[40].AnimationData.SoundEvents[0].Sound 8
+SetField Animations[40].AnimationData.FrameEvents[0].Frame 34
+SetField Animations[40].AnimationData.FrameEvents[1].Frame 47
+SetField Animations[40].AnimationData.FrameEvents[1].TypeED AllowInterruption
+SetField Animations[40].PlaybackFlags DisableWeaponAim1stPerson
+SetField Animations[40].AnimationData.ProductionFlags VerifySoundEvents
+
+# [RELOAD FULL]
+AddBlockElements Animations[41].AnimationData.FrameEvents 2
+AddBlockElements Animations[41].AnimationData.SoundEvents 1
+SetField Animations[41].AnimationData.SoundEvents[0].Sound 8
+SetField Animations[41].AnimationData.FrameEvents[0].Frame 34
+SetField Animations[41].AnimationData.FrameEvents[1].Frame 47
+SetField Animations[41].AnimationData.FrameEvents[1].TypeED AllowInterruption
+SetField Animations[41].PlaybackFlags DisableWeaponAim1stPerson
+SetField Animations[41].AnimationData.ProductionFlags VerifySoundEvents
+
+# [THROW EQUIPMENT]
+AddBlockElements Animations[42].AnimationData.FrameEvents 1
+SetField Animations[42].AnimationData.FrameEvents[0].Frame 12
+
+# [THROW GRENADE]
+AddBlockElements Animations[43].AnimationData.FrameEvents 1
+SetField Animations[43].AnimationData.FrameEvents[0].Frame 11
+SaveTagChanges
+Exit

@@ -1,0 +1,5 @@
+EditTag objects\weapons\rifle\beam_rifle\fp_beam_rifle\fp_beam_rifle.render_model
+SetField MarkerGroups[1].Markers[0].Translation 0.185 -0.0003434857 -0.001923705
+SaveTagChanges
+Exit
+

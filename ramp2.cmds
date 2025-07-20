@@ -1,10 +1,10 @@
-D:\eldewrito\eldewrito 0.7\ElDewrito\maps
+D:\ElDewrito\0.7.1\maps\tags.dat
 
 # echo ==Set Variables...==
-SetVariable workingdir ""
-SetVariable modsfolder ""
-SetVariable reachmaps ""
-SetVariable odstmaps ""
+SetVariable workingdir "C:\Users\Harry Ricketts\Documents\GitHub\AMPTeam\RAMP"
+SetVariable modsfolder "D:\ElDewrito\0.7.1\mods"
+SetVariable reachmaps "F:\Builds\Gen3\HaloReach"
+SetVariable odstmaps "F:\Builds\Gen3\Halo3ODST"
 
 # echo ==Set Caches...==
 UseAudioCache workingdir\caches\audiocache
@@ -25,221 +25,7 @@ Exit
 
 # Update the version at the bottom of the pak
 
-## NO VALID RESOURCE DEFINITION IN ANY REACH CACHE
-## rasterizer\water\static_wave\static_wave_slope_water.bitmap
-OpenCacheFile "reachmaps\70_boneyard.map"
-PortTag rasterizer\rain\rain_noise_boundary.bitmap
-Exit
-OpenCacheFile "reachmaps\forge_halo.map"
-PortTag shaders\shader_options\bump_detail_blend.render_method_option
-PortTag shaders\shader_options\bump_three_detail_blend.render_method_option
-PortTag shaders\shader_options\bump_default_wrinkle.render_method_option
-PortTag shaders\shader_options\bump_detail_wrinkle.render_method_option
-PortTag shaders\glass_options\glass_specular_option.render_method_option
-PortTag shaders\wetness_options\wetness_simple.render_method_option
-PortTag shaders\wetness_options\wetness_flood.render_method_option
-PortTag shaders\shader_options\blend_source_from_albedo_alpha.render_method_option
-PortTag shaders\shader_options\blend_source_from_opacity_map.render_method_option
-Exit
-
-CreateTag glvs shaders\glass_shared_vertex_shaders
-CreateTag glps shaders\glass_shared_pixel_shaders
-CreateTag rmdf shaders\glass
-
-EditTag shaders\glass.rmdf
-StringId add calc_bumpmap_detail_blend_vs
-StringId add calc_bumpmap_detail_blend_ps
-StringId add calc_bumpmap_three_detail_blend_vs
-StringId add calc_bumpmap_three_detail_blend_ps
-StringId add standard_wrinkle
-StringId add calc_bumpmap_default_wrinkle_vs
-StringId add calc_bumpmap_default_wrinkle_ps
-StringId add detail_wrinkle
-StringId add calc_bumpmap_detail_wrinkle_vs
-StringId add calc_bumpmap_detail_wrinkle_ps
-StringId add wetness
-StringId add calc_wetness_simple_ps
-StringId add flood
-StringId add calc_wetness_flood_ps
-StringId add calc_wetness_ps
-StringId add alpha_blend_source
-StringId add from_albedo_alpha_without_fresnel
-StringId add albedo_alpha_without_fresnel
-StringId add albedo_alpha
-StringId add from_opacity_map_alpha
-StringId add opacity_map_alpha
-StringId add from_opacity_map_rgb
-StringId add opacity_map_rgb
-StringId add from_opacity_map_alpha_and_albedo_alpha
-StringId add opacity_map_alpha_and_albedo_alpha
-
-SetField GlobalOptions shaders\shader_options\global_shader_options.render_method_option
-AddBlockElements Categories 6
-SetField Categories[0].Name albedo
-AddBlockElements Categories[0].ShaderOptions 1
-SetField Categories[0].ShaderOptions[0].Name map
-SetField Categories[0].ShaderOptions[0].Option shaders\shader_options\albedo_default.render_method_option
-SetField Categories[0].ShaderOptions[0].VertexFunction calc_albedo_default_vs
-SetField Categories[0].ShaderOptions[0].PixelFunction calc_albedo_default_ps
-SetField Categories[0].VertexFunction calc_albedo_vs
-SetField Categories[0].PixelFunction calc_albedo_ps
-SetField Categories[1].Name bump_mapping
-AddBlockElements Categories[1].ShaderOptions 7
-SetField Categories[1].ShaderOptions[0].Name off
-SetField Categories[1].ShaderOptions[0].Option shaders\shader_options\bump_off.render_method_option
-SetField Categories[1].ShaderOptions[0].VertexFunction calc_bumpmap_off_vs
-SetField Categories[1].ShaderOptions[0].PixelFunction calc_bumpmap_off_ps
-SetField Categories[1].ShaderOptions[1].Name standard
-SetField Categories[1].ShaderOptions[1].Option shaders\shader_options\bump_default.render_method_option
-SetField Categories[1].ShaderOptions[1].VertexFunction calc_bumpmap_default_vs
-SetField Categories[1].ShaderOptions[1].PixelFunction calc_bumpmap_default_ps
-SetField Categories[1].ShaderOptions[2].Name detail
-SetField Categories[1].ShaderOptions[2].Option shaders\shader_options\bump_detail.render_method_option
-SetField Categories[1].ShaderOptions[2].VertexFunction calc_bumpmap_detail_vs
-SetField Categories[1].ShaderOptions[2].PixelFunction calc_bumpmap_detail_ps
-SetField Categories[1].ShaderOptions[3].Name detail_blend
-SetField Categories[1].ShaderOptions[3].Option shaders\shader_options\bump_detail_blend.render_method_option
-SetField Categories[1].ShaderOptions[3].VertexFunction calc_bumpmap_detail_blend_vs
-SetField Categories[1].ShaderOptions[3].PixelFunction calc_bumpmap_detail_blend_ps
-SetField Categories[1].ShaderOptions[4].Name three_detail_blend
-SetField Categories[1].ShaderOptions[4].Option shaders\shader_options\bump_three_detail_blend.render_method_option
-SetField Categories[1].ShaderOptions[4].VertexFunction calc_bumpmap_three_detail_blend_vs
-SetField Categories[1].ShaderOptions[4].PixelFunction calc_bumpmap_three_detail_blend_ps
-SetField Categories[1].ShaderOptions[5].Name standard_wrinkle
-SetField Categories[1].ShaderOptions[5].Option shaders\shader_options\bump_default_wrinkle.render_method_option
-SetField Categories[1].ShaderOptions[5].VertexFunction calc_bumpmap_default_wrinkle_vs
-SetField Categories[1].ShaderOptions[5].PixelFunction calc_bumpmap_default_wrinkle_ps
-SetField Categories[1].ShaderOptions[6].Name detail_wrinkle
-SetField Categories[1].ShaderOptions[6].Option shaders\shader_options\bump_detail_wrinkle.render_method_option
-SetField Categories[1].ShaderOptions[6].VertexFunction calc_bumpmap_detail_wrinkle_vs
-SetField Categories[1].ShaderOptions[6].PixelFunction calc_bumpmap_detail_wrinkle_ps
-SetField Categories[1].VertexFunction calc_bumpmap_vs
-SetField Categories[1].PixelFunction calc_bumpmap_ps
-SetField Categories[2].Name material_model
-AddBlockElements Categories[2].ShaderOptions 1
-SetField Categories[2].ShaderOptions[0].Name two_lobe_phong_reach
-SetField Categories[2].ShaderOptions[0].Option shaders\glass_options\glass_specular_option.render_method_option
-SetField Categories[2].ShaderOptions[0].VertexFunction invalid
-SetField Categories[2].ShaderOptions[0].PixelFunction two_lobe_phong_reach
-SetField Categories[2].VertexFunction invalid
-SetField Categories[2].PixelFunction material_type
-SetField Categories[3].Name environment_mapping
-AddBlockElements Categories[3].ShaderOptions 4
-SetField Categories[3].ShaderOptions[0].Name none
-SetField Categories[3].ShaderOptions[0].Option null
-SetField Categories[3].ShaderOptions[0].VertexFunction invalid
-SetField Categories[3].ShaderOptions[0].PixelFunction none
-SetField Categories[3].ShaderOptions[1].Name per_pixel
-SetField Categories[3].ShaderOptions[1].Option shaders\shader_options\env_map_per_pixel.render_method_option
-SetField Categories[3].ShaderOptions[1].VertexFunction invalid
-SetField Categories[3].ShaderOptions[1].PixelFunction per_pixel
-SetField Categories[3].ShaderOptions[2].Name dynamic
-SetField Categories[3].ShaderOptions[2].Option shaders\shader_options\env_map_dynamic.render_method_option
-SetField Categories[3].ShaderOptions[2].VertexFunction invalid
-SetField Categories[3].ShaderOptions[2].PixelFunction dynamic
-SetField Categories[3].ShaderOptions[3].Name from_flat_texture
-SetField Categories[3].ShaderOptions[3].Option shaders\shader_options\env_map_from_flat_texture.render_method_option
-SetField Categories[3].ShaderOptions[3].VertexFunction invalid
-SetField Categories[3].ShaderOptions[3].PixelFunction from_flat_texture
-SetField Categories[3].VertexFunction invalid
-SetField Categories[3].PixelFunction envmap_type
-SetField Categories[4].Name wetness
-AddBlockElements Categories[4].ShaderOptions 2
-SetField Categories[4].ShaderOptions[0].Name simple
-SetField Categories[4].ShaderOptions[0].Option shaders\wetness_options\wetness_simple.render_method_option
-SetField Categories[4].ShaderOptions[0].VertexFunction invalid
-SetField Categories[4].ShaderOptions[0].PixelFunction calc_wetness_simple_ps
-SetField Categories[4].ShaderOptions[1].Name flood
-SetField Categories[4].ShaderOptions[1].Option shaders\wetness_options\wetness_flood.render_method_option
-SetField Categories[4].ShaderOptions[1].VertexFunction invalid
-SetField Categories[4].ShaderOptions[1].PixelFunction calc_wetness_flood_ps
-SetField Categories[4].VertexFunction invalid
-SetField Categories[4].PixelFunction calc_wetness_ps
-SetField Categories[5].Name alpha_blend_source
-AddBlockElements Categories[5].ShaderOptions 5
-SetField Categories[5].ShaderOptions[0].Name from_albedo_alpha_without_fresnel
-SetField Categories[5].ShaderOptions[0].Option null
-SetField Categories[5].ShaderOptions[0].VertexFunction invalid
-SetField Categories[5].ShaderOptions[0].PixelFunction albedo_alpha_without_fresnel
-SetField Categories[5].ShaderOptions[1].Name from_albedo_alpha
-SetField Categories[5].ShaderOptions[1].Option shaders\shader_options\blend_source_from_albedo_alpha.render_method_option
-SetField Categories[5].ShaderOptions[1].VertexFunction invalid
-SetField Categories[5].ShaderOptions[1].PixelFunction albedo_alpha
-SetField Categories[5].ShaderOptions[2].Name from_opacity_map_alpha
-SetField Categories[5].ShaderOptions[2].Option shaders\shader_options\blend_source_from_opacity_map.render_method_option
-SetField Categories[5].ShaderOptions[2].VertexFunction invalid
-SetField Categories[5].ShaderOptions[2].PixelFunction opacity_map_alpha
-SetField Categories[5].ShaderOptions[3].Name from_opacity_map_rgb
-SetField Categories[5].ShaderOptions[3].Option shaders\shader_options\blend_source_from_opacity_map.render_method_option
-SetField Categories[5].ShaderOptions[3].VertexFunction invalid
-SetField Categories[5].ShaderOptions[3].PixelFunction opacity_map_rgb
-SetField Categories[5].ShaderOptions[4].Name from_opacity_map_alpha_and_albedo_alpha
-SetField Categories[5].ShaderOptions[4].Option shaders\shader_options\blend_source_from_opacity_map.render_method_option
-SetField Categories[5].ShaderOptions[4].VertexFunction invalid
-SetField Categories[5].ShaderOptions[4].PixelFunction opacity_map_alpha_and_albedo_alpha
-SetField Categories[5].VertexFunction invalid
-SetField Categories[5].PixelFunction alpha_blend_source
-AddBlockElements EntryPoints 3
-SetField EntryPoints[0].EntryPoint Static_Sh
-SetField EntryPoints[1].EntryPoint Static_Per_Vertex
-SetField EntryPoints[2].EntryPoint Static_Prt_Ambient
-AddBlockElements EntryPoints[0].Passes 1
-AddBlockElements EntryPoints[1].Passes 1
-AddBlockElements EntryPoints[2].Passes 1
-AddBlockElements VertexTypes 3
-SetField VertexTypes[0].VertexType World
-SetField VertexTypes[1].VertexType Rigid
-SetField VertexTypes[2].VertexType Skinned
-SetField GlobalPixelShader shaders\glass_shared_pixel_shaders.glps
-SetField GlobalVertexShader shaders\glass_shared_vertex_shaders.glvs
-SetField Flags None
-SetField Version 0
-SaveTagChanges
-Exit
-GenerateShader glvs glass
-GenerateShader glps glass
-SaveTagNames
-
-# Thanks to NoShotz for helping out :), really appreciate it
-# echo ==Add default bitmap + parameter for reach diffuse power...==
-OpenCacheFile "reachmaps\dlc_slayer.map"
-PortTag rasterizer\diffuse_power_specular\diffuse_power.bitmap
-Exit
-EditTag *.rasg
-AddBlockElements defaultbitmaps
-SetField defaultbitmaps[*].bitmap rasterizer\diffuse_power_specular\diffuse_power.bitmap
-SaveTagChanges
-Exit
-StringId add g_diffuse_power_specular
-EditTag shaders\shader_options\material_cook_torrance_option_reach.render_method_option
-AddBlockElements parameters
-SetField parameters[*].name g_diffuse_power_specular
-SetField parameters[*].RenderMethodExtern material_diffuse_power
-SaveTagChanges
-Exit
-EditTag shaders\shader_options\material_two_lobe_phong_option_reach.render_method_option
-AddBlockElements parameters
-SetField parameters[*].name g_diffuse_power_specular
-SetField parameters[*].RenderMethodExtern material_diffuse_power
-SaveTagChanges
-Exit
-
-# echo ==Fix missing parameters in reach cook torrance...==
-EditTag shaders\shader_options\material_cook_torrance_option_reach.render_method_option
-AddBlockElements parameters
-SetField parameters[*].Name g_sampler_cc0236
-SetField parameters[*].rendermethodextern texture_cook_torrance_cc0236
-AddBlockElements parameters
-SetField parameters[*].Name g_sampler_dd0236
-SetField parameters[*].rendermethodextern texture_cook_torrance_dd0236
-AddBlockElements parameters
-SetField parameters[*].Name g_sampler_c78d78
-SetField parameters[*].rendermethodextern texture_cook_torrance_c78d78
-SaveTagChanges
-Exit
-
-# echo ==Reach water vertex shader...==
-##GenerateShader glvs water
+RunCommands "workingdir\cmds\shaders\shader_setup.cmds"
 
 # echo ==Bitmap Fixes...==
 RunCommands "workingdir\cmds\bitmaps\empty_bitmaps.cmds"
@@ -447,16 +233,18 @@ OpenModPackage "workingdir\paks\RAMPWeaponVariants.pak"
 ApplyModPackage
 ExitModPackage
 
-RunCommands workingdir\cmds\RAMPWeaponVariants.cmds
+RunCommands "workingdir\cmds\weapons\weapon_setup.cmds"
+
+RunCommands "workingdir\cmds\weapons\weapon_variants_setup.cmds"
 
 echo ==Remove newdamageinfo block for RAMP weapon variants==
-RunCommands workingdir\cmds\remove_newdamageinfo.cmds
+RunCommands "workingdir\cmds\weapons\weapon_damage_info_setup.cmds"
 
 echo ==Rebalanced RAMP weapon variants==
-RunCommands workingdir\cmds\RAMPWeapsRebalanced.cmds
+RunCommands "workingdir\cmds\weapons\weapon_balancing_setup.cmds"
 
 echo ==RAMP weapon ammo equipment pickup fix==
-RunCommands workingdir\cmds\RAMPWeapsAmmoPickup.cmds
+RunCommands "workingdir\cmds\weapons\weapon_ammo_pickup_setup.cmds"
 
 # echo ==Apply RAMP Forge Blocks, Health Pack, Land Mine, TPs, Zealot Shield Door==
 OpenModPackage "workingdir\paks\rampstuff.pak"
@@ -514,7 +302,7 @@ SaveTagChanges
 Exit
 
 # echo ==Fixed all Armor names and descriptions in Customization==
-RunCommands "workingdir\cmds\CustomizationStrings.cmds"
+RunCommands "cmds\customization\customization_strings.cmds"
 
 # echo ==Fix Shiny elite skin and teeth, arby cc, and Ranger visor
 
@@ -649,12 +437,11 @@ SaveTagChanges
 Exit
 
 echo == GOLF CLUB ==
-RunCommands "workingdir\cmds\golf_club.cmds"
+RunCommands "workingdir\cmds\weapons\golf_club_setup.cmds"
 
 echo == FORGE ==
-RunCommands "workingdir\cmds\forge_object_ff_palette.cmds"
-RunCommands "workingdir\cmds\forge_object_port.cmds"
-RunCommands "workingdir\cmds\forge_object_palette.cmds"
+RunCommands "workingdir\cmds\forge\forge_object_porting.cmds"
+RunCommands "workingdir\cmds\forge\forge_object_palette_setup.cmds"
 
 echo == DUMPSTER HINGE FIX ==
 EditTag objects\props\human\urban\dumpster\dumpster.physics_model
@@ -1163,25 +950,33 @@ SetField RenderMethod.ShaderProperties[0].TextureConstants[2].Bitmap fx\bitmaps\
 SaveTagChanges
 Exit
 
+echo ==H2AMP Beam Rifle==
+OpenModPackage "workingdir\paks\h2amp_beam_rifle.pak"
+ApplyModPackage
+ExitModPackage
 
 echo ==Spartan Weapons Animation==
-RunCommands "workingdir\cmds\spartan_animations.cmds"
-RunCommands "workingdir\cmds\spartan_rendermodel.cmds"
+RunCommands "workingdir\cmds\animations\spartan\spartan_weapon_animation_setup.cmds"
+RunCommands "workingdir\cmds\animations\spartan\spartan_weapon_ik_setup.cmds"
 
 echo ==Elite Weapons Animation==
-RunCommands "workingdir\cmds\elite_animations.cmds"
-RunCommands "workingdir\cmds\elite_rendermodel.cmds"
+RunCommands "workingdir\cmds\animations\elite\elite_weapon_animation_setup.cmds"
+RunCommands "workingdir\cmds\animations\elite\elite_weapon_ik_setup.cmds"
+
+ech ==Generic Weapon Animation==
+RunCommands "workingdir\cmds\animations\weapon_ik_setup.cmds"
 
 echo ==CHDT Weapons==
-RunCommands "workingdir\cmds\CHDTpart1.cmds"
-RunCommands "workingdir\cmds\CHDTpart2.cmds"
-RunCommands "workingdir\cmds\CHDTpart3.cmds"
+RunCommands "workingdir\cmds\chud\chud_weapon_setup.cmds"
+RunCommands "workingdir\cmds\chud\chud_vehicle_setup.cmds"
+RunCommands "workingdir\cmds\chud\chud_base_setup.cmds"
 
 echo ==Shader Fixes==
-RunCommands "workingdir\cmds\shaderfixes.cmds"
+RunCommands "workingdir\cmds\shaders\shader_fixes.cmds"
 
 echo ==Third person animations==
-RunCommands "workingdir\cmds\3Panimations.cmds"
+RunCommands "workingdir\cmds\animations\spartan\spartan_animation_setup.cmds"
+RunCommands "workingdir\cmds\animations\elite\elite_animation_setup.cmds"
 
 echo ==Prevent vehicles being succed by golf cup==
 EditTag objects\levels\shared\golf_cup\golf_cup.physics_model
@@ -1291,7 +1086,7 @@ SaveTagChanges
 Exit
 
 echo ==Weapons Viewmodel Support==
-RunCommands "workingdir\cmds\weapons_viewmodel.cmds"
+RunCommands "workingdir\cmds\weapons\weapon_view_model_setup.cmds"
 
 echo ==Tempest Skybox Fix==
 EditTag levels\multi\dlc\dlc_medium\dlc_medium_beachhead_sky\shaders\dlc_medium_blue_sky_dome.shader
@@ -1561,10 +1356,10 @@ RunCommands "workingdir\cmds\scenarios\mp\scenario_podium_mp.cmds"
 RunCommands "workingdir\cmds\scenarios\ff\scenario_podium_ff.cmds"
 
 # echo ==Copy 0.7 NewDamageInfo for fusion coil and plasma battery...==
-RunCommands "workingdir\cmds\fusion_coil_plasma_battery_damage.cmds"
+RunCommands "workingdir\cmds\forge\forge_object_damage_info_setup.cmds"
 
 # echo ==Fix Holograms...==
-RunCommands "workingdir\cmds\fixholograms.cmds"
+RunCommands "workingdir\cmds\equipment\hologram_fixes.cmds"
 
 # echo ==Character Model Improvements...==
 EditTag objects\characters\elite\mp_elite\mp_elite.render_model
@@ -1592,8 +1387,7 @@ Exit
 ##SaveTagChanges
 ##Exit
 
-# echo ==Fix Covenant Portable Shield==
-RunCommands "workingdir\cmds\portableshieldfix.cmds"
+RunCommands "workingdir\cmds\equipment\instantcover_fixes.cmds"
 
 # echo ==Fix Kill Volume Physics==
 EditTag objects\multi\models\ff_kill_zone\ff_kill_zone.physics_model
@@ -1614,9 +1408,8 @@ RemoveBlockElements EffectScenery 59 4
 SaveTagChanges
 Exit
 
-# echo ==Map sound scenery issue fix==
-RunCommands "workingdir\cmds\soundsceneryscenario.cmds"
-
+RunCommands "workingdir\cmds\scenarios\mp\scenario_fixes_mp.cmds"
+RunCommands "workingdir\cmds\scenarios\ff\scenario_fixes_ff.cmds"
 
 # echo ==Zealot Low Gravity Collision Fix==
 EditTag objects\levels\multi\45_aftship\zero_g_field\zero_g_field.physics_model
@@ -1804,10 +1597,7 @@ SaveTagChanges
 Exit
 
 # echo ==Fix weapon icons and strings==
-RunCommands workingdir\cmds\weapon_strings.cmds
-
-# == Automag and Silenced SMG Animations==
-RunCommands "workingdir\cmds\odstweapsanimations.cmds"
+RunCommands "workingdir\cmds\weapons\weapon_pickup_strings.cmds"
 
 # echo ==Add shield break sfx==
 EditTag objects\characters\masterchief\fx\shield\shield_collapse.effect
@@ -2093,8 +1883,11 @@ SetField Regions[0].Permutations[0].BspPhysics[0].GeometryShape.Model levels\dlc
 SaveTagChanges
 Exit
 
+# echo ==Update Customization Strings==
 # echo ==Restore Revenge Medal==
 EditTag multiplayer\multiplayer_globals.multiplayer_globals
+SetField Universal[0].CustomizableCharacters[0].Regions[3].Name chest
+SetField Universal[0].CustomizableCharacters[0].Regions[15].Name body
 SetField Runtime[0].EarnWpEvents[31].MedalAward medal_nemesis
 SetField Runtime[0].EarnWpEvents[31].RuntimeEventType General
 SaveTagChanges
@@ -2119,10 +1912,10 @@ Exit
 
 
 # echo ==Replace medals in medals_lg_ui with Reach Medals ==
-RunCommands "workingdir\cmds\reachify_medals_lg_ui.cmds"
+RunCommands "workingdir\cmds\ui\reach_large_medals.cmds"
 
 # echo ==Fix the glass on the duplicate DLC forge items ==
-RunCommands "workingdir\cmds\forge_dlc_block_glass.cmds"
+RunCommands "workingdir\cmds\shaders\shader_glass_fixes.cmds"
 
 # echo ==Fix Armor Lights ==
 OpenCacheFile "reachmaps\forge_halo.map"
@@ -2140,7 +1933,7 @@ SetField shaderproperties[0].Functions[0].Type ChangeColorQuaternary
 SaveTagChanges
 Exit
 
-ImportFonts workingdir\fonts_new.bin
+ImportFonts "workingdir\fonts\fonts_new.bin"
 
 DeleteModFiles
 
@@ -2173,10 +1966,10 @@ ApplyModPackage
 ExitModPackage
 
 # echo == Reach Civilian Vehicles ==
-RunCommands "workingdir\cmds\reachcivilianvehicles.cmds"
+RunCommands "workingdir\cmds\vehicles\civilian_vehicles.cmds"
 
 # echo ==Added Reach EMP effect to all vehicles ==
-RunCommands "workingdir\cmds\EMP Effects.cmds"
+RunCommands "workingdir\cmds\vehicles\vehicle_emp_setup.cmds"
 
 EditTag objects\vehicles\human\civilian\truck_cab_large\shaders\military_container_tiled.shader
 SetArgument specular_coefficient 0.2
@@ -2198,12 +1991,6 @@ SetArgument specular_coefficient 0.2
 SaveTagChanges
 Exit
 
-
-echo ==H2AMP Beam Rifle==
-OpenModPackage "workingdir\paks\h2amp_beam_rifle.pak"
-ApplyModPackage
-ExitModPackage
-
 # Make sure this last part is always last to prevent emotes and falcon enter animations from breaking:
 EditTag objects\characters\elite\elite.model_animation_graph
 SortModes
@@ -2222,9 +2009,6 @@ SetField Modes[14].ModeIk[3].Marker left_foot
 SortModes
 SaveTagChanges
 Exit
-
-# echo == H2A Beam rifle animaton ==
-RunCommands "workingdir\cmds\enashh2abeamrifleanimation.cmds"
 
 # echo ==Nerf Magnum accuracy and firing penalties==
 EditTag objects\weapons\pistol\magnum\magnum.weapon
@@ -2265,18 +2049,17 @@ ImportBitmap 0 workingdir\bitmaps\AuntieDot.dds
 Exit
 
 # echo Add Concept LMG
-RunCommands "workingdir\cmds\lmg.cmds"
+RunCommands "workingdir\cmds\weapons\lmg_setup.cmds"
 
 echo ==Add Stanchion==
-RunCommands "workingdir\cmds\Stanchion.cmds"
+RunCommands "workingdir\cmds\weapons\stanchion_setup.cmds"
+
+echo ==Duals Weapons Sound==
+RunCommands "workingdir\cmds\sounds\dual_wield_sound_setup.cmds"
 
 echo ==Duals Weapons Animation==
-RunCommands "workingdir\cmds\duals_sound.cmds"
-RunCommands "workingdir\cmds\elite_duals_animations.cmds"
-RunCommands "workingdir\cmds\spartan_duals_animations.cmds"
-
-echo ==Duals Weapons Implementation==
-RunCommands "workingdir\cmds\dual_weaps_implementation.cmds"
+RunCommands "workingdir\cmds\animations\elite\elite_dual_wield_animation_setup.cmds"
+RunCommands "workingdir\cmds\animations\spartan\spartan_dual_wield_animation_setup.cmds"
 
 echo == Fix battle rifle power ammo counter ==
 EditTag ui\chud\battle_rifle_power.chud_definition
@@ -2329,9 +2112,6 @@ EditTag objects\props\human\pioneer\farm\bags_compost_pile_a\bags_compost_pile_a
 RemoveBlockElements ChangeColors 0 *
 SaveTagChanges
 Exit
-
-echo ==Super Carrier==
-RunCommands "workingdir\cmds\SuperCarrier.cmds"
 
 echo ==Space Vehicles + MAC Cannon==
 OpenModPackage "workingdir\paks\ReachSpaceVehiclesNoBloatWare.pak"
@@ -3452,7 +3232,7 @@ savetagchanges
 exit
 
 echo == MOA JOCKEY ==
-RunCommands "workingdir\cmds\Moa.cmds"
+RunCommands "workingdir\cmds\bipeds\moa_setup.cmds"
 
 echo == Map Variants ==
 RunCommands "workingdir\cmds\map_variants\mp\map_variants_mp.cmds"
@@ -3517,13 +3297,10 @@ setfield Radius 0.75 2
 savetagchanges
 exit
 
-echo ==Objective weapons animations==
-RunCommands "workingdir\cmds\RAMPObjectiveWeapsAnims.cmds"
-
 echo ==MORE REFORGE BLOCK==
-RunCommands "workingdir\cmds\extra_reforge_0.1.cmds"
-RunCommands "workingdir\cmds\extra_reforge_0.5.cmds"
-RunCommands "workingdir\cmds\extra_reforge_1.cmds"
+RunCommands "workingdir\cmds\forge\forge_reforge_objects_0_1_setup.cmds"
+RunCommands "workingdir\cmds\forge\forge_reforge_objects_0_5_setup.cmds"
+RunCommands "workingdir\cmds\forge\forge_reforge_objects_1_setup.cmds"
 
 echo ==FIXUP DOOR BUTTON==
 edittag objects\levels\shared\device_controls\switches\hum_keypad_02\hum_keypad_02.device_control

@@ -1,0 +1,8 @@
+# -----------------------------------------------
+# I                  UNEARTHED                  I
+# -----------------------------------------------
+EditTag levels\dlc\ff_unearthed\ff_unearthed.scenario
+# CA_FLUORESCENT LIGHT
+RemoveBlockElements SoundScenery 43 124
+SaveTagChanges
+Exit

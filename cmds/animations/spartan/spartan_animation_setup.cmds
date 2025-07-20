@@ -1,0 +1,25 @@
+EditTag objects\characters\masterchief\masterchief.jmad
+AddAnimation workingdir\animations\masterchief
+
+AddBlockElements Animations[220].AnimationData.EffectEvents
+SetField Animations[220].AnimationData.EffectEvents[0].Frame 9
+SetField Animations[220].AnimationData.EffectEvents[0].MarkerName hammer_detonation
+SetField Animations[220].AnimationData.EffectEvents[0].DamageEffectReportingType.HaloOnline Guardians
+AddBlockElements Animations[220].AnimationData.ObjectSpaceParentNodes
+SetField Animations[220].AnimationData.ObjectSpaceParentNodes[0].Flags Rotation
+SetField Animations[220].AnimationData.ObjectSpaceParentNodes[0].RotationX -22365
+SetField Animations[220].AnimationData.ObjectSpaceParentNodes[0].RotationY -8095
+SetField Animations[220].AnimationData.ObjectSpaceParentNodes[0].RotationZ -20136
+SetField Animations[220].AnimationData.ObjectSpaceParentNodes[0].RotationW 10121
+SetField Animations[220].AnimationData.ObjectSpaceParentNodes[0].DefaultTranslation -0.00821 -1.6748E-08 0.3684624
+SetField Animations[220].AnimationData.ObjectSpaceParentNodes[0].DefaultScale 1
+
+AddBlockElements Animations[1241].AnimationData.FrameEvents 2
+SetField Animations[1241].AnimationData.FrameEvents[0].TypeED LeftFoot
+SetField Animations[1241].AnimationData.FrameEvents[0].Frame 1
+SetField Animations[1241].AnimationData.FrameEvents[1].TypeED RightFoot
+SetField Animations[1241].AnimationData.FrameEvents[1].Frame 8
+SetField Animations[1241].AnimationData.Heading 0.9999995 -0.0009953227 0
+SetField Animations[1241].AnimationData.AverageTranslationMagnitude 0.1199909
+SaveTagChanges
+Exit

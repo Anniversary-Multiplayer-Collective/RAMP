@@ -1,0 +1,91 @@
+EditTag objects\weapons\multiplayer\ball\ball.weapon
+SetField FirstPerson[1].FirstPersonAnimations objects\characters\dervish\fp\weapons\multiplayer\fp_ball\fp_ball.model_animation_graph
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\multiplayer\assault_bomb\assault_bomb.weapon
+SetField FirstPerson[1].FirstPersonAnimations objects\characters\dervish\fp\weapons\multiplayer\fp_assault_bomb\fp_assault_bomb.model_animation_graph
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\pistol\automag\automag.weapon
+SetField FirstPerson[1].FirstPersonAnimations objects\characters\dervish\fp\weapons\pistol\fp_automag\fp_automag.model_animation_graph
+SetField HudInterface ui\chud\automag.chud_definition
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\rifle\smg_silenced\smg_silenced.weapon
+SetField FirstPerson[1].FirstPersonAnimations objects\characters\dervish\fp\weapons\rifle\fp_smg\fp_smg.model_animation_graph
+SetField HudInterface ui\chud\smg_silenced.chud_definition
+SaveTagChanges
+Exit
+
+# Why do I get a sense of deja vu?
+# That's the way I like it
+# generatebitmap dw3\r3ach\objects\weapons\pistol\needler\bitmaps\ramp_needler_purple_diffuse workingdir\bitmaps\needler_diffuse.dds
+
+DuplicateTag dw3\r3ach\objects\weapons\pistol\needler\shaders\needler_shell.shader dw3\r3ach\objects\weapons\pistol\needler\shaders\ramp_needler_purple_shell
+EditTag dw3\r3ach\objects\weapons\pistol\needler\shaders\ramp_needler_purple_shell.shader
+# SetField ShaderProperties[0].TextureConstants[0].Bitmap dw3\r3ach\objects\weapons\pistol\needler\bitmaps\ramp_needler_purple_diffuse.bitmap
+# SetArgument fresnel_color 0.3372549 0.2156863 0.5764706 1
+# SetArgument specular_tint 0.4941177 0.3333333 0.4039216 1
+# SetArgument env_tint_color 0.7254902 0.9058824 1.1 1
+
+SetArgument albedo_color 0.8 1 1 1
+SetArgument env_tint_color 1.522549 2.105882 4 1
+SetArgument specular_tint 0.5941177 0.3333333 0.4039216 1
+SetArgument fresnel_color 0.3872549 0.256863 0.3364706 1
+SaveTagChanges
+Exit
+
+DuplicateTag dw3\r3ach\objects\weapons\pistol\needler\shaders\needler_metal.shader dw3\r3ach\objects\weapons\pistol\needler\shaders\ramp_needler_purple_metal
+EditTag dw3\r3ach\objects\weapons\pistol\needler\shaders\ramp_needler_purple_metal.shader
+# SetField ShaderProperties[0].TextureConstants[0].Bitmap dw3\r3ach\objects\weapons\pistol\needler\bitmaps\ramp_needler_purple_diffuse.bitmap
+SetArgument fresnel_color 0.454902 0.427451 0.5607843 1
+SaveTagChanges
+Exit
+
+DuplicateTag dw3\r3ach\objects\weapons\pistol\needler\needler.render_model dw3\r3ach\objects\weapons\pistol\needler\ramp_needler_purple
+EditTag dw3\r3ach\objects\weapons\pistol\needler\ramp_needler_purple.render_model
+SetField Materials[1].RenderMethod dw3\r3ach\objects\weapons\pistol\needler\shaders\ramp_needler_purple_metal.shader
+SetField Materials[2].RenderMethod dw3\r3ach\objects\weapons\pistol\needler\shaders\ramp_needler_purple_shell.shader
+SaveTagChanges
+Exit
+
+DuplicateTag dw3\r3ach\objects\weapons\pistol\needler\needler.model dw3\r3ach\objects\weapons\pistol\needler\ramp_needler_purple
+EditTag dw3\r3ach\objects\weapons\pistol\needler\ramp_needler_purple.model
+SetField RenderModel dw3\r3ach\objects\weapons\pistol\needler\ramp_needler_purple.render_model
+SaveTagChanges
+Exit
+
+# OK THERES LORE AS FOR WHY SPARTAN AND ELITE CAN ONLY DUAL WIELD PURPLE NEEDLER, IT MAKE SENSE GUYS
+DuplicateTag objects\weapons\pistol\needler\needler.weapon objects\weapons\pistol\needler\ramp_needler_purple
+EditTag objects\weapons\pistol\needler\ramp_needler_purple.weapon
+SetField WeaponAimAssist.AutoaimRange 19
+SetField Model dw3\r3ach\objects\weapons\pistol\needler\ramp_needler_purple.model
+SetField FirstPerson[0].FirstPersonModel dw3\r3ach\objects\weapons\pistol\needler\ramp_needler_purple.render_model
+SetField FirstPerson[1].FirstPersonModel dw3\r3ach\objects\weapons\pistol\needler\ramp_needler_purple.render_model
+SetField WeaponFlags.NewFlags CanBeDualWielded
+SetField PickupOrDualWieldMessage nd_dual
+SetField SwapOrDualWieldMessage nd_dual_swap
+SaveTagChanges
+Exit
+
+ForEach weap contains: objects\weapons\pistol\magnum SetField WeaponFlags.NewFlags CanBeDualWielded
+ForEach weap contains: objects\weapons\pistol\automag SetField WeaponFlags.NewFlags CanBeDualWielded
+ForEach weap contains: objects\weapons\pistol\plasma_pistol SetField WeaponFlags.NewFlags CannotFireAtMaximumAge,CanBeDualWielded
+ForEach weap contains: objects\weapons\rifle\plasma_rifle\plasma_rifle SetField WeaponFlags.NewFlags CannotFireAtMaximumAge,LoopFPFiringAnimation,CanBeDualWielded
+ForEach weap contains: objects\weapons\rifle\spike_rifle SetField WeaponFlags.NewFlags LoopFPFiringAnimation,CanBeDualWielded
+ForEach weap contains: objects\weapons\rifle\smg SetField WeaponFlags.NewFlags CanBeDualWielded
+ForEach weap contains: objects\weapons\rifle\smg_silenced SetField WeaponFlags.NewFlags LoopFPFiringAnimation,CanBeDualWielded
+
+StringId Add needler_dual
+edittag multiplayer\multiplayer_globals.multiplayer_globals
+addblockelements Universal[0].GameVariantWeapons
+setfield Universal[0].GameVariantWeapons[*].Name needler_dual
+setfield Universal[0].GameVariantWeapons[*].RandomChance 0.1
+setfield Universal[0].GameVariantWeapons[*].Weapon objects\weapons\pistol\needler\ramp_needler_purple.weapon
+savetagchanges
+exit
+
+AddForgeItem "NEEDLER [DUAL WIELDABLE]" "POWER WEAPONS" objects\weapons\pistol\needler\ramp_needler_purple.weapon

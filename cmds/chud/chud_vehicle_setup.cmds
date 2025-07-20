@@ -1,0 +1,111 @@
+# ----------------------------------------------------------------
+# I                          CHAIN GUN                           I
+# ----------------------------------------------------------------
+EditTag ui\chud\plasma_rifle.chud_definition
+CopyBlockElements HudWidgets 5 1
+Exit
+
+EditTag ui\chud\v_chaingun.chud_definition
+PasteBlockElements HudWidgets
+RemoveBlockElements HudWidgets[1].TextWidgets 0 *
+SetField HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.7 0.7
+SetField HudWidgets[1].BitmapWidgets[1].BitmapSequenceIndex 23
+
+SetField HudWidgets[1].BitmapWidgets[0].RuntimeWidgetIndex 1
+SetField HudWidgets[1].BitmapWidgets[1].RuntimeWidgetIndex 2
+SetField HudWidgets[1].BitmapWidgets[2].RuntimeWidgetIndex 3
+SetField HudWidgets[1].BitmapWidgets[3].RuntimeWidgetIndex 4
+SetField HudWidgets[1].BitmapWidgets[4].RuntimeWidgetIndex 5
+SetField HudWidgets[1].BitmapWidgets[5].RuntimeWidgetIndex 6
+
+SaveTagChanges
+Exit
+
+# ----------------------------------------------------------------
+# I                        GAUSS CANNON                          I
+# ----------------------------------------------------------------
+EditTag ui\chud\v_gaussturret.chud_definition
+SetField HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.53 0.53
+SaveTagChanges
+Exit
+
+# ----------------------------------------------------------------
+# I                            DRIVER                            I
+# ----------------------------------------------------------------
+EditTag ui\chud\v_driver.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.56 0.56
+SaveTagChanges
+Exit
+
+# ----------------------------------------------------------------
+# I                           BANSHEE                            I
+# ----------------------------------------------------------------
+EditTag ui\chud\v_banshee.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.54 0.54
+SaveTagChanges
+Exit
+
+
+# ----------------------------------------------------------------
+# I                       THE FUCKING REST                       I
+# ----------------------------------------------------------------
+EditTag ui\chud\v_chopper.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.697 0.694
+SaveTagChanges
+Exit
+
+EditTag ui\chud\v_ghost.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.7 0.7
+SaveTagChanges
+Exit
+
+EditTag ui\chud\v_grinderdriver.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.56 0.56
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Offset 0 -50
+SaveTagChanges
+Exit
+
+EditTag ui\chud\v_grinderturret.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.64 0.64
+SaveTagChanges
+Exit
+
+EditTag ui\chud\v_hornet.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.82 0.82
+SaveTagChanges
+Exit
+
+EditTag ui\chud\v_mongoose.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.56 0.56
+SaveTagChanges
+Exit
+
+EditTag ui\chud\v_scorpion.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.705 0.705
+SaveTagChanges
+Exit
+
+EditTag ui\chud\v_scorpionturret.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.7 0.7
+SaveTagChanges
+Exit
+
+EditTag ui\chud\v_shade.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.7 0.7
+SaveTagChanges
+Exit
+
+EditTag ui\chud\v_wraith.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.7 0.7
+SaveTagChanges
+Exit
+
+EditTag ui\chud\v_wraithturret.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.7 0.7
+SaveTagChanges
+Exit
+
+EditTag ui\chud\v_wraith_anti_air.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.7 0.7
+SaveTagChanges
+Exit

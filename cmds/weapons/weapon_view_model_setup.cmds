@@ -1,0 +1,161 @@
+EditTag objects\weapons\melee\energy_blade\energy_blade.weapon
+SetField WeaponTypeName offset_energy_sword
+SetField CenteredFirstPersonWeaponOffset 0 0 -0.01
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\melee\energy_blade\energy_blade_useless.weapon
+SetField WeaponTypeName offset_energy_sword
+SetField CenteredFirstPersonWeaponOffset 0 0 -0.01
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\melee\gravity_hammer\gravity_hammer.weapon
+SetField WeaponTypeName offset_gravity_hammer
+SetField CenteredFirstPersonWeaponOffset 0 0 -0.01
+SaveTagChanges
+Exit
+
+ForEach weap contains: objects\weapons\pistol\magnum SetField WeaponTypeName offset_magnum
+ForEach weap contains: objects\weapons\pistol\magnum SetField FirstPersonWeaponOffset 0 0 0
+ForEach weap contains: objects\weapons\pistol\magnum SetField CenteredFirstPersonWeaponOffset 0 0 -0.04
+
+EditTag objects\weapons\pistol\needler\needler.weapon
+SetField WeaponTypeName offset_needler
+SetField CenteredFirstPersonWeaponOffset 0 0 -0.01
+SetField FirstPersonWeaponOffset 0.01 0 0
+SaveTagChanges
+Exit
+
+ForEach weap contains: objects\weapons\pistol\plasma_pistol SetField WeaponTypeName offset_plasma_pistol
+ForEach weap contains: objects\weapons\pistol\plasma_pistol SetField FirstPersonWeaponOffset 0 0 0
+ForEach weap contains: objects\weapons\pistol\plasma_pistol SetField CenteredFirstPersonWeaponOffset 0 0 -0.02
+
+StringId add offset_target_laser
+EditTag objects\weapons\pistol\target_laser\target_laser.weapon
+SetField WeaponTypeName offset_target_laser
+SetField CenteredFirstPersonWeaponOffset 0 0 -0.02
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\rifle\assault_rifle\assault_rifle.weapon
+SetField WeaponTypeName offset_assault_rife
+SetField CenteredFirstPersonWeaponOffset 0 0 -0.015
+SaveTagChanges
+Exit
+
+ForEach weap contains: objects\weapons\rifle\battle_rifle SetField WeaponTypeName offset_battle_rife
+ForEach weap contains: objects\weapons\rifle\battle_rifle SetField FirstPersonWeaponOffset 0.025 0 0
+ForEach weap contains: objects\weapons\rifle\battle_rifle SetField CenteredFirstPersonWeaponOffset 0.025 0 -0.01
+
+StringId add offset_concussion_rifle
+EditTag objects\weapons\rifle\concussion_rifle\concussion_rifle.weapon
+SetField WeaponTypeName offset_concussion_rifle
+SetField CenteredFirstPersonWeaponOffset -0.01 0 -0.01
+SaveTagChanges
+Exit
+
+ForEach weap contains: objects\weapons\rifle\dmr SetField WeaponTypeName offset_dmr
+ForEach weap contains: objects\weapons\rifle\dmr SetField FirstPersonWeaponOffset 0 0 -0.002
+ForEach weap contains: objects\weapons\rifle\dmr SetField CenteredFirstPersonWeaponOffset -0.01 0 -0.0028
+
+StringId add offset_focus_rifle
+EditTag objects\weapons\rifle\focus_rifle\focus_rifle.weapon
+SetField WeaponTypeName offset_focus_rifle
+SetField CenteredFirstPersonWeaponOffset -0.02 0 -0.01
+SaveTagChanges
+Exit
+
+StringId add offset_grenade_launcher
+EditTag objects\weapons\rifle\grenade_launcher\grenade_launcher.weapon
+SetField WeaponTypeName offset_grenade_launcher
+SetField CenteredFirstPersonWeaponOffset -0.01 0 -0.01
+SaveTagChanges
+Exit
+
+StringId add offset_needle_rifle
+EditTag objects\weapons\rifle\needle_rifle\needle_rifle.weapon
+SetField WeaponTypeName offset_needle_rifle
+SetField CenteredFirstPersonWeaponOffset -0.015 -0.003 -0.01
+SaveTagChanges
+Exit
+
+StringId add offset_plasma_repeater
+EditTag objects\weapons\rifle\plasma_repeater\plasma_repeater.weapon
+SetField WeaponTypeName offset_plasma_repeater
+SetField CenteredFirstPersonWeaponOffset 0 -0.005 -0.01
+SaveTagChanges
+Exit
+
+ForEach weap contains: objects\weapons\rifle\plasma_rifle SetField WeaponTypeName offset_plasma_rife
+ForEach weap contains: objects\weapons\rifle\plasma_rifle SetField FirstPersonWeaponOffset 0 0 0
+ForEach weap contains: objects\weapons\rifle\plasma_rifle SetField CenteredFirstPersonWeaponOffset 0.015 0 -0.025
+
+EditTag objects\weapons\rifle\shotgun\shotgun.weapon
+SetField WeaponTypeName offset_shotgun
+SetField CenteredFirstPersonWeaponOffset 0 0 -0.01
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\rifle\sniper_rifle\sniper_rifle.weapon
+SetField WeaponTypeName offset_sniper_rife
+SetField CenteredFirstPersonWeaponOffset 0.025 0 -0.02
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\rifle\spike_rifle\spike_rifle.weapon
+SetField WeaponTypeName offset_spiker
+SetField CenteredFirstPersonWeaponOffset 0 0 -0.01
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\support_high\flak_cannon\flak_cannon.weapon
+SetField WeaponTypeName offset_fuel_rod
+SetField CenteredFirstPersonWeaponOffset 0 0 -0.01
+SaveTagChanges
+Exit
+
+StringId add offset_plasma_launcher
+EditTag objects\weapons\support_high\plasma_launcher\plasma_launcher.weapon
+SetField WeaponTypeName offset_plasma_launcher
+SetField CenteredFirstPersonWeaponOffset 0 0 -0.005
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\support_high\rocket_launcher\rocket_launcher.weapon
+SetField WeaponTypeName offset_rocket_launcher
+SetField CenteredFirstPersonWeaponOffset 0.02 0 -0.01
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\support_high\spartan_laser\spartan_laser.weapon
+SetField WeaponTypeName offset_spartan_laser
+SetField CenteredFirstPersonWeaponOffset 0 0 -0.01
+SaveTagChanges
+Exit
+
+StringId add offset_automag
+EditTag objects\weapons\pistol\automag\automag.weapon
+SetField WeaponTypeName offset_automag
+SetField CenteredFirstPersonWeaponOffset 0 0 -0.005
+SaveTagChanges
+Exit
+
+EditTag objects\weapons\rifle\smg_silenced\smg_silenced.weapon
+SetField WeaponTypeName offset_smg
+SetField CenteredFirstPersonWeaponOffset 0 0 -0.01
+SetField FirstPersonWeaponOffset 0 0 0
+SaveTagChanges
+Exit
+
+EditTag ui\weapon_type_names.multilingual_unicode_string_list
+SetString english offset_target_laser "TARGET LOCATOR"
+SetString english offset_concussion_rifle "CONCUSSION RIFLE"
+SetString english offset_focus_rifle "FOCUS RIFLE"
+SetString english offset_grenade_launcher "GRENADE LAUNCHER"
+SetString english offset_needle_rifle "NEEDLE RIFLE"
+SetString english offset_plasma_repeater "PLASMA REPEATER"
+SetString english offset_plasma_launcher "PLASMA LAUNCHER"
+SetString english offset_automag "AUTOMAG"
+SaveTagChanges
+Exit
