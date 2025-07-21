@@ -1,10 +1,10 @@
-D:\ElDewrito\0.7.1\maps\tags.dat
+D:\eldewrito\eldewrito 0.7\ElDewrito\maps
 
 # echo ==Set Variables...==
-SetVariable workingdir "C:\Users\Harry Ricketts\Documents\GitHub\AMPTeam\RAMP"
-SetVariable modsfolder "D:\ElDewrito\0.7.1\mods"
-SetVariable reachmaps "F:\Builds\Gen3\HaloReach"
-SetVariable odstmaps "F:\Builds\Gen3\Halo3ODST"
+SetVariable workingdir ""
+SetVariable modsfolder ""
+SetVariable reachmaps ""
+SetVariable odstmaps ""
 
 # echo ==Set Caches...==
 UseAudioCache workingdir\caches\audiocache
@@ -233,19 +233,6 @@ OpenModPackage "workingdir\paks\RAMPWeaponVariants.pak"
 ApplyModPackage
 ExitModPackage
 
-RunCommands "workingdir\cmds\weapons\weapon_setup.cmds"
-
-RunCommands "workingdir\cmds\weapons\weapon_variants_setup.cmds"
-
-echo ==Remove newdamageinfo block for RAMP weapon variants==
-RunCommands "workingdir\cmds\weapons\weapon_damage_info_setup.cmds"
-
-echo ==Rebalanced RAMP weapon variants==
-RunCommands "workingdir\cmds\weapons\weapon_balancing_setup.cmds"
-
-echo ==RAMP weapon ammo equipment pickup fix==
-RunCommands "workingdir\cmds\weapons\weapon_ammo_pickup_setup.cmds"
-
 # echo ==Apply RAMP Forge Blocks, Health Pack, Land Mine, TPs, Zealot Shield Door==
 OpenModPackage "workingdir\paks\rampstuff.pak"
 ApplyModPackage
@@ -302,7 +289,7 @@ SaveTagChanges
 Exit
 
 # echo ==Fixed all Armor names and descriptions in Customization==
-RunCommands "cmds\customization\customization_strings.cmds"
+RunCommands "workingdir\cmds\customization\customization_strings.cmds"
 
 # echo ==Fix Shiny elite skin and teeth, arby cc, and Ranger visor
 
@@ -386,6 +373,19 @@ Exit
 
 RunCommands "workingdir\cmds\scenarios\mp\scenario_porting_mp.cmds"
 RunCommands "workingdir\cmds\scenarios\ff\scenario_porting_ff.cmds"
+
+echo ==Add Void Canvas Map==
+## TODO: Inline the stupid canvas arguments
+## Why do yall never test running each command using the command runner :/
+GenerateCanvas
+levels\eldewrito\canvas\void
+Void
+Fill the void with your deepest desires.
+dank
+65534
+
+
+RunCommands "workingdir\cmds\scenarios\mp\scenario_void_setup.cmds"
 
 echo ==Fix Particles being sideways==
 EditTag levels\dlc\cex_ff_halo\fx\distantbeam.particle
@@ -963,8 +963,25 @@ echo ==Elite Weapons Animation==
 RunCommands "workingdir\cmds\animations\elite\elite_weapon_animation_setup.cmds"
 RunCommands "workingdir\cmds\animations\elite\elite_weapon_ik_setup.cmds"
 
-ech ==Generic Weapon Animation==
+echo ==Generic Weapon Animation==
 RunCommands "workingdir\cmds\animations\weapon_ik_setup.cmds"
+
+echo ==Third person animations==
+RunCommands "workingdir\cmds\animations\spartan\spartan_animation_setup.cmds"
+RunCommands "workingdir\cmds\animations\elite\elite_animation_setup.cmds"
+
+RunCommands "workingdir\cmds\weapons\weapon_setup.cmds"
+
+RunCommands "workingdir\cmds\weapons\weapon_variants_setup.cmds"
+
+echo ==Remove newdamageinfo block for RAMP weapon variants==
+RunCommands "workingdir\cmds\weapons\weapon_damage_info_setup.cmds"
+
+echo ==Rebalanced RAMP weapon variants==
+RunCommands "workingdir\cmds\weapons\weapon_balancing_setup.cmds"
+
+echo ==RAMP weapon ammo equipment pickup fix==
+RunCommands "workingdir\cmds\weapons\weapon_ammo_pickup_setup.cmds"
 
 echo ==CHDT Weapons==
 RunCommands "workingdir\cmds\chud\chud_weapon_setup.cmds"
@@ -973,10 +990,6 @@ RunCommands "workingdir\cmds\chud\chud_base_setup.cmds"
 
 echo ==Shader Fixes==
 RunCommands "workingdir\cmds\shaders\shader_fixes.cmds"
-
-echo ==Third person animations==
-RunCommands "workingdir\cmds\animations\spartan\spartan_animation_setup.cmds"
-RunCommands "workingdir\cmds\animations\elite\elite_animation_setup.cmds"
 
 echo ==Prevent vehicles being succed by golf cup==
 EditTag objects\levels\shared\golf_cup\golf_cup.physics_model
@@ -3053,10 +3066,6 @@ exit
 # AddFunction albedo_color Real 0
 # savetagchanges
 # exit
-
-
-echo ==Add Void Canvas Map==
-RunCommands "workingdir\cmds\scenarios\mp\scenario_void_setup.cmds"
 
 echo ==Fix Screens on Weapons==
 EditTag dw3\r3ach\objects\weapons\rifle\sniper_rifle\shaders\scope_alpha.shader_halogram
