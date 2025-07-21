@@ -3734,7 +3734,7 @@ exit
 echo == Fix Condemned coll issue ==
 
 edittag levels\dlc\condemned\condemned.scenario_structure_bsp
-setfield InstancedGeometryInstances[983].Flags RenderOnly,MiscoloredBsp
+setfield InstancedGeometryInstances[984].Flags RenderOnly,MiscoloredBsp
 savetagchanges
 exit
 
